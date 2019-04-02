@@ -1080,75 +1080,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.8969, 55.3747 ],
-							[ -61.8919, 55.3777 ],
-							[ -61.8912, 55.3781 ],
-							[ -61.1043, 55.8421 ],
-							[ -61.1027, 55.8431 ],
-							[ -61.0952, 55.8474 ],
-							[ -61.0743, 55.8595 ],
-							[ -61.0235, 55.8888 ],
-							[ -60.9562, 55.9276 ],
-							[ -60.8789, 55.972 ],
-							[ -60.5085, 55.9149 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.7945, 56.6786 ],
-							[ -61.1175, 56.5652 ],
-							[ -61.5059, 56.6059 ],
-							[ -61.5063, 56.6059 ],
-							[ -61.5238, 56.6077 ],
-							[ -61.543, 56.6097 ],
-							[ -61.5602, 56.6114 ],
-							[ -61.6438, 56.62 ],
-							[ -61.6739, 56.623 ],
-							[ -61.6778, 56.6234 ],
-							[ -61.9622, 56.6518 ],
-							[ -61.9634, 56.6519 ],
-							[ -62.1214, 56.6674 ],
-							[ -62.1332, 56.6685 ],
-							[ -63.0021, 56.7494 ],
-							[ -63.0046, 56.7496 ],
-							[ -63.0041, 56.0019 ],
-							[ -63.0041, 56.0019 ],
-							[ -63.004, 55.8298 ],
-							[ -63.0037, 55.8297 ],
-							[ -62.9885, 55.8235 ],
-							[ -62.8995, 55.7875 ],
-							[ -61.9, 55.3729 ],
-							[ -61.8969, 55.3747 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 2, 2019 08:14",
-				"Expires_UTC" : "April 2, 2019 19:59",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nSnow and strong northwesterly winds with gusts up to 100 km/h will persist until mid morning.  The strong winds combined with fresh snow will reduce visibilities in blowing snow today, with the worst conditions coinciding with the falling snow and strongest winds.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-04-02T19:59:59-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-02T08:14:59-00:00, urn:oid:2.49.0.1.124.0918427156.2019<br>Area: Nain and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-02:feed.atom/urn:oid:2.49.0.1.124.0918427156.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T08_14_59_00_00Iurn_oid_2.49.0.1.124.0918427156.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190402195959+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.1182, 45.6154 ],
 							[ -66.4491, 45.2167 ],
 							[ -66.4493, 45.2166 ],
@@ -1504,6 +1435,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T18_48_01_00_00Iurn_oid_2.49.0.1.124.3664603496.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190403024701+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.8312, 49.5216 ],
+							[ -66.805, 49.3539 ],
+							[ -67.2832, 49.2432 ],
+							[ -67.508, 49.2382 ],
+							[ -67.7307, 48.7729 ],
+							[ -67.7307, 48.7726 ],
+							[ -67.7056, 48.6956 ],
+							[ -67.669, 48.5826 ],
+							[ -67.0001, 48.7506 ],
+							[ -66.752, 48.8699 ],
+							[ -66.7517, 48.87 ],
+							[ -66.0049, 49.0464 ],
+							[ -65.7494, 49.0653 ],
+							[ -65.7492, 49.0653 ],
+							[ -65.4882, 49.0839 ],
+							[ -64.7535, 48.9305 ],
+							[ -64.7524, 48.9303 ],
+							[ -64.7508, 49.1323 ],
+							[ -64.7508, 49.1325 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 2, 2019 19:55",
+				"Expires_UTC" : "April 3, 2019 11:54",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nA storm will cross the Gulf of St Lawrence over the next 2 days. Behind it, high winds gusting to near 100 kilometres per hour will develop on Wednesday night and persist through Thursday evening.   In addition, these winds will accompany the snow and cause blowing snow reducing visibilities and icy and slippery roads locally.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-03T11:54:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-02T19:55:55-00:00, urn:oid:2.49.0.1.124.4282310571.2019<br>Area: Matane, Grande-Vallée area, Sainte-Anne-des-Monts area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-02:feed.atom/urn:oid:2.49.0.1.124.4282310571.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T19_55_55_00_00Iurn_oid_2.49.0.1.124.4282310571.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190403115455+00:00"
 			}
 		},
 		{
