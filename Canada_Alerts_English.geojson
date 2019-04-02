@@ -98,58 +98,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.0958, 51.355 ],
-							[ -57.0967, 51.4088 ],
-							[ -57.0968, 51.4114 ],
-							[ -57.0969, 51.4198 ],
-							[ -57.0969, 51.42 ],
-							[ -57.1053, 51.9273 ],
-							[ -57.1053, 51.9277 ],
-							[ -57.1091, 51.9266 ],
-							[ -58.0002, 51.6533 ],
-							[ -58.682, 51.4365 ],
-							[ -58.6885, 51.4344 ],
-							[ -58.9991, 51.3333 ],
-							[ -58.9991, 51.3329 ],
-							[ -59.0032, 50.7669 ],
-							[ -59.0029, 50.7666 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 2, 2019 19:42",
-				"Expires_UTC" : "April 3, 2019 11:42",
-				"Summary" : "Description: Heavy snowfall with blowing snow is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-03T11:42:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-02T19:42:54-00:00, urn:oid:2.49.0.1.124.1943109116.2019<br>Area: Blanc-Sablon",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-02:feed.atom/urn:oid:2.49.0.1.124.1943109116.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T19_42_54_00_00Iurn_oid_2.49.0.1.124.1943109116.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190403114254+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -57.4988, 53.3332 ],
 							[ -57.499, 53.3332 ],
 							[ -58.9772, 52.9067 ],
@@ -705,6 +653,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T18_47_33_00_00Iurn_oid_2.49.0.1.124.1422701520.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190403104633+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -124.3441, 53.0897 ],
+							[ -124.8899, 54.2 ],
+							[ -126.2146, 54.5005 ],
+							[ -127.6852, 54.538 ],
+							[ -127.6852, 54.538 ],
+							[ -127.509, 54.1959 ],
+							[ -126.7742, 53.2012 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.7739, 53.2009 ],
+							[ -126.5, 52.83 ],
+							[ -124.3, 53 ],
+							[ -124.3441, 53.0897 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 2, 2019 18:26",
+				"Expires_UTC" : "April 3, 2019 02:25",
+				"Summary" : "Description: ROAD DUST ADVISORY IN EFFECT FOR BURNS LAKE\n\nThe Ministry of Environment and Climate Change Strategy in collaboration with Northern Health has issued a Road Dust Advisory for Burns Lake because of high concentrations of coarse particulate matter that are expected to persist until there is precipitation or dust suppression.  Levels tend to be highest around busy roads and industrial operations. This advisory is in effect until further notice. \n\nPersons with chronic underlying medical conditions should postpone strenuous exercise near busy roads until the advisory is lifted.  Exposure is particularly a concern for infants, the elderly and those who have diabetes, and lung or heart disease.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at:\nhttps://www2.gov.bc.ca/gov/content/environment/air-land-water/air\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-04-03T02:25:33-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-04-02T18:26:33-00:00, urn:oid:2.49.0.1.124.2649880758.2019<br>Area: Bulkley Valley and The Lakes - southeast including Burns Lake",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-02:feed.atom/urn:oid:2.49.0.1.124.2649880758.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T18_26_33_00_00Iurn_oid_2.49.0.1.124.2649880758.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190403022533+00:00"
 			}
 		},
 		{
@@ -1563,6 +1556,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -123.2888, 54.7458 ],
+							[ -124.4199, 55.33 ],
+							[ -126.6699, 56.9999 ],
+							[ -126.7201, 57.0011 ],
+							[ -126.7913, 56.9999 ],
+							[ -128.9706, 57.0302 ],
+							[ -128.9924, 57.0303 ],
+							[ -128.455, 56.0281 ],
+							[ -128.0037, 55.1401 ],
+							[ -127.957, 55.0531 ],
+							[ -127.7258, 54.6157 ],
+							[ -127.6878, 54.538 ],
+							[ -127.6852, 54.538 ],
+							[ -126.2146, 54.5005 ],
+							[ -124.8899, 54.2 ],
+							[ -123.1999, 54.7 ],
+							[ -123.2888, 54.7458 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 2, 2019 18:27",
+				"Expires_UTC" : "April 3, 2019 02:26",
+				"Summary" : "Description: ROAD DUST ADVISORY IN EFFECT FOR SMITHERS\n\nThe Ministry of Environment and Climate Change Strategy in collaboration with Northern Health has continued a Road Dust Advisory for Smithers because of high concentrations of coarse particulate matter that are expected to persist until there is precipitation or dust suppression. Levels tend to be highest around busy roads and industrial operations. This advisory is in effect until further notice.\n\nPersons with chronic underlying medical conditions should postpone strenuous exercise near busy roads until the advisory is lifted. Exposure is particularly a concern for infants, the elderly and those who have diabetes, and lung or heart disease.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nChildren, including teenagers, are at higher risk from outdoor air pollution because they often spend time being active outdoors. Young people are more likely to have asthma and their lungs are still developing.\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-04-03T02:26:34-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-04-02T18:27:34-00:00, urn:oid:2.49.0.1.124.3654988853.2019<br>Area: Bulkley Valley and The Lakes - northwest including Smithers",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-02:feed.atom/urn:oid:2.49.0.1.124.3654988853.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T18_27_34_00_00Iurn_oid_2.49.0.1.124.3654988853.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190403022634+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.8133, 48.8226 ],
 							[ -59.2492, 48.6594 ],
 							[ -59.3848, 48.3577 ],
@@ -1615,56 +1658,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T18_34_47_00_00Iurn_oid_2.49.0.1.124.1986385363.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190403103347+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.2888, 54.7458 ],
-							[ -124.4199, 55.33 ],
-							[ -126.6699, 56.9999 ],
-							[ -126.7201, 57.0011 ],
-							[ -126.7913, 56.9999 ],
-							[ -128.9706, 57.0302 ],
-							[ -128.9924, 57.0303 ],
-							[ -128.455, 56.0281 ],
-							[ -128.0037, 55.1401 ],
-							[ -127.957, 55.0531 ],
-							[ -127.7258, 54.6157 ],
-							[ -127.6878, 54.538 ],
-							[ -127.6852, 54.538 ],
-							[ -126.2146, 54.5005 ],
-							[ -124.8899, 54.2 ],
-							[ -123.1999, 54.7 ],
-							[ -123.2888, 54.7458 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 2, 2019 18:27",
-				"Expires_UTC" : "April 3, 2019 02:26",
-				"Summary" : "Description: ROAD DUST ADVISORY IN EFFECT FOR SMITHERS\n\nThe Ministry of Environment and Climate Change Strategy in collaboration with Northern Health has continued a Road Dust Advisory for Smithers because of high concentrations of coarse particulate matter that are expected to persist until there is precipitation or dust suppression. Levels tend to be highest around busy roads and industrial operations. This advisory is in effect until further notice.\n\nPersons with chronic underlying medical conditions should postpone strenuous exercise near busy roads until the advisory is lifted. Exposure is particularly a concern for infants, the elderly and those who have diabetes, and lung or heart disease.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nChildren, including teenagers, are at higher risk from outdoor air pollution because they often spend time being active outdoors. Young people are more likely to have asthma and their lungs are still developing.\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-04-03T02:26:34-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-04-02T18:27:34-00:00, urn:oid:2.49.0.1.124.3654988853.2019<br>Area: Bulkley Valley and The Lakes - northwest including Smithers",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-02:feed.atom/urn:oid:2.49.0.1.124.3654988853.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T18_27_34_00_00Iurn_oid_2.49.0.1.124.3654988853.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190403022634+00:00"
 			}
 		},
 		{
@@ -1853,6 +1846,58 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T18_33_20_00_00Iurn_oid_2.49.0.1.124.3576746311.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190403103220+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.0958, 51.355 ],
+							[ -57.0967, 51.4088 ],
+							[ -57.0968, 51.4114 ],
+							[ -57.0969, 51.4198 ],
+							[ -57.0969, 51.42 ],
+							[ -57.1053, 51.9273 ],
+							[ -57.1053, 51.9277 ],
+							[ -57.1091, 51.9266 ],
+							[ -58.0002, 51.6533 ],
+							[ -58.682, 51.4365 ],
+							[ -58.6885, 51.4344 ],
+							[ -58.9991, 51.3333 ],
+							[ -58.9991, 51.3329 ],
+							[ -59.0032, 50.7669 ],
+							[ -59.0029, 50.7666 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 2, 2019 19:43",
+				"Expires_UTC" : "April 3, 2019 11:42",
+				"Summary" : "Description: Heavy snowfall with blowing snow is expected.\n\nA storm will cross the Gulf of St Lawrence over the next 2 days.   It will bring snow, high winds and blowing snow over Blanc-Sablon beginning Wednesday evening through Thursday evening.   Total snowfall accumulations will approach 30 centimetres, with winds gusting to near 100 kilometres per hour.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-03T11:42:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-02T19:43:54-00:00, urn:oid:2.49.0.1.124.3123925941.2019<br>Area: Blanc-Sablon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-02:feed.atom/urn:oid:2.49.0.1.124.3123925941.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T19_43_54_00_00Iurn_oid_2.49.0.1.124.3123925941.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190403114254+00:00"
 			}
 		},
 		{
@@ -2236,51 +2281,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T18_43_48_00_00Iurn_oid_2.49.0.1.124.3485720700.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190403104248+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -124.3441, 53.0897 ],
-							[ -124.8899, 54.2 ],
-							[ -126.2146, 54.5005 ],
-							[ -127.6852, 54.538 ],
-							[ -127.6852, 54.538 ],
-							[ -127.509, 54.1959 ],
-							[ -126.7742, 53.2012 ],
-							[ -126.7741, 53.2011 ],
-							[ -126.7739, 53.2009 ],
-							[ -126.5, 52.83 ],
-							[ -124.3, 53 ],
-							[ -124.3441, 53.0897 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 2, 2019 18:26",
-				"Expires_UTC" : "April 3, 2019 02:25",
-				"Summary" : "Description: ROAD DUST ADVISORY IN EFFECT FOR BURNS LAKE\n\nThe Ministry of Environment and Climate Change Strategy in collaboration with Northern Health has issued a Road Dust Advisory for Burns Lake because of high concentrations of coarse particulate matter that are expected to persist until there is precipitation or dust suppression.  Levels tend to be highest around busy roads and industrial operations. This advisory is in effect until further notice. \n\nPersons with chronic underlying medical conditions should postpone strenuous exercise near busy roads until the advisory is lifted.  Exposure is particularly a concern for infants, the elderly and those who have diabetes, and lung or heart disease.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at:\nhttps://www2.gov.bc.ca/gov/content/environment/air-land-water/air\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-04-03T02:25:33-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-04-02T18:26:33-00:00, urn:oid:2.49.0.1.124.2649880758.2019<br>Area: Bulkley Valley and The Lakes - southeast including Burns Lake",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-02:feed.atom/urn:oid:2.49.0.1.124.2649880758.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-02/2019_04_02T18_26_33_00_00Iurn_oid_2.49.0.1.124.2649880758.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190403022533+00:00"
 			}
 		}
 	]
