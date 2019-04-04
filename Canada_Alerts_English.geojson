@@ -424,65 +424,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.2163, 47.9516 ],
-							[ -65.4344, 47.921 ],
-							[ -65.8243, 48.018 ],
-							[ -65.8519, 47.9054 ],
-							[ -65.8523, 47.9038 ],
-							[ -65.8658, 47.8485 ],
-							[ -65.8661, 47.8472 ],
-							[ -66.1081, 47.5643 ],
-							[ -66.1941, 47.5449 ],
-							[ -66.1941, 47.5449 ],
-							[ -66.1939, 47.5446 ],
-							[ -65.8022, 47.216 ],
-							[ -65.7659, 46.7813 ],
-							[ -65.7656, 46.7812 ],
-							[ -65.3922, 46.7332 ],
-							[ -65.368, 46.7462 ],
-							[ -64.8275, 47.0341 ],
-							[ -64.8269, 47.0344 ],
-							[ -64.7432, 47.0784 ],
-							[ -64.7688, 47.3864 ],
-							[ -64.7526, 47.5525 ],
-							[ -64.4105, 47.8072 ],
-							[ -64.4829, 48.0381 ],
-							[ -64.6328, 48.0419 ],
-							[ -64.7544, 48.0994 ],
-							[ -65.2163, 47.9516 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 4, 2019 02:07",
-				"Expires_UTC" : "April 4, 2019 03:07",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-04-04T03:07:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T02:07:38-00:00, urn:oid:2.49.0.1.124.1033926569.2019<br>Area: Bathurst and Chaleur Region, Miramichi and area, Acadian Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.1033926569.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T02_07_38_00_00Iurn_oid_2.49.0.1.124.1033926569.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190404030738+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -74.6264, 45.6405 ],
 							[ -74.6582, 45.6471 ],
 							[ -74.7011, 45.6321 ],
@@ -570,6 +511,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T01_23_44_00_00Iurn_oid_2.49.0.1.124.4186256463.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190404061444+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.2163, 47.9516 ],
+							[ -65.4344, 47.921 ],
+							[ -65.8243, 48.018 ],
+							[ -65.8519, 47.9054 ],
+							[ -65.8523, 47.9038 ],
+							[ -65.8658, 47.8485 ],
+							[ -65.8661, 47.8472 ],
+							[ -66.1081, 47.5643 ],
+							[ -66.1941, 47.5449 ],
+							[ -66.1941, 47.5449 ],
+							[ -66.1939, 47.5446 ],
+							[ -65.8022, 47.216 ],
+							[ -65.7659, 46.7813 ],
+							[ -65.7656, 46.7812 ],
+							[ -65.3922, 46.7332 ],
+							[ -65.368, 46.7462 ],
+							[ -64.8275, 47.0341 ],
+							[ -64.8269, 47.0344 ],
+							[ -64.7432, 47.0784 ],
+							[ -64.7688, 47.3864 ],
+							[ -64.7526, 47.5525 ],
+							[ -64.4105, 47.8072 ],
+							[ -64.4829, 48.0381 ],
+							[ -64.6328, 48.0419 ],
+							[ -64.7544, 48.0994 ],
+							[ -65.2163, 47.9516 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 4, 2019 02:07",
+				"Expires_UTC" : "April 4, 2019 03:07",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-04-04T03:07:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T02:07:38-00:00, urn:oid:2.49.0.1.124.1033926569.2019<br>Area: Bathurst and Chaleur Region, Miramichi and area, Acadian Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.1033926569.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T02_07_38_00_00Iurn_oid_2.49.0.1.124.1033926569.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190404030738+00:00"
 			}
 		},
 		{
@@ -819,6 +819,113 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.0483, 46.1152 ],
+							[ -61.4772, 46.0969 ],
+							[ -61.478, 46.0969 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4217, 45.6434 ],
+							[ -61.4204, 45.642 ],
+							[ -61.4071, 45.6279 ],
+							[ -61.3961, 45.6163 ],
+							[ -61.3832, 45.6026 ],
+							[ -61.3709, 45.5863 ],
+							[ -61.3651, 45.5834 ],
+							[ -61.3401, 45.5709 ],
+							[ -61.3231, 45.5624 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.2091, 45.709 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.5144, 47.1727 ],
+							[ -60.5606, 47.0376 ],
+							[ -60.5611, 47.0363 ],
+							[ -60.7422, 46.4987 ],
+							[ -61.0483, 46.1152 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 4, 2019 02:17",
+				"Expires_UTC" : "April 4, 2019 03:17",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-04-04T03:17:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T02:17:52-00:00, urn:oid:2.49.0.1.124.2126790388.2019<br>Area: Richmond County, Inverness County - south of Mabou, Victoria County, Sydney Metro and Cape Breton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.2126790388.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T02_17_52_00_00Iurn_oid_2.49.0.1.124.2126790388.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190404031752+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -125.9169, 59.4669 ],
+							[ -126.7752, 59.1961 ],
+							[ -126.776, 59.1961 ],
+							[ -126.817, 59.1829 ],
+							[ -125.6669, 58.4669 ],
+							[ -123.8173, 58.4844 ],
+							[ -123.818, 59.4674 ],
+							[ -123.818, 59.4674 ],
+							[ -123.818, 59.4844 ],
+							[ -125.9169, 59.4669 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 3, 2019 22:46",
+				"Expires_UTC" : "April 4, 2019 14:45",
+				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\nAn Arctic cold front will interact with a Pacific front to generate a band of heavy snow over the Muncho Lake - Stone Mountain Park region tonight. Local snowfall totals of 10 cm will fall by Thursday morning. The snow will ease on Thursday as the fronts weaken.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-04-04T14:45:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-03T22:46:37-00:00, urn:oid:2.49.0.1.124.3240112269.2019<br>Area: Muncho Lake Park - Stone Mountain Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-03:feed.atom/urn:oid:2.49.0.1.124.3240112269.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-03/2019_04_03T22_46_37_00_00Iurn_oid_2.49.0.1.124.3240112269.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190404144537+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.0764, 48.6423 ],
 							[ -58.3071, 48.2846 ],
 							[ -58.5659, 48.1013 ],
@@ -930,269 +1037,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-03/2019_04_03T23_09_01_00_00Iurn_oid_2.49.0.1.124.1011835755.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190404070801+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.3551, 46.9996 ],
-							[ -79.3433, 46.9837 ],
-							[ -79.3428, 46.9832 ],
-							[ -79.1838, 46.8307 ],
-							[ -79.1723, 46.8196 ],
-							[ -79.1023, 46.7144 ],
-							[ -79.1119, 46.7146 ],
-							[ -79.1231, 46.7148 ],
-							[ -79.1228, 46.7145 ],
-							[ -79.1226, 46.7143 ],
-							[ -79.1226, 46.7142 ],
-							[ -78.9942, 46.5558 ],
-							[ -78.9936, 46.5554 ],
-							[ -78.9465, 46.5231 ],
-							[ -78.7731, 46.4037 ],
-							[ -78.737, 46.3788 ],
-							[ -78.737, 46.3784 ],
-							[ -78.7389, 46.3248 ],
-							[ -78.7389, 46.3245 ],
-							[ -78.7386, 46.3244 ],
-							[ -78.671, 46.3116 ],
-							[ -78.5641, 46.2911 ],
-							[ -78.502, 46.2792 ],
-							[ -78.3775, 46.2551 ],
-							[ -78.3511, 46.25 ],
-							[ -78.3162, 46.2432 ],
-							[ -78.2896, 46.2462 ],
-							[ -78.2393, 46.252 ],
-							[ -78.2199, 46.2542 ],
-							[ -78.1877, 46.2579 ],
-							[ -78.1535, 46.2618 ],
-							[ -78.1111, 46.2509 ],
-							[ -78.0558, 46.2366 ],
-							[ -78.0195, 46.2273 ],
-							[ -77.975, 46.2158 ],
-							[ -77.8693, 46.1884 ],
-							[ -77.8354, 46.1796 ],
-							[ -77.8241, 46.1766 ],
-							[ -77.7486, 46.1873 ],
-							[ -77.7482, 46.1872 ],
-							[ -77.6975, 46.1739 ],
-							[ -77.6693, 46.1665 ],
-							[ -77.6514, 46.1618 ],
-							[ -77.5468, 46.1341 ],
-							[ -77.2802, 46.0104 ],
-							[ -77.2829, 45.9908 ],
-							[ -77.2876, 45.9565 ],
-							[ -77.2908, 45.933 ],
-							[ -77.194, 45.8647 ],
-							[ -77.1051, 45.8281 ],
-							[ -77.0902, 45.822 ],
-							[ -76.9909, 45.7809 ],
-							[ -76.9682, 45.7903 ],
-							[ -76.9651, 45.7916 ],
-							[ -76.9442, 45.8002 ],
-							[ -76.9254, 45.8079 ],
-							[ -76.9125, 45.8133 ],
-							[ -76.9109, 45.8357 ],
-							[ -76.9102, 45.8457 ],
-							[ -76.9094, 45.8563 ],
-							[ -76.9066, 45.8957 ],
-							[ -76.9064, 45.8979 ],
-							[ -76.8566, 45.8828 ],
-							[ -76.8531, 45.8817 ],
-							[ -76.7697, 45.8563 ],
-							[ -76.7816, 45.7625 ],
-							[ -76.7222, 45.7305 ],
-							[ -76.7134, 45.7257 ],
-							[ -76.6982, 45.7175 ],
-							[ -76.6943, 45.6782 ],
-							[ -76.6924, 45.6586 ],
-							[ -76.6905, 45.6398 ],
-							[ -76.6857, 45.6265 ],
-							[ -76.6829, 45.6188 ],
-							[ -76.6631, 45.5648 ],
-							[ -76.6394, 45.5559 ],
-							[ -76.632, 45.5531 ],
-							[ -76.586, 45.5357 ],
-							[ -76.5546, 45.5239 ],
-							[ -76.5287, 45.5141 ],
-							[ -76.4147, 45.4709 ],
-							[ -76.4017, 45.4659 ],
-							[ -76.3899, 45.4614 ],
-							[ -76.3618, 45.4507 ],
-							[ -76.3048, 45.451 ],
-							[ -76.3041, 45.451 ],
-							[ -76.2856, 45.4579 ],
-							[ -76.2709, 45.4635 ],
-							[ -76.2679, 45.4646 ],
-							[ -76.2635, 45.4662 ],
-							[ -76.2382, 45.4757 ],
-							[ -76.235, 45.4914 ],
-							[ -76.2317, 45.5075 ],
-							[ -76.2309, 45.5115 ],
-							[ -76.2273, 45.5118 ],
-							[ -76.1535, 45.5182 ],
-							[ -76.1331, 45.5199 ],
-							[ -76.052, 45.5006 ],
-							[ -75.9967, 45.4792 ],
-							[ -75.9799, 45.4727 ],
-							[ -75.9699, 45.4688 ],
-							[ -75.9238, 45.4275 ],
-							[ -75.9162, 45.4232 ],
-							[ -75.8972, 45.4123 ],
-							[ -75.8984, 45.4193 ],
-							[ -75.9074, 45.4726 ],
-							[ -75.9087, 45.4803 ],
-							[ -75.7945, 45.4622 ],
-							[ -75.7804, 45.46 ],
-							[ -75.7804, 45.46 ],
-							[ -75.7672, 45.4801 ],
-							[ -75.7658, 45.4822 ],
-							[ -75.7589, 45.4926 ],
-							[ -75.7565, 45.4963 ],
-							[ -75.7499, 45.5063 ],
-							[ -75.654, 45.5527 ],
-							[ -75.5439, 45.5756 ],
-							[ -75.5372, 45.577 ],
-							[ -75.5372, 45.5771 ],
-							[ -75.5352, 45.5636 ],
-							[ -75.5317, 45.5397 ],
-							[ -75.5317, 45.5397 ],
-							[ -75.4388, 45.5457 ],
-							[ -75.4388, 45.5457 ],
-							[ -75.4463, 45.5911 ],
-							[ -75.4463, 45.5911 ],
-							[ -75.4256, 45.5925 ],
-							[ -75.4072, 45.5938 ],
-							[ -75.3543, 45.5974 ],
-							[ -75.3457, 45.5407 ],
-							[ -75.3457, 45.5404 ],
-							[ -75.3457, 45.5404 ],
-							[ -75.3376, 45.5423 ],
-							[ -75.3362, 45.5429 ],
-							[ -75.3266, 45.5475 ],
-							[ -75.3143, 45.5533 ],
-							[ -75.3128, 45.5541 ],
-							[ -75.3023, 45.5591 ],
-							[ -75.2999, 45.5602 ],
-							[ -75.2932, 45.5633 ],
-							[ -75.2578, 45.5802 ],
-							[ -75.2497, 45.584 ],
-							[ -75.1914, 45.5919 ],
-							[ -75.1728, 45.5887 ],
-							[ -75.1677, 45.5879 ],
-							[ -75.1271, 45.5809 ],
-							[ -75.1163, 45.579 ],
-							[ -75.0096, 45.6062 ],
-							[ -74.9549, 45.6382 ],
-							[ -74.9433, 45.645 ],
-							[ -74.9369, 45.6488 ],
-							[ -74.9252, 45.648 ],
-							[ -74.7763, 45.6375 ],
-							[ -74.7011, 45.6321 ],
-							[ -74.7011, 45.6362 ],
-							[ -74.6998, 45.8001 ],
-							[ -74.6995, 45.8002 ],
-							[ -74.3488, 45.8012 ],
-							[ -74.3484, 45.8012 ],
-							[ -74.3484, 45.8012 ],
-							[ -74.2102, 45.8012 ],
-							[ -74.1666, 45.8011 ],
-							[ -74.1666, 45.8011 ],
-							[ -74.1666, 45.8499 ],
-							[ -73.8166, 45.8499 ],
-							[ -73.8166, 45.8499 ],
-							[ -73.9498, 46.1997 ],
-							[ -73.9497, 46.1998 ],
-							[ -73.9497, 46.1998 ],
-							[ -73.6497, 46.3498 ],
-							[ -73.1857, 46.5138 ],
-							[ -73.1855, 46.5138 ],
-							[ -73.1855, 46.514 ],
-							[ -73.1856, 46.514 ],
-							[ -73.1901, 46.5475 ],
-							[ -73.2174, 46.7498 ],
-							[ -73.4171, 46.9988 ],
-							[ -73.4172, 46.999 ],
-							[ -73.4174, 46.9994 ],
-							[ -73.4403, 47.0439 ],
-							[ -73.469, 47.0995 ],
-							[ -73.4168, 47.1999 ],
-							[ -73.0013, 47.2022 ],
-							[ -73.0013, 47.2022 ],
-							[ -73.001, 47.7998 ],
-							[ -73.0009, 47.9417 ],
-							[ -73.0007, 48.3331 ],
-							[ -73.0005, 48.667 ],
-							[ -73.0005, 48.667 ],
-							[ -73.667, 48.9996 ],
-							[ -73.6672, 48.9997 ],
-							[ -73.6025, 49.2849 ],
-							[ -73.6025, 49.2851 ],
-							[ -75.9993, 49.2833 ],
-							[ -75.9996, 49.2833 ],
-							[ -76.4997, 49.2833 ],
-							[ -77.323, 49.2925 ],
-							[ -77.3235, 49.2925 ],
-							[ -77.3349, 49.2926 ],
-							[ -78.4996, 49.2936 ],
-							[ -78.5007, 49.2936 ],
-							[ -79.5139, 49.2831 ],
-							[ -79.5142, 49.283 ],
-							[ -79.5142, 49.1422 ],
-							[ -79.5144, 48.45 ],
-							[ -79.5144, 48.4498 ],
-							[ -79.5144, 48.441 ],
-							[ -79.5145, 48.2766 ],
-							[ -79.5145, 48.2511 ],
-							[ -79.5145, 48.251 ],
-							[ -79.5147, 47.8332 ],
-							[ -79.5143, 47.8332 ],
-							[ -79.5127, 47.8332 ],
-							[ -79.5127, 47.8331 ],
-							[ -79.5115, 47.5701 ],
-							[ -79.5115, 47.5632 ],
-							[ -79.5114, 47.5628 ],
-							[ -79.6044, 47.4392 ],
-							[ -79.5407, 47.3671 ],
-							[ -79.5383, 47.3644 ],
-							[ -79.4552, 47.2699 ],
-							[ -79.4545, 47.2155 ],
-							[ -79.4539, 47.1738 ],
-							[ -79.4533, 47.1319 ],
-							[ -79.4426, 47.1175 ],
-							[ -79.4293, 47.0995 ],
-							[ -79.4292, 47.099 ],
-							[ -79.3733, 47.0226 ],
-							[ -79.3565, 46.9996 ],
-							[ -79.3551, 46.9996 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Snow Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "April 3, 2019 22:44",
-				"Expires_UTC" : "April 4, 2019 08:59",
-				"Summary" : "Description: A cold front will move across Southern Quebec tonight.   As the front passes, visibilities could be significantly reduced in heavy flurries accompanied by strong winds.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-04T08:59:49-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-03T22:44:49-00:00, urn:oid:2.49.0.1.124.1938611914.2019<br>Area: Dorval Lodge area, Le Domaine area, Rapides-des-Joachims area, Fort William - Shawville area, Mont-Laurier area, La Minerve - Rouge River area, Low - Wakefield area, Maniwaki - Gracefield area, Papineauville - Chénéville area, Papineau-Labelle Reserve area, Lièvre River area, Saint-Michel-des-Saints area, Saint-Donat - Mont-Tremblant Park area, Mont-Tremblant - Sainte-Agathe area, Sainte-Adèle - Saint-Sauveur area, Gouin Reservoir area, Parent area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-03:feed.atom/urn:oid:2.49.0.1.124.1938611914.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-03/2019_04_03T22_44_49_00_00Iurn_oid_2.49.0.1.124.1938611914.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190404085949+00:00"
 			}
 		},
 		{
@@ -1363,6 +1207,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T00_50_43_00_00Iurn_oid_2.49.0.1.124.1043931793.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190404034943+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -129.213, 58.6539 ],
+							[ -128.4847, 59.1828 ],
+							[ -129.4378, 60.0008 ],
+							[ -129.8613, 60.3494 ],
+							[ -129.8615, 60.3495 ],
+							[ -129.8618, 60.3498 ],
+							[ -131.7473, 60.5292 ],
+							[ -131.7473, 60.5292 ],
+							[ -131.6485, 60.1991 ],
+							[ -131.6045, 60.0502 ],
+							[ -131.5895, 60 ],
+							[ -131.4899, 59.6669 ],
+							[ -131.4847, 59.6497 ],
+							[ -130.5959, 59.1473 ],
+							[ -130.3347, 58.9997 ],
+							[ -129.2187, 58.6497 ],
+							[ -129.213, 58.6539 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 3, 2019 22:46",
+				"Expires_UTC" : "April 4, 2019 14:45",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA clash of Pacific moisture and an Arctic cold front over the Cassiar Mountains will produce locally heavy accumulation of snow beginning tonight. General accumulations of 5 to 10 cm will fall by midday on Thursday. Along Highway 37 between Jade City and the north end of Dease Lake, travellers can expect up to 15 cm of snow by midday on Thursday.\n\nThe snow will ease Thursday afternoon.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-04-04T14:45:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-03T22:46:52-00:00, urn:oid:2.49.0.1.124.2893753030.2019<br>Area: Cassiar Mountains",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-03:feed.atom/urn:oid:2.49.0.1.124.2893753030.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-03/2019_04_03T22_46_52_00_00Iurn_oid_2.49.0.1.124.2893753030.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190404144552+00:00"
 			}
 		},
 		{
@@ -2192,72 +2086,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -120.0015, 57.0999 ],
-							[ -120.0015, 57.3699 ],
-							[ -120.0015, 57.3751 ],
-							[ -120.0015, 57.3805 ],
-							[ -120.0015, 57.4078 ],
-							[ -120.0015, 58.0792 ],
-							[ -120.0015, 58.9507 ],
-							[ -120.0014, 59.4749 ],
-							[ -120.0014, 59.9985 ],
-							[ -120.0014, 60.0001 ],
-							[ -120.0226, 60.0004 ],
-							[ -120.4963, 60.0066 ],
-							[ -120.8537, 60.0017 ],
-							[ -120.8542, 60.0017 ],
-							[ -120.8576, 60.0017 ],
-							[ -120.8827, 60.0016 ],
-							[ -120.8827, 60.0016 ],
-							[ -121.1623, 60.0002 ],
-							[ -123.5632, 60.0042 ],
-							[ -123.8184, 60.0007 ],
-							[ -123.8184, 60.0005 ],
-							[ -123.818, 59.4844 ],
-							[ -123.818, 59.4674 ],
-							[ -123.818, 59.4674 ],
-							[ -123.8173, 58.4844 ],
-							[ -123.8173, 58.4841 ],
-							[ -123.8172, 58.3858 ],
-							[ -123.817, 58 ],
-							[ -122.9999, 57.0999 ],
-							[ -120.002, 57.0999 ],
-							[ -120.002, 57.0999 ],
-							[ -120.0015, 57.0999 ],
-							[ -120.0015, 57.0999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 3, 2019 22:35",
-				"Expires_UTC" : "April 4, 2019 14:34",
-				"Summary" : "Description: Snow will continue tonight and ease Thursday morning.  Approximately 10 to 15 cm of snow has already fallen around Fort Nelson today. The band of snow will shift to the southwest towards Sikanni Chief tonight, where 10 to 15 cm is forecast.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-04-04T14:34:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-03T22:35:08-00:00, urn:oid:2.49.0.1.124.2490462494.2019<br>Area: Fort Nelson",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-03:feed.atom/urn:oid:2.49.0.1.124.2490462494.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-03/2019_04_03T22_35_08_00_00Iurn_oid_2.49.0.1.124.2490462494.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190404143408+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -73.9502, 46.1997 ],
 							[ -74.3173, 46.1852 ],
 							[ -74.7194, 46.1676 ],
@@ -2673,96 +2501,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T01_54_24_00_00Iurn_oid_2.49.0.1.124.2590406946.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190404045924+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -122.9733, 52.2212 ],
-							[ -120.7033, 53.0044 ],
-							[ -120.3818, 53.1151 ],
-							[ -121.4, 53.5999 ],
-							[ -124.3, 53 ],
-							[ -122.9899, 52.2151 ],
-							[ -122.9733, 52.2212 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement Ended",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 4, 2019 02:00",
-				"Expires_UTC" : "April 4, 2019 03:00",
-				"Summary" : "Description: Elevated pollution levels are no longer expected or have moved out of the area.\n\n\n###<br>Expires: 2019-04-04T03:00:14-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-04-04T02:00:14-00:00, urn:oid:2.49.0.1.124.1351725360.2019<br>Area: Cariboo - north including Quesnel",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.1351725360.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T02_00_14_00_00Iurn_oid_2.49.0.1.124.1351725360.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190404030014+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -129.213, 58.6539 ],
-							[ -128.4847, 59.1828 ],
-							[ -129.4378, 60.0008 ],
-							[ -129.8613, 60.3494 ],
-							[ -129.8615, 60.3495 ],
-							[ -129.8618, 60.3498 ],
-							[ -131.7473, 60.5292 ],
-							[ -131.7473, 60.5292 ],
-							[ -131.6485, 60.1991 ],
-							[ -131.6045, 60.0502 ],
-							[ -131.5895, 60 ],
-							[ -131.4899, 59.6669 ],
-							[ -131.4847, 59.6497 ],
-							[ -130.5959, 59.1473 ],
-							[ -130.3347, 58.9997 ],
-							[ -129.2187, 58.6497 ],
-							[ -129.213, 58.6539 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 3, 2019 22:46",
-				"Expires_UTC" : "April 4, 2019 14:45",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA clash of Pacific moisture and an Arctic cold front over the Cassiar Mountains will produce locally heavy accumulation of snow beginning tonight. General accumulations of 5 to 10 cm will fall by midday on Thursday. Along Highway 37 between Jade City and the north end of Dease Lake, travellers can expect up to 15 cm of snow by midday on Thursday.\n\nThe snow will ease Thursday afternoon.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-04-04T14:45:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-03T22:46:52-00:00, urn:oid:2.49.0.1.124.2893753030.2019<br>Area: Cassiar Mountains",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-03:feed.atom/urn:oid:2.49.0.1.124.2893753030.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-03/2019_04_03T22_46_52_00_00Iurn_oid_2.49.0.1.124.2893753030.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190404144552+00:00"
 			}
 		},
 		{
@@ -3461,67 +3199,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.4206, 48.4971 ],
-							[ -71.5527, 48.3339 ],
-							[ -71.5523, 48.3338 ],
-							[ -71.0125, 48.1918 ],
-							[ -71.0124, 48.1918 ],
-							[ -71.0008, 48.1886 ],
-							[ -70.1371, 47.9476 ],
-							[ -70.136, 47.9473 ],
-							[ -70.136, 47.9473 ],
-							[ -70.1357, 47.9472 ],
-							[ -70.135, 47.947 ],
-							[ -70.1342, 47.9467 ],
-							[ -69.8669, 47.8503 ],
-							[ -69.8655, 47.8498 ],
-							[ -69.7836, 47.82 ],
-							[ -69.7113, 47.9448 ],
-							[ -69.4699, 48.2224 ],
-							[ -69.5251, 48.2543 ],
-							[ -69.5255, 48.2545 ],
-							[ -69.8098, 48.4178 ],
-							[ -70.2497, 48.6665 ],
-							[ -70.25, 48.6666 ],
-							[ -71.3492, 48.9995 ],
-							[ -71.3494, 48.9996 ],
-							[ -71.3496, 48.9996 ],
-							[ -71.3496, 48.9993 ],
-							[ -71.3508, 48.5828 ],
-							[ -71.4206, 48.4971 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 4, 2019 01:53",
-				"Expires_UTC" : "April 4, 2019 04:34",
-				"Summary" : "Description: Brief, intense snowfall is expected. Visibilities will be rapidly reduced due to the heavy snow combined with blowing snow.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-04T04:34:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T01:53:22-00:00, urn:oid:2.49.0.1.124.0718295924.2019<br>Area: Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.0718295924.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T01_53_22_00_00Iurn_oid_2.49.0.1.124.0718295924.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190404043422+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -56.8199, 50.58 ],
 							[ -56.99, 50.25 ],
 							[ -56.5678, 50.2499 ],
@@ -3682,6 +3359,67 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T01_24_37_00_00Iurn_oid_2.49.0.1.124.2845046926.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190404172337+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.4206, 48.4971 ],
+							[ -71.5527, 48.3339 ],
+							[ -71.5523, 48.3338 ],
+							[ -71.0125, 48.1918 ],
+							[ -71.0124, 48.1918 ],
+							[ -71.0008, 48.1886 ],
+							[ -70.1371, 47.9476 ],
+							[ -70.136, 47.9473 ],
+							[ -70.136, 47.9473 ],
+							[ -70.1357, 47.9472 ],
+							[ -70.135, 47.947 ],
+							[ -70.1342, 47.9467 ],
+							[ -69.8669, 47.8503 ],
+							[ -69.8655, 47.8498 ],
+							[ -69.7836, 47.82 ],
+							[ -69.7113, 47.9448 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.5251, 48.2543 ],
+							[ -69.5255, 48.2545 ],
+							[ -69.8098, 48.4178 ],
+							[ -70.2497, 48.6665 ],
+							[ -70.25, 48.6666 ],
+							[ -71.3492, 48.9995 ],
+							[ -71.3494, 48.9996 ],
+							[ -71.3496, 48.9996 ],
+							[ -71.3496, 48.9993 ],
+							[ -71.3508, 48.5828 ],
+							[ -71.4206, 48.4971 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snow Squall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 4, 2019 02:20",
+				"Expires_UTC" : "April 4, 2019 03:20",
+				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n###<br>Expires: 2019-04-04T03:20:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T02:20:41-00:00, urn:oid:2.49.0.1.124.3249677870.2019<br>Area: Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.3249677870.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T02_20_41_00_00Iurn_oid_2.49.0.1.124.3249677870.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190404032041+00:00"
 			}
 		},
 		{
@@ -4043,49 +3781,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -125.9169, 59.4669 ],
-							[ -126.7752, 59.1961 ],
-							[ -126.776, 59.1961 ],
-							[ -126.817, 59.1829 ],
-							[ -125.6669, 58.4669 ],
-							[ -123.8173, 58.4844 ],
-							[ -123.818, 59.4674 ],
-							[ -123.818, 59.4674 ],
-							[ -123.818, 59.4844 ],
-							[ -125.9169, 59.4669 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 3, 2019 22:46",
-				"Expires_UTC" : "April 4, 2019 14:45",
-				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\nAn Arctic cold front will interact with a Pacific front to generate a band of heavy snow over the Muncho Lake - Stone Mountain Park region tonight. Local snowfall totals of 10 cm will fall by Thursday morning. The snow will ease on Thursday as the fronts weaken.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-04-04T14:45:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-03T22:46:37-00:00, urn:oid:2.49.0.1.124.3240112269.2019<br>Area: Muncho Lake Park - Stone Mountain Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-03:feed.atom/urn:oid:2.49.0.1.124.3240112269.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-03/2019_04_03T22_46_37_00_00Iurn_oid_2.49.0.1.124.3240112269.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190404144537+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -57.808, 50.0127 ],
 							[ -58.3109, 49.4067 ],
 							[ -58.8133, 48.8226 ],
@@ -4237,6 +3932,46 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T00_22_33_00_00Iurn_oid_2.49.0.1.124.2463521504.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190404024952+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -122.9733, 52.2212 ],
+							[ -120.7033, 53.0044 ],
+							[ -120.3818, 53.1151 ],
+							[ -121.4, 53.5999 ],
+							[ -124.3, 53 ],
+							[ -122.9899, 52.2151 ],
+							[ -122.9733, 52.2212 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement Ended",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 4, 2019 02:00",
+				"Expires_UTC" : "April 4, 2019 03:00",
+				"Summary" : "Description: Elevated pollution levels are no longer expected or have moved out of the area.\n\n\n###<br>Expires: 2019-04-04T03:00:14-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-04-04T02:00:14-00:00, urn:oid:2.49.0.1.124.1351725360.2019<br>Area: Cariboo - north including Quesnel",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.1351725360.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T02_00_14_00_00Iurn_oid_2.49.0.1.124.1351725360.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190404030014+00:00"
 			}
 		}
 	]
