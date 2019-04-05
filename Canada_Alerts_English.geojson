@@ -167,6 +167,98 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.8312, 49.5216 ],
+							[ -66.805, 49.3539 ],
+							[ -67.2832, 49.2432 ],
+							[ -67.508, 49.2382 ],
+							[ -67.7307, 48.7729 ],
+							[ -67.7307, 48.7726 ],
+							[ -67.7056, 48.6956 ],
+							[ -67.669, 48.5826 ],
+							[ -67.0001, 48.7506 ],
+							[ -66.752, 48.8699 ],
+							[ -66.7517, 48.87 ],
+							[ -66.0049, 49.0464 ],
+							[ -65.7494, 49.0653 ],
+							[ -65.7492, 49.0653 ],
+							[ -65.4882, 49.0839 ],
+							[ -64.7535, 48.9305 ],
+							[ -64.7524, 48.9303 ],
+							[ -64.7508, 49.1323 ],
+							[ -64.7508, 49.1325 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					],
+					[
+						[
+							[ -60.9994, 50.7499 ],
+							[ -62.9993, 50.75 ],
+							[ -64.9993, 50.75 ],
+							[ -64.9993, 50.7498 ],
+							[ -64.999, 50.6523 ],
+							[ -64.9977, 50.2687 ],
+							[ -64.9977, 50.2683 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.6884, 50.1063 ],
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.4551, 50.0679 ],
+							[ -59.7883, 50.1231 ],
+							[ -59.0574, 50.5037 ],
+							[ -58.9502, 50.7022 ],
+							[ -59.0029, 50.7666 ],
+							[ -59.0032, 50.7669 ],
+							[ -58.9991, 51.3329 ],
+							[ -58.9991, 51.3333 ],
+							[ -60.9994, 50.7499 ]
+						]
+					],
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 4, 2019 19:55",
+				"Expires_UTC" : "April 5, 2019 08:59",
+				"Summary" : "Description: A storm over the Labrador coast is giving strong to high winds causing blowing snow and significantly reducing visibilities.\nConditions will improve this evening or overnight as the\nstorm moves away over the Labrador Sea.\n\n###\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-05T08:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T19:55:34-00:00, urn:oid:2.49.0.1.124.3034812503.2019<br>Area: Matane, Grande-Vallée area, Sainte-Anne-des-Monts area, Minganie, Natashquan, Chevery, Anticosti",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.3034812503.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T19_55_34_00_00Iurn_oid_2.49.0.1.124.3034812503.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190405085934+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -122.8223, 53.9974 ],
 							[ -122.8692, 53.9749 ],
 							[ -122.8979, 53.9434 ],
@@ -1274,46 +1366,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 4, 2019 18:49",
-				"Expires_UTC" : "April 5, 2019 08:29",
-				"Summary" : "Description: West to southwesterly winds gusting to 90 km/h will persist tonight, then slowly diminish Friday morning as a low pressure system over southeastern Labrador moves away.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-04-05T08:29:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T18:49:00-00:00, urn:oid:2.49.0.1.124.1686807440.2019<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.1686807440.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T18_49_00_00_00Iurn_oid_2.49.0.1.124.1686807440.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190405082900+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -63.6867, 53.3003 ],
 							[ -63.6866, 53.3003 ],
 							[ -63.6863, 53.3002 ],
@@ -1433,148 +1485,36 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.8312, 49.5216 ],
-							[ -66.805, 49.3539 ],
-							[ -67.2832, 49.2432 ],
-							[ -67.508, 49.2382 ],
-							[ -67.7307, 48.7729 ],
-							[ -67.7307, 48.7726 ],
-							[ -67.7056, 48.6956 ],
-							[ -67.669, 48.5826 ],
-							[ -67.0001, 48.7506 ],
-							[ -66.752, 48.8699 ],
-							[ -66.7517, 48.87 ],
-							[ -66.0049, 49.0464 ],
-							[ -65.7494, 49.0653 ],
-							[ -65.7492, 49.0653 ],
-							[ -65.4882, 49.0839 ],
-							[ -64.7535, 48.9305 ],
-							[ -64.7524, 48.9303 ],
-							[ -64.7508, 49.1323 ],
-							[ -64.7508, 49.1325 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ]
-						]
-					],
-					[
-						[
-							[ -60.9994, 50.7499 ],
-							[ -62.9993, 50.75 ],
-							[ -64.9993, 50.75 ],
-							[ -64.9993, 50.7498 ],
-							[ -64.999, 50.6523 ],
-							[ -64.9977, 50.2687 ],
-							[ -64.9977, 50.2683 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.6884, 50.1063 ],
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.4551, 50.0679 ],
-							[ -59.7883, 50.1231 ],
-							[ -59.0574, 50.5037 ],
-							[ -58.9502, 50.7022 ],
-							[ -59.0029, 50.7666 ],
-							[ -59.0032, 50.7669 ],
-							[ -58.9991, 51.3329 ],
-							[ -58.9991, 51.3333 ],
-							[ -60.9994, 50.7499 ]
-						]
-					],
-					[
-						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
+							[ -117.0162, 51.6262 ],
+							[ -117.6999, 51.63 ],
+							[ -116.9003, 50.8211 ],
+							[ -116.83, 50.7499 ],
+							[ -116.006, 50.7499 ],
+							[ -117.0162, 51.6262 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Blowing Snow",
+				"event" : "Air Quality",
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 4, 2019 19:55",
-				"Expires_UTC" : "April 5, 2019 08:59",
-				"Summary" : "Description: A storm over the Labrador coast is giving strong to high winds causing blowing snow and significantly reducing visibilities.\nConditions will improve this evening or overnight as the\nstorm moves away over the Labrador Sea.\n\n###\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-05T08:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T19:55:34-00:00, urn:oid:2.49.0.1.124.3034812503.2019<br>Area: Matane, Grande-Vallée area, Sainte-Anne-des-Monts area, Minganie, Natashquan, Chevery, Anticosti",
-				"Author" : "Environment Canada",
+				"LastUpdate_UTC" : "April 4, 2019 23:07",
+				"Expires_UTC" : "April 5, 2019 07:06",
+				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nDUST ADVISORY ISSUED FOR GOLDEN\n\nApril 4, 2019-Vernon.  The Ministry of Environment and Climate Change Strategy, in collaboration with the Interior Health Authority, has issued a Dust Advisory for Golden due to high concentrations of coarse particulates, which are expected to persist until there is a change in current weather conditions. Persons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted.  Staying indoors and in air-conditioned spaces helps to reduce particulate exposure.  Exposure is particularly a concern for infants, the elderly and those who have diabetes, and lung or heart disease.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-04-05T07:06:25-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-04-04T23:07:25-00:00, urn:oid:2.49.0.1.124.1915877467.2019<br>Area: East Columbia",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.3034812503.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T19_55_34_00_00Iurn_oid_2.49.0.1.124.3034812503.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.1915877467.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T23_07_25_00_00Iurn_oid_2.49.0.1.124.1915877467.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190405085934+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -136.1454, 67.0066 ],
-							[ -136.1473, 67.0066 ],
-							[ -136.165, 67.0458 ],
-							[ -136.2002, 67.1234 ],
-							[ -136.2019, 67.1272 ],
-							[ -136.2235, 67.1744 ],
-							[ -136.1145, 67.2767 ],
-							[ -136.1142, 67.277 ],
-							[ -136.0986, 67.2915 ],
-							[ -136.0829, 67.3062 ],
-							[ -136.0829, 67.3062 ],
-							[ -136.175, 67.2548 ],
-							[ -137.1315, 66.6721 ],
-							[ -137.1566, 66.6852 ],
-							[ -137.1605, 66.6872 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9893, 64.5286 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.6742, 64.4725 ],
-							[ -137.8338, 64.3421 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8311, 64.342 ],
-							[ -137.8443, 65.4581 ],
-							[ -134.985, 67.0081 ],
-							[ -135.0367, 67.0082 ],
-							[ -136.1454, 67.0066 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 4, 2019 22:45",
-				"Expires_UTC" : "April 5, 2019 14:44",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nStrong winds gusting to 80 km/h are expected to develop Friday afternoon and will give poor visibility in blowing snow at times. Conditions are forecast to improve slightly Friday night or early Saturday morning as winds begin to ease.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-04-05T14:44:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T22:45:30-00:00, urn:oid:2.49.0.1.124.1702198936.2019<br>Area: Dempster",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.1702198936.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T22_45_30_00_00Iurn_oid_2.49.0.1.124.1702198936.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190405144430+00:00"
+				"Expires_FMEFormat" : "20190405070625+00:00"
 			}
 		},
 		{
@@ -2161,36 +2101,37 @@
 				"coordinates" : [
 					[
 						[
-							[ -117.0162, 51.6262 ],
-							[ -117.6999, 51.63 ],
-							[ -116.9003, 50.8211 ],
-							[ -116.83, 50.7499 ],
-							[ -116.006, 50.7499 ],
-							[ -117.0162, 51.6262 ]
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Air Quality",
+				"event" : "Wind",
 				"urgency" : "Future",
-				"certainty" : "Possible",
+				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 4, 2019 23:07",
-				"Expires_UTC" : "April 5, 2019 07:06",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nDUST ADVISORY ISSUED FOR GOLDEN\n\nApril 4, 2019-Vernon.  The Ministry of Environment and Climate Change Strategy, in collaboration with the Interior Health Authority, has issued a Dust Advisory for Golden due to high concentrations of coarse particulates, which are expected to persist until there is a change in current weather conditions. Persons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted.  Staying indoors and in air-conditioned spaces helps to reduce particulate exposure.  Exposure is particularly a concern for infants, the elderly and those who have diabetes, and lung or heart disease.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-04-05T07:06:25-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-04-04T23:07:25-00:00, urn:oid:2.49.0.1.124.1915877467.2019<br>Area: East Columbia",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"LastUpdate_UTC" : "April 5, 2019 00:52",
+				"Expires_UTC" : "April 5, 2019 10:34",
+				"Summary" : "Description: West to southwesterly winds gusting to 90 km/h will persist tonight, then slowly diminish Friday morning as a low pressure system over southeastern Labrador moves away.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-04-05T10:34:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-05T00:52:05-00:00, urn:oid:2.49.0.1.124.2859481896.2019<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.1915877467.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T23_07_25_00_00Iurn_oid_2.49.0.1.124.1915877467.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-05:feed.atom/urn:oid:2.49.0.1.124.2859481896.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-05/2019_04_05T00_52_05_00_00Iurn_oid_2.49.0.1.124.2859481896.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190405070625+00:00"
+				"Expires_FMEFormat" : "20190405103405+00:00"
 			}
 		},
 		{
@@ -2778,6 +2719,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T20_57_58_00_00Iurn_oid_2.49.0.1.124.2232078885.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190405040158+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -136.1454, 67.0066 ],
+							[ -136.1473, 67.0066 ],
+							[ -136.165, 67.0458 ],
+							[ -136.2002, 67.1234 ],
+							[ -136.2019, 67.1272 ],
+							[ -136.2235, 67.1744 ],
+							[ -136.1145, 67.2767 ],
+							[ -136.1142, 67.277 ],
+							[ -136.0986, 67.2915 ],
+							[ -136.0829, 67.3062 ],
+							[ -136.0829, 67.3062 ],
+							[ -136.175, 67.2548 ],
+							[ -137.1315, 66.6721 ],
+							[ -137.1566, 66.6852 ],
+							[ -137.1605, 66.6872 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9893, 64.5286 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.6742, 64.4725 ],
+							[ -137.8338, 64.3421 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8311, 64.342 ],
+							[ -137.8443, 65.4581 ],
+							[ -134.985, 67.0081 ],
+							[ -135.0367, 67.0082 ],
+							[ -136.1454, 67.0066 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 4, 2019 22:45",
+				"Expires_UTC" : "April 5, 2019 14:44",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nStrong winds gusting to 80 km/h are expected to develop Friday afternoon and will give poor visibility in blowing snow at times. Conditions are forecast to improve slightly Friday night or early Saturday morning as winds begin to ease.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-04-05T14:44:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-04T22:45:30-00:00, urn:oid:2.49.0.1.124.1702198936.2019<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-04:feed.atom/urn:oid:2.49.0.1.124.1702198936.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-04/2019_04_04T22_45_30_00_00Iurn_oid_2.49.0.1.124.1702198936.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190405144430+00:00"
 			}
 		}
 	]
