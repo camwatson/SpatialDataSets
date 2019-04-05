@@ -704,6 +704,73 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3796, 49.06 ],
+							[ -55.3721, 49.0557 ],
+							[ -55.0999, 48.9 ],
+							[ -54.649, 49.2499 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0076, 48.904 ],
+							[ -54.0073, 48.904 ],
+							[ -54.0064, 48.904 ],
+							[ -53.9755, 48.9046 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5665, 50.2497 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.0662, 50.1099 ],
+							[ -57.2, 49.8499 ],
+							[ -57.2055, 49.8514 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.9866, 49.1219 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 5, 2019 07:48",
+				"Expires_UTC" : "April 5, 2019 08:48",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-04-05T08:48:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-05T07:48:22-00:00, urn:oid:2.49.0.1.124.1553632839.2019<br>Area: Bay of Exploits, Bonavista North, Green Bay - White Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-05:feed.atom/urn:oid:2.49.0.1.124.1553632839.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-05/2019_04_05T07_48_22_00_00Iurn_oid_2.49.0.1.124.1553632839.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190405084822+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.9328, 59.5914 ],
 							[ -64.931, 59.5915 ],
 							[ -64.9121, 59.5925 ],
@@ -1395,18 +1462,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 5, 2019 01:33",
-				"Expires_UTC" : "April 5, 2019 17:32",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong southwesterly winds will persist tonight, with coastal gusts at times reaching 100 km/h.\n\nStrong westerlies will follow on Friday, with gusts to 100 km/h expected in the Canada Bay area. Winds are forecast to diminish overnight Friday night.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-04-05T17:32:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-05T01:33:02-00:00, urn:oid:2.49.0.1.124.1798287215.2019<br>Area: Northern Peninsula East",
+				"LastUpdate_UTC" : "April 5, 2019 07:46",
+				"Expires_UTC" : "April 5, 2019 23:45",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong westerlies are expected to increase this morning with gusts to 100 km/h expected in the Canada Bay area. Winds are forecast to diminish overnight tonight.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-04-05T23:45:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-05T07:46:35-00:00, urn:oid:2.49.0.1.124.2856544847.2019<br>Area: Northern Peninsula East",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-05:feed.atom/urn:oid:2.49.0.1.124.1798287215.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-05/2019_04_05T01_33_02_00_00Iurn_oid_2.49.0.1.124.1798287215.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-05:feed.atom/urn:oid:2.49.0.1.124.2856544847.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-05/2019_04_05T07_46_35_00_00Iurn_oid_2.49.0.1.124.2856544847.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190405173202+00:00"
+				"Expires_FMEFormat" : "20190405234535+00:00"
 			}
 		},
 		{
