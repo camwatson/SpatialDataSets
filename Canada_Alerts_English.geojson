@@ -9,6 +9,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -80.0631, 42.3969 ],
+							[ -78.9134, 42.8357 ],
+							[ -78.9091, 42.9018 ],
+							[ -78.9091, 42.9019 ],
+							[ -78.9064, 42.9421 ],
+							[ -79.0529, 42.9623 ],
+							[ -79.6261, 42.9814 ],
+							[ -80.3291, 42.9012 ],
+							[ -80.5966, 42.7293 ],
+							[ -81.1889, 42.7866 ],
+							[ -81.1605, 42.6683 ],
+							[ -81.1605, 42.6683 ],
+							[ -80.9294, 42.2535 ],
+							[ -80.9294, 42.2535 ],
+							[ -80.0631, 42.3969 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "April 12, 2019 13:46",
+				"Expires_UTC" : "April 13, 2019 00:44",
+				"Summary" : "Description: A line of heavy showers will reach Eastern Lake Erie late this morning through the early afternoon. Wind gusts to 35 knots may be possible with this line.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-04-13T00:44:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-12T13:46:29-00:00, urn:oid:2.49.0.1.124.2510414181.2019<br>Area: Eastern Lake Erie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-12:feed.atom/urn:oid:2.49.0.1.124.2510414181.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-12/2019_04_12T13_46_29_00_00Iurn_oid_2.49.0.1.124.2510414181.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190413004429+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -87.4321, 49.1383 ],
 							[ -86.0149, 48.8966 ],
 							[ -85.9469, 48.8844 ],
@@ -1855,54 +1903,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-12/2019_04_12T11_22_35_05_00I0F3373D4_C160_7AAB_B9CE_BFBB27598754.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190413111500-05:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -80.0631, 42.3969 ],
-							[ -78.9134, 42.8357 ],
-							[ -78.9091, 42.9018 ],
-							[ -78.9091, 42.9019 ],
-							[ -78.9064, 42.9421 ],
-							[ -79.0529, 42.9623 ],
-							[ -79.6261, 42.9814 ],
-							[ -80.3291, 42.9012 ],
-							[ -80.5966, 42.7293 ],
-							[ -81.1889, 42.7866 ],
-							[ -81.1605, 42.6683 ],
-							[ -81.1605, 42.6683 ],
-							[ -80.9294, 42.2535 ],
-							[ -80.9294, 42.2535 ],
-							[ -80.0631, 42.3969 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Squall Watch Ended",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 12, 2019 18:06",
-				"Expires_UTC" : "April 12, 2019 19:06",
-				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2019-04-12T19:06:07-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-12T18:06:07-00:00, urn:oid:2.49.0.1.124.1222219180.2019<br>Area: Eastern Lake Erie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-12:feed.atom/urn:oid:2.49.0.1.124.1222219180.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-12/2019_04_12T18_06_07_00_00Iurn_oid_2.49.0.1.124.1222219180.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190412190607+00:00"
 			}
 		},
 		{
