@@ -733,6 +733,66 @@
 				"coordinates" : [
 					[
 						[
+							[ -57.6859, 49.1519 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.0381, 48.6326 ],
+							[ -57.83, 48.58 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.4199, 48.2499 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 48.5499 ],
+							[ -55.3737, 48.6852 ],
+							[ -55.3717, 48.6868 ],
+							[ -56.1628, 48.9706 ],
+							[ -56.817, 49.2073 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2055, 49.8514 ],
+							[ -57.2, 49.8499 ],
+							[ -57.0662, 50.1099 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -57.3993, 50.5802 ],
+							[ -57.3998, 50.5802 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ],
+							[ -58.2391, 49.3973 ],
+							[ -58.2382, 49.3972 ],
+							[ -58.2223, 49.3903 ],
+							[ -57.6859, 49.1519 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 16, 2019 01:10",
+				"Expires_UTC" : "April 16, 2019 09:09",
+				"Summary" : "Description: Rain will change to a wintry mix of snow, ice pellets, and freezing rain tonight. A period of freezing rain is possible overnight tonight, especially over higher terrain and along Route 430 from Deer Lake to Gros Morne National Park. Precipitation will change to showers or flurries on Tuesday.\n\nA freezing rain warning is still possible in these areas. Please monitor future forecasts.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-04-16T09:09:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-16T01:10:34-00:00, urn:oid:2.49.0.1.124.1952594114.2019<br>Area: Deer Lake - Humber Valley, Gros Morne, Buchans and the interior, Parson's Pond - Hawke's Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-16:feed.atom/urn:oid:2.49.0.1.124.1952594114.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-16/2019_04_16T01_10_34_00_00Iurn_oid_2.49.0.1.124.1952594114.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190416090934+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -97.4599003101, 49.265525691 ],
 							[ -97.4601, 49.0889 ],
 							[ -97.4361, 49.0889 ],
@@ -1085,85 +1145,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 16, 2019 01:37",
-				"Expires_UTC" : "April 16, 2019 02:37",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-04-16T02:37:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-16T01:37:28-00:00, urn:oid:2.49.0.1.124.1080892197.2019<br>Area: Woodstock and Carleton County, Stanley - Doaktown - Blackville Area, Kent County, Kouchibouguac National Park, Edmundston and Madawaska County, western half of Restigouche County, Campbellton and eastern half of Restigouche County, Grand Falls and Victoria County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region, Miramichi and area, Acadian Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-16:feed.atom/urn:oid:2.49.0.1.124.1080892197.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-16/2019_04_16T01_37_28_00_00Iurn_oid_2.49.0.1.124.1080892197.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190416023728+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.6859, 49.1519 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.0381, 48.6326 ],
-							[ -57.83, 48.58 ],
-							[ -57.4599, 48.2499 ],
-							[ -56.4199, 48.2499 ],
-							[ -55, 48.25 ],
-							[ -54.9999, 48.5499 ],
-							[ -55.3737, 48.6852 ],
-							[ -55.3717, 48.6868 ],
-							[ -56.1628, 48.9706 ],
-							[ -56.817, 49.2073 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2055, 49.8514 ],
-							[ -57.2, 49.8499 ],
-							[ -57.0662, 50.1099 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -57.3993, 50.5802 ],
-							[ -57.3998, 50.5802 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ],
-							[ -58.2391, 49.3973 ],
-							[ -58.2382, 49.3972 ],
-							[ -58.2223, 49.3903 ],
-							[ -57.6859, 49.1519 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 16, 2019 01:10",
-				"Expires_UTC" : "April 16, 2019 09:09",
-				"Summary" : "Description: Rain will change to a wintry mix of snow, ice pellets, and freezing rain tonight. A period of freezing rain is possible overnight tonight, especially over higher terrain and along Route 430 from Deer Lake to Gros Morne National Park. Precipitation will change to showers or flurries on Tuesday.\n\nA freezing rain warning is still possible in these areas. Please monitor future forecasts.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-04-16T09:09:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-16T01:10:34-00:00, urn:oid:2.49.0.1.124.1952594114.2019<br>Area: Deer Lake - Humber Valley, Gros Morne, Buchans and the interior, Parson's Pond - Hawke's Bay",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "April 15, 2019 18:52",
+				"Expires_UTC" : "April 16, 2019 10:51",
+				"Summary" : "Description: Rain, heavy at times is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nPeriods of rain will diminish to scattered flurries overnight tonight. Further rainfall amounts near 5 mm are expected this evening.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-04-16T10:51:06-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-15T18:52:06-00:00, urn:oid:2.49.0.1.124.0621936471.2019<br>Area: Woodstock and Carleton County, Stanley - Doaktown - Blackville Area, Kent County, Kouchibouguac National Park, Edmundston and Madawaska County, western half of Restigouche County, Campbellton and eastern half of Restigouche County, Grand Falls and Victoria County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region, Miramichi and area, Acadian Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-16:feed.atom/urn:oid:2.49.0.1.124.1952594114.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-16/2019_04_16T01_10_34_00_00Iurn_oid_2.49.0.1.124.1952594114.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-15:feed.atom/urn:oid:2.49.0.1.124.0621936471.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-15/2019_04_15T18_52_06_00_00Iurn_oid_2.49.0.1.124.0621936471.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190416090934+00:00"
+				"Expires_FMEFormat" : "20190416105106+00:00"
 			}
 		},
 		{
