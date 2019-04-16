@@ -70,6 +70,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -69.9994, 54.9999 ],
+							[ -69.9994, 55.2482 ],
+							[ -74.8956, 55.06 ],
+							[ -75.5201, 55.0202 ],
+							[ -75.5201, 55.02 ],
+							[ -75.5201, 54.6126 ],
+							[ -75.52, 54.15 ],
+							[ -75.9999, 54.1501 ],
+							[ -75.9999, 54.1499 ],
+							[ -75.9999, 54.1422 ],
+							[ -76, 53.9282 ],
+							[ -76.0003, 51.7818 ],
+							[ -76.0003, 51.625 ],
+							[ -76, 51.625 ],
+							[ -75.9391, 51.6264 ],
+							[ -72.594, 51.6439 ],
+							[ -72.011, 51.6472 ],
+							[ -71.9998, 51.6472 ],
+							[ -69.9996, 51.6462 ],
+							[ -69.9995, 52.25 ],
+							[ -69.998, 53.5005 ],
+							[ -69.998, 53.5008 ],
+							[ -69.9989, 53.5007 ],
+							[ -69.9992, 53.5006 ],
+							[ -69.9994, 54.9999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 16, 2019 14:37",
+				"Expires_UTC" : "April 16, 2019 22:36",
+				"Summary" : "Description: The storm that affected Southern and Central Quebec Sunday evening and Monday is currently over Eastern Quebec.\n\nThe following is a summary of weather event information received by Environment Canada.\n\n1. Snowfall summary (in centimetres)\n\nRoberval: 37\nBagotville: 18\nNatashquan: 20 to 30\n\n2. Snow summary by water equivalent in millimetres:\n\nParent: 17\nChevery: 30 (continuing)\nBlanc-Sablon: 16 (continuing)\n\n3. Summary of wind gusts in kilometres per hour:\n\nÎle d'Orleans: 87\n\nChevery area\nCape Whittle: 106\nChevery: 83\n\nBlanc-Sablon: 89\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-16T22:36:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-16T14:37:51-00:00, urn:oid:2.49.0.1.124.2322359729.2019<br>Area: LG Quatre - Laforge and Fontanges",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-16:feed.atom/urn:oid:2.49.0.1.124.2322359729.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-16/2019_04_16T14_37_51_00_00Iurn_oid_2.49.0.1.124.2322359729.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190416223651+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -67.508, 49.2382 ],
 							[ -67.7307, 48.7729 ],
 							[ -67.7307, 48.7726 ],
@@ -404,25 +462,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 16, 2019 13:48",
-				"Expires_UTC" : "April 16, 2019 14:48",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-04-16T14:48:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-16T13:48:28-00:00, urn:oid:2.49.0.1.124.3469200439.2019<br>Area: Upper Lake Melville",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 16, 2019 13:45",
+				"Expires_UTC" : "April 16, 2019 20:59",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nTotal snowfall accumulation of 20 to 25 cm is expected before the snow tapers to flurries this afternoon.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-04-16T20:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-16T13:45:38-00:00, urn:oid:2.49.0.1.124.0810172296.2019<br>Area: Upper Lake Melville",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-16:feed.atom/urn:oid:2.49.0.1.124.3469200439.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-16/2019_04_16T13_48_28_00_00Iurn_oid_2.49.0.1.124.3469200439.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-16:feed.atom/urn:oid:2.49.0.1.124.0810172296.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-16/2019_04_16T13_45_38_00_00Iurn_oid_2.49.0.1.124.0810172296.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190416144828+00:00"
+				"Expires_FMEFormat" : "20190416205938+00:00"
 			}
 		},
 		{
