@@ -1112,6 +1112,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -54.649, 49.2499 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0076, 48.904 ],
+							[ -54.0073, 48.904 ],
+							[ -54.0064, 48.904 ],
+							[ -53.9755, 48.9046 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6765, 49.3879 ],
+							[ -55.6779, 49.3868 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3796, 49.06 ],
+							[ -55.3721, 49.0557 ],
+							[ -55.0999, 48.9 ],
+							[ -54.649, 49.2499 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 17, 2019 22:45",
+				"Expires_UTC" : "April 17, 2019 23:45",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-04-17T23:45:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-17T22:45:35-00:00, urn:oid:2.49.0.1.124.1706884160.2019<br>Area: Bay of Exploits, Bonavista North",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-17:feed.atom/urn:oid:2.49.0.1.124.1706884160.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-17/2019_04_17T22_45_35_00_00Iurn_oid_2.49.0.1.124.1706884160.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190417234535+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -76.5256, 44.7211 ],
 							[ -76.9247, 44.6386 ],
 							[ -77.2113, 44.5906 ],
@@ -1566,6 +1624,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-17/2019_04_17T13_14_56_00_00Iurn_oid_2.49.0.1.124.1868623494.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190417231156+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -136.1454, 67.0066 ],
+							[ -136.1473, 67.0066 ],
+							[ -136.165, 67.0458 ],
+							[ -136.2002, 67.1234 ],
+							[ -136.2019, 67.1272 ],
+							[ -136.2235, 67.1744 ],
+							[ -136.1145, 67.2767 ],
+							[ -136.1142, 67.277 ],
+							[ -136.0986, 67.2915 ],
+							[ -136.0829, 67.3062 ],
+							[ -136.0829, 67.3062 ],
+							[ -136.175, 67.2548 ],
+							[ -137.1315, 66.6721 ],
+							[ -137.1566, 66.6852 ],
+							[ -137.1605, 66.6872 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9893, 64.5286 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.6742, 64.4725 ],
+							[ -137.8338, 64.3421 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8311, 64.342 ],
+							[ -137.8443, 65.4581 ],
+							[ -134.985, 67.0081 ],
+							[ -135.0367, 67.0082 ],
+							[ -136.1454, 67.0066 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 17, 2019 22:46",
+				"Expires_UTC" : "April 18, 2019 14:45",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nStrong winds are forecast to develop Thursday morning over the Dempster Highway associated with a low pressure system moving into the Yukon. Wind gusts up to 80 km/h with locally poor visibilities in blowing snow are expected. Winds are forecast to ease Friday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-04-18T14:45:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-17T22:46:56-00:00, urn:oid:2.49.0.1.124.4280265497.2019<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-17:feed.atom/urn:oid:2.49.0.1.124.4280265497.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-17/2019_04_17T22_46_56_00_00Iurn_oid_2.49.0.1.124.4280265497.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190418144556+00:00"
 			}
 		},
 		{
@@ -2799,6 +2916,73 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3796, 49.06 ],
+							[ -55.3721, 49.0557 ],
+							[ -55.0999, 48.9 ],
+							[ -54.649, 49.2499 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0076, 48.904 ],
+							[ -54.0073, 48.904 ],
+							[ -54.0064, 48.904 ],
+							[ -53.9755, 48.9046 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5665, 50.2497 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.0662, 50.1099 ],
+							[ -57.2, 49.8499 ],
+							[ -57.2055, 49.8514 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.9866, 49.1219 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 17, 2019 13:15",
+				"Expires_UTC" : "April 17, 2019 23:03",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong northerly winds gusting between 80 and 100 km/h will continue today then slowly diminish tonight.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-04-17T23:03:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-17T13:15:12-00:00, urn:oid:2.49.0.1.124.2342255023.2019<br>Area: Bay of Exploits, Bonavista North, Green Bay - White Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-17:feed.atom/urn:oid:2.49.0.1.124.2342255023.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-17/2019_04_17T13_15_12_00_00Iurn_oid_2.49.0.1.124.2342255023.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190417230312+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -106.9586, 50.8343 ],
 							[ -106.9596, 50.8375 ],
 							[ -106.9728, 50.8823 ],
@@ -2859,73 +3043,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-17/2019_04_17T22_08_58_00_00Iurn_oid_2.49.0.1.124.0727824417.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190417230758+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3796, 49.06 ],
-							[ -55.3721, 49.0557 ],
-							[ -55.0999, 48.9 ],
-							[ -54.649, 49.2499 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.0076, 48.904 ],
-							[ -54.0073, 48.904 ],
-							[ -54.0064, 48.904 ],
-							[ -53.9755, 48.9046 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.4018, 49.5793 ],
-							[ -55.3736, 50.013 ],
-							[ -55.7129, 50.3339 ],
-							[ -56.4068, 50.2167 ],
-							[ -56.5665, 50.2497 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.99, 50.25 ],
-							[ -57.0662, 50.1099 ],
-							[ -57.2, 49.8499 ],
-							[ -57.2055, 49.8514 ],
-							[ -57.3499, 49.58 ],
-							[ -56.817, 49.2073 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.9866, 49.1219 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 17, 2019 13:15",
-				"Expires_UTC" : "April 17, 2019 23:03",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong northerly winds gusting between 80 and 100 km/h will continue today then slowly diminish tonight.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-04-17T23:03:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-17T13:15:12-00:00, urn:oid:2.49.0.1.124.2342255023.2019<br>Area: Bay of Exploits, Bonavista North, Green Bay - White Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-17:feed.atom/urn:oid:2.49.0.1.124.2342255023.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-17/2019_04_17T13_15_12_00_00Iurn_oid_2.49.0.1.124.2342255023.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190417230312+00:00"
 			}
 		}
 	]
