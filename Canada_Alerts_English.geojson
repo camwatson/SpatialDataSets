@@ -780,61 +780,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.4387, 46.7127 ],
-							[ -71.4287, 46.7022 ],
-							[ -71.4281, 46.7016 ],
-							[ -71.3164, 46.5831 ],
-							[ -70.9766, 46.7611 ],
-							[ -70.852, 46.6032 ],
-							[ -70.8486, 46.5988 ],
-							[ -70.4844, 46.8 ],
-							[ -70.6637, 46.9613 ],
-							[ -70.6638, 46.9614 ],
-							[ -70.7199, 47.0115 ],
-							[ -70.7281, 47.0163 ],
-							[ -70.7347, 47.0202 ],
-							[ -70.7998, 47.058 ],
-							[ -70.8056, 47.0614 ],
-							[ -71.016, 47.1831 ],
-							[ -71.016, 47.1831 ],
-							[ -71.233, 47.0165 ],
-							[ -71.4664, 46.7831 ],
-							[ -71.4441, 46.7265 ],
-							[ -71.4441, 46.7264 ],
-							[ -71.4387, 46.7127 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Storm Surge Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Storm Surge",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 22, 2019 10:19",
-				"Expires_UTC" : "April 23, 2019 02:18",
-				"Summary" : "Description: Higher than normal water levels are expected near the coast Monday morning and Tuesday morning.\n\nWarning of potential coastal flood conditions issued jointly by Fisheries and Oceans Canada (Science) and the Meteorological Service of Canada - Quebec region on 2019-04-21.\n\nA low pressure system developing tonight will slowly track up the US eastern seaboard over the next few days. It will cause moderate to strong winds to blow over the City Quebec's region. These winds combined with the high flows of the St. Lawrence River and the fact that we are currently in a period of high tidal range might cause minor flooding along the coast near the following localities at the dates and times specified (Eastern Daylight Time).\n\nCity of Quebec: 2019-04-22, from 08:00 AM to 11:00 AM.\nCity of Quebec: 2019-04-23, from 09:00 AM to 12:00 PM.\n\n###\n\nCoastal erosion is possible in vulnerable areas.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-23T02:18:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-22T10:19:37-00:00, urn:oid:2.49.0.1.124.3278199361.2019<br>Area: Québec area, Côte-de-Beaupré - L'Île d'Orléans area, Bellechasse area, Lévis area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-22:feed.atom/urn:oid:2.49.0.1.124.3278199361.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-22/2019_04_22T10_19_37_00_00Iurn_oid_2.49.0.1.124.3278199361.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190423021837+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -84.9134, 47.2346 ],
 							[ -84.7351, 46.6321 ],
 							[ -84.4985, 46.6539 ],
@@ -893,6 +838,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-22/2019_04_22T06_15_59_00_00Iurn_oid_2.49.0.1.124.3580881018.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190422180431+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.4387, 46.7127 ],
+							[ -71.4287, 46.7022 ],
+							[ -71.4281, 46.7016 ],
+							[ -71.3164, 46.5831 ],
+							[ -70.9766, 46.7611 ],
+							[ -70.852, 46.6032 ],
+							[ -70.8486, 46.5988 ],
+							[ -70.4844, 46.8 ],
+							[ -70.6637, 46.9613 ],
+							[ -70.6638, 46.9614 ],
+							[ -70.7199, 47.0115 ],
+							[ -70.7281, 47.0163 ],
+							[ -70.7347, 47.0202 ],
+							[ -70.7998, 47.058 ],
+							[ -70.8056, 47.0614 ],
+							[ -71.016, 47.1831 ],
+							[ -71.016, 47.1831 ],
+							[ -71.233, 47.0165 ],
+							[ -71.4664, 46.7831 ],
+							[ -71.4441, 46.7265 ],
+							[ -71.4441, 46.7264 ],
+							[ -71.4387, 46.7127 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Storm Surge Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Storm Surge",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 22, 2019 10:19",
+				"Expires_UTC" : "April 23, 2019 02:18",
+				"Summary" : "Description: Higher than normal water levels are expected near the coast Monday morning and Tuesday morning.\n\nWarning of potential coastal flood conditions issued jointly by Fisheries and Oceans Canada (Science) and the Meteorological Service of Canada - Quebec region on 2019-04-21.\n\nA low pressure system developing tonight will slowly track up the US eastern seaboard over the next few days. It will cause moderate to strong winds to blow over the City Quebec's region. These winds combined with the high flows of the St. Lawrence River and the fact that we are currently in a period of high tidal range might cause minor flooding along the coast near the following localities at the dates and times specified (Eastern Daylight Time).\n\nCity of Quebec: 2019-04-22, from 08:00 AM to 11:00 AM.\nCity of Quebec: 2019-04-23, from 09:00 AM to 12:00 PM.\n\n###\n\nCoastal erosion is possible in vulnerable areas.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-23T02:18:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-22T10:19:37-00:00, urn:oid:2.49.0.1.124.3278199361.2019<br>Area: Québec area, Côte-de-Beaupré - L'Île d'Orléans area, Bellechasse area, Lévis area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-22:feed.atom/urn:oid:2.49.0.1.124.3278199361.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-22/2019_04_22T10_19_37_00_00Iurn_oid_2.49.0.1.124.3278199361.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190423021837+00:00"
 			}
 		},
 		{
