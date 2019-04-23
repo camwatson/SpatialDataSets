@@ -286,6 +286,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.4419, 49.5091 ],
+							[ -79.5142, 49.1422 ],
+							[ -79.5142, 49.283 ],
+							[ -79.5137, 50.5157 ],
+							[ -79.5139, 50.6827 ],
+							[ -79.514, 50.7219 ],
+							[ -79.5628, 50.7223 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1507, 51.3164 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.9115, 51.9291 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ],
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ],
+							[ -81.4426, 49.1637 ],
+							[ -81.4421, 49.4334 ],
+							[ -81.4419, 49.5091 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 23, 2019 13:59",
+				"Expires_UTC" : "April 23, 2019 21:58",
+				"Summary" : "Description: Snow and possible freezing rain today.\n\nSnow will continue today. There is also a risk of freezing rain this morning.\n\nThe snow may be heavy at times with total snowfall amounts possibly reaching 20 cm by this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-04-23T21:58:40-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-23T13:59:40-00:00, urn:oid:2.49.0.1.124.2669303440.2019<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-23:feed.atom/urn:oid:2.49.0.1.124.2669303440.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-23/2019_04_23T13_59_40_00_00Iurn_oid_2.49.0.1.124.2669303440.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190423215840+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -56.1628, 48.9706 ],
 							[ -55.3717, 48.6868 ],
 							[ -55.3737, 48.6852 ],
@@ -751,69 +802,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-23/2019_04_23T13_28_05_00_00Iurn_oid_2.49.0.1.124.4037464090.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190424052705+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -71.9997, 47.7998 ],
-							[ -72.0027, 47.7998 ],
-							[ -72.003, 47.7998 ],
-							[ -72.0031, 47.2001 ],
-							[ -72.0029, 47.2001 ],
-							[ -71.5853, 47.1942 ],
-							[ -71.585, 47.1942 ],
-							[ -71.5848, 47.1942 ],
-							[ -71.0339, 47.1835 ],
-							[ -71.016, 47.1831 ],
-							[ -71.016, 47.1831 ],
-							[ -71.0162, 47.1832 ],
-							[ -71.016, 47.1835 ],
-							[ -70.5035, 47.6323 ],
-							[ -70.5033, 47.6325 ],
-							[ -70.136, 47.9473 ],
-							[ -70.136, 47.9473 ],
-							[ -70.136, 47.9473 ],
-							[ -70.1371, 47.9476 ],
-							[ -71.0008, 48.1886 ],
-							[ -71.0124, 48.1918 ],
-							[ -71.0125, 48.1918 ],
-							[ -71.5523, 48.3338 ],
-							[ -71.5527, 48.3339 ],
-							[ -72.0026, 48.2501 ],
-							[ -72.0029, 48.25 ],
-							[ -72.0029, 48.2499 ],
-							[ -72.0029, 48.2498 ],
-							[ -72.0026, 48.2119 ],
-							[ -71.9997, 47.7998 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 23, 2019 15:22",
-				"Expires_UTC" : "April 24, 2019 00:21",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\n5 to 10 millimetres of freezing precipitation is expected in the Laurentians Wildlife Reserve overnight tonight and Wednesday morning.\n\n###\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-24T00:21:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-23T15:22:23-00:00, urn:oid:2.49.0.1.124.0801028875.2019<br>Area: Apica Mountain area, Grands-Jardins Park area, l'Étape area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-23:feed.atom/urn:oid:2.49.0.1.124.0801028875.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-23/2019_04_23T15_22_23_00_00Iurn_oid_2.49.0.1.124.0801028875.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190424002123+00:00"
 			}
 		},
 		{
@@ -1436,57 +1424,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.4419, 49.5091 ],
-							[ -79.5142, 49.1422 ],
-							[ -79.5142, 49.283 ],
-							[ -79.5137, 50.5157 ],
-							[ -79.5139, 50.6827 ],
-							[ -79.514, 50.7219 ],
-							[ -79.5628, 50.7223 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1507, 51.3164 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.9115, 51.9291 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ],
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ],
-							[ -81.4426, 49.1637 ],
-							[ -81.4421, 49.4334 ],
-							[ -81.4419, 49.5091 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 23, 2019 13:59",
-				"Expires_UTC" : "April 23, 2019 21:58",
-				"Summary" : "Description: Snow and possible freezing rain today.\n\nSnow will continue today. There is also a risk of freezing rain this morning.\n\nThe snow may be heavy at times with total snowfall amounts possibly reaching 20 cm by this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-04-23T21:58:40-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-23T13:59:40-00:00, urn:oid:2.49.0.1.124.2669303440.2019<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-23:feed.atom/urn:oid:2.49.0.1.124.2669303440.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-23/2019_04_23T13_59_40_00_00Iurn_oid_2.49.0.1.124.2669303440.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190423215840+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -56.1628, 48.9706 ],
 							[ -55.3717, 48.6868 ],
 							[ -55.3737, 48.6852 ],
@@ -1685,6 +1622,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-23/2019_04_23T14_51_19_00_00Iurn_oid_2.49.0.1.124.0756171041.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190424065019+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.9997, 47.7998 ],
+							[ -72.0027, 47.7998 ],
+							[ -72.003, 47.7998 ],
+							[ -72.0031, 47.2001 ],
+							[ -72.0029, 47.2001 ],
+							[ -71.5853, 47.1942 ],
+							[ -71.585, 47.1942 ],
+							[ -71.5848, 47.1942 ],
+							[ -71.0339, 47.1835 ],
+							[ -71.016, 47.1831 ],
+							[ -71.016, 47.1831 ],
+							[ -71.0162, 47.1832 ],
+							[ -71.016, 47.1835 ],
+							[ -70.5035, 47.6323 ],
+							[ -70.5033, 47.6325 ],
+							[ -70.136, 47.9473 ],
+							[ -70.136, 47.9473 ],
+							[ -70.136, 47.9473 ],
+							[ -70.1371, 47.9476 ],
+							[ -71.0008, 48.1886 ],
+							[ -71.0124, 48.1918 ],
+							[ -71.0125, 48.1918 ],
+							[ -71.5523, 48.3338 ],
+							[ -71.5527, 48.3339 ],
+							[ -72.0026, 48.2501 ],
+							[ -72.0029, 48.25 ],
+							[ -72.0029, 48.2499 ],
+							[ -72.0029, 48.2498 ],
+							[ -72.0026, 48.2119 ],
+							[ -71.9997, 47.7998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 23, 2019 15:22",
+				"Expires_UTC" : "April 24, 2019 00:21",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\n5 to 10 millimetres of freezing precipitation is expected in the Laurentians Wildlife Reserve overnight tonight and Wednesday morning.\n\n###\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-04-24T00:21:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-04-23T15:22:23-00:00, urn:oid:2.49.0.1.124.0801028875.2019<br>Area: Apica Mountain area, Grands-Jardins Park area, l'Étape area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-04-23:feed.atom/urn:oid:2.49.0.1.124.0801028875.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-04-23/2019_04_23T15_22_23_00_00Iurn_oid_2.49.0.1.124.0801028875.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190424002123+00:00"
 			}
 		}
 	]
