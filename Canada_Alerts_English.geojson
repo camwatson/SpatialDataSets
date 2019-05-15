@@ -123,6 +123,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -90.1125, 68.3558 ],
+							[ -90.103, 68.3317 ],
+							[ -89.7179, 68.317 ],
+							[ -89.4075, 68.3718 ],
+							[ -89.2267, 68.4885 ],
+							[ -89.2625, 68.6185 ],
+							[ -89.4378, 68.7021 ],
+							[ -89.6941, 68.745 ],
+							[ -89.999, 68.7198 ],
+							[ -90.0171, 68.6934 ],
+							[ -90.0135, 68.6617 ],
+							[ -90.1125, 68.3558 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 15, 2019 08:34",
+				"Expires_UTC" : "May 15, 2019 15:59",
+				"Summary" : "Description: An area of fog remains in the region and is expected to persist until later this morning.\n\n###\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-05-15T15:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-05-15T08:34:23-00:00, urn:oid:2.49.0.1.124.2549956629.2019<br>Area: Kugaaruk",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-05-15:feed.atom/urn:oid:2.49.0.1.124.2549956629.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-05-15/2019_05_15T08_34_23_00_00Iurn_oid_2.49.0.1.124.2549956629.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190515155923+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.4207, 47.5744 ],
 							[ -58.42, 47.6535 ],
 							[ -58.42, 47.6666 ],
@@ -564,51 +609,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-05-15/2019_05_15T08_43_01_00_00Iurn_oid_2.49.0.1.124.0897880974.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190515185901+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -90.1125, 68.3558 ],
-							[ -90.103, 68.3317 ],
-							[ -89.7179, 68.317 ],
-							[ -89.4075, 68.3718 ],
-							[ -89.2267, 68.4885 ],
-							[ -89.2625, 68.6185 ],
-							[ -89.4378, 68.7021 ],
-							[ -89.6941, 68.745 ],
-							[ -89.999, 68.7198 ],
-							[ -90.0171, 68.6934 ],
-							[ -90.0135, 68.6617 ],
-							[ -90.1125, 68.3558 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 15, 2019 13:12",
-				"Expires_UTC" : "May 15, 2019 14:12",
-				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2019-05-15T14:12:26-00:00<br>Originated from CAP Alert: Environment Canada, 2019-05-15T13:12:26-00:00, urn:oid:2.49.0.1.124.1509566965.2019<br>Area: Kugaaruk",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-05-15:feed.atom/urn:oid:2.49.0.1.124.1509566965.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-05-15/2019_05_15T13_12_26_00_00Iurn_oid_2.49.0.1.124.1509566965.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190515141226+00:00"
 			}
 		},
 		{
