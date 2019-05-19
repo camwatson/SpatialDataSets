@@ -498,52 +498,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.1168, 44.2981 ],
-							[ -79.1254, 44.5711 ],
-							[ -79.3102, 44.6334 ],
-							[ -79.3167, 44.8032 ],
-							[ -79.3962, 44.7602 ],
-							[ -79.4671, 44.5367 ],
-							[ -79.5961, 44.4572 ],
-							[ -79.7573, 44.3841 ],
-							[ -79.6004, 44.3261 ],
-							[ -79.5983, 44.2122 ],
-							[ -79.48, 44.1477 ],
-							[ -79.4177, 44.2745 ],
-							[ -79.1168, 44.2981 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 19, 2019 18:11",
-				"Expires_UTC" : "May 20, 2019 05:10",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 40 knots, frequent lightning and poor to very poor visibility in thunderstorms heavy at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-05-20T05:10:27-00:00<br>Originated from CAP Alert: Environment Canada, 2019-05-19T18:11:27-00:00, urn:oid:2.49.0.1.124.1708963955.2019<br>Area: Lake Simcoe",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-05-19:feed.atom/urn:oid:2.49.0.1.124.1708963955.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-05-19/2019_05_19T18_11_27_00_00Iurn_oid_2.49.0.1.124.1708963955.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190520051027+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -114.6983, 51.082 ],
 							[ -114.6984, 51.0735 ],
 							[ -114.6986, 51.0084 ],
@@ -2045,6 +1999,52 @@
 				]
 			},
 			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Squall Watch Ended",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 19, 2019 18:18",
+				"Expires_UTC" : "May 19, 2019 19:17",
+				"Summary" : "Description: Squalls are no longer expected over the area.\n\nThunderstorms have moved to the east of the lake.\n\n###<br>Expires: 2019-05-19T19:17:43-00:00<br>Originated from CAP Alert: Environment Canada, 2019-05-19T18:18:43-00:00, urn:oid:2.49.0.1.124.1260741039.2019<br>Area: Eastern Lake Ontario",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-05-19:feed.atom/urn:oid:2.49.0.1.124.1260741039.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-05-19/2019_05_19T18_18_43_00_00Iurn_oid_2.49.0.1.124.1260741039.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190519191743+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.1168, 44.2981 ],
+							[ -79.1254, 44.5711 ],
+							[ -79.3102, 44.6334 ],
+							[ -79.3167, 44.8032 ],
+							[ -79.3962, 44.7602 ],
+							[ -79.4671, 44.5367 ],
+							[ -79.5961, 44.4572 ],
+							[ -79.7573, 44.3841 ],
+							[ -79.6004, 44.3261 ],
+							[ -79.5983, 44.2122 ],
+							[ -79.48, 44.1477 ],
+							[ -79.4177, 44.2745 ],
+							[ -79.1168, 44.2981 ]
+						]
+					]
+				]
+			},
+			"properties" : {
 				"subCategory" : "Met:Watch:Severe",
 				"Title" : "Squall Watch In Effect",
 				"Category" : "Actual",
@@ -2052,18 +2052,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Possible",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 19, 2019 16:31",
-				"Expires_UTC" : "May 19, 2019 21:27",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 40 knots, frequent lightning and poor to very poor visibility in thunderstorms heavy at times.\n\nA thunderstorm with winds up to 40 knots is moving northeast across Lake Ontario north of Rochester. The thunderstorm may reach the Point Petre area by 1:30 pm.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-05-19T21:27:43-00:00<br>Originated from CAP Alert: Environment Canada, 2019-05-19T16:31:43-00:00, urn:oid:2.49.0.1.124.1535471466.2019<br>Area: Eastern Lake Ontario",
+				"LastUpdate_UTC" : "May 19, 2019 18:12",
+				"Expires_UTC" : "May 20, 2019 05:10",
+				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 40 knots, frequent lightning and poor to very poor visibility in thunderstorms heavy at times.\n\nThunderstorms with squalls to 40 knots are possible this afternoon and evening as a cold front approaches from the west.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-05-20T05:10:27-00:00<br>Originated from CAP Alert: Environment Canada, 2019-05-19T18:12:27-00:00, urn:oid:2.49.0.1.124.2767546361.2019<br>Area: Lake Simcoe",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-05-19:feed.atom/urn:oid:2.49.0.1.124.1535471466.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-05-19/2019_05_19T16_31_43_00_00Iurn_oid_2.49.0.1.124.1535471466.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-05-19:feed.atom/urn:oid:2.49.0.1.124.2767546361.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-05-19/2019_05_19T18_12_27_00_00Iurn_oid_2.49.0.1.124.2767546361.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190519212743+00:00"
+				"Expires_FMEFormat" : "20190520051027+00:00"
 			}
 		},
 		{
