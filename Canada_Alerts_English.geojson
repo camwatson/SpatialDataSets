@@ -128,50 +128,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -76.1398, 62.3822 ],
-							[ -75.9991, 61.4502 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.9991, 61.0466 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 8, 2019 19:11",
-				"Expires_UTC" : "June 9, 2019 11:10",
-				"Summary" : "Description: High southerly winds will blow up to 100 kilometres per hour starting Sunday evening into Monday morning.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-06-09T11:10:07-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-08T19:11:07-00:00, urn:oid:2.49.0.1.124.3273866906.2019<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-08:feed.atom/urn:oid:2.49.0.1.124.3273866906.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-08/2019_06_08T19_11_07_00_00Iurn_oid_2.49.0.1.124.3273866906.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190609111007+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -113.0946, 57.3824 ],
 							[ -114.9752, 57.3806 ],
 							[ -114.9785, 57.206 ],
@@ -360,6 +316,76 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-09/2019_06_09T00_10_12_00_00Iurn_oid_2.49.0.1.124.2221005444.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190609082412+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -115.8688, 52.5436 ],
+							[ -115.8689, 52.5436 ],
+							[ -116.8969, 52.5437 ],
+							[ -116.9481, 52.5486 ],
+							[ -116.9217, 52.4915 ],
+							[ -116.8691, 52.4924 ],
+							[ -116.0854, 51.9206 ],
+							[ -115.1367, 51.9211 ],
+							[ -115.035, 51.9207 ],
+							[ -115.4514, 52.2318 ],
+							[ -114.4302, 52.2317 ],
+							[ -114.429, 52.2542 ],
+							[ -114.4301, 52.2754 ],
+							[ -114.4421, 52.2754 ],
+							[ -114.4416, 52.3193 ],
+							[ -114.4487, 52.3195 ],
+							[ -114.4562, 52.3193 ],
+							[ -114.4547, 52.3486 ],
+							[ -114.4573, 52.3775 ],
+							[ -114.4732, 52.3775 ],
+							[ -114.4735, 52.3775 ],
+							[ -114.4813, 52.3828 ],
+							[ -114.4795, 52.408 ],
+							[ -114.4812, 52.4367 ],
+							[ -114.502, 52.4357 ],
+							[ -114.4998, 52.4484 ],
+							[ -114.5021, 52.4512 ],
+							[ -114.5304, 52.451 ],
+							[ -114.527, 52.4802 ],
+							[ -114.529, 52.5096 ],
+							[ -114.4649, 52.5094 ],
+							[ -114.4648, 52.5671 ],
+							[ -114.5055, 52.5812 ],
+							[ -114.5776, 52.5964 ],
+							[ -114.6487, 52.5952 ],
+							[ -115.938, 52.5952 ],
+							[ -115.8688, 52.5436 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 9, 2019 01:10",
+				"Expires_UTC" : "June 9, 2019 02:10",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-06-09T02:10:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-09T01:10:52-00:00, urn:oid:2.49.0.1.124.3469633934.2019<br>Area: Clearwater Co. near Nordegg and Big Horn Res., Clearwater Co. near Rocky Mtn House and Crimson Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-09:feed.atom/urn:oid:2.49.0.1.124.3469633934.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-09/2019_06_09T01_10_52_00_00Iurn_oid_2.49.0.1.124.3469633934.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190609021052+00:00"
 			}
 		},
 		{
@@ -1315,6 +1341,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -92.3388, 51.1193 ],
+							[ -92.9179, 50.1283 ],
+							[ -91.688, 49.8691 ],
+							[ -91.6842, 49.8683 ],
+							[ -91.6586, 49.9201 ],
+							[ -91.0434, 51.1282 ],
+							[ -89.9953, 51.1354 ],
+							[ -88.003, 51.1567 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.9904, 52.2453 ],
+							[ -89.8479, 52.2797 ],
+							[ -91.5246, 52.2405 ],
+							[ -92.3388, 51.1193 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 9, 2019 01:14",
+				"Expires_UTC" : "June 9, 2019 04:06",
+				"Summary" : "Description: At 8:14 p.m. CDT (8:14 p.m. EST), Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-06-09T04:06:25-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-09T01:14:25-00:00, urn:oid:2.49.0.1.124.1973805106.2019<br>Area: Pickle Lake - Cat Lake, Sioux Lookout - Eastern Lac Seul",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-09:feed.atom/urn:oid:2.49.0.1.124.1973805106.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-09/2019_06_09T01_14_25_00_00Iurn_oid_2.49.0.1.124.1973805106.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190609040625+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -115.035, 51.9207 ],
 							[ -114.9928, 51.8891 ],
 							[ -114.8631, 51.8891 ],
@@ -1480,25 +1552,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 9, 2019 00:12",
-				"Expires_UTC" : "June 9, 2019 01:12",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-06-09T01:12:27-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-09T00:12:27-00:00, urn:oid:2.49.0.1.124.3097672169.2019<br>Area: Foothills Co. near Priddis and Brown-Lowery Prov. Park, Foothills Co. near Turner Valley and Black Diamond, Foothills Co. near High River and Aldersyde",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 8, 2019 23:44",
+				"Expires_UTC" : "June 9, 2019 02:19",
+				"Summary" : "Description: At 5:43 p.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis storm is approximately 10 km northwest of Okotoks and is moving southeastward at 25 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-06-09T02:19:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-08T23:44:46-00:00, urn:oid:2.49.0.1.124.2611133238.2019<br>Area: Foothills Co. near Priddis and Brown-Lowery Prov. Park, Foothills Co. near Turner Valley and Black Diamond, Foothills Co. near High River and Aldersyde",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-09:feed.atom/urn:oid:2.49.0.1.124.3097672169.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-09/2019_06_09T00_12_27_00_00Iurn_oid_2.49.0.1.124.3097672169.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-08:feed.atom/urn:oid:2.49.0.1.124.2611133238.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-08/2019_06_08T23_44_46_00_00Iurn_oid_2.49.0.1.124.2611133238.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190609011227+00:00"
+				"Expires_FMEFormat" : "20190609021946+00:00"
 			}
 		},
 		{
@@ -1611,6 +1683,79 @@
 				"coordinates" : [
 					[
 						[
+							[ -120.0013, 58.9507 ],
+							[ -120.0012, 58.0792 ],
+							[ -120.0012, 57.3805 ],
+							[ -119.0525, 57.3698 ],
+							[ -118.1545, 57.3829 ],
+							[ -117.5271, 57.3742 ],
+							[ -116.9892300975, 57.3817574251 ],
+							[ -116.8378, 57.3817 ],
+							[ -116.6607, 57.3819 ],
+							[ -116.5466, 57.382 ],
+							[ -116.0715, 57.3819 ],
+							[ -115.9511, 57.3816 ],
+							[ -115.4503, 57.3605 ],
+							[ -114.975, 57.3807 ],
+							[ -114.4621, 57.3571 ],
+							[ -114, 57.3812 ],
+							[ -113.9554, 57.7377 ],
+							[ -113.9999, 58.0812 ],
+							[ -113.9889, 58.1699 ],
+							[ -114, 58.253 ],
+							[ -113.9835, 58.5248 ],
+							[ -113.9999, 58.7762 ],
+							[ -113.9571, 59.129 ],
+							[ -114, 59.475 ],
+							[ -114.7403, 59.4899 ],
+							[ -115.5532, 59.4759 ],
+							[ -115.553, 59.6481 ],
+							[ -115.5576, 59.6483 ],
+							[ -115.5692, 59.6489 ],
+							[ -115.5455, 59.8124 ],
+							[ -115.5673, 59.9981 ],
+							[ -115.5673, 59.9981 ],
+							[ -116.2895, 60.0078 ],
+							[ -116.9878, 59.9995 ],
+							[ -117.4613, 60.0076 ],
+							[ -117.9999, 59.9996 ],
+							[ -118.9303, 60.0137 ],
+							[ -120.0013, 60.0004 ],
+							[ -120.0013, 59.4749 ],
+							[ -120.0013, 58.9507 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 8, 2019 21:30",
+				"Expires_UTC" : "June 9, 2019 13:29",
+				"Summary" : "Description: Smoke is causing poor air quality and reducing visibility. Smoke is expected or occurring.\n\nAir quality in northern Alberta will continue to remain poor near and to the southeast of wildfires.\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors, and those with cardiovascular or lung disease, such as asthma, are especially at risk.\n\nPeople with lung diseases, such as asthma and COPD, can be particularly sensitive to air pollution. They will generally experience more serious health effects at lower levels. Pollution can aggravate their diseases, leading to increased medication use, doctor and emergency room visits, and hospital visits.\n\nFor more information please visit Alberta Health Services at www.albertahealthservices.ca/news/air.aspx.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-06-09T13:29:38-00:00<br>Originated from CAP Alert: Environment Canada,  Alberta Environment and Parks,  Alberta Health,  Alberta Health Services, 2019-06-08T21:30:38-00:00, urn:oid:2.49.0.1.124.1633709078.2019<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves",
+				"Author" : "Environment Canada,  Alberta Environment and Parks,  Alberta Health,  Alberta Health Services",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-08:feed.atom/urn:oid:2.49.0.1.124.1633709078.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-08/2019_06_08T21_30_38_00_00Iurn_oid_2.49.0.1.124.1633709078.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190609132938+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.1536, 50.3452 ],
 							[ -95.1657, 50.1839 ],
 							[ -95.1535, 49.9987 ],
@@ -1695,79 +1840,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-08/2019_06_08T23_49_35_00_00Iurn_oid_2.49.0.1.124.2914561017.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190609154835+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -120.0013, 58.9507 ],
-							[ -120.0012, 58.0792 ],
-							[ -120.0012, 57.3805 ],
-							[ -119.0525, 57.3698 ],
-							[ -118.1545, 57.3829 ],
-							[ -117.5271, 57.3742 ],
-							[ -116.9892300975, 57.3817574251 ],
-							[ -116.8378, 57.3817 ],
-							[ -116.6607, 57.3819 ],
-							[ -116.5466, 57.382 ],
-							[ -116.0715, 57.3819 ],
-							[ -115.9511, 57.3816 ],
-							[ -115.4503, 57.3605 ],
-							[ -114.975, 57.3807 ],
-							[ -114.4621, 57.3571 ],
-							[ -114, 57.3812 ],
-							[ -113.9554, 57.7377 ],
-							[ -113.9999, 58.0812 ],
-							[ -113.9889, 58.1699 ],
-							[ -114, 58.253 ],
-							[ -113.9835, 58.5248 ],
-							[ -113.9999, 58.7762 ],
-							[ -113.9571, 59.129 ],
-							[ -114, 59.475 ],
-							[ -114.7403, 59.4899 ],
-							[ -115.5532, 59.4759 ],
-							[ -115.553, 59.6481 ],
-							[ -115.5576, 59.6483 ],
-							[ -115.5692, 59.6489 ],
-							[ -115.5455, 59.8124 ],
-							[ -115.5673, 59.9981 ],
-							[ -115.5673, 59.9981 ],
-							[ -116.2895, 60.0078 ],
-							[ -116.9878, 59.9995 ],
-							[ -117.4613, 60.0076 ],
-							[ -117.9999, 59.9996 ],
-							[ -118.9303, 60.0137 ],
-							[ -120.0013, 60.0004 ],
-							[ -120.0013, 59.4749 ],
-							[ -120.0013, 58.9507 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 8, 2019 21:30",
-				"Expires_UTC" : "June 9, 2019 13:29",
-				"Summary" : "Description: Smoke is causing poor air quality and reducing visibility. Smoke is expected or occurring.\n\nAir quality in northern Alberta will continue to remain poor near and to the southeast of wildfires.\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors, and those with cardiovascular or lung disease, such as asthma, are especially at risk.\n\nPeople with lung diseases, such as asthma and COPD, can be particularly sensitive to air pollution. They will generally experience more serious health effects at lower levels. Pollution can aggravate their diseases, leading to increased medication use, doctor and emergency room visits, and hospital visits.\n\nFor more information please visit Alberta Health Services at www.albertahealthservices.ca/news/air.aspx.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-06-09T13:29:38-00:00<br>Originated from CAP Alert: Environment Canada,  Alberta Environment and Parks,  Alberta Health,  Alberta Health Services, 2019-06-08T21:30:38-00:00, urn:oid:2.49.0.1.124.1633709078.2019<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves",
-				"Author" : "Environment Canada,  Alberta Environment and Parks,  Alberta Health,  Alberta Health Services",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-08:feed.atom/urn:oid:2.49.0.1.124.1633709078.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-08/2019_06_08T21_30_38_00_00Iurn_oid_2.49.0.1.124.1633709078.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190609132938+00:00"
 			}
 		},
 		{
