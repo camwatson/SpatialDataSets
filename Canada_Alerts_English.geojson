@@ -60,6 +60,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.2803, 76.6381 ],
+							[ -83.138, 76.5178 ],
+							[ -83.1615, 76.298 ],
+							[ -82.0595, 76.2612 ],
+							[ -82.1153, 76.5344 ],
+							[ -82.072, 76.5808 ],
+							[ -82.4546, 76.6269 ],
+							[ -83.2803, 76.6381 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 11, 2019 15:06",
+				"Expires_UTC" : "June 11, 2019 21:59",
+				"Summary" : "Description: Strong easterly winds with gusts up to 100 km/h will continue at Grise Fiord. Winds are expected to weaken near noon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-06-11T21:59:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-11T15:06:00-00:00, urn:oid:2.49.0.1.124.3077874644.2019<br>Area: Grise Fiord",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-11:feed.atom/urn:oid:2.49.0.1.124.3077874644.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-11/2019_06_11T15_06_00_00_00Iurn_oid_2.49.0.1.124.3077874644.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190611215900+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -114.7182, 56.6245 ],
 							[ -114.7458, 56.6245 ],
 							[ -114.7459, 56.6173 ],
@@ -328,25 +369,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 11, 2019 19:18",
-				"Expires_UTC" : "June 11, 2019 20:18",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-06-11T20:18:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-11T19:18:04-00:00, urn:oid:2.49.0.1.124.1261193498.2019<br>Area: Grise Fiord",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 11, 2019 15:06",
+				"Expires_UTC" : "June 12, 2019 04:16",
+				"Summary" : "Description: Rain, heavy at times is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nRainfall with total amounts of 25 mm is expected to fall in Grise Fiord today. The rainfall is expected to end late this afternoon.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-06-12T04:16:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-11T15:06:23-00:00, urn:oid:2.49.0.1.124.0324240947.2019<br>Area: Grise Fiord",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-11:feed.atom/urn:oid:2.49.0.1.124.1261193498.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-11/2019_06_11T19_18_04_00_00Iurn_oid_2.49.0.1.124.1261193498.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-11:feed.atom/urn:oid:2.49.0.1.124.0324240947.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-11/2019_06_11T15_06_23_00_00Iurn_oid_2.49.0.1.124.0324240947.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190611201804+00:00"
+				"Expires_FMEFormat" : "20190612041623+00:00"
 			}
 		},
 		{
@@ -389,47 +430,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-11/2019_06_11T20_08_33_00_00Iurn_oid_2.49.0.1.124.0365523543.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190612120733+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -83.2803, 76.6381 ],
-							[ -83.138, 76.5178 ],
-							[ -83.1615, 76.298 ],
-							[ -82.0595, 76.2612 ],
-							[ -82.1153, 76.5344 ],
-							[ -82.072, 76.5808 ],
-							[ -82.4546, 76.6269 ],
-							[ -83.2803, 76.6381 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 11, 2019 19:17",
-				"Expires_UTC" : "June 11, 2019 20:17",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-06-11T20:17:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-11T19:17:35-00:00, urn:oid:2.49.0.1.124.1857264931.2019<br>Area: Grise Fiord",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-11:feed.atom/urn:oid:2.49.0.1.124.1857264931.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-11/2019_06_11T19_17_35_00_00Iurn_oid_2.49.0.1.124.1857264931.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190611201735+00:00"
 			}
 		},
 		{
@@ -604,25 +604,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 11, 2019 19:38",
-				"Expires_UTC" : "June 11, 2019 22:27",
-				"Summary" : "Description: At 2:37 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to nickel size hail.\n\nThis severe thunderstorm is located 9 kilometres east of Northwest Bay, moving southeast at 35 km/h. \n\nLocations impacted include:\nWindy Point and Old Mine Centre.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-06-11T22:27:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-11T19:38:52-00:00, urn:oid:2.49.0.1.124.4172268221.2019<br>Area: Fort Frances - Emo - Rainy River, Seine River Village - Mine Centre",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 11, 2019 20:17",
+				"Expires_UTC" : "June 11, 2019 21:17",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-06-11T21:17:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-11T20:17:23-00:00, urn:oid:2.49.0.1.124.1037794778.2019<br>Area: Fort Frances - Emo - Rainy River, Seine River Village - Mine Centre",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-11:feed.atom/urn:oid:2.49.0.1.124.4172268221.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-11/2019_06_11T19_38_52_00_00Iurn_oid_2.49.0.1.124.4172268221.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-11:feed.atom/urn:oid:2.49.0.1.124.1037794778.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-11/2019_06_11T20_17_23_00_00Iurn_oid_2.49.0.1.124.1037794778.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190611222752+00:00"
+				"Expires_FMEFormat" : "20190611211723+00:00"
 			}
 		},
 		{
