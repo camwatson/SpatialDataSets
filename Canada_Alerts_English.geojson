@@ -325,57 +325,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -109.9226, 52.3251 ],
-							[ -109.9228, 52.3318 ],
-							[ -109.9288, 52.332 ],
-							[ -109.9291, 52.34 ],
-							[ -109.9348, 52.3399 ],
-							[ -109.9349, 52.3465 ],
-							[ -109.9482, 52.3464 ],
-							[ -109.9477, 52.3249 ],
-							[ -109.9226, 52.3251 ]
-						]
-					],
-					[
-						[
-							[ -109.7008, 52.4893 ],
-							[ -109.7007, 52.496 ],
-							[ -109.7127, 52.4959 ],
-							[ -109.7127, 52.4892 ],
-							[ -109.7008, 52.4893 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Infra",
-				"Title" : "Update: Sasktel Service Outage In Macklin, Senlac, And The Surrounding Areas",
-				"Category" : "Actual",
-				"event" : "Telephone Service",
-				"urgency" : "Immediate",
-				"certainty" : "Observed",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 10, 2019 17:24",
-				"Expires_UTC" : "June 11, 2019 23:45",
-				"Summary" : "Description: UPDATE: SaskTel crews have arrived on site and are beginning work to repair the cut cable. However, due to the complex and time-consuming nature of the work involved it will likely take several hours before all SaskTel services are restored in Macklin, Senlac, and the surrounding areas.<br>Expires: 2019-06-11T23:45:00-06:00<br>Originated from CAP Alert: SK SaskTel, 2019-06-10T17:24:19-06:00, A7C48D1C-F84D-033B-8C50-CECB4B707208<br>Area: Town of Macklin and Village of Senlac",
-				"Author" : "SK SaskTel",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-10:feed.atom/A7C48D1C-F84D-033B-8C50-CECB4B707208",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-10/2019_06_10T17_24_19_06_00IA7C48D1C_F84D_033B_8C50_CECB4B707208.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190611234500-06:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.8133, 48.8226 ],
 							[ -59.2492, 48.6594 ],
 							[ -59.3848, 48.3577 ],
@@ -780,6 +729,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-11/2019_06_11T11_18_53_00_00Iurn_oid_2.49.0.1.124.4138314966.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190612031753+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -109.9226, 52.3251 ],
+							[ -109.9228, 52.3318 ],
+							[ -109.9288, 52.332 ],
+							[ -109.9291, 52.34 ],
+							[ -109.9348, 52.3399 ],
+							[ -109.9349, 52.3465 ],
+							[ -109.9482, 52.3464 ],
+							[ -109.9477, 52.3249 ],
+							[ -109.9226, 52.3251 ]
+						]
+					],
+					[
+						[
+							[ -109.7008, 52.4893 ],
+							[ -109.7007, 52.496 ],
+							[ -109.7127, 52.4959 ],
+							[ -109.7127, 52.4892 ],
+							[ -109.7008, 52.4893 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Infra",
+				"Title" : "Cancelled: Sasktel Service Outage In Macklin, Senlac, And The Surrounding Areas",
+				"Category" : "Actual",
+				"event" : "Telephone Service",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 11, 2019 06:02",
+				"Expires_UTC" : "June 11, 2019 06:30",
+				"Summary" : "Description: CANCELLED: All SaskTel services were restored in and around Macklin and Senlac by 3:30 am this morning.<br>Expires: 2019-06-11T06:30:00-06:00<br>Originated from CAP Alert: SK SaskTel, 2019-06-11T06:02:58-06:00, EF7D05DC-DA71-D203-6EBB-98A5C2F4985C<br>Area: Town of Macklin and Village of Senlac",
+				"Author" : "SK SaskTel",
+				"msgType" : "Cancel",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-11:feed.atom/EF7D05DC-DA71-D203-6EBB-98A5C2F4985C",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-11/2019_06_11T06_02_58_06_00IEF7D05DC_DA71_D203_6EBB_98A5C2F4985C.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190611063000-06:00"
 			}
 		}
 	]
