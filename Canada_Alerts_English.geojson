@@ -314,69 +314,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.1987, 46.8706 ],
-							[ -71.239, 46.8407 ],
-							[ -71.2305, 46.8046 ],
-							[ -71.2817, 46.7678 ],
-							[ -71.4244, 46.7563 ],
-							[ -71.6734, 46.6944 ],
-							[ -71.751, 46.6915 ],
-							[ -71.7515, 46.6645 ],
-							[ -71.7487, 46.6238 ],
-							[ -71.7487, 46.599 ],
-							[ -71.6552, 46.6056 ],
-							[ -71.4554, 46.6732 ],
-							[ -71.2506, 46.7199 ],
-							[ -71.18, 46.7799 ],
-							[ -71.0595, 46.787 ],
-							[ -70.8706, 46.8487 ],
-							[ -70.6032, 46.9421 ],
-							[ -70.3861, 47.039 ],
-							[ -70.3868, 47.1176 ],
-							[ -70.3841, 47.2566 ],
-							[ -70.3835, 47.3305 ],
-							[ -70.3827, 47.3827 ],
-							[ -70.382, 47.4243 ],
-							[ -70.3816, 47.4476 ],
-							[ -70.3816, 47.4518 ],
-							[ -70.3817, 47.5237 ],
-							[ -70.5162, 47.4827 ],
-							[ -70.7832, 47.1098 ],
-							[ -70.9214, 47.071 ],
-							[ -71.1987, 46.8706 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 14, 2019 18:53",
-				"Expires_UTC" : "June 14, 2019 21:52",
-				"Summary" : "Description: Squalls with wind gusts up to 45 knots are expected or occurring in the area.\n\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-06-14T21:52:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-14T18:53:24-00:00, urn:oid:2.49.0.1.124.2470433090.2019<br>Area: Beauport to L'Isle-aux-Coudres, Donnacona to Beauport",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-14:feed.atom/urn:oid:2.49.0.1.124.2470433090.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-14/2019_06_14T18_53_24_00_00Iurn_oid_2.49.0.1.124.2470433090.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190614215224+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.4207, 47.5744 ],
 							[ -58.42, 47.6535 ],
 							[ -58.42, 47.6666 ],
@@ -949,6 +886,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-14/2019_06_14T18_42_33_00_00Iurn_oid_2.49.0.1.124.1404350155.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190615044033+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.1987, 46.8706 ],
+							[ -71.239, 46.8407 ],
+							[ -71.2305, 46.8046 ],
+							[ -71.2817, 46.7678 ],
+							[ -71.4244, 46.7563 ],
+							[ -71.6734, 46.6944 ],
+							[ -71.751, 46.6915 ],
+							[ -71.7515, 46.6645 ],
+							[ -71.7487, 46.6238 ],
+							[ -71.7487, 46.599 ],
+							[ -71.6552, 46.6056 ],
+							[ -71.4554, 46.6732 ],
+							[ -71.2506, 46.7199 ],
+							[ -71.18, 46.7799 ],
+							[ -71.0595, 46.787 ],
+							[ -70.8706, 46.8487 ],
+							[ -70.6032, 46.9421 ],
+							[ -70.3861, 47.039 ],
+							[ -70.3868, 47.1176 ],
+							[ -70.3841, 47.2566 ],
+							[ -70.3835, 47.3305 ],
+							[ -70.3827, 47.3827 ],
+							[ -70.382, 47.4243 ],
+							[ -70.3816, 47.4476 ],
+							[ -70.3816, 47.4518 ],
+							[ -70.3817, 47.5237 ],
+							[ -70.5162, 47.4827 ],
+							[ -70.7832, 47.1098 ],
+							[ -70.9214, 47.071 ],
+							[ -71.1987, 46.8706 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Squall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 14, 2019 19:56",
+				"Expires_UTC" : "June 14, 2019 20:56",
+				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2019-06-14T20:56:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-14T19:56:51-00:00, urn:oid:2.49.0.1.124.1691390776.2019<br>Area: Beauport to L'Isle-aux-Coudres, Donnacona to Beauport",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-14:feed.atom/urn:oid:2.49.0.1.124.1691390776.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-14/2019_06_14T19_56_51_00_00Iurn_oid_2.49.0.1.124.1691390776.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190614205651+00:00"
 			}
 		}
 	]
