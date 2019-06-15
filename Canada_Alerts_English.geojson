@@ -58,6 +58,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -103.2253, 49.5226 ],
+							[ -103.2167, 49.5226 ],
+							[ -103.2167, 49.5226 ],
+							[ -103.0143, 49.5181 ],
+							[ -102.819, 49.5223 ],
+							[ -102.8084, 49.6507 ],
+							[ -102.8192, 49.7846 ],
+							[ -103.0252, 49.7896 ],
+							[ -103.2252, 49.7847 ],
+							[ -103.4334, 49.7893 ],
+							[ -103.6316, 49.7847 ],
+							[ -103.6393, 49.657 ],
+							[ -103.6322, 49.5225 ],
+							[ -103.6193, 49.5225 ],
+							[ -103.6193, 49.5225 ],
+							[ -103.4132, 49.5181 ],
+							[ -103.2253, 49.5226 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 14, 2019 23:15",
+				"Expires_UTC" : "June 15, 2019 02:13",
+				"Summary" : "Description: Environment Canada meteorologists are tracking a severe thunderstorm capable of producing rainfall in excess of 50 mm and quarter-sized hail.\n\nAt 5:12 PM CST Doppler RADAR indicated that this severe thunderstorm was located about 20 km west of Stoughton and was moving toward the east at 20 km/h.\n\n###\n\nFast-moving water across a road can sweep a vehicle away. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-06-15T02:13:26-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-14T23:15:26-00:00, urn:oid:2.49.0.1.124.2565943592.2019<br>Area: R.M. of Griffin including Griffin and Froude, R.M. of Tecumseh including Stoughton Forget and Heward",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-14:feed.atom/urn:oid:2.49.0.1.124.2565943592.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-14/2019_06_14T23_15_26_00_00Iurn_oid_2.49.0.1.124.2565943592.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190615021326+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -109.0767, 53.2852 ],
 							[ -109.0766, 53.2779 ],
 							[ -108.6362, 53.2783 ],
@@ -426,75 +476,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Severe Thunderstorm Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 14, 2019 23:31",
-				"Expires_UTC" : "June 15, 2019 00:30",
-				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\nThe threat of severe thunderstorms has diminished.\n\n###<br>Expires: 2019-06-15T00:30:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-14T23:31:39-00:00, urn:oid:2.49.0.1.124.1697411932.2019<br>Area: Edmundston and Madawaska County, western half of Restigouche County, Campbellton and eastern half of Restigouche County, Grand Falls and Victoria County",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 14, 2019 16:29",
+				"Expires_UTC" : "June 15, 2019 03:27",
+				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing damaging wind gusts, large hail and heavy rain.\n\nStrong thunderstorms could develop late this afternoon and early this evening.\n\n###\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-06-15T03:27:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-14T16:29:39-00:00, urn:oid:2.49.0.1.124.4045790709.2019<br>Area: Edmundston and Madawaska County, western half of Restigouche County, Campbellton and eastern half of Restigouche County, Grand Falls and Victoria County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-14:feed.atom/urn:oid:2.49.0.1.124.1697411932.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-14/2019_06_14T23_31_39_00_00Iurn_oid_2.49.0.1.124.1697411932.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-14:feed.atom/urn:oid:2.49.0.1.124.4045790709.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-14/2019_06_14T16_29_39_00_00Iurn_oid_2.49.0.1.124.4045790709.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190615003039+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -103.2253, 49.5226 ],
-							[ -103.2167, 49.5226 ],
-							[ -103.2167, 49.5226 ],
-							[ -103.0143, 49.5181 ],
-							[ -102.819, 49.5223 ],
-							[ -102.8084, 49.6507 ],
-							[ -102.8192, 49.7846 ],
-							[ -103.0252, 49.7896 ],
-							[ -103.2252, 49.7847 ],
-							[ -103.4334, 49.7893 ],
-							[ -103.6316, 49.7847 ],
-							[ -103.6393, 49.657 ],
-							[ -103.6322, 49.5225 ],
-							[ -103.6193, 49.5225 ],
-							[ -103.6193, 49.5225 ],
-							[ -103.4132, 49.5181 ],
-							[ -103.2253, 49.5226 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 14, 2019 23:34",
-				"Expires_UTC" : "June 15, 2019 00:33",
-				"Summary" : "Description: At 5:30 PM CST Doppler RADAR indicated that the thunderstorm that prompted the warning had weakened to below severe limits.  Pea-sized hail and heavy rain are still possible with this thunderstorm.\n\n###<br>Expires: 2019-06-15T00:33:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-14T23:34:04-00:00, urn:oid:2.49.0.1.124.3977965376.2019<br>Area: R.M. of Griffin including Griffin and Froude, R.M. of Tecumseh including Stoughton Forget and Heward",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-14:feed.atom/urn:oid:2.49.0.1.124.3977965376.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-14/2019_06_14T23_34_04_00_00Iurn_oid_2.49.0.1.124.3977965376.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190615003304+00:00"
+				"Expires_FMEFormat" : "20190615032739+00:00"
 			}
 		},
 		{
@@ -563,25 +563,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Severe Thunderstorm Watch Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 14, 2019 23:57",
-				"Expires_UTC" : "June 15, 2019 06:59",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-06-15T06:59:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-14T23:57:31-00:00, urn:oid:2.49.0.1.124.2146043773.2019<br>Area: Rimouski Wildlife Reserve area, Amqui area, Matapédia area, Témiscouata",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 15, 2019 00:33",
+				"Expires_UTC" : "June 15, 2019 01:33",
+				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n###<br>Expires: 2019-06-15T01:33:26-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-15T00:33:26-00:00, urn:oid:2.49.0.1.124.1643909551.2019<br>Area: Rimouski Wildlife Reserve area, Amqui area, Matapédia area, Témiscouata",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-14:feed.atom/urn:oid:2.49.0.1.124.2146043773.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-14/2019_06_14T23_57_31_00_00Iurn_oid_2.49.0.1.124.2146043773.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-15:feed.atom/urn:oid:2.49.0.1.124.1643909551.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-15/2019_06_15T00_33_26_00_00Iurn_oid_2.49.0.1.124.1643909551.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190615065931+00:00"
+				"Expires_FMEFormat" : "20190615013326+00:00"
 			}
 		},
 		{
@@ -811,24 +811,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
+				"Title" : "Weather Advisory Ended",
 				"Category" : "Actual",
 				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 14, 2019 21:54",
-				"Expires_UTC" : "June 15, 2019 03:34",
-				"Summary" : "Description: Conditions will be favourable for the development of funnel clouds today.\n\nEnvironment Canada meteorologists received reports of funnel clouds near Olds around 3:20 P.M.. The thunderstorms responsible for the funnel clouds are moving towards the southeast at 45 km/h.\n\n###\n\nThese types of funnel clouds are generated by weak rotation under rapidly growing clouds or weak thunderstorms. This weak rotation is normally not a danger near the ground. However, there is a chance that this rotation could intensify and become a weak landspout tornado.\n\nIf conditions become more favourable for the development of landspout tornadoes, watches and warnings will be issued by Environment Canada.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2019-06-15T03:34:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-14T21:54:41-00:00, urn:oid:2.49.0.1.124.1188074959.2019<br>Area: M.D. of Bighorn near Ghost River Wilderness, M.D. of Bighorn near Canmore Exshaw and Ghost Lake, Kananaskis Improvement District near Kananaskis Village, Kananaskis Improvement District near Highwood House, Mountain View Co. near Sundre, Mountain View Co. near Olds and Didsbury, Mountain View Co. near Cremona and Water Valley, Mountain View Co. near Carstairs and Stirlingville, Rocky View Co. near Airdrie and Crossfield, Rocky View Co. near Bottrel and Madden, Rocky View Co. near Cochrane, Kneehill Co. near Torrington and Wimborne, Kneehill Co. near Trochu and Huxley, Kneehill Co. near Three Hills, Kneehill Co. near Acme and Linden, Kneehill Co. near Carbon, Starland Co. near Rumsey and Rowley, Starland Co. near Morrin and Munson, Starland Co. near Michichi and Delia, Wheatland Co. near Rockyford and Rosebud, Wheatland Co. near Hwys 569 and 848, Town of Drumheller, Rocky View Co. near Irricana Beiseker and Kathyrn, S.A. 2 near Finnegan and Little Fish Lake Prov. Park",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 15, 2019 00:24",
+				"Expires_UTC" : "June 15, 2019 01:24",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2019-06-15T01:24:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-15T00:24:15-00:00, urn:oid:2.49.0.1.124.2602602827.2019<br>Area: M.D. of Bighorn near Ghost River Wilderness, M.D. of Bighorn near Canmore Exshaw and Ghost Lake, Kananaskis Improvement District near Kananaskis Village, Kananaskis Improvement District near Highwood House, Mountain View Co. near Sundre, Mountain View Co. near Olds and Didsbury, Mountain View Co. near Cremona and Water Valley, Mountain View Co. near Carstairs and Stirlingville, Rocky View Co. near Airdrie and Crossfield, Rocky View Co. near Bottrel and Madden, Rocky View Co. near Cochrane, Kneehill Co. near Torrington and Wimborne, Kneehill Co. near Trochu and Huxley, Kneehill Co. near Three Hills, Kneehill Co. near Acme and Linden, Kneehill Co. near Carbon, Starland Co. near Rumsey and Rowley, Starland Co. near Morrin and Munson, Starland Co. near Michichi and Delia, Wheatland Co. near Rockyford and Rosebud, Wheatland Co. near Hwys 569 and 848, Town of Drumheller, Rocky View Co. near Irricana Beiseker and Kathyrn, S.A. 2 near Finnegan and Little Fish Lake Prov. Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-14:feed.atom/urn:oid:2.49.0.1.124.1188074959.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-14/2019_06_14T21_54_41_00_00Iurn_oid_2.49.0.1.124.1188074959.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-15:feed.atom/urn:oid:2.49.0.1.124.2602602827.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-15/2019_06_15T00_24_15_00_00Iurn_oid_2.49.0.1.124.2602602827.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190615033441+00:00"
+				"Expires_FMEFormat" : "20190615012415+00:00"
 			}
 		},
 		{
