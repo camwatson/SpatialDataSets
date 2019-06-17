@@ -47,6 +47,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 16, 2019 22:06",
+				"Expires_UTC" : "June 17, 2019 14:05",
+				"Summary" : "Description: Visibilities in fog are expected to improve by Monday morning.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-06-17T14:05:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-16T22:06:44-00:00, urn:oid:2.49.0.1.124.0648006039.2019<br>Area: Gjoa Haven",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-16:feed.atom/urn:oid:2.49.0.1.124.0648006039.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-16/2019_06_16T22_06_44_00_00Iurn_oid_2.49.0.1.124.0648006039.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190617140544+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -120.0013, 58.9507 ],
 							[ -120.0012, 58.0792 ],
 							[ -120.0012, 57.3805 ],
@@ -218,47 +259,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-17/2019_06_17T02_07_13_00_00Iurn_oid_2.49.0.1.124.2525900387.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190617180613+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 17, 2019 02:26",
-				"Expires_UTC" : "June 17, 2019 03:26",
-				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2019-06-17T03:26:13-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-17T02:26:13-00:00, urn:oid:2.49.0.1.124.4283549164.2019<br>Area: Gjoa Haven",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-17:feed.atom/urn:oid:2.49.0.1.124.4283549164.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-17/2019_06_17T02_26_13_00_00Iurn_oid_2.49.0.1.124.4283549164.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190617032613+00:00"
 			}
 		}
 	]
