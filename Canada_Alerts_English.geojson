@@ -696,6 +696,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 20, 2019 13:52",
+				"Expires_UTC" : "June 20, 2019 21:51",
+				"Summary" : "Description: Wet weather expected this weekend.\n\nA low pressure system will slowly cross Nova Scotia on Friday before moving northeastward toward Newfoundland on Saturday. Rain ahead of this system will begin over the Magdalen Islands on Friday morning and will likely persist into Sunday as the low slowly departs.\n\nTotal rainfall amounts from this system will likely reach or exceed 50 mm by the end of the event, and a rainfall warning may be issued with future updates.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-06-20T21:51:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-20T13:52:08-00:00, urn:oid:2.49.0.1.124.2127854202.2019<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-20:feed.atom/urn:oid:2.49.0.1.124.2127854202.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-20/2019_06_20T13_52_08_00_00Iurn_oid_2.49.0.1.124.2127854202.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190620215108+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -118.831, 53.1011 ],
 							[ -118.8459, 53.063 ],
 							[ -118.8067, 53.007 ],
@@ -1335,46 +1375,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-20/2019_06_20T10_52_54_00_00Iurn_oid_2.49.0.1.124.3290927977.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190621025154+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 20, 2019 18:35",
-				"Expires_UTC" : "June 20, 2019 19:34",
-				"Summary" : "Description: A rainfall warning has been issued.\n\n###<br>Expires: 2019-06-20T19:34:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-20T18:35:11-00:00, urn:oid:2.49.0.1.124.3556242817.2019<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-20:feed.atom/urn:oid:2.49.0.1.124.3556242817.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-20/2019_06_20T18_35_11_00_00Iurn_oid_2.49.0.1.124.3556242817.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190620193411+00:00"
 			}
 		},
 		{
