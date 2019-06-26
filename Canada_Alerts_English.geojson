@@ -469,6 +469,52 @@
 				"EnclosureType" : "audio/mpeg",
 				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2019/6951-0.mp3"
 			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.1168, 44.2981 ],
+							[ -79.1254, 44.5711 ],
+							[ -79.3102, 44.6334 ],
+							[ -79.3167, 44.8032 ],
+							[ -79.3962, 44.7602 ],
+							[ -79.4671, 44.5367 ],
+							[ -79.5961, 44.4572 ],
+							[ -79.7573, 44.3841 ],
+							[ -79.6004, 44.3261 ],
+							[ -79.5983, 44.2122 ],
+							[ -79.48, 44.1477 ],
+							[ -79.4177, 44.2745 ],
+							[ -79.1168, 44.2981 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 26, 2019 08:28",
+				"Expires_UTC" : "June 26, 2019 15:09",
+				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots and frequent lightning.\n\nThunderstorms have developed over the area early this morning. These thunderstorms have the potential to produce wind gusts of 35 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-06-26T15:09:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-26T08:28:45-00:00, urn:oid:2.49.0.1.124.1180024371.2019<br>Area: Lake Simcoe",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-26:feed.atom/urn:oid:2.49.0.1.124.1180024371.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-26/2019_06_26T08_28_45_00_00Iurn_oid_2.49.0.1.124.1180024371.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190626150945+00:00"
+			}
 		}
 	]
 }
