@@ -1013,25 +1013,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 26, 2019 01:15",
-				"Expires_UTC" : "June 26, 2019 02:15",
-				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n\n###<br>Expires: 2019-06-26T02:15:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-26T01:15:36-00:00, urn:oid:2.49.0.1.124.1760515586.2019<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 25, 2019 23:20",
+				"Expires_UTC" : "June 26, 2019 05:33",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nThunderstorms have developed across the region and are expected to continue into the evening.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2019-06-26T05:33:07-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-25T23:20:07-00:00, urn:oid:2.49.0.1.124.3107301864.2019<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-26:feed.atom/urn:oid:2.49.0.1.124.1760515586.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-26/2019_06_26T01_15_36_00_00Iurn_oid_2.49.0.1.124.1760515586.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-25:feed.atom/urn:oid:2.49.0.1.124.3107301864.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-25/2019_06_25T23_20_07_00_00Iurn_oid_2.49.0.1.124.3107301864.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190626021536+00:00"
+				"Expires_FMEFormat" : "20190626053307+00:00"
 			}
 		},
 		{
@@ -1169,6 +1169,55 @@
 				"Expires_FMEFormat" : "20190702112409-06:00",
 				"EnclosureType" : "audio/mpeg",
 				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2019/6945-0.mp3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.3362, 51.1626 ],
+							[ -84.05, 51.1582 ],
+							[ -83.9119, 51.2539 ],
+							[ -83.2673, 51.4893 ],
+							[ -82.8342, 51.8669 ],
+							[ -82.9115, 51.9291 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -87.9904, 52.2453 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.4321, 51.159 ],
+							[ -85.0663, 51.1703 ],
+							[ -84.8479, 51.1686 ],
+							[ -84.57, 51.0622 ],
+							[ -84.4653, 51.0571 ],
+							[ -84.3362, 51.1626 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 26, 2019 02:21",
+				"Expires_UTC" : "June 26, 2019 18:20",
+				"Summary" : "Description: Rain, at times heavy, continues.\n\nHeavy rain will continue this evening and into the overnight hours. between 40 to 50 mm of rain has already fallen in the Ogoki area. Additional rainfall amounts of 15 to 25 mm are expected tonight resulting in rainfall amounts of 50 to 75 mm in the Ogoki area. \n\nRain will gradually taper to scattered showers early Wednesday.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-06-26T18:20:50-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-26T02:21:50-00:00, urn:oid:2.49.0.1.124.3307091188.2019<br>Area: Fort Hope - Lansdowne House - Ogoki",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-26:feed.atom/urn:oid:2.49.0.1.124.3307091188.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-26/2019_06_26T02_21_50_00_00Iurn_oid_2.49.0.1.124.3307091188.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190626182050+00:00"
 			}
 		}
 	]
