@@ -326,6 +326,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -84.3362, 51.1626 ],
+							[ -84.05, 51.1582 ],
+							[ -83.9119, 51.2539 ],
+							[ -83.2673, 51.4893 ],
+							[ -82.8342, 51.8669 ],
+							[ -82.9115, 51.9291 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -87.9904, 52.2453 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.4321, 51.159 ],
+							[ -85.0663, 51.1703 ],
+							[ -84.8479, 51.1686 ],
+							[ -84.57, 51.0622 ],
+							[ -84.4653, 51.0571 ],
+							[ -84.3362, 51.1626 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 26, 2019 02:21",
+				"Expires_UTC" : "June 26, 2019 18:20",
+				"Summary" : "Description: Rain, at times heavy, continues.\n\nHeavy rain will continue this evening and into the overnight hours. between 40 to 50 mm of rain has already fallen in the Ogoki area. Additional rainfall amounts of 15 to 25 mm are expected tonight resulting in rainfall amounts of 50 to 75 mm in the Ogoki area. \n\nRain will gradually taper to scattered showers early Wednesday.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-06-26T18:20:50-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-26T02:21:50-00:00, urn:oid:2.49.0.1.124.3307091188.2019<br>Area: Fort Hope - Lansdowne House - Ogoki",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-26:feed.atom/urn:oid:2.49.0.1.124.3307091188.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-26/2019_06_26T02_21_50_00_00Iurn_oid_2.49.0.1.124.3307091188.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190626182050+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -114.4301, 52.2754 ],
 							[ -114.4315, 52.2537 ],
 							[ -114.4302, 52.2317 ],
@@ -561,80 +610,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-26/2019_06_26T00_53_46_00_00Iurn_oid_2.49.0.1.124.1769436300.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190626052946+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -103.6438, 50.0473 ],
-							[ -103.6521, 49.9627 ],
-							[ -103.6442, 49.8722 ],
-							[ -103.6379, 49.8719 ],
-							[ -103.6318, 49.8721 ],
-							[ -103.6376, 49.8286 ],
-							[ -103.6316, 49.7847 ],
-							[ -103.4331, 49.7811 ],
-							[ -103.2252, 49.7847 ],
-							[ -103.0236, 49.7789 ],
-							[ -102.8192, 49.7846 ],
-							[ -102.8185, 49.7953 ],
-							[ -102.816, 49.8283 ],
-							[ -102.8188, 49.8722 ],
-							[ -102.8212, 49.8723 ],
-							[ -102.824, 49.8721 ],
-							[ -102.8182, 49.9521 ],
-							[ -102.8253, 50.047 ],
-							[ -102.8144, 50.1326 ],
-							[ -102.8249, 50.2218 ],
-							[ -102.827, 50.2221 ],
-							[ -102.8308, 50.2218 ],
-							[ -102.8234, 50.2669 ],
-							[ -102.8308, 50.3094 ],
-							[ -102.8896, 50.3146 ],
-							[ -102.9681, 50.3094 ],
-							[ -103.0987, 50.3152 ],
-							[ -103.2432, 50.3093 ],
-							[ -103.3062, 50.3128 ],
-							[ -103.3803, 50.3095 ],
-							[ -103.3725, 50.3607 ],
-							[ -103.3805, 50.3968 ],
-							[ -103.3813, 50.3968 ],
-							[ -103.5095, 50.4036 ],
-							[ -103.6552, 50.3967 ],
-							[ -103.6666, 50.3077 ],
-							[ -103.6548, 50.2222 ],
-							[ -103.6499, 50.2212 ],
-							[ -103.6435, 50.2219 ],
-							[ -103.6559, 50.1384 ],
-							[ -103.6438, 50.0473 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 26, 2019 04:17",
-				"Expires_UTC" : "June 26, 2019 06:15",
-				"Summary" : "Description: At 10:16 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts and up to toonie size hail.\n\nThis thunderstorm is located approximately 40 km west of Windthorst and moving east-southeast at 50 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-06-26T06:15:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-26T04:17:16-00:00, urn:oid:2.49.0.1.124.4032396006.2019<br>Area: R.M. of Montmartre including Assiniboine Res., R.M. of Fillmore including Fillmore Creelman and Osage, R.M. of Chester including Windthorst Glenavon and Peebles, R.M. of Golden West including Ocean Man Res. and Handsworth",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-26:feed.atom/urn:oid:2.49.0.1.124.4032396006.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-26/2019_06_26T04_17_16_00_00Iurn_oid_2.49.0.1.124.4032396006.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190626061516+00:00"
 			}
 		},
 		{
@@ -974,6 +949,80 @@
 				"coordinates" : [
 					[
 						[
+							[ -103.6438, 50.0473 ],
+							[ -103.6521, 49.9627 ],
+							[ -103.6442, 49.8722 ],
+							[ -103.6379, 49.8719 ],
+							[ -103.6318, 49.8721 ],
+							[ -103.6376, 49.8286 ],
+							[ -103.6316, 49.7847 ],
+							[ -103.4331, 49.7811 ],
+							[ -103.2252, 49.7847 ],
+							[ -103.0236, 49.7789 ],
+							[ -102.8192, 49.7846 ],
+							[ -102.8185, 49.7953 ],
+							[ -102.816, 49.8283 ],
+							[ -102.8188, 49.8722 ],
+							[ -102.8212, 49.8723 ],
+							[ -102.824, 49.8721 ],
+							[ -102.8182, 49.9521 ],
+							[ -102.8253, 50.047 ],
+							[ -102.8144, 50.1326 ],
+							[ -102.8249, 50.2218 ],
+							[ -102.827, 50.2221 ],
+							[ -102.8308, 50.2218 ],
+							[ -102.8234, 50.2669 ],
+							[ -102.8308, 50.3094 ],
+							[ -102.8896, 50.3146 ],
+							[ -102.9681, 50.3094 ],
+							[ -103.0987, 50.3152 ],
+							[ -103.2432, 50.3093 ],
+							[ -103.3062, 50.3128 ],
+							[ -103.3803, 50.3095 ],
+							[ -103.3725, 50.3607 ],
+							[ -103.3805, 50.3968 ],
+							[ -103.3813, 50.3968 ],
+							[ -103.5095, 50.4036 ],
+							[ -103.6552, 50.3967 ],
+							[ -103.6666, 50.3077 ],
+							[ -103.6548, 50.2222 ],
+							[ -103.6499, 50.2212 ],
+							[ -103.6435, 50.2219 ],
+							[ -103.6559, 50.1384 ],
+							[ -103.6438, 50.0473 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 26, 2019 04:31",
+				"Expires_UTC" : "June 26, 2019 05:31",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-06-26T05:31:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-26T04:31:28-00:00, urn:oid:2.49.0.1.124.3578810592.2019<br>Area: R.M. of Montmartre including Assiniboine Res., R.M. of Fillmore including Fillmore Creelman and Osage, R.M. of Chester including Windthorst Glenavon and Peebles, R.M. of Golden West including Ocean Man Res. and Handsworth",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-26:feed.atom/urn:oid:2.49.0.1.124.3578810592.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-26/2019_06_26T04_31_28_00_00Iurn_oid_2.49.0.1.124.3578810592.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190626053128+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -114.0001, 59.4747 ],
 							[ -115.5557, 59.476 ],
 							[ -115.553, 59.6481 ],
@@ -1054,55 +1103,6 @@
 				"Expires_FMEFormat" : "20190702210208-06:00",
 				"EnclosureType" : "audio/mpeg",
 				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2019/6951-0.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -84.3362, 51.1626 ],
-							[ -84.05, 51.1582 ],
-							[ -83.9119, 51.2539 ],
-							[ -83.2673, 51.4893 ],
-							[ -82.8342, 51.8669 ],
-							[ -82.9115, 51.9291 ],
-							[ -83.0302, 52.2453 ],
-							[ -83.0383, 52.2455 ],
-							[ -87.9904, 52.2453 ],
-							[ -87.9963, 51.1568 ],
-							[ -87.4321, 51.159 ],
-							[ -85.0663, 51.1703 ],
-							[ -84.8479, 51.1686 ],
-							[ -84.57, 51.0622 ],
-							[ -84.4653, 51.0571 ],
-							[ -84.3362, 51.1626 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 26, 2019 02:21",
-				"Expires_UTC" : "June 26, 2019 18:20",
-				"Summary" : "Description: Rain, at times heavy, continues.\n\nHeavy rain will continue this evening and into the overnight hours. between 40 to 50 mm of rain has already fallen in the Ogoki area. Additional rainfall amounts of 15 to 25 mm are expected tonight resulting in rainfall amounts of 50 to 75 mm in the Ogoki area. \n\nRain will gradually taper to scattered showers early Wednesday.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-06-26T18:20:50-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-26T02:21:50-00:00, urn:oid:2.49.0.1.124.3307091188.2019<br>Area: Fort Hope - Lansdowne House - Ogoki",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-26:feed.atom/urn:oid:2.49.0.1.124.3307091188.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-26/2019_06_26T02_21_50_00_00Iurn_oid_2.49.0.1.124.3307091188.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190626182050+00:00"
 			}
 		}
 	]
