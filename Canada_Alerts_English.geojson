@@ -73,74 +73,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -99.4001, 56.3447 ],
-							[ -99.4001, 55.6367 ],
-							[ -99.4001, 55.155 ],
-							[ -99.4001, 54.6734 ],
-							[ -99.4001, 54.318 ],
-							[ -99.4001, 53.5312 ],
-							[ -99.4001, 53.5312 ],
-							[ -99.1402, 53.5312 ],
-							[ -99.0766, 53.5312 ],
-							[ -99.0233, 53.5311 ],
-							[ -98.8932, 53.5346 ],
-							[ -98.8358, 53.6608 ],
-							[ -98.4166, 53.747 ],
-							[ -98.2098, 53.6867 ],
-							[ -97.9365, 53.5279 ],
-							[ -97.8233, 53.5311 ],
-							[ -97.7232, 53.5312 ],
-							[ -97.5964, 53.5316 ],
-							[ -97.5964, 53.5316 ],
-							[ -96.8648, 53.5312 ],
-							[ -95.2447, 53.5312 ],
-							[ -95.2444, 53.5312 ],
-							[ -95.2755, 53.8828 ],
-							[ -95.3414, 54.2782 ],
-							[ -95.4553, 55.155 ],
-							[ -95.3897, 56.1245 ],
-							[ -95.4499, 57.11 ],
-							[ -96.2223, 57.1434 ],
-							[ -96.8659, 57.11 ],
-							[ -97.5981, 57.1683 ],
-							[ -98.2313, 57.1168 ],
-							[ -99.4001, 57.11 ],
-							[ -99.4001, 56.7023 ],
-							[ -99.4001, 56.3448 ],
-							[ -99.4001, 56.3447 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 30, 2019 06:20",
-				"Expires_UTC" : "June 30, 2019 07:20",
-				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n\n###<br>Expires: 2019-06-30T07:20:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-30T06:20:12-00:00, urn:oid:2.49.0.1.124.2444527323.2019<br>Area: Molson Lake and Bear Lake, Cross Lake and Jenpeg, Wabowden, Hwy 6 between Little Limestone Lake and Ponton, Norway House, South Indian Lake and Amisk Prov. Park, Split Lake and York Landing, Thompson Thicket Portage and Pikwitonei, Nelson House",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-30:feed.atom/urn:oid:2.49.0.1.124.2444527323.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T06_20_12_00_00Iurn_oid_2.49.0.1.124.2444527323.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190630072012+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -95.1536, 50.3956 ],
 							[ -95.1441, 50.6581 ],
 							[ -95.1536, 50.8931 ],
@@ -1530,25 +1462,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 30, 2019 06:20",
-				"Expires_UTC" : "June 30, 2019 07:20",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-06-30T07:20:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-30T06:20:51-00:00, urn:oid:2.49.0.1.124.2399050408.2019<br>Area: Falcon Lake and West Hawk Lake",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 30, 2019 06:03",
+				"Expires_UTC" : "June 30, 2019 09:01",
+				"Summary" : "Description: At 1:02 a.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThe thunderstorm is located near Caddy Lake and is moving eastward to the Ontario border.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-06-30T09:01:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-30T06:03:08-00:00, urn:oid:2.49.0.1.124.2728095694.2019<br>Area: Falcon Lake and West Hawk Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-30:feed.atom/urn:oid:2.49.0.1.124.2399050408.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T06_20_51_00_00Iurn_oid_2.49.0.1.124.2399050408.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-30:feed.atom/urn:oid:2.49.0.1.124.2728095694.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T06_03_08_00_00Iurn_oid_2.49.0.1.124.2728095694.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190630072051+00:00"
+				"Expires_FMEFormat" : "20190630090108+00:00"
 			}
 		},
 		{
