@@ -203,6 +203,58 @@
 				"coordinates" : [
 					[
 						[
+							[ -95.6512, 51.0357 ],
+							[ -95.6589, 50.7502 ],
+							[ -95.6512, 50.4834 ],
+							[ -95.5953, 50.4807 ],
+							[ -95.5342, 50.4832 ],
+							[ -95.5392, 50.4264 ],
+							[ -95.5344, 50.3649 ],
+							[ -95.5344, 50.3649 ],
+							[ -95.5341, 50.3649 ],
+							[ -95.3866, 50.3647 ],
+							[ -95.2598, 50.3701 ],
+							[ -95.255, 50.3829 ],
+							[ -95.259, 50.3959 ],
+							[ -95.2086, 50.392 ],
+							[ -95.1536, 50.3956 ],
+							[ -95.1441, 50.6581 ],
+							[ -95.1536, 50.8931 ],
+							[ -95.4014, 50.9706 ],
+							[ -95.6512, 51.0357 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 30, 2019 06:21",
+				"Expires_UTC" : "June 30, 2019 09:20",
+				"Summary" : "Description: At 1:21 a.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-06-30T09:20:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-30T06:21:41-00:00, urn:oid:2.49.0.1.124.0337990440.2019<br>Area: Nopiming Prov. Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-30:feed.atom/urn:oid:2.49.0.1.124.0337990440.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T06_21_41_00_00Iurn_oid_2.49.0.1.124.0337990440.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190630092041+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.1536, 50.3956 ],
 							[ -95.1441, 50.6581 ],
 							[ -95.1536, 50.8931 ],
@@ -811,25 +863,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Severe Thunderstorm Watch Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 30, 2019 03:52",
-				"Expires_UTC" : "June 30, 2019 15:51",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nThunderstorms approaching from Manitoba and Northwestern Minnesota are expected to arrive after midnight.\n\nMain threats are large hail and torrential downpours giving 25 to 50 mm of rain in an hour or less. There is a lesser threat of damaging winds. \n\nIntense lightning is possible from some of the thunderstorms.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2019-06-30T15:51:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-30T03:52:35-00:00, urn:oid:2.49.0.1.124.1439542434.2019<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson, Dryden - Vermilion Bay, Fort Frances - Emo - Rainy River, Seine River Village - Mine Centre",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 30, 2019 07:47",
+				"Expires_UTC" : "June 30, 2019 08:47",
+				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n\n###<br>Expires: 2019-06-30T08:47:03-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-30T07:47:03-00:00, urn:oid:2.49.0.1.124.0944341274.2019<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson, Dryden - Vermilion Bay, Fort Frances - Emo - Rainy River, Seine River Village - Mine Centre",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-30:feed.atom/urn:oid:2.49.0.1.124.1439542434.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T03_52_35_00_00Iurn_oid_2.49.0.1.124.1439542434.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-30:feed.atom/urn:oid:2.49.0.1.124.0944341274.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T07_47_03_00_00Iurn_oid_2.49.0.1.124.0944341274.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190630155135+00:00"
+				"Expires_FMEFormat" : "20190630084703+00:00"
 			}
 		},
 		{
@@ -945,77 +997,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Squall Watch Ended",
 				"Category" : "Actual",
 				"event" : "Squall",
 				"urgency" : "Past",
 				"certainty" : "Observed",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 30, 2019 07:03",
-				"Expires_UTC" : "June 30, 2019 08:03",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2019-06-30T08:03:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-30T07:03:52-00:00, urn:oid:2.49.0.1.124.3469084212.2019<br>Area: Lake of the Woods",
+				"LastUpdate_UTC" : "June 30, 2019 07:49",
+				"Expires_UTC" : "June 30, 2019 08:48",
+				"Summary" : "Description: Squalls are no longer expected over the area.\n\nThe strongest thunderstorms are well southeast of the lake.\n\n###<br>Expires: 2019-06-30T08:48:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-30T07:49:35-00:00, urn:oid:2.49.0.1.124.0878799336.2019<br>Area: Lake of the Woods",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-30:feed.atom/urn:oid:2.49.0.1.124.3469084212.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T07_03_52_00_00Iurn_oid_2.49.0.1.124.3469084212.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-30:feed.atom/urn:oid:2.49.0.1.124.0878799336.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T07_49_35_00_00Iurn_oid_2.49.0.1.124.0878799336.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190630080352+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.6512, 51.0357 ],
-							[ -95.6589, 50.7502 ],
-							[ -95.6512, 50.4834 ],
-							[ -95.5953, 50.4807 ],
-							[ -95.5342, 50.4832 ],
-							[ -95.5392, 50.4264 ],
-							[ -95.5344, 50.3649 ],
-							[ -95.5344, 50.3649 ],
-							[ -95.5341, 50.3649 ],
-							[ -95.3866, 50.3647 ],
-							[ -95.2598, 50.3701 ],
-							[ -95.255, 50.3829 ],
-							[ -95.259, 50.3959 ],
-							[ -95.2086, 50.392 ],
-							[ -95.1536, 50.3956 ],
-							[ -95.1441, 50.6581 ],
-							[ -95.1536, 50.8931 ],
-							[ -95.4014, 50.9706 ],
-							[ -95.6512, 51.0357 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 30, 2019 06:50",
-				"Expires_UTC" : "June 30, 2019 07:50",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-06-30T07:50:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-06-30T06:50:47-00:00, urn:oid:2.49.0.1.124.2496701478.2019<br>Area: Nopiming Prov. Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-06-30:feed.atom/urn:oid:2.49.0.1.124.2496701478.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T06_50_47_00_00Iurn_oid_2.49.0.1.124.2496701478.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190630075047+00:00"
+				"Expires_FMEFormat" : "20190630084835+00:00"
 			}
 		},
 		{
