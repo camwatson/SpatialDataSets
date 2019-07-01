@@ -9,6 +9,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ],
+							[ -84.0149, 49.9497 ],
+							[ -81.443, 49.5093 ],
+							[ -81.4419, 49.5091 ],
+							[ -81.4419, 49.5091 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.7833, 51.8258 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 1, 2019 07:22",
+				"Expires_UTC" : "July 1, 2019 10:21",
+				"Summary" : "Description: At 3:22 a.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-01T10:21:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-01T07:22:38-00:00, urn:oid:2.49.0.1.124.1382769885.2019<br>Area: Fraserdale - Pledger Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-01:feed.atom/urn:oid:2.49.0.1.124.1382769885.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-01/2019_07_01T07_22_38_00_00Iurn_oid_2.49.0.1.124.1382769885.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190701102138+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.2998, 45.8648 ],
 							[ -63.1438, 45.8448 ],
 							[ -63.1906, 45.811 ],
@@ -193,50 +244,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-06-30/2019_06_30T23_06_05_00_00Iurn_oid_2.49.0.1.124.2856220212.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190701105905+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.2369, 54.0006 ],
-							[ -83.7002, 54.0287 ],
-							[ -83.0302, 52.2453 ],
-							[ -82.9115, 51.9291 ],
-							[ -81.6114, 52.4649 ],
-							[ -81.4236, 52.4881 ],
-							[ -82.2216, 53.0256 ],
-							[ -81.9632, 53.3416 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.2294, 54.0004 ],
-							[ -82.2369, 54.0006 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 1, 2019 06:22",
-				"Expires_UTC" : "July 1, 2019 07:22",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-07-01T07:22:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-01T06:22:33-00:00, urn:oid:2.49.0.1.124.2154938393.2019<br>Area: Attawapiskat",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-01:feed.atom/urn:oid:2.49.0.1.124.2154938393.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-01/2019_07_01T06_22_33_00_00Iurn_oid_2.49.0.1.124.2154938393.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190701072233+00:00"
 			}
 		},
 		{
