@@ -467,59 +467,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -91.2622, 48.0663 ],
-							[ -90.8938, 48.2226 ],
-							[ -90.7523, 48.0856 ],
-							[ -90.6192, 48.0971 ],
-							[ -90.5764, 48.1209 ],
-							[ -89.6538, 48.5979 ],
-							[ -91.2145, 48.9922 ],
-							[ -92.4487, 48.324 ],
-							[ -92.3755, 48.2178 ],
-							[ -92.2677, 48.2469 ],
-							[ -92.2918, 48.332 ],
-							[ -92.0183, 48.3238 ],
-							[ -92.0094, 48.2493 ],
-							[ -91.8718, 48.2029 ],
-							[ -91.7266, 48.1895 ],
-							[ -91.7254, 48.1148 ],
-							[ -91.6113, 48.0824 ],
-							[ -91.5747, 48.034 ],
-							[ -91.4295, 48.0466 ],
-							[ -91.2622, 48.0663 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 4, 2019 01:57",
-				"Expires_UTC" : "July 4, 2019 05:23",
-				"Summary" : "Description: At 9:54 PM CDT, Environment Canada meteorologists are tracking slow moving severe thunderstorms capable of producing wind gusts up to 90 km/h, up to nickel size hail rainfall amounts up to 50 mm.\n\nA cluster of severe thunderstorms is located near Atikokan and Huronian and is moving northeast at 20 km/h.\n\n###\n\nLarge hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-04T05:23:07-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-04T01:57:07-00:00, urn:oid:2.49.0.1.124.2558781903.2019<br>Area: Atikokan - Shebandowan - Quetico Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-04:feed.atom/urn:oid:2.49.0.1.124.2558781903.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-04/2019_07_04T01_57_07_00_00Iurn_oid_2.49.0.1.124.2558781903.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190704052307+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -80.5641, 45.5136 ],
 							[ -80.1856, 45.0191 ],
 							[ -80.3295, 44.8567 ],
@@ -1612,6 +1559,59 @@
 				"coordinates" : [
 					[
 						[
+							[ -91.2622, 48.0663 ],
+							[ -90.8938, 48.2226 ],
+							[ -90.7523, 48.0856 ],
+							[ -90.6192, 48.0971 ],
+							[ -90.5764, 48.1209 ],
+							[ -89.6538, 48.5979 ],
+							[ -91.2145, 48.9922 ],
+							[ -92.4487, 48.324 ],
+							[ -92.3755, 48.2178 ],
+							[ -92.2677, 48.2469 ],
+							[ -92.2918, 48.332 ],
+							[ -92.0183, 48.3238 ],
+							[ -92.0094, 48.2493 ],
+							[ -91.8718, 48.2029 ],
+							[ -91.7266, 48.1895 ],
+							[ -91.7254, 48.1148 ],
+							[ -91.6113, 48.0824 ],
+							[ -91.5747, 48.034 ],
+							[ -91.4295, 48.0466 ],
+							[ -91.2622, 48.0663 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 4, 2019 03:48",
+				"Expires_UTC" : "July 4, 2019 04:48",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-07-04T04:48:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-04T03:48:29-00:00, urn:oid:2.49.0.1.124.3844792797.2019<br>Area: Atikokan - Shebandowan - Quetico Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-04:feed.atom/urn:oid:2.49.0.1.124.3844792797.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-04/2019_07_04T03_48_29_00_00Iurn_oid_2.49.0.1.124.3844792797.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190704044829+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -67.7904, 47.0599 ],
 							[ -67.789, 46.5984 ],
 							[ -67.7823, 45.9319 ],
@@ -1848,25 +1848,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 4, 2019 02:25",
-				"Expires_UTC" : "July 4, 2019 05:08",
-				"Summary" : "Description: At 9:20 PM Environment Canada meteorologist are tracking a severe thunderstorm capable of producing wind gusts up to 90 km/h, up to nickel size hail and rainfall amounts up to 50 mm.\n\nThe severe thunderstorm is located 50 km southwest of Gull Bay, moving northeast at 30 km/h.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-04T05:08:17-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-04T02:25:17-00:00, urn:oid:2.49.0.1.124.1507147359.2019<br>Area: Gull Bay - Black Sturgeon Lake",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 4, 2019 03:53",
+				"Expires_UTC" : "July 4, 2019 04:53",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-07-04T04:53:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-04T03:53:41-00:00, urn:oid:2.49.0.1.124.2185671589.2019<br>Area: Gull Bay - Black Sturgeon Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-04:feed.atom/urn:oid:2.49.0.1.124.1507147359.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-04/2019_07_04T02_25_17_00_00Iurn_oid_2.49.0.1.124.1507147359.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-04:feed.atom/urn:oid:2.49.0.1.124.2185671589.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-04/2019_07_04T03_53_41_00_00Iurn_oid_2.49.0.1.124.2185671589.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190704050817+00:00"
+				"Expires_FMEFormat" : "20190704045341+00:00"
 			}
 		},
 		{
@@ -1896,18 +1896,18 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 4, 2019 02:01",
-				"Expires_UTC" : "July 4, 2019 04:59",
-				"Summary" : "Description: At 9:00 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThe severe thunderstorm is located south of English River and is moving northeast at 30 km/h.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-04T04:59:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-04T02:01:52-00:00, urn:oid:2.49.0.1.124.0949249370.2019<br>Area: Ignace - English River",
+				"LastUpdate_UTC" : "July 4, 2019 03:48",
+				"Expires_UTC" : "July 4, 2019 06:59",
+				"Summary" : "Description: At 10:45 PM CDT, Environment Canada meteorologist are tracking a severe thunderstorm capable of producing wind gusts up to 90 km/h, up to nickel size hail and rainfall amounts up to 50 mm.\n\nThis severe thunderstorm is located 25 kilometres northeast of Steep Rock Lake, moving northeast at 40 km/h.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-04T06:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-04T03:48:02-00:00, urn:oid:2.49.0.1.124.2770636358.2019<br>Area: Ignace - English River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-04:feed.atom/urn:oid:2.49.0.1.124.0949249370.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-04/2019_07_04T02_01_52_00_00Iurn_oid_2.49.0.1.124.0949249370.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-04:feed.atom/urn:oid:2.49.0.1.124.2770636358.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-04/2019_07_04T03_48_02_00_00Iurn_oid_2.49.0.1.124.2770636358.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190704045952+00:00"
+				"Expires_FMEFormat" : "20190704065902+00:00"
 			}
 		}
 	]
