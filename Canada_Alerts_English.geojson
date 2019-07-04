@@ -427,46 +427,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -87.8416, 49.9835 ],
-							[ -88.4301, 50.4305 ],
-							[ -89.03, 50.2395 ],
-							[ -89.1904, 49.8803 ],
-							[ -89.1369, 49.4676 ],
-							[ -88.0709, 49.2307 ],
-							[ -87.8416, 49.9835 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 4, 2019 03:29",
-				"Expires_UTC" : "July 4, 2019 06:28",
-				"Summary" : "Description: Squalls with wind gusts up to 35 knots and frequent lightning are expected or occurring in the area.\n\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-04T06:28:49-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-04T03:29:49-00:00, urn:oid:2.49.0.1.124.0296580044.2019<br>Area: Lake Nipigon",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-04:feed.atom/urn:oid:2.49.0.1.124.0296580044.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-04/2019_07_04T03_29_49_00_00Iurn_oid_2.49.0.1.124.0296580044.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190704062849+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -80.5641, 45.5136 ],
 							[ -80.1856, 45.0191 ],
 							[ -80.3295, 44.8567 ],
@@ -1307,6 +1267,46 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-04/2019_07_04T01_27_03_00_00Iurn_oid_2.49.0.1.124.2059649823.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190704092603+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -87.8416, 49.9835 ],
+							[ -88.4301, 50.4305 ],
+							[ -89.03, 50.2395 ],
+							[ -89.1904, 49.8803 ],
+							[ -89.1369, 49.4676 ],
+							[ -88.0709, 49.2307 ],
+							[ -87.8416, 49.9835 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Squall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 4, 2019 04:04",
+				"Expires_UTC" : "July 4, 2019 05:04",
+				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2019-07-04T05:04:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-04T04:04:56-00:00, urn:oid:2.49.0.1.124.1763665526.2019<br>Area: Lake Nipigon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-04:feed.atom/urn:oid:2.49.0.1.124.1763665526.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-04/2019_07_04T04_04_56_00_00Iurn_oid_2.49.0.1.124.1763665526.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190704050456+00:00"
 			}
 		},
 		{
