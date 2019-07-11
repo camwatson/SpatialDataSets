@@ -9,6 +9,63 @@
 				"coordinates" : [
 					[
 						[
+							[ -123.3207, 53.2026 ],
+							[ -123.8, 53.1129 ],
+							[ -124.3, 53 ],
+							[ -123.6124, 52.5607 ],
+							[ -122.9899, 52.2151 ],
+							[ -122.5162, 51.9148 ],
+							[ -122.08, 51.6699 ],
+							[ -121.328, 51.8233 ],
+							[ -120.58, 51.9999 ],
+							[ -120.0151, 52.1532 ],
+							[ -119.4599, 52.33 ],
+							[ -119.3568, 52.4804 ],
+							[ -119.3, 52.5999 ],
+							[ -119.8411, 52.8787 ],
+							[ -120.3818, 53.1151 ],
+							[ -120.8538, 53.3575 ],
+							[ -121.4, 53.5999 ],
+							[ -121.9409, 54.3293 ],
+							[ -122.4999, 54.9999 ],
+							[ -122.8496, 54.8582 ],
+							[ -123.1999, 54.7 ],
+							[ -123.3477, 54.6596 ],
+							[ -123.4872, 54.615 ],
+							[ -123.3207, 53.2026 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 11, 2019 03:14",
+				"Expires_UTC" : "July 11, 2019 08:44",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing heavy rain and large hail. Strong wind gusts are also possible.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-07-11T08:44:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T03:14:46-00:00, urn:oid:2.49.0.1.124.2238134154.2019<br>Area: Cariboo - south including Williams Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.2238134154.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T03_14_46_00_00Iurn_oid_2.49.0.1.124.2238134154.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190711084446+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -123.4872, 54.615 ],
 							[ -123.9108, 55.067 ],
 							[ -124.1479, 55.2006 ],
@@ -315,25 +372,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 11, 2019 02:17",
-				"Expires_UTC" : "July 11, 2019 10:09",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 40 knots.\n\nThunderstorms are developing over Michigan and are expected to track over northern Lake Huron and North Channel tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-11T10:09:18-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T02:17:18-00:00, urn:oid:2.49.0.1.124.3065432302.2019<br>Area: North Channel",
+				"LastUpdate_UTC" : "July 11, 2019 03:16",
+				"Expires_UTC" : "July 11, 2019 06:09",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots and frequent lightning are expected or occurring in the area.\n\nThunderstorms currently forming over Michigan will continue to move northeastward and cross the North Channel and Manitoulin Island early tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-11T06:09:26-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T03:16:26-00:00, urn:oid:2.49.0.1.124.1085722402.2019<br>Area: North Channel",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.3065432302.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T02_17_18_00_00Iurn_oid_2.49.0.1.124.3065432302.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.1085722402.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T03_16_26_00_00Iurn_oid_2.49.0.1.124.1085722402.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190711100918+00:00"
+				"Expires_FMEFormat" : "20190711060926+00:00"
 			}
 		},
 		{
