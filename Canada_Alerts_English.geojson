@@ -9,82 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.7625, 45.7199 ],
-							[ -81.8568, 45.6957 ],
-							[ -81.965, 45.6446 ],
-							[ -83.2302, 45.9014 ],
-							[ -83.2611, 45.9069 ],
-							[ -83.273, 45.9085 ],
-							[ -83.4701, 45.9348 ],
-							[ -83.487, 45.9405 ],
-							[ -83.4874, 45.94 ],
-							[ -83.5971, 45.8212 ],
-							[ -82.5186, 45.3386 ],
-							[ -82.3729, 44.7096 ],
-							[ -81.2898, 44.7041 ],
-							[ -81.273, 44.7035 ],
-							[ -81.2189, 44.7061 ],
-							[ -81.3896, 45.081 ],
-							[ -81.5569, 45.1907 ],
-							[ -81.3855, 45.2245 ],
-							[ -81.3216, 45.2284 ],
-							[ -81.3105, 45.2291 ],
-							[ -81.3194, 45.2209 ],
-							[ -81.3579, 45.1852 ],
-							[ -81.3589, 45.1225 ],
-							[ -81.3006, 45.0691 ],
-							[ -81.2621, 45.084 ],
-							[ -80.3795, 45.4348 ],
-							[ -80.3467, 45.4463 ],
-							[ -80.2717, 45.4746 ],
-							[ -80.487, 45.7885 ],
-							[ -80.5956, 45.9246 ],
-							[ -80.1162, 46.0509 ],
-							[ -80.0062, 46.112 ],
-							[ -80.0298, 46.1208 ],
-							[ -80.4037, 46.1136 ],
-							[ -80.7557, 46.1238 ],
-							[ -81.1555, 46.0271 ],
-							[ -81.4209, 46.0695 ],
-							[ -81.5534, 45.9926 ],
-							[ -81.6711, 45.9342 ],
-							[ -81.6711, 45.9013 ],
-							[ -81.6711, 45.9013 ],
-							[ -81.7474, 45.7921 ],
-							[ -81.7625, 45.7199 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 11, 2019 04:51",
-				"Expires_UTC" : "July 11, 2019 07:49",
-				"Summary" : "Description: Squalls with wind gusts up to 40 knots and frequent lightning are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-11T07:49:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T04:51:10-00:00, urn:oid:2.49.0.1.124.3010364640.2019<br>Area: Northern Lake Huron, Northern Georgian Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.3010364640.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T04_51_10_00_00Iurn_oid_2.49.0.1.124.3010364640.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190711074910+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -84.9134, 47.2346 ],
 							[ -84.7351, 46.6321 ],
 							[ -84.4985, 46.6539 ],
@@ -126,6 +50,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T04_22_30_00_00Iurn_oid_2.49.0.1.124.2525893472.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190711052230+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -87.9904, 52.2453 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.4321, 51.159 ],
+							[ -84.8479, 51.1686 ],
+							[ -84.57, 51.0622 ],
+							[ -84.4653, 51.0571 ],
+							[ -84.3362, 51.1626 ],
+							[ -84.05, 51.1582 ],
+							[ -83.9119, 51.2539 ],
+							[ -83.2673, 51.4893 ],
+							[ -82.8342, 51.8669 ],
+							[ -82.9115, 51.9291 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.7002, 54.0287 ],
+							[ -87.008, 55.0039 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.5227, 54.1733 ],
+							[ -87.9958, 53.2172 ],
+							[ -88.0338, 52.7599 ],
+							[ -87.9904, 52.2453 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 11, 2019 05:00",
+				"Expires_UTC" : "July 11, 2019 06:00",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-07-11T06:00:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T05:00:47-00:00, urn:oid:2.49.0.1.124.1154796505.2019<br>Area: Webequie, Fort Hope - Lansdowne House - Ogoki",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.1154796505.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T05_00_47_00_00Iurn_oid_2.49.0.1.124.1154796505.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190711060047+00:00"
 			}
 		},
 		{
@@ -394,6 +371,82 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.7625, 45.7199 ],
+							[ -81.8568, 45.6957 ],
+							[ -81.965, 45.6446 ],
+							[ -83.2302, 45.9014 ],
+							[ -83.2611, 45.9069 ],
+							[ -83.273, 45.9085 ],
+							[ -83.4701, 45.9348 ],
+							[ -83.487, 45.9405 ],
+							[ -83.4874, 45.94 ],
+							[ -83.5971, 45.8212 ],
+							[ -82.5186, 45.3386 ],
+							[ -82.3729, 44.7096 ],
+							[ -81.2898, 44.7041 ],
+							[ -81.273, 44.7035 ],
+							[ -81.2189, 44.7061 ],
+							[ -81.3896, 45.081 ],
+							[ -81.5569, 45.1907 ],
+							[ -81.3855, 45.2245 ],
+							[ -81.3216, 45.2284 ],
+							[ -81.3105, 45.2291 ],
+							[ -81.3194, 45.2209 ],
+							[ -81.3579, 45.1852 ],
+							[ -81.3589, 45.1225 ],
+							[ -81.3006, 45.0691 ],
+							[ -81.2621, 45.084 ],
+							[ -80.3795, 45.4348 ],
+							[ -80.3467, 45.4463 ],
+							[ -80.2717, 45.4746 ],
+							[ -80.487, 45.7885 ],
+							[ -80.5956, 45.9246 ],
+							[ -80.1162, 46.0509 ],
+							[ -80.0062, 46.112 ],
+							[ -80.0298, 46.1208 ],
+							[ -80.4037, 46.1136 ],
+							[ -80.7557, 46.1238 ],
+							[ -81.1555, 46.0271 ],
+							[ -81.4209, 46.0695 ],
+							[ -81.5534, 45.9926 ],
+							[ -81.6711, 45.9342 ],
+							[ -81.6711, 45.9013 ],
+							[ -81.6711, 45.9013 ],
+							[ -81.7474, 45.7921 ],
+							[ -81.7625, 45.7199 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 11, 2019 04:52",
+				"Expires_UTC" : "July 11, 2019 07:49",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots and frequent lightning are expected or occurring in the area.\n\nThunderstorms currently forming over Michigan will continue to move northeastward and cross the North Channel, Manitoulin Island and northern parts of Lake Huron and Georgian Bay tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-11T07:49:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T04:52:10-00:00, urn:oid:2.49.0.1.124.1320785783.2019<br>Area: Northern Lake Huron, Northern Georgian Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.1320785783.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T04_52_10_00_00Iurn_oid_2.49.0.1.124.1320785783.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190711074910+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -84.1651, 46.5611 ],
 							[ -84.224, 46.5547 ],
 							[ -84.2672, 46.5199 ],
@@ -455,128 +508,18 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 11, 2019 04:51",
+				"LastUpdate_UTC" : "July 11, 2019 04:52",
 				"Expires_UTC" : "July 11, 2019 07:49",
-				"Summary" : "Description: Squalls with wind gusts up to 40 knots and frequent lightning are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-11T07:49:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T04:51:10-00:00, urn:oid:2.49.0.1.124.3185237078.2019<br>Area: North Channel",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots and frequent lightning are expected or occurring in the area.\n\nThunderstorms currently forming over Michigan will continue to move northeastward and cross the North Channel, Manitoulin Island and northern parts of Lake Huron and Georgian Bay tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-11T07:49:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T04:52:10-00:00, urn:oid:2.49.0.1.124.0807176005.2019<br>Area: North Channel",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.3185237078.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T04_51_10_00_00Iurn_oid_2.49.0.1.124.3185237078.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.0807176005.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T04_52_10_00_00Iurn_oid_2.49.0.1.124.0807176005.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190711074910+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -115.5978, 52.843 ],
-							[ -115.5942, 52.8816 ],
-							[ -115.5977, 52.9224 ],
-							[ -115.5738, 52.9231 ],
-							[ -115.5777, 52.9518 ],
-							[ -115.5986, 52.951 ],
-							[ -115.5948, 53.0073 ],
-							[ -115.6006, 53.0192 ],
-							[ -115.6107, 53.0195 ],
-							[ -115.602, 53.2002 ],
-							[ -115.6094, 53.3672 ],
-							[ -116.23, 53.3667 ],
-							[ -116.814, 53.3667 ],
-							[ -116.2683, 52.8421 ],
-							[ -115.9271, 52.839 ],
-							[ -115.5978, 52.843 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 11, 2019 04:25",
-				"Expires_UTC" : "July 11, 2019 07:23",
-				"Summary" : "Description: At 10:24 p.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis severe thunderstorm is located 45 km northwest of the Brazeau Dam is moving southeast at 35 km/h.\n\n###\n\nLarge hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-11T07:23:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T04:25:46-00:00, urn:oid:2.49.0.1.124.1722519019.2019<br>Area: Yellowhead Co. near Minnow and Wolf Lakes and Elk River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.1722519019.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T04_25_46_00_00Iurn_oid_2.49.0.1.124.1722519019.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190711072346+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -83.8414, 46.4826 ],
-							[ -84.4894, 46.6516 ],
-							[ -84.4985, 46.6539 ],
-							[ -84.6124, 46.6233 ],
-							[ -84.6283, 46.5491 ],
-							[ -84.5588, 46.4765 ],
-							[ -84.4902, 46.4573 ],
-							[ -84.1729, 46.4924 ],
-							[ -84.0972, 46.1959 ],
-							[ -83.9476, 46.0487 ],
-							[ -83.822, 46.1212 ],
-							[ -83.7566, 46.1199 ],
-							[ -83.7076, 46.1874 ],
-							[ -83.5976, 46.1752 ],
-							[ -83.3864, 46.0319 ],
-							[ -82.3291, 46.0103 ],
-							[ -82.178, 45.9443 ],
-							[ -82.0969, 45.9754 ],
-							[ -82.0476, 46.0965 ],
-							[ -82.0579, 46.2733 ],
-							[ -82.0579, 46.6086 ],
-							[ -81.939, 46.6086 ],
-							[ -81.939, 46.9696 ],
-							[ -82.6356, 46.9695 ],
-							[ -82.631, 47.221 ],
-							[ -83.9911, 47.2211 ],
-							[ -83.9907, 46.781 ],
-							[ -83.8414, 46.4826 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 11, 2019 02:09",
-				"Expires_UTC" : "July 11, 2019 05:07",
-				"Summary" : "Description: At 10:08 p.m. EDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing strong wind gusts, up to nickel size hail and heavy rain.\n\nA cluster of thunderstorms is moving through the region from the northeast at 60 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-11T05:07:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T02:09:22-00:00, urn:oid:2.49.0.1.124.0458663983.2019<br>Area: Sault Ste. Marie - St. Joseph Island, Elliot Lake - Ranger Lake, Blind River - Thessalon",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.0458663983.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T02_09_22_00_00Iurn_oid_2.49.0.1.124.0458663983.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190711050722+00:00"
 			}
 		},
 		{
@@ -1228,6 +1171,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -115.5978, 52.843 ],
+							[ -115.5942, 52.8816 ],
+							[ -115.5977, 52.9224 ],
+							[ -115.5738, 52.9231 ],
+							[ -115.5777, 52.9518 ],
+							[ -115.5986, 52.951 ],
+							[ -115.5948, 53.0073 ],
+							[ -115.6006, 53.0192 ],
+							[ -115.6107, 53.0195 ],
+							[ -115.602, 53.2002 ],
+							[ -115.6094, 53.3672 ],
+							[ -116.23, 53.3667 ],
+							[ -116.814, 53.3667 ],
+							[ -116.2683, 52.8421 ],
+							[ -115.9271, 52.839 ],
+							[ -115.5978, 52.843 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 11, 2019 04:25",
+				"Expires_UTC" : "July 11, 2019 07:23",
+				"Summary" : "Description: At 10:24 p.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis severe thunderstorm is located 45 km northwest of the Brazeau Dam is moving southeast at 35 km/h.\n\n###\n\nLarge hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-11T07:23:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T04:25:46-00:00, urn:oid:2.49.0.1.124.1722519019.2019<br>Area: Yellowhead Co. near Minnow and Wolf Lakes and Elk River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.1722519019.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T04_25_46_00_00Iurn_oid_2.49.0.1.124.1722519019.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190711072346+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -115.4514, 52.2318 ],
 							[ -115.035, 51.9207 ],
 							[ -114.9928, 51.8891 ],
@@ -1303,108 +1295,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T03_31_00_00_00Iurn_oid_2.49.0.1.124.3578940021.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190711054000+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -115.5978, 52.843 ],
-							[ -115.5942, 52.8816 ],
-							[ -115.5977, 52.9224 ],
-							[ -115.5738, 52.9231 ],
-							[ -115.5777, 52.9518 ],
-							[ -115.5986, 52.951 ],
-							[ -115.5948, 53.0073 ],
-							[ -115.6006, 53.0192 ],
-							[ -115.6107, 53.0195 ],
-							[ -115.602, 53.2002 ],
-							[ -115.6094, 53.3672 ],
-							[ -116.23, 53.3667 ],
-							[ -116.814, 53.3667 ],
-							[ -117.3641, 53.3666 ],
-							[ -117.3639, 53.1857 ],
-							[ -117.7042, 53.1858 ],
-							[ -117.7487, 53.1527 ],
-							[ -117.7, 53.084 ],
-							[ -117.5945, 53.0209 ],
-							[ -117.5832, 52.9223 ],
-							[ -117.4773, 52.9049 ],
-							[ -117.3436, 52.8105 ],
-							[ -117.2591, 52.7858 ],
-							[ -117.1106, 52.674 ],
-							[ -117.0328, 52.6897 ],
-							[ -116.9189, 52.6272 ],
-							[ -116.8724, 52.6293 ],
-							[ -116.783, 52.7112 ],
-							[ -116.7699, 52.7232 ],
-							[ -116.8286, 52.7568 ],
-							[ -116.7041, 52.7561 ],
-							[ -116.612, 52.7555 ],
-							[ -116.6113, 52.8049 ],
-							[ -116.6128, 52.8429 ],
-							[ -116.4242, 52.8431 ],
-							[ -116.4237, 52.8431 ],
-							[ -116.4005, 52.8431 ],
-							[ -116.2683, 52.8421 ],
-							[ -115.938, 52.5952 ],
-							[ -114.6487, 52.5952 ],
-							[ -114.6532, 52.713 ],
-							[ -114.6468, 52.7126 ],
-							[ -114.6137, 52.7116 ],
-							[ -114.5804, 52.7127 ],
-							[ -114.5777, 52.7742 ],
-							[ -114.5857, 52.8435 ],
-							[ -114.783, 52.8477 ],
-							[ -115.0159, 52.8435 ],
-							[ -115.0116, 52.9467 ],
-							[ -115.0151, 53.0183 ],
-							[ -115.0249, 53.0181 ],
-							[ -115.024, 53.0417 ],
-							[ -115.0246, 53.0627 ],
-							[ -115.0256, 53.0855 ],
-							[ -115.2047, 53.0705 ],
-							[ -115.2578, 53.0241 ],
-							[ -115.2383, 53.003 ],
-							[ -115.2382, 52.9525 ],
-							[ -115.2675, 52.9167 ],
-							[ -115.2152, 52.8814 ],
-							[ -115.1874, 52.8436 ],
-							[ -115.225, 52.8439 ],
-							[ -115.2576, 52.8434 ],
-							[ -115.2823, 52.843 ],
-							[ -115.2811, 52.859 ],
-							[ -115.5007, 52.8582 ],
-							[ -115.4989, 52.8439 ],
-							[ -115.546, 52.8433 ],
-							[ -115.5978, 52.843 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 11, 2019 02:05",
-				"Expires_UTC" : "July 11, 2019 05:03",
-				"Summary" : "Description: At 8:04 p.m. MDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis cluster of severe thunderstorms is located 30 km southeast of Coal Valley and is moving southeast at 30 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-11T05:03:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T02:05:46-00:00, urn:oid:2.49.0.1.124.0680786548.2019<br>Area: Yellowhead Co. near Cadomin and Robb, Yellowhead Co. near Minnow and Wolf Lakes and Elk River, O'Chiese 203 Res. and Clearwater Co. near Sunchild Cree Res.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.0680786548.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T02_05_46_00_00Iurn_oid_2.49.0.1.124.0680786548.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190711050346+00:00"
 			}
 		},
 		{
@@ -1678,104 +1568,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -110.0057, 54.6505 ],
-							[ -110.0172, 54.4863 ],
-							[ -110.0057, 54.326 ],
-							[ -110.0146, 54.2038 ],
-							[ -110.0056, 54.0639 ],
-							[ -110.013, 53.9761 ],
-							[ -110.0056, 53.8895 ],
-							[ -110.0116, 53.8487 ],
-							[ -110.0056, 53.802 ],
-							[ -109.575, 53.7926 ],
-							[ -109.1283, 53.8021 ],
-							[ -108.8841, 53.7947 ],
-							[ -108.6815, 53.8021 ],
-							[ -108.6814, 53.8035 ],
-							[ -108.6667, 53.9409 ],
-							[ -108.6826, 54.0639 ],
-							[ -108.7637, 54.0703 ],
-							[ -108.8519, 54.0638 ],
-							[ -108.8518, 54.1098 ],
-							[ -108.9021, 54.1506 ],
-							[ -108.9677, 54.1552 ],
-							[ -109.0525, 54.1502 ],
-							[ -109.0434, 54.2128 ],
-							[ -109.048849562, 54.251643971 ],
-							[ -109.0319, 54.2514 ],
-							[ -108.9879, 54.2713 ],
-							[ -108.8841, 54.2474 ],
-							[ -108.8499, 54.2525 ],
-							[ -108.8519, 54.2772 ],
-							[ -108.8446, 54.3424 ],
-							[ -108.8518, 54.4125 ],
-							[ -108.8762, 54.4124 ],
-							[ -108.8683, 54.4529 ],
-							[ -108.8765, 54.4854 ],
-							[ -108.8003, 54.4853 ],
-							[ -108.798, 54.5 ],
-							[ -108.8008, 54.5145 ],
-							[ -108.719, 54.5118 ],
-							[ -108.6498, 54.5141 ],
-							[ -108.6458, 54.555 ],
-							[ -108.6499, 54.587 ],
-							[ -108.6244, 54.5864 ],
-							[ -108.5994, 54.5871 ],
-							[ -108.5938, 54.6334 ],
-							[ -108.5992, 54.6744 ],
-							[ -108.5063, 54.6706 ],
-							[ -108.4237, 54.6743 ],
-							[ -108.4308, 54.6363 ],
-							[ -108.4231, 54.5869 ],
-							[ -108.2338, 54.5831 ],
-							[ -108.0515, 54.5869 ],
-							[ -108.0515, 55.432 ],
-							[ -107.8973, 55.3259 ],
-							[ -107.7361, 55.4365 ],
-							[ -108.0516, 55.6714 ],
-							[ -108.0516, 56.1199 ],
-							[ -110.0057, 56.1199 ],
-							[ -110.0126, 56.0595 ],
-							[ -110.0057, 55.9843 ],
-							[ -110.027, 55.7645 ],
-							[ -110.0057, 55.5476 ],
-							[ -110.0249, 55.1474 ],
-							[ -110.0057, 54.7623 ],
-							[ -110.0097, 54.7142 ],
-							[ -110.0057, 54.6505 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 11, 2019 02:33",
-				"Expires_UTC" : "July 11, 2019 05:03",
-				"Summary" : "Description: Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing rainfall in excess of 50 mm.\n\nAt 8:30 PM CST Doppler RADAR indicated that this line of severe thunderstorms stretched from Lost Lake to Beauval Lake and was moving toward the east at 50 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-11T05:03:26-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T02:33:26-00:00, urn:oid:2.49.0.1.124.0733360159.2019<br>Area: Buffalo Narrows and Peter Pond Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.0733360159.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T02_33_26_00_00Iurn_oid_2.49.0.1.124.0733360159.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190711050326+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -113.7756, 52.5795 ],
 							[ -113.8452, 52.5817 ],
 							[ -113.9151, 52.5795 ],
@@ -1951,6 +1743,67 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T02_47_18_00_00Iurn_oid_2.49.0.1.124.1183657420.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190711091418+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -83.8414, 46.4826 ],
+							[ -84.4894, 46.6516 ],
+							[ -84.4985, 46.6539 ],
+							[ -84.6124, 46.6233 ],
+							[ -84.6283, 46.5491 ],
+							[ -84.5588, 46.4765 ],
+							[ -84.4902, 46.4573 ],
+							[ -84.1729, 46.4924 ],
+							[ -84.0972, 46.1959 ],
+							[ -83.9476, 46.0487 ],
+							[ -83.822, 46.1212 ],
+							[ -83.7566, 46.1199 ],
+							[ -83.7076, 46.1874 ],
+							[ -83.5976, 46.1752 ],
+							[ -83.3864, 46.0319 ],
+							[ -82.3291, 46.0103 ],
+							[ -82.178, 45.9443 ],
+							[ -82.0969, 45.9754 ],
+							[ -82.0476, 46.0965 ],
+							[ -82.0579, 46.2733 ],
+							[ -82.0579, 46.6086 ],
+							[ -81.939, 46.6086 ],
+							[ -81.939, 46.9696 ],
+							[ -82.6356, 46.9695 ],
+							[ -82.631, 47.221 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9907, 46.781 ],
+							[ -83.8414, 46.4826 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 11, 2019 02:09",
+				"Expires_UTC" : "July 11, 2019 05:07",
+				"Summary" : "Description: At 10:08 p.m. EDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing strong wind gusts, up to nickel size hail and heavy rain.\n\nA cluster of thunderstorms is moving through the region from the northeast at 60 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-11T05:07:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-11T02:09:22-00:00, urn:oid:2.49.0.1.124.0458663983.2019<br>Area: Sault Ste. Marie - St. Joseph Island, Elliot Lake - Ranger Lake, Blind River - Thessalon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-11:feed.atom/urn:oid:2.49.0.1.124.0458663983.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-11/2019_07_11T02_09_22_00_00Iurn_oid_2.49.0.1.124.0458663983.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190711050722+00:00"
 			}
 		}
 	]
