@@ -884,25 +884,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 15, 2019 20:26",
-				"Expires_UTC" : "July 16, 2019 06:19",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots and frequent lightning.\n\nA cluster of thunderstorms developing inland will reach the lake in the next hour. Some of these thunderstorms may have the potential to produce strong wind.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-16T06:19:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-15T20:26:54-00:00, urn:oid:2.49.0.1.124.1850925655.2019<br>Area: Lake St. Clair",
+				"LastUpdate_UTC" : "July 15, 2019 22:53",
+				"Expires_UTC" : "July 16, 2019 01:52",
+				"Summary" : "Description: Squalls with wind gusts up to 45 knots and hail of 1 to 2 centimetres are expected or occurring in the area.\n\nA cluster of severe thunderstorms is moving southeastwards from inland. These storms will reach the lake in the next half hour.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-16T01:52:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-15T22:53:20-00:00, urn:oid:2.49.0.1.124.1936772379.2019<br>Area: Lake St. Clair",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-15:feed.atom/urn:oid:2.49.0.1.124.1850925655.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T20_26_54_00_00Iurn_oid_2.49.0.1.124.1850925655.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-15:feed.atom/urn:oid:2.49.0.1.124.1936772379.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T22_53_20_00_00Iurn_oid_2.49.0.1.124.1936772379.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190716061954+00:00"
+				"Expires_FMEFormat" : "20190716015220+00:00"
 			}
 		},
 		{
@@ -1032,6 +1032,75 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T20_53_09_00_00Iurn_oid_2.49.0.1.124.2839789247.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190715235209+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -87.4321, 51.159 ],
+							[ -87.9963, 51.1568 ],
+							[ -89.9953, 51.1354 ],
+							[ -90.0123, 49.9131 ],
+							[ -90.0178, 49.5235 ],
+							[ -90.2392, 49.5614 ],
+							[ -91.2142, 48.9924 ],
+							[ -91.2145, 48.9922 ],
+							[ -89.6538, 48.5979 ],
+							[ -90.5764, 48.1209 ],
+							[ -90.6192, 48.0971 ],
+							[ -90.1265, 48.0754 ],
+							[ -89.8952, 47.9812 ],
+							[ -89.637, 48.004 ],
+							[ -89.6337, 48.0095 ],
+							[ -89.6069, 47.9704 ],
+							[ -89.2481, 48.034 ],
+							[ -88.9231, 48.2327 ],
+							[ -89.1102, 48.3079 ],
+							[ -89.0071, 48.4482 ],
+							[ -88.828, 48.5107 ],
+							[ -88.9702, 48.2896 ],
+							[ -88.5412, 48.3327 ],
+							[ -87.9958, 48.475 ],
+							[ -87.4467, 48.4447 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4321, 49.9482 ],
+							[ -85.9469, 49.9546 ],
+							[ -84.021, 49.9497 ],
+							[ -84.05, 51.1582 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.362, 51.2908 ],
+							[ -84.5361, 51.1721 ],
+							[ -84.7492, 51.2465 ],
+							[ -84.8479, 51.1686 ],
+							[ -87.4321, 51.159 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 15, 2019 22:47",
+				"Expires_UTC" : "July 16, 2019 02:45",
+				"Summary" : "Description: At 6:46 p.m. EDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to ping pong ball size hail and heavy rain.\n\nThis long line of severe thunderstorms is located from east of Thunder Bay to northeast of Lake Nipigon, moving east at 70 km/h. Wind gusts near 110 km/h along with large hail are possible. There is also a risk of tornadoes.\n\nLocations impacted include:\nBlack Sturgeon River Provincial Park, Dorion, Nipigon, Ruby Lake Provincial Park, Lake Nipigon Provincial Park, Beardmore, Auden, Ogoki River Provincial Park and Aroland.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-16T02:45:18-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-15T22:47:18-00:00, urn:oid:2.49.0.1.124.2978266385.2019<br>Area: City of Thunder Bay, Armstrong - Auden - Wabakimi Park, Beardmore - Jellicoe - Macdiarmid, Gull Bay - Black Sturgeon Lake, Nakina - Aroland - Pagwa, Upsala - Raith, Cloud Bay - Dorion, Kakabeka Falls - Whitefish Lake - Arrow Lake, Nipigon - Rossport",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-15:feed.atom/urn:oid:2.49.0.1.124.2978266385.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T22_47_18_00_00Iurn_oid_2.49.0.1.124.2978266385.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190716024518+00:00"
 			}
 		},
 		{
@@ -1274,79 +1343,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -92.7424, 49.0644 ],
-							[ -93.0991, 49.0813 ],
-							[ -93.2232, 48.8278 ],
-							[ -93.3443, 48.6272 ],
-							[ -93.331, 48.6168 ],
-							[ -93.2604, 48.6223 ],
-							[ -92.7767, 48.5433 ],
-							[ -92.6904, 48.4226 ],
-							[ -92.4487, 48.324 ],
-							[ -92.3755, 48.2178 ],
-							[ -92.2677, 48.2469 ],
-							[ -92.2918, 48.332 ],
-							[ -92.0183, 48.3238 ],
-							[ -92.0094, 48.2493 ],
-							[ -91.8718, 48.2029 ],
-							[ -91.7266, 48.1895 ],
-							[ -91.7254, 48.1148 ],
-							[ -91.6113, 48.0824 ],
-							[ -91.5747, 48.034 ],
-							[ -91.4295, 48.0466 ],
-							[ -91.2622, 48.0663 ],
-							[ -90.8938, 48.2226 ],
-							[ -90.7523, 48.0856 ],
-							[ -90.6192, 48.0971 ],
-							[ -90.1265, 48.0754 ],
-							[ -89.8952, 47.9812 ],
-							[ -89.637, 48.004 ],
-							[ -89.6337, 48.0095 ],
-							[ -89.3858, 48.7365 ],
-							[ -88.6636, 49.1101 ],
-							[ -88.5445, 49.1129 ],
-							[ -88.5445, 49.9338 ],
-							[ -87.4321, 49.9482 ],
-							[ -87.4321, 51.159 ],
-							[ -87.9963, 51.1568 ],
-							[ -89.9953, 51.1354 ],
-							[ -91.0434, 51.1282 ],
-							[ -91.6842, 49.8683 ],
-							[ -91.6848, 49.8671 ],
-							[ -92.7424, 49.0644 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 15, 2019 20:43",
-				"Expires_UTC" : "July 16, 2019 00:41",
-				"Summary" : "Description: At 3:42 p.m. CDT (3:42 p.m. EST, 4:42 p.m. EDT), Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to ping pong ball size hail and heavy rain.\n\nThis long line of thunderstorms is located from Quetico Provincial Park to Wabakimi Provincial Park and is moving east at 70 km/h across the area. Wind gusts near 90 km/h along with large hail are expected. There is also a risk of tornadoes.\n\nLocations impacted include:\nAtikokan, Quetico Provincial Park, Quetico, Kakabeka Falls, Upsala and Brightsand River Provincial Park, St. Raphael Provincial Park, Wabakimi Provincial Park, Gull Bay and Armstrong.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-16T00:41:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-15T20:43:24-00:00, urn:oid:2.49.0.1.124.3950930430.2019<br>Area: Savant Lake - Sturgeon Lake, Ignace - English River, Armstrong - Auden - Wabakimi Park, Gull Bay - Black Sturgeon Lake, Upsala - Raith, Atikokan - Shebandowan - Quetico Park, Kakabeka Falls - Whitefish Lake - Arrow Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-15:feed.atom/urn:oid:2.49.0.1.124.3950930430.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T20_43_24_00_00Iurn_oid_2.49.0.1.124.3950930430.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190716004124+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -82.5225, 42.6139 ],
 							[ -82.5519, 42.5947 ],
 							[ -82.5993, 42.5527 ],
@@ -1423,6 +1419,79 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T21_45_16_00_00Iurn_oid_2.49.0.1.124.2600186680.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190716061916+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -92.7424, 49.0644 ],
+							[ -93.0991, 49.0813 ],
+							[ -93.2232, 48.8278 ],
+							[ -93.3443, 48.6272 ],
+							[ -93.331, 48.6168 ],
+							[ -93.2604, 48.6223 ],
+							[ -92.7767, 48.5433 ],
+							[ -92.6904, 48.4226 ],
+							[ -92.4487, 48.324 ],
+							[ -92.3755, 48.2178 ],
+							[ -92.2677, 48.2469 ],
+							[ -92.2918, 48.332 ],
+							[ -92.0183, 48.3238 ],
+							[ -92.0094, 48.2493 ],
+							[ -91.8718, 48.2029 ],
+							[ -91.7266, 48.1895 ],
+							[ -91.7254, 48.1148 ],
+							[ -91.6113, 48.0824 ],
+							[ -91.5747, 48.034 ],
+							[ -91.4295, 48.0466 ],
+							[ -91.2622, 48.0663 ],
+							[ -90.8938, 48.2226 ],
+							[ -90.7523, 48.0856 ],
+							[ -90.6192, 48.0971 ],
+							[ -90.1265, 48.0754 ],
+							[ -89.8952, 47.9812 ],
+							[ -89.637, 48.004 ],
+							[ -89.6337, 48.0095 ],
+							[ -89.3858, 48.7365 ],
+							[ -88.6636, 49.1101 ],
+							[ -88.5445, 49.1129 ],
+							[ -88.5445, 49.9338 ],
+							[ -87.4321, 49.9482 ],
+							[ -87.4321, 51.159 ],
+							[ -87.9963, 51.1568 ],
+							[ -89.9953, 51.1354 ],
+							[ -91.0434, 51.1282 ],
+							[ -91.6842, 49.8683 ],
+							[ -91.6848, 49.8671 ],
+							[ -92.7424, 49.0644 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 15, 2019 20:43",
+				"Expires_UTC" : "July 16, 2019 00:41",
+				"Summary" : "Description: At 3:42 p.m. CDT (3:42 p.m. EST, 4:42 p.m. EDT), Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to ping pong ball size hail and heavy rain.\n\nThis long line of thunderstorms is located from Quetico Provincial Park to Wabakimi Provincial Park and is moving east at 70 km/h across the area. Wind gusts near 90 km/h along with large hail are expected. There is also a risk of tornadoes.\n\nLocations impacted include:\nAtikokan, Quetico Provincial Park, Quetico, Kakabeka Falls, Upsala and Brightsand River Provincial Park, St. Raphael Provincial Park, Wabakimi Provincial Park, Gull Bay and Armstrong.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-16T00:41:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-15T20:43:24-00:00, urn:oid:2.49.0.1.124.3950930430.2019<br>Area: Savant Lake - Sturgeon Lake, Ignace - English River, Armstrong - Auden - Wabakimi Park, Gull Bay - Black Sturgeon Lake, Upsala - Raith, Atikokan - Shebandowan - Quetico Park, Kakabeka Falls - Whitefish Lake - Arrow Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-15:feed.atom/urn:oid:2.49.0.1.124.3950930430.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T20_43_24_00_00Iurn_oid_2.49.0.1.124.3950930430.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190716004124+00:00"
 			}
 		},
 		{
@@ -1756,6 +1825,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -82.4889, 42.3476 ],
+							[ -82.9314, 42.3481 ],
+							[ -83.0892, 42.308 ],
+							[ -83.1177, 42.2692 ],
+							[ -83.1223, 42.0409 ],
+							[ -82.8988, 41.9268 ],
+							[ -82.6941, 41.7134 ],
+							[ -82.5377, 41.7422 ],
+							[ -82.5705, 41.8127 ],
+							[ -82.4541, 41.928 ],
+							[ -82.4607, 42.0647 ],
+							[ -82.4568, 42.0786 ],
+							[ -82.4615, 42.0909 ],
+							[ -82.4793, 42.0915 ],
+							[ -82.48, 42.096 ],
+							[ -82.4586, 42.1124 ],
+							[ -82.4498, 42.1573 ],
+							[ -82.4536, 42.1947 ],
+							[ -82.4439, 42.1943 ],
+							[ -82.4341, 42.1947 ],
+							[ -82.4277, 42.2209 ],
+							[ -82.431, 42.2432 ],
+							[ -82.4051, 42.2472 ],
+							[ -82.4221, 42.2733 ],
+							[ -82.3999, 42.2933 ],
+							[ -82.4182, 42.3285 ],
+							[ -82.4463, 42.3249 ],
+							[ -82.4889, 42.3476 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 15, 2019 22:53",
+				"Expires_UTC" : "July 16, 2019 07:44",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts up to 90 km/h and pea size hail.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2019-07-16T07:44:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-15T22:53:45-00:00, urn:oid:2.49.0.1.124.0513884278.2019<br>Area: Windsor - Leamington - Essex County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-15:feed.atom/urn:oid:2.49.0.1.124.0513884278.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T22_53_45_00_00Iurn_oid_2.49.0.1.124.0513884278.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190716074445+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.1536, 51.6128 ],
 							[ -95.1961, 51.2501 ],
 							[ -95.1536, 50.8931 ],
@@ -1977,80 +2107,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T20_37_06_00_00Iurn_oid_2.49.0.1.124.3985776682.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190716003506+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -93.0991, 49.0813 ],
-							[ -93.2232, 48.8278 ],
-							[ -93.3443, 48.6272 ],
-							[ -93.331, 48.6168 ],
-							[ -93.2604, 48.6223 ],
-							[ -92.7767, 48.5433 ],
-							[ -92.6904, 48.4226 ],
-							[ -92.4487, 48.324 ],
-							[ -92.3755, 48.2178 ],
-							[ -92.2677, 48.2469 ],
-							[ -92.2918, 48.332 ],
-							[ -92.0183, 48.3238 ],
-							[ -92.0094, 48.2493 ],
-							[ -91.8718, 48.2029 ],
-							[ -91.7266, 48.1895 ],
-							[ -91.7254, 48.1148 ],
-							[ -91.6113, 48.0824 ],
-							[ -91.5747, 48.034 ],
-							[ -91.4295, 48.0466 ],
-							[ -91.2622, 48.0663 ],
-							[ -90.8938, 48.2226 ],
-							[ -90.7523, 48.0856 ],
-							[ -90.6192, 48.0971 ],
-							[ -90.5764, 48.1209 ],
-							[ -89.6538, 48.5979 ],
-							[ -89.3858, 48.7365 ],
-							[ -88.6636, 49.1101 ],
-							[ -90.0178, 49.5235 ],
-							[ -90.0123, 49.9131 ],
-							[ -88.5445, 49.9338 ],
-							[ -87.4321, 49.9482 ],
-							[ -87.4321, 51.159 ],
-							[ -87.9963, 51.1568 ],
-							[ -89.9953, 51.1354 ],
-							[ -91.0434, 51.1282 ],
-							[ -92.3388, 51.1193 ],
-							[ -92.9179, 50.1283 ],
-							[ -93.4874, 50.2367 ],
-							[ -93.4874, 49.6218 ],
-							[ -93.4874, 49.0996 ],
-							[ -93.0991, 49.0813 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 15, 2019 19:33",
-				"Expires_UTC" : "July 15, 2019 23:31",
-				"Summary" : "Description: At 2:32 p.m. CDT (2:32 p.m. EST, 3:32 p.m. EDT), Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to ping pong ball size hail and heavy rain.\n\nThis long line of thunderstorms is located from Quetico Provincial Park to Pickle Lake and is moving east at 70 km/h across the area. Wind gusts near 90 km/h along with large hail are expected. There is also a risk of tornadoes.\n\nLocations impacted include:\nIgnace, Atikokan, Quetico Provincial Park, East English River Provincial Park, Quetico, Upsala and Brightsand River Provincial Park, St. Raphael Provincial Park and Wabakimi Provincial Park.\n\nSevere thunderstorms will be near:\nUpsala around 4:15 P.M. EDT.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-15T23:31:13-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-15T19:33:13-00:00, urn:oid:2.49.0.1.124.1874164083.2019<br>Area: Savant Lake - Sturgeon Lake, Dryden - Vermilion Bay, Ignace - English River, Seine River Village - Mine Centre, Armstrong - Auden - Wabakimi Park, Upsala - Raith, Atikokan - Shebandowan - Quetico Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-15:feed.atom/urn:oid:2.49.0.1.124.1874164083.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-15/2019_07_15T19_33_13_00_00Iurn_oid_2.49.0.1.124.1874164083.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190715233113+00:00"
 			}
 		}
 	]
