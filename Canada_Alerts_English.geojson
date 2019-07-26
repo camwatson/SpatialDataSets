@@ -326,71 +326,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.715, 43.8829 ],
-							[ -79.714, 43.8793 ],
-							[ -79.7114, 43.8757 ],
-							[ -79.6842, 43.8218 ],
-							[ -79.6386, 43.75 ],
-							[ -79.4059, 43.7956 ],
-							[ -79.1702, 43.8556 ],
-							[ -79.1726, 43.9089 ],
-							[ -79.2038, 43.9616 ],
-							[ -79.211, 43.9799 ],
-							[ -79.2212, 43.9983 ],
-							[ -79.22, 43.9984 ],
-							[ -79.2189, 43.9987 ],
-							[ -79.2627, 44.1136 ],
-							[ -79.3158, 44.2211 ],
-							[ -79.2323, 44.2369 ],
-							[ -79.1477, 44.2585 ],
-							[ -79.1901, 44.3527 ],
-							[ -79.2606, 44.4607 ],
-							[ -79.5001, 44.4157 ],
-							[ -79.517, 44.2017 ],
-							[ -79.5448, 44.2059 ],
-							[ -79.5508, 44.173 ],
-							[ -79.582, 44.1371 ],
-							[ -79.5741, 44.115 ],
-							[ -79.5861, 44.0854 ],
-							[ -79.6736, 44.0307 ],
-							[ -79.6569, 44.0157 ],
-							[ -79.7178, 44.0031 ],
-							[ -79.7752, 43.9897 ],
-							[ -79.7508, 43.9395 ],
-							[ -79.715, 43.8829 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 26, 2019 20:13",
-				"Expires_UTC" : "July 27, 2019 00:12",
-				"Summary" : "Description: At 4:13 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Fast-moving water across a road can sweep a vehicle away.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-27T00:12:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-26T20:13:55-00:00, urn:oid:2.49.0.1.124.3568794980.2019<br>Area: Newmarket - Georgina - Northern York Region, Vaughan - Richmond Hill - Markham",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-26:feed.atom/urn:oid:2.49.0.1.124.3568794980.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-26/2019_07_26T20_13_55_00_00Iurn_oid_2.49.0.1.124.3568794980.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190727001255+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -106.5851, 51.2279 ],
 							[ -106.5851, 51.2308 ],
 							[ -106.5898, 51.2308 ],
@@ -807,6 +742,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-26/2019_07_26T19_15_41_00_00Iurn_oid_2.49.0.1.124.0817934225.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190727111441+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.433, 46.5832 ],
+							[ -72.483, 46.6498 ],
+							[ -72.5497, 46.7665 ],
+							[ -73.2164, 46.7498 ],
+							[ -73.2172, 46.7497 ],
+							[ -73.2168, 46.7492 ],
+							[ -73.1901, 46.5475 ],
+							[ -73.1857, 46.5141 ],
+							[ -73.1855, 46.5138 ],
+							[ -73.0765, 46.5211 ],
+							[ -72.9664, 46.5332 ],
+							[ -72.883, 46.3998 ],
+							[ -72.8812, 46.4006 ],
+							[ -72.433, 46.5832 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 26, 2019 20:23",
+				"Expires_UTC" : "July 26, 2019 21:23",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2019-07-26T21:23:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-26T20:23:23-00:00, urn:oid:2.49.0.1.124.3516044006.2019<br>Area: Shawinigan area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-26:feed.atom/urn:oid:2.49.0.1.124.3516044006.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-26/2019_07_26T20_23_23_00_00Iurn_oid_2.49.0.1.124.3516044006.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190726212323+00:00"
 			}
 		},
 		{
@@ -1444,6 +1426,71 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.715, 43.8829 ],
+							[ -79.714, 43.8793 ],
+							[ -79.7114, 43.8757 ],
+							[ -79.6842, 43.8218 ],
+							[ -79.6386, 43.75 ],
+							[ -79.4059, 43.7956 ],
+							[ -79.1702, 43.8556 ],
+							[ -79.1726, 43.9089 ],
+							[ -79.2038, 43.9616 ],
+							[ -79.211, 43.9799 ],
+							[ -79.2212, 43.9983 ],
+							[ -79.22, 43.9984 ],
+							[ -79.2189, 43.9987 ],
+							[ -79.2627, 44.1136 ],
+							[ -79.3158, 44.2211 ],
+							[ -79.2323, 44.2369 ],
+							[ -79.1477, 44.2585 ],
+							[ -79.1901, 44.3527 ],
+							[ -79.2606, 44.4607 ],
+							[ -79.5001, 44.4157 ],
+							[ -79.517, 44.2017 ],
+							[ -79.5448, 44.2059 ],
+							[ -79.5508, 44.173 ],
+							[ -79.582, 44.1371 ],
+							[ -79.5741, 44.115 ],
+							[ -79.5861, 44.0854 ],
+							[ -79.6736, 44.0307 ],
+							[ -79.6569, 44.0157 ],
+							[ -79.7178, 44.0031 ],
+							[ -79.7752, 43.9897 ],
+							[ -79.7508, 43.9395 ],
+							[ -79.715, 43.8829 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 26, 2019 20:20",
+				"Expires_UTC" : "July 27, 2019 00:12",
+				"Summary" : "Description: At 4:19 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing heavy rain.\n\nShowers and thunderstorms have developed in the area north of Richmond Hill and south of Aurora and are moving slowly north. Some areas may receive total rainfall amounts in excess of 50 mm by this evening.\n\nLocations impacted include:\nWhitchurch-Stouffville, Oak Ridges and Gormley.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Fast-moving water across a road can sweep a vehicle away.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-27T00:12:18-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-26T20:20:18-00:00, urn:oid:2.49.0.1.124.3810515016.2019<br>Area: Newmarket - Georgina - Northern York Region, Vaughan - Richmond Hill - Markham",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-26:feed.atom/urn:oid:2.49.0.1.124.3810515016.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-26/2019_07_26T20_20_18_00_00Iurn_oid_2.49.0.1.124.3810515016.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190727001218+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -92.7424, 49.0644 ],
 							[ -93.0991, 49.0813 ],
 							[ -93.2232, 48.8278 ],
@@ -1472,18 +1519,18 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 26, 2019 19:50",
+				"LastUpdate_UTC" : "July 26, 2019 20:23",
 				"Expires_UTC" : "July 26, 2019 22:59",
-				"Summary" : "Description: At 2:49 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nA thunderstorm north of Seine River Village is moving northeast at 40 km/h.\n\nThis severe thunderstorm will be near:\nTurtle River- White Otter Lake Provincial Park around 4:10 PM EDT.\n\nWind gusts to 100 km/h and 2 to 4 cm hail are possible.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2019-07-26T22:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-26T19:50:06-00:00, urn:oid:2.49.0.1.124.0974272738.2019<br>Area: Ignace - English River, Seine River Village - Mine Centre",
+				"Summary" : "Description: At 3:23 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2019-07-26T22:59:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-26T20:23:12-00:00, urn:oid:2.49.0.1.124.0857263591.2019<br>Area: Ignace - English River, Seine River Village - Mine Centre",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-26:feed.atom/urn:oid:2.49.0.1.124.0974272738.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-26/2019_07_26T19_50_06_00_00Iurn_oid_2.49.0.1.124.0974272738.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-26:feed.atom/urn:oid:2.49.0.1.124.0857263591.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-26/2019_07_26T20_23_12_00_00Iurn_oid_2.49.0.1.124.0857263591.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190726225906+00:00"
+				"Expires_FMEFormat" : "20190726225912+00:00"
 			}
 		},
 		{
