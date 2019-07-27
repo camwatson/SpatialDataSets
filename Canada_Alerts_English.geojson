@@ -363,6 +363,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -87.4568, 47.9579 ],
+							[ -84.8601, 46.8889 ],
+							[ -84.8569, 46.8805 ],
+							[ -84.7584, 46.9664 ],
+							[ -84.7515, 46.9721 ],
+							[ -84.7487, 46.9745 ],
+							[ -84.7271, 46.9932 ],
+							[ -84.6706, 47.1099 ],
+							[ -84.4836, 47.3469 ],
+							[ -84.8811, 47.6283 ],
+							[ -84.6977, 48.0553 ],
+							[ -85.5664, 48.0212 ],
+							[ -85.9704, 48.2333 ],
+							[ -86.3057, 48.8523 ],
+							[ -86.7557, 48.8838 ],
+							[ -87.3117, 48.8971 ],
+							[ -88.2532, 49.1099 ],
+							[ -88.5584, 48.9251 ],
+							[ -88.7733, 48.6908 ],
+							[ -89.2676, 48.5683 ],
+							[ -89.403, 48.1835 ],
+							[ -89.5945, 48.0669 ],
+							[ -89.6829, 48.0194 ],
+							[ -89.5495, 47.9759 ],
+							[ -89.4704, 48.0163 ],
+							[ -89.3076, 47.9684 ],
+							[ -88.6958, 48.2372 ],
+							[ -88.3529, 48.2999 ],
+							[ -87.4568, 47.9579 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 26, 2019 23:43",
+				"Expires_UTC" : "July 27, 2019 07:59",
+				"Summary" : "Description: Two lines of thunderstorms are expected to cross Lake Superior this evening. The initial line of storms is already developing over southern portions of the lake, while the second line will arrive in the Thunder Bay area within the next hour or two.\n\nSqualls of 45 knots, torrential downpours suddenly reducing visibility to near zero and frequent lightning are possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-27T07:59:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-26T23:43:48-00:00, urn:oid:2.49.0.1.124.2155667371.2019<br>Area: Eastern Lake Superior, Western Lake Superior",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-26:feed.atom/urn:oid:2.49.0.1.124.2155667371.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-26/2019_07_26T23_43_48_00_00Iurn_oid_2.49.0.1.124.2155667371.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190727075948+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.0754, 46.97 ],
 							[ -80.8125, 46.9683 ],
 							[ -80.8125, 46.8912 ],
@@ -1047,68 +1109,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-27/2019_07_27T03_11_11_00_00Iurn_oid_2.49.0.1.124.2122796716.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190727191011+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -87.4568, 47.9579 ],
-							[ -84.8601, 46.8889 ],
-							[ -84.8569, 46.8805 ],
-							[ -84.7584, 46.9664 ],
-							[ -84.7515, 46.9721 ],
-							[ -84.7487, 46.9745 ],
-							[ -84.7271, 46.9932 ],
-							[ -84.6706, 47.1099 ],
-							[ -84.4836, 47.3469 ],
-							[ -84.8811, 47.6283 ],
-							[ -84.6977, 48.0553 ],
-							[ -85.5664, 48.0212 ],
-							[ -85.9704, 48.2333 ],
-							[ -86.3057, 48.8523 ],
-							[ -86.7557, 48.8838 ],
-							[ -87.3117, 48.8971 ],
-							[ -88.2532, 49.1099 ],
-							[ -88.5584, 48.9251 ],
-							[ -88.7733, 48.6908 ],
-							[ -89.2676, 48.5683 ],
-							[ -89.403, 48.1835 ],
-							[ -89.5945, 48.0669 ],
-							[ -89.6829, 48.0194 ],
-							[ -89.5495, 47.9759 ],
-							[ -89.4704, 48.0163 ],
-							[ -89.3076, 47.9684 ],
-							[ -88.6958, 48.2372 ],
-							[ -88.3529, 48.2999 ],
-							[ -87.4568, 47.9579 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Squall Watch Ended",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 27, 2019 03:48",
-				"Expires_UTC" : "July 27, 2019 04:48",
-				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2019-07-27T04:48:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-27T03:48:48-00:00, urn:oid:2.49.0.1.124.3475278096.2019<br>Area: Eastern Lake Superior, Western Lake Superior",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-27:feed.atom/urn:oid:2.49.0.1.124.3475278096.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-27/2019_07_27T03_48_48_00_00Iurn_oid_2.49.0.1.124.3475278096.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190727044848+00:00"
 			}
 		},
 		{
