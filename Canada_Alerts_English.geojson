@@ -397,55 +397,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Heat Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Heat",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 27, 2019 17:50",
-				"Expires_UTC" : "July 28, 2019 09:50",
-				"Summary" : "Description: Humidex values reaching 35 are expected for the next 2 days.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-07-28T09:50:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-27T17:50:51-00:00, urn:oid:2.49.0.1.124.4098716827.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-27:feed.atom/urn:oid:2.49.0.1.124.4098716827.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-27/2019_07_27T17_50_51_00_00Iurn_oid_2.49.0.1.124.4098716827.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190728095051+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -79.5174, 48.6069 ],
 							[ -79.5076, 48.9319 ],
 							[ -79.5172, 49.1428 ],
@@ -612,6 +563,46 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-27/2019_07_27T13_57_32_00_00Iurn_oid_2.49.0.1.124.1121446382.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190728055632+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.6268, 49.1616 ],
+							[ -81.4426, 49.1637 ],
+							[ -81.4419, 49.5091 ],
+							[ -84.0149, 49.9497 ],
+							[ -84.021, 49.9497 ],
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 27, 2019 16:30",
+				"Expires_UTC" : "July 27, 2019 20:00",
+				"Summary" : "Description: At 12:29 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts, pea to dime size hail and heavy rain.\n\nThunderstorms approaching from the southwest may cross the Kapuskasing area by 1.30 PM. Wind gusts near 90 km/h and 1 to 2 cm hail are possible.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.<br>Expires: 2019-07-27T20:00:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-27T16:30:38-00:00, urn:oid:2.49.0.1.124.1305908150.2019<br>Area: Kapuskasing - Hearst - Smooth Rock Falls",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-27:feed.atom/urn:oid:2.49.0.1.124.1305908150.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-27/2019_07_27T16_30_38_00_00Iurn_oid_2.49.0.1.124.1305908150.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190727200038+00:00"
 			}
 		},
 		{
@@ -1818,6 +1809,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Heat Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Heat",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 27, 2019 17:51",
+				"Expires_UTC" : "July 28, 2019 09:50",
+				"Summary" : "Description: Humidex values reaching 35 are expected for the next 2 days.\n\nConditions today and tonight have combined to justify a heat warning. \n\nTemperatures today are currently in the 27 to 30 C range and may creep higher later this afternoon. In addition, nighttime lows should not drop below 18 C tonight. For Sunday temperatures should be near 28 inland. \n\nAfter Sunday the warm and humid conditions may persist into the middle of the coming week. Conditions could be slightly cooler on Monday, with temperatures likely falling to 26 to 28 degrees. Nighttime temperatures during this period are expected to be near 18 degrees. Current indications are that warmer conditions with increased humidity could be in store for Tuesday and Wednesday, with humidex values nearing 36.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-07-28T09:50:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-27T17:51:51-00:00, urn:oid:2.49.0.1.124.0370929535.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-27:feed.atom/urn:oid:2.49.0.1.124.0370929535.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-27/2019_07_27T17_51_51_00_00Iurn_oid_2.49.0.1.124.0370929535.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190728095051+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.0754, 46.97 ],
 							[ -80.8125, 46.9683 ],
 							[ -80.8125, 46.8912 ],
@@ -1896,46 +1936,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-27/2019_07_27T15_17_42_00_00Iurn_oid_2.49.0.1.124.1259567053.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190728031642+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.6268, 49.1616 ],
-							[ -81.4426, 49.1637 ],
-							[ -81.4419, 49.5091 ],
-							[ -84.0149, 49.9497 ],
-							[ -84.021, 49.9497 ],
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 27, 2019 16:30",
-				"Expires_UTC" : "July 27, 2019 20:00",
-				"Summary" : "Description: At 12:29 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts, pea to dime size hail and heavy rain.\n\nThunderstorms approaching from the southwest may cross the Kapuskasing area by 1.30 PM. Wind gusts near 90 km/h and 1 to 2 cm hail are possible.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.<br>Expires: 2019-07-27T20:00:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-27T16:30:38-00:00, urn:oid:2.49.0.1.124.1305908150.2019<br>Area: Kapuskasing - Hearst - Smooth Rock Falls",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-27:feed.atom/urn:oid:2.49.0.1.124.1305908150.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-27/2019_07_27T16_30_38_00_00Iurn_oid_2.49.0.1.124.1305908150.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190727200038+00:00"
 			}
 		}
 	]
