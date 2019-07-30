@@ -159,69 +159,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.9972, 56.0007 ],
-							[ -87.0016, 55.9096 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.008, 55.0039 ],
-							[ -83.7002, 54.0287 ],
-							[ -82.2369, 54.0006 ],
-							[ -82.2294, 54.0004 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.0824, 54.6123 ],
-							[ -82.007, 55.0671 ],
-							[ -82.2786, 55.1755 ],
-							[ -82.7847, 55.1832 ],
-							[ -82.9498, 55.2286 ],
-							[ -83.9602, 55.3859 ],
-							[ -84.958, 55.3741 ],
-							[ -85.6784, 55.7283 ],
-							[ -86.9972, 56.0007 ]
-						]
-					],
-					[
-						[
-							[ -82.9115, 51.9291 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.1507, 51.3164 ],
-							[ -80.8407, 51.8738 ],
-							[ -80.8373, 51.8769 ],
-							[ -80.6927, 51.9724 ],
-							[ -81.4236, 52.4881 ],
-							[ -81.6114, 52.4649 ],
-							[ -82.9115, 51.9291 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 30, 2019 09:12",
-				"Expires_UTC" : "July 30, 2019 17:11",
-				"Summary" : "Description: Rain will continue today along with brisk northwest winds then come to an end this evening. An additional 15 to 25 mm is likely, bringing total rainfall amounts to 25 to 50 mm.\n\nThis rainfall is associated with a low pressure system moving slowly northward over James Bay. \n\nEnvironment Canada's rainfall warning criteria is 50 mm in 24 hours or less.\n\nLocalized flooding in low-lying areas is possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-07-30T17:11:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-30T09:12:34-00:00, urn:oid:2.49.0.1.124.2822210117.2019<br>Area: Peawanuck, Fort Albany",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-30:feed.atom/urn:oid:2.49.0.1.124.2822210117.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-30/2019_07_30T09_12_34_00_00Iurn_oid_2.49.0.1.124.2822210117.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190730171134+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -128.7905, 65.5328 ],
 							[ -126.9244, 64.7729 ],
 							[ -125.4256, 64.1122 ],
@@ -503,6 +440,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-30/2019_07_30T15_11_39_00_00Iurn_oid_2.49.0.1.124.2593144213.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190730231039+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Heat Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Heat",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 30, 2019 06:49",
+				"Expires_UTC" : "July 30, 2019 22:48",
+				"Summary" : "Description: A warm and increasingly humid airmass will remain over the Maritimes over the next few days.\n\nDaytime maximum temperatures are expected to reach 30 degrees today and Wednesday. Overnight lows tonight are expected to fall to near 20 degrees providing little relief from the heat. Maximum humidex values of 35 to 38 are expected.\n\nTemperatures across the island should cool down somewhat on Thursday as a trough of low pressure moves in from the northwest.\n\n###\n\nHeat warnings are issued when very high temperature or humidity conditions are expected to pose an elevated risk of heat illnesses, such as heat stroke or heat exhaustion.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-07-30T22:48:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-30T06:49:35-00:00, urn:oid:2.49.0.1.124.2674158303.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-30:feed.atom/urn:oid:2.49.0.1.124.2674158303.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-30/2019_07_30T06_49_35_00_00Iurn_oid_2.49.0.1.124.2674158303.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190730224835+00:00"
 			}
 		},
 		{
@@ -1092,6 +1078,69 @@
 				"coordinates" : [
 					[
 						[
+							[ -86.9972, 56.0007 ],
+							[ -87.0016, 55.9096 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.008, 55.0039 ],
+							[ -83.7002, 54.0287 ],
+							[ -82.2369, 54.0006 ],
+							[ -82.2294, 54.0004 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.0824, 54.6123 ],
+							[ -82.007, 55.0671 ],
+							[ -82.2786, 55.1755 ],
+							[ -82.7847, 55.1832 ],
+							[ -82.9498, 55.2286 ],
+							[ -83.9602, 55.3859 ],
+							[ -84.958, 55.3741 ],
+							[ -85.6784, 55.7283 ],
+							[ -86.9972, 56.0007 ]
+						]
+					],
+					[
+						[
+							[ -82.9115, 51.9291 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.1507, 51.3164 ],
+							[ -80.8407, 51.8738 ],
+							[ -80.8373, 51.8769 ],
+							[ -80.6927, 51.9724 ],
+							[ -81.4236, 52.4881 ],
+							[ -81.6114, 52.4649 ],
+							[ -82.9115, 51.9291 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 30, 2019 15:32",
+				"Expires_UTC" : "July 30, 2019 23:31",
+				"Summary" : "Description: Rain will continue today along with brisk northwest winds then come to an end this evening. An additional 15 to 25 mm is likely, bringing total rainfall amounts to 25 to 50 mm.\n\nThis rainfall is associated with a low pressure system moving slowly northward over James Bay. \n\nEnvironment Canada's rainfall warning criteria is 50 mm in 24 hours or less.\n\nLocalized flooding in low-lying areas is possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-07-30T23:31:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-30T15:32:29-00:00, urn:oid:2.49.0.1.124.1336365599.2019<br>Area: Peawanuck, Fort Albany",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-30:feed.atom/urn:oid:2.49.0.1.124.1336365599.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-30/2019_07_30T15_32_29_00_00Iurn_oid_2.49.0.1.124.1336365599.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190730233129+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -72.7885, 45.4669 ],
 							[ -72.4986, 45.667 ],
 							[ -72.5018, 45.6657 ],
@@ -1240,67 +1289,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 30, 2019 09:13",
-				"Expires_UTC" : "July 31, 2019 01:12",
-				"Summary" : "Description: Rain, at times heavy, continues.\n\nRain will continue today, along with brisk northwest winds, before ending around midnight. Total rainfall amounts of 50 to 75 mm are expected. There is a chance that the total rainfall may reach 100 mm by Tuesday evening. \n\nThis rainfall is associated with a low pressure system moving slowly northward over James Bay.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-07-31T01:12:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-30T09:13:16-00:00, urn:oid:2.49.0.1.124.1772812502.2019<br>Area: Attawapiskat",
+				"LastUpdate_UTC" : "July 30, 2019 15:35",
+				"Expires_UTC" : "July 31, 2019 07:34",
+				"Summary" : "Description: Rain, at times heavy, continues.\n\nRain will continue today, along with brisk northwest winds, before ending around midnight. Total rainfall amounts of 70 to 100 mm are expected by the time the rain ends tonight.\n\nThis rainfall is associated with a low pressure system moving slowly northward over James Bay.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-07-31T07:34:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-30T15:35:08-00:00, urn:oid:2.49.0.1.124.4246375410.2019<br>Area: Attawapiskat",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-30:feed.atom/urn:oid:2.49.0.1.124.1772812502.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-30/2019_07_30T09_13_16_00_00Iurn_oid_2.49.0.1.124.1772812502.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-30:feed.atom/urn:oid:2.49.0.1.124.4246375410.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-30/2019_07_30T15_35_08_00_00Iurn_oid_2.49.0.1.124.4246375410.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190731011216+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Heat Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Heat",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 30, 2019 06:49",
-				"Expires_UTC" : "July 30, 2019 22:48",
-				"Summary" : "Description: A warm and increasingly humid airmass will remain over the Maritimes over the next few days.\n\nDaytime maximum temperatures are expected to reach 30 degrees today and Wednesday. Overnight lows tonight are expected to fall to near 20 degrees providing little relief from the heat. Maximum humidex values of 35 to 38 are expected.\n\nTemperatures across the island should cool down somewhat on Thursday as a trough of low pressure moves in from the northwest.\n\n###\n\nHeat warnings are issued when very high temperature or humidity conditions are expected to pose an elevated risk of heat illnesses, such as heat stroke or heat exhaustion.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-07-30T22:48:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-30T06:49:35-00:00, urn:oid:2.49.0.1.124.2674158303.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-30:feed.atom/urn:oid:2.49.0.1.124.2674158303.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-30/2019_07_30T06_49_35_00_00Iurn_oid_2.49.0.1.124.2674158303.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190730224835+00:00"
+				"Expires_FMEFormat" : "20190731073408+00:00"
 			}
 		}
 	]
