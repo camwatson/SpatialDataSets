@@ -278,6 +278,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -67.6656, 48 ],
+							[ -68.1226, 47.9998 ],
+							[ -68.1227, 47.9163 ],
+							[ -68.3823, 47.9161 ],
+							[ -68.3823, 47.9128 ],
+							[ -68.3825, 47.7887 ],
+							[ -67.6782, 47.5623 ],
+							[ -67.0364, 47.3494 ],
+							[ -67.0033, 47.3573 ],
+							[ -67.0035, 47.9082 ],
+							[ -66.9979, 47.9393 ],
+							[ -67.0565, 47.9629 ],
+							[ -67.2139, 47.9066 ],
+							[ -67.3012, 47.9247 ],
+							[ -67.3717, 47.9107 ],
+							[ -67.3847, 47.8902 ],
+							[ -67.4796, 47.9265 ],
+							[ -67.5727, 47.9437 ],
+							[ -67.5768, 47.9997 ],
+							[ -67.598, 47.9999 ],
+							[ -67.6035, 47.9999 ],
+							[ -67.6656, 48 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Severe Thunderstorm Watch Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 31, 2019 04:19",
+				"Expires_UTC" : "July 31, 2019 05:19",
+				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n\n###<br>Expires: 2019-07-31T05:19:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T04:19:16-00:00, urn:oid:2.49.0.1.124.3895860007.2019<br>Area: western half of Restigouche County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.3895860007.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T04_19_16_00_00Iurn_oid_2.49.0.1.124.3895860007.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190731051916+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.884, 46.5004 ],
 							[ -63.6271, 46.6222 ],
 							[ -63.9227, 46.7494 ],
@@ -318,6 +373,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T01_28_04_00_00Iurn_oid_2.49.0.1.124.2959380531.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190731172704+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -67.0024, 48.2174 ],
+							[ -67.0013, 48.4494 ],
+							[ -66.9998, 48.7504 ],
+							[ -67.0001, 48.7503 ],
+							[ -67.6687, 48.5824 ],
+							[ -67.6498, 48.4154 ],
+							[ -67.6276, 48.2166 ],
+							[ -67.6035, 47.9999 ],
+							[ -67.6656, 48 ],
+							[ -67.6561, 47.9065 ],
+							[ -67.362, 47.8045 ],
+							[ -67.2875, 47.8524 ],
+							[ -67.1844, 47.8364 ],
+							[ -67.0586, 47.8854 ],
+							[ -66.972, 47.8552 ],
+							[ -66.9116, 47.8661 ],
+							[ -66.8952, 47.9523 ],
+							[ -66.8496, 47.9672 ],
+							[ -66.7872, 47.966 ],
+							[ -66.7805, 47.993 ],
+							[ -66.6148, 48.0154 ],
+							[ -66.4422, 48.0905 ],
+							[ -66.2939, 48.0424 ],
+							[ -66.0128, 48.0649 ],
+							[ -65.8243, 48.018 ],
+							[ -65.4344, 47.921 ],
+							[ -65.4342, 48 ],
+							[ -65.4763, 48.4015 ],
+							[ -66.0664, 48.3334 ],
+							[ -67.0024, 48.2174 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 31, 2019 02:50",
+				"Expires_UTC" : "July 31, 2019 10:59",
+				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing strong wind gusts and torrential rain.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops. Remember, severe thunderstorms can produce tornadoes. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-07-31T10:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T02:50:56-00:00, urn:oid:2.49.0.1.124.1611954461.2019<br>Area: Amqui area, Matapédia area, New-Richmond - Bonaventure area, Restigouche - Carleton area",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.1611954461.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T02_50_56_00_00Iurn_oid_2.49.0.1.124.1611954461.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190731105956+00:00"
 			}
 		},
 		{
@@ -459,69 +577,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -67.0024, 48.2174 ],
-							[ -67.0013, 48.4494 ],
-							[ -66.9998, 48.7504 ],
-							[ -67.0001, 48.7503 ],
-							[ -67.6687, 48.5824 ],
-							[ -67.6498, 48.4154 ],
-							[ -67.6276, 48.2166 ],
-							[ -67.6035, 47.9999 ],
-							[ -67.6656, 48 ],
-							[ -67.6561, 47.9065 ],
-							[ -67.362, 47.8045 ],
-							[ -67.2875, 47.8524 ],
-							[ -67.1844, 47.8364 ],
-							[ -67.0586, 47.8854 ],
-							[ -66.972, 47.8552 ],
-							[ -66.9116, 47.8661 ],
-							[ -66.8952, 47.9523 ],
-							[ -66.8496, 47.9672 ],
-							[ -66.7872, 47.966 ],
-							[ -66.7805, 47.993 ],
-							[ -66.6148, 48.0154 ],
-							[ -66.4422, 48.0905 ],
-							[ -66.2939, 48.0424 ],
-							[ -66.0128, 48.0649 ],
-							[ -65.8243, 48.018 ],
-							[ -65.4344, 47.921 ],
-							[ -65.4342, 48 ],
-							[ -65.4763, 48.4015 ],
-							[ -66.0664, 48.3334 ],
-							[ -67.0024, 48.2174 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 31, 2019 02:50",
-				"Expires_UTC" : "July 31, 2019 10:59",
-				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing strong wind gusts and torrential rain.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops. Remember, severe thunderstorms can produce tornadoes. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-07-31T10:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T02:50:56-00:00, urn:oid:2.49.0.1.124.1611954461.2019<br>Area: Amqui area, Matapédia area, New-Richmond - Bonaventure area, Restigouche - Carleton area",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.1611954461.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T02_50_56_00_00Iurn_oid_2.49.0.1.124.1611954461.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190731105956+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -107.7044, 51.8814 ],
 							[ -107.4937, 51.8715 ],
 							[ -107.2793, 51.8816 ],
@@ -636,184 +691,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T02_04_18_00_00Iurn_oid_2.49.0.1.124.4007208077.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190731050118+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -110.5729, 52.2303 ],
-							[ -110.5044, 52.2279 ],
-							[ -110.4371, 52.2305 ],
-							[ -110.4368, 52.5357 ],
-							[ -110.5138, 52.5382 ],
-							[ -110.6048, 52.5361 ],
-							[ -110.6007, 52.5804 ],
-							[ -110.6038, 52.6233 ],
-							[ -110.6922, 52.6234 ],
-							[ -110.7119, 52.6234 ],
-							[ -110.7123, 52.6201 ],
-							[ -110.7119, 52.6169 ],
-							[ -110.7243, 52.617 ],
-							[ -110.7239, 52.6198 ],
-							[ -110.7243, 52.6229 ],
-							[ -110.7924, 52.6245 ],
-							[ -110.8679, 52.6234 ],
-							[ -110.9401, 52.6234 ],
-							[ -110.9399, 52.6384 ],
-							[ -111.0123, 52.6382 ],
-							[ -111.0122, 52.6678 ],
-							[ -111.04, 52.6687 ],
-							[ -111.0674, 52.6679 ],
-							[ -111.0674, 52.6982 ],
-							[ -111.1237, 52.6988 ],
-							[ -111.1887, 52.6977 ],
-							[ -111.1889, 52.7307 ],
-							[ -111.2006, 52.7409 ],
-							[ -111.2619, 52.7107 ],
-							[ -111.2507, 52.6969 ],
-							[ -111.251, 52.6807 ],
-							[ -111.249, 52.6679 ],
-							[ -111.2523, 52.6679 ],
-							[ -111.2539, 52.6554 ],
-							[ -111.2533, 52.6444 ],
-							[ -111.2737, 52.6462 ],
-							[ -111.2939, 52.6472 ],
-							[ -111.2983, 52.6492 ],
-							[ -111.3047, 52.6512 ],
-							[ -111.332, 52.6551 ],
-							[ -111.3558, 52.618 ],
-							[ -111.3394, 52.5959 ],
-							[ -111.3436, 52.5664 ],
-							[ -111.2901, 52.4912 ],
-							[ -111.3295, 52.4722 ],
-							[ -111.424, 52.4137 ],
-							[ -111.5388, 52.3986 ],
-							[ -111.5928, 52.3511 ],
-							[ -111.5756, 52.3398 ],
-							[ -111.5756, 52.2301 ],
-							[ -111.5755, 51.9686 ],
-							[ -111.4453, 51.9652 ],
-							[ -111.2906, 51.9687 ],
-							[ -111.2776, 51.9678 ],
-							[ -110.5721, 51.9678 ],
-							[ -110.5709, 51.9678 ],
-							[ -110.5729, 52.2303 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 31, 2019 01:27",
-				"Expires_UTC" : "July 31, 2019 04:14",
-				"Summary" : "Description: At 7:26 p.m. MDT, Environment Canada meteorologists are tracking a dangerous thunderstorm capable of producing very strong wind gusts, up to golf ball size hail and heavy rain.\n\nThis severe thunderstorm is located 25 km northwest of Consort and is moving towards the east at 50 km/h.\n\nStorm spotters reported toonie to golfball size hail in Castor around 6:05 PM.\n\n###\n\nVery large hail can damage property, break windows, dent vehicles and cause serious injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-31T04:14:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T01:27:57-00:00, urn:oid:2.49.0.1.124.0617728963.2019<br>Area: S.A. 4 near Veteran and Consort, M.D. of Provost near Hughenden Amisk and Kessler, M.D. of Provost near Czar Metiskow and Cadogan",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.0617728963.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T01_27_57_00_00Iurn_oid_2.49.0.1.124.0617728963.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190731041457+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -106.0048, 49.451 ],
-							[ -106.0688, 49.4551 ],
-							[ -106.1006, 49.4571 ],
-							[ -106.1512, 49.4577 ],
-							[ -106.1985, 49.482 ],
-							[ -106.2257, 49.4837 ],
-							[ -106.2621, 49.4911 ],
-							[ -106.2735, 49.4718 ],
-							[ -106.3045, 49.4629 ],
-							[ -106.3303, 49.4659 ],
-							[ -106.3701, 49.4679 ],
-							[ -106.4099, 49.4656 ],
-							[ -106.4095, 49.262 ],
-							[ -106.4563, 49.2644 ],
-							[ -106.4989, 49.2623 ],
-							[ -106.5046, 49.2172 ],
-							[ -106.4995, 49.1746 ],
-							[ -106.5197, 49.1757 ],
-							[ -106.5399, 49.1746 ],
-							[ -106.5462, 49.0899 ],
-							[ -106.5402, 48.9996 ],
-							[ -106.2759, 48.9985 ],
-							[ -106.0044, 48.9994 ],
-							[ -105.8256, 48.9994 ],
-							[ -105.614, 48.9994 ],
-							[ -105.4223, 48.9988 ],
-							[ -105.2101, 48.9989 ],
-							[ -105.2053, 49.0885 ],
-							[ -105.2107, 49.1739 ],
-							[ -105.2218, 49.1743 ],
-							[ -105.2336, 49.1737 ],
-							[ -105.2309, 49.2155 ],
-							[ -105.2335, 49.2607 ],
-							[ -105.3705, 49.2682 ],
-							[ -105.5022, 49.2606 ],
-							[ -105.4927, 49.3037 ],
-							[ -105.5029, 49.3479 ],
-							[ -105.4359, 49.3419 ],
-							[ -105.3676, 49.3478 ],
-							[ -105.3648, 49.3675 ],
-							[ -105.3677, 49.3887 ],
-							[ -105.4398, 49.4422 ],
-							[ -105.4528, 49.4465 ],
-							[ -105.5071, 49.4503 ],
-							[ -105.5515, 49.4576 ],
-							[ -105.5791, 49.4571 ],
-							[ -105.6359, 49.4589 ],
-							[ -105.6283, 49.4921 ],
-							[ -105.6374, 49.5228 ],
-							[ -105.6514, 49.5236 ],
-							[ -105.6632, 49.5224 ],
-							[ -105.8296, 49.5309 ],
-							[ -106.0051, 49.5235 ],
-							[ -106.0115, 49.4875 ],
-							[ -106.0048, 49.451 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 31, 2019 01:23",
-				"Expires_UTC" : "July 31, 2019 04:14",
-				"Summary" : "Description: At 7:22 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nAt 7:20 pm, radar showed a severe thunderstorm located  just north of the US border south of Fife Lake and west of Coronach. It is likely producing hail up to the size of golfballs. The thunderstorm is tracking to the east or southeast at 20 km/h.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-07-31T04:14:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T01:23:33-00:00, urn:oid:2.49.0.1.124.4039702992.2019<br>Area: R.M. of Old Post including Wood Mountain and Killdeer, R.M. of Poplar Valley including Rockglen and Fife Lake, R.M. of Hart Butte including Coronach",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.4039702992.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T01_23_33_00_00Iurn_oid_2.49.0.1.124.4039702992.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190731041433+00:00"
 			}
 		},
 		{
@@ -2283,50 +2160,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -82.2369, 54.0006 ],
-							[ -83.7002, 54.0287 ],
-							[ -83.0302, 52.2453 ],
-							[ -82.9115, 51.9291 ],
-							[ -81.6114, 52.4649 ],
-							[ -81.4236, 52.4881 ],
-							[ -82.2216, 53.0256 ],
-							[ -81.9632, 53.3416 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.2294, 54.0004 ],
-							[ -82.2369, 54.0006 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 31, 2019 03:59",
-				"Expires_UTC" : "July 31, 2019 04:58",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\nThe strong low pressure system that dumped 50 to 100 mm of rain is moving away and weakening.\n\n###<br>Expires: 2019-07-31T04:58:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T03:59:36-00:00, urn:oid:2.49.0.1.124.1095586015.2019<br>Area: Attawapiskat",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.1095586015.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T03_59_36_00_00Iurn_oid_2.49.0.1.124.1095586015.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190731045836+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -86.9972, 56.0007 ],
 							[ -87.0016, 55.9096 ],
 							[ -87.0122, 55.0075 ],
@@ -2381,6 +2214,50 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T03_48_56_00_00Iurn_oid_2.49.0.1.124.2697850595.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190731044756+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.2369, 54.0006 ],
+							[ -83.7002, 54.0287 ],
+							[ -83.0302, 52.2453 ],
+							[ -82.9115, 51.9291 ],
+							[ -81.6114, 52.4649 ],
+							[ -81.4236, 52.4881 ],
+							[ -82.2216, 53.0256 ],
+							[ -81.9632, 53.3416 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.2294, 54.0004 ],
+							[ -82.2369, 54.0006 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 31, 2019 03:59",
+				"Expires_UTC" : "July 31, 2019 04:58",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\nThe strong low pressure system that dumped 50 to 100 mm of rain is moving away and weakening.\n\n###<br>Expires: 2019-07-31T04:58:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T03:59:36-00:00, urn:oid:2.49.0.1.124.1095586015.2019<br>Area: Attawapiskat",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.1095586015.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T03_59_36_00_00Iurn_oid_2.49.0.1.124.1095586015.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190731045836+00:00"
 			}
 		}
 	]
