@@ -311,54 +311,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -72.2415, 45.1418 ],
-							[ -72.1388, 45.2734 ],
-							[ -72.1874, 45.2926 ],
-							[ -72.2674, 45.1842 ],
-							[ -72.3204, 45.1925 ],
-							[ -72.3025, 45.0523 ],
-							[ -72.2636, 45.0009 ],
-							[ -72.251, 45.001 ],
-							[ -72.251, 45.001 ],
-							[ -72.2014, 45.0009 ],
-							[ -72.1889, 45.0007 ],
-							[ -72.213, 45.029 ],
-							[ -72.1931, 45.1025 ],
-							[ -72.2448, 45.0788 ],
-							[ -72.2415, 45.1418 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 31, 2019 11:57",
-				"Expires_UTC" : "July 31, 2019 22:59",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-31T22:59:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T11:57:46-00:00, urn:oid:2.49.0.1.124.3303488750.2019<br>Area: Lake Memphrémagog - northern half",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.3303488750.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T11_57_46_00_00Iurn_oid_2.49.0.1.124.3303488750.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190731225946+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -62.884, 46.5004 ],
 							[ -63.6271, 46.6222 ],
 							[ -63.9227, 46.7494 ],
@@ -399,6 +351,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T07_11_15_00_00Iurn_oid_2.49.0.1.124.0621842793.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190731231015+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.2415, 45.1418 ],
+							[ -72.1388, 45.2734 ],
+							[ -72.1874, 45.2926 ],
+							[ -72.2674, 45.1842 ],
+							[ -72.3204, 45.1925 ],
+							[ -72.3025, 45.0523 ],
+							[ -72.2636, 45.0009 ],
+							[ -72.251, 45.001 ],
+							[ -72.251, 45.001 ],
+							[ -72.2014, 45.0009 ],
+							[ -72.1889, 45.0007 ],
+							[ -72.213, 45.029 ],
+							[ -72.1931, 45.1025 ],
+							[ -72.2448, 45.0788 ],
+							[ -72.2415, 45.1418 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 31, 2019 11:57",
+				"Expires_UTC" : "July 31, 2019 22:59",
+				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-07-31T22:59:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T11:57:46-00:00, urn:oid:2.49.0.1.124.3303488750.2019<br>Area: Lake Memphrémagog - northern half",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.3303488750.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T11_57_46_00_00Iurn_oid_2.49.0.1.124.3303488750.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190731225946+00:00"
 			}
 		},
 		{
@@ -871,25 +871,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 31, 2019 09:52",
-				"Expires_UTC" : "July 31, 2019 19:00",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nPeriods of torrential rainfall will produce scattered accumulations of 50 to 100 mm by Wednesday morning.\n\nA large area of rainfall with embedded thunderstorms will track through the Kamsack region early this morning. Rainfall will be torrential at times with numerous thunderstorms moving through the region. Widespread rainfall accumulations of 20 to 30 mm are expected with localized accumulations of 50 to 100 mm in areas that receive numerous thunderstorms through the early morning hours.\n\nThe rain will taper off from west to east between 5 AM and 8 AM CST.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2019-07-31T19:00:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T09:52:09-00:00, urn:oid:2.49.0.1.124.0591105205.2019<br>Area: R.M. of Hazel Dell including Lintlaw and Hazel Dell, R.M. of Preeceville including Preeceville and Sturgis, R.M. of Invermay including Invermay and Rama, R.M. of Buchanan including Buchanan Amsterdam and Tadmore, R.M. of Insinger including Theodore and Sheho, R.M. of Good Lake including Canora and Good Spirit Lake Prov. Park, R.M. of Keys including The Key Res., R.M. of St Philips including Pelly and St Philips, R.M. of Sliding Hills including Veregin Mikado and Hamton, R.M. of Cote including Kamsack Togo and Duck Mountain Prov. Park, R.M. of Clayton including Norquay Stenen and Swan Plain, R.M. of Livingston including Arran",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 31, 2019 12:56",
+				"Expires_UTC" : "July 31, 2019 13:56",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-07-31T13:56:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-07-31T12:56:54-00:00, urn:oid:2.49.0.1.124.1503841066.2019<br>Area: R.M. of Hazel Dell including Lintlaw and Hazel Dell, R.M. of Preeceville including Preeceville and Sturgis, R.M. of Invermay including Invermay and Rama, R.M. of Buchanan including Buchanan Amsterdam and Tadmore, R.M. of Insinger including Theodore and Sheho, R.M. of Good Lake including Canora and Good Spirit Lake Prov. Park, R.M. of Keys including The Key Res., R.M. of St Philips including Pelly and St Philips, R.M. of Sliding Hills including Veregin Mikado and Hamton, R.M. of Cote including Kamsack Togo and Duck Mountain Prov. Park, R.M. of Clayton including Norquay Stenen and Swan Plain, R.M. of Livingston including Arran",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.0591105205.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T09_52_09_00_00Iurn_oid_2.49.0.1.124.0591105205.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-07-31:feed.atom/urn:oid:2.49.0.1.124.1503841066.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-07-31/2019_07_31T12_56_54_00_00Iurn_oid_2.49.0.1.124.1503841066.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190731190009+00:00"
+				"Expires_FMEFormat" : "20190731135654+00:00"
 			}
 		},
 		{
