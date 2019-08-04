@@ -64,47 +64,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -87.9904, 52.2453 ],
-							[ -89.8479, 52.2797 ],
-							[ -91.5246, 52.2405 ],
-							[ -92.3388, 51.1193 ],
-							[ -91.0434, 51.1282 ],
-							[ -89.9953, 51.1354 ],
-							[ -87.9963, 51.1568 ],
-							[ -87.9904, 52.2453 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 15:05",
-				"Expires_UTC" : "August 5, 2019 03:04",
-				"Summary" : "Description: Thunderstorms are expected to develop along a cold front this afternoon. Some of these thunderstorms may become severe with wind gusts of 90 km/h and nickel sized hail.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2019-08-05T03:04:49-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T15:05:49-00:00, urn:oid:2.49.0.1.124.3080597207.2019<br>Area: Pickle Lake - Cat Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.3080597207.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T15_05_49_00_00Iurn_oid_2.49.0.1.124.3080597207.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190805030449+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -92.4487, 48.324 ],
 							[ -92.3755, 48.2178 ],
 							[ -92.2677, 48.2469 ],
@@ -502,6 +461,92 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T19_31_47_00_00Iurn_oid_2.49.0.1.124.2197780883.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190805113047+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.9747, 64.0894 ],
+							[ -95.8731, 64.1005 ],
+							[ -95.8385, 64.1083 ],
+							[ -95.7695, 64.1237 ],
+							[ -95.6416, 64.1779 ],
+							[ -95.5546, 64.2743 ],
+							[ -95.5549, 64.3297 ],
+							[ -95.6192, 64.4102 ],
+							[ -95.7449, 64.471 ],
+							[ -95.9232, 64.5079 ],
+							[ -96.1125, 64.5122 ],
+							[ -96.2988, 64.4835 ],
+							[ -96.4385, 64.4285 ],
+							[ -96.5218, 64.3513 ],
+							[ -96.5299, 64.2699 ],
+							[ -96.4674, 64.1931 ],
+							[ -96.337, 64.1298 ],
+							[ -96.1607, 64.0935 ],
+							[ -95.9747, 64.0894 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					],
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 4, 2019 19:45",
+				"Expires_UTC" : "August 5, 2019 11:44",
+				"Summary" : "Description: Rain, heavy at times is expected.\n\nAn intense low pressure system continues to give rain to Kivalliq this afternoon. The rain will taper off at Arviat this evening and elsewhere by Monday morning. Showers will persist off and on Monday and Monday night in all areas, however amounts will be relatively light. \n\nArviat has reported 24 mm in the past 24 hours or so, with around 5 mm more expected before the rain tapers off this evening. \n\nWhale Cove and Rankin Inlet have had around 10 to 15 mm of rain since Saturday afternoon, with another 10 to 20 mm forecast for tonight and lesser amounts on Monday. \n\nBaker Lake has reported 15 to 20 mm of rain since Saturday morning. A further 5 to 10 mm is expected tonight with lesser amounts forecast for Monday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-05T11:44:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T19:45:56-00:00, urn:oid:2.49.0.1.124.1063758500.2019<br>Area: Baker Lake, Arviat, Rankin Region including Whale Cove",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.1063758500.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T19_45_56_00_00Iurn_oid_2.49.0.1.124.1063758500.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190805114456+00:00"
 			}
 		},
 		{
@@ -1453,6 +1498,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -87.9904, 52.2453 ],
+							[ -89.8479, 52.2797 ],
+							[ -91.5246, 52.2405 ],
+							[ -92.3388, 51.1193 ],
+							[ -91.0434, 51.1282 ],
+							[ -89.9953, 51.1354 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.9904, 52.2453 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 4, 2019 20:07",
+				"Expires_UTC" : "August 4, 2019 23:01",
+				"Summary" : "Description: At 3:07 p.m. CDT (3:07 p.m. EST), Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to nickel size hail.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-04T23:01:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T20:07:24-00:00, urn:oid:2.49.0.1.124.2102856892.2019<br>Area: Pickle Lake - Cat Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.2102856892.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T20_07_24_00_00Iurn_oid_2.49.0.1.124.2102856892.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190804230124+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -87.9958, 53.2172 ],
 							[ -88.0338, 52.7599 ],
 							[ -87.9904, 52.2453 ],
@@ -1491,92 +1577,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T19_52_59_00_00Iurn_oid_2.49.0.1.124.1691201060.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190804224459+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.9747, 64.0894 ],
-							[ -95.8731, 64.1005 ],
-							[ -95.8385, 64.1083 ],
-							[ -95.7695, 64.1237 ],
-							[ -95.6416, 64.1779 ],
-							[ -95.5546, 64.2743 ],
-							[ -95.5549, 64.3297 ],
-							[ -95.6192, 64.4102 ],
-							[ -95.7449, 64.471 ],
-							[ -95.9232, 64.5079 ],
-							[ -96.1125, 64.5122 ],
-							[ -96.2988, 64.4835 ],
-							[ -96.4385, 64.4285 ],
-							[ -96.5218, 64.3513 ],
-							[ -96.5299, 64.2699 ],
-							[ -96.4674, 64.1931 ],
-							[ -96.337, 64.1298 ],
-							[ -96.1607, 64.0935 ],
-							[ -95.9747, 64.0894 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					],
-					[
-						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 19:45",
-				"Expires_UTC" : "August 5, 2019 11:44",
-				"Summary" : "Description: Rain, heavy at times is expected.\n\nAn intense low pressure system continues to give rain to Kivalliq this afternoon. The rain will taper off at Arviat this evening and elsewhere by Monday morning. Showers will persist off and on Monday and Monday night in all areas, however amounts will be relatively light. \n\nArviat has reported 24 mm in the past 24 hours or so, with around 5 mm more expected before the rain tapers off this evening. \n\nWhale Cove and Rankin Inlet have had around 10 to 15 mm of rain since Saturday afternoon, with another 10 to 20 mm forecast for tonight and lesser amounts on Monday. \n\nBaker Lake has reported 15 to 20 mm of rain since Saturday morning. A further 5 to 10 mm is expected tonight with lesser amounts forecast for Monday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-05T11:44:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T19:45:56-00:00, urn:oid:2.49.0.1.124.1063758500.2019<br>Area: Baker Lake, Arviat, Rankin Region including Whale Cove",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.1063758500.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T19_45_56_00_00Iurn_oid_2.49.0.1.124.1063758500.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190805114456+00:00"
 			}
 		}
 	]
