@@ -544,6 +544,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -100.5808, 56.3385 ],
+							[ -100.5808, 55.7682 ],
+							[ -100.5544, 55.6367 ],
+							[ -99.4001, 55.6367 ],
+							[ -99.4001, 56.3447 ],
+							[ -99.4001, 56.7023 ],
+							[ -99.1741, 56.7685 ],
+							[ -98.9394, 57.2184 ],
+							[ -99.2839, 57.2337 ],
+							[ -99.4001, 57.11 ],
+							[ -100.5808, 57.11 ],
+							[ -102.0073, 57.11 ],
+							[ -102.0073, 56.3385 ],
+							[ -102.0002, 56.3385 ],
+							[ -100.5808, 56.3385 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 4, 2019 04:13",
+				"Expires_UTC" : "August 4, 2019 07:12",
+				"Summary" : "Description: At 11:13 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, nickel to ping pong ball size hail and heavy rain.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.<br>Expires: 2019-08-04T07:12:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T04:13:22-00:00, urn:oid:2.49.0.1.124.2451966283.2019<br>Area: Lynn Lake, Leaf Rapids",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.2451966283.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T04_13_22_00_00Iurn_oid_2.49.0.1.124.2451966283.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190804071222+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -116.9892300975, 57.3817574251 ],
 							[ -116.8378, 57.3817 ],
 							[ -116.6607, 57.3819 ],
@@ -1298,49 +1346,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T02_35_39_00_00Iurn_oid_2.49.0.1.124.1392463492.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190804051839+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -93.9327, 54.2782 ],
-							[ -93.9316, 54.7431 ],
-							[ -93.9327, 55.155 ],
-							[ -94.2557, 55.1652 ],
-							[ -94.5762, 55.155 ],
-							[ -95.0284, 55.1727 ],
-							[ -95.4553, 55.155 ],
-							[ -95.3414, 54.2782 ],
-							[ -94.6845, 54.2666 ],
-							[ -93.9327, 54.2782 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 03:14",
-				"Expires_UTC" : "August 4, 2019 06:12",
-				"Summary" : "Description: At 10:13 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, nickel to ping pong ball size hail and heavy rain.\n\nSatellite imagery and lightning detectors indicate that this severe thunderstorm is approaching Oxford House from the east and should impact the community in the next hour.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.<br>Expires: 2019-08-04T06:12:43-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T03:14:43-00:00, urn:oid:2.49.0.1.124.1587815330.2019<br>Area: Oxford House and Gods Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.1587815330.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T03_14_43_00_00Iurn_oid_2.49.0.1.124.1587815330.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190804061243+00:00"
 			}
 		},
 		{
@@ -2327,113 +2332,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -107.3525, 54.1488 ],
-							[ -107.6357, 54.1581 ],
-							[ -107.9527, 54.1495 ],
-							[ -107.9379, 54.2866 ],
-							[ -107.951, 54.413 ],
-							[ -107.962, 54.4127 ],
-							[ -107.9682, 54.4126 ],
-							[ -107.9572, 54.5056 ],
-							[ -107.9683, 54.5861 ],
-							[ -108.0051, 54.589 ],
-							[ -108.0515, 54.5869 ],
-							[ -108.2327, 54.5918 ],
-							[ -108.4231, 54.5869 ],
-							[ -108.4152, 54.6355 ],
-							[ -108.4237, 54.6743 ],
-							[ -108.5082, 54.678 ],
-							[ -108.5992, 54.6744 ],
-							[ -108.606, 54.6335 ],
-							[ -108.5994, 54.5871 ],
-							[ -108.6245, 54.588 ],
-							[ -108.6499, 54.587 ],
-							[ -108.6546, 54.5551 ],
-							[ -108.6498, 54.5141 ],
-							[ -108.7199, 54.5171 ],
-							[ -108.8008, 54.5145 ],
-							[ -108.8029, 54.4997 ],
-							[ -108.8003, 54.4853 ],
-							[ -108.8765, 54.4854 ],
-							[ -108.8901, 54.4516 ],
-							[ -108.8762, 54.4124 ],
-							[ -108.8518, 54.4125 ],
-							[ -108.8585, 54.3557 ],
-							[ -108.8518, 54.2975 ],
-							[ -108.8865, 54.2931 ],
-							[ -108.9408, 54.3019 ],
-							[ -108.9774, 54.3249 ],
-							[ -109.0203, 54.3257 ],
-							[ -109.07, 54.3012 ],
-							[ -109.052, 54.2741 ],
-							[ -109.0613, 54.2127 ],
-							[ -109.0525, 54.1502 ],
-							[ -108.9687, 54.146 ],
-							[ -108.9021, 54.1506 ],
-							[ -108.9173, 54.1107 ],
-							[ -108.9026, 54.0689 ],
-							[ -108.8519, 54.0638 ],
-							[ -108.7621, 54.0569 ],
-							[ -108.6826, 54.0639 ],
-							[ -108.6827, 54.0637 ],
-							[ -108.6989, 53.9399 ],
-							[ -108.6821, 53.7149 ],
-							[ -108.5913, 53.7116 ],
-							[ -108.5107, 53.715 ],
-							[ -108.5198, 53.6734 ],
-							[ -108.511, 53.6273 ],
-							[ -108.3222, 53.6215 ],
-							[ -108.157, 53.6274 ],
-							[ -108.033, 53.623 ],
-							[ -107.9221, 53.6277 ],
-							[ -107.9157, 53.6724 ],
-							[ -107.9224, 53.7148 ],
-							[ -107.9294, 53.7155 ],
-							[ -107.9392, 53.7151 ],
-							[ -107.9304, 53.7549 ],
-							[ -107.939, 53.8018 ],
-							[ -107.8671, 53.7967 ],
-							[ -107.7901, 53.8018 ],
-							[ -107.7738, 53.8851 ],
-							[ -107.7902, 53.9768 ],
-							[ -107.7894, 53.9768 ],
-							[ -107.554, 53.969 ],
-							[ -107.3443, 53.9766 ],
-							[ -107.3332, 54.0614 ],
-							[ -107.3525, 54.1488 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 01:14",
-				"Expires_UTC" : "August 4, 2019 04:12",
-				"Summary" : "Description: At 7:13 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, pea to dime size hail and heavy rain.\n\nThe thunderstorm is passing just south of Meadow Lake and is moving rapidly to the east.  Wind gusts over 100 km/h are possible with this thunderstorm.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-04T04:12:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T01:14:11-00:00, urn:oid:2.49.0.1.124.2317937267.2019<br>Area: R.M. of Meadow Lake including Waterhen Res.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.2317937267.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T01_14_11_00_00Iurn_oid_2.49.0.1.124.2317937267.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190804041211+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -104.1998, 53.8012 ],
 							[ -103.8982, 53.7942 ],
 							[ -103.6415, 53.8015 ],
@@ -2562,6 +2460,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T01_08_41_00_00Iurn_oid_2.49.0.1.124.1910146405.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190804080941+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -93.9327, 54.2782 ],
+							[ -93.9316, 54.7431 ],
+							[ -93.9327, 55.155 ],
+							[ -94.2557, 55.1652 ],
+							[ -94.5762, 55.155 ],
+							[ -95.0284, 55.1727 ],
+							[ -95.4553, 55.155 ],
+							[ -95.3414, 54.2782 ],
+							[ -94.6845, 54.2666 ],
+							[ -93.9327, 54.2782 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 4, 2019 03:14",
+				"Expires_UTC" : "August 4, 2019 06:12",
+				"Summary" : "Description: At 10:13 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, nickel to ping pong ball size hail and heavy rain.\n\nSatellite imagery and lightning detectors indicate that this severe thunderstorm is approaching Oxford House from the east and should impact the community in the next hour.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.<br>Expires: 2019-08-04T06:12:43-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T03:14:43-00:00, urn:oid:2.49.0.1.124.1587815330.2019<br>Area: Oxford House and Gods Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.1587815330.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T03_14_43_00_00Iurn_oid_2.49.0.1.124.1587815330.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190804061243+00:00"
 			}
 		}
 	]
