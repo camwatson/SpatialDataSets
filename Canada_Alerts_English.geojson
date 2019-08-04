@@ -28,25 +28,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 10:03",
-				"Expires_UTC" : "August 4, 2019 13:01",
-				"Summary" : "Description: At 5:02 a.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts, up to toonie size hail and heavy rain.\n\nThe thunderstorm is located west of Little Grand Rapids and is moving towards that community.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-04T13:01:21-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T10:03:21-00:00, urn:oid:2.49.0.1.124.3168033056.2019<br>Area: Little Grand Rapids and Atikaki Prov. Park",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 4, 2019 11:15",
+				"Expires_UTC" : "August 4, 2019 12:15",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-08-04T12:15:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T11:15:44-00:00, urn:oid:2.49.0.1.124.2824846328.2019<br>Area: Little Grand Rapids and Atikaki Prov. Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.3168033056.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T10_03_21_00_00Iurn_oid_2.49.0.1.124.3168033056.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.2824846328.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T11_15_44_00_00Iurn_oid_2.49.0.1.124.2824846328.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190804130121+00:00"
+				"Expires_FMEFormat" : "20190804121544+00:00"
 			}
 		},
 		{
@@ -193,350 +193,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T09_28_27_00_00Iurn_oid_2.49.0.1.124.2043169865.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190805012727+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -116.9892300975, 57.3817574251 ],
-							[ -116.8378, 57.3817 ],
-							[ -116.6607, 57.3819 ],
-							[ -116.5466, 57.382 ],
-							[ -116.0715, 57.3819 ],
-							[ -115.9511, 57.3816 ],
-							[ -115.4503, 57.3605 ],
-							[ -114.975, 57.3807 ],
-							[ -114.4621, 57.3571 ],
-							[ -114, 57.3812 ],
-							[ -113.9554, 57.7377 ],
-							[ -113.9999, 58.0812 ],
-							[ -113.9889, 58.1699 ],
-							[ -114, 58.253 ],
-							[ -113.9835, 58.5248 ],
-							[ -113.9999, 58.7762 ],
-							[ -113.9571, 59.129 ],
-							[ -114, 59.475 ],
-							[ -114.7403, 59.4899 ],
-							[ -115.5532, 59.4759 ],
-							[ -115.553, 59.6481 ],
-							[ -115.5576, 59.6483 ],
-							[ -115.5692, 59.6489 ],
-							[ -115.5455, 59.8124 ],
-							[ -115.5673, 59.9981 ],
-							[ -116.2895, 60.0078 ],
-							[ -116.9878, 59.9995 ],
-							[ -117.4613, 60.0076 ],
-							[ -117.9999, 59.9996 ],
-							[ -118.9303, 60.0137 ],
-							[ -120.0013, 60.0004 ],
-							[ -120.0013, 59.4749 ],
-							[ -120.0013, 58.9507 ],
-							[ -120.0012, 58.0792 ],
-							[ -120.0012, 57.3805 ],
-							[ -119.0525, 57.3698 ],
-							[ -118.1545, 57.3829 ],
-							[ -117.5271, 57.3742 ],
-							[ -116.9892300975, 57.3817574251 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 10:35",
-				"Expires_UTC" : "August 5, 2019 02:34",
-				"Summary" : "Description: Wildfire smoke is causing poor air quality and locally reduced visibilities at times.\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors, and those with cardiovascular or lung disease, such as asthma, are especially at risk.\n\nPeople with lung diseases, such as asthma and COPD, can be particularly sensitive to air pollution. They will generally experience more serious health effects at lower levels. Pollution can aggravate their diseases, leading to increased medication use, doctor and emergency room visits, and hospital visits.\n\nFor more information please visit Alberta Health Services at www.albertahealthservices.ca/news/air.aspx.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-08-05T02:34:30-00:00<br>Originated from CAP Alert: Environment Canada,  Alberta Environment and Parks,  Alberta Health,  Alberta Health Services, 2019-08-04T10:35:30-00:00, urn:oid:2.49.0.1.124.1383787877.2019<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves",
-				"Author" : "Environment Canada,  Alberta Environment and Parks,  Alberta Health,  Alberta Health Services",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.1383787877.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T10_35_30_00_00Iurn_oid_2.49.0.1.124.1383787877.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190805023430+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -99.4001, 56.7023 ],
-							[ -99.4001, 56.3447 ],
-							[ -98.1983, 56.3447 ],
-							[ -96.8659, 56.3447 ],
-							[ -96.8659, 57.11 ],
-							[ -97.5981, 57.1683 ],
-							[ -98.2313, 57.1168 ],
-							[ -99.4001, 57.11 ],
-							[ -99.4001, 56.7023 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 07:44",
-				"Expires_UTC" : "August 4, 2019 11:14",
-				"Summary" : "Description: At 2:43 a.m. CDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, nickel to ping pong ball size hail and heavy rain.\n\nSatellite imagery and lightning detectors show the line of thunderstorms is affecting Amisk Provincial Park.  Damaging wind gusts and continuous lightning are very likely with this system.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.<br>Expires: 2019-08-04T11:14:32-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T07:44:32-00:00, urn:oid:2.49.0.1.124.2793948026.2019<br>Area: South Indian Lake and Amisk Prov. Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.2793948026.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T07_44_32_00_00Iurn_oid_2.49.0.1.124.2793948026.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190804111432+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.9747, 64.0894 ],
-							[ -95.8731, 64.1005 ],
-							[ -95.8385, 64.1083 ],
-							[ -95.7695, 64.1237 ],
-							[ -95.6416, 64.1779 ],
-							[ -95.5546, 64.2743 ],
-							[ -95.5549, 64.3297 ],
-							[ -95.6192, 64.4102 ],
-							[ -95.7449, 64.471 ],
-							[ -95.9232, 64.5079 ],
-							[ -96.1125, 64.5122 ],
-							[ -96.2988, 64.4835 ],
-							[ -96.4385, 64.4285 ],
-							[ -96.5218, 64.3513 ],
-							[ -96.5299, 64.2699 ],
-							[ -96.4674, 64.1931 ],
-							[ -96.337, 64.1298 ],
-							[ -96.1607, 64.0935 ],
-							[ -95.9747, 64.0894 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					],
-					[
-						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 08:19",
-				"Expires_UTC" : "August 5, 2019 00:18",
-				"Summary" : "Description: Rain, heavy at times is expected.\n\nAn intense low pressure system bearing moisture from the south will bring significant rainfall to parts of the Kivalliq today and tonight. Periods of rain at times heavy are expected, with total accumulations near 30 mm by Monday morning.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-05T00:18:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T08:19:12-00:00, urn:oid:2.49.0.1.124.0428783920.2019<br>Area: Baker Lake, Arviat, Rankin Region including Whale Cove",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.0428783920.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T08_19_12_00_00Iurn_oid_2.49.0.1.124.0428783920.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190805001812+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -91.5246, 52.2405 ],
-							[ -90.9516, 52.9541 ],
-							[ -90.5082, 53.543 ],
-							[ -92.0407, 53.7604 ],
-							[ -93.4241, 53.9089 ],
-							[ -93.68, 53.7427 ],
-							[ -93.9327, 53.5766 ],
-							[ -94.5197, 53.2523 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.1632, 52.6707 ],
-							[ -95.1536, 52.4841 ],
-							[ -95.1536, 52.4201 ],
-							[ -95.169, 52.0344 ],
-							[ -95.1536, 51.6128 ],
-							[ -94.5283, 51.5309 ],
-							[ -93.9542, 51.4733 ],
-							[ -93.733, 51.4154 ],
-							[ -93.4873, 51.3669 ],
-							[ -92.3388, 51.1193 ],
-							[ -91.0434, 51.1282 ],
-							[ -89.9953, 51.1354 ],
-							[ -87.9963, 51.1568 ],
-							[ -87.9904, 52.2453 ],
-							[ -89.8479, 52.2797 ],
-							[ -91.5246, 52.2405 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Heat Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Heat",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 09:14",
-				"Expires_UTC" : "August 5, 2019 01:13",
-				"Summary" : "Description: Hot and humid conditions continue today. \n\nA hot and humid airmass will remain over the area today. Maximum daytime temperatures will again be near 29 degrees with Humidex values near 36. \n\nA cold front tonight is expected to bring a cooler airmass to the area Monday.\n\n###\n\nExtreme heat affects everyone.\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nWatch for the effects of heat illness: swelling, rash, cramps, fainting, heat exhaustion, heat stroke and the worsening of some health conditions.\n\nHeat warnings are issued when very high temperature or humidity conditions are expected to pose an elevated risk of heat illnesses, such as heat stroke or heat exhaustion.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-08-05T01:13:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T09:14:00-00:00, urn:oid:2.49.0.1.124.2140411303.2019<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell, Pickle Lake - Cat Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.2140411303.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T09_14_00_00_00Iurn_oid_2.49.0.1.124.2140411303.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190805011300+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -96.8659, 55.155 ],
-							[ -95.4553, 55.155 ],
-							[ -95.3414, 54.2782 ],
-							[ -95.3005, 53.8878 ],
-							[ -95.2444, 53.5312 ],
-							[ -95.2248, 53.1762 ],
-							[ -95.153, 52.8419 ],
-							[ -94.4788, 53.228 ],
-							[ -93.9327, 53.5766 ],
-							[ -93.631, 53.7387 ],
-							[ -93.4241, 53.9089 ],
-							[ -92.5613, 54.4865 ],
-							[ -91.653, 55.1549 ],
-							[ -91.021, 55.5607 ],
-							[ -90.4723, 55.9307 ],
-							[ -90.1415, 56.1239 ],
-							[ -89.8863, 56.3004 ],
-							[ -91.2133, 56.6231 ],
-							[ -92.7352, 56.9253 ],
-							[ -94.1102, 57.0589 ],
-							[ -95.4499, 57.11 ],
-							[ -95.397, 57.2899 ],
-							[ -95.4499, 57.4624 ],
-							[ -95.2626, 57.4609 ],
-							[ -95.2592, 57.7829 ],
-							[ -95.4499, 57.7824 ],
-							[ -95.3158, 58.6988 ],
-							[ -95.4499, 59.9991 ],
-							[ -97.4253, 60.0545 ],
-							[ -99.4001, 59.9992 ],
-							[ -100.6699, 60.0474 ],
-							[ -102.0004, 59.9992 ],
-							[ -102.0075, 59.9992 ],
-							[ -102.0425, 59.1758 ],
-							[ -102.0074, 58.3877 ],
-							[ -102.0297, 57.6922 ],
-							[ -102.0073, 57.11 ],
-							[ -102.0073, 56.3385 ],
-							[ -102.0126, 56.2185 ],
-							[ -102.004, 56.1199 ],
-							[ -102.0121, 55.9619 ],
-							[ -102.0012, 55.7866 ],
-							[ -101.9874, 55.7867 ],
-							[ -101.974, 55.7876 ],
-							[ -101.9763, 55.7174 ],
-							[ -101.9644, 55.6367 ],
-							[ -101.2899, 55.6282 ],
-							[ -100.5544, 55.6367 ],
-							[ -99.4001, 55.6367 ],
-							[ -99.4001, 55.155 ],
-							[ -98.1983, 55.155 ],
-							[ -96.8659, 55.155 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 4, 2019 07:42",
-				"Expires_UTC" : "August 4, 2019 12:43",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nThe threat of severe thunderstorms has diminished in central Manitoba, but will continue into the overnight hours for northern parts of the province.\n\n###\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2019-08-04T12:43:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T07:42:44-00:00, urn:oid:2.49.0.1.124.2138160456.2019<br>Area: Brochet, Tadoule Lake, Lynn Lake, Leaf Rapids, Pukatawagan, South Indian Lake and Amisk Prov. Park, Split Lake and York Landing, Thompson Thicket Portage and Pikwitonei, Nelson House, Gillam, Shamattawa, Oxford House and Gods Lake, Red Sucker Lake, Island Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.2138160456.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T07_42_44_00_00Iurn_oid_2.49.0.1.124.2138160456.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190804124344+00:00"
 			}
 		},
 		{
@@ -699,6 +355,308 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T09_14_00_00_00Iurn_oid_2.49.0.1.124.1792379805.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190805011300+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -91.5246, 52.2405 ],
+							[ -90.9516, 52.9541 ],
+							[ -90.5082, 53.543 ],
+							[ -92.0407, 53.7604 ],
+							[ -93.4241, 53.9089 ],
+							[ -93.68, 53.7427 ],
+							[ -93.9327, 53.5766 ],
+							[ -94.5197, 53.2523 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.1632, 52.6707 ],
+							[ -95.1536, 52.4841 ],
+							[ -95.1536, 52.4201 ],
+							[ -95.169, 52.0344 ],
+							[ -95.1536, 51.6128 ],
+							[ -94.5283, 51.5309 ],
+							[ -93.9542, 51.4733 ],
+							[ -93.733, 51.4154 ],
+							[ -93.4873, 51.3669 ],
+							[ -92.3388, 51.1193 ],
+							[ -91.0434, 51.1282 ],
+							[ -89.9953, 51.1354 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.9904, 52.2453 ],
+							[ -89.8479, 52.2797 ],
+							[ -91.5246, 52.2405 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Heat Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Heat",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 4, 2019 09:14",
+				"Expires_UTC" : "August 5, 2019 01:13",
+				"Summary" : "Description: Hot and humid conditions continue today. \n\nA hot and humid airmass will remain over the area today. Maximum daytime temperatures will again be near 29 degrees with Humidex values near 36. \n\nA cold front tonight is expected to bring a cooler airmass to the area Monday.\n\n###\n\nExtreme heat affects everyone.\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nWatch for the effects of heat illness: swelling, rash, cramps, fainting, heat exhaustion, heat stroke and the worsening of some health conditions.\n\nHeat warnings are issued when very high temperature or humidity conditions are expected to pose an elevated risk of heat illnesses, such as heat stroke or heat exhaustion.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-08-05T01:13:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T09:14:00-00:00, urn:oid:2.49.0.1.124.2140411303.2019<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell, Pickle Lake - Cat Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.2140411303.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T09_14_00_00_00Iurn_oid_2.49.0.1.124.2140411303.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190805011300+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -96.8659, 55.155 ],
+							[ -95.4553, 55.155 ],
+							[ -95.3414, 54.2782 ],
+							[ -95.3005, 53.8878 ],
+							[ -95.2444, 53.5312 ],
+							[ -95.2248, 53.1762 ],
+							[ -95.153, 52.8419 ],
+							[ -94.4788, 53.228 ],
+							[ -93.9327, 53.5766 ],
+							[ -93.631, 53.7387 ],
+							[ -93.4241, 53.9089 ],
+							[ -92.5613, 54.4865 ],
+							[ -91.653, 55.1549 ],
+							[ -91.021, 55.5607 ],
+							[ -90.4723, 55.9307 ],
+							[ -90.1415, 56.1239 ],
+							[ -89.8863, 56.3004 ],
+							[ -91.2133, 56.6231 ],
+							[ -92.7352, 56.9253 ],
+							[ -94.1102, 57.0589 ],
+							[ -95.4499, 57.11 ],
+							[ -95.397, 57.2899 ],
+							[ -95.4499, 57.4624 ],
+							[ -95.2626, 57.4609 ],
+							[ -95.2592, 57.7829 ],
+							[ -95.4499, 57.7824 ],
+							[ -95.3158, 58.6988 ],
+							[ -95.4499, 59.9991 ],
+							[ -97.4253, 60.0545 ],
+							[ -99.4001, 59.9992 ],
+							[ -100.6699, 60.0474 ],
+							[ -102.0004, 59.9992 ],
+							[ -102.0075, 59.9992 ],
+							[ -102.0425, 59.1758 ],
+							[ -102.0074, 58.3877 ],
+							[ -102.0297, 57.6922 ],
+							[ -102.0073, 57.11 ],
+							[ -102.0073, 56.3385 ],
+							[ -102.0126, 56.2185 ],
+							[ -102.004, 56.1199 ],
+							[ -102.0121, 55.9619 ],
+							[ -102.0012, 55.7866 ],
+							[ -101.9874, 55.7867 ],
+							[ -101.974, 55.7876 ],
+							[ -101.9763, 55.7174 ],
+							[ -101.9644, 55.6367 ],
+							[ -101.2899, 55.6282 ],
+							[ -100.5544, 55.6367 ],
+							[ -99.4001, 55.6367 ],
+							[ -99.4001, 55.155 ],
+							[ -98.1983, 55.155 ],
+							[ -96.8659, 55.155 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 4, 2019 07:42",
+				"Expires_UTC" : "August 4, 2019 12:43",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nThe threat of severe thunderstorms has diminished in central Manitoba, but will continue into the overnight hours for northern parts of the province.\n\n###\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2019-08-04T12:43:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T07:42:44-00:00, urn:oid:2.49.0.1.124.2138160456.2019<br>Area: Brochet, Tadoule Lake, Lynn Lake, Leaf Rapids, Pukatawagan, South Indian Lake and Amisk Prov. Park, Split Lake and York Landing, Thompson Thicket Portage and Pikwitonei, Nelson House, Gillam, Shamattawa, Oxford House and Gods Lake, Red Sucker Lake, Island Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.2138160456.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T07_42_44_00_00Iurn_oid_2.49.0.1.124.2138160456.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190804124344+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.9747, 64.0894 ],
+							[ -95.8731, 64.1005 ],
+							[ -95.8385, 64.1083 ],
+							[ -95.7695, 64.1237 ],
+							[ -95.6416, 64.1779 ],
+							[ -95.5546, 64.2743 ],
+							[ -95.5549, 64.3297 ],
+							[ -95.6192, 64.4102 ],
+							[ -95.7449, 64.471 ],
+							[ -95.9232, 64.5079 ],
+							[ -96.1125, 64.5122 ],
+							[ -96.2988, 64.4835 ],
+							[ -96.4385, 64.4285 ],
+							[ -96.5218, 64.3513 ],
+							[ -96.5299, 64.2699 ],
+							[ -96.4674, 64.1931 ],
+							[ -96.337, 64.1298 ],
+							[ -96.1607, 64.0935 ],
+							[ -95.9747, 64.0894 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					],
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 4, 2019 08:19",
+				"Expires_UTC" : "August 5, 2019 00:18",
+				"Summary" : "Description: Rain, heavy at times is expected.\n\nAn intense low pressure system bearing moisture from the south will bring significant rainfall to parts of the Kivalliq today and tonight. Periods of rain at times heavy are expected, with total accumulations near 30 mm by Monday morning.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-05T00:18:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-04T08:19:12-00:00, urn:oid:2.49.0.1.124.0428783920.2019<br>Area: Baker Lake, Arviat, Rankin Region including Whale Cove",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.0428783920.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T08_19_12_00_00Iurn_oid_2.49.0.1.124.0428783920.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190805001812+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -116.9892300975, 57.3817574251 ],
+							[ -116.8378, 57.3817 ],
+							[ -116.6607, 57.3819 ],
+							[ -116.5466, 57.382 ],
+							[ -116.0715, 57.3819 ],
+							[ -115.9511, 57.3816 ],
+							[ -115.4503, 57.3605 ],
+							[ -114.975, 57.3807 ],
+							[ -114.4621, 57.3571 ],
+							[ -114, 57.3812 ],
+							[ -113.9554, 57.7377 ],
+							[ -113.9999, 58.0812 ],
+							[ -113.9889, 58.1699 ],
+							[ -114, 58.253 ],
+							[ -113.9835, 58.5248 ],
+							[ -113.9999, 58.7762 ],
+							[ -113.9571, 59.129 ],
+							[ -114, 59.475 ],
+							[ -114.7403, 59.4899 ],
+							[ -115.5532, 59.4759 ],
+							[ -115.553, 59.6481 ],
+							[ -115.5576, 59.6483 ],
+							[ -115.5692, 59.6489 ],
+							[ -115.5455, 59.8124 ],
+							[ -115.5673, 59.9981 ],
+							[ -116.2895, 60.0078 ],
+							[ -116.9878, 59.9995 ],
+							[ -117.4613, 60.0076 ],
+							[ -117.9999, 59.9996 ],
+							[ -118.9303, 60.0137 ],
+							[ -120.0013, 60.0004 ],
+							[ -120.0013, 59.4749 ],
+							[ -120.0013, 58.9507 ],
+							[ -120.0012, 58.0792 ],
+							[ -120.0012, 57.3805 ],
+							[ -119.0525, 57.3698 ],
+							[ -118.1545, 57.3829 ],
+							[ -117.5271, 57.3742 ],
+							[ -116.9892300975, 57.3817574251 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 4, 2019 10:35",
+				"Expires_UTC" : "August 5, 2019 02:34",
+				"Summary" : "Description: Wildfire smoke is causing poor air quality and locally reduced visibilities at times.\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors, and those with cardiovascular or lung disease, such as asthma, are especially at risk.\n\nPeople with lung diseases, such as asthma and COPD, can be particularly sensitive to air pollution. They will generally experience more serious health effects at lower levels. Pollution can aggravate their diseases, leading to increased medication use, doctor and emergency room visits, and hospital visits.\n\nFor more information please visit Alberta Health Services at www.albertahealthservices.ca/news/air.aspx.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-08-05T02:34:30-00:00<br>Originated from CAP Alert: Environment Canada,  Alberta Environment and Parks,  Alberta Health,  Alberta Health Services, 2019-08-04T10:35:30-00:00, urn:oid:2.49.0.1.124.1383787877.2019<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves",
+				"Author" : "Environment Canada,  Alberta Environment and Parks,  Alberta Health,  Alberta Health Services",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-04:feed.atom/urn:oid:2.49.0.1.124.1383787877.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-04/2019_08_04T10_35_30_00_00Iurn_oid_2.49.0.1.124.1383787877.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190805023430+00:00"
 			}
 		}
 	]
