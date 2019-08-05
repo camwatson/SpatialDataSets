@@ -9,52 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -87.4321, 49.9482 ],
-							[ -87.4321, 49.1383 ],
-							[ -85.9469, 48.8844 ],
-							[ -85.9469, 49.9546 ],
-							[ -84.021, 49.9497 ],
-							[ -84.05, 51.1582 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.4321, 49.9482 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 5, 2019 02:52",
-				"Expires_UTC" : "August 5, 2019 10:51",
-				"Summary" : "Description: Thunderstorms which will move southeast across the area tonight may contain wind gusts to 60 km/h, heavy downpours giving 20 to 30 mm of rain in under an hour and frequent lightning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-08-05T10:51:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-05T02:52:29-00:00, urn:oid:2.49.0.1.124.2145720342.2019<br>Area: Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-05:feed.atom/urn:oid:2.49.0.1.124.2145720342.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-05/2019_08_05T02_52_29_00_00Iurn_oid_2.49.0.1.124.2145720342.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190805105129+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -95.9747, 64.0894 ],
 							[ -95.8731, 64.1005 ],
 							[ -95.8385, 64.1083 ],
@@ -188,6 +142,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-05/2019_08_05T08_59_49_00_00Iurn_oid_2.49.0.1.124.0649672388.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190805155949+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.0792, 47.826 ],
+							[ -54.0697, 47.8335 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55.1527, 47.5874 ],
+							[ -55.1557, 47.5799 ],
+							[ -55.1703, 47.5512 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 5, 2019 09:24",
+				"Expires_UTC" : "August 5, 2019 12:20",
+				"Summary" : "Description: At 6:53 a.m. NDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing heavy rain.\n\nA thunderstorm, capable of producing rainfall amounts in excess of 25 mm in an hour, is approaching the Burin Peninsula from the southwest. The line of thunderstorms, previously warned about, has moved into Placentia Bay.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-05T12:20:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-05T09:24:35-00:00, urn:oid:2.49.0.1.124.0943143189.2019<br>Area: Burin Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-05:feed.atom/urn:oid:2.49.0.1.124.0943143189.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-05/2019_08_05T09_24_35_00_00Iurn_oid_2.49.0.1.124.0943143189.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190805122035+00:00"
 			}
 		},
 		{
@@ -415,11 +416,12 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.5163, 48.2499 ],
+							[ -53.5167, 48.25 ],
+							[ -54.1199, 48.25 ],
+							[ -55, 48.25 ],
 							[ -54.9999, 47.9199 ],
 							[ -55.1527, 47.5874 ],
 							[ -55.1557, 47.5799 ],
@@ -428,31 +430,48 @@
 							[ -56.123, 46.9615 ],
 							[ -56.0644, 46.8176 ],
 							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ]
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.6943, 47.0667 ],
+							[ -53.6255, 47.0909 ],
+							[ -53.5801, 47.197 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 47.4918 ],
+							[ -53.0399, 47.4957 ],
+							[ -53.0787, 47.6842 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
+				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 5, 2019 09:24",
-				"Expires_UTC" : "August 5, 2019 12:20",
-				"Summary" : "Description: At 6:53 a.m. NDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing heavy rain.\n\nA thunderstorm, capable of producing rainfall amounts in excess of 25 mm in an hour, is approaching the Burin Peninsula from the southwest. The line of thunderstorms, previously warned about, has moved into Placentia Bay.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-05T12:20:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-05T09:24:35-00:00, urn:oid:2.49.0.1.124.0943143189.2019<br>Area: Burin Peninsula",
+				"LastUpdate_UTC" : "August 5, 2019 10:56",
+				"Expires_UTC" : "August 5, 2019 16:59",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing heavy rain.\n\nA line of thunderstorms capable of producing heavy rainfall rates is approaching this morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-08-05T16:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-05T10:56:02-00:00, urn:oid:2.49.0.1.124.3807036091.2019<br>Area: Avalon Peninsula North, Avalon Peninsula Southwest, Burin Peninsula, Clarenville and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-05:feed.atom/urn:oid:2.49.0.1.124.0943143189.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-05/2019_08_05T09_24_35_00_00Iurn_oid_2.49.0.1.124.0943143189.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-05:feed.atom/urn:oid:2.49.0.1.124.3807036091.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-05/2019_08_05T10_56_02_00_00Iurn_oid_2.49.0.1.124.3807036091.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190805122035+00:00"
+				"Expires_FMEFormat" : "20190805165902+00:00"
 			}
 		}
 	]
