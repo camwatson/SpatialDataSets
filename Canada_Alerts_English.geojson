@@ -939,72 +939,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -74.4423, 45.0079 ],
-							[ -74.3214, 45.1223 ],
-							[ -74.1461, 45.1778 ],
-							[ -74.0071, 45.1839 ],
-							[ -73.885, 45.2963 ],
-							[ -73.7967, 45.3048 ],
-							[ -73.7428, 45.3571 ],
-							[ -73.7654, 45.3972 ],
-							[ -73.7689, 45.4374 ],
-							[ -73.7678, 45.524 ],
-							[ -73.7667, 45.5346 ],
-							[ -73.7528, 45.643 ],
-							[ -73.7523, 45.6669 ],
-							[ -73.7563, 45.7252 ],
-							[ -73.9237, 45.5514 ],
-							[ -74.0071, 45.4835 ],
-							[ -74.0225, 45.4709 ],
-							[ -74.0574, 45.4694 ],
-							[ -74.0526, 45.4589 ],
-							[ -74.068, 45.442 ],
-							[ -74.07, 45.4393 ],
-							[ -74.1025, 45.4149 ],
-							[ -74.041, 45.3447 ],
-							[ -74.1788, 45.3326 ],
-							[ -74.4939, 45.1997 ],
-							[ -74.5648, 45.0901 ],
-							[ -74.7056, 45.0614 ],
-							[ -74.6869, 45.0243 ],
-							[ -74.6799, 45.0166 ],
-							[ -74.6705, 45.0062 ],
-							[ -74.663, 44.9989 ],
-							[ -74.6372, 44.9803 ],
-							[ -74.4423, 45.0079 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "August 6, 2019 16:33",
-				"Expires_UTC" : "August 7, 2019 03:59",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts to 35 knots until this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-07T03:59:17-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-06T16:33:17-00:00, urn:oid:2.49.0.1.124.2333451541.2019<br>Area: Cornwall to Montréal",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-06:feed.atom/urn:oid:2.49.0.1.124.2333451541.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-06/2019_08_06T16_33_17_00_00Iurn_oid_2.49.0.1.124.2333451541.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190807035917+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -122.1663, 50.1832 ],
 							[ -121.9733, 50.0771 ],
 							[ -121.8, 50 ],
@@ -1299,6 +1233,116 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.4423, 45.0079 ],
+							[ -74.3214, 45.1223 ],
+							[ -74.1461, 45.1778 ],
+							[ -74.0071, 45.1839 ],
+							[ -73.885, 45.2963 ],
+							[ -73.7967, 45.3048 ],
+							[ -73.7428, 45.3571 ],
+							[ -73.7654, 45.3972 ],
+							[ -73.7689, 45.4374 ],
+							[ -73.7678, 45.524 ],
+							[ -73.7667, 45.5346 ],
+							[ -73.7528, 45.643 ],
+							[ -73.7523, 45.6669 ],
+							[ -73.7563, 45.7252 ],
+							[ -73.9237, 45.5514 ],
+							[ -74.0071, 45.4835 ],
+							[ -74.0225, 45.4709 ],
+							[ -74.0574, 45.4694 ],
+							[ -74.0526, 45.4589 ],
+							[ -74.068, 45.442 ],
+							[ -74.07, 45.4393 ],
+							[ -74.1025, 45.4149 ],
+							[ -74.041, 45.3447 ],
+							[ -74.1788, 45.3326 ],
+							[ -74.4939, 45.1997 ],
+							[ -74.5648, 45.0901 ],
+							[ -74.7056, 45.0614 ],
+							[ -74.6869, 45.0243 ],
+							[ -74.6799, 45.0166 ],
+							[ -74.6705, 45.0062 ],
+							[ -74.663, 44.9989 ],
+							[ -74.6372, 44.9803 ],
+							[ -74.4423, 45.0079 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Squall Watch Ended",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 6, 2019 18:45",
+				"Expires_UTC" : "August 6, 2019 19:45",
+				"Summary" : "Description: Squalls are no longer expected over the area.\n\n###<br>Expires: 2019-08-06T19:45:13-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-06T18:45:13-00:00, urn:oid:2.49.0.1.124.2666723124.2019<br>Area: Cornwall to Montréal",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-06:feed.atom/urn:oid:2.49.0.1.124.2666723124.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-06/2019_08_06T18_45_13_00_00Iurn_oid_2.49.0.1.124.2666723124.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190806194513+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.6944, 62.0492 ],
+							[ -122.9055, 62.3157 ],
+							[ -122.2057, 62.573 ],
+							[ -123.9869, 64.6194 ],
+							[ -124.3405, 64.5073 ],
+							[ -124.7031, 64.3708 ],
+							[ -124.7448, 64.3563 ],
+							[ -125.079, 64.2453 ],
+							[ -125.4256, 64.1122 ],
+							[ -124.6054, 63.0998 ],
+							[ -123.6944, 62.0492 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 6, 2019 16:33",
+				"Expires_UTC" : "August 7, 2019 08:33",
+				"Summary" : "Description: Smoke is causing poor air quality and reducing visibility. Smoke is expected or occurring.\n\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors and those with cardiovascular or lung disease, such as asthma, are especially at risk. If you, or someone in your care, develop symptoms, reduce strenuous outdoors activities where ever possible until the air quality improves.\n\nWhen outdoors, if your breathing becomes difficult or uncomfortable, stop or reduce strenuous physical activities. If you experience irritation of eyes, nose or throat, shortness of breath or other respiratory symptoms, you should take action to reduce your exposure to smoke. \n\nIf you are feeling unwell and experiencing symptoms, contact your health care provider for advice.\n\nIssued jointly by Environment Canada and the Northwest Territories Departments of Environment and Natural Resources and Health and Social Services.\n\nFor more information on air quality and your health, please visit the Northwest Territories Department of Health and Social Services at www.hss.gov.nt.ca/en/services/environmental-health/air-quality.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-08-07T08:33:17-00:00<br>Originated from CAP Alert: Environment Canada, the Northwest Territories Departments of Environment and Natural Resources and Health and Social Services, 2019-08-06T16:33:17-00:00, urn:oid:2.49.0.1.124.3388631604.2019<br>Area: Wrigley Region",
+				"Author" : "Environment Canada, the Northwest Territories Departments of Environment and Natural Resources and Health and Social Services",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-06:feed.atom/urn:oid:2.49.0.1.124.3388631604.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-06/2019_08_06T16_33_17_00_00Iurn_oid_2.49.0.1.124.3388631604.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190807083317+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -113.6528, 48.9975 ],
 							[ -113.486, 48.9975 ],
 							[ -113.2302, 48.9968 ],
@@ -1507,50 +1551,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-06/2019_08_06T18_15_57_00_00Iurn_oid_2.49.0.1.124.0270069381.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190807051557+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.6944, 62.0492 ],
-							[ -122.9055, 62.3157 ],
-							[ -122.2057, 62.573 ],
-							[ -123.9869, 64.6194 ],
-							[ -124.3405, 64.5073 ],
-							[ -124.7031, 64.3708 ],
-							[ -124.7448, 64.3563 ],
-							[ -125.079, 64.2453 ],
-							[ -125.4256, 64.1122 ],
-							[ -124.6054, 63.0998 ],
-							[ -123.6944, 62.0492 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 6, 2019 16:33",
-				"Expires_UTC" : "August 7, 2019 08:33",
-				"Summary" : "Description: Smoke is causing poor air quality and reducing visibility. Smoke is expected or occurring.\n\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors and those with cardiovascular or lung disease, such as asthma, are especially at risk. If you, or someone in your care, develop symptoms, reduce strenuous outdoors activities where ever possible until the air quality improves.\n\nWhen outdoors, if your breathing becomes difficult or uncomfortable, stop or reduce strenuous physical activities. If you experience irritation of eyes, nose or throat, shortness of breath or other respiratory symptoms, you should take action to reduce your exposure to smoke. \n\nIf you are feeling unwell and experiencing symptoms, contact your health care provider for advice.\n\nIssued jointly by Environment Canada and the Northwest Territories Departments of Environment and Natural Resources and Health and Social Services.\n\nFor more information on air quality and your health, please visit the Northwest Territories Department of Health and Social Services at www.hss.gov.nt.ca/en/services/environmental-health/air-quality.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-08-07T08:33:17-00:00<br>Originated from CAP Alert: Environment Canada, the Northwest Territories Departments of Environment and Natural Resources and Health and Social Services, 2019-08-06T16:33:17-00:00, urn:oid:2.49.0.1.124.3388631604.2019<br>Area: Wrigley Region",
-				"Author" : "Environment Canada, the Northwest Territories Departments of Environment and Natural Resources and Health and Social Services",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-06:feed.atom/urn:oid:2.49.0.1.124.3388631604.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-06/2019_08_06T16_33_17_00_00Iurn_oid_2.49.0.1.124.3388631604.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190807083317+00:00"
 			}
 		},
 		{
