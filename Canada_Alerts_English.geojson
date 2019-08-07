@@ -1001,24 +1001,66 @@
 				"coordinates" : [
 					[
 						[
-							[ -126.1231, 71.8522 ],
-							[ -125.5959, 71.7281 ],
-							[ -124.9602, 71.6351 ],
-							[ -124.8071, 71.8342 ],
-							[ -124.6732, 71.8806 ],
-							[ -124.589, 71.9357 ],
-							[ -124.5567, 71.9959 ],
-							[ -124.5793, 72.0565 ],
-							[ -124.6433, 72.1062 ],
-							[ -124.7449, 72.1496 ],
-							[ -125.0235, 72.2063 ],
-							[ -125.3674, 72.217 ],
-							[ -125.3692, 72.217 ],
-							[ -125.3709, 72.2168 ],
-							[ -125.6852, 72.1781 ],
-							[ -125.8024, 72.237 ],
-							[ -126.1308, 72.1003 ],
-							[ -126.1231, 71.8522 ]
+							[ -70.8484, 46.5986 ],
+							[ -71.1687, 46.4191 ],
+							[ -71.3493, 46.3167 ],
+							[ -70.9806, 45.9844 ],
+							[ -70.8874, 46.0322 ],
+							[ -70.683, 46.1365 ],
+							[ -70.247, 46.1495 ],
+							[ -70.2401, 46.1493 ],
+							[ -70.2231, 46.1506 ],
+							[ -70.2871, 46.188 ],
+							[ -70.2447, 46.2494 ],
+							[ -70.2068, 46.3004 ],
+							[ -70.0652, 46.4129 ],
+							[ -70.0697, 46.4154 ],
+							[ -70.4841, 46.7998 ],
+							[ -70.8484, 46.5986 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 7, 2019 20:31",
+				"Expires_UTC" : "August 7, 2019 22:54",
+				"Summary" : "Description: At 4:30 p.m. EDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing strong wind gusts, pea to dime size hail and heavy rain.\n\nThe thunderstorms are slow moving and capable of producing significant rainfall amounts.\n\n###\n\nHeavy downpours are likely to cause flash floods and water pooling on roads. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-07T22:54:01-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-07T20:31:01-00:00, urn:oid:2.49.0.1.124.3904404906.2019<br>Area: Lac-Etchemin area, Sainte-Marie-de-Beauce area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-07:feed.atom/urn:oid:2.49.0.1.124.3904404906.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-07/2019_08_07T20_31_01_00_00Iurn_oid_2.49.0.1.124.3904404906.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190807225401+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.9056, 74.3191 ],
+							[ -94.8626, 74.2936 ],
+							[ -94.1547, 74.3414 ],
+							[ -94.1885, 74.6339 ],
+							[ -94.152, 74.6625 ],
+							[ -94.2078, 74.8178 ],
+							[ -94.6546, 74.9248 ],
+							[ -95.2633, 74.925 ],
+							[ -95.7119, 74.8173 ],
+							[ -95.8949, 74.6509 ],
+							[ -95.9056, 74.3191 ]
 						]
 					]
 				]
@@ -1031,18 +1073,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 7, 2019 16:21",
-				"Expires_UTC" : "August 8, 2019 08:20",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nFog will persist through the day.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-08-08T08:20:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-07T16:21:47-00:00, urn:oid:2.49.0.1.124.2011507288.2019<br>Area: Sachs Harbour",
+				"LastUpdate_UTC" : "August 7, 2019 19:25",
+				"Expires_UTC" : "August 8, 2019 05:59",
+				"Summary" : "Description: Persistent fog with visibility near zero is expected or occurring.\n\nFog will persist until this evening.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-08T05:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-07T19:25:23-00:00, urn:oid:2.49.0.1.124.2604487532.2019<br>Area: Resolute",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-07:feed.atom/urn:oid:2.49.0.1.124.2011507288.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-07/2019_08_07T16_21_47_00_00Iurn_oid_2.49.0.1.124.2011507288.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-07:feed.atom/urn:oid:2.49.0.1.124.2604487532.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-07/2019_08_07T19_25_23_00_00Iurn_oid_2.49.0.1.124.2604487532.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190808082047+00:00"
+				"Expires_FMEFormat" : "20190808055923+00:00"
 			}
 		},
 		{
@@ -1475,6 +1517,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-07/2019_08_07T17_27_25_00_00Iurn_oid_2.49.0.1.124.0290552305.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190808050825+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -126.1231, 71.8522 ],
+							[ -125.5959, 71.7281 ],
+							[ -124.9602, 71.6351 ],
+							[ -124.8071, 71.8342 ],
+							[ -124.6732, 71.8806 ],
+							[ -124.589, 71.9357 ],
+							[ -124.5567, 71.9959 ],
+							[ -124.5793, 72.0565 ],
+							[ -124.6433, 72.1062 ],
+							[ -124.7449, 72.1496 ],
+							[ -125.0235, 72.2063 ],
+							[ -125.3674, 72.217 ],
+							[ -125.3692, 72.217 ],
+							[ -125.3709, 72.2168 ],
+							[ -125.6852, 72.1781 ],
+							[ -125.8024, 72.237 ],
+							[ -126.1308, 72.1003 ],
+							[ -126.1231, 71.8522 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 7, 2019 16:21",
+				"Expires_UTC" : "August 8, 2019 08:20",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nFog will persist through the day.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-08-08T08:20:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-07T16:21:47-00:00, urn:oid:2.49.0.1.124.2011507288.2019<br>Area: Sachs Harbour",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-07:feed.atom/urn:oid:2.49.0.1.124.2011507288.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-07/2019_08_07T16_21_47_00_00Iurn_oid_2.49.0.1.124.2011507288.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190808082047+00:00"
 			}
 		},
 		{
@@ -1988,50 +2081,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-07/2019_08_07T14_34_42_00_00Iurn_oid_2.49.0.1.124.2710778060.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190808061942+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.9056, 74.3191 ],
-							[ -94.8626, 74.2936 ],
-							[ -94.1547, 74.3414 ],
-							[ -94.1885, 74.6339 ],
-							[ -94.152, 74.6625 ],
-							[ -94.2078, 74.8178 ],
-							[ -94.6546, 74.9248 ],
-							[ -95.2633, 74.925 ],
-							[ -95.7119, 74.8173 ],
-							[ -95.8949, 74.6509 ],
-							[ -95.9056, 74.3191 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 7, 2019 19:25",
-				"Expires_UTC" : "August 8, 2019 05:59",
-				"Summary" : "Description: Persistent fog with visibility near zero is expected or occurring.\n\nFog will persist until this evening.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-08T05:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-07T19:25:23-00:00, urn:oid:2.49.0.1.124.2604487532.2019<br>Area: Resolute",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-07:feed.atom/urn:oid:2.49.0.1.124.2604487532.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-07/2019_08_07T19_25_23_00_00Iurn_oid_2.49.0.1.124.2604487532.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190808055923+00:00"
 			}
 		}
 	]
