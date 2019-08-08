@@ -92,51 +92,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -73.2164, 46.7498 ],
-							[ -72.5497, 46.7665 ],
-							[ -72.5497, 47.1998 ],
-							[ -72.55, 47.2024 ],
-							[ -73.0011, 47.2021 ],
-							[ -73.4166, 47.1998 ],
-							[ -73.4687, 47.0993 ],
-							[ -73.4403, 47.0439 ],
-							[ -73.4177, 46.9998 ],
-							[ -73.4169, 46.9988 ],
-							[ -73.2172, 46.7497 ],
-							[ -73.2164, 46.7498 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 8, 2019 00:27",
-				"Expires_UTC" : "August 8, 2019 03:26",
-				"Summary" : "Description: At 8:27 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing pea to dime size hail and torrential rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-08T03:26:06-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-08T00:27:06-00:00, urn:oid:2.49.0.1.124.3806457693.2019<br>Area: Matawin - Mauricie National Park area",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-08:feed.atom/urn:oid:2.49.0.1.124.3806457693.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-08/2019_08_08T00_27_06_00_00Iurn_oid_2.49.0.1.124.3806457693.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190808032606+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -121.4, 53.5999 ],
 							[ -120.8534, 53.3228 ],
 							[ -120.3818, 53.1151 ],
@@ -812,6 +767,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -73.2164, 46.7498 ],
+							[ -72.5497, 46.7665 ],
+							[ -72.5497, 47.1998 ],
+							[ -72.55, 47.2024 ],
+							[ -73.0011, 47.2021 ],
+							[ -73.4166, 47.1998 ],
+							[ -73.4687, 47.0993 ],
+							[ -73.4403, 47.0439 ],
+							[ -73.4177, 46.9998 ],
+							[ -73.4169, 46.9988 ],
+							[ -73.2172, 46.7497 ],
+							[ -73.2164, 46.7498 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 8, 2019 02:21",
+				"Expires_UTC" : "August 8, 2019 03:21",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2019-08-08T03:21:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-08T02:21:05-00:00, urn:oid:2.49.0.1.124.3129388986.2019<br>Area: Matawin - Mauricie National Park area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-08:feed.atom/urn:oid:2.49.0.1.124.3129388986.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-08/2019_08_08T02_21_05_00_00Iurn_oid_2.49.0.1.124.3129388986.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190808032105+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -77.5904, 43.9059 ],
 							[ -77.5277, 43.832 ],
 							[ -77.1887, 43.8008 ],
@@ -858,18 +858,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 7, 2019 19:05",
-				"Expires_UTC" : "August 8, 2019 02:29",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAn area of heavy showers and thunderstorms across the area is expected to give total rainfall amounts up to 50 mm in a few hours. \n\nRadar estimates suggest that some areas have already received 20 to 40 mm of rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible. Heavy rainfall in combination with other weather factors, such as hail, wind and lightning will make outdoor activities unsafe.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-08-08T02:29:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-07T19:05:56-00:00, urn:oid:2.49.0.1.124.2910933881.2019<br>Area: Tamworth - Sydenham - South Frontenac, Kingston - Odessa - Frontenac Islands",
+				"LastUpdate_UTC" : "August 7, 2019 17:31",
+				"Expires_UTC" : "August 8, 2019 03:29",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAn area of heavy showers and thunderstorms across the area is expected to give rainfall amounts up to 60 mm in a few hours. \n\nRadar estimates suggest that some areas have already received 20 to 40 mm of rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible. Heavy rainfall in combination with other weather factors, such as hail, wind and lightning will make outdoor activities unsafe.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-08-08T03:29:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-07T17:31:16-00:00, urn:oid:2.49.0.1.124.1635754583.2019<br>Area: Tamworth - Sydenham - South Frontenac, Stirling - Tweed - Madoc, Kingston - Odessa - Frontenac Islands, Napanee - Consecon, Picton - Sandbanks Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-07:feed.atom/urn:oid:2.49.0.1.124.2910933881.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-07/2019_08_07T19_05_56_00_00Iurn_oid_2.49.0.1.124.2910933881.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-07:feed.atom/urn:oid:2.49.0.1.124.1635754583.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-07/2019_08_07T17_31_16_00_00Iurn_oid_2.49.0.1.124.1635754583.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190808022956+00:00"
+				"Expires_FMEFormat" : "20190808032916+00:00"
 			}
 		},
 		{
