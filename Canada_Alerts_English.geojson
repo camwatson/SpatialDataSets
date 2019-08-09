@@ -133,6 +133,72 @@
 				"coordinates" : [
 					[
 						[
+							[ -106.4225, 51.096 ],
+							[ -106.5179, 51.098 ],
+							[ -106.6299, 51.0956 ],
+							[ -106.6632, 51.0965 ],
+							[ -106.762, 51.105 ],
+							[ -106.8957, 51.0733 ],
+							[ -106.9762220412, 51.0116256425 ],
+							[ -107.0465, 51.013 ],
+							[ -107.2589, 51.0088 ],
+							[ -107.2634, 50.962 ],
+							[ -107.2597, 50.9214 ],
+							[ -107.2554, 50.9213 ],
+							[ -107.2514, 50.9214 ],
+							[ -107.2595, 50.8297 ],
+							[ -107.2503, 50.7265 ],
+							[ -107.2381, 50.7105 ],
+							[ -107.1836, 50.7389 ],
+							[ -107.1784, 50.7373 ],
+							[ -107.0927, 50.7113 ],
+							[ -107.0186, 50.7271 ],
+							[ -106.9471, 50.7808 ],
+							[ -106.9243, 50.8343 ],
+							[ -106.6747, 50.829 ],
+							[ -106.4198, 50.8339 ],
+							[ -106.2128, 50.83 ],
+							[ -106.0038, 50.834 ],
+							[ -106.0038, 50.8447 ],
+							[ -106.0012, 50.8759 ],
+							[ -106.0039, 50.908 ],
+							[ -105.9992, 51.0064 ],
+							[ -106.0038, 51.0961 ],
+							[ -106.1991, 51.0991 ],
+							[ -106.4225, 51.096 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 9, 2019 23:14",
+				"Expires_UTC" : "August 10, 2019 02:12",
+				"Summary" : "Description: Environment Canada meteorologists are tracking a severe thunderstorm capable of producing loonie-sized hail and damaging winds in excess of 90 km/h.\n\nAt 5:12 PM CST Doppler RADAR indicated that this severe thunderstorm was located about 10 km east of Riverhurst and was moving toward the east at 30 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.<br>Expires: 2019-08-10T02:12:43-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-09T23:14:43-00:00, urn:oid:2.49.0.1.124.2472402071.2019<br>Area: R.M. of Maple Bush including Riverhurst and Douglas Prov. Park, R.M. of Huron including Tugaske",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-09:feed.atom/urn:oid:2.49.0.1.124.2472402071.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-09/2019_08_09T23_14_43_00_00Iurn_oid_2.49.0.1.124.2472402071.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190810021243+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -74.4423, 45.0079 ],
 							[ -74.3214, 45.1223 ],
 							[ -74.1461, 45.1778 ],
@@ -324,51 +390,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-09/2019_08_09T20_57_12_00_00Iurn_oid_2.49.0.1.124.2222649890.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190809235612+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -64.75, 48.4658 ],
-							[ -65.0706, 48.4384 ],
-							[ -65.0664, 48.4331 ],
-							[ -64.838, 48.1913 ],
-							[ -64.7544, 48.0994 ],
-							[ -64.2197, 48.3156 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ],
-							[ -64.2171, 48.6501 ],
-							[ -64.7559, 48.6496 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.75, 48.4658 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 9, 2019 21:45",
-				"Expires_UTC" : "August 10, 2019 00:44",
-				"Summary" : "Description: At 5:45 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-10T00:44:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-09T21:45:37-00:00, urn:oid:2.49.0.1.124.4208478341.2019<br>Area: Chandler area, Percé area",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-09:feed.atom/urn:oid:2.49.0.1.124.4208478341.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-09/2019_08_09T21_45_37_00_00Iurn_oid_2.49.0.1.124.4208478341.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190810004437+00:00"
 			}
 		},
 		{
@@ -1504,69 +1525,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -77.6389, 43.9639 ],
-							[ -77.5904, 43.9059 ],
-							[ -77.505, 43.9357 ],
-							[ -77.4892, 43.9475 ],
-							[ -77.0965, 44.0606 ],
-							[ -77.067, 44.0704 ],
-							[ -76.8167, 44.1705 ],
-							[ -76.9098, 44.2731 ],
-							[ -76.9303, 44.2707 ],
-							[ -76.9553, 44.323 ],
-							[ -77.0591, 44.4199 ],
-							[ -77.1392, 44.4018 ],
-							[ -77.0894, 44.2901 ],
-							[ -77.2964, 44.2585 ],
-							[ -77.2969, 44.2584 ],
-							[ -77.3409, 44.3476 ],
-							[ -77.6517, 44.2689 ],
-							[ -77.7293, 44.4359 ],
-							[ -77.8045, 44.4203 ],
-							[ -77.8849, 44.3967 ],
-							[ -77.9398, 44.3851 ],
-							[ -77.9339, 44.3664 ],
-							[ -77.9594, 44.3411 ],
-							[ -78.0562, 44.2948 ],
-							[ -78.0202, 44.2496 ],
-							[ -77.9786, 44.1494 ],
-							[ -77.8616, 44.1801 ],
-							[ -77.7767, 44.0048 ],
-							[ -77.7696, 43.9565 ],
-							[ -77.6389, 43.9639 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 9, 2019 20:21",
-				"Expires_UTC" : "August 9, 2019 23:16",
-				"Summary" : "Description: At 4:20 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis severe thunderstorm is located 9 kilometres southeast of Ferris Provincial Park, moving east at 50 km/h. \n\nLocations impacted include:\nBelleville, Trenton, Rednersville, Frankford, Victoria, Ameliasburg, Melville, Corbyville and Rossmore.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-09T23:16:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-09T20:21:02-00:00, urn:oid:2.49.0.1.124.1801836178.2019<br>Area: Belleville - Quinte West - Eastern Northumberland County, Napanee - Consecon",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-09:feed.atom/urn:oid:2.49.0.1.124.1801836178.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-09/2019_08_09T20_21_02_00_00Iurn_oid_2.49.0.1.124.1801836178.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190809231602+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -76.3086, 44.4314 ],
 							[ -76.2749, 44.4599 ],
 							[ -76.2502, 44.4856 ],
@@ -2166,6 +2124,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-09/2019_08_09T19_53_56_00_00Iurn_oid_2.49.0.1.124.1818738503.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190810041056+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -64.75, 48.4658 ],
+							[ -65.0706, 48.4384 ],
+							[ -65.0664, 48.4331 ],
+							[ -64.838, 48.1913 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.2171, 48.6501 ],
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 9, 2019 23:15",
+				"Expires_UTC" : "August 10, 2019 00:15",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2019-08-10T00:15:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-09T23:15:38-00:00, urn:oid:2.49.0.1.124.2846328396.2019<br>Area: Chandler area, Percé area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-09:feed.atom/urn:oid:2.49.0.1.124.2846328396.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-09/2019_08_09T23_15_38_00_00Iurn_oid_2.49.0.1.124.2846328396.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190810001538+00:00"
 			}
 		}
 	]
