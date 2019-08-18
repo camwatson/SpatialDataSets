@@ -235,6 +235,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -72.2415, 45.1418 ],
+							[ -72.1388, 45.2734 ],
+							[ -72.1874, 45.2926 ],
+							[ -72.2674, 45.1842 ],
+							[ -72.3204, 45.1925 ],
+							[ -72.3025, 45.0523 ],
+							[ -72.2636, 45.0009 ],
+							[ -72.251, 45.001 ],
+							[ -72.251, 45.001 ],
+							[ -72.2014, 45.0009 ],
+							[ -72.1889, 45.0007 ],
+							[ -72.213, 45.029 ],
+							[ -72.1931, 45.1025 ],
+							[ -72.2448, 45.0788 ],
+							[ -72.2415, 45.1418 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Squall Watch Ended",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 18, 2019 02:19",
+				"Expires_UTC" : "August 18, 2019 03:19",
+				"Summary" : "Description: Squalls are no longer expected over the area.\n\n###<br>Expires: 2019-08-18T03:19:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-18T02:19:30-00:00, urn:oid:2.49.0.1.124.2345396983.2019<br>Area: Lake Memphrémagog - northern half",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-18:feed.atom/urn:oid:2.49.0.1.124.2345396983.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-18/2019_08_18T02_19_30_00_00Iurn_oid_2.49.0.1.124.2345396983.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190818031930+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -92.4487, 48.324 ],
 							[ -92.3755, 48.2178 ],
 							[ -92.2677, 48.2469 ],
@@ -481,58 +529,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-17/2019_08_17T20_57_12_00_00Iurn_oid_2.49.0.1.124.0594286930.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190818055912+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -110.0059, 57.409 ],
-							[ -110.012, 57.3539 ],
-							[ -110.0058, 57.2926 ],
-							[ -110.0294, 57.0727 ],
-							[ -110.0058, 56.8562 ],
-							[ -110.0289, 56.6013 ],
-							[ -110.0058, 56.3337 ],
-							[ -110.0125, 56.2239 ],
-							[ -110.0057, 56.1199 ],
-							[ -108.0516, 56.1199 ],
-							[ -108.0497, 56.1199 ],
-							[ -108.0083, 56.7544 ],
-							[ -108.0497, 57.409 ],
-							[ -108.0497, 58.3999 ],
-							[ -110.006, 58.3999 ],
-							[ -110.024, 58.2383 ],
-							[ -110.006, 58.0851 ],
-							[ -110.0328, 57.7486 ],
-							[ -110.0059, 57.409 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 17, 2019 10:19",
-				"Expires_UTC" : "August 18, 2019 02:18",
-				"Summary" : "Description: Rain, at times heavy, continues.\n\nA low pressure system continues to bring heavy rain to parts of northwestern Saskatchewan. In total, rainfall amounts of 40 to 60 mm are expected, with locally higher amounts up to 90 mm possible. Periods of rain are expected to linger across northern Saskatchewan until Sunday morning.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2019-08-18T02:18:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-17T10:19:48-00:00, urn:oid:2.49.0.1.124.2211384447.2019<br>Area: Cluff Lake Mine, La Loche and Clearwater River Prov. Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-17:feed.atom/urn:oid:2.49.0.1.124.2211384447.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-17/2019_08_17T10_19_48_00_00Iurn_oid_2.49.0.1.124.2211384447.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190818021848+00:00"
 			}
 		},
 		{
