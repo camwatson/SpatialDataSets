@@ -118,6 +118,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.1168, 44.2981 ],
+							[ -79.1254, 44.5711 ],
+							[ -79.3102, 44.6334 ],
+							[ -79.3167, 44.8032 ],
+							[ -79.3962, 44.7602 ],
+							[ -79.4671, 44.5367 ],
+							[ -79.5961, 44.4572 ],
+							[ -79.7573, 44.3841 ],
+							[ -79.6004, 44.3261 ],
+							[ -79.5983, 44.2122 ],
+							[ -79.48, 44.1477 ],
+							[ -79.4177, 44.2745 ],
+							[ -79.1168, 44.2981 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "August 18, 2019 21:22",
+				"Expires_UTC" : "August 19, 2019 08:59",
+				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 45 knots this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-19T08:59:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-18T21:22:52-00:00, urn:oid:2.49.0.1.124.1553949376.2019<br>Area: Lake Simcoe",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-18:feed.atom/urn:oid:2.49.0.1.124.1553949376.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-18/2019_08_18T21_22_52_00_00Iurn_oid_2.49.0.1.124.1553949376.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190819085952+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.6386, 43.75 ],
 							[ -79.4059, 43.7956 ],
 							[ -79.1702, 43.8556 ],
@@ -1392,52 +1438,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-19/2019_08_19T00_09_09_00_00Iurn_oid_2.49.0.1.124.3727062046.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190819111909+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.1168, 44.2981 ],
-							[ -79.1254, 44.5711 ],
-							[ -79.3102, 44.6334 ],
-							[ -79.3167, 44.8032 ],
-							[ -79.3962, 44.7602 ],
-							[ -79.4671, 44.5367 ],
-							[ -79.5961, 44.4572 ],
-							[ -79.7573, 44.3841 ],
-							[ -79.6004, 44.3261 ],
-							[ -79.5983, 44.2122 ],
-							[ -79.48, 44.1477 ],
-							[ -79.4177, 44.2745 ],
-							[ -79.1168, 44.2981 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "August 18, 2019 22:52",
-				"Expires_UTC" : "August 19, 2019 01:51",
-				"Summary" : "Description: Squalls with wind gusts up to 35 knots and frequent lightning are expected or occurring in the area.\n\nThunderstorms over Lake Simcoe are moving east at 25 knots. Wind gusts near 35 knots are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-19T01:51:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-18T22:52:33-00:00, urn:oid:2.49.0.1.124.2961578274.2019<br>Area: Lake Simcoe",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-18:feed.atom/urn:oid:2.49.0.1.124.2961578274.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-18/2019_08_18T22_52_33_00_00Iurn_oid_2.49.0.1.124.2961578274.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190819015133+00:00"
 			}
 		},
 		{
