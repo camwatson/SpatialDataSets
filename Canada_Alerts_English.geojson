@@ -272,67 +272,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -77.0056, 45.2168 ],
-							[ -76.9929, 45.1853 ],
-							[ -76.9706, 45.1453 ],
-							[ -77.0525, 45.1245 ],
-							[ -77.1375, 45.0992 ],
-							[ -77.1384, 45.0989 ],
-							[ -77.1144, 45.0254 ],
-							[ -77.0739, 44.96 ],
-							[ -77.0047, 44.7977 ],
-							[ -76.9247, 44.6386 ],
-							[ -76.7013, 44.676 ],
-							[ -76.5256, 44.7211 ],
-							[ -76.4611, 44.7572 ],
-							[ -76.4026, 44.795 ],
-							[ -76.3573, 44.7554 ],
-							[ -76.3135, 44.7223 ],
-							[ -76.2928, 44.7058 ],
-							[ -76.2827, 44.6969 ],
-							[ -76.2501, 44.7122 ],
-							[ -76.2065, 44.7618 ],
-							[ -76.218, 44.7684 ],
-							[ -76.4674, 44.991 ],
-							[ -76.7091, 45.1823 ],
-							[ -76.7391, 45.1648 ],
-							[ -76.7701, 45.143 ],
-							[ -76.8151, 45.2222 ],
-							[ -76.8279, 45.2493 ],
-							[ -77.0056, 45.2168 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 22, 2019 01:07",
-				"Expires_UTC" : "August 22, 2019 02:07",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-08-22T02:07:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T01:07:56-00:00, urn:oid:2.49.0.1.124.1018137007.2019<br>Area: Plevna - Sharbot Lake - Western Lanark County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1018137007.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T01_07_56_00_00Iurn_oid_2.49.0.1.124.1018137007.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822020756+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -75.9043845641, 45.4546539812 ],
 							[ -75.9395, 45.4973 ],
 							[ -76.0929, 45.5588 ],
@@ -1774,25 +1713,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 22, 2019 01:08",
-				"Expires_UTC" : "August 22, 2019 02:08",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2019-08-22T02:08:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T01:08:00-00:00, urn:oid:2.49.0.1.124.1283834023.2019<br>Area: Western Lake Ontario",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "August 22, 2019 00:51",
+				"Expires_UTC" : "August 22, 2019 03:49",
+				"Summary" : "Description: Squalls with wind gusts up to 35 knots are expected or occurring in the area.\n\nA thunderstorm located 5 km north of Grimsby may produce squalls with wind gusts up to 35 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-22T03:49:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T00:51:19-00:00, urn:oid:2.49.0.1.124.2211857027.2019<br>Area: Western Lake Ontario",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1283834023.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T01_08_00_00_00Iurn_oid_2.49.0.1.124.1283834023.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.2211857027.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T00_51_19_00_00Iurn_oid_2.49.0.1.124.2211857027.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822020800+00:00"
+				"Expires_FMEFormat" : "20190822034919+00:00"
 			}
 		}
 	]
