@@ -111,47 +111,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -113.5934, 50.0585 ],
-							[ -113.5955, 49.994 ],
-							[ -113.5802, 49.994 ],
-							[ -113.5665, 50.0309 ],
-							[ -113.582, 50.0337 ],
-							[ -113.5934, 50.0585 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Other",
-				"Title" : "Alberta Emergency Alert - Chemical Hazard Alert",
-				"Category" : "Actual",
-				"event" : "Chemical Hazard",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 22, 2019 13:26",
-				"Expires_UTC" : "August 29, 2019 13:28",
-				"Summary" : "Description: There is a small ammonia leak at a business located at #1 Alberta Road.<br>Expires: 2019-08-29T13:28:08-06:00<br>Originated from CAP Alert: Town of Claresholm, 2019-08-22T13:26:29-06:00, NAADS-CA-AB-AEA1-6002<br>Area: Claresholm",
-				"Author" : "Town of Claresholm",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/NAADS-CA-AB-AEA1-6002",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T13_26_29_06_00INAADS_CA_AB_AEA1_6002.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190829132808-06:00",
-				"EnclosureType" : "audio/mpeg",
-				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2019/7195-0.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -106.817, 49.5238 ],
 							[ -106.8017, 49.6658 ],
 							[ -106.8164, 49.7855 ],
@@ -384,6 +343,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T18_26_47_00_00Iurn_oid_2.49.0.1.124.1399384030.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190822204147+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -113.5934, 50.0585 ],
+							[ -113.5955, 49.994 ],
+							[ -113.5802, 49.994 ],
+							[ -113.5665, 50.0309 ],
+							[ -113.582, 50.0337 ],
+							[ -113.5934, 50.0585 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Other",
+				"Title" : "Alberta Emergency Alert - Chemical Hazard Alert Updated",
+				"Category" : "Actual",
+				"event" : "Chemical Hazard",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 22, 2019 14:03",
+				"Expires_UTC" : "August 29, 2019 14:04",
+				"Summary" : "Description: There is a small ammonia leak at a business located at #1 Alberta Road. The Town of Claresholm has declared a State of Local Emergency in order to be prepared for potential evacuation.<br>Expires: 2019-08-29T14:04:08-06:00<br>Originated from CAP Alert: Town of Claresholm, 2019-08-22T14:03:40-06:00, NAADS-CA-AB-AEA1-6003<br>Area: Claresholm",
+				"Author" : "Town of Claresholm",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/NAADS-CA-AB-AEA1-6003",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T14_03_40_06_00INAADS_CA_AB_AEA1_6003.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190829140408-06:00",
+				"EnclosureType" : "audio/mpeg",
+				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2019/7197-0.mp3"
 			}
 		},
 		{
