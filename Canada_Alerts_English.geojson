@@ -139,6 +139,66 @@
 				"coordinates" : [
 					[
 						[
+							[ -110.005, 49.7948 ],
+							[ -110.0056, 49.7904 ],
+							[ -110.005, 49.7856 ],
+							[ -110.0106, 49.6612 ],
+							[ -110.005, 49.5238 ],
+							[ -109.6078, 49.515 ],
+							[ -109.2568, 49.5235 ],
+							[ -109.2493, 49.611 ],
+							[ -109.2568, 49.6982 ],
+							[ -109.2502, 49.7509 ],
+							[ -109.2566, 49.7948 ],
+							[ -109.2533, 49.8373 ],
+							[ -109.2571, 49.8727 ],
+							[ -109.269, 49.8731 ],
+							[ -109.2804, 49.8728 ],
+							[ -109.2809, 49.8733 ],
+							[ -109.2723, 49.9681 ],
+							[ -109.2809, 50.0476 ],
+							[ -109.4845, 50.0522 ],
+							[ -109.69, 50.0476 ],
+							[ -109.6864, 50.0935 ],
+							[ -109.6896, 50.1348 ],
+							[ -109.8369, 50.1374 ],
+							[ -110.0047, 50.1348 ],
+							[ -110.0048, 50.1128 ],
+							[ -110.0119, 49.9675 ],
+							[ -110.005, 49.7948 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 22, 2019 15:12",
+				"Expires_UTC" : "August 22, 2019 17:16",
+				"Summary" : "Description: Environment Canada meteorologists are tracking a severe thunderstorm capable of producing loonie-sized hail.\n\nAt 9:00 AM CST Doppler RADAR indicated that this severe thunderstorm was located about 20 km southwest of Maple Creek and was moving toward the northeast at 30 km/h.\n\n###\n\nLarge hail can damage property and cause injury.<br>Expires: 2019-08-22T17:16:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T15:12:36-00:00, urn:oid:2.49.0.1.124.3010548031.2019<br>Area: R.M. of Maple Creek including Maple Creek, R.M. of Maple Creek including Cypress Hills Prov. Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.3010548031.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T15_12_36_00_00Iurn_oid_2.49.0.1.124.3010548031.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190822171636+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -108.4614, 50.0471 ],
 							[ -108.4565, 50.1333 ],
 							[ -108.4617, 50.222 ],
@@ -491,70 +551,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T15_34_01_00_00Iurn_oid_2.49.0.1.124.2478878073.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190822180453+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -111.8879, 49.348 ],
-							[ -111.7991, 49.3484 ],
-							[ -111.7542, 49.3486 ],
-							[ -111.7542, 49.3193 ],
-							[ -111.7542, 49.29 ],
-							[ -111.7544, 49.261 ],
-							[ -111.6858, 49.2592 ],
-							[ -111.62, 49.2613 ],
-							[ -111.5223, 49.2598 ],
-							[ -111.4405, 49.261 ],
-							[ -111.2879, 49.261 ],
-							[ -111.2879, 49.2615 ],
-							[ -111.2879, 49.4786 ],
-							[ -111.2878, 49.7859 ],
-							[ -111.6297, 49.7859 ],
-							[ -111.6306, 49.7859 ],
-							[ -111.6295, 49.8731 ],
-							[ -111.6353, 49.8732 ],
-							[ -111.6416, 49.8731 ],
-							[ -112.036, 49.8732 ],
-							[ -112.0367493055, 49.6158135504 ],
-							[ -112.1801, 49.6302 ],
-							[ -112.2168, 49.6109 ],
-							[ -112.2659, 49.6132 ],
-							[ -112.3079, 49.6112 ],
-							[ -112.3093, 49.5887 ],
-							[ -112.3077, 49.5671 ],
-							[ -112.308, 49.3341 ],
-							[ -112.0765, 49.329 ],
-							[ -111.8879, 49.3341 ],
-							[ -111.8879, 49.348 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 22, 2019 13:44",
-				"Expires_UTC" : "August 22, 2019 16:42",
-				"Summary" : "Description: At 7:43 a.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to nickel size hail.\n\nThis thunderstorm is located 30 km northeast of Milk River and is moving to the northeast at 50 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Locally heavy rain is also possible.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-22T16:42:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T13:44:16-00:00, urn:oid:2.49.0.1.124.1587945444.2019<br>Area: M.D. of Taber near Grassy Lake and Hwys 877 and 513, Co. of Warner near Wrentham, Co. of Forty Mile near Skiff, Co. of Forty Mile near Foremost",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1587945444.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T13_44_16_00_00Iurn_oid_2.49.0.1.124.1587945444.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822164216+00:00"
 			}
 		},
 		{
@@ -1059,66 +1055,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -110.005, 49.7948 ],
-							[ -110.0056, 49.7904 ],
-							[ -110.005, 49.7856 ],
-							[ -110.0106, 49.6612 ],
-							[ -110.005, 49.5238 ],
-							[ -109.6078, 49.515 ],
-							[ -109.2568, 49.5235 ],
-							[ -109.2493, 49.611 ],
-							[ -109.2568, 49.6982 ],
-							[ -109.2502, 49.7509 ],
-							[ -109.2566, 49.7948 ],
-							[ -109.2533, 49.8373 ],
-							[ -109.2571, 49.8727 ],
-							[ -109.269, 49.8731 ],
-							[ -109.2804, 49.8728 ],
-							[ -109.2809, 49.8733 ],
-							[ -109.2723, 49.9681 ],
-							[ -109.2809, 50.0476 ],
-							[ -109.4845, 50.0522 ],
-							[ -109.69, 50.0476 ],
-							[ -109.6864, 50.0935 ],
-							[ -109.6896, 50.1348 ],
-							[ -109.8369, 50.1374 ],
-							[ -110.0047, 50.1348 ],
-							[ -110.0048, 50.1128 ],
-							[ -110.0119, 49.9675 ],
-							[ -110.005, 49.7948 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 22, 2019 15:32",
-				"Expires_UTC" : "August 22, 2019 16:31",
-				"Summary" : "Description: At 9:30 AM CST Doppler RADAR indicated that the thunderstorm that prompted the warning had weakened to below severe limits.\n\n###<br>Expires: 2019-08-22T16:31:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T15:32:05-00:00, urn:oid:2.49.0.1.124.0538187976.2019<br>Area: R.M. of Maple Creek including Maple Creek, R.M. of Maple Creek including Cypress Hills Prov. Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.0538187976.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T15_32_05_00_00Iurn_oid_2.49.0.1.124.0538187976.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822163105+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -110.8164, 49.7856 ],
 							[ -110.985, 49.7859 ],
 							[ -110.9854, 49.2618 ],
@@ -1280,6 +1216,70 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T15_04_39_00_00Iurn_oid_2.49.0.1.124.1847516780.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190822180050+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -111.8879, 49.348 ],
+							[ -111.7991, 49.3484 ],
+							[ -111.7542, 49.3486 ],
+							[ -111.7542, 49.3193 ],
+							[ -111.7542, 49.29 ],
+							[ -111.7544, 49.261 ],
+							[ -111.6858, 49.2592 ],
+							[ -111.62, 49.2613 ],
+							[ -111.5223, 49.2598 ],
+							[ -111.4405, 49.261 ],
+							[ -111.2879, 49.261 ],
+							[ -111.2879, 49.2615 ],
+							[ -111.2879, 49.4786 ],
+							[ -111.2878, 49.7859 ],
+							[ -111.6297, 49.7859 ],
+							[ -111.6306, 49.7859 ],
+							[ -111.6295, 49.8731 ],
+							[ -111.6353, 49.8732 ],
+							[ -111.6416, 49.8731 ],
+							[ -112.036, 49.8732 ],
+							[ -112.0367493055, 49.6158135504 ],
+							[ -112.1801, 49.6302 ],
+							[ -112.2168, 49.6109 ],
+							[ -112.2659, 49.6132 ],
+							[ -112.3079, 49.6112 ],
+							[ -112.3093, 49.5887 ],
+							[ -112.3077, 49.5671 ],
+							[ -112.308, 49.3341 ],
+							[ -112.0765, 49.329 ],
+							[ -111.8879, 49.3341 ],
+							[ -111.8879, 49.348 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 22, 2019 13:44",
+				"Expires_UTC" : "August 22, 2019 16:42",
+				"Summary" : "Description: At 7:43 a.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to nickel size hail.\n\nThis thunderstorm is located 30 km northeast of Milk River and is moving to the northeast at 50 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Locally heavy rain is also possible.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-22T16:42:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T13:44:16-00:00, urn:oid:2.49.0.1.124.1587945444.2019<br>Area: M.D. of Taber near Grassy Lake and Hwys 877 and 513, Co. of Warner near Wrentham, Co. of Forty Mile near Skiff, Co. of Forty Mile near Foremost",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1587945444.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T13_44_16_00_00Iurn_oid_2.49.0.1.124.1587945444.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190822164216+00:00"
 			}
 		}
 	]
