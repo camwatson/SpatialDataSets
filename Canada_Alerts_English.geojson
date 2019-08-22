@@ -9,40 +9,300 @@
 				"coordinates" : [
 					[
 						[
-							[ -104.9627, 50.7755 ],
-							[ -104.9283, 50.7754 ],
-							[ -104.9283, 50.7693 ],
-							[ -104.9167, 50.7696 ],
-							[ -104.917, 50.7738 ],
-							[ -104.9201, 50.7771 ],
-							[ -104.9298, 50.7817 ],
-							[ -104.9518, 50.7888 ],
-							[ -104.9627, 50.7902 ],
-							[ -104.9627, 50.7755 ]
+							[ -73.2172, 46.7497 ],
+							[ -73.2168, 46.7492 ],
+							[ -73.1901, 46.5475 ],
+							[ -73.1857, 46.5141 ],
+							[ -73.1855, 46.5138 ],
+							[ -73.0765, 46.5211 ],
+							[ -72.9664, 46.5332 ],
+							[ -72.883, 46.3998 ],
+							[ -72.8812, 46.4006 ],
+							[ -72.433, 46.5832 ],
+							[ -72.483, 46.6498 ],
+							[ -72.4761, 46.651 ],
+							[ -72.0586, 46.7231 ],
+							[ -72.0201, 46.7297 ],
+							[ -72.0032, 46.7326 ],
+							[ -72.003, 46.7326 ],
+							[ -72.0029, 47.2 ],
+							[ -72.5497, 47.2024 ],
+							[ -72.55, 47.2024 ],
+							[ -73.0011, 47.2021 ],
+							[ -73.4166, 47.1998 ],
+							[ -73.4687, 47.0993 ],
+							[ -73.4403, 47.0439 ],
+							[ -73.4177, 46.9998 ],
+							[ -73.4169, 46.9988 ],
+							[ -73.2172, 46.7497 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Health",
-				"Title" : "Drinking Water Alert For The Village Of Buena Vista",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Severe Thunderstorm Watch Ended",
 				"Category" : "Actual",
-				"event" : "Drinking Water",
-				"urgency" : "Immediate",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
 				"certainty" : "Observed",
-				"severity" : "Unknown",
-				"LastUpdate_UTC" : "August 21, 2019 17:03",
-				"Expires_UTC" : "August 22, 2019 14:00",
-				"Summary" : "Description: Village of Buena Vista has experienced a Watermain Break which has resulted in loss of Water for the entire Village of Buena Vista. Staff and Contractors are working on repairs.<br>Expires: 2019-08-22T14:00:00-06:00<br>Originated from CAP Alert: SK Regina Beach and Buena Vista, 2019-08-21T17:03:03-06:00, 9DFD872B-793D-628D-4E05-4AE7126954C4<br>Area: Village of Buena Vista",
-				"Author" : "SK Regina Beach and Buena Vista",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 22, 2019 06:27",
+				"Expires_UTC" : "August 22, 2019 07:27",
+				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n###<br>Expires: 2019-08-22T07:27:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T06:27:57-00:00, urn:oid:2.49.0.1.124.1856365434.2019<br>Area: Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1856365434.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T06_27_57_00_00Iurn_oid_2.49.0.1.124.1856365434.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190822072757+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.5143, 48.6026 ],
+							[ -72.0987, 48.8854 ],
+							[ -72.4789, 48.788 ],
+							[ -72.4317, 48.5146 ],
+							[ -72.105, 48.3198 ],
+							[ -71.6965, 48.3512 ],
+							[ -71.5143, 48.6026 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "August 22, 2019 02:56",
+				"Expires_UTC" : "August 22, 2019 10:19",
+				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots, frequent lightning and hail.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-22T10:19:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T02:56:31-00:00, urn:oid:2.49.0.1.124.1344312439.2019<br>Area: Lake Saint-Jean",
+				"Author" : "Environment Canada",
 				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-21:feed.atom/9DFD872B-793D-628D-4E05-4AE7126954C4",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-21/2019_08_21T17_03_03_06_00I9DFD872B_793D_628D_4E05_4AE7126954C4.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1344312439.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T02_56_31_00_00Iurn_oid_2.49.0.1.124.1344312439.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822140000-06:00"
+				"Expires_FMEFormat" : "20190822101931+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -75.8328, 46.9998 ],
+							[ -76.3327, 46.6332 ],
+							[ -75.3789, 46.3624 ],
+							[ -74.7194, 46.1675 ],
+							[ -74.3173, 46.1852 ],
+							[ -73.9497, 46.1998 ],
+							[ -73.6497, 46.3498 ],
+							[ -73.6493, 46.3501 ],
+							[ -73.1855, 46.5138 ],
+							[ -73.1857, 46.5141 ],
+							[ -73.1901, 46.5475 ],
+							[ -73.2168, 46.7492 ],
+							[ -73.2172, 46.7497 ],
+							[ -73.4169, 46.9988 ],
+							[ -73.4177, 46.9998 ],
+							[ -73.4403, 47.0439 ],
+							[ -73.4687, 47.0993 ],
+							[ -73.4166, 47.1998 ],
+							[ -73.0011, 47.2021 ],
+							[ -72.55, 47.2024 ],
+							[ -72.5497, 47.2024 ],
+							[ -72.0029, 47.2 ],
+							[ -72.0027, 47.7998 ],
+							[ -72.0026, 48.2497 ],
+							[ -73.0002, 48.6669 ],
+							[ -73.667, 48.9996 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.6025, 49.2849 ],
+							[ -75.9993, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -76.4997, 49.2832 ],
+							[ -77.3232, 49.2924 ],
+							[ -78.5004, 49.2934 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.1922, 47.4534 ],
+							[ -75.8328, 46.9998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "August 22, 2019 04:06",
+				"Expires_UTC" : "August 22, 2019 12:59",
+				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing damaging wind gusts, damaging hail and heavy rain.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-08-22T12:59:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T04:06:11-00:00, urn:oid:2.49.0.1.124.1702547317.2019<br>Area: Saint-Michel-des-Saints area, Saint-Donat - Mont-Tremblant Park area, Gouin Reservoir area, Parent area, Lake Bouchette area, La Tuque area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1702547317.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T04_06_11_00_00Iurn_oid_2.49.0.1.124.1702547317.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190822125911+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.0029, 47.2 ],
+							[ -72.0027, 47.7998 ],
+							[ -72.0026, 48.2497 ],
+							[ -73.0002, 48.6669 ],
+							[ -73.667, 48.9996 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.6025, 49.2849 ],
+							[ -75.9993, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.1922, 47.4534 ],
+							[ -75.8328, 46.9998 ],
+							[ -75.2705, 46.9932 ],
+							[ -74.7495, 46.9999 ],
+							[ -74.7495, 46.9987 ],
+							[ -74.7194, 46.1675 ],
+							[ -74.3173, 46.1852 ],
+							[ -73.9497, 46.1998 ],
+							[ -73.6497, 46.3498 ],
+							[ -73.6493, 46.3501 ],
+							[ -73.1855, 46.5138 ],
+							[ -73.0765, 46.5211 ],
+							[ -72.9664, 46.5332 ],
+							[ -72.883, 46.3998 ],
+							[ -72.8812, 46.4006 ],
+							[ -72.433, 46.5832 ],
+							[ -72.483, 46.6498 ],
+							[ -72.4761, 46.651 ],
+							[ -72.0586, 46.7231 ],
+							[ -72.0201, 46.7297 ],
+							[ -72.0032, 46.7326 ],
+							[ -72.003, 46.7326 ],
+							[ -72.0029, 47.2 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 22, 2019 04:34",
+				"Expires_UTC" : "August 22, 2019 13:34",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-08-22T13:34:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T04:34:44-00:00, urn:oid:2.49.0.1.124.3958293310.2019<br>Area: Saint-Michel-des-Saints area, Saint-Donat - Mont-Tremblant Park area, Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area, Gouin Reservoir area, Parent area, Lake Bouchette area, La Tuque area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.3958293310.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T04_34_44_00_00Iurn_oid_2.49.0.1.124.3958293310.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190822133444+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.5159, 44.0963 ],
+							[ -76.5796, 44.162 ],
+							[ -76.5882, 44.1816 ],
+							[ -76.6037, 44.2131 ],
+							[ -76.5919, 44.2558 ],
+							[ -76.7176, 44.243 ],
+							[ -76.8717, 44.1537 ],
+							[ -76.8926, 44.2175 ],
+							[ -77.0582, 44.2296 ],
+							[ -77.4108, 44.2078 ],
+							[ -77.6138, 44.1434 ],
+							[ -77.6392, 44.0745 ],
+							[ -77.729, 44.0845 ],
+							[ -77.8441, 44.0509 ],
+							[ -77.8409, 43.9912 ],
+							[ -77.8417, 43.6548 ],
+							[ -77.8418, 43.6361 ],
+							[ -76.7966, 43.6311 ],
+							[ -76.455, 44.0731 ],
+							[ -76.4895, 44.0862 ],
+							[ -76.5159, 44.0963 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "August 22, 2019 05:48",
+				"Expires_UTC" : "August 22, 2019 08:44",
+				"Summary" : "Description: A thunderstorm south of Picton is moving towards the northeast at 35 knots. It may produce wind gusts to 40 knots as well as torrential rainfall.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-22T08:44:13-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T05:48:13-00:00, urn:oid:2.49.0.1.124.0630303686.2019<br>Area: Eastern Lake Ontario",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.0630303686.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T05_48_13_00_00Iurn_oid_2.49.0.1.124.0630303686.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190822084413+00:00"
 			}
 		},
 		{
@@ -207,250 +467,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -75.8328, 46.9998 ],
-							[ -76.3327, 46.6332 ],
-							[ -75.3789, 46.3624 ],
-							[ -74.7194, 46.1675 ],
-							[ -74.3173, 46.1852 ],
-							[ -73.9497, 46.1998 ],
-							[ -73.6497, 46.3498 ],
-							[ -73.6493, 46.3501 ],
-							[ -73.1855, 46.5138 ],
-							[ -73.1857, 46.5141 ],
-							[ -73.1901, 46.5475 ],
-							[ -73.2168, 46.7492 ],
-							[ -73.2172, 46.7497 ],
-							[ -73.4169, 46.9988 ],
-							[ -73.4177, 46.9998 ],
-							[ -73.4403, 47.0439 ],
-							[ -73.4687, 47.0993 ],
-							[ -73.4166, 47.1998 ],
-							[ -73.0011, 47.2021 ],
-							[ -72.55, 47.2024 ],
-							[ -72.5497, 47.2024 ],
-							[ -72.0029, 47.2 ],
-							[ -72.0027, 47.7998 ],
-							[ -72.0026, 48.2497 ],
-							[ -73.0002, 48.6669 ],
-							[ -73.667, 48.9996 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.6025, 49.2849 ],
-							[ -75.9993, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -76.4997, 49.2832 ],
-							[ -77.3232, 49.2924 ],
-							[ -78.5004, 49.2934 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5289, 48.9206 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5246, 48.5242 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5258, 48.3407 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5176, 47.833 ],
-							[ -78.4996, 47.8372 ],
-							[ -77.9663, 47.835 ],
-							[ -77.7494, 47.8332 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.1922, 47.4534 ],
-							[ -75.8328, 46.9998 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "August 22, 2019 04:06",
-				"Expires_UTC" : "August 22, 2019 12:59",
-				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing damaging wind gusts, damaging hail and heavy rain.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-08-22T12:59:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T04:06:11-00:00, urn:oid:2.49.0.1.124.1702547317.2019<br>Area: Saint-Michel-des-Saints area, Saint-Donat - Mont-Tremblant Park area, Gouin Reservoir area, Parent area, Lake Bouchette area, La Tuque area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1702547317.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T04_06_11_00_00Iurn_oid_2.49.0.1.124.1702547317.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822125911+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -72.0029, 47.2 ],
-							[ -72.0027, 47.7998 ],
-							[ -72.0026, 48.2497 ],
-							[ -73.0002, 48.6669 ],
-							[ -73.667, 48.9996 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.6025, 49.2849 ],
-							[ -75.9993, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -76.4994, 48.6998 ],
-							[ -76.4994, 48.3331 ],
-							[ -76.4994, 48.0998 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.1922, 47.4534 ],
-							[ -75.8328, 46.9998 ],
-							[ -75.2705, 46.9932 ],
-							[ -74.7495, 46.9999 ],
-							[ -74.7495, 46.9987 ],
-							[ -74.7194, 46.1675 ],
-							[ -74.3173, 46.1852 ],
-							[ -73.9497, 46.1998 ],
-							[ -73.6497, 46.3498 ],
-							[ -73.6493, 46.3501 ],
-							[ -73.1855, 46.5138 ],
-							[ -73.0765, 46.5211 ],
-							[ -72.9664, 46.5332 ],
-							[ -72.883, 46.3998 ],
-							[ -72.8812, 46.4006 ],
-							[ -72.433, 46.5832 ],
-							[ -72.483, 46.6498 ],
-							[ -72.4761, 46.651 ],
-							[ -72.0586, 46.7231 ],
-							[ -72.0201, 46.7297 ],
-							[ -72.0032, 46.7326 ],
-							[ -72.003, 46.7326 ],
-							[ -72.0029, 47.2 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 22, 2019 04:34",
-				"Expires_UTC" : "August 22, 2019 13:34",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-08-22T13:34:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T04:34:44-00:00, urn:oid:2.49.0.1.124.3958293310.2019<br>Area: Saint-Michel-des-Saints area, Saint-Donat - Mont-Tremblant Park area, Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area, Gouin Reservoir area, Parent area, Lake Bouchette area, La Tuque area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.3958293310.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T04_34_44_00_00Iurn_oid_2.49.0.1.124.3958293310.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822133444+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -71.5143, 48.6026 ],
-							[ -72.0987, 48.8854 ],
-							[ -72.4789, 48.788 ],
-							[ -72.4317, 48.5146 ],
-							[ -72.105, 48.3198 ],
-							[ -71.6965, 48.3512 ],
-							[ -71.5143, 48.6026 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "August 22, 2019 02:56",
-				"Expires_UTC" : "August 22, 2019 10:19",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots, frequent lightning and hail.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-22T10:19:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T02:56:31-00:00, urn:oid:2.49.0.1.124.1344312439.2019<br>Area: Lake Saint-Jean",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1344312439.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T02_56_31_00_00Iurn_oid_2.49.0.1.124.1344312439.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822101931+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -76.5159, 44.0963 ],
-							[ -76.5796, 44.162 ],
-							[ -76.5882, 44.1816 ],
-							[ -76.6037, 44.2131 ],
-							[ -76.5919, 44.2558 ],
-							[ -76.7176, 44.243 ],
-							[ -76.8717, 44.1537 ],
-							[ -76.8926, 44.2175 ],
-							[ -77.0582, 44.2296 ],
-							[ -77.4108, 44.2078 ],
-							[ -77.6138, 44.1434 ],
-							[ -77.6392, 44.0745 ],
-							[ -77.729, 44.0845 ],
-							[ -77.8441, 44.0509 ],
-							[ -77.8409, 43.9912 ],
-							[ -77.8417, 43.6548 ],
-							[ -77.8418, 43.6361 ],
-							[ -76.7966, 43.6311 ],
-							[ -76.455, 44.0731 ],
-							[ -76.4895, 44.0862 ],
-							[ -76.5159, 44.0963 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "August 22, 2019 05:48",
-				"Expires_UTC" : "August 22, 2019 08:44",
-				"Summary" : "Description: A thunderstorm south of Picton is moving towards the northeast at 35 knots. It may produce wind gusts to 40 knots as well as torrential rainfall.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-22T08:44:13-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T05:48:13-00:00, urn:oid:2.49.0.1.124.0630303686.2019<br>Area: Eastern Lake Ontario",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.0630303686.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T05_48_13_00_00Iurn_oid_2.49.0.1.124.0630303686.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822084413+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -114.0009, 56.4243 ],
 							[ -114, 57.3812 ],
 							[ -114.4551, 57.4099 ],
@@ -489,6 +505,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T06_04_09_00_00Iurn_oid_2.49.0.1.124.0423014067.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190822070409+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -104.9627, 50.7755 ],
+							[ -104.9283, 50.7754 ],
+							[ -104.9283, 50.7693 ],
+							[ -104.9167, 50.7696 ],
+							[ -104.917, 50.7738 ],
+							[ -104.9201, 50.7771 ],
+							[ -104.9298, 50.7817 ],
+							[ -104.9518, 50.7888 ],
+							[ -104.9627, 50.7902 ],
+							[ -104.9627, 50.7755 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Health",
+				"Title" : "Drinking Water Alert For The Village Of Buena Vista",
+				"Category" : "Actual",
+				"event" : "Drinking Water",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Unknown",
+				"LastUpdate_UTC" : "August 21, 2019 17:03",
+				"Expires_UTC" : "August 22, 2019 14:00",
+				"Summary" : "Description: Village of Buena Vista has experienced a Watermain Break which has resulted in loss of Water for the entire Village of Buena Vista. Staff and Contractors are working on repairs.<br>Expires: 2019-08-22T14:00:00-06:00<br>Originated from CAP Alert: SK Regina Beach and Buena Vista, 2019-08-21T17:03:03-06:00, 9DFD872B-793D-628D-4E05-4AE7126954C4<br>Area: Village of Buena Vista",
+				"Author" : "SK Regina Beach and Buena Vista",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-21:feed.atom/9DFD872B-793D-628D-4E05-4AE7126954C4",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-21/2019_08_21T17_03_03_06_00I9DFD872B_793D_628D_4E05_4AE7126954C4.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190822140000-06:00"
 			}
 		},
 		{
