@@ -600,18 +600,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Possible",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "August 21, 2019 18:58",
-				"Expires_UTC" : "August 22, 2019 10:57",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots and frequent lightning.\n\nConditions are favourable for the development of squalls with gusts up to 35 knots tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-22T10:57:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-21T18:58:28-00:00, urn:oid:2.49.0.1.124.2435090475.2019<br>Area: Lake Saint-Jean",
+				"LastUpdate_UTC" : "August 22, 2019 02:56",
+				"Expires_UTC" : "August 22, 2019 10:19",
+				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots, frequent lightning and hail.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-22T10:19:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T02:56:31-00:00, urn:oid:2.49.0.1.124.1344312439.2019<br>Area: Lake Saint-Jean",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-21:feed.atom/urn:oid:2.49.0.1.124.2435090475.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-21/2019_08_21T18_58_28_00_00Iurn_oid_2.49.0.1.124.2435090475.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.1344312439.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T02_56_31_00_00Iurn_oid_2.49.0.1.124.1344312439.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822105728+00:00"
+				"Expires_FMEFormat" : "20190822101931+00:00"
 			}
 		},
 		{
@@ -658,6 +658,75 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T00_17_42_00_00Iurn_oid_2.49.0.1.124.1656627622.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190822031542+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -77.0739, 44.96 ],
+							[ -77.0818, 44.9602 ],
+							[ -77.5497, 44.9742 ],
+							[ -77.991, 44.9715 ],
+							[ -77.9796, 44.9467 ],
+							[ -77.965, 44.9228 ],
+							[ -77.8789, 44.7205 ],
+							[ -77.7584, 44.4985 ],
+							[ -77.2622, 44.582 ],
+							[ -77.2189, 44.5891 ],
+							[ -76.9247, 44.6386 ],
+							[ -76.7013, 44.676 ],
+							[ -76.5256, 44.7211 ],
+							[ -76.4611, 44.7572 ],
+							[ -76.4026, 44.795 ],
+							[ -76.3573, 44.7554 ],
+							[ -76.3135, 44.7223 ],
+							[ -76.2928, 44.7058 ],
+							[ -76.2827, 44.6969 ],
+							[ -76.2501, 44.7122 ],
+							[ -76.2065, 44.7618 ],
+							[ -76.218, 44.7684 ],
+							[ -76.4674, 44.991 ],
+							[ -76.7091, 45.1823 ],
+							[ -76.7391, 45.1648 ],
+							[ -76.7701, 45.143 ],
+							[ -76.8151, 45.2222 ],
+							[ -76.8279, 45.2493 ],
+							[ -77.0056, 45.2168 ],
+							[ -76.9929, 45.1853 ],
+							[ -76.9706, 45.1453 ],
+							[ -77.0525, 45.1245 ],
+							[ -77.1375, 45.0992 ],
+							[ -77.1384, 45.0989 ],
+							[ -77.1144, 45.0254 ],
+							[ -77.0739, 44.96 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 22, 2019 00:41",
+				"Expires_UTC" : "August 22, 2019 03:15",
+				"Summary" : "Description: At 8:40 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts and nickel to ping pong ball size hail.\n\nThis severe thunderstorm is located 5 kilometres southeast of Harlowe, moving east at 40 km/h. \n\nLocations impacted include:\nSharbot Lake Provincial Park, Bordenwood, Henderson and Arden.\n\n###\n\nLarge hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-22T03:15:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T00:41:05-00:00, urn:oid:2.49.0.1.124.2112328904.2019<br>Area: Kaladar - Bannockburn - Bon Echo Park, Plevna - Sharbot Lake - Western Lanark County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.2112328904.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T00_41_05_00_00Iurn_oid_2.49.0.1.124.2112328904.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190822031505+00:00"
 			}
 		},
 		{
@@ -813,75 +882,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T02_34_28_00_00Iurn_oid_2.49.0.1.124.2320545962.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190822125928+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -77.0739, 44.96 ],
-							[ -77.0818, 44.9602 ],
-							[ -77.5497, 44.9742 ],
-							[ -77.991, 44.9715 ],
-							[ -77.9796, 44.9467 ],
-							[ -77.965, 44.9228 ],
-							[ -77.8789, 44.7205 ],
-							[ -77.7584, 44.4985 ],
-							[ -77.2622, 44.582 ],
-							[ -77.2189, 44.5891 ],
-							[ -76.9247, 44.6386 ],
-							[ -76.7013, 44.676 ],
-							[ -76.5256, 44.7211 ],
-							[ -76.4611, 44.7572 ],
-							[ -76.4026, 44.795 ],
-							[ -76.3573, 44.7554 ],
-							[ -76.3135, 44.7223 ],
-							[ -76.2928, 44.7058 ],
-							[ -76.2827, 44.6969 ],
-							[ -76.2501, 44.7122 ],
-							[ -76.2065, 44.7618 ],
-							[ -76.218, 44.7684 ],
-							[ -76.4674, 44.991 ],
-							[ -76.7091, 45.1823 ],
-							[ -76.7391, 45.1648 ],
-							[ -76.7701, 45.143 ],
-							[ -76.8151, 45.2222 ],
-							[ -76.8279, 45.2493 ],
-							[ -77.0056, 45.2168 ],
-							[ -76.9929, 45.1853 ],
-							[ -76.9706, 45.1453 ],
-							[ -77.0525, 45.1245 ],
-							[ -77.1375, 45.0992 ],
-							[ -77.1384, 45.0989 ],
-							[ -77.1144, 45.0254 ],
-							[ -77.0739, 44.96 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 22, 2019 00:41",
-				"Expires_UTC" : "August 22, 2019 03:15",
-				"Summary" : "Description: At 8:40 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts and nickel to ping pong ball size hail.\n\nThis severe thunderstorm is located 5 kilometres southeast of Harlowe, moving east at 40 km/h. \n\nLocations impacted include:\nSharbot Lake Provincial Park, Bordenwood, Henderson and Arden.\n\n###\n\nLarge hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-08-22T03:15:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-22T00:41:05-00:00, urn:oid:2.49.0.1.124.2112328904.2019<br>Area: Kaladar - Bannockburn - Bon Echo Park, Plevna - Sharbot Lake - Western Lanark County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-22:feed.atom/urn:oid:2.49.0.1.124.2112328904.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-22/2019_08_22T00_41_05_00_00Iurn_oid_2.49.0.1.124.2112328904.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190822031505+00:00"
 			}
 		},
 		{
