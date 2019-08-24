@@ -9,14 +9,14 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.2803, 76.6381 ],
-							[ -83.138, 76.5178 ],
-							[ -83.1615, 76.298 ],
-							[ -82.0595, 76.2612 ],
-							[ -82.1153, 76.5344 ],
-							[ -82.072, 76.5808 ],
-							[ -82.4546, 76.6269 ],
-							[ -83.2803, 76.6381 ]
+							[ -85.4621, 73.1923 ],
+							[ -85.6288, 73.031 ],
+							[ -84.6976, 72.8984 ],
+							[ -84.5651, 72.8986 ],
+							[ -84.4176, 73.0621 ],
+							[ -84.8368, 73.1113 ],
+							[ -85.0267, 73.153 ],
+							[ -85.4621, 73.1923 ]
 						]
 					]
 				]
@@ -29,18 +29,69 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 24, 2019 03:45",
-				"Expires_UTC" : "August 24, 2019 12:59",
-				"Summary" : "Description: In Grise Fiord winds gusting near 100 km/h are possible tonight. Winds will diminish overnight.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-24T12:59:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-24T03:45:05-00:00, urn:oid:2.49.0.1.124.1960815261.2019<br>Area: Grise Fiord",
+				"LastUpdate_UTC" : "August 23, 2019 19:29",
+				"Expires_UTC" : "August 24, 2019 11:28",
+				"Summary" : "Description: A strong low pressure system continues to bring strong winds to Arctic Bay. \n\nStrong southeasterly winds of 70 km/h with gusts at times to 90 km/h are expected throughout the day. These strong winds will begin to gradually diminish this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-24T11:28:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-23T19:29:33-00:00, urn:oid:2.49.0.1.124.0748324175.2019<br>Area: Arctic Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-24:feed.atom/urn:oid:2.49.0.1.124.1960815261.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-24/2019_08_24T03_45_05_00_00Iurn_oid_2.49.0.1.124.1960815261.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-23:feed.atom/urn:oid:2.49.0.1.124.0748324175.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-23/2019_08_23T19_29_33_00_00Iurn_oid_2.49.0.1.124.0748324175.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190824125905+00:00"
+				"Expires_FMEFormat" : "20190824112833+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -56.1628, 48.9706 ],
+							[ -56.817, 49.2073 ],
+							[ -57.3499, 49.58 ],
+							[ -57.6827, 49.1504 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.83, 48.58 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.4199, 48.2499 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 48.5499 ],
+							[ -55.3737, 48.6852 ],
+							[ -55.3717, 48.6868 ],
+							[ -55.0999, 48.9 ],
+							[ -55.3732, 49.056 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.45, 49.0999 ],
+							[ -55.9866, 49.1219 ],
+							[ -56.1628, 48.9706 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Frost Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Frost",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 24, 2019 07:45",
+				"Expires_UTC" : "August 24, 2019 23:45",
+				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-08-24T23:45:27-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-24T07:45:27-00:00, urn:oid:2.49.0.1.124.0745140968.2019<br>Area: Deer Lake - Humber Valley, Buchans and the interior, Grand Falls-Windsor and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-24:feed.atom/urn:oid:2.49.0.1.124.0745140968.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-24/2019_08_24T07_45_27_00_00Iurn_oid_2.49.0.1.124.0745140968.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190824234527+00:00"
 			}
 		},
 		{
@@ -106,14 +157,14 @@
 				"coordinates" : [
 					[
 						[
-							[ -85.4621, 73.1923 ],
-							[ -85.6288, 73.031 ],
-							[ -84.6976, 72.8984 ],
-							[ -84.5651, 72.8986 ],
-							[ -84.4176, 73.0621 ],
-							[ -84.8368, 73.1113 ],
-							[ -85.0267, 73.153 ],
-							[ -85.4621, 73.1923 ]
+							[ -83.2803, 76.6381 ],
+							[ -83.138, 76.5178 ],
+							[ -83.1615, 76.298 ],
+							[ -82.0595, 76.2612 ],
+							[ -82.1153, 76.5344 ],
+							[ -82.072, 76.5808 ],
+							[ -82.4546, 76.6269 ],
+							[ -83.2803, 76.6381 ]
 						]
 					]
 				]
@@ -126,18 +177,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 23, 2019 19:29",
-				"Expires_UTC" : "August 24, 2019 11:28",
-				"Summary" : "Description: A strong low pressure system continues to bring strong winds to Arctic Bay. \n\nStrong southeasterly winds of 70 km/h with gusts at times to 90 km/h are expected throughout the day. These strong winds will begin to gradually diminish this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-24T11:28:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-23T19:29:33-00:00, urn:oid:2.49.0.1.124.0748324175.2019<br>Area: Arctic Bay",
+				"LastUpdate_UTC" : "August 24, 2019 03:45",
+				"Expires_UTC" : "August 24, 2019 12:59",
+				"Summary" : "Description: In Grise Fiord winds gusting near 100 km/h are possible tonight. Winds will diminish overnight.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-24T12:59:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-24T03:45:05-00:00, urn:oid:2.49.0.1.124.1960815261.2019<br>Area: Grise Fiord",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-23:feed.atom/urn:oid:2.49.0.1.124.0748324175.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-23/2019_08_23T19_29_33_00_00Iurn_oid_2.49.0.1.124.0748324175.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-24:feed.atom/urn:oid:2.49.0.1.124.1960815261.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-24/2019_08_24T03_45_05_00_00Iurn_oid_2.49.0.1.124.1960815261.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190824112833+00:00"
+				"Expires_FMEFormat" : "20190824125905+00:00"
 			}
 		}
 	]
