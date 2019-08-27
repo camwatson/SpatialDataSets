@@ -95,6 +95,66 @@
 				"coordinates" : [
 					[
 						[
+							[ -91.0434, 51.1282 ],
+							[ -92.3388, 51.1193 ],
+							[ -92.9179, 50.1283 ],
+							[ -93.4874, 50.2367 ],
+							[ -93.4874, 49.6218 ],
+							[ -93.4874, 49.0996 ],
+							[ -94.7042, 48.8242 ],
+							[ -94.7045, 48.8236 ],
+							[ -94.7052, 48.7719 ],
+							[ -94.5779, 48.7038 ],
+							[ -94.2445, 48.6444 ],
+							[ -93.8712, 48.6171 ],
+							[ -93.8049, 48.5028 ],
+							[ -93.5376, 48.516 ],
+							[ -93.3775, 48.5745 ],
+							[ -93.331, 48.6168 ],
+							[ -93.2604, 48.6223 ],
+							[ -92.7767, 48.5433 ],
+							[ -92.6904, 48.4226 ],
+							[ -92.4487, 48.324 ],
+							[ -91.2145, 48.9922 ],
+							[ -91.2142, 48.9924 ],
+							[ -90.2392, 49.5614 ],
+							[ -90.0178, 49.5235 ],
+							[ -90.0123, 49.9131 ],
+							[ -89.9953, 51.1354 ],
+							[ -91.0434, 51.1282 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 27, 2019 01:59",
+				"Expires_UTC" : "August 27, 2019 17:58",
+				"Summary" : "Description: Rain at times heavy, and possible thunderstorms producing significant rainfall amounts expected tonight.\n\nTotal amounts near 50 mm are expected over portions of the warned region, with locally higher amounts in embedded thunderstorms. The heaviest rain will occur tonight, but should taper to light showers by Tuesday and continue through Wednesday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-08-27T17:58:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-27T01:59:12-00:00, urn:oid:2.49.0.1.124.4151004107.2019<br>Area: Savant Lake - Sturgeon Lake, Sioux Lookout - Eastern Lac Seul, Dryden - Vermilion Bay, Ignace - English River, Fort Frances - Emo - Rainy River, Seine River Village - Mine Centre",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-27:feed.atom/urn:oid:2.49.0.1.124.4151004107.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T01_59_12_00_00Iurn_oid_2.49.0.1.124.4151004107.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190827175812+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.884, 46.5004 ],
 							[ -62.8642, 46.4308 ],
 							[ -62.7976, 46.2718 ],
@@ -448,66 +508,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T00_17_42_00_00Iurn_oid_2.49.0.1.124.3657955523.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190827151106+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -91.0434, 51.1282 ],
-							[ -92.3388, 51.1193 ],
-							[ -92.9179, 50.1283 ],
-							[ -93.4874, 50.2367 ],
-							[ -93.4874, 49.6218 ],
-							[ -93.4874, 49.0996 ],
-							[ -94.7042, 48.8242 ],
-							[ -94.7045, 48.8236 ],
-							[ -94.7052, 48.7719 ],
-							[ -94.5779, 48.7038 ],
-							[ -94.2445, 48.6444 ],
-							[ -93.8712, 48.6171 ],
-							[ -93.8049, 48.5028 ],
-							[ -93.5376, 48.516 ],
-							[ -93.3775, 48.5745 ],
-							[ -93.331, 48.6168 ],
-							[ -93.2604, 48.6223 ],
-							[ -92.7767, 48.5433 ],
-							[ -92.6904, 48.4226 ],
-							[ -92.4487, 48.324 ],
-							[ -91.2145, 48.9922 ],
-							[ -91.2142, 48.9924 ],
-							[ -90.2392, 49.5614 ],
-							[ -90.0178, 49.5235 ],
-							[ -90.0123, 49.9131 ],
-							[ -89.9953, 51.1354 ],
-							[ -91.0434, 51.1282 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 27, 2019 08:46",
-				"Expires_UTC" : "August 27, 2019 09:46",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-08-27T09:46:59-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-27T08:46:59-00:00, urn:oid:2.49.0.1.124.0870935454.2019<br>Area: Savant Lake - Sturgeon Lake, Sioux Lookout - Eastern Lac Seul, Dryden - Vermilion Bay, Ignace - English River, Fort Frances - Emo - Rainy River, Seine River Village - Mine Centre",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-27:feed.atom/urn:oid:2.49.0.1.124.0870935454.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T08_46_59_00_00Iurn_oid_2.49.0.1.124.0870935454.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190827094659+00:00"
 			}
 		},
 		{
@@ -1012,25 +1012,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 27, 2019 08:47",
-				"Expires_UTC" : "August 27, 2019 09:47",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-08-27T09:47:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-27T08:47:10-00:00, urn:oid:2.49.0.1.124.1768053229.2019<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 27, 2019 03:28",
+				"Expires_UTC" : "August 27, 2019 19:27",
+				"Summary" : "Description: Rain at times heavy, and possible thunderstorms producing significant rainfall amounts expected tonight.\n\nA north to south band of heavy rainfall continues to affect portions of the area late this evening, although it is slowly weakening. This band is also rather slow moving, so some areas within the warning region may see 50 to 75 mm of rainfall.\n\nThe heaviest rain will taper to light showers later tonight. However, the shower activity will likely continue into Wednesday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-08-27T19:27:17-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-27T03:28:17-00:00, urn:oid:2.49.0.1.124.0942890514.2019<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-27:feed.atom/urn:oid:2.49.0.1.124.1768053229.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T08_47_10_00_00Iurn_oid_2.49.0.1.124.1768053229.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-27:feed.atom/urn:oid:2.49.0.1.124.0942890514.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T03_28_17_00_00Iurn_oid_2.49.0.1.124.0942890514.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190827094710+00:00"
+				"Expires_FMEFormat" : "20190827192717+00:00"
 			}
 		},
 		{
