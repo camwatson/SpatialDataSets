@@ -1005,6 +1005,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -84.8569, 46.8805 ],
+							[ -84.7628, 46.6342 ],
+							[ -84.5568, 46.4608 ],
+							[ -84.5262, 46.4578 ],
+							[ -84.5213, 46.4725 ],
+							[ -84.515, 46.4912 ],
+							[ -84.5263, 46.5339 ],
+							[ -84.5703, 46.5641 ],
+							[ -84.5209, 46.61 ],
+							[ -84.373, 46.6831 ],
+							[ -84.3947, 46.7765 ],
+							[ -84.3128, 46.8933 ],
+							[ -84.5099, 46.9864 ],
+							[ -84.6284, 46.9635 ],
+							[ -84.6525, 47.0155 ],
+							[ -84.7271, 46.9932 ],
+							[ -84.6706, 47.1099 ],
+							[ -84.4836, 47.3469 ],
+							[ -84.8811, 47.6283 ],
+							[ -84.6977, 48.0553 ],
+							[ -85.5664, 48.0212 ],
+							[ -85.9704, 48.2333 ],
+							[ -86.3057, 48.8523 ],
+							[ -86.7557, 48.8838 ],
+							[ -86.8376, 48.7501 ],
+							[ -87.4568, 47.9579 ],
+							[ -84.8601, 46.8889 ],
+							[ -84.8569, 46.8805 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "August 27, 2019 20:18",
+				"Expires_UTC" : "August 28, 2019 06:17",
+				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 45 knots and poor to very poor visibility in thunderstorms heavy at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-28T06:17:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-27T20:18:02-00:00, urn:oid:2.49.0.1.124.0427399982.2019<br>Area: Whitefish Bay, Eastern Lake Superior",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-27:feed.atom/urn:oid:2.49.0.1.124.0427399982.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T20_18_02_00_00Iurn_oid_2.49.0.1.124.0427399982.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190828061702+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -96.8648, 53.5312 ],
 							[ -96.0866, 53.5203 ],
 							[ -95.2444, 53.5312 ],
@@ -1078,60 +1139,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T15_25_03_00_00Iurn_oid_2.49.0.1.124.0875592400.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190828072403+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.1536, 52.4841 ],
-							[ -95.1536, 52.4201 ],
-							[ -95.169, 52.0344 ],
-							[ -95.1536, 51.6128 ],
-							[ -94.5283, 51.5309 ],
-							[ -93.9542, 51.4733 ],
-							[ -93.733, 51.4154 ],
-							[ -93.4873, 51.3669 ],
-							[ -92.3388, 51.1193 ],
-							[ -91.5246, 52.2405 ],
-							[ -90.9516, 52.9541 ],
-							[ -90.5082, 53.543 ],
-							[ -92.0407, 53.7604 ],
-							[ -93.4241, 53.9089 ],
-							[ -93.68, 53.7427 ],
-							[ -93.9327, 53.5766 ],
-							[ -94.5197, 53.2523 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.1632, 52.6707 ],
-							[ -95.1536, 52.4841 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 27, 2019 19:46",
-				"Expires_UTC" : "August 28, 2019 03:45",
-				"Summary" : "Description: Showers and possible thunderstorms producing significant rainfall continue tonight.\n\nAn additional 15 to 25 mm is expected tonight. Total amounts of 30 to 50 mm are expected before tapering off to showers Wednesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-08-28T03:45:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-27T19:46:57-00:00, urn:oid:2.49.0.1.124.1419634388.2019<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-27:feed.atom/urn:oid:2.49.0.1.124.1419634388.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T19_46_57_00_00Iurn_oid_2.49.0.1.124.1419634388.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190828034557+00:00"
 			}
 		},
 		{
@@ -1304,6 +1311,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T11_39_16_00_00Iurn_oid_2.49.0.1.124.0908965725.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190828173816+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.1536, 52.4841 ],
+							[ -95.1536, 52.4201 ],
+							[ -95.169, 52.0344 ],
+							[ -95.1536, 51.6128 ],
+							[ -94.5283, 51.5309 ],
+							[ -93.9542, 51.4733 ],
+							[ -93.733, 51.4154 ],
+							[ -93.4873, 51.3669 ],
+							[ -92.3388, 51.1193 ],
+							[ -91.5246, 52.2405 ],
+							[ -90.9516, 52.9541 ],
+							[ -90.5082, 53.543 ],
+							[ -92.0407, 53.7604 ],
+							[ -93.4241, 53.9089 ],
+							[ -93.68, 53.7427 ],
+							[ -93.9327, 53.5766 ],
+							[ -94.5197, 53.2523 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.1632, 52.6707 ],
+							[ -95.1536, 52.4841 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 27, 2019 19:46",
+				"Expires_UTC" : "August 28, 2019 03:45",
+				"Summary" : "Description: Showers and possible thunderstorms producing significant rainfall continue tonight.\n\nAn additional 15 to 25 mm is expected tonight. Total amounts of 30 to 50 mm are expected before tapering off to showers Wednesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-08-28T03:45:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-27T19:46:57-00:00, urn:oid:2.49.0.1.124.1419634388.2019<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-27:feed.atom/urn:oid:2.49.0.1.124.1419634388.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-27/2019_08_27T19_46_57_00_00Iurn_oid_2.49.0.1.124.1419634388.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190828034557+00:00"
 			}
 		},
 		{
