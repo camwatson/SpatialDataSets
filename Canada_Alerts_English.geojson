@@ -70,52 +70,44 @@
 				"coordinates" : [
 					[
 						[
-							[ -94.8238, 59.9991 ],
-							[ -95.1085, 60.0563 ],
-							[ -95.4499, 59.9991 ],
-							[ -95.609, 58.7183 ],
-							[ -95.4499, 57.7824 ],
-							[ -95.6237, 57.7836 ],
-							[ -95.6164, 57.4604 ],
-							[ -95.4499, 57.4624 ],
-							[ -95.5213, 57.2946 ],
-							[ -95.4499, 57.11 ],
-							[ -94.0456, 56.9907 ],
-							[ -92.7352, 56.9253 ],
-							[ -92.3679, 57.2361 ],
-							[ -92.5275, 57.6436 ],
-							[ -93.151, 58.8144 ],
-							[ -94.2622, 58.8582 ],
-							[ -94.3979, 58.784 ],
-							[ -94.7122, 59.1161 ],
-							[ -94.6303, 59.369 ],
-							[ -94.7505, 59.6302 ],
-							[ -94.7036, 59.7963 ],
-							[ -94.8238, 59.9991 ]
+							[ -76.9902, 64.0605 ],
+							[ -76.5029, 64.098 ],
+							[ -75.9763, 64.1551 ],
+							[ -76.1267, 64.3652 ],
+							[ -76.161, 64.3733 ],
+							[ -76.2585, 64.4104 ],
+							[ -76.3913, 64.4375 ],
+							[ -76.5534, 64.4459 ],
+							[ -76.6728, 64.4374 ],
+							[ -76.798, 64.4125 ],
+							[ -76.9078, 64.3707 ],
+							[ -76.9807, 64.3203 ],
+							[ -77.019, 64.2602 ],
+							[ -76.9902, 64.0605 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
 				"Category" : "Actual",
-				"event" : "Rainfall",
+				"event" : "Fog",
 				"urgency" : "Future",
-				"certainty" : "Likely",
+				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 29, 2019 12:53",
-				"Expires_UTC" : "August 30, 2019 00:51",
-				"Summary" : "Description: A slow moving low pressure system will continue to bring significant rain to the Churchill area today along with strong gusty northerly winds. Rainfall totals for Monday afternoon through early this morning have reached 81 mm and a further 10 mm is expected before tapering off late Thursday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2019-08-30T00:51:43-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T12:53:43-00:00, urn:oid:2.49.0.1.124.1139152990.2019<br>Area: Churchill",
+				"LastUpdate_UTC" : "August 29, 2019 20:39",
+				"Expires_UTC" : "August 30, 2019 12:39",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-30T12:39:25-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T20:39:25-00:00, urn:oid:2.49.0.1.124.3206297829.2019<br>Area: Cape Dorset",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.1139152990.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T12_53_43_00_00Iurn_oid_2.49.0.1.124.1139152990.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.3206297829.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T20_39_25_00_00Iurn_oid_2.49.0.1.124.3206297829.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830005143+00:00"
+				"Expires_FMEFormat" : "20190830123925+00:00"
 			}
 		},
 		{
@@ -198,6 +190,73 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T19_20_24_00_00Iurn_oid_2.49.0.1.124.2079880602.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830011824+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					],
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 29, 2019 14:34",
+				"Expires_UTC" : "August 30, 2019 01:09",
+				"Summary" : "Description: Rain continues to affect the Kivalliq coastline, with accumulations thus far up to 30 mm through early Thursday morning. Further accumulations of 5 to 10 mm are expected before the rain tapers off late today. Strong northerly winds are also anticipated, and areas of Kivalliq not under a wind warning can still expect gusts in the 80 km/h range later today into Friday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-30T01:09:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T14:34:58-00:00, urn:oid:2.49.0.1.124.2853304788.2019<br>Area: Rankin Region including Whale Cove, Chesterfield Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.2853304788.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T14_34_58_00_00Iurn_oid_2.49.0.1.124.2853304788.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830010958+00:00"
 			}
 		},
 		{
@@ -292,6 +351,181 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_19_00_00_00Iurn_oid_2.49.0.1.124.2989220130.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830101800+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.7021, 45.7266 ],
+							[ -61.8482, 45.7753 ],
+							[ -61.8931, 45.94 ],
+							[ -62.2998, 45.8648 ],
+							[ -63.1438, 45.8448 ],
+							[ -63.1906, 45.811 ],
+							[ -63.4368, 45.9101 ],
+							[ -63.7346, 45.9185 ],
+							[ -63.8518, 46.0357 ],
+							[ -63.7366, 46.106 ],
+							[ -63.8076, 46.193 ],
+							[ -64.4795, 46.2865 ],
+							[ -64.6509, 46.6934 ],
+							[ -64.769, 46.7321 ],
+							[ -64.8468, 46.9104 ],
+							[ -64.7432, 47.0784 ],
+							[ -64.8304, 47.0405 ],
+							[ -64.851, 47.0294 ],
+							[ -65.368, 46.7462 ],
+							[ -65.3919, 46.733 ],
+							[ -65.5705, 46.6329 ],
+							[ -65.8356, 46.3331 ],
+							[ -65.9799, 46.3222 ],
+							[ -66.2349, 46.3023 ],
+							[ -66.2353, 46.3019 ],
+							[ -66.2355, 46.3017 ],
+							[ -66.2359, 46.3016 ],
+							[ -67.3011, 46.2169 ],
+							[ -67.533, 45.9333 ],
+							[ -67.5989, 45.9841 ],
+							[ -67.6318, 45.9663 ],
+							[ -67.6665, 45.9829 ],
+							[ -67.6941, 45.9545 ],
+							[ -67.7156, 45.9324 ],
+							[ -67.7666, 45.9302 ],
+							[ -67.7823, 45.9319 ],
+							[ -67.815, 45.8762 ],
+							[ -67.839, 45.6671 ],
+							[ -67.7222, 45.6482 ],
+							[ -67.624, 45.5767 ],
+							[ -67.4348, 45.5763 ],
+							[ -67.454, 45.5059 ],
+							[ -67.4664, 45.5091 ],
+							[ -67.5089, 45.4898 ],
+							[ -67.4836, 45.423 ],
+							[ -67.4196, 45.3754 ],
+							[ -67.4387, 45.3766 ],
+							[ -67.4918, 45.2818 ],
+							[ -67.4075, 45.1606 ],
+							[ -67.3394, 45.12 ],
+							[ -67.2902, 45.1481 ],
+							[ -67.2717, 45.1815 ],
+							[ -67.2253, 45.1533 ],
+							[ -67.1617, 45.1528 ],
+							[ -66.9884, 44.9042 ],
+							[ -66.9778, 44.8326 ],
+							[ -66.8639, 44.7731 ],
+							[ -66.9393, 44.5943 ],
+							[ -66.6772, 44.5452 ],
+							[ -66.6191, 44.9452 ],
+							[ -66.4488, 44.9966 ],
+							[ -66.1205, 45.0829 ],
+							[ -65.9007, 45.0895 ],
+							[ -65.1181, 45.3687 ],
+							[ -65.0987, 45.2427 ],
+							[ -65.8843, 44.8139 ],
+							[ -66.5371, 44.3055 ],
+							[ -66.2609, 43.9343 ],
+							[ -66.2464, 43.8302 ],
+							[ -66.0816, 43.613 ],
+							[ -65.8528, 43.5481 ],
+							[ -65.779, 43.4069 ],
+							[ -65.6057, 43.3204 ],
+							[ -64.8863, 43.7582 ],
+							[ -64.4838, 44.0841 ],
+							[ -64.2742, 44.1629 ],
+							[ -63.9672, 44.4641 ],
+							[ -63.6521, 44.3309 ],
+							[ -63.2658, 44.6121 ],
+							[ -63.2105, 44.6376 ],
+							[ -62.9403, 44.6081 ],
+							[ -62.0547, 44.8797 ],
+							[ -61.1946, 45.1755 ],
+							[ -60.9193, 45.2127 ],
+							[ -60.9214, 45.3595 ]
+						],
+						[
+							[ -63.3459, 45.3679 ],
+							[ -63.3609, 45.3663 ],
+							[ -63.4778593614, 45.3538515292 ],
+							[ -63.4779, 45.3539 ],
+							[ -63.4014, 45.362 ],
+							[ -63.3687, 45.3655 ],
+							[ -63.3459, 45.3679 ]
+						],
+						[
+							[ -64.0795, 45.9775 ],
+							[ -64.0716907168, 45.9772507676 ],
+							[ -64.0717, 45.9772 ],
+							[ -64.0795, 45.9775 ]
+						],
+						[
+							[ -60.8436, 45.8719 ],
+							[ -61.1587, 45.7085 ],
+							[ -61.1647, 45.7054 ],
+							[ -60.8436, 45.8719 ]
+						]
+					],
+					[
+						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Tropical Cyclone Information Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Tropical Storm",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 29, 2019 17:45",
+				"Expires_UTC" : "August 30, 2019 23:04",
+				"Summary" : "Description: For Post-tropical Storm Erin.\n\nThe next information statement will be issued by 09:00 p.m. ADT.\n\nErin, now a Post-tropical system, will continue tracking northeastward towards the Maritimes. Erin is bringing heavy rain to much of the region today, and strong gusty winds to parts of Nova Scotia tonight.\n\n\n1. Summary of basic information at 03:00 p.m. ADT.\n\nLocation: Near 40.2 North 68.0 West.\n\nAbout distance 431 kilometres south-southwest of Yarmouth NS.\n\nMaximum sustained winds: 65 kilometres per hour.\n\nPresent movement: North-northeast at 39 kilometres per hour.\n\nMinimum central pressure: 1003 millibars.\n\n\n2. Public weather impacts and warnings summary.\n\nRain associated with a trough of low pressure approaching from the west will continue to spread across the Maritimes. As Post-tropical Erin approaches, some of its moisture will feed into this trough and likely enhance the rain intensity associated with it. The heavier rain and strongest winds associated directly with Post-Tropical Erin should reach the Atlantic coast of Nova Scotia later this evening or early Friday morning. \n\na. Wind.\n\nSome gusty winds will likely accompany Post-tropical Erin, especially to those areas just to the right of its track as it crosses Nova Scotia later tonight. It is not expected that these winds will reach warning criteria (i.e. gusts to 90 km/h or higher), but could still be strong enough to cause isolated power outages and minor damage, especially given that trees are still in full leaf.\n\nb. Rainfall.\n\nThe combination of Post-tropical Erin and its interaction with the trough of low pressure crossing the region today will combine to produce significant rainfall.  Rainfall will likely meet or exceed warning criteria (50 mm or more in 24 hours) in parts of the Maritimes, especially those areas just north and west of Erin's track. Some isolated locations in these areas could possibly see total rainfall amounts in excess of 100 mm before the rain ends later Friday morning. \n\nRainfall warnings are now in effect for southern New Brunswick, parts of western and northern Nova Scotia, and western Prince Edward Island. \n\nc. Surge/Waves.\n\nSignificant storm surge and coastal impacts from high waves are not expected. After midnight into Friday morning, waves near 4 metres will spread from west to east along the Atlantic Coast of Nova Scotia and will break higher along the beaches. Rip currents could also be an issue, and the public should exercise caution near the coast.\n \n3. Marine weather impacts and warnings summary.\n\nGale warnings are in effect for most Maritimes waters near and to the right of Erin's track through the marine district, where gale force southerlies up to 45 knots are possible.\n\nForecaster(s): Mercer\n\n###\n\nPlease continue to monitor alerts issued by the Canadian Hurricane Centre and forecasts issued by Environment Canada.<br>Expires: 2019-08-30T23:04:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T17:45:46-00:00, urn:oid:2.49.0.1.124.4080426088.2019<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County, Fredericton and Southern York County, Oromocto and Sunbury County, Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, Saint John and County, St. Stephen and Northern Charlotte County, Grand Manan and Coastal Charlotte County, Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Fundy National Park, Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.4080426088.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T17_45_46_00_00Iurn_oid_2.49.0.1.124.4080426088.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830230446+00:00"
 			}
 		},
 		{
@@ -453,73 +687,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T05_48_35_00_00Iurn_oid_2.49.0.1.124.0768326673.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830114735+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					],
-					[
-						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 29, 2019 19:32",
-				"Expires_UTC" : "August 29, 2019 20:32",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-08-29T20:32:03-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T19:32:03-00:00, urn:oid:2.49.0.1.124.0659299611.2019<br>Area: Rankin Region including Whale Cove, Chesterfield Inlet",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.0659299611.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T19_32_03_00_00Iurn_oid_2.49.0.1.124.0659299611.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190829203203+00:00"
 			}
 		},
 		{
@@ -890,6 +1057,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T19_20_49_00_00Iurn_oid_2.49.0.1.124.2453614182.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830045949+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -94.8238, 59.9991 ],
+							[ -95.1085, 60.0563 ],
+							[ -95.4499, 59.9991 ],
+							[ -95.609, 58.7183 ],
+							[ -95.4499, 57.7824 ],
+							[ -95.6237, 57.7836 ],
+							[ -95.6164, 57.4604 ],
+							[ -95.4499, 57.4624 ],
+							[ -95.5213, 57.2946 ],
+							[ -95.4499, 57.11 ],
+							[ -94.0456, 56.9907 ],
+							[ -92.7352, 56.9253 ],
+							[ -92.3679, 57.2361 ],
+							[ -92.5275, 57.6436 ],
+							[ -93.151, 58.8144 ],
+							[ -94.2622, 58.8582 ],
+							[ -94.3979, 58.784 ],
+							[ -94.7122, 59.1161 ],
+							[ -94.6303, 59.369 ],
+							[ -94.7505, 59.6302 ],
+							[ -94.7036, 59.7963 ],
+							[ -94.8238, 59.9991 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 29, 2019 20:39",
+				"Expires_UTC" : "August 29, 2019 21:39",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-08-29T21:39:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T20:39:37-00:00, urn:oid:2.49.0.1.124.2115460506.2019<br>Area: Churchill",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.2115460506.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T20_39_37_00_00Iurn_oid_2.49.0.1.124.2115460506.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190829213937+00:00"
 			}
 		},
 		{
@@ -1317,6 +1539,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 29, 2019 18:29",
+				"Expires_UTC" : "August 30, 2019 02:28",
+				"Summary" : "Description: Post tropical storm Erin is forecast to cross Nova Scotia tonight and enter the Gulf of St. Lawrence Friday morning. Rain will begin this evening and taper off near noon Friday behind the system. Total rainfall amounts near 30 mm are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-08-30T02:28:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T18:29:28-00:00, urn:oid:2.49.0.1.124.1806199112.2019<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.1806199112.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_29_28_00_00Iurn_oid_2.49.0.1.124.1806199112.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830022828+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -94.2244, 61.2965 ],
 							[ -94.3187, 61.2722 ],
 							[ -94.4341, 61.2139 ],
@@ -1391,221 +1653,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T08_33_39_00_00Iurn_oid_2.49.0.1.124.4287920518.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830003239+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 29, 2019 18:29",
-				"Expires_UTC" : "August 30, 2019 02:28",
-				"Summary" : "Description: Post tropical storm Erin is forecast to cross Nova Scotia tonight and enter the Gulf of St. Lawrence Friday morning. Rain will begin this evening and taper off near noon Friday behind the system. Total rainfall amounts near 30 mm are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-08-30T02:28:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T18:29:28-00:00, urn:oid:2.49.0.1.124.1806199112.2019<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.1806199112.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_29_28_00_00Iurn_oid_2.49.0.1.124.1806199112.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830022828+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -59.538, 46.0154 ],
-							[ -59.8902, 46.2624 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.7021, 45.7266 ],
-							[ -61.8482, 45.7753 ],
-							[ -61.8931, 45.94 ],
-							[ -62.2998, 45.8648 ],
-							[ -63.1438, 45.8448 ],
-							[ -63.1906, 45.811 ],
-							[ -63.4368, 45.9101 ],
-							[ -63.7346, 45.9185 ],
-							[ -63.8518, 46.0357 ],
-							[ -63.7366, 46.106 ],
-							[ -63.8076, 46.193 ],
-							[ -64.4795, 46.2865 ],
-							[ -64.6509, 46.6934 ],
-							[ -64.769, 46.7321 ],
-							[ -64.8468, 46.9104 ],
-							[ -64.7432, 47.0784 ],
-							[ -64.8304, 47.0405 ],
-							[ -64.851, 47.0294 ],
-							[ -65.368, 46.7462 ],
-							[ -65.3919, 46.733 ],
-							[ -65.5705, 46.6329 ],
-							[ -65.8356, 46.3331 ],
-							[ -65.9799, 46.3222 ],
-							[ -66.2349, 46.3023 ],
-							[ -66.2353, 46.3019 ],
-							[ -66.2355, 46.3017 ],
-							[ -66.2359, 46.3016 ],
-							[ -67.3011, 46.2169 ],
-							[ -67.533, 45.9333 ],
-							[ -67.5989, 45.9841 ],
-							[ -67.6318, 45.9663 ],
-							[ -67.6665, 45.9829 ],
-							[ -67.6941, 45.9545 ],
-							[ -67.7156, 45.9324 ],
-							[ -67.7666, 45.9302 ],
-							[ -67.7823, 45.9319 ],
-							[ -67.815, 45.8762 ],
-							[ -67.839, 45.6671 ],
-							[ -67.7222, 45.6482 ],
-							[ -67.624, 45.5767 ],
-							[ -67.4348, 45.5763 ],
-							[ -67.454, 45.5059 ],
-							[ -67.4664, 45.5091 ],
-							[ -67.5089, 45.4898 ],
-							[ -67.4836, 45.423 ],
-							[ -67.4196, 45.3754 ],
-							[ -67.4387, 45.3766 ],
-							[ -67.4918, 45.2818 ],
-							[ -67.4075, 45.1606 ],
-							[ -67.3394, 45.12 ],
-							[ -67.2902, 45.1481 ],
-							[ -67.2717, 45.1815 ],
-							[ -67.2253, 45.1533 ],
-							[ -67.1617, 45.1528 ],
-							[ -66.9884, 44.9042 ],
-							[ -66.9778, 44.8326 ],
-							[ -66.8639, 44.7731 ],
-							[ -66.9393, 44.5943 ],
-							[ -66.6772, 44.5452 ],
-							[ -66.6191, 44.9452 ],
-							[ -66.4488, 44.9966 ],
-							[ -66.1205, 45.0829 ],
-							[ -65.9007, 45.0895 ],
-							[ -65.1181, 45.3687 ],
-							[ -65.0987, 45.2427 ],
-							[ -65.8843, 44.8139 ],
-							[ -66.5371, 44.3055 ],
-							[ -66.2609, 43.9343 ],
-							[ -66.2464, 43.8302 ],
-							[ -66.0816, 43.613 ],
-							[ -65.8528, 43.5481 ],
-							[ -65.779, 43.4069 ],
-							[ -65.6057, 43.3204 ],
-							[ -64.8863, 43.7582 ],
-							[ -64.4838, 44.0841 ],
-							[ -64.2742, 44.1629 ],
-							[ -63.9672, 44.4641 ],
-							[ -63.6521, 44.3309 ],
-							[ -63.2658, 44.6121 ],
-							[ -63.2105, 44.6376 ],
-							[ -62.9403, 44.6081 ],
-							[ -62.0547, 44.8797 ],
-							[ -61.1946, 45.1755 ],
-							[ -60.9193, 45.2127 ],
-							[ -60.9214, 45.3595 ]
-						],
-						[
-							[ -63.3459, 45.3679 ],
-							[ -63.3609, 45.3663 ],
-							[ -63.4778593614, 45.3538515292 ],
-							[ -63.4779, 45.3539 ],
-							[ -63.4014, 45.362 ],
-							[ -63.3687, 45.3655 ],
-							[ -63.3459, 45.3679 ]
-						],
-						[
-							[ -64.0795, 45.9775 ],
-							[ -64.0716907168, 45.9772507676 ],
-							[ -64.0717, 45.9772 ],
-							[ -64.0795, 45.9775 ]
-						],
-						[
-							[ -60.8436, 45.8719 ],
-							[ -61.1587, 45.7085 ],
-							[ -61.1647, 45.7054 ],
-							[ -60.8436, 45.8719 ]
-						]
-					],
-					[
-						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Tropical Cyclone Information Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Tropical Storm",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 29, 2019 17:45",
-				"Expires_UTC" : "August 30, 2019 23:04",
-				"Summary" : "Description: For Post-tropical Storm Erin.\n\nThe next information statement will be issued by 09:00 p.m. ADT.\n\nErin, now a Post-tropical system, will continue tracking northeastward towards the Maritimes. Erin is bringing heavy rain to much of the region today, and strong gusty winds to parts of Nova Scotia tonight.\n\n\n1. Summary of basic information at 03:00 p.m. ADT.\n\nLocation: Near 40.2 North 68.0 West.\n\nAbout distance 431 kilometres south-southwest of Yarmouth NS.\n\nMaximum sustained winds: 65 kilometres per hour.\n\nPresent movement: North-northeast at 39 kilometres per hour.\n\nMinimum central pressure: 1003 millibars.\n\n\n2. Public weather impacts and warnings summary.\n\nRain associated with a trough of low pressure approaching from the west will continue to spread across the Maritimes. As Post-tropical Erin approaches, some of its moisture will feed into this trough and likely enhance the rain intensity associated with it. The heavier rain and strongest winds associated directly with Post-Tropical Erin should reach the Atlantic coast of Nova Scotia later this evening or early Friday morning. \n\na. Wind.\n\nSome gusty winds will likely accompany Post-tropical Erin, especially to those areas just to the right of its track as it crosses Nova Scotia later tonight. It is not expected that these winds will reach warning criteria (i.e. gusts to 90 km/h or higher), but could still be strong enough to cause isolated power outages and minor damage, especially given that trees are still in full leaf.\n\nb. Rainfall.\n\nThe combination of Post-tropical Erin and its interaction with the trough of low pressure crossing the region today will combine to produce significant rainfall.  Rainfall will likely meet or exceed warning criteria (50 mm or more in 24 hours) in parts of the Maritimes, especially those areas just north and west of Erin's track. Some isolated locations in these areas could possibly see total rainfall amounts in excess of 100 mm before the rain ends later Friday morning. \n\nRainfall warnings are now in effect for southern New Brunswick, parts of western and northern Nova Scotia, and western Prince Edward Island. \n\nc. Surge/Waves.\n\nSignificant storm surge and coastal impacts from high waves are not expected. After midnight into Friday morning, waves near 4 metres will spread from west to east along the Atlantic Coast of Nova Scotia and will break higher along the beaches. Rip currents could also be an issue, and the public should exercise caution near the coast.\n \n3. Marine weather impacts and warnings summary.\n\nGale warnings are in effect for most Maritimes waters near and to the right of Erin's track through the marine district, where gale force southerlies up to 45 knots are possible.\n\nForecaster(s): Mercer\n\n###\n\nPlease continue to monitor alerts issued by the Canadian Hurricane Centre and forecasts issued by Environment Canada.<br>Expires: 2019-08-30T23:04:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T17:45:46-00:00, urn:oid:2.49.0.1.124.4080426088.2019<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County, Fredericton and Southern York County, Oromocto and Sunbury County, Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, Saint John and County, St. Stephen and Northern Charlotte County, Grand Manan and Coastal Charlotte County, Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Fundy National Park, Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.4080426088.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T17_45_46_00_00Iurn_oid_2.49.0.1.124.4080426088.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830230446+00:00"
 			}
 		}
 	]
