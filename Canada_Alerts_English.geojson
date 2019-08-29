@@ -70,53 +70,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -76.9902, 64.0605 ],
-							[ -76.5029, 64.098 ],
-							[ -75.9763, 64.1551 ],
-							[ -76.1267, 64.3652 ],
-							[ -76.161, 64.3733 ],
-							[ -76.2585, 64.4104 ],
-							[ -76.3913, 64.4375 ],
-							[ -76.5534, 64.4459 ],
-							[ -76.6728, 64.4374 ],
-							[ -76.798, 64.4125 ],
-							[ -76.9078, 64.3707 ],
-							[ -76.9807, 64.3203 ],
-							[ -77.019, 64.2602 ],
-							[ -76.9902, 64.0605 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 29, 2019 20:39",
-				"Expires_UTC" : "August 30, 2019 12:39",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-30T12:39:25-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T20:39:25-00:00, urn:oid:2.49.0.1.124.3206297829.2019<br>Area: Cape Dorset",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.3206297829.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T20_39_25_00_00Iurn_oid_2.49.0.1.124.3206297829.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830123925+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -84.1651, 46.5611 ],
 							[ -84.224, 46.5547 ],
 							[ -84.2672, 46.5199 ],
@@ -351,6 +304,89 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_19_00_00_00Iurn_oid_2.49.0.1.124.2989220130.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830101800+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 29, 2019 08:33",
+				"Expires_UTC" : "August 30, 2019 00:32",
+				"Summary" : "Description: Rain continues to affect the Kivalliq coastline, with accumulations thus far up to 30 mm through early Thursday morning. Further accumulations of 5 to 10 mm are expected before the rain tapers off late today. Strong northerly winds are also anticipated, and areas of Kivalliq not under a wind warning can still expect gusts in the 80 km/h range later today into Friday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-30T00:32:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T08:33:39-00:00, urn:oid:2.49.0.1.124.4287920518.2019<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.4287920518.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T08_33_39_00_00Iurn_oid_2.49.0.1.124.4287920518.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830003239+00:00"
 			}
 		},
 		{
@@ -1539,6 +1575,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -76.9902, 64.0605 ],
+							[ -76.5029, 64.098 ],
+							[ -75.9763, 64.1551 ],
+							[ -76.1267, 64.3652 ],
+							[ -76.161, 64.3733 ],
+							[ -76.2585, 64.4104 ],
+							[ -76.3913, 64.4375 ],
+							[ -76.5534, 64.4459 ],
+							[ -76.6728, 64.4374 ],
+							[ -76.798, 64.4125 ],
+							[ -76.9078, 64.3707 ],
+							[ -76.9807, 64.3203 ],
+							[ -77.019, 64.2602 ],
+							[ -76.9902, 64.0605 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 29, 2019 20:40",
+				"Expires_UTC" : "August 30, 2019 12:39",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nExtensive fog can be expected at Cape Dorset tonight through much of the weekend as a large, slow-moving low pressure system gradually drifts towards the community.  The fog may lift somewhat at times, especially when heavier bands of rain affect the community, but in general extended periods of zero to near zero visibility can be expected for the remainder of the week and much of the weekend.\n\nThe fog may begin to dissipate Sunday afternoon depending on the location of the low pressure system.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-30T12:39:25-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T20:40:25-00:00, urn:oid:2.49.0.1.124.0374723242.2019<br>Area: Cape Dorset",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.0374723242.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T20_40_25_00_00Iurn_oid_2.49.0.1.124.0374723242.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830123925+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -61.7255, 47.1947 ],
 							[ -61.322, 47.5211 ],
 							[ -61.344, 47.8207 ],
@@ -1570,89 +1653,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_29_28_00_00Iurn_oid_2.49.0.1.124.1806199112.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830022828+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					],
-					[
-						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 29, 2019 08:33",
-				"Expires_UTC" : "August 30, 2019 00:32",
-				"Summary" : "Description: Rain continues to affect the Kivalliq coastline, with accumulations thus far up to 30 mm through early Thursday morning. Further accumulations of 5 to 10 mm are expected before the rain tapers off late today. Strong northerly winds are also anticipated, and areas of Kivalliq not under a wind warning can still expect gusts in the 80 km/h range later today into Friday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-30T00:32:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T08:33:39-00:00, urn:oid:2.49.0.1.124.4287920518.2019<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.4287920518.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T08_33_39_00_00Iurn_oid_2.49.0.1.124.4287920518.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830003239+00:00"
 			}
 		}
 	]
