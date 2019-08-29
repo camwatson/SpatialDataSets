@@ -227,48 +227,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.884, 46.5004 ],
-							[ -62.8642, 46.4308 ],
-							[ -62.7976, 46.2718 ],
-							[ -62.667, 45.9567 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 29, 2019 13:20",
-				"Expires_UTC" : "August 29, 2019 21:19",
-				"Summary" : "Description: Post Tropical depression Erin will track across Prince Edward Island Friday morning. Rain at times heavy and gusty winds are expected as it moves through. Total rainfall amounts of up to 40 mm are currently expected over Kings County. Strong southeasterly winds gusting up to 60 km/h will develop this evening and then diminish Friday morning as winds shift to the west.\n\nAt this time, there remains some uncertainty in the track of the system and should it shift eastward, a rainfall warning may be issued with future updates.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-08-29T21:19:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T13:20:46-00:00, urn:oid:2.49.0.1.124.0752686056.2019<br>Area: Kings County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.0752686056.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T13_20_46_00_00Iurn_oid_2.49.0.1.124.0752686056.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190829211946+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -92.7494, 61.7617 ],
 							[ -91.0961, 62.4626 ],
 							[ -90.8425, 62.6977 ],
@@ -549,6 +507,138 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T07_36_24_00_00Iurn_oid_2.49.0.1.124.1112358858.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190829233524+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.667, 45.9567 ],
+							[ -62.7976, 46.2718 ],
+							[ -62.8642, 46.4308 ],
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 29, 2019 18:19",
+				"Expires_UTC" : "August 30, 2019 10:18",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nRain at times heavy will persist tonight as a trough of low pressure interacts with moisture from post tropical storm Erin.\n\nTotal rainfall amounts of up to 70 mm are expected across Prince and Queens counties by the time the rain tapers off Friday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-08-30T10:18:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T18:19:00-00:00, urn:oid:2.49.0.1.124.2989220130.2019<br>Area: Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.2989220130.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_19_00_00_00Iurn_oid_2.49.0.1.124.2989220130.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830101800+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 29, 2019 08:33",
+				"Expires_UTC" : "August 30, 2019 00:32",
+				"Summary" : "Description: Rain continues to affect the Kivalliq coastline, with accumulations thus far up to 30 mm through early Thursday morning. Further accumulations of 5 to 10 mm are expected before the rain tapers off late today. Strong northerly winds are also anticipated, and areas of Kivalliq not under a wind warning can still expect gusts in the 80 km/h range later today into Friday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-30T00:32:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T08:33:39-00:00, urn:oid:2.49.0.1.124.4287920518.2019<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.4287920518.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T08_33_39_00_00Iurn_oid_2.49.0.1.124.4287920518.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830003239+00:00"
 			}
 		},
 		{
@@ -948,6 +1038,94 @@
 				"coordinates" : [
 					[
 						[
+							[ -62.884, 46.5004 ],
+							[ -62.8642, 46.4308 ],
+							[ -62.7976, 46.2718 ],
+							[ -62.667, 45.9567 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 29, 2019 18:28",
+				"Expires_UTC" : "August 30, 2019 02:27",
+				"Summary" : "Description: Post tropical storm Erin will track across Prince Edward Island Friday morning. Rain at times heavy and gusty winds are expected as it moves through. Total rainfall amounts of up to 40 mm are currently expected over Kings County. Strong southeasterly winds gusting up to 60 km/h will develop overnight and then diminish Friday morning as winds shift to the west.\n\nAt this time, there remains some uncertainty in the track of the system and should it shift eastward, a rainfall warning may be issued.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-08-30T02:27:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T18:28:04-00:00, urn:oid:2.49.0.1.124.2026713117.2019<br>Area: Kings County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.2026713117.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_28_04_00_00Iurn_oid_2.49.0.1.124.2026713117.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830022704+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 29, 2019 18:25",
+				"Expires_UTC" : "August 30, 2019 10:24",
+				"Summary" : "Description: Strong winds are expected or occurring.\n\nStrong southeasterly winds with gusts up to 110 km/h are expected to develop in the Wreckhouse early Friday morning.  These winds will diminish Friday afternoon as the winds shift to a southwesterly direction.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-08-30T10:24:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T18:25:47-00:00, urn:oid:2.49.0.1.124.4259733402.2019<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.4259733402.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_25_47_00_00Iurn_oid_2.49.0.1.124.4259733402.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830102447+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -60.9991, 50.7497 ],
 							[ -62.999, 50.7498 ],
 							[ -62.995, 50.1418 ],
@@ -1080,16 +1258,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 29, 2019 18:19",
+				"LastUpdate_UTC" : "August 29, 2019 18:20",
 				"Expires_UTC" : "August 30, 2019 10:19",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-08-30T10:19:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T18:19:29-00:00, urn:oid:2.49.0.1.124.3961974296.2019<br>Area: Kings County, Annapolis County, Digby County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nRain at times heavy will persist this evening as a trough of low pressure interacts with moisture from post tropical storm Erin.\n\nTotal rainfall amounts of up to 70 mm are expected before the rain ends later tonight.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-08-30T10:19:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T18:20:29-00:00, urn:oid:2.49.0.1.124.0177718505.2019<br>Area: Kings County, Annapolis County, Digby County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.3961974296.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_19_29_00_00Iurn_oid_2.49.0.1.124.3961974296.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.0177718505.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_20_29_00_00Iurn_oid_2.49.0.1.124.0177718505.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830101929+00:00"
 			}
@@ -1196,138 +1374,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_14_42_00_00Iurn_oid_2.49.0.1.124.2037852575.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830101342+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.667, 45.9567 ],
-							[ -62.7976, 46.2718 ],
-							[ -62.8642, 46.4308 ],
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 29, 2019 18:18",
-				"Expires_UTC" : "August 30, 2019 10:18",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-08-30T10:18:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T18:18:00-00:00, urn:oid:2.49.0.1.124.2112592410.2019<br>Area: Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.2112592410.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T18_18_00_00_00Iurn_oid_2.49.0.1.124.2112592410.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830101800+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					],
-					[
-						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 29, 2019 08:33",
-				"Expires_UTC" : "August 30, 2019 00:32",
-				"Summary" : "Description: Rain continues to affect the Kivalliq coastline, with accumulations thus far up to 30 mm through early Thursday morning. Further accumulations of 5 to 10 mm are expected before the rain tapers off late today. Strong northerly winds are also anticipated, and areas of Kivalliq not under a wind warning can still expect gusts in the 80 km/h range later today into Friday.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-30T00:32:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T08:33:39-00:00, urn:oid:2.49.0.1.124.4287920518.2019<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.4287920518.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T08_33_39_00_00Iurn_oid_2.49.0.1.124.4287920518.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830003239+00:00"
 			}
 		}
 	]
