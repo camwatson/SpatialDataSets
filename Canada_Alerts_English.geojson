@@ -615,6 +615,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Les Suêtes Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 30, 2019 00:46",
+				"Expires_UTC" : "August 30, 2019 16:45",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong southeasterly winds will develop overnight with gusts reaching 110 km/h from Margaree Harbour to Bay St. Lawrence. These strong gusts will diminish Friday morning when winds will shift to the south.\n\n###\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-08-30T16:45:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T00:46:09-00:00, urn:oid:2.49.0.1.124.1266167219.2019<br>Area: Inverness County - Mabou and north",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.1266167219.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T00_46_09_00_00Iurn_oid_2.49.0.1.124.1266167219.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830164509+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -94.2244, 61.2965 ],
 							[ -94.3187, 61.2722 ],
 							[ -94.4341, 61.2139 ],
@@ -669,47 +710,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T19_39_31_00_00Iurn_oid_2.49.0.1.124.1394100008.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830113831+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 30, 2019 00:46",
-				"Expires_UTC" : "August 30, 2019 16:45",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong southeasterly winds will develop overnight with gusts reaching 110 km/h from Margaree Harbour to Bay St. Lawrence. These strong gusts will diminish Friday morning when winds will shift to the south.\n\n###\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-08-30T16:45:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T00:46:09-00:00, urn:oid:2.49.0.1.124.1266167219.2019<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.1266167219.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T00_46_09_00_00Iurn_oid_2.49.0.1.124.1266167219.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830164509+00:00"
 			}
 		},
 		{
@@ -1340,25 +1340,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Squall Watch Ended",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "August 29, 2019 23:53",
-				"Expires_UTC" : "August 30, 2019 09:51",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 40 knots.\n\nAn area of strong thunderstorms over Lower Michigan is moving eastward.  These storms may reach Lake St. Clair toward 11 PM.  Wind gusts to 40 knots may be associated with these storms.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-08-30T09:51:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T23:53:45-00:00, urn:oid:2.49.0.1.124.0877021409.2019<br>Area: Lake St. Clair",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 30, 2019 05:35",
+				"Expires_UTC" : "August 30, 2019 06:35",
+				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2019-08-30T06:35:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T05:35:31-00:00, urn:oid:2.49.0.1.124.2794070596.2019<br>Area: Lake St. Clair",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.0877021409.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T23_53_45_00_00Iurn_oid_2.49.0.1.124.0877021409.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.2794070596.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T05_35_31_00_00Iurn_oid_2.49.0.1.124.2794070596.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830095145+00:00"
+				"Expires_FMEFormat" : "20190830063531+00:00"
 			}
 		},
 		{
@@ -1522,18 +1522,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 29, 2019 23:41",
-				"Expires_UTC" : "August 30, 2019 16:59",
-				"Summary" : "Description: For Post-tropical Storm Erin.\n\nThe next information statement will be issued by 03:00 a.m. ADT.\n\nPost-tropical Erin will continue tracking northeastward into Nova Scotia while merging with a trough of low pressure. The remnants of Erin will continue to give heavy rain to southern portions of the Maritimes tonight, and strong gusty winds. The last message on this feature will be issued tonight.\n\n\n1. Summary of basic information at 09:00 p.m. ADT.\n\nLocation: Near 42.9 North 65.9 West.\n\nAbout distance 105 kilometres south of Yarmouth NS.\n\nMaximum sustained winds: 80 kilometres per hour.\n\nPresent movement: Northeast at 45 kilometres per hour.\n\nMinimum central pressure: 1002 millibars.\n\n\n2. Public weather impacts and warnings summary.\n\nThe rain associated with the trough of low pressure combined with the remnants of Erin will move out of southeastern New Brunswick overnight and the rest of the Maritimes on Friday morning. The heavier rain and strongest winds associated directly with Post-tropical Erin should reach the Atlantic coast of Nova Scotia this evening and after midnight for Cape Breton. \n\na. Wind.\n\nSome gusty winds will likely accompany Post-tropical Erin, especially to those areas just to the right of its track as it moves into Nova Scotia tonight. These winds will not reach warning criteria (i.e. gusts to 90 km/h or higher), but could still be strong enough to cause isolated power outages and minor damage, especially given that trees are still in full leaf.\n\nb. Rainfall.\n\nThe combination of Post-tropical Erin and its interaction with the trough of low pressure crossing the region will result in significant rainfall until Friday morning. More than 50 mm has been reported in parts of the Maritimes, especially those areas just north and west of Erin's track. Some locations could possibly see total rainfall amounts in excess of 100 mm before the rain ends later Friday morning. \n\nRainfall warnings are still in effect for southern New Brunswick, western and northern Nova Scotia, and Prince Edward Island. \n\nc. Surge/Waves.\n\nSignificant storm surge and coastal impacts from high waves are not expected. After midnight into Friday morning, waves near 3 to 4 metres will spread from west to east along the Atlantic Coast of Nova Scotia and will break higher along the beaches. Rip currents could also be an issue, and the public should exercise caution near the coast.\n \n3. Marine weather impacts and warnings summary.\n\nGale warnings are in effect near and to the right of Erin's track through the marine district, where gale force southerlies up to 35 knots are possible. Winds may reach 45 knots over West Scotian Slope.\n\nForecaster(s): Couturier/Mercer\n\n###\n\nPlease continue to monitor alerts issued by the Canadian Hurricane Centre and forecasts issued by Environment Canada.<br>Expires: 2019-08-30T16:59:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-29T23:41:58-00:00, urn:oid:2.49.0.1.124.2601948562.2019<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County, Fredericton and Southern York County, Oromocto and Sunbury County, Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, Saint John and County, St. Stephen and Northern Charlotte County, Grand Manan and Coastal Charlotte County, Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Fundy National Park, Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"LastUpdate_UTC" : "August 30, 2019 05:37",
+				"Expires_UTC" : "August 30, 2019 19:59",
+				"Summary" : "Description: For Post-tropical Storm Erin.\n\n###\n\nPlease continue to monitor alerts issued by the Canadian Hurricane Centre and forecasts issued by Environment Canada.<br>Expires: 2019-08-30T19:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T05:37:22-00:00, urn:oid:2.49.0.1.124.3493718340.2019<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County, Fredericton and Southern York County, Oromocto and Sunbury County, Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, Saint John and County, St. Stephen and Northern Charlotte County, Grand Manan and Coastal Charlotte County, Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Fundy National Park, Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-29:feed.atom/urn:oid:2.49.0.1.124.2601948562.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-29/2019_08_29T23_41_58_00_00Iurn_oid_2.49.0.1.124.2601948562.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.3493718340.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T05_37_22_00_00Iurn_oid_2.49.0.1.124.3493718340.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830165958+00:00"
+				"Expires_FMEFormat" : "20190830195922+00:00"
 			}
 		}
 	]
