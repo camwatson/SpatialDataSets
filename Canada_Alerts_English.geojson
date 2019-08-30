@@ -309,47 +309,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.5846, 63.9682 ],
-							[ -83.2662, 63.9163 ],
-							[ -82.8791, 64.1863 ],
-							[ -82.9926, 64.3386 ],
-							[ -83.3373, 64.4141 ],
-							[ -83.6952, 64.3607 ],
-							[ -83.8576, 64.2208 ],
-							[ -83.5846, 63.9682 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 30, 2019 19:18",
-				"Expires_UTC" : "August 30, 2019 20:18",
-				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2019-08-30T20:18:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T19:18:19-00:00, urn:oid:2.49.0.1.124.2837051892.2019<br>Area: Coral Harbour",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.2837051892.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T19_18_19_00_00Iurn_oid_2.49.0.1.124.2837051892.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830201819+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -69.7162, 48.1977 ],
 							[ -69.7747, 48.2097 ],
 							[ -69.8695, 48.2628 ],
@@ -391,6 +350,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T18_36_00_00_00Iurn_oid_2.49.0.1.124.1448030129.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830213600+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -83.5846, 63.9682 ],
+							[ -83.2662, 63.9163 ],
+							[ -82.8791, 64.1863 ],
+							[ -82.9926, 64.3386 ],
+							[ -83.3373, 64.4141 ],
+							[ -83.6952, 64.3607 ],
+							[ -83.8576, 64.2208 ],
+							[ -83.5846, 63.9682 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 30, 2019 14:27",
+				"Expires_UTC" : "August 31, 2019 06:26",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog has developed at Coral Harbour as a large, slow-moving low pressure system drifts near Southampton Island today. The fog may lift somewhat at times but is generally expected to continue today and tonight. \n\nNortherly winds will dissipate the fog Saturday morning when the low finally moves off towards Hudson Strait.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-31T06:26:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T14:27:15-00:00, urn:oid:2.49.0.1.124.3860417989.2019<br>Area: Coral Harbour",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.3860417989.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T14_27_15_00_00Iurn_oid_2.49.0.1.124.3860417989.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190831062615+00:00"
 			}
 		},
 		{
