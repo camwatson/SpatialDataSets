@@ -9,42 +9,44 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.9988, 51.333 ],
 							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
+							[ -60.9983, 50.2284 ],
+							[ -60.9909, 50.2233 ],
+							[ -60.9519, 50.2315 ],
+							[ -60.9447, 50.2258 ],
+							[ -60.9681, 50.1859 ],
 							[ -60.9625, 50.0819 ],
 							[ -60.4551, 50.0679 ],
 							[ -59.7883, 50.1231 ],
 							[ -59.0574, 50.5037 ],
 							[ -58.9502, 50.7022 ],
 							[ -59.0029, 50.7675 ],
-							[ -58.9988, 51.333 ],
-							[ -60.9991, 50.7497 ]
+							[ -58.9988, 51.333 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 30, 2019 08:18",
-				"Expires_UTC" : "August 30, 2019 20:59",
-				"Summary" : "Description: A total of 50 to 70 millimetres of rain is expected.\nRain at times heavy will end early this afternoon.\n\n###\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-08-30T20:59:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T08:18:48-00:00, urn:oid:2.49.0.1.124.0574529052.2019<br>Area: Chevery",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "August 30, 2019 15:23",
+				"Expires_UTC" : "August 30, 2019 16:23",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2019-08-30T16:23:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T15:23:47-00:00, urn:oid:2.49.0.1.124.1814599125.2019<br>Area: Chevery",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.0574529052.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T08_18_48_00_00Iurn_oid_2.49.0.1.124.0574529052.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.1814599125.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T15_23_47_00_00Iurn_oid_2.49.0.1.124.1814599125.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830205948+00:00"
+				"Expires_FMEFormat" : "20190830162347+00:00"
 			}
 		},
 		{
@@ -54,22 +56,27 @@
 				"coordinates" : [
 					[
 						[
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.667, 45.9567 ],
-							[ -62.7976, 46.2718 ],
-							[ -62.8642, 46.4308 ],
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ]
+							[ -70.3465, 62.8463 ],
+							[ -70.3311, 62.7969 ],
+							[ -70.3239, 62.7495 ],
+							[ -69.9208, 62.6684 ],
+							[ -69.934, 62.4876 ],
+							[ -69.6482, 62.5103 ],
+							[ -69.625, 62.6677 ],
+							[ -69.5492, 62.6853 ],
+							[ -69.5424, 62.7255 ],
+							[ -69.4566, 62.7672 ],
+							[ -69.427, 62.8051 ],
+							[ -69.4159, 62.8566 ],
+							[ -69.4325, 62.9078 ],
+							[ -69.4721, 62.9524 ],
+							[ -69.6251, 63.0281 ],
+							[ -69.8312, 63.0617 ],
+							[ -70.056, 63.0475 ],
+							[ -70.2337, 62.9896 ],
+							[ -70.297, 62.9466 ],
+							[ -70.3353, 62.8978 ],
+							[ -70.3465, 62.8463 ]
 						]
 					]
 				]
@@ -82,18 +89,65 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 30, 2019 00:46",
-				"Expires_UTC" : "August 30, 2019 15:59",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nRain at times heavy will persist tonight as a trough of low pressure interacts with moisture from post tropical storm Erin.\n\nTotal rainfall amounts of up to 70 mm are expected across Prince and Queens counties by the time the rain tapers off Friday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-08-30T15:59:32-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T00:46:32-00:00, urn:oid:2.49.0.1.124.2534876561.2019<br>Area: Queens County P.E.I., Prince County P.E.I.",
+				"LastUpdate_UTC" : "August 30, 2019 08:09",
+				"Expires_UTC" : "August 30, 2019 19:59",
+				"Summary" : "Description: A large low pressure system over Hudson Bay will continue to bring rain to Kimmirut this morning before tapering off to showers this afternoon and tonight.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-30T19:59:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T08:09:51-00:00, urn:oid:2.49.0.1.124.3891214996.2019<br>Area: Kimmirut",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.2534876561.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T00_46_32_00_00Iurn_oid_2.49.0.1.124.2534876561.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.3891214996.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T08_09_51_00_00Iurn_oid_2.49.0.1.124.3891214996.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830155932+00:00"
+				"Expires_FMEFormat" : "20190830195951+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.9902, 64.0605 ],
+							[ -76.5029, 64.098 ],
+							[ -75.9763, 64.1551 ],
+							[ -76.1267, 64.3652 ],
+							[ -76.161, 64.3733 ],
+							[ -76.2585, 64.4104 ],
+							[ -76.3913, 64.4375 ],
+							[ -76.5534, 64.4459 ],
+							[ -76.6728, 64.4374 ],
+							[ -76.798, 64.4125 ],
+							[ -76.9078, 64.3707 ],
+							[ -76.9807, 64.3203 ],
+							[ -77.019, 64.2602 ],
+							[ -76.9902, 64.0605 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 30, 2019 14:20",
+				"Expires_UTC" : "August 31, 2019 06:19",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nExtensive fog can be expected at Cape Dorset today through much of the weekend as a large, slow-moving low pressure system gradually drifts towards the community.  The fog may lift somewhat at times, especially when heavier bands of rain affect the community, but in general extended periods of zero to near zero visibility can be expected into the weekend.\n\nThe fog may begin to dissipate Sunday afternoon depending on the location of the low pressure system.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-31T06:19:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T14:20:20-00:00, urn:oid:2.49.0.1.124.1238993905.2019<br>Area: Cape Dorset",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.1238993905.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T14_20_20_00_00Iurn_oid_2.49.0.1.124.1238993905.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190831061920+00:00"
 			}
 		},
 		{
@@ -278,6 +332,97 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.4551, 50.0679 ],
+							[ -59.7883, 50.1231 ],
+							[ -59.0574, 50.5037 ],
+							[ -58.9502, 50.7022 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9988, 51.333 ],
+							[ -60.9991, 50.7497 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 30, 2019 08:18",
+				"Expires_UTC" : "August 30, 2019 20:59",
+				"Summary" : "Description: A total of 50 to 70 millimetres of rain is expected.\nRain at times heavy will end early this afternoon.\n\n###\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-08-30T20:59:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T08:18:48-00:00, urn:oid:2.49.0.1.124.0574529052.2019<br>Area: Chevery",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.0574529052.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T08_18_48_00_00Iurn_oid_2.49.0.1.124.0574529052.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830205948+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "August 30, 2019 07:56",
+				"Expires_UTC" : "August 30, 2019 19:59",
+				"Summary" : "Description: Strong winds are expected or occurring.\n\nStrong southeasterly winds are expected to strengthen this morning with gusts up to 110 km/h.  These winds will diminish this afternoon as the winds shift to a southwesterly direction.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-08-30T19:59:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T07:56:00-00:00, urn:oid:2.49.0.1.124.2083858709.2019<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.2083858709.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T07_56_00_00_00Iurn_oid_2.49.0.1.124.2083858709.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190830195900+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -61.6265, 46.0993 ],
 							[ -61.4829, 46.0971 ],
 							[ -61.0483, 46.1152 ],
@@ -310,60 +455,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T07_46_15_00_00Iurn_oid_2.49.0.1.124.3977921053.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190830175915+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -70.3465, 62.8463 ],
-							[ -70.3311, 62.7969 ],
-							[ -70.3239, 62.7495 ],
-							[ -69.9208, 62.6684 ],
-							[ -69.934, 62.4876 ],
-							[ -69.6482, 62.5103 ],
-							[ -69.625, 62.6677 ],
-							[ -69.5492, 62.6853 ],
-							[ -69.5424, 62.7255 ],
-							[ -69.4566, 62.7672 ],
-							[ -69.427, 62.8051 ],
-							[ -69.4159, 62.8566 ],
-							[ -69.4325, 62.9078 ],
-							[ -69.4721, 62.9524 ],
-							[ -69.6251, 63.0281 ],
-							[ -69.8312, 63.0617 ],
-							[ -70.056, 63.0475 ],
-							[ -70.2337, 62.9896 ],
-							[ -70.297, 62.9466 ],
-							[ -70.3353, 62.8978 ],
-							[ -70.3465, 62.8463 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "August 30, 2019 14:21",
-				"Expires_UTC" : "August 30, 2019 15:21",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2019-08-30T15:21:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T14:21:45-00:00, urn:oid:2.49.0.1.124.3089028707.2019<br>Area: Kimmirut",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.3089028707.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T14_21_45_00_00Iurn_oid_2.49.0.1.124.3089028707.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830152145+00:00"
 			}
 		},
 		{
@@ -414,90 +505,46 @@
 				"coordinates" : [
 					[
 						[
-							[ -76.9902, 64.0605 ],
-							[ -76.5029, 64.098 ],
-							[ -75.9763, 64.1551 ],
-							[ -76.1267, 64.3652 ],
-							[ -76.161, 64.3733 ],
-							[ -76.2585, 64.4104 ],
-							[ -76.3913, 64.4375 ],
-							[ -76.5534, 64.4459 ],
-							[ -76.6728, 64.4374 ],
-							[ -76.798, 64.4125 ],
-							[ -76.9078, 64.3707 ],
-							[ -76.9807, 64.3203 ],
-							[ -77.019, 64.2602 ],
-							[ -76.9902, 64.0605 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 30, 2019 14:20",
-				"Expires_UTC" : "August 31, 2019 06:19",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nExtensive fog can be expected at Cape Dorset today through much of the weekend as a large, slow-moving low pressure system gradually drifts towards the community.  The fog may lift somewhat at times, especially when heavier bands of rain affect the community, but in general extended periods of zero to near zero visibility can be expected into the weekend.\n\nThe fog may begin to dissipate Sunday afternoon depending on the location of the low pressure system.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-08-31T06:19:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T14:20:20-00:00, urn:oid:2.49.0.1.124.1238993905.2019<br>Area: Cape Dorset",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.1238993905.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T14_20_20_00_00Iurn_oid_2.49.0.1.124.1238993905.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190831061920+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.667, 45.9567 ],
+							[ -62.7976, 46.2718 ],
+							[ -62.8642, 46.4308 ],
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Rainfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 30, 2019 07:56",
-				"Expires_UTC" : "August 30, 2019 19:59",
-				"Summary" : "Description: Strong winds are expected or occurring.\n\nStrong southeasterly winds are expected to strengthen this morning with gusts up to 110 km/h.  These winds will diminish this afternoon as the winds shift to a southwesterly direction.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-08-30T19:59:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T07:56:00-00:00, urn:oid:2.49.0.1.124.2083858709.2019<br>Area: Channel-Port aux Basques and vicinity",
+				"LastUpdate_UTC" : "August 30, 2019 00:46",
+				"Expires_UTC" : "August 30, 2019 15:59",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nRain at times heavy will persist tonight as a trough of low pressure interacts with moisture from post tropical storm Erin.\n\nTotal rainfall amounts of up to 70 mm are expected across Prince and Queens counties by the time the rain tapers off Friday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-08-30T15:59:32-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-30T00:46:32-00:00, urn:oid:2.49.0.1.124.2534876561.2019<br>Area: Queens County P.E.I., Prince County P.E.I.",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.2083858709.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T07_56_00_00_00Iurn_oid_2.49.0.1.124.2083858709.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-30:feed.atom/urn:oid:2.49.0.1.124.2534876561.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-30/2019_08_30T00_46_32_00_00Iurn_oid_2.49.0.1.124.2534876561.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190830195900+00:00"
+				"Expires_FMEFormat" : "20190830155932+00:00"
 			}
 		}
 	]
