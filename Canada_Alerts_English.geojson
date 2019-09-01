@@ -9,6 +9,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -82.411, 69.4413 ],
+							[ -82.4142, 69.3021 ],
+							[ -82.1715, 69.1889 ],
+							[ -81.8079, 69.1512 ],
+							[ -81.435, 69.199 ],
+							[ -81.4236, 69.3283 ],
+							[ -81.4161, 69.4318 ],
+							[ -81.817, 69.4695 ],
+							[ -81.9506, 69.4089 ],
+							[ -82.2197, 69.405 ],
+							[ -82.3907, 69.4415 ],
+							[ -82.411, 69.4413 ]
+						]
+					],
+					[
+						[
+							[ -81.8004, 68.8639 ],
+							[ -81.8335, 68.7595 ],
+							[ -81.7346, 68.6648 ],
+							[ -81.5301, 68.5966 ],
+							[ -81.0418, 68.5342 ],
+							[ -81.0006, 68.5737 ],
+							[ -81.0228, 68.9232 ],
+							[ -81.723, 68.9232 ],
+							[ -81.8004, 68.8639 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 1, 2019 01:48",
+				"Expires_UTC" : "September 1, 2019 17:48",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-09-01T17:48:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-01T01:48:02-00:00, urn:oid:2.49.0.1.124.0452846567.2019<br>Area: Hall Beach, Igloolik",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-01:feed.atom/urn:oid:2.49.0.1.124.0452846567.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-01/2019_09_01T01_48_02_00_00Iurn_oid_2.49.0.1.124.0452846567.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190901174802+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -118.9946, 49.6244 ],
 							[ -119.0591, 49.5801 ],
 							[ -119.1405, 49.5191 ],
@@ -62,53 +120,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-31/2019_08_31T21_33_15_00_00Iurn_oid_2.49.0.1.124.0792749954.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190901060415+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -76.9902, 64.0605 ],
-							[ -76.5029, 64.098 ],
-							[ -75.9763, 64.1551 ],
-							[ -76.1267, 64.3652 ],
-							[ -76.161, 64.3733 ],
-							[ -76.2585, 64.4104 ],
-							[ -76.3913, 64.4375 ],
-							[ -76.5534, 64.4459 ],
-							[ -76.6728, 64.4374 ],
-							[ -76.798, 64.4125 ],
-							[ -76.9078, 64.3707 ],
-							[ -76.9807, 64.3203 ],
-							[ -77.019, 64.2602 ],
-							[ -76.9902, 64.0605 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "August 31, 2019 19:19",
-				"Expires_UTC" : "September 1, 2019 11:18",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nExtensive fog can be expected at Cape Dorset through much of the weekend as a large, slow-moving low pressure system gradually drifts towards the community.  The fog may lift somewhat at times, but in general extended periods of zero to near zero visibility can be expected through the weekend.\n\nThe fog may begin to dissipate on Monday depending on the location of the low pressure system.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-09-01T11:18:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-08-31T19:19:12-00:00, urn:oid:2.49.0.1.124.3823059472.2019<br>Area: Cape Dorset",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-08-31:feed.atom/urn:oid:2.49.0.1.124.3823059472.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-08-31/2019_08_31T19_19_12_00_00Iurn_oid_2.49.0.1.124.3823059472.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190901111812+00:00"
 			}
 		},
 		{
@@ -175,6 +186,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-01/2019_09_01T00_39_11_00_00Iurn_oid_2.49.0.1.124.3681686326.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190901163811+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.9902, 64.0605 ],
+							[ -76.5029, 64.098 ],
+							[ -75.9763, 64.1551 ],
+							[ -76.1267, 64.3652 ],
+							[ -76.161, 64.3733 ],
+							[ -76.2585, 64.4104 ],
+							[ -76.3913, 64.4375 ],
+							[ -76.5534, 64.4459 ],
+							[ -76.6728, 64.4374 ],
+							[ -76.798, 64.4125 ],
+							[ -76.9078, 64.3707 ],
+							[ -76.9807, 64.3203 ],
+							[ -77.019, 64.2602 ],
+							[ -76.9902, 64.0605 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 1, 2019 01:45",
+				"Expires_UTC" : "September 1, 2019 02:45",
+				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2019-09-01T02:45:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-01T01:45:57-00:00, urn:oid:2.49.0.1.124.3046336671.2019<br>Area: Cape Dorset",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-01:feed.atom/urn:oid:2.49.0.1.124.3046336671.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-01/2019_09_01T01_45_57_00_00Iurn_oid_2.49.0.1.124.3046336671.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190901024557+00:00"
 			}
 		}
 	]
