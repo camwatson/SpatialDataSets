@@ -552,6 +552,69 @@
 				"coordinates" : [
 					[
 						[
+							[ -108.4276, 49.2619 ],
+							[ -108.4312, 49.2105 ],
+							[ -108.4273, 49.1744 ],
+							[ -108.4095, 49.1744 ],
+							[ -108.4155, 49.1024 ],
+							[ -108.4101, 48.9994 ],
+							[ -108.41, 48.9982 ],
+							[ -108.2089, 48.9986 ],
+							[ -108.0097, 48.9994 ],
+							[ -107.6275, 48.9986 ],
+							[ -107.2088, 48.9999 ],
+							[ -107.2003, 49.092 ],
+							[ -107.2087, 49.1748 ],
+							[ -107.2126, 49.175 ],
+							[ -107.2174, 49.1746 ],
+							[ -107.2163, 49.2617 ],
+							[ -107.416, 49.2721 ],
+							[ -107.6205, 49.2618 ],
+							[ -107.6071, 49.3807 ],
+							[ -107.6196, 49.5124 ],
+							[ -107.6227, 49.5235 ],
+							[ -107.6263, 49.5237 ],
+							[ -107.6299, 49.5235 ],
+							[ -107.807, 49.5292 ],
+							[ -108.0236, 49.5238 ],
+							[ -108.0233, 49.4363 ],
+							[ -108.2148, 49.4427 ],
+							[ -108.4271, 49.4365 ],
+							[ -108.4358, 49.351 ],
+							[ -108.4276, 49.2619 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 2, 2019 08:13",
+				"Expires_UTC" : "September 2, 2019 11:11",
+				"Summary" : "Description: At 2:12 a.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nA storm near Bracken is tracking to the east at 40 km/h.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-09-02T11:11:01-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-02T08:13:01-00:00, urn:oid:2.49.0.1.124.0577909335.2019<br>Area: R.M. of Lone Tree including Climax and Bracken, R.M. of Val Marie including Val Marie Orkney and Monchy",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-02:feed.atom/urn:oid:2.49.0.1.124.0577909335.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-02/2019_09_02T08_13_01_00_00Iurn_oid_2.49.0.1.124.0577909335.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190902111101+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -106.814, 49.5238 ],
 							[ -106.817, 49.5238 ],
 							[ -107.0103, 49.5324 ],
@@ -585,25 +648,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 2, 2019 07:53",
-				"Expires_UTC" : "September 2, 2019 10:51",
-				"Summary" : "Description: At 1:52 a.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nA storm south of Ferland is tracking to the east at 40 km/h.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-09-02T10:51:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-02T07:53:39-00:00, urn:oid:2.49.0.1.124.2579339597.2019<br>Area: R.M. of Mankota including Mankota and Ferland, R.M. of Waverley including Glentworth and Fir Mountain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 2, 2019 08:13",
+				"Expires_UTC" : "September 2, 2019 09:13",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2019-09-02T09:13:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-02T08:13:24-00:00, urn:oid:2.49.0.1.124.3742652224.2019<br>Area: R.M. of Mankota including Mankota and Ferland, R.M. of Waverley including Glentworth and Fir Mountain",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-02:feed.atom/urn:oid:2.49.0.1.124.2579339597.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-02/2019_09_02T07_53_39_00_00Iurn_oid_2.49.0.1.124.2579339597.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-02:feed.atom/urn:oid:2.49.0.1.124.3742652224.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-02/2019_09_02T08_13_24_00_00Iurn_oid_2.49.0.1.124.3742652224.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190902105139+00:00"
+				"Expires_FMEFormat" : "20190902091324+00:00"
 			}
 		},
 		{
@@ -1157,6 +1220,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-02/2019_09_02T06_45_24_00_00Iurn_oid_2.49.0.1.124.1657715186.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190902140224+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -109.8643, 50.575 ],
+							[ -110.005, 50.5716 ],
+							[ -110.0153, 50.3657 ],
+							[ -110.0047, 50.1348 ],
+							[ -109.8358, 50.1324 ],
+							[ -109.6896, 50.1348 ],
+							[ -109.6869, 50.1793 ],
+							[ -109.69, 50.2222 ],
+							[ -109.7029, 50.2226 ],
+							[ -109.7154, 50.2222 ],
+							[ -109.7137, 50.2683 ],
+							[ -109.717, 50.3097 ],
+							[ -109.7091, 50.4335 ],
+							[ -109.7164, 50.5718 ],
+							[ -109.7292, 50.572 ],
+							[ -109.7435, 50.5718 ],
+							[ -109.8643, 50.575 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 2, 2019 08:17",
+				"Expires_UTC" : "September 2, 2019 11:15",
+				"Summary" : "Description: At 2:16 a.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nA storm currently near Schuler is tracking to the east at 50 km/h.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-09-02T11:15:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-02T08:17:16-00:00, urn:oid:2.49.0.1.124.4034197788.2019<br>Area: R.M. of Enterprise including Richmound",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-02:feed.atom/urn:oid:2.49.0.1.124.4034197788.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-02/2019_09_02T08_17_16_00_00Iurn_oid_2.49.0.1.124.4034197788.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190902111516+00:00"
 			}
 		},
 		{
