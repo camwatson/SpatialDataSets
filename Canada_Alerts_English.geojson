@@ -92,56 +92,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -103.2252, 49.7847 ],
-							[ -103.4334, 49.7893 ],
-							[ -103.6316, 49.7847 ],
-							[ -103.6393, 49.657 ],
-							[ -103.6322, 49.5225 ],
-							[ -103.6193, 49.5225 ],
-							[ -103.4132, 49.5181 ],
-							[ -103.2253, 49.5226 ],
-							[ -103.2167, 49.5226 ],
-							[ -103.0143, 49.5181 ],
-							[ -102.819, 49.5223 ],
-							[ -102.8084, 49.6507 ],
-							[ -102.8192, 49.7846 ],
-							[ -103.0252, 49.7896 ],
-							[ -103.2252, 49.7847 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Tornado Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Tornado",
-				"urgency" : "Immediate",
-				"certainty" : "Observed",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "September 3, 2019 01:38",
-				"Expires_UTC" : "September 3, 2019 03:07",
-				"Summary" : "Description: At 7:38 p.m. Central Standard Time Monday, Environment Canada has issued a tornado warning for Southeastern Saskatchewan. Extra care and attention should be exercised in and around the following localities: Weyburn, McTaggart, Cedoux, Colfax, Tyvan, Fillmore, Creelman, Osage, Griffin, Froude, Stoughton, Arcola, Lampman, Bienfait, North Portal, Alameda and Oxbow. Environment Canada meteorologists are tracking severe thunderstorms that are possibly producing tornadoes. Damaging winds, large hail and locally intense rainfall are possible.<br>Expires: 2019-09-03T03:07:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-03T01:38:10-00:00, urn:oid:2.49.0.1.124.2616815786.2019<br>Area: R.M. of Griffin including Griffin and Froude, R.M. of Tecumseh including Stoughton Forget and Heward",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-03:feed.atom/urn:oid:2.49.0.1.124.2616815786.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-03/2019_09_03T01_38_10_00_00Iurn_oid_2.49.0.1.124.2616815786.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190903030710+00:00",
-				"EnclosureType" : "audio/mpeg",
-				"EnclosureURI" : "https://s3.amazonaws.com/naadsttsfs-prod/2.49.0.1.124.2616815786.2019-en-CA.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -103.6083, 48.9989 ],
 							[ -103.414, 48.9988 ],
 							[ -103.2077, 48.9993 ],
@@ -241,6 +191,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-03/2019_09_03T00_48_27_00_00Iurn_oid_2.49.0.1.124.0464062671.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190903032827+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -102.8131, 49.2606 ],
+							[ -102.811, 49.2606 ],
+							[ -102.6086, 49.2557 ],
+							[ -102.41, 49.2608 ],
+							[ -102.4009, 49.3881 ],
+							[ -102.4095, 49.5226 ],
+							[ -102.4126, 49.5226 ],
+							[ -102.615, 49.5261 ],
+							[ -102.8136, 49.5223 ],
+							[ -102.819, 49.5223 ],
+							[ -103.0138, 49.5263 ],
+							[ -103.2167, 49.5226 ],
+							[ -103.2247, 49.3918 ],
+							[ -103.217, 49.2604 ],
+							[ -103.0116, 49.2566 ],
+							[ -102.8131, 49.2606 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 3, 2019 01:44",
+				"Expires_UTC" : "September 3, 2019 04:42",
+				"Summary" : "Description: Environment Canada meteorologists are tracking a severe thunderstorm capable of producing quarter-sized hail.\n\nAt 7:42 PM CST Doppler RADAR indicated that this severe thunderstorm was located just north of Benson and was moving toward the southeast at 40 km/h.\n\n###\n\nLarge hail can damage property and cause injury.<br>Expires: 2019-09-03T04:42:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-03T01:44:04-00:00, urn:oid:2.49.0.1.124.3155921569.2019<br>Area: R.M. of Benson including Benson, R.M. of Browning including Lampman",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-03:feed.atom/urn:oid:2.49.0.1.124.3155921569.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-03/2019_09_03T01_44_04_00_00Iurn_oid_2.49.0.1.124.3155921569.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190903044204+00:00"
 			}
 		},
 		{
@@ -701,6 +700,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -103.2252, 49.7847 ],
+							[ -103.4334, 49.7893 ],
+							[ -103.6316, 49.7847 ],
+							[ -103.6393, 49.657 ],
+							[ -103.6322, 49.5225 ],
+							[ -103.6193, 49.5225 ],
+							[ -103.4132, 49.5181 ],
+							[ -103.2253, 49.5226 ],
+							[ -103.2167, 49.5226 ],
+							[ -103.0143, 49.5181 ],
+							[ -102.819, 49.5223 ],
+							[ -102.8084, 49.6507 ],
+							[ -102.8192, 49.7846 ],
+							[ -103.0252, 49.7896 ],
+							[ -103.2252, 49.7847 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Tornado Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Tornado",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "September 3, 2019 01:39",
+				"Expires_UTC" : "September 3, 2019 03:07",
+				"Summary" : "Description: Environment Canada meteorologists are tracking a severe thunderstorm capable of producing a tornado.\n\nAt 7:35 PM CST the public reported a tornado near Hume.  Doppler RADAR indicated that this severe thunderstorm was moving toward the east at 30 km/h.\n\n###\n\nTornado warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing tornadoes.<br>Expires: 2019-09-03T03:07:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-03T01:39:10-00:00, urn:oid:2.49.0.1.124.3023992503.2019<br>Area: R.M. of Griffin including Griffin and Froude, R.M. of Tecumseh including Stoughton Forget and Heward",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-03:feed.atom/urn:oid:2.49.0.1.124.3023992503.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-03/2019_09_03T01_39_10_00_00Iurn_oid_2.49.0.1.124.3023992503.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190903030710+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -112.5074, 50.1355 ],
 							[ -112.8132, 50.1361 ],
 							[ -112.8133, 50.0775 ],
@@ -897,25 +944,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 3, 2019 00:49",
-				"Expires_UTC" : "September 3, 2019 01:49",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2019-09-03T01:49:01-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-03T00:49:01-00:00, urn:oid:2.49.0.1.124.3818573420.2019<br>Area: Western Lake Erie",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "September 2, 2019 23:39",
+				"Expires_UTC" : "September 3, 2019 02:38",
+				"Summary" : "Description: Squalls with wind gusts up to 35 knots and waterspout activity are expected or occurring in the area.\n\nAn east west line of thunderstorms over the west end of Lake Erie is moving southeast at 20 knots. Some of these storms have the ability to produce wind gusts up to 35 knots and potential water spout activity.\n\n###\n\nKeep in mind that waterspouts cannot be seen at night and may strike suddenly.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-09-03T02:38:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-02T23:39:41-00:00, urn:oid:2.49.0.1.124.3187474299.2019<br>Area: Western Lake Erie",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-03:feed.atom/urn:oid:2.49.0.1.124.3818573420.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-03/2019_09_03T00_49_01_00_00Iurn_oid_2.49.0.1.124.3818573420.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-02:feed.atom/urn:oid:2.49.0.1.124.3187474299.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-02/2019_09_02T23_39_41_00_00Iurn_oid_2.49.0.1.124.3187474299.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190903014901+00:00"
+				"Expires_FMEFormat" : "20190903023841+00:00"
 			}
 		},
 		{
