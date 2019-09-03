@@ -730,18 +730,70 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "September 3, 2019 21:27",
+				"LastUpdate_UTC" : "September 3, 2019 21:34",
 				"Expires_UTC" : "September 4, 2019 00:24",
-				"Summary" : "Description: Squalls with wind gusts up to 45 knots and frequent lightning are expected or occurring in the area.\n\nThis cluster of thunderstorms located west of Bruce Peninsula is moving east at 30 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-09-04T00:24:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-03T21:27:39-00:00, urn:oid:2.49.0.1.124.0475984771.2019<br>Area: Northern Lake Huron, Northern Georgian Bay",
+				"Summary" : "Description: Squalls with wind gusts up to 45 knots and frequent lightning are expected or occurring in the area.\n\nThis cluster of thunderstorms located west of Bruce Peninsula is moving east at 45 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-09-04T00:24:14-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-03T21:34:14-00:00, urn:oid:2.49.0.1.124.0360509866.2019<br>Area: Northern Lake Huron, Northern Georgian Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-03:feed.atom/urn:oid:2.49.0.1.124.0475984771.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-03/2019_09_03T21_27_39_00_00Iurn_oid_2.49.0.1.124.0475984771.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-03:feed.atom/urn:oid:2.49.0.1.124.0360509866.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-03/2019_09_03T21_34_14_00_00Iurn_oid_2.49.0.1.124.0360509866.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190904002439+00:00"
+				"Expires_FMEFormat" : "20190904002414+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.8404, 45.3535 ],
+							[ -81.4622, 44.5866 ],
+							[ -81.2913, 44.5944 ],
+							[ -81.2887, 44.5846 ],
+							[ -81.2724, 44.5229 ],
+							[ -81.1971, 44.5357 ],
+							[ -81.1203, 44.5511 ],
+							[ -81.1256, 44.6259 ],
+							[ -81.127, 44.6447 ],
+							[ -81.1314, 44.7363 ],
+							[ -81.1313, 44.7385 ],
+							[ -81.073, 44.7847 ],
+							[ -81.0217, 44.7958 ],
+							[ -80.9764, 44.9231 ],
+							[ -80.9105, 44.9805 ],
+							[ -81.0827, 45.0703 ],
+							[ -81.1853, 45.2717 ],
+							[ -81.4145, 45.3822 ],
+							[ -81.8404, 45.3535 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 3, 2019 21:37",
+				"Expires_UTC" : "September 4, 2019 00:35",
+				"Summary" : "Description: At 5:36 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts.\n\nThis cluster of thunderstorms located over northern sections of Bruce Peninsula is moving east at 100 km/h.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-09-04T00:35:18-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-03T21:37:18-00:00, urn:oid:2.49.0.1.124.4167072348.2019<br>Area: Bruce Peninsula - Sauble Beach - Tobermory",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-03:feed.atom/urn:oid:2.49.0.1.124.4167072348.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-03/2019_09_03T21_37_18_00_00Iurn_oid_2.49.0.1.124.4167072348.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190904003518+00:00"
 			}
 		},
 		{
