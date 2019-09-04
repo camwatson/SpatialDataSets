@@ -856,6 +856,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.965, 45.6446 ],
+							[ -83.2302, 45.9014 ],
+							[ -83.2611, 45.9069 ],
+							[ -83.273, 45.9085 ],
+							[ -83.4701, 45.9348 ],
+							[ -83.487, 45.9405 ],
+							[ -83.4874, 45.94 ],
+							[ -83.5971, 45.8212 ],
+							[ -82.5186, 45.3386 ],
+							[ -82.3729, 44.7096 ],
+							[ -81.2898, 44.7041 ],
+							[ -81.273, 44.7035 ],
+							[ -81.2189, 44.7061 ],
+							[ -81.3896, 45.081 ],
+							[ -81.5569, 45.1907 ],
+							[ -81.6791, 45.2541 ],
+							[ -81.6999, 45.2883 ],
+							[ -81.7042, 45.2925 ],
+							[ -81.7137, 45.3006 ],
+							[ -81.7141, 45.3115 ],
+							[ -81.7945, 45.4427 ],
+							[ -81.8194, 45.4832 ],
+							[ -81.8381, 45.5141 ],
+							[ -81.863, 45.5579 ],
+							[ -81.7154, 45.6849 ],
+							[ -81.7625, 45.7199 ],
+							[ -81.8568, 45.6957 ],
+							[ -81.965, 45.6446 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "September 4, 2019 01:41",
+				"Expires_UTC" : "September 4, 2019 04:40",
+				"Summary" : "Description: Squalls with wind gusts up to 45 knots, frequent lightning and hail up to 2 centimetres are expected or occurring in the area.\n\nA thunderstorm south of Manitoulin Island is moving east at 40 knots. Wind gusts near 45 knots and hail is expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-09-04T04:40:53-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-04T01:41:53-00:00, urn:oid:2.49.0.1.124.2678240590.2019<br>Area: Northern Lake Huron",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-04:feed.atom/urn:oid:2.49.0.1.124.2678240590.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-04/2019_09_04T01_41_53_00_00Iurn_oid_2.49.0.1.124.2678240590.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190904044053+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.7625, 45.7199 ],
 							[ -81.8568, 45.6957 ],
 							[ -81.965, 45.6446 ],
@@ -922,67 +983,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-04/2019_09_04T02_18_07_00_00Iurn_oid_2.49.0.1.124.0448516585.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190904051707+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.965, 45.6446 ],
-							[ -83.2302, 45.9014 ],
-							[ -83.2611, 45.9069 ],
-							[ -83.273, 45.9085 ],
-							[ -83.4701, 45.9348 ],
-							[ -83.487, 45.9405 ],
-							[ -83.4874, 45.94 ],
-							[ -83.5971, 45.8212 ],
-							[ -82.5186, 45.3386 ],
-							[ -82.3729, 44.7096 ],
-							[ -81.2898, 44.7041 ],
-							[ -81.273, 44.7035 ],
-							[ -81.2189, 44.7061 ],
-							[ -81.3896, 45.081 ],
-							[ -81.5569, 45.1907 ],
-							[ -81.6791, 45.2541 ],
-							[ -81.6999, 45.2883 ],
-							[ -81.7042, 45.2925 ],
-							[ -81.7137, 45.3006 ],
-							[ -81.7141, 45.3115 ],
-							[ -81.7945, 45.4427 ],
-							[ -81.8194, 45.4832 ],
-							[ -81.8381, 45.5141 ],
-							[ -81.863, 45.5579 ],
-							[ -81.7154, 45.6849 ],
-							[ -81.7625, 45.7199 ],
-							[ -81.8568, 45.6957 ],
-							[ -81.965, 45.6446 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "September 4, 2019 01:41",
-				"Expires_UTC" : "September 4, 2019 04:40",
-				"Summary" : "Description: Squalls with wind gusts up to 45 knots, frequent lightning and hail up to 2 centimetres are expected or occurring in the area.\n\nA thunderstorm south of Manitoulin Island is moving east at 40 knots. Wind gusts near 45 knots and hail is expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-09-04T04:40:53-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-04T01:41:53-00:00, urn:oid:2.49.0.1.124.2678240590.2019<br>Area: Northern Lake Huron",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-04:feed.atom/urn:oid:2.49.0.1.124.2678240590.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-04/2019_09_04T01_41_53_00_00Iurn_oid_2.49.0.1.124.2678240590.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190904044053+00:00"
 			}
 		},
 		{
