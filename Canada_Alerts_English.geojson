@@ -251,25 +251,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 4, 2019 20:52",
-				"Expires_UTC" : "September 5, 2019 12:51",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nTotal rainfall amounts of 50 millimetres are expected until overnight.\n\n###\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-09-05T12:51:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-04T20:52:57-00:00, urn:oid:2.49.0.1.124.2484401062.2019<br>Area: Baie-Trinité area, Sept-Îles - Port-Cartier area",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 5, 2019 02:39",
+				"Expires_UTC" : "September 5, 2019 03:39",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2019-09-05T03:39:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-05T02:39:54-00:00, urn:oid:2.49.0.1.124.0931950585.2019<br>Area: Baie-Trinité area, Sept-Îles - Port-Cartier area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-04:feed.atom/urn:oid:2.49.0.1.124.2484401062.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-04/2019_09_04T20_52_57_00_00Iurn_oid_2.49.0.1.124.2484401062.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-05:feed.atom/urn:oid:2.49.0.1.124.0931950585.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-05/2019_09_05T02_39_54_00_00Iurn_oid_2.49.0.1.124.0931950585.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190905125157+00:00"
+				"Expires_FMEFormat" : "20190905033954+00:00"
 			}
 		},
 		{
@@ -638,6 +638,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.0222, 55.8603 ],
+							[ -60.8884, 55.8597 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.798, 55.9666 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 5, 2019 01:09",
+				"Expires_UTC" : "September 5, 2019 17:08",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nRain at times heavy will begin late overnight and taper to showers by Friday morning. Rainfall amounts of up to 60 mm are expected.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-09-05T17:08:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-05T01:09:39-00:00, urn:oid:2.49.0.1.124.3002150665.2019<br>Area: Nain and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-05:feed.atom/urn:oid:2.49.0.1.124.3002150665.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-05/2019_09_05T01_09_39_00_00Iurn_oid_2.49.0.1.124.3002150665.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190905170839+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -102.0054, 50.5321 ],
 							[ -101.9635, 50.5128 ],
 							[ -101.9326, 50.5058 ],
@@ -700,55 +749,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-05/2019_09_05T02_34_28_00_00Iurn_oid_2.49.0.1.124.2354060356.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190905051928+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.7945, 56.6786 ],
-							[ -61.1044, 56.5708 ],
-							[ -61.8607, 56.6166 ],
-							[ -62.4923, 56.7524 ],
-							[ -63.0043, 56.7494 ],
-							[ -63.0038, 56.0019 ],
-							[ -63.0037, 55.8296 ],
-							[ -61.891, 55.378 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.0222, 55.8603 ],
-							[ -60.8884, 55.8597 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.798, 55.9666 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.7945, 56.6786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 5, 2019 01:09",
-				"Expires_UTC" : "September 5, 2019 17:08",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nRain at times heavy will begin late overnight and taper to showers by Friday morning. Rainfall amounts of up to 60 mm are expected.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-09-05T17:08:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-05T01:09:39-00:00, urn:oid:2.49.0.1.124.3002150665.2019<br>Area: Nain and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-05:feed.atom/urn:oid:2.49.0.1.124.3002150665.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-05/2019_09_05T01_09_39_00_00Iurn_oid_2.49.0.1.124.3002150665.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190905170839+00:00"
 			}
 		},
 		{
