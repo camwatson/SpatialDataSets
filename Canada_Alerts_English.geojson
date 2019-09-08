@@ -91,6 +91,63 @@
 				"coordinates" : [
 					[
 						[
+							[ -121.26, 50 ],
+							[ -121.1772, 49.7381 ],
+							[ -121.0637, 49.4682 ],
+							[ -121.0994, 49.4698 ],
+							[ -121.1293, 49.3409 ],
+							[ -121.0015, 49.2791 ],
+							[ -120.8912, 49.3292 ],
+							[ -120.9164, 49.3465 ],
+							[ -120.4962, 49.5618 ],
+							[ -120.0012, 49.8499 ],
+							[ -119.9459, 49.9702 ],
+							[ -119.9107, 50.0731 ],
+							[ -119.7887, 50.3459 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.7856, 50.6975 ],
+							[ -119.9, 50.7999 ],
+							[ -120.177, 50.8947 ],
+							[ -120.58, 51 ],
+							[ -121.1311, 51.013 ],
+							[ -121.65, 50.9999 ],
+							[ -121.5622, 50.7329 ],
+							[ -121.4319, 50.441 ],
+							[ -121.3503, 50.2159 ],
+							[ -121.26, 50 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 8, 2019 01:36",
+				"Expires_UTC" : "September 8, 2019 04:33",
+				"Summary" : "Description: At 6:35 PM PDT, Environment Canada meteorologists are tracking a severe thunderstorm just south of Kamloops. The storm is moving north at 30km/h along Highway 5A and is capable of producing strong wind gusts, hail and heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Intense lightning is likely with any thunderstorm that develops.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.\n\nRoad conditions are available at www.drivebc.ca.<br>Expires: 2019-09-08T04:33:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T01:36:39-00:00, urn:oid:2.49.0.1.124.0697800612.2019<br>Area: Nicola",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.0697800612.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T01_36_39_00_00Iurn_oid_2.49.0.1.124.0697800612.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190908043339+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -114.993, 51.6412 ],
 							[ -114.9929, 51.6208 ],
 							[ -115.2708, 51.6236 ],
@@ -251,55 +308,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T01_03_05_00_00Iurn_oid_2.49.0.1.124.4040773945.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190908170205+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "September 8, 2019 02:02",
-				"Expires_UTC" : "September 8, 2019 13:59",
-				"Summary" : "Description: Strong winds with severe and damaging gusts are expected or occurring.\n\nPost-tropical storm Dorian will track out of Nova Scotia late this evening and move into the eastern Gulf of St. Lawrence tonight.\n \nStrong winds will continue to gust to 120 km/h from the east of northeast late this evening and then shift to the northwest with gusts up to 120 km/h near or after midnight. Winds will diminish below warning criteria on Sunday morning, but will remain breezy through the day as Dorian continues on its way through the Gulf.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may cause downed trees or toss loose objects.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-09-08T13:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T02:02:34-00:00, urn:oid:2.49.0.1.124.1660915233.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.1660915233.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T02_02_34_00_00Iurn_oid_2.49.0.1.124.1660915233.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908135934+00:00"
 			}
 		},
 		{
@@ -827,55 +835,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.667, 45.9567 ],
-							[ -62.7976, 46.2718 ],
-							[ -62.8642, 46.4308 ],
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 8, 2019 02:04",
-				"Expires_UTC" : "September 8, 2019 15:59",
-				"Summary" : "Description: Rain, at times heavy, continues.\n\nPost-tropical storm Dorian is continuing to spread rain across central and western parts of Prince Edward Island and will taper off late overnight.\n\nAdditional rainfall amounts of 40 to 50 mm are expected.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-09-08T15:59:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T02:04:08-00:00, urn:oid:2.49.0.1.124.3716561875.2019<br>Area: Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.3716561875.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T02_04_08_00_00Iurn_oid_2.49.0.1.124.3716561875.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908155908+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.4207, 47.5744 ],
 							[ -58.144, 47.5744 ],
 							[ -56.9846, 47.386 ],
@@ -917,6 +876,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T01_01_43_00_00Iurn_oid_2.49.0.1.124.1364903087.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190908125943+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.667, 45.9567 ],
+							[ -62.7976, 46.2718 ],
+							[ -62.8642, 46.4308 ],
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 8, 2019 02:04",
+				"Expires_UTC" : "September 8, 2019 15:59",
+				"Summary" : "Description: Rain, at times heavy, continues.\n\nPost-tropical storm Dorian is continuing to spread rain across central and western parts of Prince Edward Island and will taper off late overnight.\n\nAdditional rainfall amounts of 40 to 50 mm are expected.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-09-08T15:59:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T02:04:08-00:00, urn:oid:2.49.0.1.124.3716561875.2019<br>Area: Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.3716561875.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T02_04_08_00_00Iurn_oid_2.49.0.1.124.3716561875.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190908155908+00:00"
 			}
 		},
 		{
@@ -1928,54 +1936,46 @@
 				"coordinates" : [
 					[
 						[
-							[ -121.26, 50 ],
-							[ -121.1772, 49.7381 ],
-							[ -121.0637, 49.4682 ],
-							[ -121.0994, 49.4698 ],
-							[ -121.1293, 49.3409 ],
-							[ -121.0015, 49.2791 ],
-							[ -120.8912, 49.3292 ],
-							[ -120.9164, 49.3465 ],
-							[ -120.4962, 49.5618 ],
-							[ -120.0012, 49.8499 ],
-							[ -119.9459, 49.9702 ],
-							[ -119.9107, 50.0731 ],
-							[ -119.7887, 50.3459 ],
-							[ -119.6999, 50.5999 ],
-							[ -119.7856, 50.6975 ],
-							[ -119.9, 50.7999 ],
-							[ -120.177, 50.8947 ],
-							[ -120.58, 51 ],
-							[ -121.1311, 51.013 ],
-							[ -121.65, 50.9999 ],
-							[ -121.5622, 50.7329 ],
-							[ -121.4319, 50.441 ],
-							[ -121.3503, 50.2159 ],
-							[ -121.26, 50 ]
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
+				"event" : "Wind",
+				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 8, 2019 01:36",
-				"Expires_UTC" : "September 8, 2019 04:33",
-				"Summary" : "Description: At 6:35 PM PDT, Environment Canada meteorologists are tracking a severe thunderstorm just south of Kamloops. The storm is moving north at 30km/h along Highway 5A and is capable of producing strong wind gusts, hail and heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Intense lightning is likely with any thunderstorm that develops.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.\n\nRoad conditions are available at www.drivebc.ca.<br>Expires: 2019-09-08T04:33:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T01:36:39-00:00, urn:oid:2.49.0.1.124.0697800612.2019<br>Area: Nicola",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "September 8, 2019 02:02",
+				"Expires_UTC" : "September 8, 2019 13:59",
+				"Summary" : "Description: Strong winds with severe and damaging gusts are expected or occurring.\n\nPost-tropical storm Dorian will track out of Nova Scotia late this evening and move into the eastern Gulf of St. Lawrence tonight.\n \nStrong winds will continue to gust to 120 km/h from the east of northeast late this evening and then shift to the northwest with gusts up to 120 km/h near or after midnight. Winds will diminish below warning criteria on Sunday morning, but will remain breezy through the day as Dorian continues on its way through the Gulf.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may cause downed trees or toss loose objects.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-09-08T13:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T02:02:34-00:00, urn:oid:2.49.0.1.124.1660915233.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.0697800612.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T01_36_39_00_00Iurn_oid_2.49.0.1.124.0697800612.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.1660915233.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T02_02_34_00_00Iurn_oid_2.49.0.1.124.1660915233.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908043339+00:00"
+				"Expires_FMEFormat" : "20190908135934+00:00"
 			}
 		}
 	]
