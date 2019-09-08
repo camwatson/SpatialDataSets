@@ -319,70 +319,37 @@
 				"coordinates" : [
 					[
 						[
-							[ -64.7559, 48.6496 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.75, 48.4658 ],
-							[ -64.7475, 48.4652 ],
-							[ -64.4498, 48.3987 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7559, 48.6496 ]
-						]
-					],
-					[
-						[
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -62.995, 50.1418 ]
-						]
-					],
-					[
-						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Tropical Storm Warning Ended",
 				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 8, 2019 07:32",
-				"Expires_UTC" : "September 8, 2019 17:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nNortherly winds gusting up to 90 km/h are expected this morning.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-09-08T17:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T07:32:54-00:00, urn:oid:2.49.0.1.124.3525081245.2019<br>Area: Forillon National Park - Gaspé area, Percé area, Natashquan, Anticosti",
+				"event" : "Tropical Storm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 8, 2019 13:46",
+				"Expires_UTC" : "September 8, 2019 14:46",
+				"Summary" : "Description: Tropical storm conditions are no longer expected.\n\n\n###<br>Expires: 2019-09-08T14:46:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:46:20-00:00, urn:oid:2.49.0.1.124.3482549337.2019<br>Area: Îles-de-la-Madeleine",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.3525081245.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T07_32_54_00_00Iurn_oid_2.49.0.1.124.3525081245.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.3482549337.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_46_20_00_00Iurn_oid_2.49.0.1.124.3482549337.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908175954+00:00"
+				"Expires_FMEFormat" : "20190908144620+00:00"
 			}
 		},
 		{
@@ -845,55 +812,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T11_49_06_00_00Iurn_oid_2.49.0.1.124.1820996897.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190908235906+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Storm Surge Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Storm Surge",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 8, 2019 07:43",
-				"Expires_UTC" : "September 8, 2019 16:59",
-				"Summary" : "Description: High Storm Surge levels and large waves are expected to impact the coast.\n\nThe intense winds associated with post-tropical storm Dorian are forecast to generate large waves and storm surge for parts of the Gulf of St. Lawrence early this morning. Localized flooding due to storm surge and high waves are possible in the next few hours before the tide begins to ebb.\n\n###\n\nCoastal flooding is possible along the shoreline.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-09-08T16:59:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T07:43:47-00:00, urn:oid:2.49.0.1.124.2758030517.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.2758030517.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T07_43_47_00_00Iurn_oid_2.49.0.1.124.2758030517.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908165947+00:00"
 			}
 		},
 		{
@@ -1419,48 +1337,87 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -57.4008, 50.5801 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ]
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
+				"subCategory" : "Met:Warning:Moderate",
 				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "September 8, 2019 13:24",
-				"Expires_UTC" : "September 8, 2019 23:59",
-				"Summary" : "Description: Dangerous wind gusts causing widespread damage are expected or occurring.\n\nStrong southwesterly winds, with gusts reaching 150 km/h along parts of the coast, will ease below warning criteria late this afternoon or evening.\n\n###\n\nBuildings under construction risk extreme damage. High winds may cause numerous downed trees and damage may occur from blowing debris. Drivers may lose control of their vehicles; tall vehicles are at high risk of being overturned.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-09-08T23:59:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:24:19-00:00, urn:oid:2.49.0.1.124.1349064894.2019<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 8, 2019 13:49",
+				"Expires_UTC" : "September 8, 2019 23:00",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-09-08T23:00:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:49:19-00:00, urn:oid:2.49.0.1.124.1358701400.2019<br>Area: Îles-de-la-Madeleine",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.1349064894.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_24_19_00_00Iurn_oid_2.49.0.1.124.1349064894.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.1358701400.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_49_19_00_00Iurn_oid_2.49.0.1.124.1358701400.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908235919+00:00"
+				"Expires_FMEFormat" : "20190908230019+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.567607421, 48.1000655797 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 8, 2019 13:19",
+				"Expires_UTC" : "September 8, 2019 21:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong southwesterly winds gusting to 120 km/h are forecast to ease below warning criteria this afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-09-08T21:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:19:54-00:00, urn:oid:2.49.0.1.124.3857244191.2019<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.3857244191.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_19_54_00_00Iurn_oid_2.49.0.1.124.3857244191.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190908215954+00:00"
 			}
 		},
 		{
@@ -1504,25 +1461,76 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Hurricane Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Hurricane Warning Ended",
 				"Category" : "Actual",
 				"event" : "Hurricane",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "September 8, 2019 13:32",
-				"Expires_UTC" : "September 8, 2019 19:59",
-				"Summary" : "Description: Hurricane force winds of 90 gusting to 130 km/h at exposed locations except 120 gusting to 150 km/h at the coast with surge of 0.7 to 1.0 m and waves from 4 to 7 m from Hurricane Dorian are expected.\n\nHurricane conditions are expected to persist early this morning as Dorian moves northeastward across the Gulf of St. Lawrence.\n\nWinds will diminish this later this morning as Dorian moves farther away. \n\nFlooding is also possible along parts of the coast due to storm surge and rough pounding surf this morning.\n\n###\n\nThese winds will topple many trees leading to downed utility lines and extended service outages. Moderate to significant damage to roofing materials, exterior cladding and light structures is likely. This could result in some damage to docks and breakwaters. Shoreline erosion and wave overwash is expected where winds blow onshore.\n\nA hurricane warning means that hurricane conditions are expected over parts of the region within 24 hours. Hurricane conditions include (A) sustained winds near 120 km/h or more, and/or (B) significantly elevated water levels and dangerous surf along the coast.\n\nBy nature, a hurricane also implies the threat of local flooding from heavy rainfall - consult your local area forecast for possible rainfall warnings.\n\nPlease continue to monitor alerts issued by the Canadian Hurricane Centre and forecasts issued by Environment Canada. Reports of storm conditions and impacts can be emailed directly to NSstorm@canada.ca or by tweeting reports by province using #NSStorm, #NBStorm, #PEStorm, #NLwx, #QCStorm or #ONStorm.<br>Expires: 2019-09-08T19:59:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:32:37-00:00, urn:oid:2.49.0.1.124.2038522302.2019<br>Area: Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 8, 2019 13:42",
+				"Expires_UTC" : "September 8, 2019 14:41",
+				"Summary" : "Description: Hurricane conditions are no longer expected.\n\nHurricane force winds have diminished and storm force winds will gradually diminish by this afternoon.\n\n###<br>Expires: 2019-09-08T14:41:01-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:42:01-00:00, urn:oid:2.49.0.1.124.0659137933.2019<br>Area: Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.2038522302.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_32_37_00_00Iurn_oid_2.49.0.1.124.2038522302.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.0659137933.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_42_01_00_00Iurn_oid_2.49.0.1.124.0659137933.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908195937+00:00"
+				"Expires_FMEFormat" : "20190908144101+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -57.4008, 50.5801 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "September 8, 2019 13:24",
+				"Expires_UTC" : "September 8, 2019 23:59",
+				"Summary" : "Description: Dangerous wind gusts causing widespread damage are expected or occurring.\n\nStrong southwesterly winds, with gusts reaching 150 km/h along parts of the coast, will ease below warning criteria late this afternoon or evening.\n\n###\n\nBuildings under construction risk extreme damage. High winds may cause numerous downed trees and damage may occur from blowing debris. Drivers may lose control of their vehicles; tall vehicles are at high risk of being overturned.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-09-08T23:59:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:24:19-00:00, urn:oid:2.49.0.1.124.1349064894.2019<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.1349064894.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_24_19_00_00Iurn_oid_2.49.0.1.124.1349064894.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190908235919+00:00"
 			}
 		},
 		{
@@ -1610,96 +1618,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T11_57_19_00_00Iurn_oid_2.49.0.1.124.1392059440.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190909035619+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.567607421, 48.1000655797 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 8, 2019 13:19",
-				"Expires_UTC" : "September 8, 2019 21:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong southwesterly winds gusting to 120 km/h are forecast to ease below warning criteria this afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-09-08T21:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:19:54-00:00, urn:oid:2.49.0.1.124.3857244191.2019<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.3857244191.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_19_54_00_00Iurn_oid_2.49.0.1.124.3857244191.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908215954+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 8, 2019 07:41",
-				"Expires_UTC" : "September 8, 2019 23:00",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nWesterly winds are forecast to strengthen early this morning over the islands as post-tropical storm Dorian pulls northeastward away from the area. Wind gusts will reach 110 km/h this morning before slowly diminishing through the afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-09-08T23:00:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T07:41:39-00:00, urn:oid:2.49.0.1.124.4117092680.2019<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.4117092680.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T07_41_39_00_00Iurn_oid_2.49.0.1.124.4117092680.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908230039+00:00"
 			}
 		},
 		{
@@ -1886,18 +1804,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 8, 2019 08:28",
-				"Expires_UTC" : "September 8, 2019 16:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong northeasterly winds gusting to 110 km/h will diminish as they shift to southeasterlies near noon today.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-09-08T16:59:25-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T08:28:25-00:00, urn:oid:2.49.0.1.124.3072432582.2019<br>Area: Red Bay to L'Anse-au-Clair",
+				"LastUpdate_UTC" : "September 8, 2019 13:49",
+				"Expires_UTC" : "September 8, 2019 19:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-09-08T19:59:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:49:15-00:00, urn:oid:2.49.0.1.124.4282545228.2019<br>Area: Red Bay to L'Anse-au-Clair",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.3072432582.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T08_28_25_00_00Iurn_oid_2.49.0.1.124.3072432582.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.4282545228.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_49_15_00_00Iurn_oid_2.49.0.1.124.4282545228.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908165925+00:00"
+				"Expires_FMEFormat" : "20190908195915+00:00"
 			}
 		},
 		{
@@ -2160,25 +2078,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "High Water Level Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "High Water Level Warning Ended",
 				"Category" : "Actual",
 				"event" : "High Water Level",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 8, 2019 12:46",
-				"Expires_UTC" : "September 8, 2019 18:59",
-				"Summary" : "Description: Higher than normal water levels are expected or occurring.\n\nPost-tropical storm Dorian over northeastern Gulf of St. Lawrence will continue to move toward Newfoundland today. Large waves and storm surge from Dorian will combine to give higher than normal water levels until early this afternoon.\n\n###\n\nCoastal flooding is likely. Coastal erosion is possible in vulnerable areas.\n\nHigh water level warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-09-08T18:59:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T12:46:09-00:00, urn:oid:2.49.0.1.124.3422466355.2019<br>Area: Anticosti, Gulf - Magdalen",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 8, 2019 13:41",
+				"Expires_UTC" : "September 8, 2019 14:41",
+				"Summary" : "Description: High water level conditions have ended in the area.\n\n\n###<br>Expires: 2019-09-08T14:41:13-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T13:41:13-00:00, urn:oid:2.49.0.1.124.1691648469.2019<br>Area: Anticosti, Gulf - Magdalen",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.3422466355.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T12_46_09_00_00Iurn_oid_2.49.0.1.124.3422466355.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.1691648469.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T13_41_13_00_00Iurn_oid_2.49.0.1.124.1691648469.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908185909+00:00"
+				"Expires_FMEFormat" : "20190908144113+00:00"
 			}
 		},
 		{
@@ -2246,48 +2164,46 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.9988, 51.333 ],
-							[ -60.9991, 50.7497 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.4551, 50.0679 ],
-							[ -59.7883, 50.1231 ],
-							[ -59.0574, 50.5037 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ]
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Storm Surge Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Storm Surge",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "September 8, 2019 07:36",
-				"Expires_UTC" : "September 8, 2019 21:59",
-				"Summary" : "Description: Strong winds with severe and damaging gusts are expected or occurring.\n\nHigh easterly winds gusting near 110 kilometres per hour are expected; winds should gradually diminish today.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-09-08T21:59:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T07:36:45-00:00, urn:oid:2.49.0.1.124.1664824456.2019<br>Area: Chevery, Blanc-Sablon",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 8, 2019 07:43",
+				"Expires_UTC" : "September 8, 2019 16:59",
+				"Summary" : "Description: High Storm Surge levels and large waves are expected to impact the coast.\n\nThe intense winds associated with post-tropical storm Dorian are forecast to generate large waves and storm surge for parts of the Gulf of St. Lawrence early this morning. Localized flooding due to storm surge and high waves are possible in the next few hours before the tide begins to ebb.\n\n###\n\nCoastal flooding is possible along the shoreline.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-09-08T16:59:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T07:43:47-00:00, urn:oid:2.49.0.1.124.2758030517.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.1664824456.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T07_36_45_00_00Iurn_oid_2.49.0.1.124.1664824456.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.2758030517.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T07_43_47_00_00Iurn_oid_2.49.0.1.124.2758030517.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190908215945+00:00"
+				"Expires_FMEFormat" : "20190908165947+00:00"
 			}
 		}
 	]
