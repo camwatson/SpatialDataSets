@@ -1148,6 +1148,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.9988, 51.333 ],
+							[ -60.9991, 50.7497 ],
+							[ -60.9983, 50.2284 ],
+							[ -60.9909, 50.2233 ],
+							[ -60.9519, 50.2315 ],
+							[ -60.9447, 50.2258 ],
+							[ -60.9681, 50.1859 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.4551, 50.0679 ],
+							[ -59.7883, 50.1231 ],
+							[ -59.0574, 50.5037 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.1162, 51.3508 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1075, 51.9221 ],
+							[ -58.9988, 51.333 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Storm Surge Warning Ended",
+				"Category" : "Actual",
+				"event" : "Storm Surge",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 9, 2019 01:47",
+				"Expires_UTC" : "September 9, 2019 02:47",
+				"Summary" : "Description: Storm surge conditions are no longer expected.\n\n###<br>Expires: 2019-09-09T02:47:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-09T01:47:45-00:00, urn:oid:2.49.0.1.124.1182790937.2019<br>Area: Chevery, Blanc-Sablon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-09:feed.atom/urn:oid:2.49.0.1.124.1182790937.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-09/2019_09_09T01_47_45_00_00Iurn_oid_2.49.0.1.124.1182790937.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190909024745+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -57.808, 50.0127 ],
 							[ -58.3109, 49.4067 ],
 							[ -58.8133, 48.8226 ],
@@ -1185,57 +1236,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T21_47_53_00_00Iurn_oid_2.49.0.1.124.2468590907.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190909015953+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.9988, 51.333 ],
-							[ -60.9991, 50.7497 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.4551, 50.0679 ],
-							[ -59.7883, 50.1231 ],
-							[ -59.0574, 50.5037 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Storm Surge Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Storm Surge",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 8, 2019 19:18",
-				"Expires_UTC" : "September 9, 2019 03:59",
-				"Summary" : "Description: Higher than normal water levels with large waves are expected near the coast.\n\nWarning of potential breaking sea conditions and coastal flooding issued jointly by Fisheries and Oceans Canada (Science) and the Meteorological Service of Canada - Quebec region on 2019-09-08.\n\nPost-tropical storm Dorian is generating strong winds across the regions specified below. The passage of the storm could cause coastal flooding near the following localities, on the dates and at the times specified (Eastern daylight time).\n\n\nChevery: 2019-09-08 until 10:00 PM.\n\nBlanc-Sablon: 2019-09-08 until 10:00 PM.\n\n###\n\nCoastal flooding is possible along the shoreline. Coastal erosion is possible in vulnerable areas.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-09-09T03:59:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-08T19:18:10-00:00, urn:oid:2.49.0.1.124.2625093223.2019<br>Area: Chevery, Blanc-Sablon",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-08:feed.atom/urn:oid:2.49.0.1.124.2625093223.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-08/2019_09_08T19_18_10_00_00Iurn_oid_2.49.0.1.124.2625093223.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190909035910+00:00"
 			}
 		},
 		{
