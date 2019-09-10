@@ -9,46 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -111.4535, 49.4784 ],
-							[ -111.4619, 49.4722 ],
-							[ -111.4384, 49.4665 ],
-							[ -111.4381, 49.4833 ],
-							[ -111.4535, 49.4784 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Other",
-				"Title" : "Alberta Emergency Alert - Water Quality Alert",
-				"Category" : "Actual",
-				"event" : "Water Quality",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 10, 2019 16:03",
-				"Expires_UTC" : "September 17, 2019 16:04",
-				"Summary" : "Description: There has been a water line break in the Village of Foremost. There is currently water supply to the majority of the village. Water may be unsafe to drink or use. Crews are working to repair the line as quickly as possible.<br>Expires: 2019-09-17T16:04:08-06:00<br>Originated from CAP Alert: Village of Foremost, 2019-09-10T16:03:27-06:00, NAADS-CA-AB-AEA1-6028<br>Area: Foremost",
-				"Author" : "Village of Foremost",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-10:feed.atom/NAADS-CA-AB-AEA1-6028",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-10/2019_09_10T16_03_27_06_00INAADS_CA_AB_AEA1_6028.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190917160408-06:00",
-				"EnclosureType" : "audio/mpeg",
-				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2019/7247-0.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -115.0388, 68.0735 ],
 							[ -115.0934, 67.9545 ],
 							[ -115.6489, 67.917 ],
@@ -243,6 +203,46 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-10/2019_09_10T16_25_14_00_00Iurn_oid_2.49.0.1.124.3501537448.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190911075914+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -111.4535, 49.4784 ],
+							[ -111.4619, 49.4722 ],
+							[ -111.4384, 49.4665 ],
+							[ -111.4381, 49.4833 ],
+							[ -111.4535, 49.4784 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Other",
+				"Title" : "Alberta Emergency Alert - Water Quality Alert Cancelled",
+				"Category" : "Actual",
+				"event" : "Water Quality",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 10, 2019 16:21",
+				"Expires_UTC" : "September 10, 2019 16:36",
+				"Summary" : "Description: There has been a water line break in the Village of Foremost. There is currently water supply to the majority of the village. Water may be unsafe to drink or use. Crews are working to repair the line as quickly as possible.<br>Expires: 2019-09-10T16:36:18-06:00<br>Originated from CAP Alert: Village of Foremost, 2019-09-10T16:21:18-06:00, NAADS-CA-AB-AEA1-6029<br>Area: Foremost",
+				"Author" : "Village of Foremost",
+				"msgType" : "Cancel",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-10:feed.atom/NAADS-CA-AB-AEA1-6029",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-10/2019_09_10T16_21_18_06_00INAADS_CA_AB_AEA1_6029.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190910163618-06:00",
+				"EnclosureType" : "audio/mpeg",
+				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2019/7249-0.mp3"
 			}
 		}
 	]
