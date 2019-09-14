@@ -9,6 +9,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -80.0799, 42.3935 ],
+							[ -78.9353, 42.8283 ],
+							[ -78.9059, 42.9052 ],
+							[ -78.8933, 42.9389 ],
+							[ -79.0529, 42.9623 ],
+							[ -79.6261, 42.9814 ],
+							[ -80.3291, 42.9012 ],
+							[ -80.5966, 42.7293 ],
+							[ -81.2109, 42.784 ],
+							[ -81.1553, 42.66 ],
+							[ -80.9327, 42.2591 ],
+							[ -80.0799, 42.3935 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "September 14, 2019 03:11",
+				"Expires_UTC" : "September 14, 2019 06:22",
+				"Summary" : "Description: Thunderstorms over Lake Erie may be capable of producing wind gusts to 35 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-09-14T06:22:40-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-14T03:11:40-00:00, urn:oid:2.49.0.1.124.2287590455.2019<br>Area: Eastern Lake Erie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-14:feed.atom/urn:oid:2.49.0.1.124.2287590455.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-14/2019_09_14T03_11_40_00_00Iurn_oid_2.49.0.1.124.2287590455.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190914062240+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -115.0388, 68.0735 ],
 							[ -115.0934, 67.9545 ],
 							[ -115.6489, 67.917 ],
@@ -285,51 +330,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-14/2019_09_14T01_00_49_00_00Iurn_oid_2.49.0.1.124.1085412579.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190914165949+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -80.0799, 42.3935 ],
-							[ -78.9353, 42.8283 ],
-							[ -78.9059, 42.9052 ],
-							[ -78.8933, 42.9389 ],
-							[ -79.0529, 42.9623 ],
-							[ -79.6261, 42.9814 ],
-							[ -80.3291, 42.9012 ],
-							[ -80.5966, 42.7293 ],
-							[ -81.2109, 42.784 ],
-							[ -81.1553, 42.66 ],
-							[ -80.9327, 42.2591 ],
-							[ -80.0799, 42.3935 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Squall Watch Ended",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 14, 2019 04:10",
-				"Expires_UTC" : "September 14, 2019 05:10",
-				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2019-09-14T05:10:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-14T04:10:09-00:00, urn:oid:2.49.0.1.124.0725386670.2019<br>Area: Eastern Lake Erie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-14:feed.atom/urn:oid:2.49.0.1.124.0725386670.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-14/2019_09_14T04_10_09_00_00Iurn_oid_2.49.0.1.124.0725386670.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190914051009+00:00"
 			}
 		},
 		{
