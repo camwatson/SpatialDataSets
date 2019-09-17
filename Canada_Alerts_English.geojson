@@ -9,43 +9,41 @@
 				"coordinates" : [
 					[
 						[
-							[ -85.9469, 48.8844 ],
-							[ -87.4321, 49.1383 ],
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -84.6283, 47.2522 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ]
+							[ -102.0073, 57.11 ],
+							[ -100.5808, 57.11 ],
+							[ -99.4001, 57.11 ],
+							[ -99.4001, 59.9992 ],
+							[ -100.6699, 60.0474 ],
+							[ -102.0004, 59.9992 ],
+							[ -102.0075, 59.9992 ],
+							[ -102.0425, 59.1758 ],
+							[ -102.0074, 58.3877 ],
+							[ -102.0297, 57.6922 ],
+							[ -102.0073, 57.11 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 17, 2019 02:22",
-				"Expires_UTC" : "September 17, 2019 16:59",
-				"Summary" : "Description: Near zero visibility in fog patches is occurring.\n\nFog patches have developed over the area and are expected to persist tonight. The lowest visibilities are expected over areas near Lake Superior.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-09-17T16:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-17T02:22:29-00:00, urn:oid:2.49.0.1.124.3088270679.2019<br>Area: Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
+				"LastUpdate_UTC" : "September 17, 2019 08:19",
+				"Expires_UTC" : "September 17, 2019 11:18",
+				"Summary" : "Description: At 3:19 a.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts, nickel to ping pong ball size hail and heavy rain.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2019-09-17T11:18:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-17T08:19:23-00:00, urn:oid:2.49.0.1.124.0434272423.2019<br>Area: Brochet",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-17:feed.atom/urn:oid:2.49.0.1.124.3088270679.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-17/2019_09_17T02_22_29_00_00Iurn_oid_2.49.0.1.124.3088270679.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-17:feed.atom/urn:oid:2.49.0.1.124.0434272423.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-17/2019_09_17T08_19_23_00_00Iurn_oid_2.49.0.1.124.0434272423.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190917165929+00:00"
+				"Expires_FMEFormat" : "20190917111823+00:00"
 			}
 		},
 		{
@@ -88,6 +86,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-16/2019_09_16T17_02_45_06_00I2498F710_D435_4E8F_9510_C0CC3D7BF9EB.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190920170000-06:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.6283, 47.2522 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 17, 2019 02:22",
+				"Expires_UTC" : "September 17, 2019 16:59",
+				"Summary" : "Description: Near zero visibility in fog patches is occurring.\n\nFog patches have developed over the area and are expected to persist tonight. The lowest visibilities are expected over areas near Lake Superior.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-09-17T16:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-17T02:22:29-00:00, urn:oid:2.49.0.1.124.3088270679.2019<br>Area: Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-17:feed.atom/urn:oid:2.49.0.1.124.3088270679.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-17/2019_09_17T02_22_29_00_00Iurn_oid_2.49.0.1.124.3088270679.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190917165929+00:00"
 			}
 		},
 		{
