@@ -9,6 +9,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.6283, 47.2522 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 17, 2019 02:22",
+				"Expires_UTC" : "September 17, 2019 16:59",
+				"Summary" : "Description: Near zero visibility in fog patches is occurring.\n\nFog patches have developed over the area and are expected to persist tonight. The lowest visibilities are expected over areas near Lake Superior.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-09-17T16:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-17T02:22:29-00:00, urn:oid:2.49.0.1.124.3088270679.2019<br>Area: Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-17:feed.atom/urn:oid:2.49.0.1.124.3088270679.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-17/2019_09_17T02_22_29_00_00Iurn_oid_2.49.0.1.124.3088270679.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190917165929+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -84.9134, 47.2346 ],
 							[ -84.7351, 46.6321 ],
 							[ -84.4985, 46.6539 ],
@@ -102,52 +148,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-16/2019_09_16T17_02_45_06_00I2498F710_D435_4E8F_9510_C0CC3D7BF9EB.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190920170000-06:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -85.9469, 48.8844 ],
-							[ -87.4321, 49.1383 ],
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -84.6283, 47.2522 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 17, 2019 02:22",
-				"Expires_UTC" : "September 17, 2019 16:59",
-				"Summary" : "Description: Near zero visibility in fog patches is occurring.\n\nFog patches have developed over the area and are expected to persist tonight. The lowest visibilities are expected over areas near Lake Superior.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-09-17T16:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-17T02:22:29-00:00, urn:oid:2.49.0.1.124.3088270679.2019<br>Area: Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-17:feed.atom/urn:oid:2.49.0.1.124.3088270679.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-17/2019_09_17T02_22_29_00_00Iurn_oid_2.49.0.1.124.3088270679.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190917165929+00:00"
 			}
 		},
 		{
@@ -394,18 +394,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 17, 2019 07:36",
-				"Expires_UTC" : "September 17, 2019 23:35",
-				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\nClear skies along with a cold airmass will produce potentially damaging frost tonight.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-09-17T23:35:17-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-17T07:36:17-00:00, urn:oid:2.49.0.1.124.3388782492.2019<br>Area: Fredericton and Southern York County, Oromocto and Sunbury County, Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, Saint John and County, St. Stephen and Northern Charlotte County, Grand Manan and Coastal Charlotte County, Woodstock and Carleton County, Stanley - Doaktown - Blackville Area, Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Fundy National Park, Edmundston and Madawaska County, western half of Restigouche County, Campbellton and eastern half of Restigouche County, Grand Falls and Victoria County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region, Miramichi and area, Acadian Peninsula",
+				"LastUpdate_UTC" : "September 17, 2019 13:43",
+				"Expires_UTC" : "September 18, 2019 05:42",
+				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\nClear skies and light winds will allow ground temperatures to cool to near or below zero over many regions of New Brunswick tonight.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-09-18T05:42:25-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-17T13:43:25-00:00, urn:oid:2.49.0.1.124.1925394471.2019<br>Area: Fredericton and Southern York County, Oromocto and Sunbury County, Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, Saint John and County, St. Stephen and Northern Charlotte County, Grand Manan and Coastal Charlotte County, Woodstock and Carleton County, Stanley - Doaktown - Blackville Area, Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Fundy National Park, Edmundston and Madawaska County, western half of Restigouche County, Campbellton and eastern half of Restigouche County, Grand Falls and Victoria County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region, Miramichi and area, Acadian Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-17:feed.atom/urn:oid:2.49.0.1.124.3388782492.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-17/2019_09_17T07_36_17_00_00Iurn_oid_2.49.0.1.124.3388782492.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-17:feed.atom/urn:oid:2.49.0.1.124.1925394471.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-17/2019_09_17T13_43_25_00_00Iurn_oid_2.49.0.1.124.1925394471.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190917233517+00:00"
+				"Expires_FMEFormat" : "20190918054225+00:00"
 			}
 		},
 		{
