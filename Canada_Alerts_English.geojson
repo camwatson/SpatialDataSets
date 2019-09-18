@@ -96,6 +96,81 @@
 				"coordinates" : [
 					[
 						[
+							[ -99.3997, 50.2404 ],
+							[ -99.3209, 50.2389 ],
+							[ -99.248, 50.2406 ],
+							[ -99.2558, 50.1505 ],
+							[ -99.2473, 50.0637 ],
+							[ -99.1817, 50.062 ],
+							[ -99.1105, 50.0634 ],
+							[ -99.1022, 50.1493 ],
+							[ -99.1105, 50.2408 ],
+							[ -99.1235, 50.2407 ],
+							[ -99.1122, 50.3681 ],
+							[ -99.1235, 50.5059 ],
+							[ -98.9761, 50.4986 ],
+							[ -98.846, 50.5064 ],
+							[ -98.8413, 50.5374 ],
+							[ -98.8466, 50.5654 ],
+							[ -98.9224, 50.5677 ],
+							[ -98.9851, 50.5648 ],
+							[ -98.9849, 50.5948 ],
+							[ -98.9963, 50.5949 ],
+							[ -98.9963, 50.6392 ],
+							[ -99.1315, 50.643 ],
+							[ -99.2754, 50.6389 ],
+							[ -99.3431, 50.6403 ],
+							[ -99.4152, 50.6388 ],
+							[ -99.4738, 50.6415 ],
+							[ -99.5546, 50.6392 ],
+							[ -99.6331, 50.642 ],
+							[ -99.6937, 50.6393 ],
+							[ -99.6938, 50.5949 ],
+							[ -99.6763, 50.5945 ],
+							[ -99.6868, 50.4986 ],
+							[ -99.6773, 50.4174 ],
+							[ -99.6904, 50.3328 ],
+							[ -99.6772, 50.2404 ],
+							[ -99.66, 50.2403 ],
+							[ -99.5712, 50.2351 ],
+							[ -99.4926, 50.2404 ],
+							[ -99.4929, 50.2475 ],
+							[ -99.4346, 50.2476 ],
+							[ -99.4346, 50.2404 ],
+							[ -99.3997, 50.2404 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 18, 2019 17:37",
+				"Expires_UTC" : "September 18, 2019 19:59",
+				"Summary" : "Description: Environment canada meteorologists are tracking a severe thunderstorm capable of producing quarter-sized hail and damaging winds in excess of 90 km/h.\n\nAt 12:36 PM CDT Doppler RADAR indicated that this severe thunderstorm was located about 15 km northeast of Neepawa and was nearly stationary.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.<br>Expires: 2019-09-18T19:59:32-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T17:37:32-00:00, urn:oid:2.49.0.1.124.2111125875.2019<br>Area: Mun. of Glenella-Lansdowne incl. Arden and Tenby",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.2111125875.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T17_37_32_00_00Iurn_oid_2.49.0.1.124.2111125875.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190918195932+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -98.9963, 50.6392 ],
 							[ -99.1315, 50.643 ],
 							[ -99.2754, 50.6389 ],
@@ -537,57 +612,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Tropical Cyclone Information Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Tropical Storm",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 18, 2019 17:48",
-				"Expires_UTC" : "September 19, 2019 23:47",
-				"Summary" : "Description: For Hurricane Humberto.\n\nThe next information statement will be issued by 09:00 p.m. ADT.\n\nHumberto will affect Bermuda late today and tonight. It will approach Canadian marine waters Thursday night into Friday, likely affecting the Scotian Slope, and then parts of the Grand Banks during the weekend.\n\n1. Summary of basic information at 03:00 p.m. ADT.\n\nLocation: 32.8 North 67.2 West.\n\nAbout 242 kilometres west of Bermuda.\n\nMaximum sustained winds: 195 kilometres per hour.\n\nPresent movement: East-northeast at 30 kilometres per hour.\n\nMinimum central pressure: 952 millibars.\n\n2. Public weather impacts and warnings summary.\n\nAt this time no significant effects are expected over land.\n\na. Wind.\n\nNo significant wind expected.\n\nb. Rainfall.\n\nNo significant rain expected.\n\nc. Surge/Waves.\n\nSwells may affect the Atlantic coast of Nova Scotia Friday, and southern Newfoundland during the weekend.\n\n3. Marine weather impacts and warnings summary.\n\nGale to Storm Force winds are likely over the Scotian Slope waters , Laurentian Fan, Banquereau Friday into Saturday, and then parts of the Grand Banks this weekend. As the winds increase, large waves will develop over offshore waters.\n\nForecaster(s): Couturier.\n\n###\n\nPlease continue to monitor alerts issued by the Canadian Hurricane Centre and forecasts issued by Environment Canada.<br>Expires: 2019-09-19T23:47:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T17:48:39-00:00, urn:oid:2.49.0.1.124.3164698132.2019<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.3164698132.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T17_48_39_00_00Iurn_oid_2.49.0.1.124.3164698132.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190919234739+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -96.8648, 53.5312 ],
 							[ -96.0866, 53.5203 ],
 							[ -95.2444, 53.5312 ],
@@ -642,81 +666,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T15_52_50_00_00Iurn_oid_2.49.0.1.124.1550428118.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190918235050+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -99.3997, 50.2404 ],
-							[ -99.3209, 50.2389 ],
-							[ -99.248, 50.2406 ],
-							[ -99.2558, 50.1505 ],
-							[ -99.2473, 50.0637 ],
-							[ -99.1817, 50.062 ],
-							[ -99.1105, 50.0634 ],
-							[ -99.1022, 50.1493 ],
-							[ -99.1105, 50.2408 ],
-							[ -99.1235, 50.2407 ],
-							[ -99.1122, 50.3681 ],
-							[ -99.1235, 50.5059 ],
-							[ -98.9761, 50.4986 ],
-							[ -98.846, 50.5064 ],
-							[ -98.8413, 50.5374 ],
-							[ -98.8466, 50.5654 ],
-							[ -98.9224, 50.5677 ],
-							[ -98.9851, 50.5648 ],
-							[ -98.9849, 50.5948 ],
-							[ -98.9963, 50.5949 ],
-							[ -98.9963, 50.6392 ],
-							[ -99.1315, 50.643 ],
-							[ -99.2754, 50.6389 ],
-							[ -99.3431, 50.6403 ],
-							[ -99.4152, 50.6388 ],
-							[ -99.4738, 50.6415 ],
-							[ -99.5546, 50.6392 ],
-							[ -99.6331, 50.642 ],
-							[ -99.6937, 50.6393 ],
-							[ -99.6938, 50.5949 ],
-							[ -99.6763, 50.5945 ],
-							[ -99.6868, 50.4986 ],
-							[ -99.6773, 50.4174 ],
-							[ -99.6904, 50.3328 ],
-							[ -99.6772, 50.2404 ],
-							[ -99.66, 50.2403 ],
-							[ -99.5712, 50.2351 ],
-							[ -99.4926, 50.2404 ],
-							[ -99.4929, 50.2475 ],
-							[ -99.4346, 50.2476 ],
-							[ -99.4346, 50.2404 ],
-							[ -99.3997, 50.2404 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 18, 2019 17:37",
-				"Expires_UTC" : "September 18, 2019 19:59",
-				"Summary" : "Description: Environment canada meteorologists are tracking a severe thunderstorm capable of producing quarter-sized hail and damaging winds in excess of 90 km/h.\n\nAt 12:36 PM CDT Doppler RADAR indicated that this severe thunderstorm was located about 15 km northeast of Neepawa and was nearly stationary.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.<br>Expires: 2019-09-18T19:59:32-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T17:37:32-00:00, urn:oid:2.49.0.1.124.2111125875.2019<br>Area: Mun. of Glenella-Lansdowne incl. Arden and Tenby",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.2111125875.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T17_37_32_00_00Iurn_oid_2.49.0.1.124.2111125875.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190918195932+00:00"
 			}
 		},
 		{
@@ -1398,75 +1347,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -99.4973, 51.8514 ],
-							[ -99.6067, 51.7181 ],
-							[ -99.6, 51.5645 ],
-							[ -99.5553, 51.4312 ],
-							[ -99.4699, 51.4914 ],
-							[ -99.4349, 51.5713 ],
-							[ -99.3299, 51.5604 ],
-							[ -99.2771, 51.4275 ],
-							[ -99.1819, 51.4844 ],
-							[ -99.1363, 51.2418 ],
-							[ -99.0539, 51.1986 ],
-							[ -99.0805, 51.0378 ],
-							[ -98.9249, 50.8873 ],
-							[ -98.6424, 50.41 ],
-							[ -98.7085, 50.2836 ],
-							[ -98.549, 50.1221 ],
-							[ -98.3369, 50.1027 ],
-							[ -97.9342, 50.2602 ],
-							[ -97.8545, 50.3964 ],
-							[ -98.0373, 50.6163 ],
-							[ -98.5565, 50.9911 ],
-							[ -98.6893, 50.9466 ],
-							[ -98.6966, 51.0066 ],
-							[ -98.5202, 51.1726 ],
-							[ -98.5384, 51.2978 ],
-							[ -98.729, 51.3367 ],
-							[ -98.7154, 51.4418 ],
-							[ -98.7582, 51.5144 ],
-							[ -98.6862, 51.5663 ],
-							[ -98.8069, 51.7408 ],
-							[ -99.0947, 51.7452 ],
-							[ -99.2104, 51.8345 ],
-							[ -99.2399, 51.6682 ],
-							[ -99.3036, 51.8219 ],
-							[ -99.3791, 51.8033 ],
-							[ -99.4973, 51.8514 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "September 18, 2019 16:41",
-				"Expires_UTC" : "September 18, 2019 19:34",
-				"Summary" : "Description: Squalls with wind gusts up to 35 knots are expected or occurring in the area.\n\nA severe thunderstorm with large hail and wind gusts in excess of 35 knots is near Reykjavik on the west shore of Lake Manitoba. This severe thunderstorm is nearly stationary.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-09-18T19:34:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T16:41:05-00:00, urn:oid:2.49.0.1.124.2224188891.2019<br>Area: Lake Manitoba",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.2224188891.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T16_41_05_00_00Iurn_oid_2.49.0.1.124.2224188891.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190918193405+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -55.9321, 47.1631 ],
 							[ -56.123, 46.9615 ],
 							[ -56.0644, 46.8176 ],
@@ -1547,6 +1427,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T18_30_02_00_00Iurn_oid_2.49.0.1.124.2610264894.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190919102902+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Tropical Cyclone Information Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Tropical Storm",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 18, 2019 17:48",
+				"Expires_UTC" : "September 19, 2019 23:47",
+				"Summary" : "Description: For Hurricane Humberto.\n\nThe next information statement will be issued by 09:00 p.m. ADT.\n\nHumberto will affect Bermuda late today and tonight. It will approach Canadian marine waters Thursday night into Friday, likely affecting the Scotian Slope, and then parts of the Grand Banks during the weekend.\n\n1. Summary of basic information at 03:00 p.m. ADT.\n\nLocation: 32.8 North 67.2 West.\n\nAbout 242 kilometres west of Bermuda.\n\nMaximum sustained winds: 195 kilometres per hour.\n\nPresent movement: East-northeast at 30 kilometres per hour.\n\nMinimum central pressure: 952 millibars.\n\n2. Public weather impacts and warnings summary.\n\nAt this time no significant effects are expected over land.\n\na. Wind.\n\nNo significant wind expected.\n\nb. Rainfall.\n\nNo significant rain expected.\n\nc. Surge/Waves.\n\nSwells may affect the Atlantic coast of Nova Scotia Friday, and southern Newfoundland during the weekend.\n\n3. Marine weather impacts and warnings summary.\n\nGale to Storm Force winds are likely over the Scotian Slope waters , Laurentian Fan, Banquereau Friday into Saturday, and then parts of the Grand Banks this weekend. As the winds increase, large waves will develop over offshore waters.\n\nForecaster(s): Couturier.\n\n###\n\nPlease continue to monitor alerts issued by the Canadian Hurricane Centre and forecasts issued by Environment Canada.<br>Expires: 2019-09-19T23:47:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T17:48:39-00:00, urn:oid:2.49.0.1.124.3164698132.2019<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.3164698132.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T17_48_39_00_00Iurn_oid_2.49.0.1.124.3164698132.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190919234739+00:00"
 			}
 		}
 	]
