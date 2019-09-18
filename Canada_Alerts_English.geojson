@@ -96,70 +96,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -98.9963, 50.6392 ],
-							[ -99.1315, 50.643 ],
-							[ -99.2754, 50.6389 ],
-							[ -99.3431, 50.6403 ],
-							[ -99.4152, 50.6388 ],
-							[ -99.4175, 50.6156 ],
-							[ -99.4151, 50.5946 ],
-							[ -99.4065, 50.5938 ],
-							[ -99.3999, 50.5946 ],
-							[ -99.4146, 50.4362 ],
-							[ -99.3997, 50.2404 ],
-							[ -99.3209, 50.2389 ],
-							[ -99.248, 50.2406 ],
-							[ -99.2558, 50.1505 ],
-							[ -99.2473, 50.0637 ],
-							[ -99.1817, 50.062 ],
-							[ -99.1105, 50.0634 ],
-							[ -99.1022, 50.1493 ],
-							[ -99.1105, 50.2408 ],
-							[ -99.1235, 50.2407 ],
-							[ -99.1122, 50.3681 ],
-							[ -99.1235, 50.5059 ],
-							[ -98.9761, 50.4986 ],
-							[ -98.846, 50.5064 ],
-							[ -98.8413, 50.5374 ],
-							[ -98.8466, 50.5654 ],
-							[ -98.9224, 50.5677 ],
-							[ -98.9851, 50.5648 ],
-							[ -98.9849, 50.5948 ],
-							[ -98.9963, 50.5949 ],
-							[ -98.9963, 50.6392 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 18, 2019 17:44",
-				"Expires_UTC" : "September 18, 2019 20:05",
-				"Summary" : "Description: Environment canada meteorologists are tracking a severe thunderstorm capable of producing loonie-sized hail and damaging winds in excess of 90 km/h.\n\nAt 12:42 PM CDT Doppler RADAR indicated that this severe thunderstorm was located near Arden and was moving toward the south at 10 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.<br>Expires: 2019-09-18T20:05:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T17:44:05-00:00, urn:oid:2.49.0.1.124.1356280384.2019<br>Area: Mun. of Glenella-Lansdowne incl. Arden and Tenby",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.1356280384.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T17_44_05_00_00Iurn_oid_2.49.0.1.124.1356280384.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190918200505+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -76.9902, 64.0605 ],
 							[ -76.5029, 64.098 ],
 							[ -75.9763, 64.1551 ],
@@ -798,25 +734,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 18, 2019 19:44",
-				"Expires_UTC" : "September 18, 2019 22:33",
-				"Summary" : "Description: At 2:43 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nEnvironment Canada meteorologists are tracking a severe thunderstorm capable of producing quarter-sized hail and damaging winds in excess of 90 km/h.\n\nAt 2:40 PM CDT Doppler RADAR indicated that this severe thunderstorm was located near Mulvihill and was nearly stationary.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.<br>Expires: 2019-09-18T22:33:43-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T19:44:43-00:00, urn:oid:2.49.0.1.124.0889010850.2019<br>Area: R.M. of Grahamdale incl. Gypsumville Moosehorn and Camper",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 18, 2019 20:04",
+				"Expires_UTC" : "September 18, 2019 21:03",
+				"Summary" : "Description: The thunderstorm that prompted the warning has weakened to below severe limits.\n\n###<br>Expires: 2019-09-18T21:03:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T20:04:33-00:00, urn:oid:2.49.0.1.124.2201625666.2019<br>Area: R.M. of Grahamdale incl. Gypsumville Moosehorn and Camper",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.0889010850.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T19_44_43_00_00Iurn_oid_2.49.0.1.124.0889010850.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.2201625666.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T20_04_33_00_00Iurn_oid_2.49.0.1.124.2201625666.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190918223343+00:00"
+				"Expires_FMEFormat" : "20190918210333+00:00"
 			}
 		},
 		{
@@ -1039,18 +975,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 18, 2019 15:52",
-				"Expires_UTC" : "September 18, 2019 23:50",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts and large hail.\n\nThunderstorms continue this morning in parts of Manitoba. Severe weather is possible, with hail to the size of loonies and wind gusts in excess of 90 km/h the main threats. Thunderstorms will move eastward and northeastward throughout the day.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2019-09-18T23:50:50-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T15:52:50-00:00, urn:oid:2.49.0.1.124.4103627140.2019<br>Area: R.M. of Coldwell incl. Lundar and Clarkleigh, R.M. of Gimli incl. Winnipeg Beach and Arnes, R.M. of St. Laurent incl. Oak Point, R.M. of Woodlands incl. Warren and Lake Francis, R.M. of Rockwood incl. Teulon Stonewall and Stony Mountain, R.M. of Rosser incl. Meadows, R.M. of West St. Paul incl. Middlechurch and Rivercrest, R.M. of Armstrong incl. Chatfield Inwood and Narcisse, R.M. of St. Andrews incl. Selkirk Lockport and Ponemah, Grand Rapids and Easterville, Waterhen Meadow Portage and Skownan, R.M. of Grahamdale incl. Gypsumville Moosehorn and Camper, Jackhead Res., R.M. of West Interlake incl. Eriksdale and Ashern, Mun. of Bifrost-Riverton incl. Arborg Hnausa and Hecla, Moose Creek Prov. Forest Pine Dock and Matheson Island, R.M. of Fisher incl. Poplarfield, Peguis Res. and Fisher River Res., R.M. of Alonsa incl. Ebb and Flow Res. and Sandy Bay Res., Mun. of Ste. Rose incl. Laurier, Mun. of McCreary incl. Norgate, Mun. of Glenella-Lansdowne incl. Arden and Tenby, Mun. of WestLake-Gladstone incl. Plumas and Langruth, Poplar River, Berens River, Little Grand Rapids and Atikaki Prov. Park, Bloodvein",
+				"LastUpdate_UTC" : "September 18, 2019 20:02",
+				"Expires_UTC" : "September 19, 2019 03:50",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts and large hail.\n\nThunderstorms continue this afternoon in parts of Manitoba. Severe weather is possible, with hail to the size of loonies and wind gusts in excess of 90 km/h the main threats. Thunderstorms will move into Ontario this evening.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2019-09-19T03:50:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-18T20:02:56-00:00, urn:oid:2.49.0.1.124.0342742388.2019<br>Area: R.M. of Coldwell incl. Lundar and Clarkleigh, R.M. of Gimli incl. Winnipeg Beach and Arnes, R.M. of St. Laurent incl. Oak Point, R.M. of Woodlands incl. Warren and Lake Francis, R.M. of Rockwood incl. Teulon Stonewall and Stony Mountain, R.M. of Rosser incl. Meadows, R.M. of West St. Paul incl. Middlechurch and Rivercrest, R.M. of Armstrong incl. Chatfield Inwood and Narcisse, R.M. of St. Andrews incl. Selkirk Lockport and Ponemah, R.M. of Grahamdale incl. Gypsumville Moosehorn and Camper, Jackhead Res., R.M. of West Interlake incl. Eriksdale and Ashern, Mun. of Bifrost-Riverton incl. Arborg Hnausa and Hecla, Moose Creek Prov. Forest Pine Dock and Matheson Island, R.M. of Fisher incl. Poplarfield, Peguis Res. and Fisher River Res., Poplar River, Berens River, Little Grand Rapids and Atikaki Prov. Park, Bloodvein",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.4103627140.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T15_52_50_00_00Iurn_oid_2.49.0.1.124.4103627140.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-18:feed.atom/urn:oid:2.49.0.1.124.0342742388.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-18/2019_09_18T20_02_56_00_00Iurn_oid_2.49.0.1.124.0342742388.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190918235050+00:00"
+				"Expires_FMEFormat" : "20190919035056+00:00"
 			}
 		},
 		{
