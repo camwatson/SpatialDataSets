@@ -9,61 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -76.4994, 48.6998 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ],
-							[ -75.9995, 50.4999 ],
-							[ -75.9995, 50.5156 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5289, 48.9206 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5246, 48.5242 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5258, 48.3407 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5176, 47.833 ],
-							[ -78.4996, 47.8372 ],
-							[ -77.9663, 47.835 ],
-							[ -77.7494, 47.8332 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.4994, 48.0998 ],
-							[ -76.4994, 48.3331 ],
-							[ -76.4994, 48.6998 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 25, 2019 20:35",
-				"Expires_UTC" : "September 26, 2019 04:02",
-				"Summary" : "Description: Early this evening, conditions are favourable for the development of severe thunderstorms capable of producing damaging wind gusts and producing large hail and heavy rain.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-09-26T04:02:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-25T20:35:29-00:00, urn:oid:2.49.0.1.124.3512381391.2019<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area, La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-25:feed.atom/urn:oid:2.49.0.1.124.3512381391.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-25/2019_09_25T20_35_29_00_00Iurn_oid_2.49.0.1.124.3512381391.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20190926040229+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -109.7657, 53.1854 ],
 							[ -109.7714, 53.192 ],
 							[ -109.7716, 53.1981 ],
@@ -639,6 +584,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-25/2019_09_25T21_18_20_00_00Iurn_oid_2.49.0.1.124.2322031656.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20190926011520+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ],
+							[ -75.9995, 50.4999 ],
+							[ -75.9995, 50.5156 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.6998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Severe Thunderstorm Watch Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 25, 2019 23:51",
+				"Expires_UTC" : "September 26, 2019 00:51",
+				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n###<br>Expires: 2019-09-26T00:51:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-09-25T23:51:51-00:00, urn:oid:2.49.0.1.124.1737001915.2019<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area, La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-09-25:feed.atom/urn:oid:2.49.0.1.124.1737001915.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-09-25/2019_09_25T23_51_51_00_00Iurn_oid_2.49.0.1.124.1737001915.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20190926005151+00:00"
 			}
 		},
 		{
