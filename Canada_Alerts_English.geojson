@@ -520,6 +520,50 @@
 				]
 			},
 			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Winter Storm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 12, 2019 14:25",
+				"Expires_UTC" : "October 13, 2019 06:24",
+				"Summary" : "Description: Blizzard conditions are expected to develop Sunday morning.  Strong winds and falling snow will combine to reduce visibility for an extended period.  Conditions are expected to improve Monday evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-10-13T06:24:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-12T14:25:10-00:00, urn:oid:2.49.0.1.124.0625704182.2019<br>Area: Resolute",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-12:feed.atom/urn:oid:2.49.0.1.124.0625704182.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-12/2019_10_12T14_25_10_00_00Iurn_oid_2.49.0.1.124.0625704182.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191013062410+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.9056, 74.3191 ],
+							[ -94.8626, 74.2936 ],
+							[ -94.1547, 74.3414 ],
+							[ -94.1885, 74.6339 ],
+							[ -94.152, 74.6625 ],
+							[ -94.2078, 74.8178 ],
+							[ -94.6546, 74.9248 ],
+							[ -95.2633, 74.925 ],
+							[ -95.7119, 74.8173 ],
+							[ -95.8949, 74.6509 ],
+							[ -95.9056, 74.3191 ]
+						]
+					]
+				]
+			},
+			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
 				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
@@ -1177,91 +1221,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-12/2019_10_12T19_09_59_00_00Iurn_oid_2.49.0.1.124.3728656040.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191013110859+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 12, 2019 13:42",
-				"Expires_UTC" : "October 13, 2019 02:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nSoutheasterly winds gusting to 100 km/h will develop this afternoon and then diminish this evening.\n\n###\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-10-13T02:59:01-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-12T13:42:01-00:00, urn:oid:2.49.0.1.124.2351734212.2019<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-12:feed.atom/urn:oid:2.49.0.1.124.2351734212.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-12/2019_10_12T13_42_01_00_00Iurn_oid_2.49.0.1.124.2351734212.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191013025901+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.9056, 74.3191 ],
-							[ -94.8626, 74.2936 ],
-							[ -94.1547, 74.3414 ],
-							[ -94.1885, 74.6339 ],
-							[ -94.152, 74.6625 ],
-							[ -94.2078, 74.8178 ],
-							[ -94.6546, 74.9248 ],
-							[ -95.2633, 74.925 ],
-							[ -95.7119, 74.8173 ],
-							[ -95.8949, 74.6509 ],
-							[ -95.9056, 74.3191 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 12, 2019 14:25",
-				"Expires_UTC" : "October 13, 2019 06:24",
-				"Summary" : "Description: Blizzard conditions are expected to develop Sunday morning.  Strong winds and falling snow will combine to reduce visibility for an extended period.  Conditions are expected to improve Monday evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-10-13T06:24:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-12T14:25:10-00:00, urn:oid:2.49.0.1.124.0625704182.2019<br>Area: Resolute",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-12:feed.atom/urn:oid:2.49.0.1.124.0625704182.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-12/2019_10_12T14_25_10_00_00Iurn_oid_2.49.0.1.124.0625704182.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191013062410+00:00"
 			}
 		}
 	]
