@@ -575,6 +575,104 @@
 				"coordinates" : [
 					[
 						[
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.5801, 47.197 ],
+							[ -53.6255, 47.0909 ],
+							[ -53.6943, 47.0667 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -53.0787, 47.6842 ],
+							[ -53.0399, 47.4957 ],
+							[ -53.0399, 47.4918 ],
+							[ -53.0399, 47.2249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 16, 2019 18:21",
+				"Expires_UTC" : "October 17, 2019 10:20",
+				"Summary" : "Description: Significant rainfall is expected.\n\nTotal rainfall: 30 to 45 mm. Locally higher amounts possible.\n\nLocations: Eastern and southeastern Avalon Peninsula.\n\nTimespan: Thursday night until Friday evening.\n\nRemarks: Rain is expected to begin Thursday night and may become heavy, at times, over some areas. The rain will taper off again Friday night. At this time, it appears the heaviest amounts will occur over southernmost sections of the Avalon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-10-17T10:20:53-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-16T18:21:53-00:00, urn:oid:2.49.0.1.124.2244557985.2019<br>Area: Avalon Peninsula Southeast, St. John's and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-16:feed.atom/urn:oid:2.49.0.1.124.2244557985.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-16/2019_10_16T18_21_53_00_00Iurn_oid_2.49.0.1.124.2244557985.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191017102053+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 16, 2019 18:24",
+				"Expires_UTC" : "October 17, 2019 10:24",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-10-17T10:24:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-16T18:24:02-00:00, urn:oid:2.49.0.1.124.1458784301.2019<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-16:feed.atom/urn:oid:2.49.0.1.124.1458784301.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-16/2019_10_16T18_24_02_00_00Iurn_oid_2.49.0.1.124.1458784301.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191017102402+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -71.233, 47.0165 ],
 							[ -71.4664, 46.7831 ],
 							[ -71.4527, 46.7491 ],
@@ -1249,18 +1347,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "October 16, 2019 13:19",
-				"Expires_UTC" : "October 17, 2019 05:18",
-				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\nMaximum gusts: locally 130 km/h or more in the Wreckhouse area.\n\nTimespan: Thursday afternoon until midnight Thursday night.\n\nRemarks: Strong southeasterly winds will develop Thursday afternoon and further strengthen with the strongest gusts occurring Thursday evening. Winds will ease after midnight Thursday night.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-10-17T05:18:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-16T13:19:05-00:00, urn:oid:2.49.0.1.124.2140566230.2019<br>Area: Channel-Port aux Basques and vicinity",
+				"LastUpdate_UTC" : "October 16, 2019 18:23",
+				"Expires_UTC" : "October 17, 2019 10:23",
+				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-10-17T10:23:18-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-16T18:23:18-00:00, urn:oid:2.49.0.1.124.1674153544.2019<br>Area: Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-16:feed.atom/urn:oid:2.49.0.1.124.2140566230.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-16/2019_10_16T13_19_05_00_00Iurn_oid_2.49.0.1.124.2140566230.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-16:feed.atom/urn:oid:2.49.0.1.124.1674153544.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-16/2019_10_16T18_23_18_00_00Iurn_oid_2.49.0.1.124.1674153544.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191017051805+00:00"
+				"Expires_FMEFormat" : "20191017102318+00:00"
 			}
 		},
 		{
