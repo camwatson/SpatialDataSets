@@ -9,6 +9,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -71.0126, 48.1917 ],
+							[ -71.5524, 48.3338 ],
+							[ -72.0026, 48.2499 ],
+							[ -72.0026, 48.2497 ],
+							[ -72.0027, 47.7998 ],
+							[ -72.0029, 47.2 ],
+							[ -71.585, 47.1941 ],
+							[ -71.016, 47.1831 ],
+							[ -70.5032, 47.6322 ],
+							[ -70.1357, 47.9471 ],
+							[ -70.2615, 47.9894 ],
+							[ -70.5546, 48.0769 ],
+							[ -70.9118, 48.1728 ],
+							[ -71.0126, 48.1917 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 17, 2019 12:59",
+				"Expires_UTC" : "October 18, 2019 04:58",
+				"Summary" : "Description: Snow with total accumulations of near 15 cm are expected over parts of the Laurentian Wildlife Reserve today and this evening.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-10-18T04:58:03-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T12:59:03-00:00, urn:oid:2.49.0.1.124.2689458084.2019<br>Area: Apica Mountain area, Grands-Jardins Park area, l'Étape area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.2689458084.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T12_59_03_00_00Iurn_oid_2.49.0.1.124.2689458084.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191018045803+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -96.7845, 49 ],
 							[ -96.2476, 49 ],
 							[ -95.306, 49 ],
@@ -1171,16 +1218,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "October 17, 2019 12:53",
+				"LastUpdate_UTC" : "October 17, 2019 12:54",
 				"Expires_UTC" : "October 18, 2019 01:34",
-				"Summary" : "Description: Higher than normal water levels are expected or occurring.\n\n###\n\nCoastal flooding is likely, especially during high tide. Coastal erosion is possible in vulnerable areas.\n\nHigh water level warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-10-18T01:34:50-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T12:53:50-00:00, urn:oid:2.49.0.1.124.0769147893.2019<br>Area: Anticosti, Chaleur - Miscou",
+				"Summary" : "Description: Higher than normal water levels are expected or occurring.\n\nAn intense low pressure system tracking toward the region will give severe easterly winds this afternoon and evening. These winds will produce waves which in combination with a storm surge will give higher than normal waters at high tide this evening. These water levels will result in flooding along coastlines and potential erosion to beaches and damage to infrastructure.\n\n###\n\nCoastal flooding is likely, especially during high tide. Coastal erosion is possible in vulnerable areas.\n\nHigh water level warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2019-10-18T01:34:50-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T12:54:50-00:00, urn:oid:2.49.0.1.124.0533996878.2019<br>Area: Anticosti, Chaleur - Miscou",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.0769147893.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T12_53_50_00_00Iurn_oid_2.49.0.1.124.0769147893.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.0533996878.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T12_54_50_00_00Iurn_oid_2.49.0.1.124.0533996878.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191018013450+00:00"
 			}
@@ -1624,25 +1671,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
+				"subCategory" : "Met:Warning:Severe",
 				"Title" : "Les Suêtes Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 17, 2019 07:48",
-				"Expires_UTC" : "October 17, 2019 23:47",
-				"Summary" : "Description: Strong winds gusting to 130 km/hr are forecast to develop Thursday afternoon.  Winds are expected to ease Thursday evening.\n\n###\n\nVery strong winds may push your vehicle around especially on roads through mountain passes and along deep valleys.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-10-17T23:47:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T07:48:28-00:00, urn:oid:2.49.0.1.124.2188158389.2019<br>Area: Inverness County - Mabou and north",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "October 17, 2019 13:03",
+				"Expires_UTC" : "October 18, 2019 01:59",
+				"Summary" : "Description: Very strong wind gusts that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-10-18T01:59:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T13:03:24-00:00, urn:oid:2.49.0.1.124.1984044027.2019<br>Area: Inverness County - Mabou and north",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.2188158389.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T07_48_28_00_00Iurn_oid_2.49.0.1.124.2188158389.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.1984044027.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T13_03_24_00_00Iurn_oid_2.49.0.1.124.1984044027.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191017234728+00:00"
+				"Expires_FMEFormat" : "20191018015924+00:00"
 			}
 		},
 		{
