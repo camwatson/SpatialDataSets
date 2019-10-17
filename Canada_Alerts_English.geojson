@@ -474,6 +474,85 @@
 				"coordinates" : [
 					[
 						[
+							[ -80.3679, 46.7151 ],
+							[ -80.566, 46.7261 ],
+							[ -80.566, 46.8912 ],
+							[ -80.8125, 46.8912 ],
+							[ -80.8125, 46.9683 ],
+							[ -81.0754, 46.97 ],
+							[ -81.939, 46.9696 ],
+							[ -81.939, 46.6086 ],
+							[ -82.0579, 46.6086 ],
+							[ -82.0579, 46.2733 ],
+							[ -82.0476, 46.0965 ],
+							[ -82.0969, 45.9754 ],
+							[ -81.9598, 45.9888 ],
+							[ -81.8832, 45.9727 ],
+							[ -81.8967, 45.8959 ],
+							[ -81.6625, 45.9078 ],
+							[ -81.6008, 45.8581 ],
+							[ -81.3805, 45.849 ],
+							[ -80.8486, 45.8248 ],
+							[ -80.7432, 45.8894 ],
+							[ -80.7251, 45.8899 ],
+							[ -80.5706, 45.8856 ],
+							[ -79.7785, 45.901 ],
+							[ -79.6173, 45.9047 ],
+							[ -79.5385, 45.9261 ],
+							[ -79.2711, 45.9989 ],
+							[ -78.6213, 46.1756 ],
+							[ -78.3597, 46.2468 ],
+							[ -78.3417, 46.2607 ],
+							[ -78.3382, 46.2631 ],
+							[ -78.3344, 46.2912 ],
+							[ -78.3748, 46.3144 ],
+							[ -78.4765, 46.3158 ],
+							[ -78.5836, 46.3403 ],
+							[ -78.6878, 46.344 ],
+							[ -78.6857, 46.3783 ],
+							[ -78.7063, 46.403 ],
+							[ -78.8477, 46.4674 ],
+							[ -78.953, 46.5625 ],
+							[ -78.984, 46.6586 ],
+							[ -79.0486, 46.6951 ],
+							[ -79.0624, 46.7207 ],
+							[ -79.1058, 46.7145 ],
+							[ -79.1099, 46.7147 ],
+							[ -79.5386, 46.7145 ],
+							[ -80.3679, 46.7151 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 16, 2019 19:12",
+				"Expires_UTC" : "October 17, 2019 11:11",
+				"Summary" : "Description: Rain tapering off this evening. \n\nRainfall amounts of 30 to 50 mm are likely by the time the rain tapers off this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-10-17T11:11:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-16T19:12:11-00:00, urn:oid:2.49.0.1.124.3614743920.2019<br>Area: Greater Sudbury and vicinity, West Nipissing - French River, North Bay - Powassan - Mattawa, Espanola - Killarney",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-16:feed.atom/urn:oid:2.49.0.1.124.3614743920.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-16/2019_10_16T19_12_11_00_00Iurn_oid_2.49.0.1.124.3614743920.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191017111111+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -97.1599, 49.5319 ],
 							[ -97.0488, 49.5318 ],
 							[ -97.049, 49.5908 ],
@@ -737,56 +816,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-16/2019_10_16T19_15_02_00_00Iurn_oid_2.49.0.1.124.2390528301.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191017111402+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.5801, 47.197 ],
-							[ -53.6255, 47.0909 ],
-							[ -53.6943, 47.0667 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -53.0787, 47.6842 ],
-							[ -53.0399, 47.4957 ],
-							[ -53.0399, 47.4918 ],
-							[ -53.0399, 47.2249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 17, 2019 00:30",
-				"Expires_UTC" : "October 17, 2019 16:29",
-				"Summary" : "Description: Significant rainfall is expected.\n\nTotal rainfall: 30 to 45 mm. Locally higher amounts possible.\n\nLocations: eastern and southeastern Avalon Peninsula.\n\nTimespan: Thursday night until Friday evening.\n\nRemarks: Rain will begin Thursday night and may become heavy, at times, over some areas. It appears the highest amounts will likely occur over southernmost sections of the Avalon Peninsula. The rain is expected to taper off again on Friday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-10-17T16:29:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T00:30:44-00:00, urn:oid:2.49.0.1.124.3583220344.2019<br>Area: Avalon Peninsula Southeast, St. John's and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.3583220344.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T00_30_44_00_00Iurn_oid_2.49.0.1.124.3583220344.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191017162944+00:00"
 			}
 		},
 		{
@@ -1820,52 +1849,23 @@
 				"coordinates" : [
 					[
 						[
-							[ -80.3679, 46.7151 ],
-							[ -80.566, 46.7261 ],
-							[ -80.566, 46.8912 ],
-							[ -80.8125, 46.8912 ],
-							[ -80.8125, 46.9683 ],
-							[ -81.0754, 46.97 ],
-							[ -81.939, 46.9696 ],
-							[ -81.939, 46.6086 ],
-							[ -82.0579, 46.6086 ],
-							[ -82.0579, 46.2733 ],
-							[ -82.0476, 46.0965 ],
-							[ -82.0969, 45.9754 ],
-							[ -81.9598, 45.9888 ],
-							[ -81.8832, 45.9727 ],
-							[ -81.8967, 45.8959 ],
-							[ -81.6625, 45.9078 ],
-							[ -81.6008, 45.8581 ],
-							[ -81.3805, 45.849 ],
-							[ -80.8486, 45.8248 ],
-							[ -80.7432, 45.8894 ],
-							[ -80.7251, 45.8899 ],
-							[ -80.5706, 45.8856 ],
-							[ -79.7785, 45.901 ],
-							[ -79.6173, 45.9047 ],
-							[ -79.5385, 45.9261 ],
-							[ -79.2711, 45.9989 ],
-							[ -78.6213, 46.1756 ],
-							[ -78.3597, 46.2468 ],
-							[ -78.3417, 46.2607 ],
-							[ -78.3382, 46.2631 ],
-							[ -78.3344, 46.2912 ],
-							[ -78.3748, 46.3144 ],
-							[ -78.4765, 46.3158 ],
-							[ -78.5836, 46.3403 ],
-							[ -78.6878, 46.344 ],
-							[ -78.6857, 46.3783 ],
-							[ -78.7063, 46.403 ],
-							[ -78.8477, 46.4674 ],
-							[ -78.953, 46.5625 ],
-							[ -78.984, 46.6586 ],
-							[ -79.0486, 46.6951 ],
-							[ -79.0624, 46.7207 ],
-							[ -79.1058, 46.7145 ],
-							[ -79.1099, 46.7147 ],
-							[ -79.5386, 46.7145 ],
-							[ -80.3679, 46.7151 ]
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.5801, 47.197 ],
+							[ -53.6255, 47.0909 ],
+							[ -53.6943, 47.0667 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -53.0787, 47.6842 ],
+							[ -53.0399, 47.4957 ],
+							[ -53.0399, 47.4918 ],
+							[ -53.0399, 47.2249 ]
 						]
 					]
 				]
@@ -1878,18 +1878,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 16, 2019 19:12",
-				"Expires_UTC" : "October 17, 2019 11:11",
-				"Summary" : "Description: Rain tapering off this evening. \n\nRainfall amounts of 30 to 50 mm are likely by the time the rain tapers off this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-10-17T11:11:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-16T19:12:11-00:00, urn:oid:2.49.0.1.124.3614743920.2019<br>Area: Greater Sudbury and vicinity, West Nipissing - French River, North Bay - Powassan - Mattawa, Espanola - Killarney",
+				"LastUpdate_UTC" : "October 17, 2019 00:30",
+				"Expires_UTC" : "October 17, 2019 16:29",
+				"Summary" : "Description: Significant rainfall is expected.\n\nTotal rainfall: 30 to 45 mm. Locally higher amounts possible.\n\nLocations: eastern and southeastern Avalon Peninsula.\n\nTimespan: Thursday night until Friday evening.\n\nRemarks: Rain will begin Thursday night and may become heavy, at times, over some areas. It appears the highest amounts will likely occur over southernmost sections of the Avalon Peninsula. The rain is expected to taper off again on Friday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-10-17T16:29:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T00:30:44-00:00, urn:oid:2.49.0.1.124.3583220344.2019<br>Area: Avalon Peninsula Southeast, St. John's and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-16:feed.atom/urn:oid:2.49.0.1.124.3614743920.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-16/2019_10_16T19_12_11_00_00Iurn_oid_2.49.0.1.124.3614743920.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.3583220344.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T00_30_44_00_00Iurn_oid_2.49.0.1.124.3583220344.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191017111111+00:00"
+				"Expires_FMEFormat" : "20191017162944+00:00"
 			}
 		}
 	]
