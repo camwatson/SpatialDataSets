@@ -1094,6 +1094,62 @@
 				"coordinates" : [
 					[
 						[
+							[ -69.7684, 48.8682 ],
+							[ -70.2496, 48.6665 ],
+							[ -69.8095, 48.4184 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.2423, 48.4587 ],
+							[ -68.5214, 48.9033 ],
+							[ -68.6283, 49.004 ],
+							[ -68.8408, 49.251 ],
+							[ -69.7684, 48.8682 ]
+						]
+					],
+					[
+						[
+							[ -66.9659, 49.9408 ],
+							[ -67.4996, 49.8331 ],
+							[ -67.5055, 49.8307 ],
+							[ -67.5073, 49.3198 ],
+							[ -67.508, 49.2382 ],
+							[ -67.2832, 49.2432 ],
+							[ -66.805, 49.3539 ],
+							[ -66.868, 49.9512 ],
+							[ -66.9633, 49.9413 ],
+							[ -66.9659, 49.9408 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 18, 2019 08:31",
+				"Expires_UTC" : "October 18, 2019 09:31",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2019-10-18T09:31:01-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-18T08:31:01-00:00, urn:oid:2.49.0.1.124.3019266246.2019<br>Area: Forestville area, Les Escoumins area, Baie-Trinité area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-18:feed.atom/urn:oid:2.49.0.1.124.3019266246.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-18/2019_10_18T08_31_01_00_00Iurn_oid_2.49.0.1.124.3019266246.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191018093101+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -60.7945, 56.6786 ],
 							[ -61.1044, 56.5708 ],
 							[ -61.8607, 56.6166 ],
@@ -1570,73 +1626,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					],
-					[
-						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 18, 2019 08:12",
-				"Expires_UTC" : "October 19, 2019 00:12",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-10-19T00:12:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-18T08:12:44-00:00, urn:oid:2.49.0.1.124.0566711689.2019<br>Area: Rankin Region including Whale Cove, Chesterfield Inlet",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-18:feed.atom/urn:oid:2.49.0.1.124.0566711689.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-18/2019_10_18T08_12_44_00_00Iurn_oid_2.49.0.1.124.0566711689.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191019001244+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -97.1599, 49.5319 ],
 							[ -97.0488, 49.5318 ],
 							[ -97.049, 49.5908 ],
@@ -1945,18 +1934,111 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 18, 2019 08:26",
+				"LastUpdate_UTC" : "October 18, 2019 08:27",
 				"Expires_UTC" : "October 18, 2019 21:12",
-				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-10-18T21:12:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-18T08:26:24-00:00, urn:oid:2.49.0.1.124.2174658903.2019<br>Area: Simcoe - Delhi - Norfolk, Dunnville - Caledonia - Haldimand, Watford - Pinery Park - Eastern Lambton County, Sarnia - Petrolia - Western Lambton County, Chatham-Kent - Rondeau Park, Windsor - Leamington - Essex County, St. Thomas - Aylmer - Eastern Elgin County, Rodney - Shedden - Western Elgin County, City of Hamilton",
+				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\nTemperatures have dropped to near the freezing mark in some places early this morning, but should rise quickly after sunrise.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-10-18T21:12:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-18T08:27:24-00:00, urn:oid:2.49.0.1.124.3739545430.2019<br>Area: Simcoe - Delhi - Norfolk, Dunnville - Caledonia - Haldimand, Watford - Pinery Park - Eastern Lambton County, Sarnia - Petrolia - Western Lambton County, Chatham-Kent - Rondeau Park, Windsor - Leamington - Essex County, St. Thomas - Aylmer - Eastern Elgin County, Rodney - Shedden - Western Elgin County, City of Hamilton",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-18:feed.atom/urn:oid:2.49.0.1.124.2174658903.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-18/2019_10_18T08_26_24_00_00Iurn_oid_2.49.0.1.124.2174658903.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-18:feed.atom/urn:oid:2.49.0.1.124.3739545430.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-18/2019_10_18T08_27_24_00_00Iurn_oid_2.49.0.1.124.3739545430.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191018211224+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -70.5032, 47.6322 ],
+							[ -71.016, 47.1831 ],
+							[ -70.7016, 47.0257 ],
+							[ -70.5437, 47.16 ],
+							[ -70.2482, 47.4424 ],
+							[ -69.7836, 47.82 ],
+							[ -69.8631, 47.8597 ],
+							[ -70.1357, 47.9471 ],
+							[ -70.5032, 47.6322 ]
+						]
+					],
+					[
+						[
+							[ -69.7684, 48.8682 ],
+							[ -70.2496, 48.6665 ],
+							[ -69.8095, 48.4184 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.2423, 48.4587 ],
+							[ -68.5214, 48.9033 ],
+							[ -68.6283, 49.004 ],
+							[ -68.8408, 49.251 ],
+							[ -69.7684, 48.8682 ]
+						]
+					],
+					[
+						[
+							[ -66.9659, 49.9408 ],
+							[ -67.4996, 49.8331 ],
+							[ -67.5055, 49.8307 ],
+							[ -67.5073, 49.3198 ],
+							[ -67.508, 49.2382 ],
+							[ -67.2832, 49.2432 ],
+							[ -66.805, 49.3539 ],
+							[ -66.868, 49.9512 ],
+							[ -66.9633, 49.9413 ],
+							[ -66.9659, 49.9408 ]
+						]
+					],
+					[
+						[
+							[ -64.75, 48.4658 ],
+							[ -65.0706, 48.4384 ],
+							[ -65.2298, 48.4244 ],
+							[ -65.4677, 48.4029 ],
+							[ -65.4764, 48.4021 ],
+							[ -65.4763, 48.4015 ],
+							[ -65.4342, 48 ],
+							[ -65.4344, 47.921 ],
+							[ -65.2163, 47.9516 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 17, 2019 19:42",
+				"Expires_UTC" : "October 18, 2019 11:41",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nUp to 60 millimetres of rain is expected. The rain will taper off tonight.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-10-18T11:41:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T19:42:36-00:00, urn:oid:2.49.0.1.124.2896056299.2019<br>Area: Forestville area, Les Escoumins area, La Malbaie area, Baie-Saint-Paul area, Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Baie-Trinité area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.2896056299.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T19_42_36_00_00Iurn_oid_2.49.0.1.124.2896056299.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191018114136+00:00"
 			}
 		},
 		{
@@ -2251,6 +2333,73 @@
 				"coordinates" : [
 					[
 						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					],
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 18, 2019 08:13",
+				"Expires_UTC" : "October 19, 2019 00:12",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA low pressure system tracking northeastwards out of the northern Prairie provinces will spread snow into Whale Cove, Rankin Inlet, and Chesterfield Inlet on Friday.  The snow may be mixed at times with rain, which may limit accumulations initially, before precipitation intensifies Friday night into Saturday.  Total accumulations will likely be in the 10 to 15 cm range by the time the snow tapers off on Sunday.\n\nThis snowfall warning may be expanded to Naujaat later today for heavy snowfall expected on Saturday into Sunday.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-10-19T00:12:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-18T08:13:44-00:00, urn:oid:2.49.0.1.124.1324037704.2019<br>Area: Rankin Region including Whale Cove, Chesterfield Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-18:feed.atom/urn:oid:2.49.0.1.124.1324037704.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-18/2019_10_18T08_13_44_00_00Iurn_oid_2.49.0.1.124.1324037704.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191019001244+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.3109, 49.4067 ],
 							[ -58.8133, 48.8226 ],
 							[ -59.2492, 48.6594 ],
@@ -2467,99 +2616,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-18/2019_10_18T01_27_04_00_00Iurn_oid_2.49.0.1.124.1749414313.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191018100404+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -70.5032, 47.6322 ],
-							[ -71.016, 47.1831 ],
-							[ -70.7016, 47.0257 ],
-							[ -70.5437, 47.16 ],
-							[ -70.2482, 47.4424 ],
-							[ -69.7836, 47.82 ],
-							[ -69.8631, 47.8597 ],
-							[ -70.1357, 47.9471 ],
-							[ -70.5032, 47.6322 ]
-						]
-					],
-					[
-						[
-							[ -69.7684, 48.8682 ],
-							[ -70.2496, 48.6665 ],
-							[ -69.8095, 48.4184 ],
-							[ -69.4699, 48.2224 ],
-							[ -69.2423, 48.4587 ],
-							[ -68.5214, 48.9033 ],
-							[ -68.6283, 49.004 ],
-							[ -68.8408, 49.251 ],
-							[ -69.7684, 48.8682 ]
-						]
-					],
-					[
-						[
-							[ -66.9659, 49.9408 ],
-							[ -67.4996, 49.8331 ],
-							[ -67.5055, 49.8307 ],
-							[ -67.5073, 49.3198 ],
-							[ -67.508, 49.2382 ],
-							[ -67.2832, 49.2432 ],
-							[ -66.805, 49.3539 ],
-							[ -66.868, 49.9512 ],
-							[ -66.9633, 49.9413 ],
-							[ -66.9659, 49.9408 ]
-						]
-					],
-					[
-						[
-							[ -64.75, 48.4658 ],
-							[ -65.0706, 48.4384 ],
-							[ -65.2298, 48.4244 ],
-							[ -65.4677, 48.4029 ],
-							[ -65.4764, 48.4021 ],
-							[ -65.4763, 48.4015 ],
-							[ -65.4342, 48 ],
-							[ -65.4344, 47.921 ],
-							[ -65.2163, 47.9516 ],
-							[ -64.7544, 48.0994 ],
-							[ -64.2197, 48.3156 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7559, 48.6496 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.75, 48.4658 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 17, 2019 19:42",
-				"Expires_UTC" : "October 18, 2019 11:41",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nUp to 60 millimetres of rain is expected. The rain will taper off tonight.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-10-18T11:41:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T19:42:36-00:00, urn:oid:2.49.0.1.124.2896056299.2019<br>Area: Forestville area, Les Escoumins area, La Malbaie area, Baie-Saint-Paul area, Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Baie-Trinité area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.2896056299.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T19_42_36_00_00Iurn_oid_2.49.0.1.124.2896056299.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191018114136+00:00"
 			}
 		}
 	]
