@@ -1491,6 +1491,59 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.75, 48.4658 ],
+							[ -65.0706, 48.4384 ],
+							[ -65.2298, 48.4244 ],
+							[ -65.4677, 48.4029 ],
+							[ -65.4764, 48.4021 ],
+							[ -65.4763, 48.4015 ],
+							[ -65.4342, 48 ],
+							[ -65.4344, 47.921 ],
+							[ -65.2163, 47.9516 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 17, 2019 19:41",
+				"Expires_UTC" : "October 18, 2019 03:59",
+				"Summary" : "Description: Easterly winds gusting up to 90 kilometres per hour will diminish this evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-10-18T03:59:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T19:41:08-00:00, urn:oid:2.49.0.1.124.0493105232.2019<br>Area: Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.0493105232.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T19_41_08_00_00Iurn_oid_2.49.0.1.124.0493105232.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191018035908+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.1656, 49.645 ],
 							[ -95.1698, 49.644 ],
 							[ -95.1712, 49.6413 ],
@@ -1871,50 +1924,52 @@
 				"coordinates" : [
 					[
 						[
-							[ -64.75, 48.4658 ],
-							[ -65.0706, 48.4384 ],
-							[ -65.2298, 48.4244 ],
-							[ -65.4677, 48.4029 ],
-							[ -65.4764, 48.4021 ],
-							[ -65.4763, 48.4015 ],
-							[ -65.4342, 48 ],
-							[ -65.4344, 47.921 ],
-							[ -65.2163, 47.9516 ],
-							[ -64.7544, 48.0994 ],
-							[ -64.2197, 48.3156 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7559, 48.6496 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.75, 48.4658 ]
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -53.0787, 47.6842 ],
+							[ -53.0399, 47.4957 ],
+							[ -53.0399, 47.4918 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 17, 2019 19:41",
-				"Expires_UTC" : "October 18, 2019 03:59",
-				"Summary" : "Description: Easterly winds gusting up to 90 kilometres per hour will diminish this evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-10-18T03:59:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T19:41:08-00:00, urn:oid:2.49.0.1.124.0493105232.2019<br>Area: Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 17, 2019 18:17",
+				"Expires_UTC" : "October 18, 2019 10:16",
+				"Summary" : "Description: Significant rainfall is expected.\n\nTotal rainfall: 30 to 45 mm. Locally higher amounts possible.\n\nLocations: eastern and southern Avalon Peninsula.\n\nTimespan: Tonight until Friday evening.\n\nRemarks: Rain will begin tonight and may become heavy, at times, over some areas. It appears the highest amounts will likely occur over southernmost sections of the Avalon Peninsula. The rain is expected to taper off again on Friday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-10-18T10:16:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T18:17:58-00:00, urn:oid:2.49.0.1.124.3596143734.2019<br>Area: Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.0493105232.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T19_41_08_00_00Iurn_oid_2.49.0.1.124.0493105232.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.3596143734.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T18_17_58_00_00Iurn_oid_2.49.0.1.124.3596143734.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191018035908+00:00"
+				"Expires_FMEFormat" : "20191018101658+00:00"
 			}
 		},
 		{
@@ -1971,52 +2026,72 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -53.0787, 47.6842 ],
-							[ -53.0399, 47.4957 ],
-							[ -53.0399, 47.4918 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
+							[ -74.4292, 45.2706 ],
+							[ -74.4507, 45.2895 ],
+							[ -74.472, 45.3027 ],
+							[ -74.4411, 45.3508 ],
+							[ -74.4349, 45.4028 ],
+							[ -74.3865, 45.487 ],
+							[ -74.3682, 45.5879 ],
+							[ -74.4745, 45.6193 ],
+							[ -74.5134, 45.6211 ],
+							[ -74.6175, 45.6634 ],
+							[ -74.8383, 45.6618 ],
+							[ -74.9395, 45.671 ],
+							[ -75.0093, 45.6376 ],
+							[ -75.1824, 45.6126 ],
+							[ -75.251, 45.6089 ],
+							[ -75.3429, 45.5609 ],
+							[ -75.3129, 45.4613 ],
+							[ -75.2401, 45.372 ],
+							[ -75.3278, 45.3501 ],
+							[ -75.4223, 45.3203 ],
+							[ -75.3965, 45.255 ],
+							[ -75.3515, 45.1828 ],
+							[ -75.4768, 45.1391 ],
+							[ -75.5942, 45.085 ],
+							[ -75.595, 45.0845 ],
+							[ -75.5142, 44.9784 ],
+							[ -75.4171, 44.8704 ],
+							[ -75.3666, 44.8098 ],
+							[ -75.356, 44.8059 ],
+							[ -75.3534, 44.8031 ],
+							[ -74.8476, 45.0242 ],
+							[ -74.8006, 45.0212 ],
+							[ -74.7882, 45.0071 ],
+							[ -74.6612, 44.9994 ],
+							[ -74.6134, 44.9974 ],
+							[ -74.5788, 45.0158 ],
+							[ -74.4541, 45.0282 ],
+							[ -74.374, 45.1128 ],
+							[ -74.3059, 45.1508 ],
+							[ -74.3427, 45.205 ],
+							[ -74.3627, 45.2198 ],
+							[ -74.4292, 45.2706 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Rainfall",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 17, 2019 18:17",
-				"Expires_UTC" : "October 18, 2019 10:16",
-				"Summary" : "Description: Significant rainfall is expected.\n\nTotal rainfall: 30 to 45 mm. Locally higher amounts possible.\n\nLocations: eastern and southern Avalon Peninsula.\n\nTimespan: Tonight until Friday evening.\n\nRemarks: Rain will begin tonight and may become heavy, at times, over some areas. It appears the highest amounts will likely occur over southernmost sections of the Avalon Peninsula. The rain is expected to taper off again on Friday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-10-18T10:16:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T18:17:58-00:00, urn:oid:2.49.0.1.124.3596143734.2019<br>Area: Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 17, 2019 19:05",
+				"Expires_UTC" : "October 18, 2019 04:39",
+				"Summary" : "Description: Rain will slowly taper off tonight.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-10-18T04:39:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T19:05:23-00:00, urn:oid:2.49.0.1.124.1670833980.2019<br>Area: Maxville - Alexandria, Cornwall - Lancaster, Winchester - Newington, Morrisburg - Long Sault, Prescott and Russell",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.3596143734.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T18_17_58_00_00Iurn_oid_2.49.0.1.124.3596143734.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.1670833980.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T19_05_23_00_00Iurn_oid_2.49.0.1.124.1670833980.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191018101658+00:00"
+				"Expires_FMEFormat" : "20191018043923+00:00"
 			}
 		},
 		{
@@ -2240,67 +2315,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.2163, 47.9516 ],
-							[ -65.4344, 47.921 ],
-							[ -65.8243, 48.018 ],
-							[ -66.0128, 48.0649 ],
-							[ -66.2939, 48.0424 ],
-							[ -66.4422, 48.0905 ],
-							[ -66.6148, 48.0154 ],
-							[ -66.7805, 47.993 ],
-							[ -66.7817, 48.0207 ],
-							[ -66.9036, 48.0246 ],
-							[ -66.9911, 47.9783 ],
-							[ -66.9979, 47.9393 ],
-							[ -67.0035, 47.9082 ],
-							[ -67.0033, 47.3573 ],
-							[ -66.1938, 47.5446 ],
-							[ -65.8021, 47.2172 ],
-							[ -65.802, 47.2161 ],
-							[ -65.802, 47.2158 ],
-							[ -65.2377, 47.2849 ],
-							[ -64.9706, 47.3164 ],
-							[ -64.9364, 47.3299 ],
-							[ -64.7688, 47.3864 ],
-							[ -64.7526, 47.5525 ],
-							[ -64.4105, 47.8072 ],
-							[ -64.4829, 48.0381 ],
-							[ -64.6328, 48.0419 ],
-							[ -64.7544, 48.0994 ],
-							[ -65.2163, 47.9516 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Storm Surge Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Storm Surge",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 17, 2019 18:56",
-				"Expires_UTC" : "October 18, 2019 01:59",
-				"Summary" : "Description: Higher than normal water levels with large waves are expected near the coast.\n\nVery strong easterly winds and heavy surf ahead of the low pressure system over northern New England will result in high water levels along the coast during high tide this evening. These conditions could give coastal flooding and potential erosion to beaches and damage to infrastructure.\n\n###\n\nCoastal flooding is possible along the shoreline. Coastal erosion is possible in vulnerable areas.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-10-18T01:59:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T18:56:48-00:00, urn:oid:2.49.0.1.124.2680111445.2019<br>Area: Campbellton and eastern half of Restigouche County, Bathurst and Chaleur Region, Acadian Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.2680111445.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T18_56_48_00_00Iurn_oid_2.49.0.1.124.2680111445.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191018015948+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -61.7255, 47.1947 ],
 							[ -61.322, 47.5211 ],
 							[ -61.344, 47.8207 ],
@@ -2332,81 +2346,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T23_12_30_00_00Iurn_oid_2.49.0.1.124.2903252374.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191018001130+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.4292, 45.2706 ],
-							[ -74.4507, 45.2895 ],
-							[ -74.472, 45.3027 ],
-							[ -74.4411, 45.3508 ],
-							[ -74.4349, 45.4028 ],
-							[ -74.3865, 45.487 ],
-							[ -74.3682, 45.5879 ],
-							[ -74.4745, 45.6193 ],
-							[ -74.5134, 45.6211 ],
-							[ -74.6175, 45.6634 ],
-							[ -74.8383, 45.6618 ],
-							[ -74.9395, 45.671 ],
-							[ -75.0093, 45.6376 ],
-							[ -75.1824, 45.6126 ],
-							[ -75.251, 45.6089 ],
-							[ -75.3429, 45.5609 ],
-							[ -75.3129, 45.4613 ],
-							[ -75.2401, 45.372 ],
-							[ -75.3278, 45.3501 ],
-							[ -75.4223, 45.3203 ],
-							[ -75.3965, 45.255 ],
-							[ -75.3515, 45.1828 ],
-							[ -75.4768, 45.1391 ],
-							[ -75.5942, 45.085 ],
-							[ -75.595, 45.0845 ],
-							[ -75.5142, 44.9784 ],
-							[ -75.4171, 44.8704 ],
-							[ -75.3666, 44.8098 ],
-							[ -75.356, 44.8059 ],
-							[ -75.3534, 44.8031 ],
-							[ -74.8476, 45.0242 ],
-							[ -74.8006, 45.0212 ],
-							[ -74.7882, 45.0071 ],
-							[ -74.6612, 44.9994 ],
-							[ -74.6134, 44.9974 ],
-							[ -74.5788, 45.0158 ],
-							[ -74.4541, 45.0282 ],
-							[ -74.374, 45.1128 ],
-							[ -74.3059, 45.1508 ],
-							[ -74.3427, 45.205 ],
-							[ -74.3627, 45.2198 ],
-							[ -74.4292, 45.2706 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 17, 2019 22:52",
-				"Expires_UTC" : "October 17, 2019 23:51",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\nA few more millimetres of rain expected tonight.\n\n###<br>Expires: 2019-10-17T23:51:01-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T22:52:01-00:00, urn:oid:2.49.0.1.124.3318223582.2019<br>Area: Maxville - Alexandria, Cornwall - Lancaster, Winchester - Newington, Morrisburg - Long Sault, Prescott and Russell",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.3318223582.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T22_52_01_00_00Iurn_oid_2.49.0.1.124.3318223582.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191017235101+00:00"
 			}
 		},
 		{
@@ -3229,55 +3168,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 17, 2019 18:58",
-				"Expires_UTC" : "October 17, 2019 23:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nA band of very strong easterly winds gusting to 90 km/h along with periods of heavy rain will diminish early this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Gusty winds can damage soft shelters, tents and awnings at outdoor events.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-10-17T23:59:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T18:58:05-00:00, urn:oid:2.49.0.1.124.1553645698.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.1553645698.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T18_58_05_00_00Iurn_oid_2.49.0.1.124.1553645698.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191017235905+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -63.4841, 44.5507 ],
 							[ -63.5219, 44.5086 ],
 							[ -63.541, 44.5049 ],
@@ -3347,6 +3237,67 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T17_15_44_00_00Iurn_oid_2.49.0.1.124.2812496915.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191018001444+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.2163, 47.9516 ],
+							[ -65.4344, 47.921 ],
+							[ -65.8243, 48.018 ],
+							[ -66.0128, 48.0649 ],
+							[ -66.2939, 48.0424 ],
+							[ -66.4422, 48.0905 ],
+							[ -66.6148, 48.0154 ],
+							[ -66.7805, 47.993 ],
+							[ -66.7817, 48.0207 ],
+							[ -66.9036, 48.0246 ],
+							[ -66.9911, 47.9783 ],
+							[ -66.9979, 47.9393 ],
+							[ -67.0035, 47.9082 ],
+							[ -67.0033, 47.3573 ],
+							[ -66.1938, 47.5446 ],
+							[ -65.8021, 47.2172 ],
+							[ -65.802, 47.2161 ],
+							[ -65.802, 47.2158 ],
+							[ -65.2377, 47.2849 ],
+							[ -64.9706, 47.3164 ],
+							[ -64.9364, 47.3299 ],
+							[ -64.7688, 47.3864 ],
+							[ -64.7526, 47.5525 ],
+							[ -64.4105, 47.8072 ],
+							[ -64.4829, 48.0381 ],
+							[ -64.6328, 48.0419 ],
+							[ -64.7544, 48.0994 ],
+							[ -65.2163, 47.9516 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Storm Surge Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Storm Surge",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 17, 2019 18:56",
+				"Expires_UTC" : "October 18, 2019 01:59",
+				"Summary" : "Description: Higher than normal water levels with large waves are expected near the coast.\n\nVery strong easterly winds and heavy surf ahead of the low pressure system over northern New England will result in high water levels along the coast during high tide this evening. These conditions could give coastal flooding and potential erosion to beaches and damage to infrastructure.\n\n###\n\nCoastal flooding is possible along the shoreline. Coastal erosion is possible in vulnerable areas.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-10-18T01:59:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-17T18:56:48-00:00, urn:oid:2.49.0.1.124.2680111445.2019<br>Area: Campbellton and eastern half of Restigouche County, Bathurst and Chaleur Region, Acadian Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-17:feed.atom/urn:oid:2.49.0.1.124.2680111445.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-17/2019_10_17T18_56_48_00_00Iurn_oid_2.49.0.1.124.2680111445.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191018015948+00:00"
 			}
 		}
 	]
