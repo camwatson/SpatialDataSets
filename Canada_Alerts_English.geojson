@@ -2905,6 +2905,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -85.4621, 73.1923 ],
+							[ -85.6288, 73.031 ],
+							[ -84.6976, 72.8984 ],
+							[ -84.5651, 72.8986 ],
+							[ -84.4176, 73.0621 ],
+							[ -84.8368, 73.1113 ],
+							[ -85.0267, 73.153 ],
+							[ -85.4621, 73.1923 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 21, 2019 22:12",
+				"Expires_UTC" : "October 22, 2019 10:10",
+				"Summary" : "Description: Strong winds with gusts up to 90 km/h will continue this evening and then diminish overnight.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-10-22T10:10:53-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-21T22:12:53-00:00, urn:oid:2.49.0.1.124.3332364596.2019<br>Area: Arctic Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-21:feed.atom/urn:oid:2.49.0.1.124.3332364596.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-21/2019_10_21T22_12_53_00_00Iurn_oid_2.49.0.1.124.3332364596.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191022101053+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -104.0383, 49.5225 ],
 							[ -103.6322, 49.5225 ],
 							[ -103.6312, 49.6677 ],
@@ -3496,66 +3537,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 22, 2019 08:29",
-				"Expires_UTC" : "October 22, 2019 09:29",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-10-22T09:29:29-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-22T08:29:29-00:00, urn:oid:2.49.0.1.124.3864935848.2019<br>Area: Grise Fiord",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 22, 2019 00:30",
+				"Expires_UTC" : "October 22, 2019 12:28",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong easterly winds gusting to 90 km/h are occurring in Grise Fiord. Winds are expected to diminish overnight.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-10-22T12:28:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-22T00:30:31-00:00, urn:oid:2.49.0.1.124.1169387793.2019<br>Area: Grise Fiord",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-22:feed.atom/urn:oid:2.49.0.1.124.3864935848.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-22/2019_10_22T08_29_29_00_00Iurn_oid_2.49.0.1.124.3864935848.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-22:feed.atom/urn:oid:2.49.0.1.124.1169387793.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-22/2019_10_22T00_30_31_00_00Iurn_oid_2.49.0.1.124.1169387793.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191022092929+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -85.4621, 73.1923 ],
-							[ -85.6288, 73.031 ],
-							[ -84.6976, 72.8984 ],
-							[ -84.5651, 72.8986 ],
-							[ -84.4176, 73.0621 ],
-							[ -84.8368, 73.1113 ],
-							[ -85.0267, 73.153 ],
-							[ -85.4621, 73.1923 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 22, 2019 08:20",
-				"Expires_UTC" : "October 22, 2019 09:20",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-10-22T09:20:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-22T08:20:56-00:00, urn:oid:2.49.0.1.124.3191316724.2019<br>Area: Arctic Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-22:feed.atom/urn:oid:2.49.0.1.124.3191316724.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-22/2019_10_22T08_20_56_00_00Iurn_oid_2.49.0.1.124.3191316724.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191022092056+00:00"
+				"Expires_FMEFormat" : "20191022122831+00:00"
 			}
 		}
 	]
