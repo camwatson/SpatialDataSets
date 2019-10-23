@@ -2290,43 +2290,35 @@
 				"coordinates" : [
 					[
 						[
-							[ -108.9538, 53.3803 ],
-							[ -108.9538, 53.3839 ],
-							[ -108.9558, 53.3846 ],
-							[ -108.9474, 53.3847 ],
-							[ -108.9476, 53.3888 ],
-							[ -108.9516, 53.3887 ],
-							[ -108.9499, 53.3909 ],
-							[ -108.9505, 53.3925 ],
-							[ -108.9541, 53.3924 ],
-							[ -108.9542, 53.3956 ],
-							[ -108.9666, 53.3954 ],
-							[ -108.9663, 53.3803 ],
-							[ -108.9538, 53.3803 ]
+							[ -105.7351, 51.7584 ],
+							[ -105.7355, 51.7722 ],
+							[ -105.7591, 51.7723 ],
+							[ -105.7589, 51.7585 ],
+							[ -105.7351, 51.7584 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Health",
-				"Title" : "Precautionary Drinking Water Advisory For The Town Of Turtleford",
+				"subCategory" : "Infra",
+				"Title" : "Update: Sasktel Service Outage In Village Of Young, Not Viscount",
 				"Category" : "Actual",
-				"event" : "Drinking Water",
+				"event" : "Telephone Service",
 				"urgency" : "Immediate",
 				"certainty" : "Observed",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 23, 2019 15:58",
-				"Expires_UTC" : "October 31, 2019 16:00",
-				"Summary" : "Description: A Precautionary Drinking Water Advisory has been issued for the Town of Turtleford. The advisory is for the entire Town of Turtleford and for any individuals who may access Turtleford's water system. The advisory is in effect until further notice.<br>Expires: 2019-10-31T16:00:00-06:00<br>Originated from CAP Alert: SK Turtleford and RM of Mervin, 2019-10-23T15:58:16-06:00, 31036A02-BB96-A8F7-231A-DD42B1EDDF85<br>Area: Town of Turtleford",
-				"Author" : "SK Turtleford and RM of Mervin",
-				"msgType" : "Alert",
+				"LastUpdate_UTC" : "October 23, 2019 16:03",
+				"Expires_UTC" : "October 23, 2019 23:45",
+				"Summary" : "Description: UPDATE: SaskTel is currently experiencing a service outage impacting Internet, Wireless, and Home Phone services in the Village of Young, located near the R.M. of Viscount.  \n\nAll SaskTel services in the Village of Viscount are operating normally. SaskTel apologizes for any confusion the previous message may have caused.  \n\nSaskTel technicians are expected to arrive on site shortly and will begin to restore services as quickly as possible, however there remains no estimated time of repair.<br>Expires: 2019-10-23T23:45:00-06:00<br>Originated from CAP Alert: SK SaskTel, 2019-10-23T16:03:42-06:00, A8A5FD23-9D3F-0727-05BA-B85AFEF01F70<br>Area: Village of Young",
+				"Author" : "SK SaskTel",
+				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-23:feed.atom/31036A02-BB96-A8F7-231A-DD42B1EDDF85",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-23/2019_10_23T15_58_16_06_00I31036A02_BB96_A8F7_231A_DD42B1EDDF85.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-23:feed.atom/A8A5FD23-9D3F-0727-05BA-B85AFEF01F70",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-23/2019_10_23T16_03_42_06_00IA8A5FD23_9D3F_0727_05BA_B85AFEF01F70.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191031160000-06:00"
+				"Expires_FMEFormat" : "20191023234500-06:00"
 			}
 		},
 		{
@@ -2517,6 +2509,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-23/2019_10_23T11_33_09_05_00I0CF55860_F53E_28B1_CB31_3FEDF541A2C9.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191024113000-05:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -108.9538, 53.3803 ],
+							[ -108.9538, 53.3839 ],
+							[ -108.9558, 53.3846 ],
+							[ -108.9474, 53.3847 ],
+							[ -108.9476, 53.3888 ],
+							[ -108.9516, 53.3887 ],
+							[ -108.9499, 53.3909 ],
+							[ -108.9505, 53.3925 ],
+							[ -108.9541, 53.3924 ],
+							[ -108.9542, 53.3956 ],
+							[ -108.9666, 53.3954 ],
+							[ -108.9663, 53.3803 ],
+							[ -108.9538, 53.3803 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Health",
+				"Title" : "Precautionary Drinking Water Advisory For The Town Of Turtleford",
+				"Category" : "Actual",
+				"event" : "Drinking Water",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 23, 2019 15:58",
+				"Expires_UTC" : "October 31, 2019 16:00",
+				"Summary" : "Description: A Precautionary Drinking Water Advisory has been issued for the Town of Turtleford. The advisory is for the entire Town of Turtleford and for any individuals who may access Turtleford's water system. The advisory is in effect until further notice.<br>Expires: 2019-10-31T16:00:00-06:00<br>Originated from CAP Alert: SK Turtleford and RM of Mervin, 2019-10-23T15:58:16-06:00, 31036A02-BB96-A8F7-231A-DD42B1EDDF85<br>Area: Town of Turtleford",
+				"Author" : "SK Turtleford and RM of Mervin",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-23:feed.atom/31036A02-BB96-A8F7-231A-DD42B1EDDF85",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-23/2019_10_23T15_58_16_06_00I31036A02_BB96_A8F7_231A_DD42B1EDDF85.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191031160000-06:00"
 			}
 		},
 		{
@@ -3394,47 +3432,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 23, 2019 18:40",
-				"Expires_UTC" : "October 24, 2019 08:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong southeasterly winds gusting up to 100 km/h are forecast to develop late this afternoon and then increase this evening with gusts possibly exceeding 110 km/h. Winds will then diminish overnight as they shift to the west.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-10-24T08:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-23T18:40:02-00:00, urn:oid:2.49.0.1.124.0591162646.2019<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-23:feed.atom/urn:oid:2.49.0.1.124.0591162646.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-23/2019_10_23T18_40_02_00_00Iurn_oid_2.49.0.1.124.0591162646.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191024085902+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -67.789, 46.5984 ],
 							[ -67.7823, 45.9319 ],
 							[ -67.7666, 45.9302 ],
@@ -3528,6 +3525,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-23/2019_10_23T18_38_32_00_00Iurn_oid_2.49.0.1.124.1093973371.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191024050432+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Les Suêtes Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 23, 2019 18:40",
+				"Expires_UTC" : "October 24, 2019 08:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong southeasterly winds gusting up to 100 km/h are forecast to develop late this afternoon and then increase this evening with gusts possibly exceeding 110 km/h. Winds will then diminish overnight as they shift to the west.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-10-24T08:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-23T18:40:02-00:00, urn:oid:2.49.0.1.124.0591162646.2019<br>Area: Inverness County - Mabou and north",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-23:feed.atom/urn:oid:2.49.0.1.124.0591162646.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-23/2019_10_23T18_40_02_00_00Iurn_oid_2.49.0.1.124.0591162646.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191024085902+00:00"
 			}
 		}
 	]
