@@ -460,6 +460,76 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.3895, 45.1399 ],
+							[ -79.876, 45.0916 ],
+							[ -79.8766, 45.0927 ],
+							[ -79.8771, 45.0932 ],
+							[ -79.8792, 45.0943 ],
+							[ -79.9004, 45.1035 ],
+							[ -79.9244, 45.1017 ],
+							[ -79.9596, 45.1118 ],
+							[ -79.9605, 45.1193 ],
+							[ -79.9816, 45.1284 ],
+							[ -80.0356, 45.1139 ],
+							[ -80.1017, 45.1263 ],
+							[ -80.1856, 45.0191 ],
+							[ -80.3295, 44.8567 ],
+							[ -80.2774, 44.6441 ],
+							[ -79.9812, 44.6517 ],
+							[ -79.9704, 44.6487 ],
+							[ -79.6293, 44.5519 ],
+							[ -79.5662, 44.7803 ],
+							[ -79.5166, 44.784 ],
+							[ -79.3992, 44.7928 ],
+							[ -79.2988, 44.7904 ],
+							[ -79.2851, 44.7824 ],
+							[ -79.2358, 44.7938 ],
+							[ -79.2089, 44.8001 ],
+							[ -79.0624, 44.8403 ],
+							[ -79.1186, 44.95 ],
+							[ -79.1096, 44.9521 ],
+							[ -79.0993, 44.9549 ],
+							[ -79.0963, 44.9492 ],
+							[ -79.0928, 44.9431 ],
+							[ -79.0237, 44.9606 ],
+							[ -78.9347, 44.9858 ],
+							[ -78.9645, 45.046 ],
+							[ -79.0012, 45.1053 ],
+							[ -78.9997, 45.1057 ],
+							[ -79.3895, 45.1399 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 30, 2019 17:21",
+				"Expires_UTC" : "October 31, 2019 09:20",
+				"Summary" : "Description: First accumulating snowfall of the season may herald the arrival of November.\n\nA low pressure system will approach Ontario from the southwest.\n\nThis weather system will bring a significant rainfall with it tonight through Thursday with many areas receiving a total of 20 to 40 mm of rain by Thursday evening.\n\nAs the low passes by Thursday night, rain may change over to snow before tapering off Friday. Snowfall amounts of 2 to 4 cm are possible. \n\nThere is uncertainty in the track of the low, which will affect how quickly the rain will change over to snow and subsequent snowfall amounts. Some folks may wake up to snow covered grass for the first time this season Friday morning. \n\nThis event will continue to be monitored.\n\nPoor winter driving conditions are possible Thursday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-10-31T09:20:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-30T17:21:11-00:00, urn:oid:2.49.0.1.124.1437078760.2019<br>Area: Midland - Coldwater - Orr Lake, Port Carling - Port Severn, Bracebridge - Gravenhurst",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-30:feed.atom/urn:oid:2.49.0.1.124.1437078760.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-30/2019_10_30T17_21_11_00_00Iurn_oid_2.49.0.1.124.1437078760.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191031092011+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.1656, 49.645 ],
 							[ -95.1698, 49.644 ],
 							[ -95.1712, 49.6413 ],
@@ -2372,50 +2442,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -95.9056, 74.3191 ],
-							[ -94.8626, 74.2936 ],
-							[ -94.1547, 74.3414 ],
-							[ -94.1885, 74.6339 ],
-							[ -94.152, 74.6625 ],
-							[ -94.2078, 74.8178 ],
-							[ -94.6546, 74.9248 ],
-							[ -95.2633, 74.925 ],
-							[ -95.7119, 74.8173 ],
-							[ -95.8949, 74.6509 ],
-							[ -95.9056, 74.3191 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "October 30, 2019 14:24",
-				"Expires_UTC" : "October 31, 2019 06:23",
-				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nBlizzard conditions are expected to persist today and for most of Thursday. The blizzard is expected to end by Thursday night when winds diminish.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-10-31T06:23:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-30T14:24:51-00:00, urn:oid:2.49.0.1.124.1863929803.2019<br>Area: Resolute",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-30:feed.atom/urn:oid:2.49.0.1.124.1863929803.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-30/2019_10_30T14_24_51_00_00Iurn_oid_2.49.0.1.124.1863929803.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191031062351+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -122.9999, 57.0999 ],
 							[ -121.5305, 57.0723 ],
 							[ -120.0013, 57.0999 ],
@@ -2465,6 +2491,50 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-30/2019_10_30T14_32_02_00_00Iurn_oid_2.49.0.1.124.3978554621.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191030215902+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.9056, 74.3191 ],
+							[ -94.8626, 74.2936 ],
+							[ -94.1547, 74.3414 ],
+							[ -94.1885, 74.6339 ],
+							[ -94.152, 74.6625 ],
+							[ -94.2078, 74.8178 ],
+							[ -94.6546, 74.9248 ],
+							[ -95.2633, 74.925 ],
+							[ -95.7119, 74.8173 ],
+							[ -95.8949, 74.6509 ],
+							[ -95.9056, 74.3191 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "October 30, 2019 14:24",
+				"Expires_UTC" : "October 31, 2019 06:23",
+				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nBlizzard conditions are expected to persist today and for most of Thursday. The blizzard is expected to end by Thursday night when winds diminish.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-10-31T06:23:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-10-30T14:24:51-00:00, urn:oid:2.49.0.1.124.1863929803.2019<br>Area: Resolute",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-10-30:feed.atom/urn:oid:2.49.0.1.124.1863929803.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-10-30/2019_10_30T14_24_51_00_00Iurn_oid_2.49.0.1.124.1863929803.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191031062351+00:00"
 			}
 		}
 	]
