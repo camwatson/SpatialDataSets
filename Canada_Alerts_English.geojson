@@ -79,6 +79,104 @@
 				"coordinates" : [
 					[
 						[
+							[ -129.2187, 57.031 ],
+							[ -129.1426, 57.9312 ],
+							[ -129.2187, 58.6497 ],
+							[ -129.7389, 58.8306 ],
+							[ -130.3347, 58.9997 ],
+							[ -131.0586, 58.4664 ],
+							[ -131.6347, 57.9327 ],
+							[ -131.4979, 57.4496 ],
+							[ -131.2855, 57.0337 ],
+							[ -130.2971, 56.9924 ],
+							[ -129.2187, 57.031 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 1, 2019 19:15",
+				"Expires_UTC" : "November 1, 2019 20:15",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-11-01T20:15:26-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T19:15:26-00:00, urn:oid:2.49.0.1.124.3130405326.2019<br>Area: Dease Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3130405326.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T19_15_26_00_00Iurn_oid_2.49.0.1.124.3130405326.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191101201526+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -55.9388, 51.6058 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 13:13",
+				"Expires_UTC" : "November 2, 2019 01:59",
+				"Summary" : "Description: Rain, at times heavy, continues.\n\nAdditional rainfall: 25 to 50 mm.\n\nLocations: western Newfoundland from Corner Brook northward to the Straits.\n\nTime span: continuing until this evening.\n\nRemarks: Highest amounts are expected to occur between Parson's Pond and the Straits, especially over higher elevations.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-02T01:59:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T13:13:04-00:00, urn:oid:2.49.0.1.124.3482268284.2019<br>Area: Corner Brook and vicinity, Gros Morne, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3482268284.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_13_04_00_00Iurn_oid_2.49.0.1.124.3482268284.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191102015904+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -77.7501, 46.9998 ],
 							[ -77.3649, 46.9966 ],
 							[ -77.0011, 47 ],
@@ -383,54 +481,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_25_04_05_00IFE3F6AAA_73CB_5BC7_7978_91979F8ECD06.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191102150000-05:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -85.2219, 48.2896 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.9469, 48.8844 ],
-							[ -87.4321, 49.1383 ],
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 1, 2019 16:18",
-				"Expires_UTC" : "November 2, 2019 08:17",
-				"Summary" : "Description: Significant snowfall is possible today and tonight.\n\nSouth to southwest winds off of Lake Superior could produce flurries and local snow squalls beginning this afternoon and continue into tonight. Total snowfall amounts of 5 to 10 cm with locally up to 15 cm over the higher terrain are possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-02T08:17:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T16:18:51-00:00, urn:oid:2.49.0.1.124.1497554638.2019<br>Area: Marathon - Schreiber, Wawa - Pukaskwa Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.1497554638.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T16_18_51_00_00Iurn_oid_2.49.0.1.124.1497554638.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102081751+00:00"
 			}
 		},
 		{
@@ -1395,111 +1445,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -64.9179, 45.4771 ],
-							[ -64.4894, 45.7165 ],
-							[ -64.3392, 45.8389 ],
-							[ -64.3108, 45.8312 ],
-							[ -64.2564, 45.8182 ],
-							[ -64.2206, 45.8694 ],
-							[ -64.1796, 45.9045 ],
-							[ -64.2062, 45.9161 ],
-							[ -64.1849, 45.939 ],
-							[ -64.1766, 45.9478 ],
-							[ -64.1708, 45.9539 ],
-							[ -64.1646, 45.9608 ],
-							[ -64.1591, 45.9753 ],
-							[ -64.1528, 45.9784 ],
-							[ -64.1496, 45.9799 ],
-							[ -64.1364, 45.9793 ],
-							[ -64.1234, 45.979 ],
-							[ -64.1106, 45.9786 ],
-							[ -64.0795, 45.9775 ],
-							[ -64.0701, 45.9772 ],
-							[ -64.0476, 45.9768 ],
-							[ -64.0468, 45.9768 ],
-							[ -64.0247, 45.9762 ],
-							[ -64.0206, 45.9935 ],
-							[ -64.0425, 45.9934 ],
-							[ -64.0407, 46.0039 ],
-							[ -63.8518, 46.0357 ],
-							[ -63.7366, 46.106 ],
-							[ -63.8076, 46.193 ],
-							[ -64.4795, 46.2865 ],
-							[ -64.5766, 46.2818 ],
-							[ -64.81, 46.2742 ],
-							[ -64.9062, 46.2709 ],
-							[ -64.9392, 46.2697 ],
-							[ -65.4017, 46.2523 ],
-							[ -65.4016, 46.2519 ],
-							[ -65.4013, 46.2515 ],
-							[ -65.3335, 46.0833 ],
-							[ -66.4509, 45.3156 ],
-							[ -66.4509, 45.316 ],
-							[ -66.4513, 45.4988 ],
-							[ -66.4516, 45.4988 ],
-							[ -66.5516, 45.4995 ],
-							[ -66.917, 45.5008 ],
-							[ -67.4475, 45.5001 ],
-							[ -67.4498, 45.5024 ],
-							[ -67.454, 45.5059 ],
-							[ -67.4664, 45.5091 ],
-							[ -67.5089, 45.4898 ],
-							[ -67.4836, 45.423 ],
-							[ -67.4196, 45.3754 ],
-							[ -67.4387, 45.3766 ],
-							[ -67.4918, 45.2818 ],
-							[ -67.4075, 45.1606 ],
-							[ -67.3394, 45.12 ],
-							[ -67.2902, 45.1481 ],
-							[ -67.2717, 45.1815 ],
-							[ -67.2253, 45.1533 ],
-							[ -67.1617, 45.1528 ],
-							[ -66.9884, 44.9042 ],
-							[ -66.9778, 44.8326 ],
-							[ -66.8639, 44.7731 ],
-							[ -66.9393, 44.5943 ],
-							[ -66.6772, 44.5452 ],
-							[ -66.6191, 44.9452 ],
-							[ -66.4488, 44.9966 ],
-							[ -66.1205, 45.0829 ],
-							[ -65.9007, 45.0895 ],
-							[ -65.1181, 45.3687 ],
-							[ -65.024, 45.4213 ],
-							[ -65.0077, 45.4302 ],
-							[ -64.9179, 45.4771 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 17:22",
-				"Expires_UTC" : "November 1, 2019 22:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 90 km/h except 110 in the Tantramar Marsh area.\n\nLocation: The Fundy Coast and southeast New Brunswick including the   greater Moncton area.\n\nTime span: this afternoon.\n\nRemarks: Strong and gusty southwesterly winds will begin to diminish from west to east later this afternoon as a cold front passes through the region.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-11-01T22:59:53-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T17:22:53-00:00, urn:oid:2.49.0.1.124.3763273541.2019<br>Area: Saint John and County, Grand Manan and Coastal Charlotte County, Moncton and Southeast New Brunswick, Fundy National Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3763273541.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T17_22_53_00_00Iurn_oid_2.49.0.1.124.3763273541.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191101225953+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.1179, 45.6152 ],
 							[ -66.449, 45.2164 ],
 							[ -66.4517, 45.2004 ],
@@ -1807,6 +1752,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T18_30_22_00_00Iurn_oid_2.49.0.1.124.3850156748.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191102022422+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -85.2219, 48.2896 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 1, 2019 19:16",
+				"Expires_UTC" : "November 2, 2019 11:15",
+				"Summary" : "Description: Local significant snowfall is possible tonight.\n\nSouth to southwest winds off of Lake Superior could produce flurries and local snow squalls beginning late this afternoon and continue into tonight. Total snowfall amounts of 5 to 10 cm with locally up to 15 cm over the higher terrain are possible before snow tapers off early Saturday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-02T11:15:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T19:16:16-00:00, urn:oid:2.49.0.1.124.3124020206.2019<br>Area: Marathon - Schreiber, Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3124020206.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T19_16_16_00_00Iurn_oid_2.49.0.1.124.3124020206.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191102111516+00:00"
 			}
 		},
 		{
@@ -2652,60 +2645,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -55.9388, 51.6058 ],
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 13:13",
-				"Expires_UTC" : "November 2, 2019 01:59",
-				"Summary" : "Description: Rain, at times heavy, continues.\n\nAdditional rainfall: 25 to 50 mm.\n\nLocations: western Newfoundland from Corner Brook northward to the Straits.\n\nTime span: continuing until this evening.\n\nRemarks: Highest amounts are expected to occur between Parson's Pond and the Straits, especially over higher elevations.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-02T01:59:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T13:13:04-00:00, urn:oid:2.49.0.1.124.3482268284.2019<br>Area: Corner Brook and vicinity, Gros Morne, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3482268284.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_13_04_00_00Iurn_oid_2.49.0.1.124.3482268284.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102015904+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -62.3276, 48.954 ],
 							[ -61.5516, 49.0069 ],
 							[ -61.6531, 49.3315 ],
@@ -2759,6 +2698,111 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T15_19_05_00_00Iurn_oid_2.49.0.1.124.1872748380.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191101220905+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -64.9179, 45.4771 ],
+							[ -64.4894, 45.7165 ],
+							[ -64.3392, 45.8389 ],
+							[ -64.3108, 45.8312 ],
+							[ -64.2564, 45.8182 ],
+							[ -64.2206, 45.8694 ],
+							[ -64.1796, 45.9045 ],
+							[ -64.2062, 45.9161 ],
+							[ -64.1849, 45.939 ],
+							[ -64.1766, 45.9478 ],
+							[ -64.1708, 45.9539 ],
+							[ -64.1646, 45.9608 ],
+							[ -64.1591, 45.9753 ],
+							[ -64.1528, 45.9784 ],
+							[ -64.1496, 45.9799 ],
+							[ -64.1364, 45.9793 ],
+							[ -64.1234, 45.979 ],
+							[ -64.1106, 45.9786 ],
+							[ -64.0795, 45.9775 ],
+							[ -64.0701, 45.9772 ],
+							[ -64.0476, 45.9768 ],
+							[ -64.0468, 45.9768 ],
+							[ -64.0247, 45.9762 ],
+							[ -64.0206, 45.9935 ],
+							[ -64.0425, 45.9934 ],
+							[ -64.0407, 46.0039 ],
+							[ -63.8518, 46.0357 ],
+							[ -63.7366, 46.106 ],
+							[ -63.8076, 46.193 ],
+							[ -64.4795, 46.2865 ],
+							[ -64.5766, 46.2818 ],
+							[ -64.81, 46.2742 ],
+							[ -64.9062, 46.2709 ],
+							[ -64.9392, 46.2697 ],
+							[ -65.4017, 46.2523 ],
+							[ -65.4016, 46.2519 ],
+							[ -65.4013, 46.2515 ],
+							[ -65.3335, 46.0833 ],
+							[ -66.4509, 45.3156 ],
+							[ -66.4509, 45.316 ],
+							[ -66.4513, 45.4988 ],
+							[ -66.4516, 45.4988 ],
+							[ -66.5516, 45.4995 ],
+							[ -66.917, 45.5008 ],
+							[ -67.4475, 45.5001 ],
+							[ -67.4498, 45.5024 ],
+							[ -67.454, 45.5059 ],
+							[ -67.4664, 45.5091 ],
+							[ -67.5089, 45.4898 ],
+							[ -67.4836, 45.423 ],
+							[ -67.4196, 45.3754 ],
+							[ -67.4387, 45.3766 ],
+							[ -67.4918, 45.2818 ],
+							[ -67.4075, 45.1606 ],
+							[ -67.3394, 45.12 ],
+							[ -67.2902, 45.1481 ],
+							[ -67.2717, 45.1815 ],
+							[ -67.2253, 45.1533 ],
+							[ -67.1617, 45.1528 ],
+							[ -66.9884, 44.9042 ],
+							[ -66.9778, 44.8326 ],
+							[ -66.8639, 44.7731 ],
+							[ -66.9393, 44.5943 ],
+							[ -66.6772, 44.5452 ],
+							[ -66.6191, 44.9452 ],
+							[ -66.4488, 44.9966 ],
+							[ -66.1205, 45.0829 ],
+							[ -65.9007, 45.0895 ],
+							[ -65.1181, 45.3687 ],
+							[ -65.024, 45.4213 ],
+							[ -65.0077, 45.4302 ],
+							[ -64.9179, 45.4771 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 17:22",
+				"Expires_UTC" : "November 1, 2019 22:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 90 km/h except 110 in the Tantramar Marsh area.\n\nLocation: The Fundy Coast and southeast New Brunswick including the   greater Moncton area.\n\nTime span: this afternoon.\n\nRemarks: Strong and gusty southwesterly winds will begin to diminish from west to east later this afternoon as a cold front passes through the region.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-11-01T22:59:53-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T17:22:53-00:00, urn:oid:2.49.0.1.124.3763273541.2019<br>Area: Saint John and County, Grand Manan and Coastal Charlotte County, Moncton and Southeast New Brunswick, Fundy National Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3763273541.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T17_22_53_00_00Iurn_oid_2.49.0.1.124.3763273541.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191101225953+00:00"
 			}
 		}
 	]
