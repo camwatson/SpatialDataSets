@@ -123,6 +123,85 @@
 				"coordinates" : [
 					[
 						[
+							[ -77.7494, 47.8332 ],
+							[ -77.7501, 46.9998 ],
+							[ -77.3649, 46.9966 ],
+							[ -77.0011, 47 ],
+							[ -76.985, 47.0082 ],
+							[ -76.1922, 47.4534 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 48.3331 ],
+							[ -73.0004, 48.3331 ],
+							[ -73.0002, 48.6669 ],
+							[ -73.667, 48.9996 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.4993, 49.55 ],
+							[ -72.6666, 49.6653 ],
+							[ -72.6628, 49.6658 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.9998, 49.9998 ],
+							[ -70.2496, 49.9998 ],
+							[ -69.1996, 49.9998 ],
+							[ -67.5048, 49.9998 ],
+							[ -67.502, 50.7497 ],
+							[ -67.4961, 52.2499 ],
+							[ -67.4964, 52.2499 ],
+							[ -69.9991, 52.2498 ],
+							[ -69.9993, 51.646 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 51.647 ],
+							[ -72.011, 51.6472 ],
+							[ -75.9391, 51.6264 ],
+							[ -76, 51.6249 ],
+							[ -75.9995, 50.5156 ],
+							[ -75.9995, 50.4999 ],
+							[ -75.9993, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -76.4997, 49.2832 ],
+							[ -77.3232, 49.2924 ],
+							[ -78.5004, 49.2934 ],
+							[ -78.4996, 48.4498 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 1, 2019 19:31",
+				"Expires_UTC" : "November 1, 2019 20:31",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n###<br>Expires: 2019-11-01T20:31:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T19:31:05-00:00, urn:oid:2.49.0.1.124.0900422841.2019<br>Area: Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area, Dorval Lodge area, Chibougamau, Gouin Reservoir area, Manic-5 area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.0900422841.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T19_31_05_00_00Iurn_oid_2.49.0.1.124.0900422841.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191101203105+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -77.7501, 46.9998 ],
 							[ -77.3649, 46.9966 ],
 							[ -77.0011, 47 ],
@@ -2191,18 +2270,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 15:22",
-				"Expires_UTC" : "November 2, 2019 07:21",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\n15 to 25 cm of snow is expected. Snow will be accompanied by widespread blowing snow and strong winds.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-02T07:21:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T15:22:44-00:00, urn:oid:2.49.0.1.124.1764809515.2019<br>Area: Fermont",
+				"LastUpdate_UTC" : "November 1, 2019 19:31",
+				"Expires_UTC" : "November 2, 2019 11:30",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nAn additional 10 to 15 centimetres of snow is expected this evening. Snow will be accompanied by widespread blowing snow and strong winds.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-02T11:30:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T19:31:51-00:00, urn:oid:2.49.0.1.124.0984009691.2019<br>Area: Fermont",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.1764809515.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T15_22_44_00_00Iurn_oid_2.49.0.1.124.1764809515.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.0984009691.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T19_31_51_00_00Iurn_oid_2.49.0.1.124.0984009691.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102072144+00:00"
+				"Expires_FMEFormat" : "20191102113051+00:00"
 			}
 		},
 		{
@@ -2428,55 +2507,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -57.7515, 50.0004 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 18:25",
-				"Expires_UTC" : "November 2, 2019 10:24",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 80 km/h, except 100 along parts of the coast.\n\nLocations: over the Great Northern Peninsula.\n\nTime span: midnight tonight until Saturday morning.\n\nRemarks: Strong southwesterly winds will develop tonight with the highest gusts occuring during the overnight hours. Winds will begin to ease Saturday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-02T10:24:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T18:25:37-00:00, urn:oid:2.49.0.1.124.1447000713.2019<br>Area: Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.1447000713.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T18_25_37_00_00Iurn_oid_2.49.0.1.124.1447000713.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102102437+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.7491, 49.0651 ],
 							[ -65.7492, 49.0653 ],
 							[ -65.7496, 49.0664 ],
@@ -2582,6 +2612,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T15_28_00_00_00Iurn_oid_2.49.0.1.124.0582389597.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191102005900+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 18:25",
+				"Expires_UTC" : "November 2, 2019 10:24",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 80 km/h, except 100 along parts of the coast.\n\nLocations: over the Great Northern Peninsula.\n\nTime span: midnight tonight until Saturday morning.\n\nRemarks: Strong southwesterly winds will develop tonight with the highest gusts occuring during the overnight hours. Winds will begin to ease Saturday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-02T10:24:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T18:25:37-00:00, urn:oid:2.49.0.1.124.1447000713.2019<br>Area: Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.1447000713.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T18_25_37_00_00Iurn_oid_2.49.0.1.124.1447000713.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191102102437+00:00"
 			}
 		},
 		{
