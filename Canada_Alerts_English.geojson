@@ -183,68 +183,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.0627, 43.189 ],
-							[ -79.1728, 43.1417 ],
-							[ -79.1686, 43.0401 ],
-							[ -79.2875, 43.0208 ],
-							[ -79.279, 42.9611 ],
-							[ -79.4424, 43.0111 ],
-							[ -79.4969, 43.0013 ],
-							[ -79.5635, 42.9826 ],
-							[ -79.5391, 42.9727 ],
-							[ -79.5116, 42.9648 ],
-							[ -79.474, 42.9112 ],
-							[ -79.4371, 42.876 ],
-							[ -79.4301, 42.8607 ],
-							[ -79.3806, 42.8473 ],
-							[ -79.2598, 42.8617 ],
-							[ -79.1581, 42.8579 ],
-							[ -79.0947, 42.8217 ],
-							[ -79.0213, 42.8554 ],
-							[ -78.9102, 42.8751 ],
-							[ -78.8842, 42.9334 ],
-							[ -79.0158, 42.9904 ],
-							[ -79.0022, 43.0586 ],
-							[ -79.0626, 43.0782 ],
-							[ -79.0526, 43.1199 ],
-							[ -79.042, 43.1295 ],
-							[ -79.0372, 43.1549 ],
-							[ -79.0468, 43.1907 ],
-							[ -79.055, 43.1901 ],
-							[ -79.0627, 43.189 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 12:55",
-				"Expires_UTC" : "November 1, 2019 19:59",
-				"Summary" : "Description: Strong southwesterly wind gusts are expected to continue early this morning. \n\nSouthwesterly wind gusts near 90 km/h, especially near the shore, are expected to continue this morning before weakening slightly to wind gusts of 70 or 80 km/h.\n\nWinds will continue to ease through the day.\n\nRemember pedestrians are more difficult to see when it is dark and raining.\n\nDamaging winds may bring down tree limbs. Power outages are possible.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-01T19:59:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T12:55:58-00:00, urn:oid:2.49.0.1.124.3900580657.2019<br>Area: Niagara Falls - Welland - Southern Niagara Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3900580657.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T12_55_58_00_00Iurn_oid_2.49.0.1.124.3900580657.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191101195958+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -66.917, 45.5008 ],
 							[ -66.5516, 45.4995 ],
 							[ -66.4516, 45.4988 ],
@@ -1282,6 +1220,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.0627, 43.189 ],
+							[ -79.1728, 43.1417 ],
+							[ -79.1686, 43.0401 ],
+							[ -79.2875, 43.0208 ],
+							[ -79.279, 42.9611 ],
+							[ -79.4424, 43.0111 ],
+							[ -79.4969, 43.0013 ],
+							[ -79.5635, 42.9826 ],
+							[ -79.5391, 42.9727 ],
+							[ -79.5116, 42.9648 ],
+							[ -79.474, 42.9112 ],
+							[ -79.4371, 42.876 ],
+							[ -79.4301, 42.8607 ],
+							[ -79.3806, 42.8473 ],
+							[ -79.2598, 42.8617 ],
+							[ -79.1581, 42.8579 ],
+							[ -79.0947, 42.8217 ],
+							[ -79.0213, 42.8554 ],
+							[ -78.9102, 42.8751 ],
+							[ -78.8842, 42.9334 ],
+							[ -79.0158, 42.9904 ],
+							[ -79.0022, 43.0586 ],
+							[ -79.0626, 43.0782 ],
+							[ -79.0526, 43.1199 ],
+							[ -79.042, 43.1295 ],
+							[ -79.0372, 43.1549 ],
+							[ -79.0468, 43.1907 ],
+							[ -79.055, 43.1901 ],
+							[ -79.0627, 43.189 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 1, 2019 14:33",
+				"Expires_UTC" : "November 1, 2019 15:33",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-11-01T15:33:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T14:33:36-00:00, urn:oid:2.49.0.1.124.2842647850.2019<br>Area: Niagara Falls - Welland - Southern Niagara Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.2842647850.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T14_33_36_00_00Iurn_oid_2.49.0.1.124.2842647850.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191101153336+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -66.9979, 47.9393 ],
 							[ -67.0565, 47.9629 ],
 							[ -67.2139, 47.9066 ],
@@ -1801,54 +1801,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -57.7515, 50.0004 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 13:12",
-				"Expires_UTC" : "November 2, 2019 00:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 100 km/h.\n\nLocations: western Newfoundland from Bay St. George to Gros Morne.\n\nTime span: continuing until this evening.\n\nRemarks: Widespread southwesterly wind gusts between 80 and 100 km/h are expected, especially for the Bay of Islands and Bonne Bay.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-02T00:59:40-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T13:12:40-00:00, urn:oid:2.49.0.1.124.3730077047.2019<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3730077047.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_12_40_00_00Iurn_oid_2.49.0.1.124.3730077047.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102005940+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -53.9999, 47.9199 ],
 							[ -53.7999, 47.4599 ],
 							[ -53.58, 47.3919 ],
@@ -1899,6 +1851,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_13_31_00_00Iurn_oid_2.49.0.1.124.3240013422.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191102051231+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 13:12",
+				"Expires_UTC" : "November 2, 2019 00:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 100 km/h.\n\nLocations: western Newfoundland from Bay St. George to Gros Morne.\n\nTime span: continuing until this evening.\n\nRemarks: Widespread southwesterly wind gusts between 80 and 100 km/h are expected, especially for the Bay of Islands and Bonne Bay.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-02T00:59:40-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T13:12:40-00:00, urn:oid:2.49.0.1.124.3730077047.2019<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3730077047.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_12_40_00_00Iurn_oid_2.49.0.1.124.3730077047.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191102005940+00:00"
 			}
 		},
 		{
