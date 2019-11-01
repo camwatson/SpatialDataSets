@@ -234,6 +234,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -77.1887, 43.8008 ],
+							[ -76.7025, 43.886 ],
+							[ -76.8197, 44.0917 ],
+							[ -76.8085, 44.1612 ],
+							[ -76.8167, 44.1705 ],
+							[ -77.067, 44.0704 ],
+							[ -77.0965, 44.0606 ],
+							[ -77.4892, 43.9475 ],
+							[ -77.505, 43.9357 ],
+							[ -77.5904, 43.9059 ],
+							[ -77.5277, 43.832 ],
+							[ -77.1887, 43.8008 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 1, 2019 16:29",
+				"Expires_UTC" : "November 1, 2019 17:29",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-11-01T17:29:32-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T16:29:32-00:00, urn:oid:2.49.0.1.124.4108835648.2019<br>Area: Picton - Sandbanks Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.4108835648.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T16_29_32_00_00Iurn_oid_2.49.0.1.124.4108835648.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191101172932+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.0624, 46.7207 ],
 							[ -79.141, 46.8582 ],
 							[ -79.1873, 46.8737 ],
@@ -1025,41 +1070,108 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.4872, 54.615 ],
-							[ -123.9108, 55.067 ],
-							[ -124.1479, 55.2006 ],
-							[ -124.4416, 55.346 ],
-							[ -125.2762, 54.9367 ],
-							[ -125.0555, 54.2336 ],
-							[ -124.3065, 52.9994 ],
-							[ -124.3, 53 ],
-							[ -123.8108, 53.0927 ],
-							[ -123.3207, 53.2026 ],
-							[ -123.4872, 54.615 ]
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -58.6299, 48.7822 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -55.9388, 51.6058 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Air Quality",
+				"event" : "Rainfall",
 				"urgency" : "Future",
-				"certainty" : "Possible",
+				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 11:17",
-				"Expires_UTC" : "November 2, 2019 03:16",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nThe Ministry of Environment and Climate Change Strategy in collaboration with Northern Health has issued an Air Quality Advisory for Vanderhoof because of high concentrations of fine particulate matter.  This advisory is in effect until further notice.\n\nPersons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted.   Staying indoors and in air conditioned spaces helpsto reduce fine particulate exposure.  Exposure is particularly a concern for infants, the elderly and those who have diabetes, and lung or heart disease.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors, and those with cardiovascular or lung disease, such as asthma, are especially at risk.\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-11-02T03:16:28-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-11-01T11:17:28-00:00, urn:oid:2.49.0.1.124.2077947938.2019<br>Area: Stuart - Nechako",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"LastUpdate_UTC" : "November 1, 2019 16:36",
+				"Expires_UTC" : "November 2, 2019 01:59",
+				"Summary" : "Description: Rain, at times heavy, continues.\n\nAdditional rainfall: 20 to 30 mm.\n\nLocations: Parson's Pond to the Straits.\n\nTime span: continuing until this evening.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-02T01:59:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T16:36:36-00:00, urn:oid:2.49.0.1.124.0925384934.2019<br>Area: Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.2077947938.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T11_17_28_00_00Iurn_oid_2.49.0.1.124.2077947938.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.0925384934.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T16_36_36_00_00Iurn_oid_2.49.0.1.124.0925384934.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102031628+00:00"
+				"Expires_FMEFormat" : "20191102015936+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					],
+					[
+						[
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.4551, 50.0679 ],
+							[ -59.7883, 50.1231 ],
+							[ -59.0574, 50.5037 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.1162, 51.3508 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1075, 51.9221 ],
+							[ -58.9988, 51.333 ],
+							[ -60.9991, 50.7497 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Storm Surge Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Storm Surge",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 15:19",
+				"Expires_UTC" : "November 1, 2019 22:09",
+				"Summary" : "Description: Higher than normal water levels with large waves are expected near the coast.\n\nWarning of potential breaking sea conditions and overwash issued jointly by Fisheries and Oceans Canada (Science) and the Meteorological Service of Canada - Quebec Region on 2019-10-31.\n\nAn intense low pressure system arriving from the Great Lakes will cause strong to high winds over the regions listed below. The combination of these winds and the current run of high tidal ranges could produce breaking sea conditions along the coast near the following localities, on the dates and at the times specified (Eastern Daylight Time).\n\nAnticosti: 2019-11-01, from 3:30 P.M. to 7:00 P.M.\n\nNatashquan: 2019-11-01, from 01:00 PM to 04:30 PM.\n\nChevery: 2019-11-01, from 01:00 PM to 04:30 PM.\n\nBlanc-Sablon: 2019-11-01, from 12:00 PM to 03:30 PM.\n\n###\n\nCoastal flooding is possible along the shoreline. High waves combined with the surge may cause damage along the coast.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-01T22:09:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T15:19:05-00:00, urn:oid:2.49.0.1.124.1872748380.2019<br>Area: Natashquan, Chevery, Blanc-Sablon, Anticosti",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.1872748380.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T15_19_05_00_00Iurn_oid_2.49.0.1.124.1872748380.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191101220905+00:00"
 			}
 		},
 		{
@@ -1219,6 +1331,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 13:55",
+				"Expires_UTC" : "November 2, 2019 03:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 90 km/h.\n\nLocation: Prince Edward Island.\n\nTime span: This afternoon and early this evening.\n\nRemarks: Strong and gusty southwesterly winds are expected ahead of a cold front this afternoon and into the early evening. Winds will remain gusty tonight, but should ease to near 70 km/h by mid evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-11-02T03:59:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T13:55:44-00:00, urn:oid:2.49.0.1.124.2475275504.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.2475275504.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_55_44_00_00Iurn_oid_2.49.0.1.124.2475275504.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191102035944+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -86.5309, 48.2984 ],
 							[ -86.1345, 47.4654 ],
 							[ -85.809, 47.3094 ],
@@ -1317,55 +1478,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T16_17_28_00_00Iurn_oid_2.49.0.1.124.1686974345.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191102081628+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 13:55",
-				"Expires_UTC" : "November 2, 2019 03:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 90 km/h.\n\nLocation: Prince Edward Island.\n\nTime span: This afternoon and early this evening.\n\nRemarks: Strong and gusty southwesterly winds are expected ahead of a cold front this afternoon and into the early evening. Winds will remain gusty tonight, but should ease to near 70 km/h by mid evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-11-02T03:59:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T13:55:44-00:00, urn:oid:2.49.0.1.124.2475275504.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.2475275504.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_55_44_00_00Iurn_oid_2.49.0.1.124.2475275504.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102035944+00:00"
 			}
 		},
 		{
@@ -1648,6 +1760,50 @@
 				"coordinates" : [
 					[
 						[
+							[ -123.4872, 54.615 ],
+							[ -123.9108, 55.067 ],
+							[ -124.1479, 55.2006 ],
+							[ -124.4416, 55.346 ],
+							[ -125.2762, 54.9367 ],
+							[ -125.0555, 54.2336 ],
+							[ -124.3065, 52.9994 ],
+							[ -124.3, 53 ],
+							[ -123.8108, 53.0927 ],
+							[ -123.3207, 53.2026 ],
+							[ -123.4872, 54.615 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 11:17",
+				"Expires_UTC" : "November 2, 2019 03:16",
+				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nThe Ministry of Environment and Climate Change Strategy in collaboration with Northern Health has issued an Air Quality Advisory for Vanderhoof because of high concentrations of fine particulate matter.  This advisory is in effect until further notice.\n\nPersons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted.   Staying indoors and in air conditioned spaces helpsto reduce fine particulate exposure.  Exposure is particularly a concern for infants, the elderly and those who have diabetes, and lung or heart disease.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors, and those with cardiovascular or lung disease, such as asthma, are especially at risk.\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-11-02T03:16:28-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-11-01T11:17:28-00:00, urn:oid:2.49.0.1.124.2077947938.2019<br>Area: Stuart - Nechako",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.2077947938.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T11_17_28_00_00Iurn_oid_2.49.0.1.124.2077947938.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191102031628+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.3109, 49.4067 ],
 							[ -58.8133, 48.8226 ],
 							[ -59.2492, 48.6594 ],
@@ -1687,55 +1843,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_12_40_00_00Iurn_oid_2.49.0.1.124.3730077047.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191102005940+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -57.7515, 50.0004 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 13:14",
-				"Expires_UTC" : "November 2, 2019 05:13",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 100 km/h.\n\nLocation: Great Northern Peninsula.\n\nTime span: midnight tonight until Saturday morning.\n\nRemarks: The strongest gusts will occur over coastal areas.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-02T05:13:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T13:14:23-00:00, urn:oid:2.49.0.1.124.3588870424.2019<br>Area: Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3588870424.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_14_23_00_00Iurn_oid_2.49.0.1.124.3588870424.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102051323+00:00"
 			}
 		},
 		{
@@ -1916,6 +2023,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_56_11_00_00Iurn_oid_2.49.0.1.124.1943616350.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191102015911+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 13:14",
+				"Expires_UTC" : "November 2, 2019 05:13",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 100 km/h.\n\nLocation: Great Northern Peninsula.\n\nTime span: midnight tonight until Saturday morning.\n\nRemarks: The strongest gusts will occur over coastal areas.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-02T05:13:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T13:14:23-00:00, urn:oid:2.49.0.1.124.3588870424.2019<br>Area: Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.3588870424.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_14_23_00_00Iurn_oid_2.49.0.1.124.3588870424.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191102051323+00:00"
 			}
 		},
 		{
@@ -2228,68 +2384,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_13_04_00_00Iurn_oid_2.49.0.1.124.3482268284.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191102015904+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
-						]
-					],
-					[
-						[
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.4551, 50.0679 ],
-							[ -59.7883, 50.1231 ],
-							[ -59.0574, 50.5037 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ],
-							[ -60.9991, 50.7497 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Storm Surge Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Storm Surge",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 15:19",
-				"Expires_UTC" : "November 1, 2019 22:09",
-				"Summary" : "Description: Higher than normal water levels with large waves are expected near the coast.\n\nWarning of potential breaking sea conditions and overwash issued jointly by Fisheries and Oceans Canada (Science) and the Meteorological Service of Canada - Quebec Region on 2019-10-31.\n\nAn intense low pressure system arriving from the Great Lakes will cause strong to high winds over the regions listed below. The combination of these winds and the current run of high tidal ranges could produce breaking sea conditions along the coast near the following localities, on the dates and at the times specified (Eastern Daylight Time).\n\nAnticosti: 2019-11-01, from 3:30 P.M. to 7:00 P.M.\n\nNatashquan: 2019-11-01, from 01:00 PM to 04:30 PM.\n\nChevery: 2019-11-01, from 01:00 PM to 04:30 PM.\n\nBlanc-Sablon: 2019-11-01, from 12:00 PM to 03:30 PM.\n\n###\n\nCoastal flooding is possible along the shoreline. High waves combined with the surge may cause damage along the coast.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-01T22:09:05-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-01T15:19:05-00:00, urn:oid:2.49.0.1.124.1872748380.2019<br>Area: Natashquan, Chevery, Blanc-Sablon, Anticosti",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/urn:oid:2.49.0.1.124.1872748380.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T15_19_05_00_00Iurn_oid_2.49.0.1.124.1872748380.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191101220905+00:00"
 			}
 		}
 	]
