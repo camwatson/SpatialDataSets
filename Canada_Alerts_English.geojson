@@ -125,121 +125,43 @@
 				"coordinates" : [
 					[
 						[
-							[ -96.376, 49.2663 ],
-							[ -96.5797, 49.2677 ],
-							[ -96.78, 49.2662 ],
-							[ -96.781, 49.1782 ],
-							[ -96.7851, 49.1782 ],
-							[ -96.7845, 49 ],
-							[ -96.2476, 49 ],
-							[ -96.2472, 49.178 ],
-							[ -96.2399, 49.1779 ],
-							[ -96.2395, 49.266 ],
-							[ -96.376, 49.2663 ]
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -63.5006, 46.213 ],
+							[ -63.5565, 46.3787 ],
+							[ -63.6157, 46.5529 ],
+							[ -63.6271, 46.6222 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Update: A Flood Warning Is Being Issued For The Roseau River At Gardenton",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
 				"Category" : "Actual",
-				"event" : "High Water Level",
-				"urgency" : "Immediate",
+				"event" : "Wind",
+				"urgency" : "Past",
 				"certainty" : "Observed",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 13:19",
-				"Expires_UTC" : "November 2, 2019 15:00",
-				"Summary" : "Description: Update: This is a Manitoba Emergency Alert. Manitoba Infrastructure's Hydrologic Forecast Centre has issued a Flood Warning for the Roseau River at Gardenton due to high water flows. If you are in the affected area, be watchful of local waterways as flooding is likely to occur. Do not attempt to cross fast flowing waters or waters of unknown depth. Avoid flooded areas. Follow all directions given by local authorities. Listen for updates and take all necessary precautions to stay safe.<br>Expires: 2019-11-02T15:00:00-05:00<br>Originated from CAP Alert: Manitoba Emergency Measures Organization, 2019-11-01T13:19:10-05:00, B1848747-CAF2-7559-2F6F-F705B30D2A41<br>Area: The Roseau River at Gardenton",
-				"Author" : "Manitoba Emergency Measures Organization",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 2, 2019 03:09",
+				"Expires_UTC" : "November 2, 2019 04:09",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-11-02T04:09:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-02T03:09:46-00:00, urn:oid:2.49.0.1.124.4176596346.2019<br>Area: Prince County P.E.I.",
+				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/B1848747-CAF2-7559-2F6F-F705B30D2A41",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_19_10_05_00IB1848747_CAF2_7559_2F6F_F705B30D2A41.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-02:feed.atom/urn:oid:2.49.0.1.124.4176596346.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-02/2019_11_02T03_09_46_00_00Iurn_oid_2.49.0.1.124.4176596346.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102150000-05:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -96.7845, 49 ],
-							[ -96.2476, 49 ],
-							[ -96.2472, 49.178 ],
-							[ -96.2399, 49.1779 ],
-							[ -96.2395, 49.266 ],
-							[ -96.376, 49.2663 ],
-							[ -96.5797, 49.2677 ],
-							[ -96.78, 49.2662 ],
-							[ -97.2769, 49.2658 ],
-							[ -97.2771, 49.2371 ],
-							[ -97.266, 49.2372 ],
-							[ -97.2654, 49.1923 ],
-							[ -97.2329, 49.1922 ],
-							[ -97.232, 49.178 ],
-							[ -97.235, 49.1781 ],
-							[ -97.2349, 49.1226 ],
-							[ -97.2326, 49.1211 ],
-							[ -97.2334, 49.1185 ],
-							[ -97.2421, 49.1145 ],
-							[ -97.2384, 49.1019 ],
-							[ -97.2328, 49.0994 ],
-							[ -97.2225, 49.1036 ],
-							[ -97.2199, 49.1019 ],
-							[ -97.2238, 49.0989 ],
-							[ -97.2231, 49.097 ],
-							[ -97.2149, 49.0957 ],
-							[ -97.2123, 49.0796 ],
-							[ -97.2182, 49.0751 ],
-							[ -97.2181, 49.0736 ],
-							[ -97.2075, 49.0744 ],
-							[ -97.2021, 49.0727 ],
-							[ -97.2013, 49.0713 ],
-							[ -97.2041, 49.0674 ],
-							[ -97.1973, 49.0618 ],
-							[ -97.1982, 49.0522 ],
-							[ -97.1953, 49.0502 ],
-							[ -97.1884, 49.0499 ],
-							[ -97.1863, 49.0471 ],
-							[ -97.1932, 49.0422 ],
-							[ -97.1949, 49.039 ],
-							[ -97.1869, 49.0367 ],
-							[ -97.1865, 49.0341 ],
-							[ -97.1947, 49.0317 ],
-							[ -97.2018, 49.0229 ],
-							[ -97.1674, 49.0227 ],
-							[ -97.167, 49 ],
-							[ -96.7845, 49 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Update: High Water Advisory Alert Is Being Issued For The Roseau River At Dominion City And Stuartburn",
-				"Category" : "Actual",
-				"event" : "High Water Level",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2019 13:23",
-				"Expires_UTC" : "November 2, 2019 15:00",
-				"Summary" : "Description: Update: This is a Manitoba Emergency Alert. Manitoba Infrastructure's Hydrologic Forecast Centre has issued a High Water Advisory for the Roseau River at Dominion City and Stuartburn due to expected high flows. If you are in the affected area, be watchful of local waterways as flooding is likely to occur. Do not attempt to cross fast flowing waters or waters of unknown depth. Avoid flooded areas. Follow all directions by the local authorities. Listen for updates and take all necessary precautions to stay safe.\n\nUp-to-date information is available at www.gov.mb.ca/flooding and www.manitoba511.ca or stay tuned to local media.<br>Expires: 2019-11-02T15:00:00-05:00<br>Originated from CAP Alert: Manitoba Emergency Measures Organization, 2019-11-01T13:23:06-05:00, 8BA6EE14-D262-E835-8CE8-E71FEC635050<br>Area: Roseau River at Dominion City and Stuartburn",
-				"Author" : "Manitoba Emergency Measures Organization",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/8BA6EE14-D262-E835-8CE8-E71FEC635050",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_23_06_05_00I8BA6EE14_D262_E835_8CE8_E71FEC635050.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102150000-05:00"
+				"Expires_FMEFormat" : "20191102040946+00:00"
 			}
 		},
 		{
@@ -1297,52 +1219,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -63.5006, 46.213 ],
-							[ -63.5565, 46.3787 ],
-							[ -63.6157, 46.5529 ],
-							[ -63.6271, 46.6222 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 2, 2019 03:09",
-				"Expires_UTC" : "November 2, 2019 04:09",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-11-02T04:09:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-02T03:09:46-00:00, urn:oid:2.49.0.1.124.4176596346.2019<br>Area: Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-02:feed.atom/urn:oid:2.49.0.1.124.4176596346.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-02/2019_11_02T03_09_46_00_00Iurn_oid_2.49.0.1.124.4176596346.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191102040946+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -70.5944, 45.6297 ],
 							[ -70.3798, 45.7268 ],
 							[ -70.3968, 45.7994 ],
@@ -1525,6 +1401,130 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T19_41_07_00_00Iurn_oid_2.49.0.1.124.4258307099.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191102114007+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -96.376, 49.2663 ],
+							[ -96.5797, 49.2677 ],
+							[ -96.78, 49.2662 ],
+							[ -96.781, 49.1782 ],
+							[ -96.7851, 49.1782 ],
+							[ -96.7845, 49 ],
+							[ -96.2476, 49 ],
+							[ -96.2472, 49.178 ],
+							[ -96.2399, 49.1779 ],
+							[ -96.2395, 49.266 ],
+							[ -96.376, 49.2663 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Update: A Flood Warning Is Being Issued For The Roseau River At Gardenton",
+				"Category" : "Actual",
+				"event" : "High Water Level",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 13:19",
+				"Expires_UTC" : "November 2, 2019 15:00",
+				"Summary" : "Description: Update: This is a Manitoba Emergency Alert. Manitoba Infrastructure's Hydrologic Forecast Centre has issued a Flood Warning for the Roseau River at Gardenton due to high water flows. If you are in the affected area, be watchful of local waterways as flooding is likely to occur. Do not attempt to cross fast flowing waters or waters of unknown depth. Avoid flooded areas. Follow all directions given by local authorities. Listen for updates and take all necessary precautions to stay safe.<br>Expires: 2019-11-02T15:00:00-05:00<br>Originated from CAP Alert: Manitoba Emergency Measures Organization, 2019-11-01T13:19:10-05:00, B1848747-CAF2-7559-2F6F-F705B30D2A41<br>Area: The Roseau River at Gardenton",
+				"Author" : "Manitoba Emergency Measures Organization",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/B1848747-CAF2-7559-2F6F-F705B30D2A41",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_19_10_05_00IB1848747_CAF2_7559_2F6F_F705B30D2A41.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191102150000-05:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -96.7845, 49 ],
+							[ -96.2476, 49 ],
+							[ -96.2472, 49.178 ],
+							[ -96.2399, 49.1779 ],
+							[ -96.2395, 49.266 ],
+							[ -96.376, 49.2663 ],
+							[ -96.5797, 49.2677 ],
+							[ -96.78, 49.2662 ],
+							[ -97.2769, 49.2658 ],
+							[ -97.2771, 49.2371 ],
+							[ -97.266, 49.2372 ],
+							[ -97.2654, 49.1923 ],
+							[ -97.2329, 49.1922 ],
+							[ -97.232, 49.178 ],
+							[ -97.235, 49.1781 ],
+							[ -97.2349, 49.1226 ],
+							[ -97.2326, 49.1211 ],
+							[ -97.2334, 49.1185 ],
+							[ -97.2421, 49.1145 ],
+							[ -97.2384, 49.1019 ],
+							[ -97.2328, 49.0994 ],
+							[ -97.2225, 49.1036 ],
+							[ -97.2199, 49.1019 ],
+							[ -97.2238, 49.0989 ],
+							[ -97.2231, 49.097 ],
+							[ -97.2149, 49.0957 ],
+							[ -97.2123, 49.0796 ],
+							[ -97.2182, 49.0751 ],
+							[ -97.2181, 49.0736 ],
+							[ -97.2075, 49.0744 ],
+							[ -97.2021, 49.0727 ],
+							[ -97.2013, 49.0713 ],
+							[ -97.2041, 49.0674 ],
+							[ -97.1973, 49.0618 ],
+							[ -97.1982, 49.0522 ],
+							[ -97.1953, 49.0502 ],
+							[ -97.1884, 49.0499 ],
+							[ -97.1863, 49.0471 ],
+							[ -97.1932, 49.0422 ],
+							[ -97.1949, 49.039 ],
+							[ -97.1869, 49.0367 ],
+							[ -97.1865, 49.0341 ],
+							[ -97.1947, 49.0317 ],
+							[ -97.2018, 49.0229 ],
+							[ -97.1674, 49.0227 ],
+							[ -97.167, 49 ],
+							[ -96.7845, 49 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Update: High Water Advisory Alert Is Being Issued For The Roseau River At Dominion City And Stuartburn",
+				"Category" : "Actual",
+				"event" : "High Water Level",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2019 13:23",
+				"Expires_UTC" : "November 2, 2019 15:00",
+				"Summary" : "Description: Update: This is a Manitoba Emergency Alert. Manitoba Infrastructure's Hydrologic Forecast Centre has issued a High Water Advisory for the Roseau River at Dominion City and Stuartburn due to expected high flows. If you are in the affected area, be watchful of local waterways as flooding is likely to occur. Do not attempt to cross fast flowing waters or waters of unknown depth. Avoid flooded areas. Follow all directions by the local authorities. Listen for updates and take all necessary precautions to stay safe.\n\nUp-to-date information is available at www.gov.mb.ca/flooding and www.manitoba511.ca or stay tuned to local media.<br>Expires: 2019-11-02T15:00:00-05:00<br>Originated from CAP Alert: Manitoba Emergency Measures Organization, 2019-11-01T13:23:06-05:00, 8BA6EE14-D262-E835-8CE8-E71FEC635050<br>Area: Roseau River at Dominion City and Stuartburn",
+				"Author" : "Manitoba Emergency Measures Organization",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-01:feed.atom/8BA6EE14-D262-E835-8CE8-E71FEC635050",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-01/2019_11_01T13_23_06_05_00I8BA6EE14_D262_E835_8CE8_E71FEC635050.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191102150000-05:00"
 			}
 		},
 		{
