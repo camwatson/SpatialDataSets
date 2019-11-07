@@ -437,84 +437,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ]
-						]
-					],
-					[
-						[
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -64.999, 50.7498 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.6884, 50.1063 ],
-							[ -62.995, 50.1418 ]
-						]
-					],
-					[
-						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 6, 2019 16:30",
-				"Expires_UTC" : "November 7, 2019 07:59",
-				"Summary" : "Description: Westerly winds gusting to 90 kilometres per hour are expected beginning this afternoon. These winds will gradually diminish late this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-07T07:59:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T16:30:33-00:00, urn:oid:2.49.0.1.124.3988798632.2019<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Minganie, Natashquan, Anticosti",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.3988798632.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T16_30_33_00_00Iurn_oid_2.49.0.1.124.3988798632.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107075933+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -78.9997, 45.1057 ],
 							[ -78.8427, 45.1449 ],
 							[ -78.8439, 45.1471 ],
@@ -598,44 +520,75 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -85.2219, 48.2896 ],
-							[ -86.0931, 48.7455 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ]
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					],
+					[
+						[
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.9681, 50.1859 ],
+							[ -60.9447, 50.2258 ],
+							[ -60.9519, 50.2315 ],
+							[ -60.9909, 50.2233 ],
+							[ -60.9983, 50.2284 ],
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -64.999, 50.7498 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.6884, 50.1063 ],
+							[ -62.995, 50.1418 ]
+						]
+					],
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Wind",
 				"urgency" : "Future",
-				"certainty" : "Possible",
+				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 6, 2019 13:45",
-				"Expires_UTC" : "November 7, 2019 05:44",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for today. \n\nIsolated snow squalls are expected to continue today providing additional snowfall accumulations of 5 to 10 cm. The squalls are expected to move out of the region later this afternoon.\n\nLocally heavy snow is possible along with reduced visibilities at times. Prepare for hazardous driving conditions at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-07T05:44:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T13:45:16-00:00, urn:oid:2.49.0.1.124.1246807229.2019<br>Area: Wawa - Pukaskwa Park",
+				"LastUpdate_UTC" : "November 6, 2019 16:30",
+				"Expires_UTC" : "November 7, 2019 07:59",
+				"Summary" : "Description: Westerly winds gusting to 90 kilometres per hour are expected beginning this afternoon. These winds will gradually diminish late this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-07T07:59:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T16:30:33-00:00, urn:oid:2.49.0.1.124.3988798632.2019<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Minganie, Natashquan, Anticosti",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.1246807229.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T13_45_16_00_00Iurn_oid_2.49.0.1.124.1246807229.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.3988798632.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T16_30_33_00_00Iurn_oid_2.49.0.1.124.3988798632.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107054416+00:00"
+				"Expires_FMEFormat" : "20191107075933+00:00"
 			}
 		},
 		{
@@ -1250,18 +1203,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 6, 2019 19:43",
-				"Expires_UTC" : "November 7, 2019 11:42",
-				"Summary" : "Description: Wintry weather likely for parts of Nova Scotia Friday night into Saturday.\n\nA weather system is expected to bring some rain to the province Thursday night and Friday.  Colder air will usher in behind this system later on Friday and persist on Saturday. As this colder air arrives from the northwest, showers will turn to periods of snow Friday evening which could give local accumulations and potentially hazardous driving conditions especially to the Annapolis Valley, northern Nova Scotia and parts of Cape Breton Island. \n\nSaturday will be a cold and blustery day across the entire province with onshore flurries and temperatures struggling to climb above zero in many areas.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-07T11:42:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T19:43:08-00:00, urn:oid:2.49.0.1.124.3838651949.2019<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
+				"LastUpdate_UTC" : "November 7, 2019 02:32",
+				"Expires_UTC" : "November 7, 2019 18:31",
+				"Summary" : "Description: Wintry weather likely for parts of Nova Scotia Friday night into Saturday.\n\nA weather system is expected to bring some rain to the province Thursday night and Friday.  Colder air will move in behind this system later on Friday and persist on Saturday. As this colder air arrives from the northwest, showers will turn to periods of snow Friday evening which could give local accumulations and potentially hazardous driving conditions especially to the Annapolis Valley, northern Nova Scotia and parts of Cape Breton Island. \n\nSaturday will be a cold and blustery day across the entire province with onshore flurries and temperatures struggling to climb above zero in many areas.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-07T18:31:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T02:32:00-00:00, urn:oid:2.49.0.1.124.2408120029.2019<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.3838651949.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T19_43_08_00_00Iurn_oid_2.49.0.1.124.3838651949.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.2408120029.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T02_32_00_00_00Iurn_oid_2.49.0.1.124.2408120029.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107114208+00:00"
+				"Expires_FMEFormat" : "20191107183100+00:00"
 			}
 		},
 		{
@@ -1606,18 +1559,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 6, 2019 19:40",
-				"Expires_UTC" : "November 7, 2019 11:39",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: 100 km/h from the west.\n\nLocations: Southeastern Labrador.\n\nTime span: overnight tonight and Thursday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-07T11:39:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T19:40:37-00:00, urn:oid:2.49.0.1.124.1683777475.2019<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Rigolet and vicinity",
+				"LastUpdate_UTC" : "November 7, 2019 02:49",
+				"Expires_UTC" : "November 7, 2019 18:49",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-07T18:49:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T02:49:35-00:00, urn:oid:2.49.0.1.124.1165548635.2019<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Rigolet and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.1683777475.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T19_40_37_00_00Iurn_oid_2.49.0.1.124.1683777475.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.1165548635.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T02_49_35_00_00Iurn_oid_2.49.0.1.124.1165548635.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107113937+00:00"
+				"Expires_FMEFormat" : "20191107184935+00:00"
 			}
 		},
 		{
@@ -1776,93 +1729,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.7076, 46.1874 ],
-							[ -83.8414, 46.4826 ],
-							[ -84.4894, 46.6516 ],
-							[ -84.4985, 46.6539 ],
-							[ -84.6124, 46.6233 ],
-							[ -84.6283, 46.5491 ],
-							[ -84.5588, 46.4765 ],
-							[ -84.4902, 46.4573 ],
-							[ -84.1729, 46.4924 ],
-							[ -84.0972, 46.1959 ],
-							[ -83.9476, 46.0487 ],
-							[ -83.822, 46.1212 ],
-							[ -83.7566, 46.1199 ],
-							[ -83.7076, 46.1874 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 7, 2019 02:19",
-				"Expires_UTC" : "November 7, 2019 14:59",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for tonight. \n\nIsolated snow squalls are expected through tonight before shifting south and west of the region by Thursday morning.\n\nLocally heavy snowfall accumulations are possible along with reduced visibilities. Be prepared for hazardous driving conditions at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-07T14:59:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T02:19:20-00:00, urn:oid:2.49.0.1.124.3554575256.2019<br>Area: Sault Ste. Marie - St. Joseph Island",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.3554575256.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T02_19_20_00_00Iurn_oid_2.49.0.1.124.3554575256.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107145920+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 6, 2019 19:41",
-				"Expires_UTC" : "November 7, 2019 11:40",
-				"Summary" : "Description: Rain or wet snow for the Islands Thursday night, followed by colder temperatures, flurries and strong winds for Friday and Saturday.\n\nA weather system will bring rain to the Islands beginning late in the day Thursday, then change to wet snow overnight. Flurries will develop on Friday as colder air and stronger winds move into the region from the northwest. Saturday will be an unseasonably cold and blustery day with frequent flurries that could give a few centimetres accumulation. \n\nThe storm could cause higher than normal water levels during high tide as well as large waves and rough and pounding surf, mainly along coastlines where winds blow onshore Friday night and Saturday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-07T11:40:17-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T19:41:17-00:00, urn:oid:2.49.0.1.124.3254720826.2019<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.3254720826.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T19_41_17_00_00Iurn_oid_2.49.0.1.124.3254720826.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107114017+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.9179, 45.4771 ],
 							[ -64.4894, 45.7165 ],
 							[ -64.3392, 45.8389 ],
@@ -1992,18 +1858,105 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 6, 2019 19:43",
-				"Expires_UTC" : "November 7, 2019 11:42",
-				"Summary" : "Description: Rain and snow followed by colder temperatures expected over New Brunswick beginning Thursday afternoon into Friday, with a cold and blustery day in store for Saturday.\n\nA weather system is expected to bring rain to southern New Brunswick beginning Thursday afternoon with snow expected over northern regions, with the rain/snow boundary likely across central New Brunswick. Rainfall amounts of 15 to 30 millimetres are possible over southern sections with 5 to 10 centimetres of snow possible for the northern and central areas of the province Thursday night. \n\nAs colder air moves into the province from the north on Friday, flurries or periods of snow could give an additional 5 to 10 centimetres of snow to central and eastern areas of the province. Reduction to visibility could create potentially hazardous driving conditions Friday afternoon and evening.  \n\nSaturday will be sunny but remain cold and blustery across the province as temperatures will struggle to reach the freezing mark in many areas.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-11-07T11:42:25-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T19:43:25-00:00, urn:oid:2.49.0.1.124.3883923089.2019<br>Area: Fredericton and Southern York County, Oromocto and Sunbury County, Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, Saint John and County, St. Stephen and Northern Charlotte County, Grand Manan and Coastal Charlotte County, Woodstock and Carleton County, Stanley - Doaktown - Blackville Area, Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Fundy National Park, Edmundston and Madawaska County, western half of Restigouche County, Campbellton and eastern half of Restigouche County, Grand Falls and Victoria County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region, Miramichi and area, Acadian Peninsula",
+				"LastUpdate_UTC" : "November 7, 2019 02:31",
+				"Expires_UTC" : "November 7, 2019 18:30",
+				"Summary" : "Description: Rain and snow followed by colder temperatures expected over New Brunswick beginning Thursday afternoon into Friday, with a cold and blustery day in store for Saturday.\n\nA weather system is expected to bring rain to southern New Brunswick beginning Thursday afternoon with snow expected over northern regions. The rain/snow boundary will likely be across central New Brunswick. Rainfall amounts of 15 to 30 millimetres are possible over southern sections with 5 to 10 centimetres of snow possible for the northern and central areas of the province Thursday night. \n\nAs colder air moves into the province from the north on Friday, flurries or periods of snow could give an additional 5 to 10 centimetres of snow to central and eastern areas of the province. Reduction to visibility could create potentially hazardous driving conditions Friday afternoon and evening.  \n\nSaturday will be sunny but remain cold and blustery across the province as temperatures will struggle to reach the freezing mark in many areas.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-11-07T18:30:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T02:31:52-00:00, urn:oid:2.49.0.1.124.4035023989.2019<br>Area: Fredericton and Southern York County, Oromocto and Sunbury County, Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, Saint John and County, St. Stephen and Northern Charlotte County, Grand Manan and Coastal Charlotte County, Woodstock and Carleton County, Stanley - Doaktown - Blackville Area, Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Fundy National Park, Edmundston and Madawaska County, western half of Restigouche County, Campbellton and eastern half of Restigouche County, Grand Falls and Victoria County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region, Miramichi and area, Acadian Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.3883923089.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T19_43_25_00_00Iurn_oid_2.49.0.1.124.3883923089.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.4035023989.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T02_31_52_00_00Iurn_oid_2.49.0.1.124.4035023989.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107114225+00:00"
+				"Expires_FMEFormat" : "20191107183052+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -83.7076, 46.1874 ],
+							[ -83.8414, 46.4826 ],
+							[ -84.4894, 46.6516 ],
+							[ -84.4985, 46.6539 ],
+							[ -84.6124, 46.6233 ],
+							[ -84.6283, 46.5491 ],
+							[ -84.5588, 46.4765 ],
+							[ -84.4902, 46.4573 ],
+							[ -84.1729, 46.4924 ],
+							[ -84.0972, 46.1959 ],
+							[ -83.9476, 46.0487 ],
+							[ -83.822, 46.1212 ],
+							[ -83.7566, 46.1199 ],
+							[ -83.7076, 46.1874 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 7, 2019 02:19",
+				"Expires_UTC" : "November 7, 2019 14:59",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for tonight. \n\nIsolated snow squalls are expected through tonight before shifting south and west of the region by Thursday morning.\n\nLocally heavy snowfall accumulations are possible along with reduced visibilities. Be prepared for hazardous driving conditions at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-07T14:59:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T02:19:20-00:00, urn:oid:2.49.0.1.124.3554575256.2019<br>Area: Sault Ste. Marie - St. Joseph Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.3554575256.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T02_19_20_00_00Iurn_oid_2.49.0.1.124.3554575256.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191107145920+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 6, 2019 19:41",
+				"Expires_UTC" : "November 7, 2019 11:40",
+				"Summary" : "Description: Rain or wet snow for the Islands Thursday night, followed by colder temperatures, flurries and strong winds for Friday and Saturday.\n\nA weather system will bring rain to the Islands beginning late in the day Thursday, then change to wet snow overnight. Flurries will develop on Friday as colder air and stronger winds move into the region from the northwest. Saturday will be an unseasonably cold and blustery day with frequent flurries that could give a few centimetres accumulation. \n\nThe storm could cause higher than normal water levels during high tide as well as large waves and rough and pounding surf, mainly along coastlines where winds blow onshore Friday night and Saturday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-07T11:40:17-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T19:41:17-00:00, urn:oid:2.49.0.1.124.3254720826.2019<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.3254720826.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T19_41_17_00_00Iurn_oid_2.49.0.1.124.3254720826.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191107114017+00:00"
 			}
 		},
 		{
@@ -2141,18 +2094,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 6, 2019 19:25",
-				"Expires_UTC" : "November 7, 2019 11:24",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: 100 km/h.\n\nLocations: Great Northern Peninsula and the Northeast Coast.\n\nTime span: this evening until overnight Thursday.\n\nRemarks: Winds will strengthen this evening in the Canada Bay area otherwise winds will develop overnight tonight.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-07T11:24:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T19:25:38-00:00, urn:oid:2.49.0.1.124.1413873406.2019<br>Area: Gros Morne, Bay of Exploits, Bonavista North, Green Bay - White Bay, Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"LastUpdate_UTC" : "November 7, 2019 02:49",
+				"Expires_UTC" : "November 7, 2019 18:49",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-07T18:49:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T02:49:04-00:00, urn:oid:2.49.0.1.124.3870504388.2019<br>Area: Gros Morne, Bay of Exploits, Bonavista North, Green Bay - White Bay, Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.1413873406.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T19_25_38_00_00Iurn_oid_2.49.0.1.124.1413873406.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.3870504388.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T02_49_04_00_00Iurn_oid_2.49.0.1.124.3870504388.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107112438+00:00"
+				"Expires_FMEFormat" : "20191107184904+00:00"
 			}
 		}
 	]
