@@ -641,6 +641,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.7076, 46.1874 ],
+							[ -83.8414, 46.4826 ],
+							[ -84.4894, 46.6516 ],
+							[ -84.4985, 46.6539 ],
+							[ -84.6124, 46.6233 ],
+							[ -84.6283, 46.5491 ],
+							[ -84.5588, 46.4765 ],
+							[ -84.4902, 46.4573 ],
+							[ -84.1729, 46.4924 ],
+							[ -84.0972, 46.1959 ],
+							[ -83.9476, 46.0487 ],
+							[ -83.822, 46.1212 ],
+							[ -83.7566, 46.1199 ],
+							[ -83.7076, 46.1874 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 7, 2019 02:19",
+				"Expires_UTC" : "November 7, 2019 14:59",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for tonight. \n\nIsolated snow squalls are expected through tonight before shifting south and west of the region by Thursday morning.\n\nLocally heavy snowfall accumulations are possible along with reduced visibilities. Be prepared for hazardous driving conditions at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-07T14:59:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T02:19:20-00:00, urn:oid:2.49.0.1.124.3554575256.2019<br>Area: Sault Ste. Marie - St. Joseph Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.3554575256.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T02_19_20_00_00Iurn_oid_2.49.0.1.124.3554575256.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191107145920+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.2052, 43.6013 ],
 							[ -81.2023, 43.5994 ],
 							[ -81.2872, 43.5027 ],
@@ -1327,63 +1374,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
-						]
-					],
-					[
-						[
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -62.995, 50.1418 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 7, 2019 10:00",
-				"Expires_UTC" : "November 7, 2019 11:00",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2019-11-07T11:00:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T10:00:57-00:00, urn:oid:2.49.0.1.124.2796372717.2019<br>Area: Natashquan, Anticosti",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.2796372717.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T10_00_57_00_00Iurn_oid_2.49.0.1.124.2796372717.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107110057+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.0764, 48.6423 ],
 							[ -57.83, 48.58 ],
 							[ -57.4599, 48.2499 ],
@@ -1524,70 +1514,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T08_40_57_00_00Iurn_oid_2.49.0.1.124.3328797527.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191108003957+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -124.4416, 55.346 ],
-							[ -125.3473, 56.067 ],
-							[ -126.6699, 56.9999 ],
-							[ -127.7835, 57.0545 ],
-							[ -128.9927, 57.0307 ],
-							[ -128.7494, 56.5021 ],
-							[ -128.4667, 56.0247 ],
-							[ -128.1367, 55.2999 ],
-							[ -127.6878, 54.538 ],
-							[ -127.6267, 54.3906 ],
-							[ -127.509, 54.1959 ],
-							[ -127.1346, 53.6587 ],
-							[ -126.7741, 53.2011 ],
-							[ -126.648, 53.014 ],
-							[ -126.5, 52.83 ],
-							[ -125.363, 52.8986 ],
-							[ -124.3065, 52.9994 ],
-							[ -124.3, 53 ],
-							[ -123.8108, 53.0927 ],
-							[ -123.3207, 53.2026 ],
-							[ -122.349, 53.3864 ],
-							[ -121.4, 53.5999 ],
-							[ -121.9409, 54.3293 ],
-							[ -122.4999, 54.9999 ],
-							[ -122.8496, 54.8582 ],
-							[ -123.1999, 54.7 ],
-							[ -123.3477, 54.6596 ],
-							[ -123.4872, 54.615 ],
-							[ -123.9108, 55.067 ],
-							[ -124.1479, 55.2006 ],
-							[ -124.4416, 55.346 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 6, 2019 23:50",
-				"Expires_UTC" : "November 7, 2019 15:49",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\nAn approaching warm front will track across the BC interior on Thursday.\n\nThe warm air aloft combined with below zero temperatures at the surface will result in periods of freezing rain overnight into Thursday morning. The freezing rain is expected to change to rain Thursday afternoon as temperatures rise above zero.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-07T15:49:21-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T23:50:21-00:00, urn:oid:2.49.0.1.124.0417941242.2019<br>Area: Bulkley Valley, Lakes District, Stuart - Nechako, Prince George",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.0417941242.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T23_50_21_00_00Iurn_oid_2.49.0.1.124.0417941242.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107154921+00:00"
 			}
 		},
 		{
@@ -1946,53 +1872,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.7076, 46.1874 ],
-							[ -83.8414, 46.4826 ],
-							[ -84.4894, 46.6516 ],
-							[ -84.4985, 46.6539 ],
-							[ -84.6124, 46.6233 ],
-							[ -84.6283, 46.5491 ],
-							[ -84.5588, 46.4765 ],
-							[ -84.4902, 46.4573 ],
-							[ -84.1729, 46.4924 ],
-							[ -84.0972, 46.1959 ],
-							[ -83.9476, 46.0487 ],
-							[ -83.822, 46.1212 ],
-							[ -83.7566, 46.1199 ],
-							[ -83.7076, 46.1874 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 7, 2019 10:04",
-				"Expires_UTC" : "November 7, 2019 11:04",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2019-11-07T11:04:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T10:04:33-00:00, urn:oid:2.49.0.1.124.1117182352.2019<br>Area: Sault Ste. Marie - St. Joseph Island",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.1117182352.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T10_04_33_00_00Iurn_oid_2.49.0.1.124.1117182352.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191107110433+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -55.9866, 49.1219 ],
 							[ -55.45, 49.0999 ],
 							[ -55.3806, 49.0603 ],
@@ -2284,6 +2163,70 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T08_45_47_00_00Iurn_oid_2.49.0.1.124.4083899377.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191108004447+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -124.4416, 55.346 ],
+							[ -125.3473, 56.067 ],
+							[ -126.6699, 56.9999 ],
+							[ -127.7835, 57.0545 ],
+							[ -128.9927, 57.0307 ],
+							[ -128.7494, 56.5021 ],
+							[ -128.4667, 56.0247 ],
+							[ -128.1367, 55.2999 ],
+							[ -127.6878, 54.538 ],
+							[ -127.6267, 54.3906 ],
+							[ -127.509, 54.1959 ],
+							[ -127.1346, 53.6587 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.648, 53.014 ],
+							[ -126.5, 52.83 ],
+							[ -125.363, 52.8986 ],
+							[ -124.3065, 52.9994 ],
+							[ -124.3, 53 ],
+							[ -123.8108, 53.0927 ],
+							[ -123.3207, 53.2026 ],
+							[ -122.349, 53.3864 ],
+							[ -121.4, 53.5999 ],
+							[ -121.9409, 54.3293 ],
+							[ -122.4999, 54.9999 ],
+							[ -122.8496, 54.8582 ],
+							[ -123.1999, 54.7 ],
+							[ -123.3477, 54.6596 ],
+							[ -123.4872, 54.615 ],
+							[ -123.9108, 55.067 ],
+							[ -124.1479, 55.2006 ],
+							[ -124.4416, 55.346 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 6, 2019 23:50",
+				"Expires_UTC" : "November 7, 2019 15:49",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\nAn approaching warm front will track across the BC interior on Thursday.\n\nThe warm air aloft combined with below zero temperatures at the surface will result in periods of freezing rain overnight into Thursday morning. The freezing rain is expected to change to rain Thursday afternoon as temperatures rise above zero.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-07T15:49:21-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-06T23:50:21-00:00, urn:oid:2.49.0.1.124.0417941242.2019<br>Area: Bulkley Valley, Lakes District, Stuart - Nechako, Prince George",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-06:feed.atom/urn:oid:2.49.0.1.124.0417941242.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-06/2019_11_06T23_50_21_00_00Iurn_oid_2.49.0.1.124.0417941242.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191107154921+00:00"
 			}
 		}
 	]
