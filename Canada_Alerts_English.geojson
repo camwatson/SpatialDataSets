@@ -9,6 +9,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -57.1137, 53.3384 ],
+							[ -57.129, 53.0471 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.1428, 52.4234 ],
+							[ -57.1156, 52.1 ],
+							[ -55.6948, 52.1 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.559, 53.2249 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -57.1137, 53.3384 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 7, 2019 23:20",
+				"Expires_UTC" : "November 8, 2019 00:20",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-11-08T00:20:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T23:20:57-00:00, urn:oid:2.49.0.1.124.1156560657.2019<br>Area: Norman Bay to Lodge Bay, Cartwright to Black Tickle",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.1156560657.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T23_20_57_00_00Iurn_oid_2.49.0.1.124.1156560657.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191108002057+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -71.798, 45.9332 ],
 							[ -71.7994, 45.9313 ],
 							[ -72.0166, 45.8501 ],
@@ -471,57 +520,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T13_58_30_06_00IB1B2DD07_99AD_6454_6156_329B200DBADB.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191108150000-06:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5677, 48.1 ],
-							[ -58.4199, 48.1 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.42, 47.6666 ],
-							[ -58.42, 47.6535 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 7, 2019 14:15",
-				"Expires_UTC" : "November 8, 2019 06:15",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-08T06:15:27-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-07T14:15:27-00:00, urn:oid:2.49.0.1.124.2133700951.2019<br>Area: Burgeo - Ramea",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-07:feed.atom/urn:oid:2.49.0.1.124.2133700951.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T14_15_27_00_00Iurn_oid_2.49.0.1.124.2133700951.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191108061527+00:00"
 			}
 		},
 		{
