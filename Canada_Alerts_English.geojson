@@ -595,50 +595,42 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.1999, 54.7 ],
-							[ -122.8357, 54.848 ],
-							[ -122.4999, 54.9999 ],
-							[ -122.0782, 55.1899 ],
-							[ -121.6999, 55.38 ],
-							[ -121.839, 55.5297 ],
-							[ -122.0337, 55.7116 ],
-							[ -122.6071, 56.3068 ],
-							[ -123.2874, 56.9577 ],
-							[ -123.3, 56.9999 ],
-							[ -125.06, 57.0477 ],
-							[ -126.6699, 56.9999 ],
-							[ -125.4202, 56.0297 ],
-							[ -124.4416, 55.346 ],
-							[ -124.4199, 55.33 ],
-							[ -124.1684, 55.1898 ],
-							[ -123.9108, 55.067 ],
-							[ -123.4872, 54.615 ],
-							[ -123.3415, 54.655 ],
-							[ -123.1999, 54.7 ]
+							[ -55.8517, 51.8524 ],
+							[ -55.9388, 51.6058 ],
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
 				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 8, 2019 03:42",
-				"Expires_UTC" : "November 8, 2019 16:37",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-08T16:37:06-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-08T03:42:06-00:00, urn:oid:2.49.0.1.124.2444512288.2019<br>Area: Williston",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 8, 2019 03:55",
+				"Expires_UTC" : "November 8, 2019 04:55",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-11-08T04:55:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-08T03:55:57-00:00, urn:oid:2.49.0.1.124.3254592579.2019<br>Area: Northern Peninsula East",
 				"Author" : "Environment Canada",
-				"msgType" : "Alert",
+				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-08:feed.atom/urn:oid:2.49.0.1.124.2444512288.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-08/2019_11_08T03_42_06_00_00Iurn_oid_2.49.0.1.124.2444512288.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-08:feed.atom/urn:oid:2.49.0.1.124.3254592579.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-08/2019_11_08T03_55_57_00_00Iurn_oid_2.49.0.1.124.3254592579.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191108163706+00:00"
+				"Expires_FMEFormat" : "20191108045557+00:00"
 			}
 		},
 		{
@@ -1751,6 +1743,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-07/2019_11_07T20_16_07_00_00Iurn_oid_2.49.0.1.124.2865283996.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191108121507+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.1999, 54.7 ],
+							[ -122.8357, 54.848 ],
+							[ -122.4999, 54.9999 ],
+							[ -122.0782, 55.1899 ],
+							[ -121.6999, 55.38 ],
+							[ -121.839, 55.5297 ],
+							[ -122.0337, 55.7116 ],
+							[ -122.6071, 56.3068 ],
+							[ -123.2874, 56.9577 ],
+							[ -123.3, 56.9999 ],
+							[ -125.06, 57.0477 ],
+							[ -126.6699, 56.9999 ],
+							[ -125.4202, 56.0297 ],
+							[ -124.4416, 55.346 ],
+							[ -124.4199, 55.33 ],
+							[ -124.1684, 55.1898 ],
+							[ -123.9108, 55.067 ],
+							[ -123.4872, 54.615 ],
+							[ -123.3415, 54.655 ],
+							[ -123.1999, 54.7 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 8, 2019 03:43",
+				"Expires_UTC" : "November 8, 2019 16:37",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA Pacific front is moving across the northern interior tonight. Snow at times heavy had begun this evening over Williston with an additional 5 to 10 cm in the forecast. Snow will change to rain or becoming mixed with rain overnight as the the airmass warms up.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-08T16:37:06-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-08T03:43:06-00:00, urn:oid:2.49.0.1.124.1155752635.2019<br>Area: Williston",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-08:feed.atom/urn:oid:2.49.0.1.124.1155752635.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-08/2019_11_08T03_43_06_00_00Iurn_oid_2.49.0.1.124.1155752635.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191108163706+00:00"
 			}
 		},
 		{
