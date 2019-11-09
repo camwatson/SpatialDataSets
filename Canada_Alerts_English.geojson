@@ -68,6 +68,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.6283, 47.2522 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 9, 2019 00:00",
+				"Expires_UTC" : "November 9, 2019 16:00",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-09T16:00:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-09T00:00:24-00:00, urn:oid:2.49.0.1.124.4064854500.2019<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-09:feed.atom/urn:oid:2.49.0.1.124.4064854500.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-09/2019_11_09T00_00_24_00_00Iurn_oid_2.49.0.1.124.4064854500.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191109160024+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.5935, 45.5573 ],
 							[ -79.3895, 45.1399 ],
 							[ -78.9997, 45.1057 ],
@@ -1138,83 +1185,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -122.0337, 55.7116 ],
-							[ -121.8569, 55.5253 ],
-							[ -121.6999, 55.38 ],
-							[ -120.9766, 54.701 ],
-							[ -120.0013, 53.8703 ],
-							[ -120.0013, 53.8894 ],
-							[ -120.0013, 53.9374 ],
-							[ -120.0013, 53.9904 ],
-							[ -120.0013, 54.5874 ],
-							[ -120.0013, 54.9374 ],
-							[ -120.0013, 55.4907 ],
-							[ -120.0013, 55.9599 ],
-							[ -120.0013, 56.0691 ],
-							[ -120.0013, 56.1476 ],
-							[ -119.9861, 56.4573 ],
-							[ -120.0013, 56.7699 ],
-							[ -120.0013, 57.0999 ],
-							[ -119.9857, 57.2379 ],
-							[ -120.0012, 57.3805 ],
-							[ -120.0012, 58.0792 ],
-							[ -120.0013, 58.9507 ],
-							[ -120.0013, 59.4749 ],
-							[ -120.0013, 60.0004 ],
-							[ -120.3721, 60.0094 ],
-							[ -120.8537, 60.0007 ],
-							[ -122.1769, 60.0416 ],
-							[ -123.7728, 60.0004 ],
-							[ -123.7954, 60.0001 ],
-							[ -123.8085, 60 ],
-							[ -123.817, 60 ],
-							[ -123.817, 59.9356 ],
-							[ -123.8528, 59.7415 ],
-							[ -123.817, 59.4674 ],
-							[ -123.8541, 58.9744 ],
-							[ -123.833, 58.4669 ],
-							[ -123.8503, 58.2678 ],
-							[ -123.817, 58 ],
-							[ -123.4638, 57.5317 ],
-							[ -122.9999, 57.0999 ],
-							[ -123.1581, 57.058 ],
-							[ -123.3, 56.9999 ],
-							[ -123.2874, 56.9577 ],
-							[ -122.6457, 56.2943 ],
-							[ -122.0337, 55.7116 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 8, 2019 16:43",
-				"Expires_UTC" : "November 9, 2019 08:42",
-				"Summary" : "Description: A long period of snowfall with total amounts of 20 to 30 cm is expected.\n\nA Pacific front will move into northeastern BC this morning. This will be followed by an Arctic front pushing through the region later today and then stalling on Saturday. \n\nAs a result, long periods of snow heavy at times are expected in the region.\n\nBC North Peace River - will see 25 cm of snow accumulation by midnight Saturday.\n\nBC South Peace River - can expect 25 to 30 cm of snow for northern sections including Chetwynd and Dawson Creek by midnight Saturday.  Southern sections will receive 10 to 15 cm total.\n\nFort Nelson - will see 20 to 25 cm of snow over southern sections including Sikanni Chief by midnight Saturday.  The community of Fort Nelson will receive lesser amounts of near 10 cm total with this system.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-09T08:42:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-08T16:43:00-00:00, urn:oid:2.49.0.1.124.1482735222.2019<br>Area: B.C. South Peace River, B.C. North Peace River, Fort Nelson",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-08:feed.atom/urn:oid:2.49.0.1.124.1482735222.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-08/2019_11_08T16_43_00_00_00Iurn_oid_2.49.0.1.124.1482735222.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191109084200+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -66.4509, 45.3156 ],
 							[ -66.4491, 45.2167 ],
 							[ -66.449, 45.2164 ],
@@ -1627,53 +1597,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-09/2019_11_09T00_04_55_00_00Iurn_oid_2.49.0.1.124.2292705152.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191109160355+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -84.6283, 47.2522 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9939, 48.1107 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 9, 2019 00:06",
-				"Expires_UTC" : "November 9, 2019 01:05",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\nThis is a mistake. It should be a snow squall warning.\n\n###<br>Expires: 2019-11-09T01:05:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-09T00:06:20-00:00, urn:oid:2.49.0.1.124.0981367990.2019<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-09:feed.atom/urn:oid:2.49.0.1.124.0981367990.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-09/2019_11_09T00_06_20_00_00Iurn_oid_2.49.0.1.124.0981367990.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191109010520+00:00"
 			}
 		},
 		{
@@ -2423,6 +2346,83 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-08/2019_11_08T22_24_20_00_00Iurn_oid_2.49.0.1.124.3374402836.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191109142320+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -122.0337, 55.7116 ],
+							[ -121.8569, 55.5253 ],
+							[ -121.6999, 55.38 ],
+							[ -120.9766, 54.701 ],
+							[ -120.0013, 53.8703 ],
+							[ -120.0013, 53.8894 ],
+							[ -120.0013, 53.9374 ],
+							[ -120.0013, 53.9904 ],
+							[ -120.0013, 54.5874 ],
+							[ -120.0013, 54.9374 ],
+							[ -120.0013, 55.4907 ],
+							[ -120.0013, 55.9599 ],
+							[ -120.0013, 56.0691 ],
+							[ -120.0013, 56.1476 ],
+							[ -119.9861, 56.4573 ],
+							[ -120.0013, 56.7699 ],
+							[ -120.0013, 57.0999 ],
+							[ -119.9857, 57.2379 ],
+							[ -120.0012, 57.3805 ],
+							[ -120.0012, 58.0792 ],
+							[ -120.0013, 58.9507 ],
+							[ -120.0013, 59.4749 ],
+							[ -120.0013, 60.0004 ],
+							[ -120.3721, 60.0094 ],
+							[ -120.8537, 60.0007 ],
+							[ -122.1769, 60.0416 ],
+							[ -123.7728, 60.0004 ],
+							[ -123.7954, 60.0001 ],
+							[ -123.8085, 60 ],
+							[ -123.817, 60 ],
+							[ -123.817, 59.9356 ],
+							[ -123.8528, 59.7415 ],
+							[ -123.817, 59.4674 ],
+							[ -123.8541, 58.9744 ],
+							[ -123.833, 58.4669 ],
+							[ -123.8503, 58.2678 ],
+							[ -123.817, 58 ],
+							[ -123.4638, 57.5317 ],
+							[ -122.9999, 57.0999 ],
+							[ -123.1581, 57.058 ],
+							[ -123.3, 56.9999 ],
+							[ -123.2874, 56.9577 ],
+							[ -122.6457, 56.2943 ],
+							[ -122.0337, 55.7116 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 9, 2019 01:07",
+				"Expires_UTC" : "November 9, 2019 17:07",
+				"Summary" : "Description: A long period of snowfall with total amounts of 20 to 30 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-09T17:07:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-09T01:07:16-00:00, urn:oid:2.49.0.1.124.1564025660.2019<br>Area: B.C. South Peace River, B.C. North Peace River, Fort Nelson",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-09:feed.atom/urn:oid:2.49.0.1.124.1564025660.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-09/2019_11_09T01_07_16_00_00Iurn_oid_2.49.0.1.124.1564025660.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191109170716+00:00"
 			}
 		}
 	]
