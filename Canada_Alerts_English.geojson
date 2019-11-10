@@ -406,6 +406,44 @@
 				"coordinates" : [
 					[
 						[
+							[ -88.5445, 49.9338 ],
+							[ -88.5445, 49.1129 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4321, 49.9482 ],
+							[ -88.5445, 49.9338 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 10, 2019 14:37",
+				"Expires_UTC" : "November 11, 2019 06:36",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for today through Monday. \n\nThis Winter Weather Travel Advisory replaces the snow squall watch that was previously in effect.\n\nLake effect snow is expected to continue off Lake Nipigon today behind a strong cold front. Travel conditions along Highway 11 could be particularly hazardous.\n\nLocalized accumulations of 5 to 10 cm are possible today, tonight and again on Monday.\n\nMotorists are advised to watch for quickly changing weather conditions and adjust their driving accordingly.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-11T06:36:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-10T14:37:37-00:00, urn:oid:2.49.0.1.124.3734661792.2019<br>Area: Beardmore - Jellicoe - Macdiarmid",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-10:feed.atom/urn:oid:2.49.0.1.124.3734661792.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-10/2019_11_10T14_37_37_00_00Iurn_oid_2.49.0.1.124.3734661792.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191111063637+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.1656, 49.645 ],
 							[ -95.1698, 49.644 ],
 							[ -95.1712, 49.6413 ],
@@ -1207,25 +1245,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Snow Squall Watch In Effect",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Snow Squall Watch Ended",
 				"Category" : "Actual",
 				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 10, 2019 13:04",
-				"Expires_UTC" : "November 11, 2019 05:03",
-				"Summary" : "Description: Snow squalls possible today.\n\nSnow squalls are expected to continue off Lake Nipigon today behind a strong cold front. There is a possibility that the squalls will continue through Monday as winds are expected to remain out of the north or northwest.\n\nLocalized accumulations of 10 to 15 cm are possible by this evening with additional snowfall possible on Monday. \n\nTravel conditions along Highway 11 could be particularly hazardous. Motorists are advised to watch for quickly changing weather conditions and adjust their driving accordingly.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Visibility may be suddenly reduced at times in heavy snow. Road closures are possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-11T05:03:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-10T13:04:31-00:00, urn:oid:2.49.0.1.124.1630445833.2019<br>Area: Beardmore - Jellicoe - Macdiarmid",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 10, 2019 14:48",
+				"Expires_UTC" : "November 10, 2019 15:48",
+				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n###<br>Expires: 2019-11-10T15:48:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-10T14:48:54-00:00, urn:oid:2.49.0.1.124.3806467889.2019<br>Area: Beardmore - Jellicoe - Macdiarmid",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-10:feed.atom/urn:oid:2.49.0.1.124.1630445833.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-10/2019_11_10T13_04_31_00_00Iurn_oid_2.49.0.1.124.1630445833.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-10:feed.atom/urn:oid:2.49.0.1.124.3806467889.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-10/2019_11_10T14_48_54_00_00Iurn_oid_2.49.0.1.124.3806467889.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191111050331+00:00"
+				"Expires_FMEFormat" : "20191110154854+00:00"
 			}
 		},
 		{
