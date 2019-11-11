@@ -92,6 +92,83 @@
 				"coordinates" : [
 					[
 						[
+							[ -67.5055, 49.8307 ],
+							[ -68.8348, 49.2537 ],
+							[ -68.8408, 49.251 ],
+							[ -68.6283, 49.004 ],
+							[ -68.5214, 48.9033 ],
+							[ -69.2423, 48.4587 ],
+							[ -68.9741, 48.2826 ],
+							[ -68.6207, 48.05 ],
+							[ -68.6193, 48.0511 ],
+							[ -68.6166, 48.0496 ],
+							[ -68.1996, 48.2998 ],
+							[ -68.1575, 48.2345 ],
+							[ -67.6498, 48.4154 ],
+							[ -67.6687, 48.5824 ],
+							[ -67.0001, 48.7503 ],
+							[ -66.9998, 48.7504 ],
+							[ -66.7518, 48.8661 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.805, 49.3539 ],
+							[ -66.868, 49.9512 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.999, 50.7498 ],
+							[ -67.502, 50.7497 ],
+							[ -67.5048, 49.9998 ],
+							[ -67.5055, 49.8307 ]
+						]
+					],
+					[
+						[
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ],
+							[ -64.7475, 48.4652 ],
+							[ -64.4498, 48.3987 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Storm Surge Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Storm Surge",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 11, 2019 20:36",
+				"Expires_UTC" : "November 12, 2019 12:36",
+				"Summary" : "Description: Higher than normal water levels with large waves are expected near the coast.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T12:36:37-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:36:37-00:00, urn:oid:2.49.0.1.124.3952550453.2019<br>Area: Mont-Joli area, Le Bic - Rimouski area, Matane, Forillon National Park - Gaspé area, Percé area, Baie-Comeau, Baie-Trinité area, Sept-Îles - Port-Cartier area",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.3952550453.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_36_37_00_00Iurn_oid_2.49.0.1.124.3952550453.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112123637+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.0234, 48.6739 ],
 							[ -64.0922, 48.9092 ],
 							[ -64.7482, 49.4732 ],
@@ -190,6 +267,46 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T16_16_47_00_00Iurn_oid_2.49.0.1.124.1062741532.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191112081547+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 11, 2019 19:53",
+				"Expires_UTC" : "November 12, 2019 11:52",
+				"Summary" : "Description: Approaching storm will give mixed precipitation Tuesday into Wednesday morning.\n\nSnow is forecast to begin over the Island early Tuesday morning and then change to rain before noon. The rain is expected to become intermittent on Tuesday afternoon, then redevelop on Tuesday night and continue into Wednesday morning. Total accumulations of 20 to 30 millimetres are currently indicated, but may increase in future forecasts if the track or intensity of the system change.\n\nThe travelling public are urged to prepare for potentially difficult driving conditions in snow and mixed precipitation on Tuesday morning.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-12T11:52:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T19:53:28-00:00, urn:oid:2.49.0.1.124.0677205785.2019<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.0677205785.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T19_53_28_00_00Iurn_oid_2.49.0.1.124.0677205785.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112115228+00:00"
 			}
 		},
 		{
@@ -1656,18 +1773,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 11, 2019 15:08",
-				"Expires_UTC" : "November 12, 2019 07:07",
-				"Summary" : "Description: Approaching storm to give mixed precipitation Tuesday and Tuesday night.\n\nA developing low pressure system will affect Prince Edward Island beginning tonight. Precipitation will begin as snow overnight and change to rain on Tuesday morning. Currently 5 to 10 centimetres of snowfall is forecast before the changeover to rain Tuesday morning. Indications are that rainfall amounts on Tuesday could be near 25 millimetres.   \n\nThe travelling public are urged to prepare for potentially difficult driving conditions in snow and mixed precipitation late tonight and Tuesday morning.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-11-12T07:07:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T15:08:12-00:00, urn:oid:2.49.0.1.124.2022707278.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"LastUpdate_UTC" : "November 11, 2019 20:12",
+				"Expires_UTC" : "November 12, 2019 12:11",
+				"Summary" : "Description: Approaching storm to give mixed precipitation Tuesday and Tuesday night.\n\nA developing low pressure system will affect Prince Edward Island beginning tonight. Precipitation will begin as snow tonight and change to rain on Tuesday morning. Currently, 5 to 10 centimetres of snowfall is forecast for Prince County and lower amounts further to the east. Total rainfall accumulations near 25 millimetres are expected on Tuesday and Tuesday night, although it is possible that higher amounts may fall in localized areas.   \n\nThe rain is expected to change to flurries early Wednesday morning as cold westerly winds move into the region and temperatures quickly fall below freezing. Driving conditions may become icy as the cold air and flurries move in. \n\nThe travelling public are urged to prepare for potentially difficult driving conditions in snow and mixed precipitation late tonight and Tuesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-11-12T12:11:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:12:46-00:00, urn:oid:2.49.0.1.124.2423518794.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.2022707278.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T15_08_12_00_00Iurn_oid_2.49.0.1.124.2022707278.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.2423518794.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_12_46_00_00Iurn_oid_2.49.0.1.124.2423518794.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112070712+00:00"
+				"Expires_FMEFormat" : "20191112121146+00:00"
 			}
 		},
 		{
@@ -1736,116 +1853,90 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.2998, 45.8648 ],
-							[ -63.1438, 45.8448 ],
-							[ -63.1906, 45.811 ],
-							[ -63.4368, 45.9101 ],
-							[ -63.7346, 45.9185 ],
-							[ -63.8518, 46.0357 ],
-							[ -64.0407, 46.0039 ],
-							[ -64.0425, 45.9934 ],
-							[ -64.0685, 45.9947 ],
-							[ -64.0717, 45.9772 ],
-							[ -64.0795, 45.9775 ],
-							[ -64.1106, 45.9786 ],
-							[ -64.1234, 45.979 ],
-							[ -64.1364, 45.9793 ],
-							[ -64.1496, 45.9799 ],
-							[ -64.1528, 45.9784 ],
-							[ -64.1591, 45.9753 ],
-							[ -64.1646, 45.9608 ],
-							[ -64.1708, 45.9539 ],
-							[ -64.1766, 45.9478 ],
-							[ -64.1849, 45.939 ],
-							[ -64.2062, 45.9161 ],
-							[ -64.2347, 45.9284 ],
-							[ -64.2737, 45.9031 ],
-							[ -64.3108, 45.8312 ],
-							[ -64.3392, 45.8389 ],
-							[ -64.4894, 45.7165 ],
-							[ -64.9179, 45.4771 ],
-							[ -65.0077, 45.4302 ],
-							[ -65.024, 45.4213 ],
-							[ -65.1181, 45.3687 ],
-							[ -65.0987, 45.2427 ],
-							[ -65.8843, 44.8139 ],
-							[ -66.5371, 44.3055 ],
-							[ -66.2609, 43.9343 ],
-							[ -66.2464, 43.8302 ],
-							[ -66.0816, 43.613 ],
-							[ -65.8528, 43.5481 ],
-							[ -65.779, 43.4069 ],
-							[ -65.6057, 43.3204 ],
-							[ -64.8863, 43.7582 ],
-							[ -64.4838, 44.0841 ],
-							[ -64.2742, 44.1629 ],
-							[ -63.9672, 44.4641 ],
-							[ -63.6521, 44.3309 ],
-							[ -63.2658, 44.6121 ],
-							[ -63.2105, 44.6376 ],
-							[ -62.9403, 44.6081 ],
-							[ -62.0547, 44.8797 ],
-							[ -61.1946, 45.1755 ],
-							[ -60.9193, 45.2127 ],
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -59.538, 46.0154 ],
-							[ -59.8902, 46.2624 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.7021, 45.7266 ],
-							[ -61.8482, 45.7753 ],
-							[ -61.8931, 45.94 ],
-							[ -62.2998, 45.8648 ]
-						],
+							[ -71.3493, 46.3167 ],
+							[ -71.3497, 46.3165 ],
+							[ -71.683, 46.1827 ],
+							[ -71.6857, 46.1857 ],
+							[ -71.798, 45.9332 ],
+							[ -71.7994, 45.9313 ],
+							[ -72.0166, 45.8501 ],
+							[ -72.4986, 45.667 ],
+							[ -72.7885, 45.4669 ],
+							[ -73.0516, 45.2831 ],
+							[ -73.0636, 45.2332 ],
+							[ -73.1194, 45.0019 ],
+							[ -72.516, 45.0045 ],
+							[ -72.2561, 45.0023 ],
+							[ -72.0817, 45.0038 ],
+							[ -71.5365, 44.9999 ],
+							[ -71.4914, 45.0109 ],
+							[ -71.3803, 45.2016 ],
+							[ -71.2936, 45.2989 ],
+							[ -71.2828, 45.2992 ],
+							[ -71.2664, 45.2751 ],
+							[ -71.2508, 45.2521 ],
+							[ -71.1356, 45.2329 ],
+							[ -70.995, 45.3252 ],
+							[ -70.9335, 45.3125 ],
+							[ -70.9237, 45.2875 ],
+							[ -70.9032, 45.2352 ],
+							[ -70.8347, 45.226 ],
+							[ -70.7612, 45.4061 ],
+							[ -70.663, 45.352 ],
+							[ -70.6187, 45.4011 ],
+							[ -70.6635, 45.5682 ],
+							[ -70.5944, 45.6297 ],
+							[ -70.3798, 45.7268 ],
+							[ -70.3968, 45.7994 ],
+							[ -70.1895, 45.9332 ],
+							[ -70.2857, 45.9942 ],
+							[ -70.2231, 46.1506 ],
+							[ -70.2871, 46.188 ],
+							[ -70.2447, 46.2494 ],
+							[ -70.2068, 46.3004 ],
+							[ -70.0652, 46.4129 ],
+							[ -70.0697, 46.4154 ],
+							[ -70.4841, 46.7998 ],
+							[ -70.8484, 46.5986 ],
+							[ -71.1687, 46.4191 ],
+							[ -71.3493, 46.3167 ]
+						]
+					],
+					[
 						[
-							[ -63.3459, 45.3679 ],
-							[ -63.3609, 45.3663 ],
-							[ -63.4778593614, 45.3538515292 ],
-							[ -63.4779, 45.3539 ],
-							[ -63.4014, 45.362 ],
-							[ -63.3687, 45.3655 ],
-							[ -63.3459, 45.3679 ]
-						],
-						[
-							[ -61.1647, 45.7054 ],
-							[ -60.8436, 45.8719 ],
-							[ -61.1587, 45.7085 ],
-							[ -61.1647, 45.7054 ]
+							[ -70.5032, 47.6322 ],
+							[ -71.016, 47.1831 ],
+							[ -70.7016, 47.0257 ],
+							[ -70.5437, 47.16 ],
+							[ -70.2482, 47.4424 ],
+							[ -69.7836, 47.82 ],
+							[ -69.8631, 47.8597 ],
+							[ -70.1357, 47.9471 ],
+							[ -70.5032, 47.6322 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 11, 2019 15:04",
-				"Expires_UTC" : "November 12, 2019 07:03",
-				"Summary" : "Description: Approaching storm to bring significant rainfall Tuesday into Wednesday morning.\n\nA developing system will affect Nova Scotia beginning late tonight or early Tuesday. Over northern areas of the province, precipitation will begin tonight as a period of snow before changing to rain early Tuesday morning. Snowfall amounts are forecast to be 5 centimetres or less before the changeover. Over southern areas, precipitation is forecast to begin as rain early Tuesday morning. \n\nIndications are that rainfall amounts could reach or exceed 50 millimetres over some areas before precipitation changes to flurries Wednesday morning.\n\nThe travelling public are urged to prepare for potentially difficult driving conditions in areas of northern Nova Scotia and western Cape Breton receiving snow.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-12T07:03:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T15:04:22-00:00, urn:oid:2.49.0.1.124.0368158816.2019<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 11, 2019 20:31",
+				"Expires_UTC" : "November 12, 2019 12:31",
+				"Summary" : "Description: A snowstorm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T12:31:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:31:39-00:00, urn:oid:2.49.0.1.124.2738615269.2019<br>Area: La Malbaie area, Baie-Saint-Paul area, Granby - Waterloo area, Brome-Missisquoi area, Richmond area, Weedon area, Thetford Mines area, Mont-Orford - Lake Memphrémagog area, Sherbrooke area, Coaticook area, Lac-Mégantic area, Cookshire area, Lac-Etchemin area, Sainte-Marie-de-Beauce area, Saint-Georges-de-Beauce area",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.0368158816.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T15_04_22_00_00Iurn_oid_2.49.0.1.124.0368158816.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.2738615269.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_31_39_00_00Iurn_oid_2.49.0.1.124.2738615269.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112070322+00:00"
+				"Expires_FMEFormat" : "20191112123139+00:00"
 			}
 		},
 		{
@@ -2006,44 +2097,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -88.5445, 49.9338 ],
-							[ -88.5445, 49.1129 ],
-							[ -87.4321, 49.1383 ],
-							[ -87.4321, 49.9482 ],
-							[ -88.5445, 49.9338 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 11, 2019 20:19",
-				"Expires_UTC" : "November 12, 2019 05:35",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for today and tonight. \n\nLake effect snow is expected to continue off Lake Nipigon today and tonight. Travel conditions along Highway 11 could be particularly hazardous.\n\nLocalized accumulations of 5 to 10 cm are possible today and again tonight.\n\nMotorists are advised to watch for quickly changing weather conditions and adjust their driving accordingly.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-12T05:35:14-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:19:14-00:00, urn:oid:2.49.0.1.124.3353682940.2019<br>Area: Beardmore - Jellicoe - Macdiarmid",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.3353682940.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_19_14_00_00Iurn_oid_2.49.0.1.124.3353682940.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112053514+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -70.4841, 46.7998 ],
 							[ -70.0697, 46.4154 ],
 							[ -70.0652, 46.4129 ],
@@ -2087,18 +2140,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 11, 2019 16:14",
-				"Expires_UTC" : "November 12, 2019 08:13",
-				"Summary" : "Description: Heavy snowfall with blowing snow is expected.\n\nSnow will begin this afternoon over Southern Quebec. It will intensify this evening and persist during the day on Tuesday as it reaches Eastern portions of the province. In addition, strong northeasterly winds combined with the snow will give widespread blowing snow tonight and Tuesday morning.\n\nThe Tuesday morning commute is expected to be particularly difficult.  Central Quebec is expected to see 15 to 25 centimetres of snow.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T08:13:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T16:14:19-00:00, urn:oid:2.49.0.1.124.1011933826.2019<br>Area: Portneuf area, Valcartier - Stoneham area, Québec area, Côte-de-Beaupré - L'Île d'Orléans area, Bellechasse area, Lévis area, Saint-Lambert area, Lotbinière area, Montmagny - Saint-Jean-Port-Joli area, Saint-Fabien - Saint-Pamphile area",
+				"LastUpdate_UTC" : "November 11, 2019 20:38",
+				"Expires_UTC" : "November 12, 2019 12:38",
+				"Summary" : "Description: Heavy snowfall with blowing snow is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T12:38:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:38:47-00:00, urn:oid:2.49.0.1.124.0285761361.2019<br>Area: Portneuf area, Valcartier - Stoneham area, Québec area, Côte-de-Beaupré - L'Île d'Orléans area, Bellechasse area, Lévis area, Saint-Lambert area, Lotbinière area, Montmagny - Saint-Jean-Port-Joli area, Saint-Fabien - Saint-Pamphile area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.1011933826.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T16_14_19_00_00Iurn_oid_2.49.0.1.124.1011933826.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.0285761361.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_38_47_00_00Iurn_oid_2.49.0.1.124.0285761361.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112081319+00:00"
+				"Expires_FMEFormat" : "20191112123847+00:00"
 			}
 		},
 		{
@@ -2370,6 +2423,107 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.805, 49.3539 ],
+							[ -67.2832, 49.2432 ],
+							[ -67.508, 49.2382 ],
+							[ -68.5214, 48.9033 ],
+							[ -69.2423, 48.4587 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.7113, 47.9448 ],
+							[ -69.7836, 47.82 ],
+							[ -70.2482, 47.4424 ],
+							[ -69.8796, 47.216 ],
+							[ -69.6272, 47.0648 ],
+							[ -69.3881, 47.3002 ],
+							[ -69.2277, 47.4561 ],
+							[ -69.1188, 47.4396 ],
+							[ -69.1098, 47.4259 ],
+							[ -69.0682, 47.4227 ],
+							[ -69.0536, 47.4213 ],
+							[ -69.0574, 47.2989 ],
+							[ -69.0509, 47.3 ],
+							[ -68.7996, 47.3489 ],
+							[ -68.5692, 47.4271 ],
+							[ -68.3834, 47.5531 ],
+							[ -68.3825, 47.7887 ],
+							[ -68.3823, 47.9128 ],
+							[ -68.3823, 47.9161 ],
+							[ -68.1227, 47.9163 ],
+							[ -68.1226, 47.9998 ],
+							[ -67.6656, 48 ],
+							[ -67.6561, 47.9065 ],
+							[ -67.362, 47.8045 ],
+							[ -67.2875, 47.8524 ],
+							[ -67.1844, 47.8364 ],
+							[ -67.0586, 47.8854 ],
+							[ -66.972, 47.8552 ],
+							[ -66.9116, 47.8661 ],
+							[ -66.8952, 47.9523 ],
+							[ -66.8496, 47.9672 ],
+							[ -66.7872, 47.966 ],
+							[ -66.7805, 47.993 ],
+							[ -66.6148, 48.0154 ],
+							[ -66.4422, 48.0905 ],
+							[ -66.2939, 48.0424 ],
+							[ -66.0128, 48.0649 ],
+							[ -65.8243, 48.018 ],
+							[ -65.4344, 47.921 ],
+							[ -65.2163, 47.9516 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ]
+						]
+					],
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 11, 2019 20:36",
+				"Expires_UTC" : "November 12, 2019 12:35",
+				"Summary" : "Description: A snowstorm is expected.\n\nSnow will develop this evening over the Lower St. Lawrence and the Gaspé Peninsula, and will reach the North Shore on Tuesday morning. A total of 20 to 30 centimetres of snow is expected over the Lower St Lawrence and up to 40 centimetres over the Gaspé Peninsula by Wednesday afternoon.\n\nThis snow will be accompanied by strong winds giving reduced visibilities in blowing snow.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T12:35:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:36:41-00:00, urn:oid:2.49.0.1.124.0642090083.2019<br>Area: Mont-Joli area, Le Bic - Rimouski area, Rimouski Wildlife Reserve area, Matane, Amqui area, Matapédia area, Grande-Vallée area, Sainte-Anne-des-Monts area, Murdochville area, Mont-Albert area, Grande-Rivière - Cascapédia area, New-Richmond - Bonaventure area, Restigouche - Carleton area, Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Anticosti, Trois-Pistoles area, Pohénégamook area, Kamouraska area, Rivière-du-Loup area, Témiscouata",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.0642090083.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_36_41_00_00Iurn_oid_2.49.0.1.124.0642090083.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112123541+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -82.0998, 43.127 ],
 							[ -82.1612, 43.1061 ],
 							[ -82.1749, 43.066 ],
@@ -2432,18 +2586,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 11, 2019 20:12",
-				"Expires_UTC" : "November 12, 2019 12:11",
-				"Summary" : "Description: Snow Squalls are possible on Tuesday.\n\nIn the wake of a cold front, a blast of cold arctic air is expected to flow over the relatively warm waters of Lake Huron Tuesday morning.\n\nFlurries and local snow squalls are expected to begin Tuesday morning and continue through the day in the Sarnia to Kettle point areas. \n\nLocal snowfall amounts of 10 to 15 cm with local blowing snow reducing visibilities to near zero are possible.\n\nLocal snow squalls are expected to taper off when the wind shifts to northwest Tuesday evening.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Visibility may be suddenly reduced at times in heavy snow.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-12T12:11:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:12:44-00:00, urn:oid:2.49.0.1.124.2649900471.2019<br>Area: Watford - Pinery Park - Eastern Lambton County, Sarnia - Petrolia - Western Lambton County",
+				"LastUpdate_UTC" : "November 11, 2019 20:29",
+				"Expires_UTC" : "November 12, 2019 12:28",
+				"Summary" : "Description: Snow Squalls are possible on Tuesday.\n\nIn the wake of a cold front, a blast of cold arctic air is expected to flow over the relatively warm waters of Lake Huron Tuesday morning.\n\nFlurries and local snow squalls are expected to begin Tuesday morning and continue through the day in the Sarnia to Kettle Point areas. \n\nLocal snowfall amounts of 10 to 15 cm with local blowing snow reducing visibilities to near zero are possible.\n\nLocal snow squalls are expected to taper off when the wind shifts to northwest Tuesday evening.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Visibility may be suddenly reduced at times in heavy snow.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-12T12:28:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:29:23-00:00, urn:oid:2.49.0.1.124.1268265697.2019<br>Area: Watford - Pinery Park - Eastern Lambton County, Sarnia - Petrolia - Western Lambton County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.2649900471.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_12_44_00_00Iurn_oid_2.49.0.1.124.2649900471.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.1268265697.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_29_23_00_00Iurn_oid_2.49.0.1.124.1268265697.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112121144+00:00"
+				"Expires_FMEFormat" : "20191112122823+00:00"
 			}
 		},
 		{
@@ -2760,46 +2914,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 11, 2019 19:53",
-				"Expires_UTC" : "November 12, 2019 11:52",
-				"Summary" : "Description: Approaching storm will give mixed precipitation Tuesday into Wednesday morning.\n\nSnow is forecast to begin over the Island early Tuesday morning and then change to rain before noon. The rain is expected to become intermittent on Tuesday afternoon, then redevelop on Tuesday night and continue into Wednesday morning. Total accumulations of 20 to 30 millimetres are currently indicated, but may increase in future forecasts if the track or intensity of the system change.\n\nThe travelling public are urged to prepare for potentially difficult driving conditions in snow and mixed precipitation on Tuesday morning.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-12T11:52:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T19:53:28-00:00, urn:oid:2.49.0.1.124.0677205785.2019<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.0677205785.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T19_53_28_00_00Iurn_oid_2.49.0.1.124.0677205785.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112115228+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -69.4699, 48.2224 ],
 							[ -69.7113, 47.9448 ],
 							[ -69.7836, 47.82 ],
@@ -2843,16 +2957,16 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 11, 2019 16:14",
+				"LastUpdate_UTC" : "November 11, 2019 20:31",
 				"Expires_UTC" : "November 12, 2019 08:13",
-				"Summary" : "Description: A snowstorm is expected.\n\nSnow will develop this evening over the lower St. Lawrence and the Gaspe Peninsula, and will reach the North Shore on Tuesday morning. Snowfall totals of 20 to 40 centimetres over the Lower St. Lawrence and the Gaspe Peninsula and of 15 to 25 centimetres over the Lower North Shore are expected by Wednesday afternoon.\n\nThis snow will be accompanied by strong winds giving reduced visibilities in blowing snow.\n\nSnow will change over to rain overnight Tuesday night over the Chevery and Blanc-Sablon areas. A few hours of freezing rain are possible during the changeover from snow to rain.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T08:13:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T16:14:31-00:00, urn:oid:2.49.0.1.124.3432575843.2019<br>Area: La Malbaie area, Baie-Saint-Paul area, Trois-Pistoles area, Pohénégamook area, Kamouraska area, Rivière-du-Loup area, Témiscouata",
+				"Summary" : "Description: A snowstorm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T08:13:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:31:39-00:00, urn:oid:2.49.0.1.124.0278019047.2019<br>Area: Trois-Pistoles area, Pohénégamook area, Kamouraska area, Rivière-du-Loup area, Témiscouata",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.3432575843.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T16_14_31_00_00Iurn_oid_2.49.0.1.124.3432575843.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.0278019047.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_31_39_00_00Iurn_oid_2.49.0.1.124.0278019047.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191112081331+00:00"
 			}
@@ -2976,18 +3090,77 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 11, 2019 16:17",
+				"LastUpdate_UTC" : "November 11, 2019 20:31",
 				"Expires_UTC" : "November 12, 2019 08:16",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nSnow will begin this afternoon over Southern Quebec. It will intensify this evening and persist during the day on Tuesday as it reaches Eastern portions of the province. The Tuesday morning commute is expected to be particularly difficult. Southern Quebec is expected to see 15 to 20 centimetres of snow. Total amounts could even reach upwards of 25 centimetres over higher elevations.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T08:16:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T16:17:28-00:00, urn:oid:2.49.0.1.124.0373933522.2019<br>Area: Saint-Jérôme area, Lachute area, Saint-Eustache area, Longueuil - Varennes area, Laval area, Montréal Island area, Châteauguay - La Prairie area, Soulanges area, Vaudreuil area, Saint-Rémi area, Valleyfield - Beauharnois area, Hemmingford area, Huntingdon area, Berthierville - Saint-Gabriel area, Rawdon - Joliette area, Mascouche area, Louiseville area, Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area, Sainte-Anne-de-la-Pérade area, Trois-Rivières area, Sorel - Yamaska area, Saint-Hyacinthe - Acton Vale area, Verchères - Beloeil area, Saint-Jean - Marieville area, Lacolle area, Bécancour - Villeroy area, Victoriaville area, Nicolet area, Drummondville area, Granby - Waterloo area, Brome-Missisquoi area, Richmond area, Weedon area, Thetford Mines area, Mont-Orford - Lake Memphrémagog area, Sherbrooke area, Coaticook area, Lac-Mégantic area, Cookshire area, Lac-Etchemin area, Sainte-Marie-de-Beauce area, Saint-Georges-de-Beauce area",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T08:16:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:31:39-00:00, urn:oid:2.49.0.1.124.2435577136.2019<br>Area: Saint-Jérôme area, Lachute area, Saint-Eustache area, Longueuil - Varennes area, Laval area, Montréal Island area, Châteauguay - La Prairie area, Soulanges area, Vaudreuil area, Saint-Rémi area, Valleyfield - Beauharnois area, Hemmingford area, Huntingdon area, Berthierville - Saint-Gabriel area, Rawdon - Joliette area, Mascouche area, Louiseville area, Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area, Sainte-Anne-de-la-Pérade area, Trois-Rivières area, Sorel - Yamaska area, Saint-Hyacinthe - Acton Vale area, Verchères - Beloeil area, Saint-Jean - Marieville area, Lacolle area, Bécancour - Villeroy area, Victoriaville area, Nicolet area, Drummondville area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.0373933522.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T16_17_28_00_00Iurn_oid_2.49.0.1.124.0373933522.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.2435577136.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_31_39_00_00Iurn_oid_2.49.0.1.124.2435577136.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191112081628+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.3709, 45.5863 ],
+							[ -61.36, 45.5953 ],
+							[ -61.2321, 45.6675 ],
+							[ -61.1647, 45.7054 ],
+							[ -60.8436, 45.8719 ],
+							[ -60.789, 45.9777 ],
+							[ -60.7214, 46.0663 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.6864, 46.0863 ],
+							[ -60.6021, 46.1338 ],
+							[ -60.5551, 46.1916 ],
+							[ -60.4991, 46.2258 ],
+							[ -60.4173, 46.2948 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 11, 2019 19:49",
+				"Expires_UTC" : "November 12, 2019 11:48",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nApproaching storm will bring significant rainfall on Tuesday and Tuesday night.  \n\nSnow is forecast to begin tonight over northern Cape Breton and then change to rain on Tuesday morning.  Total forecast rainfall accumulations range from 30 to 50 millimetres over the region.  \n\nRain is expected to change to flurries on Wednesday morning as cold westerly winds move across the province. Flurries are likely to persist through the day on Wednesday and into Wednesday night, when conditions may become favourable for the development of snow squalls.\n\nThe travelling public are urged to prepare for potentially difficult driving conditions in snow tonight and Tuesday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-12T11:48:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T19:49:20-00:00, urn:oid:2.49.0.1.124.3606356511.2019<br>Area: Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.3606356511.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T19_49_20_00_00Iurn_oid_2.49.0.1.124.3606356511.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112114820+00:00"
 			}
 		},
 		{
@@ -3101,65 +3274,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.3951, 45.6335 ],
-							[ -61.3709, 45.5863 ],
-							[ -61.36, 45.5953 ],
-							[ -61.2321, 45.6675 ],
-							[ -61.1647, 45.7054 ],
-							[ -60.8436, 45.8719 ],
-							[ -60.789, 45.9777 ],
-							[ -60.7214, 46.0663 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.6864, 46.0863 ],
-							[ -60.6021, 46.1338 ],
-							[ -60.5551, 46.1916 ],
-							[ -60.4991, 46.2258 ],
-							[ -60.4173, 46.2948 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 11, 2019 19:49",
-				"Expires_UTC" : "November 12, 2019 11:48",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nApproaching storm will bring significant rainfall on Tuesday and Tuesday night.  \n\nSnow is forecast to begin tonight over northern Cape Breton and then change to rain on Tuesday morning.  Total forecast rainfall accumulations range from 30 to 50 millimetres over the region.  \n\nRain is expected to change to flurries on Wednesday morning as cold westerly winds move across the province. Flurries are likely to persist through the day on Wednesday and into Wednesday night, when conditions may become favourable for the development of snow squalls.\n\nThe travelling public are urged to prepare for potentially difficult driving conditions in snow tonight and Tuesday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-12T11:48:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T19:49:20-00:00, urn:oid:2.49.0.1.124.3606356511.2019<br>Area: Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.3606356511.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T19_49_20_00_00Iurn_oid_2.49.0.1.124.3606356511.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112114820+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -71.6698, 61.6967 ],
 							[ -72.0508, 61.7741 ],
 							[ -72.5983, 62.1553 ],
@@ -3197,6 +3311,44 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_24_06_00_00Iurn_oid_2.49.0.1.124.1654595133.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191112122306+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -88.5445, 49.9338 ],
+							[ -88.5445, 49.1129 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4321, 49.9482 ],
+							[ -88.5445, 49.9338 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 11, 2019 20:19",
+				"Expires_UTC" : "November 12, 2019 05:35",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for today and tonight. \n\nLake effect snow is expected to continue off Lake Nipigon today and tonight. Travel conditions along Highway 11 could be particularly hazardous.\n\nLocalized accumulations of 5 to 10 cm are possible today and again tonight.\n\nMotorists are advised to watch for quickly changing weather conditions and adjust their driving accordingly.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-12T05:35:14-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-11T20:19:14-00:00, urn:oid:2.49.0.1.124.3353682940.2019<br>Area: Beardmore - Jellicoe - Macdiarmid",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-11:feed.atom/urn:oid:2.49.0.1.124.3353682940.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-11/2019_11_11T20_19_14_00_00Iurn_oid_2.49.0.1.124.3353682940.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112053514+00:00"
 			}
 		}
 	]
