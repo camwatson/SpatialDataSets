@@ -142,6 +142,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 12, 2019 14:58",
+				"Expires_UTC" : "November 13, 2019 06:57",
+				"Summary" : "Description: Approaching storm will give mixed precipitation today into Wednesday morning.\n\nRain over the Islands is expected to become intermittent this afternoon, then redevelop tonight and continue into Wednesday morning. Total accumulations of 20 to 30 millimetres are currently forecast.\n\nFlurries are expected to begin by Wednesday afternoon, as brisk westerly winds usher in colder temperatures.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-13T06:57:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T14:58:41-00:00, urn:oid:2.49.0.1.124.1489925429.2019<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.1489925429.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T14_58_41_00_00Iurn_oid_2.49.0.1.124.1489925429.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191113065741+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -63.1906, 45.811 ],
 							[ -63.4368, 45.9101 ],
 							[ -63.7346, 45.9185 ],
@@ -600,6 +640,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T16_10_00_00_00Iurn_oid_2.49.0.1.124.3565638944.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191113080900+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -104.5968, 52.4051 ],
+							[ -104.5016, 52.4056 ],
+							[ -104.5016, 52.4324 ],
+							[ -104.5002, 52.4324 ],
+							[ -104.4933, 52.4235 ],
+							[ -104.4923, 52.4198 ],
+							[ -104.4866, 52.4198 ],
+							[ -104.4866, 52.4114 ],
+							[ -104.496, 52.4106 ],
+							[ -104.4962, 52.4055 ],
+							[ -104.1659, 52.4052 ],
+							[ -104.1651, 52.5874 ],
+							[ -104.2848, 52.587 ],
+							[ -104.2851, 52.6016 ],
+							[ -104.2606, 52.6018 ],
+							[ -104.2608, 52.6313 ],
+							[ -104.1651, 52.6312 ],
+							[ -104.1652, 52.6672 ],
+							[ -104.5969, 52.6668 ],
+							[ -104.5968, 52.4051 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Health",
+				"Title" : "Update:  Precautionary Drinking Water",
+				"Category" : "Actual",
+				"event" : "Drinking Water",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 12, 2019 11:53",
+				"Expires_UTC" : "November 15, 2019 12:00",
+				"Summary" : "Description: Update:  Precautionary Drinking Water for the Unorganized Hamlet of Lac Vert.  This advisory is for the Unorganized Hamlet of Lac Vert and for any individuals who may access water from the Lac Vert system. This advisory is in effect until further notice.  Advisory has been extended until Friday Nov 15, 2019<br>Expires: 2019-11-15T12:00:00-06:00<br>Originated from CAP Alert: SK Village of Annaheim and RM of Pleasantdale, 2019-11-12T11:53:24-06:00, 881FC64A-2584-3C75-81B7-2AF1DD8D88FE<br>Area: Unorganized Hamlet of Lac Vert",
+				"Author" : "SK Village of Annaheim and RM of Pleasantdale",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/881FC64A-2584-3C75-81B7-2AF1DD8D88FE",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T11_53_24_06_00I881FC64A_2584_3C75_81B7_2AF1DD8D88FE.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191115120000-06:00"
 			}
 		},
 		{
@@ -1654,110 +1747,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -73.1855, 46.5138 ],
-							[ -73.6493, 46.3501 ],
-							[ -73.6497, 46.3498 ],
-							[ -73.9497, 46.1998 ],
-							[ -73.8164, 45.8498 ],
-							[ -73.9777, 45.8522 ],
-							[ -74.1664, 45.8498 ],
-							[ -74.1664, 45.801 ],
-							[ -74.3484, 45.8011 ],
-							[ -74.6995, 45.8 ],
-							[ -74.7008, 45.6413 ],
-							[ -74.7011, 45.6321 ],
-							[ -74.7065, 45.5942 ],
-							[ -74.6566, 45.6009 ],
-							[ -74.5628, 45.5661 ],
-							[ -74.4916, 45.5643 ],
-							[ -74.4477, 45.5374 ],
-							[ -74.4035, 45.5353 ],
-							[ -74.4024602555, 45.5343283611 ],
-							[ -74.4271, 45.4958 ],
-							[ -74.4349, 45.4028 ],
-							[ -74.4648, 45.3562 ],
-							[ -74.472, 45.3027 ],
-							[ -74.4538, 45.2865 ],
-							[ -74.4292, 45.2706 ],
-							[ -74.3627, 45.2198 ],
-							[ -74.4179, 45.1833 ],
-							[ -74.4697, 45.1699 ],
-							[ -74.521, 45.1357 ],
-							[ -74.5545, 45.0833 ],
-							[ -74.6356, 45.0538 ],
-							[ -74.6973, 45.0386 ],
-							[ -74.6612, 44.9994 ],
-							[ -74.2328, 44.9806 ],
-							[ -73.7832, 45.0016 ],
-							[ -73.4513, 45.0005 ],
-							[ -73.1194, 45.0019 ],
-							[ -73.0636, 45.2332 ],
-							[ -73.0516, 45.2831 ],
-							[ -72.7885, 45.4669 ],
-							[ -72.4986, 45.667 ],
-							[ -72.0166, 45.8501 ],
-							[ -71.7994, 45.9313 ],
-							[ -71.7987, 45.9316 ],
-							[ -71.798, 45.9332 ],
-							[ -71.6857, 46.1857 ],
-							[ -71.6859, 46.1859 ],
-							[ -71.6881, 46.1884 ],
-							[ -71.8489, 46.367 ],
-							[ -71.9996, 46.5328 ],
-							[ -71.9978, 46.5528 ],
-							[ -71.9994572186, 46.5612560642 ],
-							[ -71.9989, 46.5797 ],
-							[ -72.0006661538, 46.5948630769 ],
-							[ -72.0001, 46.607 ],
-							[ -72.003, 46.6401 ],
-							[ -72.003, 46.7326 ],
-							[ -72.0029, 47.2 ],
-							[ -72.5497, 47.2024 ],
-							[ -72.55, 47.2024 ],
-							[ -73.0011, 47.2021 ],
-							[ -73.4166, 47.1998 ],
-							[ -73.4687, 47.0993 ],
-							[ -73.4403, 47.0439 ],
-							[ -73.4177, 46.9998 ],
-							[ -73.4169, 46.9988 ],
-							[ -73.2172, 46.7497 ],
-							[ -73.2168, 46.7492 ],
-							[ -73.1901, 46.5475 ],
-							[ -73.1857, 46.5141 ],
-							[ -73.1855, 46.5138 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 12, 2019 14:04",
-				"Expires_UTC" : "November 13, 2019 01:59",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA few more centimetres of snow are still to come this morning which will bring totals to 15 to 20 cm over these areas.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-13T01:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T14:04:02-00:00, urn:oid:2.49.0.1.124.2753985586.2019<br>Area: Louiseville area, Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area, Sainte-Anne-de-la-Pérade area, Trois-Rivières area, Bécancour - Villeroy area, Victoriaville area, Nicolet area, Drummondville area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2753985586.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T14_04_02_00_00Iurn_oid_2.49.0.1.124.2753985586.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191113015902+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.802, 47.2158 ],
 							[ -65.7656, 46.7811 ],
 							[ -65.3925, 46.733 ],
@@ -2499,46 +2488,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 12, 2019 14:58",
-				"Expires_UTC" : "November 13, 2019 06:57",
-				"Summary" : "Description: Approaching storm will give mixed precipitation today into Wednesday morning.\n\nRain over the Islands is expected to become intermittent this afternoon, then redevelop tonight and continue into Wednesday morning. Total accumulations of 20 to 30 millimetres are currently forecast.\n\nFlurries are expected to begin by Wednesday afternoon, as brisk westerly winds usher in colder temperatures.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-13T06:57:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T14:58:41-00:00, urn:oid:2.49.0.1.124.1489925429.2019<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.1489925429.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T14_58_41_00_00Iurn_oid_2.49.0.1.124.1489925429.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191113065741+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -67.3011, 46.2169 ],
 							[ -67.533, 45.9333 ],
 							[ -67.5989, 45.9841 ],
@@ -2778,6 +2727,110 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T12_55_05_00_00Iurn_oid_2.49.0.1.124.2437274842.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191113005705+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -73.1855, 46.5138 ],
+							[ -73.6493, 46.3501 ],
+							[ -73.6497, 46.3498 ],
+							[ -73.9497, 46.1998 ],
+							[ -73.8164, 45.8498 ],
+							[ -73.9777, 45.8522 ],
+							[ -74.1664, 45.8498 ],
+							[ -74.1664, 45.801 ],
+							[ -74.3484, 45.8011 ],
+							[ -74.6995, 45.8 ],
+							[ -74.7008, 45.6413 ],
+							[ -74.7011, 45.6321 ],
+							[ -74.7065, 45.5942 ],
+							[ -74.6566, 45.6009 ],
+							[ -74.5628, 45.5661 ],
+							[ -74.4916, 45.5643 ],
+							[ -74.4477, 45.5374 ],
+							[ -74.4035, 45.5353 ],
+							[ -74.4024602555, 45.5343283611 ],
+							[ -74.4271, 45.4958 ],
+							[ -74.4349, 45.4028 ],
+							[ -74.4648, 45.3562 ],
+							[ -74.472, 45.3027 ],
+							[ -74.4538, 45.2865 ],
+							[ -74.4292, 45.2706 ],
+							[ -74.3627, 45.2198 ],
+							[ -74.4179, 45.1833 ],
+							[ -74.4697, 45.1699 ],
+							[ -74.521, 45.1357 ],
+							[ -74.5545, 45.0833 ],
+							[ -74.6356, 45.0538 ],
+							[ -74.6973, 45.0386 ],
+							[ -74.6612, 44.9994 ],
+							[ -74.2328, 44.9806 ],
+							[ -73.7832, 45.0016 ],
+							[ -73.4513, 45.0005 ],
+							[ -73.1194, 45.0019 ],
+							[ -73.0636, 45.2332 ],
+							[ -73.0516, 45.2831 ],
+							[ -72.7885, 45.4669 ],
+							[ -72.4986, 45.667 ],
+							[ -72.0166, 45.8501 ],
+							[ -71.7994, 45.9313 ],
+							[ -71.7987, 45.9316 ],
+							[ -71.798, 45.9332 ],
+							[ -71.6857, 46.1857 ],
+							[ -71.6859, 46.1859 ],
+							[ -71.6881, 46.1884 ],
+							[ -71.8489, 46.367 ],
+							[ -71.9996, 46.5328 ],
+							[ -71.9978, 46.5528 ],
+							[ -71.9994572186, 46.5612560642 ],
+							[ -71.9989, 46.5797 ],
+							[ -72.0006661538, 46.5948630769 ],
+							[ -72.0001, 46.607 ],
+							[ -72.003, 46.6401 ],
+							[ -72.003, 46.7326 ],
+							[ -72.0029, 47.2 ],
+							[ -72.5497, 47.2024 ],
+							[ -72.55, 47.2024 ],
+							[ -73.0011, 47.2021 ],
+							[ -73.4166, 47.1998 ],
+							[ -73.4687, 47.0993 ],
+							[ -73.4403, 47.0439 ],
+							[ -73.4177, 46.9998 ],
+							[ -73.4169, 46.9988 ],
+							[ -73.2172, 46.7497 ],
+							[ -73.2168, 46.7492 ],
+							[ -73.1901, 46.5475 ],
+							[ -73.1857, 46.5141 ],
+							[ -73.1855, 46.5138 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 12, 2019 14:04",
+				"Expires_UTC" : "November 13, 2019 01:59",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA few more centimetres of snow are still to come this morning which will bring totals to 15 to 20 cm over these areas.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-13T01:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T14:04:02-00:00, urn:oid:2.49.0.1.124.2753985586.2019<br>Area: Louiseville area, Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area, Sainte-Anne-de-la-Pérade area, Trois-Rivières area, Bécancour - Villeroy area, Victoriaville area, Nicolet area, Drummondville area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2753985586.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T14_04_02_00_00Iurn_oid_2.49.0.1.124.2753985586.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191113015902+00:00"
 			}
 		}
 	]
