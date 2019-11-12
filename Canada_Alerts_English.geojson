@@ -533,6 +533,65 @@
 				"coordinates" : [
 					[
 						[
+							[ -118.9999, 51.2999 ],
+							[ -119.2613, 51.4656 ],
+							[ -119.5942, 51.63 ],
+							[ -119.5055, 51.9778 ],
+							[ -119.4599, 52.33 ],
+							[ -120.0307, 52.1735 ],
+							[ -120.58, 51.9999 ],
+							[ -120.5924, 51.547 ],
+							[ -120.58, 51 ],
+							[ -121.1311, 51.013 ],
+							[ -121.65, 50.9999 ],
+							[ -121.5622, 50.7329 ],
+							[ -121.4319, 50.441 ],
+							[ -121.3503, 50.2159 ],
+							[ -121.26, 50 ],
+							[ -121.0269, 50.2548 ],
+							[ -120.86, 50.47 ],
+							[ -120.2689, 50.5261 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.8104, 50.3717 ],
+							[ -119.9107, 50.0731 ],
+							[ -118.3899, 50.06 ],
+							[ -118.574, 50.3966 ],
+							[ -118.8, 50.7499 ],
+							[ -118.8903, 51.0322 ],
+							[ -118.9999, 51.2999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 12, 2019 18:39",
+				"Expires_UTC" : "November 12, 2019 19:39",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-11-12T19:39:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T18:39:34-00:00, urn:oid:2.49.0.1.124.0785371990.2019<br>Area: South Thompson, North Okanagan - including Vernon, Shuswap, North Thompson",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.0785371990.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T18_39_34_00_00Iurn_oid_2.49.0.1.124.0785371990.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112193934+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.995, 50.1418 ],
 							[ -62.2009, 50.0264 ],
 							[ -60.9625, 50.0819 ],
@@ -878,55 +937,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T16_54_36_00_00Iurn_oid_2.49.0.1.124.1657336127.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191113085336+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -129.9003, 55.1355 ],
-							[ -129.592, 54.6849 ],
-							[ -129.0948, 54.0659 ],
-							[ -129.0905, 54.0674 ],
-							[ -128.6057, 54.2334 ],
-							[ -127.6878, 54.538 ],
-							[ -128.0171, 55.2815 ],
-							[ -128.4667, 56.0247 ],
-							[ -129.7114, 55.4171 ],
-							[ -129.7161, 55.4149 ],
-							[ -129.7135, 55.3791 ],
-							[ -129.764, 55.3494 ],
-							[ -129.7755, 55.2934 ],
-							[ -129.8194, 55.2664 ],
-							[ -129.909, 55.147 ],
-							[ -129.9003, 55.1355 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "November 12, 2019 18:40",
-				"Expires_UTC" : "November 13, 2019 02:29",
-				"Summary" : "Description: Ice build-up due to freezing rain is expected or occurring.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous. Ice build-up may cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-13T02:29:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T18:40:04-00:00, urn:oid:2.49.0.1.124.2020186600.2019<br>Area: North Coast - inland including Terrace",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2020186600.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T18_40_04_00_00Iurn_oid_2.49.0.1.124.2020186600.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191113022904+00:00"
 			}
 		},
 		{
@@ -1710,51 +1720,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.6948, 52.1 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 12, 2019 15:00",
-				"Expires_UTC" : "November 13, 2019 06:59",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nTotal Rainfall: 40 to 60 mm.\n\nLocations: Red Bay to L'Anse-au-Clair.\n\nTime span: midnight tonight until Wednesday evening.\n\nRemarks: Snow, at times heavy, will develop this afternoon then change to rain near midnight. Inland areas may see a period of freezing rain overnight as temperatures are slower to rise. More details about the snow can be found in the snowfall warning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-13T06:59:53-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T15:00:53-00:00, urn:oid:2.49.0.1.124.2112536884.2019<br>Area: Red Bay to L'Anse-au-Clair",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2112536884.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T15_00_53_00_00Iurn_oid_2.49.0.1.124.2112536884.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191113065953+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.802, 47.2158 ],
 							[ -65.7656, 46.7811 ],
 							[ -65.3925, 46.733 ],
@@ -1886,6 +1851,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T14_56_09_00_00Iurn_oid_2.49.0.1.124.2358867507.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191112200409+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -129.9003, 55.1355 ],
+							[ -129.592, 54.6849 ],
+							[ -129.0948, 54.0659 ],
+							[ -129.0905, 54.0674 ],
+							[ -128.6057, 54.2334 ],
+							[ -127.6878, 54.538 ],
+							[ -128.0171, 55.2815 ],
+							[ -128.4667, 56.0247 ],
+							[ -129.7114, 55.4171 ],
+							[ -129.7161, 55.4149 ],
+							[ -129.7135, 55.3791 ],
+							[ -129.764, 55.3494 ],
+							[ -129.7755, 55.2934 ],
+							[ -129.8194, 55.2664 ],
+							[ -129.909, 55.147 ],
+							[ -129.9003, 55.1355 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "November 12, 2019 18:41",
+				"Expires_UTC" : "November 13, 2019 02:29",
+				"Summary" : "Description: Ice build-up due to freezing rain is expected or occurring.\n\nLight northerly outflow winds continue to bring modified arctic air through mainland valleys as a Pacific frontal system crosses the region.\n\nThe combination of warm air from the system overriding the cold outflow is producing freezing rain, or freezing drizzle in valleys throughout the Terrace region. Freezing precipitation will persist until this afternoon when temperatures finally rise above zero.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous. Ice build-up may cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-13T02:29:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T18:41:04-00:00, urn:oid:2.49.0.1.124.0588506983.2019<br>Area: North Coast - inland including Terrace",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.0588506983.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T18_41_04_00_00Iurn_oid_2.49.0.1.124.0588506983.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191113022904+00:00"
 			}
 		},
 		{
@@ -2591,65 +2605,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -118.9999, 51.2999 ],
-							[ -119.2613, 51.4656 ],
-							[ -119.5942, 51.63 ],
-							[ -119.5055, 51.9778 ],
-							[ -119.4599, 52.33 ],
-							[ -120.0307, 52.1735 ],
-							[ -120.58, 51.9999 ],
-							[ -120.5924, 51.547 ],
-							[ -120.58, 51 ],
-							[ -121.1311, 51.013 ],
-							[ -121.65, 50.9999 ],
-							[ -121.5622, 50.7329 ],
-							[ -121.4319, 50.441 ],
-							[ -121.3503, 50.2159 ],
-							[ -121.26, 50 ],
-							[ -121.0269, 50.2548 ],
-							[ -120.86, 50.47 ],
-							[ -120.2689, 50.5261 ],
-							[ -119.6999, 50.5999 ],
-							[ -119.8104, 50.3717 ],
-							[ -119.9107, 50.0731 ],
-							[ -118.3899, 50.06 ],
-							[ -118.574, 50.3966 ],
-							[ -118.8, 50.7499 ],
-							[ -118.8903, 51.0322 ],
-							[ -118.9999, 51.2999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 12, 2019 18:39",
-				"Expires_UTC" : "November 12, 2019 19:39",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-11-12T19:39:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T18:39:34-00:00, urn:oid:2.49.0.1.124.0785371990.2019<br>Area: South Thompson, North Okanagan - including Vernon, Shuswap, North Thompson",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.0785371990.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T18_39_34_00_00Iurn_oid_2.49.0.1.124.0785371990.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112193934+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -73.1855, 46.5138 ],
 							[ -73.6493, 46.3501 ],
 							[ -73.6497, 46.3498 ],
@@ -2745,6 +2700,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T14_04_02_00_00Iurn_oid_2.49.0.1.124.2753985586.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191113015902+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.6948, 52.1 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 12, 2019 15:00",
+				"Expires_UTC" : "November 13, 2019 06:59",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nTotal Rainfall: 40 to 60 mm.\n\nLocations: Red Bay to L'Anse-au-Clair.\n\nTime span: midnight tonight until Wednesday evening.\n\nRemarks: Snow, at times heavy, will develop this afternoon then change to rain near midnight. Inland areas may see a period of freezing rain overnight as temperatures are slower to rise. More details about the snow can be found in the snowfall warning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-13T06:59:53-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T15:00:53-00:00, urn:oid:2.49.0.1.124.2112536884.2019<br>Area: Red Bay to L'Anse-au-Clair",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2112536884.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T15_00_53_00_00Iurn_oid_2.49.0.1.124.2112536884.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191113065953+00:00"
 			}
 		}
 	]
