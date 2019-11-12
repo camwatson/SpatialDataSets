@@ -9,6 +9,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -126.1231, 71.8522 ],
+							[ -125.5959, 71.7281 ],
+							[ -124.9602, 71.6351 ],
+							[ -124.8071, 71.8342 ],
+							[ -124.6732, 71.8806 ],
+							[ -124.589, 71.9357 ],
+							[ -124.5567, 71.9959 ],
+							[ -124.5793, 72.0565 ],
+							[ -124.6433, 72.1062 ],
+							[ -124.7449, 72.1496 ],
+							[ -125.0235, 72.2063 ],
+							[ -125.3674, 72.217 ],
+							[ -125.3692, 72.217 ],
+							[ -125.3709, 72.2168 ],
+							[ -125.6852, 72.1781 ],
+							[ -125.8024, 72.237 ],
+							[ -126.1308, 72.1003 ],
+							[ -126.1231, 71.8522 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 12, 2019 11:33",
+				"Expires_UTC" : "November 12, 2019 12:33",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2019-11-12T12:33:50-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T11:33:50-00:00, urn:oid:2.49.0.1.124.1867627586.2019<br>Area: Sachs Harbour",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.1867627586.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T11_33_50_00_00Iurn_oid_2.49.0.1.124.1867627586.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112123350+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -60.5775, 54.79 ],
 							[ -59.3729, 54.19 ],
 							[ -58.0061, 54.7317 ],
@@ -148,51 +199,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T08_43_51_00_00Iurn_oid_2.49.0.1.124.0717126765.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191113004251+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -58.2402, 49.398 ],
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 12, 2019 08:59",
-				"Expires_UTC" : "November 13, 2019 00:58",
-				"Summary" : "Description: Significant rainfall is expected.\n\nTotal rainfall: 35 to 55 mm. Locally higher amounts possible over higher terrain.\n\nLocations: Bay St. George up to the Bay of Islands\n\nTime span: Tuesday afternoon until early Wednesday afternoon.\n\nRemarks: After 5 to 10 cm snow today, precipitation is expected to transition to rain this afternoon. Warm temperatures and rain will combine to cause any existing snow pack to melt and may contribute to water pooling. Rain is forecast to continue though Tuesday night before transitioning to flurries Wednesday afternoon.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-13T00:58:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T08:59:08-00:00, urn:oid:2.49.0.1.124.3017823843.2019<br>Area: Corner Brook and vicinity, Bay St. George",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.3017823843.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T08_59_08_00_00Iurn_oid_2.49.0.1.124.3017823843.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191113005808+00:00"
 			}
 		},
 		{
@@ -349,133 +355,42 @@
 				"coordinates" : [
 					[
 						[
-							[ -80.9533, 43.8223 ],
-							[ -81.0105, 43.8183 ],
-							[ -81.0771, 43.8105 ],
-							[ -81.1004, 43.788 ],
-							[ -81.0304, 43.7718 ],
-							[ -81.1493, 43.6187 ],
-							[ -81.179, 43.6332 ],
-							[ -81.2052, 43.6013 ],
-							[ -81.5005, 43.7269 ],
-							[ -81.721, 43.8105 ],
-							[ -81.8031, 43.8383 ],
-							[ -81.7783, 43.333 ],
-							[ -81.7554, 43.3155 ],
-							[ -81.7431, 43.3101 ],
-							[ -81.7453, 43.3068 ],
-							[ -81.753, 43.3073 ],
-							[ -81.755, 43.2931 ],
-							[ -81.78, 43.2957 ],
-							[ -81.7968, 43.2428 ],
-							[ -81.8163, 43.2325 ],
-							[ -81.8392, 43.2041 ],
-							[ -81.8272, 43.1739 ],
-							[ -81.8211, 43.1309 ],
-							[ -81.8341, 43.1064 ],
-							[ -81.828, 43.0817 ],
-							[ -81.8084, 43.069 ],
-							[ -81.7892, 43.0657 ],
-							[ -81.7981, 42.9345 ],
-							[ -81.79, 42.8161 ],
-							[ -81.7958, 42.8121 ],
-							[ -81.814, 42.8275 ],
-							[ -81.8353, 42.8429 ],
-							[ -81.8381, 42.7516 ],
-							[ -81.8354, 42.651 ],
-							[ -81.8408, 42.6307 ],
-							[ -81.835, 42.6081 ],
-							[ -81.8182, 42.5912 ],
-							[ -81.7926, 42.5782 ],
-							[ -81.7243, 42.6137 ],
-							[ -81.6678, 42.6168 ],
-							[ -81.6483, 42.6594 ],
-							[ -81.5918, 42.6649 ],
-							[ -81.5502, 42.7091 ],
-							[ -81.3988, 42.7634 ],
-							[ -81.4239, 42.7935 ],
-							[ -81.3416, 42.8119 ],
-							[ -81.2656, 42.8331 ],
-							[ -81.2492, 42.8368 ],
-							[ -81.2313, 42.8415 ],
-							[ -80.8992, 42.9125 ],
-							[ -80.9014, 42.9647 ],
-							[ -80.9269, 43.0239 ],
-							[ -80.9926, 43.0022 ],
-							[ -81.019, 43.0547 ],
-							[ -81.0347, 43.0498 ],
-							[ -81.0577, 43.1447 ],
-							[ -81.1208, 43.235 ],
-							[ -80.9111, 43.2893 ],
-							[ -80.7357, 43.3534 ],
-							[ -80.7342, 43.3797 ],
-							[ -80.7373, 43.4074 ],
-							[ -80.7603, 43.4363 ],
-							[ -80.794, 43.4665 ],
-							[ -80.7947, 43.4675 ],
-							[ -80.7961, 43.4682 ],
-							[ -80.8339, 43.4851 ],
-							[ -80.8687, 43.4982 ],
-							[ -80.7997, 43.5816 ],
-							[ -80.7543, 43.6483 ],
-							[ -80.6062, 43.5883 ],
-							[ -80.598, 43.6577 ],
-							[ -80.5511, 43.692 ],
-							[ -80.2499, 43.7561 ],
-							[ -80.3943, 43.8531 ],
-							[ -80.4023, 43.9218 ],
-							[ -80.3938, 43.9549 ],
-							[ -80.3978, 43.9624 ],
-							[ -80.4145, 43.9534 ],
-							[ -80.4344, 44.0271 ],
-							[ -80.4981, 44.0155 ],
-							[ -80.5691, 43.9982 ],
-							[ -80.6449, 43.9914 ],
-							[ -80.7158, 43.9814 ],
-							[ -80.7187, 43.984 ],
-							[ -80.7223, 43.9855 ],
-							[ -80.7231, 43.9979 ],
-							[ -80.7257, 43.9984 ],
-							[ -80.7328, 43.9928 ],
-							[ -80.7367, 43.9955 ],
-							[ -80.7453, 43.9888 ],
-							[ -80.7533, 43.9842 ],
-							[ -80.7547, 43.9818 ],
-							[ -80.7543, 43.9768 ],
-							[ -80.7913, 43.9734 ],
-							[ -80.8273, 43.9678 ],
-							[ -80.8276, 43.9861 ],
-							[ -80.8357, 44.0046 ],
-							[ -80.9076, 43.9975 ],
-							[ -80.9797, 43.9878 ],
-							[ -80.9846, 43.9874 ],
-							[ -80.9912, 43.9864 ],
-							[ -80.9789, 43.9057 ],
-							[ -80.9533, 43.8223 ]
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -58.2402, 49.398 ],
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Snow Squall Watch In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snow Squall",
+				"event" : "Rainfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 12, 2019 04:41",
-				"Expires_UTC" : "November 12, 2019 20:40",
-				"Summary" : "Description: Lake effect snow squalls are possible Tuesday afternoon.\n\nIn the wake of a cold front, a blast of cold arctic air is expected to flow over the relatively warm waters of Lake Huron on Tuesday.\n\nFlurries and local snow squalls are expected to begin Tuesday afternoon and continue into Wednesday. \n\nLocal snowfall amounts of 10 to 15 cm per 12 hours are possible along with local blowing snow reducing visibilities to near zero.\n\nLocal snow squalls are expected to taper off when the winds shift to southwest on Wednesday.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Visibility may be suddenly reduced at times in heavy snow.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-12T20:40:06-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T04:41:06-00:00, urn:oid:2.49.0.1.124.2524790147.2019<br>Area: London - Parkhill - Eastern Middlesex County, Strathroy - Komoka - Western Middlesex County, Listowel - Milverton - Northern Perth County, Goderich - Bluewater - Southern Huron County, Stratford - Mitchell - Southern Perth County, Mount Forest - Arthur - Northern Wellington County",
+				"LastUpdate_UTC" : "November 12, 2019 08:59",
+				"Expires_UTC" : "November 13, 2019 00:58",
+				"Summary" : "Description: Significant rainfall is expected.\n\nTotal rainfall: 35 to 55 mm. Locally higher amounts possible over higher terrain.\n\nLocations: Bay St. George up to the Bay of Islands\n\nTime span: Tuesday afternoon until early Wednesday afternoon.\n\nRemarks: After 5 to 10 cm snow today, precipitation is expected to transition to rain this afternoon. Warm temperatures and rain will combine to cause any existing snow pack to melt and may contribute to water pooling. Rain is forecast to continue though Tuesday night before transitioning to flurries Wednesday afternoon.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-13T00:58:08-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T08:59:08-00:00, urn:oid:2.49.0.1.124.3017823843.2019<br>Area: Corner Brook and vicinity, Bay St. George",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2524790147.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T04_41_06_00_00Iurn_oid_2.49.0.1.124.2524790147.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.3017823843.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T08_59_08_00_00Iurn_oid_2.49.0.1.124.3017823843.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112204006+00:00"
+				"Expires_FMEFormat" : "20191113005808+00:00"
 			}
 		},
 		{
@@ -682,115 +597,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -121.2108, 51.6062 ],
-							[ -121.2139, 51.655 ],
-							[ -121.3623, 51.6733 ],
-							[ -121.4242, 51.5742 ],
-							[ -121.4363, 51.5462 ],
-							[ -121.4407, 51.5154 ],
-							[ -121.4408, 51.5147 ],
-							[ -121.4527, 51.4158 ],
-							[ -121.522, 51.2875 ],
-							[ -121.5541, 51.2633 ],
-							[ -121.5545, 51.263 ],
-							[ -121.5902, 51.2357 ],
-							[ -121.6039, 51.219 ],
-							[ -121.6608, 51.0953 ],
-							[ -121.6619, 51.0764 ],
-							[ -121.6648, 51.072 ],
-							[ -121.4523, 51.1008 ],
-							[ -121.4375, 51.1119 ],
-							[ -121.4283, 51.1285 ],
-							[ -121.4295, 51.1497 ],
-							[ -121.4391, 51.1864 ],
-							[ -121.3378, 51.2783 ],
-							[ -121.328, 51.2917 ],
-							[ -121.293, 51.3666 ],
-							[ -121.2924, 51.3906 ],
-							[ -121.3021, 51.4325 ],
-							[ -121.2965, 51.5084 ],
-							[ -121.2892, 51.5408 ],
-							[ -121.246, 51.5694 ],
-							[ -121.2108, 51.6062 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "November 12, 2019 06:00",
-				"Expires_UTC" : "November 12, 2019 19:59",
-				"Summary" : "Description: Arctic air remains entrenched in the central interior as a frontal system crosses the BC Interior, delivering warm moist air aloft. Conditions are favourable for freezing rain mixed at times with ice pellets or snow. \n\nFreezing rain and ice pellets are forecast to change to rain showers tomorrow by noon as warm air reaches the surface and brings temperatures above the freezing mark.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-12T19:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T06:00:38-00:00, urn:oid:2.49.0.1.124.2480486318.2019<br>Area: Highway 97 - Clinton to 100 Mile House via Begbie Summit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2480486318.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T06_00_38_00_00Iurn_oid_2.49.0.1.124.2480486318.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112195938+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -71.6698, 61.6967 ],
-							[ -72.0508, 61.7741 ],
-							[ -72.5983, 62.1553 ],
-							[ -73.0349, 62.2144 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.3218, 62.346 ],
-							[ -73.9992, 61.0465 ],
-							[ -71.399, 60.5219 ],
-							[ -70.7234, 61.1481 ],
-							[ -71.5843, 61.2693 ],
-							[ -71.6299, 61.3212 ],
-							[ -71.3985, 61.5333 ],
-							[ -71.6698, 61.6967 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 12, 2019 09:03",
-				"Expires_UTC" : "November 12, 2019 17:59",
-				"Summary" : "Description: Northwesterly wind gusts of 90 kilometres per hour are possible this morning. Visibilities will also be reduced in blowing snow.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T17:59:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T09:03:55-00:00, urn:oid:2.49.0.1.124.2187066905.2019<br>Area: Kangiqsujuaq - Raglan Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2187066905.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T09_03_55_00_00Iurn_oid_2.49.0.1.124.2187066905.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112175955+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -121.65, 50.9999 ],
 							[ -121.0946, 50.9859 ],
 							[ -120.58, 51 ],
@@ -852,6 +658,115 @@
 				"language" : "en-CA",
 				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.1463483574.2019",
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T06_00_38_00_00Iurn_oid_2.49.0.1.124.1463483574.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112195938+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.6698, 61.6967 ],
+							[ -72.0508, 61.7741 ],
+							[ -72.5983, 62.1553 ],
+							[ -73.0349, 62.2144 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.3218, 62.346 ],
+							[ -73.9992, 61.0465 ],
+							[ -71.399, 60.5219 ],
+							[ -70.7234, 61.1481 ],
+							[ -71.5843, 61.2693 ],
+							[ -71.6299, 61.3212 ],
+							[ -71.3985, 61.5333 ],
+							[ -71.6698, 61.6967 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 12, 2019 09:03",
+				"Expires_UTC" : "November 12, 2019 17:59",
+				"Summary" : "Description: Northwesterly wind gusts of 90 kilometres per hour are possible this morning. Visibilities will also be reduced in blowing snow.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-12T17:59:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T09:03:55-00:00, urn:oid:2.49.0.1.124.2187066905.2019<br>Area: Kangiqsujuaq - Raglan Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2187066905.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T09_03_55_00_00Iurn_oid_2.49.0.1.124.2187066905.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112175955+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -121.2108, 51.6062 ],
+							[ -121.2139, 51.655 ],
+							[ -121.3623, 51.6733 ],
+							[ -121.4242, 51.5742 ],
+							[ -121.4363, 51.5462 ],
+							[ -121.4407, 51.5154 ],
+							[ -121.4408, 51.5147 ],
+							[ -121.4527, 51.4158 ],
+							[ -121.522, 51.2875 ],
+							[ -121.5541, 51.2633 ],
+							[ -121.5545, 51.263 ],
+							[ -121.5902, 51.2357 ],
+							[ -121.6039, 51.219 ],
+							[ -121.6608, 51.0953 ],
+							[ -121.6619, 51.0764 ],
+							[ -121.6648, 51.072 ],
+							[ -121.4523, 51.1008 ],
+							[ -121.4375, 51.1119 ],
+							[ -121.4283, 51.1285 ],
+							[ -121.4295, 51.1497 ],
+							[ -121.4391, 51.1864 ],
+							[ -121.3378, 51.2783 ],
+							[ -121.328, 51.2917 ],
+							[ -121.293, 51.3666 ],
+							[ -121.2924, 51.3906 ],
+							[ -121.3021, 51.4325 ],
+							[ -121.2965, 51.5084 ],
+							[ -121.2892, 51.5408 ],
+							[ -121.246, 51.5694 ],
+							[ -121.2108, 51.6062 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "November 12, 2019 06:00",
+				"Expires_UTC" : "November 12, 2019 19:59",
+				"Summary" : "Description: Arctic air remains entrenched in the central interior as a frontal system crosses the BC Interior, delivering warm moist air aloft. Conditions are favourable for freezing rain mixed at times with ice pellets or snow. \n\nFreezing rain and ice pellets are forecast to change to rain showers tomorrow by noon as warm air reaches the surface and brings temperatures above the freezing mark.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-12T19:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T06:00:38-00:00, urn:oid:2.49.0.1.124.2480486318.2019<br>Area: Highway 97 - Clinton to 100 Mile House via Begbie Summit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.2480486318.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T06_00_38_00_00Iurn_oid_2.49.0.1.124.2480486318.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191112195938+00:00"
 			}
@@ -927,6 +842,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 12, 2019 08:43",
+				"Expires_UTC" : "November 13, 2019 00:42",
+				"Summary" : "Description: Approaching storm will give mixed precipitation Tuesday into Wednesday morning.\n\nSnow is forecast to begin over the Island early Tuesday morning and then change to rain before noon. The rain is expected to become intermittent on Tuesday afternoon, then redevelop on Tuesday night and continue into Wednesday morning. Total accumulations of 20 to 30 millimetres are currently indicated, but may increase in future forecasts if the track or intensity of the system change.\n\nThe travelling public are urged to prepare for potentially difficult driving conditions in snow and mixed precipitation on Tuesday morning.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-13T00:42:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T08:43:41-00:00, urn:oid:2.49.0.1.124.4282521487.2019<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.4282521487.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T08_43_41_00_00Iurn_oid_2.49.0.1.124.4282521487.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191113004241+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -83.9939, 48.1107 ],
 							[ -84.002, 48.5499 ],
 							[ -84.0089, 48.5511 ],
@@ -974,37 +929,89 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
+							[ -79.9838, 44.1095 ],
+							[ -79.9802, 44.0311 ],
+							[ -79.9696, 43.9463 ],
+							[ -79.9657, 43.9461 ],
+							[ -79.9597, 43.9498 ],
+							[ -79.8765, 43.966 ],
+							[ -79.7752, 43.9897 ],
+							[ -79.7179, 44.0017 ],
+							[ -79.6569, 44.0157 ],
+							[ -79.6348, 44.0016 ],
+							[ -79.5368, 44.0647 ],
+							[ -79.5177, 44.136 ],
+							[ -79.4931, 44.1727 ],
+							[ -79.493, 44.1986 ],
+							[ -79.517, 44.2017 ],
+							[ -79.5001, 44.4157 ],
+							[ -79.6043, 44.3903 ],
+							[ -79.6284, 44.3869 ],
+							[ -79.6291, 44.3911 ],
+							[ -79.6299, 44.3954 ],
+							[ -79.6293, 44.5519 ],
+							[ -79.5662, 44.7803 ],
+							[ -79.7087, 44.7864 ],
+							[ -79.823, 44.7847 ],
+							[ -79.9107, 44.872 ],
+							[ -80.053, 44.862 ],
+							[ -80.1213, 44.933 ],
+							[ -80.1856, 45.0191 ],
+							[ -80.3295, 44.8567 ],
+							[ -80.2774, 44.6441 ],
+							[ -80.9105, 44.9805 ],
+							[ -80.9764, 44.9231 ],
+							[ -81.0217, 44.7958 ],
+							[ -81.073, 44.7847 ],
+							[ -81.1313, 44.7385 ],
+							[ -81.1314, 44.7363 ],
+							[ -81.127, 44.6447 ],
+							[ -81.1256, 44.6259 ],
+							[ -81.1203, 44.5511 ],
+							[ -81.1088, 44.4781 ],
+							[ -81.0823, 44.4005 ],
+							[ -80.2349, 44.2815 ],
+							[ -80.2335, 44.2663 ],
+							[ -80.2285, 44.2542 ],
+							[ -80.3127, 44.2417 ],
+							[ -80.4111, 44.2145 ],
+							[ -80.4228, 44.2 ],
+							[ -80.4169, 44.1957 ],
+							[ -80.406, 44.1938 ],
+							[ -80.3837, 44.1781 ],
+							[ -80.3611, 44.1672 ],
+							[ -80.3801, 44.1519 ],
+							[ -80.3982, 44.1353 ],
+							[ -80.389, 44.0865 ],
+							[ -80.375, 44.0392 ],
+							[ -80.3743, 44.0342 ],
+							[ -80.3727, 44.0292 ],
+							[ -80.1677, 44.0697 ],
+							[ -79.9838, 44.1095 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Snow Squall Watch In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Snow Squall",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 12, 2019 08:43",
-				"Expires_UTC" : "November 13, 2019 00:42",
-				"Summary" : "Description: Approaching storm will give mixed precipitation Tuesday into Wednesday morning.\n\nSnow is forecast to begin over the Island early Tuesday morning and then change to rain before noon. The rain is expected to become intermittent on Tuesday afternoon, then redevelop on Tuesday night and continue into Wednesday morning. Total accumulations of 20 to 30 millimetres are currently indicated, but may increase in future forecasts if the track or intensity of the system change.\n\nThe travelling public are urged to prepare for potentially difficult driving conditions in snow and mixed precipitation on Tuesday morning.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-13T00:42:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T08:43:41-00:00, urn:oid:2.49.0.1.124.4282521487.2019<br>Area: Îles-de-la-Madeleine",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 12, 2019 09:47",
+				"Expires_UTC" : "November 13, 2019 01:46",
+				"Summary" : "Description: Lake effect snow squalls are possible this afternoon.\n\nIn the wake of a cold front, a blast of cold arctic air is expected to flow over the relatively warm waters of Georgian Bay today.\n\nFlurries and local snow squalls are expected to begin this afternoon and continue into Wednesday morning. \n\nLocal snowfall amounts 5 to 10 cm are possible today and amounts of 15 to 25 cm are possible tonight into Wednesday morning. Local blowing snow reducing visibilities to near zero will also be a concern. \n\nLocal snow squalls are expected to taper off when the winds shift to southwest Wednesday afternoon.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Road closures are possible.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-13T01:46:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T09:47:45-00:00, urn:oid:2.49.0.1.124.4066631846.2019<br>Area: Midland - Coldwater - Orr Lake, Barrie - Collingwood - Hillsdale, Owen Sound - Blue Mountains - Northern Grey County, Innisfil - New Tecumseth - Angus, Shelburne - Mansfield - Northern Dufferin County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.4282521487.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T08_43_41_00_00Iurn_oid_2.49.0.1.124.4282521487.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.4066631846.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T09_47_45_00_00Iurn_oid_2.49.0.1.124.4066631846.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191113004241+00:00"
+				"Expires_FMEFormat" : "20191113014645+00:00"
 			}
 		},
 		{
@@ -1543,6 +1550,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.6948, 52.1 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 12, 2019 09:33",
+				"Expires_UTC" : "November 13, 2019 01:32",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nTotal Rainfall: 40 to 60 mm.\n\nLocations: Red Bay to L'Anse-au-Clair.\n\nTime span: midnight tonight until Wednesday evening.\n\nRemarks: Snow, at times heavy, will develop this afternoon then change to rain near midnight. Inland areas may see a period of freezing rain overnight as temperatures are slower to rise. More details about the snow can be found in the snowfall warning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-13T01:32:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T09:33:09-00:00, urn:oid:2.49.0.1.124.0987347625.2019<br>Area: Red Bay to L'Anse-au-Clair",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.0987347625.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T09_33_09_00_00Iurn_oid_2.49.0.1.124.0987347625.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191113013209+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.802, 47.2158 ],
 							[ -65.7656, 46.7811 ],
 							[ -65.3925, 46.733 ],
@@ -1591,6 +1643,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T08_57_13_00_00Iurn_oid_2.49.0.1.124.2155095544.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191113005613+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Les Suêtes Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 12, 2019 08:44",
+				"Expires_UTC" : "November 12, 2019 21:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong winds expected from Margaree Harbour to Bay St. Lawrence today.\n\nStrong southeasterly winds will develop this morning, with gusts up to 110 km/h beginning near noon.  Winds will begin to diminish this afternoon as they shift to southerly.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-12T21:59:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T08:44:45-00:00, urn:oid:2.49.0.1.124.3051751798.2019<br>Area: Inverness County - Mabou and north",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.3051751798.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T08_44_45_00_00Iurn_oid_2.49.0.1.124.3051751798.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191112215945+00:00"
 			}
 		},
 		{
@@ -1674,184 +1767,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T10_42_41_00_00Iurn_oid_2.49.0.1.124.0826283220.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191113024141+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 12, 2019 08:44",
-				"Expires_UTC" : "November 12, 2019 21:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong winds expected from Margaree Harbour to Bay St. Lawrence today.\n\nStrong southeasterly winds will develop this morning, with gusts up to 110 km/h beginning near noon.  Winds will begin to diminish this afternoon as they shift to southerly.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-12T21:59:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T08:44:45-00:00, urn:oid:2.49.0.1.124.3051751798.2019<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.3051751798.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T08_44_45_00_00Iurn_oid_2.49.0.1.124.3051751798.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191112215945+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.6948, 52.1 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 12, 2019 09:33",
-				"Expires_UTC" : "November 13, 2019 01:32",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nTotal Rainfall: 40 to 60 mm.\n\nLocations: Red Bay to L'Anse-au-Clair.\n\nTime span: midnight tonight until Wednesday evening.\n\nRemarks: Snow, at times heavy, will develop this afternoon then change to rain near midnight. Inland areas may see a period of freezing rain overnight as temperatures are slower to rise. More details about the snow can be found in the snowfall warning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-13T01:32:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T09:33:09-00:00, urn:oid:2.49.0.1.124.0987347625.2019<br>Area: Red Bay to L'Anse-au-Clair",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.0987347625.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T09_33_09_00_00Iurn_oid_2.49.0.1.124.0987347625.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191113013209+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.9838, 44.1095 ],
-							[ -79.9802, 44.0311 ],
-							[ -79.9696, 43.9463 ],
-							[ -79.9657, 43.9461 ],
-							[ -79.9597, 43.9498 ],
-							[ -79.8765, 43.966 ],
-							[ -79.7752, 43.9897 ],
-							[ -79.7179, 44.0017 ],
-							[ -79.6569, 44.0157 ],
-							[ -79.6348, 44.0016 ],
-							[ -79.5368, 44.0647 ],
-							[ -79.5177, 44.136 ],
-							[ -79.4931, 44.1727 ],
-							[ -79.493, 44.1986 ],
-							[ -79.517, 44.2017 ],
-							[ -79.5001, 44.4157 ],
-							[ -79.6043, 44.3903 ],
-							[ -79.6284, 44.3869 ],
-							[ -79.6291, 44.3911 ],
-							[ -79.6299, 44.3954 ],
-							[ -79.6293, 44.5519 ],
-							[ -79.5662, 44.7803 ],
-							[ -79.7087, 44.7864 ],
-							[ -79.823, 44.7847 ],
-							[ -79.9107, 44.872 ],
-							[ -80.053, 44.862 ],
-							[ -80.1213, 44.933 ],
-							[ -80.1856, 45.0191 ],
-							[ -80.3295, 44.8567 ],
-							[ -80.2774, 44.6441 ],
-							[ -80.9105, 44.9805 ],
-							[ -80.9764, 44.9231 ],
-							[ -81.0217, 44.7958 ],
-							[ -81.073, 44.7847 ],
-							[ -81.1313, 44.7385 ],
-							[ -81.1314, 44.7363 ],
-							[ -81.127, 44.6447 ],
-							[ -81.1256, 44.6259 ],
-							[ -81.1203, 44.5511 ],
-							[ -81.1088, 44.4781 ],
-							[ -81.0823, 44.4005 ],
-							[ -80.2349, 44.2815 ],
-							[ -80.2335, 44.2663 ],
-							[ -80.2285, 44.2542 ],
-							[ -80.3127, 44.2417 ],
-							[ -80.4111, 44.2145 ],
-							[ -80.4228, 44.2 ],
-							[ -80.4169, 44.1957 ],
-							[ -80.406, 44.1938 ],
-							[ -80.3837, 44.1781 ],
-							[ -80.3611, 44.1672 ],
-							[ -80.3801, 44.1519 ],
-							[ -80.3982, 44.1353 ],
-							[ -80.389, 44.0865 ],
-							[ -80.375, 44.0392 ],
-							[ -80.3743, 44.0342 ],
-							[ -80.3727, 44.0292 ],
-							[ -80.1677, 44.0697 ],
-							[ -79.9838, 44.1095 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Snow Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 12, 2019 09:47",
-				"Expires_UTC" : "November 13, 2019 01:46",
-				"Summary" : "Description: Lake effect snow squalls are possible this afternoon.\n\nIn the wake of a cold front, a blast of cold arctic air is expected to flow over the relatively warm waters of Georgian Bay today.\n\nFlurries and local snow squalls are expected to begin this afternoon and continue into Wednesday morning. \n\nLocal snowfall amounts 5 to 10 cm are possible today and amounts of 15 to 25 cm are possible tonight into Wednesday morning. Local blowing snow reducing visibilities to near zero will also be a concern. \n\nLocal snow squalls are expected to taper off when the winds shift to southwest Wednesday afternoon.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Road closures are possible.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-13T01:46:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-12T09:47:45-00:00, urn:oid:2.49.0.1.124.4066631846.2019<br>Area: Midland - Coldwater - Orr Lake, Barrie - Collingwood - Hillsdale, Owen Sound - Blue Mountains - Northern Grey County, Innisfil - New Tecumseth - Angus, Shelburne - Mansfield - Northern Dufferin County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-12:feed.atom/urn:oid:2.49.0.1.124.4066631846.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-12/2019_11_12T09_47_45_00_00Iurn_oid_2.49.0.1.124.4066631846.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191113014645+00:00"
 			}
 		},
 		{
