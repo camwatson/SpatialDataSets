@@ -454,6 +454,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 14, 2019 23:18",
+				"Expires_UTC" : "November 15, 2019 11:00",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\n###\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-11-15T11:00:03-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-14T23:18:03-00:00, urn:oid:2.49.0.1.124.1352811889.2019<br>Area: Rankin Region including Whale Cove",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-14:feed.atom/urn:oid:2.49.0.1.124.1352811889.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-14/2019_11_14T23_18_03_00_00Iurn_oid_2.49.0.1.124.1352811889.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191115110003+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -108.9341, 50.9895 ],
 							[ -108.8235, 50.9236 ],
 							[ -108.7364, 50.9334 ],
@@ -675,86 +722,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-14/2019_11_14T20_46_10_00_00Iurn_oid_2.49.0.1.124.1321150030.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191115124510+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.8404, 45.3535 ],
-							[ -81.4622, 44.5866 ],
-							[ -81.2913, 44.5944 ],
-							[ -81.2887, 44.5846 ],
-							[ -81.2724, 44.5229 ],
-							[ -81.1971, 44.5357 ],
-							[ -81.1203, 44.5511 ],
-							[ -81.1256, 44.6259 ],
-							[ -81.127, 44.6447 ],
-							[ -81.1314, 44.7363 ],
-							[ -81.1313, 44.7385 ],
-							[ -81.073, 44.7847 ],
-							[ -81.0217, 44.7958 ],
-							[ -80.9764, 44.9231 ],
-							[ -80.9105, 44.9805 ],
-							[ -81.0827, 45.0703 ],
-							[ -81.1853, 45.2717 ],
-							[ -81.4145, 45.3822 ],
-							[ -81.8404, 45.3535 ]
-						]
-					],
-					[
-						[
-							[ -80.5641, 45.5136 ],
-							[ -80.1856, 45.0191 ],
-							[ -80.1017, 45.1263 ],
-							[ -80.0356, 45.1139 ],
-							[ -79.9816, 45.1284 ],
-							[ -79.9605, 45.1193 ],
-							[ -79.9596, 45.1118 ],
-							[ -79.9244, 45.1017 ],
-							[ -79.9004, 45.1035 ],
-							[ -79.8792, 45.0943 ],
-							[ -79.8766, 45.0927 ],
-							[ -79.876, 45.0916 ],
-							[ -79.3895, 45.1399 ],
-							[ -79.5935, 45.5573 ],
-							[ -79.0368, 45.5697 ],
-							[ -79.2711, 45.9989 ],
-							[ -79.5385, 45.9261 ],
-							[ -79.6173, 45.9047 ],
-							[ -79.7785, 45.901 ],
-							[ -80.5706, 45.8856 ],
-							[ -80.7251, 45.8899 ],
-							[ -80.7432, 45.8894 ],
-							[ -80.8486, 45.8248 ],
-							[ -80.5641, 45.5136 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 14, 2019 09:54",
-				"Expires_UTC" : "November 14, 2019 23:14",
-				"Summary" : "Description: Lake effect snow squalls today and possibly into tonight.\n\nLake effect flurries and local snow squalls will continue. Local snowfall accumulations of 15 to 25 cm will be possible today before the squalls dissipate this afternoon or early this evening.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-14T23:14:42-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-14T09:54:42-00:00, urn:oid:2.49.0.1.124.2178917185.2019<br>Area: South River - Burk's Falls, Bayfield Inlet - Dunchurch, Town of Parry Sound - Rosseau - Killbear Park, Bruce Peninsula - Sauble Beach - Tobermory",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-14:feed.atom/urn:oid:2.49.0.1.124.2178917185.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-14/2019_11_14T09_54_42_00_00Iurn_oid_2.49.0.1.124.2178917185.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191114231442+00:00"
 			}
 		},
 		{
@@ -1009,70 +976,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-14/2019_11_14T16_13_33_00_00Iurn_oid_2.49.0.1.124.1165237407.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191115081233+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.7785, 45.901 ],
-							[ -80.5706, 45.8856 ],
-							[ -80.7251, 45.8899 ],
-							[ -80.7432, 45.8894 ],
-							[ -80.8486, 45.8248 ],
-							[ -80.5641, 45.5136 ],
-							[ -80.1856, 45.0191 ],
-							[ -80.1017, 45.1263 ],
-							[ -80.0356, 45.1139 ],
-							[ -79.9816, 45.1284 ],
-							[ -79.9605, 45.1193 ],
-							[ -79.9596, 45.1118 ],
-							[ -79.9244, 45.1017 ],
-							[ -79.9004, 45.1035 ],
-							[ -79.8792, 45.0943 ],
-							[ -79.8766, 45.0927 ],
-							[ -79.876, 45.0916 ],
-							[ -79.3895, 45.1399 ],
-							[ -78.9997, 45.1057 ],
-							[ -78.8427, 45.1449 ],
-							[ -78.8439, 45.1471 ],
-							[ -78.8118, 45.1515 ],
-							[ -78.9392, 45.3891 ],
-							[ -78.8593, 45.4143 ],
-							[ -78.918, 45.531 ],
-							[ -79.0029, 45.5074 ],
-							[ -79.0368, 45.5697 ],
-							[ -79.2711, 45.9989 ],
-							[ -79.5385, 45.9261 ],
-							[ -79.6173, 45.9047 ],
-							[ -79.7785, 45.901 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 14, 2019 16:11",
-				"Expires_UTC" : "November 14, 2019 23:14",
-				"Summary" : "Description: Lake effect snow squalls today.\n\nLake effect flurries and local snow squalls continue and are slowly moving southward. Local snowfall accumulations of 15 to 25 cm will be possible before the squalls weaken this afternoon or early this evening.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-14T23:14:17-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-14T16:11:17-00:00, urn:oid:2.49.0.1.124.0273481492.2019<br>Area: South River - Burk's Falls, Bayfield Inlet - Dunchurch, Huntsville - Baysville, Town of Parry Sound - Rosseau - Killbear Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-14:feed.atom/urn:oid:2.49.0.1.124.0273481492.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-14/2019_11_14T16_11_17_00_00Iurn_oid_2.49.0.1.124.0273481492.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191114231417+00:00"
 			}
 		},
 		{
@@ -1382,56 +1285,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-14/2019_11_14T19_09_11_00_00Iurn_oid_2.49.0.1.124.3560294677.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191115110811+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -80.4935, 46.2785 ],
-							[ -80.6965, 46.2675 ],
-							[ -80.6965, 46.106 ],
-							[ -80.5701, 46.0178 ],
-							[ -80.5706, 45.8856 ],
-							[ -79.7785, 45.901 ],
-							[ -79.6173, 45.9047 ],
-							[ -79.5385, 45.9261 ],
-							[ -79.5388, 46.1138 ],
-							[ -79.5554, 46.3273 ],
-							[ -79.5386, 46.554 ],
-							[ -79.5386, 46.7145 ],
-							[ -80.3679, 46.7151 ],
-							[ -80.3679, 46.6307 ],
-							[ -80.276, 46.6307 ],
-							[ -80.276, 46.2601 ],
-							[ -80.4935, 46.2785 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 14, 2019 13:00",
-				"Expires_UTC" : "November 14, 2019 23:14",
-				"Summary" : "Description: Lake effect snow squalls today.\n\nLake effect flurries and local snow squalls continue and are slowly moving southward. Local snowfall accumulations of 15 to 25 cm will be possible before the squalls weaken this afternoon or early this evening.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-14T23:14:52-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-14T13:00:52-00:00, urn:oid:2.49.0.1.124.4193413730.2019<br>Area: West Nipissing - French River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-14:feed.atom/urn:oid:2.49.0.1.124.4193413730.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-14/2019_11_14T13_00_52_00_00Iurn_oid_2.49.0.1.124.4193413730.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191114231452+00:00"
 			}
 		},
 		{
