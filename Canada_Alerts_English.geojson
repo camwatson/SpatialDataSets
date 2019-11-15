@@ -783,52 +783,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.5174, 48.6069 ],
-							[ -79.5076, 48.9319 ],
-							[ -79.5172, 49.1428 ],
-							[ -81.4419, 49.5091 ],
-							[ -81.4426, 49.1637 ],
-							[ -82.6268, 49.1616 ],
-							[ -82.6293, 48.2543 ],
-							[ -81.0729, 48.2526 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5072, 48.3417 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5062, 48.5243 ],
-							[ -79.5174, 48.6069 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 15, 2019 11:29",
-				"Expires_UTC" : "November 15, 2019 17:24",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for this morning.\n\nBrief but intense bands of snow will pass through the area this morning. Snowfall amounts of 2 cm are possible along with gusty winds. \n\nMotorists should be prepared for deteriorating driving conditions including quickly accumulating snow and low visibility due to blowing snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-15T17:24:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-15T11:29:44-00:00, urn:oid:2.49.0.1.124.0734753791.2019<br>Area: Timmins - Cochrane - Iroquois Falls",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-15:feed.atom/urn:oid:2.49.0.1.124.0734753791.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-15/2019_11_15T11_29_44_00_00Iurn_oid_2.49.0.1.124.0734753791.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191115172444+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -78.6213, 46.1756 ],
 							[ -79.2711, 45.9989 ],
 							[ -79.5385, 45.9261 ],
@@ -1295,6 +1249,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-15/2019_11_15T10_22_39_00_00Iurn_oid_2.49.0.1.124.1287376443.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191115180039+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.5174, 48.6069 ],
+							[ -79.5076, 48.9319 ],
+							[ -79.5172, 49.1428 ],
+							[ -81.4419, 49.5091 ],
+							[ -81.4426, 49.1637 ],
+							[ -82.6268, 49.1616 ],
+							[ -82.6293, 48.2543 ],
+							[ -81.0729, 48.2526 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5072, 48.3417 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5062, 48.5243 ],
+							[ -79.5174, 48.6069 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 15, 2019 13:26",
+				"Expires_UTC" : "November 15, 2019 14:25",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\nThe snow bands have psssed through and are weakening.\n\n###<br>Expires: 2019-11-15T14:25:18-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-15T13:26:18-00:00, urn:oid:2.49.0.1.124.1122080664.2019<br>Area: Timmins - Cochrane - Iroquois Falls",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-15:feed.atom/urn:oid:2.49.0.1.124.1122080664.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-15/2019_11_15T13_26_18_00_00Iurn_oid_2.49.0.1.124.1122080664.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191115142518+00:00"
 			}
 		},
 		{
