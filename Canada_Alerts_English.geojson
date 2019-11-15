@@ -1764,6 +1764,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.192, 51.7106 ],
+							[ -79.4165, 51.7137 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5368, 51.0871 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.5167, 50.5155 ],
+							[ -75.9995, 50.5156 ],
+							[ -76, 51.6249 ],
+							[ -78.9371, 51.6314 ],
+							[ -78.9877, 51.6266 ],
+							[ -79.0521, 51.6205 ],
+							[ -79.1401, 51.6578 ],
+							[ -79.192, 51.7106 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 15, 2019 20:48",
+				"Expires_UTC" : "November 16, 2019 07:02",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-16T07:02:42-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-15T20:48:42-00:00, urn:oid:2.49.0.1.124.2756959222.2019<br>Area: Waskaganish",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-15:feed.atom/urn:oid:2.49.0.1.124.2756959222.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-15/2019_11_15T20_48_42_00_00Iurn_oid_2.49.0.1.124.2756959222.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191116070242+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -72.0817, 45.0038 ],
 							[ -71.5365, 44.9999 ],
 							[ -71.4914, 45.0109 ],
@@ -4168,46 +4215,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Snow Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "November 15, 2019 19:38",
-				"Expires_UTC" : "November 16, 2019 11:37",
-				"Summary" : "Description: Persistent snow squalls are expected to develop. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nStrong and cold northwest winds blowing over relatively warm Gulf waters will make conditions favourable for the development of snow squalls on Saturday. Conditions are expected to persist until Sunday morning as a ridge of high pressure moves over the region.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-16T11:37:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-15T19:38:00-00:00, urn:oid:2.49.0.1.124.1985953926.2019<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-15:feed.atom/urn:oid:2.49.0.1.124.1985953926.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-15/2019_11_15T19_38_00_00_00Iurn_oid_2.49.0.1.124.1985953926.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191116113700+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -55.8517, 51.8524 ],
 							[ -55.9388, 51.6058 ],
 							[ -56.8199, 50.58 ],
@@ -4244,6 +4251,46 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-15/2019_11_15T19_14_05_00_00Iurn_oid_2.49.0.1.124.4146425768.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191116111305+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Snow Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "November 15, 2019 19:38",
+				"Expires_UTC" : "November 16, 2019 11:37",
+				"Summary" : "Description: Persistent snow squalls are expected to develop. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nStrong and cold northwest winds blowing over relatively warm Gulf waters will make conditions favourable for the development of snow squalls on Saturday. Conditions are expected to persist until Sunday morning as a ridge of high pressure moves over the region.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-16T11:37:00-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-15T19:38:00-00:00, urn:oid:2.49.0.1.124.1985953926.2019<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-15:feed.atom/urn:oid:2.49.0.1.124.1985953926.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-15/2019_11_15T19_38_00_00_00Iurn_oid_2.49.0.1.124.1985953926.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191116113700+00:00"
 			}
 		},
 		{
