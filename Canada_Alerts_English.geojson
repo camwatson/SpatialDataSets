@@ -9,48 +9,95 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -57.4008, 50.5801 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ]
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -58.0061, 54.7317 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.798, 55.9666 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8884, 55.8597 ],
+							[ -61.0222, 55.8603 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 16, 2019 08:52",
-				"Expires_UTC" : "November 17, 2019 00:51",
-				"Summary" : "Description: Significant high-elevation snowfall is expected.\n\nTotal snowfall: near 5 cm, except 15 to 25 cm over higher terrain.\n\nTime span: continuing into tonight.\n\nLocations: Bay St. George to Hawke's Bay.\n\nRemarks: Flurries will persist today with possible snow squalls, before gradually easing tonight.\n\nAnyone using the Viking Trail through Gros Morne National Park or high-elevation backcountry trails should be prepared for winter travel conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T00:51:12-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T08:52:12-00:00, urn:oid:2.49.0.1.124.1784013958.2019<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 16, 2019 09:29",
+				"Expires_UTC" : "November 17, 2019 01:28",
+				"Summary" : "Description: Snow, blowing snow and strong northwesterly winds are expected.\n\nFurther snowfall: 15 to 25 cm.\n\nMaximum wind gusts: 120 km/h.\n\nLocations: Hopedale to Makkovik.\n\nTime span: continuing until early Sunday.\n\nRemarks: Snow will combine with strong northwesterly winds today to cause poor visibility in blowing snow. Conditions are expected to improve in Hopedale this evening and in Postville and Makkovik by Sunday morning as the snow tapers to flurries and the winds begin to ease.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T01:28:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T09:29:48-00:00, urn:oid:2.49.0.1.124.2013037457.2019<br>Area: Postville - Makkovik, Hopedale and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.1784013958.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T08_52_12_00_00Iurn_oid_2.49.0.1.124.1784013958.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.2013037457.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T09_29_48_00_00Iurn_oid_2.49.0.1.124.2013037457.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191117005112+00:00"
+				"Expires_FMEFormat" : "20191117012848+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.0222, 55.8603 ],
+							[ -60.8884, 55.8597 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.798, 55.9666 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 16, 2019 09:29",
+				"Expires_UTC" : "November 17, 2019 01:28",
+				"Summary" : "Description: Snow, blowing snow and strong northwesterly winds are expected.\n\nFurther snowfall: 5 cm near Nain to 20 cm near Natuashish.\n\nMaximum wind gusts: 80 km/h except 100 along parts of the coast.\n\nTime span: continuing until early this evening.\n\nRemarks: Snow will continue to combine with strong northwesterly winds to cause poor visibility in blowing snow. Stormy conditions will then persist through today, especially in the Natuashish area. Conditions will improve by this evening over all locations as the snow tapers to flurries and the winds begin to ease.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T01:28:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T09:29:22-00:00, urn:oid:2.49.0.1.124.2697618596.2019<br>Area: Nain and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.2697618596.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T09_29_22_00_00Iurn_oid_2.49.0.1.124.2697618596.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191117012822+00:00"
 			}
 		},
 		{
@@ -321,53 +368,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T10_18_38_00_00Iurn_oid_2.49.0.1.124.4048221027.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191117021738+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 08:00",
-				"Expires_UTC" : "November 16, 2019 15:59",
-				"Summary" : "Description: Westerly winds will reach up to 90 kilometres per hour along the northern shore of the Gaspe Peninsula through this morning.   Combined with flurries, these high winds will give blowing snow which will significantly reduce visibilities locally.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-16T15:59:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T08:00:33-00:00, urn:oid:2.49.0.1.124.0669726623.2019<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.0669726623.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T08_00_33_00_00Iurn_oid_2.49.0.1.124.0669726623.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191116155933+00:00"
 			}
 		},
 		{
@@ -709,67 +709,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 14:27",
+				"LastUpdate_UTC" : "November 16, 2019 14:28",
 				"Expires_UTC" : "November 17, 2019 04:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T04:59:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T14:27:31-00:00, urn:oid:2.49.0.1.124.1404200744.2019<br>Area: Channel-Port aux Basques and vicinity",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: 100 km/h. \n\nLocations: Channel-Port aux Basques and vicinity.\n\nTime span: this afternoon and evening.\n\nRemarks: A period of strong northwesterly winds is expected to develop later today, with the highest gusts likely to occur along exposed areas of the coast. Winds will gradually subside overnight and into Sunday.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T04:59:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T14:28:31-00:00, urn:oid:2.49.0.1.124.4276673001.2019<br>Area: Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.1404200744.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T14_27_31_00_00Iurn_oid_2.49.0.1.124.1404200744.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.4276673001.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T14_28_31_00_00Iurn_oid_2.49.0.1.124.4276673001.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191117045931+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.7945, 56.6786 ],
-							[ -61.1044, 56.5708 ],
-							[ -61.8607, 56.6166 ],
-							[ -62.4923, 56.7524 ],
-							[ -63.0043, 56.7494 ],
-							[ -63.0038, 56.0019 ],
-							[ -63.0037, 55.8296 ],
-							[ -61.891, 55.378 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.0222, 55.8603 ],
-							[ -60.8884, 55.8597 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.798, 55.9666 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.7945, 56.6786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 09:29",
-				"Expires_UTC" : "November 17, 2019 01:28",
-				"Summary" : "Description: Snow, blowing snow and strong northwesterly winds are expected.\n\nFurther snowfall: 5 cm near Nain to 20 cm near Natuashish.\n\nMaximum wind gusts: 80 km/h except 100 along parts of the coast.\n\nTime span: continuing until early this evening.\n\nRemarks: Snow will continue to combine with strong northwesterly winds to cause poor visibility in blowing snow. Stormy conditions will then persist through today, especially in the Natuashish area. Conditions will improve by this evening over all locations as the snow tapers to flurries and the winds begin to ease.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T01:28:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T09:29:22-00:00, urn:oid:2.49.0.1.124.2697618596.2019<br>Area: Nain and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.2697618596.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T09_29_22_00_00Iurn_oid_2.49.0.1.124.2697618596.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191117012822+00:00"
 			}
 		},
 		{
@@ -912,16 +863,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 14:28",
+				"LastUpdate_UTC" : "November 16, 2019 14:29",
 				"Expires_UTC" : "November 17, 2019 06:28",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T06:28:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T14:28:33-00:00, urn:oid:2.49.0.1.124.2968228704.2019<br>Area: Bay of Exploits, Bonavista North, Green Bay - White Bay",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 100 km/h.\n\nLocations: northeast coast of Newfoundland.\n\nTime span: midnight tonight until early Sunday morning.\n\nRemarks: Westerly winds will strengthen tonight and ease again on Sunday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T06:28:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T14:29:33-00:00, urn:oid:2.49.0.1.124.3135814183.2019<br>Area: Bay of Exploits, Bonavista North, Green Bay - White Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.2968228704.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T14_28_33_00_00Iurn_oid_2.49.0.1.124.2968228704.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.3135814183.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T14_29_33_00_00Iurn_oid_2.49.0.1.124.3135814183.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191117062833+00:00"
 			}
@@ -933,42 +884,37 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.8517, 51.8524 ],
-							[ -55.9388, 51.6058 ],
-							[ -56.8199, 50.58 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ]
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Snow Squall Watch In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Snow Squall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 14:29",
-				"Expires_UTC" : "November 17, 2019 06:29",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T06:29:07-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T14:29:07-00:00, urn:oid:2.49.0.1.124.3903072461.2019<br>Area: Northern Peninsula East",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "November 16, 2019 08:18",
+				"Expires_UTC" : "November 17, 2019 00:17",
+				"Summary" : "Description: Persistent snow squalls are expected to develop. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nStrong and cold northwest winds blowing over relatively warm Gulf of St. Lawrence waters will make conditions favourable for the development of snow squalls today. Conditions are expected to improve later tonight or Sunday morning when a ridge of high pressure will move over the region.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-17T00:17:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T08:18:15-00:00, urn:oid:2.49.0.1.124.1328559190.2019<br>Area: Îles-de-la-Madeleine",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.3903072461.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T14_29_07_00_00Iurn_oid_2.49.0.1.124.3903072461.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.1328559190.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T08_18_15_00_00Iurn_oid_2.49.0.1.124.1328559190.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191117062907+00:00"
+				"Expires_FMEFormat" : "20191117001715+00:00"
 			}
 		},
 		{
@@ -1142,87 +1088,42 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
+							[ -55.8517, 51.8524 ],
+							[ -55.9388, 51.6058 ],
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Snow Squall Watch In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snow Squall",
+				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "November 16, 2019 08:18",
-				"Expires_UTC" : "November 17, 2019 00:17",
-				"Summary" : "Description: Persistent snow squalls are expected to develop. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nStrong and cold northwest winds blowing over relatively warm Gulf of St. Lawrence waters will make conditions favourable for the development of snow squalls today. Conditions are expected to improve later tonight or Sunday morning when a ridge of high pressure will move over the region.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-11-17T00:17:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T08:18:15-00:00, urn:oid:2.49.0.1.124.1328559190.2019<br>Area: Îles-de-la-Madeleine",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 16, 2019 14:30",
+				"Expires_UTC" : "November 17, 2019 06:29",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: 100 km/h, except 120 in the Canada Bay area tonight.\n\nTime span: this evening until Sunday afternoon. \n\nLocations: eastern side of the Great Northern Peninsula.\n\nRemarks: Strong westerly winds will develop this evening and persist into Sunday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T06:29:07-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T14:30:07-00:00, urn:oid:2.49.0.1.124.3466662807.2019<br>Area: Northern Peninsula East",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.1328559190.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T08_18_15_00_00Iurn_oid_2.49.0.1.124.1328559190.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.3466662807.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T14_30_07_00_00Iurn_oid_2.49.0.1.124.3466662807.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191117001715+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -136.136, 67.2766 ],
-							[ -136.6048, 67.0102 ],
-							[ -137.1316, 66.6721 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.4948, 64.415 ],
-							[ -138.0022, 64.3497 ],
-							[ -137.911, 64.3385 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8443, 65.4581 ],
-							[ -134.9833, 67 ],
-							[ -135.4962, 67.0133 ],
-							[ -135.9999, 67 ],
-							[ -136.012, 67 ],
-							[ -136.0889, 67.1757 ],
-							[ -135.9251, 67.2657 ],
-							[ -136.136, 67.2766 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "November 16, 2019 12:35",
-				"Expires_UTC" : "November 17, 2019 04:34",
-				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nAn area of high pressure entrenched over the Mackenzie basin will combine with an approaching low over the Gulf of Alaska will produce strong winds and blizzard conditions to the Dempster highway.\n\nWinds up to 110 km/h and falling snow will produce blizzard conditions near the Richardson mountains.  \n\nThe blizzard will begin overnight Saturday.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-11-17T04:34:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T12:35:10-00:00, urn:oid:2.49.0.1.124.2612946773.2019<br>Area: Dempster",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.2612946773.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T12_35_10_00_00Iurn_oid_2.49.0.1.124.2612946773.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191117043410+00:00"
+				"Expires_FMEFormat" : "20191117062907+00:00"
 			}
 		},
 		{
@@ -1358,6 +1259,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -136.136, 67.2766 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "November 16, 2019 12:35",
+				"Expires_UTC" : "November 17, 2019 04:34",
+				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nAn area of high pressure entrenched over the Mackenzie basin will combine with an approaching low over the Gulf of Alaska will produce strong winds and blizzard conditions to the Dempster highway.\n\nWinds up to 110 km/h and falling snow will produce blizzard conditions near the Richardson mountains.  \n\nThe blizzard will begin overnight Saturday.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-11-17T04:34:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T12:35:10-00:00, urn:oid:2.49.0.1.124.2612946773.2019<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.2612946773.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T12_35_10_00_00Iurn_oid_2.49.0.1.124.2612946773.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191117043410+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.884, 46.5004 ],
 							[ -63.6271, 46.6222 ],
 							[ -63.6157, 46.5529 ],
@@ -1394,6 +1345,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T08_18_15_00_00Iurn_oid_2.49.0.1.124.3499955748.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191117001715+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 16, 2019 14:36",
+				"Expires_UTC" : "November 16, 2019 15:36",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2019-11-16T15:36:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T14:36:23-00:00, urn:oid:2.49.0.1.124.3696681720.2019<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.3696681720.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T14_36_23_00_00Iurn_oid_2.49.0.1.124.3696681720.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191116153623+00:00"
 			}
 		},
 		{
@@ -2268,46 +2266,48 @@
 				"coordinates" : [
 					[
 						[
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ],
-							[ -58.0061, 54.7317 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.798, 55.9666 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8884, 55.8597 ],
-							[ -61.0222, 55.8603 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ]
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -57.4008, 50.5801 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 09:29",
-				"Expires_UTC" : "November 17, 2019 01:28",
-				"Summary" : "Description: Snow, blowing snow and strong northwesterly winds are expected.\n\nFurther snowfall: 15 to 25 cm.\n\nMaximum wind gusts: 120 km/h.\n\nLocations: Hopedale to Makkovik.\n\nTime span: continuing until early Sunday.\n\nRemarks: Snow will combine with strong northwesterly winds today to cause poor visibility in blowing snow. Conditions are expected to improve in Hopedale this evening and in Postville and Makkovik by Sunday morning as the snow tapers to flurries and the winds begin to ease.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T01:28:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T09:29:48-00:00, urn:oid:2.49.0.1.124.2013037457.2019<br>Area: Postville - Makkovik, Hopedale and vicinity",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 16, 2019 14:29",
+				"Expires_UTC" : "November 17, 2019 04:59",
+				"Summary" : "Description: Significant high-elevation snowfall is expected.\n\nTotal snowfall: near 5 cm, except 15 to 25 cm over higher terrain.\n\nTime span: continuing into tonight.\n\nLocations: Bay St. George to Hawke's Bay.\n\nRemarks: Flurries will persist today with possible snow squalls, before gradually easing tonight.\n\nAnyone using the Viking Trail through Gros Morne National Park or high-elevation backcountry trails should be prepared for winter travel conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T04:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T14:29:14-00:00, urn:oid:2.49.0.1.124.1415567448.2019<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.2013037457.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T09_29_48_00_00Iurn_oid_2.49.0.1.124.2013037457.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.1415567448.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T14_29_14_00_00Iurn_oid_2.49.0.1.124.1415567448.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191117012848+00:00"
+				"Expires_FMEFormat" : "20191117045914+00:00"
 			}
 		},
 		{
