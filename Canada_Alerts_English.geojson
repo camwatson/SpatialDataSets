@@ -242,60 +242,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -77.3232, 49.2924 ],
-							[ -78.5004, 49.2934 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5289, 48.9206 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5246, 48.5242 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5258, 48.3407 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5176, 47.833 ],
-							[ -78.4996, 47.8372 ],
-							[ -77.9663, 47.835 ],
-							[ -77.7494, 47.8332 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.4994, 48.0998 ],
-							[ -76.4994, 48.3331 ],
-							[ -76.4994, 48.6998 ],
-							[ -76.4994, 49.2832 ],
-							[ -76.4997, 49.2832 ],
-							[ -77.3232, 49.2924 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Smog Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 09:24",
-				"Expires_UTC" : "November 16, 2019 21:59",
-				"Summary" : "Description: High levels of pollutants are expected to persist until late this morning in this region.\n\n###\n\nSmog especially affects asthmatic children and people with respiratory ailments or heart disease. It is therefore recommended that these individuals avoid intense physical activity outdoors until the smog warning is lifted.\n\nIn Quebec, wood heating is the main source of fine particles that contribute to smog during winter. This activity generates the largest number of these particulates, more than industrial activities and transportation.\n\nAdditional information:\n\nTo learn more about the Info-Smog program, go to Environment Canada’s website at www.canada.ca/info-smog-program.\n\nFor air quality indexes in Quebec, visit the website of the Ministère de l'Environnement et de la Lutte contre les changements climatiques at www.iqa.environnement.gouv.qc.ca/contenu/index_en.asp.\n\nFor the air quality index in Montréal, visit the Réseau de surveillance de la qualité de l’air de la Ville de Montréal’s website at www.rsqa.qc.ca (french only).\n\nTo learn more about the effects of smog on your health in Québec, visit the Ministère de la Santé et des Services sociaux’s website at www.quebec.ca/en/health. You can also visit the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal at www.santemontreal.qc.ca/en/public.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-11-16T21:59:59-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2019-11-16T09:24:59-00:00, urn:oid:2.49.0.1.124.3363819762.2019<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
-				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.3363819762.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T09_24_59_00_00Iurn_oid_2.49.0.1.124.3363819762.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191116215959+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -72.55, 47.2024 ],
 							[ -73.0011, 47.2021 ],
 							[ -73.4166, 47.1998 ],
@@ -1227,6 +1173,60 @@
 				"coordinates" : [
 					[
 						[
+							[ -77.3232, 49.2924 ],
+							[ -78.5004, 49.2934 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 49.2832 ],
+							[ -76.4997, 49.2832 ],
+							[ -77.3232, 49.2924 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Smog Warning Ended",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 16, 2019 11:21",
+				"Expires_UTC" : "November 16, 2019 12:21",
+				"Summary" : "Description: As air quality is back to \"fair\", a smog warning is no longer required.\n\n###<br>Expires: 2019-11-16T12:21:31-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2019-11-16T11:21:31-00:00, urn:oid:2.49.0.1.124.0710912893.2019<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
+				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.0710912893.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T11_21_31_00_00Iurn_oid_2.49.0.1.124.0710912893.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191116122131+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.3667, 53.72 ],
 							[ -57.499, 53.3332 ],
 							[ -57.4985, 53.333 ],
@@ -1378,95 +1378,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -110.0057, 56.1199 ],
-							[ -110.0126, 56.0595 ],
-							[ -110.0057, 55.9843 ],
-							[ -110.027, 55.7645 ],
-							[ -110.0057, 55.5476 ],
-							[ -110.0249, 55.1474 ],
-							[ -110.0057, 54.7623 ],
-							[ -110.0097, 54.7142 ],
-							[ -110.0057, 54.6505 ],
-							[ -109.8688, 54.5573 ],
-							[ -109.7837, 54.5579 ],
-							[ -109.6328, 54.558 ],
-							[ -109.6327, 54.549 ],
-							[ -109.6322, 54.529 ],
-							[ -109.6071, 54.5145 ],
-							[ -109.5318, 54.4998 ],
-							[ -109.1928, 54.4795 ],
-							[ -108.8765, 54.4854 ],
-							[ -108.8003, 54.4853 ],
-							[ -108.798, 54.5 ],
-							[ -108.8008, 54.5145 ],
-							[ -108.719, 54.5118 ],
-							[ -108.6498, 54.5141 ],
-							[ -108.6458, 54.555 ],
-							[ -108.6499, 54.587 ],
-							[ -108.6244, 54.5864 ],
-							[ -108.5994, 54.5871 ],
-							[ -108.5938, 54.6334 ],
-							[ -108.5992, 54.6744 ],
-							[ -108.5063, 54.6706 ],
-							[ -108.4237, 54.6743 ],
-							[ -108.4308, 54.6363 ],
-							[ -108.4231, 54.5869 ],
-							[ -108.2338, 54.5831 ],
-							[ -108.0515, 54.5869 ],
-							[ -108.0042, 54.5855 ],
-							[ -107.9683, 54.5861 ],
-							[ -106.7528, 54.5866 ],
-							[ -106.7528, 56.1199 ],
-							[ -108.0497, 56.1199 ],
-							[ -108.0083, 56.7544 ],
-							[ -108.0497, 57.409 ],
-							[ -108.0497, 58.3999 ],
-							[ -110.006, 58.3999 ],
-							[ -110.024, 58.2383 ],
-							[ -110.006, 58.0851 ],
-							[ -110.0328, 57.7486 ],
-							[ -110.0059, 57.409 ],
-							[ -110.012, 57.3539 ],
-							[ -110.0058, 57.2926 ],
-							[ -110.0294, 57.0727 ],
-							[ -110.0058, 56.8562 ],
-							[ -110.0289, 56.6013 ],
-							[ -110.0058, 56.3337 ],
-							[ -110.0125, 56.2239 ],
-							[ -110.0057, 56.1199 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 05:05",
-				"Expires_UTC" : "November 16, 2019 15:29",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\nAn area of freezing rain is tracking through central Alberta and northwestern Saskatchewan. This area is expected to continue to track eastward this evening and through the overnight hours.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2019-11-16T15:29:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T05:05:15-00:00, urn:oid:2.49.0.1.124.2770828130.2019<br>Area: Buffalo Narrows and Peter Pond Lake, Île à la Crosse and Beauval",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.2770828130.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T05_05_15_00_00Iurn_oid_2.49.0.1.124.2770828130.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191116152915+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -107.7044, 51.8814 ],
 							[ -107.4937, 51.8715 ],
 							[ -107.2793, 51.8816 ],
@@ -1603,6 +1514,95 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T07_11_16_00_00Iurn_oid_2.49.0.1.124.2860521748.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191116120416+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -110.0057, 56.1199 ],
+							[ -110.0126, 56.0595 ],
+							[ -110.0057, 55.9843 ],
+							[ -110.027, 55.7645 ],
+							[ -110.0057, 55.5476 ],
+							[ -110.0249, 55.1474 ],
+							[ -110.0057, 54.7623 ],
+							[ -110.0097, 54.7142 ],
+							[ -110.0057, 54.6505 ],
+							[ -109.8688, 54.5573 ],
+							[ -109.7837, 54.5579 ],
+							[ -109.6328, 54.558 ],
+							[ -109.6327, 54.549 ],
+							[ -109.6322, 54.529 ],
+							[ -109.6071, 54.5145 ],
+							[ -109.5318, 54.4998 ],
+							[ -109.1928, 54.4795 ],
+							[ -108.8765, 54.4854 ],
+							[ -108.8003, 54.4853 ],
+							[ -108.798, 54.5 ],
+							[ -108.8008, 54.5145 ],
+							[ -108.719, 54.5118 ],
+							[ -108.6498, 54.5141 ],
+							[ -108.6458, 54.555 ],
+							[ -108.6499, 54.587 ],
+							[ -108.6244, 54.5864 ],
+							[ -108.5994, 54.5871 ],
+							[ -108.5938, 54.6334 ],
+							[ -108.5992, 54.6744 ],
+							[ -108.5063, 54.6706 ],
+							[ -108.4237, 54.6743 ],
+							[ -108.4308, 54.6363 ],
+							[ -108.4231, 54.5869 ],
+							[ -108.2338, 54.5831 ],
+							[ -108.0515, 54.5869 ],
+							[ -108.0042, 54.5855 ],
+							[ -107.9683, 54.5861 ],
+							[ -106.7528, 54.5866 ],
+							[ -106.7528, 56.1199 ],
+							[ -108.0497, 56.1199 ],
+							[ -108.0083, 56.7544 ],
+							[ -108.0497, 57.409 ],
+							[ -108.0497, 58.3999 ],
+							[ -110.006, 58.3999 ],
+							[ -110.024, 58.2383 ],
+							[ -110.006, 58.0851 ],
+							[ -110.0328, 57.7486 ],
+							[ -110.0059, 57.409 ],
+							[ -110.012, 57.3539 ],
+							[ -110.0058, 57.2926 ],
+							[ -110.0294, 57.0727 ],
+							[ -110.0058, 56.8562 ],
+							[ -110.0289, 56.6013 ],
+							[ -110.0058, 56.3337 ],
+							[ -110.0125, 56.2239 ],
+							[ -110.0057, 56.1199 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 16, 2019 05:05",
+				"Expires_UTC" : "November 16, 2019 15:29",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\nAn area of freezing rain is tracking through central Alberta and northwestern Saskatchewan. This area is expected to continue to track eastward this evening and through the overnight hours.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2019-11-16T15:29:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T05:05:15-00:00, urn:oid:2.49.0.1.124.2770828130.2019<br>Area: Buffalo Narrows and Peter Pond Lake, Île à la Crosse and Beauval",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.2770828130.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T05_05_15_00_00Iurn_oid_2.49.0.1.124.2770828130.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191116152915+00:00"
 			}
 		},
 		{
