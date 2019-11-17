@@ -1277,6 +1277,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -54.65, 49.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 16, 2019 19:37",
+				"Expires_UTC" : "November 17, 2019 11:36",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 100 km/h.\n\nLocations: northeast coast of Newfoundland.\n\nTime span: midnight tonight until early Sunday morning.\n\nRemarks: Westerly winds will strengthen tonight and ease again on Sunday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T11:36:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T19:37:38-00:00, urn:oid:2.49.0.1.124.0892644473.2019<br>Area: Bay of Exploits, Bonavista North, Green Bay - White Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.0892644473.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T19_37_38_00_00Iurn_oid_2.49.0.1.124.0892644473.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191117113638+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -55.8517, 51.8524 ],
 							[ -55.9388, 51.6058 ],
 							[ -56.8199, 50.58 ],
@@ -1353,68 +1415,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T19_45_21_00_00Iurn_oid_2.49.0.1.124.3188318068.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191117114421+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -54.65, 49.25 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.0086, 48.9045 ],
-							[ -53.9865, 48.8983 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.4018, 49.5793 ],
-							[ -55.3736, 50.013 ],
-							[ -55.7129, 50.3339 ],
-							[ -56.4068, 50.2167 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.99, 50.25 ],
-							[ -57.2, 49.8499 ],
-							[ -57.3499, 49.58 ],
-							[ -56.817, 49.2073 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 19:37",
-				"Expires_UTC" : "November 17, 2019 11:36",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 100 km/h.\n\nLocations: northeast coast of Newfoundland.\n\nTime span: midnight tonight until early Sunday morning.\n\nRemarks: Westerly winds will strengthen tonight and ease again on Sunday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-17T11:36:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T19:37:38-00:00, urn:oid:2.49.0.1.124.0892644473.2019<br>Area: Bay of Exploits, Bonavista North, Green Bay - White Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.0892644473.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T19_37_38_00_00Iurn_oid_2.49.0.1.124.0892644473.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191117113638+00:00"
 			}
 		},
 		{
@@ -2020,18 +2020,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2019 19:09",
-				"Expires_UTC" : "November 17, 2019 11:08",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nHeavy rain is expected for the inland sections of the north and central coasts, the Sunshine Coast and Howe Sound. \n\nAn atmospheric river aimed at North Vancouver Island and the Central Coast this morning will move southward tonight and Sunday morning. Rain will ease by Sunday morning and total rainfall amounts of 50 to 70 mm are expected.\n\nGiven the tropical origin of the atmospheric river, freezing levels will be on the rise upwards of 3000 metres for the South Coast and close to 2500 metres for the North Coast. The mild air will result in rain at almost all elevations and steady temperatures overnight. High runoff and rising river levels are likely through the weekend.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-17T11:08:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-16T19:09:46-00:00, urn:oid:2.49.0.1.124.3600778930.2019<br>Area: Central Coast - inland sections, Sunshine Coast - Gibsons to Earls Cove, Sunshine Coast - Saltery Bay to Powell River, Howe Sound, North Coast - inland including Kitimat",
+				"LastUpdate_UTC" : "November 17, 2019 00:12",
+				"Expires_UTC" : "November 17, 2019 16:12",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-11-17T16:12:18-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-17T00:12:18-00:00, urn:oid:2.49.0.1.124.4217697864.2019<br>Area: Central Coast - inland sections, Sunshine Coast - Gibsons to Earls Cove, Sunshine Coast - Saltery Bay to Powell River, Howe Sound, North Coast - inland including Kitimat",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-16:feed.atom/urn:oid:2.49.0.1.124.3600778930.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-16/2019_11_16T19_09_46_00_00Iurn_oid_2.49.0.1.124.3600778930.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-17:feed.atom/urn:oid:2.49.0.1.124.4217697864.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-17/2019_11_17T00_12_18_00_00Iurn_oid_2.49.0.1.124.4217697864.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191117110846+00:00"
+				"Expires_FMEFormat" : "20191117161218+00:00"
 			}
 		}
 	]
