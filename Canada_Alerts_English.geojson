@@ -51,6 +51,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.4008, 50.5801 ],
+							[ -56.8199, 50.58 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 18, 2019 14:23",
+				"Expires_UTC" : "November 19, 2019 06:22",
+				"Summary" : "Description: Significant snowfall is expected.\n\nTotal snowfall: 10 to 20 cm.\n\nTime span: Tuesday morning until Wednesday morning.\n\nLocations: Northern Peninsula East as well as Port Saunders and the Straits.\n\nRemarks: Snow will begin on the Northern Peninsula Tuesday morning then ease briefly near midnight Tuesday night before a second, less extensive, round of snow begins overnight. The snow will then taper off Wednesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-19T06:22:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-18T14:23:31-00:00, urn:oid:2.49.0.1.124.0392352690.2019<br>Area: Northern Peninsula East, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-18:feed.atom/urn:oid:2.49.0.1.124.0392352690.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-18/2019_11_18T14_23_31_00_00Iurn_oid_2.49.0.1.124.0392352690.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191119062231+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -96.376, 49.2663 ],
 							[ -96.5797, 49.2677 ],
 							[ -96.78, 49.2662 ],
@@ -301,116 +349,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-18/2019_11_18T14_43_57_00_00Iurn_oid_2.49.0.1.124.0415401518.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191119064257+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.7518, 48.8661 ],
-							[ -66.9998, 48.7504 ],
-							[ -67.0013, 48.4494 ],
-							[ -67.0024, 48.2174 ],
-							[ -67.0014, 48.0402 ],
-							[ -66.943, 47.9606 ],
-							[ -66.8952, 47.9523 ],
-							[ -66.8496, 47.9672 ],
-							[ -66.7872, 47.966 ],
-							[ -66.7805, 47.993 ],
-							[ -66.6148, 48.0154 ],
-							[ -66.4422, 48.0905 ],
-							[ -66.2939, 48.0424 ],
-							[ -66.0128, 48.0649 ],
-							[ -65.8243, 48.018 ],
-							[ -65.4344, 47.921 ],
-							[ -65.2163, 47.9516 ],
-							[ -64.7544, 48.0994 ],
-							[ -64.2197, 48.3156 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 18, 2019 20:17",
-				"Expires_UTC" : "November 19, 2019 12:16",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nAmounts ranging from 15 to 20 centimetres are expected over these regions by Tuesday evening.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-19T12:16:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-18T20:17:58-00:00, urn:oid:2.49.0.1.124.1159984521.2019<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Murdochville area, Mont-Albert area, Grande-Rivière - Cascapédia area, New-Richmond - Bonaventure area, Restigouche - Carleton area, Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-18:feed.atom/urn:oid:2.49.0.1.124.1159984521.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-18/2019_11_18T20_17_58_00_00Iurn_oid_2.49.0.1.124.1159984521.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191119121658+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -56.8199, 50.58 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.4008, 50.5801 ],
-							[ -56.8199, 50.58 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 18, 2019 14:23",
-				"Expires_UTC" : "November 19, 2019 06:22",
-				"Summary" : "Description: Significant snowfall is expected.\n\nTotal snowfall: 10 to 20 cm.\n\nTime span: Tuesday morning until Wednesday morning.\n\nLocations: Northern Peninsula East as well as Port Saunders and the Straits.\n\nRemarks: Snow will begin on the Northern Peninsula Tuesday morning then ease briefly near midnight Tuesday night before a second, less extensive, round of snow begins overnight. The snow will then taper off Wednesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-19T06:22:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-18T14:23:31-00:00, urn:oid:2.49.0.1.124.0392352690.2019<br>Area: Northern Peninsula East, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-18:feed.atom/urn:oid:2.49.0.1.124.0392352690.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-18/2019_11_18T14_23_31_00_00Iurn_oid_2.49.0.1.124.0392352690.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191119062231+00:00"
 			}
 		},
 		{
@@ -935,6 +873,68 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-19/2019_11_19T02_13_37_00_00Iurn_oid_2.49.0.1.124.3007137051.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191119181137+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.7518, 48.8661 ],
+							[ -66.9998, 48.7504 ],
+							[ -67.0013, 48.4494 ],
+							[ -67.0024, 48.2174 ],
+							[ -67.0014, 48.0402 ],
+							[ -66.943, 47.9606 ],
+							[ -66.8952, 47.9523 ],
+							[ -66.8496, 47.9672 ],
+							[ -66.7872, 47.966 ],
+							[ -66.7805, 47.993 ],
+							[ -66.6148, 48.0154 ],
+							[ -66.4422, 48.0905 ],
+							[ -66.2939, 48.0424 ],
+							[ -66.0128, 48.0649 ],
+							[ -65.8243, 48.018 ],
+							[ -65.4344, 47.921 ],
+							[ -65.2163, 47.9516 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 18, 2019 20:17",
+				"Expires_UTC" : "November 19, 2019 12:16",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nAmounts ranging from 15 to 20 centimetres are expected over these regions by Tuesday evening.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-19T12:16:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-18T20:17:58-00:00, urn:oid:2.49.0.1.124.1159984521.2019<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Murdochville area, Mont-Albert area, Grande-Rivière - Cascapédia area, New-Richmond - Bonaventure area, Restigouche - Carleton area, Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-18:feed.atom/urn:oid:2.49.0.1.124.1159984521.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-18/2019_11_18T20_17_58_00_00Iurn_oid_2.49.0.1.124.1159984521.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191119121658+00:00"
 			}
 		}
 	]
