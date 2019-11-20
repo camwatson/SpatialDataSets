@@ -9,67 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -84.6283, 47.2522 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ],
-							[ -84.021, 49.9497 ],
-							[ -84.05, 51.1582 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.9963, 51.1568 ],
-							[ -89.9953, 51.1354 ],
-							[ -90.0123, 49.9131 ],
-							[ -90.0178, 49.5235 ],
-							[ -88.6636, 49.1101 ],
-							[ -88.1405, 48.6611 ],
-							[ -87.9958, 48.475 ],
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 19, 2019 16:14",
-				"Expires_UTC" : "November 20, 2019 08:13",
-				"Summary" : "Description: Near zero visibility in fog continues today.\n\nDense fog persists over portions of the area near noon today. Patchy freezing drizzle also remains possible with temperatures hovering near the freezing mark. Roads and walkways may become icy and slippery.   \n\nConditions should briefly improve this afternoon but dense fog is expected to reform over portions of the region again this evening and then persist into tonight.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-20T08:13:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-19T16:14:44-00:00, urn:oid:2.49.0.1.124.0778391987.2019<br>Area: Armstrong - Auden - Wabakimi Park, Beardmore - Jellicoe - Macdiarmid, Gull Bay - Black Sturgeon Lake, Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat, Manitouwadge - Hornepayne, Nipigon - Rossport, Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-19:feed.atom/urn:oid:2.49.0.1.124.0778391987.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-19/2019_11_19T16_14_44_00_00Iurn_oid_2.49.0.1.124.0778391987.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191120081344+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -94.2244, 61.2965 ],
 							[ -94.3187, 61.2722 ],
 							[ -94.4341, 61.2139 ],
@@ -343,42 +282,58 @@
 				"coordinates" : [
 					[
 						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.6283, 47.2522 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ],
+							[ -84.021, 49.9497 ],
+							[ -84.05, 51.1582 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.362, 51.2908 ],
+							[ -84.5361, 51.1721 ],
+							[ -84.7492, 51.2465 ],
+							[ -84.8479, 51.1686 ],
+							[ -87.4321, 51.159 ],
+							[ -87.9963, 51.1568 ],
+							[ -89.9953, 51.1354 ],
+							[ -90.0123, 49.9131 ],
+							[ -90.0178, 49.5235 ],
+							[ -88.6636, 49.1101 ],
+							[ -88.1405, 48.6611 ],
+							[ -87.9958, 48.475 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
 				"Category" : "Actual",
-				"event" : "Winter Storm",
+				"event" : "Fog",
 				"urgency" : "Future",
-				"certainty" : "Likely",
+				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 19, 2019 09:30",
-				"Expires_UTC" : "November 20, 2019 01:29",
-				"Summary" : "Description: Blizzard beginning late overnight and lasting most of Wednesday.\n\nA low pressure system currently in northern Manitoba will move into southwestern Hudson Bay this evening and intensify tonight and Wednesday as it tracks slowly northeastward. \n\nSnow which has already moved into Arviat will become heavier throughout the day today, while northeast winds will strengthen tonight. The worst conditions will be late overnight and Wednesday morning with near zero visibility in snow and blowing snow. The snow will gradually taper off later on Wednesday allowing visibilities to slowly improve during the late afternoon or evening.\n\nTotal snowfalls of 15 to 20 cm are likely.\n\nRankin Inlet and Chesterfield Inlet will also be impacted by this system, although at this point it appears that the worst conditions will be at Arviat. Please listen for updated watches and warnings as this system moves into the area.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-11-20T01:29:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-19T09:30:41-00:00, urn:oid:2.49.0.1.124.3967948426.2019<br>Area: Arviat",
+				"LastUpdate_UTC" : "November 19, 2019 16:14",
+				"Expires_UTC" : "November 20, 2019 08:13",
+				"Summary" : "Description: Near zero visibility in fog continues today.\n\nDense fog persists over portions of the area near noon today. Patchy freezing drizzle also remains possible with temperatures hovering near the freezing mark. Roads and walkways may become icy and slippery.   \n\nConditions should briefly improve this afternoon but dense fog is expected to reform over portions of the region again this evening and then persist into tonight.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-11-20T08:13:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-19T16:14:44-00:00, urn:oid:2.49.0.1.124.0778391987.2019<br>Area: Armstrong - Auden - Wabakimi Park, Beardmore - Jellicoe - Macdiarmid, Gull Bay - Black Sturgeon Lake, Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat, Manitouwadge - Hornepayne, Nipigon - Rossport, Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-19:feed.atom/urn:oid:2.49.0.1.124.3967948426.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-19/2019_11_19T09_30_41_00_00Iurn_oid_2.49.0.1.124.3967948426.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-19:feed.atom/urn:oid:2.49.0.1.124.0778391987.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-19/2019_11_19T16_14_44_00_00Iurn_oid_2.49.0.1.124.0778391987.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191120012941+00:00"
+				"Expires_FMEFormat" : "20191120081344+00:00"
 			}
 		},
 		{
