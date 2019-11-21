@@ -253,61 +253,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -54.65, 49.25 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.0086, 48.9045 ],
-							[ -53.9865, 48.8983 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 21, 2019 14:42",
-				"Expires_UTC" : "November 22, 2019 06:41",
-				"Summary" : "Description: Significant rainfall and snowfall are expected.\n\nTotal rainfall: 15 to 30 mm along the coast.\n\nTotal snowfall: 10 to 15 cm inland and over higher terrain.\n\nLocations: Bay of Exploits and Bonavista North.\n\nTime span: midday today until midnight tonight.\n\nRemarks: Drizzle will transition to a mixture of rain and snow this afternoon, with snow primarily occurring inland and rain mainly at the coast. The wintry mix will change back to rain or drizzle over all areas after midnight.\n\nMotorists should be prepared for winter driving conditions in the heavy, wet snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T06:41:03-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T14:42:03-00:00, urn:oid:2.49.0.1.124.0970958905.2019<br>Area: Bay of Exploits, Bonavista North",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.0970958905.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T14_42_03_00_00Iurn_oid_2.49.0.1.124.0970958905.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191122064103+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -89.0071, 48.4482 ],
 							[ -88.828, 48.5107 ],
 							[ -88.9702, 48.2896 ],
@@ -369,6 +314,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T10_17_42_00_00Iurn_oid_2.49.0.1.124.1041581804.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191121202442+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -75.9995, 50.4999 ],
+							[ -75.9995, 50.5156 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -78.5004, 49.2934 ],
+							[ -77.3232, 49.2924 ],
+							[ -76.4997, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ],
+							[ -75.9995, 50.4999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 21, 2019 04:12",
+				"Expires_UTC" : "November 21, 2019 20:11",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nSnow will begin Thursday morning and end Friday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-21T20:11:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T04:12:44-00:00, urn:oid:2.49.0.1.124.1819529863.2019<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.1819529863.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T04_12_44_00_00Iurn_oid_2.49.0.1.124.1819529863.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191121201144+00:00"
 			}
 		},
 		{
@@ -550,18 +538,73 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 21, 2019 14:41",
+				"LastUpdate_UTC" : "November 21, 2019 19:28",
 				"Expires_UTC" : "November 22, 2019 03:02",
-				"Summary" : "Description: A wintry mix of rain and snow is expected.\n\nTotal rainfall: 30 to 45 mm along the coast.\n\nTotal snowfall: near 10 cm inland and over higher terrain.\n\nLocations: Bonavista and Burin Peninsulas.\n\nTime span: continuing until this evening.\n\nRemarks: Rain will continue over coastal areas today, but precipitation will be mixed with snow inland and over higher terrain. The snow will change back to rain this evening.\n\nMotorists should be prepared for winter driving conditions and reduced visibilities in the heavy, wet snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T03:02:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T14:41:22-00:00, urn:oid:2.49.0.1.124.1978520542.2019<br>Area: Burin Peninsula, Bonavista Peninsula",
+				"Summary" : "Description: A wintry mix of rain and snow is expected.\n\nTotal rainfall: 30 to 45 mm along the coast.\n\nTotal snowfall: near 10 cm inland and over higher terrain.\n\nLocations: Bonavista and Burin Peninsulas.\n\nTime span: continuing until this evening.\n\nRemarks: Rain will continue over coastal areas this evening, but precipitation will be mixed with snow inland and over higher terrain. The snow will change back to rain this evening.\n\nMotorists should be prepared for winter driving conditions and reduced visibilities in the heavy, wet snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T03:02:31-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T19:28:31-00:00, urn:oid:2.49.0.1.124.2753975322.2019<br>Area: Burin Peninsula, Bonavista Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.1978520542.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T14_41_22_00_00Iurn_oid_2.49.0.1.124.1978520542.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.2753975322.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T19_28_31_00_00Iurn_oid_2.49.0.1.124.2753975322.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191122030222+00:00"
+				"Expires_FMEFormat" : "20191122030231+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -54.65, 49.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 21, 2019 19:30",
+				"Expires_UTC" : "November 22, 2019 06:59",
+				"Summary" : "Description: Significant rainfall and snowfall are expected.\n\nTotal rainfall: 15 to 30 mm along the coast.\n\nTotal snowfall: 10 to 15 cm inland and over higher terrain.\n\nLocations: Bay of Exploits and Bonavista North.\n\nTime span: continuing until midnight tonight.\n\nRemarks: A mixture of rain and snow is expected this evening, with snow primarily occurring inland and rain mainly at the coast. The wintry mix will change back to rain or drizzle over all areas after midnight.\n\nMotorists should be prepared for winter driving conditions in the heavy, wet snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T06:59:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T19:30:10-00:00, urn:oid:2.49.0.1.124.0451667267.2019<br>Area: Bay of Exploits, Bonavista North",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.0451667267.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T19_30_10_00_00Iurn_oid_2.49.0.1.124.0451667267.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191122065910+00:00"
 			}
 		},
 		{
@@ -695,49 +738,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T16_01_22_00_00Iurn_oid_2.49.0.1.124.1995719393.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191122080022+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -75.9995, 50.4999 ],
-							[ -75.9995, 50.5156 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -78.5004, 49.2934 ],
-							[ -77.3232, 49.2924 ],
-							[ -76.4997, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ],
-							[ -75.9995, 50.4999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 21, 2019 04:12",
-				"Expires_UTC" : "November 21, 2019 20:11",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nSnow will begin Thursday morning and end Friday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-21T20:11:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T04:12:44-00:00, urn:oid:2.49.0.1.124.1819529863.2019<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.1819529863.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T04_12_44_00_00Iurn_oid_2.49.0.1.124.1819529863.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191121201144+00:00"
 			}
 		},
 		{
@@ -1079,18 +1079,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 21, 2019 14:36",
+				"LastUpdate_UTC" : "November 21, 2019 19:27",
 				"Expires_UTC" : "November 22, 2019 04:59",
-				"Summary" : "Description: Significant accumulations of wet, heavy snowfall are expected.\n\nTotal snowfall: 15 to 25 cm.\n\nLocations: Grand Falls-Windsor to Gander, with highest totals likely occurring in the Gander area.\n\nTime span: continuing until midnight tonight.\n\nRemarks: Snow, at times heavy, is expected this afternoon and evening. The snow is forecast to ease to a mix of drizzle and flurries after midnight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T04:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T14:36:56-00:00, urn:oid:2.49.0.1.124.2056954570.2019<br>Area: Grand Falls-Windsor and vicinity, Gander and vicinity",
+				"Summary" : "Description: Significant accumulations of wet, heavy snowfall are expected.\n\nTotal snowfall: up to 15 cm.\n\nLocations: Grand Falls-Windsor to Gander, with highest totals likely occurring in the Gander area.\n\nTime span: continuing until midnight tonight.\n\nRemarks: Snow, at times heavy, is expected this evening. The snow is forecast to ease to a mix of drizzle and flurries after midnight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T04:59:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T19:27:47-00:00, urn:oid:2.49.0.1.124.2948120923.2019<br>Area: Grand Falls-Windsor and vicinity, Gander and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.2056954570.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T14_36_56_00_00Iurn_oid_2.49.0.1.124.2056954570.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.2948120923.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T19_27_47_00_00Iurn_oid_2.49.0.1.124.2948120923.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191122045956+00:00"
+				"Expires_FMEFormat" : "20191122045947+00:00"
 			}
 		},
 		{
