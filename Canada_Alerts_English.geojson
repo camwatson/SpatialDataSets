@@ -165,72 +165,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -54.1199, 48.25 ],
-							[ -53.5167, 48.25 ],
-							[ -53.5163, 48.2499 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.6375, 48.5439 ],
-							[ -53.7275, 48.5317 ],
-							[ -53.836, 48.4368 ],
-							[ -53.9005, 48.3746 ],
-							[ -54.1199, 48.25 ]
-						]
-					],
-					[
-						[
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.58, 47.3919 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.0399, 47.4918 ],
-							[ -53.0399, 47.4957 ],
-							[ -53.0787, 47.6842 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 22, 2019 06:17",
-				"Expires_UTC" : "November 22, 2019 16:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T16:59:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-22T06:17:39-00:00, urn:oid:2.49.0.1.124.1863473365.2019<br>Area: Avalon Peninsula North, Bonavista Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-22:feed.atom/urn:oid:2.49.0.1.124.1863473365.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-22/2019_11_22T06_17_39_00_00Iurn_oid_2.49.0.1.124.1863473365.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191122165939+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -55.3737, 48.6852 ],
 							[ -54.9999, 48.5499 ],
 							[ -54.2, 48.9 ],
@@ -537,6 +471,62 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-22/2019_11_22T03_31_27_00_00Iurn_oid_2.49.0.1.124.2860917073.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191122193027+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 22, 2019 02:24",
+				"Expires_UTC" : "November 22, 2019 10:59",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAdditional rainfall: up to 15 mm.\n\nLocations: Avalon Peninsula.\n\nTime span: until early Friday morning.\n\nRemarks: Rain will continue tonight and mix at times with wet snow, mainly over northwestern sections of the Avalon Peninsula, where a few centimetres could accumulate over higher elevations.\n\nPeriods of light rain or drizzle will persist on Friday but amounts will be minimal compared to what has fallen thus far.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T10:59:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-22T02:24:30-00:00, urn:oid:2.49.0.1.124.4214725674.2019<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-22:feed.atom/urn:oid:2.49.0.1.124.4214725674.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-22/2019_11_22T02_24_30_00_00Iurn_oid_2.49.0.1.124.4214725674.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191122105930+00:00"
 			}
 		},
 		{
@@ -944,6 +934,72 @@
 				"coordinates" : [
 					[
 						[
+							[ -54.1199, 48.25 ],
+							[ -53.5167, 48.25 ],
+							[ -53.5163, 48.2499 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.836, 48.4368 ],
+							[ -53.9005, 48.3746 ],
+							[ -54.1199, 48.25 ]
+						]
+					],
+					[
+						[
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 47.4918 ],
+							[ -53.0399, 47.4957 ],
+							[ -53.0787, 47.6842 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 22, 2019 06:18",
+				"Expires_UTC" : "November 22, 2019 16:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: northeasterly up to 100 km/h.\n\nLocations: Exposed coastal areas of the Bonavista and Bay de Verde Peninsulas.\n\nTime span: until late this morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T16:59:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-22T06:18:39-00:00, urn:oid:2.49.0.1.124.1758086843.2019<br>Area: Avalon Peninsula North, Bonavista Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-22:feed.atom/urn:oid:2.49.0.1.124.1758086843.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-22/2019_11_22T06_18_39_00_00Iurn_oid_2.49.0.1.124.1758086843.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191122165939+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -71.3493, 48.9995 ],
 							[ -70.2496, 48.6665 ],
 							[ -69.7684, 48.8682 ],
@@ -1239,62 +1295,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T19_30_10_00_00Iurn_oid_2.49.0.1.124.0451667267.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191122065910+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 22, 2019 02:24",
-				"Expires_UTC" : "November 22, 2019 10:59",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAdditional rainfall: up to 15 mm.\n\nLocations: Avalon Peninsula.\n\nTime span: until early Friday morning.\n\nRemarks: Rain will continue tonight and mix at times with wet snow, mainly over northwestern sections of the Avalon Peninsula, where a few centimetres could accumulate over higher elevations.\n\nPeriods of light rain or drizzle will persist on Friday but amounts will be minimal compared to what has fallen thus far.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T10:59:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-22T02:24:30-00:00, urn:oid:2.49.0.1.124.4214725674.2019<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-22:feed.atom/urn:oid:2.49.0.1.124.4214725674.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-22/2019_11_22T02_24_30_00_00Iurn_oid_2.49.0.1.124.4214725674.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191122105930+00:00"
 			}
 		}
 	]
