@@ -210,6 +210,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -54.65, 49.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 21, 2019 19:30",
+				"Expires_UTC" : "November 22, 2019 06:59",
+				"Summary" : "Description: Significant rainfall and snowfall are expected.\n\nTotal rainfall: 15 to 30 mm along the coast.\n\nTotal snowfall: 10 to 15 cm inland and over higher terrain.\n\nLocations: Bay of Exploits and Bonavista North.\n\nTime span: continuing until midnight tonight.\n\nRemarks: A mixture of rain and snow is expected this evening, with snow primarily occurring inland and rain mainly at the coast. The wintry mix will change back to rain or drizzle over all areas after midnight.\n\nMotorists should be prepared for winter driving conditions in the heavy, wet snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T06:59:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T19:30:10-00:00, urn:oid:2.49.0.1.124.0451667267.2019<br>Area: Bay of Exploits, Bonavista North",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.0451667267.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T19_30_10_00_00Iurn_oid_2.49.0.1.124.0451667267.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191122065910+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -84.021, 49.9497 ],
 							[ -85.9469, 49.9546 ],
 							[ -85.9469, 48.8844 ],
@@ -471,62 +526,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-22/2019_11_22T03_31_27_00_00Iurn_oid_2.49.0.1.124.2860917073.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191122193027+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 22, 2019 02:24",
-				"Expires_UTC" : "November 22, 2019 10:59",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAdditional rainfall: up to 15 mm.\n\nLocations: Avalon Peninsula.\n\nTime span: until early Friday morning.\n\nRemarks: Rain will continue tonight and mix at times with wet snow, mainly over northwestern sections of the Avalon Peninsula, where a few centimetres could accumulate over higher elevations.\n\nPeriods of light rain or drizzle will persist on Friday but amounts will be minimal compared to what has fallen thus far.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T10:59:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-22T02:24:30-00:00, urn:oid:2.49.0.1.124.4214725674.2019<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-22:feed.atom/urn:oid:2.49.0.1.124.4214725674.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-22/2019_11_22T02_24_30_00_00Iurn_oid_2.49.0.1.124.4214725674.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191122105930+00:00"
 			}
 		},
 		{
@@ -1249,52 +1248,53 @@
 				"coordinates" : [
 					[
 						[
-							[ -54.65, 49.25 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.0086, 48.9045 ],
-							[ -53.9865, 48.8983 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ]
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Rainfall",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 21, 2019 19:30",
-				"Expires_UTC" : "November 22, 2019 06:59",
-				"Summary" : "Description: Significant rainfall and snowfall are expected.\n\nTotal rainfall: 15 to 30 mm along the coast.\n\nTotal snowfall: 10 to 15 cm inland and over higher terrain.\n\nLocations: Bay of Exploits and Bonavista North.\n\nTime span: continuing until midnight tonight.\n\nRemarks: A mixture of rain and snow is expected this evening, with snow primarily occurring inland and rain mainly at the coast. The wintry mix will change back to rain or drizzle over all areas after midnight.\n\nMotorists should be prepared for winter driving conditions in the heavy, wet snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T06:59:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-21T19:30:10-00:00, urn:oid:2.49.0.1.124.0451667267.2019<br>Area: Bay of Exploits, Bonavista North",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 22, 2019 02:24",
+				"Expires_UTC" : "November 22, 2019 10:59",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAdditional rainfall: up to 15 mm.\n\nLocations: Avalon Peninsula.\n\nTime span: until early Friday morning.\n\nRemarks: Rain will continue tonight and mix at times with wet snow, mainly over northwestern sections of the Avalon Peninsula, where a few centimetres could accumulate over higher elevations.\n\nPeriods of light rain or drizzle will persist on Friday but amounts will be minimal compared to what has fallen thus far.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-22T10:59:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-22T02:24:30-00:00, urn:oid:2.49.0.1.124.4214725674.2019<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-21:feed.atom/urn:oid:2.49.0.1.124.0451667267.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-21/2019_11_21T19_30_10_00_00Iurn_oid_2.49.0.1.124.0451667267.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-22:feed.atom/urn:oid:2.49.0.1.124.4214725674.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-22/2019_11_22T02_24_30_00_00Iurn_oid_2.49.0.1.124.4214725674.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191122065910+00:00"
+				"Expires_FMEFormat" : "20191122105930+00:00"
 			}
 		}
 	]
