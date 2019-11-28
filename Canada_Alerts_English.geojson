@@ -309,6 +309,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -56.817, 49.2073 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.4199, 48.2499 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 48.5499 ],
+							[ -55.3737, 48.6852 ],
+							[ -55.3717, 48.6868 ],
+							[ -55.0999, 48.9 ],
+							[ -55.3732, 49.056 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.45, 49.0999 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 28, 2019 09:02",
+				"Expires_UTC" : "November 29, 2019 01:01",
+				"Summary" : "Description: Significant snowfall is expected.\n\nTotal snowfall: 10 to 15 cm, with higher amounts possible.\n\nLocations: Grand Falls-Windsor to White Bay.\n\nTime span: midday Friday until Friday evening.\n\nRemarks: Drizzle will transition to a period of heavy, wet snow around midday or early in the afternoon on Friday, before changing back to rain showers or drizzle Friday night. Accumulations will be variable, with the highest amounts occurring inland and over elevated terrain.\n\nMotorists are advised to be prepared for winter driving conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-29T01:01:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-28T09:02:04-00:00, urn:oid:2.49.0.1.124.2494055902.2019<br>Area: Buchans and the interior, Grand Falls-Windsor and vicinity, Green Bay - White Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-28:feed.atom/urn:oid:2.49.0.1.124.2494055902.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-28/2019_11_28T09_02_04_00_00Iurn_oid_2.49.0.1.124.2494055902.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191129010104+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.5635, 42.9826 ],
 							[ -79.6566, 43.0193 ],
 							[ -79.7541, 43.0507 ],
@@ -1140,51 +1198,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-27/2019_11_27T23_59_26_00_00Iurn_oid_2.49.0.1.124.1636572246.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191128155826+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.2298, 55.0701 ],
-							[ -60.3072, 54.9832 ],
-							[ -60.3074, 54.9828 ],
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ],
-							[ -58.0061, 54.7317 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.0305, 55.2374 ],
-							[ -60.1066, 55.1369 ],
-							[ -60.2298, 55.0701 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 28, 2019 09:15",
-				"Expires_UTC" : "November 29, 2019 01:15",
-				"Summary" : "Description: A long period of snowfall with total amounts of 20 to 30 cm is expected.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-29T01:15:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-28T09:15:19-00:00, urn:oid:2.49.0.1.124.0341139018.2019<br>Area: Postville - Makkovik",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-28:feed.atom/urn:oid:2.49.0.1.124.0341139018.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-28/2019_11_28T09_15_19_00_00Iurn_oid_2.49.0.1.124.0341139018.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191129011519+00:00"
 			}
 		},
 		{
@@ -2271,6 +2284,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.2298, 55.0701 ],
+							[ -60.3072, 54.9832 ],
+							[ -60.3074, 54.9828 ],
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -58.0061, 54.7317 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.0305, 55.2374 ],
+							[ -60.1066, 55.1369 ],
+							[ -60.2298, 55.0701 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 28, 2019 09:16",
+				"Expires_UTC" : "November 29, 2019 01:15",
+				"Summary" : "Description: A long period of snowfall with total amounts of 20 to 30 cm is expected.\n\nLocations: Postville to Makkovik\n\nTime span: today through Friday evening. Additional snowfall amounts \nare expected through Sunday.\n\nRemarks: Snow mixed with rain will change to snow this evening and will persist on Friday. Strong winds will cause blowing snow over exposed areas.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-29T01:15:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-28T09:16:19-00:00, urn:oid:2.49.0.1.124.3214680824.2019<br>Area: Postville - Makkovik",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-28:feed.atom/urn:oid:2.49.0.1.124.3214680824.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-28/2019_11_28T09_16_19_00_00Iurn_oid_2.49.0.1.124.3214680824.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191129011519+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.9179, 45.4771 ],
 							[ -64.4894, 45.7165 ],
 							[ -64.3392, 45.8389 ],
@@ -2720,145 +2778,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-28/2019_11_28T08_25_55_00_00Iurn_oid_2.49.0.1.124.0972073788.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191129002455+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -113.2302, 48.9968 ],
-							[ -112.841, 48.9948 ],
-							[ -112.4088, 48.9968 ],
-							[ -112.159, 48.9969 ],
-							[ -111.875, 48.9967 ],
-							[ -111.3412, 48.9999 ],
-							[ -111.3387, 49.0754 ],
-							[ -111.3412, 49.1578 ],
-							[ -111.4302, 49.1543 ],
-							[ -111.4301, 49.1823 ],
-							[ -111.441, 49.1824 ],
-							[ -111.4388, 49.2235 ],
-							[ -111.4405, 49.261 ],
-							[ -111.5224, 49.2625 ],
-							[ -111.62, 49.2613 ],
-							[ -111.6193, 49.5233 ],
-							[ -111.6295, 49.5692 ],
-							[ -111.6271, 49.6826 ],
-							[ -111.6306, 49.7859 ],
-							[ -111.6295, 49.8731 ],
-							[ -111.6353, 49.8732 ],
-							[ -111.6416, 49.8731 ],
-							[ -111.6414, 49.8961 ],
-							[ -111.6377, 49.9088 ],
-							[ -111.6707, 49.9313 ],
-							[ -111.6473, 49.9565 ],
-							[ -111.5641, 49.9788 ],
-							[ -111.5688, 50.0185 ],
-							[ -111.5464, 50.0397 ],
-							[ -111.5751, 50.0881 ],
-							[ -111.6515, 50.1454 ],
-							[ -111.8228, 50.1597 ],
-							[ -111.8562, 50.2168 ],
-							[ -111.9107, 50.2202 ],
-							[ -111.9375, 50.2036 ],
-							[ -111.9873, 50.2302 ],
-							[ -112.052, 50.2179 ],
-							[ -112.0509, 50.2025 ],
-							[ -112.0509, 50.1353 ],
-							[ -112.5068, 50.1353 ],
-							[ -112.577, 50.1371 ],
-							[ -112.6434, 50.1352 ],
-							[ -112.7239, 50.1369 ],
-							[ -112.8027, 50.1353 ],
-							[ -112.8027, 50.0771 ],
-							[ -112.8592, 50.0787 ],
-							[ -112.9163, 50.0771 ],
-							[ -112.9157, 50.0624 ],
-							[ -113.0534, 50.065 ],
-							[ -113.1873, 50.0626 ],
-							[ -113.1875, 50.0478 ],
-							[ -113.2304, 50.0496 ],
-							[ -113.2766, 50.0481 ],
-							[ -113.2805, 49.981 ],
-							[ -113.2762, 49.9105 ],
-							[ -114, 49.9105 ],
-							[ -113.9952, 50.0526 ],
-							[ -114, 50.1937 ],
-							[ -114.0314, 50.1957 ],
-							[ -114.0683, 50.1936 ],
-							[ -114.0635, 50.2546 ],
-							[ -114.07, 50.3099 ],
-							[ -114.1362, 50.3128 ],
-							[ -114.2064, 50.3096 ],
-							[ -114.344, 50.3096 ],
-							[ -114.3443, 50.2952 ],
-							[ -114.3211, 50.2951 ],
-							[ -114.3208, 50.2662 ],
-							[ -114.3849, 50.2697 ],
-							[ -114.4898, 50.2113 ],
-							[ -114.7139, 50.1973 ],
-							[ -114.7959, 50.1459 ],
-							[ -114.7322, 49.9746 ],
-							[ -114.7388, 49.6701 ],
-							[ -114.8227, 49.636 ],
-							[ -114.7397, 49.5129 ],
-							[ -114.6426084991, 49.5148893535 ],
-							[ -114.6631, 49.4021 ],
-							[ -114.5402, 49.315 ],
-							[ -114.4534, 49.2113 ],
-							[ -114.283, 49.142 ],
-							[ -114.2396, 49.1528 ],
-							[ -114.1953, 49.1223 ],
-							[ -113.9706, 49.1372 ],
-							[ -113.9358, 49.1684 ],
-							[ -113.967, 49.2035 ],
-							[ -113.948, 49.2034 ],
-							[ -113.9474, 49.1889 ],
-							[ -113.9368, 49.1756 ],
-							[ -113.9061, 49.1751 ],
-							[ -113.8749, 49.1759 ],
-							[ -113.8768, 49.1514 ],
-							[ -113.875, 49.1323 ],
-							[ -113.8663, 49.1316 ],
-							[ -113.8555, 49.1322 ],
-							[ -113.83, 49.1316 ],
-							[ -113.8076, 49.1323 ],
-							[ -113.8097, 49.1092 ],
-							[ -113.8075, 49.0884 ],
-							[ -113.7855, 49.0885 ],
-							[ -113.7857, 49.0739 ],
-							[ -113.7244, 49.0724 ],
-							[ -113.6525, 49.0736 ],
-							[ -113.6528, 48.9975 ],
-							[ -113.486, 48.9975 ],
-							[ -113.2302, 48.9968 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 27, 2019 22:55",
-				"Expires_UTC" : "November 28, 2019 14:54",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA prolonged period of snow continues for southwestern Alberta. Total snowfall amounts will be from 25 to 40 cm with some localities possibly exceeding 50 cm. Additionally, gusty northerly winds will produce near zero visibilities in blowing snow. The snowfall is expected to end on Thursday.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2019-11-28T14:54:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-27T22:55:19-00:00, urn:oid:2.49.0.1.124.4016257426.2019<br>Area: M.D. of Ranchland, M.D. of Pincher Creek near Cowley Burmis and Maycroft, Piikani Reserve, Municipality of Crowsnest Pass including Coleman and Frank, M.D. of Pincher Creek near Beauvais Lake Prov. Park, M.D. of Pincher Creek near Pincher Creek and Twin Butte, Waterton Lakes Nat. Park and Blood Res. 148A, M.D. of Willow Creek near Granum and Peigan Timber Limit, M.D. of Willow Creek near Fort Macleod, Blood Res. 148 including Stand Off, Cardston Co. near Hill Spring and Glenwood, Cardston Co. near Magrath and Woolford Prov. Park, Cardston Co. near Del Bonita and Kimball, Cardston Co. near Mountain View and Beazer, Cardston Co. near Cardston and Carway, Co. of Lethbridge near Coalhurst Nobleford and Barons, Co. of Lethbridge near Picture Butte and Turin, Co. of Lethbridge near Coaldale, City of Lethbridge, M.D. of Taber near Vauxhall and Hays, M.D. of Taber near Taber and Barnwell, M.D. of Taber near Grassy Lake and Hwys 877 and 513, Co. of Warner near Raymond Stirling and New Dayton, Co. of Warner near Wrentham, Co. of Warner near Warner, Co. of Warner near Milk River and Coutts, Co. of Warner near Writing-On-Stone Prov. Park, Co. of Forty Mile near Skiff",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-27:feed.atom/urn:oid:2.49.0.1.124.4016257426.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-27/2019_11_27T22_55_19_00_00Iurn_oid_2.49.0.1.124.4016257426.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191128145419+00:00"
 			}
 		},
 		{
