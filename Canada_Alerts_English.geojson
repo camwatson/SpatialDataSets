@@ -113,6 +113,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -112.2094, 49.2905 ],
+							[ -112.2141, 49.2759 ],
+							[ -112.2033, 49.2759 ],
+							[ -112.2094, 49.2905 ]
+						]
+					],
+					[
+						[
+							[ -112.0755, 49.1575 ],
+							[ -112.0951, 49.1628 ],
+							[ -112.099, 49.1522 ],
+							[ -112.079, 49.1417 ],
+							[ -112.0755, 49.1575 ]
+						]
+					],
+					[
+						[
+							[ -111.9533, 49.0065 ],
+							[ -111.9647, 49.0068 ],
+							[ -111.9706, 49.0085 ],
+							[ -111.9706, 49.0073 ],
+							[ -111.9695, 49.0073 ],
+							[ -111.9696, 49.0026 ],
+							[ -111.9728, 49.0025 ],
+							[ -111.9728, 49.0006 ],
+							[ -111.9534, 49.0007 ],
+							[ -111.9533, 49.0065 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Other",
+				"Title" : "Alberta Emergency Alert - Winter Storm Alert Updated",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 27, 2019 19:09",
+				"Expires_UTC" : "December 4, 2019 19:10",
+				"Summary" : "Description: There is a winter storm in the southern part of Alberta effecting travel on Highway 4 from Milk River to Coutts.  Do not travel.  Reception Centre is located at 105 Centre Ave in Coutts.\n###\nGo to https://511.alberta.ca for Road Report information.<br>Expires: 2019-12-04T19:10:08-07:00<br>Originated from CAP Alert: Village of Coutts, 2019-11-27T19:09:39-07:00, NAADS-CA-AB-AEA1-6127<br>Area: Parts of Warner County #5",
+				"Author" : "Village of Coutts",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-27:feed.atom/NAADS-CA-AB-AEA1-6127",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-27/2019_11_27T19_09_39_07_00INAADS_CA_AB_AEA1_6127.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191204191008-07:00",
+				"EnclosureType" : "audio/mpeg",
+				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2019/7441-0.mp3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -80.5511, 43.692 ],
 							[ -80.2499, 43.7561 ],
 							[ -80.3943, 43.8531 ],
@@ -756,76 +818,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-28/2019_11_28T02_04_57_00_00Iurn_oid_2.49.0.1.124.3916001521.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191128180357+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.567607421, 48.1000655797 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.83, 48.58 ],
-							[ -57.4599, 48.2499 ],
-							[ -56.817, 49.2073 ],
-							[ -57.3499, 49.58 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 28, 2019 09:08",
-				"Expires_UTC" : "November 29, 2019 01:07",
-				"Summary" : "Description: Significant high elevation snowfall is expected.\n\nTotal snowfall: 30 to 50 cm over the Long Range Mountains. Lesser amounts elsewhere.\n\nLocations: western and northern Newfoundland.\n\nTime span: Friday afternoon until Sunday morning.\n\nRemarks: A prolonged period of high-elevation snowfall is expected beginning Friday afternoon and continuing into the weekend. While precipitation will fall as a mixture of snow and rain over the lower elevations near the coast, snow will be dominant over mountainous areas.\n\nMotorists should be prepared for winter driving conditions, especially over higher terrain. Anyone planning to use backcountry trails should be prepared for large amounts of snowfall.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-29T01:07:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-28T09:08:15-00:00, urn:oid:2.49.0.1.124.3519193943.2019<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Deer Lake - Humber Valley, Gros Morne, Bay St. George, Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-28:feed.atom/urn:oid:2.49.0.1.124.3519193943.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-28/2019_11_28T09_08_15_00_00Iurn_oid_2.49.0.1.124.3519193943.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191129010715+00:00"
 			}
 		},
 		{
@@ -1525,68 +1517,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -112.2094, 49.2905 ],
-							[ -112.2141, 49.2759 ],
-							[ -112.2033, 49.2759 ],
-							[ -112.2094, 49.2905 ]
-						]
-					],
-					[
-						[
-							[ -112.0755, 49.1575 ],
-							[ -112.0951, 49.1628 ],
-							[ -112.099, 49.1522 ],
-							[ -112.079, 49.1417 ],
-							[ -112.0755, 49.1575 ]
-						]
-					],
-					[
-						[
-							[ -111.9533, 49.0065 ],
-							[ -111.9647, 49.0068 ],
-							[ -111.9706, 49.0085 ],
-							[ -111.9706, 49.0073 ],
-							[ -111.9695, 49.0073 ],
-							[ -111.9696, 49.0026 ],
-							[ -111.9728, 49.0025 ],
-							[ -111.9728, 49.0006 ],
-							[ -111.9534, 49.0007 ],
-							[ -111.9533, 49.0065 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Other",
-				"Title" : "Alberta Emergency Alert - Winter Storm Alert Updated",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 27, 2019 19:09",
-				"Expires_UTC" : "December 4, 2019 19:10",
-				"Summary" : "Description: There is a winter storm in the southern part of Alberta effecting travel on Highway 4 from Milk River to Coutts.  Do not travel.  Reception Centre is located at 105 Centre Ave in Coutts.\n###\nGo to https://511.alberta.ca for Road Report information.<br>Expires: 2019-12-04T19:10:08-07:00<br>Originated from CAP Alert: Village of Coutts, 2019-11-27T19:09:39-07:00, NAADS-CA-AB-AEA1-6127<br>Area: Parts of Warner County #5",
-				"Author" : "Village of Coutts",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-27:feed.atom/NAADS-CA-AB-AEA1-6127",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-27/2019_11_27T19_09_39_07_00INAADS_CA_AB_AEA1_6127.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191204191008-07:00",
-				"EnclosureType" : "audio/mpeg",
-				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2019/7441-0.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -60.2298, 55.0701 ],
 							[ -60.3072, 54.9832 ],
 							[ -60.3074, 54.9828 ],
@@ -1901,6 +1831,76 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-28/2019_11_28T14_20_33_00_00Iurn_oid_2.49.0.1.124.2522986745.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191129061933+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.567607421, 48.1000655797 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.83, 48.58 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.817, 49.2073 ],
+							[ -57.3499, 49.58 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 28, 2019 14:21",
+				"Expires_UTC" : "November 29, 2019 06:20",
+				"Summary" : "Description: Significant high elevation snowfall is expected.\n\nTotal snowfall: 30 to 50 cm over the Long Range Mountains. Lesser amounts elsewhere.\n\nLocations: western and northern Newfoundland.\n\nTime span: Friday afternoon until Sunday morning.\n\nRemarks: A prolonged period of high-elevation snowfall is expected beginning Friday afternoon and continuing into the weekend. While precipitation will fall as a mixture of snow and rain over the lower elevations near the coast, snow will be dominant over mountainous areas.\n\nMotorists should be prepared for winter driving conditions, especially over higher terrain. Anyone planning to use backcountry trails should be prepared for large amounts of snowfall.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-11-29T06:20:50-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-28T14:21:50-00:00, urn:oid:2.49.0.1.124.3252505205.2019<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Deer Lake - Humber Valley, Gros Morne, Bay St. George, Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-28:feed.atom/urn:oid:2.49.0.1.124.3252505205.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-28/2019_11_28T14_21_50_00_00Iurn_oid_2.49.0.1.124.3252505205.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191129062050+00:00"
 			}
 		}
 	]
