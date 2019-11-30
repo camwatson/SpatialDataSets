@@ -343,46 +343,38 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
 				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 30, 2019 14:56",
-				"Expires_UTC" : "December 1, 2019 06:55",
-				"Summary" : "Description: Large waves, pounding surf and elevated water levels are expected.\n\nWave heights: 3 to 7 metres.\n\nLocations: North facing shorelines of The Gulf of St. Lawrence, Northumberland Strait and Cabot Strait.\n\nTime span: Today then subsiding on Sunday.\n\nRemarks: The highest waves will be at north facing shorelines of the Magdalen Islands, Prince Edward Island and Cape Breton where waves of 5 to 7 metres and water levels of near a metre above normal are expected. \n\nOver north facing shorelines of New Brunswick and mainland Nova Scotia, wave heights are expected to be in the 3 to 4 metre range with a water level of 50 cm to 1 metre above normal.\n\nShore or beach erosion and damage to coastal infrastructure is possible in vulnerable areas.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-12-01T06:55:42-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-30T14:56:42-00:00, urn:oid:2.49.0.1.124.1638725555.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"LastUpdate_UTC" : "November 30, 2019 20:27",
+				"Expires_UTC" : "November 30, 2019 21:27",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2019-11-30T21:27:35-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-30T20:27:35-00:00, urn:oid:2.49.0.1.124.1161593715.2019<br>Area: Salluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-30:feed.atom/urn:oid:2.49.0.1.124.1638725555.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T14_56_42_00_00Iurn_oid_2.49.0.1.124.1638725555.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-30:feed.atom/urn:oid:2.49.0.1.124.1161593715.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T20_27_35_00_00Iurn_oid_2.49.0.1.124.1161593715.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191201065542+00:00"
+				"Expires_FMEFormat" : "20191130212735+00:00"
 			}
 		},
 		{
@@ -465,6 +457,55 @@
 				"language" : "en-CA",
 				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-30:feed.atom/urn:oid:2.49.0.1.124.0941820691.2019",
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T14_56_42_00_00Iurn_oid_2.49.0.1.124.0941820691.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191201065542+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 30, 2019 14:56",
+				"Expires_UTC" : "December 1, 2019 06:55",
+				"Summary" : "Description: Large waves, pounding surf and elevated water levels are expected.\n\nWave heights: 3 to 7 metres.\n\nLocations: North facing shorelines of The Gulf of St. Lawrence, Northumberland Strait and Cabot Strait.\n\nTime span: Today then subsiding on Sunday.\n\nRemarks: The highest waves will be at north facing shorelines of the Magdalen Islands, Prince Edward Island and Cape Breton where waves of 5 to 7 metres and water levels of near a metre above normal are expected. \n\nOver north facing shorelines of New Brunswick and mainland Nova Scotia, wave heights are expected to be in the 3 to 4 metre range with a water level of 50 cm to 1 metre above normal.\n\nShore or beach erosion and damage to coastal infrastructure is possible in vulnerable areas.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-12-01T06:55:42-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-30T14:56:42-00:00, urn:oid:2.49.0.1.124.1638725555.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-30:feed.atom/urn:oid:2.49.0.1.124.1638725555.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T14_56_42_00_00Iurn_oid_2.49.0.1.124.1638725555.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191201065542+00:00"
 			}
@@ -1392,65 +1433,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -136.599, 67.6198 ],
-							[ -136.3751, 67.5717 ],
-							[ -136.3691, 67.3323 ],
-							[ -136.2898, 67.2533 ],
-							[ -136.4139, 67.0889 ],
-							[ -136.3553, 66.9923 ],
-							[ -136.012, 67 ],
-							[ -135.5163, 66.9908 ],
-							[ -134.9833, 67 ],
-							[ -134.6249, 66.9942 ],
-							[ -134.2512, 67 ],
-							[ -133.8504, 66.9932 ],
-							[ -133.591, 67.0054 ],
-							[ -133.2737, 67.0038 ],
-							[ -133.011, 67.0157 ],
-							[ -133.0009, 67.1165 ],
-							[ -133.0064, 67.2151 ],
-							[ -132.9819, 67.5732 ],
-							[ -133.0092, 67.8428 ],
-							[ -133.6812, 67.8581 ],
-							[ -134.371, 67.8553 ],
-							[ -135.436, 67.8735 ],
-							[ -136.4483, 67.8636 ],
-							[ -136.4483, 67.7088 ],
-							[ -136.6, 67.7081 ],
-							[ -136.599, 67.6198 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 30, 2019 15:10",
-				"Expires_UTC" : "December 1, 2019 07:09",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\n12 cm of snow was reported overnight.  Snow is expected to continue until Sunday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-01T07:09:49-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-30T15:10:49-00:00, urn:oid:2.49.0.1.124.3059001559.2019<br>Area: South Delta Region including Ft. McPherson - Tsiigehtchic",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-30:feed.atom/urn:oid:2.49.0.1.124.3059001559.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T15_10_49_00_00Iurn_oid_2.49.0.1.124.3059001559.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191201070949+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -56.8199, 50.58 ],
 							[ -56.99, 50.25 ],
 							[ -56.5678, 50.2499 ],
@@ -1868,56 +1850,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -136.136, 67.2766 ],
-							[ -136.6048, 67.0102 ],
-							[ -137.1316, 66.6721 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.4948, 64.415 ],
-							[ -138.0022, 64.3497 ],
-							[ -137.911, 64.3385 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8443, 65.4581 ],
-							[ -134.9833, 67 ],
-							[ -135.4962, 67.0133 ],
-							[ -135.9999, 67 ],
-							[ -136.012, 67 ],
-							[ -136.0889, 67.1757 ],
-							[ -135.9251, 67.2657 ],
-							[ -136.136, 67.2766 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 30, 2019 12:48",
-				"Expires_UTC" : "December 1, 2019 04:47",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nStrong easterly winds gusting to 70 km/h near the Richardson Mountains will persist this weekend. Consequently, visibility will be reduced in snow and blowing snow.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-12-01T04:47:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-30T12:48:39-00:00, urn:oid:2.49.0.1.124.4085658684.2019<br>Area: Dempster",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-30:feed.atom/urn:oid:2.49.0.1.124.4085658684.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T12_48_39_00_00Iurn_oid_2.49.0.1.124.4085658684.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191201044739+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -78.1899, 61.8615 ],
 							[ -77.9932, 61.1989 ],
 							[ -78.2274, 60.8442 ],
@@ -1946,25 +1878,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
 				"Category" : "Actual",
 				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 30, 2019 16:22",
-				"Expires_UTC" : "November 30, 2019 23:59",
-				"Summary" : "Description: Strong southwesterly winds will stir up the snow and produce blizzard conditions over these regions through Saturday afternoon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-11-30T23:59:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-30T16:22:24-00:00, urn:oid:2.49.0.1.124.1147262867.2019<br>Area: Ivujivik, Akulivik, Salluit",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 30, 2019 20:26",
+				"Expires_UTC" : "November 30, 2019 21:26",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n###<br>Expires: 2019-11-30T21:26:27-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-30T20:26:27-00:00, urn:oid:2.49.0.1.124.3678673974.2019<br>Area: Ivujivik, Akulivik, Salluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-30:feed.atom/urn:oid:2.49.0.1.124.1147262867.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T16_22_24_00_00Iurn_oid_2.49.0.1.124.1147262867.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-30:feed.atom/urn:oid:2.49.0.1.124.3678673974.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T20_26_27_00_00Iurn_oid_2.49.0.1.124.3678673974.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191130235924+00:00"
+				"Expires_FMEFormat" : "20191130212627+00:00"
 			}
 		},
 		{
@@ -2180,6 +2112,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T19_16_15_00_00Iurn_oid_2.49.0.1.124.1703689373.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191201055915+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -136.599, 67.6198 ],
+							[ -136.3751, 67.5717 ],
+							[ -136.3691, 67.3323 ],
+							[ -136.2898, 67.2533 ],
+							[ -136.4139, 67.0889 ],
+							[ -136.3553, 66.9923 ],
+							[ -136.012, 67 ],
+							[ -135.5163, 66.9908 ],
+							[ -134.9833, 67 ],
+							[ -134.6249, 66.9942 ],
+							[ -134.2512, 67 ],
+							[ -133.8504, 66.9932 ],
+							[ -133.591, 67.0054 ],
+							[ -133.2737, 67.0038 ],
+							[ -133.011, 67.0157 ],
+							[ -133.0009, 67.1165 ],
+							[ -133.0064, 67.2151 ],
+							[ -132.9819, 67.5732 ],
+							[ -133.0092, 67.8428 ],
+							[ -133.6812, 67.8581 ],
+							[ -134.371, 67.8553 ],
+							[ -135.436, 67.8735 ],
+							[ -136.4483, 67.8636 ],
+							[ -136.4483, 67.7088 ],
+							[ -136.6, 67.7081 ],
+							[ -136.599, 67.6198 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 30, 2019 15:10",
+				"Expires_UTC" : "December 1, 2019 07:09",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\n12 cm of snow was reported overnight.  Snow is expected to continue until Sunday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-01T07:09:49-00:00<br>Originated from CAP Alert: Environment Canada, 2019-11-30T15:10:49-00:00, urn:oid:2.49.0.1.124.3059001559.2019<br>Area: South Delta Region including Ft. McPherson - Tsiigehtchic",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-11-30:feed.atom/urn:oid:2.49.0.1.124.3059001559.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-11-30/2019_11_30T15_10_49_00_00Iurn_oid_2.49.0.1.124.3059001559.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191201070949+00:00"
 			}
 		}
 	]
