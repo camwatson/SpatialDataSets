@@ -259,6 +259,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.5935, 45.5573 ],
+							[ -80.4369, 45.5363 ],
+							[ -80.5641, 45.5136 ],
+							[ -80.1856, 45.0191 ],
+							[ -80.1017, 45.1263 ],
+							[ -80.0356, 45.1139 ],
+							[ -79.9816, 45.1284 ],
+							[ -79.9605, 45.1193 ],
+							[ -79.9596, 45.1118 ],
+							[ -79.9244, 45.1017 ],
+							[ -79.9004, 45.1035 ],
+							[ -79.8792, 45.0943 ],
+							[ -79.8766, 45.0927 ],
+							[ -79.876, 45.0916 ],
+							[ -79.3895, 45.1399 ],
+							[ -78.9997, 45.1057 ],
+							[ -78.8427, 45.1449 ],
+							[ -78.8439, 45.1471 ],
+							[ -78.8118, 45.1515 ],
+							[ -78.9392, 45.3891 ],
+							[ -78.8593, 45.4143 ],
+							[ -78.918, 45.531 ],
+							[ -79.0029, 45.5074 ],
+							[ -79.0368, 45.5697 ],
+							[ -79.5935, 45.5573 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 2, 2019 04:59",
+				"Expires_UTC" : "December 2, 2019 10:27",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect until 2 AM EST.\n\nA narrow band of heavier snowfall continues to affect areas east of Georgian Bay. This band should slowly weaken after midnight. A few additional centimetres of snow are possible.\n\nHazardous travel conditions are likely under this band.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-02T10:27:49-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-02T04:59:49-00:00, urn:oid:2.49.0.1.124.1603818112.2019<br>Area: Huntsville - Baysville, Town of Parry Sound - Rosseau - Killbear Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-02:feed.atom/urn:oid:2.49.0.1.124.1603818112.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-02/2019_12_02T04_59_49_00_00Iurn_oid_2.49.0.1.124.1603818112.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191202102749+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.9179, 45.4771 ],
 							[ -64.4894, 45.7165 ],
 							[ -64.3392, 45.8389 ],
@@ -775,108 +833,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -80.713, 42.614 ],
-							[ -80.7143, 42.5945 ],
-							[ -80.6074, 42.5635 ],
-							[ -80.3658, 42.5585 ],
-							[ -80.1237, 42.5205 ],
-							[ -80.0303, 42.5338 ],
-							[ -80.0252, 42.5491 ],
-							[ -80.4154, 42.6121 ],
-							[ -80.3844, 42.6437 ],
-							[ -80.3129, 42.6381 ],
-							[ -80.2824, 42.6893 ],
-							[ -80.2073, 42.7597 ],
-							[ -80.1221, 42.7799 ],
-							[ -80.0541, 42.7835 ],
-							[ -80.02, 42.798 ],
-							[ -79.9766, 42.7846 ],
-							[ -79.6874, 42.8361 ],
-							[ -79.6066, 42.8191 ],
-							[ -79.5245, 42.834 ],
-							[ -79.4773, 42.8304 ],
-							[ -79.4301, 42.8607 ],
-							[ -79.4371, 42.876 ],
-							[ -79.4721, 42.9206 ],
-							[ -79.5116, 42.9648 ],
-							[ -79.5361, 42.9747 ],
-							[ -79.5635, 42.9826 ],
-							[ -79.6566, 43.0193 ],
-							[ -79.7541, 43.0507 ],
-							[ -79.8548, 43.0995 ],
-							[ -79.9792, 43.1302 ],
-							[ -80.0381, 43.0565 ],
-							[ -80.0732, 42.9762 ],
-							[ -80.1283, 43.0008 ],
-							[ -80.1878, 43.0168 ],
-							[ -80.2122, 43.0306 ],
-							[ -80.241, 43.0355 ],
-							[ -80.388, 43.0171 ],
-							[ -80.5419, 42.9825 ],
-							[ -80.5357, 42.9282 ],
-							[ -80.5056, 42.8843 ],
-							[ -80.6048, 42.8738 ],
-							[ -80.7055, 42.8545 ],
-							[ -80.7156, 42.8389 ],
-							[ -80.7181, 42.8432 ],
-							[ -80.7272, 42.8493 ],
-							[ -80.7352, 42.8423 ],
-							[ -80.7446, 42.8238 ],
-							[ -80.7508, 42.8376 ],
-							[ -80.762, 42.8465 ],
-							[ -80.817, 42.8415 ],
-							[ -80.8773, 42.8296 ],
-							[ -80.8811, 42.8722 ],
-							[ -80.8989, 42.9126 ],
-							[ -80.8992, 42.9125 ],
-							[ -81.0964, 42.887 ],
-							[ -81.0967, 42.8807 ],
-							[ -81.0937, 42.8758 ],
-							[ -81.1642, 42.861 ],
-							[ -81.2313, 42.8415 ],
-							[ -81.2335, 42.7522 ],
-							[ -81.2292, 42.6684 ],
-							[ -81.2218, 42.6597 ],
-							[ -81.218, 42.6458 ],
-							[ -81.1576, 42.6504 ],
-							[ -81.0691, 42.6408 ],
-							[ -80.9308, 42.6413 ],
-							[ -80.8085, 42.6312 ],
-							[ -80.7143, 42.5948 ],
-							[ -80.713, 42.614 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 1, 2019 17:39",
-				"Expires_UTC" : "December 2, 2019 07:09",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\nFreezing rain has been reported in many areas and will continue for a couple more hours before changing to freezing drizzle or drizzle by this afternoon.\n\nFor areas close to Lake Erie, temperatures may rise above the freezing mark sooner than areas farther inland, which would limit the amount of freezing rain.\n\nSeveral millimeters of ice accretion are possible over these regions.\n\nStrong wind gusts up to 70 km/h coupled with ice accretion on tree branches and power lines could cause power outages.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery. Ice build-up may cause tree branches to break.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-02T07:09:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-01T17:39:24-00:00, urn:oid:2.49.0.1.124.0875573210.2019<br>Area: Simcoe - Delhi - Norfolk, Dunnville - Caledonia - Haldimand",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-01:feed.atom/urn:oid:2.49.0.1.124.0875573210.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T17_39_24_00_00Iurn_oid_2.49.0.1.124.0875573210.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191202070924+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -96.7845, 49 ],
 							[ -96.2476, 49 ],
 							[ -96.2472, 49.178 ],
@@ -1035,58 +991,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-02/2019_12_02T06_40_06_00_00Iurn_oid_2.49.0.1.124.3558794085.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191202223906+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.8404, 45.3535 ],
-							[ -81.4622, 44.5866 ],
-							[ -81.2913, 44.5944 ],
-							[ -81.2887, 44.5846 ],
-							[ -81.2724, 44.5229 ],
-							[ -81.1971, 44.5357 ],
-							[ -81.1203, 44.5511 ],
-							[ -81.1256, 44.6259 ],
-							[ -81.127, 44.6447 ],
-							[ -81.1314, 44.7363 ],
-							[ -81.1313, 44.7385 ],
-							[ -81.073, 44.7847 ],
-							[ -81.0217, 44.7958 ],
-							[ -80.9764, 44.9231 ],
-							[ -80.9105, 44.9805 ],
-							[ -81.0827, 45.0703 ],
-							[ -81.1853, 45.2717 ],
-							[ -81.4145, 45.3822 ],
-							[ -81.8404, 45.3535 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 1, 2019 20:33",
-				"Expires_UTC" : "December 2, 2019 12:32",
-				"Summary" : "Description: Snow continues tonight.\n\nAdditional snowfall amounts of up to 5 cm possible tonight.  The snow is expected to taper off to flurries tonight.\n\nStrong wind gusts up to 60 km/h and local blowing snow reducing visibilities are also possible tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-02T12:32:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-01T20:33:56-00:00, urn:oid:2.49.0.1.124.4257781172.2019<br>Area: Bruce Peninsula - Sauble Beach - Tobermory",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-01:feed.atom/urn:oid:2.49.0.1.124.4257781172.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T20_33_56_00_00Iurn_oid_2.49.0.1.124.4257781172.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191202123256+00:00"
 			}
 		},
 		{
@@ -1674,64 +1578,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.5935, 45.5573 ],
-							[ -80.4369, 45.5363 ],
-							[ -80.5641, 45.5136 ],
-							[ -80.1856, 45.0191 ],
-							[ -80.1017, 45.1263 ],
-							[ -80.0356, 45.1139 ],
-							[ -79.9816, 45.1284 ],
-							[ -79.9605, 45.1193 ],
-							[ -79.9596, 45.1118 ],
-							[ -79.9244, 45.1017 ],
-							[ -79.9004, 45.1035 ],
-							[ -79.8792, 45.0943 ],
-							[ -79.8766, 45.0927 ],
-							[ -79.876, 45.0916 ],
-							[ -79.3895, 45.1399 ],
-							[ -78.9997, 45.1057 ],
-							[ -78.8427, 45.1449 ],
-							[ -78.8439, 45.1471 ],
-							[ -78.8118, 45.1515 ],
-							[ -78.9392, 45.3891 ],
-							[ -78.8593, 45.4143 ],
-							[ -78.918, 45.531 ],
-							[ -79.0029, 45.5074 ],
-							[ -79.0368, 45.5697 ],
-							[ -79.5935, 45.5573 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 2, 2019 06:01",
-				"Expires_UTC" : "December 2, 2019 07:01",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2019-12-02T07:01:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-02T06:01:56-00:00, urn:oid:2.49.0.1.124.0904550819.2019<br>Area: Huntsville - Baysville, Town of Parry Sound - Rosseau - Killbear Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-02:feed.atom/urn:oid:2.49.0.1.124.0904550819.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-02/2019_12_02T06_01_56_00_00Iurn_oid_2.49.0.1.124.0904550819.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191202070156+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -136.599, 67.6198 ],
 							[ -136.3751, 67.5717 ],
 							[ -136.3691, 67.3323 ],
@@ -1941,6 +1787,58 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-02/2019_12_02T02_11_10_00_00Iurn_oid_2.49.0.1.124.1630288436.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191202181010+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.8404, 45.3535 ],
+							[ -81.4622, 44.5866 ],
+							[ -81.2913, 44.5944 ],
+							[ -81.2887, 44.5846 ],
+							[ -81.2724, 44.5229 ],
+							[ -81.1971, 44.5357 ],
+							[ -81.1203, 44.5511 ],
+							[ -81.1256, 44.6259 ],
+							[ -81.127, 44.6447 ],
+							[ -81.1314, 44.7363 ],
+							[ -81.1313, 44.7385 ],
+							[ -81.073, 44.7847 ],
+							[ -81.0217, 44.7958 ],
+							[ -80.9764, 44.9231 ],
+							[ -80.9105, 44.9805 ],
+							[ -81.0827, 45.0703 ],
+							[ -81.1853, 45.2717 ],
+							[ -81.4145, 45.3822 ],
+							[ -81.8404, 45.3535 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 1, 2019 20:33",
+				"Expires_UTC" : "December 2, 2019 12:32",
+				"Summary" : "Description: Snow continues tonight.\n\nAdditional snowfall amounts of up to 5 cm possible tonight.  The snow is expected to taper off to flurries tonight.\n\nStrong wind gusts up to 60 km/h and local blowing snow reducing visibilities are also possible tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-02T12:32:56-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-01T20:33:56-00:00, urn:oid:2.49.0.1.124.4257781172.2019<br>Area: Bruce Peninsula - Sauble Beach - Tobermory",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-01:feed.atom/urn:oid:2.49.0.1.124.4257781172.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T20_33_56_00_00Iurn_oid_2.49.0.1.124.4257781172.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191202123256+00:00"
 			}
 		}
 	]
