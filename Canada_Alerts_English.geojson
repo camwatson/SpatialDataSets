@@ -273,41 +273,47 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.4872, 54.615 ],
-							[ -123.9108, 55.067 ],
-							[ -124.1479, 55.2006 ],
-							[ -124.4416, 55.346 ],
-							[ -125.2762, 54.9367 ],
-							[ -125.0555, 54.2336 ],
-							[ -124.3065, 52.9994 ],
-							[ -124.3, 53 ],
-							[ -123.8108, 53.0927 ],
-							[ -123.3207, 53.2026 ],
-							[ -123.4872, 54.615 ]
+							[ -136.136, 67.2766 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Air Quality",
+				"event" : "Blizzard",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 1, 2019 19:11",
-				"Expires_UTC" : "December 2, 2019 11:10",
-				"Summary" : "Description: AIR QUALITY ADVISORY IN EFFECT FOR VANDERHOOF\n\n(December 1, 2019 - Smithers) The Ministry of Environment and Climate change Strategy in collaboration with Northern Health has issued an Air Quality Advisory for Vanderhoof because of high concentrations of fine particulate matter.  This advisory is ineffect until further notice.\n\nPersons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted.   Staying indoors and in air conditioned spaces helpsto reduce fine particulate exposure.  Exposure is particularly a concern for infants, theelderly and those who have diabetes, and lung or heart disease.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-12-02T11:10:07-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-12-01T19:11:07-00:00, urn:oid:2.49.0.1.124.0720192027.2019<br>Area: Stuart - Nechako",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"certainty" : "Likely",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "December 2, 2019 00:12",
+				"Expires_UTC" : "December 2, 2019 16:11",
+				"Summary" : "Description: Long-lasting blizzard conditions with gusty winds and visibility near zero in snow and blowing snow are expected.\n\nStrong easterly winds gusting to 80 km/h near the Richardson Mountains combined with falling snow has result in blizzard conditions today.\n\nSnow has tapered off this afternoon, wind has weaken to 60 km/h, leading to some improvement in visibility. However, blizzard conditions will redevelop near the Richardson Mountains by Monday morning as winds increase to gusting to 100 km/h.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-12-02T16:11:21-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-02T00:12:21-00:00, urn:oid:2.49.0.1.124.3966374648.2019<br>Area: Dempster",
+				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-01:feed.atom/urn:oid:2.49.0.1.124.0720192027.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T19_11_07_00_00Iurn_oid_2.49.0.1.124.0720192027.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-02:feed.atom/urn:oid:2.49.0.1.124.3966374648.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-02/2019_12_02T00_12_21_00_00Iurn_oid_2.49.0.1.124.3966374648.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191202111007+00:00"
+				"Expires_FMEFormat" : "20191202161121+00:00"
 			}
 		},
 		{
@@ -394,6 +400,50 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T23_29_26_00_00Iurn_oid_2.49.0.1.124.1215419803.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191202091926+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.4872, 54.615 ],
+							[ -123.9108, 55.067 ],
+							[ -124.1479, 55.2006 ],
+							[ -124.4416, 55.346 ],
+							[ -125.2762, 54.9367 ],
+							[ -125.0555, 54.2336 ],
+							[ -124.3065, 52.9994 ],
+							[ -124.3, 53 ],
+							[ -123.8108, 53.0927 ],
+							[ -123.3207, 53.2026 ],
+							[ -123.4872, 54.615 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 1, 2019 19:11",
+				"Expires_UTC" : "December 2, 2019 11:10",
+				"Summary" : "Description: AIR QUALITY ADVISORY IN EFFECT FOR VANDERHOOF\n\n(December 1, 2019 - Smithers) The Ministry of Environment and Climate change Strategy in collaboration with Northern Health has issued an Air Quality Advisory for Vanderhoof because of high concentrations of fine particulate matter.  This advisory is ineffect until further notice.\n\nPersons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted.   Staying indoors and in air conditioned spaces helpsto reduce fine particulate exposure.  Exposure is particularly a concern for infants, theelderly and those who have diabetes, and lung or heart disease.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-12-02T11:10:07-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-12-01T19:11:07-00:00, urn:oid:2.49.0.1.124.0720192027.2019<br>Area: Stuart - Nechako",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-01:feed.atom/urn:oid:2.49.0.1.124.0720192027.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T19_11_07_00_00Iurn_oid_2.49.0.1.124.0720192027.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191202111007+00:00"
 			}
 		},
 		{
@@ -521,6 +571,82 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T19_33_47_00_00Iurn_oid_2.49.0.1.124.1159299604.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191202113247+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -130.117, 55.7008 ],
+							[ -130.1003, 55.6917 ],
+							[ -130.1134, 55.5965 ],
+							[ -130.1118, 55.5667 ],
+							[ -130.0753, 55.5036 ],
+							[ -130.0158, 55.3804 ],
+							[ -130.0045, 55.3395 ],
+							[ -129.9976, 55.3324 ],
+							[ -129.9604, 55.3002 ],
+							[ -129.9932, 55.2589 ],
+							[ -129.9147, 55.1546 ],
+							[ -129.909, 55.147 ],
+							[ -129.8194, 55.2664 ],
+							[ -129.7755, 55.2934 ],
+							[ -129.764, 55.3494 ],
+							[ -129.7135, 55.3791 ],
+							[ -129.7161, 55.4149 ],
+							[ -129.7114, 55.4171 ],
+							[ -128.4667, 56.0247 ],
+							[ -128.6869, 56.5188 ],
+							[ -128.9927, 57.0307 ],
+							[ -129.0934, 57.0517 ],
+							[ -129.2187, 57.031 ],
+							[ -130.2942, 57.0779 ],
+							[ -131.2855, 57.0337 ],
+							[ -131.6605, 57.0683 ],
+							[ -132.0488, 57.037 ],
+							[ -132.1235, 56.8736 ],
+							[ -131.901, 56.7536 ],
+							[ -131.8353, 56.5992 ],
+							[ -131.472, 56.5526 ],
+							[ -131.0873, 56.406 ],
+							[ -130.6233, 56.2668 ],
+							[ -130.426, 56.1415 ],
+							[ -130.2462, 56.0964 ],
+							[ -130.1037, 56.1227 ],
+							[ -130.0176, 55.9119 ],
+							[ -130.0137, 55.8837 ],
+							[ -130.1076, 55.7973 ],
+							[ -130.1312, 55.7677 ],
+							[ -130.1366, 55.752 ],
+							[ -130.136, 55.7193 ],
+							[ -130.117, 55.7008 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 2, 2019 00:04",
+				"Expires_UTC" : "December 2, 2019 16:03",
+				"Summary" : "Description: A Pacific front will move onto the north coast tonight. Periods of snow over the North Coast inland sections including Stewart will intensify this evening to heavy snow. 15 cm snow accumulation is forecast tonight with additional 10 to 15 cm on Monday. Snow may become mixed with rain Monday afternoon then taper to a few flurries in the evening.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-12-02T16:03:42-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-02T00:04:42-00:00, urn:oid:2.49.0.1.124.1910236758.2019<br>Area: North Coast - inland including Stewart",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-02:feed.atom/urn:oid:2.49.0.1.124.1910236758.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-02/2019_12_02T00_04_42_00_00Iurn_oid_2.49.0.1.124.1910236758.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191202160342+00:00"
 			}
 		},
 		{
@@ -2059,65 +2185,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -136.599, 67.6198 ],
-							[ -136.3751, 67.5717 ],
-							[ -136.3691, 67.3323 ],
-							[ -136.2898, 67.2533 ],
-							[ -136.4139, 67.0889 ],
-							[ -136.3553, 66.9923 ],
-							[ -136.012, 67 ],
-							[ -135.5163, 66.9908 ],
-							[ -134.9833, 67 ],
-							[ -134.6249, 66.9942 ],
-							[ -134.2512, 67 ],
-							[ -133.8504, 66.9932 ],
-							[ -133.591, 67.0054 ],
-							[ -133.2737, 67.0038 ],
-							[ -133.011, 67.0157 ],
-							[ -133.0009, 67.1165 ],
-							[ -133.0064, 67.2151 ],
-							[ -132.9819, 67.5732 ],
-							[ -133.0092, 67.8428 ],
-							[ -133.6812, 67.8581 ],
-							[ -134.371, 67.8553 ],
-							[ -135.436, 67.8735 ],
-							[ -136.4483, 67.8636 ],
-							[ -136.4483, 67.7088 ],
-							[ -136.6, 67.7081 ],
-							[ -136.599, 67.6198 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 1, 2019 22:19",
-				"Expires_UTC" : "December 2, 2019 12:59",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nSnow is expected to continue tonight, but the accumulation rate should gradually lessen towards Monday morning.  Light snow will continue until Tuesday morning, but further warning level accumulations are not expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-02T12:59:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-01T22:19:55-00:00, urn:oid:2.49.0.1.124.1667658325.2019<br>Area: South Delta Region including Ft. McPherson - Tsiigehtchic",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-01:feed.atom/urn:oid:2.49.0.1.124.1667658325.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T22_19_55_00_00Iurn_oid_2.49.0.1.124.1667658325.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191202125955+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -80.1878, 43.0168 ],
 							[ -80.2122, 43.0306 ],
 							[ -80.241, 43.0355 ],
@@ -2280,6 +2347,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T15_46_37_00_00Iurn_oid_2.49.0.1.124.3991674988.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191202070937+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -136.599, 67.6198 ],
+							[ -136.3751, 67.5717 ],
+							[ -136.3691, 67.3323 ],
+							[ -136.2898, 67.2533 ],
+							[ -136.4139, 67.0889 ],
+							[ -136.3553, 66.9923 ],
+							[ -136.012, 67 ],
+							[ -135.5163, 66.9908 ],
+							[ -134.9833, 67 ],
+							[ -134.6249, 66.9942 ],
+							[ -134.2512, 67 ],
+							[ -133.8504, 66.9932 ],
+							[ -133.591, 67.0054 ],
+							[ -133.2737, 67.0038 ],
+							[ -133.011, 67.0157 ],
+							[ -133.0009, 67.1165 ],
+							[ -133.0064, 67.2151 ],
+							[ -132.9819, 67.5732 ],
+							[ -133.0092, 67.8428 ],
+							[ -133.6812, 67.8581 ],
+							[ -134.371, 67.8553 ],
+							[ -135.436, 67.8735 ],
+							[ -136.4483, 67.8636 ],
+							[ -136.4483, 67.7088 ],
+							[ -136.6, 67.7081 ],
+							[ -136.599, 67.6198 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 1, 2019 22:19",
+				"Expires_UTC" : "December 2, 2019 12:59",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nSnow is expected to continue tonight, but the accumulation rate should gradually lessen towards Monday morning.  Light snow will continue until Tuesday morning, but further warning level accumulations are not expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-02T12:59:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-01T22:19:55-00:00, urn:oid:2.49.0.1.124.1667658325.2019<br>Area: South Delta Region including Ft. McPherson - Tsiigehtchic",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-01:feed.atom/urn:oid:2.49.0.1.124.1667658325.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-01/2019_12_01T22_19_55_00_00Iurn_oid_2.49.0.1.124.1667658325.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191202125955+00:00"
 			}
 		},
 		{
