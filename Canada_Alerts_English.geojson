@@ -692,6 +692,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 3, 2019 02:05",
+				"Expires_UTC" : "December 3, 2019 18:04",
+				"Summary" : "Description: Wreckhouse winds expected Tuesday.\n\nMaximum gusts: 100 to 120 km/h.\n\nTime span: Tuesday afternoon to Tuesday evening.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-03T18:04:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-03T02:05:30-00:00, urn:oid:2.49.0.1.124.1933226251.2019<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-03:feed.atom/urn:oid:2.49.0.1.124.1933226251.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T02_05_30_00_00Iurn_oid_2.49.0.1.124.1933226251.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191203180430+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -56.4239, 47.5076 ],
 							[ -55.9321, 47.1631 ],
 							[ -55.1703, 47.5512 ],
@@ -1006,25 +1052,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 3, 2019 00:36",
-				"Expires_UTC" : "December 3, 2019 13:59",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm continues.\n\nPeriods of heavy convective flurries will linger over the North Coast inland including Stewart tonight. Additional snowfall amounts of 5 to 10 cm can be expected by Tuesday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-12-03T13:59:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-03T00:36:47-00:00, urn:oid:2.49.0.1.124.4122287513.2019<br>Area: North Coast - inland including Stewart",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 3, 2019 06:50",
+				"Expires_UTC" : "December 3, 2019 07:50",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-12-03T07:50:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-03T06:50:54-00:00, urn:oid:2.49.0.1.124.3508690081.2019<br>Area: North Coast - inland including Stewart",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-03:feed.atom/urn:oid:2.49.0.1.124.4122287513.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T00_36_47_00_00Iurn_oid_2.49.0.1.124.4122287513.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-03:feed.atom/urn:oid:2.49.0.1.124.3508690081.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T06_50_54_00_00Iurn_oid_2.49.0.1.124.3508690081.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191203135947+00:00"
+				"Expires_FMEFormat" : "20191203075054+00:00"
 			}
 		},
 		{
@@ -1346,48 +1392,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -125.0588, 49.911 ],
-							[ -125.1312, 49.8953 ],
-							[ -125.2561, 49.8692 ],
-							[ -125.4947, 49.7249 ],
-							[ -125.3163, 49.5948 ],
-							[ -125.123, 49.4816 ],
-							[ -124.8825, 49.6015 ],
-							[ -124.6759, 49.7175 ],
-							[ -125.0588, 49.911 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 2, 2019 18:16",
-				"Expires_UTC" : "December 3, 2019 10:15",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nAIR QUALITY ADVISORY IN EFFECT FOR COURTENAY (December 2, 2019 - Courtenay, BC) The Ministry of Environment and Climate Change Strategy in collaboration with Island Health is continuing an Air Quality Advisory for the Comox Valley because of high concentrations of fine particulate matter that are expected to persist until weather conditions change. Persons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted. Staying indoors and in air conditioned spaces helps to reduce fine particulate exposure.  Exposure is particularly a concern for preganant women and infants, the elderly and those who have diabetes, and lung or heart disease. \n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2019-12-03T10:15:30-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2019-12-02T18:16:30-00:00, urn:oid:2.49.0.1.124.1955540070.2019<br>Area: Comox Valley",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-02:feed.atom/urn:oid:2.49.0.1.124.1955540070.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-02/2019_12_02T18_16_30_00_00Iurn_oid_2.49.0.1.124.1955540070.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191203101530+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -61.6265, 46.0993 ],
 							[ -61.4829, 46.0971 ],
 							[ -61.0483, 46.1152 ],
@@ -1672,6 +1676,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T00_11_44_00_00Iurn_oid_2.49.0.1.124.2925851729.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191203161044+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -117.6999, 51.63 ],
+							[ -118.6577, 51.6435 ],
+							[ -119.5942, 51.63 ],
+							[ -119.3886, 51.4936 ],
+							[ -118.9999, 51.2999 ],
+							[ -118.9239, 51.0175 ],
+							[ -118.8, 50.7499 ],
+							[ -118.0428, 50.7403 ],
+							[ -117.4199, 50.7499 ],
+							[ -117.1128, 50.7401 ],
+							[ -116.83, 50.7499 ],
+							[ -117.2563, 51.2202 ],
+							[ -117.6999, 51.63 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 3, 2019 06:56",
+				"Expires_UTC" : "December 3, 2019 22:55",
+				"Summary" : "Description: Significant amounts of snow are expected.\n\nA slow moving frontal system will remain over the BC interior through early Wednesday. Heavy snowfall associated with this storm will continue over West Columbia through Wednesday morning. Total snowfall accumulations of 30 cm can be expected for this event.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-12-03T22:55:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-03T06:56:30-00:00, urn:oid:2.49.0.1.124.2073131169.2019<br>Area: West Columbia",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-03:feed.atom/urn:oid:2.49.0.1.124.2073131169.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T06_56_30_00_00Iurn_oid_2.49.0.1.124.2073131169.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191203225530+00:00"
 			}
 		},
 		{
@@ -2063,52 +2113,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T02_07_57_00_00Iurn_oid_2.49.0.1.124.2878956464.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191203180657+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 3, 2019 02:05",
-				"Expires_UTC" : "December 3, 2019 18:04",
-				"Summary" : "Description: Wreckhouse winds expected Tuesday.\n\nMaximum gusts: 100 to 120 km/h.\n\nTime span: Tuesday afternoon to Tuesday evening.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-03T18:04:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-03T02:05:30-00:00, urn:oid:2.49.0.1.124.1933226251.2019<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-03:feed.atom/urn:oid:2.49.0.1.124.1933226251.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T02_05_30_00_00Iurn_oid_2.49.0.1.124.1933226251.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191203180430+00:00"
 			}
 		}
 	]
