@@ -94,46 +94,52 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
+							[ -134.6088, 69.5219 ],
+							[ -134.625, 69.5217 ],
+							[ -134.6503, 69.7494 ],
+							[ -135.028, 69.7482 ],
+							[ -134.9727, 69.2322 ],
+							[ -134.8205, 68.6539 ],
+							[ -134.4901, 68.651 ],
+							[ -134.2055, 68.6549 ],
+							[ -133.651, 68.6495 ],
+							[ -133.0684, 68.6546 ],
+							[ -132.8203, 68.6469 ],
+							[ -132.5903, 68.6515 ],
+							[ -132.6302, 69.1236 ],
+							[ -132.7334, 69.5253 ],
+							[ -132.9811, 69.526 ],
+							[ -133.0809, 69.5269 ],
+							[ -133.2424, 69.7062 ],
+							[ -133.6843, 69.7117 ],
+							[ -133.8748, 69.7432 ],
+							[ -134.1813, 69.5985 ],
+							[ -134.1487, 69.5248 ],
+							[ -134.6088, 69.5219 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Blizzard",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 3, 2019 19:55",
-				"Expires_UTC" : "December 4, 2019 04:59",
-				"Summary" : "Description: Higher than normal water levels expected.\n\nLocation: Mainly northeastern facing shorelines.\n\nTime span: Ending early this evening.\n\nRemarks: Higher than normal water levels will combine with rough and pounding surf along northeastern facing shores of Prince Edward Island extending into early this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-12-04T04:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-03T19:55:02-00:00, urn:oid:2.49.0.1.124.4081097457.2019<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 4, 2019 04:50",
+				"Expires_UTC" : "December 4, 2019 20:49",
+				"Summary" : "Description: Long-lasting blizzard conditions, with visibility frequently near zero in snow and blowing snow, are expected to develop by Wednesday evening. Although visibility may intermittently improve, hazardous conditions are forecast to persist into Friday.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-04T20:49:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-04T04:50:23-00:00, urn:oid:2.49.0.1.124.0741614895.2019<br>Area: Tuktoyaktuk - East Channel Region",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-03:feed.atom/urn:oid:2.49.0.1.124.4081097457.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T19_55_02_00_00Iurn_oid_2.49.0.1.124.4081097457.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-04:feed.atom/urn:oid:2.49.0.1.124.0741614895.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-04/2019_12_04T04_50_23_00_00Iurn_oid_2.49.0.1.124.0741614895.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191204045902+00:00"
+				"Expires_FMEFormat" : "20191204204923+00:00"
 			}
 		},
 		{
@@ -300,90 +306,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T19_08_20_00_00Iurn_oid_2.49.0.1.124.3025747509.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191204055920+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -65.4013, 46.2515 ],
-							[ -65.3335, 46.0833 ],
-							[ -65.133, 45.6488 ],
-							[ -65.0512, 45.6648 ],
-							[ -65.0336, 45.6833 ],
-							[ -64.9873, 45.6896 ],
-							[ -64.9493, 45.6986 ],
-							[ -64.9355, 45.6469 ],
-							[ -64.9658, 45.615 ],
-							[ -64.9459, 45.5532 ],
-							[ -64.9179, 45.4771 ],
-							[ -64.4894, 45.7165 ],
-							[ -64.3392, 45.8389 ],
-							[ -64.3108, 45.8312 ],
-							[ -64.2564, 45.8182 ],
-							[ -64.2206, 45.8694 ],
-							[ -64.1796, 45.9045 ],
-							[ -64.2062, 45.9161 ],
-							[ -64.1849, 45.939 ],
-							[ -64.1766, 45.9478 ],
-							[ -64.1708, 45.9539 ],
-							[ -64.1646, 45.9608 ],
-							[ -64.1591, 45.9753 ],
-							[ -64.1528, 45.9784 ],
-							[ -64.1496, 45.9799 ],
-							[ -64.1364, 45.9793 ],
-							[ -64.1234, 45.979 ],
-							[ -64.1106, 45.9786 ],
-							[ -64.0795, 45.9775 ],
-							[ -64.0701, 45.9772 ],
-							[ -64.0476, 45.9768 ],
-							[ -64.0468, 45.9768 ],
-							[ -64.0247, 45.9762 ],
-							[ -64.0206, 45.9935 ],
-							[ -64.0425, 45.9934 ],
-							[ -64.0407, 46.0039 ],
-							[ -63.8518, 46.0357 ],
-							[ -63.7366, 46.106 ],
-							[ -63.8076, 46.193 ],
-							[ -64.4795, 46.2865 ],
-							[ -64.6509, 46.6934 ],
-							[ -64.769, 46.7321 ],
-							[ -64.8468, 46.9104 ],
-							[ -64.7432, 47.0784 ],
-							[ -64.8304, 47.0405 ],
-							[ -64.851, 47.0294 ],
-							[ -65.368, 46.7462 ],
-							[ -65.3919, 46.733 ],
-							[ -65.5705, 46.6329 ],
-							[ -65.8356, 46.3331 ],
-							[ -65.4013, 46.2515 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 3, 2019 19:58",
-				"Expires_UTC" : "December 4, 2019 04:59",
-				"Summary" : "Description: Higher than normal water levels combined with rough and pounding surf are expected near high tide.\n\nLocation: from near Escuminac south to near Shediac.\n\nTime span: near high tide from late this afternoon into this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-12-04T04:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-03T19:58:16-00:00, urn:oid:2.49.0.1.124.1348011457.2019<br>Area: Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-03:feed.atom/urn:oid:2.49.0.1.124.1348011457.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T19_58_16_00_00Iurn_oid_2.49.0.1.124.1348011457.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191204045916+00:00"
 			}
 		},
 		{
@@ -899,6 +821,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -134.6088, 69.5219 ],
+							[ -134.625, 69.5217 ],
+							[ -134.6503, 69.7494 ],
+							[ -135.028, 69.7482 ],
+							[ -134.9727, 69.2322 ],
+							[ -134.8205, 68.6539 ],
+							[ -134.4901, 68.651 ],
+							[ -134.2055, 68.6549 ],
+							[ -133.651, 68.6495 ],
+							[ -133.0684, 68.6546 ],
+							[ -132.8203, 68.6469 ],
+							[ -132.5903, 68.6515 ],
+							[ -132.6302, 69.1236 ],
+							[ -132.7334, 69.5253 ],
+							[ -132.9811, 69.526 ],
+							[ -133.0809, 69.5269 ],
+							[ -133.2424, 69.7062 ],
+							[ -133.6843, 69.7117 ],
+							[ -133.8748, 69.7432 ],
+							[ -134.1813, 69.5985 ],
+							[ -134.1487, 69.5248 ],
+							[ -134.6088, 69.5219 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Winter Storm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 3, 2019 22:22",
+				"Expires_UTC" : "December 4, 2019 14:21",
+				"Summary" : "Description: Strong westerly winds will intensify along the Mackenzie Delta on Wednesday afternoon. The winds are expected to combine with fresh snowfall to give blizzard conditions over Tuktoyaktuk starting early Wednesday evening. There are now indications that the blizzard will continue into Friday . This winter storm watch may be upgraded to a blizzard warning when the timing of the winds becomes more certain.\n\n###\n\nPoor weather conditions may contribute to transportation delays.\n\nWinter storm watches are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-04T14:21:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-03T22:22:11-00:00, urn:oid:2.49.0.1.124.3046743221.2019<br>Area: Tuktoyaktuk - East Channel Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-03:feed.atom/urn:oid:2.49.0.1.124.3046743221.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T22_22_11_00_00Iurn_oid_2.49.0.1.124.3046743221.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191204142111+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -118.9375, 50.8016 ],
 							[ -118.9149, 50.8076 ],
 							[ -118.7997, 50.8505 ],
@@ -1243,61 +1220,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T23_55_04_00_00Iurn_oid_2.49.0.1.124.1314860844.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191204155404+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -134.6088, 69.5219 ],
-							[ -134.625, 69.5217 ],
-							[ -134.6503, 69.7494 ],
-							[ -135.028, 69.7482 ],
-							[ -134.9727, 69.2322 ],
-							[ -134.8205, 68.6539 ],
-							[ -134.4901, 68.651 ],
-							[ -134.2055, 68.6549 ],
-							[ -133.651, 68.6495 ],
-							[ -133.0684, 68.6546 ],
-							[ -132.8203, 68.6469 ],
-							[ -132.5903, 68.6515 ],
-							[ -132.6302, 69.1236 ],
-							[ -132.7334, 69.5253 ],
-							[ -132.9811, 69.526 ],
-							[ -133.0809, 69.5269 ],
-							[ -133.2424, 69.7062 ],
-							[ -133.6843, 69.7117 ],
-							[ -133.8748, 69.7432 ],
-							[ -134.1813, 69.5985 ],
-							[ -134.1487, 69.5248 ],
-							[ -134.6088, 69.5219 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 3, 2019 22:22",
-				"Expires_UTC" : "December 4, 2019 14:21",
-				"Summary" : "Description: Strong westerly winds will intensify along the Mackenzie Delta on Wednesday afternoon. The winds are expected to combine with fresh snowfall to give blizzard conditions over Tuktoyaktuk starting early Wednesday evening. There are now indications that the blizzard will continue into Friday . This winter storm watch may be upgraded to a blizzard warning when the timing of the winds becomes more certain.\n\n###\n\nPoor weather conditions may contribute to transportation delays.\n\nWinter storm watches are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-04T14:21:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-03T22:22:11-00:00, urn:oid:2.49.0.1.124.3046743221.2019<br>Area: Tuktoyaktuk - East Channel Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-03:feed.atom/urn:oid:2.49.0.1.124.3046743221.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-03/2019_12_03T22_22_11_00_00Iurn_oid_2.49.0.1.124.3046743221.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191204142111+00:00"
 			}
 		},
 		{
