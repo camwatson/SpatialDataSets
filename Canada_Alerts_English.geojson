@@ -452,6 +452,58 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.3737, 48.6852 ],
+							[ -54.9999, 48.5499 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.3737, 48.6852 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 5, 2019 14:18",
+				"Expires_UTC" : "December 5, 2019 21:59",
+				"Summary" : "Description: Snow, at times heavy, expected today.\n\nTotal snowfall: 10 to 15 cm.\n\nLocations: Gander and vicinity, Grand Falls-Windsor and vicinity, Bay of Exploits, and Bonavista North.\n\nTime frame: until late this afternoon.\n\nRemarks: Snow will continue and become heavy at times near noon and early this afternoon. The snow will taper to flurries late this afternoon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-05T21:59:07-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-05T14:18:07-00:00, urn:oid:2.49.0.1.124.4099359178.2019<br>Area: Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Gander and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-05:feed.atom/urn:oid:2.49.0.1.124.4099359178.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-05/2019_12_05T14_18_07_00_00Iurn_oid_2.49.0.1.124.4099359178.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191205215907+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -54.65, 49.25 ],
 							[ -55.0999, 48.9 ],
 							[ -55.3717, 48.6868 ],
@@ -567,44 +619,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-04/2019_12_04T23_54_03_00_00Iurn_oid_2.49.0.1.124.4192254857.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191205155303+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -104.5104, 52.5719 ],
-							[ -104.5005, 52.5761 ],
-							[ -104.5005, 52.5803 ],
-							[ -104.5132, 52.5803 ],
-							[ -104.5104, 52.5719 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Health",
-				"Title" : "Precautionary Drinking Water Advisory For The Village Of Pleasantdale",
-				"Category" : "Actual",
-				"event" : "Drinking Water",
-				"urgency" : "Immediate",
-				"certainty" : "Observed",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 4, 2019 09:27",
-				"Expires_UTC" : "December 11, 2019 16:00",
-				"Summary" : "Description: A Precautionary Drinking Water Advisory has been issued for Village of Pleasantdale.  This advisory is for the Village of Pleasantdale and for any individuals who may access water the Pleasantdale water system.  This advisory is in effect until further notice.<br>Expires: 2019-12-11T16:00:00-06:00<br>Originated from CAP Alert: SK Pleasantdale, 2019-12-04T09:27:17-06:00, 3547EED1-FC36-BFED-9CEC-35FB97BD4F64<br>Area: Village of Pleasantdale",
-				"Author" : "SK Pleasantdale",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-04:feed.atom/3547EED1-FC36-BFED-9CEC-35FB97BD4F64",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-04/2019_12_04T09_27_17_06_00I3547EED1_FC36_BFED_9CEC_35FB97BD4F64.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191211160000-06:00"
 			}
 		},
 		{
@@ -934,25 +948,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snow Squall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snow Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Snow Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 5, 2019 13:13",
-				"Expires_UTC" : "December 5, 2019 14:13",
-				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2019-12-05T14:13:39-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-05T13:13:39-00:00, urn:oid:2.49.0.1.124.3074380024.2019<br>Area: Midland - Coldwater - Orr Lake, Orillia - Lagoon City - Washago, Barrie - Collingwood - Hillsdale, Innisfil - New Tecumseth - Angus",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 5, 2019 09:46",
+				"Expires_UTC" : "December 6, 2019 00:02",
+				"Summary" : "Description: Lake effect snow squalls continuing this morning.\n\nThe snow squalls will begin to weaken later this morning, with additional accumulations of 5 cm possible by this afternoon.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow. Travel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-06T00:02:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-05T09:46:44-00:00, urn:oid:2.49.0.1.124.1595208663.2019<br>Area: Midland - Coldwater - Orr Lake, Orillia - Lagoon City - Washago, Barrie - Collingwood - Hillsdale, Innisfil - New Tecumseth - Angus",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-05:feed.atom/urn:oid:2.49.0.1.124.3074380024.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-05/2019_12_05T13_13_39_00_00Iurn_oid_2.49.0.1.124.3074380024.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-05:feed.atom/urn:oid:2.49.0.1.124.1595208663.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-05/2019_12_05T09_46_44_00_00Iurn_oid_2.49.0.1.124.1595208663.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191205141339+00:00"
+				"Expires_FMEFormat" : "20191206000244+00:00"
 			}
 		},
 		{
@@ -1169,25 +1183,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snow Squall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 5, 2019 09:47",
-				"Expires_UTC" : "December 6, 2019 00:21",
-				"Summary" : "Description: Lake effect snow squalls continuing this morning.\n\nThe snow squalls will begin to weaken later this morning, with additional accumulations of 5 cm possible by this afternoon.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow. Travel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-06T00:21:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-05T09:47:04-00:00, urn:oid:2.49.0.1.124.0617880510.2019<br>Area: Saugeen Shores - Kincardine - Southern Bruce County, Hanover - Dundalk - Southern Grey County, Wingham - Blyth - Northern Huron County, Listowel - Milverton - Northern Perth County, Mount Forest - Arthur - Northern Wellington County",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 5, 2019 14:19",
+				"Expires_UTC" : "December 5, 2019 15:19",
+				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2019-12-05T15:19:04-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-05T14:19:04-00:00, urn:oid:2.49.0.1.124.1003683785.2019<br>Area: Saugeen Shores - Kincardine - Southern Bruce County, Hanover - Dundalk - Southern Grey County, Wingham - Blyth - Northern Huron County, Listowel - Milverton - Northern Perth County, Mount Forest - Arthur - Northern Wellington County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-05:feed.atom/urn:oid:2.49.0.1.124.0617880510.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-05/2019_12_05T09_47_04_00_00Iurn_oid_2.49.0.1.124.0617880510.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-05:feed.atom/urn:oid:2.49.0.1.124.1003683785.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-05/2019_12_05T14_19_04_00_00Iurn_oid_2.49.0.1.124.1003683785.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191206002104+00:00"
+				"Expires_FMEFormat" : "20191205151904+00:00"
 			}
 		}
 	]
