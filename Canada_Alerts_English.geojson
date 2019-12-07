@@ -142,6 +142,59 @@
 				"coordinates" : [
 					[
 						[
+							[ -127.8972, 52.8496 ],
+							[ -127.2959, 52.2345 ],
+							[ -126.692, 51.65 ],
+							[ -125.9914, 51.2562 ],
+							[ -125.3217, 50.9024 ],
+							[ -125.0716, 51.2815 ],
+							[ -124.8664, 51.6273 ],
+							[ -125.1345, 51.8012 ],
+							[ -125.4999, 52 ],
+							[ -125.9295, 52.3749 ],
+							[ -126.5, 52.83 ],
+							[ -126.6264, 53.0161 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.9334, 53.0642 ],
+							[ -127.034, 52.961 ],
+							[ -127.1737, 52.8773 ],
+							[ -127.3188, 52.8257 ],
+							[ -127.5427, 52.8083 ],
+							[ -127.7684, 52.8375 ],
+							[ -127.8972, 52.8496 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 7, 2019 12:41",
+				"Expires_UTC" : "December 7, 2019 20:39",
+				"Summary" : "Description: A Pacific frontal system crossing the central coast early this morning will give an additional accumulation of up to 5 cm. The snow will end this morning as the front moves out of the region.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-12-07T20:39:51-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-07T12:41:51-00:00, urn:oid:2.49.0.1.124.1081766956.2019<br>Area: Central Coast - inland sections",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-07:feed.atom/urn:oid:2.49.0.1.124.1081766956.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-07/2019_12_07T12_41_51_00_00Iurn_oid_2.49.0.1.124.1081766956.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191207203951+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -61.6265, 46.0993 ],
 							[ -61.6947, 46.0096 ],
 							[ -61.5101, 45.737 ],
@@ -1022,59 +1075,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-07/2019_12_07T06_06_45_00_00Iurn_oid_2.49.0.1.124.2396431342.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191207220545+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -127.8972, 52.8496 ],
-							[ -127.2959, 52.2345 ],
-							[ -126.692, 51.65 ],
-							[ -125.9914, 51.2562 ],
-							[ -125.3217, 50.9024 ],
-							[ -125.0716, 51.2815 ],
-							[ -124.8664, 51.6273 ],
-							[ -125.1345, 51.8012 ],
-							[ -125.4999, 52 ],
-							[ -125.9295, 52.3749 ],
-							[ -126.5, 52.83 ],
-							[ -126.6264, 53.0161 ],
-							[ -126.7741, 53.2011 ],
-							[ -126.9334, 53.0642 ],
-							[ -127.034, 52.961 ],
-							[ -127.1737, 52.8773 ],
-							[ -127.3188, 52.8257 ],
-							[ -127.5427, 52.8083 ],
-							[ -127.7684, 52.8375 ],
-							[ -127.8972, 52.8496 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 7, 2019 17:06",
-				"Expires_UTC" : "December 7, 2019 18:06",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-12-07T18:06:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-07T17:06:44-00:00, urn:oid:2.49.0.1.124.3524638017.2019<br>Area: Central Coast - inland sections",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-07:feed.atom/urn:oid:2.49.0.1.124.3524638017.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-07/2019_12_07T17_06_44_00_00Iurn_oid_2.49.0.1.124.3524638017.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191207180644+00:00"
 			}
 		},
 		{
