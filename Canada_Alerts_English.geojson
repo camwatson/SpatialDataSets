@@ -526,6 +526,89 @@
 				"coordinates" : [
 					[
 						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 7, 2019 21:04",
+				"Expires_UTC" : "December 8, 2019 13:03",
+				"Summary" : "Description: The Kivalliq coastline may see periods of blowing snow Saturday night into Sunday as moderate northwest winds persist through the region. Later on Sunday, the winds will strengthen and the region will enter a prolonged period with north-northwest winds of 40 to 50 km/h and gusts as high as 70 km/h. These strong winds are expected to persist until Wednesday.\n\nThese winds will produce widespread blowing snow across the region and likely result in periods of dangerous overland travel. There is some uncertainty as to whether or not a full-fledged blizzard will develop over the region, or if instead the blowing snow will be more localized in nature. The situation will continue to be assessed over the next 24 hours and blizzard warnings may be issued if needed.\n\nThe coastal Kivalliq communities should nonetheless be prepared for a multi-day period of strong northerly winds that will very likely produce, at least, periods of near-blizzard conditions from late Sunday to Wednesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-08T13:03:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-07T21:04:09-00:00, urn:oid:2.49.0.1.124.2368086772.2019<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-07:feed.atom/urn:oid:2.49.0.1.124.2368086772.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-07/2019_12_07T21_04_09_00_00Iurn_oid_2.49.0.1.124.2368086772.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191208130309+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -82.6268, 49.1616 ],
 							[ -82.6293, 48.2543 ],
 							[ -81.0729, 48.2526 ],
@@ -883,25 +966,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 7, 2019 20:18",
-				"Expires_UTC" : "December 8, 2019 02:59",
-				"Summary" : "Description: Southerly winds of up to 90 kilometres per hour over this region.   Winds will diminish early this evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-08T02:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-07T20:18:54-00:00, urn:oid:2.49.0.1.124.2612708703.2019<br>Area: Salluit",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 7, 2019 21:13",
+				"Expires_UTC" : "December 7, 2019 22:13",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2019-12-07T22:13:45-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-07T21:13:45-00:00, urn:oid:2.49.0.1.124.3168004082.2019<br>Area: Salluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-07:feed.atom/urn:oid:2.49.0.1.124.2612708703.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-07/2019_12_07T20_18_54_00_00Iurn_oid_2.49.0.1.124.2612708703.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-07:feed.atom/urn:oid:2.49.0.1.124.3168004082.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-07/2019_12_07T21_13_45_00_00Iurn_oid_2.49.0.1.124.3168004082.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191208025954+00:00"
+				"Expires_FMEFormat" : "20191207221345+00:00"
 			}
 		},
 		{
