@@ -406,60 +406,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -70.3465, 62.8463 ],
-							[ -70.3311, 62.7969 ],
-							[ -70.3239, 62.7495 ],
-							[ -69.9208, 62.6684 ],
-							[ -69.934, 62.4876 ],
-							[ -69.6482, 62.5103 ],
-							[ -69.625, 62.6677 ],
-							[ -69.5492, 62.6853 ],
-							[ -69.5424, 62.7255 ],
-							[ -69.4566, 62.7672 ],
-							[ -69.427, 62.8051 ],
-							[ -69.4159, 62.8566 ],
-							[ -69.4325, 62.9078 ],
-							[ -69.4721, 62.9524 ],
-							[ -69.6251, 63.0281 ],
-							[ -69.8312, 63.0617 ],
-							[ -70.056, 63.0475 ],
-							[ -70.2337, 62.9896 ],
-							[ -70.297, 62.9466 ],
-							[ -70.3353, 62.8978 ],
-							[ -70.3465, 62.8463 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 8, 2019 09:25",
-				"Expires_UTC" : "December 9, 2019 01:25",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-09T01:25:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-08T09:25:47-00:00, urn:oid:2.49.0.1.124.3589546788.2019<br>Area: Kimmirut",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-08:feed.atom/urn:oid:2.49.0.1.124.3589546788.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-08/2019_12_08T09_25_47_00_00Iurn_oid_2.49.0.1.124.3589546788.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191209012547+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -73.9992, 61.0465 ],
 							[ -71.399, 60.5219 ],
 							[ -70.7234, 61.1481 ],
@@ -891,6 +837,89 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-08/2019_12_08T08_40_11_00_00Iurn_oid_2.49.0.1.124.0327100383.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191208225911+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 8, 2019 03:42",
+				"Expires_UTC" : "December 8, 2019 19:41",
+				"Summary" : "Description: The Kivalliq coastline may see periods of blowing snow tonight into Sunday as moderate northwest winds persist through the region. Later on Sunday, the winds will strengthen and the region will enter a prolonged period with north-northwest winds of 40 to 50 km/h and gusts as high as 70 km/h. These strong winds are expected to persist until Wednesday.\n\nThese winds will produce widespread blowing snow across the region and likely result in periods of dangerous overland travel. There is some uncertainty as to whether or not a full-fledged blizzard will develop over the region, or if instead the blowing snow will be more localized in nature. The situation will continue to be assessed and blizzard warnings may be issued if needed.\n\nThe coastal Kivalliq communities should nonetheless be prepared for a multi-day period of strong northerly winds that will very likely produce, at least, periods of near-blizzard conditions from late Sunday to Wednesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-08T19:41:25-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-08T03:42:25-00:00, urn:oid:2.49.0.1.124.3326749683.2019<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-08:feed.atom/urn:oid:2.49.0.1.124.3326749683.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-08/2019_12_08T03_42_25_00_00Iurn_oid_2.49.0.1.124.3326749683.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191208194125+00:00"
 			}
 		},
 		{
@@ -1690,18 +1719,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 8, 2019 03:40",
-				"Expires_UTC" : "December 8, 2019 19:39",
-				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nStrong northerly winds will develop by early Sunday morning in Naujaat, bringing deteriorating conditions as a blizzard develops. Northerly winds of 50 to 60 km/h will sustain blizzard conditions through Sunday and Monday. Improvement in visibilities is expected late Monday as winds begin to ease, however periods of blowing snow or near-blizzard conditions may persist well into Tuesday.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-08T19:39:13-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-08T03:40:13-00:00, urn:oid:2.49.0.1.124.2023907450.2019<br>Area: Naujaat",
+				"LastUpdate_UTC" : "December 8, 2019 09:30",
+				"Expires_UTC" : "December 9, 2019 01:30",
+				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-09T01:30:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-08T09:30:33-00:00, urn:oid:2.49.0.1.124.1752804508.2019<br>Area: Naujaat",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-08:feed.atom/urn:oid:2.49.0.1.124.2023907450.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-08/2019_12_08T03_40_13_00_00Iurn_oid_2.49.0.1.124.2023907450.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-08:feed.atom/urn:oid:2.49.0.1.124.1752804508.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-08/2019_12_08T09_30_33_00_00Iurn_oid_2.49.0.1.124.1752804508.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191208193913+00:00"
+				"Expires_FMEFormat" : "20191209013033+00:00"
 			}
 		},
 		{
@@ -2023,80 +2052,51 @@
 				"coordinates" : [
 					[
 						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					],
-					[
-						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
+							[ -70.3465, 62.8463 ],
+							[ -70.3311, 62.7969 ],
+							[ -70.3239, 62.7495 ],
+							[ -69.9208, 62.6684 ],
+							[ -69.934, 62.4876 ],
+							[ -69.6482, 62.5103 ],
+							[ -69.625, 62.6677 ],
+							[ -69.5492, 62.6853 ],
+							[ -69.5424, 62.7255 ],
+							[ -69.4566, 62.7672 ],
+							[ -69.427, 62.8051 ],
+							[ -69.4159, 62.8566 ],
+							[ -69.4325, 62.9078 ],
+							[ -69.4721, 62.9524 ],
+							[ -69.6251, 63.0281 ],
+							[ -69.8312, 63.0617 ],
+							[ -70.056, 63.0475 ],
+							[ -70.2337, 62.9896 ],
+							[ -70.297, 62.9466 ],
+							[ -70.3353, 62.8978 ],
+							[ -70.3465, 62.8463 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Blizzard",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 8, 2019 03:42",
-				"Expires_UTC" : "December 8, 2019 19:41",
-				"Summary" : "Description: The Kivalliq coastline may see periods of blowing snow tonight into Sunday as moderate northwest winds persist through the region. Later on Sunday, the winds will strengthen and the region will enter a prolonged period with north-northwest winds of 40 to 50 km/h and gusts as high as 70 km/h. These strong winds are expected to persist until Wednesday.\n\nThese winds will produce widespread blowing snow across the region and likely result in periods of dangerous overland travel. There is some uncertainty as to whether or not a full-fledged blizzard will develop over the region, or if instead the blowing snow will be more localized in nature. The situation will continue to be assessed and blizzard warnings may be issued if needed.\n\nThe coastal Kivalliq communities should nonetheless be prepared for a multi-day period of strong northerly winds that will very likely produce, at least, periods of near-blizzard conditions from late Sunday to Wednesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-08T19:41:25-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-08T03:42:25-00:00, urn:oid:2.49.0.1.124.3326749683.2019<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 8, 2019 09:26",
+				"Expires_UTC" : "December 9, 2019 01:25",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA strong low pressure system will track north into western Hudson Strait today. As it approaches, very strong southeast winds and snow will develop over southern Baffin Island, with the worst conditions expected at Kimmirut. \n\nBlizzard conditions are likely to develop at Kimmirut late this morning and persist throughout the afternoon and evening with gradual improvement beginning overnight. Southeast winds gusting to 90 km/h combined with falling snow will give visibilities of 400 metres or less during the blizzard. Total snowfall amounts will be in the 10 to 20 cm range.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-09T01:25:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-08T09:26:47-00:00, urn:oid:2.49.0.1.124.1930574276.2019<br>Area: Kimmirut",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-08:feed.atom/urn:oid:2.49.0.1.124.3326749683.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-08/2019_12_08T03_42_25_00_00Iurn_oid_2.49.0.1.124.3326749683.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-08:feed.atom/urn:oid:2.49.0.1.124.1930574276.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-08/2019_12_08T09_26_47_00_00Iurn_oid_2.49.0.1.124.1930574276.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191208194125+00:00"
+				"Expires_FMEFormat" : "20191209012547+00:00"
 			}
 		}
 	]
