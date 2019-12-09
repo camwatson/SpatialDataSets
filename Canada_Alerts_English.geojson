@@ -850,73 +850,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -115.6981, 62.6222 ],
-							[ -115.2827, 62.5107 ],
-							[ -114.8096, 62.2209 ],
-							[ -114.582, 62.2076 ],
-							[ -114.1533, 62.2986 ],
-							[ -113.131, 62.4412 ],
-							[ -113.2389, 62.8246 ],
-							[ -113.4282, 63.5167 ],
-							[ -113.7516, 64.6254 ],
-							[ -117.7149, 64.6564 ],
-							[ -117.6599, 62.622 ],
-							[ -115.8892, 62.6102 ],
-							[ -115.6981, 62.6222 ]
-						]
-					],
-					[
-						[
-							[ -112.1866, 61.6968 ],
-							[ -112.1705, 61.6881 ],
-							[ -112.1664, 61.6857 ],
-							[ -111.5035, 61.2868 ],
-							[ -111.1832, 61.5295 ],
-							[ -110.9547, 61.6665 ],
-							[ -110.7605, 61.7729 ],
-							[ -110.4265, 61.8594 ],
-							[ -110.3006, 61.8825 ],
-							[ -110.2322, 62.2214 ],
-							[ -110.2973, 62.4694 ],
-							[ -111.0098, 62.4616 ],
-							[ -111.7205, 62.3426 ],
-							[ -111.9663, 62.1016 ],
-							[ -111.9605, 61.9557 ],
-							[ -112.2039, 61.8586 ],
-							[ -112.1866, 61.6968 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 9, 2019 04:14",
-				"Expires_UTC" : "December 9, 2019 20:13",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values are expected to reach -50 tonight but should moderate on Monday morning\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-09T20:13:27-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-09T04:14:27-00:00, urn:oid:2.49.0.1.124.1328401187.2019<br>Area: Yellowknife Region, North Slave Region including Wekweeti - Whati - Behchoko, Lutsel K'e Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-09:feed.atom/urn:oid:2.49.0.1.124.1328401187.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-09/2019_12_09T04_14_27_00_00Iurn_oid_2.49.0.1.124.1328401187.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191209201327+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -92.7494, 61.7617 ],
 							[ -91.0961, 62.4626 ],
 							[ -90.8425, 62.6977 ],
@@ -975,6 +908,73 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-08/2019_12_08T20_32_58_00_00Iurn_oid_2.49.0.1.124.1985735194.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191209123158+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -115.6981, 62.6222 ],
+							[ -115.2827, 62.5107 ],
+							[ -114.8096, 62.2209 ],
+							[ -114.582, 62.2076 ],
+							[ -114.1533, 62.2986 ],
+							[ -113.131, 62.4412 ],
+							[ -113.2389, 62.8246 ],
+							[ -113.4282, 63.5167 ],
+							[ -113.7516, 64.6254 ],
+							[ -117.7149, 64.6564 ],
+							[ -117.6599, 62.622 ],
+							[ -115.8892, 62.6102 ],
+							[ -115.6981, 62.6222 ]
+						]
+					],
+					[
+						[
+							[ -112.1866, 61.6968 ],
+							[ -112.1705, 61.6881 ],
+							[ -112.1664, 61.6857 ],
+							[ -111.5035, 61.2868 ],
+							[ -111.1832, 61.5295 ],
+							[ -110.9547, 61.6665 ],
+							[ -110.7605, 61.7729 ],
+							[ -110.4265, 61.8594 ],
+							[ -110.3006, 61.8825 ],
+							[ -110.2322, 62.2214 ],
+							[ -110.2973, 62.4694 ],
+							[ -111.0098, 62.4616 ],
+							[ -111.7205, 62.3426 ],
+							[ -111.9663, 62.1016 ],
+							[ -111.9605, 61.9557 ],
+							[ -112.2039, 61.8586 ],
+							[ -112.1866, 61.6968 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 9, 2019 04:14",
+				"Expires_UTC" : "December 9, 2019 20:13",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values are expected to reach -50 tonight but should moderate on Monday morning\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-09T20:13:27-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-09T04:14:27-00:00, urn:oid:2.49.0.1.124.1328401187.2019<br>Area: Yellowknife Region, North Slave Region including Wekweeti - Whati - Behchoko, Lutsel K'e Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-09:feed.atom/urn:oid:2.49.0.1.124.1328401187.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-09/2019_12_09T04_14_27_00_00Iurn_oid_2.49.0.1.124.1328401187.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191209201327+00:00"
 			}
 		},
 		{
@@ -1294,18 +1294,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 8, 2019 20:32",
-				"Expires_UTC" : "December 9, 2019 12:31",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nA disturbance tracking northward into Foxe Basin will bring increasing easterly winds into the Pangnirtung region overnight. Light easterly winds early this evening will gradually increase tonight with wind gusts up to 70 km/h by morning. The strongest winds are expected Monday with easterly gusts to 90 km/h or higher possible long with some blowing snow. Winds are expected to diminish Tuesday evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-09T12:31:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-08T20:32:09-00:00, urn:oid:2.49.0.1.124.2451191736.2019<br>Area: Pangnirtung",
+				"LastUpdate_UTC" : "December 9, 2019 08:27",
+				"Expires_UTC" : "December 10, 2019 00:26",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nA disturbance tracking through western Hudson Strait will bring increasing easterly winds into the Pangnirtung region this morning. Easterly winds of 70 gusting to 90 km/h are expected to develop later this morning and last through much of the afternoon. These strong winds will produce reduced visibilities in blowing snow. Winds are expected to diminish this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-10T00:26:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-09T08:27:22-00:00, urn:oid:2.49.0.1.124.2329658281.2019<br>Area: Pangnirtung",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-08:feed.atom/urn:oid:2.49.0.1.124.2451191736.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-08/2019_12_08T20_32_09_00_00Iurn_oid_2.49.0.1.124.2451191736.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-09:feed.atom/urn:oid:2.49.0.1.124.2329658281.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-09/2019_12_09T08_27_22_00_00Iurn_oid_2.49.0.1.124.2329658281.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191209123109+00:00"
+				"Expires_FMEFormat" : "20191210002622+00:00"
 			}
 		},
 		{
