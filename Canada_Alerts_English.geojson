@@ -711,6 +711,69 @@
 				"coordinates" : [
 					[
 						[
+							[ -76, 51.6249 ],
+							[ -78.9371, 51.6314 ],
+							[ -78.9877, 51.6266 ],
+							[ -79.0521, 51.6205 ],
+							[ -79.1401, 51.6578 ],
+							[ -79.192, 51.7106 ],
+							[ -79.4165, 51.7137 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5368, 51.0871 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -78.5004, 49.2934 ],
+							[ -77.3232, 49.2924 ],
+							[ -76.4997, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ],
+							[ -73.6025, 49.2849 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.4993, 49.55 ],
+							[ -72.6666, 49.6653 ],
+							[ -72.6628, 49.6658 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 51.647 ],
+							[ -72.011, 51.6472 ],
+							[ -75.9391, 51.6264 ],
+							[ -76, 51.6249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 9, 2019 09:55",
+				"Expires_UTC" : "December 10, 2019 01:54",
+				"Summary" : "Description: A total of 10 to 20 centimetres of snow is expected over these areas by Tuesday morning.\n\nRoad conditions could be poor at times. Drivers are encouraged to exercise caution.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-10T01:54:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-09T09:55:57-00:00, urn:oid:2.49.0.1.124.1454191478.2019<br>Area: Waskaganish, Joutel - Matagami area, Miquelon - Desmaraisville area, Chibougamau",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-09:feed.atom/urn:oid:2.49.0.1.124.1454191478.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-09/2019_12_09T09_55_57_00_00Iurn_oid_2.49.0.1.124.1454191478.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191210015457+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -71.9999, 49.5832 ],
 							[ -71.9998, 49.9998 ],
 							[ -71.9995, 51.647 ],
@@ -1093,69 +1156,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-09/2019_12_09T08_38_44_00_00Iurn_oid_2.49.0.1.124.1065067883.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191210003744+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -76, 51.6249 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.9877, 51.6266 ],
-							[ -79.0521, 51.6205 ],
-							[ -79.1401, 51.6578 ],
-							[ -79.192, 51.7106 ],
-							[ -79.4165, 51.7137 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5368, 51.0871 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -78.5004, 49.2934 ],
-							[ -77.3232, 49.2924 ],
-							[ -76.4997, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ],
-							[ -73.6025, 49.2849 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.4993, 49.55 ],
-							[ -72.6666, 49.6653 ],
-							[ -72.6628, 49.6658 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 51.647 ],
-							[ -72.011, 51.6472 ],
-							[ -75.9391, 51.6264 ],
-							[ -76, 51.6249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 9, 2019 09:55",
-				"Expires_UTC" : "December 10, 2019 01:54",
-				"Summary" : "Description: A total of 10 to 20 centimetres of snow is expected over these areas by Tuesday morning.\n\nRoad conditions could be poor at times. Drivers are encouraged to exercise caution.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-10T01:54:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-09T09:55:57-00:00, urn:oid:2.49.0.1.124.1454191478.2019<br>Area: Waskaganish, Joutel - Matagami area, Miquelon - Desmaraisville area, Chibougamau",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-09:feed.atom/urn:oid:2.49.0.1.124.1454191478.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-09/2019_12_09T09_55_57_00_00Iurn_oid_2.49.0.1.124.1454191478.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191210015457+00:00"
 			}
 		},
 		{
