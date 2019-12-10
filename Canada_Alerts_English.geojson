@@ -567,79 +567,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -60.8436, 45.8719 ],
-							[ -61.1587, 45.7085 ],
-							[ -61.1647, 45.7054 ],
-							[ -61.2321, 45.6675 ],
-							[ -61.36, 45.5953 ],
-							[ -61.3709, 45.5863 ],
-							[ -61.3951, 45.6335 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.4371, 45.6492 ],
-							[ -61.5031, 45.6221 ],
-							[ -61.7374, 45.525 ],
-							[ -61.733, 45.5024 ],
-							[ -61.7299, 45.4868 ],
-							[ -61.949, 45.3941 ],
-							[ -62.0904, 45.3736 ],
-							[ -62.6235, 45.2947 ],
-							[ -62.6877, 45.2911 ],
-							[ -62.7118, 45.2704 ],
-							[ -62.1655, 44.9754 ],
-							[ -62.1647, 44.9739 ],
-							[ -62.1548, 44.9424 ],
-							[ -62.0547, 44.8797 ],
-							[ -61.1946, 45.1755 ],
-							[ -60.9193, 45.2127 ],
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -59.538, 46.0154 ],
-							[ -59.8902, 46.2624 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4173, 46.2948 ],
-							[ -60.4991, 46.2258 ],
-							[ -60.5551, 46.1916 ],
-							[ -60.6021, 46.1338 ],
-							[ -60.6864, 46.0863 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.7214, 46.0663 ],
-							[ -60.789, 45.9777 ],
-							[ -60.8436, 45.8719 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 10, 2019 16:10",
-				"Expires_UTC" : "December 10, 2019 17:10",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-12-10T17:10:22-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-10T16:10:22-00:00, urn:oid:2.49.0.1.124.1581245433.2019<br>Area: Guysborough County, Richmond County, Sydney Metro and Cape Breton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-10:feed.atom/urn:oid:2.49.0.1.124.1581245433.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-10/2019_12_10T16_10_22_00_00Iurn_oid_2.49.0.1.124.1581245433.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191210171022+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.4207, 47.5744 ],
 							[ -58.144, 47.5744 ],
 							[ -56.9846, 47.386 ],
@@ -1398,6 +1325,68 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-10/2019_12_10T16_13_18_00_00Iurn_oid_2.49.0.1.124.4148598391.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191211081218+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -91.6842, 49.8683 ],
+							[ -91.6834, 49.8681 ],
+							[ -90.2392, 49.5614 ],
+							[ -90.0178, 49.5235 ],
+							[ -90.0123, 49.9131 ],
+							[ -88.5445, 49.9338 ],
+							[ -87.4321, 49.9482 ],
+							[ -87.4321, 51.159 ],
+							[ -87.9963, 51.1568 ],
+							[ -89.9953, 51.1354 ],
+							[ -91.0434, 51.1282 ],
+							[ -92.3388, 51.1193 ],
+							[ -93.4873, 51.3669 ],
+							[ -93.6935, 51.4257 ],
+							[ -93.9542, 51.4733 ],
+							[ -94.5036, 51.5513 ],
+							[ -95.1536, 51.6128 ],
+							[ -95.1961, 51.2501 ],
+							[ -95.1536, 50.8931 ],
+							[ -95.1655, 50.6658 ],
+							[ -95.1536, 50.3956 ],
+							[ -95.1601, 50.3682 ],
+							[ -95.1536, 50.3452 ],
+							[ -94.7122, 50.3413 ],
+							[ -94.2739, 50.3452 ],
+							[ -93.8911, 50.2863 ],
+							[ -93.4874, 50.2367 ],
+							[ -92.9179, 50.1283 ],
+							[ -91.6842, 49.8683 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 10, 2019 14:15",
+				"Expires_UTC" : "December 10, 2019 18:14",
+				"Summary" : "Description: Cold wind chills near minus 40 are expected this morning under clear skies.  There is the potential for cold wind chills again tonight.\n\n###\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-10T18:14:50-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-10T14:15:50-00:00, urn:oid:2.49.0.1.124.3050978410.2019<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Savant Lake - Sturgeon Lake, Sioux Lookout - Eastern Lac Seul, Armstrong - Auden - Wabakimi Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-10:feed.atom/urn:oid:2.49.0.1.124.3050978410.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-10/2019_12_10T14_15_50_00_00Iurn_oid_2.49.0.1.124.3050978410.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191210181450+00:00"
 			}
 		},
 		{
@@ -2289,68 +2278,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-10/2019_12_10T16_37_12_00_00Iurn_oid_2.49.0.1.124.1512675114.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191211083612+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -91.6842, 49.8683 ],
-							[ -91.6834, 49.8681 ],
-							[ -90.2392, 49.5614 ],
-							[ -90.0178, 49.5235 ],
-							[ -90.0123, 49.9131 ],
-							[ -88.5445, 49.9338 ],
-							[ -87.4321, 49.9482 ],
-							[ -87.4321, 51.159 ],
-							[ -87.9963, 51.1568 ],
-							[ -89.9953, 51.1354 ],
-							[ -91.0434, 51.1282 ],
-							[ -92.3388, 51.1193 ],
-							[ -93.4873, 51.3669 ],
-							[ -93.6935, 51.4257 ],
-							[ -93.9542, 51.4733 ],
-							[ -94.5036, 51.5513 ],
-							[ -95.1536, 51.6128 ],
-							[ -95.1961, 51.2501 ],
-							[ -95.1536, 50.8931 ],
-							[ -95.1655, 50.6658 ],
-							[ -95.1536, 50.3956 ],
-							[ -95.1601, 50.3682 ],
-							[ -95.1536, 50.3452 ],
-							[ -94.7122, 50.3413 ],
-							[ -94.2739, 50.3452 ],
-							[ -93.8911, 50.2863 ],
-							[ -93.4874, 50.2367 ],
-							[ -92.9179, 50.1283 ],
-							[ -91.6842, 49.8683 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 10, 2019 16:09",
-				"Expires_UTC" : "December 10, 2019 17:09",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2019-12-10T17:09:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-10T16:09:23-00:00, urn:oid:2.49.0.1.124.2456955560.2019<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Savant Lake - Sturgeon Lake, Sioux Lookout - Eastern Lac Seul, Armstrong - Auden - Wabakimi Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-10:feed.atom/urn:oid:2.49.0.1.124.2456955560.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-10/2019_12_10T16_09_23_00_00Iurn_oid_2.49.0.1.124.2456955560.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191210170923+00:00"
 			}
 		},
 		{
