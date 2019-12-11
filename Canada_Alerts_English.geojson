@@ -300,6 +300,62 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -59.0361, 54.0269 ],
+							[ -58.8814, 54.0182 ],
+							[ -58.8483, 53.9346 ],
+							[ -58.3667, 53.72 ],
+							[ -57.3704, 54.1207 ],
+							[ -57.0958, 54.136 ],
+							[ -56.7055, 54.7584 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 11, 2019 09:18",
+				"Expires_UTC" : "December 12, 2019 01:17",
+				"Summary" : "Description: Strong winds are expected.\n\nMaximum gusts: westerly 100 to 110 km/h.\n\nLocations: Nain to Rigolet.\n\nTime span: beginning this morning or afternoon and ending this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-12T01:17:43-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:18:43-00:00, urn:oid:2.49.0.1.124.2309867008.2019<br>Area: Rigolet and vicinity, Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.2309867008.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_18_43_00_00Iurn_oid_2.49.0.1.124.2309867008.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191212011743+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -80.7543, 43.6483 ],
 							[ -80.6062, 43.5883 ],
 							[ -80.598, 43.6577 ],
@@ -529,53 +585,75 @@
 				"coordinates" : [
 					[
 						[
-							[ -82.0969, 45.9754 ],
-							[ -82.178, 45.9443 ],
-							[ -82.3291, 46.0103 ],
-							[ -83.3864, 46.0319 ],
-							[ -83.4793, 45.9477 ],
-							[ -83.5446, 45.8405 ],
-							[ -82.9541, 45.6034 ],
-							[ -81.9674, 45.3827 ],
-							[ -81.3483, 45.4495 ],
-							[ -81.3805, 45.849 ],
-							[ -80.8486, 45.8248 ],
-							[ -80.7432, 45.8894 ],
-							[ -80.7251, 45.8899 ],
-							[ -80.5706, 45.8856 ],
-							[ -80.5701, 46.0178 ],
-							[ -80.6965, 46.106 ],
-							[ -80.9338, 46.0992 ],
-							[ -80.9338, 46.1701 ],
-							[ -81.4263, 46.1701 ],
-							[ -81.4263, 46.2733 ],
-							[ -82.0579, 46.2733 ],
-							[ -82.0476, 46.0965 ],
-							[ -82.0969, 45.9754 ]
+							[ -68.999, 57.9998 ],
+							[ -66.999, 57.6498 ],
+							[ -65.9989, 58.0749 ],
+							[ -64.9988, 58.5001 ],
+							[ -64.8396, 59.5533 ],
+							[ -64.7984, 59.577 ],
+							[ -64.8423, 59.6333 ],
+							[ -64.7082, 59.6872 ],
+							[ -64.7348, 59.8099 ],
+							[ -64.5704, 59.9186 ],
+							[ -64.6379, 59.9783 ],
+							[ -64.7977, 60.0045 ],
+							[ -64.8197, 60.0264 ],
+							[ -64.731, 60.0341 ],
+							[ -64.5567, 60.1053 ],
+							[ -64.5722, 60.1838 ],
+							[ -64.7167, 60.2035 ],
+							[ -64.8299, 60.2443 ],
+							[ -64.8145, 60.2578 ],
+							[ -64.5207, 60.2802 ],
+							[ -64.476, 60.3064 ],
+							[ -64.7219, 60.3674 ],
+							[ -64.8564, 60.3853 ],
+							[ -65.1223, 60.1661 ],
+							[ -65.5601, 59.7972 ],
+							[ -65.8025, 59.2284 ],
+							[ -66.4418, 58.8721 ],
+							[ -66.5688, 58.7762 ],
+							[ -66.6665, 58.5936 ],
+							[ -67.5789, 58.3917 ],
+							[ -67.8657, 58.5535 ],
+							[ -68.0119, 58.6119 ],
+							[ -68.2291, 58.6593 ],
+							[ -68.3169, 58.7795 ],
+							[ -68.4703, 58.8861 ],
+							[ -68.5687, 58.9273 ],
+							[ -68.8228, 58.9343 ],
+							[ -68.9321, 58.9547 ],
+							[ -69.5083, 59.6941 ],
+							[ -69.5775, 59.6928 ],
+							[ -69.6493, 59.7016 ],
+							[ -70.2989, 59.6999 ],
+							[ -70.299, 58.7659 ],
+							[ -70.2999, 58.3 ],
+							[ -68.999, 57.9998 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
+				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snow Squall",
+				"event" : "Blizzard",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 11, 2019 03:21",
-				"Expires_UTC" : "December 11, 2019 17:19",
-				"Summary" : "Description: Snow squalls tonight through to Wednesday morning.\n\nLocal snowfall accumulations of 10 to 15 cm are possible under the most intense snow squalls.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Travel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-11T17:19:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T03:21:15-00:00, urn:oid:2.49.0.1.124.4231905168.2019<br>Area: Espanola - Killarney, Manitoulin Island",
+				"LastUpdate_UTC" : "December 11, 2019 09:20",
+				"Expires_UTC" : "December 12, 2019 00:59",
+				"Summary" : "Description: Snow combined with strong winds will reduce the visibilities to nearly zero today over this community.\n\n###\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-12T00:59:21-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:20:21-00:00, urn:oid:2.49.0.1.124.3266347230.2019<br>Area: Kangiqsualujjuaq",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.4231905168.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T03_21_15_00_00Iurn_oid_2.49.0.1.124.4231905168.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.3266347230.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_20_21_00_00Iurn_oid_2.49.0.1.124.3266347230.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191211171915+00:00"
+				"Expires_FMEFormat" : "20191212005921+00:00"
 			}
 		},
 		{
@@ -724,69 +802,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 11, 2019 09:16",
-				"Expires_UTC" : "December 11, 2019 16:59",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-11T16:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:16:23-00:00, urn:oid:2.49.0.1.124.3475929135.2019<br>Area: Arviat, Rankin Region including Whale Cove",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.3475929135.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_16_23_00_00Iurn_oid_2.49.0.1.124.3475929135.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191211165923+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -60.5775, 54.79 ],
 							[ -59.3729, 54.19 ],
 							[ -58.0061, 54.7317 ],
@@ -828,55 +843,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T01_49_42_00_00Iurn_oid_2.49.0.1.124.1497046476.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191211174842+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -73.6025, 49.2849 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.4993, 49.55 ],
-							[ -72.6666, 49.6653 ],
-							[ -72.6628, 49.6658 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 51.647 ],
-							[ -72.011, 51.6472 ],
-							[ -75.9391, 51.6264 ],
-							[ -76, 51.6249 ],
-							[ -75.9995, 50.5156 ],
-							[ -75.9995, 50.4999 ],
-							[ -75.9993, 49.2832 ],
-							[ -73.6025, 49.2849 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 11, 2019 02:56",
-				"Expires_UTC" : "December 11, 2019 18:55",
-				"Summary" : "Description: Wind chill values will remain near -38 Wednesday night.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-11T18:55:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T02:56:10-00:00, urn:oid:2.49.0.1.124.2427696566.2019<br>Area: Chibougamau",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.2427696566.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T02_56_10_00_00Iurn_oid_2.49.0.1.124.2427696566.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191211185510+00:00"
 			}
 		},
 		{
@@ -1002,6 +968,62 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T03_53_01_00_00Iurn_oid_2.49.0.1.124.3924619998.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191211195201+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.0969, 45.9754 ],
+							[ -82.178, 45.9443 ],
+							[ -82.3291, 46.0103 ],
+							[ -83.3864, 46.0319 ],
+							[ -83.4793, 45.9477 ],
+							[ -83.5446, 45.8405 ],
+							[ -82.9541, 45.6034 ],
+							[ -81.9674, 45.3827 ],
+							[ -81.3483, 45.4495 ],
+							[ -81.3805, 45.849 ],
+							[ -80.8486, 45.8248 ],
+							[ -80.7432, 45.8894 ],
+							[ -80.7251, 45.8899 ],
+							[ -80.5706, 45.8856 ],
+							[ -80.5701, 46.0178 ],
+							[ -80.6965, 46.106 ],
+							[ -80.9338, 46.0992 ],
+							[ -80.9338, 46.1701 ],
+							[ -81.4263, 46.1701 ],
+							[ -81.4263, 46.2733 ],
+							[ -82.0579, 46.2733 ],
+							[ -82.0476, 46.0965 ],
+							[ -82.0969, 45.9754 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snow Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 11, 2019 03:21",
+				"Expires_UTC" : "December 11, 2019 17:19",
+				"Summary" : "Description: Snow squalls tonight through to Wednesday morning.\n\nLocal snowfall accumulations of 10 to 15 cm are possible under the most intense snow squalls.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Travel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-11T17:19:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T03:21:15-00:00, urn:oid:2.49.0.1.124.4231905168.2019<br>Area: Espanola - Killarney, Manitoulin Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.4231905168.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T03_21_15_00_00Iurn_oid_2.49.0.1.124.4231905168.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191211171915+00:00"
 			}
 		},
 		{
@@ -1506,16 +1528,16 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 11, 2019 09:17",
+				"LastUpdate_UTC" : "December 11, 2019 09:18",
 				"Expires_UTC" : "December 12, 2019 01:17",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations. Visibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-12T01:17:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:17:20-00:00, urn:oid:2.49.0.1.124.2872759238.2019<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nAdditional snowfall: 5 to 10 cm today and tonight.\n\nMaximum wind gusts: 80 to 110 km/h.\n\nLocations: Nain to Makkovik\n\nTime span: this morning until midnight tonight.\n\nRemarks: Fresh snowfall will combine with strengthening westerly winds this morning to produce poor visibility in blowing snow. Conditions should improve tonight as the snow tapers off.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations. Visibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-12T01:17:20-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:18:20-00:00, urn:oid:2.49.0.1.124.1491551021.2019<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.2872759238.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_17_20_00_00Iurn_oid_2.49.0.1.124.2872759238.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.1491551021.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_18_20_00_00Iurn_oid_2.49.0.1.124.1491551021.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191212011720+00:00"
 			}
@@ -1655,16 +1677,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 11, 2019 09:25",
+				"LastUpdate_UTC" : "December 11, 2019 09:26",
 				"Expires_UTC" : "December 12, 2019 01:25",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-12T01:25:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:25:10-00:00, urn:oid:2.49.0.1.124.0374077068.2019<br>Area: Waskaganish, Joutel - Matagami area, Miquelon - Desmaraisville area",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values will be between minus 35 and minus 41 overnight tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-12T01:25:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:26:10-00:00, urn:oid:2.49.0.1.124.4246206646.2019<br>Area: Waskaganish, Joutel - Matagami area, Miquelon - Desmaraisville area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.0374077068.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_25_10_00_00Iurn_oid_2.49.0.1.124.0374077068.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.4246206646.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_26_10_00_00Iurn_oid_2.49.0.1.124.4246206646.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191212012510+00:00"
 			}
@@ -1786,6 +1808,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T08_42_56_00_00Iurn_oid_2.49.0.1.124.4012141091.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191212004156+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 11, 2019 09:17",
+				"Expires_UTC" : "December 11, 2019 16:59",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA low pressure system over central Hudson Bay is producing strong northwest winds gusting to 70 km/h along the Hudson Bay coast. These winds are producing ground blizzard conditions with visibilities near zero at times in blowing snow. Gradual improvement is expected this morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2019-12-11T16:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:17:23-00:00, urn:oid:2.49.0.1.124.0910539386.2019<br>Area: Arviat, Rankin Region including Whale Cove",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.0910539386.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_17_23_00_00Iurn_oid_2.49.0.1.124.0910539386.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191211165923+00:00"
 			}
 		},
 		{
@@ -2241,6 +2326,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -73.6025, 49.2849 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.4993, 49.55 ],
+							[ -72.6666, 49.6653 ],
+							[ -72.6628, 49.6658 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 51.647 ],
+							[ -72.011, 51.6472 ],
+							[ -75.9391, 51.6264 ],
+							[ -76, 51.6249 ],
+							[ -75.9995, 50.5156 ],
+							[ -75.9995, 50.4999 ],
+							[ -75.9993, 49.2832 ],
+							[ -73.6025, 49.2849 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 11, 2019 09:26",
+				"Expires_UTC" : "December 12, 2019 01:25",
+				"Summary" : "Description: Wind chill values will remain near -38 overnight tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-12T01:25:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:26:33-00:00, urn:oid:2.49.0.1.124.2276089013.2019<br>Area: Chibougamau",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.2276089013.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_26_33_00_00Iurn_oid_2.49.0.1.124.2276089013.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191212012533+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -99.1180293151, 56.8759827488 ],
 							[ -98.885, 56.8409 ],
 							[ -98.2313, 57.1168 ],
@@ -2384,16 +2518,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 11, 2019 09:26",
+				"LastUpdate_UTC" : "December 11, 2019 09:27",
 				"Expires_UTC" : "December 11, 2019 13:39",
-				"Summary" : "Description: Temperatures are forecast to fall rapidly. Ponding water, slush, and any falling precipitation will freeze as the temperature drops.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-11T13:39:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:26:11-00:00, urn:oid:2.49.0.1.124.2496888200.2019<br>Area: Blanc-Sablon",
+				"Summary" : "Description: Temperatures are forecast to fall rapidly. Ponding water, slush, and any falling precipitation will freeze as the temperature drops.\n\nA sharp cold front will cause temperatures to drop rapidly this morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-11T13:39:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:27:11-00:00, urn:oid:2.49.0.1.124.0834808600.2019<br>Area: Blanc-Sablon",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.2496888200.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_26_11_00_00Iurn_oid_2.49.0.1.124.2496888200.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.0834808600.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_27_11_00_00Iurn_oid_2.49.0.1.124.0834808600.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191211133911+00:00"
 			}
