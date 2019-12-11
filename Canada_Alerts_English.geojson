@@ -77,60 +77,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -75.9995, 50.4999 ],
-							[ -75.9995, 50.5156 ],
-							[ -76, 51.6249 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.9877, 51.6266 ],
-							[ -79.0521, 51.6205 ],
-							[ -79.1401, 51.6578 ],
-							[ -79.192, 51.7106 ],
-							[ -79.4165, 51.7137 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5368, 51.0871 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -78.5004, 49.2934 ],
-							[ -77.3232, 49.2924 ],
-							[ -76.4997, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ],
-							[ -75.9995, 50.4999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 11, 2019 09:26",
-				"Expires_UTC" : "December 12, 2019 01:25",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values will be between minus 35 and minus 41 overnight tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-12T01:25:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T09:26:10-00:00, urn:oid:2.49.0.1.124.4246206646.2019<br>Area: Waskaganish, Joutel - Matagami area, Miquelon - Desmaraisville area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.4246206646.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T09_26_10_00_00Iurn_oid_2.49.0.1.124.4246206646.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191212012510+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -85.1481, 47.824 ],
 							[ -84.9134, 47.2346 ],
 							[ -84.6283, 47.2522 ],
@@ -1015,6 +961,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T14_59_41_00_00Iurn_oid_2.49.0.1.124.3970079048.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191212065841+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 11, 2019 15:20",
+				"Expires_UTC" : "December 11, 2019 16:20",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2019-12-11T16:20:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-11T15:20:48-00:00, urn:oid:2.49.0.1.124.0813552734.2019<br>Area: Arviat, Rankin Region including Whale Cove",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-11:feed.atom/urn:oid:2.49.0.1.124.0813552734.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-11/2019_12_11T15_20_48_00_00Iurn_oid_2.49.0.1.124.0813552734.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191211162048+00:00"
 			}
 		},
 		{
