@@ -1306,70 +1306,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -64.7219, 60.3674 ],
-							[ -64.8564, 60.3853 ],
-							[ -65.1223, 60.1661 ],
-							[ -65.5601, 59.7972 ],
-							[ -65.8025, 59.2284 ],
-							[ -66.4418, 58.8721 ],
-							[ -66.5688, 58.7762 ],
-							[ -66.6665, 58.5936 ],
-							[ -66.6115, 58.5547 ],
-							[ -66.0069, 58.0813 ],
-							[ -65.9992, 58.0751 ],
-							[ -65.9989, 58.0749 ],
-							[ -64.9988, 58.5001 ],
-							[ -64.8396, 59.5533 ],
-							[ -64.7984, 59.577 ],
-							[ -64.8423, 59.6333 ],
-							[ -64.7082, 59.6872 ],
-							[ -64.7348, 59.8099 ],
-							[ -64.5704, 59.9186 ],
-							[ -64.6379, 59.9783 ],
-							[ -64.7977, 60.0045 ],
-							[ -64.8197, 60.0264 ],
-							[ -64.731, 60.0341 ],
-							[ -64.5567, 60.1053 ],
-							[ -64.5722, 60.1838 ],
-							[ -64.7167, 60.2035 ],
-							[ -64.8299, 60.2443 ],
-							[ -64.8145, 60.2578 ],
-							[ -64.5207, 60.2802 ],
-							[ -64.476, 60.3064 ],
-							[ -64.7219, 60.3674 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Blizzard Warning Ended",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 12, 2019 23:11",
-				"Expires_UTC" : "December 13, 2019 00:11",
-				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n###<br>Expires: 2019-12-13T00:11:49-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-12T23:11:49-00:00, urn:oid:2.49.0.1.124.1327900610.2019<br>Area: Kangiqsualujjuaq",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-12:feed.atom/urn:oid:2.49.0.1.124.1327900610.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-12/2019_12_12T23_11_49_00_00Iurn_oid_2.49.0.1.124.1327900610.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191213001149+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -115.0815, 61.2448 ],
 							[ -115.5282, 61.0448 ],
 							[ -116.1799, 61.0474 ],
@@ -1472,6 +1408,70 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-12/2019_12_12T22_18_31_00_00Iurn_oid_2.49.0.1.124.2441174913.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191213141731+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -64.7219, 60.3674 ],
+							[ -64.8564, 60.3853 ],
+							[ -65.1223, 60.1661 ],
+							[ -65.5601, 59.7972 ],
+							[ -65.8025, 59.2284 ],
+							[ -66.4418, 58.8721 ],
+							[ -66.5688, 58.7762 ],
+							[ -66.6665, 58.5936 ],
+							[ -66.6115, 58.5547 ],
+							[ -66.0069, 58.0813 ],
+							[ -65.9992, 58.0751 ],
+							[ -65.9989, 58.0749 ],
+							[ -64.9988, 58.5001 ],
+							[ -64.8396, 59.5533 ],
+							[ -64.7984, 59.577 ],
+							[ -64.8423, 59.6333 ],
+							[ -64.7082, 59.6872 ],
+							[ -64.7348, 59.8099 ],
+							[ -64.5704, 59.9186 ],
+							[ -64.6379, 59.9783 ],
+							[ -64.7977, 60.0045 ],
+							[ -64.8197, 60.0264 ],
+							[ -64.731, 60.0341 ],
+							[ -64.5567, 60.1053 ],
+							[ -64.5722, 60.1838 ],
+							[ -64.7167, 60.2035 ],
+							[ -64.8299, 60.2443 ],
+							[ -64.8145, 60.2578 ],
+							[ -64.5207, 60.2802 ],
+							[ -64.476, 60.3064 ],
+							[ -64.7219, 60.3674 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 12, 2019 19:44",
+				"Expires_UTC" : "December 13, 2019 05:59",
+				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in blowing snow are expected or occurring.\n\nBlizzard conditions are expected to improve over this region beginning this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-13T05:59:24-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-12T19:44:24-00:00, urn:oid:2.49.0.1.124.3593312891.2019<br>Area: Kangiqsualujjuaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-12:feed.atom/urn:oid:2.49.0.1.124.3593312891.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-12/2019_12_12T19_44_24_00_00Iurn_oid_2.49.0.1.124.3593312891.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191213055924+00:00"
 			}
 		},
 		{
