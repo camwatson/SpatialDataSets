@@ -583,69 +583,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -63.6863, 53.3002 ],
-							[ -61.5, 52.9003 ],
-							[ -60.8397, 53.0302 ],
-							[ -60.8616, 53.0404 ],
-							[ -60.934, 53.0865 ],
-							[ -60.9922, 53.1395 ],
-							[ -61.0344, 53.1975 ],
-							[ -61.0591, 53.2593 ],
-							[ -61.0612, 53.2803 ],
-							[ -61.5, 53.2003 ],
-							[ -63.4949, 53.6005 ],
-							[ -63.5298, 53.6964 ],
-							[ -63.6393, 53.8054 ],
-							[ -63.8052, 53.8866 ],
-							[ -63.8699, 53.9032 ],
-							[ -64.0071, 53.9264 ],
-							[ -64.2239, 53.9237 ],
-							[ -64.4239, 53.8772 ],
-							[ -64.5841, 53.7931 ],
-							[ -64.6719, 53.6999 ],
-							[ -65.2929, 53.5562 ],
-							[ -65.2074, 53.2454 ],
-							[ -64.6455, 53.4 ],
-							[ -64.4839, 53.2804 ],
-							[ -64.2983, 53.22 ],
-							[ -64.0897, 53.201 ],
-							[ -63.8828, 53.2255 ],
-							[ -63.8713, 53.2288 ],
-							[ -63.7018, 53.2906 ],
-							[ -63.6863, 53.3002 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2019 09:27",
-				"Expires_UTC" : "December 16, 2019 01:27",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-16T01:27:17-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T09:27:17-00:00, urn:oid:2.49.0.1.124.2052711612.2019<br>Area: Churchill Valley, Churchill Falls and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.2052711612.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T09_27_17_00_00Iurn_oid_2.49.0.1.124.2052711612.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191216012717+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -61.0612, 53.2803 ],
 							[ -61.0591, 53.2593 ],
 							[ -61.0344, 53.1975 ],
@@ -931,6 +868,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.6948, 52.1 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2019 09:18",
+				"Expires_UTC" : "December 15, 2019 17:29",
+				"Summary" : "Description: Significant snowfall, followed by rain, is expected.\n\nFurther snowfall accumulations: 2 cm except near 5 cm inland and over higher terrain.\n\nTotal rainfall: near 15 mm.\n\nLocations: Labrador Straits.\n\nTime span: continuing until this morning.\n\nRemarks: Snow will transition through ice pellets to freezing rain this morning. The highest snowfall amounts are expected inland and over higher terrain with lesser amounts along the coast. A prolonged period of freezing rain may occur over inland areas during the changeover.\n\nPrecipitation is expected to change to rain over most areas around noon today.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-15T17:29:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T09:18:30-00:00, urn:oid:2.49.0.1.124.2968484717.2019<br>Area: Red Bay to L'Anse-au-Clair",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.2968484717.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T09_18_30_00_00Iurn_oid_2.49.0.1.124.2968484717.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191215172930+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -127.6878, 54.538 ],
 							[ -127.6267, 54.3906 ],
 							[ -127.509, 54.1959 ],
@@ -968,6 +950,79 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T04_34_50_00_00Iurn_oid_2.49.0.1.124.2262324121.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191215203350+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -67.4492, 53.6156 ],
+							[ -67.3262, 53.5041 ],
+							[ -67.1137, 53.4892 ],
+							[ -67.007, 53.4261 ],
+							[ -67.1111, 53.3398 ],
+							[ -67.04, 53.2782 ],
+							[ -67.0727, 53.1831 ],
+							[ -67.3159, 53.2211 ],
+							[ -67.4732, 53.1139 ],
+							[ -67.4197, 52.9835 ],
+							[ -67.4209, 52.8874 ],
+							[ -66.8589, 52.6151 ],
+							[ -66.6924, 52.6502 ],
+							[ -66.6736, 52.7242 ],
+							[ -66.5908, 52.7544 ],
+							[ -66.5774, 52.8755 ],
+							[ -66.4083, 52.9547 ],
+							[ -66.3918, 52.9252 ],
+							[ -66.4872, 52.8641 ],
+							[ -66.4128, 52.7531 ],
+							[ -66.5051, 52.6306 ],
+							[ -66.4317, 52.4229 ],
+							[ -66.563, 52.3541 ],
+							[ -66.5062, 52.2511 ],
+							[ -66.4625, 52.251 ],
+							[ -66.2111, 52.3643 ],
+							[ -65.9218, 52.5465 ],
+							[ -65.7644, 52.7401 ],
+							[ -65.7115, 52.991 ],
+							[ -65.736, 53.1 ],
+							[ -65.2074, 53.2454 ],
+							[ -65.2929, 53.5562 ],
+							[ -65.9681, 53.3999 ],
+							[ -66.1928, 53.5357 ],
+							[ -66.573, 53.6494 ],
+							[ -66.9979, 53.6775 ],
+							[ -67.2095, 53.6577 ],
+							[ -67.3901, 53.6205 ],
+							[ -67.395, 53.6189 ],
+							[ -67.4492, 53.6156 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 15, 2019 02:22",
+				"Expires_UTC" : "December 15, 2019 18:21",
+				"Summary" : "Description: Snowfall with total amounts of 20 to 30 cm is expected.\n\nLocations: Labrador City and Wabush.\n\nMaximum wind gusts: northwesterly 80 km/h.\n\nTime span: continuing until Monday morning.\n\nRemarks: Snow will become heavy at times tonight and continue through Sunday, mixing with ice pellets at times. Snowfall rates will ease Sunday night, but northwesterly winds will strengthen later Sunday night resulting in poor visibility in blowing snow. Conditions are expected to improve on Monday.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-15T18:21:42-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T02:22:42-00:00, urn:oid:2.49.0.1.124.1050161900.2019<br>Area: Labrador City and Wabush",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.1050161900.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T02_22_42_00_00Iurn_oid_2.49.0.1.124.1050161900.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191215182142+00:00"
 			}
 		},
 		{
@@ -1267,6 +1322,69 @@
 				"coordinates" : [
 					[
 						[
+							[ -63.6863, 53.3002 ],
+							[ -61.5, 52.9003 ],
+							[ -60.8397, 53.0302 ],
+							[ -60.8616, 53.0404 ],
+							[ -60.934, 53.0865 ],
+							[ -60.9922, 53.1395 ],
+							[ -61.0344, 53.1975 ],
+							[ -61.0591, 53.2593 ],
+							[ -61.0612, 53.2803 ],
+							[ -61.5, 53.2003 ],
+							[ -63.4949, 53.6005 ],
+							[ -63.5298, 53.6964 ],
+							[ -63.6393, 53.8054 ],
+							[ -63.8052, 53.8866 ],
+							[ -63.8699, 53.9032 ],
+							[ -64.0071, 53.9264 ],
+							[ -64.2239, 53.9237 ],
+							[ -64.4239, 53.8772 ],
+							[ -64.5841, 53.7931 ],
+							[ -64.6719, 53.6999 ],
+							[ -65.2929, 53.5562 ],
+							[ -65.2074, 53.2454 ],
+							[ -64.6455, 53.4 ],
+							[ -64.4839, 53.2804 ],
+							[ -64.2983, 53.22 ],
+							[ -64.0897, 53.201 ],
+							[ -63.8828, 53.2255 ],
+							[ -63.8713, 53.2288 ],
+							[ -63.7018, 53.2906 ],
+							[ -63.6863, 53.3002 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2019 09:28",
+				"Expires_UTC" : "December 16, 2019 01:27",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snow and ice pellet accumulations: 20 to 30 cm.\n\nMaximum wind gusts: northwesterly 80 km/h tonight into Monday.\n\nLocations: Churchill Falls and Churchill Valley.\n\nTime span: continuing until Tuesday morning.\n\nRemarks: Snow may become heavy at times this morning. The snow is likely to change to ice pellets or freezing rain during the day and possibly to rain by this evening. Precipitation will transition back to snow tonight.\n\nStrong northwesterly winds are also expected to develop tonight, resulting in poor visibility in blowing snow.  The blowing snow will persist into Monday night.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-16T01:27:17-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T09:28:17-00:00, urn:oid:2.49.0.1.124.1611649594.2019<br>Area: Churchill Valley, Churchill Falls and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.1611649594.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T09_28_17_00_00Iurn_oid_2.49.0.1.124.1611649594.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191216012717+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -70.2989, 60.2999 ],
 							[ -70.3356, 60.0088 ],
 							[ -70.2989, 59.6999 ],
@@ -1295,16 +1413,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2019 09:36",
+				"LastUpdate_UTC" : "December 15, 2019 09:37",
 				"Expires_UTC" : "December 16, 2019 01:36",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-16T01:36:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T09:36:55-00:00, urn:oid:2.49.0.1.124.0724115844.2019<br>Area: Quaqtaq, Kangirsuk",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nBlizzard conditions with poor visibilities in snow and blowing snow are expected.\n\nBlizzard conditions will develop late in the day Sunday and will be accompanied by strong northeasterly winds. These conditions will persist into Monday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-16T01:36:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T09:37:55-00:00, urn:oid:2.49.0.1.124.2132191333.2019<br>Area: Quaqtaq, Kangirsuk",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.0724115844.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T09_36_55_00_00Iurn_oid_2.49.0.1.124.0724115844.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.2132191333.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T09_37_55_00_00Iurn_oid_2.49.0.1.124.2132191333.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191216013655+00:00"
 			}
@@ -1813,124 +1931,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.6948, 52.1 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2019 09:18",
-				"Expires_UTC" : "December 15, 2019 17:29",
-				"Summary" : "Description: Significant snowfall, followed by rain, is expected.\n\nFurther snowfall accumulations: 2 cm except near 5 cm inland and over higher terrain.\n\nTotal rainfall: near 15 mm.\n\nLocations: Labrador Straits.\n\nTime span: continuing until this morning.\n\nRemarks: Snow will transition through ice pellets to freezing rain this morning. The highest snowfall amounts are expected inland and over higher terrain with lesser amounts along the coast. A prolonged period of freezing rain may occur over inland areas during the changeover.\n\nPrecipitation is expected to change to rain over most areas around noon today.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-15T17:29:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T09:18:30-00:00, urn:oid:2.49.0.1.124.2968484717.2019<br>Area: Red Bay to L'Anse-au-Clair",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.2968484717.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T09_18_30_00_00Iurn_oid_2.49.0.1.124.2968484717.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191215172930+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -67.4492, 53.6156 ],
-							[ -67.3262, 53.5041 ],
-							[ -67.1137, 53.4892 ],
-							[ -67.007, 53.4261 ],
-							[ -67.1111, 53.3398 ],
-							[ -67.04, 53.2782 ],
-							[ -67.0727, 53.1831 ],
-							[ -67.3159, 53.2211 ],
-							[ -67.4732, 53.1139 ],
-							[ -67.4197, 52.9835 ],
-							[ -67.4209, 52.8874 ],
-							[ -66.8589, 52.6151 ],
-							[ -66.6924, 52.6502 ],
-							[ -66.6736, 52.7242 ],
-							[ -66.5908, 52.7544 ],
-							[ -66.5774, 52.8755 ],
-							[ -66.4083, 52.9547 ],
-							[ -66.3918, 52.9252 ],
-							[ -66.4872, 52.8641 ],
-							[ -66.4128, 52.7531 ],
-							[ -66.5051, 52.6306 ],
-							[ -66.4317, 52.4229 ],
-							[ -66.563, 52.3541 ],
-							[ -66.5062, 52.2511 ],
-							[ -66.4625, 52.251 ],
-							[ -66.2111, 52.3643 ],
-							[ -65.9218, 52.5465 ],
-							[ -65.7644, 52.7401 ],
-							[ -65.7115, 52.991 ],
-							[ -65.736, 53.1 ],
-							[ -65.2074, 53.2454 ],
-							[ -65.2929, 53.5562 ],
-							[ -65.9681, 53.3999 ],
-							[ -66.1928, 53.5357 ],
-							[ -66.573, 53.6494 ],
-							[ -66.9979, 53.6775 ],
-							[ -67.2095, 53.6577 ],
-							[ -67.3901, 53.6205 ],
-							[ -67.395, 53.6189 ],
-							[ -67.4492, 53.6156 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 15, 2019 02:22",
-				"Expires_UTC" : "December 15, 2019 18:21",
-				"Summary" : "Description: Snowfall with total amounts of 20 to 30 cm is expected.\n\nLocations: Labrador City and Wabush.\n\nMaximum wind gusts: northwesterly 80 km/h.\n\nTime span: continuing until Monday morning.\n\nRemarks: Snow will become heavy at times tonight and continue through Sunday, mixing with ice pellets at times. Snowfall rates will ease Sunday night, but northwesterly winds will strengthen later Sunday night resulting in poor visibility in blowing snow. Conditions are expected to improve on Monday.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-15T18:21:42-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T02:22:42-00:00, urn:oid:2.49.0.1.124.1050161900.2019<br>Area: Labrador City and Wabush",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.1050161900.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T02_22_42_00_00Iurn_oid_2.49.0.1.124.1050161900.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191215182142+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -59, 52.4 ],
 							[ -58.0385, 52.5919 ],
 							[ -57.1146, 52.8003 ],
@@ -1970,6 +1970,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T09_20_56_00_00Iurn_oid_2.49.0.1.124.2430567400.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191216011956+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2019 08:31",
+				"Expires_UTC" : "December 15, 2019 16:59",
+				"Summary" : "Description: Strong winds are expected or occurring.\n\nMaximum gusts: southeasterly up to 100 km/h in the Wreckhouse area.\n\nTime span: continuing until noon today.\n\nRemarks: Winds will diminish upon shifting to southerly near noon today.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-15T16:59:03-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T08:31:03-00:00, urn:oid:2.49.0.1.124.1448859852.2019<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.1448859852.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T08_31_03_00_00Iurn_oid_2.49.0.1.124.1448859852.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191215165903+00:00"
 			}
 		},
 		{
@@ -2023,52 +2069,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T08_32_50_00_00Iurn_oid_2.49.0.1.124.3304203510.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191216003150+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2019 08:31",
-				"Expires_UTC" : "December 15, 2019 16:59",
-				"Summary" : "Description: Strong winds are expected or occurring.\n\nMaximum gusts: southeasterly up to 100 km/h in the Wreckhouse area.\n\nTime span: continuing until noon today.\n\nRemarks: Winds will diminish upon shifting to southerly near noon today.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-15T16:59:03-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T08:31:03-00:00, urn:oid:2.49.0.1.124.1448859852.2019<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.1448859852.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T08_31_03_00_00Iurn_oid_2.49.0.1.124.1448859852.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191215165903+00:00"
 			}
 		},
 		{
