@@ -163,6 +163,76 @@
 				"coordinates" : [
 					[
 						[
+							[ -77.2622, 44.582 ],
+							[ -77.2189, 44.5891 ],
+							[ -76.9247, 44.6386 ],
+							[ -77.0008, 44.8144 ],
+							[ -77.0739, 44.96 ],
+							[ -77.0818, 44.9602 ],
+							[ -77.5497, 44.9742 ],
+							[ -77.991, 44.9715 ],
+							[ -77.9796, 44.9467 ],
+							[ -77.965, 44.9228 ],
+							[ -77.8789, 44.7205 ],
+							[ -77.7584, 44.4985 ],
+							[ -77.2622, 44.582 ]
+						]
+					],
+					[
+						[
+							[ -76.6861, 45.6413 ],
+							[ -76.6915, 45.6379 ],
+							[ -76.6962, 45.6364 ],
+							[ -77.0247, 45.4419 ],
+							[ -77.025, 45.4417 ],
+							[ -76.8765, 45.3107 ],
+							[ -76.7091, 45.1823 ],
+							[ -76.5052, 45.3024 ],
+							[ -76.3538, 45.4104 ],
+							[ -76.354, 45.4106 ],
+							[ -76.3279, 45.4274 ],
+							[ -76.3136, 45.4365 ],
+							[ -76.3041, 45.451 ],
+							[ -76.3151, 45.4957 ],
+							[ -76.36, 45.4899 ],
+							[ -76.3927, 45.5318 ],
+							[ -76.6276, 45.5768 ],
+							[ -76.6309, 45.6266 ],
+							[ -76.6023, 45.6457 ],
+							[ -76.6861, 45.6413 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 15, 2019 03:08",
+				"Expires_UTC" : "December 15, 2019 19:07",
+				"Summary" : "Description: Significant snowfall possible tonight.\n\nSnow will continue into tonight with total snowfall amounts between 8 and 12 cm possible by Sunday morning.  \n\nThe significant snow in combination with increasing winds and falling temperatures tonight will result in difficult travel conditions across the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-15T19:07:03-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T03:08:03-00:00, urn:oid:2.49.0.1.124.0644117392.2019<br>Area: Kaladar - Bannockburn - Bon Echo Park, Renfrew - Arnprior - Calabogie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.0644117392.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T03_08_03_00_00Iurn_oid_2.49.0.1.124.0644117392.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191215190703+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -69.7684, 48.8682 ],
 							[ -70.2496, 48.6665 ],
 							[ -69.8095, 48.4184 ],
@@ -431,75 +501,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -87.9958, 53.2172 ],
-							[ -88.0338, 52.7599 ],
-							[ -87.9904, 52.2453 ],
-							[ -83.0383, 52.2455 ],
-							[ -83.0302, 52.2453 ],
-							[ -82.9115, 51.9291 ],
-							[ -81.6114, 52.4649 ],
-							[ -81.4236, 52.4881 ],
-							[ -82.2216, 53.0256 ],
-							[ -81.9632, 53.3416 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.0824, 54.6123 ],
-							[ -82.007, 55.0671 ],
-							[ -82.2786, 55.1755 ],
-							[ -82.7847, 55.1832 ],
-							[ -82.9498, 55.2286 ],
-							[ -83.9602, 55.3859 ],
-							[ -84.958, 55.3741 ],
-							[ -85.6784, 55.7283 ],
-							[ -86.9972, 56.0007 ],
-							[ -87.4589, 56.1029 ],
-							[ -87.9073, 56.4915 ],
-							[ -88.6479, 56.724 ],
-							[ -88.9057, 56.9017 ],
-							[ -88.9894, 56.8474 ],
-							[ -89.8863, 56.3004 ],
-							[ -90.1757, 56.1351 ],
-							[ -90.4723, 55.9307 ],
-							[ -91.0742, 55.5552 ],
-							[ -91.653, 55.1549 ],
-							[ -92.6285, 54.5171 ],
-							[ -93.4241, 53.9089 ],
-							[ -92.0252, 53.7297 ],
-							[ -90.5082, 53.543 ],
-							[ -89.3769, 53.3863 ],
-							[ -87.9958, 53.2172 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 14, 2019 20:52",
-				"Expires_UTC" : "December 15, 2019 12:51",
-				"Summary" : "Description: A bitterly cold Arctic air mass is keeping a firm grip on far Northern Ontario. \n\nExtreme cold wind chills near or below minus 45 are forecast tonight into Sunday morning.\n\n###\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-15T12:51:47-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-14T20:52:47-00:00, urn:oid:2.49.0.1.124.2388171598.2019<br>Area: Attawapiskat, Fort Severn, Peawanuck, Sachigo Lake - Bearskin Lake, Big Trout Lake - Kasabonika, Webequie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-14:feed.atom/urn:oid:2.49.0.1.124.2388171598.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-14/2019_12_14T20_52_47_00_00Iurn_oid_2.49.0.1.124.2388171598.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191215125147+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -61.3709, 45.5863 ],
 							[ -61.3951, 45.6335 ],
 							[ -61.4305, 45.6526 ],
@@ -710,86 +711,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-14/2019_12_14T21_09_49_00_00Iurn_oid_2.49.0.1.124.3887885033.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191215130849+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -77.2193, 45.9952 ],
-							[ -77.2184, 46.0303 ],
-							[ -77.5416, 46.1853 ],
-							[ -77.73, 46.2469 ],
-							[ -77.7912, 46.2253 ],
-							[ -77.9794, 46.2755 ],
-							[ -78.0595, 46.2762 ],
-							[ -78.1399, 46.3022 ],
-							[ -78.264, 46.2986 ],
-							[ -78.3073, 46.2834 ],
-							[ -78.3344, 46.2912 ],
-							[ -78.3382, 46.2631 ],
-							[ -78.3417, 46.2607 ],
-							[ -78.3597, 46.2468 ],
-							[ -78.6213, 46.1756 ],
-							[ -78.3131, 45.561 ],
-							[ -78.2483, 45.4228 ],
-							[ -78.1781, 45.3099 ],
-							[ -78.1415, 45.2295 ],
-							[ -78.0863, 45.1488 ],
-							[ -78.0429, 45.061 ],
-							[ -77.991, 44.9715 ],
-							[ -77.5499, 44.9608 ],
-							[ -77.0739, 44.96 ],
-							[ -77.1001, 45.0317 ],
-							[ -77.1384, 45.0989 ],
-							[ -77.1375, 45.0992 ],
-							[ -77.0499, 45.1219 ],
-							[ -76.9706, 45.1453 ],
-							[ -76.9755, 45.154 ],
-							[ -76.7945, 45.186 ],
-							[ -76.7701, 45.143 ],
-							[ -76.7367, 45.1628 ],
-							[ -76.7091, 45.1823 ],
-							[ -76.8633, 45.3169 ],
-							[ -77.025, 45.4417 ],
-							[ -77.0247, 45.4419 ],
-							[ -76.6962, 45.6364 ],
-							[ -76.6915, 45.6379 ],
-							[ -76.6861, 45.6413 ],
-							[ -76.6023, 45.6457 ],
-							[ -76.5608, 45.7001 ],
-							[ -76.5822, 45.7897 ],
-							[ -76.8372, 45.9342 ],
-							[ -77.0795, 45.9485 ],
-							[ -77.2179, 45.9632 ],
-							[ -77.2193, 45.9952 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 14, 2019 20:19",
-				"Expires_UTC" : "December 15, 2019 12:18",
-				"Summary" : "Description: Significant snowfall continuing tonight.\n\nSnow will continue into tonight with total snowfall amounts near 15 cm likely by Sunday morning.  Locally higher amounts are possible.\n\nThe significant snow in combination increasing winds and falling temperatures tonight will result in difficult travel conditions across the area.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-15T12:18:19-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-14T20:19:19-00:00, urn:oid:2.49.0.1.124.2815088758.2019<br>Area: Deep River - Whitney - Eastern Algonquin Park, Bancroft - Hastings Highlands - Denbigh, Petawawa - Pembroke - Cobden, Barry's Bay - Killaloe",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-14:feed.atom/urn:oid:2.49.0.1.124.2815088758.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-14/2019_12_14T20_19_19_00_00Iurn_oid_2.49.0.1.124.2815088758.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191215121819+00:00"
 			}
 		},
 		{
@@ -1563,6 +1484,75 @@
 				"coordinates" : [
 					[
 						[
+							[ -87.9958, 53.2172 ],
+							[ -88.0338, 52.7599 ],
+							[ -87.9904, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -83.0302, 52.2453 ],
+							[ -82.9115, 51.9291 ],
+							[ -81.6114, 52.4649 ],
+							[ -81.4236, 52.4881 ],
+							[ -82.2216, 53.0256 ],
+							[ -81.9632, 53.3416 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.0824, 54.6123 ],
+							[ -82.007, 55.0671 ],
+							[ -82.2786, 55.1755 ],
+							[ -82.7847, 55.1832 ],
+							[ -82.9498, 55.2286 ],
+							[ -83.9602, 55.3859 ],
+							[ -84.958, 55.3741 ],
+							[ -85.6784, 55.7283 ],
+							[ -86.9972, 56.0007 ],
+							[ -87.4589, 56.1029 ],
+							[ -87.9073, 56.4915 ],
+							[ -88.6479, 56.724 ],
+							[ -88.9057, 56.9017 ],
+							[ -88.9894, 56.8474 ],
+							[ -89.8863, 56.3004 ],
+							[ -90.1757, 56.1351 ],
+							[ -90.4723, 55.9307 ],
+							[ -91.0742, 55.5552 ],
+							[ -91.653, 55.1549 ],
+							[ -92.6285, 54.5171 ],
+							[ -93.4241, 53.9089 ],
+							[ -92.0252, 53.7297 ],
+							[ -90.5082, 53.543 ],
+							[ -89.3769, 53.3863 ],
+							[ -87.9958, 53.2172 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2019 03:06",
+				"Expires_UTC" : "December 15, 2019 19:05",
+				"Summary" : "Description: A bitterly cold Arctic air mass is keeping a firm grip on far Northern Ontario. \n\nExtreme cold wind chills near or below minus 45 are forecast tonight into Sunday morning.\n\nWindchills are forecast to moderate Sunday afternoon and remain above Extreme Cold Wind Chill Warning levels Sunday night.\n\n###\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-15T19:05:53-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T03:06:53-00:00, urn:oid:2.49.0.1.124.2439412766.2019<br>Area: Attawapiskat, Fort Severn, Peawanuck, Sachigo Lake - Bearskin Lake, Big Trout Lake - Kasabonika, Webequie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.2439412766.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T03_06_53_00_00Iurn_oid_2.49.0.1.124.2439412766.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191215190553+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.4207, 47.5744 ],
 							[ -58.144, 47.5744 ],
 							[ -56.9846, 47.386 ],
@@ -1790,6 +1780,86 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T01_15_06_00_00Iurn_oid_2.49.0.1.124.1614299713.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191215171406+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -77.2193, 45.9952 ],
+							[ -77.2184, 46.0303 ],
+							[ -77.5416, 46.1853 ],
+							[ -77.73, 46.2469 ],
+							[ -77.7912, 46.2253 ],
+							[ -77.9794, 46.2755 ],
+							[ -78.0595, 46.2762 ],
+							[ -78.1399, 46.3022 ],
+							[ -78.264, 46.2986 ],
+							[ -78.3073, 46.2834 ],
+							[ -78.3344, 46.2912 ],
+							[ -78.3382, 46.2631 ],
+							[ -78.3417, 46.2607 ],
+							[ -78.3597, 46.2468 ],
+							[ -78.6213, 46.1756 ],
+							[ -78.3131, 45.561 ],
+							[ -78.2483, 45.4228 ],
+							[ -78.1781, 45.3099 ],
+							[ -78.1415, 45.2295 ],
+							[ -78.0863, 45.1488 ],
+							[ -78.0429, 45.061 ],
+							[ -77.991, 44.9715 ],
+							[ -77.5499, 44.9608 ],
+							[ -77.0739, 44.96 ],
+							[ -77.1001, 45.0317 ],
+							[ -77.1384, 45.0989 ],
+							[ -77.1375, 45.0992 ],
+							[ -77.0499, 45.1219 ],
+							[ -76.9706, 45.1453 ],
+							[ -76.9755, 45.154 ],
+							[ -76.7945, 45.186 ],
+							[ -76.7701, 45.143 ],
+							[ -76.7367, 45.1628 ],
+							[ -76.7091, 45.1823 ],
+							[ -76.8633, 45.3169 ],
+							[ -77.025, 45.4417 ],
+							[ -77.0247, 45.4419 ],
+							[ -76.6962, 45.6364 ],
+							[ -76.6915, 45.6379 ],
+							[ -76.6861, 45.6413 ],
+							[ -76.6023, 45.6457 ],
+							[ -76.5608, 45.7001 ],
+							[ -76.5822, 45.7897 ],
+							[ -76.8372, 45.9342 ],
+							[ -77.0795, 45.9485 ],
+							[ -77.2179, 45.9632 ],
+							[ -77.2193, 45.9952 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2019 03:07",
+				"Expires_UTC" : "December 15, 2019 17:59",
+				"Summary" : "Description: Significant snowfall continuing tonight.\n\nSnow will continue into tonight with total snowfall amounts near 15 cm likely by Sunday morning.  Locally higher amounts are possible.\n\nThe significant snow in combination increasing winds and falling temperatures tonight will result in difficult travel conditions across the area.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-15T17:59:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T03:07:28-00:00, urn:oid:2.49.0.1.124.1975950414.2019<br>Area: Deep River - Whitney - Eastern Algonquin Park, Bancroft - Hastings Highlands - Denbigh, Petawawa - Pembroke - Cobden, Barry's Bay - Killaloe",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.1975950414.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T03_07_28_00_00Iurn_oid_2.49.0.1.124.1975950414.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191215175928+00:00"
 			}
 		},
 		{
@@ -2096,52 +2166,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2019 02:18",
-				"Expires_UTC" : "December 15, 2019 16:59",
-				"Summary" : "Description: Strong winds are expected or occurring.\n\nMaximum gusts: southeasterly up to 140 km/h in the Wreckhouse area.\n\nTime span: continuing until noon Sunday.\n\nRemarks: Southeasterly winds gusting to 140 km/h will ease slightly towards dawn Sunday with occasional gusts to 100 km/h persisting through Sunday morning. Winds will further diminish upon shifting to southerly near noon Sunday.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-15T16:59:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T02:18:28-00:00, urn:oid:2.49.0.1.124.2856792443.2019<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.2856792443.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T02_18_28_00_00Iurn_oid_2.49.0.1.124.2856792443.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191215165928+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -57.3499, 49.58 ],
 							[ -57.2, 49.8499 ],
 							[ -56.99, 50.25 ],
@@ -2186,6 +2210,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T02_16_08_00_00Iurn_oid_2.49.0.1.124.3458647834.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191215181508+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2019 02:18",
+				"Expires_UTC" : "December 15, 2019 16:59",
+				"Summary" : "Description: Strong winds are expected or occurring.\n\nMaximum gusts: southeasterly up to 140 km/h in the Wreckhouse area.\n\nTime span: continuing until noon Sunday.\n\nRemarks: Southeasterly winds gusting to 140 km/h will ease slightly towards dawn Sunday with occasional gusts to 100 km/h persisting through Sunday morning. Winds will further diminish upon shifting to southerly near noon Sunday.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-15T16:59:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T02:18:28-00:00, urn:oid:2.49.0.1.124.2856792443.2019<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.2856792443.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T02_18_28_00_00Iurn_oid_2.49.0.1.124.2856792443.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191215165928+00:00"
 			}
 		},
 		{
