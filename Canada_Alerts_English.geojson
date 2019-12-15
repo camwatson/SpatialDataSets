@@ -552,6 +552,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.6948, 52.1 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2019 09:18",
+				"Expires_UTC" : "December 15, 2019 17:29",
+				"Summary" : "Description: Significant snowfall, followed by rain, is expected.\n\nFurther snowfall accumulations: 2 cm except near 5 cm inland and over higher terrain.\n\nTotal rainfall: near 15 mm.\n\nLocations: Labrador Straits.\n\nTime span: continuing until this morning.\n\nRemarks: Snow will transition through ice pellets to freezing rain this morning. The highest snowfall amounts are expected inland and over higher terrain with lesser amounts along the coast. A prolonged period of freezing rain may occur over inland areas during the changeover.\n\nPrecipitation is expected to change to rain over most areas around noon today.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-15T17:29:30-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T09:18:30-00:00, urn:oid:2.49.0.1.124.2968484717.2019<br>Area: Red Bay to L'Anse-au-Clair",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.2968484717.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T09_18_30_00_00Iurn_oid_2.49.0.1.124.2968484717.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191215172930+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -108.0497, 58.3999 ],
 							[ -108.0497, 57.409 ],
 							[ -108.0786, 56.7472 ],
@@ -1126,51 +1171,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T08_31_03_00_00Iurn_oid_2.49.0.1.124.1448859852.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191215165903+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.6948, 52.1 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 15, 2019 14:41",
-				"Expires_UTC" : "December 15, 2019 15:41",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-12-15T15:41:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T14:41:36-00:00, urn:oid:2.49.0.1.124.3057037742.2019<br>Area: Red Bay to L'Anse-au-Clair",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.3057037742.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T14_41_36_00_00Iurn_oid_2.49.0.1.124.3057037742.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191215154136+00:00"
 			}
 		},
 		{
