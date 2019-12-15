@@ -72,69 +72,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -68.8348, 49.2537 ],
-							[ -67.5055, 49.8307 ],
-							[ -67.5048, 49.9998 ],
-							[ -67.502, 50.7497 ],
-							[ -67.4961, 52.2499 ],
-							[ -67.4964, 52.2499 ],
-							[ -69.9991, 52.2498 ],
-							[ -69.9993, 51.646 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.766, 49.5499 ],
-							[ -71.3493, 48.9995 ],
-							[ -70.2496, 48.6665 ],
-							[ -69.7684, 48.8682 ],
-							[ -68.8408, 49.251 ],
-							[ -68.8348, 49.2537 ]
-						]
-					],
-					[
-						[
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ],
-							[ -59.0029, 50.7675 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2019 09:59",
-				"Expires_UTC" : "December 15, 2019 18:59",
-				"Summary" : "Description: A period of freezing rain giving 2 to 4 millimetres of freezing precipitation is expected this morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-15T18:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T09:59:57-00:00, urn:oid:2.49.0.1.124.4200907248.2019<br>Area: Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area, Blanc-Sablon",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.4200907248.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T09_59_57_00_00Iurn_oid_2.49.0.1.124.4200907248.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191215185957+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -87.9958, 53.2172 ],
 							[ -88.0338, 52.7599 ],
 							[ -87.9904, 52.2453 ],
@@ -880,55 +817,133 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.8528, 43.5481 ],
-							[ -65.779, 43.4069 ],
-							[ -65.6057, 43.3204 ],
-							[ -64.8863, 43.7582 ],
-							[ -64.4838, 44.0841 ],
-							[ -64.5022, 44.1157 ],
-							[ -64.5276, 44.1403 ],
-							[ -64.5586, 44.1453 ],
-							[ -64.8731, 44.4146 ],
-							[ -64.8653, 44.4201 ],
-							[ -64.8546, 44.458 ],
-							[ -64.9461, 44.5351 ],
-							[ -65.0755, 44.4407 ],
-							[ -65.1623, 44.4446 ],
-							[ -65.1856, 44.4122 ],
-							[ -65.3296, 44.3106 ],
-							[ -65.3923, 44.2277 ],
-							[ -65.6271, 44.193 ],
-							[ -65.8891, 44.1327 ],
-							[ -66.0272, 44.0753 ],
-							[ -66.1537, 44.0035 ],
-							[ -66.2609, 43.9343 ],
-							[ -66.2464, 43.8302 ],
-							[ -66.0816, 43.613 ],
-							[ -65.8528, 43.5481 ]
+							[ -68.8348, 49.2537 ],
+							[ -67.5055, 49.8307 ],
+							[ -67.5048, 49.9998 ],
+							[ -67.502, 50.7497 ],
+							[ -67.4961, 52.2499 ],
+							[ -67.4964, 52.2499 ],
+							[ -69.9991, 52.2498 ],
+							[ -69.9993, 51.646 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.766, 49.5499 ],
+							[ -71.3493, 48.9995 ],
+							[ -70.2496, 48.6665 ],
+							[ -69.7684, 48.8682 ],
+							[ -68.8408, 49.251 ],
+							[ -68.8348, 49.2537 ]
+						]
+					],
+					[
+						[
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.1162, 51.3508 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1075, 51.9221 ],
+							[ -58.9988, 51.333 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Freezing Rain",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 15, 2019 14:25",
-				"Expires_UTC" : "December 15, 2019 19:59",
-				"Summary" : "Description: High water levels expected today.\n\nLocation: South shore of Nova Scotia.\n\nTime span: During the high tide near noon today.\n\nLarge waves with rough and pounding surf enhanced by storm surge can be expected along the Atlantic coast during high tide today, and may cause some minor flooding along the coast.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-12-15T19:59:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T14:25:10-00:00, urn:oid:2.49.0.1.124.0493631282.2019<br>Area: Queens County, Shelburne County, Yarmouth County",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2019 15:11",
+				"Expires_UTC" : "December 15, 2019 18:59",
+				"Summary" : "Description: A period of freezing rain giving 2 to 4 millimetres of freezing precipitation is expected this morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2019-12-15T18:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T15:11:06-00:00, urn:oid:2.49.0.1.124.2091650966.2019<br>Area: Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.0493631282.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T14_25_10_00_00Iurn_oid_2.49.0.1.124.0493631282.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.2091650966.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T15_11_06_00_00Iurn_oid_2.49.0.1.124.2091650966.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191215195910+00:00"
+				"Expires_FMEFormat" : "20191215185906+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -67.4492, 53.6156 ],
+							[ -67.3262, 53.5041 ],
+							[ -67.1137, 53.4892 ],
+							[ -67.007, 53.4261 ],
+							[ -67.1111, 53.3398 ],
+							[ -67.04, 53.2782 ],
+							[ -67.0727, 53.1831 ],
+							[ -67.3159, 53.2211 ],
+							[ -67.4732, 53.1139 ],
+							[ -67.4197, 52.9835 ],
+							[ -67.4209, 52.8874 ],
+							[ -66.8589, 52.6151 ],
+							[ -66.6924, 52.6502 ],
+							[ -66.6736, 52.7242 ],
+							[ -66.5908, 52.7544 ],
+							[ -66.5774, 52.8755 ],
+							[ -66.4083, 52.9547 ],
+							[ -66.3918, 52.9252 ],
+							[ -66.4872, 52.8641 ],
+							[ -66.4128, 52.7531 ],
+							[ -66.5051, 52.6306 ],
+							[ -66.4317, 52.4229 ],
+							[ -66.563, 52.3541 ],
+							[ -66.5062, 52.2511 ],
+							[ -66.4625, 52.251 ],
+							[ -66.2111, 52.3643 ],
+							[ -65.9218, 52.5465 ],
+							[ -65.7644, 52.7401 ],
+							[ -65.7115, 52.991 ],
+							[ -65.736, 53.1 ],
+							[ -65.2074, 53.2454 ],
+							[ -65.2929, 53.5562 ],
+							[ -65.9681, 53.3999 ],
+							[ -66.1928, 53.5357 ],
+							[ -66.573, 53.6494 ],
+							[ -66.9979, 53.6775 ],
+							[ -67.2095, 53.6577 ],
+							[ -67.3901, 53.6205 ],
+							[ -67.395, 53.6189 ],
+							[ -67.4492, 53.6156 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2019 14:34",
+				"Expires_UTC" : "December 16, 2019 06:33",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 25 to 35 cm.\n\nMaximum wind gusts: northwesterly 80 km/h.\n\nLocations: Labrador City and Wabush.\n\nTime span: continuing until Monday morning.\n\nRemarks: Snow, heavy at times, will continue through today, occasionally mixing with ice pellets and freezing rain.  Snowfall rates will ease tonight, but northwesterly winds will strengthen overnight tonight resulting in poor visibility in blowing snow. Conditions are expected to improve late in the day on Monday.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-16T06:33:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T14:34:46-00:00, urn:oid:2.49.0.1.124.3642640604.2019<br>Area: Labrador City and Wabush",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.3642640604.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T14_34_46_00_00Iurn_oid_2.49.0.1.124.3642640604.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191216063346+00:00"
 			}
 		},
 		{
@@ -1440,6 +1455,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.8528, 43.5481 ],
+							[ -65.779, 43.4069 ],
+							[ -65.6057, 43.3204 ],
+							[ -64.8863, 43.7582 ],
+							[ -64.4838, 44.0841 ],
+							[ -64.5022, 44.1157 ],
+							[ -64.5276, 44.1403 ],
+							[ -64.5586, 44.1453 ],
+							[ -64.8731, 44.4146 ],
+							[ -64.8653, 44.4201 ],
+							[ -64.8546, 44.458 ],
+							[ -64.9461, 44.5351 ],
+							[ -65.0755, 44.4407 ],
+							[ -65.1623, 44.4446 ],
+							[ -65.1856, 44.4122 ],
+							[ -65.3296, 44.3106 ],
+							[ -65.3923, 44.2277 ],
+							[ -65.6271, 44.193 ],
+							[ -65.8891, 44.1327 ],
+							[ -66.0272, 44.0753 ],
+							[ -66.1537, 44.0035 ],
+							[ -66.2609, 43.9343 ],
+							[ -66.2464, 43.8302 ],
+							[ -66.0816, 43.613 ],
+							[ -65.8528, 43.5481 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 15, 2019 14:25",
+				"Expires_UTC" : "December 15, 2019 19:59",
+				"Summary" : "Description: High water levels expected today.\n\nLocation: South shore of Nova Scotia.\n\nTime span: During the high tide near noon today.\n\nLarge waves with rough and pounding surf enhanced by storm surge can be expected along the Atlantic coast during high tide today, and may cause some minor flooding along the coast.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-12-15T19:59:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T14:25:10-00:00, urn:oid:2.49.0.1.124.0493631282.2019<br>Area: Queens County, Shelburne County, Yarmouth County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.0493631282.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T14_25_10_00_00Iurn_oid_2.49.0.1.124.0493631282.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191215195910+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.3109, 49.4067 ],
 							[ -58.8133, 48.8226 ],
 							[ -59.2492, 48.6594 ],
@@ -1825,79 +1898,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T12_33_05_00_00Iurn_oid_2.49.0.1.124.2244646396.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191216015905+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -67.4492, 53.6156 ],
-							[ -67.3262, 53.5041 ],
-							[ -67.1137, 53.4892 ],
-							[ -67.007, 53.4261 ],
-							[ -67.1111, 53.3398 ],
-							[ -67.04, 53.2782 ],
-							[ -67.0727, 53.1831 ],
-							[ -67.3159, 53.2211 ],
-							[ -67.4732, 53.1139 ],
-							[ -67.4197, 52.9835 ],
-							[ -67.4209, 52.8874 ],
-							[ -66.8589, 52.6151 ],
-							[ -66.6924, 52.6502 ],
-							[ -66.6736, 52.7242 ],
-							[ -66.5908, 52.7544 ],
-							[ -66.5774, 52.8755 ],
-							[ -66.4083, 52.9547 ],
-							[ -66.3918, 52.9252 ],
-							[ -66.4872, 52.8641 ],
-							[ -66.4128, 52.7531 ],
-							[ -66.5051, 52.6306 ],
-							[ -66.4317, 52.4229 ],
-							[ -66.563, 52.3541 ],
-							[ -66.5062, 52.2511 ],
-							[ -66.4625, 52.251 ],
-							[ -66.2111, 52.3643 ],
-							[ -65.9218, 52.5465 ],
-							[ -65.7644, 52.7401 ],
-							[ -65.7115, 52.991 ],
-							[ -65.736, 53.1 ],
-							[ -65.2074, 53.2454 ],
-							[ -65.2929, 53.5562 ],
-							[ -65.9681, 53.3999 ],
-							[ -66.1928, 53.5357 ],
-							[ -66.573, 53.6494 ],
-							[ -66.9979, 53.6775 ],
-							[ -67.2095, 53.6577 ],
-							[ -67.3901, 53.6205 ],
-							[ -67.395, 53.6189 ],
-							[ -67.4492, 53.6156 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2019 14:34",
-				"Expires_UTC" : "December 16, 2019 06:33",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 25 to 35 cm.\n\nMaximum wind gusts: northwesterly 80 km/h.\n\nLocations: Labrador City and Wabush.\n\nTime span: continuing until Monday morning.\n\nRemarks: Snow, heavy at times, will continue through today, occasionally mixing with ice pellets and freezing rain.  Snowfall rates will ease tonight, but northwesterly winds will strengthen overnight tonight resulting in poor visibility in blowing snow. Conditions are expected to improve late in the day on Monday.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-16T06:33:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-15T14:34:46-00:00, urn:oid:2.49.0.1.124.3642640604.2019<br>Area: Labrador City and Wabush",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-15:feed.atom/urn:oid:2.49.0.1.124.3642640604.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-15/2019_12_15T14_34_46_00_00Iurn_oid_2.49.0.1.124.3642640604.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191216063346+00:00"
 			}
 		}
 	]
