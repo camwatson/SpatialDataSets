@@ -1802,6 +1802,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.2163, 47.9516 ],
+							[ -65.2163, 47.8063 ],
+							[ -65.2377, 47.2849 ],
+							[ -64.9706, 47.3164 ],
+							[ -64.9364, 47.3299 ],
+							[ -64.7688, 47.3864 ],
+							[ -64.7526, 47.5525 ],
+							[ -64.4105, 47.8072 ],
+							[ -64.4829, 48.0381 ],
+							[ -64.6328, 48.0419 ],
+							[ -64.7544, 48.0994 ],
+							[ -65.2163, 47.9516 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 16, 2019 19:48",
+				"Expires_UTC" : "December 16, 2019 20:48",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2019-12-16T20:48:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T19:48:28-00:00, urn:oid:2.49.0.1.124.3687349838.2019<br>Area: Acadian Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.3687349838.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T19_48_28_00_00Iurn_oid_2.49.0.1.124.3687349838.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191216204828+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -63.6863, 53.3002 ],
 							[ -61.5, 52.9003 ],
 							[ -60.8397, 53.0302 ],
@@ -1856,51 +1901,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T14_57_15_00_00Iurn_oid_2.49.0.1.124.0969783721.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191217065615+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -65.2163, 47.9516 ],
-							[ -65.2163, 47.8063 ],
-							[ -65.2377, 47.2849 ],
-							[ -64.9706, 47.3164 ],
-							[ -64.9364, 47.3299 ],
-							[ -64.7688, 47.3864 ],
-							[ -64.7526, 47.5525 ],
-							[ -64.4105, 47.8072 ],
-							[ -64.4829, 48.0381 ],
-							[ -64.6328, 48.0419 ],
-							[ -64.7544, 48.0994 ],
-							[ -65.2163, 47.9516 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2019 14:46",
-				"Expires_UTC" : "December 17, 2019 06:45",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts; 90 km/h.\n\nLocation: Coastal areas of the Acadian Peninsula. \n\nTime span: Today.\n\nRemarks: Westerly winds gusting to 90 km/h will continue today. The strongest gusts will be over exposed areas near the coast. Gusts will diminish to 70 km/h late this evening.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2019-12-17T06:45:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T14:46:46-00:00, urn:oid:2.49.0.1.124.2993606106.2019<br>Area: Acadian Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.2993606106.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T14_46_46_00_00Iurn_oid_2.49.0.1.124.2993606106.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191217064546+00:00"
 			}
 		},
 		{
