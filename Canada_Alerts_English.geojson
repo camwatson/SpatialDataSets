@@ -305,6 +305,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.567607421, 48.1000655797 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.83, 48.58 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.817, 49.2073 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -57.4008, 50.5801 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "December 16, 2019 01:49",
+				"Expires_UTC" : "December 16, 2019 17:48",
+				"Summary" : "Description: Blizzard conditions with gusty winds and persistent visibility near zero in snow and blowing snow are expected or occurring.\n\nTotal snowfall: generally 10 to 20 cm except locally 30 cm or more in snow squalls.\n\nMaximum wind gusts: westerly 80 km/h except locally as high as 110 km/h from the Port au Port Peninsula south to Port aux Basques Monday afternoon and Monday night.\n\nLocations: the west coast of Newfoundland from Channel-Port aux Basques to Hawke's Bay, and Deer Lake - Humber Valley.\n\nTime span: overnight tonight until Tuesday evening.\n\nRemarks: Intense snow squalls are expected to develop early Monday morning in conjunction with very strong westerly winds. Visibility will be frequently reduced to near zero to give blizzard like conditions in blowing snow. Little improvement is expected until winds begin to ease on Tuesday evening.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-16T17:48:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T01:49:36-00:00, urn:oid:2.49.0.1.124.3222903858.2019<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Deer Lake - Humber Valley, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.3222903858.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T01_49_36_00_00Iurn_oid_2.49.0.1.124.3222903858.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191216174836+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -61.891, 55.378 ],
 							[ -60.5775, 54.79 ],
 							[ -60.3074, 54.9828 ],
@@ -524,37 +586,49 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.567607421, 48.1000655797 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.6299, 48.7822 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2019 01:21",
-				"Expires_UTC" : "December 16, 2019 17:20",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nLocation: Iles-de-la-Madeleine\n\nMaximum wind gusts: up to 100 km/h\n\nTime span: tonight through Monday\n\nRemarks: Strong westerly winds will continue to increase with gusts reaching as high as 90 km/h by Monday morning. Strong winds will continue through the day on Monday with peak winds reaching as high as 100 km/h. Winds are expected to diminish to 80 km/h late Monday evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-12-16T17:20:40-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T01:21:40-00:00, urn:oid:2.49.0.1.124.2159076559.2019<br>Area: Îles-de-la-Madeleine",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 16, 2019 01:53",
+				"Expires_UTC" : "December 16, 2019 02:52",
+				"Summary" : "Description: Upgraded to blizzard warnings.\n\n###<br>Expires: 2019-12-16T02:52:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T01:53:15-00:00, urn:oid:2.49.0.1.124.2083978426.2019<br>Area: Channel-Port aux Basques and vicinity, Bay St. George",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.2159076559.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T01_21_40_00_00Iurn_oid_2.49.0.1.124.2159076559.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.2083978426.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T01_53_15_00_00Iurn_oid_2.49.0.1.124.2083978426.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191216172040+00:00"
+				"Expires_FMEFormat" : "20191216025215+00:00"
 			}
 		},
 		{
@@ -605,49 +679,37 @@
 				"coordinates" : [
 					[
 						[
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.567607421, 48.1000655797 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.6299, 48.7822 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ]
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 16, 2019 01:53",
-				"Expires_UTC" : "December 16, 2019 02:52",
-				"Summary" : "Description: Upgraded to blizzard warnings.\n\n###<br>Expires: 2019-12-16T02:52:15-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T01:53:15-00:00, urn:oid:2.49.0.1.124.2083978426.2019<br>Area: Channel-Port aux Basques and vicinity, Bay St. George",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2019 01:21",
+				"Expires_UTC" : "December 16, 2019 17:20",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nLocation: Iles-de-la-Madeleine\n\nMaximum wind gusts: up to 100 km/h\n\nTime span: tonight through Monday\n\nRemarks: Strong westerly winds will continue to increase with gusts reaching as high as 90 km/h by Monday morning. Strong winds will continue through the day on Monday with peak winds reaching as high as 100 km/h. Winds are expected to diminish to 80 km/h late Monday evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-12-16T17:20:40-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T01:21:40-00:00, urn:oid:2.49.0.1.124.2159076559.2019<br>Area: Îles-de-la-Madeleine",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.2083978426.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T01_53_15_00_00Iurn_oid_2.49.0.1.124.2083978426.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.2159076559.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T01_21_40_00_00Iurn_oid_2.49.0.1.124.2159076559.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191216025215+00:00"
+				"Expires_FMEFormat" : "20191216172040+00:00"
 			}
 		},
 		{
@@ -841,61 +903,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.0483, 46.1152 ],
-							[ -60.9766, 46.0016 ],
-							[ -60.9641, 46.0041 ],
-							[ -60.9256, 46.0478 ],
-							[ -60.8568, 46.0675 ],
-							[ -60.8098, 46.0638 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.6864, 46.0863 ],
-							[ -60.6021, 46.1338 ],
-							[ -60.5551, 46.1916 ],
-							[ -60.4991, 46.2258 ],
-							[ -60.4173, 46.2948 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2019 01:23",
-				"Expires_UTC" : "December 16, 2019 17:22",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nPeak wind gusts: 100 km/h\n\nLocation: northern Inverness and Victoria counties\n\nTime span: late Monday afternoon and Monday evening\n\nRemarks: Westerly winds will intensify on Monday night with gusts reaching 100 km/h over coastal areas of northern Inverness and Victoria counties. These winds will persist through Monday evening and will begin to diminish in the overnight hours.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-12-16T17:22:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T01:23:33-00:00, urn:oid:2.49.0.1.124.1807563463.2019<br>Area: Inverness County - Mabou and north, Victoria County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.1807563463.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T01_23_33_00_00Iurn_oid_2.49.0.1.124.1807563463.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191216172233+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -63.8828, 53.2255 ],
 							[ -63.8713, 53.2288 ],
 							[ -63.7018, 53.2906 ],
@@ -944,6 +951,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T02_17_38_00_00Iurn_oid_2.49.0.1.124.3423111921.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191216181638+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.0483, 46.1152 ],
+							[ -60.9766, 46.0016 ],
+							[ -60.9641, 46.0041 ],
+							[ -60.9256, 46.0478 ],
+							[ -60.8568, 46.0675 ],
+							[ -60.8098, 46.0638 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.6864, 46.0863 ],
+							[ -60.6021, 46.1338 ],
+							[ -60.5551, 46.1916 ],
+							[ -60.4991, 46.2258 ],
+							[ -60.4173, 46.2948 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2019 01:23",
+				"Expires_UTC" : "December 16, 2019 17:22",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nPeak wind gusts: 100 km/h\n\nLocation: northern Inverness and Victoria counties\n\nTime span: late Monday afternoon and Monday evening\n\nRemarks: Westerly winds will intensify on Monday night with gusts reaching 100 km/h over coastal areas of northern Inverness and Victoria counties. These winds will persist through Monday evening and will begin to diminish in the overnight hours.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2019-12-16T17:22:33-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T01:23:33-00:00, urn:oid:2.49.0.1.124.1807563463.2019<br>Area: Inverness County - Mabou and north, Victoria County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.1807563463.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T01_23_33_00_00Iurn_oid_2.49.0.1.124.1807563463.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191216172233+00:00"
 			}
 		},
 		{
@@ -1367,6 +1429,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -121.0736, 49.3324 ],
+							[ -121.1638, 49.3396 ],
+							[ -121.3808, 49.3145 ],
+							[ -121.3016, 49 ],
+							[ -121.2289, 49.0006 ],
+							[ -121.1942, 49.0003 ],
+							[ -120.6331, 48.9974 ],
+							[ -120.0025, 48.9994 ],
+							[ -120.0009, 48.9994 ],
+							[ -119.9892, 49.3375 ],
+							[ -120.0011, 49.6368 ],
+							[ -119.9965, 49.7448 ],
+							[ -120.0012, 49.8499 ],
+							[ -120.4696, 49.6114 ],
+							[ -120.9164, 49.3465 ],
+							[ -120.9728, 49.3765 ],
+							[ -121.0736, 49.3324 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2019 02:40",
+				"Expires_UTC" : "December 16, 2019 18:20",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nAreas of dense fog have developed in the Similkameen region. The fog will persist until early Monday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-12-16T18:20:34-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T02:40:34-00:00, urn:oid:2.49.0.1.124.2694339608.2019<br>Area: Similkameen",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.2694339608.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T02_40_34_00_00Iurn_oid_2.49.0.1.124.2694339608.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191216182034+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.8312, 49.5216 ],
 							[ -66.7602, 49.3619 ],
 							[ -66.805, 49.3539 ],
@@ -1555,68 +1667,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T02_19_09_00_00Iurn_oid_2.49.0.1.124.0471846296.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191216181809+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.567607421, 48.1000655797 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.83, 48.58 ],
-							[ -57.4599, 48.2499 ],
-							[ -56.817, 49.2073 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -57.4008, 50.5801 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "December 16, 2019 01:49",
-				"Expires_UTC" : "December 16, 2019 17:48",
-				"Summary" : "Description: Blizzard conditions with gusty winds and persistent visibility near zero in snow and blowing snow are expected or occurring.\n\nTotal snowfall: generally 10 to 20 cm except locally 30 cm or more in snow squalls.\n\nMaximum wind gusts: westerly 80 km/h except locally as high as 110 km/h from the Port au Port Peninsula south to Port aux Basques Monday afternoon and Monday night.\n\nLocations: the west coast of Newfoundland from Channel-Port aux Basques to Hawke's Bay, and Deer Lake - Humber Valley.\n\nTime span: overnight tonight until Tuesday evening.\n\nRemarks: Intense snow squalls are expected to develop early Monday morning in conjunction with very strong westerly winds. Visibility will be frequently reduced to near zero to give blizzard like conditions in blowing snow. Little improvement is expected until winds begin to ease on Tuesday evening.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-16T17:48:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-16T01:49:36-00:00, urn:oid:2.49.0.1.124.3222903858.2019<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Deer Lake - Humber Valley, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-16:feed.atom/urn:oid:2.49.0.1.124.3222903858.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-16/2019_12_16T01_49_36_00_00Iurn_oid_2.49.0.1.124.3222903858.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191216174836+00:00"
 			}
 		}
 	]
