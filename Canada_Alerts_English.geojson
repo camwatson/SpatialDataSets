@@ -77,66 +77,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.567607421, 48.1000655797 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -57.4008, 50.5801 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 17, 2019 03:21",
-				"Expires_UTC" : "December 17, 2019 11:00",
-				"Summary" : "Description: Large waves, pounding surf and elevated sea water levels are expected.\n\nWave heights: 5 to 8 metres, breaking upon approach to shore.\n\nLocations: west-facing shorelines from Hawkes Bay to Port aux Basques.\n\nTime span: until early Tuesday morning.\n\nNext high tide: 1:30 A.M. to 3:30 A.M. Tuesday morning.\n\nRemarks: Storm surge and minor coastal flooding is possible along shorelines exposed to the west, especially near high tide tonight.  Although tonight's high tide is not expected to be as high as the tide earlier this afternoon, the stronger winds and higher waves are expected to have similar impacts as experienced today.  Water levels will begin to subside Tuesday morning as the tide drops.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-17T11:00:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-17T03:21:46-00:00, urn:oid:2.49.0.1.124.0493003163.2019<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-17:feed.atom/urn:oid:2.49.0.1.124.0493003163.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-17/2019_12_17T03_21_46_00_00Iurn_oid_2.49.0.1.124.0493003163.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191217110046+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -63.6863, 53.3002 ],
 							[ -61.5, 52.9003 ],
 							[ -60.8397, 53.0302 ],
@@ -862,43 +802,57 @@
 				"coordinates" : [
 					[
 						[
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -63.5006, 46.213 ],
-							[ -63.5565, 46.3787 ],
-							[ -63.6157, 46.5529 ],
-							[ -63.6271, 46.6222 ]
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.567607421, 48.1000655797 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -57.4008, 50.5801 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 17, 2019 03:10",
-				"Expires_UTC" : "December 17, 2019 07:59",
-				"Summary" : "Description: Strong winds that may cause damage are occurring.\n\nMaximum wind gusts: 100 km/h\n\nLocations: exposed coastal areas of northern Prince County.\n\nTime span: this evening.\n\nRemarks: Strong westerly wind gusts up to 100 km/h will continue for a few more hours over northern coastal areas of Prince County. Winds will slowly diminish overnight.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2019-12-17T07:59:10-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-17T03:10:10-00:00, urn:oid:2.49.0.1.124.3354075408.2019<br>Area: Prince County P.E.I.",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 17, 2019 03:21",
+				"Expires_UTC" : "December 17, 2019 11:00",
+				"Summary" : "Description: Large waves, pounding surf and elevated sea water levels are expected.\n\nWave heights: 5 to 8 metres, breaking upon approach to shore.\n\nLocations: west-facing shorelines from Hawkes Bay to Port aux Basques.\n\nTime span: until early Tuesday morning.\n\nNext high tide: 1:30 A.M. to 3:30 A.M. Tuesday morning.\n\nRemarks: Storm surge and minor coastal flooding is possible along shorelines exposed to the west, especially near high tide tonight.  Although tonight's high tide is not expected to be as high as the tide earlier this afternoon, the stronger winds and higher waves are expected to have similar impacts as experienced today.  Water levels will begin to subside Tuesday morning as the tide drops.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-17T11:00:46-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-17T03:21:46-00:00, urn:oid:2.49.0.1.124.0493003163.2019<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-17:feed.atom/urn:oid:2.49.0.1.124.3354075408.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-17/2019_12_17T03_10_10_00_00Iurn_oid_2.49.0.1.124.3354075408.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-17:feed.atom/urn:oid:2.49.0.1.124.0493003163.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-17/2019_12_17T03_21_46_00_00Iurn_oid_2.49.0.1.124.0493003163.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191217075910+00:00"
+				"Expires_FMEFormat" : "20191217110046+00:00"
 			}
 		},
 		{
