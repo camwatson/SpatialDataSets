@@ -956,6 +956,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -121.9611, 49.0003 ],
+							[ -121.764, 48.9964 ],
+							[ -121.3016, 49 ],
+							[ -121.2289, 49.0006 ],
+							[ -121.1942, 49.0003 ],
+							[ -121.1809, 49.151 ],
+							[ -121.257, 49.2793 ],
+							[ -121.3009, 49.2852 ],
+							[ -121.3467, 49.3731 ],
+							[ -121.4038, 49.467 ],
+							[ -121.5289, 49.522 ],
+							[ -121.6512, 49.5698 ],
+							[ -121.6978, 49.7382 ],
+							[ -121.7625, 49.889 ],
+							[ -122.0982, 49.78 ],
+							[ -122.1633, 49.7586 ],
+							[ -122.2474, 49.7186 ],
+							[ -122.385, 49.6529 ],
+							[ -122.2563, 49.5124 ],
+							[ -122.2015, 49.4358 ],
+							[ -122.1494, 49.3063 ],
+							[ -122.0962, 49.1993 ],
+							[ -122.131, 49.1417 ],
+							[ -122.1038, 49.0934 ],
+							[ -122.098, 49.002 ],
+							[ -122.0739, 49.0015 ],
+							[ -122.0485, 49.0013 ],
+							[ -121.9611, 49.0003 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 19, 2019 12:43",
+				"Expires_UTC" : "December 20, 2019 04:43",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2019-12-20T04:43:49-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-19T12:43:49-00:00, urn:oid:2.49.0.1.124.3487441462.2019<br>Area: Fraser Valley - central including Chilliwack, Fraser Valley - east including Hope",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-19:feed.atom/urn:oid:2.49.0.1.124.3487441462.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-19/2019_12_19T12_43_49_00_00Iurn_oid_2.49.0.1.124.3487441462.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191220044349+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -117.4199, 50.7499 ],
 							[ -118.0374, 50.7609 ],
 							[ -118.8, 50.7499 ],
@@ -1642,25 +1703,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 19, 2019 11:41",
-				"Expires_UTC" : "December 19, 2019 20:54",
-				"Summary" : "Description: Snowfall with total amounts of about 20 cm is expected.\n\nFlurries will continue tonight along the Haines Road with and additional 5 to 10 cm expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2019-12-19T20:54:44-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-19T11:41:44-00:00, urn:oid:2.49.0.1.124.1790344883.2019<br>Area: Haines Road - Haines Junction to Pleasant Camp",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 19, 2019 12:48",
+				"Expires_UTC" : "December 19, 2019 13:48",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2019-12-19T13:48:18-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-19T12:48:18-00:00, urn:oid:2.49.0.1.124.1768421429.2019<br>Area: Haines Road - Haines Junction to Pleasant Camp",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-19:feed.atom/urn:oid:2.49.0.1.124.1790344883.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-19/2019_12_19T11_41_44_00_00Iurn_oid_2.49.0.1.124.1790344883.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-19:feed.atom/urn:oid:2.49.0.1.124.1768421429.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-19/2019_12_19T12_48_18_00_00Iurn_oid_2.49.0.1.124.1768421429.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191219205444+00:00"
+				"Expires_FMEFormat" : "20191219134818+00:00"
 			}
 		},
 		{
