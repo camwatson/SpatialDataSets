@@ -111,66 +111,6 @@
 					[
 						[
 							[ -128.7905, 65.5328 ],
-							[ -128.5444, 65.6128 ],
-							[ -128.5178, 65.6213 ],
-							[ -127.3516, 65.9868 ],
-							[ -129.0486, 66.8628 ],
-							[ -129.5412, 66.7186 ],
-							[ -129.5586, 66.7133 ],
-							[ -129.5802, 66.7072 ],
-							[ -129.6147, 66.6966 ],
-							[ -129.6207, 66.6949 ],
-							[ -129.6267, 66.6931 ],
-							[ -130.5023, 66.4274 ],
-							[ -128.7905, 65.5328 ]
-						]
-					],
-					[
-						[
-							[ -125.7425, 66.8628 ],
-							[ -125.5547, 66.9859 ],
-							[ -125.5454, 67.0444 ],
-							[ -125.7166, 67.1816 ],
-							[ -126.0977, 67.2424 ],
-							[ -126.5038, 67.1861 ],
-							[ -126.6874, 67.0412 ],
-							[ -126.5582, 66.889 ],
-							[ -126.1449, 66.8101 ],
-							[ -125.7425, 66.8628 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 22, 2019 04:24",
-				"Expires_UTC" : "December 22, 2019 20:23",
-				"Summary" : "Description: A multi-day episode of very cold wind chills continues. The coldest wind chill values will be near minus 50.\n\nExtreme cold conditions, with wind chill values near minus 50, are expected to persist through the weekend.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-22T20:23:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-22T04:24:55-00:00, urn:oid:2.49.0.1.124.1029045318.2019<br>Area: Fort Good Hope Region, Colville Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-22:feed.atom/urn:oid:2.49.0.1.124.1029045318.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-22/2019_12_22T04_24_55_00_00Iurn_oid_2.49.0.1.124.1029045318.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191222202355+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -128.7905, 65.5328 ],
 							[ -126.9244, 64.7729 ],
 							[ -125.4256, 64.1122 ],
 							[ -125.0514, 64.2389 ],
@@ -273,6 +213,66 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-22/2019_12_22T13_50_55_00_00Iurn_oid_2.49.0.1.124.1326783680.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191223054955+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -128.7905, 65.5328 ],
+							[ -128.5444, 65.6128 ],
+							[ -128.5178, 65.6213 ],
+							[ -127.3516, 65.9868 ],
+							[ -129.0486, 66.8628 ],
+							[ -129.5412, 66.7186 ],
+							[ -129.5586, 66.7133 ],
+							[ -129.5802, 66.7072 ],
+							[ -129.6147, 66.6966 ],
+							[ -129.6207, 66.6949 ],
+							[ -129.6267, 66.6931 ],
+							[ -130.5023, 66.4274 ],
+							[ -128.7905, 65.5328 ]
+						]
+					],
+					[
+						[
+							[ -125.7425, 66.8628 ],
+							[ -125.5547, 66.9859 ],
+							[ -125.5454, 67.0444 ],
+							[ -125.7166, 67.1816 ],
+							[ -126.0977, 67.2424 ],
+							[ -126.5038, 67.1861 ],
+							[ -126.6874, 67.0412 ],
+							[ -126.5582, 66.889 ],
+							[ -126.1449, 66.8101 ],
+							[ -125.7425, 66.8628 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 22, 2019 04:24",
+				"Expires_UTC" : "December 22, 2019 20:23",
+				"Summary" : "Description: A multi-day episode of very cold wind chills continues. The coldest wind chill values will be near minus 50.\n\nExtreme cold conditions, with wind chill values near minus 50, are expected to persist through the weekend.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-22T20:23:55-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-22T04:24:55-00:00, urn:oid:2.49.0.1.124.1029045318.2019<br>Area: Fort Good Hope Region, Colville Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-22:feed.atom/urn:oid:2.49.0.1.124.1029045318.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-22/2019_12_22T04_24_55_00_00Iurn_oid_2.49.0.1.124.1029045318.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191222202355+00:00"
 			}
 		},
 		{
@@ -522,18 +522,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 22, 2019 13:07",
-				"Expires_UTC" : "December 23, 2019 05:06",
-				"Summary" : "Description: A multi-day episode of very cold wind chills continues. The coldest wind chill values will be near minus 50.\n\nExtreme cold conditions, with wind chill values near minus 50, are expected to persist through the weekend.  Temperatures should begin to warm up Monday afternoon.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-23T05:06:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-22T13:07:09-00:00, urn:oid:2.49.0.1.124.1019234021.2019<br>Area: Norman Wells - Tulita Region, Fort Good Hope Region, Colville Lake, North Slave Region including Wekweeti - Whati - Behchoko",
+				"LastUpdate_UTC" : "December 22, 2019 17:49",
+				"Expires_UTC" : "December 23, 2019 09:48",
+				"Summary" : "Description: A multi-day episode of very cold wind chills continues. The coldest wind chill values will be near minus 50.\n\nExtreme cold conditions, with wind chill values near minus 50, are expected to persist through the weekend. Temperatures should begin to moderate Monday afternoon.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-23T09:48:01-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-22T17:49:01-00:00, urn:oid:2.49.0.1.124.0629308411.2019<br>Area: Norman Wells - Tulita Region, Fort Good Hope Region, Colville Lake, North Slave Region including Wekweeti - Whati - Behchoko",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-22:feed.atom/urn:oid:2.49.0.1.124.1019234021.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-22/2019_12_22T13_07_09_00_00Iurn_oid_2.49.0.1.124.1019234021.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-22:feed.atom/urn:oid:2.49.0.1.124.0629308411.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-22/2019_12_22T17_49_01_00_00Iurn_oid_2.49.0.1.124.0629308411.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191223050609+00:00"
+				"Expires_FMEFormat" : "20191223094801+00:00"
 			}
 		},
 		{
@@ -676,18 +676,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 22, 2019 13:07",
-				"Expires_UTC" : "December 23, 2019 05:06",
-				"Summary" : "Description: A multi-day episode of very cold wind chills continues. The coldest wind chill values will be near minus 50.\n\nExtreme cold conditions, with wind chill values near minus 50, are expected to persist through the weekend.  Temperatures should begin to warm up Monday afternoon.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-23T05:06:09-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-22T13:07:09-00:00, urn:oid:2.49.0.1.124.1856587927.2019<br>Area: South Delta Region including Ft. McPherson - Tsiigehtchic",
+				"LastUpdate_UTC" : "December 22, 2019 17:48",
+				"Expires_UTC" : "December 23, 2019 09:48",
+				"Summary" : "Description: A multi-day episode of very cold wind chills continues. The coldest wind chill values will be near minus 50.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-23T09:48:01-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-22T17:48:01-00:00, urn:oid:2.49.0.1.124.1354001061.2019<br>Area: South Delta Region including Ft. McPherson - Tsiigehtchic",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-22:feed.atom/urn:oid:2.49.0.1.124.1856587927.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-22/2019_12_22T13_07_09_00_00Iurn_oid_2.49.0.1.124.1856587927.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-22:feed.atom/urn:oid:2.49.0.1.124.1354001061.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-22/2019_12_22T17_48_01_00_00Iurn_oid_2.49.0.1.124.1354001061.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191223050609+00:00"
+				"Expires_FMEFormat" : "20191223094801+00:00"
 			}
 		}
 	]
