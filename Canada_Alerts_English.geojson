@@ -1110,67 +1110,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.8414, 46.4826 ],
-							[ -82.82, 46.2733 ],
-							[ -82.0579, 46.2733 ],
-							[ -82.0579, 46.6086 ],
-							[ -81.939, 46.6086 ],
-							[ -81.939, 46.9696 ],
-							[ -81.0754, 46.97 ],
-							[ -81.0762, 47.581 ],
-							[ -81.0729, 48.2526 ],
-							[ -82.6293, 48.2543 ],
-							[ -82.6268, 49.1616 ],
-							[ -84.0021, 49.1609 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.002, 48.5501 ],
-							[ -84.002, 48.5499 ],
-							[ -83.9939, 48.1107 ],
-							[ -83.996, 48.1106 ],
-							[ -84.2352, 48.0981 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.6559, 47.963 ],
-							[ -84.8608, 47.8957 ],
-							[ -85.1481, 47.824 ],
-							[ -84.9134, 47.2346 ],
-							[ -84.7351, 46.6321 ],
-							[ -84.4985, 46.6539 ],
-							[ -84.4894, 46.6516 ],
-							[ -83.8414, 46.4826 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Freezing Drizzle Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Drizzle",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 25, 2019 21:40",
-				"Expires_UTC" : "December 26, 2019 13:39",
-				"Summary" : "Description: Freezing drizzle expected  tonight and possibly into Thursday.\n\nAreas of freezing drizzle are affecting the region however the precipitation is light. Dense fog patches are also possible in some areas.\n\nTravel may be affected due to icy roads and reduced visibilities at times.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2019-12-26T13:39:41-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-25T21:40:41-00:00, urn:oid:2.49.0.1.124.1593211441.2019<br>Area: Agawa - Lake Superior Park, Searchmont - Montreal River Harbour - Batchawana Bay, Elliot Lake - Ranger Lake, Chapleau - Missinaibi Lake, Gogama - Foleyet",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-25:feed.atom/urn:oid:2.49.0.1.124.1593211441.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-25/2019_12_25T21_40_41_00_00Iurn_oid_2.49.0.1.124.1593211441.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191226133941+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -71.3493, 46.3167 ],
 							[ -70.9806, 45.9844 ],
 							[ -70.9245, 45.9333 ],
@@ -1307,6 +1246,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-25/2019_12_25T21_53_29_00_00Iurn_oid_2.49.0.1.124.1805616256.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191226114929+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -117.9704, 70.6618 ],
+							[ -117.6802, 70.5501 ],
+							[ -117.4352, 70.5879 ],
+							[ -117.3187, 70.6198 ],
+							[ -117.2284, 70.6592 ],
+							[ -117.1705, 70.7006 ],
+							[ -117.1358, 70.7604 ],
+							[ -117.1524, 70.821 ],
+							[ -117.2138, 70.8744 ],
+							[ -117.3239, 70.9235 ],
+							[ -117.4716, 70.9606 ],
+							[ -117.6454, 70.9829 ],
+							[ -117.8314, 70.9884 ],
+							[ -118.0038, 70.9781 ],
+							[ -118.1617, 70.9535 ],
+							[ -118.3025, 70.9131 ],
+							[ -118.3629, 70.8409 ],
+							[ -117.9704, 70.6618 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 25, 2019 17:38",
+				"Expires_UTC" : "December 26, 2019 09:37",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected tonight. Blizzard conditions will end early Thursday morning as the winds ease and the snow ends.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-26T09:37:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-25T17:38:54-00:00, urn:oid:2.49.0.1.124.1149357144.2019<br>Area: Ulukhaktok",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-25:feed.atom/urn:oid:2.49.0.1.124.1149357144.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-25/2019_12_25T17_38_54_00_00Iurn_oid_2.49.0.1.124.1149357144.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191226093754+00:00"
 			}
 		},
 		{
@@ -2230,48 +2220,58 @@
 				"coordinates" : [
 					[
 						[
-							[ -117.9704, 70.6618 ],
-							[ -117.6802, 70.5501 ],
-							[ -117.4352, 70.5879 ],
-							[ -117.3187, 70.6198 ],
-							[ -117.2284, 70.6592 ],
-							[ -117.1705, 70.7006 ],
-							[ -117.1358, 70.7604 ],
-							[ -117.1524, 70.821 ],
-							[ -117.2138, 70.8744 ],
-							[ -117.3239, 70.9235 ],
-							[ -117.4716, 70.9606 ],
-							[ -117.6454, 70.9829 ],
-							[ -117.8314, 70.9884 ],
-							[ -118.0038, 70.9781 ],
-							[ -118.1617, 70.9535 ],
-							[ -118.3025, 70.9131 ],
-							[ -118.3629, 70.8409 ],
-							[ -117.9704, 70.6618 ]
+							[ -83.8414, 46.4826 ],
+							[ -82.82, 46.2733 ],
+							[ -82.0579, 46.2733 ],
+							[ -82.0579, 46.6086 ],
+							[ -81.939, 46.6086 ],
+							[ -81.939, 46.9696 ],
+							[ -81.0754, 46.97 ],
+							[ -81.0762, 47.581 ],
+							[ -81.0729, 48.2526 ],
+							[ -82.6293, 48.2543 ],
+							[ -82.6268, 49.1616 ],
+							[ -84.0021, 49.1609 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.002, 48.5501 ],
+							[ -84.002, 48.5499 ],
+							[ -83.9939, 48.1107 ],
+							[ -83.996, 48.1106 ],
+							[ -84.2352, 48.0981 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.6559, 47.963 ],
+							[ -84.8608, 47.8957 ],
+							[ -85.1481, 47.824 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.7351, 46.6321 ],
+							[ -84.4985, 46.6539 ],
+							[ -84.4894, 46.6516 ],
+							[ -83.8414, 46.4826 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Freezing Drizzle Advisory Ended",
 				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 25, 2019 17:38",
-				"Expires_UTC" : "December 26, 2019 09:37",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected tonight. Blizzard conditions will end early Thursday morning as the winds ease and the snow ends.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2019-12-26T09:37:54-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-25T17:38:54-00:00, urn:oid:2.49.0.1.124.1149357144.2019<br>Area: Ulukhaktok",
+				"event" : "Freezing Drizzle",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 26, 2019 00:42",
+				"Expires_UTC" : "December 26, 2019 01:42",
+				"Summary" : "Description: Widespread freezing drizzle is no longer expected.\n\n\n###<br>Expires: 2019-12-26T01:42:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-26T00:42:58-00:00, urn:oid:2.49.0.1.124.4077975272.2019<br>Area: Agawa - Lake Superior Park, Searchmont - Montreal River Harbour - Batchawana Bay, Elliot Lake - Ranger Lake, Chapleau - Missinaibi Lake, Gogama - Foleyet",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-25:feed.atom/urn:oid:2.49.0.1.124.1149357144.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-25/2019_12_25T17_38_54_00_00Iurn_oid_2.49.0.1.124.1149357144.2019.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-26:feed.atom/urn:oid:2.49.0.1.124.4077975272.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-26/2019_12_26T00_42_58_00_00Iurn_oid_2.49.0.1.124.4077975272.2019.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191226093754+00:00"
+				"Expires_FMEFormat" : "20191226014258+00:00"
 			}
 		}
 	]
