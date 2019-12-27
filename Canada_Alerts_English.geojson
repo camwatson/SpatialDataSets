@@ -9,73 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55, 48.25 ],
-							[ -54.9999, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.4599, 47.976 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 26, 2019 19:23",
-				"Expires_UTC" : "December 27, 2019 11:22",
-				"Summary" : "Description: Very large waves, pounding surf, and elevated sea water levels are expected Friday morning.\n\nWave heights: 7 to 9 metres, breaking upon approach to shore.\n\nLocations: east and northeast coasts of Newfoundland.\n\nTime span: Friday morning.\n\nRemarks: A prolonged period of strong winds will cause very large waves to build today. Storm surge and coastal flooding may occur along shorelines exposed to the north and northeast, especially near high tide Friday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-27T11:22:48-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-26T19:23:48-00:00, urn:oid:2.49.0.1.124.0914184170.2019<br>Area: Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-26:feed.atom/urn:oid:2.49.0.1.124.0914184170.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-26/2019_12_26T19_23_48_00_00Iurn_oid_2.49.0.1.124.0914184170.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20191227112248+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -81.4419, 49.5091 ],
 							[ -79.5172, 49.1428 ],
 							[ -79.5172, 49.2829 ],
@@ -467,6 +400,78 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-27/2019_12_27T00_50_23_00_00Iurn_oid_2.49.0.1.124.0813218420.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20191227164923+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -54.65, 49.25 ]
+						]
+					],
+					[
+						[
+							[ -54.1199, 48.25 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.4599, 47.976 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.5163, 48.2499 ],
+							[ -53.5167, 48.25 ],
+							[ -54.1199, 48.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 27, 2019 08:37",
+				"Expires_UTC" : "December 27, 2019 16:59",
+				"Summary" : "Description: Very large waves, pounding surf, and elevated sea water levels are expected  this morning.\n\nWave heights: 5 to 7 metres, breaking upon approach to shore.\n\nLocations: northeast coast of Newfoundland and Trinity Bay, primarily those coastal areas exposed to the north to northeast.\n\nTime span: this morning within 2 hours either side of high tide.\n\nRemarks: Higher water levels will result from very large waves and pounding surf combined with a higher run of tides and a slight storm surge.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2019-12-27T16:59:28-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-27T08:37:28-00:00, urn:oid:2.49.0.1.124.0777567910.2019<br>Area: Bay of Exploits, Bonavista North, Clarenville and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-27:feed.atom/urn:oid:2.49.0.1.124.0777567910.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-27/2019_12_27T08_37_28_00_00Iurn_oid_2.49.0.1.124.0777567910.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20191227165928+00:00"
 			}
 		},
 		{
