@@ -1572,92 +1572,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.6948, 52.1 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 31, 2019 13:50",
-				"Expires_UTC" : "January 1, 2020 05:49",
-				"Summary" : "Description: Snow expected New Year's Day into Thursday morning. \n\nTotal snowfall: 10 to 20 cm.\n\nLocations: the Labrador Straits.\n\nTime span: Wednesday afternoon to Thursday morning.\n\nRemarks: Snow is expected to develop in the Straits area on Wednesday afternoon and persist until Thursday morning.  Travel conditions are likely to be poor Wednesday night due to snow and local blowing snow, especially over higher elevation areas of the Trans Labrador Highway.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-01T05:49:11-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-31T13:50:11-00:00, urn:oid:2.49.0.1.124.0293147588.2019<br>Area: Red Bay to L'Anse-au-Clair",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-31:feed.atom/urn:oid:2.49.0.1.124.0293147588.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-31/2019_12_31T13_50_11_00_00Iurn_oid_2.49.0.1.124.0293147588.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200101054911+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 31, 2019 14:56",
-				"Expires_UTC" : "January 1, 2020 06:55",
-				"Summary" : "Description: Maximum Les Suetes gusts: 120 km/h.\n\nTime span: This evening until Wednesday morning.\n\n###\n\nHigh winds may result in power outages and fallen tree branches.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-01-01T06:55:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-31T14:56:38-00:00, urn:oid:2.49.0.1.124.3751692129.2019<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-31:feed.atom/urn:oid:2.49.0.1.124.3751692129.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-31/2019_12_31T14_56_38_00_00Iurn_oid_2.49.0.1.124.3751692129.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200101065538+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -62.2998, 45.8648 ],
 							[ -63.1438, 45.8448 ],
 							[ -63.1906, 45.811 ],
@@ -1768,6 +1682,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-31/2019_12_31T14_50_08_00_00Iurn_oid_2.49.0.1.124.3397119142.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200101064908+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Les Suêtes Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 31, 2019 14:56",
+				"Expires_UTC" : "January 1, 2020 06:55",
+				"Summary" : "Description: Maximum Les Suetes gusts: 120 km/h.\n\nTime span: This evening until Wednesday morning.\n\n###\n\nHigh winds may result in power outages and fallen tree branches.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-01-01T06:55:38-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-31T14:56:38-00:00, urn:oid:2.49.0.1.124.3751692129.2019<br>Area: Inverness County - Mabou and north",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-31:feed.atom/urn:oid:2.49.0.1.124.3751692129.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-31/2019_12_31T14_56_38_00_00Iurn_oid_2.49.0.1.124.3751692129.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200101065538+00:00"
 			}
 		},
 		{
@@ -2095,6 +2050,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.6948, 52.1 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 31, 2019 19:35",
+				"Expires_UTC" : "January 1, 2020 11:34",
+				"Summary" : "Description: Snow expected New Year's Day. \n\nTotal snowfall: near 15 cm.\n\nLocations: the Labrador Straits.\n\nTime span: Wednesday and Wednesday night.\n\nRemarks: Snow is expected to develop in the Straits area near noon on Wednesday and end Wednesday night. Travel conditions are likely to be poor Wednesday evening due to snow and local blowing snow, especially over higher elevation areas of the Trans Labrador Highway.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-01T11:34:36-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-31T19:35:36-00:00, urn:oid:2.49.0.1.124.4197635979.2019<br>Area: Red Bay to L'Anse-au-Clair",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-31:feed.atom/urn:oid:2.49.0.1.124.4197635979.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-31/2019_12_31T19_35_36_00_00Iurn_oid_2.49.0.1.124.4197635979.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200101113436+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -55.9321, 47.1631 ],
 							[ -56.123, 46.9615 ],
 							[ -56.0644, 46.8176 ],
@@ -2280,6 +2280,72 @@
 				"coordinates" : [
 					[
 						[
+							[ -119.9107, 50.0731 ],
+							[ -119.9564, 49.9777 ],
+							[ -120.0012, 49.8499 ],
+							[ -120.0068, 49.743 ],
+							[ -120.0011, 49.6368 ],
+							[ -119.5566, 49.6228 ],
+							[ -118.9946, 49.6244 ],
+							[ -118.686, 49.841 ],
+							[ -118.3899, 50.06 ],
+							[ -118.574, 50.3966 ],
+							[ -118.8, 50.7499 ],
+							[ -118.8903, 51.0322 ],
+							[ -118.9999, 51.2999 ],
+							[ -119.2613, 51.4656 ],
+							[ -119.5942, 51.63 ],
+							[ -119.5055, 51.9778 ],
+							[ -119.4599, 52.33 ],
+							[ -120.0307, 52.1735 ],
+							[ -120.58, 51.9999 ],
+							[ -120.5924, 51.547 ],
+							[ -120.58, 51 ],
+							[ -121.1311, 51.013 ],
+							[ -121.65, 50.9999 ],
+							[ -121.5622, 50.7329 ],
+							[ -121.4319, 50.441 ],
+							[ -121.3503, 50.2159 ],
+							[ -121.26, 50 ],
+							[ -121.0269, 50.2548 ],
+							[ -120.86, 50.47 ],
+							[ -120.2689, 50.5261 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.8104, 50.3717 ],
+							[ -119.9107, 50.0731 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 31, 2019 16:51",
+				"Expires_UTC" : "January 1, 2020 04:59",
+				"Summary" : "Description: A long period of snowfall with total amounts of 20 to 30 cm is expected.\n\nA winter storm continues to track across British Columbia bringing heavy snow to the southern interior. Snow will taper off and become mixed with rain this evening.\n\nWe expect a total of 20 to 30 cm of snow by this evening across over North and Central Okanagan, Shuswap and North Thompson. \n\nOver higher elevations of South Thompson 10 to 15 cm snow is forecast by early this afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-01T04:59:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-31T16:51:58-00:00, urn:oid:2.49.0.1.124.2225295110.2019<br>Area: South Thompson, North Okanagan - including Vernon, Central Okanagan - including Kelowna, Shuswap, North Thompson",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-31:feed.atom/urn:oid:2.49.0.1.124.2225295110.2019",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-31/2019_12_31T16_51_58_00_00Iurn_oid_2.49.0.1.124.2225295110.2019.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200101045958+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -80.9105, 44.9805 ],
 							[ -81.0827, 45.0703 ],
 							[ -81.1853, 45.2717 ],
@@ -2386,72 +2452,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-31/2019_12_31T16_56_13_00_00Iurn_oid_2.49.0.1.124.0862624466.2019.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200101085513+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -119.9107, 50.0731 ],
-							[ -119.9564, 49.9777 ],
-							[ -120.0012, 49.8499 ],
-							[ -120.0068, 49.743 ],
-							[ -120.0011, 49.6368 ],
-							[ -119.5566, 49.6228 ],
-							[ -118.9946, 49.6244 ],
-							[ -118.686, 49.841 ],
-							[ -118.3899, 50.06 ],
-							[ -118.574, 50.3966 ],
-							[ -118.8, 50.7499 ],
-							[ -118.8903, 51.0322 ],
-							[ -118.9999, 51.2999 ],
-							[ -119.2613, 51.4656 ],
-							[ -119.5942, 51.63 ],
-							[ -119.5055, 51.9778 ],
-							[ -119.4599, 52.33 ],
-							[ -120.0307, 52.1735 ],
-							[ -120.58, 51.9999 ],
-							[ -120.5924, 51.547 ],
-							[ -120.58, 51 ],
-							[ -121.1311, 51.013 ],
-							[ -121.65, 50.9999 ],
-							[ -121.5622, 50.7329 ],
-							[ -121.4319, 50.441 ],
-							[ -121.3503, 50.2159 ],
-							[ -121.26, 50 ],
-							[ -121.0269, 50.2548 ],
-							[ -120.86, 50.47 ],
-							[ -120.2689, 50.5261 ],
-							[ -119.6999, 50.5999 ],
-							[ -119.8104, 50.3717 ],
-							[ -119.9107, 50.0731 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 31, 2019 16:51",
-				"Expires_UTC" : "January 1, 2020 04:59",
-				"Summary" : "Description: A long period of snowfall with total amounts of 20 to 30 cm is expected.\n\nA winter storm continues to track across British Columbia bringing heavy snow to the southern interior. Snow will taper off and become mixed with rain this evening.\n\nWe expect a total of 20 to 30 cm of snow by this evening across over North and Central Okanagan, Shuswap and North Thompson. \n\nOver higher elevations of South Thompson 10 to 15 cm snow is forecast by early this afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-01T04:59:58-00:00<br>Originated from CAP Alert: Environment Canada, 2019-12-31T16:51:58-00:00, urn:oid:2.49.0.1.124.2225295110.2019<br>Area: South Thompson, North Okanagan - including Vernon, Central Okanagan - including Kelowna, Shuswap, North Thompson",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2019-12-31:feed.atom/urn:oid:2.49.0.1.124.2225295110.2019",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2019-12-31/2019_12_31T16_51_58_00_00Iurn_oid_2.49.0.1.124.2225295110.2019.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200101045958+00:00"
 			}
 		},
 		{
