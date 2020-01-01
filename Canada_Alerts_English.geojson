@@ -373,47 +373,51 @@
 				"coordinates" : [
 					[
 						[
-							[ -119.9, 50.7999 ],
-							[ -119.8017, 50.6905 ],
-							[ -119.6999, 50.5999 ],
-							[ -119.2916, 50.6603 ],
-							[ -118.8, 50.7499 ],
-							[ -118.8903, 51.0322 ],
-							[ -118.9999, 51.2999 ],
-							[ -119.2613, 51.4656 ],
-							[ -119.5942, 51.63 ],
-							[ -119.5055, 51.9778 ],
-							[ -119.4599, 52.33 ],
-							[ -120.0307, 52.1735 ],
-							[ -120.58, 51.9999 ],
-							[ -120.5924, 51.547 ],
-							[ -120.58, 51 ],
-							[ -120.1937, 50.877 ],
-							[ -119.9, 50.7999 ]
+							[ -66.1938, 47.5446 ],
+							[ -65.8021, 47.2172 ],
+							[ -65.802, 47.2161 ],
+							[ -65.802, 47.2158 ],
+							[ -65.2377, 47.2849 ],
+							[ -65.2163, 47.8063 ],
+							[ -65.2163, 47.9516 ],
+							[ -65.4344, 47.921 ],
+							[ -65.8243, 48.018 ],
+							[ -66.0128, 48.0649 ],
+							[ -66.2939, 48.0424 ],
+							[ -66.4422, 48.0905 ],
+							[ -66.6148, 48.0154 ],
+							[ -66.7805, 47.993 ],
+							[ -66.7817, 48.0207 ],
+							[ -66.9036, 48.0246 ],
+							[ -66.9911, 47.9783 ],
+							[ -66.9979, 47.9393 ],
+							[ -67.0035, 47.9082 ],
+							[ -67.0033, 47.3573 ],
+							[ -66.1938, 47.5446 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 1, 2020 11:17",
-				"Expires_UTC" : "January 2, 2020 03:16",
-				"Summary" : "Description: A winter storm will continue to give snow to the North Thompson region this morning.\n\nA further 5 to 10 cm can be expected this morning before the snow tapers to flurries near midday.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Poor weather conditions may contribute to transportation delays.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-02T03:16:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-01T11:17:49-00:00, urn:oid:2.49.0.1.124.1631125094.2020<br>Area: North Thompson",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 1, 2020 12:57",
+				"Expires_UTC" : "January 1, 2020 13:57",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-01T13:57:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-01T12:57:46-00:00, urn:oid:2.49.0.1.124.2848408623.2020<br>Area: Campbellton and eastern half of Restigouche County, Bathurst and Chaleur Region",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-01:feed.atom/urn:oid:2.49.0.1.124.1631125094.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T11_17_49_00_00Iurn_oid_2.49.0.1.124.1631125094.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-01:feed.atom/urn:oid:2.49.0.1.124.2848408623.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T12_57_46_00_00Iurn_oid_2.49.0.1.124.2848408623.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200102031649+00:00"
+				"Expires_FMEFormat" : "20200101135746+00:00"
 			}
 		},
 		{
@@ -537,6 +541,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T02_57_38_00_00Iurn_oid_2.49.0.1.124.4052995466.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200101135938+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -119.9, 50.7999 ],
+							[ -119.8017, 50.6905 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.2916, 50.6603 ],
+							[ -118.8, 50.7499 ],
+							[ -118.8903, 51.0322 ],
+							[ -118.9999, 51.2999 ],
+							[ -119.2613, 51.4656 ],
+							[ -119.5942, 51.63 ],
+							[ -119.5055, 51.9778 ],
+							[ -119.4599, 52.33 ],
+							[ -120.0307, 52.1735 ],
+							[ -120.58, 51.9999 ],
+							[ -120.5924, 51.547 ],
+							[ -120.58, 51 ],
+							[ -120.1937, 50.877 ],
+							[ -119.9, 50.7999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 1, 2020 11:17",
+				"Expires_UTC" : "January 2, 2020 03:16",
+				"Summary" : "Description: A winter storm will continue to give snow to the North Thompson region this morning.\n\nA further 5 to 10 cm can be expected this morning before the snow tapers to flurries near midday.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Poor weather conditions may contribute to transportation delays.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-02T03:16:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-01T11:17:49-00:00, urn:oid:2.49.0.1.124.1631125094.2020<br>Area: North Thompson",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-01:feed.atom/urn:oid:2.49.0.1.124.1631125094.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T11_17_49_00_00Iurn_oid_2.49.0.1.124.1631125094.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200102031649+00:00"
 			}
 		},
 		{
@@ -850,46 +904,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T11_41_39_00_00Iurn_oid_2.49.0.1.124.1409579603.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200102034039+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 1, 2020 02:54",
-				"Expires_UTC" : "January 1, 2020 13:59",
-				"Summary" : "Description: Significant snow and strong winds expected tonight.\n\nTotal snowfall: 10 cm, locally higher amounts possible.\n\nMaximum wind gusts: 80 km/h, possibly 90 km/h.\n\nLocations: Iles-de-la-Madeleine\n\nTime span: until early Wednesday morning.\n\nRemarks: Snow mixed at times with ice pellets with risk of freezing rain will persist tonight, then taper to showers early Wednesday morning. Strong east or southeast winds gusting to 80 km/h or higher will also persist overnight before diminishing later Wednesday morning, These winds will give reduced visibility at times in blowing snow tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-01-01T13:59:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-01T02:54:59-00:00, urn:oid:2.49.0.1.124.1474265361.2020<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-01:feed.atom/urn:oid:2.49.0.1.124.1474265361.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T02_54_59_00_00Iurn_oid_2.49.0.1.124.1474265361.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200101135959+00:00"
 			}
 		},
 		{
@@ -1415,76 +1429,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.3895, 45.1399 ],
-							[ -79.876, 45.0916 ],
-							[ -79.8766, 45.0927 ],
-							[ -79.8771, 45.0932 ],
-							[ -79.8792, 45.0943 ],
-							[ -79.9004, 45.1035 ],
-							[ -79.9244, 45.1017 ],
-							[ -79.9596, 45.1118 ],
-							[ -79.9605, 45.1193 ],
-							[ -79.9816, 45.1284 ],
-							[ -80.0356, 45.1139 ],
-							[ -80.1017, 45.1263 ],
-							[ -80.1856, 45.0191 ],
-							[ -80.1213, 44.933 ],
-							[ -80.053, 44.862 ],
-							[ -79.9107, 44.872 ],
-							[ -79.823, 44.7847 ],
-							[ -79.7087, 44.7864 ],
-							[ -79.5662, 44.7803 ],
-							[ -79.5166, 44.784 ],
-							[ -79.3992, 44.7928 ],
-							[ -79.2988, 44.7904 ],
-							[ -79.2851, 44.7824 ],
-							[ -79.2358, 44.7938 ],
-							[ -79.2089, 44.8001 ],
-							[ -79.0624, 44.8403 ],
-							[ -79.1186, 44.95 ],
-							[ -79.1096, 44.9521 ],
-							[ -79.0993, 44.9549 ],
-							[ -79.0963, 44.9492 ],
-							[ -79.0928, 44.9431 ],
-							[ -79.0237, 44.9606 ],
-							[ -78.9347, 44.9858 ],
-							[ -78.9645, 45.046 ],
-							[ -79.0012, 45.1053 ],
-							[ -78.9997, 45.1057 ],
-							[ -79.3895, 45.1399 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 1, 2020 09:50",
-				"Expires_UTC" : "January 1, 2020 21:59",
-				"Summary" : "Description: Snow squalls ending this morning.\n\nLake effect snow off Georgian Bay is expected to slowly weaken this morning.\nAdditional snowfall accumulations of 5 to 10 cm are possible before the snow comes to an end.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations. Rapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-01T21:59:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-01T09:50:19-00:00, urn:oid:2.49.0.1.124.4028055645.2020<br>Area: Port Carling - Port Severn, Bracebridge - Gravenhurst",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-01:feed.atom/urn:oid:2.49.0.1.124.4028055645.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T09_50_19_00_00Iurn_oid_2.49.0.1.124.4028055645.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200101215919+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -60.9991, 50.7497 ],
 							[ -62.999, 50.7498 ],
 							[ -64.999, 50.7498 ],
@@ -1831,6 +1775,76 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.3895, 45.1399 ],
+							[ -79.876, 45.0916 ],
+							[ -79.8766, 45.0927 ],
+							[ -79.8771, 45.0932 ],
+							[ -79.8792, 45.0943 ],
+							[ -79.9004, 45.1035 ],
+							[ -79.9244, 45.1017 ],
+							[ -79.9596, 45.1118 ],
+							[ -79.9605, 45.1193 ],
+							[ -79.9816, 45.1284 ],
+							[ -80.0356, 45.1139 ],
+							[ -80.1017, 45.1263 ],
+							[ -80.1856, 45.0191 ],
+							[ -80.1213, 44.933 ],
+							[ -80.053, 44.862 ],
+							[ -79.9107, 44.872 ],
+							[ -79.823, 44.7847 ],
+							[ -79.7087, 44.7864 ],
+							[ -79.5662, 44.7803 ],
+							[ -79.5166, 44.784 ],
+							[ -79.3992, 44.7928 ],
+							[ -79.2988, 44.7904 ],
+							[ -79.2851, 44.7824 ],
+							[ -79.2358, 44.7938 ],
+							[ -79.2089, 44.8001 ],
+							[ -79.0624, 44.8403 ],
+							[ -79.1186, 44.95 ],
+							[ -79.1096, 44.9521 ],
+							[ -79.0993, 44.9549 ],
+							[ -79.0963, 44.9492 ],
+							[ -79.0928, 44.9431 ],
+							[ -79.0237, 44.9606 ],
+							[ -78.9347, 44.9858 ],
+							[ -78.9645, 45.046 ],
+							[ -79.0012, 45.1053 ],
+							[ -78.9997, 45.1057 ],
+							[ -79.3895, 45.1399 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snow Squall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 1, 2020 12:52",
+				"Expires_UTC" : "January 1, 2020 13:52",
+				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2020-01-01T13:52:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-01T12:52:26-00:00, urn:oid:2.49.0.1.124.1966817481.2020<br>Area: Port Carling - Port Severn, Bracebridge - Gravenhurst",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-01:feed.atom/urn:oid:2.49.0.1.124.1966817481.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T12_52_26_00_00Iurn_oid_2.49.0.1.124.1966817481.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200101135226+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -115.938, 52.5952 ],
 							[ -115.8688, 52.5436 ],
 							[ -115.4514, 52.2318 ],
@@ -1936,56 +1950,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -136.136, 67.2766 ],
-							[ -136.6048, 67.0102 ],
-							[ -137.1316, 66.6721 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.4948, 64.415 ],
-							[ -138.0022, 64.3497 ],
-							[ -137.911, 64.3385 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8443, 65.4581 ],
-							[ -134.9833, 67 ],
-							[ -135.4962, 67.0133 ],
-							[ -135.9999, 67 ],
-							[ -136.012, 67 ],
-							[ -136.0889, 67.1757 ],
-							[ -135.9251, 67.2657 ],
-							[ -136.136, 67.2766 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 1, 2020 11:56",
-				"Expires_UTC" : "January 2, 2020 03:55",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA low pressure system tracking into the Yukon will bring strong easterly winds and light snow to the Dempster beginning early this morning. The strong winds combined with light falling snow will give blizzard conditions across the entire region beginning this morning and continuing into Thursday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-01-02T03:55:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-01T11:56:36-00:00, urn:oid:2.49.0.1.124.1648380836.2020<br>Area: Dempster",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-01:feed.atom/urn:oid:2.49.0.1.124.1648380836.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T11_56_36_00_00Iurn_oid_2.49.0.1.124.1648380836.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200102035536+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -113.486, 48.9975 ],
 							[ -113.2302, 48.9968 ],
 							[ -112.841, 48.9948 ],
@@ -2075,6 +2039,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T04_23_38_00_00Iurn_oid_2.49.0.1.124.0755977513.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200101200338+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -136.136, 67.2766 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 1, 2020 11:56",
+				"Expires_UTC" : "January 2, 2020 03:55",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA low pressure system tracking into the Yukon will bring strong easterly winds and light snow to the Dempster beginning early this morning. The strong winds combined with light falling snow will give blizzard conditions across the entire region beginning this morning and continuing into Thursday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-01-02T03:55:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-01T11:56:36-00:00, urn:oid:2.49.0.1.124.1648380836.2020<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-01:feed.atom/urn:oid:2.49.0.1.124.1648380836.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-01/2020_01_01T11_56_36_00_00Iurn_oid_2.49.0.1.124.1648380836.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200102035536+00:00"
 			}
 		},
 		{
