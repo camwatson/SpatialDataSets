@@ -1032,6 +1032,49 @@
 				"coordinates" : [
 					[
 						[
+							[ -118.9946, 49.6244 ],
+							[ -118.686, 49.841 ],
+							[ -118.3899, 50.06 ],
+							[ -119.9107, 50.0731 ],
+							[ -119.9564, 49.9777 ],
+							[ -120.0012, 49.8499 ],
+							[ -120.0068, 49.743 ],
+							[ -120.0011, 49.6368 ],
+							[ -119.5566, 49.6228 ],
+							[ -118.9946, 49.6244 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 3, 2020 10:02",
+				"Expires_UTC" : "January 3, 2020 11:02",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-03T11:02:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-03T10:02:50-00:00, urn:oid:2.49.0.1.124.2526407864.2020<br>Area: Central Okanagan - including Kelowna",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-03:feed.atom/urn:oid:2.49.0.1.124.2526407864.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-03/2020_01_03T10_02_50_00_00Iurn_oid_2.49.0.1.124.2526407864.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200103110250+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.9056, 74.3191 ],
 							[ -94.8626, 74.2936 ],
 							[ -94.1547, 74.3414 ],
@@ -1079,49 +1122,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-03/2020_01_03T09_25_51_00_00Iurn_oid_2.49.0.1.124.4014796789.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200104012451+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -118.9946, 49.6244 ],
-							[ -118.686, 49.841 ],
-							[ -118.3899, 50.06 ],
-							[ -119.9107, 50.0731 ],
-							[ -119.9564, 49.9777 ],
-							[ -120.0012, 49.8499 ],
-							[ -120.0068, 49.743 ],
-							[ -120.0011, 49.6368 ],
-							[ -119.5566, 49.6228 ],
-							[ -118.9946, 49.6244 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 3, 2020 04:50",
-				"Expires_UTC" : "January 3, 2020 20:49",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA strong Pacific storm system is pushing over the central Okanagan tonight.\n\nSnow heavy at times is falling in the Kelowna region.  Areas of higher terrain will receive 10 to 15 cm of snow while lower elevations will collect 5 to 10 cm.\n\nThe snow will transition to rain and taper off early Friday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-03T20:49:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-03T04:50:45-00:00, urn:oid:2.49.0.1.124.0551242789.2020<br>Area: Central Okanagan - including Kelowna",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-03:feed.atom/urn:oid:2.49.0.1.124.0551242789.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-03/2020_01_03T04_50_45_00_00Iurn_oid_2.49.0.1.124.0551242789.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200103204945+00:00"
 			}
 		},
 		{
@@ -1451,25 +1451,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 3, 2020 04:50",
-				"Expires_UTC" : "January 3, 2020 20:49",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA strong Pacific storm system is pushing over the central Okanagan tonight.\n\nSnow heavy at times is falling in the Kelowna region.  Areas of higher terrain will receive 10 to 15 cm of snow while lower elevations will collect 5 to 10 cm.\n\nThe snow will transition to rain and taper off early Friday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-03T20:49:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-03T04:50:45-00:00, urn:oid:2.49.0.1.124.0958120582.2020<br>Area: Okanagan Connector - Merritt to Kelowna",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 3, 2020 10:02",
+				"Expires_UTC" : "January 3, 2020 11:02",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-03T11:02:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-03T10:02:50-00:00, urn:oid:2.49.0.1.124.2378355240.2020<br>Area: Okanagan Connector - Merritt to Kelowna",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-03:feed.atom/urn:oid:2.49.0.1.124.0958120582.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-03/2020_01_03T04_50_45_00_00Iurn_oid_2.49.0.1.124.0958120582.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-03:feed.atom/urn:oid:2.49.0.1.124.2378355240.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-03/2020_01_03T10_02_50_00_00Iurn_oid_2.49.0.1.124.2378355240.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200103204945+00:00"
+				"Expires_FMEFormat" : "20200103110250+00:00"
 			}
 		},
 		{
