@@ -9,6 +9,59 @@
 				"coordinates" : [
 					[
 						[
+							[ -123.5748, 48.3943 ],
+							[ -123.542, 48.3187 ],
+							[ -123.4896, 48.2322 ],
+							[ -123.426, 48.2476 ],
+							[ -123.25, 48.29 ],
+							[ -123.12, 48.4199 ],
+							[ -123.16, 48.4599 ],
+							[ -123.22, 48.5499 ],
+							[ -123.2699, 48.6899 ],
+							[ -123.4183, 48.7175 ],
+							[ -123.4615, 48.7087 ],
+							[ -123.5208, 48.7134 ],
+							[ -123.5279, 48.7224 ],
+							[ -123.5563, 48.7245 ],
+							[ -123.5598, 48.7191 ],
+							[ -123.5635, 48.7133 ],
+							[ -123.5665, 48.6917 ],
+							[ -123.5774, 48.6142 ],
+							[ -123.6336, 48.4754 ],
+							[ -123.5748, 48.3943 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 4, 2020 12:25",
+				"Expires_UTC" : "January 4, 2020 13:25",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-01-04T13:25:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T12:25:46-00:00, urn:oid:2.49.0.1.124.0945656606.2020<br>Area: Greater Victoria",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.0945656606.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T12_25_46_00_00Iurn_oid_2.49.0.1.124.0945656606.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200104132546+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -108.0377, 49.7859 ],
 							[ -108.0298, 49.8265 ],
 							[ -108.0375, 49.8732 ],
@@ -378,97 +431,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T00_44_21_00_00Iurn_oid_2.49.0.1.124.0763158800.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200104164321+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -96.8648, 53.5312 ],
-							[ -96.0866, 53.5203 ],
-							[ -95.2444, 53.5312 ],
-							[ -95.2755, 53.8828 ],
-							[ -95.3414, 54.2782 ],
-							[ -95.4553, 55.155 ],
-							[ -96.8659, 55.155 ],
-							[ -98.1983, 55.155 ],
-							[ -99.4001, 55.155 ],
-							[ -99.4001, 55.6367 ],
-							[ -99.4001, 56.3447 ],
-							[ -99.4001, 56.7023 ],
-							[ -99.1741, 56.7685 ],
-							[ -98.9394, 57.2184 ],
-							[ -99.2839, 57.2337 ],
-							[ -99.4001, 57.11 ],
-							[ -100.5808, 57.11 ],
-							[ -102.0073, 57.11 ],
-							[ -102.0073, 56.3385 ],
-							[ -102.0126, 56.2185 ],
-							[ -102.004, 56.1199 ],
-							[ -102.0121, 55.9619 ],
-							[ -102.0012, 55.7866 ],
-							[ -101.9874, 55.7867 ],
-							[ -101.974, 55.7876 ],
-							[ -101.9763, 55.7174 ],
-							[ -101.9644, 55.6367 ],
-							[ -101.97, 55.55 ],
-							[ -101.9638, 55.4604 ],
-							[ -101.942, 55.4596 ],
-							[ -101.9241, 55.4604 ],
-							[ -101.9344, 55.2913 ],
-							[ -101.924, 55.1327 ],
-							[ -101.924, 55.1115 ],
-							[ -101.9038, 55.1104 ],
-							[ -101.8852, 55.1115 ],
-							[ -101.8931, 54.9395 ],
-							[ -101.8853, 54.7625 ],
-							[ -101.8658, 54.7617 ],
-							[ -101.8474, 54.7625 ],
-							[ -101.8594, 54.5884 ],
-							[ -101.8474, 54.4135 ],
-							[ -101.8104, 54.4135 ],
-							[ -101.8104, 54.4053 ],
-							[ -101.8153, 54.3616 ],
-							[ -101.8105, 54.318 ],
-							[ -101.1628, 54.3082 ],
-							[ -100.5544, 54.318 ],
-							[ -100.5241, 54.318 ],
-							[ -99.4001, 54.318 ],
-							[ -99.4001, 53.5312 ],
-							[ -98.8932, 53.5346 ],
-							[ -98.8358, 53.6608 ],
-							[ -98.4166, 53.747 ],
-							[ -98.2098, 53.6867 ],
-							[ -97.9365, 53.5279 ],
-							[ -97.4353, 53.5209 ],
-							[ -96.8648, 53.5312 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 4, 2020 10:19",
-				"Expires_UTC" : "January 5, 2020 02:18",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\nA low pressure system will spread heavy snow across central Manitoba beginning Saturday afternoon. The snow will taper off from west to east through Sunday.\n\nMany areas will see 10 to 20 cm of snow over a 24 hour period with the highest accumulations along a line from Pukatawagan to Norway House.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-01-05T02:18:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T10:19:24-00:00, urn:oid:2.49.0.1.124.3343231809.2020<br>Area: Molson Lake and Bear Lake, Cross Lake and Jenpeg, Wabowden, Hwy 6 between Little Limestone Lake and Ponton, Norway House, Lynn Lake, Leaf Rapids, Pukatawagan, Snow Lake and Herb Lake Landing, Flin Flon Cranberry Portage and Grass River Prov. Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.3343231809.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T10_19_24_00_00Iurn_oid_2.49.0.1.124.3343231809.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200105021824+00:00"
 			}
 		},
 		{
@@ -1579,79 +1541,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -85.4621, 73.1923 ],
-							[ -85.6288, 73.031 ],
-							[ -84.6976, 72.8984 ],
-							[ -84.5651, 72.8986 ],
-							[ -84.4176, 73.0621 ],
-							[ -84.8368, 73.1113 ],
-							[ -85.0267, 73.153 ],
-							[ -85.4621, 73.1923 ]
-						]
-					],
-					[
-						[
-							[ -78.6362, 72.6541 ],
-							[ -78.4939, 72.5386 ],
-							[ -77.8912, 72.4735 ],
-							[ -77.3451, 72.5745 ],
-							[ -77.2351, 72.6638 ],
-							[ -77.2577, 72.7548 ],
-							[ -77.4398, 72.7893 ],
-							[ -78.0061, 72.7979 ],
-							[ -78.6362, 72.6541 ]
-						]
-					],
-					[
-						[
-							[ -68.866, 70.2973 ],
-							[ -68.4617, 70.2406 ],
-							[ -68.1424, 70.3227 ],
-							[ -68.0901, 70.3251 ],
-							[ -68.1042, 70.5961 ],
-							[ -68.7571, 70.7588 ],
-							[ -68.8495, 70.6702 ],
-							[ -68.9763, 70.6379 ],
-							[ -69.0844, 70.5918 ],
-							[ -69.1466, 70.5427 ],
-							[ -69.1714, 70.4863 ],
-							[ -69.1544, 70.4334 ],
-							[ -69.0945, 70.3801 ],
-							[ -68.996, 70.3337 ],
-							[ -68.866, 70.2973 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 3, 2020 20:28",
-				"Expires_UTC" : "January 4, 2020 12:27",
-				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nWindchill values in the -50 to -55 range are forecast for Pond Inlet, Arctic Bay, and Clyde River.\n\nAs temperatures drop this evening in Arctic Bay and Clyde River, windchill values of -50 are forecast for those communities. \n\nWindchill values of -50 have persisted throughout the day in Pond Inlet and will continue.\n\nThese windchill values \tare forecast to remain throughout the weekend.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-04T12:27:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-03T20:28:32-00:00, urn:oid:2.49.0.1.124.0476474734.2020<br>Area: Arctic Bay, Pond Inlet, Clyde River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-03:feed.atom/urn:oid:2.49.0.1.124.0476474734.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-03/2020_01_03T20_28_32_00_00Iurn_oid_2.49.0.1.124.0476474734.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200104122732+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -120.8907, 49.786 ],
 							[ -120.7729, 49.9888 ],
 							[ -120.7214, 50.0349 ],
@@ -1878,6 +1767,97 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T00_23_25_00_00Iurn_oid_2.49.0.1.124.4087149792.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200104162225+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -96.8648, 53.5312 ],
+							[ -96.0866, 53.5203 ],
+							[ -95.2444, 53.5312 ],
+							[ -95.2755, 53.8828 ],
+							[ -95.3414, 54.2782 ],
+							[ -95.4553, 55.155 ],
+							[ -96.8659, 55.155 ],
+							[ -98.1983, 55.155 ],
+							[ -99.4001, 55.155 ],
+							[ -99.4001, 55.6367 ],
+							[ -99.4001, 56.3447 ],
+							[ -99.4001, 56.7023 ],
+							[ -99.1741, 56.7685 ],
+							[ -98.9394, 57.2184 ],
+							[ -99.2839, 57.2337 ],
+							[ -99.4001, 57.11 ],
+							[ -100.5808, 57.11 ],
+							[ -102.0073, 57.11 ],
+							[ -102.0073, 56.3385 ],
+							[ -102.0126, 56.2185 ],
+							[ -102.004, 56.1199 ],
+							[ -102.0121, 55.9619 ],
+							[ -102.0012, 55.7866 ],
+							[ -101.9874, 55.7867 ],
+							[ -101.974, 55.7876 ],
+							[ -101.9763, 55.7174 ],
+							[ -101.9644, 55.6367 ],
+							[ -101.97, 55.55 ],
+							[ -101.9638, 55.4604 ],
+							[ -101.942, 55.4596 ],
+							[ -101.9241, 55.4604 ],
+							[ -101.9344, 55.2913 ],
+							[ -101.924, 55.1327 ],
+							[ -101.924, 55.1115 ],
+							[ -101.9038, 55.1104 ],
+							[ -101.8852, 55.1115 ],
+							[ -101.8931, 54.9395 ],
+							[ -101.8853, 54.7625 ],
+							[ -101.8658, 54.7617 ],
+							[ -101.8474, 54.7625 ],
+							[ -101.8594, 54.5884 ],
+							[ -101.8474, 54.4135 ],
+							[ -101.8104, 54.4135 ],
+							[ -101.8104, 54.4053 ],
+							[ -101.8153, 54.3616 ],
+							[ -101.8105, 54.318 ],
+							[ -101.1628, 54.3082 ],
+							[ -100.5544, 54.318 ],
+							[ -100.5241, 54.318 ],
+							[ -99.4001, 54.318 ],
+							[ -99.4001, 53.5312 ],
+							[ -98.8932, 53.5346 ],
+							[ -98.8358, 53.6608 ],
+							[ -98.4166, 53.747 ],
+							[ -98.2098, 53.6867 ],
+							[ -97.9365, 53.5279 ],
+							[ -97.4353, 53.5209 ],
+							[ -96.8648, 53.5312 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 4, 2020 10:19",
+				"Expires_UTC" : "January 5, 2020 02:18",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\nA low pressure system will spread heavy snow across central Manitoba beginning Saturday afternoon. The snow will taper off from west to east through Sunday.\n\nMany areas will see 10 to 20 cm of snow over a 24 hour period with the highest accumulations along a line from Pukatawagan to Norway House.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-01-05T02:18:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T10:19:24-00:00, urn:oid:2.49.0.1.124.3343231809.2020<br>Area: Molson Lake and Bear Lake, Cross Lake and Jenpeg, Wabowden, Hwy 6 between Little Limestone Lake and Ponton, Norway House, Lynn Lake, Leaf Rapids, Pukatawagan, Snow Lake and Herb Lake Landing, Flin Flon Cranberry Portage and Grass River Prov. Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.3343231809.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T10_19_24_00_00Iurn_oid_2.49.0.1.124.3343231809.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200105021824+00:00"
 			}
 		}
 	]
