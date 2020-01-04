@@ -437,64 +437,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -121.3009, 49.2852 ],
-							[ -121.257, 49.2793 ],
-							[ -121.031, 49.2488 ],
-							[ -121.0015, 49.2791 ],
-							[ -120.9741, 49.3074 ],
-							[ -121.0576, 49.3534 ],
-							[ -121.0408, 49.4676 ],
-							[ -121.0637, 49.4682 ],
-							[ -121.1514, 49.7449 ],
-							[ -121.26, 50 ],
-							[ -121.3396, 50.2225 ],
-							[ -121.4319, 50.441 ],
-							[ -121.6568, 50.3298 ],
-							[ -121.966, 50.3431 ],
-							[ -122.1663, 50.1832 ],
-							[ -121.9733, 50.0771 ],
-							[ -121.8, 50 ],
-							[ -121.7853, 49.9457 ],
-							[ -121.7625, 49.889 ],
-							[ -121.7176, 49.735 ],
-							[ -121.6512, 49.5698 ],
-							[ -121.5376, 49.5191 ],
-							[ -121.4038, 49.467 ],
-							[ -121.3547, 49.3735 ],
-							[ -121.3009, 49.2852 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 4, 2020 03:08",
-				"Expires_UTC" : "January 4, 2020 04:08",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-01-04T04:08:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T03:08:15-00:00, urn:oid:2.49.0.1.124.4156838763.2020<br>Area: Fraser Canyon - south including Lytton",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.4156838763.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T03_08_15_00_00Iurn_oid_2.49.0.1.124.4156838763.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200104040815+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -122.9, 55.077 ],
 							[ -122.7893, 55.099 ],
 							[ -122.765, 55.11 ],
@@ -571,6 +513,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T00_06_53_00_00Iurn_oid_2.49.0.1.124.2311498200.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200104135953+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -127.8972, 52.8496 ],
+							[ -127.2959, 52.2345 ],
+							[ -126.692, 51.65 ],
+							[ -125.9914, 51.2562 ],
+							[ -125.3217, 50.9024 ],
+							[ -125.0716, 51.2815 ],
+							[ -124.8664, 51.6273 ],
+							[ -125.1345, 51.8012 ],
+							[ -125.4999, 52 ],
+							[ -125.9295, 52.3749 ],
+							[ -126.5, 52.83 ],
+							[ -126.6264, 53.0161 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.9334, 53.0642 ],
+							[ -127.034, 52.961 ],
+							[ -127.1737, 52.8773 ],
+							[ -127.3188, 52.8257 ],
+							[ -127.5427, 52.8083 ],
+							[ -127.7684, 52.8375 ],
+							[ -127.8972, 52.8496 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 3, 2020 16:06",
+				"Expires_UTC" : "January 4, 2020 07:06",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA strong Pacific storm will continue to bring snow this morning.\n\n40 cm of snow was reported overnight at Bella Coola Airport. An additional 10 cm are expected before warm air moving inland will cause the snow to change to rain this afternoon. \n\nModerate rain is expected late this afternoon, before precipitation changes back to snow tonight.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-04T07:06:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-03T16:06:37-00:00, urn:oid:2.49.0.1.124.3275483958.2020<br>Area: Central Coast - inland sections",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-03:feed.atom/urn:oid:2.49.0.1.124.3275483958.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-03/2020_01_03T16_06_37_00_00Iurn_oid_2.49.0.1.124.3275483958.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200104070637+00:00"
 			}
 		},
 		{
@@ -698,59 +693,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -127.8972, 52.8496 ],
-							[ -127.2959, 52.2345 ],
-							[ -126.692, 51.65 ],
-							[ -125.9914, 51.2562 ],
-							[ -125.3217, 50.9024 ],
-							[ -125.0716, 51.2815 ],
-							[ -124.8664, 51.6273 ],
-							[ -125.1345, 51.8012 ],
-							[ -125.4999, 52 ],
-							[ -125.9295, 52.3749 ],
-							[ -126.5, 52.83 ],
-							[ -126.6264, 53.0161 ],
-							[ -126.7741, 53.2011 ],
-							[ -126.9334, 53.0642 ],
-							[ -127.034, 52.961 ],
-							[ -127.1737, 52.8773 ],
-							[ -127.3188, 52.8257 ],
-							[ -127.5427, 52.8083 ],
-							[ -127.7684, 52.8375 ],
-							[ -127.8972, 52.8496 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 3, 2020 16:06",
-				"Expires_UTC" : "January 4, 2020 07:06",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA strong Pacific storm will continue to bring snow this morning.\n\n40 cm of snow was reported overnight at Bella Coola Airport. An additional 10 cm are expected before warm air moving inland will cause the snow to change to rain this afternoon. \n\nModerate rain is expected late this afternoon, before precipitation changes back to snow tonight.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-04T07:06:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-03T16:06:37-00:00, urn:oid:2.49.0.1.124.3275483958.2020<br>Area: Central Coast - inland sections",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-03:feed.atom/urn:oid:2.49.0.1.124.3275483958.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-03/2020_01_03T16_06_37_00_00Iurn_oid_2.49.0.1.124.3275483958.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200104070637+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -130.117, 55.7008 ],
 							[ -130.1003, 55.6917 ],
 							[ -130.1134, 55.5965 ],
@@ -818,6 +760,64 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T00_26_41_00_00Iurn_oid_2.49.0.1.124.2301613383.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200104114441+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -121.3009, 49.2852 ],
+							[ -121.257, 49.2793 ],
+							[ -121.031, 49.2488 ],
+							[ -121.0015, 49.2791 ],
+							[ -120.9741, 49.3074 ],
+							[ -121.0576, 49.3534 ],
+							[ -121.0408, 49.4676 ],
+							[ -121.0637, 49.4682 ],
+							[ -121.1514, 49.7449 ],
+							[ -121.26, 50 ],
+							[ -121.3396, 50.2225 ],
+							[ -121.4319, 50.441 ],
+							[ -121.6568, 50.3298 ],
+							[ -121.966, 50.3431 ],
+							[ -122.1663, 50.1832 ],
+							[ -121.9733, 50.0771 ],
+							[ -121.8, 50 ],
+							[ -121.7853, 49.9457 ],
+							[ -121.7625, 49.889 ],
+							[ -121.7176, 49.735 ],
+							[ -121.6512, 49.5698 ],
+							[ -121.5376, 49.5191 ],
+							[ -121.4038, 49.467 ],
+							[ -121.3547, 49.3735 ],
+							[ -121.3009, 49.2852 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 4, 2020 03:08",
+				"Expires_UTC" : "January 4, 2020 04:08",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-01-04T04:08:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T03:08:15-00:00, urn:oid:2.49.0.1.124.4156838763.2020<br>Area: Fraser Canyon - south including Lytton",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.4156838763.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T03_08_15_00_00Iurn_oid_2.49.0.1.124.4156838763.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200104040815+00:00"
 			}
 		},
 		{
