@@ -63,59 +63,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.1999, 54.7 ],
-							[ -122.8357, 54.848 ],
-							[ -122.4999, 54.9999 ],
-							[ -122.0782, 55.1899 ],
-							[ -121.6999, 55.38 ],
-							[ -121.839, 55.5297 ],
-							[ -122.0337, 55.7116 ],
-							[ -122.6071, 56.3068 ],
-							[ -123.2874, 56.9577 ],
-							[ -123.3, 56.9999 ],
-							[ -125.06, 57.0477 ],
-							[ -126.6699, 56.9999 ],
-							[ -125.4202, 56.0297 ],
-							[ -124.4416, 55.346 ],
-							[ -124.4199, 55.33 ],
-							[ -124.1684, 55.1898 ],
-							[ -123.9108, 55.067 ],
-							[ -123.4872, 54.615 ],
-							[ -123.3415, 54.655 ],
-							[ -123.1999, 54.7 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 4, 2020 09:09",
-				"Expires_UTC" : "January 4, 2020 10:09",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-04T10:09:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T09:09:58-00:00, urn:oid:2.49.0.1.124.2513598182.2020<br>Area: Williston",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.2513598182.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T09_09_58_00_00Iurn_oid_2.49.0.1.124.2513598182.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200104100958+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -114, 57.3812 ],
 							[ -113.5756, 57.3667 ],
 							[ -113.0935, 57.383 ],
@@ -238,25 +185,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Winter Storm Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Winter Storm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 4, 2020 09:05",
-				"Expires_UTC" : "January 4, 2020 10:05",
-				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-01-04T10:05:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T09:05:20-00:00, urn:oid:2.49.0.1.124.2486778431.2020<br>Area: North Coast - inland including Terrace, North Coast - inland including Kitimat",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "January 4, 2020 00:44",
+				"Expires_UTC" : "January 4, 2020 16:43",
+				"Summary" : "Description: Significant amounts of snow are expected.\n\nA strong Pacific storm will bring 30 to 60 cm of snow over inland sections of the north coast.\n\nSnow will continue today over the  inland sections of the north coast.\n\nThe snow is expected to ease and become mixed with rain tonight.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-04T16:43:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T00:44:21-00:00, urn:oid:2.49.0.1.124.0763158800.2020<br>Area: North Coast - inland including Terrace, North Coast - inland including Kitimat",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.2486778431.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T09_05_20_00_00Iurn_oid_2.49.0.1.124.2486778431.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.0763158800.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T00_44_21_00_00Iurn_oid_2.49.0.1.124.0763158800.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200104100520+00:00"
+				"Expires_FMEFormat" : "20200104164321+00:00"
 			}
 		},
 		{
@@ -1460,25 +1407,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 4, 2020 09:09",
-				"Expires_UTC" : "January 4, 2020 10:09",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-04T10:09:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T09:09:58-00:00, urn:oid:2.49.0.1.124.4101521330.2020<br>Area: Highway 97 - Pine Pass",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 4, 2020 00:06",
+				"Expires_UTC" : "January 4, 2020 13:59",
+				"Summary" : "Description: A long period of snowfall with total amounts of 20 to 25 cm is expected.\n\nA Pacific frontal system will continue to give snow to Williston and Highway 97 - Pine Pass this evening. Snow near Mackenzie may become mixed with rain this evening as temperatures rise. However, snow at Pine Pass will persist overnight. \n\nAdditional snow accumulations of 5 to 15 cm can be expected by Saturday morning with highest amounts near Pine Pass.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-04T13:59:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T00:06:53-00:00, urn:oid:2.49.0.1.124.2311498200.2020<br>Area: Highway 97 - Pine Pass",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.4101521330.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T09_09_58_00_00Iurn_oid_2.49.0.1.124.4101521330.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.2311498200.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T00_06_53_00_00Iurn_oid_2.49.0.1.124.2311498200.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200104100958+00:00"
+				"Expires_FMEFormat" : "20200104135953+00:00"
 			}
 		},
 		{
@@ -1594,25 +1541,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 4, 2020 09:05",
-				"Expires_UTC" : "January 4, 2020 10:05",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-04T10:05:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T09:05:08-00:00, urn:oid:2.49.0.1.124.3923630533.2020<br>Area: North Coast - inland including Stewart",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 4, 2020 00:26",
+				"Expires_UTC" : "January 4, 2020 11:44",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA low pressure centre crossing the North Coast is bringing a period of heavy snow to the Stewart region. 5 cm has been received as of 4pm. Snow is intensifying this evening, and 15 cm is expected to fall through the evening and overnight. A total of 15 to 20 cm new snow will be on the ground by Saturday morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-04T11:44:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-04T00:26:41-00:00, urn:oid:2.49.0.1.124.2301613383.2020<br>Area: North Coast - inland including Stewart",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.3923630533.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T09_05_08_00_00Iurn_oid_2.49.0.1.124.3923630533.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-04:feed.atom/urn:oid:2.49.0.1.124.2301613383.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-04/2020_01_04T00_26_41_00_00Iurn_oid_2.49.0.1.124.2301613383.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200104100508+00:00"
+				"Expires_FMEFormat" : "20200104114441+00:00"
 			}
 		}
 	]
