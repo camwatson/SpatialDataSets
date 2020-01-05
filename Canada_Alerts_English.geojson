@@ -106,6 +106,76 @@
 				"coordinates" : [
 					[
 						[
+							[ -95.4553, 55.155 ],
+							[ -95.3897, 56.1245 ],
+							[ -95.4499, 57.11 ],
+							[ -96.2223, 57.1434 ],
+							[ -96.8659, 57.11 ],
+							[ -97.5981, 57.1683 ],
+							[ -98.2313, 57.1168 ],
+							[ -99.4001, 57.11 ],
+							[ -99.4001, 56.7023 ],
+							[ -99.4001, 56.3447 ],
+							[ -99.4001, 55.6367 ],
+							[ -99.4001, 55.155 ],
+							[ -98.1983, 55.155 ],
+							[ -96.8659, 55.155 ],
+							[ -95.4553, 55.155 ]
+						]
+					],
+					[
+						[
+							[ -95.4553, 55.155 ],
+							[ -95.3414, 54.2782 ],
+							[ -95.3005, 53.8878 ],
+							[ -95.2444, 53.5312 ],
+							[ -95.2248, 53.1762 ],
+							[ -95.153, 52.8419 ],
+							[ -94.4788, 53.228 ],
+							[ -93.9327, 53.5766 ],
+							[ -93.631, 53.7387 ],
+							[ -93.4241, 53.9089 ],
+							[ -92.5613, 54.4865 ],
+							[ -91.653, 55.1549 ],
+							[ -92.879, 55.1812 ],
+							[ -93.9327, 55.155 ],
+							[ -94.2557, 55.1652 ],
+							[ -94.5762, 55.155 ],
+							[ -95.0284, 55.1727 ],
+							[ -95.4553, 55.155 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 5, 2020 21:30",
+				"Expires_UTC" : "January 5, 2020 22:30",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-05T22:30:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T21:30:43-00:00, urn:oid:2.49.0.1.124.1319755185.2020<br>Area: South Indian Lake and Amisk Prov. Park, Split Lake and York Landing, Thompson Thicket Portage and Pikwitonei, Nelson House, Oxford House and Gods Lake, Red Sucker Lake, Island Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.1319755185.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T21_30_43_00_00Iurn_oid_2.49.0.1.124.1319755185.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200105223043+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.6293, 44.5519 ],
 							[ -79.6299, 44.3954 ],
 							[ -79.6291, 44.3911 ],
@@ -859,25 +929,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 5, 2020 20:34",
-				"Expires_UTC" : "January 5, 2020 21:34",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-01-05T21:34:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T20:34:35-00:00, urn:oid:2.49.0.1.124.2727462210.2020<br>Area: Cambridge Bay, Gjoa Haven, Kugaaruk",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 5, 2020 15:28",
+				"Expires_UTC" : "January 6, 2020 07:27",
+				"Summary" : "Description: A prolonged period of very cold wind chills continues. The coldest wind chill values will be between minus 55 and minus 60.\n\nExtreme cold conditions are expected to moderate by Monday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-06T07:27:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T15:28:39-00:00, urn:oid:2.49.0.1.124.3213028905.2020<br>Area: Cambridge Bay, Gjoa Haven, Kugaaruk",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.2727462210.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T20_34_35_00_00Iurn_oid_2.49.0.1.124.2727462210.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.3213028905.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T15_28_39_00_00Iurn_oid_2.49.0.1.124.3213028905.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200105213435+00:00"
+				"Expires_FMEFormat" : "20200106072739+00:00"
 			}
 		},
 		{
@@ -948,18 +1018,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 5, 2020 19:49",
+				"LastUpdate_UTC" : "January 5, 2020 21:38",
 				"Expires_UTC" : "January 6, 2020 07:59",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall amounts for this current ongoing storm: 15 to 25 cm. Locally higher amounts possible.\n\nFurther snowfall amounts expected tonight: 10 to 15 cm.\n\nMaximum wind gusts: 70 to 80 km/h.\n\nLocations: Eastern mainland Nova Scotia and Cape Breton.\n\nTime span: Until late this evening for accumulating snow; until early Monday morning for strongest winds and blowing snow.\n\nRemarks: Snow will taper to flurries late this evening. Strong and gusty north to northeasterly winds will likely give frequent reduced visibility in blowing snow tonight into Monday morning before gradually diminishing. Conditions are expected to improve Monday.\n\n###\n\nPoor weather conditions may contribute to transportation delays.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-01-06T07:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T19:49:02-00:00, urn:oid:2.49.0.1.124.1274784387.2020<br>Area: Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nPoor weather conditions may contribute to transportation delays.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-01-06T07:59:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T21:38:20-00:00, urn:oid:2.49.0.1.124.1772723769.2020<br>Area: Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.1274784387.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T19_49_02_00_00Iurn_oid_2.49.0.1.124.1274784387.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.1772723769.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T21_38_20_00_00Iurn_oid_2.49.0.1.124.1772723769.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106075902+00:00"
+				"Expires_FMEFormat" : "20200106075920+00:00"
 			}
 		},
 		{
