@@ -442,6 +442,74 @@
 				"coordinates" : [
 					[
 						[
+							[ -114.6833, 49.5779 ],
+							[ -114.7006, 49.6025 ],
+							[ -114.6251, 49.6256 ],
+							[ -114.6266, 49.6915 ],
+							[ -114.5873, 49.7123 ],
+							[ -114.5918, 49.8335 ],
+							[ -114.6409, 49.9156 ],
+							[ -114.6039, 49.9909 ],
+							[ -114.7018, 50.2277 ],
+							[ -114.7095, 50.267 ],
+							[ -114.7433, 50.322 ],
+							[ -114.7326, 50.3623 ],
+							[ -114.8075, 50.4109 ],
+							[ -115.0047, 50.606 ],
+							[ -115.1688, 50.5894 ],
+							[ -115.1982, 50.5684 ],
+							[ -115.2241, 50.5401 ],
+							[ -115.2263, 50.5403 ],
+							[ -115.3049, 50.1876 ],
+							[ -115.3497, 49.8395 ],
+							[ -115.381, 49.66 ],
+							[ -115.2271, 49.4546 ],
+							[ -115.081, 49.2999 ],
+							[ -115.0234, 49.1506 ],
+							[ -114.9505, 48.9998 ],
+							[ -114.1153, 48.9991 ],
+							[ -114.0303, 48.9984 ],
+							[ -114.0318, 49.0579 ],
+							[ -114.0966, 49.1067 ],
+							[ -114.124, 49.1518 ],
+							[ -114.1695, 49.1905 ],
+							[ -114.3582, 49.2598 ],
+							[ -114.5375, 49.4199 ],
+							[ -114.5297, 49.5853 ],
+							[ -114.6833, 49.5779 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 6, 2020 23:21",
+				"Expires_UTC" : "January 7, 2020 15:20",
+				"Summary" : "Description: A Pacific frontal wave crossing southern B.C. on Tuesday will bring 25 cm of snow to Fernie and Morrissey by Wednesday morning.\n\nSnow will intensify Tuesday morning then moderate Tuesday night. The snow will ease to light snow on Wednesday as the system exits the province.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Poor weather conditions may contribute to transportation delays.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-07T15:20:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T23:21:31-00:00, urn:oid:2.49.0.1.124.1315990206.2020<br>Area: Elk Valley",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.1315990206.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T23_21_31_00_00Iurn_oid_2.49.0.1.124.1315990206.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200107152031+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.5386, 46.7145 ],
 							[ -80.3679, 46.7151 ],
 							[ -80.3679, 46.6307 ],
@@ -762,59 +830,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T21_39_02_00_00Iurn_oid_2.49.0.1.124.2224240006.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200107133802+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -127.8972, 52.8496 ],
-							[ -127.2959, 52.2345 ],
-							[ -126.692, 51.65 ],
-							[ -125.9914, 51.2562 ],
-							[ -125.3217, 50.9024 ],
-							[ -125.0716, 51.2815 ],
-							[ -124.8664, 51.6273 ],
-							[ -125.1345, 51.8012 ],
-							[ -125.4999, 52 ],
-							[ -125.9295, 52.3749 ],
-							[ -126.5, 52.83 ],
-							[ -126.6264, 53.0161 ],
-							[ -126.7741, 53.2011 ],
-							[ -126.9334, 53.0642 ],
-							[ -127.034, 52.961 ],
-							[ -127.1737, 52.8773 ],
-							[ -127.3188, 52.8257 ],
-							[ -127.5427, 52.8083 ],
-							[ -127.7684, 52.8375 ],
-							[ -127.8972, 52.8496 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 6, 2020 23:16",
-				"Expires_UTC" : "January 7, 2020 15:16",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-07T15:16:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T23:16:31-00:00, urn:oid:2.49.0.1.124.3888498557.2020<br>Area: Central Coast - inland sections",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.3888498557.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T23_16_31_00_00Iurn_oid_2.49.0.1.124.3888498557.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200107151631+00:00"
 			}
 		},
 		{
@@ -1426,6 +1441,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T19_40_46_00_00Iurn_oid_2.49.0.1.124.2186950322.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200107113946+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -127.8972, 52.8496 ],
+							[ -127.2959, 52.2345 ],
+							[ -126.692, 51.65 ],
+							[ -125.9914, 51.2562 ],
+							[ -125.3217, 50.9024 ],
+							[ -125.0716, 51.2815 ],
+							[ -124.8664, 51.6273 ],
+							[ -125.1345, 51.8012 ],
+							[ -125.4999, 52 ],
+							[ -125.9295, 52.3749 ],
+							[ -126.5, 52.83 ],
+							[ -126.6264, 53.0161 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.9334, 53.0642 ],
+							[ -127.034, 52.961 ],
+							[ -127.1737, 52.8773 ],
+							[ -127.3188, 52.8257 ],
+							[ -127.5427, 52.8083 ],
+							[ -127.7684, 52.8375 ],
+							[ -127.8972, 52.8496 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 6, 2020 23:17",
+				"Expires_UTC" : "January 7, 2020 15:16",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA low pressure centre will approach the central coast tonight and move into the BC interior Tuesday afternoon. Heavy snow will begin early Tuesday morning in the inland sections of the central coast and will end late Tuesday night. Snowfall amounts of 15 to 20 cm are expected by Wednesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-07T15:16:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T23:17:31-00:00, urn:oid:2.49.0.1.124.1380201251.2020<br>Area: Central Coast - inland sections",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.1380201251.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T23_17_31_00_00Iurn_oid_2.49.0.1.124.1380201251.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200107151631+00:00"
 			}
 		},
 		{
