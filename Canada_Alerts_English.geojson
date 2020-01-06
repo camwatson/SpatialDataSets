@@ -51,58 +51,59 @@
 				"coordinates" : [
 					[
 						[
-							[ -118.3111, 49.3599 ],
-							[ -118.1874, 49.1482 ],
-							[ -118.0805, 48.9999 ],
-							[ -117.919, 48.9997 ],
-							[ -117.6076, 48.9998 ],
-							[ -117.1382, 48.9984 ],
-							[ -117.0272, 48.9991 ],
-							[ -116.9629, 48.9993 ],
-							[ -116.4059, 48.9995 ],
-							[ -116.2208, 49.0007 ],
-							[ -116.2868, 49.4127 ],
-							[ -116.3836, 49.8129 ],
-							[ -116.3968, 49.9055 ],
-							[ -116.4199, 49.9999 ],
-							[ -116.6106, 50.3766 ],
-							[ -116.83, 50.7499 ],
-							[ -117.1084, 50.7584 ],
-							[ -117.4199, 50.7499 ],
-							[ -118.0374, 50.7609 ],
-							[ -118.8, 50.7499 ],
-							[ -118.6009, 50.3905 ],
-							[ -118.3899, 50.06 ],
-							[ -118.7142, 49.8357 ],
-							[ -118.9946, 49.6244 ],
-							[ -119.0591, 49.5801 ],
-							[ -119.1405, 49.5191 ],
-							[ -118.6926, 49.4209 ],
-							[ -118.3111, 49.3599 ]
+							[ -61.3709, 45.5863 ],
+							[ -61.3587, 45.578 ],
+							[ -61.2879, 45.5429 ],
+							[ -61.2399, 45.5263 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.3709, 45.5863 ]
+						],
+						[
+							[ -61.1647, 45.7054 ],
+							[ -60.8436, 45.8719 ],
+							[ -61.1587, 45.7085 ],
+							[ -61.1647, 45.7054 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
 				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 6, 2020 03:48",
-				"Expires_UTC" : "January 6, 2020 19:48",
-				"Summary" : "Description: A long period of snowfall with total amounts of 15 to 25 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-06T19:48:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T03:48:18-00:00, urn:oid:2.49.0.1.124.2491144408.2020<br>Area: Arrow Lakes - Slocan Lake, West Kootenay, Kootenay Lake",
+				"event" : "Winter Storm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 6, 2020 03:51",
+				"Expires_UTC" : "January 6, 2020 04:51",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-01-06T04:51:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T03:51:57-00:00, urn:oid:2.49.0.1.124.2602388027.2020<br>Area: Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
 				"Author" : "Environment Canada",
-				"msgType" : "Alert",
+				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.2491144408.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T03_48_18_00_00Iurn_oid_2.49.0.1.124.2491144408.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.2602388027.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T03_51_57_00_00Iurn_oid_2.49.0.1.124.2602388027.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106194818+00:00"
+				"Expires_FMEFormat" : "20200106045157+00:00"
 			}
 		},
 		{
@@ -304,114 +305,118 @@
 				"coordinates" : [
 					[
 						[
-							[ -68.866, 70.2973 ],
-							[ -68.4617, 70.2406 ],
-							[ -68.1424, 70.3227 ],
-							[ -68.0901, 70.3251 ],
-							[ -68.1042, 70.5961 ],
-							[ -68.7571, 70.7588 ],
-							[ -68.8495, 70.6702 ],
-							[ -68.9763, 70.6379 ],
-							[ -69.0844, 70.5918 ],
-							[ -69.1466, 70.5427 ],
-							[ -69.1714, 70.4863 ],
-							[ -69.1544, 70.4334 ],
-							[ -69.0945, 70.3801 ],
-							[ -68.996, 70.3337 ],
-							[ -68.866, 70.2973 ]
-						]
-					],
-					[
-						[
-							[ -78.6362, 72.6541 ],
-							[ -78.4939, 72.5386 ],
-							[ -77.8912, 72.4735 ],
-							[ -77.3451, 72.5745 ],
-							[ -77.2351, 72.6638 ],
-							[ -77.2577, 72.7548 ],
-							[ -77.4398, 72.7893 ],
-							[ -78.0061, 72.7979 ],
-							[ -78.6362, 72.6541 ]
-						]
-					],
-					[
-						[
-							[ -64.2357, 67.7789 ],
-							[ -64.017, 67.6056 ],
-							[ -64.0555, 67.5407 ],
-							[ -64.0099, 67.472 ],
-							[ -63.2837, 67.5032 ],
-							[ -63.5588, 67.559 ],
-							[ -64.001, 67.7288 ],
-							[ -64.2357, 67.7789 ]
-						]
-					],
-					[
-						[
-							[ -65.3007, 66.282 ],
-							[ -65.4886, 66.3376 ],
-							[ -65.5369, 66.3117 ],
-							[ -65.54, 66.2273 ],
-							[ -65.5881, 66.2209 ],
-							[ -65.6647, 66.1709 ],
-							[ -66.0952, 66.0385 ],
-							[ -65.9456, 65.9566 ],
-							[ -65.8821, 65.9329 ],
-							[ -65.4561, 65.9399 ],
-							[ -65.2598, 65.984 ],
-							[ -65.2527, 66.0301 ],
-							[ -65.1793, 66.1138 ],
-							[ -65.1758, 66.1588 ],
-							[ -65.1955, 66.2031 ],
-							[ -65.3007, 66.282 ]
-						]
-					],
-					[
-						[
-							[ -68.8714, 63.5928 ],
-							[ -68.7424, 63.5556 ],
-							[ -68.5282, 63.576 ],
-							[ -68.2083, 63.5996 ],
-							[ -68.1887, 63.6089 ],
-							[ -68.1073, 63.6649 ],
-							[ -68.0685, 63.7293 ],
-							[ -68.0766, 63.796 ],
-							[ -68.1311, 63.8582 ],
-							[ -68.2269, 63.9099 ],
-							[ -68.3547, 63.946 ],
-							[ -68.5019, 63.9628 ],
-							[ -68.6536, 63.9586 ],
-							[ -68.7875, 63.9358 ],
-							[ -68.9058, 63.8939 ],
-							[ -68.9884, 63.838 ],
-							[ -69.0275, 63.7735 ],
-							[ -69.0195, 63.7069 ],
-							[ -68.9657, 63.6447 ],
-							[ -68.8714, 63.5928 ]
+							[ -118.3111, 49.3599 ],
+							[ -118.1874, 49.1482 ],
+							[ -118.0805, 48.9999 ],
+							[ -117.919, 48.9997 ],
+							[ -117.6076, 48.9998 ],
+							[ -117.1382, 48.9984 ],
+							[ -117.0272, 48.9991 ],
+							[ -116.9629, 48.9993 ],
+							[ -116.4059, 48.9995 ],
+							[ -116.2208, 49.0007 ],
+							[ -116.2868, 49.4127 ],
+							[ -116.3836, 49.8129 ],
+							[ -116.3968, 49.9055 ],
+							[ -116.4199, 49.9999 ],
+							[ -116.6106, 50.3766 ],
+							[ -116.83, 50.7499 ],
+							[ -117.1084, 50.7584 ],
+							[ -117.4199, 50.7499 ],
+							[ -118.0374, 50.7609 ],
+							[ -118.8, 50.7499 ],
+							[ -118.6009, 50.3905 ],
+							[ -118.3899, 50.06 ],
+							[ -118.7142, 49.8357 ],
+							[ -118.9946, 49.6244 ],
+							[ -119.0591, 49.5801 ],
+							[ -119.1405, 49.5191 ],
+							[ -118.6926, 49.4209 ],
+							[ -118.3111, 49.3599 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
+				"event" : "Snowfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 5, 2020 15:26",
-				"Expires_UTC" : "January 6, 2020 07:25",
-				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nExtreme windchill values of near -50 today. These values will continue into Monday morning and Tuesday night .\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-06T07:25:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T15:26:58-00:00, urn:oid:2.49.0.1.124.1465089681.2020<br>Area: Pond Inlet, Clyde River",
+				"LastUpdate_UTC" : "January 6, 2020 03:49",
+				"Expires_UTC" : "January 6, 2020 19:48",
+				"Summary" : "Description: A long period of snowfall with total amounts of 15 to 25 cm is expected.\n\nA Pacific frontal system will arrive Monday morning and then remain over the region through Tuesday. Steady snow is forecast to begin in the morning and then become heavy at times Monday night. Total snowfall accumulation of 15 to 25 cm are expected by Tuesday morning. The snow will change over to rain on Tuesday as warmer southerly winds develop.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-06T19:48:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T03:49:18-00:00, urn:oid:2.49.0.1.124.3611732519.2020<br>Area: Arrow Lakes - Slocan Lake, West Kootenay, Kootenay Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.1465089681.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T15_26_58_00_00Iurn_oid_2.49.0.1.124.1465089681.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.3611732519.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T03_49_18_00_00Iurn_oid_2.49.0.1.124.3611732519.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106072558+00:00"
+				"Expires_FMEFormat" : "20200106194818+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -119.9107, 50.0731 ],
+							[ -119.9564, 49.9777 ],
+							[ -120.0012, 49.8499 ],
+							[ -120.4696, 49.6114 ],
+							[ -120.9164, 49.3465 ],
+							[ -120.9728, 49.3765 ],
+							[ -121.0736, 49.3324 ],
+							[ -121.1638, 49.3396 ],
+							[ -121.3808, 49.3145 ],
+							[ -121.3016, 49 ],
+							[ -121.2289, 49.0006 ],
+							[ -121.1942, 49.0003 ],
+							[ -120.6331, 48.9974 ],
+							[ -120.0025, 48.9994 ],
+							[ -120.0009, 48.9994 ],
+							[ -119.9892, 49.3375 ],
+							[ -120.0011, 49.6368 ],
+							[ -119.5566, 49.6228 ],
+							[ -118.9946, 49.6244 ],
+							[ -118.686, 49.841 ],
+							[ -118.3899, 50.06 ],
+							[ -118.574, 50.3966 ],
+							[ -118.8, 50.7499 ],
+							[ -119.2914, 50.6752 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.8104, 50.3717 ],
+							[ -119.9107, 50.0731 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 6, 2020 00:06",
+				"Expires_UTC" : "January 6, 2020 16:05",
+				"Summary" : "Description: A long period of snowfall with total amounts of 10 to 20 cm is expected.\n\nAn approaching Pacific warm front will give heavy snowfall beginning Monday morning. Heavy snow will prevail over the Similkameen beginning Monday morning then spread further north into the Central and North Okanagan regions during the day. \n\nAccumulations of 10 cm are expected for the Similkameen during the day Monday followed by an additional 5 to 10 cm Monday night. The Okanagan regions should receive 2 to 4 cm Monday then another 10 cm Monday night after the snow intensifies.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-06T16:05:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T00:06:23-00:00, urn:oid:2.49.0.1.124.3387570741.2020<br>Area: Similkameen, North Okanagan - including Vernon, Central Okanagan - including Kelowna",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.3387570741.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T00_06_23_00_00Iurn_oid_2.49.0.1.124.3387570741.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200106160523+00:00"
 			}
 		},
 		{
@@ -601,25 +606,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 6, 2020 02:06",
-				"Expires_UTC" : "January 6, 2020 14:44",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nSnow at times heavy will continue this evening. \n\nSnowfall amounts of 10 to 20 cm are likely by the time the snow tapers off overnight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-06T14:44:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T02:06:42-00:00, urn:oid:2.49.0.1.124.2705308460.2020<br>Area: Nipigon - Rossport, Marathon - Schreiber",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 6, 2020 03:55",
+				"Expires_UTC" : "January 6, 2020 04:55",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-06T04:55:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T03:55:04-00:00, urn:oid:2.49.0.1.124.3589603248.2020<br>Area: Nipigon - Rossport, Marathon - Schreiber",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.2705308460.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T02_06_42_00_00Iurn_oid_2.49.0.1.124.2705308460.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.3589603248.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T03_55_04_00_00Iurn_oid_2.49.0.1.124.3589603248.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106144442+00:00"
+				"Expires_FMEFormat" : "20200106045504+00:00"
 			}
 		},
 		{
@@ -987,6 +992,123 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T15_28_39_00_00Iurn_oid_2.49.0.1.124.3213028905.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200106072739+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -68.866, 70.2973 ],
+							[ -68.4617, 70.2406 ],
+							[ -68.1424, 70.3227 ],
+							[ -68.0901, 70.3251 ],
+							[ -68.1042, 70.5961 ],
+							[ -68.7571, 70.7588 ],
+							[ -68.8495, 70.6702 ],
+							[ -68.9763, 70.6379 ],
+							[ -69.0844, 70.5918 ],
+							[ -69.1466, 70.5427 ],
+							[ -69.1714, 70.4863 ],
+							[ -69.1544, 70.4334 ],
+							[ -69.0945, 70.3801 ],
+							[ -68.996, 70.3337 ],
+							[ -68.866, 70.2973 ]
+						]
+					],
+					[
+						[
+							[ -78.6362, 72.6541 ],
+							[ -78.4939, 72.5386 ],
+							[ -77.8912, 72.4735 ],
+							[ -77.3451, 72.5745 ],
+							[ -77.2351, 72.6638 ],
+							[ -77.2577, 72.7548 ],
+							[ -77.4398, 72.7893 ],
+							[ -78.0061, 72.7979 ],
+							[ -78.6362, 72.6541 ]
+						]
+					],
+					[
+						[
+							[ -64.2357, 67.7789 ],
+							[ -64.017, 67.6056 ],
+							[ -64.0555, 67.5407 ],
+							[ -64.0099, 67.472 ],
+							[ -63.2837, 67.5032 ],
+							[ -63.5588, 67.559 ],
+							[ -64.001, 67.7288 ],
+							[ -64.2357, 67.7789 ]
+						]
+					],
+					[
+						[
+							[ -65.3007, 66.282 ],
+							[ -65.4886, 66.3376 ],
+							[ -65.5369, 66.3117 ],
+							[ -65.54, 66.2273 ],
+							[ -65.5881, 66.2209 ],
+							[ -65.6647, 66.1709 ],
+							[ -66.0952, 66.0385 ],
+							[ -65.9456, 65.9566 ],
+							[ -65.8821, 65.9329 ],
+							[ -65.4561, 65.9399 ],
+							[ -65.2598, 65.984 ],
+							[ -65.2527, 66.0301 ],
+							[ -65.1793, 66.1138 ],
+							[ -65.1758, 66.1588 ],
+							[ -65.1955, 66.2031 ],
+							[ -65.3007, 66.282 ]
+						]
+					],
+					[
+						[
+							[ -68.8714, 63.5928 ],
+							[ -68.7424, 63.5556 ],
+							[ -68.5282, 63.576 ],
+							[ -68.2083, 63.5996 ],
+							[ -68.1887, 63.6089 ],
+							[ -68.1073, 63.6649 ],
+							[ -68.0685, 63.7293 ],
+							[ -68.0766, 63.796 ],
+							[ -68.1311, 63.8582 ],
+							[ -68.2269, 63.9099 ],
+							[ -68.3547, 63.946 ],
+							[ -68.5019, 63.9628 ],
+							[ -68.6536, 63.9586 ],
+							[ -68.7875, 63.9358 ],
+							[ -68.9058, 63.8939 ],
+							[ -68.9884, 63.838 ],
+							[ -69.0275, 63.7735 ],
+							[ -69.0195, 63.7069 ],
+							[ -68.9657, 63.6447 ],
+							[ -68.8714, 63.5928 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 5, 2020 15:26",
+				"Expires_UTC" : "January 6, 2020 07:25",
+				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nExtreme windchill values of near -50 today. These values will continue into Monday morning and Tuesday night .\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-06T07:25:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T15:26:58-00:00, urn:oid:2.49.0.1.124.1465089681.2020<br>Area: Pond Inlet, Clyde River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.1465089681.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T15_26_58_00_00Iurn_oid_2.49.0.1.124.1465089681.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200106072558+00:00"
 			}
 		},
 		{
@@ -1519,66 +1641,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T23_01_16_00_00Iurn_oid_2.49.0.1.124.2692373265.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200106150016+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -119.9107, 50.0731 ],
-							[ -119.9564, 49.9777 ],
-							[ -120.0012, 49.8499 ],
-							[ -120.4696, 49.6114 ],
-							[ -120.9164, 49.3465 ],
-							[ -120.9728, 49.3765 ],
-							[ -121.0736, 49.3324 ],
-							[ -121.1638, 49.3396 ],
-							[ -121.3808, 49.3145 ],
-							[ -121.3016, 49 ],
-							[ -121.2289, 49.0006 ],
-							[ -121.1942, 49.0003 ],
-							[ -120.6331, 48.9974 ],
-							[ -120.0025, 48.9994 ],
-							[ -120.0009, 48.9994 ],
-							[ -119.9892, 49.3375 ],
-							[ -120.0011, 49.6368 ],
-							[ -119.5566, 49.6228 ],
-							[ -118.9946, 49.6244 ],
-							[ -118.686, 49.841 ],
-							[ -118.3899, 50.06 ],
-							[ -118.574, 50.3966 ],
-							[ -118.8, 50.7499 ],
-							[ -119.2914, 50.6752 ],
-							[ -119.6999, 50.5999 ],
-							[ -119.8104, 50.3717 ],
-							[ -119.9107, 50.0731 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 6, 2020 00:06",
-				"Expires_UTC" : "January 6, 2020 16:05",
-				"Summary" : "Description: A long period of snowfall with total amounts of 10 to 20 cm is expected.\n\nAn approaching Pacific warm front will give heavy snowfall beginning Monday morning. Heavy snow will prevail over the Similkameen beginning Monday morning then spread further north into the Central and North Okanagan regions during the day. \n\nAccumulations of 10 cm are expected for the Similkameen during the day Monday followed by an additional 5 to 10 cm Monday night. The Okanagan regions should receive 2 to 4 cm Monday then another 10 cm Monday night after the snow intensifies.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-06T16:05:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T00:06:23-00:00, urn:oid:2.49.0.1.124.3387570741.2020<br>Area: Similkameen, North Okanagan - including Vernon, Central Okanagan - including Kelowna",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.3387570741.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T00_06_23_00_00Iurn_oid_2.49.0.1.124.3387570741.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106160523+00:00"
 			}
 		}
 	]
