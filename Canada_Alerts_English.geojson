@@ -192,66 +192,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -119.9107, 50.0731 ],
-							[ -119.9564, 49.9777 ],
-							[ -120.0012, 49.8499 ],
-							[ -120.4696, 49.6114 ],
-							[ -120.9164, 49.3465 ],
-							[ -120.9728, 49.3765 ],
-							[ -121.0736, 49.3324 ],
-							[ -121.1638, 49.3396 ],
-							[ -121.3808, 49.3145 ],
-							[ -121.3016, 49 ],
-							[ -121.2289, 49.0006 ],
-							[ -121.1942, 49.0003 ],
-							[ -120.6331, 48.9974 ],
-							[ -120.0025, 48.9994 ],
-							[ -120.0009, 48.9994 ],
-							[ -119.9892, 49.3375 ],
-							[ -120.0011, 49.6368 ],
-							[ -119.5566, 49.6228 ],
-							[ -118.9946, 49.6244 ],
-							[ -118.686, 49.841 ],
-							[ -118.3899, 50.06 ],
-							[ -118.574, 50.3966 ],
-							[ -118.8, 50.7499 ],
-							[ -119.2914, 50.6752 ],
-							[ -119.6999, 50.5999 ],
-							[ -119.8104, 50.3717 ],
-							[ -119.9107, 50.0731 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 6, 2020 00:05",
-				"Expires_UTC" : "January 6, 2020 16:05",
-				"Summary" : "Description: A long period of snowfall with total amounts of 10 to 20 cm is expected.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-06T16:05:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T00:05:23-00:00, urn:oid:2.49.0.1.124.0859460042.2020<br>Area: Similkameen, North Okanagan - including Vernon, Central Okanagan - including Kelowna",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.0859460042.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T00_05_23_00_00Iurn_oid_2.49.0.1.124.0859460042.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106160523+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.3108, 45.8312 ],
 							[ -64.3392, 45.8389 ],
 							[ -64.4894, 45.7165 ],
@@ -663,48 +603,57 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.0399, 47.2249 ],
-							[ -53.0399, 46.7999 ],
-							[ -52.9466, 46.8016 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.58, 47.3919 ],
-							[ -53.0399, 47.2249 ]
+							[ -119.9107, 50.0731 ],
+							[ -119.9564, 49.9777 ],
+							[ -120.0012, 49.8499 ],
+							[ -120.4696, 49.6114 ],
+							[ -120.9164, 49.3465 ],
+							[ -120.9728, 49.3765 ],
+							[ -121.0736, 49.3324 ],
+							[ -121.1638, 49.3396 ],
+							[ -121.3808, 49.3145 ],
+							[ -121.3016, 49 ],
+							[ -121.2289, 49.0006 ],
+							[ -121.1942, 49.0003 ],
+							[ -120.6331, 48.9974 ],
+							[ -120.0025, 48.9994 ],
+							[ -120.0009, 48.9994 ],
+							[ -119.9892, 49.3375 ],
+							[ -120.0011, 49.6368 ],
+							[ -119.5566, 49.6228 ],
+							[ -118.9946, 49.6244 ],
+							[ -118.686, 49.841 ],
+							[ -118.3899, 50.06 ],
+							[ -118.574, 50.3966 ],
+							[ -118.8, 50.7499 ],
+							[ -119.2914, 50.6752 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.8104, 50.3717 ],
+							[ -119.9107, 50.0731 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Snowfall",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 5, 2020 19:14",
-				"Expires_UTC" : "January 6, 2020 11:13",
-				"Summary" : "Description: Large waves, pounding surf, and elevated water levels are expected.\n\nWave heights: near 6 metres, breaking upon approach to shore.\n\nLocations: northeast-facing shorelines on the Avalon Peninsula.\n\nTime span: near high tide early Monday morning between 2 A.M. and 6 A.M.\n\nRemarks: Minor coastal flooding is possible along shorelines exposed to the northeast near high tide. Water levels will begin to subside later Monday morning, but high waves will persist into the afternoon. Shore or beach erosion is possible in vulnerable areas.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-06T11:13:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T19:14:28-00:00, urn:oid:2.49.0.1.124.3189983931.2020<br>Area: Avalon Peninsula North, St. John's and vicinity",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 6, 2020 00:06",
+				"Expires_UTC" : "January 6, 2020 16:05",
+				"Summary" : "Description: A long period of snowfall with total amounts of 10 to 20 cm is expected.\n\nAn approaching Pacific warm front will give heavy snowfall beginning Monday morning. Heavy snow will prevail over the Similkameen beginning Monday morning then spread further north into the Central and North Okanagan regions during the day. \n\nAccumulations of 10 cm are expected for the Similkameen during the day Monday followed by an additional 5 to 10 cm Monday night. The Okanagan regions should receive 2 to 4 cm Monday then another 10 cm Monday night after the snow intensifies.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-06T16:05:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T00:06:23-00:00, urn:oid:2.49.0.1.124.3387570741.2020<br>Area: Similkameen, North Okanagan - including Vernon, Central Okanagan - including Kelowna",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.3189983931.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T19_14_28_00_00Iurn_oid_2.49.0.1.124.3189983931.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.3387570741.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T00_06_23_00_00Iurn_oid_2.49.0.1.124.3387570741.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106111328+00:00"
+				"Expires_FMEFormat" : "20200106160523+00:00"
 			}
 		},
 		{
@@ -766,6 +715,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T23_37_11_00_00Iurn_oid_2.49.0.1.124.3602359290.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200106153611+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 46.7999 ],
+							[ -52.9466, 46.8016 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 5, 2020 19:14",
+				"Expires_UTC" : "January 6, 2020 11:13",
+				"Summary" : "Description: Large waves, pounding surf, and elevated water levels are expected.\n\nWave heights: near 6 metres, breaking upon approach to shore.\n\nLocations: northeast-facing shorelines on the Avalon Peninsula.\n\nTime span: near high tide early Monday morning between 2 A.M. and 6 A.M.\n\nRemarks: Minor coastal flooding is possible along shorelines exposed to the northeast near high tide. Water levels will begin to subside later Monday morning, but high waves will persist into the afternoon. Shore or beach erosion is possible in vulnerable areas.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-06T11:13:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T19:14:28-00:00, urn:oid:2.49.0.1.124.3189983931.2020<br>Area: Avalon Peninsula North, St. John's and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.3189983931.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T19_14_28_00_00Iurn_oid_2.49.0.1.124.3189983931.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200106111328+00:00"
 			}
 		},
 		{
@@ -1008,16 +1008,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 6, 2020 00:02",
+				"LastUpdate_UTC" : "January 6, 2020 00:03",
 				"Expires_UTC" : "January 6, 2020 16:02",
-				"Summary" : "Description: A long period of snowfall with total amounts of 25 to 30 cm continues.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-06T16:02:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T00:02:45-00:00, urn:oid:2.49.0.1.124.3015726941.2020<br>Area: Highway 3 - Hope to Princeton via Allison Pass, Coquihalla Highway - Hope to Merritt, Okanagan Connector - Merritt to Kelowna",
+				"Summary" : "Description: A long period of snowfall with total amounts of 25 to 30 cm continues.\n\nA southwest flow of moist and unstable air will continue to impact the Coquihalla Highway between Hope and Merritt tonight. Periods of snow may be heavy at times resulting in accumulations of up to 10 cm tonight. \n\nAn approaching Pacific warm front will give heavier snowfall beginning early Monday morning. The snow will also spread further inland to impact the Okanagan Connector between Merritt and Kelowna and Highway 3, Allison Pass between Hope and Princeton. Accumulations of 10 to 15 cm are expected during the day Monday and an additional 10 to 20 cm is likely Monday night.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-06T16:02:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T00:03:45-00:00, urn:oid:2.49.0.1.124.1856953306.2020<br>Area: Highway 3 - Hope to Princeton via Allison Pass, Coquihalla Highway - Hope to Merritt, Okanagan Connector - Merritt to Kelowna",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.3015726941.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T00_02_45_00_00Iurn_oid_2.49.0.1.124.3015726941.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.1856953306.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T00_03_45_00_00Iurn_oid_2.49.0.1.124.1856953306.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200106160245+00:00"
 			}
@@ -1158,86 +1158,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -105.6733, 69.1682 ],
-							[ -105.727, 69.0273 ],
-							[ -105.2968, 68.8552 ],
-							[ -105.1657, 68.9165 ],
-							[ -105.0185, 68.9148 ],
-							[ -104.8746, 68.9257 ],
-							[ -104.76, 68.9448 ],
-							[ -104.6509, 68.9745 ],
-							[ -104.5629, 69.0122 ],
-							[ -104.5044, 69.0525 ],
-							[ -104.4622, 69.1378 ],
-							[ -104.5126, 69.2188 ],
-							[ -104.6455, 69.2871 ],
-							[ -104.8519, 69.3339 ],
-							[ -105.0834, 69.3484 ],
-							[ -105.3231, 69.3293 ],
-							[ -105.5217, 69.2785 ],
-							[ -105.6437, 69.2077 ],
-							[ -105.6733, 69.1682 ]
-						]
-					],
-					[
-						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					],
-					[
-						[
-							[ -90.1125, 68.3558 ],
-							[ -90.103, 68.3317 ],
-							[ -89.7179, 68.317 ],
-							[ -89.4075, 68.3718 ],
-							[ -89.2267, 68.4885 ],
-							[ -89.2625, 68.6185 ],
-							[ -89.4378, 68.7021 ],
-							[ -89.6941, 68.745 ],
-							[ -89.999, 68.7198 ],
-							[ -90.0171, 68.6934 ],
-							[ -90.0135, 68.6617 ],
-							[ -90.1125, 68.3558 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 5, 2020 15:28",
-				"Expires_UTC" : "January 6, 2020 07:27",
-				"Summary" : "Description: A prolonged period of very cold wind chills continues. The coldest wind chill values will be between minus 55 and minus 60.\n\nExtreme cold conditions are expected to moderate by Monday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-06T07:27:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T15:28:39-00:00, urn:oid:2.49.0.1.124.3213028905.2020<br>Area: Cambridge Bay, Gjoa Haven, Kugaaruk",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.3213028905.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T15_28_39_00_00Iurn_oid_2.49.0.1.124.3213028905.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106072739+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -68.866, 70.2973 ],
 							[ -68.4617, 70.2406 ],
 							[ -68.1424, 70.3227 ],
@@ -1355,6 +1275,86 @@
 				"coordinates" : [
 					[
 						[
+							[ -105.6733, 69.1682 ],
+							[ -105.727, 69.0273 ],
+							[ -105.2968, 68.8552 ],
+							[ -105.1657, 68.9165 ],
+							[ -105.0185, 68.9148 ],
+							[ -104.8746, 68.9257 ],
+							[ -104.76, 68.9448 ],
+							[ -104.6509, 68.9745 ],
+							[ -104.5629, 69.0122 ],
+							[ -104.5044, 69.0525 ],
+							[ -104.4622, 69.1378 ],
+							[ -104.5126, 69.2188 ],
+							[ -104.6455, 69.2871 ],
+							[ -104.8519, 69.3339 ],
+							[ -105.0834, 69.3484 ],
+							[ -105.3231, 69.3293 ],
+							[ -105.5217, 69.2785 ],
+							[ -105.6437, 69.2077 ],
+							[ -105.6733, 69.1682 ]
+						]
+					],
+					[
+						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					],
+					[
+						[
+							[ -90.1125, 68.3558 ],
+							[ -90.103, 68.3317 ],
+							[ -89.7179, 68.317 ],
+							[ -89.4075, 68.3718 ],
+							[ -89.2267, 68.4885 ],
+							[ -89.2625, 68.6185 ],
+							[ -89.4378, 68.7021 ],
+							[ -89.6941, 68.745 ],
+							[ -89.999, 68.7198 ],
+							[ -90.0171, 68.6934 ],
+							[ -90.0135, 68.6617 ],
+							[ -90.1125, 68.3558 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 5, 2020 15:28",
+				"Expires_UTC" : "January 6, 2020 07:27",
+				"Summary" : "Description: A prolonged period of very cold wind chills continues. The coldest wind chill values will be between minus 55 and minus 60.\n\nExtreme cold conditions are expected to moderate by Monday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-06T07:27:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T15:28:39-00:00, urn:oid:2.49.0.1.124.3213028905.2020<br>Area: Cambridge Bay, Gjoa Haven, Kugaaruk",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.3213028905.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T15_28_39_00_00Iurn_oid_2.49.0.1.124.3213028905.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200106072739+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -60.1685, 45.7073 ],
 							[ -59.538, 46.0154 ],
 							[ -59.8902, 46.2624 ],
@@ -1428,6 +1428,58 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T21_39_20_00_00Iurn_oid_2.49.0.1.124.3181452656.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200106075920+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -86.0931, 48.7455 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 5, 2020 20:33",
+				"Expires_UTC" : "January 6, 2020 12:32",
+				"Summary" : "Description: Snow will continue tonight.\n\nSnow associated with a low pressure system has moved into the area. Snowfall amounts of 10 to 15 cm are likely by the time the snow tapers off early Monday morning. \n\nEarly Monday morning commute might be affected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-06T12:32:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T20:33:22-00:00, urn:oid:2.49.0.1.124.3657309722.2020<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.3657309722.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T20_33_22_00_00Iurn_oid_2.49.0.1.124.3657309722.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200106123222+00:00"
 			}
 		},
 		{
@@ -1697,58 +1749,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T20_29_05_00_00Iurn_oid_2.49.0.1.124.3298791828.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200106122805+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -86.0931, 48.7455 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 5, 2020 20:33",
-				"Expires_UTC" : "January 6, 2020 12:32",
-				"Summary" : "Description: Snow will continue tonight.\n\nSnow associated with a low pressure system has moved into the area. Snowfall amounts of 10 to 15 cm are likely by the time the snow tapers off early Monday morning. \n\nEarly Monday morning commute might be affected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-06T12:32:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-05T20:33:22-00:00, urn:oid:2.49.0.1.124.3657309722.2020<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-05:feed.atom/urn:oid:2.49.0.1.124.3657309722.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-05/2020_01_05T20_33_22_00_00Iurn_oid_2.49.0.1.124.3657309722.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106123222+00:00"
 			}
 		},
 		{
