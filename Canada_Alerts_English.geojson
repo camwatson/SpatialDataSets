@@ -220,6 +220,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -85.1481, 47.824 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.6283, 47.2522 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ],
+							[ -83.996, 48.1106 ],
+							[ -84.2352, 48.0981 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.6559, 47.963 ],
+							[ -84.8608, 47.8957 ],
+							[ -85.1481, 47.824 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 6, 2020 13:01",
+				"Expires_UTC" : "January 6, 2020 18:05",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for this morning.\n\nLake effect snow squalls are affecting the area.  Although a warning is not anticipated, visibilities could be reduced to 200 metres or less at times in heavy snow this morning.  Motorists should be prepared for poor winter travelling conditions. \n\nFurther accumulations of about 5 cm is possible by midday when the squalls are forecast to move south of the region.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-06T18:05:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T13:01:17-00:00, urn:oid:2.49.0.1.124.2998459050.2020<br>Area: Agawa - Lake Superior Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.2998459050.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T13_01_17_00_00Iurn_oid_2.49.0.1.124.2998459050.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200106180517+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.6293, 44.5519 ],
 							[ -79.6299, 44.3954 ],
 							[ -79.6291, 44.3911 ],
@@ -297,66 +342,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T09_42_56_00_00Iurn_oid_2.49.0.1.124.1620754889.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200107014156+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -119.9107, 50.0731 ],
-							[ -119.9564, 49.9777 ],
-							[ -120.0012, 49.8499 ],
-							[ -120.4696, 49.6114 ],
-							[ -120.9164, 49.3465 ],
-							[ -120.9728, 49.3765 ],
-							[ -121.0736, 49.3324 ],
-							[ -121.1638, 49.3396 ],
-							[ -121.3808, 49.3145 ],
-							[ -121.3016, 49 ],
-							[ -121.2289, 49.0006 ],
-							[ -121.1942, 49.0003 ],
-							[ -120.6331, 48.9974 ],
-							[ -120.0025, 48.9994 ],
-							[ -120.0009, 48.9994 ],
-							[ -119.9892, 49.3375 ],
-							[ -120.0011, 49.6368 ],
-							[ -119.5566, 49.6228 ],
-							[ -118.9946, 49.6244 ],
-							[ -118.686, 49.841 ],
-							[ -118.3899, 50.06 ],
-							[ -118.574, 50.3966 ],
-							[ -118.8, 50.7499 ],
-							[ -119.2914, 50.6752 ],
-							[ -119.6999, 50.5999 ],
-							[ -119.8104, 50.3717 ],
-							[ -119.9107, 50.0731 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 6, 2020 04:49",
-				"Expires_UTC" : "January 6, 2020 16:05",
-				"Summary" : "Description: A long period of snowfall with total amounts of 10 to 20 cm is expected.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-06T16:05:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T04:49:44-00:00, urn:oid:2.49.0.1.124.0315708597.2020<br>Area: North Okanagan - including Vernon, Central Okanagan - including Kelowna",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.0315708597.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T04_49_44_00_00Iurn_oid_2.49.0.1.124.0315708597.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106160523+00:00"
 			}
 		},
 		{
@@ -795,51 +780,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T13_04_13_00_00Iurn_oid_2.49.0.1.124.0424639088.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200107050313+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.6157, 46.5529 ],
-							[ -63.5565, 46.3787 ],
-							[ -63.5006, 46.213 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 6, 2020 14:39",
-				"Expires_UTC" : "January 7, 2020 06:38",
-				"Summary" : "Description: Snow likely on Wednesday.\n\nLocations: central and eastern Prince Edward Island.\n\nTime span: Wednesday and persisting into Wednesday night.\n\nRemarks: A developing storm will likely give significant snowfall to eastern parts of the province on Wednesday.  The snow will develop Wednesday morning and persist into the evening. While it is too soon to provide specific details, the potential exists for 15 cm or more of snow and strong winds giving reduced visibility in blowing snow.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-01-07T06:38:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T14:39:35-00:00, urn:oid:2.49.0.1.124.0868914051.2020<br>Area: Kings County P.E.I., Queens County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.0868914051.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T14_39_35_00_00Iurn_oid_2.49.0.1.124.0868914051.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200107063835+00:00"
 			}
 		},
 		{
@@ -2030,51 +1970,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -85.1481, 47.824 ],
-							[ -84.9134, 47.2346 ],
-							[ -84.6283, 47.2522 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9939, 48.1107 ],
-							[ -83.996, 48.1106 ],
-							[ -84.2352, 48.0981 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.6559, 47.963 ],
-							[ -84.8608, 47.8957 ],
-							[ -85.1481, 47.824 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 6, 2020 15:09",
-				"Expires_UTC" : "January 6, 2020 16:09",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2020-01-06T16:09:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T15:09:43-00:00, urn:oid:2.49.0.1.124.0816462323.2020<br>Area: Agawa - Lake Superior Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.0816462323.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T15_09_43_00_00Iurn_oid_2.49.0.1.124.0816462323.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200106160943+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -79.6293, 44.5519 ],
 							[ -79.6299, 44.3954 ],
 							[ -79.6291, 44.3911 ],
@@ -2145,6 +2040,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T15_49_53_00_00Iurn_oid_2.49.0.1.124.0980264012.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200107074853+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.6157, 46.5529 ],
+							[ -63.5565, 46.3787 ],
+							[ -63.5006, 46.213 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 6, 2020 14:39",
+				"Expires_UTC" : "January 7, 2020 06:38",
+				"Summary" : "Description: Snow likely on Wednesday.\n\nLocations: central and eastern Prince Edward Island.\n\nTime span: Wednesday and persisting into Wednesday night.\n\nRemarks: A developing storm will likely give significant snowfall to eastern parts of the province on Wednesday.  The snow will develop Wednesday morning and persist into the evening. While it is too soon to provide specific details, the potential exists for 15 cm or more of snow and strong winds giving reduced visibility in blowing snow.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-01-07T06:38:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-06T14:39:35-00:00, urn:oid:2.49.0.1.124.0868914051.2020<br>Area: Kings County P.E.I., Queens County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-06:feed.atom/urn:oid:2.49.0.1.124.0868914051.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-06/2020_01_06T14_39_35_00_00Iurn_oid_2.49.0.1.124.0868914051.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200107063835+00:00"
 			}
 		}
 	]
