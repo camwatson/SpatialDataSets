@@ -197,57 +197,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.8, 51 ],
-							[ -122.604, 50.9901 ],
-							[ -121.65, 50.9999 ],
-							[ -121.8392, 51.3144 ],
-							[ -122.08, 51.6699 ],
-							[ -122.4911, 51.9305 ],
-							[ -122.9899, 52.2151 ],
-							[ -123.5672, 52.5834 ],
-							[ -124.3, 53 ],
-							[ -124.3065, 52.9994 ],
-							[ -125.3664, 52.9368 ],
-							[ -126.5, 52.83 ],
-							[ -125.9601, 52.3626 ],
-							[ -125.4999, 52 ],
-							[ -125.1728, 51.7875 ],
-							[ -124.8664, 51.6273 ],
-							[ -124.3309, 51.2912 ],
-							[ -123.8, 51 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 7, 2020 16:32",
-				"Expires_UTC" : "January 8, 2020 04:31",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-08T04:31:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-07T16:32:45-00:00, urn:oid:2.49.0.1.124.2400448815.2020<br>Area: Chilcotin",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-07:feed.atom/urn:oid:2.49.0.1.124.2400448815.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T16_32_45_00_00Iurn_oid_2.49.0.1.124.2400448815.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200108043145+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -84.9134, 47.2346 ],
 							[ -84.7351, 46.6321 ],
 							[ -84.4985, 46.6539 ],
@@ -715,6 +664,68 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T11_32_06_00_00Iurn_oid_2.49.0.1.124.2346204292.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200108033106+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -78.6362, 72.6541 ],
+							[ -78.4939, 72.5386 ],
+							[ -77.8912, 72.4735 ],
+							[ -77.3451, 72.5745 ],
+							[ -77.2351, 72.6638 ],
+							[ -77.2577, 72.7548 ],
+							[ -77.4398, 72.7893 ],
+							[ -78.0061, 72.7979 ],
+							[ -78.6362, 72.6541 ]
+						]
+					],
+					[
+						[
+							[ -65.3007, 66.282 ],
+							[ -65.4886, 66.3376 ],
+							[ -65.5369, 66.3117 ],
+							[ -65.54, 66.2273 ],
+							[ -65.5881, 66.2209 ],
+							[ -65.6647, 66.1709 ],
+							[ -66.0952, 66.0385 ],
+							[ -65.9456, 65.9566 ],
+							[ -65.8821, 65.9329 ],
+							[ -65.4561, 65.9399 ],
+							[ -65.2598, 65.984 ],
+							[ -65.2527, 66.0301 ],
+							[ -65.1793, 66.1138 ],
+							[ -65.1758, 66.1588 ],
+							[ -65.1955, 66.2031 ],
+							[ -65.3007, 66.282 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 7, 2020 15:31",
+				"Expires_UTC" : "January 8, 2020 07:30",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values of minus 50 or colder will persist over the next day.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-08T07:30:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-07T15:31:01-00:00, urn:oid:2.49.0.1.124.2179886961.2020<br>Area: Pond Inlet, Pangnirtung",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-07:feed.atom/urn:oid:2.49.0.1.124.2179886961.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T15_31_01_00_00Iurn_oid_2.49.0.1.124.2179886961.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200108073001+00:00"
 			}
 		},
 		{
@@ -1355,65 +1366,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.2883, 49.8762 ],
-							[ -123.1863, 49.8735 ],
-							[ -123.1391, 49.7834 ],
-							[ -122.939, 49.6817 ],
-							[ -122.7973, 49.4955 ],
-							[ -122.7669, 49.5005 ],
-							[ -122.7445, 49.5042 ],
-							[ -122.6105, 49.5446 ],
-							[ -122.6091, 49.545 ],
-							[ -122.414, 49.639 ],
-							[ -122.385, 49.6529 ],
-							[ -122.2474, 49.7186 ],
-							[ -122.2146, 49.7342 ],
-							[ -122.1633, 49.7586 ],
-							[ -122.0982, 49.78 ],
-							[ -121.7625, 49.889 ],
-							[ -121.7791, 49.9472 ],
-							[ -121.8, 50 ],
-							[ -121.9646, 50.0972 ],
-							[ -122.1663, 50.1832 ],
-							[ -122.5174, 50.3632 ],
-							[ -122.8931, 50.5465 ],
-							[ -123.1208, 50.2801 ],
-							[ -123.3283, 50.0057 ],
-							[ -123.3506, 49.9045 ],
-							[ -123.2883, 49.8762 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 7, 2020 13:06",
-				"Expires_UTC" : "January 8, 2020 01:59",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA strong Pacific frontal system spread snow to the Sea to Sky Highway and Whistler region last night. The snow is forecast to continue this morning before easing this afternoon. Total snowfall accumulations of up to 30 cm are expected by this evening.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-08T01:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-07T13:06:23-00:00, urn:oid:2.49.0.1.124.1404431101.2020<br>Area: Whistler",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-07:feed.atom/urn:oid:2.49.0.1.124.1404431101.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T13_06_23_00_00Iurn_oid_2.49.0.1.124.1404431101.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200108015923+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -123.051, 50.0377 ],
 							[ -122.9822, 50.0472 ],
 							[ -122.9589, 50.0526 ],
@@ -1464,6 +1416,65 @@
 				"language" : "en-CA",
 				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-07:feed.atom/urn:oid:2.49.0.1.124.3757963433.2020",
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T13_06_23_00_00Iurn_oid_2.49.0.1.124.3757963433.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200108015923+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.2883, 49.8762 ],
+							[ -123.1863, 49.8735 ],
+							[ -123.1391, 49.7834 ],
+							[ -122.939, 49.6817 ],
+							[ -122.7973, 49.4955 ],
+							[ -122.7669, 49.5005 ],
+							[ -122.7445, 49.5042 ],
+							[ -122.6105, 49.5446 ],
+							[ -122.6091, 49.545 ],
+							[ -122.414, 49.639 ],
+							[ -122.385, 49.6529 ],
+							[ -122.2474, 49.7186 ],
+							[ -122.2146, 49.7342 ],
+							[ -122.1633, 49.7586 ],
+							[ -122.0982, 49.78 ],
+							[ -121.7625, 49.889 ],
+							[ -121.7791, 49.9472 ],
+							[ -121.8, 50 ],
+							[ -121.9646, 50.0972 ],
+							[ -122.1663, 50.1832 ],
+							[ -122.5174, 50.3632 ],
+							[ -122.8931, 50.5465 ],
+							[ -123.1208, 50.2801 ],
+							[ -123.3283, 50.0057 ],
+							[ -123.3506, 49.9045 ],
+							[ -123.2883, 49.8762 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 7, 2020 13:06",
+				"Expires_UTC" : "January 8, 2020 01:59",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA strong Pacific frontal system spread snow to the Sea to Sky Highway and Whistler region last night. The snow is forecast to continue this morning before easing this afternoon. Total snowfall accumulations of up to 30 cm are expected by this evening.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-08T01:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-07T13:06:23-00:00, urn:oid:2.49.0.1.124.1404431101.2020<br>Area: Whistler",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-07:feed.atom/urn:oid:2.49.0.1.124.1404431101.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T13_06_23_00_00Iurn_oid_2.49.0.1.124.1404431101.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200108015923+00:00"
 			}
@@ -1950,6 +1961,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T15_53_08_00_00Iurn_oid_2.49.0.1.124.1658413814.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200107201708+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.8, 51 ],
+							[ -122.604, 50.9901 ],
+							[ -121.65, 50.9999 ],
+							[ -121.8392, 51.3144 ],
+							[ -122.08, 51.6699 ],
+							[ -122.4911, 51.9305 ],
+							[ -122.9899, 52.2151 ],
+							[ -123.5672, 52.5834 ],
+							[ -124.3, 53 ],
+							[ -124.3065, 52.9994 ],
+							[ -125.3664, 52.9368 ],
+							[ -126.5, 52.83 ],
+							[ -125.9601, 52.3626 ],
+							[ -125.4999, 52 ],
+							[ -125.1728, 51.7875 ],
+							[ -124.8664, 51.6273 ],
+							[ -124.3309, 51.2912 ],
+							[ -123.8, 51 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 7, 2020 16:33",
+				"Expires_UTC" : "January 8, 2020 04:31",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA low pressure system crossing the Chilcotin today will produce 10 to 15 cm of snow over parts of the Chilcotin today. The most likely areas to see heavy snow accumulations are north of Tatla Lake, towards Anahim Lake.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-08T04:31:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-07T16:33:45-00:00, urn:oid:2.49.0.1.124.3273541342.2020<br>Area: Chilcotin",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-07:feed.atom/urn:oid:2.49.0.1.124.3273541342.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T16_33_45_00_00Iurn_oid_2.49.0.1.124.3273541342.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200108043145+00:00"
 			}
 		},
 		{
@@ -2492,68 +2554,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T11_32_42_00_00Iurn_oid_2.49.0.1.124.0357230577.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200108033142+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -78.6362, 72.6541 ],
-							[ -78.4939, 72.5386 ],
-							[ -77.8912, 72.4735 ],
-							[ -77.3451, 72.5745 ],
-							[ -77.2351, 72.6638 ],
-							[ -77.2577, 72.7548 ],
-							[ -77.4398, 72.7893 ],
-							[ -78.0061, 72.7979 ],
-							[ -78.6362, 72.6541 ]
-						]
-					],
-					[
-						[
-							[ -65.3007, 66.282 ],
-							[ -65.4886, 66.3376 ],
-							[ -65.5369, 66.3117 ],
-							[ -65.54, 66.2273 ],
-							[ -65.5881, 66.2209 ],
-							[ -65.6647, 66.1709 ],
-							[ -66.0952, 66.0385 ],
-							[ -65.9456, 65.9566 ],
-							[ -65.8821, 65.9329 ],
-							[ -65.4561, 65.9399 ],
-							[ -65.2598, 65.984 ],
-							[ -65.2527, 66.0301 ],
-							[ -65.1793, 66.1138 ],
-							[ -65.1758, 66.1588 ],
-							[ -65.1955, 66.2031 ],
-							[ -65.3007, 66.282 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 7, 2020 15:31",
-				"Expires_UTC" : "January 8, 2020 07:30",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values of minus 50 or colder will persist over the next day.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-08T07:30:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-07T15:31:01-00:00, urn:oid:2.49.0.1.124.2179886961.2020<br>Area: Pond Inlet, Pangnirtung",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-07:feed.atom/urn:oid:2.49.0.1.124.2179886961.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-07/2020_01_07T15_31_01_00_00Iurn_oid_2.49.0.1.124.2179886961.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200108073001+00:00"
 			}
 		}
 	]
