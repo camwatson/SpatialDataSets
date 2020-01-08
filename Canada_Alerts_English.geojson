@@ -72,55 +72,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -104.8657, 58.3999 ],
-							[ -104.8658, 57.0615 ],
-							[ -103.2379, 57.8161 ],
-							[ -102.0074, 58.3877 ],
-							[ -101.9745, 59.1823 ],
-							[ -102.0075, 59.9992 ],
-							[ -103.4256, 60.0239 ],
-							[ -104.8657, 59.9995 ],
-							[ -105.63, 60.0171 ],
-							[ -106.4297, 59.9992 ],
-							[ -107.2378, 60.0172 ],
-							[ -108.0496, 59.9996 ],
-							[ -108.08, 59.1865 ],
-							[ -108.0497, 58.3999 ],
-							[ -106.4297, 58.3999 ],
-							[ -104.8657, 58.3999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 8, 2020 21:31",
-				"Expires_UTC" : "January 8, 2020 22:31",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-01-08T22:31:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-08T21:31:14-00:00, urn:oid:2.49.0.1.124.0821646902.2020<br>Area: Fond-du-Lac, Stony Rapids and Black Lake, Wollaston Lake - Collins Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-08:feed.atom/urn:oid:2.49.0.1.124.0821646902.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-08/2020_01_08T21_31_14_00_00Iurn_oid_2.49.0.1.124.0821646902.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200108223114+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -80.4344, 44.0271 ],
 							[ -80.42, 43.9352 ],
 							[ -80.3943, 43.8531 ],
@@ -1782,6 +1733,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.6157, 46.5529 ],
+							[ -63.5565, 46.3787 ],
+							[ -63.5006, 46.213 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "January 8, 2020 19:46",
+				"Expires_UTC" : "January 9, 2020 05:59",
+				"Summary" : "Description: Heavy snow continues.\n\nTotal snowfall: 20 to 30 cm by this evening.\n\nLocation: Queens and Kings Counties.\n\nTime span: persisting into this evening then tapering off to flurries.\n\nRemarks: Additional amounts near 5 cm are expected before the snow tapers to light flurries, which will persist into Thursday.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-01-09T05:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-08T19:46:57-00:00, urn:oid:2.49.0.1.124.3352412532.2020<br>Area: Kings County P.E.I., Queens County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-08:feed.atom/urn:oid:2.49.0.1.124.3352412532.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-08/2020_01_08T19_46_57_00_00Iurn_oid_2.49.0.1.124.3352412532.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200109055957+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -99.4973, 51.8514 ],
 							[ -99.6067, 51.7181 ],
 							[ -99.6, 51.5645 ],
@@ -1884,51 +1880,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-08/2020_01_08T21_15_22_00_00Iurn_oid_2.49.0.1.124.3001274937.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200109131422+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.6157, 46.5529 ],
-							[ -63.5565, 46.3787 ],
-							[ -63.5006, 46.213 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "January 8, 2020 19:46",
-				"Expires_UTC" : "January 9, 2020 05:59",
-				"Summary" : "Description: Heavy snow continues.\n\nTotal snowfall: 20 to 30 cm by this evening.\n\nLocation: Queens and Kings Counties.\n\nTime span: persisting into this evening then tapering off to flurries.\n\nRemarks: Additional amounts near 5 cm are expected before the snow tapers to light flurries, which will persist into Thursday.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-01-09T05:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-08T19:46:57-00:00, urn:oid:2.49.0.1.124.3352412532.2020<br>Area: Kings County P.E.I., Queens County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-08:feed.atom/urn:oid:2.49.0.1.124.3352412532.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-08/2020_01_08T19_46_57_00_00Iurn_oid_2.49.0.1.124.3352412532.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200109055957+00:00"
 			}
 		},
 		{
@@ -2361,18 +2312,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 8, 2020 17:36",
-				"Expires_UTC" : "January 9, 2020 09:35",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values near minus 40 are expected to continue into next week.\n\nThe warning may need to be be expanded to areas to the south over the next couple of days.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-01-09T09:35:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-08T17:36:51-00:00, urn:oid:2.49.0.1.124.2024400317.2020<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves, Wood Buffalo Nat. Park west of the Fifth Meridian, Wood Buffalo Nat. Park near Hay Camp and Ninishith Hills, Wood Buffalo Nat. Park near Garden River and Thebacha Trail, Wood Buffalo Nat. Park near Peace Point and Lake Claire, R.M. of Wood Buffalo near Namur River and Namur Lake Reserves, R.M. of Wood Buffalo near Clausen's Landing and Chipewyan 201FG, R.M. of Wood Buffalo near Old Fort Chipewyan 201 and 201ABCDE, R.M. of Wood Buffalo near Fitzgerald and La Butte Creek, R.M. of Wood Buffalo near Colin-Cornwall Lakes Prov. Park, R.M. of Wood Buffalo near Fort Chipewyan and Sand Point",
+				"LastUpdate_UTC" : "January 8, 2020 22:31",
+				"Expires_UTC" : "January 9, 2020 14:30",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values near minus 40 are expected to continue into next week.\n\nThe warning may need to be be expanded to areas to the south over the next couple of days.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-01-09T14:30:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-08T22:31:45-00:00, urn:oid:2.49.0.1.124.0580883006.2020<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves, Wood Buffalo Nat. Park west of the Fifth Meridian, Wood Buffalo Nat. Park near Hay Camp and Ninishith Hills, Wood Buffalo Nat. Park near Garden River and Thebacha Trail, Wood Buffalo Nat. Park near Peace Point and Lake Claire, R.M. of Wood Buffalo near Namur River and Namur Lake Reserves, R.M. of Wood Buffalo near Clausen's Landing and Chipewyan 201FG, R.M. of Wood Buffalo near Old Fort Chipewyan 201 and 201ABCDE, R.M. of Wood Buffalo near Fitzgerald and La Butte Creek, R.M. of Wood Buffalo near Colin-Cornwall Lakes Prov. Park, R.M. of Wood Buffalo near Fort Chipewyan and Sand Point",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-08:feed.atom/urn:oid:2.49.0.1.124.2024400317.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-08/2020_01_08T17_36_51_00_00Iurn_oid_2.49.0.1.124.2024400317.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-08:feed.atom/urn:oid:2.49.0.1.124.0580883006.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-08/2020_01_08T22_31_45_00_00Iurn_oid_2.49.0.1.124.0580883006.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200109093551+00:00"
+				"Expires_FMEFormat" : "20200109143045+00:00"
 			}
 		},
 		{
