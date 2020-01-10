@@ -380,6 +380,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 10, 2020 03:33",
+				"Expires_UTC" : "January 10, 2020 19:32",
+				"Summary" : "Description: Mixed precipitation and abnormal temperatures are likely this weekend.\n\nLocations: Prince Edward Island and Iles-de-la-Madeleine.\n\nTime span: Saturday and Sunday.\n\nRemarks: A developing storm is expected to affect the Maritimes this weekend. Temperatures are expected to reach the freezing mark Friday and then climb well above it Saturday. Rain will likely spread throughout the region Saturday, but it is expected to turn into ice pellets and snow on Sunday. While it is too soon to provide specific details about amounts, significant impacts from these changing precipitation types are possible.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-01-10T19:32:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T03:33:39-00:00, urn:oid:2.49.0.1.124.3832428335.2020<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.3832428335.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T03_33_39_00_00Iurn_oid_2.49.0.1.124.3832428335.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200110193239+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -129.7213, 51.8219 ],
 							[ -128.8048, 50.9385 ],
 							[ -129.3279, 50.9024 ],
@@ -461,46 +501,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T03_56_08_00_00Iurn_oid_2.49.0.1.124.0592556180.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200110195508+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 10, 2020 03:33",
-				"Expires_UTC" : "January 10, 2020 19:32",
-				"Summary" : "Description: Mixed precipitation and abnormal temperatures are likely this weekend.\n\nLocations: Prince Edward Island and Iles-de-la-Madeleine.\n\nTime span: Saturday and Sunday.\n\nRemarks: A developing storm is expected to affect the Maritimes this weekend. Temperatures are expected to reach the freezing mark Friday and then climb well above it Saturday. Rain will likely spread throughout the region Saturday, but it is expected to turn into ice pellets and snow on Sunday. While it is too soon to provide specific details about amounts, significant impacts from these changing precipitation types are possible.\n\nAdditional information will be provided as the details become more certain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-01-10T19:32:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T03:33:39-00:00, urn:oid:2.49.0.1.124.3832428335.2020<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.3832428335.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T03_33_39_00_00Iurn_oid_2.49.0.1.124.3832428335.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200110193239+00:00"
 			}
 		},
 		{
@@ -3628,25 +3628,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
 				"Category" : "Actual",
 				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "January 9, 2020 22:11",
-				"Expires_UTC" : "January 10, 2020 11:14",
-				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nBlizzard conditions are expected to end overnight as winds diminish.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-01-10T11:14:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-09T22:11:11-00:00, urn:oid:2.49.0.1.124.2840956853.2020<br>Area: Paulatuk",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 10, 2020 04:20",
+				"Expires_UTC" : "January 10, 2020 05:20",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2020-01-10T05:20:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T04:20:52-00:00, urn:oid:2.49.0.1.124.0476141048.2020<br>Area: Paulatuk",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-09:feed.atom/urn:oid:2.49.0.1.124.2840956853.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-09/2020_01_09T22_11_11_00_00Iurn_oid_2.49.0.1.124.2840956853.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.0476141048.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T04_20_52_00_00Iurn_oid_2.49.0.1.124.0476141048.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200110111411+00:00"
+				"Expires_FMEFormat" : "20200110052052+00:00"
 			}
 		},
 		{
