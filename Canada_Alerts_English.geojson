@@ -296,6 +296,87 @@
 				"coordinates" : [
 					[
 						[
+							[ -77.7494, 47.8332 ],
+							[ -77.9663, 47.835 ],
+							[ -78.4996, 47.8372 ],
+							[ -79.5176, 47.833 ],
+							[ -79.5304, 47.6882 ],
+							[ -79.5175, 47.5701 ],
+							[ -79.6092, 47.5715 ],
+							[ -79.6195, 47.54 ],
+							[ -79.687, 47.5405 ],
+							[ -79.7294, 47.4978 ],
+							[ -79.5041, 47.2572 ],
+							[ -79.495, 47.191 ],
+							[ -79.5029, 47.1331 ],
+							[ -79.4724, 47.0616 ],
+							[ -79.3905, 47.0009 ],
+							[ -79.3866, 46.9548 ],
+							[ -79.2784, 46.831 ],
+							[ -79.1929, 46.7888 ],
+							[ -79.1164, 46.6533 ],
+							[ -79.0508, 46.6095 ],
+							[ -79.0245, 46.5322 ],
+							[ -78.8798, 46.4221 ],
+							[ -78.7697, 46.3652 ],
+							[ -78.7789, 46.3348 ],
+							[ -78.7478, 46.2963 ],
+							[ -78.6517, 46.2939 ],
+							[ -78.4088, 46.2646 ],
+							[ -78.3488, 46.2332 ],
+							[ -78.2678, 46.2261 ],
+							[ -78.2384, 46.2433 ],
+							[ -78.1458, 46.243 ],
+							[ -78.0634, 46.2008 ],
+							[ -78.0059, 46.2115 ],
+							[ -77.8553, 46.168 ],
+							[ -77.825, 46.1394 ],
+							[ -77.7691, 46.1256 ],
+							[ -77.7513, 46.1609 ],
+							[ -77.7479, 46.1941 ],
+							[ -77.7484, 46.2127 ],
+							[ -77.7501, 46.9998 ],
+							[ -77.3649, 46.9966 ],
+							[ -77.0011, 47 ],
+							[ -76.6569, 46.8048 ],
+							[ -76.3327, 46.6332 ],
+							[ -75.8328, 46.9998 ],
+							[ -76.1922, 47.4534 ],
+							[ -76.4994, 47.8332 ],
+							[ -77.7494, 47.8332 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "January 10, 2020 16:36",
+				"Expires_UTC" : "January 11, 2020 08:35",
+				"Summary" : "Description: 2 to 4 millimetres of freezing precipitation is expected overnight tonight and Saturday morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-01-11T08:35:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T16:36:04-00:00, urn:oid:2.49.0.1.124.1450819464.2020<br>Area: Ville-Marie area, Témiscaming area, Dorval Lodge area, Le Domaine area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.1450819464.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T16_36_04_00_00Iurn_oid_2.49.0.1.124.1450819464.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200111083504+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -124.1442, 49.4629 ],
 							[ -123.9656, 49.3653 ],
 							[ -123.8076, 49.271 ],
@@ -2181,58 +2262,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -125.9169, 59.4669 ],
-							[ -126.3281, 59.7323 ],
-							[ -126.8261, 60 ],
-							[ -128.143, 60.8193 ],
-							[ -129.6349, 61.6498 ],
-							[ -130.104, 61.3575 ],
-							[ -130.6018, 60.9998 ],
-							[ -130.2383, 60.6578 ],
-							[ -129.8507, 60.3551 ],
-							[ -129.8615, 60.3495 ],
-							[ -129.7748, 60.29 ],
-							[ -129.6464, 60.1557 ],
-							[ -129.4368, 59.9999 ],
-							[ -128.9911, 59.5724 ],
-							[ -128.4847, 59.1828 ],
-							[ -127.6373, 59.1587 ],
-							[ -126.817, 59.1829 ],
-							[ -126.3258, 59.3238 ],
-							[ -125.9169, 59.4669 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 10, 2020 17:39",
-				"Expires_UTC" : "January 11, 2020 09:38",
-				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nA bitterly cold arctic ridge of high pressure will remain entrenched over the area for several days. Occasional light winds will give wind chill values below minus 45.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-01-11T09:38:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T17:39:43-00:00, urn:oid:2.49.0.1.124.2831384810.2020<br>Area: Watson Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.2831384810.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T17_39_43_00_00Iurn_oid_2.49.0.1.124.2831384810.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200111093843+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -81.7485, 43.2393 ],
 							[ -81.7322, 43.2901 ],
 							[ -81.755, 43.2931 ],
@@ -3269,6 +3298,66 @@
 				"coordinates" : [
 					[
 						[
+							[ -108.0497, 58.3999 ],
+							[ -108.0497, 57.409 ],
+							[ -108.0786, 56.7472 ],
+							[ -108.0497, 56.1199 ],
+							[ -106.7528, 56.1199 ],
+							[ -105.3779, 56.1199 ],
+							[ -104.8658, 56.1199 ],
+							[ -104.8658, 57.0615 ],
+							[ -103.2379, 57.8161 ],
+							[ -102.0074, 58.3877 ],
+							[ -101.9745, 59.1823 ],
+							[ -102.0075, 59.9992 ],
+							[ -103.4256, 60.0239 ],
+							[ -104.8657, 59.9995 ],
+							[ -105.63, 60.0171 ],
+							[ -106.4297, 59.9992 ],
+							[ -107.2378, 60.0172 ],
+							[ -108.0496, 59.9996 ],
+							[ -108.9939, 60.0176 ],
+							[ -110.0063, 59.9994 ],
+							[ -110.035, 59.6475 ],
+							[ -110.0061, 59.3009 ],
+							[ -110.033, 59.0026 ],
+							[ -110.0061, 58.6892 ],
+							[ -110.0222, 58.5503 ],
+							[ -110.006, 58.3999 ],
+							[ -108.0497, 58.3999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 10, 2020 16:32",
+				"Expires_UTC" : "January 11, 2020 08:31",
+				"Summary" : "Description: A period of very cold wind chills continues. The coldest wind chill values will be near minus 45.\n\nExtreme cold will moderate this afternoon, but may redevelop tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-01-11T08:31:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T16:32:02-00:00, urn:oid:2.49.0.1.124.2671294656.2020<br>Area: Uranium City - Camsell Portage, Fond-du-Lac, Stony Rapids and Black Lake, Cree Lake - Key Lake, Wollaston Lake - Collins Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.2671294656.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T16_32_02_00_00Iurn_oid_2.49.0.1.124.2671294656.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200111083102+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -127.6288, 50.1628 ],
 							[ -127.6515, 50.1593 ],
 							[ -127.6707, 50.1385 ],
@@ -3333,147 +3422,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T12_36_26_00_00Iurn_oid_2.49.0.1.124.0366114266.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200110203926+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -108.0497, 58.3999 ],
-							[ -108.0497, 57.409 ],
-							[ -108.0786, 56.7472 ],
-							[ -108.0497, 56.1199 ],
-							[ -106.7528, 56.1199 ],
-							[ -105.3779, 56.1199 ],
-							[ -104.8658, 56.1199 ],
-							[ -104.8658, 57.0615 ],
-							[ -103.2379, 57.8161 ],
-							[ -102.0074, 58.3877 ],
-							[ -101.9745, 59.1823 ],
-							[ -102.0075, 59.9992 ],
-							[ -103.4256, 60.0239 ],
-							[ -104.8657, 59.9995 ],
-							[ -105.63, 60.0171 ],
-							[ -106.4297, 59.9992 ],
-							[ -107.2378, 60.0172 ],
-							[ -108.0496, 59.9996 ],
-							[ -108.9939, 60.0176 ],
-							[ -110.0063, 59.9994 ],
-							[ -110.035, 59.6475 ],
-							[ -110.0061, 59.3009 ],
-							[ -110.033, 59.0026 ],
-							[ -110.0061, 58.6892 ],
-							[ -110.0222, 58.5503 ],
-							[ -110.006, 58.3999 ],
-							[ -108.0497, 58.3999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 10, 2020 16:32",
-				"Expires_UTC" : "January 11, 2020 08:31",
-				"Summary" : "Description: A period of very cold wind chills continues. The coldest wind chill values will be near minus 45.\n\nExtreme cold will moderate this afternoon, but may redevelop tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-01-11T08:31:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T16:32:02-00:00, urn:oid:2.49.0.1.124.2671294656.2020<br>Area: Uranium City - Camsell Portage, Fond-du-Lac, Stony Rapids and Black Lake, Cree Lake - Key Lake, Wollaston Lake - Collins Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.2671294656.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T16_32_02_00_00Iurn_oid_2.49.0.1.124.2671294656.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200111083102+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -77.7494, 47.8332 ],
-							[ -77.9663, 47.835 ],
-							[ -78.4996, 47.8372 ],
-							[ -79.5176, 47.833 ],
-							[ -79.5304, 47.6882 ],
-							[ -79.5175, 47.5701 ],
-							[ -79.6092, 47.5715 ],
-							[ -79.6195, 47.54 ],
-							[ -79.687, 47.5405 ],
-							[ -79.7294, 47.4978 ],
-							[ -79.5041, 47.2572 ],
-							[ -79.495, 47.191 ],
-							[ -79.5029, 47.1331 ],
-							[ -79.4724, 47.0616 ],
-							[ -79.3905, 47.0009 ],
-							[ -79.3866, 46.9548 ],
-							[ -79.2784, 46.831 ],
-							[ -79.1929, 46.7888 ],
-							[ -79.1164, 46.6533 ],
-							[ -79.0508, 46.6095 ],
-							[ -79.0245, 46.5322 ],
-							[ -78.8798, 46.4221 ],
-							[ -78.7697, 46.3652 ],
-							[ -78.7789, 46.3348 ],
-							[ -78.7478, 46.2963 ],
-							[ -78.6517, 46.2939 ],
-							[ -78.4088, 46.2646 ],
-							[ -78.3488, 46.2332 ],
-							[ -78.2678, 46.2261 ],
-							[ -78.2384, 46.2433 ],
-							[ -78.1458, 46.243 ],
-							[ -78.0634, 46.2008 ],
-							[ -78.0059, 46.2115 ],
-							[ -77.8553, 46.168 ],
-							[ -77.825, 46.1394 ],
-							[ -77.7691, 46.1256 ],
-							[ -77.7513, 46.1609 ],
-							[ -77.7479, 46.1941 ],
-							[ -77.7484, 46.2127 ],
-							[ -77.7501, 46.9998 ],
-							[ -77.3649, 46.9966 ],
-							[ -77.0011, 47 ],
-							[ -76.6569, 46.8048 ],
-							[ -76.3327, 46.6332 ],
-							[ -75.8328, 46.9998 ],
-							[ -76.1922, 47.4534 ],
-							[ -76.4994, 47.8332 ],
-							[ -77.7494, 47.8332 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "January 10, 2020 16:36",
-				"Expires_UTC" : "January 11, 2020 08:35",
-				"Summary" : "Description: 2 to 4 millimetres of freezing precipitation is expected overnight tonight and Saturday morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-01-11T08:35:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T16:36:04-00:00, urn:oid:2.49.0.1.124.1450819464.2020<br>Area: Ville-Marie area, Témiscaming area, Dorval Lodge area, Le Domaine area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.1450819464.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T16_36_04_00_00Iurn_oid_2.49.0.1.124.1450819464.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200111083504+00:00"
 			}
 		},
 		{
@@ -3726,25 +3674,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
 				"Category" : "Actual",
 				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 10, 2020 10:25",
-				"Expires_UTC" : "January 10, 2020 19:59",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nExtreme wind chills colder than minus 40 will continue this morning. Wind chills will moderate late this morning, as temperatures warm.\n\n###\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-01-10T19:59:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T10:25:26-00:00, urn:oid:2.49.0.1.124.1857559028.2020<br>Area: City of Saskatoon, R.M. of Spiritwood including Spiritwood and Leoville, R.M. of Canwood including Debden and Big River Res., R.M. of Meeting Lake, R.M. of Leask including Leask Mistawasis Res. and Parkside, R.M. of Shellbrook including Sturgeon Lake Res., R.M. of Duck Lake including Duck Lake and Beardy's Res., District of Lakeland including Emma Lake and Anglin Lake, R.M. of Paddockwood including Candle Lake and Paddockwood, R.M. of Buckland including Wahpeton Res. and Spruce Home, R.M. of Garden River including Meath Park and Albertville, City of Prince Albert, R.M. of Prince Albert including Davis, R.M. of Birch Hills including Muskoday Res., R.M. of St Louis including One Arrow Res. and Domremy, R.M. of Redberry including Hafford and Krydor, R.M. of Blaine Lake including Blaine Lake, R.M. of Great Bend including Radisson and Borden, R.M. of Laird including Waldheim Hepburn and Laird, R.M. of Rosthern including Rosthern Hague and Carlton, R.M. of Eagle Creek including Arelee and Sonningdale, R.M. of Corman Park including Martensville Warman and Langham, R.M. of Perdue including Perdue and Kinley, R.M. of Vanscoy including Delisle Asquith and Vanscoy, R.M. of Aberdeen including Aberdeen, R.M. of Fish Creek including Alvena, R.M. of Hoodoo including Wakaw and Cudworth, R.M. of Grant including Vonda Prud'homme and Smuts, R.M. of Bayne including Bruno Peterson and Dana, R.M. of Colonsay including Colonsay and Meacham, R.M. of Viscount including Viscount and Plunkett, R.M. of Blucher including Allan Clavet Bradwell and Elstow, R.M. of Meadow Lake including Waterhen Res., R.M. of Beaver River including Pierceland and Goodsoil, Green Lake, R.M. of Loon Lake including Loon Lake and Makwa, R.M. of Big River including Big River and Chitek Lake, R.M. of Frenchman Butte including St. Walburg, R.M. of Mervin including Turtleford Mervin and Spruce Lake, R.M. of Turtle River including Edam and Vawn, R.M. of Britannia including Hillmond, R.M. of Wilton including Lashburn Marshall and Lone Rock, R.M. of Eldon including Maidstone and Waseca, R.M. of Paynton including Paynton, R.M. of Manitou Lake including Marsden, R.M. of Hillsdale including Neilburg and Baldwinton, R.M. of Senlac including Senlac, R.M. of Round Valley including Unity, R.M. of Cut Knife including Cut Knife, R.M. of Battle River including Sweet Grass Res. and Delmas, R.M. of Buffalo including Wilkie and Phippen, R.M. of Parkdale including Glaslyn and Fairholme, R.M. of Medstead including Medstead Belbutte and Birch Lake, R.M. of Meota including Meota and The Battlefords Prov. Park, R.M. of Round Hill including Rabbit Lake and Whitkow, The Battlefords, R.M. of North Battleford northwest of The Battlefords, R.M. of Douglas including Speers Richard and Alticane, R.M. of Mayfield including Maymont Denholm and Fielding, R.M. of Glenside north of Biggar, R.M. of Eye Hill including Macklin Denzil and Evesham, R.M. of Grass Lake including Salvador and Reward, R.M. of Heart's Hill including Cactus Lake, R.M. of Progress including Kerrobert and Luseland, R.M. of Tramping Lake including Scott and Revenue, R.M. of Reford including Landis and Leipzig, R.M. of Mariposa including Tramping Lake and Broadacres, R.M. of Grandview including Handel and Kelfield, R.M. of Rosemount including Cando and Traynor, R.M. of Biggar including Biggar and Springwater, R.M. of Antelope Park including Loverna and Hoosier, R.M. of Prairiedale including Major and Smiley, R.M. of Milton including Alsask and Marengo, R.M. of Oakdale including Coleville, R.M. of Winslow including Dodsland and Plenty, R.M. of Kindersley including Kindersley Brock and Flaxcombe, R.M. of Mountain View including Herschel and Stranraer, R.M. of Marriott south of Biggar, R.M. of Pleasant Valley including McGee and Fiske, R.M. of St Andrews including Rosetown and Zealandia, R.M. of Chesterfield including Eatonia and Mantario, R.M. of Newcombe including Glidden and Madison, R.M. of Monet including Elrose Wartime and Forgan, R.M. of Snipe Lake including Eston and Plato",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 10, 2020 18:08",
+				"Expires_UTC" : "January 10, 2020 19:08",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-01-10T19:08:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T18:08:50-00:00, urn:oid:2.49.0.1.124.3553423898.2020<br>Area: City of Saskatoon, R.M. of Spiritwood including Spiritwood and Leoville, R.M. of Canwood including Debden and Big River Res., R.M. of Meeting Lake, R.M. of Leask including Leask Mistawasis Res. and Parkside, R.M. of Shellbrook including Sturgeon Lake Res., R.M. of Duck Lake including Duck Lake and Beardy's Res., District of Lakeland including Emma Lake and Anglin Lake, R.M. of Paddockwood including Candle Lake and Paddockwood, R.M. of Buckland including Wahpeton Res. and Spruce Home, R.M. of Garden River including Meath Park and Albertville, City of Prince Albert, R.M. of Prince Albert including Davis, R.M. of Birch Hills including Muskoday Res., R.M. of St Louis including One Arrow Res. and Domremy, R.M. of Redberry including Hafford and Krydor, R.M. of Blaine Lake including Blaine Lake, R.M. of Great Bend including Radisson and Borden, R.M. of Laird including Waldheim Hepburn and Laird, R.M. of Rosthern including Rosthern Hague and Carlton, R.M. of Eagle Creek including Arelee and Sonningdale, R.M. of Corman Park including Martensville Warman and Langham, R.M. of Perdue including Perdue and Kinley, R.M. of Vanscoy including Delisle Asquith and Vanscoy, R.M. of Aberdeen including Aberdeen, R.M. of Fish Creek including Alvena, R.M. of Hoodoo including Wakaw and Cudworth, R.M. of Grant including Vonda Prud'homme and Smuts, R.M. of Bayne including Bruno Peterson and Dana, R.M. of Colonsay including Colonsay and Meacham, R.M. of Viscount including Viscount and Plunkett, R.M. of Blucher including Allan Clavet Bradwell and Elstow, R.M. of Meadow Lake including Waterhen Res., R.M. of Beaver River including Pierceland and Goodsoil, Green Lake, R.M. of Loon Lake including Loon Lake and Makwa, R.M. of Big River including Big River and Chitek Lake, R.M. of Frenchman Butte including St. Walburg, R.M. of Mervin including Turtleford Mervin and Spruce Lake, R.M. of Turtle River including Edam and Vawn, R.M. of Britannia including Hillmond, R.M. of Wilton including Lashburn Marshall and Lone Rock, R.M. of Eldon including Maidstone and Waseca, R.M. of Paynton including Paynton, R.M. of Manitou Lake including Marsden, R.M. of Hillsdale including Neilburg and Baldwinton, R.M. of Senlac including Senlac, R.M. of Round Valley including Unity, R.M. of Cut Knife including Cut Knife, R.M. of Battle River including Sweet Grass Res. and Delmas, R.M. of Buffalo including Wilkie and Phippen, R.M. of Parkdale including Glaslyn and Fairholme, R.M. of Medstead including Medstead Belbutte and Birch Lake, R.M. of Meota including Meota and The Battlefords Prov. Park, R.M. of Round Hill including Rabbit Lake and Whitkow, The Battlefords, R.M. of North Battleford northwest of The Battlefords, R.M. of Douglas including Speers Richard and Alticane, R.M. of Mayfield including Maymont Denholm and Fielding, R.M. of Glenside north of Biggar, R.M. of Eye Hill including Macklin Denzil and Evesham, R.M. of Grass Lake including Salvador and Reward, R.M. of Heart's Hill including Cactus Lake, R.M. of Progress including Kerrobert and Luseland, R.M. of Tramping Lake including Scott and Revenue, R.M. of Reford including Landis and Leipzig, R.M. of Mariposa including Tramping Lake and Broadacres, R.M. of Grandview including Handel and Kelfield, R.M. of Rosemount including Cando and Traynor, R.M. of Biggar including Biggar and Springwater, R.M. of Antelope Park including Loverna and Hoosier, R.M. of Prairiedale including Major and Smiley, R.M. of Milton including Alsask and Marengo, R.M. of Oakdale including Coleville, R.M. of Winslow including Dodsland and Plenty, R.M. of Kindersley including Kindersley Brock and Flaxcombe, R.M. of Mountain View including Herschel and Stranraer, R.M. of Marriott south of Biggar, R.M. of Pleasant Valley including McGee and Fiske, R.M. of St Andrews including Rosetown and Zealandia, R.M. of Chesterfield including Eatonia and Mantario, R.M. of Newcombe including Glidden and Madison, R.M. of Monet including Elrose Wartime and Forgan, R.M. of Snipe Lake including Eston and Plato",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.1857559028.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T10_25_26_00_00Iurn_oid_2.49.0.1.124.1857559028.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.3553423898.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T18_08_50_00_00Iurn_oid_2.49.0.1.124.3553423898.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200110195926+00:00"
+				"Expires_FMEFormat" : "20200110190850+00:00"
 			}
 		},
 		{
@@ -4475,6 +4423,58 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T17_43_50_00_00Iurn_oid_2.49.0.1.124.2966755677.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200111045950+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -125.9169, 59.4669 ],
+							[ -126.3281, 59.7323 ],
+							[ -126.8261, 60 ],
+							[ -128.143, 60.8193 ],
+							[ -129.6349, 61.6498 ],
+							[ -130.104, 61.3575 ],
+							[ -130.6018, 60.9998 ],
+							[ -130.2383, 60.6578 ],
+							[ -129.8507, 60.3551 ],
+							[ -129.8615, 60.3495 ],
+							[ -129.7748, 60.29 ],
+							[ -129.6464, 60.1557 ],
+							[ -129.4368, 59.9999 ],
+							[ -128.9911, 59.5724 ],
+							[ -128.4847, 59.1828 ],
+							[ -127.6373, 59.1587 ],
+							[ -126.817, 59.1829 ],
+							[ -126.3258, 59.3238 ],
+							[ -125.9169, 59.4669 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 10, 2020 17:39",
+				"Expires_UTC" : "January 11, 2020 09:38",
+				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nA bitterly cold arctic ridge of high pressure will remain entrenched over the area for several days. Occasional light winds will give wind chill values below minus 45.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-01-11T09:38:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-10T17:39:43-00:00, urn:oid:2.49.0.1.124.2831384810.2020<br>Area: Watson Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-10:feed.atom/urn:oid:2.49.0.1.124.2831384810.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-10/2020_01_10T17_39_43_00_00Iurn_oid_2.49.0.1.124.2831384810.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200111093843+00:00"
 			}
 		}
 	]
