@@ -53,6 +53,48 @@
 				"coordinates" : [
 					[
 						[
+							[ -103.4932, 51.1613 ],
+							[ -103.4934, 51.1681 ],
+							[ -103.4809, 51.166 ],
+							[ -103.4809, 51.1734 ],
+							[ -103.5095, 51.1734 ],
+							[ -103.5059, 51.1705 ],
+							[ -103.5057, 51.166 ],
+							[ -103.4966, 51.1614 ],
+							[ -103.4932, 51.1613 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Health",
+				"Title" : "Update: Precautionary Drinking Water Advisory For The Town Of Ituna.",
+				"Category" : "Actual",
+				"event" : "Drinking Water",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 14, 2020 11:07",
+				"Expires_UTC" : "January 17, 2020 16:00",
+				"Summary" : "Description: UPDATE: A Precautionary Drinking Water Advisory has been issued for all properties and residents located North of the Railway Tracks in the Town of Ituna.  This advisory is for all properties and residents located North of the Railway Tracks in the Town of Ituna and for any individuals who may access water from the affected area of the water system.  This advisory is in effect until January 17, 2020.<br>Expires: 2020-01-17T16:00:00-06:00<br>Originated from CAP Alert: SK Ituna, 2020-01-14T11:07:15-06:00, E40E134C-6C54-643D-6DB8-B39CCE7E69CD<br>Area: All properties and residents located North of the Railway Tracks in the Town of Ituna.",
+				"Author" : "SK Ituna",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-14:feed.atom/E40E134C-6C54-643D-6DB8-B39CCE7E69CD",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-14/2020_01_14T11_07_15_06_00IE40E134C_6C54_643D_6DB8_B39CCE7E69CD.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200117160000-06:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -123.4951, 48.6815 ],
 							[ -123.5018, 48.6933 ],
 							[ -123.5091, 48.7016 ],
@@ -493,25 +535,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
 				"Category" : "Actual",
 				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 14, 2020 15:07",
-				"Expires_UTC" : "January 15, 2020 07:06",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nSignificantly reduced visibilities in blowing snow are being reported at Naujaat this morning. These conditions are expected to persist throughout the day and into the evening. Gradual improvement is expected overnight. \n\nWith the cold temperatures and strong winds, wind chill values are around -50.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-15T07:06:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-14T15:07:17-00:00, urn:oid:2.49.0.1.124.3726743266.2020<br>Area: Naujaat",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 14, 2020 17:06",
+				"Expires_UTC" : "January 14, 2020 18:06",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2020-01-14T18:06:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-14T17:06:34-00:00, urn:oid:2.49.0.1.124.2252859681.2020<br>Area: Naujaat",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-14:feed.atom/urn:oid:2.49.0.1.124.3726743266.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-14/2020_01_14T15_07_17_00_00Iurn_oid_2.49.0.1.124.3726743266.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-14:feed.atom/urn:oid:2.49.0.1.124.2252859681.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-14/2020_01_14T17_06_34_00_00Iurn_oid_2.49.0.1.124.2252859681.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200115070617+00:00"
+				"Expires_FMEFormat" : "20200114180634+00:00"
 			}
 		},
 		{
@@ -1437,55 +1479,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 14, 2020 15:00",
-				"Expires_UTC" : "January 15, 2020 06:59",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values near -55 continue for Chesterfield Inlet. These extreme cold values will moderate somewhat during the day but are forecast to return again overnight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-15T06:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-14T15:00:34-00:00, urn:oid:2.49.0.1.124.4204876857.2020<br>Area: Chesterfield Inlet",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-14:feed.atom/urn:oid:2.49.0.1.124.4204876857.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-14/2020_01_14T15_00_34_00_00Iurn_oid_2.49.0.1.124.4204876857.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200115065934+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -113.2302, 48.9968 ],
 							[ -112.841, 48.9948 ],
 							[ -112.4088, 48.9968 ],
@@ -1876,6 +1869,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-14/2020_01_14T15_00_01_00_00Iurn_oid_2.49.0.1.124.1918779753.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200115065901+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 14, 2020 15:00",
+				"Expires_UTC" : "January 15, 2020 06:59",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values near -55 continue for Chesterfield Inlet. These extreme cold values will moderate somewhat during the day but are forecast to return again overnight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-15T06:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-14T15:00:34-00:00, urn:oid:2.49.0.1.124.4204876857.2020<br>Area: Chesterfield Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-14:feed.atom/urn:oid:2.49.0.1.124.4204876857.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-14/2020_01_14T15_00_34_00_00Iurn_oid_2.49.0.1.124.4204876857.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200115065934+00:00"
 			}
 		},
 		{
