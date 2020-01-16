@@ -588,6 +588,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -82.4848, 42.462 ],
+							[ -82.4404, 42.4783 ],
+							[ -82.436, 42.4901 ],
+							[ -82.3814, 42.5328 ],
+							[ -82.3991, 42.5874 ],
+							[ -82.4588, 42.6054 ],
+							[ -82.4593, 42.6307 ],
+							[ -82.2613, 42.6226 ],
+							[ -82.1003, 42.627 ],
+							[ -82.086, 42.8629 ],
+							[ -82.0928, 43.1082 ],
+							[ -82.0998, 43.127 ],
+							[ -82.1612, 43.1061 ],
+							[ -82.1749, 43.066 ],
+							[ -82.2407, 43.0452 ],
+							[ -82.4053, 43.0278 ],
+							[ -82.4596, 42.9605 ],
+							[ -82.4897, 42.8066 ],
+							[ -82.4775, 42.7604 ],
+							[ -82.5161, 42.6639 ],
+							[ -82.6214, 42.5101 ],
+							[ -82.4848, 42.462 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 16, 2020 22:47",
+				"Expires_UTC" : "January 17, 2020 03:45",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for this evening.\n\nA snow squall will quickly move through the region early this evening. Sudden reduced visibilities can be expected.\n\nLocal snowfall amounts of 2 to 5 cm are possible with this band. Strong winds up to 50 km/h are expected causing areas of blowing snow. This snow squall will move out of the region this evening.\n\nTravel in the area may be affected through this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-17T03:45:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-16T22:47:38-00:00, urn:oid:2.49.0.1.124.1249256483.2020<br>Area: Sarnia - Petrolia - Western Lambton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-16:feed.atom/urn:oid:2.49.0.1.124.1249256483.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T22_47_38_00_00Iurn_oid_2.49.0.1.124.1249256483.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200117034538+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.0933, 44.5413 ],
 							[ -79.2089, 44.8001 ],
 							[ -79.2358, 44.7938 ],
@@ -1036,6 +1091,66 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T20_41_20_00_00Iurn_oid_2.49.0.1.124.2930776635.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200117124020+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -54.9999, 48.5499 ],
+							[ -55, 48.25 ],
+							[ -54.1199, 48.25 ],
+							[ -53.9005, 48.3746 ],
+							[ -53.836, 48.4368 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -55.3717, 48.6868 ],
+							[ -55.3737, 48.6852 ],
+							[ -54.9999, 48.5499 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "January 16, 2020 19:16",
+				"Expires_UTC" : "January 17, 2020 11:15",
+				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nLocations: northeastern Newfoundland.\n\nTotal snowfall: generally 15 to 30 cm, with slightly higher amounts near Bonavista Bay and Terra Nova National Park.\n\nMaximum wind gusts: northerly 100 km/h, except up to 140 along parts of the coast.\n\nTime span: Friday morning until Saturday afternoon.\n\nRemarks: Light snow will begin Friday morning and become heavy, at times, near midday with strengthening winds. The combination of snow and strong winds will create blizzard conditions with visibilities reduced to near zero in blowing snow.\n\nConditions are expected to improve early on Saturday for most areas but strong winds, snow and blowing snow will persist over coastal areas exposed to the north into Saturday afternoon.\n\nDamage to buildings, such as to roof shingles and windows, may occur. Store or anchor objects so they are not tossed by the wind causing injury or damage.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-17T11:15:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-16T19:16:39-00:00, urn:oid:2.49.0.1.124.2896885942.2020<br>Area: Bay of Exploits, Bonavista North, Gander and vicinity, Terra Nova",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-16:feed.atom/urn:oid:2.49.0.1.124.2896885942.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T19_16_39_00_00Iurn_oid_2.49.0.1.124.2896885942.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200117111539+00:00"
 			}
 		},
 		{
@@ -2106,66 +2221,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ],
-							[ -54.1199, 48.25 ],
-							[ -53.9005, 48.3746 ],
-							[ -53.836, 48.4368 ],
-							[ -53.7275, 48.5317 ],
-							[ -53.6375, 48.5439 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -55.3717, 48.6868 ],
-							[ -55.3737, 48.6852 ],
-							[ -54.9999, 48.5499 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "January 16, 2020 19:16",
-				"Expires_UTC" : "January 17, 2020 11:15",
-				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nLocations: northeastern Newfoundland.\n\nTotal snowfall: generally 15 to 30 cm, with slightly higher amounts near Bonavista Bay and Terra Nova National Park.\n\nMaximum wind gusts: northerly 100 km/h, except up to 140 along parts of the coast.\n\nTime span: Friday morning until Saturday afternoon.\n\nRemarks: Light snow will begin Friday morning and become heavy, at times, near midday with strengthening winds. The combination of snow and strong winds will create blizzard conditions with visibilities reduced to near zero in blowing snow.\n\nConditions are expected to improve early on Saturday for most areas but strong winds, snow and blowing snow will persist over coastal areas exposed to the north into Saturday afternoon.\n\nDamage to buildings, such as to roof shingles and windows, may occur. Store or anchor objects so they are not tossed by the wind causing injury or damage.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-17T11:15:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-16T19:16:39-00:00, urn:oid:2.49.0.1.124.2896885942.2020<br>Area: Bay of Exploits, Bonavista North, Gander and vicinity, Terra Nova",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-16:feed.atom/urn:oid:2.49.0.1.124.2896885942.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T19_16_39_00_00Iurn_oid_2.49.0.1.124.2896885942.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200117111539+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -67.4984, 53.7166 ],
 							[ -69.9976, 53.5006 ],
 							[ -69.9991, 52.2498 ],
@@ -3048,6 +3103,84 @@
 				"coordinates" : [
 					[
 						[
+							[ -122.4582, 49.0022 ],
+							[ -122.3248, 49.0022 ],
+							[ -122.098, 49.002 ],
+							[ -122.0739, 49.0015 ],
+							[ -122.0485, 49.0013 ],
+							[ -122.0772, 49.2012 ],
+							[ -122.0962, 49.1993 ],
+							[ -122.1387, 49.3081 ],
+							[ -122.2015, 49.4358 ],
+							[ -122.2563, 49.5124 ],
+							[ -122.385, 49.6529 ],
+							[ -122.414, 49.639 ],
+							[ -122.6091, 49.545 ],
+							[ -122.6105, 49.5446 ],
+							[ -122.7445, 49.5042 ],
+							[ -122.7669, 49.5005 ],
+							[ -122.7973, 49.4955 ],
+							[ -122.884, 49.4813 ],
+							[ -122.8909, 49.4802 ],
+							[ -122.8857, 49.4711 ],
+							[ -122.8851, 49.4701 ],
+							[ -122.8822, 49.465 ],
+							[ -122.8699, 49.4482 ],
+							[ -122.865, 49.4289 ],
+							[ -122.87, 49.4124 ],
+							[ -122.8792, 49.3988 ],
+							[ -122.8711, 49.3811 ],
+							[ -122.9347, 49.3188 ],
+							[ -122.9343, 49.2984 ],
+							[ -122.9167, 49.2931 ],
+							[ -122.9161, 49.2909 ],
+							[ -122.9157, 49.2858 ],
+							[ -122.907, 49.2241 ],
+							[ -122.9062, 49.2188 ],
+							[ -122.9217, 49.2079 ],
+							[ -122.9201, 49.1989 ],
+							[ -122.9177, 49.1851 ],
+							[ -122.9201, 49.176 ],
+							[ -122.903, 49.1722 ],
+							[ -122.898, 49.1347 ],
+							[ -122.8922, 49.091 ],
+							[ -122.8918, 49.0883 ],
+							[ -122.8815, 49.0015 ],
+							[ -122.7186, 49.0018 ],
+							[ -122.4582, 49.0022 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 16, 2020 22:12",
+				"Expires_UTC" : "January 17, 2020 14:11",
+				"Summary" : "Description: Snowfall with total amounts of 5 to 10 cm is expected.\n\nBands of heavy snow will move through the region this afternoon giving local snowfall amounts of 5 to 10 cm. \n\nOnce the bands move through, conditions will improve but a chance of flurries will remain through the afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-17T14:11:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-16T22:12:01-00:00, urn:oid:2.49.0.1.124.2579502269.2020<br>Area: Fraser Valley - west including Abbotsford",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-16:feed.atom/urn:oid:2.49.0.1.124.2579502269.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T22_12_01_00_00Iurn_oid_2.49.0.1.124.2579502269.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200117141101+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -67.7904, 47.0599 ],
 							[ -67.789, 46.5984 ],
 							[ -67.7882, 46.5984 ],
@@ -3136,84 +3269,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T19_44_11_00_00Iurn_oid_2.49.0.1.124.1120888142.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200117114311+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -122.4582, 49.0022 ],
-							[ -122.3248, 49.0022 ],
-							[ -122.098, 49.002 ],
-							[ -122.0739, 49.0015 ],
-							[ -122.0485, 49.0013 ],
-							[ -122.0772, 49.2012 ],
-							[ -122.0962, 49.1993 ],
-							[ -122.1387, 49.3081 ],
-							[ -122.2015, 49.4358 ],
-							[ -122.2563, 49.5124 ],
-							[ -122.385, 49.6529 ],
-							[ -122.414, 49.639 ],
-							[ -122.6091, 49.545 ],
-							[ -122.6105, 49.5446 ],
-							[ -122.7445, 49.5042 ],
-							[ -122.7669, 49.5005 ],
-							[ -122.7973, 49.4955 ],
-							[ -122.884, 49.4813 ],
-							[ -122.8909, 49.4802 ],
-							[ -122.8857, 49.4711 ],
-							[ -122.8851, 49.4701 ],
-							[ -122.8822, 49.465 ],
-							[ -122.8699, 49.4482 ],
-							[ -122.865, 49.4289 ],
-							[ -122.87, 49.4124 ],
-							[ -122.8792, 49.3988 ],
-							[ -122.8711, 49.3811 ],
-							[ -122.9347, 49.3188 ],
-							[ -122.9343, 49.2984 ],
-							[ -122.9167, 49.2931 ],
-							[ -122.9161, 49.2909 ],
-							[ -122.9157, 49.2858 ],
-							[ -122.907, 49.2241 ],
-							[ -122.9062, 49.2188 ],
-							[ -122.9217, 49.2079 ],
-							[ -122.9201, 49.1989 ],
-							[ -122.9177, 49.1851 ],
-							[ -122.9201, 49.176 ],
-							[ -122.903, 49.1722 ],
-							[ -122.898, 49.1347 ],
-							[ -122.8922, 49.091 ],
-							[ -122.8918, 49.0883 ],
-							[ -122.8815, 49.0015 ],
-							[ -122.7186, 49.0018 ],
-							[ -122.4582, 49.0022 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 16, 2020 22:12",
-				"Expires_UTC" : "January 17, 2020 14:11",
-				"Summary" : "Description: Snowfall with total amounts of 5 to 10 cm is expected.\n\nBands of heavy snow will move through the region this afternoon giving local snowfall amounts of 5 to 10 cm. \n\nOnce the bands move through, conditions will improve but a chance of flurries will remain through the afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-17T14:11:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-16T22:12:01-00:00, urn:oid:2.49.0.1.124.2579502269.2020<br>Area: Fraser Valley - west including Abbotsford",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-16:feed.atom/urn:oid:2.49.0.1.124.2579502269.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T22_12_01_00_00Iurn_oid_2.49.0.1.124.2579502269.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200117141101+00:00"
 			}
 		},
 		{
