@@ -848,6 +848,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -120.0009, 48.9994 ],
+							[ -119.6832, 48.9976 ],
+							[ -119.3607, 48.9999 ],
+							[ -119.3389, 49.1899 ],
+							[ -119.3611, 49.3599 ],
+							[ -119.2287, 49.4488 ],
+							[ -119.1405, 49.5191 ],
+							[ -119.0564, 49.5779 ],
+							[ -118.9946, 49.6244 ],
+							[ -119.537, 49.6413 ],
+							[ -120.0011, 49.6368 ],
+							[ -120.0129, 49.329 ],
+							[ -120.0009, 48.9994 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 16, 2020 18:26",
+				"Expires_UTC" : "January 16, 2020 19:26",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-16T19:26:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-16T18:26:19-00:00, urn:oid:2.49.0.1.124.3231107243.2020<br>Area: South Okanagan - including Penticton",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-16:feed.atom/urn:oid:2.49.0.1.124.3231107243.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T18_26_19_00_00Iurn_oid_2.49.0.1.124.3231107243.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200116192619+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.9838, 44.1095 ],
 							[ -79.9802, 44.0311 ],
 							[ -79.9696, 43.9463 ],
@@ -1130,65 +1176,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T15_06_42_00_00Iurn_oid_2.49.0.1.124.3250018807.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200117070542+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.8174, 44.0475 ],
-							[ -81.8031, 43.8383 ],
-							[ -81.721, 43.8105 ],
-							[ -81.4774, 43.7048 ],
-							[ -81.2052, 43.6013 ],
-							[ -81.179, 43.6332 ],
-							[ -81.1493, 43.6187 ],
-							[ -81.0304, 43.7718 ],
-							[ -81.1004, 43.788 ],
-							[ -81.0771, 43.8105 ],
-							[ -81.0091, 43.8151 ],
-							[ -80.9533, 43.8223 ],
-							[ -80.966, 43.9059 ],
-							[ -80.9912, 43.9864 ],
-							[ -80.9846, 43.987 ],
-							[ -80.9797, 43.9878 ],
-							[ -81.0277, 44.2047 ],
-							[ -81.0823, 44.4005 ],
-							[ -81.0977, 44.4831 ],
-							[ -81.1203, 44.5511 ],
-							[ -81.199, 44.5378 ],
-							[ -81.2724, 44.5229 ],
-							[ -81.2887, 44.5846 ],
-							[ -81.2913, 44.5944 ],
-							[ -81.4622, 44.5866 ],
-							[ -81.8174, 44.0475 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 16, 2020 13:09",
-				"Expires_UTC" : "January 17, 2020 05:07",
-				"Summary" : "Description: Snow squalls are expected. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nSnow squalls occurring today.\n\nSnow amounts of 10 to 15 cm are expected with these snow squalls. Strong winds gusting up to 60 km/h will result in areas of blowing snow. The snow squalls are expected to weaken early this evening.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow. Travel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-17T05:07:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-16T13:09:03-00:00, urn:oid:2.49.0.1.124.1928956960.2020<br>Area: Saugeen Shores - Kincardine - Southern Bruce County, Wingham - Blyth - Northern Huron County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-16:feed.atom/urn:oid:2.49.0.1.124.1928956960.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T13_09_03_00_00Iurn_oid_2.49.0.1.124.1928956960.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200117050703+00:00"
 			}
 		},
 		{
