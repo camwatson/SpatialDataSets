@@ -155,6 +155,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -121.9611, 49.0003 ],
+							[ -121.764, 48.9964 ],
+							[ -121.3016, 49 ],
+							[ -121.2289, 49.0006 ],
+							[ -121.1942, 49.0003 ],
+							[ -121.1809, 49.151 ],
+							[ -121.257, 49.2793 ],
+							[ -121.3009, 49.2852 ],
+							[ -121.3467, 49.3731 ],
+							[ -121.4038, 49.467 ],
+							[ -121.5289, 49.522 ],
+							[ -121.6512, 49.5698 ],
+							[ -121.6978, 49.7382 ],
+							[ -121.7625, 49.889 ],
+							[ -122.0982, 49.78 ],
+							[ -122.1633, 49.7586 ],
+							[ -122.2474, 49.7186 ],
+							[ -122.385, 49.6529 ],
+							[ -122.2563, 49.5124 ],
+							[ -122.2015, 49.4358 ],
+							[ -122.1494, 49.3063 ],
+							[ -122.0962, 49.1993 ],
+							[ -122.131, 49.1417 ],
+							[ -122.1038, 49.0934 ],
+							[ -122.098, 49.002 ],
+							[ -122.0739, 49.0015 ],
+							[ -122.0485, 49.0013 ],
+							[ -121.9611, 49.0003 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 17, 2020 03:59",
+				"Expires_UTC" : "January 17, 2020 04:59",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-17T04:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-17T03:59:06-00:00, urn:oid:2.49.0.1.124.0802283052.2020<br>Area: Fraser Valley - central including Chilliwack, Fraser Valley - east including Hope",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-17:feed.atom/urn:oid:2.49.0.1.124.0802283052.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-17/2020_01_17T03_59_06_00_00Iurn_oid_2.49.0.1.124.0802283052.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200117045906+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -60.3274, 46.3958 ],
 							[ -60.4217, 46.4055 ],
 							[ -60.2579, 46.6489 ],
@@ -216,6 +277,79 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-17/2020_01_17T01_59_12_00_00Iurn_oid_2.49.0.1.124.0483090235.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200117175812+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -122.0485, 49.0013 ],
+							[ -121.9611, 49.0003 ],
+							[ -121.9606, 49.0003 ],
+							[ -121.7474, 49.1988 ],
+							[ -121.7057, 49.2091 ],
+							[ -121.6916, 49.2373 ],
+							[ -121.7304, 49.2597 ],
+							[ -121.7356, 49.3075 ],
+							[ -121.7137, 49.3539 ],
+							[ -121.7501, 49.425 ],
+							[ -121.7053, 49.5119 ],
+							[ -121.7774, 49.6057 ],
+							[ -122.0982, 49.78 ],
+							[ -122.1633, 49.7586 ],
+							[ -122.2474, 49.7186 ],
+							[ -122.385, 49.6529 ],
+							[ -122.414, 49.639 ],
+							[ -122.6091, 49.545 ],
+							[ -122.6105, 49.5446 ],
+							[ -122.7445, 49.5042 ],
+							[ -122.7669, 49.5005 ],
+							[ -122.719, 49.4314 ],
+							[ -122.6893, 49.3641 ],
+							[ -122.5523, 49.3637 ],
+							[ -122.3938, 49.3687 ],
+							[ -122.4101, 49.2576 ],
+							[ -122.4232, 49.2564 ],
+							[ -122.4142, 49.2073 ],
+							[ -122.4324, 49.2071 ],
+							[ -122.4413, 49.1919 ],
+							[ -122.4404, 49.1874 ],
+							[ -122.4565, 49.1787 ],
+							[ -122.4578, 49.1571 ],
+							[ -122.4372, 49.1548 ],
+							[ -122.4487, 49.0854 ],
+							[ -122.4582, 49.0022 ],
+							[ -122.3248, 49.0022 ],
+							[ -122.098, 49.002 ],
+							[ -122.0739, 49.0015 ],
+							[ -122.0485, 49.0013 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 16, 2020 23:05",
+				"Expires_UTC" : "January 17, 2020 15:04",
+				"Summary" : "Description: Snowfall with total amounts of 5 to 10 cm is expected.\n\nBands of heavy snow will move through the region this afternoon giving local snowfall amounts of 5 to 10 cm. \n\nOnce the bands move through, conditions will improve but a chance of flurries will remain late this afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-17T15:04:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-16T23:05:14-00:00, urn:oid:2.49.0.1.124.0097947193.2020<br>Area: Fraser Valley - west including Abbotsford, Fraser Valley - central including Chilliwack",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-16:feed.atom/urn:oid:2.49.0.1.124.0097947193.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T23_05_14_00_00Iurn_oid_2.49.0.1.124.0097947193.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200117150414+00:00"
 			}
 		},
 		{
@@ -641,70 +775,45 @@
 				"coordinates" : [
 					[
 						[
-							[ -122.0485, 49.0013 ],
-							[ -121.9611, 49.0003 ],
-							[ -121.9606, 49.0003 ],
-							[ -121.7474, 49.1988 ],
-							[ -121.7057, 49.2091 ],
-							[ -121.6916, 49.2373 ],
-							[ -121.7304, 49.2597 ],
-							[ -121.7356, 49.3075 ],
-							[ -121.7137, 49.3539 ],
-							[ -121.7501, 49.425 ],
-							[ -121.7053, 49.5119 ],
-							[ -121.7774, 49.6057 ],
-							[ -122.0982, 49.78 ],
-							[ -122.1633, 49.7586 ],
-							[ -122.2474, 49.7186 ],
-							[ -122.385, 49.6529 ],
-							[ -122.414, 49.639 ],
-							[ -122.6091, 49.545 ],
-							[ -122.6105, 49.5446 ],
-							[ -122.7445, 49.5042 ],
-							[ -122.7669, 49.5005 ],
-							[ -122.719, 49.4314 ],
-							[ -122.6893, 49.3641 ],
-							[ -122.5523, 49.3637 ],
-							[ -122.3938, 49.3687 ],
-							[ -122.4101, 49.2576 ],
-							[ -122.4232, 49.2564 ],
-							[ -122.4142, 49.2073 ],
-							[ -122.4324, 49.2071 ],
-							[ -122.4413, 49.1919 ],
-							[ -122.4404, 49.1874 ],
-							[ -122.4565, 49.1787 ],
-							[ -122.4578, 49.1571 ],
-							[ -122.4372, 49.1548 ],
-							[ -122.4487, 49.0854 ],
-							[ -122.4582, 49.0022 ],
-							[ -122.3248, 49.0022 ],
-							[ -122.098, 49.002 ],
-							[ -122.0739, 49.0015 ],
-							[ -122.0485, 49.0013 ]
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.0792, 47.826 ],
+							[ -54.0697, 47.8335 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snowfall",
+				"event" : "Blizzard",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 16, 2020 23:05",
-				"Expires_UTC" : "January 17, 2020 15:04",
-				"Summary" : "Description: Snowfall with total amounts of 5 to 10 cm is expected.\n\nBands of heavy snow will move through the region this afternoon giving local snowfall amounts of 5 to 10 cm. \n\nOnce the bands move through, conditions will improve but a chance of flurries will remain late this afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-17T15:04:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-16T23:05:14-00:00, urn:oid:2.49.0.1.124.0097947193.2020<br>Area: Fraser Valley - west including Abbotsford, Fraser Valley - central including Chilliwack",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "January 17, 2020 02:01",
+				"Expires_UTC" : "January 17, 2020 18:00",
+				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nLocations: Connaigre and Burin Peninsulas.\n\nTotal snowfall: near 15 cm over Connaigre and 25 to 30 cm over the Burin Peninsula.\n\nMaximum wind gusts: northerly 90 to 110 km/h, with gusts to 130 km/h along exposed areas of the coast.\n\nTime span: early Friday morning until Saturday morning.\n\nRemarks: Light snow will begin overnight and become heavy, at times, early Friday. The snow is forecast to taper off Friday night. Northerly winds will strengthen on Friday with the strongest gusts expected to occur Friday evening. Winds will begin to ease overnight Friday night.\n\nThe combination of fresh snowfall and strong winds will result in near zero visibility in blowing snow.\n\nDamage to buildings, such as to roof shingles and windows, may occur. Store or anchor objects so they are not tossed by the wind causing injury or damage.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-17T18:00:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-17T02:01:04-00:00, urn:oid:2.49.0.1.124.4177476338.2020<br>Area: Burin Peninsula, Connaigre",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-16:feed.atom/urn:oid:2.49.0.1.124.0097947193.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-16/2020_01_16T23_05_14_00_00Iurn_oid_2.49.0.1.124.0097947193.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-17:feed.atom/urn:oid:2.49.0.1.124.4177476338.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-17/2020_01_17T02_01_04_00_00Iurn_oid_2.49.0.1.124.4177476338.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200117150414+00:00"
+				"Expires_FMEFormat" : "20200117180004+00:00"
 			}
 		},
 		{
@@ -839,54 +948,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-17/2020_01_17T03_30_46_00_00Iurn_oid_2.49.0.1.124.2738640722.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200117192946+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "January 17, 2020 02:01",
-				"Expires_UTC" : "January 17, 2020 18:00",
-				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nLocations: Connaigre and Burin Peninsulas.\n\nTotal snowfall: near 15 cm over Connaigre and 25 to 30 cm over the Burin Peninsula.\n\nMaximum wind gusts: northerly 90 to 110 km/h, with gusts to 130 km/h along exposed areas of the coast.\n\nTime span: early Friday morning until Saturday morning.\n\nRemarks: Light snow will begin overnight and become heavy, at times, early Friday. The snow is forecast to taper off Friday night. Northerly winds will strengthen on Friday with the strongest gusts expected to occur Friday evening. Winds will begin to ease overnight Friday night.\n\nThe combination of fresh snowfall and strong winds will result in near zero visibility in blowing snow.\n\nDamage to buildings, such as to roof shingles and windows, may occur. Store or anchor objects so they are not tossed by the wind causing injury or damage.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-17T18:00:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-17T02:01:04-00:00, urn:oid:2.49.0.1.124.4177476338.2020<br>Area: Burin Peninsula, Connaigre",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-17:feed.atom/urn:oid:2.49.0.1.124.4177476338.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-17/2020_01_17T02_01_04_00_00Iurn_oid_2.49.0.1.124.4177476338.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200117180004+00:00"
 			}
 		},
 		{
@@ -1035,60 +1096,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -56.99, 50.25 ],
-							[ -57.2, 49.8499 ],
-							[ -57.3499, 49.58 ],
-							[ -56.817, 49.2073 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.4018, 49.5793 ],
-							[ -55.3736, 50.013 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ],
-							[ -55.9388, 51.6058 ],
-							[ -56.8199, 50.58 ],
-							[ -56.99, 50.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 17, 2020 02:00",
-				"Expires_UTC" : "January 17, 2020 17:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: north to northwesterly 80 to 90 km/h, except 100 to 120 km/h along parts of the coast.\n\nLocations: Northern Peninsula East and Baie Verte Peninsula.\n\nTime span: Friday evening until Saturday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-17T17:59:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-17T02:00:27-00:00, urn:oid:2.49.0.1.124.2020234796.2020<br>Area: Green Bay - White Bay, Northern Peninsula East",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-17:feed.atom/urn:oid:2.49.0.1.124.2020234796.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-17/2020_01_17T02_00_27_00_00Iurn_oid_2.49.0.1.124.2020234796.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200117175927+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -92.4487, 48.324 ],
 							[ -92.3755, 48.2178 ],
 							[ -92.2677, 48.2469 ],
@@ -1201,6 +1208,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-17/2020_01_17T03_30_46_00_00Iurn_oid_2.49.0.1.124.0320304211.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200117192946+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ],
+							[ -55.9388, 51.6058 ],
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 17, 2020 02:00",
+				"Expires_UTC" : "January 17, 2020 17:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: north to northwesterly 80 to 90 km/h, except 100 to 120 km/h along parts of the coast.\n\nLocations: Northern Peninsula East and Baie Verte Peninsula.\n\nTime span: Friday evening until Saturday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-17T17:59:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-17T02:00:27-00:00, urn:oid:2.49.0.1.124.2020234796.2020<br>Area: Green Bay - White Bay, Northern Peninsula East",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-17:feed.atom/urn:oid:2.49.0.1.124.2020234796.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-17/2020_01_17T02_00_27_00_00Iurn_oid_2.49.0.1.124.2020234796.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200117175927+00:00"
 			}
 		},
 		{
