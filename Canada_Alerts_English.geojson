@@ -1318,68 +1318,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.0627, 43.189 ],
-							[ -79.1728, 43.1417 ],
-							[ -79.1686, 43.0401 ],
-							[ -79.2875, 43.0208 ],
-							[ -79.279, 42.9611 ],
-							[ -79.4424, 43.0111 ],
-							[ -79.4969, 43.0013 ],
-							[ -79.5635, 42.9826 ],
-							[ -79.5391, 42.9727 ],
-							[ -79.5116, 42.9648 ],
-							[ -79.474, 42.9112 ],
-							[ -79.4371, 42.876 ],
-							[ -79.4301, 42.8607 ],
-							[ -79.3806, 42.8473 ],
-							[ -79.2598, 42.8617 ],
-							[ -79.1581, 42.8579 ],
-							[ -79.0947, 42.8217 ],
-							[ -79.0213, 42.8554 ],
-							[ -78.9102, 42.8751 ],
-							[ -78.8842, 42.9334 ],
-							[ -79.0158, 42.9904 ],
-							[ -79.0022, 43.0586 ],
-							[ -79.0626, 43.0782 ],
-							[ -79.0526, 43.1199 ],
-							[ -79.042, 43.1295 ],
-							[ -79.0372, 43.1549 ],
-							[ -79.0468, 43.1907 ],
-							[ -79.055, 43.1901 ],
-							[ -79.0627, 43.189 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 19, 2020 20:27",
-				"Expires_UTC" : "January 20, 2020 03:59",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for this evening.\n\nA band of snow continues to move across the region into this evening. Additional snowfall accumulations are not expected to exceed 5 cm, however, strong westerly winds gusting to 50 or 60 km/h will whip up freshly fallen snow and cause sudden very low visibility in blowing snow in exposed areas.\n\nMotorists are advised to exercise caution and be prepared for quickly changing winter driving conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-20T03:59:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T20:27:10-00:00, urn:oid:2.49.0.1.124.3301112943.2020<br>Area: Niagara Falls - Welland - Southern Niagara Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.3301112943.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T20_27_10_00_00Iurn_oid_2.49.0.1.124.3301112943.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200120035910+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -123.1999, 54.7 ],
 							[ -122.8357, 54.848 ],
 							[ -122.4999, 54.9999 ],
@@ -1424,6 +1362,68 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T18_44_09_00_00Iurn_oid_2.49.0.1.124.0361073017.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200120104309+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.0627, 43.189 ],
+							[ -79.1728, 43.1417 ],
+							[ -79.1686, 43.0401 ],
+							[ -79.2875, 43.0208 ],
+							[ -79.279, 42.9611 ],
+							[ -79.4424, 43.0111 ],
+							[ -79.4969, 43.0013 ],
+							[ -79.5635, 42.9826 ],
+							[ -79.5391, 42.9727 ],
+							[ -79.5116, 42.9648 ],
+							[ -79.474, 42.9112 ],
+							[ -79.4371, 42.876 ],
+							[ -79.4301, 42.8607 ],
+							[ -79.3806, 42.8473 ],
+							[ -79.2598, 42.8617 ],
+							[ -79.1581, 42.8579 ],
+							[ -79.0947, 42.8217 ],
+							[ -79.0213, 42.8554 ],
+							[ -78.9102, 42.8751 ],
+							[ -78.8842, 42.9334 ],
+							[ -79.0158, 42.9904 ],
+							[ -79.0022, 43.0586 ],
+							[ -79.0626, 43.0782 ],
+							[ -79.0526, 43.1199 ],
+							[ -79.042, 43.1295 ],
+							[ -79.0372, 43.1549 ],
+							[ -79.0468, 43.1907 ],
+							[ -79.055, 43.1901 ],
+							[ -79.0627, 43.189 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 19, 2020 22:28",
+				"Expires_UTC" : "January 19, 2020 23:27",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\nFlurries have become lighter and will last well into tonight.\n\n###<br>Expires: 2020-01-19T23:27:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T22:28:30-00:00, urn:oid:2.49.0.1.124.3577718736.2020<br>Area: Niagara Falls - Welland - Southern Niagara Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.3577718736.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T22_28_30_00_00Iurn_oid_2.49.0.1.124.3577718736.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200119232730+00:00"
 			}
 		},
 		{
@@ -1945,6 +1945,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -82.4848, 42.462 ],
+							[ -82.4404, 42.4783 ],
+							[ -82.436, 42.4901 ],
+							[ -82.3814, 42.5328 ],
+							[ -82.3991, 42.5874 ],
+							[ -82.4588, 42.6054 ],
+							[ -82.4593, 42.6307 ],
+							[ -82.2613, 42.6226 ],
+							[ -82.1003, 42.627 ],
+							[ -82.086, 42.8629 ],
+							[ -82.0928, 43.1082 ],
+							[ -82.0998, 43.127 ],
+							[ -82.1612, 43.1061 ],
+							[ -82.1749, 43.066 ],
+							[ -82.2407, 43.0452 ],
+							[ -82.4053, 43.0278 ],
+							[ -82.4596, 42.9605 ],
+							[ -82.4897, 42.8066 ],
+							[ -82.4775, 42.7604 ],
+							[ -82.5161, 42.6639 ],
+							[ -82.6214, 42.5101 ],
+							[ -82.4848, 42.462 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snow Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 19, 2020 20:19",
+				"Expires_UTC" : "January 20, 2020 12:18",
+				"Summary" : "Description: Snow squalls are expected. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nSnow squalls from Southern Lake Huron will move into Western Lambton County later this afternoon and persist through tonight.\n\nSnowfall amounts in the strongest snow squalls will reach 15 cm tonight.\n\nDangerous winter driving conditions are possible tonight in many areas including Highway 402. \n\nSnow squalls will weaken to a few flurries Monday morning.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow. Road closures are possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-20T12:18:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T20:19:26-00:00, urn:oid:2.49.0.1.124.0622408581.2020<br>Area: Sarnia - Petrolia - Western Lambton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.0622408581.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T20_19_26_00_00Iurn_oid_2.49.0.1.124.0622408581.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200120121826+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -103.6083, 48.9989 ],
 							[ -103.414, 48.9988 ],
 							[ -103.2077, 48.9993 ],
@@ -2312,61 +2367,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T21_41_16_00_00Iurn_oid_2.49.0.1.124.3107743784.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200120134016+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.4848, 42.462 ],
-							[ -82.4404, 42.4783 ],
-							[ -82.436, 42.4901 ],
-							[ -82.3814, 42.5328 ],
-							[ -82.3991, 42.5874 ],
-							[ -82.4588, 42.6054 ],
-							[ -82.4593, 42.6307 ],
-							[ -82.2613, 42.6226 ],
-							[ -82.1003, 42.627 ],
-							[ -82.086, 42.8629 ],
-							[ -82.0928, 43.1082 ],
-							[ -82.0998, 43.127 ],
-							[ -82.1612, 43.1061 ],
-							[ -82.1749, 43.066 ],
-							[ -82.2407, 43.0452 ],
-							[ -82.4053, 43.0278 ],
-							[ -82.4596, 42.9605 ],
-							[ -82.4897, 42.8066 ],
-							[ -82.4775, 42.7604 ],
-							[ -82.5161, 42.6639 ],
-							[ -82.6214, 42.5101 ],
-							[ -82.4848, 42.462 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 19, 2020 20:19",
-				"Expires_UTC" : "January 20, 2020 12:18",
-				"Summary" : "Description: Snow squalls are expected. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nSnow squalls from Southern Lake Huron will move into Western Lambton County later this afternoon and persist through tonight.\n\nSnowfall amounts in the strongest snow squalls will reach 15 cm tonight.\n\nDangerous winter driving conditions are possible tonight in many areas including Highway 402. \n\nSnow squalls will weaken to a few flurries Monday morning.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow. Road closures are possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-20T12:18:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T20:19:26-00:00, urn:oid:2.49.0.1.124.0622408581.2020<br>Area: Sarnia - Petrolia - Western Lambton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.0622408581.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T20_19_26_00_00Iurn_oid_2.49.0.1.124.0622408581.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200120121826+00:00"
 			}
 		},
 		{
