@@ -679,68 +679,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.0627, 43.189 ],
-							[ -79.1728, 43.1417 ],
-							[ -79.1686, 43.0401 ],
-							[ -79.2875, 43.0208 ],
-							[ -79.279, 42.9611 ],
-							[ -79.4424, 43.0111 ],
-							[ -79.4969, 43.0013 ],
-							[ -79.5635, 42.9826 ],
-							[ -79.5391, 42.9727 ],
-							[ -79.5116, 42.9648 ],
-							[ -79.474, 42.9112 ],
-							[ -79.4371, 42.876 ],
-							[ -79.4301, 42.8607 ],
-							[ -79.3806, 42.8473 ],
-							[ -79.2598, 42.8617 ],
-							[ -79.1581, 42.8579 ],
-							[ -79.0947, 42.8217 ],
-							[ -79.0213, 42.8554 ],
-							[ -78.9102, 42.8751 ],
-							[ -78.8842, 42.9334 ],
-							[ -79.0158, 42.9904 ],
-							[ -79.0022, 43.0586 ],
-							[ -79.0626, 43.0782 ],
-							[ -79.0526, 43.1199 ],
-							[ -79.042, 43.1295 ],
-							[ -79.0372, 43.1549 ],
-							[ -79.0468, 43.1907 ],
-							[ -79.055, 43.1901 ],
-							[ -79.0627, 43.189 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 19, 2020 17:34",
-				"Expires_UTC" : "January 20, 2020 00:59",
-				"Summary" : "Description: Winter weather travel advisory in effect for this afternoon.\n\nA band of snow is moving across the region this afternoon. While snowfall amounts will likely be 5 centimetres at most, strong westerly winds gusting to 50 or 60 km/h will whip up freshly fallen snow and cause sudden very low visibility in blowing snow in exposed areas.\n\nMotorists are advised to exercise caution and be prepared for quickly changing winter driving conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-20T00:59:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T17:34:32-00:00, urn:oid:2.49.0.1.124.3423717707.2020<br>Area: Niagara Falls - Welland - Southern Niagara Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.3423717707.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T17_34_32_00_00Iurn_oid_2.49.0.1.124.3423717707.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200120005932+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -79.9283, 43.7031 ],
 							[ -79.9691, 43.7344 ],
 							[ -80.0434, 43.7956 ],
@@ -917,6 +855,68 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T14_50_09_00_00Iurn_oid_2.49.0.1.124.2602884401.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200120055909+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.0627, 43.189 ],
+							[ -79.1728, 43.1417 ],
+							[ -79.1686, 43.0401 ],
+							[ -79.2875, 43.0208 ],
+							[ -79.279, 42.9611 ],
+							[ -79.4424, 43.0111 ],
+							[ -79.4969, 43.0013 ],
+							[ -79.5635, 42.9826 ],
+							[ -79.5391, 42.9727 ],
+							[ -79.5116, 42.9648 ],
+							[ -79.474, 42.9112 ],
+							[ -79.4371, 42.876 ],
+							[ -79.4301, 42.8607 ],
+							[ -79.3806, 42.8473 ],
+							[ -79.2598, 42.8617 ],
+							[ -79.1581, 42.8579 ],
+							[ -79.0947, 42.8217 ],
+							[ -79.0213, 42.8554 ],
+							[ -78.9102, 42.8751 ],
+							[ -78.8842, 42.9334 ],
+							[ -79.0158, 42.9904 ],
+							[ -79.0022, 43.0586 ],
+							[ -79.0626, 43.0782 ],
+							[ -79.0526, 43.1199 ],
+							[ -79.042, 43.1295 ],
+							[ -79.0372, 43.1549 ],
+							[ -79.0468, 43.1907 ],
+							[ -79.055, 43.1901 ],
+							[ -79.0627, 43.189 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 19, 2020 17:34",
+				"Expires_UTC" : "January 20, 2020 00:59",
+				"Summary" : "Description: Winter weather travel advisory in effect for this afternoon.\n\nA band of snow is moving across the region this afternoon. While snowfall amounts will likely be 5 centimetres at most, strong westerly winds gusting to 50 or 60 km/h will whip up freshly fallen snow and cause sudden very low visibility in blowing snow in exposed areas.\n\nMotorists are advised to exercise caution and be prepared for quickly changing winter driving conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-01-20T00:59:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T17:34:32-00:00, urn:oid:2.49.0.1.124.3423717707.2020<br>Area: Niagara Falls - Welland - Southern Niagara Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.3423717707.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T17_34_32_00_00Iurn_oid_2.49.0.1.124.3423717707.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200120005932+00:00"
 			}
 		},
 		{
