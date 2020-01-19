@@ -132,25 +132,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Winter Storm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "January 19, 2020 17:03",
-				"Expires_UTC" : "January 20, 2020 03:59",
-				"Summary" : "Description: A stationary Pacific frontal system will continue to give freezing rain mixed with snow to the Sea to Sky Highway north of Squamish. The freezing rain should be confined to north of Brandywine by this afternoon and then just in Whistler by late afternoon.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous. Poor weather conditions may contribute to transportation delays.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-01-20T03:59:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T17:03:12-00:00, urn:oid:2.49.0.1.124.3323608502.2020<br>Area: Sea to Sky - Squamish to Whistler",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 19, 2020 23:08",
+				"Expires_UTC" : "January 20, 2020 00:08",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-01-20T00:08:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T23:08:41-00:00, urn:oid:2.49.0.1.124.3921006128.2020<br>Area: Sea to Sky - Squamish to Whistler",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.3323608502.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T17_03_12_00_00Iurn_oid_2.49.0.1.124.3323608502.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.3921006128.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T23_08_41_00_00Iurn_oid_2.49.0.1.124.3921006128.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200120035912+00:00"
+				"Expires_FMEFormat" : "20200120000841+00:00"
 			}
 		},
 		{
@@ -415,6 +415,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T22_40_47_00_00Iurn_oid_2.49.0.1.124.2172771226.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200119234047+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 19, 2020 19:43",
+				"Expires_UTC" : "January 20, 2020 05:59",
+				"Summary" : "Description: Significant snow today.\n\nFurther snowfall: 5 to 10 cm.\n\nMaximum wind gusts: 50-70 km/h.\n\nLocations: Prince Edward Island.\n\nTime span: This evening.\n\nRemarks: Snow over the Island will slowly taper off to flurries late this evening. Strong northerly winds will reduce visibility at times in blowing snow.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-01-20T05:59:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T19:43:52-00:00, urn:oid:2.49.0.1.124.2782811307.2020<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.2782811307.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T19_43_52_00_00Iurn_oid_2.49.0.1.124.2782811307.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200120055952+00:00"
 			}
 		},
 		{
@@ -1415,101 +1464,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 19, 2020 22:02",
-				"Expires_UTC" : "January 19, 2020 23:02",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-01-19T23:02:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T22:02:09-00:00, urn:oid:2.49.0.1.124.2793153429.2020<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.2793153429.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T22_02_09_00_00Iurn_oid_2.49.0.1.124.2793153429.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200119230209+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 19, 2020 21:34",
-				"Expires_UTC" : "January 20, 2020 07:29",
-				"Summary" : "Description: Poor visibility in blowing snow is expected or occurring.\n\nTotal snowfall: 10 to 15 cm.\n\nMaximum gusts: near 80 km/h, except 100 km/h in the Wreckhouse area early this evening.\n\nLocations: southwestern Newfoundland.\n\nTime span: tonight.\n\nRemarks: Strong southeasterly winds have developed in the Wreckhouse area with gusts near 100 km/h. Winds will shift to northeasterly this evening with widespread gusts near 80 km/h, before beginning to diminish overnight.\n\nSnow will combine with the wind this evening to produce poor visibility in blowing snow. The snow is expected to end around midnight.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-20T07:29:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T21:34:33-00:00, urn:oid:2.49.0.1.124.1734704754.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.1734704754.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T21_34_33_00_00Iurn_oid_2.49.0.1.124.1734704754.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200120072933+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -92.7494, 61.7617 ],
 							[ -91.0961, 62.4626 ],
 							[ -90.8425, 62.6977 ],
@@ -1568,6 +1522,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T20_11_18_00_00Iurn_oid_2.49.0.1.124.3512090165.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200120075918+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 19, 2020 21:34",
+				"Expires_UTC" : "January 20, 2020 07:29",
+				"Summary" : "Description: Poor visibility in blowing snow is expected or occurring.\n\nTotal snowfall: 10 to 15 cm.\n\nMaximum gusts: near 80 km/h, except 100 km/h in the Wreckhouse area early this evening.\n\nLocations: southwestern Newfoundland.\n\nTime span: tonight.\n\nRemarks: Strong southeasterly winds have developed in the Wreckhouse area with gusts near 100 km/h. Winds will shift to northeasterly this evening with widespread gusts near 80 km/h, before beginning to diminish overnight.\n\nSnow will combine with the wind this evening to produce poor visibility in blowing snow. The snow is expected to end around midnight.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-20T07:29:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-19T21:34:33-00:00, urn:oid:2.49.0.1.124.1734704754.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-19:feed.atom/urn:oid:2.49.0.1.124.1734704754.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-19/2020_01_19T21_34_33_00_00Iurn_oid_2.49.0.1.124.1734704754.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200120072933+00:00"
 			}
 		},
 		{
