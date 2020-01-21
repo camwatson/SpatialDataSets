@@ -57,39 +57,52 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.8004, 68.8639 ],
-							[ -81.8335, 68.7595 ],
-							[ -81.7346, 68.6648 ],
-							[ -81.5301, 68.5966 ],
-							[ -81.0418, 68.5342 ],
-							[ -81.0006, 68.5737 ],
-							[ -81.0228, 68.9232 ],
-							[ -81.723, 68.9232 ],
-							[ -81.8004, 68.8639 ]
+							[ -94.8238, 59.9991 ],
+							[ -95.1085, 60.0563 ],
+							[ -95.4499, 59.9991 ],
+							[ -95.609, 58.7183 ],
+							[ -95.4499, 57.7824 ],
+							[ -95.6237, 57.7836 ],
+							[ -95.6164, 57.4604 ],
+							[ -95.4499, 57.4624 ],
+							[ -95.5213, 57.2946 ],
+							[ -95.4499, 57.11 ],
+							[ -94.0456, 56.9907 ],
+							[ -92.7352, 56.9253 ],
+							[ -92.3679, 57.2361 ],
+							[ -92.5275, 57.6436 ],
+							[ -93.151, 58.8144 ],
+							[ -94.2622, 58.8582 ],
+							[ -94.3979, 58.784 ],
+							[ -94.7122, 59.1161 ],
+							[ -94.6303, 59.369 ],
+							[ -94.7505, 59.6302 ],
+							[ -94.7036, 59.7963 ],
+							[ -94.8238, 59.9991 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
+				"event" : "Snowfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 21, 2020 15:32",
-				"Expires_UTC" : "January 22, 2020 04:59",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nA cold airmass remains entrenched over the central Arctic.  Air temperatures approaching -40C combined with wind speeds up to 15 km/h is producing extreme wind chill values of -55 this morning. LIttle relief is expected today, however increasing cloud cover tonight into Wednesday will provide some improvement.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-22T04:59:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-21T15:32:52-00:00, urn:oid:2.49.0.1.124.3064613172.2020<br>Area: Hall Beach",
+				"LastUpdate_UTC" : "January 21, 2020 16:39",
+				"Expires_UTC" : "January 22, 2020 08:39",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-01-22T08:39:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-21T16:39:36-00:00, urn:oid:2.49.0.1.124.4290651588.2020<br>Area: Churchill",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-21:feed.atom/urn:oid:2.49.0.1.124.3064613172.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-21/2020_01_21T15_32_52_00_00Iurn_oid_2.49.0.1.124.3064613172.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-21:feed.atom/urn:oid:2.49.0.1.124.4290651588.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-21/2020_01_21T16_39_36_00_00Iurn_oid_2.49.0.1.124.4290651588.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200122045952+00:00"
+				"Expires_FMEFormat" : "20200122083936+00:00"
 			}
 		},
 		{
@@ -165,6 +178,48 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-21/2020_01_21T11_21_42_00_00Iurn_oid_2.49.0.1.124.1129428327.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200122004442+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.8004, 68.8639 ],
+							[ -81.8335, 68.7595 ],
+							[ -81.7346, 68.6648 ],
+							[ -81.5301, 68.5966 ],
+							[ -81.0418, 68.5342 ],
+							[ -81.0006, 68.5737 ],
+							[ -81.0228, 68.9232 ],
+							[ -81.723, 68.9232 ],
+							[ -81.8004, 68.8639 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 21, 2020 15:32",
+				"Expires_UTC" : "January 22, 2020 04:59",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nA cold airmass remains entrenched over the central Arctic.  Air temperatures approaching -40C combined with wind speeds up to 15 km/h is producing extreme wind chill values of -55 this morning. LIttle relief is expected today, however increasing cloud cover tonight into Wednesday will provide some improvement.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-22T04:59:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-21T15:32:52-00:00, urn:oid:2.49.0.1.124.3064613172.2020<br>Area: Hall Beach",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-21:feed.atom/urn:oid:2.49.0.1.124.3064613172.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-21/2020_01_21T15_32_52_00_00Iurn_oid_2.49.0.1.124.3064613172.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200122045952+00:00"
 			}
 		}
 	]
