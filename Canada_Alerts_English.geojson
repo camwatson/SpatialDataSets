@@ -57,69 +57,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -114.6108, 60.4106 ],
-							[ -114.6026, 59.9983 ],
-							[ -114.3016, 59.9957 ],
-							[ -114.001, 59.9985 ],
-							[ -113.2955, 59.9872 ],
-							[ -112.5128, 59.9989 ],
-							[ -112.1589, 59.9991 ],
-							[ -111.6596, 59.9923 ],
-							[ -110.875, 59.9993 ],
-							[ -110.5831, 59.996 ],
-							[ -110.3064, 59.9994 ],
-							[ -110.2521, 61.0084 ],
-							[ -110.3006, 61.8825 ],
-							[ -110.4265, 61.8594 ],
-							[ -110.7605, 61.7729 ],
-							[ -110.9547, 61.6665 ],
-							[ -111.1832, 61.5295 ],
-							[ -111.5035, 61.2868 ],
-							[ -112.1664, 61.6857 ],
-							[ -112.1705, 61.6881 ],
-							[ -112.1866, 61.6968 ],
-							[ -112.2039, 61.8586 ],
-							[ -111.9605, 61.9557 ],
-							[ -111.9663, 62.1016 ],
-							[ -113.1652, 61.8281 ],
-							[ -113.7179, 61.6293 ],
-							[ -114.8765, 61.3365 ],
-							[ -115.0815, 61.2448 ],
-							[ -114.9258, 60.8933 ],
-							[ -114.6108, 60.4106 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 21, 2020 17:28",
-				"Expires_UTC" : "January 22, 2020 00:44",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-01-22T00:44:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-21T17:28:24-00:00, urn:oid:2.49.0.1.124.3525493160.2020<br>Area: Thebacha Region including Ft. Smith - Salt River Reserve",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-21:feed.atom/urn:oid:2.49.0.1.124.3525493160.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-21/2020_01_21T17_28_24_00_00Iurn_oid_2.49.0.1.124.3525493160.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200122004424+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -114.6026, 59.9983 ],
 							[ -114.3016, 59.9957 ],
 							[ -114.001, 59.9985 ],
@@ -186,6 +123,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-21/2020_01_21T11_21_42_00_00Iurn_oid_2.49.0.1.124.1129428327.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200122004442+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -114.6108, 60.4106 ],
+							[ -114.6026, 59.9983 ],
+							[ -114.3016, 59.9957 ],
+							[ -114.001, 59.9985 ],
+							[ -113.2955, 59.9872 ],
+							[ -112.5128, 59.9989 ],
+							[ -112.1589, 59.9991 ],
+							[ -111.6596, 59.9923 ],
+							[ -110.875, 59.9993 ],
+							[ -110.5831, 59.996 ],
+							[ -110.3064, 59.9994 ],
+							[ -110.2521, 61.0084 ],
+							[ -110.3006, 61.8825 ],
+							[ -110.4265, 61.8594 ],
+							[ -110.7605, 61.7729 ],
+							[ -110.9547, 61.6665 ],
+							[ -111.1832, 61.5295 ],
+							[ -111.5035, 61.2868 ],
+							[ -112.1664, 61.6857 ],
+							[ -112.1705, 61.6881 ],
+							[ -112.1866, 61.6968 ],
+							[ -112.2039, 61.8586 ],
+							[ -111.9605, 61.9557 ],
+							[ -111.9663, 62.1016 ],
+							[ -113.1652, 61.8281 ],
+							[ -113.7179, 61.6293 ],
+							[ -114.8765, 61.3365 ],
+							[ -115.0815, 61.2448 ],
+							[ -114.9258, 60.8933 ],
+							[ -114.6108, 60.4106 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 21, 2020 17:29",
+				"Expires_UTC" : "January 22, 2020 00:44",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\nHeavy snow is tapering off this morning from west to east and will end altogether by this afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-01-22T00:44:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-21T17:29:24-00:00, urn:oid:2.49.0.1.124.4118762369.2020<br>Area: Thebacha Region including Ft. Smith - Salt River Reserve",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-21:feed.atom/urn:oid:2.49.0.1.124.4118762369.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-21/2020_01_21T17_29_24_00_00Iurn_oid_2.49.0.1.124.4118762369.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200122004424+00:00"
 			}
 		},
 		{
