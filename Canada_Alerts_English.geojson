@@ -297,6 +297,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.4763, 48.4015 ],
+							[ -65.4342, 48 ],
+							[ -65.4344, 47.921 ],
+							[ -65.2163, 47.9516 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.4498, 48.3987 ],
+							[ -64.7475, 48.4652 ],
+							[ -64.75, 48.4658 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.7559, 48.6496 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7535, 48.9304 ],
+							[ -65.4879, 49.0837 ],
+							[ -65.7491, 49.0651 ],
+							[ -66.0046, 49.0462 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.7518, 48.8661 ],
+							[ -66.9998, 48.7504 ],
+							[ -67.0013, 48.4494 ],
+							[ -67.0024, 48.2174 ],
+							[ -66.0664, 48.3334 ],
+							[ -65.4763, 48.4015 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 26, 2020 21:02",
+				"Expires_UTC" : "January 26, 2020 22:02",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n###<br>Expires: 2020-01-26T22:02:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-26T21:02:27-00:00, urn:oid:2.49.0.1.124.1827394384.2020<br>Area: Murdochville area, Mont-Albert area, Grande-Rivière - Cascapédia area, Chandler area, New Carlisle - Port-Daniel area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-26:feed.atom/urn:oid:2.49.0.1.124.1827394384.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-26/2020_01_26T21_02_27_00_00Iurn_oid_2.49.0.1.124.1827394384.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200126220227+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -108.9341, 50.9895 ],
 							[ -108.8235, 50.9236 ],
 							[ -108.7364, 50.9334 ],
@@ -767,6 +825,95 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-26/2020_01_26T17_05_22_00_00Iurn_oid_2.49.0.1.124.2573053731.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200127002922+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -78.6362, 72.6541 ],
+							[ -78.4939, 72.5386 ],
+							[ -77.8912, 72.4735 ],
+							[ -77.3451, 72.5745 ],
+							[ -77.2351, 72.6638 ],
+							[ -77.2577, 72.7548 ],
+							[ -77.4398, 72.7893 ],
+							[ -78.0061, 72.7979 ],
+							[ -78.6362, 72.6541 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 26, 2020 21:01",
+				"Expires_UTC" : "January 27, 2020 13:00",
+				"Summary" : "Description: Temperatures well into the minus thirties and a southerly wind will bring periods of extreme wind chills in the -50 to -55 range into Monday.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-27T13:00:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-26T21:01:56-00:00, urn:oid:2.49.0.1.124.2442850877.2020<br>Area: Pond Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-26:feed.atom/urn:oid:2.49.0.1.124.2442850877.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-26/2020_01_26T21_01_56_00_00Iurn_oid_2.49.0.1.124.2442850877.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200127130056+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 26, 2020 21:02",
+				"Expires_UTC" : "January 27, 2020 13:01",
+				"Summary" : "Description: The snow will become heavy at times overnight and continue through Monday evening.   A total of near 15 centimetres is expected during this period.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-01-27T13:01:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-26T21:02:35-00:00, urn:oid:2.49.0.1.124.0502342358.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-26:feed.atom/urn:oid:2.49.0.1.124.0502342358.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-26/2020_01_26T21_02_35_00_00Iurn_oid_2.49.0.1.124.0502342358.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200127130135+00:00"
 			}
 		},
 		{
