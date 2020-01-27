@@ -1357,25 +1357,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Les Suêtes Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Les Suêtes Wind Warning Ended",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "January 27, 2020 01:05",
-				"Expires_UTC" : "January 27, 2020 12:49",
-				"Summary" : "Description: Very strong wind gusts that may cause damage are expected or occurring.\n\nVery strong winds expected until after midnight tonight.\n\nMaximum Les Suetes gusts: Possibly exceeding 120 km/h.\n\nLocation: Margaree Harbour to Bay St. Lawrence.\n\nTime span: this evening and ending shortly after midnight.\n\n###\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-01-27T12:49:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-27T01:05:49-00:00, urn:oid:2.49.0.1.124.0659744060.2020<br>Area: Inverness County - Mabou and north",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 27, 2020 05:13",
+				"Expires_UTC" : "January 27, 2020 06:13",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-01-27T06:13:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-27T05:13:38-00:00, urn:oid:2.49.0.1.124.3852684413.2020<br>Area: Inverness County - Mabou and north",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-27:feed.atom/urn:oid:2.49.0.1.124.0659744060.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T01_05_49_00_00Iurn_oid_2.49.0.1.124.0659744060.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-27:feed.atom/urn:oid:2.49.0.1.124.3852684413.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T05_13_38_00_00Iurn_oid_2.49.0.1.124.3852684413.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200127124949+00:00"
+				"Expires_FMEFormat" : "20200127061338+00:00"
 			}
 		},
 		{
@@ -1538,6 +1538,89 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T01_50_50_00_00Iurn_oid_2.49.0.1.124.0763221303.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200127095950+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 27, 2020 04:33",
+				"Expires_UTC" : "January 27, 2020 20:32",
+				"Summary" : "Description: Snow combined with strong winds will produce blizzard conditions beginning Monday morning over this community. Conditions will persist through Monday evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-01-27T20:32:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-27T04:33:46-00:00, urn:oid:2.49.0.1.124.0274097514.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-27:feed.atom/urn:oid:2.49.0.1.124.0274097514.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T04_33_46_00_00Iurn_oid_2.49.0.1.124.0274097514.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200127203246+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -78.6362, 72.6541 ],
+							[ -78.4939, 72.5386 ],
+							[ -77.8912, 72.4735 ],
+							[ -77.3451, 72.5745 ],
+							[ -77.2351, 72.6638 ],
+							[ -77.2577, 72.7548 ],
+							[ -77.4398, 72.7893 ],
+							[ -78.0061, 72.7979 ],
+							[ -78.6362, 72.6541 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 27, 2020 04:47",
+				"Expires_UTC" : "January 27, 2020 20:46",
+				"Summary" : "Description: Temperatures well into the minus thirties and a southerly wind will bring periods of extreme wind chills in the -50 to -55 range tonight, Monday, and into Monday night.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-27T20:46:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-27T04:47:52-00:00, urn:oid:2.49.0.1.124.0793946092.2020<br>Area: Pond Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-27:feed.atom/urn:oid:2.49.0.1.124.0793946092.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T04_47_52_00_00Iurn_oid_2.49.0.1.124.0793946092.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200127204652+00:00"
 			}
 		},
 		{
@@ -1839,89 +1922,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T01_18_43_00_00Iurn_oid_2.49.0.1.124.1068796485.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200127171743+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 27, 2020 04:33",
-				"Expires_UTC" : "January 27, 2020 20:32",
-				"Summary" : "Description: Snow combined with strong winds will produce blizzard conditions beginning Monday morning over this community. Conditions will persist through Monday evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-01-27T20:32:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-27T04:33:46-00:00, urn:oid:2.49.0.1.124.0274097514.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-27:feed.atom/urn:oid:2.49.0.1.124.0274097514.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T04_33_46_00_00Iurn_oid_2.49.0.1.124.0274097514.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200127203246+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -78.6362, 72.6541 ],
-							[ -78.4939, 72.5386 ],
-							[ -77.8912, 72.4735 ],
-							[ -77.3451, 72.5745 ],
-							[ -77.2351, 72.6638 ],
-							[ -77.2577, 72.7548 ],
-							[ -77.4398, 72.7893 ],
-							[ -78.0061, 72.7979 ],
-							[ -78.6362, 72.6541 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 27, 2020 04:47",
-				"Expires_UTC" : "January 27, 2020 20:46",
-				"Summary" : "Description: Temperatures well into the minus thirties and a southerly wind will bring periods of extreme wind chills in the -50 to -55 range tonight, Monday, and into Monday night.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-27T20:46:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-27T04:47:52-00:00, urn:oid:2.49.0.1.124.0793946092.2020<br>Area: Pond Inlet",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-27:feed.atom/urn:oid:2.49.0.1.124.0793946092.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T04_47_52_00_00Iurn_oid_2.49.0.1.124.0793946092.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200127204652+00:00"
 			}
 		},
 		{
