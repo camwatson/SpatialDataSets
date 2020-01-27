@@ -186,6 +186,63 @@
 				"coordinates" : [
 					[
 						[
+							[ -62.6235, 45.2947 ],
+							[ -62.6877, 45.2911 ],
+							[ -62.7118, 45.2704 ],
+							[ -62.1655, 44.9754 ],
+							[ -62.1647, 44.9739 ],
+							[ -62.1548, 44.9424 ],
+							[ -62.0547, 44.8797 ],
+							[ -61.1946, 45.1755 ],
+							[ -60.9193, 45.2127 ],
+							[ -60.9214, 45.3595 ],
+							[ -61.2399, 45.5263 ],
+							[ -61.2879, 45.5429 ],
+							[ -61.3587, 45.578 ],
+							[ -61.3709, 45.5863 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.4371, 45.6492 ],
+							[ -61.5031, 45.6221 ],
+							[ -61.7374, 45.525 ],
+							[ -61.733, 45.5024 ],
+							[ -61.7299, 45.4868 ],
+							[ -61.949, 45.3941 ],
+							[ -62.0904, 45.3736 ],
+							[ -62.6235, 45.2947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 27, 2020 02:21",
+				"Expires_UTC" : "January 27, 2020 03:21",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-01-27T03:21:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-27T02:21:57-00:00, urn:oid:2.49.0.1.124.3645227932.2020<br>Area: Guysborough County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-27:feed.atom/urn:oid:2.49.0.1.124.3645227932.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T02_21_57_00_00Iurn_oid_2.49.0.1.124.3645227932.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200127032157+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -116.9892300975, 57.3817574251 ],
 							[ -116.8378, 57.3817 ],
 							[ -116.6607, 57.3819 ],
@@ -363,6 +420,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-26/2020_01_26T19_21_20_00_00Iurn_oid_2.49.0.1.124.2038653551.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200127112020+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 26, 2020 20:40",
+				"Expires_UTC" : "January 27, 2020 12:39",
+				"Summary" : "Description: Snow combined with strong winds will produce blizzard conditions beginning Monday morning over this community. Conditions will persist through Monday evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-01-27T12:39:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-26T20:40:23-00:00, urn:oid:2.49.0.1.124.0821847973.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-26:feed.atom/urn:oid:2.49.0.1.124.0821847973.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-26/2020_01_26T20_40_23_00_00Iurn_oid_2.49.0.1.124.0821847973.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200127123923+00:00"
 			}
 		},
 		{
@@ -1568,47 +1666,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 26, 2020 20:40",
-				"Expires_UTC" : "January 27, 2020 12:39",
-				"Summary" : "Description: Snow combined with strong winds will produce blizzard conditions beginning Monday morning over this community. Conditions will persist through Monday evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-01-27T12:39:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-26T20:40:23-00:00, urn:oid:2.49.0.1.124.0821847973.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-26:feed.atom/urn:oid:2.49.0.1.124.0821847973.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-26/2020_01_26T20_40_23_00_00Iurn_oid_2.49.0.1.124.0821847973.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200127123923+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -62.7118, 45.2704 ],
 							[ -62.8428, 45.2503 ],
 							[ -62.8749, 45.2036 ],
@@ -1673,59 +1730,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-26/2020_01_26T22_09_57_00_00Iurn_oid_2.49.0.1.124.3695725243.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200127075957+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.3499, 49.58 ],
-							[ -57.6827, 49.1504 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.83, 48.58 ],
-							[ -57.4599, 48.2499 ],
-							[ -56.817, 49.2073 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.4018, 49.5793 ],
-							[ -55.3736, 50.013 ],
-							[ -55.7129, 50.3339 ],
-							[ -56.4068, 50.2167 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.99, 50.25 ],
-							[ -57.2, 49.8499 ],
-							[ -57.3499, 49.58 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 27, 2020 02:08",
-				"Expires_UTC" : "January 27, 2020 16:59",
-				"Summary" : "Description: An extended period of freezing rain is expected.\n\nLocations: Deer Lake - Humber Valley as well as communities south of Green Bay.\n\nTime span: overnight tonight until midday Monday.\n\nRemarks: freezing rain will begin after midnight tonight then slowly transition over to snow or flurries late in the morning or early afternoon on Monday.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-27T16:59:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-27T02:08:24-00:00, urn:oid:2.49.0.1.124.2613901921.2020<br>Area: Deer Lake - Humber Valley, Green Bay - White Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-27:feed.atom/urn:oid:2.49.0.1.124.2613901921.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T02_08_24_00_00Iurn_oid_2.49.0.1.124.2613901921.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200127165924+00:00"
 			}
 		},
 		{
@@ -2599,6 +2603,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T02_09_40_00_00Iurn_oid_2.49.0.1.124.0681544019.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200127180840+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.3499, 49.58 ],
+							[ -57.6827, 49.1504 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.83, 48.58 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 27, 2020 02:08",
+				"Expires_UTC" : "January 27, 2020 16:59",
+				"Summary" : "Description: An extended period of freezing rain is expected.\n\nLocations: Deer Lake - Humber Valley as well as communities south of Green Bay.\n\nTime span: overnight tonight until midday Monday.\n\nRemarks: freezing rain will begin after midnight tonight then slowly transition over to snow or flurries late in the morning or early afternoon on Monday.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-01-27T16:59:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-27T02:08:24-00:00, urn:oid:2.49.0.1.124.2613901921.2020<br>Area: Deer Lake - Humber Valley, Green Bay - White Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-27:feed.atom/urn:oid:2.49.0.1.124.2613901921.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-27/2020_01_27T02_08_24_00_00Iurn_oid_2.49.0.1.124.2613901921.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200127165924+00:00"
 			}
 		},
 		{
