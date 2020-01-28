@@ -50,48 +50,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -78.6362, 72.6541 ],
-							[ -78.4939, 72.5386 ],
-							[ -77.8912, 72.4735 ],
-							[ -77.3451, 72.5745 ],
-							[ -77.2351, 72.6638 ],
-							[ -77.2577, 72.7548 ],
-							[ -77.4398, 72.7893 ],
-							[ -78.0061, 72.7979 ],
-							[ -78.6362, 72.6541 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 28, 2020 13:25",
-				"Expires_UTC" : "January 28, 2020 22:59",
-				"Summary" : "Description: Temperatures well into the minus thirties with light winds will bring periods of extreme wind chills around -50 this morning. These extreme wind chills will moderate later today.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-01-28T22:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-28T13:25:29-00:00, urn:oid:2.49.0.1.124.1392041620.2020<br>Area: Pond Inlet",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-28:feed.atom/urn:oid:2.49.0.1.124.1392041620.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-28/2020_01_28T13_25_29_00_00Iurn_oid_2.49.0.1.124.1392041620.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200128225929+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -74.5028, 62.3786 ],
 							[ -76.1437, 62.4482 ],
 							[ -75.9991, 61.45 ],
@@ -727,6 +685,48 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-28/2020_01_28T10_50_48_00_00Iurn_oid_2.49.0.1.124.2881652203.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200128225948+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -78.6362, 72.6541 ],
+							[ -78.4939, 72.5386 ],
+							[ -77.8912, 72.4735 ],
+							[ -77.3451, 72.5745 ],
+							[ -77.2351, 72.6638 ],
+							[ -77.2577, 72.7548 ],
+							[ -77.4398, 72.7893 ],
+							[ -78.0061, 72.7979 ],
+							[ -78.6362, 72.6541 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 28, 2020 15:29",
+				"Expires_UTC" : "January 28, 2020 16:29",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-01-28T16:29:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-01-28T15:29:16-00:00, urn:oid:2.49.0.1.124.0867857004.2020<br>Area: Pond Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-01-28:feed.atom/urn:oid:2.49.0.1.124.0867857004.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-01-28/2020_01_28T15_29_16_00_00Iurn_oid_2.49.0.1.124.0867857004.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200128162916+00:00"
 			}
 		},
 		{
