@@ -1765,51 +1765,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -124.6759, 49.7175 ],
-							[ -124.8997, 49.6049 ],
-							[ -125.123, 49.4816 ],
-							[ -124.905, 49.3297 ],
-							[ -124.7045, 49.2064 ],
-							[ -124.4102, 49.0768 ],
-							[ -124.1351, 49.2536 ],
-							[ -123.9656, 49.3653 ],
-							[ -124.1442, 49.4629 ],
-							[ -124.1967, 49.5111 ],
-							[ -124.3107, 49.5442 ],
-							[ -124.6759, 49.7175 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 1, 2020 12:29",
-				"Expires_UTC" : "February 1, 2020 13:29",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-02-01T13:29:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-01T12:29:36-00:00, urn:oid:2.49.0.1.124.3060484210.2020<br>Area: East Vancouver Island - Nanoose Bay to Fanny Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-01:feed.atom/urn:oid:2.49.0.1.124.3060484210.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-01/2020_02_01T12_29_36_00_00Iurn_oid_2.49.0.1.124.3060484210.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200201132936+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -57.3499, 49.58 ],
 							[ -57.6827, 49.1504 ],
 							[ -58.0764, 48.6423 ],
@@ -1952,6 +1907,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-01/2020_02_01T09_45_55_00_00Iurn_oid_2.49.0.1.124.0969525905.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200202154455+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -124.6759, 49.7175 ],
+							[ -124.8997, 49.6049 ],
+							[ -125.123, 49.4816 ],
+							[ -124.905, 49.3297 ],
+							[ -124.7045, 49.2064 ],
+							[ -124.4102, 49.0768 ],
+							[ -124.1351, 49.2536 ],
+							[ -123.9656, 49.3653 ],
+							[ -124.1442, 49.4629 ],
+							[ -124.1967, 49.5111 ],
+							[ -124.3107, 49.5442 ],
+							[ -124.6759, 49.7175 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 1, 2020 00:15",
+				"Expires_UTC" : "February 1, 2020 16:14",
+				"Summary" : "Description: Rain, at times heavy, continues.\n\nAn intense low pressure system with subtropical moisture has brought heavy rain to the region. Since last night 30 to 50 mm of rain has fallen. Additional rainfall amounts of 30 to 40 mm are expected tonight. Rain will ease Saturday morning as the system exits the area.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-02-01T16:14:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-01T00:15:45-00:00, urn:oid:2.49.0.1.124.3701630623.2020<br>Area: East Vancouver Island - Nanoose Bay to Fanny Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-01:feed.atom/urn:oid:2.49.0.1.124.3701630623.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-01/2020_02_01T00_15_45_00_00Iurn_oid_2.49.0.1.124.3701630623.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200201161445+00:00"
 			}
 		},
 		{
