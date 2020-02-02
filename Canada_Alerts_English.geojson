@@ -263,54 +263,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 2, 2020 14:41",
-				"Expires_UTC" : "February 2, 2020 18:59",
-				"Summary" : "Description: Significant snow expected.\n\nTotal snowfall: 15 to 25 cm with locally higher amounts possible.\n\nLocations Burin Peninsula and Connaigre.\n\nTime span: continuing until near noon.\n\nRemarks: Snowfall accumulations of near 20 cm has fallen. Conditions are expected to improve near noon as snow begins to change over to rain.  \n\nRain is expected to be most significant in the south, where the Burin Peninsula could see 10 to 20 mm by the time precipitation tapers off this evening.  Some localized flooding is possible in that area due to existing snow pack.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-02T18:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-02T14:41:22-00:00, urn:oid:2.49.0.1.124.1453467519.2020<br>Area: Burin Peninsula, Connaigre",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-02:feed.atom/urn:oid:2.49.0.1.124.1453467519.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T14_41_22_00_00Iurn_oid_2.49.0.1.124.1453467519.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200202185922+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -96.4321, 50.6812 ],
 							[ -96.5228, 50.7937 ],
 							[ -96.575, 50.7793 ],
@@ -711,6 +663,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T12_36_36_00_00Iurn_oid_2.49.0.1.124.3931863470.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200202193436+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.0792, 47.826 ],
+							[ -54.0697, 47.8335 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 2, 2020 17:07",
+				"Expires_UTC" : "February 2, 2020 18:07",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-02-02T18:07:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-02T17:07:33-00:00, urn:oid:2.49.0.1.124.4069923967.2020<br>Area: Burin Peninsula, Connaigre",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-02:feed.atom/urn:oid:2.49.0.1.124.4069923967.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T17_07_33_00_00Iurn_oid_2.49.0.1.124.4069923967.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200202180733+00:00"
 			}
 		},
 		{
