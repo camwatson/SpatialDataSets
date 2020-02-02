@@ -1247,6 +1247,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 46.7999 ],
+							[ -52.9466, 46.8016 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 2, 2020 14:35",
+				"Expires_UTC" : "February 2, 2020 22:59",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: 10 to 15 cm.\n\nMaximum wind gusts: southeasterly 90 km/h.\n\nTime span: continuing until this afternoon.\n\nRemarks: Snow will combine with strong southeasterly winds to reduce visibilities in blowing snow today. Conditions are expected to improve later this afternoon as the snow changes over to rain.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-02T22:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-02T14:35:54-00:00, urn:oid:2.49.0.1.124.3753045826.2020<br>Area: Avalon Peninsula North, St. John's and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-02:feed.atom/urn:oid:2.49.0.1.124.3753045826.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T14_35_54_00_00Iurn_oid_2.49.0.1.124.3753045826.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200202225954+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.3667, 53.72 ],
 							[ -57.499, 53.3332 ],
 							[ -57.4985, 53.333 ],
@@ -1303,48 +1354,55 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.0399, 47.2249 ],
-							[ -53.0399, 46.7999 ],
-							[ -52.9466, 46.8016 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7999, 47.4599 ],
 							[ -53.58, 47.3919 ],
-							[ -53.0399, 47.2249 ]
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55.1527, 47.5874 ],
+							[ -55.1557, 47.5799 ],
+							[ -55.1703, 47.5512 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 2, 2020 18:12",
-				"Expires_UTC" : "February 2, 2020 19:12",
-				"Summary" : "Description: Conditions are no longer expected to meet blowing snow advisory criteria.\n\n\n###<br>Expires: 2020-02-02T19:12:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-02T18:12:50-00:00, urn:oid:2.49.0.1.124.0295315967.2020<br>Area: Avalon Peninsula North, St. John's and vicinity",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 2, 2020 14:36",
+				"Expires_UTC" : "February 3, 2020 00:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southeasterly 100 km/h along the coast.\n\nLocations: southern Avalon and Burin Peninsulas.\n\nTime span: this afternoon.\n\nRemarks: Southeasterly winds are expected to continue to increase today with gusts reaching up to 100 km/h along the coast by this afternoon. Winds will quickly subside and shift to southwesterly by this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-03T00:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-02T14:36:34-00:00, urn:oid:2.49.0.1.124.0894530185.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-02:feed.atom/urn:oid:2.49.0.1.124.0295315967.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T18_12_50_00_00Iurn_oid_2.49.0.1.124.0295315967.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-02:feed.atom/urn:oid:2.49.0.1.124.0894530185.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T14_36_34_00_00Iurn_oid_2.49.0.1.124.0894530185.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200202191250+00:00"
+				"Expires_FMEFormat" : "20200203005934+00:00"
 			}
 		},
 		{
@@ -1463,64 +1521,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T16_14_10_00_00Iurn_oid_2.49.0.1.124.1643938216.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200203145910+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55.1527, 47.5874 ],
-							[ -55.1557, 47.5799 ],
-							[ -55.1703, 47.5512 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 2, 2020 14:36",
-				"Expires_UTC" : "February 3, 2020 00:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southeasterly 100 km/h along the coast.\n\nLocations: southern Avalon and Burin Peninsulas.\n\nTime span: this afternoon.\n\nRemarks: Southeasterly winds are expected to continue to increase today with gusts reaching up to 100 km/h along the coast by this afternoon. Winds will quickly subside and shift to southwesterly by this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-03T00:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-02T14:36:34-00:00, urn:oid:2.49.0.1.124.0894530185.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-02:feed.atom/urn:oid:2.49.0.1.124.0894530185.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T14_36_34_00_00Iurn_oid_2.49.0.1.124.0894530185.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200203005934+00:00"
 			}
 		},
 		{
