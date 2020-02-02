@@ -9,6 +9,73 @@
 				"coordinates" : [
 					[
 						[
+							[ -134.8205, 68.6539 ],
+							[ -135.1491, 68.6544 ],
+							[ -135.2643, 68.6955 ],
+							[ -135.3318, 68.6907 ],
+							[ -135.3054, 68.6544 ],
+							[ -136.4483, 68.6502 ],
+							[ -136.4596, 68.5843 ],
+							[ -136.4483, 68.4998 ],
+							[ -136.4483, 67.8636 ],
+							[ -135.456, 67.8526 ],
+							[ -134.371, 67.8553 ],
+							[ -134.4575, 68.015 ],
+							[ -134.3877, 68.2744 ],
+							[ -134.0751, 68.397 ],
+							[ -134.2055, 68.6549 ],
+							[ -133.651, 68.6495 ],
+							[ -133.0684, 68.6546 ],
+							[ -132.8203, 68.6469 ],
+							[ -132.5903, 68.6515 ],
+							[ -132.6302, 69.1236 ],
+							[ -132.7334, 69.5253 ],
+							[ -132.9811, 69.526 ],
+							[ -133.0809, 69.5269 ],
+							[ -133.2424, 69.7062 ],
+							[ -133.6843, 69.7117 ],
+							[ -133.8748, 69.7432 ],
+							[ -134.1813, 69.5985 ],
+							[ -134.1487, 69.5248 ],
+							[ -134.6088, 69.5219 ],
+							[ -134.625, 69.5217 ],
+							[ -134.6503, 69.7494 ],
+							[ -135.028, 69.7482 ],
+							[ -134.9727, 69.2322 ],
+							[ -134.8205, 68.6539 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 2, 2020 17:26",
+				"Expires_UTC" : "February 3, 2020 09:25",
+				"Summary" : "Description: A period of very cold wind chills is expected tonight. Wind chill values are expected to moderate on Monday.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-02-03T09:25:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-02T17:26:08-00:00, urn:oid:2.49.0.1.124.2006807931.2020<br>Area: Tuktoyaktuk - East Channel Region, Aklavik Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-02:feed.atom/urn:oid:2.49.0.1.124.2006807931.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T17_26_08_00_00Iurn_oid_2.49.0.1.124.2006807931.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200203092508+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -53.4377, 48.6575 ],
 							[ -53.5415, 48.8765 ],
 							[ -53.6584, 48.9743 ],
@@ -141,61 +208,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T13_15_03_00_00Iurn_oid_2.49.0.1.124.2260728962.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200202204403+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.0483, 46.1152 ],
-							[ -60.9766, 46.0016 ],
-							[ -60.9641, 46.0041 ],
-							[ -60.9256, 46.0478 ],
-							[ -60.8568, 46.0675 ],
-							[ -60.8098, 46.0638 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.6864, 46.0863 ],
-							[ -60.6021, 46.1338 ],
-							[ -60.5551, 46.1916 ],
-							[ -60.4991, 46.2258 ],
-							[ -60.4173, 46.2948 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 2, 2020 16:29",
-				"Expires_UTC" : "February 2, 2020 17:29",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-02-02T17:29:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-02T16:29:26-00:00, urn:oid:2.49.0.1.124.0450173498.2020<br>Area: Inverness County - Mabou and north, Victoria County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-02:feed.atom/urn:oid:2.49.0.1.124.0450173498.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-02/2020_02_02T16_29_26_00_00Iurn_oid_2.49.0.1.124.0450173498.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200202172926+00:00"
 			}
 		},
 		{
