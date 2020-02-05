@@ -139,6 +139,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -121.9611, 49.0003 ],
+							[ -121.764, 48.9964 ],
+							[ -121.3016, 49 ],
+							[ -121.2289, 49.0006 ],
+							[ -121.1942, 49.0003 ],
+							[ -121.1809, 49.151 ],
+							[ -121.257, 49.2793 ],
+							[ -121.3009, 49.2852 ],
+							[ -121.3467, 49.3731 ],
+							[ -121.4038, 49.467 ],
+							[ -121.5289, 49.522 ],
+							[ -121.6512, 49.5698 ],
+							[ -121.6978, 49.7382 ],
+							[ -121.7625, 49.889 ],
+							[ -122.0982, 49.78 ],
+							[ -122.1633, 49.7586 ],
+							[ -122.2474, 49.7186 ],
+							[ -122.385, 49.6529 ],
+							[ -122.2563, 49.5124 ],
+							[ -122.2015, 49.4358 ],
+							[ -122.1494, 49.3063 ],
+							[ -122.0962, 49.1993 ],
+							[ -122.131, 49.1417 ],
+							[ -122.1038, 49.0934 ],
+							[ -122.098, 49.002 ],
+							[ -122.0739, 49.0015 ],
+							[ -122.0485, 49.0013 ],
+							[ -121.9611, 49.0003 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 5, 2020 17:18",
+				"Expires_UTC" : "February 5, 2020 18:18",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-02-05T18:18:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-05T17:18:05-00:00, urn:oid:2.49.0.1.124.0908522899.2020<br>Area: Fraser Valley - central including Chilliwack, Fraser Valley - east including Hope",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-05:feed.atom/urn:oid:2.49.0.1.124.0908522899.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-05/2020_02_05T17_18_05_00_00Iurn_oid_2.49.0.1.124.0908522899.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200205181805+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -70.2447, 46.2494 ],
 							[ -70.2068, 46.3004 ],
 							[ -70.0652, 46.4129 ],
@@ -887,82 +948,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -130.117, 55.7008 ],
-							[ -130.1003, 55.6917 ],
-							[ -130.1134, 55.5965 ],
-							[ -130.1118, 55.5667 ],
-							[ -130.0753, 55.5036 ],
-							[ -130.0158, 55.3804 ],
-							[ -130.0045, 55.3395 ],
-							[ -129.9976, 55.3324 ],
-							[ -129.9604, 55.3002 ],
-							[ -129.9932, 55.2589 ],
-							[ -129.9147, 55.1546 ],
-							[ -129.909, 55.147 ],
-							[ -129.8194, 55.2664 ],
-							[ -129.7755, 55.2934 ],
-							[ -129.764, 55.3494 ],
-							[ -129.7135, 55.3791 ],
-							[ -129.7161, 55.4149 ],
-							[ -129.7114, 55.4171 ],
-							[ -128.4667, 56.0247 ],
-							[ -128.6869, 56.5188 ],
-							[ -128.9927, 57.0307 ],
-							[ -129.0934, 57.0517 ],
-							[ -129.2187, 57.031 ],
-							[ -130.2942, 57.0779 ],
-							[ -131.2855, 57.0337 ],
-							[ -131.6605, 57.0683 ],
-							[ -132.0488, 57.037 ],
-							[ -132.1235, 56.8736 ],
-							[ -131.901, 56.7536 ],
-							[ -131.8353, 56.5992 ],
-							[ -131.472, 56.5526 ],
-							[ -131.0873, 56.406 ],
-							[ -130.6233, 56.2668 ],
-							[ -130.426, 56.1415 ],
-							[ -130.2462, 56.0964 ],
-							[ -130.1037, 56.1227 ],
-							[ -130.0176, 55.9119 ],
-							[ -130.0137, 55.8837 ],
-							[ -130.1076, 55.7973 ],
-							[ -130.1312, 55.7677 ],
-							[ -130.1366, 55.752 ],
-							[ -130.136, 55.7193 ],
-							[ -130.117, 55.7008 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 5, 2020 15:23",
-				"Expires_UTC" : "February 6, 2020 07:22",
-				"Summary" : "Description: A warm front from a low over the Gulf of Alaska will move onto the north coast this morning.  Snow will continue today with further amounts of 5 to 10 cm expected before easing this evening.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-02-06T07:22:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-05T15:23:36-00:00, urn:oid:2.49.0.1.124.3427219439.2020<br>Area: North Coast - inland including Stewart",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-05:feed.atom/urn:oid:2.49.0.1.124.3427219439.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-05/2020_02_05T15_23_36_00_00Iurn_oid_2.49.0.1.124.3427219439.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200206072236+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -120.0011, 49.6368 ],
 							[ -119.9965, 49.7448 ],
 							[ -120.0012, 49.8499 ],
@@ -1188,6 +1173,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-05/2020_02_05T04_22_06_00_00Iurn_oid_2.49.0.1.124.2332495340.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200205195906+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -70.299, 58.7659 ],
+							[ -70.2999, 58.3 ],
+							[ -68.999, 57.9998 ],
+							[ -68.745, 58.3632 ],
+							[ -68.5004, 58.8227 ],
+							[ -68.4703, 58.8861 ],
+							[ -68.5687, 58.9273 ],
+							[ -68.8228, 58.9343 ],
+							[ -68.9321, 58.9547 ],
+							[ -69.4492, 58.8794 ],
+							[ -69.5178, 58.8031 ],
+							[ -69.6632, 58.7817 ],
+							[ -69.745, 58.8193 ],
+							[ -70.133, 58.771 ],
+							[ -70.1936, 58.7957 ],
+							[ -70.299, 58.7659 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 5, 2020 14:43",
+				"Expires_UTC" : "February 5, 2020 22:24",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nStrong westerlies will whip up the snow and reduce visibilities in the blizzard.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-05T22:24:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-05T14:43:36-00:00, urn:oid:2.49.0.1.124.2793518499.2020<br>Area: Tasiujaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-05:feed.atom/urn:oid:2.49.0.1.124.2793518499.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-05/2020_02_05T14_43_36_00_00Iurn_oid_2.49.0.1.124.2793518499.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200205222436+00:00"
 			}
 		},
 		{
@@ -2461,46 +2495,73 @@
 				"coordinates" : [
 					[
 						[
-							[ -70.299, 58.7659 ],
-							[ -70.2999, 58.3 ],
-							[ -68.999, 57.9998 ],
-							[ -68.745, 58.3632 ],
-							[ -68.5004, 58.8227 ],
-							[ -68.4703, 58.8861 ],
-							[ -68.5687, 58.9273 ],
-							[ -68.8228, 58.9343 ],
-							[ -68.9321, 58.9547 ],
-							[ -69.4492, 58.8794 ],
-							[ -69.5178, 58.8031 ],
-							[ -69.6632, 58.7817 ],
-							[ -69.745, 58.8193 ],
-							[ -70.133, 58.771 ],
-							[ -70.1936, 58.7957 ],
-							[ -70.299, 58.7659 ]
+							[ -130.117, 55.7008 ],
+							[ -130.1003, 55.6917 ],
+							[ -130.1134, 55.5965 ],
+							[ -130.1118, 55.5667 ],
+							[ -130.0753, 55.5036 ],
+							[ -130.0158, 55.3804 ],
+							[ -130.0045, 55.3395 ],
+							[ -129.9976, 55.3324 ],
+							[ -129.9604, 55.3002 ],
+							[ -129.9932, 55.2589 ],
+							[ -129.9147, 55.1546 ],
+							[ -129.909, 55.147 ],
+							[ -129.8194, 55.2664 ],
+							[ -129.7755, 55.2934 ],
+							[ -129.764, 55.3494 ],
+							[ -129.7135, 55.3791 ],
+							[ -129.7161, 55.4149 ],
+							[ -129.7114, 55.4171 ],
+							[ -128.4667, 56.0247 ],
+							[ -128.6869, 56.5188 ],
+							[ -128.9927, 57.0307 ],
+							[ -129.0934, 57.0517 ],
+							[ -129.2187, 57.031 ],
+							[ -130.2942, 57.0779 ],
+							[ -131.2855, 57.0337 ],
+							[ -131.6605, 57.0683 ],
+							[ -132.0488, 57.037 ],
+							[ -132.1235, 56.8736 ],
+							[ -131.901, 56.7536 ],
+							[ -131.8353, 56.5992 ],
+							[ -131.472, 56.5526 ],
+							[ -131.0873, 56.406 ],
+							[ -130.6233, 56.2668 ],
+							[ -130.426, 56.1415 ],
+							[ -130.2462, 56.0964 ],
+							[ -130.1037, 56.1227 ],
+							[ -130.0176, 55.9119 ],
+							[ -130.0137, 55.8837 ],
+							[ -130.1076, 55.7973 ],
+							[ -130.1312, 55.7677 ],
+							[ -130.1366, 55.752 ],
+							[ -130.136, 55.7193 ],
+							[ -130.117, 55.7008 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 5, 2020 14:43",
-				"Expires_UTC" : "February 5, 2020 22:24",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nStrong westerlies will whip up the snow and reduce visibilities in the blizzard.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-05T22:24:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-05T14:43:36-00:00, urn:oid:2.49.0.1.124.2793518499.2020<br>Area: Tasiujaq",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 5, 2020 17:15",
+				"Expires_UTC" : "February 5, 2020 18:15",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-02-05T18:15:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-05T17:15:08-00:00, urn:oid:2.49.0.1.124.3879712097.2020<br>Area: North Coast - inland including Stewart",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-05:feed.atom/urn:oid:2.49.0.1.124.2793518499.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-05/2020_02_05T14_43_36_00_00Iurn_oid_2.49.0.1.124.2793518499.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-05:feed.atom/urn:oid:2.49.0.1.124.3879712097.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-05/2020_02_05T17_15_08_00_00Iurn_oid_2.49.0.1.124.3879712097.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200205222436+00:00"
+				"Expires_FMEFormat" : "20200205181508+00:00"
 			}
 		}
 	]
