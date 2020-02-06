@@ -1694,60 +1694,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.4419, 49.5091 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ],
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ],
-							[ -81.4426, 49.1637 ],
-							[ -81.4419, 49.5091 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snow Squall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 6, 2020 06:31",
-				"Expires_UTC" : "February 6, 2020 07:31",
-				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2020-02-06T07:31:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-06T06:31:29-00:00, urn:oid:2.49.0.1.124.4061519169.2020<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-06:feed.atom/urn:oid:2.49.0.1.124.4061519169.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T06_31_29_00_00Iurn_oid_2.49.0.1.124.4061519169.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200206073129+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -76.3538, 45.4104 ],
 							[ -76.5213, 45.3101 ],
 							[ -76.7091, 45.1823 ],
@@ -1907,6 +1853,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T04_17_39_00_00Iurn_oid_2.49.0.1.124.1262186768.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200206201639+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.4419, 49.5091 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ],
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ],
+							[ -81.4426, 49.1637 ],
+							[ -81.4419, 49.5091 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snow Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 6, 2020 03:16",
+				"Expires_UTC" : "February 6, 2020 09:14",
+				"Summary" : "Description: Brief, intense snowfall is expected. Visibilities will be rapidly reduced due to the heavy snow combined with blowing snow.\n\nFrontal snow squall expected tonight.\n\nAn intense band of snow extending from Kesagami Provincial Park to Hearst is moving southeast towards Kapuskasing tonight. The brief but intense snowfall will give near zero visibilities in  snow and blowing snow.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Travel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-02-06T09:14:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-06T03:16:56-00:00, urn:oid:2.49.0.1.124.4025594649.2020<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-06:feed.atom/urn:oid:2.49.0.1.124.4025594649.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T03_16_56_00_00Iurn_oid_2.49.0.1.124.4025594649.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200206091456+00:00"
 			}
 		},
 		{
