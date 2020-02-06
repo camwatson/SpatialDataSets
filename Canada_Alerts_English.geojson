@@ -1006,62 +1006,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -104.8657, 58.3999 ],
-							[ -104.8658, 57.0615 ],
-							[ -104.8658, 56.1199 ],
-							[ -104.1998, 56.1199 ],
-							[ -103.2006, 56.1199 ],
-							[ -102.004, 56.1199 ],
-							[ -102.0008, 56.2197 ],
-							[ -102.0073, 56.3385 ],
-							[ -102.0073, 57.11 ],
-							[ -101.9861, 57.6901 ],
-							[ -102.0074, 58.3877 ],
-							[ -101.9745, 59.1823 ],
-							[ -102.0075, 59.9992 ],
-							[ -103.4256, 60.0239 ],
-							[ -104.8657, 59.9995 ],
-							[ -105.63, 60.0171 ],
-							[ -106.4297, 59.9992 ],
-							[ -107.2378, 60.0172 ],
-							[ -108.0496, 59.9996 ],
-							[ -108.08, 59.1865 ],
-							[ -108.0497, 58.3999 ],
-							[ -106.4297, 58.3999 ],
-							[ -104.8657, 58.3999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 6, 2020 10:17",
-				"Expires_UTC" : "February 6, 2020 19:59",
-				"Summary" : "Description: Extreme cold conditions continue this morning, with windchill values in the -45 to -50 range. Conditions will improve later this morning.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-02-06T19:59:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-06T10:17:30-00:00, urn:oid:2.49.0.1.124.3045936240.2020<br>Area: Fond-du-Lac, Stony Rapids and Black Lake, Wollaston Lake - Collins Bay, Southend - Brabant Lake - Kinoosao",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-06:feed.atom/urn:oid:2.49.0.1.124.3045936240.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T10_17_30_00_00Iurn_oid_2.49.0.1.124.3045936240.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200206195930+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -63.46, 44.9886 ],
 							[ -63.5208, 44.9693 ],
 							[ -63.657, 44.9416 ],
@@ -2281,6 +2225,62 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T14_03_12_00_00Iurn_oid_2.49.0.1.124.4175596642.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200207060212+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -104.8657, 58.3999 ],
+							[ -104.8658, 57.0615 ],
+							[ -104.8658, 56.1199 ],
+							[ -104.1998, 56.1199 ],
+							[ -103.2006, 56.1199 ],
+							[ -102.004, 56.1199 ],
+							[ -102.0008, 56.2197 ],
+							[ -102.0073, 56.3385 ],
+							[ -102.0073, 57.11 ],
+							[ -101.9861, 57.6901 ],
+							[ -102.0074, 58.3877 ],
+							[ -101.9745, 59.1823 ],
+							[ -102.0075, 59.9992 ],
+							[ -103.4256, 60.0239 ],
+							[ -104.8657, 59.9995 ],
+							[ -105.63, 60.0171 ],
+							[ -106.4297, 59.9992 ],
+							[ -107.2378, 60.0172 ],
+							[ -108.0496, 59.9996 ],
+							[ -108.08, 59.1865 ],
+							[ -108.0497, 58.3999 ],
+							[ -106.4297, 58.3999 ],
+							[ -104.8657, 58.3999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 6, 2020 16:16",
+				"Expires_UTC" : "February 6, 2020 17:16",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-02-06T17:16:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-06T16:16:21-00:00, urn:oid:2.49.0.1.124.0871090724.2020<br>Area: Fond-du-Lac, Stony Rapids and Black Lake, Wollaston Lake - Collins Bay, Southend - Brabant Lake - Kinoosao",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-06:feed.atom/urn:oid:2.49.0.1.124.0871090724.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T16_16_21_00_00Iurn_oid_2.49.0.1.124.0871090724.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200206171621+00:00"
 			}
 		},
 		{
