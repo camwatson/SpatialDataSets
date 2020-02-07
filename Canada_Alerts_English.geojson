@@ -418,6 +418,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 46.7999 ],
+							[ -52.9466, 46.8016 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 7, 2020 19:23",
+				"Expires_UTC" : "February 8, 2020 11:22",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southwesterly 100 km/h, except 120 over exposed areas.\n\nLocations: St. John's and the northern Avalon Peninsula.\n\nTime span: Saturday morning until Saturday afternoon.\n\nRemarks: Southwesterly winds will quickly strengthen Saturday morning and then begin to ease upon shifting to westerly late Saturday afternoon. \n\nIn addition, after a brief mild spell tonight, temperatures will fall below freezing near noon on Saturday, causing standing water to freeze. Surfaces may become slippery.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-08T11:22:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-07T19:23:59-00:00, urn:oid:2.49.0.1.124.3092117935.2020<br>Area: Avalon Peninsula North, St. John's and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-07:feed.atom/urn:oid:2.49.0.1.124.3092117935.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-07/2020_02_07T19_23_59_00_00Iurn_oid_2.49.0.1.124.3092117935.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200208112259+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -71.3493, 46.3167 ],
 							[ -71.3497, 46.3165 ],
 							[ -71.683, 46.1827 ],
@@ -1378,57 +1429,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.0399, 47.2249 ],
-							[ -53.0399, 46.7999 ],
-							[ -52.9466, 46.8016 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.58, 47.3919 ],
-							[ -53.0399, 47.2249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 7, 2020 19:23",
-				"Expires_UTC" : "February 8, 2020 11:22",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southwesterly 100 km/h, except 120 over exposed areas.\n\nLocations: St. John's and the northern Avalon Peninsula.\n\nTime span: Saturday morning until Saturday afternoon.\n\nRemarks: Southwesterly winds will quickly strengthen Saturday morning and then begin to ease upon shifting to westerly late Saturday afternoon. \n\nIn addition, after a brief mild spell tonight, temperatures will fall below freezing near noon on Saturday, causing standing water to freeze. Surfaces may become slippery.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-08T11:22:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-07T19:23:59-00:00, urn:oid:2.49.0.1.124.3092117935.2020<br>Area: Avalon Peninsula North, St. John's and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-07:feed.atom/urn:oid:2.49.0.1.124.3092117935.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-07/2020_02_07T19_23_59_00_00Iurn_oid_2.49.0.1.124.3092117935.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200208112259+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.2442, 44.762 ],
 							[ -64.2554, 44.7703 ],
 							[ -64.434, 44.9011 ],
@@ -2037,6 +2037,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.6948, 52.1 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 7, 2020 19:49",
+				"Expires_UTC" : "February 8, 2020 11:48",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 15 to 20 cm.\n\nMaximum wind gusts: 70 km/h.\n\nLocation: Red Bay to L'Anse-au-Clair.\n\nTime span: this evening until Saturday afternoon.\n\nRemarks: Snow at times heavy will develop this evening and taper to light snow by Saturday morning.  Strong northeasterly winds will develop overnight tonight and cause reduced visibilities in blowing snow.  \n\nSnow and blowing snow is expected to ease Saturday afternoon.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-08T11:48:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-07T19:49:35-00:00, urn:oid:2.49.0.1.124.2062434819.2020<br>Area: Red Bay to L'Anse-au-Clair",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-07:feed.atom/urn:oid:2.49.0.1.124.2062434819.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-07/2020_02_07T19_49_35_00_00Iurn_oid_2.49.0.1.124.2062434819.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200208114835+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -53.7909, 46.8875 ],
 							[ -53.7094, 46.6077 ],
 							[ -53.4389, 46.5175 ],
@@ -2079,51 +2124,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-07/2020_02_07T19_28_23_00_00Iurn_oid_2.49.0.1.124.2337249153.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200208105923+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.6948, 52.1 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 7, 2020 19:49",
-				"Expires_UTC" : "February 8, 2020 11:48",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 15 to 20 cm.\n\nMaximum wind gusts: 70 km/h.\n\nLocation: Red Bay to L'Anse-au-Clair.\n\nTime span: this evening until Saturday afternoon.\n\nRemarks: Snow at times heavy will develop this evening and taper to light snow by Saturday morning.  Strong northeasterly winds will develop overnight tonight and cause reduced visibilities in blowing snow.  \n\nSnow and blowing snow is expected to ease Saturday afternoon.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-08T11:48:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-07T19:49:35-00:00, urn:oid:2.49.0.1.124.2062434819.2020<br>Area: Red Bay to L'Anse-au-Clair",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-07:feed.atom/urn:oid:2.49.0.1.124.2062434819.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-07/2020_02_07T19_49_35_00_00Iurn_oid_2.49.0.1.124.2062434819.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200208114835+00:00"
 			}
 		},
 		{
