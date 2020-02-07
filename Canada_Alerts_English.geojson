@@ -1501,6 +1501,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 46.7999 ],
+							[ -52.9466, 46.8016 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 7, 2020 14:22",
+				"Expires_UTC" : "February 7, 2020 22:59",
+				"Summary" : "Description: Significant amounts of snow and ice pellets continue, followed by freezing rain.\n\nTotal snowfall and ice pellet amounts: 10 to 15 cm except up to 20 cm over northern areas. \n\nLocations: Avalon Peninsula North and northern sections of St. John's and Vicinity (north of the city).\n\nTime span: continuing until this afternoon.\n\nRemarks: Snow at times heavy has begin transitioning to ice pellets but will continue a bit longer over extreme northern areas where combined snowfall and ice pellet amounts could approach 20 cm before the transition to freezing rain. Further south, snowfall and ice pellet totals are expected to be lower.\n\nThe ice pellets will change to freezing rain this evening and eventually to rain later tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-07T22:59:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-07T14:22:53-00:00, urn:oid:2.49.0.1.124.2506999759.2020<br>Area: Avalon Peninsula North, St. John's and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-07:feed.atom/urn:oid:2.49.0.1.124.2506999759.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-07/2020_02_07T14_22_53_00_00Iurn_oid_2.49.0.1.124.2506999759.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200207225953+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -55, 48.25 ],
 							[ -54.9999, 47.9199 ],
 							[ -53.9999, 47.9199 ],
@@ -2647,57 +2698,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-07/2020_02_07T15_19_56_00_00Iurn_oid_2.49.0.1.124.3894076992.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200208071856+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.0399, 47.2249 ],
-							[ -53.0399, 46.7999 ],
-							[ -52.9466, 46.8016 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.58, 47.3919 ],
-							[ -53.0399, 47.2249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 7, 2020 15:58",
-				"Expires_UTC" : "February 7, 2020 16:58",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-02-07T16:58:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-07T15:58:12-00:00, urn:oid:2.49.0.1.124.2218748258.2020<br>Area: Avalon Peninsula North, St. John's and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-07:feed.atom/urn:oid:2.49.0.1.124.2218748258.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-07/2020_02_07T15_58_12_00_00Iurn_oid_2.49.0.1.124.2218748258.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200207165812+00:00"
 			}
 		},
 		{
