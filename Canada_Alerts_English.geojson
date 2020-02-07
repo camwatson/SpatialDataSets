@@ -1496,6 +1496,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -121.0736, 49.3324 ],
+							[ -121.1638, 49.3396 ],
+							[ -121.3808, 49.3145 ],
+							[ -121.3016, 49 ],
+							[ -121.2289, 49.0006 ],
+							[ -121.1942, 49.0003 ],
+							[ -120.6331, 48.9974 ],
+							[ -120.0025, 48.9994 ],
+							[ -120.0009, 48.9994 ],
+							[ -119.9892, 49.3375 ],
+							[ -120.0011, 49.6368 ],
+							[ -119.9965, 49.7448 ],
+							[ -120.0012, 49.8499 ],
+							[ -120.4696, 49.6114 ],
+							[ -120.9164, 49.3465 ],
+							[ -120.9728, 49.3765 ],
+							[ -121.0736, 49.3324 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 6, 2020 18:09",
+				"Expires_UTC" : "February 7, 2020 10:08",
+				"Summary" : "Description: An approaching Pacific low pressure system is giving precipitation to parts of the southwest interior. Periods of freezing rain over the Similkameen region  will change to snow near noon. As the low moves to the east, the snow will end by late this evening with total accumulations of 10 cm expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-02-07T10:08:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-06T18:09:10-00:00, urn:oid:2.49.0.1.124.2041712842.2020<br>Area: Similkameen",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-06:feed.atom/urn:oid:2.49.0.1.124.2041712842.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T18_09_10_00_00Iurn_oid_2.49.0.1.124.2041712842.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200207100810+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -69.0536, 47.4213 ],
 							[ -69.0574, 47.2989 ],
 							[ -69.0509, 47.3 ],
@@ -2639,47 +2689,44 @@
 				"coordinates" : [
 					[
 						[
-							[ -121.0736, 49.3324 ],
-							[ -121.1638, 49.3396 ],
-							[ -121.3808, 49.3145 ],
-							[ -121.3016, 49 ],
-							[ -121.2289, 49.0006 ],
-							[ -121.1942, 49.0003 ],
-							[ -120.6331, 48.9974 ],
-							[ -120.0025, 48.9994 ],
-							[ -120.0009, 48.9994 ],
-							[ -119.9892, 49.3375 ],
-							[ -120.0011, 49.6368 ],
-							[ -119.9965, 49.7448 ],
-							[ -120.0012, 49.8499 ],
-							[ -120.4696, 49.6114 ],
-							[ -120.9164, 49.3465 ],
-							[ -120.9728, 49.3765 ],
-							[ -121.0736, 49.3324 ]
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.0792, 47.826 ],
+							[ -54.0697, 47.8335 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55.1527, 47.5874 ],
+							[ -55.1557, 47.5799 ],
+							[ -55.1703, 47.5512 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 6, 2020 23:56",
-				"Expires_UTC" : "February 7, 2020 00:56",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-02-07T00:56:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-06T23:56:39-00:00, urn:oid:2.49.0.1.124.0277093007.2020<br>Area: Similkameen",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 6, 2020 19:13",
+				"Expires_UTC" : "February 7, 2020 11:12",
+				"Summary" : "Description: Significant ice build-up due to a long-lasting period of freezing rain is expected or occurring.\n\nFreezing rain amounts: 15 to 25 mm.\n\nLocations: Burin Peninsula.\n\nTime span: Friday afternoon until midnight Friday night.\n\nRemarks: Precipitation will begin as snow overnight tonight before changing to ice pellets Friday morning, and then to freezing rain Friday afternoon. The freezing rain is expected to change to rain near midnight Friday night and taper off before dawn Saturday.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and extremely hazardous.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-07T11:12:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-06T19:13:55-00:00, urn:oid:2.49.0.1.124.1184037455.2020<br>Area: Burin Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-06:feed.atom/urn:oid:2.49.0.1.124.0277093007.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T23_56_39_00_00Iurn_oid_2.49.0.1.124.0277093007.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-06:feed.atom/urn:oid:2.49.0.1.124.1184037455.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T19_13_55_00_00Iurn_oid_2.49.0.1.124.1184037455.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200207005639+00:00"
+				"Expires_FMEFormat" : "20200207111255+00:00"
 			}
 		},
 		{
@@ -2748,53 +2795,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T19_29_33_00_00Iurn_oid_2.49.0.1.124.3410343994.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200207112833+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55.1527, 47.5874 ],
-							[ -55.1557, 47.5799 ],
-							[ -55.1703, 47.5512 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 6, 2020 19:13",
-				"Expires_UTC" : "February 7, 2020 11:12",
-				"Summary" : "Description: Significant ice build-up due to a long-lasting period of freezing rain is expected or occurring.\n\nFreezing rain amounts: 15 to 25 mm.\n\nLocations: Burin Peninsula.\n\nTime span: Friday afternoon until midnight Friday night.\n\nRemarks: Precipitation will begin as snow overnight tonight before changing to ice pellets Friday morning, and then to freezing rain Friday afternoon. The freezing rain is expected to change to rain near midnight Friday night and taper off before dawn Saturday.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and extremely hazardous.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-07T11:12:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-06T19:13:55-00:00, urn:oid:2.49.0.1.124.1184037455.2020<br>Area: Burin Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-06:feed.atom/urn:oid:2.49.0.1.124.1184037455.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-06/2020_02_06T19_13_55_00_00Iurn_oid_2.49.0.1.124.1184037455.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200207111255+00:00"
 			}
 		},
 		{
