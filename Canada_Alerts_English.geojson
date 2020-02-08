@@ -9,48 +9,122 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.9988, 51.333 ],
-							[ -60.9991, 50.7497 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.4551, 50.0679 ],
-							[ -59.7883, 50.1231 ],
-							[ -59.0574, 50.5037 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ]
+							[ -79.192, 51.7106 ],
+							[ -79.4165, 51.7137 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5368, 51.0871 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.5167, 50.5155 ],
+							[ -75.9995, 50.5156 ],
+							[ -76, 51.6249 ],
+							[ -78.9371, 51.6314 ],
+							[ -78.9877, 51.6266 ],
+							[ -79.0521, 51.6205 ],
+							[ -79.1401, 51.6578 ],
+							[ -79.192, 51.7106 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 8, 2020 16:16",
-				"Expires_UTC" : "February 8, 2020 17:16",
-				"Summary" : "Description: Conditions are no longer expected to meet blowing snow advisory criteria.\n\n###<br>Expires: 2020-02-08T17:16:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T16:16:48-00:00, urn:oid:2.49.0.1.124.1167026275.2020<br>Area: Chevery, Blanc-Sablon",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 8, 2020 13:47",
+				"Expires_UTC" : "February 8, 2020 18:59",
+				"Summary" : "Description: Wind chill values will be near -38 this morning.\n\n###\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-08T18:59:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T13:47:44-00:00, urn:oid:2.49.0.1.124.2539446833.2020<br>Area: Waskaganish",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.1167026275.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T16_16_48_00_00Iurn_oid_2.49.0.1.124.1167026275.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.2539446833.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T13_47_44_00_00Iurn_oid_2.49.0.1.124.2539446833.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200208171648+00:00"
+				"Expires_FMEFormat" : "20200208185944+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -75.9995, 50.5156 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ],
+							[ -73.6025, 49.2849 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.4993, 49.55 ],
+							[ -72.6666, 49.6653 ],
+							[ -72.6628, 49.6658 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.766, 49.5499 ],
+							[ -71.3493, 48.9995 ],
+							[ -70.2496, 48.6665 ],
+							[ -69.7684, 48.8682 ],
+							[ -68.8408, 49.251 ],
+							[ -68.8348, 49.2537 ],
+							[ -67.5055, 49.8307 ],
+							[ -67.5048, 49.9998 ],
+							[ -67.502, 50.7497 ],
+							[ -67.4961, 52.2499 ],
+							[ -67.4964, 52.2499 ],
+							[ -69.9991, 52.2498 ],
+							[ -69.9993, 51.646 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 51.647 ],
+							[ -72.011, 51.6472 ],
+							[ -75.9391, 51.6264 ],
+							[ -76, 51.6249 ],
+							[ -75.9995, 50.5156 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 8, 2020 13:48",
+				"Expires_UTC" : "February 8, 2020 18:59",
+				"Summary" : "Description: Wind chill values will be near -38 this morning.\n\n###\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-08T18:59:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T13:48:36-00:00, urn:oid:2.49.0.1.124.1481879175.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area, La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area, Chibougamau, Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.1481879175.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T13_48_36_00_00Iurn_oid_2.49.0.1.124.1481879175.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200208185936+00:00"
 			}
 		},
 		{
@@ -279,67 +353,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.0399, 47.2249 ],
-							[ -53.0399, 46.7999 ],
-							[ -52.9466, 46.8016 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.9865, 48.8983 ],
-							[ -54.0086, 48.9045 ],
-							[ -54.2, 48.9 ],
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ],
-							[ -54.9999, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.58, 47.3919 ],
-							[ -53.0399, 47.2249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 8, 2020 14:20",
-				"Expires_UTC" : "February 8, 2020 22:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southwesterly 100 km/h, except 120 over exposed areas.\n\nLocations: St. John's, the northern Avalon Peninsula, Clarenville, Terra Nova, and the Bonavista Peninsula.\n\nTime span: until this afternoon.\n\nRemarks: Strong southwesterly winds will begin to ease upon shifting to westerly late this afternoon. \n\nIn addition, as temperatures begin to fall below freezing near noon today, standing water will freeze. Surfaces may become slippery.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-08T22:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T14:20:38-00:00, urn:oid:2.49.0.1.124.4209671184.2020<br>Area: Avalon Peninsula North, St. John's and vicinity, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.4209671184.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T14_20_38_00_00Iurn_oid_2.49.0.1.124.4209671184.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200208225938+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -67.4492, 53.6156 ],
 							[ -67.3262, 53.5041 ],
 							[ -67.1137, 53.4892 ],
@@ -544,84 +557,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T16_34_31_00_00Iurn_oid_2.49.0.1.124.3354832984.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200208173431+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -75.9995, 50.5156 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5289, 48.9206 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5246, 48.5242 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5258, 48.3407 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5176, 47.833 ],
-							[ -78.4996, 47.8372 ],
-							[ -77.9663, 47.835 ],
-							[ -77.7494, 47.8332 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.4994, 48.0998 ],
-							[ -76.4994, 48.3331 ],
-							[ -76.4994, 48.6998 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ],
-							[ -73.6025, 49.2849 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.4993, 49.55 ],
-							[ -72.6666, 49.6653 ],
-							[ -72.6628, 49.6658 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.766, 49.5499 ],
-							[ -71.3493, 48.9995 ],
-							[ -70.2496, 48.6665 ],
-							[ -69.7684, 48.8682 ],
-							[ -68.8408, 49.251 ],
-							[ -68.8348, 49.2537 ],
-							[ -67.5055, 49.8307 ],
-							[ -67.5048, 49.9998 ],
-							[ -67.502, 50.7497 ],
-							[ -67.4961, 52.2499 ],
-							[ -67.4964, 52.2499 ],
-							[ -69.9991, 52.2498 ],
-							[ -69.9993, 51.646 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 51.647 ],
-							[ -72.011, 51.6472 ],
-							[ -75.9391, 51.6264 ],
-							[ -76, 51.6249 ],
-							[ -75.9995, 50.5156 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 8, 2020 16:17",
-				"Expires_UTC" : "February 8, 2020 17:17",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n###<br>Expires: 2020-02-08T17:17:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T16:17:07-00:00, urn:oid:2.49.0.1.124.3279631540.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area, La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area, Chibougamau, Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.3279631540.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T16_17_07_00_00Iurn_oid_2.49.0.1.124.3279631540.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200208171707+00:00"
 			}
 		},
 		{
@@ -982,51 +917,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.6948, 52.1 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Winter Storm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 8, 2020 16:26",
-				"Expires_UTC" : "February 8, 2020 17:26",
-				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-02-08T17:26:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T16:26:30-00:00, urn:oid:2.49.0.1.124.3948193623.2020<br>Area: Red Bay to L'Anse-au-Clair",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.3948193623.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T16_26_30_00_00Iurn_oid_2.49.0.1.124.3948193623.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200208172630+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -95.9056, 74.3191 ],
 							[ -94.8626, 74.2936 ],
 							[ -94.1547, 74.3414 ],
@@ -1175,6 +1065,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.6948, 52.1 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 8, 2020 16:26",
+				"Expires_UTC" : "February 8, 2020 17:26",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-02-08T17:26:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T16:26:30-00:00, urn:oid:2.49.0.1.124.3948193623.2020<br>Area: Red Bay to L'Anse-au-Clair",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.3948193623.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T16_26_30_00_00Iurn_oid_2.49.0.1.124.3948193623.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200208172630+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -55.4988, 46.1247 ],
 							[ -54.9988, 45.9997 ],
 							[ -54.2222, 46.0045 ],
@@ -1228,53 +1163,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T16_27_14_00_00Iurn_oid_2.49.0.1.124.1925415311.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200208172714+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.192, 51.7106 ],
-							[ -79.4165, 51.7137 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5368, 51.0871 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.5167, 50.5155 ],
-							[ -75.9995, 50.5156 ],
-							[ -76, 51.6249 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.9877, 51.6266 ],
-							[ -79.0521, 51.6205 ],
-							[ -79.1401, 51.6578 ],
-							[ -79.192, 51.7106 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 8, 2020 16:16",
-				"Expires_UTC" : "February 8, 2020 17:16",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n###<br>Expires: 2020-02-08T17:16:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T16:16:58-00:00, urn:oid:2.49.0.1.124.2262844115.2020<br>Area: Waskaganish",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.2262844115.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T16_16_58_00_00Iurn_oid_2.49.0.1.124.2262844115.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200208171658+00:00"
 			}
 		},
 		{
@@ -1697,6 +1585,67 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T10_12_05_00_00Iurn_oid_2.49.0.1.124.2570876720.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200208212905+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 46.7999 ],
+							[ -52.9466, 46.8016 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.9865, 48.8983 ],
+							[ -54.0086, 48.9045 ],
+							[ -54.2, 48.9 ],
+							[ -54.9999, 48.5499 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 8, 2020 14:20",
+				"Expires_UTC" : "February 8, 2020 22:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southwesterly 100 km/h, except 120 over exposed areas.\n\nLocations: St. John's, the northern Avalon Peninsula, Clarenville, Terra Nova, and the Bonavista Peninsula.\n\nTime span: until this afternoon.\n\nRemarks: Strong southwesterly winds will begin to ease upon shifting to westerly late this afternoon. \n\nIn addition, as temperatures begin to fall below freezing near noon today, standing water will freeze. Surfaces may become slippery.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-08T22:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T14:20:38-00:00, urn:oid:2.49.0.1.124.4209671184.2020<br>Area: Avalon Peninsula North, St. John's and vicinity, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.4209671184.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T14_20_38_00_00Iurn_oid_2.49.0.1.124.4209671184.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200208225938+00:00"
 			}
 		}
 	]
