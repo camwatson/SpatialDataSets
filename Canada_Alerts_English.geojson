@@ -9,6 +9,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 8, 2020 19:38",
+				"Expires_UTC" : "February 9, 2020 11:37",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for this afternoon and tonight.\n\nLocal lake effect flurries impacting highway 17 from Terrace Bay to Wawa will give additional local amounts of 5 to 10 centimetres through tonight.\n\nVisibility will be reduced at times in heavy flurries and cold temperatures combined with rapidly accumulating snow on roads may be hazardous at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-02-09T11:37:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T19:38:02-00:00, urn:oid:2.49.0.1.124.2444519501.2020<br>Area: Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.2444519501.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T19_38_02_00_00Iurn_oid_2.49.0.1.124.2444519501.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200209113702+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -57.5354, 50.5797 ],
 							[ -57.808, 50.0127 ],
 							[ -58.3109, 49.4067 ],
@@ -164,6 +215,79 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T19_20_28_00_00Iurn_oid_2.49.0.1.124.0761478686.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200208202028+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -67.4492, 53.6156 ],
+							[ -67.3262, 53.5041 ],
+							[ -67.1137, 53.4892 ],
+							[ -67.007, 53.4261 ],
+							[ -67.1111, 53.3398 ],
+							[ -67.04, 53.2782 ],
+							[ -67.0727, 53.1831 ],
+							[ -67.3159, 53.2211 ],
+							[ -67.4732, 53.1139 ],
+							[ -67.4197, 52.9835 ],
+							[ -67.4209, 52.8874 ],
+							[ -66.8589, 52.6151 ],
+							[ -66.6924, 52.6502 ],
+							[ -66.6736, 52.7242 ],
+							[ -66.5908, 52.7544 ],
+							[ -66.5774, 52.8755 ],
+							[ -66.4083, 52.9547 ],
+							[ -66.3918, 52.9252 ],
+							[ -66.4872, 52.8641 ],
+							[ -66.4128, 52.7531 ],
+							[ -66.5051, 52.6306 ],
+							[ -66.4317, 52.4229 ],
+							[ -66.563, 52.3541 ],
+							[ -66.5062, 52.2511 ],
+							[ -66.4625, 52.251 ],
+							[ -66.2111, 52.3643 ],
+							[ -65.9218, 52.5465 ],
+							[ -65.7644, 52.7401 ],
+							[ -65.7115, 52.991 ],
+							[ -65.736, 53.1 ],
+							[ -65.2074, 53.2454 ],
+							[ -65.2929, 53.5562 ],
+							[ -65.9681, 53.3999 ],
+							[ -66.1928, 53.5357 ],
+							[ -66.573, 53.6494 ],
+							[ -66.9979, 53.6775 ],
+							[ -67.2095, 53.6577 ],
+							[ -67.3901, 53.6205 ],
+							[ -67.395, 53.6189 ],
+							[ -67.4492, 53.6156 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 8, 2020 09:02",
+				"Expires_UTC" : "February 9, 2020 01:01",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -45.\n\nLocations: Labrador City and Wabush.\n\nTime span: early this morning and then overnight tonight into early Sunday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-09T01:01:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T09:02:50-00:00, urn:oid:2.49.0.1.124.2230494918.2020<br>Area: Labrador City and Wabush",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.2230494918.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T09_02_50_00_00Iurn_oid_2.49.0.1.124.2230494918.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200209010150+00:00"
 			}
 		},
 		{
@@ -390,49 +514,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.6299, 48.7822 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 8, 2020 14:28",
-				"Expires_UTC" : "February 8, 2020 20:59",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nAdditional snowfall: 2 to 4 cm.\n\nMaximum wind gusts: 70 km/h.\n\nLocations: Bay St. George.\n\nTime span: until this afternoon.\n\nRemarks: Fresh snowfall will combine with northwesterly winds to produce poor visibility in blowing snow early this afternoon. The snow will taper to flurries this afternoon as winds ease.\n\n###\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-08T20:59:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T14:28:15-00:00, urn:oid:2.49.0.1.124.1589224750.2020<br>Area: Bay St. George",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.1589224750.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T14_28_15_00_00Iurn_oid_2.49.0.1.124.1589224750.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200208205915+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.2929, 53.5562 ],
 							[ -65.9681, 53.3999 ],
 							[ -66.1928, 53.5357 ],
@@ -506,18 +587,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 8, 2020 14:44",
-				"Expires_UTC" : "February 9, 2020 06:43",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -45.\n\nLocations: Labrador City and Wabush and Churchill Falls.\n\nTime span: overnight tonight into early Sunday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-09T06:43:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T14:44:04-00:00, urn:oid:2.49.0.1.124.0350234197.2020<br>Area: Churchill Falls and vicinity, Labrador City and Wabush",
+				"LastUpdate_UTC" : "February 8, 2020 19:44",
+				"Expires_UTC" : "February 9, 2020 11:43",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -45.\n\nLocations: Labrador City and Wabush and Churchill Falls.\n\nTime span: overnight tonight into early Sunday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-09T11:43:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T19:44:42-00:00, urn:oid:2.49.0.1.124.0311550700.2020<br>Area: Churchill Falls and vicinity, Labrador City and Wabush",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.0350234197.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T14_44_04_00_00Iurn_oid_2.49.0.1.124.0350234197.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.0311550700.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T19_44_42_00_00Iurn_oid_2.49.0.1.124.0311550700.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200209064304+00:00"
+				"Expires_FMEFormat" : "20200209114342+00:00"
 			}
 		},
 		{
@@ -1423,79 +1504,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -67.4492, 53.6156 ],
-							[ -67.3262, 53.5041 ],
-							[ -67.1137, 53.4892 ],
-							[ -67.007, 53.4261 ],
-							[ -67.1111, 53.3398 ],
-							[ -67.04, 53.2782 ],
-							[ -67.0727, 53.1831 ],
-							[ -67.3159, 53.2211 ],
-							[ -67.4732, 53.1139 ],
-							[ -67.4197, 52.9835 ],
-							[ -67.4209, 52.8874 ],
-							[ -66.8589, 52.6151 ],
-							[ -66.6924, 52.6502 ],
-							[ -66.6736, 52.7242 ],
-							[ -66.5908, 52.7544 ],
-							[ -66.5774, 52.8755 ],
-							[ -66.4083, 52.9547 ],
-							[ -66.3918, 52.9252 ],
-							[ -66.4872, 52.8641 ],
-							[ -66.4128, 52.7531 ],
-							[ -66.5051, 52.6306 ],
-							[ -66.4317, 52.4229 ],
-							[ -66.563, 52.3541 ],
-							[ -66.5062, 52.2511 ],
-							[ -66.4625, 52.251 ],
-							[ -66.2111, 52.3643 ],
-							[ -65.9218, 52.5465 ],
-							[ -65.7644, 52.7401 ],
-							[ -65.7115, 52.991 ],
-							[ -65.736, 53.1 ],
-							[ -65.2074, 53.2454 ],
-							[ -65.2929, 53.5562 ],
-							[ -65.9681, 53.3999 ],
-							[ -66.1928, 53.5357 ],
-							[ -66.573, 53.6494 ],
-							[ -66.9979, 53.6775 ],
-							[ -67.2095, 53.6577 ],
-							[ -67.3901, 53.6205 ],
-							[ -67.395, 53.6189 ],
-							[ -67.4492, 53.6156 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 8, 2020 09:02",
-				"Expires_UTC" : "February 9, 2020 01:01",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -45.\n\nLocations: Labrador City and Wabush.\n\nTime span: early this morning and then overnight tonight into early Sunday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-09T01:01:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T09:02:50-00:00, urn:oid:2.49.0.1.124.2230494918.2020<br>Area: Labrador City and Wabush",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.2230494918.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T09_02_50_00_00Iurn_oid_2.49.0.1.124.2230494918.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200209010150+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.4207, 47.5744 ],
 							[ -58.42, 47.6535 ],
 							[ -58.42, 47.6666 ],
@@ -1533,6 +1541,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T14_21_41_00_00Iurn_oid_2.49.0.1.124.0333154712.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200208225941+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.6299, 48.7822 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 8, 2020 14:28",
+				"Expires_UTC" : "February 8, 2020 20:59",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nAdditional snowfall: 2 to 4 cm.\n\nMaximum wind gusts: 70 km/h.\n\nLocations: Bay St. George.\n\nTime span: until this afternoon.\n\nRemarks: Fresh snowfall will combine with northwesterly winds to produce poor visibility in blowing snow early this afternoon. The snow will taper to flurries this afternoon as winds ease.\n\n###\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-08T20:59:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-08T14:28:15-00:00, urn:oid:2.49.0.1.124.1589224750.2020<br>Area: Bay St. George",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-08:feed.atom/urn:oid:2.49.0.1.124.1589224750.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-08/2020_02_08T14_28_15_00_00Iurn_oid_2.49.0.1.124.1589224750.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200208205915+00:00"
 			}
 		}
 	]
