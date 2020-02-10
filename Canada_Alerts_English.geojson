@@ -171,55 +171,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -104.8657, 58.3999 ],
-							[ -104.8658, 57.0615 ],
-							[ -103.2379, 57.8161 ],
-							[ -102.0074, 58.3877 ],
-							[ -101.9745, 59.1823 ],
-							[ -102.0075, 59.9992 ],
-							[ -103.4256, 60.0239 ],
-							[ -104.8657, 59.9995 ],
-							[ -105.63, 60.0171 ],
-							[ -106.4297, 59.9992 ],
-							[ -107.2378, 60.0172 ],
-							[ -108.0496, 59.9996 ],
-							[ -108.08, 59.1865 ],
-							[ -108.0497, 58.3999 ],
-							[ -106.4297, 58.3999 ],
-							[ -104.8657, 58.3999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 10, 2020 21:27",
-				"Expires_UTC" : "February 11, 2020 13:27",
-				"Summary" : "Description: A period of very cold wind chills is expected. The coldest wind chill values will be between minus 45 and minus 50.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-02-11T13:27:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-10T21:27:37-00:00, urn:oid:2.49.0.1.124.3844290482.2020<br>Area: Fond-du-Lac, Stony Rapids and Black Lake, Wollaston Lake - Collins Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-10:feed.atom/urn:oid:2.49.0.1.124.3844290482.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-10/2020_02_10T21_27_37_00_00Iurn_oid_2.49.0.1.124.3844290482.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200211132737+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -94.2244, 61.2965 ],
 							[ -94.3187, 61.2722 ],
 							[ -94.4341, 61.2139 ],
@@ -583,6 +534,76 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-10/2020_02_10T19_29_57_00_00Iurn_oid_2.49.0.1.124.4001612448.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200211085957+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -125.0469, 49.0144 ],
+							[ -125.0206, 49.0033 ],
+							[ -124.9712, 48.9685 ],
+							[ -124.7019, 48.8056 ],
+							[ -124.6859, 48.7959 ],
+							[ -124.4824, 48.6728 ],
+							[ -124.3616, 48.6144 ],
+							[ -124.2412, 48.5641 ],
+							[ -124.1846, 48.5387 ],
+							[ -123.9542, 48.4697 ],
+							[ -123.7437, 48.418 ],
+							[ -123.5861, 48.3959 ],
+							[ -123.5748, 48.3943 ],
+							[ -123.6336, 48.4754 ],
+							[ -123.7598, 48.6485 ],
+							[ -123.87, 48.7635 ],
+							[ -124.0191, 48.9355 ],
+							[ -124.1097, 48.9755 ],
+							[ -124.1329, 48.9811 ],
+							[ -124.2112, 48.9998 ],
+							[ -124.2963, 49.0349 ],
+							[ -124.4102, 49.0768 ],
+							[ -124.7045, 49.2064 ],
+							[ -124.7093, 49.2108 ],
+							[ -124.8855, 49.336 ],
+							[ -125.123, 49.4816 ],
+							[ -125.2865, 49.602 ],
+							[ -125.4947, 49.7249 ],
+							[ -125.8132, 49.9515 ],
+							[ -126.217, 50.199 ],
+							[ -126.444, 50.2036 ],
+							[ -126.69, 50.1899 ],
+							[ -126.3916, 49.9174 ],
+							[ -126.0514, 49.6497 ],
+							[ -125.8594, 49.5044 ],
+							[ -125.6541, 49.3819 ],
+							[ -125.0469, 49.0144 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 10, 2020 17:16",
+				"Expires_UTC" : "February 11, 2020 09:15",
+				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nAIR QUALITY ADVISORY IN EFFECT FOR PORT ALBERNI\n\nFebruary 10, 2020 - Nanaimo, BC. The Ministry of Environment and Climate Change Strategy in collaboration with Island Health has issued an Air Quality Advisory for Port Alberni because of high concentrations of fine particulate matter that are expected to persist until weather conditions change. Persons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted. Staying indoors and in air conditioned spaces helps to reduce fine particulate exposure. Exposure is particularly a concern for pregnant women and infants, the elderly and those who have diabetes, and lung or heart disease. \n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-02-11T09:15:39-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2020-02-10T17:16:39-00:00, urn:oid:2.49.0.1.124.1942828318.2020<br>Area: Inland Vancouver Island",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-10:feed.atom/urn:oid:2.49.0.1.124.1942828318.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-10/2020_02_10T17_16_39_00_00Iurn_oid_2.49.0.1.124.1942828318.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200211091539+00:00"
 			}
 		},
 		{
@@ -1146,6 +1167,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -104.8657, 58.3999 ],
+							[ -104.8658, 57.0615 ],
+							[ -103.2379, 57.8161 ],
+							[ -102.0074, 58.3877 ],
+							[ -101.9745, 59.1823 ],
+							[ -102.0075, 59.9992 ],
+							[ -103.4256, 60.0239 ],
+							[ -104.8657, 59.9995 ],
+							[ -105.63, 60.0171 ],
+							[ -106.4297, 59.9992 ],
+							[ -107.2378, 60.0172 ],
+							[ -108.0496, 59.9996 ],
+							[ -108.08, 59.1865 ],
+							[ -108.0497, 58.3999 ],
+							[ -106.4297, 58.3999 ],
+							[ -104.8657, 58.3999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 10, 2020 21:28",
+				"Expires_UTC" : "February 11, 2020 13:27",
+				"Summary" : "Description: A period of very cold wind chills is expected. The coldest wind chill values will be between minus 45 and minus 50.\n\nExtreme cold conditions are expected to develop early Tuesday morning and last into Wednesday. Some moderation is likely Wednesday afternoon but extreme wind chill values may return Wednesday night into Thursday.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-02-11T13:27:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-10T21:28:37-00:00, urn:oid:2.49.0.1.124.3083521878.2020<br>Area: Fond-du-Lac, Stony Rapids and Black Lake, Wollaston Lake - Collins Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-10:feed.atom/urn:oid:2.49.0.1.124.3083521878.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-10/2020_02_10T21_28_37_00_00Iurn_oid_2.49.0.1.124.3083521878.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200211132737+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -94.2244, 61.2965 ],
 							[ -94.3187, 61.2722 ],
 							[ -94.4341, 61.2139 ],
@@ -1548,76 +1618,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-10/2020_02_10T17_48_09_00_00Iurn_oid_2.49.0.1.124.1066375796.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200211094709+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -125.0469, 49.0144 ],
-							[ -125.0206, 49.0033 ],
-							[ -124.9712, 48.9685 ],
-							[ -124.7019, 48.8056 ],
-							[ -124.6859, 48.7959 ],
-							[ -124.4824, 48.6728 ],
-							[ -124.3616, 48.6144 ],
-							[ -124.2412, 48.5641 ],
-							[ -124.1846, 48.5387 ],
-							[ -123.9542, 48.4697 ],
-							[ -123.7437, 48.418 ],
-							[ -123.5861, 48.3959 ],
-							[ -123.5748, 48.3943 ],
-							[ -123.6336, 48.4754 ],
-							[ -123.7598, 48.6485 ],
-							[ -123.87, 48.7635 ],
-							[ -124.0191, 48.9355 ],
-							[ -124.1097, 48.9755 ],
-							[ -124.1329, 48.9811 ],
-							[ -124.2112, 48.9998 ],
-							[ -124.2963, 49.0349 ],
-							[ -124.4102, 49.0768 ],
-							[ -124.7045, 49.2064 ],
-							[ -124.7093, 49.2108 ],
-							[ -124.8855, 49.336 ],
-							[ -125.123, 49.4816 ],
-							[ -125.2865, 49.602 ],
-							[ -125.4947, 49.7249 ],
-							[ -125.8132, 49.9515 ],
-							[ -126.217, 50.199 ],
-							[ -126.444, 50.2036 ],
-							[ -126.69, 50.1899 ],
-							[ -126.3916, 49.9174 ],
-							[ -126.0514, 49.6497 ],
-							[ -125.8594, 49.5044 ],
-							[ -125.6541, 49.3819 ],
-							[ -125.0469, 49.0144 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 10, 2020 17:16",
-				"Expires_UTC" : "February 11, 2020 09:15",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nAIR QUALITY ADVISORY IN EFFECT FOR PORT ALBERNI\n\nFebruary 10, 2020 - Nanaimo, BC. The Ministry of Environment and Climate Change Strategy in collaboration with Island Health has issued an Air Quality Advisory for Port Alberni because of high concentrations of fine particulate matter that are expected to persist until weather conditions change. Persons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted. Staying indoors and in air conditioned spaces helps to reduce fine particulate exposure. Exposure is particularly a concern for pregnant women and infants, the elderly and those who have diabetes, and lung or heart disease. \n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-02-11T09:15:39-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2020-02-10T17:16:39-00:00, urn:oid:2.49.0.1.124.1942828318.2020<br>Area: Inland Vancouver Island",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-10:feed.atom/urn:oid:2.49.0.1.124.1942828318.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-10/2020_02_10T17_16_39_00_00Iurn_oid_2.49.0.1.124.1942828318.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200211091539+00:00"
 			}
 		}
 	]
