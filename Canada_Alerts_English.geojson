@@ -54,6 +54,69 @@
 				"coordinates" : [
 					[
 						[
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -76.1525, 62.616 ],
+							[ -77.4581, 62.669 ],
+							[ -78.1974, 62.6192 ],
+							[ -78.2083, 62.5253 ],
+							[ -78.161, 62.3538 ],
+							[ -78.249, 62.2815 ],
+							[ -78.1899, 61.8615 ],
+							[ -78.0739, 61.8396 ],
+							[ -75.9991, 61.45 ]
+						]
+					],
+					[
+						[
+							[ -69.6866, 60.6351 ],
+							[ -70.2989, 60.2999 ],
+							[ -70.3356, 60.0088 ],
+							[ -70.2989, 59.6999 ],
+							[ -69.6493, 59.7016 ],
+							[ -69.55, 59.7389 ],
+							[ -69.5005, 60.217 ],
+							[ -69.5753, 60.4773 ],
+							[ -69.6265, 60.6532 ],
+							[ -69.6866, 60.6351 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 11, 2020 09:34",
+				"Expires_UTC" : "February 11, 2020 18:59",
+				"Summary" : "Description: The wind chill will reach extreme values of -52 this morning.\n\n###\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-11T18:59:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-11T09:34:12-00:00, urn:oid:2.49.0.1.124.3290253993.2020<br>Area: Ivujivik, Salluit, Kangirsuk",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-11:feed.atom/urn:oid:2.49.0.1.124.3290253993.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-11/2020_02_11T09_34_12_00_00Iurn_oid_2.49.0.1.124.3290253993.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200211185912+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -76.1437, 62.4482 ],
 							[ -76.1525, 62.616 ],
 							[ -77.4581, 62.669 ],
@@ -677,69 +740,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -76.1525, 62.616 ],
-							[ -77.4581, 62.669 ],
-							[ -78.1974, 62.6192 ],
-							[ -78.2083, 62.5253 ],
-							[ -78.161, 62.3538 ],
-							[ -78.249, 62.2815 ],
-							[ -78.1899, 61.8615 ],
-							[ -78.0739, 61.8396 ],
-							[ -75.9991, 61.45 ]
-						]
-					],
-					[
-						[
-							[ -69.6866, 60.6351 ],
-							[ -70.2989, 60.2999 ],
-							[ -70.3356, 60.0088 ],
-							[ -70.2989, 59.6999 ],
-							[ -69.6493, 59.7016 ],
-							[ -69.55, 59.7389 ],
-							[ -69.5005, 60.217 ],
-							[ -69.5753, 60.4773 ],
-							[ -69.6265, 60.6532 ],
-							[ -69.6866, 60.6351 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 11, 2020 13:07",
-				"Expires_UTC" : "February 11, 2020 14:07",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n###<br>Expires: 2020-02-11T14:07:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-11T13:07:35-00:00, urn:oid:2.49.0.1.124.0512700753.2020<br>Area: Ivujivik, Salluit, Kangirsuk",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-11:feed.atom/urn:oid:2.49.0.1.124.0512700753.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-11/2020_02_11T13_07_35_00_00Iurn_oid_2.49.0.1.124.0512700753.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200211140735+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -71.6857, 46.1857 ],
 							[ -71.683, 46.1827 ],
 							[ -71.3497, 46.3165 ],
@@ -831,67 +831,120 @@
 				"coordinates" : [
 					[
 						[
-							[ -125.0469, 49.0144 ],
-							[ -125.0206, 49.0033 ],
-							[ -124.9712, 48.9685 ],
-							[ -124.7019, 48.8056 ],
-							[ -124.6859, 48.7959 ],
-							[ -124.4824, 48.6728 ],
-							[ -124.3616, 48.6144 ],
-							[ -124.2412, 48.5641 ],
-							[ -124.1846, 48.5387 ],
-							[ -123.9542, 48.4697 ],
-							[ -123.7437, 48.418 ],
-							[ -123.5861, 48.3959 ],
-							[ -123.5748, 48.3943 ],
-							[ -123.6336, 48.4754 ],
-							[ -123.7598, 48.6485 ],
-							[ -123.87, 48.7635 ],
-							[ -124.0191, 48.9355 ],
-							[ -124.1097, 48.9755 ],
-							[ -124.1329, 48.9811 ],
-							[ -124.2112, 48.9998 ],
-							[ -124.2963, 49.0349 ],
-							[ -124.4102, 49.0768 ],
-							[ -124.7045, 49.2064 ],
-							[ -124.7093, 49.2108 ],
-							[ -124.8855, 49.336 ],
-							[ -125.123, 49.4816 ],
-							[ -125.2865, 49.602 ],
-							[ -125.4947, 49.7249 ],
-							[ -125.8132, 49.9515 ],
-							[ -126.217, 50.199 ],
-							[ -126.444, 50.2036 ],
-							[ -126.69, 50.1899 ],
-							[ -126.3916, 49.9174 ],
-							[ -126.0514, 49.6497 ],
-							[ -125.8594, 49.5044 ],
-							[ -125.6541, 49.3819 ],
-							[ -125.0469, 49.0144 ]
+							[ -115.0388, 68.0735 ],
+							[ -115.0934, 67.9545 ],
+							[ -115.6489, 67.917 ],
+							[ -115.6517, 67.9119 ],
+							[ -115.7054, 67.8289 ],
+							[ -115.669, 67.7438 ],
+							[ -115.5482, 67.6708 ],
+							[ -115.3717, 67.6228 ],
+							[ -115.1514, 67.6031 ],
+							[ -114.9375, 67.616 ],
+							[ -114.7513, 67.6583 ],
+							[ -114.6152, 67.7273 ],
+							[ -114.569, 67.7819 ],
+							[ -114.6262, 68.0024 ],
+							[ -115.0388, 68.0735 ]
+						]
+					],
+					[
+						[
+							[ -105.6733, 69.1682 ],
+							[ -105.727, 69.0273 ],
+							[ -105.2968, 68.8552 ],
+							[ -105.1657, 68.9165 ],
+							[ -105.0185, 68.9148 ],
+							[ -104.8746, 68.9257 ],
+							[ -104.76, 68.9448 ],
+							[ -104.6509, 68.9745 ],
+							[ -104.5629, 69.0122 ],
+							[ -104.5044, 69.0525 ],
+							[ -104.4622, 69.1378 ],
+							[ -104.5126, 69.2188 ],
+							[ -104.6455, 69.2871 ],
+							[ -104.8519, 69.3339 ],
+							[ -105.0834, 69.3484 ],
+							[ -105.3231, 69.3293 ],
+							[ -105.5217, 69.2785 ],
+							[ -105.6437, 69.2077 ],
+							[ -105.6733, 69.1682 ]
+						]
+					],
+					[
+						[
+							[ -93.6138, 69.4699 ],
+							[ -93.4803, 69.4587 ],
+							[ -93.6153, 69.3491 ],
+							[ -93.4314, 69.3393 ],
+							[ -93.2945, 69.3574 ],
+							[ -93.1092, 69.4087 ],
+							[ -92.9877, 69.4843 ],
+							[ -92.9587, 69.5667 ],
+							[ -93.0261, 69.6509 ],
+							[ -93.1729, 69.7158 ],
+							[ -93.3918, 69.7581 ],
+							[ -93.6305, 69.7675 ],
+							[ -93.8715, 69.7432 ],
+							[ -94.0649, 69.688 ],
+							[ -94.1766, 69.6146 ],
+							[ -94.1996, 69.5282 ],
+							[ -94.1276, 69.4476 ],
+							[ -94.1209, 69.3902 ],
+							[ -93.8696, 69.4025 ],
+							[ -93.6138, 69.4699 ]
+						]
+					],
+					[
+						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					],
+					[
+						[
+							[ -90.1125, 68.3558 ],
+							[ -90.103, 68.3317 ],
+							[ -89.7179, 68.317 ],
+							[ -89.4075, 68.3718 ],
+							[ -89.2267, 68.4885 ],
+							[ -89.2625, 68.6185 ],
+							[ -89.4378, 68.7021 ],
+							[ -89.6941, 68.745 ],
+							[ -89.999, 68.7198 ],
+							[ -90.0171, 68.6934 ],
+							[ -90.0135, 68.6617 ],
+							[ -90.1125, 68.3558 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Air Quality",
+				"event" : "Extreme Cold",
 				"urgency" : "Future",
-				"certainty" : "Possible",
+				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 11, 2020 06:33",
-				"Expires_UTC" : "February 11, 2020 22:32",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nAIR QUALITY ADVISORY IN EFFECT FOR PORT ALBERNI\n\nFebruary 10, 2020 - Nanaimo, BC. The Ministry of Environment and Climate Change Strategy in collaboration with Island Health has issued an Air Quality Advisory for Port Alberni because of high concentrations of fine particulate matter that are expected to persist until weather conditions change. Persons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted. Staying indoors and in air conditioned spaces helps to reduce fine particulate exposure. Exposure is particularly a concern for pregnant women and infants, the elderly and those who have diabetes, and lung or heart disease. \n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-02-11T22:32:47-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2020-02-11T06:33:47-00:00, urn:oid:2.49.0.1.124.1915382742.2020<br>Area: Inland Vancouver Island",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"LastUpdate_UTC" : "February 11, 2020 09:22",
+				"Expires_UTC" : "February 12, 2020 00:29",
+				"Summary" : "Description: A prolonged period of very cold wind chills continues. The coldest wind chill values will be near minus 60.\n\nExtreme cold conditions will persist this morning. In some locations the extreme cold will continue into this afternoon.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-12T00:29:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-11T09:22:41-00:00, urn:oid:2.49.0.1.124.3526239504.2020<br>Area: Cambridge Bay, Kugluktuk, Taloyoak, Gjoa Haven, Kugaaruk",
+				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-11:feed.atom/urn:oid:2.49.0.1.124.1915382742.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-11/2020_02_11T06_33_47_00_00Iurn_oid_2.49.0.1.124.1915382742.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-11:feed.atom/urn:oid:2.49.0.1.124.3526239504.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-11/2020_02_11T09_22_41_00_00Iurn_oid_2.49.0.1.124.3526239504.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200211223247+00:00"
+				"Expires_FMEFormat" : "20200212002941+00:00"
 			}
 		},
 		{
@@ -1519,129 +1572,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -115.0388, 68.0735 ],
-							[ -115.0934, 67.9545 ],
-							[ -115.6489, 67.917 ],
-							[ -115.6517, 67.9119 ],
-							[ -115.7054, 67.8289 ],
-							[ -115.669, 67.7438 ],
-							[ -115.5482, 67.6708 ],
-							[ -115.3717, 67.6228 ],
-							[ -115.1514, 67.6031 ],
-							[ -114.9375, 67.616 ],
-							[ -114.7513, 67.6583 ],
-							[ -114.6152, 67.7273 ],
-							[ -114.569, 67.7819 ],
-							[ -114.6262, 68.0024 ],
-							[ -115.0388, 68.0735 ]
-						]
-					],
-					[
-						[
-							[ -105.6733, 69.1682 ],
-							[ -105.727, 69.0273 ],
-							[ -105.2968, 68.8552 ],
-							[ -105.1657, 68.9165 ],
-							[ -105.0185, 68.9148 ],
-							[ -104.8746, 68.9257 ],
-							[ -104.76, 68.9448 ],
-							[ -104.6509, 68.9745 ],
-							[ -104.5629, 69.0122 ],
-							[ -104.5044, 69.0525 ],
-							[ -104.4622, 69.1378 ],
-							[ -104.5126, 69.2188 ],
-							[ -104.6455, 69.2871 ],
-							[ -104.8519, 69.3339 ],
-							[ -105.0834, 69.3484 ],
-							[ -105.3231, 69.3293 ],
-							[ -105.5217, 69.2785 ],
-							[ -105.6437, 69.2077 ],
-							[ -105.6733, 69.1682 ]
-						]
-					],
-					[
-						[
-							[ -93.6138, 69.4699 ],
-							[ -93.4803, 69.4587 ],
-							[ -93.6153, 69.3491 ],
-							[ -93.4314, 69.3393 ],
-							[ -93.2945, 69.3574 ],
-							[ -93.1092, 69.4087 ],
-							[ -92.9877, 69.4843 ],
-							[ -92.9587, 69.5667 ],
-							[ -93.0261, 69.6509 ],
-							[ -93.1729, 69.7158 ],
-							[ -93.3918, 69.7581 ],
-							[ -93.6305, 69.7675 ],
-							[ -93.8715, 69.7432 ],
-							[ -94.0649, 69.688 ],
-							[ -94.1766, 69.6146 ],
-							[ -94.1996, 69.5282 ],
-							[ -94.1276, 69.4476 ],
-							[ -94.1209, 69.3902 ],
-							[ -93.8696, 69.4025 ],
-							[ -93.6138, 69.4699 ]
-						]
-					],
-					[
-						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					],
-					[
-						[
-							[ -90.1125, 68.3558 ],
-							[ -90.103, 68.3317 ],
-							[ -89.7179, 68.317 ],
-							[ -89.4075, 68.3718 ],
-							[ -89.2267, 68.4885 ],
-							[ -89.2625, 68.6185 ],
-							[ -89.4378, 68.7021 ],
-							[ -89.6941, 68.745 ],
-							[ -89.999, 68.7198 ],
-							[ -90.0171, 68.6934 ],
-							[ -90.0135, 68.6617 ],
-							[ -90.1125, 68.3558 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 11, 2020 09:22",
-				"Expires_UTC" : "February 12, 2020 00:29",
-				"Summary" : "Description: A prolonged period of very cold wind chills continues. The coldest wind chill values will be near minus 60.\n\nExtreme cold conditions will persist this morning. In some locations the extreme cold will continue into this afternoon.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-12T00:29:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-11T09:22:41-00:00, urn:oid:2.49.0.1.124.3526239504.2020<br>Area: Cambridge Bay, Kugluktuk, Taloyoak, Gjoa Haven, Kugaaruk",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-11:feed.atom/urn:oid:2.49.0.1.124.3526239504.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-11/2020_02_11T09_22_41_00_00Iurn_oid_2.49.0.1.124.3526239504.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200212002941+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -129.8615, 60.3495 ],
 							[ -129.8618, 60.3498 ],
 							[ -130.749, 60.4492 ],
@@ -2107,6 +2037,76 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-11/2020_02_11T12_25_38_00_00Iurn_oid_2.49.0.1.124.2842145386.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200212042438+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -125.0469, 49.0144 ],
+							[ -125.0206, 49.0033 ],
+							[ -124.9712, 48.9685 ],
+							[ -124.7019, 48.8056 ],
+							[ -124.6859, 48.7959 ],
+							[ -124.4824, 48.6728 ],
+							[ -124.3616, 48.6144 ],
+							[ -124.2412, 48.5641 ],
+							[ -124.1846, 48.5387 ],
+							[ -123.9542, 48.4697 ],
+							[ -123.7437, 48.418 ],
+							[ -123.5861, 48.3959 ],
+							[ -123.5748, 48.3943 ],
+							[ -123.6336, 48.4754 ],
+							[ -123.7598, 48.6485 ],
+							[ -123.87, 48.7635 ],
+							[ -124.0191, 48.9355 ],
+							[ -124.1097, 48.9755 ],
+							[ -124.1329, 48.9811 ],
+							[ -124.2112, 48.9998 ],
+							[ -124.2963, 49.0349 ],
+							[ -124.4102, 49.0768 ],
+							[ -124.7045, 49.2064 ],
+							[ -124.7093, 49.2108 ],
+							[ -124.8855, 49.336 ],
+							[ -125.123, 49.4816 ],
+							[ -125.2865, 49.602 ],
+							[ -125.4947, 49.7249 ],
+							[ -125.8132, 49.9515 ],
+							[ -126.217, 50.199 ],
+							[ -126.444, 50.2036 ],
+							[ -126.69, 50.1899 ],
+							[ -126.3916, 49.9174 ],
+							[ -126.0514, 49.6497 ],
+							[ -125.8594, 49.5044 ],
+							[ -125.6541, 49.3819 ],
+							[ -125.0469, 49.0144 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 11, 2020 06:33",
+				"Expires_UTC" : "February 11, 2020 22:32",
+				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nAIR QUALITY ADVISORY IN EFFECT FOR PORT ALBERNI\n\nFebruary 10, 2020 - Nanaimo, BC. The Ministry of Environment and Climate Change Strategy in collaboration with Island Health has issued an Air Quality Advisory for Port Alberni because of high concentrations of fine particulate matter that are expected to persist until weather conditions change. Persons with chronic underlying medical conditions should postpone strenuous exercise until the advisory is lifted. Staying indoors and in air conditioned spaces helps to reduce fine particulate exposure. Exposure is particularly a concern for pregnant women and infants, the elderly and those who have diabetes, and lung or heart disease. \n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-02-11T22:32:47-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2020-02-11T06:33:47-00:00, urn:oid:2.49.0.1.124.1915382742.2020<br>Area: Inland Vancouver Island",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-11:feed.atom/urn:oid:2.49.0.1.124.1915382742.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-11/2020_02_11T06_33_47_00_00Iurn_oid_2.49.0.1.124.1915382742.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200211223247+00:00"
 			}
 		}
 	]
