@@ -487,25 +487,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 15, 2020 18:23",
-				"Expires_UTC" : "February 15, 2020 19:23",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-02-15T19:23:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T18:23:41-00:00, urn:oid:2.49.0.1.124.3212191786.2020<br>Area: Highway 97 - Pine Pass",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 15, 2020 12:44",
+				"Expires_UTC" : "February 16, 2020 04:43",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA frontal system will move through the interior today. Snow will continue today with substantial accumulations expected. Snow will taper off this evening and should end around midnight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-02-16T04:43:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T12:44:28-00:00, urn:oid:2.49.0.1.124.3544830492.2020<br>Area: Highway 97 - Pine Pass",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.3212191786.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T18_23_41_00_00Iurn_oid_2.49.0.1.124.3212191786.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.3544830492.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T12_44_28_00_00Iurn_oid_2.49.0.1.124.3544830492.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200215192341+00:00"
+				"Expires_FMEFormat" : "20200216044328+00:00"
 			}
 		},
 		{
@@ -548,6 +548,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T16_26_44_00_00Iurn_oid_2.49.0.1.124.3441814634.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200215225444+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 15, 2020 19:27",
+				"Expires_UTC" : "February 16, 2020 11:05",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nStrong northwesterly winds are producing blowing snow reducing visibilities to 400 m or less. Winds are currently 40 gusting to 60 km/h and are not expected to weaken until this evening.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-16T11:05:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T19:27:20-00:00, urn:oid:2.49.0.1.124.1052296725.2020<br>Area: Arviat",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.1052296725.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T19_27_20_00_00Iurn_oid_2.49.0.1.124.1052296725.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200216110520+00:00"
 			}
 		},
 		{
