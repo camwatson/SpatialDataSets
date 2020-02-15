@@ -9,59 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -67.6276, 48.2166 ],
-							[ -67.6035, 47.9999 ],
-							[ -67.6656, 48 ],
-							[ -67.6561, 47.9065 ],
-							[ -67.362, 47.8045 ],
-							[ -67.2875, 47.8524 ],
-							[ -67.1844, 47.8364 ],
-							[ -67.0586, 47.8854 ],
-							[ -66.972, 47.8552 ],
-							[ -66.9116, 47.8661 ],
-							[ -66.8952, 47.9523 ],
-							[ -66.943, 47.9606 ],
-							[ -67.0014, 48.0402 ],
-							[ -67.0024, 48.2174 ],
-							[ -67.0013, 48.4494 ],
-							[ -66.9998, 48.7504 ],
-							[ -67.0001, 48.7503 ],
-							[ -67.6687, 48.5824 ],
-							[ -67.6498, 48.4154 ],
-							[ -67.6276, 48.2166 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 15, 2020 13:02",
-				"Expires_UTC" : "February 15, 2020 14:02",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n###<br>Expires: 2020-02-15T14:02:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T13:02:27-00:00, urn:oid:2.49.0.1.124.3473262482.2020<br>Area: Amqui area, Matapédia area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.3473262482.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T13_02_27_00_00Iurn_oid_2.49.0.1.124.3473262482.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200215140227+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -113.9259, 49.5026 ],
 							[ -113.9579, 49.5027 ],
 							[ -113.9692, 49.4802 ],
@@ -344,6 +291,87 @@
 				"coordinates" : [
 					[
 						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					],
+					[
+						[
+							[ -93.6138, 69.4699 ],
+							[ -93.4803, 69.4587 ],
+							[ -93.6153, 69.3491 ],
+							[ -93.4314, 69.3393 ],
+							[ -93.2945, 69.3574 ],
+							[ -93.1092, 69.4087 ],
+							[ -92.9877, 69.4843 ],
+							[ -92.9587, 69.5667 ],
+							[ -93.0261, 69.6509 ],
+							[ -93.1729, 69.7158 ],
+							[ -93.3918, 69.7581 ],
+							[ -93.6305, 69.7675 ],
+							[ -93.8715, 69.7432 ],
+							[ -94.0649, 69.688 ],
+							[ -94.1766, 69.6146 ],
+							[ -94.1996, 69.5282 ],
+							[ -94.1276, 69.4476 ],
+							[ -94.1209, 69.3902 ],
+							[ -93.8696, 69.4025 ],
+							[ -93.6138, 69.4699 ]
+						]
+					],
+					[
+						[
+							[ -90.1125, 68.3558 ],
+							[ -90.103, 68.3317 ],
+							[ -89.7179, 68.317 ],
+							[ -89.4075, 68.3718 ],
+							[ -89.2267, 68.4885 ],
+							[ -89.2625, 68.6185 ],
+							[ -89.4378, 68.7021 ],
+							[ -89.6941, 68.745 ],
+							[ -89.999, 68.7198 ],
+							[ -90.0171, 68.6934 ],
+							[ -90.0135, 68.6617 ],
+							[ -90.1125, 68.3558 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 15, 2020 09:20",
+				"Expires_UTC" : "February 15, 2020 19:59",
+				"Summary" : "Description: Extreme wind chill values are expected to stay near -55 through the morning and begin to moderate by the afternoon.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-15T19:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T09:20:56-00:00, urn:oid:2.49.0.1.124.2994309544.2020<br>Area: Taloyoak, Gjoa Haven, Kugaaruk",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.2994309544.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T09_20_56_00_00Iurn_oid_2.49.0.1.124.2994309544.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200215195956+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -92.7494, 61.7617 ],
 							[ -91.0961, 62.4626 ],
 							[ -90.8425, 62.6977 ],
@@ -446,78 +474,42 @@
 				"coordinates" : [
 					[
 						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					],
-					[
-						[
-							[ -93.6138, 69.4699 ],
-							[ -93.4803, 69.4587 ],
-							[ -93.6153, 69.3491 ],
-							[ -93.4314, 69.3393 ],
-							[ -93.2945, 69.3574 ],
-							[ -93.1092, 69.4087 ],
-							[ -92.9877, 69.4843 ],
-							[ -92.9587, 69.5667 ],
-							[ -93.0261, 69.6509 ],
-							[ -93.1729, 69.7158 ],
-							[ -93.3918, 69.7581 ],
-							[ -93.6305, 69.7675 ],
-							[ -93.8715, 69.7432 ],
-							[ -94.0649, 69.688 ],
-							[ -94.1766, 69.6146 ],
-							[ -94.1996, 69.5282 ],
-							[ -94.1276, 69.4476 ],
-							[ -94.1209, 69.3902 ],
-							[ -93.8696, 69.4025 ],
-							[ -93.6138, 69.4699 ]
-						]
-					],
-					[
-						[
-							[ -90.1125, 68.3558 ],
-							[ -90.103, 68.3317 ],
-							[ -89.7179, 68.317 ],
-							[ -89.4075, 68.3718 ],
-							[ -89.2267, 68.4885 ],
-							[ -89.2625, 68.6185 ],
-							[ -89.4378, 68.7021 ],
-							[ -89.6941, 68.745 ],
-							[ -89.999, 68.7198 ],
-							[ -90.0171, 68.6934 ],
-							[ -90.0135, 68.6617 ],
-							[ -90.1125, 68.3558 ]
+							[ -55.8517, 51.8524 ],
+							[ -55.9388, 51.6058 ],
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
+				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 15, 2020 09:20",
-				"Expires_UTC" : "February 15, 2020 19:59",
-				"Summary" : "Description: Extreme wind chill values are expected to stay near -55 through the morning and begin to moderate by the afternoon.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-15T19:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T09:20:56-00:00, urn:oid:2.49.0.1.124.2994309544.2020<br>Area: Taloyoak, Gjoa Haven, Kugaaruk",
+				"LastUpdate_UTC" : "February 15, 2020 08:55",
+				"Expires_UTC" : "February 15, 2020 16:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts; westerly near 100 km/h.\n\nLocation: Canada Bay area.\n\nTime span: this morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-15T16:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T08:55:16-00:00, urn:oid:2.49.0.1.124.0491073419.2020<br>Area: Northern Peninsula East",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.2994309544.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T09_20_56_00_00Iurn_oid_2.49.0.1.124.2994309544.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.0491073419.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T08_55_16_00_00Iurn_oid_2.49.0.1.124.0491073419.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200215195956+00:00"
+				"Expires_FMEFormat" : "20200215165916+00:00"
 			}
 		},
 		{
@@ -747,6 +739,48 @@
 				"coordinates" : [
 					[
 						[
+							[ -104.8658, 57.0615 ],
+							[ -103.2379, 57.8161 ],
+							[ -102.0074, 58.3877 ],
+							[ -101.9745, 59.1823 ],
+							[ -102.0075, 59.9992 ],
+							[ -103.4256, 60.0239 ],
+							[ -104.8657, 59.9995 ],
+							[ -104.8657, 58.3999 ],
+							[ -104.8658, 57.0615 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 15, 2020 14:05",
+				"Expires_UTC" : "February 15, 2020 22:54",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nExtreme cold wind chill values of minus 45 should ease somewhat later this morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-02-15T22:54:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T14:05:39-00:00, urn:oid:2.49.0.1.124.1482435660.2020<br>Area: Wollaston Lake - Collins Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.1482435660.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T14_05_39_00_00Iurn_oid_2.49.0.1.124.1482435660.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200215225439+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -136.136, 67.2766 ],
 							[ -136.6048, 67.0102 ],
 							[ -137.1316, 66.6721 ],
@@ -838,25 +872,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 15, 2020 13:02",
-				"Expires_UTC" : "February 15, 2020 14:02",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n###<br>Expires: 2020-02-15T14:02:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T13:02:20-00:00, urn:oid:2.49.0.1.124.2445212927.2020<br>Area: Chibougamau, Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area, Apica Mountain area, Grands-Jardins Park area, l'Étape area",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 15, 2020 09:54",
+				"Expires_UTC" : "February 15, 2020 18:59",
+				"Summary" : "Description: A prolonged period of very cold wind chills continues.\n\nWind chill values will reach around minus 39 this morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-15T18:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T09:54:29-00:00, urn:oid:2.49.0.1.124.3082915838.2020<br>Area: Chibougamau, Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area, Apica Mountain area, Grands-Jardins Park area, l'Étape area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.2445212927.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T13_02_20_00_00Iurn_oid_2.49.0.1.124.2445212927.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.3082915838.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T09_54_29_00_00Iurn_oid_2.49.0.1.124.3082915838.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200215140220+00:00"
+				"Expires_FMEFormat" : "20200215185929+00:00"
 			}
 		},
 		{
@@ -1138,51 +1172,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T12_44_28_00_00Iurn_oid_2.49.0.1.124.3544830492.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200216044328+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.8517, 51.8524 ],
-							[ -55.9388, 51.6058 ],
-							[ -56.8199, 50.58 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 15, 2020 08:55",
-				"Expires_UTC" : "February 15, 2020 16:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts; westerly near 100 km/h.\n\nLocation: Canada Bay area.\n\nTime span: this morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-15T16:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T08:55:16-00:00, urn:oid:2.49.0.1.124.0491073419.2020<br>Area: Northern Peninsula East",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.0491073419.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T08_55_16_00_00Iurn_oid_2.49.0.1.124.0491073419.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200215165916+00:00"
 			}
 		}
 	]
