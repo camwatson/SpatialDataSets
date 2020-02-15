@@ -358,47 +358,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 15, 2020 14:10",
-				"Expires_UTC" : "February 15, 2020 15:10",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n###<br>Expires: 2020-02-15T15:10:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T14:10:10-00:00, urn:oid:2.49.0.1.124.1060543630.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.1060543630.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T14_10_10_00_00Iurn_oid_2.49.0.1.124.1060543630.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200215151010+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -95.3875, 68.77 ],
 							[ -95.7982, 68.8485 ],
 							[ -96.2346, 68.7983 ],
@@ -1274,25 +1233,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 15, 2020 14:19",
-				"Expires_UTC" : "February 15, 2020 15:19",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-02-15T15:19:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T14:19:18-00:00, urn:oid:2.49.0.1.124.4119438701.2020<br>Area: Northern Peninsula East",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 15, 2020 08:55",
+				"Expires_UTC" : "February 15, 2020 16:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts; westerly near 100 km/h.\n\nLocation: Canada Bay area.\n\nTime span: this morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-15T16:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T08:55:16-00:00, urn:oid:2.49.0.1.124.0491073419.2020<br>Area: Northern Peninsula East",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.4119438701.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T14_19_18_00_00Iurn_oid_2.49.0.1.124.4119438701.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.0491073419.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T08_55_16_00_00Iurn_oid_2.49.0.1.124.0491073419.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200215151918+00:00"
+				"Expires_FMEFormat" : "20200215165916+00:00"
 			}
 		}
 	]
