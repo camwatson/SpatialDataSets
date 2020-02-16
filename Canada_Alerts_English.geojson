@@ -9,6 +9,96 @@
 				"coordinates" : [
 					[
 						[
+							[ -113.9259, 49.5026 ],
+							[ -113.9579, 49.5027 ],
+							[ -113.9692, 49.4802 ],
+							[ -113.9141, 49.4802 ],
+							[ -113.9148, 49.495 ],
+							[ -113.9337, 49.49 ],
+							[ -113.9259, 49.5026 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Other",
+				"Title" : "Alberta Emergency Alert - Urban Fire Alert Updated",
+				"Category" : "Actual",
+				"event" : "Urban Fire",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 15, 2020 10:03",
+				"Expires_UTC" : "February 22, 2020 10:04",
+				"Summary" : "Description: There is a fire in the King Edward Hotel in Pincher Creek.  Fire Services are on scene. Various sections of the downtown core are closed for more details visit www.pinchercreek.ca A reception centre is open at the Town Hall Gym, 962 St. John Ave for those needing assistance. Residents who have been evacuated please check in to the reception centre via phone 1 855 627 5365 or in person.\n###\nA state of local emergency has been declared in the Town of Pincher Creek. \n\nResidents are encouraged to monitor official information channels to ensure accurate\ninformation.<br>Expires: 2020-02-22T10:04:08-07:00<br>Originated from CAP Alert: Municipal District of Pincher Creek No. 9, 2020-02-15T10:03:00-07:00, NAADS-CA-AB-AEA1-6221<br>Area: Town of Pincher Creek",
+				"Author" : "Municipal District of Pincher Creek No. 9",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/NAADS-CA-AB-AEA1-6221",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T10_03_00_07_00INAADS_CA_AB_AEA1_6221.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200222100408-07:00",
+				"EnclosureType" : "audio/mpeg",
+				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/7627-0.mp3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.2401, 48.0978 ],
+							[ -85.2219, 48.2896 ],
+							[ -86.0931, 48.7455 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.6283, 47.2522 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ],
+							[ -83.996, 48.1106 ],
+							[ -84.2352, 48.0981 ],
+							[ -84.2401, 48.0978 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2020 01:10",
+				"Expires_UTC" : "February 16, 2020 14:59",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for tonight.\n\nSnow, enhanced by Lake Superior, is expected to continue into the overnight hours. Southwesterly wind gusts up to 60 km/h will result in blowing snow over exposed areas. \n\nTotal snowfall amounts of 10 to 15 cm are possible by the time the snow tapers off in the morning.\n\nTravel is expected to be hazardous due to reduced visibilities in heavy snow and blowing snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-02-16T14:59:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-16T01:10:51-00:00, urn:oid:2.49.0.1.124.3966244730.2020<br>Area: Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-16:feed.atom/urn:oid:2.49.0.1.124.3966244730.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-16/2020_02_16T01_10_51_00_00Iurn_oid_2.49.0.1.124.3966244730.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200216145951+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -125.4256, 64.1122 ],
 							[ -124.6054, 63.0998 ],
 							[ -123.6944, 62.0492 ],
@@ -306,48 +396,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T20_47_52_00_00Iurn_oid_2.49.0.1.124.3637488705.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200216124652+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.8004, 68.8639 ],
-							[ -81.8335, 68.7595 ],
-							[ -81.7346, 68.6648 ],
-							[ -81.5301, 68.5966 ],
-							[ -81.0418, 68.5342 ],
-							[ -81.0006, 68.5737 ],
-							[ -81.0228, 68.9232 ],
-							[ -81.723, 68.9232 ],
-							[ -81.8004, 68.8639 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 15, 2020 20:11",
-				"Expires_UTC" : "February 16, 2020 12:10",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWith overnight low temperatures between minus 40 to 45 combined with winds of 15 km/h, extreme wind chill values of minus 55 are forecast for Hall Beach tonight. Conditions are expected to improve as temperatures rebound Sunday.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-16T12:10:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T20:11:51-00:00, urn:oid:2.49.0.1.124.3705443291.2020<br>Area: Hall Beach",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.3705443291.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T20_11_51_00_00Iurn_oid_2.49.0.1.124.3705443291.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200216121051+00:00"
 			}
 		},
 		{
@@ -977,48 +1025,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -113.9259, 49.5026 ],
-							[ -113.9579, 49.5027 ],
-							[ -113.9692, 49.4802 ],
-							[ -113.9141, 49.4802 ],
-							[ -113.9148, 49.495 ],
-							[ -113.9337, 49.49 ],
-							[ -113.9259, 49.5026 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Other",
-				"Title" : "Alberta Emergency Alert - Urban Fire Alert Updated",
-				"Category" : "Actual",
-				"event" : "Urban Fire",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 15, 2020 10:03",
-				"Expires_UTC" : "February 22, 2020 10:04",
-				"Summary" : "Description: There is a fire in the King Edward Hotel in Pincher Creek.  Fire Services are on scene. Various sections of the downtown core are closed for more details visit www.pinchercreek.ca A reception centre is open at the Town Hall Gym, 962 St. John Ave for those needing assistance. Residents who have been evacuated please check in to the reception centre via phone 1 855 627 5365 or in person.\n###\nA state of local emergency has been declared in the Town of Pincher Creek. \n\nResidents are encouraged to monitor official information channels to ensure accurate\ninformation.<br>Expires: 2020-02-22T10:04:08-07:00<br>Originated from CAP Alert: Municipal District of Pincher Creek No. 9, 2020-02-15T10:03:00-07:00, NAADS-CA-AB-AEA1-6221<br>Area: Town of Pincher Creek",
-				"Author" : "Municipal District of Pincher Creek No. 9",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/NAADS-CA-AB-AEA1-6221",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T10_03_00_07_00INAADS_CA_AB_AEA1_6221.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200222100408-07:00",
-				"EnclosureType" : "audio/mpeg",
-				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/7627-0.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -87.0122, 55.0075 ],
 							[ -87.008, 55.0039 ],
 							[ -83.7002, 54.0287 ],
@@ -1301,6 +1307,48 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T23_29_27_00_00Iurn_oid_2.49.0.1.124.1644897668.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200216145927+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.8004, 68.8639 ],
+							[ -81.8335, 68.7595 ],
+							[ -81.7346, 68.6648 ],
+							[ -81.5301, 68.5966 ],
+							[ -81.0418, 68.5342 ],
+							[ -81.0006, 68.5737 ],
+							[ -81.0228, 68.9232 ],
+							[ -81.723, 68.9232 ],
+							[ -81.8004, 68.8639 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 15, 2020 20:11",
+				"Expires_UTC" : "February 16, 2020 12:10",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWith overnight low temperatures between minus 40 to 45 combined with winds of 15 km/h, extreme wind chill values of minus 55 are forecast for Hall Beach tonight. Conditions are expected to improve as temperatures rebound Sunday.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-16T12:10:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-15T20:11:51-00:00, urn:oid:2.49.0.1.124.3705443291.2020<br>Area: Hall Beach",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/urn:oid:2.49.0.1.124.3705443291.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T20_11_51_00_00Iurn_oid_2.49.0.1.124.3705443291.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200216121051+00:00"
 			}
 		}
 	]
