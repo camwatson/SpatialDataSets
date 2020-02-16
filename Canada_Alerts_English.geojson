@@ -78,48 +78,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -113.9259, 49.5026 ],
-							[ -113.9579, 49.5027 ],
-							[ -113.9692, 49.4802 ],
-							[ -113.9141, 49.4802 ],
-							[ -113.9148, 49.495 ],
-							[ -113.9337, 49.49 ],
-							[ -113.9259, 49.5026 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Other",
-				"Title" : "Alberta Emergency Alert - Urban Fire Alert Updated",
-				"Category" : "Actual",
-				"event" : "Urban Fire",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 15, 2020 10:03",
-				"Expires_UTC" : "February 22, 2020 10:04",
-				"Summary" : "Description: There is a fire in the King Edward Hotel in Pincher Creek.  Fire Services are on scene. Various sections of the downtown core are closed for more details visit www.pinchercreek.ca A reception centre is open at the Town Hall Gym, 962 St. John Ave for those needing assistance. Residents who have been evacuated please check in to the reception centre via phone 1 855 627 5365 or in person.\n###\nA state of local emergency has been declared in the Town of Pincher Creek. \n\nResidents are encouraged to monitor official information channels to ensure accurate\ninformation.<br>Expires: 2020-02-22T10:04:08-07:00<br>Originated from CAP Alert: Municipal District of Pincher Creek No. 9, 2020-02-15T10:03:00-07:00, NAADS-CA-AB-AEA1-6221<br>Area: Town of Pincher Creek",
-				"Author" : "Municipal District of Pincher Creek No. 9",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-15:feed.atom/NAADS-CA-AB-AEA1-6221",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-15/2020_02_15T10_03_00_07_00INAADS_CA_AB_AEA1_6221.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200222100408-07:00",
-				"EnclosureType" : "audio/mpeg",
-				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/7627-0.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -87.0122, 55.0075 ],
 							[ -87.008, 55.0039 ],
 							[ -83.7002, 54.0287 ],
@@ -318,6 +276,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-16/2020_02_16T05_49_20_00_00Iurn_oid_2.49.0.1.124.1844584617.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200216155920+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.9134, 47.2346 ],
+							[ -84.7351, 46.6321 ],
+							[ -84.4985, 46.6539 ],
+							[ -84.4894, 46.6516 ],
+							[ -83.8414, 46.4826 ],
+							[ -83.9907, 46.781 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9912, 47.2516 ],
+							[ -84.6283, 47.2522 ],
+							[ -84.9134, 47.2346 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 16, 2020 08:24",
+				"Expires_UTC" : "February 16, 2020 09:24",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2020-02-16T09:24:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-16T08:24:46-00:00, urn:oid:2.49.0.1.124.0790462446.2020<br>Area: Searchmont - Montreal River Harbour - Batchawana Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-16:feed.atom/urn:oid:2.49.0.1.124.0790462446.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-16/2020_02_16T08_24_46_00_00Iurn_oid_2.49.0.1.124.0790462446.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200216092446+00:00"
 			}
 		},
 		{
