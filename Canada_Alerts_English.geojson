@@ -54,6 +54,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.192, 51.7106 ],
+							[ -79.4165, 51.7137 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5368, 51.0871 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.5167, 50.5155 ],
+							[ -75.9995, 50.5156 ],
+							[ -76, 51.6249 ],
+							[ -78.9371, 51.6314 ],
+							[ -78.9877, 51.6266 ],
+							[ -79.0521, 51.6205 ],
+							[ -79.1401, 51.6578 ],
+							[ -79.192, 51.7106 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 17, 2020 12:56",
+				"Expires_UTC" : "February 18, 2020 01:19",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values are reaching -40 this morning.\nExtreme cold will return again Tuesday evening over this area.\n\n###\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-18T01:19:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-17T12:56:31-00:00, urn:oid:2.49.0.1.124.0658106279.2020<br>Area: Waskaganish",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-17:feed.atom/urn:oid:2.49.0.1.124.0658106279.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-17/2020_02_17T12_56_31_00_00Iurn_oid_2.49.0.1.124.0658106279.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200218011931+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.5385, 45.9261 ],
 							[ -79.2711, 45.9989 ],
 							[ -78.6213, 46.1756 ],
@@ -1315,53 +1362,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-17/2020_02_17T16_26_39_00_00Iurn_oid_2.49.0.1.124.0231254196.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200218082539+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.192, 51.7106 ],
-							[ -79.4165, 51.7137 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5368, 51.0871 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.5167, 50.5155 ],
-							[ -75.9995, 50.5156 ],
-							[ -76, 51.6249 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.9877, 51.6266 ],
-							[ -79.0521, 51.6205 ],
-							[ -79.1401, 51.6578 ],
-							[ -79.192, 51.7106 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 17, 2020 16:04",
-				"Expires_UTC" : "February 17, 2020 17:04",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n###<br>Expires: 2020-02-17T17:04:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-17T16:04:05-00:00, urn:oid:2.49.0.1.124.4126108401.2020<br>Area: Waskaganish",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-17:feed.atom/urn:oid:2.49.0.1.124.4126108401.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-17/2020_02_17T16_04_05_00_00Iurn_oid_2.49.0.1.124.4126108401.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200217170405+00:00"
 			}
 		},
 		{
