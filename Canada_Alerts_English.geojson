@@ -981,6 +981,73 @@
 				"coordinates" : [
 					[
 						[
+							[ -115.6981, 62.6222 ],
+							[ -115.2827, 62.5107 ],
+							[ -114.8096, 62.2209 ],
+							[ -114.582, 62.2076 ],
+							[ -114.1533, 62.2986 ],
+							[ -113.131, 62.4412 ],
+							[ -113.2389, 62.8246 ],
+							[ -113.4282, 63.5167 ],
+							[ -113.7516, 64.6254 ],
+							[ -117.7149, 64.6564 ],
+							[ -117.6599, 62.622 ],
+							[ -115.8892, 62.6102 ],
+							[ -115.6981, 62.6222 ]
+						]
+					],
+					[
+						[
+							[ -112.1866, 61.6968 ],
+							[ -112.1705, 61.6881 ],
+							[ -112.1664, 61.6857 ],
+							[ -111.5035, 61.2868 ],
+							[ -111.1832, 61.5295 ],
+							[ -110.9547, 61.6665 ],
+							[ -110.7605, 61.7729 ],
+							[ -110.4265, 61.8594 ],
+							[ -110.3006, 61.8825 ],
+							[ -110.2322, 62.2214 ],
+							[ -110.2973, 62.4694 ],
+							[ -111.0098, 62.4616 ],
+							[ -111.7205, 62.3426 ],
+							[ -111.9663, 62.1016 ],
+							[ -111.9605, 61.9557 ],
+							[ -112.2039, 61.8586 ],
+							[ -112.1866, 61.6968 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 18, 2020 12:08",
+				"Expires_UTC" : "February 18, 2020 21:29",
+				"Summary" : "Description: A period of very cold wind chills continues. The coldest wind chill values will be near minus 50.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-02-18T21:29:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T12:08:16-00:00, urn:oid:2.49.0.1.124.1934468123.2020<br>Area: Yellowknife Region, North Slave Region including Wekweeti - Whati - Behchoko, Lutsel K'e Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.1934468123.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T12_08_16_00_00Iurn_oid_2.49.0.1.124.1934468123.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200218212916+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -84.4985, 46.6539 ],
 							[ -84.6124, 46.6233 ],
 							[ -84.6283, 46.5491 ],
@@ -1724,25 +1791,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
 				"Category" : "Actual",
 				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 18, 2020 09:13",
-				"Expires_UTC" : "February 18, 2020 16:59",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -45.\n\nLocations: western Labrador.\n\nTime span: this morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-18T16:59:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T09:13:03-00:00, urn:oid:2.49.0.1.124.1233161704.2020<br>Area: Churchill Falls and vicinity, Labrador City and Wabush",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 18, 2020 12:08",
+				"Expires_UTC" : "February 18, 2020 13:08",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-02-18T13:08:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T12:08:06-00:00, urn:oid:2.49.0.1.124.2793616836.2020<br>Area: Churchill Falls and vicinity, Labrador City and Wabush",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.1233161704.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T09_13_03_00_00Iurn_oid_2.49.0.1.124.1233161704.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.2793616836.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T12_08_06_00_00Iurn_oid_2.49.0.1.124.2793616836.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200218165903+00:00"
+				"Expires_FMEFormat" : "20200218130806+00:00"
 			}
 		},
 		{
