@@ -107,6 +107,87 @@
 				"coordinates" : [
 					[
 						[
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ]
+						]
+					],
+					[
+						[
+							[ -54.1199, 48.25 ],
+							[ -53.5167, 48.25 ],
+							[ -53.5163, 48.2499 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.836, 48.4368 ],
+							[ -53.9005, 48.3746 ],
+							[ -54.1199, 48.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 18, 2020 14:17",
+				"Expires_UTC" : "February 19, 2020 06:17",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-19T06:17:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T14:17:36-00:00, urn:oid:2.49.0.1.124.2200958822.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Bonavista Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.2200958822.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T14_17_36_00_00Iurn_oid_2.49.0.1.124.2200958822.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200219061736+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -107.2793, 51.8816 ],
 							[ -106.9815, 51.8741 ],
 							[ -106.7063, 51.8827 ],
@@ -579,54 +660,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T09_39_53_00_00Iurn_oid_2.49.0.1.124.0311522038.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200219013853+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -57.7515, 50.0004 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 18, 2020 08:44",
-				"Expires_UTC" : "February 19, 2020 00:43",
-				"Summary" : "Description: Total snowfall: near 10 cm.\n\nMaximum wind gusts: southerly 60 - 80 km/h.\n\nLocations: western Newfoundland.\n\nTime span: overnight tonight until near midday Wednesday.\n\nRemarks: Visibility is expected to be reduced at times due to blowing snow.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-19T00:43:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T08:44:20-00:00, urn:oid:2.49.0.1.124.3363059070.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.3363059070.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T08_44_20_00_00Iurn_oid_2.49.0.1.124.3363059070.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200219004320+00:00"
 			}
 		},
 		{
@@ -1310,6 +1343,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T09_08_38_00_00Iurn_oid_2.49.0.1.124.4202557981.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200218195938+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 18, 2020 14:14",
+				"Expires_UTC" : "February 19, 2020 06:14",
+				"Summary" : "Description: Strong winds are expected or occurring.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-19T06:14:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T14:14:44-00:00, urn:oid:2.49.0.1.124.1061975900.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.1061975900.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T14_14_44_00_00Iurn_oid_2.49.0.1.124.1061975900.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200219061444+00:00"
 			}
 		},
 		{
@@ -2086,85 +2165,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.0754, 46.97 ],
-							[ -80.8125, 46.9683 ],
-							[ -80.8125, 46.8912 ],
-							[ -80.566, 46.8912 ],
-							[ -80.566, 46.7261 ],
-							[ -80.3679, 46.7151 ],
-							[ -79.5386, 46.7145 ],
-							[ -79.1099, 46.7147 ],
-							[ -79.1058, 46.7145 ],
-							[ -79.0624, 46.7207 ],
-							[ -79.141, 46.8582 ],
-							[ -79.1873, 46.8737 ],
-							[ -79.275, 46.952 ],
-							[ -79.2923, 47.0127 ],
-							[ -79.3868, 47.1056 ],
-							[ -79.3589, 47.2434 ],
-							[ -79.4135, 47.302 ],
-							[ -79.4216, 47.341 ],
-							[ -79.4988, 47.4815 ],
-							[ -79.432, 47.5214 ],
-							[ -79.4188, 47.5697 ],
-							[ -79.4946, 47.5988 ],
-							[ -79.5175, 47.5701 ],
-							[ -79.5064, 47.6938 ],
-							[ -79.5176, 47.833 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5072, 48.3417 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5062, 48.5243 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5076, 48.9319 ],
-							[ -79.5172, 49.1428 ],
-							[ -81.4419, 49.5091 ],
-							[ -81.4426, 49.1637 ],
-							[ -82.6268, 49.1616 ],
-							[ -84.0021, 49.1609 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.002, 48.5501 ],
-							[ -84.002, 48.5499 ],
-							[ -83.9939, 48.1107 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9911, 47.2211 ],
-							[ -82.631, 47.221 ],
-							[ -82.6356, 46.9695 ],
-							[ -81.939, 46.9696 ],
-							[ -81.0754, 46.97 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 18, 2020 10:16",
-				"Expires_UTC" : "February 19, 2020 02:15",
-				"Summary" : "Description: Significant snowfall on the way today.\n\nSnow over the Chapleau area will continue to spread eastward towards the Quebec border early this morning. The snow will become heavy at times today. Total snowfall amounts in the 10 to 15 cm range will be possible by the time the snow moves out of the area this evening.\n\nSnowfall warning criterion of 15 cm in 12 hours is not expected to be reached today.\n\nHowever, poor winter driving conditions are expected. Motorists should adjust their travel plans accordingly.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-02-19T02:15:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T10:16:39-00:00, urn:oid:2.49.0.1.124.0418512211.2020<br>Area: Timmins - Cochrane - Iroquois Falls, Chapleau - Missinaibi Lake, Gogama - Foleyet, Kirkland Lake - Englehart, Temiskaming Shores - Temagami",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.0418512211.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T10_16_39_00_00Iurn_oid_2.49.0.1.124.0418512211.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200219021539+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -111.8759, 52.6675 ],
 							[ -111.8755, 52.4432 ],
 							[ -111.8799, 52.4293 ],
@@ -2497,6 +2497,85 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T11_31_09_00_00Iurn_oid_2.49.0.1.124.1530665159.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200218233309+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.0754, 46.97 ],
+							[ -80.8125, 46.9683 ],
+							[ -80.8125, 46.8912 ],
+							[ -80.566, 46.8912 ],
+							[ -80.566, 46.7261 ],
+							[ -80.3679, 46.7151 ],
+							[ -79.5386, 46.7145 ],
+							[ -79.1099, 46.7147 ],
+							[ -79.1058, 46.7145 ],
+							[ -79.0624, 46.7207 ],
+							[ -79.141, 46.8582 ],
+							[ -79.1873, 46.8737 ],
+							[ -79.275, 46.952 ],
+							[ -79.2923, 47.0127 ],
+							[ -79.3868, 47.1056 ],
+							[ -79.3589, 47.2434 ],
+							[ -79.4135, 47.302 ],
+							[ -79.4216, 47.341 ],
+							[ -79.4988, 47.4815 ],
+							[ -79.432, 47.5214 ],
+							[ -79.4188, 47.5697 ],
+							[ -79.4946, 47.5988 ],
+							[ -79.5175, 47.5701 ],
+							[ -79.5064, 47.6938 ],
+							[ -79.5176, 47.833 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5072, 48.3417 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5062, 48.5243 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5076, 48.9319 ],
+							[ -79.5172, 49.1428 ],
+							[ -81.4419, 49.5091 ],
+							[ -81.4426, 49.1637 ],
+							[ -82.6268, 49.1616 ],
+							[ -84.0021, 49.1609 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.002, 48.5501 ],
+							[ -84.002, 48.5499 ],
+							[ -83.9939, 48.1107 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9911, 47.2211 ],
+							[ -82.631, 47.221 ],
+							[ -82.6356, 46.9695 ],
+							[ -81.939, 46.9696 ],
+							[ -81.0754, 46.97 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 18, 2020 10:16",
+				"Expires_UTC" : "February 19, 2020 02:15",
+				"Summary" : "Description: Significant snowfall on the way today.\n\nSnow over the Chapleau area will continue to spread eastward towards the Quebec border early this morning. The snow will become heavy at times today. Total snowfall amounts in the 10 to 15 cm range will be possible by the time the snow moves out of the area this evening.\n\nSnowfall warning criterion of 15 cm in 12 hours is not expected to be reached today.\n\nHowever, poor winter driving conditions are expected. Motorists should adjust their travel plans accordingly.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-02-19T02:15:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T10:16:39-00:00, urn:oid:2.49.0.1.124.0418512211.2020<br>Area: Timmins - Cochrane - Iroquois Falls, Chapleau - Missinaibi Lake, Gogama - Foleyet, Kirkland Lake - Englehart, Temiskaming Shores - Temagami",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.0418512211.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T10_16_39_00_00Iurn_oid_2.49.0.1.124.0418512211.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200219021539+00:00"
 			}
 		},
 		{
@@ -2957,6 +3036,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 18, 2020 14:16",
+				"Expires_UTC" : "February 19, 2020 06:16",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-19T06:16:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T14:16:28-00:00, urn:oid:2.49.0.1.124.3232272521.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.3232272521.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T14_16_28_00_00Iurn_oid_2.49.0.1.124.3232272521.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200219061628+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -83.9939, 48.1107 ],
 							[ -84.002, 48.5499 ],
 							[ -84.0089, 48.5511 ],
@@ -3121,52 +3248,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T11_32_09_00_00Iurn_oid_2.49.0.1.124.1748833890.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200218233309+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 18, 2020 08:43",
-				"Expires_UTC" : "February 19, 2020 00:42",
-				"Summary" : "Description: Strong winds are expected or occurring.\n\nMaximum gusts: southeasterly up to 100 km/h in the Wreckhouse area.\n\nTime span: Late overnight tonight into Wednesday morning.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-19T00:42:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-18T08:43:39-00:00, urn:oid:2.49.0.1.124.0572242801.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-18:feed.atom/urn:oid:2.49.0.1.124.0572242801.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-18/2020_02_18T08_43_39_00_00Iurn_oid_2.49.0.1.124.0572242801.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200219004239+00:00"
 			}
 		}
 	]
