@@ -1935,16 +1935,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 19, 2020 17:57",
+				"LastUpdate_UTC" : "February 19, 2020 17:58",
 				"Expires_UTC" : "February 20, 2020 09:57",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-02-20T09:57:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T17:57:36-00:00, urn:oid:2.49.0.1.124.2240400975.2020<br>Area: Ulukhaktok",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA weather system is forecast to develop over the Arctic mainland coast this morning. This system will produce blizzard conditions over Ulukhaktok late this afternoon. The winds will ease Thursday morning and blizzard conditions should end.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-02-20T09:57:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T17:58:36-00:00, urn:oid:2.49.0.1.124.2645581784.2020<br>Area: Ulukhaktok",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.2240400975.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T17_57_36_00_00Iurn_oid_2.49.0.1.124.2240400975.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.2645581784.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T17_58_36_00_00Iurn_oid_2.49.0.1.124.2645581784.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200220095736+00:00"
 			}
@@ -2064,47 +2064,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T10_45_28_00_00Iurn_oid_2.49.0.1.124.1615805479.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200219190028+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -57.7515, 50.0004 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -57.4008, 50.5801 ],
-							[ -57.5354, 50.5797 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 19, 2020 14:25",
-				"Expires_UTC" : "February 20, 2020 06:25",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-20T06:25:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T14:25:37-00:00, urn:oid:2.49.0.1.124.2519327794.2020<br>Area: Parson's Pond - Hawke's Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.2519327794.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T14_25_37_00_00Iurn_oid_2.49.0.1.124.2519327794.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200220062537+00:00"
 			}
 		},
 		{
@@ -2249,24 +2208,65 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 19, 2020 18:08",
+				"Expires_UTC" : "February 19, 2020 19:08",
+				"Summary" : "Description: Conditions are no longer expected to meet blowing snow advisory criteria.\n\n\n###<br>Expires: 2020-02-19T19:08:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T18:08:13-00:00, urn:oid:2.49.0.1.124.4213692891.2020<br>Area: Haines Road - Haines Junction to Pleasant Camp, South Klondike Highway - Carcross to White Pass",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.4213692891.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T18_08_13_00_00Iurn_oid_2.49.0.1.124.4213692891.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200219190813+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -57.4008, 50.5801 ],
+							[ -57.5354, 50.5797 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
 				"Title" : "Blowing Snow Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Blowing Snow",
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 19, 2020 12:44",
-				"Expires_UTC" : "February 19, 2020 20:59",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nA frontal system will move across the Haines - Skagway roads this morning bringing strong southerly winds and snow. The strong winds will create blowing snow giving reduced visibilities. Conditions will improve later this morning as the system moves to the east.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-02-19T20:59:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T12:44:05-00:00, urn:oid:2.49.0.1.124.1201044172.2020<br>Area: Haines Road - Haines Junction to Pleasant Camp, South Klondike Highway - Carcross to White Pass",
+				"LastUpdate_UTC" : "February 19, 2020 14:25",
+				"Expires_UTC" : "February 20, 2020 06:25",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-20T06:25:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T14:25:37-00:00, urn:oid:2.49.0.1.124.2519327794.2020<br>Area: Parson's Pond - Hawke's Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.1201044172.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T12_44_05_00_00Iurn_oid_2.49.0.1.124.1201044172.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.2519327794.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T14_25_37_00_00Iurn_oid_2.49.0.1.124.2519327794.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200219205905+00:00"
+				"Expires_FMEFormat" : "20200220062537+00:00"
 			}
 		},
 		{
