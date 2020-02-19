@@ -103,6 +103,79 @@
 				"coordinates" : [
 					[
 						[
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
+						]
+					],
+					[
+						[
+							[ -54.1199, 48.25 ],
+							[ -53.5167, 48.25 ],
+							[ -53.5163, 48.2499 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.836, 48.4368 ],
+							[ -53.9005, 48.3746 ],
+							[ -54.1199, 48.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 19, 2020 19:29",
+				"Expires_UTC" : "February 20, 2020 00:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southerly 100 km/h.\n\nLocations: eastern Newfoundland.\n\nTime span: continuing until early this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-20T00:59:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T19:29:45-00:00, urn:oid:2.49.0.1.124.2976245544.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Bonavista Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.2976245544.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T19_29_45_00_00Iurn_oid_2.49.0.1.124.2976245544.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200220005945+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -53.9999, 47.9199 ],
 							[ -54.9999, 47.9199 ],
 							[ -55, 48.25 ],
@@ -1251,79 +1324,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					],
-					[
-						[
-							[ -54.1199, 48.25 ],
-							[ -53.5167, 48.25 ],
-							[ -53.5163, 48.2499 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.6375, 48.5439 ],
-							[ -53.7275, 48.5317 ],
-							[ -53.836, 48.4368 ],
-							[ -53.9005, 48.3746 ],
-							[ -54.1199, 48.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 19, 2020 21:09",
-				"Expires_UTC" : "February 19, 2020 22:09",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-02-19T22:09:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T21:09:02-00:00, urn:oid:2.49.0.1.124.3264627645.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Bonavista Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.3264627645.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T21_09_02_00_00Iurn_oid_2.49.0.1.124.3264627645.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200219220902+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -80.9912, 43.9864 ],
 							[ -81.1999, 43.9635 ],
 							[ -81.3683, 43.9274 ],
@@ -1430,67 +1430,26 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.2929, 53.5562 ],
-							[ -65.9681, 53.3999 ],
-							[ -66.1928, 53.5357 ],
-							[ -66.573, 53.6494 ],
-							[ -66.9979, 53.6775 ],
-							[ -67.2095, 53.6577 ],
-							[ -67.3901, 53.6205 ],
-							[ -67.395, 53.6189 ],
-							[ -67.4492, 53.6156 ],
-							[ -67.3262, 53.5041 ],
-							[ -67.1137, 53.4892 ],
-							[ -67.007, 53.4261 ],
-							[ -67.1111, 53.3398 ],
-							[ -67.04, 53.2782 ],
-							[ -67.0727, 53.1831 ],
-							[ -67.3159, 53.2211 ],
-							[ -67.4732, 53.1139 ],
-							[ -67.4197, 52.9835 ],
-							[ -67.4209, 52.8874 ],
-							[ -66.8589, 52.6151 ],
-							[ -66.6924, 52.6502 ],
-							[ -66.6736, 52.7242 ],
-							[ -66.5908, 52.7544 ],
-							[ -66.5774, 52.8755 ],
-							[ -66.4083, 52.9547 ],
-							[ -66.3918, 52.9252 ],
-							[ -66.4872, 52.8641 ],
-							[ -66.4128, 52.7531 ],
-							[ -66.5051, 52.6306 ],
-							[ -66.4317, 52.4229 ],
-							[ -66.563, 52.3541 ],
-							[ -66.5062, 52.2511 ],
-							[ -66.4625, 52.251 ],
-							[ -66.2111, 52.3643 ],
-							[ -65.9218, 52.5465 ],
-							[ -65.7644, 52.7401 ],
-							[ -65.7115, 52.991 ],
-							[ -65.736, 53.1 ],
-							[ -65.2074, 53.2454 ],
-							[ -64.6455, 53.4 ],
-							[ -64.4839, 53.2804 ],
-							[ -64.2983, 53.22 ],
-							[ -64.0897, 53.201 ],
-							[ -63.8828, 53.2255 ],
-							[ -63.8713, 53.2288 ],
-							[ -63.7018, 53.2906 ],
-							[ -63.6863, 53.3002 ],
-							[ -63.568, 53.3889 ],
-							[ -63.5244, 53.4468 ],
-							[ -63.4901, 53.5719 ],
-							[ -63.4949, 53.6005 ],
-							[ -63.5298, 53.6964 ],
-							[ -63.6393, 53.8054 ],
-							[ -63.8052, 53.8866 ],
-							[ -63.8699, 53.9032 ],
-							[ -64.0071, 53.9264 ],
-							[ -64.2239, 53.9237 ],
-							[ -64.4239, 53.8772 ],
-							[ -64.5841, 53.7931 ],
-							[ -64.6719, 53.6999 ],
-							[ -65.2929, 53.5562 ]
+							[ -68.8714, 63.5928 ],
+							[ -68.7424, 63.5556 ],
+							[ -68.5282, 63.576 ],
+							[ -68.2083, 63.5996 ],
+							[ -68.1887, 63.6089 ],
+							[ -68.1073, 63.6649 ],
+							[ -68.0685, 63.7293 ],
+							[ -68.0766, 63.796 ],
+							[ -68.1311, 63.8582 ],
+							[ -68.2269, 63.9099 ],
+							[ -68.3547, 63.946 ],
+							[ -68.5019, 63.9628 ],
+							[ -68.6536, 63.9586 ],
+							[ -68.7875, 63.9358 ],
+							[ -68.9058, 63.8939 ],
+							[ -68.9884, 63.838 ],
+							[ -69.0275, 63.7735 ],
+							[ -69.0195, 63.7069 ],
+							[ -68.9657, 63.6447 ],
+							[ -68.8714, 63.5928 ]
 						]
 					]
 				]
@@ -1503,18 +1462,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 19, 2020 19:47",
-				"Expires_UTC" : "February 20, 2020 11:46",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -46.\n\nLocations: western Labrador.\n\nTime span: overnight tonight and Thursday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-20T11:46:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T19:47:19-00:00, urn:oid:2.49.0.1.124.0406738417.2020<br>Area: Churchill Falls and vicinity, Labrador City and Wabush",
+				"LastUpdate_UTC" : "February 19, 2020 20:30",
+				"Expires_UTC" : "February 20, 2020 12:29",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nDangerous wind chills of -50 to -55 will develop in Iqaluit tonight as temperatures dip to a low near -36C and northwest winds strengthen to 30 km/h.\n\nWarning level wind chills will end on Thursday morning as temperatures climb towards -30C, but northwest winds of 40 gusting 60 km/h will maintain wind chills of -45 to -50 through the day.\n\nDangerous wind chills below -50 will likely redevelop on Thursday evening as temperatures begin to fall again. Cold conditions will continue through the weekend with wind chills generally in the -40 to -50 range.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-20T12:29:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T20:30:53-00:00, urn:oid:2.49.0.1.124.3499029846.2020<br>Area: Iqaluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.0406738417.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T19_47_19_00_00Iurn_oid_2.49.0.1.124.0406738417.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.3499029846.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T20_30_53_00_00Iurn_oid_2.49.0.1.124.3499029846.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200220114619+00:00"
+				"Expires_FMEFormat" : "20200220122953+00:00"
 			}
 		},
 		{
@@ -1791,59 +1750,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T18_57_46_00_00Iurn_oid_2.49.0.1.124.2841062210.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200220105646+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -68.8714, 63.5928 ],
-							[ -68.7424, 63.5556 ],
-							[ -68.5282, 63.576 ],
-							[ -68.2083, 63.5996 ],
-							[ -68.1887, 63.6089 ],
-							[ -68.1073, 63.6649 ],
-							[ -68.0685, 63.7293 ],
-							[ -68.0766, 63.796 ],
-							[ -68.1311, 63.8582 ],
-							[ -68.2269, 63.9099 ],
-							[ -68.3547, 63.946 ],
-							[ -68.5019, 63.9628 ],
-							[ -68.6536, 63.9586 ],
-							[ -68.7875, 63.9358 ],
-							[ -68.9058, 63.8939 ],
-							[ -68.9884, 63.838 ],
-							[ -69.0275, 63.7735 ],
-							[ -69.0195, 63.7069 ],
-							[ -68.9657, 63.6447 ],
-							[ -68.8714, 63.5928 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 19, 2020 20:30",
-				"Expires_UTC" : "February 20, 2020 12:29",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nDangerous wind chills of -50 to -55 will develop in Iqaluit tonight as temperatures dip to a low near -36C and northwest winds strengthen to 30 km/h.\n\nWarning level wind chills will end on Thursday morning as temperatures climb towards -30C, but northwest winds of 40 gusting 60 km/h will maintain wind chills of -45 to -50 through the day.\n\nDangerous wind chills below -50 will likely redevelop on Thursday evening as temperatures begin to fall again. Cold conditions will continue through the weekend with wind chills generally in the -40 to -50 range.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-20T12:29:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T20:30:53-00:00, urn:oid:2.49.0.1.124.3499029846.2020<br>Area: Iqaluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.3499029846.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T20_30_53_00_00Iurn_oid_2.49.0.1.124.3499029846.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200220122953+00:00"
 			}
 		},
 		{
@@ -2205,6 +2111,100 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T19_28_22_00_00Iurn_oid_2.49.0.1.124.3510255158.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200220025922+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.2929, 53.5562 ],
+							[ -65.9681, 53.3999 ],
+							[ -66.1928, 53.5357 ],
+							[ -66.573, 53.6494 ],
+							[ -66.9979, 53.6775 ],
+							[ -67.2095, 53.6577 ],
+							[ -67.3901, 53.6205 ],
+							[ -67.395, 53.6189 ],
+							[ -67.4492, 53.6156 ],
+							[ -67.3262, 53.5041 ],
+							[ -67.1137, 53.4892 ],
+							[ -67.007, 53.4261 ],
+							[ -67.1111, 53.3398 ],
+							[ -67.04, 53.2782 ],
+							[ -67.0727, 53.1831 ],
+							[ -67.3159, 53.2211 ],
+							[ -67.4732, 53.1139 ],
+							[ -67.4197, 52.9835 ],
+							[ -67.4209, 52.8874 ],
+							[ -66.8589, 52.6151 ],
+							[ -66.6924, 52.6502 ],
+							[ -66.6736, 52.7242 ],
+							[ -66.5908, 52.7544 ],
+							[ -66.5774, 52.8755 ],
+							[ -66.4083, 52.9547 ],
+							[ -66.3918, 52.9252 ],
+							[ -66.4872, 52.8641 ],
+							[ -66.4128, 52.7531 ],
+							[ -66.5051, 52.6306 ],
+							[ -66.4317, 52.4229 ],
+							[ -66.563, 52.3541 ],
+							[ -66.5062, 52.2511 ],
+							[ -66.4625, 52.251 ],
+							[ -66.2111, 52.3643 ],
+							[ -65.9218, 52.5465 ],
+							[ -65.7644, 52.7401 ],
+							[ -65.7115, 52.991 ],
+							[ -65.736, 53.1 ],
+							[ -65.2074, 53.2454 ],
+							[ -64.6455, 53.4 ],
+							[ -64.4839, 53.2804 ],
+							[ -64.2983, 53.22 ],
+							[ -64.0897, 53.201 ],
+							[ -63.8828, 53.2255 ],
+							[ -63.8713, 53.2288 ],
+							[ -63.7018, 53.2906 ],
+							[ -63.6863, 53.3002 ],
+							[ -63.568, 53.3889 ],
+							[ -63.5244, 53.4468 ],
+							[ -63.4901, 53.5719 ],
+							[ -63.4949, 53.6005 ],
+							[ -63.5298, 53.6964 ],
+							[ -63.6393, 53.8054 ],
+							[ -63.8052, 53.8866 ],
+							[ -63.8699, 53.9032 ],
+							[ -64.0071, 53.9264 ],
+							[ -64.2239, 53.9237 ],
+							[ -64.4239, 53.8772 ],
+							[ -64.5841, 53.7931 ],
+							[ -64.6719, 53.6999 ],
+							[ -65.2929, 53.5562 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 19, 2020 19:47",
+				"Expires_UTC" : "February 20, 2020 11:46",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -46.\n\nLocations: western Labrador.\n\nTime span: overnight tonight and Thursday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-20T11:46:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T19:47:19-00:00, urn:oid:2.49.0.1.124.0406738417.2020<br>Area: Churchill Falls and vicinity, Labrador City and Wabush",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.0406738417.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T19_47_19_00_00Iurn_oid_2.49.0.1.124.0406738417.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200220114619+00:00"
 			}
 		}
 	]
