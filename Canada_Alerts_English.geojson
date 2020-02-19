@@ -35,6 +35,76 @@
 							[ -71.3497, 46.3165 ],
 							[ -71.683, 46.1827 ],
 							[ -71.6857, 46.1857 ],
+							[ -71.798, 45.9332 ],
+							[ -71.7994, 45.9313 ],
+							[ -72.0166, 45.8501 ],
+							[ -72.4986, 45.667 ],
+							[ -72.7885, 45.4669 ],
+							[ -73.0516, 45.2831 ],
+							[ -73.0636, 45.2332 ],
+							[ -73.1194, 45.0019 ],
+							[ -72.516, 45.0045 ],
+							[ -72.2561, 45.0023 ],
+							[ -72.0817, 45.0038 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 19, 2020 19:08",
+				"Expires_UTC" : "February 19, 2020 20:08",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n###<br>Expires: 2020-02-19T20:08:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T19:08:57-00:00, urn:oid:2.49.0.1.124.3415265087.2020<br>Area: Granby - Waterloo area, Brome-Missisquoi area, Richmond area, Weedon area, Thetford Mines area, Mont-Orford - Lake Memphrémagog area, Sherbrooke area, Coaticook area, Lac-Mégantic area, Cookshire area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.3415265087.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T19_08_57_00_00Iurn_oid_2.49.0.1.124.3415265087.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200219200857+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.0817, 45.0038 ],
+							[ -71.5365, 44.9999 ],
+							[ -71.4914, 45.0109 ],
+							[ -71.3803, 45.2016 ],
+							[ -71.2936, 45.2989 ],
+							[ -71.2828, 45.2992 ],
+							[ -71.2664, 45.2751 ],
+							[ -71.2508, 45.2521 ],
+							[ -71.1356, 45.2329 ],
+							[ -70.995, 45.3252 ],
+							[ -70.9335, 45.3125 ],
+							[ -70.9237, 45.2875 ],
+							[ -70.9032, 45.2352 ],
+							[ -70.8347, 45.226 ],
+							[ -70.7612, 45.4061 ],
+							[ -70.663, 45.352 ],
+							[ -70.6187, 45.4011 ],
+							[ -70.6635, 45.5682 ],
+							[ -70.5944, 45.6297 ],
+							[ -70.8331, 45.8497 ],
+							[ -70.9245, 45.9333 ],
+							[ -70.9806, 45.9844 ],
+							[ -71.3493, 46.3167 ],
+							[ -71.3497, 46.3165 ],
+							[ -71.683, 46.1827 ],
+							[ -71.6857, 46.1857 ],
 							[ -71.6859, 46.1859 ],
 							[ -71.6881, 46.1884 ],
 							[ -71.8489, 46.367 ],
@@ -94,76 +164,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T17_33_45_00_00Iurn_oid_2.49.0.1.124.1430206150.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200219230445+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -72.0817, 45.0038 ],
-							[ -71.5365, 44.9999 ],
-							[ -71.4914, 45.0109 ],
-							[ -71.3803, 45.2016 ],
-							[ -71.2936, 45.2989 ],
-							[ -71.2828, 45.2992 ],
-							[ -71.2664, 45.2751 ],
-							[ -71.2508, 45.2521 ],
-							[ -71.1356, 45.2329 ],
-							[ -70.995, 45.3252 ],
-							[ -70.9335, 45.3125 ],
-							[ -70.9237, 45.2875 ],
-							[ -70.9032, 45.2352 ],
-							[ -70.8347, 45.226 ],
-							[ -70.7612, 45.4061 ],
-							[ -70.663, 45.352 ],
-							[ -70.6187, 45.4011 ],
-							[ -70.6635, 45.5682 ],
-							[ -70.5944, 45.6297 ],
-							[ -70.8331, 45.8497 ],
-							[ -70.9245, 45.9333 ],
-							[ -70.9806, 45.9844 ],
-							[ -71.3493, 46.3167 ],
-							[ -71.3497, 46.3165 ],
-							[ -71.683, 46.1827 ],
-							[ -71.6857, 46.1857 ],
-							[ -71.798, 45.9332 ],
-							[ -71.7994, 45.9313 ],
-							[ -72.0166, 45.8501 ],
-							[ -72.4986, 45.667 ],
-							[ -72.7885, 45.4669 ],
-							[ -73.0516, 45.2831 ],
-							[ -73.0636, 45.2332 ],
-							[ -73.1194, 45.0019 ],
-							[ -72.516, 45.0045 ],
-							[ -72.2561, 45.0023 ],
-							[ -72.0817, 45.0038 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 19, 2020 19:08",
-				"Expires_UTC" : "February 19, 2020 20:08",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n###<br>Expires: 2020-02-19T20:08:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T19:08:57-00:00, urn:oid:2.49.0.1.124.3415265087.2020<br>Area: Granby - Waterloo area, Brome-Missisquoi area, Richmond area, Weedon area, Thetford Mines area, Mont-Orford - Lake Memphrémagog area, Sherbrooke area, Coaticook area, Lac-Mégantic area, Cookshire area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.3415265087.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T19_08_57_00_00Iurn_oid_2.49.0.1.124.3415265087.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200219200857+00:00"
 			}
 		},
 		{
@@ -914,6 +914,66 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T09_58_13_00_00Iurn_oid_2.49.0.1.124.1012987134.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200219230413+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.567607421, 48.1000655797 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -57.4008, 50.5801 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 19, 2020 19:24",
+				"Expires_UTC" : "February 20, 2020 11:24",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-20T11:24:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T19:24:47-00:00, urn:oid:2.49.0.1.124.1814592846.2020<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.1814592846.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T19_24_47_00_00Iurn_oid_2.49.0.1.124.1814592846.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200220112447+00:00"
 			}
 		},
 		{
@@ -2005,18 +2065,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 19, 2020 14:23",
-				"Expires_UTC" : "February 20, 2020 01:59",
-				"Summary" : "Description: Snowfall, followed by significant rainfall is expected.\n\nTotal snowfall: 5 to 10 cm.\n\nTotal rainfall: 20 to 30 mm.\n\nLocations: southern Newfoundland from Connaigre to Cape Race.\n\nTime span: continuing until this evening.\n\nRemarks: Snow will change to rain, at times heavy, by midday. The rain will taper off this evening.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-20T01:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T14:23:02-00:00, urn:oid:2.49.0.1.124.2892085559.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula, Connaigre",
+				"LastUpdate_UTC" : "February 19, 2020 19:28",
+				"Expires_UTC" : "February 20, 2020 02:59",
+				"Summary" : "Description: Rain, heavy at times continues.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-20T02:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T19:28:22-00:00, urn:oid:2.49.0.1.124.3510255158.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.2892085559.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T14_23_02_00_00Iurn_oid_2.49.0.1.124.2892085559.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.3510255158.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T19_28_22_00_00Iurn_oid_2.49.0.1.124.3510255158.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200220015902+00:00"
+				"Expires_FMEFormat" : "20200220025922+00:00"
 			}
 		}
 	]
