@@ -255,6 +255,66 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					],
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 19, 2020 20:29",
+				"Expires_UTC" : "February 20, 2020 07:59",
+				"Summary" : "Description: Westerly winds gusting to 90 km/h are expected this evening.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-20T07:59:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-19T20:29:01-00:00, urn:oid:2.49.0.1.124.1081523230.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Anticosti",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-19:feed.atom/urn:oid:2.49.0.1.124.1081523230.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-19/2020_02_19T20_29_01_00_00Iurn_oid_2.49.0.1.124.1081523230.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200220075901+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -84.0021, 49.1609 ],
 							[ -82.6268, 49.1616 ],
 							[ -82.6293, 48.2543 ],
@@ -675,60 +735,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-20/2020_02_20T01_37_07_00_00Iurn_oid_2.49.0.1.124.1121859957.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200220173607+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -77.3232, 49.2924 ],
-							[ -78.5004, 49.2934 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5289, 48.9206 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5246, 48.5242 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5258, 48.3407 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5176, 47.833 ],
-							[ -78.4996, 47.8372 ],
-							[ -77.9663, 47.835 ],
-							[ -77.7494, 47.8332 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.4994, 48.0998 ],
-							[ -76.4994, 48.3331 ],
-							[ -76.4994, 48.6998 ],
-							[ -76.4994, 49.2832 ],
-							[ -76.4997, 49.2832 ],
-							[ -77.3232, 49.2924 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Smog Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 20, 2020 04:41",
-				"Expires_UTC" : "February 20, 2020 20:39",
-				"Summary" : "Description: High concentration of pollutants are expected and will result in poor air quality, especially in urban areas where pollutant emissions are higher.\n\nHigh concentrations of pollutants are expected to persist into this morning.\n\n###\n\nSmog especially affects asthmatic children and people with respiratory ailments or heart disease. It is therefore recommended that these individuals avoid intense physical activity outdoors until the smog warning is lifted.\n\nIn Quebec, wood heating is the main source of fine particles that contribute to smog during winter. This activity generates the largest number of these particulates, more than industrial activities and transportation.\n\nAdditional information:\n\nTo learn more about the Info-Smog program, go to Environment Canada’s website at www.canada.ca/info-smog-program.\n\nFor air quality indexes in Quebec, visit the website of the Ministère de l'Environnement et de la Lutte contre les changements climatiques at www.iqa.environnement.gouv.qc.ca/contenu/index_en.asp.\n\nFor the air quality index in Montréal, visit the Réseau de surveillance de la qualité de l’air de la Ville de Montréal’s website at www.rsqa.qc.ca (french only).\n\nTo learn more about the effects of smog on your health in Québec, visit the Ministère de la Santé et des Services sociaux’s website at www.quebec.ca/en/health. You can also visit the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal at www.santemontreal.qc.ca/en/public.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-02-20T20:39:01-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2020-02-20T04:41:01-00:00, urn:oid:2.49.0.1.124.2784912339.2020<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
-				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-20:feed.atom/urn:oid:2.49.0.1.124.2784912339.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-20/2020_02_20T04_41_01_00_00Iurn_oid_2.49.0.1.124.2784912339.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200220203901+00:00"
 			}
 		},
 		{
@@ -1718,57 +1724,51 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ]
-						]
-					],
-					[
-						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
+							[ -77.3232, 49.2924 ],
+							[ -78.5004, 49.2934 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 49.2832 ],
+							[ -76.4997, 49.2832 ],
+							[ -77.3232, 49.2924 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Env",
+				"Title" : "Smog Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 20, 2020 04:31",
-				"Expires_UTC" : "February 20, 2020 05:31",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-02-20T05:31:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-20T04:31:32-00:00, urn:oid:2.49.0.1.124.3510784869.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Anticosti",
-				"Author" : "Environment Canada",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 20, 2020 04:41",
+				"Expires_UTC" : "February 20, 2020 20:39",
+				"Summary" : "Description: High concentration of pollutants are expected and will result in poor air quality, especially in urban areas where pollutant emissions are higher.\n\nHigh concentrations of pollutants are expected to persist into this morning.\n\n###\n\nSmog especially affects asthmatic children and people with respiratory ailments or heart disease. It is therefore recommended that these individuals avoid intense physical activity outdoors until the smog warning is lifted.\n\nIn Quebec, wood heating is the main source of fine particles that contribute to smog during winter. This activity generates the largest number of these particulates, more than industrial activities and transportation.\n\nAdditional information:\n\nTo learn more about the Info-Smog program, go to Environment Canada’s website at www.canada.ca/info-smog-program.\n\nFor air quality indexes in Quebec, visit the website of the Ministère de l'Environnement et de la Lutte contre les changements climatiques at www.iqa.environnement.gouv.qc.ca/contenu/index_en.asp.\n\nFor the air quality index in Montréal, visit the Réseau de surveillance de la qualité de l’air de la Ville de Montréal’s website at www.rsqa.qc.ca (french only).\n\nTo learn more about the effects of smog on your health in Québec, visit the Ministère de la Santé et des Services sociaux’s website at www.quebec.ca/en/health. You can also visit the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal at www.santemontreal.qc.ca/en/public.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-02-20T20:39:01-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2020-02-20T04:41:01-00:00, urn:oid:2.49.0.1.124.2784912339.2020<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
+				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-20:feed.atom/urn:oid:2.49.0.1.124.3510784869.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-20/2020_02_20T04_31_32_00_00Iurn_oid_2.49.0.1.124.3510784869.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-20:feed.atom/urn:oid:2.49.0.1.124.2784912339.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-20/2020_02_20T04_41_01_00_00Iurn_oid_2.49.0.1.124.2784912339.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200220053132+00:00"
+				"Expires_FMEFormat" : "20200220203901+00:00"
 			}
 		}
 	]
