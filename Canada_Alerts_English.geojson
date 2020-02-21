@@ -197,6 +197,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 21, 2020 03:18",
+				"Expires_UTC" : "February 21, 2020 19:18",
+				"Summary" : "Description: A period of very cold wind chills is expected. The coldest wind chill values will be near minus 55.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-21T19:18:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-21T03:18:50-00:00, urn:oid:2.49.0.1.124.2694227293.2020<br>Area: Gjoa Haven",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-21:feed.atom/urn:oid:2.49.0.1.124.2694227293.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-21/2020_02_21T03_18_50_00_00Iurn_oid_2.49.0.1.124.2694227293.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200221191850+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -77.5979, 60.2596 ],
 							[ -77.746, 60.0826 ],
 							[ -77.5194, 59.8669 ],
@@ -263,47 +304,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-21/2020_02_21T04_50_16_00_00Iurn_oid_2.49.0.1.124.0796661164.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200221171416+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 21, 2020 03:18",
-				"Expires_UTC" : "February 21, 2020 19:18",
-				"Summary" : "Description: A period of very cold wind chills is expected. The coldest wind chill values will be near minus 55.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-02-21T19:18:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-21T03:18:50-00:00, urn:oid:2.49.0.1.124.2694227293.2020<br>Area: Gjoa Haven",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-21:feed.atom/urn:oid:2.49.0.1.124.2694227293.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-21/2020_02_21T03_18_50_00_00Iurn_oid_2.49.0.1.124.2694227293.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200221191850+00:00"
 			}
 		},
 		{
@@ -742,25 +742,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Snow Squall Watch In Effect",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Snow Squall Watch Ended",
 				"Category" : "Actual",
 				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 21, 2020 01:19",
-				"Expires_UTC" : "February 21, 2020 11:05",
-				"Summary" : "Description: Occasional snow squalls producing poor visibility in blowing snow will continue.\n\nLocations: inland portions along the Burgeo Highway, the Bay D'Espoir area, and the Connaigre Peninsula.\n\nTime span: tonight.\n\nAdditional snowfall accumulations: 2 to 4 cm in snow squalls.\n\nRemarks: Snow squalls are expected to taper off overnight tonight or early Friday morning.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility may be significantly and suddenly reduced to near zero.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-21T11:05:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-21T01:19:43-00:00, urn:oid:2.49.0.1.124.0534731075.2020<br>Area: Connaigre, Burgeo - Ramea",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 21, 2020 08:35",
+				"Expires_UTC" : "February 21, 2020 09:35",
+				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2020-02-21T09:35:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-21T08:35:35-00:00, urn:oid:2.49.0.1.124.3614773913.2020<br>Area: Connaigre, Burgeo - Ramea",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-21:feed.atom/urn:oid:2.49.0.1.124.0534731075.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-21/2020_02_21T01_19_43_00_00Iurn_oid_2.49.0.1.124.0534731075.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-21:feed.atom/urn:oid:2.49.0.1.124.3614773913.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-21/2020_02_21T08_35_35_00_00Iurn_oid_2.49.0.1.124.3614773913.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200221110543+00:00"
+				"Expires_FMEFormat" : "20200221093535+00:00"
 			}
 		},
 		{
