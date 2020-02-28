@@ -849,43 +849,92 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
+							[ -79.1495, 43.8216 ],
+							[ -79.1574, 43.8392 ],
+							[ -79.1702, 43.8556 ],
+							[ -79.4107, 43.8111 ],
+							[ -79.6386, 43.75 ],
+							[ -79.6243, 43.7108 ],
+							[ -79.5887, 43.6646 ],
+							[ -79.6206, 43.6373 ],
+							[ -79.5925, 43.6216 ],
+							[ -79.5567, 43.571 ],
+							[ -79.5327, 43.5834 ],
+							[ -79.5036, 43.5329 ],
+							[ -79.0603, 43.7242 ],
+							[ -79.1029, 43.7947 ],
+							[ -79.1088, 43.7984 ],
+							[ -79.1091, 43.7985 ],
+							[ -79.1495, 43.8216 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Wreckhouse Wind Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "February 28, 2020 02:26",
-				"Expires_UTC" : "February 28, 2020 13:59",
-				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-28T13:59:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T02:26:19-00:00, urn:oid:2.49.0.1.124.3517379224.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 28, 2020 03:09",
+				"Expires_UTC" : "February 28, 2020 19:08",
+				"Summary" : "Description: Snow squalls possible beginning Friday afternoon. \n\nSnow squalls off Lake Huron might affect the region Friday afternoon into Friday evening giving locally poor conditions in snow and local blowing snow.\n\nTravelers are advised to exercise caution.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-02-28T19:08:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T03:09:52-00:00, urn:oid:2.49.0.1.124.3539308657.2020<br>Area: City of Toronto",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3517379224.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T02_26_19_00_00Iurn_oid_2.49.0.1.124.3517379224.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3539308657.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T03_09_52_00_00Iurn_oid_2.49.0.1.124.3539308657.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200228135919+00:00"
+				"Expires_FMEFormat" : "20200228190852+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.8517, 51.8524 ],
+							[ -55.9388, 51.6058 ],
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 28, 2020 08:51",
+				"Expires_UTC" : "February 29, 2020 00:50",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 15 to 20 cm except 45 to 55 cm south of Hare Bay.  \n\nMaximum wind gusts: northeasterly 60 km/h.\n\nLocations: Northern Peninsula East.\n\nTime span: until late Saturday afternoon.\n\nRemarks: Light snow will become snow, at times heavy, later this morning then persist through Saturday with the highest amounts and heaviest snowfall rates expected south of Hare Bay.  The snow will combine with strong northeasterly winds to give poor visibility in blowing snow, especially today.  Winds will diminish tonight.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-29T00:50:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T08:51:06-00:00, urn:oid:2.49.0.1.124.1935966408.2020<br>Area: Northern Peninsula East",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.1935966408.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T08_51_06_00_00Iurn_oid_2.49.0.1.124.1935966408.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200229005006+00:00"
 			}
 		},
 		{
@@ -1038,55 +1087,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T02_22_12_00_00Iurn_oid_2.49.0.1.124.1586662622.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200228115912+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -56.99, 50.25 ],
-							[ -57.2, 49.8499 ],
-							[ -57.3499, 49.58 ],
-							[ -56.817, 49.2073 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.4018, 49.5793 ],
-							[ -55.3736, 50.013 ],
-							[ -55.7129, 50.3339 ],
-							[ -56.4068, 50.2167 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.99, 50.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 28, 2020 02:28",
-				"Expires_UTC" : "February 28, 2020 18:27",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 15 to 20 cm.\n\nMaximum wind gusts: easterly 60 km/h.\n\nLocations: Green Bay - White Bay.\n\nTime span: overnight tonight until late Friday afternoon.\n\nRemarks: Snow, at times heavy, and strong easterly winds will give poor visibilities in blowing snow overnight tonight and Friday.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-28T18:27:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T02:28:17-00:00, urn:oid:2.49.0.1.124.3651718645.2020<br>Area: Green Bay - White Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3651718645.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T02_28_17_00_00Iurn_oid_2.49.0.1.124.3651718645.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200228182717+00:00"
 			}
 		},
 		{
@@ -1320,56 +1320,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.567607421, 48.1000655797 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 28, 2020 02:26",
-				"Expires_UTC" : "February 28, 2020 16:59",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-28T16:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T02:26:57-00:00, urn:oid:2.49.0.1.124.0368799798.2020<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.0368799798.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T02_26_57_00_00Iurn_oid_2.49.0.1.124.0368799798.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200228165957+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -76.4994, 48.6998 ],
 							[ -76.4994, 49.2832 ],
 							[ -75.9993, 49.2832 ],
@@ -1495,6 +1445,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T02_29_57_00_00Iurn_oid_2.49.0.1.124.2224754879.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200228182857+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 28, 2020 08:49",
+				"Expires_UTC" : "February 28, 2020 22:59",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 15 to 20 cm.\n\nMaximum wind gusts: easterly 60 km/h.\n\nLocations: Green Bay - White Bay.\n\nTime span: until late this afternoon.\n\nRemarks: Snow, at times heavy, and strong easterly winds will give poor visibilities in blowing snow today.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-28T22:59:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T08:49:30-00:00, urn:oid:2.49.0.1.124.3127291295.2020<br>Area: Green Bay - White Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3127291295.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T08_49_30_00_00Iurn_oid_2.49.0.1.124.3127291295.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200228225930+00:00"
 			}
 		},
 		{
@@ -1912,6 +1911,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.567607421, 48.1000655797 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 28, 2020 08:50",
+				"Expires_UTC" : "February 28, 2020 16:59",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-28T16:59:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T08:50:41-00:00, urn:oid:2.49.0.1.124.0935406942.2020<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.0935406942.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T08_50_41_00_00Iurn_oid_2.49.0.1.124.0935406942.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200228165941+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -134.6088, 69.5219 ],
 							[ -134.625, 69.5217 ],
 							[ -134.6503, 69.7494 ],
@@ -1958,6 +2007,102 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T04_23_56_00_00Iurn_oid_2.49.0.1.124.3169084006.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200228202356+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.003, 46.7326 ],
+							[ -72.0029, 47.2 ],
+							[ -71.585, 47.1941 ],
+							[ -71.016, 47.1831 ],
+							[ -70.5032, 47.6322 ],
+							[ -70.1357, 47.9471 ],
+							[ -69.8631, 47.8597 ],
+							[ -69.7836, 47.82 ],
+							[ -69.7113, 47.9448 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.8095, 48.4184 ],
+							[ -70.2496, 48.6665 ],
+							[ -71.3493, 48.9995 ],
+							[ -71.766, 49.5499 ],
+							[ -71.9999, 49.5832 ],
+							[ -72.6628, 49.6658 ],
+							[ -72.6666, 49.6653 ],
+							[ -73.4993, 49.55 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.6025, 49.2849 ],
+							[ -75.9993, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.1922, 47.4534 ],
+							[ -75.8328, 46.9998 ],
+							[ -75.2705, 46.9932 ],
+							[ -74.7495, 46.9999 ],
+							[ -74.7495, 46.9987 ],
+							[ -73.4169, 46.9988 ],
+							[ -73.2172, 46.7497 ],
+							[ -73.2168, 46.7492 ],
+							[ -73.1901, 46.5475 ],
+							[ -73.1857, 46.5141 ],
+							[ -73.1855, 46.5138 ],
+							[ -73.1838, 46.5093 ],
+							[ -73.0644, 46.2008 ],
+							[ -73.0479, 46.1579 ],
+							[ -73.0173, 46.1186 ],
+							[ -72.9808, 46.0734 ],
+							[ -72.9555, 46.0521 ],
+							[ -72.8994, 46.0524 ],
+							[ -72.8787, 46.0689 ],
+							[ -72.8809, 46.1038 ],
+							[ -72.7515, 46.1299 ],
+							[ -72.7036, 46.1498 ],
+							[ -72.6156, 46.1937 ],
+							[ -72.6275, 46.2367 ],
+							[ -72.5487, 46.2729 ],
+							[ -72.4446, 46.3484 ],
+							[ -72.3171, 46.3793 ],
+							[ -72.2343, 46.3957 ],
+							[ -72.2089, 46.4157 ],
+							[ -72.1727, 46.4987 ],
+							[ -72.1123, 46.5393 ],
+							[ -72.0408, 46.5373 ],
+							[ -71.9999, 46.5466 ],
+							[ -71.9989, 46.5797 ],
+							[ -72.003, 46.6149 ],
+							[ -72.003, 46.6401 ],
+							[ -72.003, 46.7326 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 28, 2020 02:22",
+				"Expires_UTC" : "February 28, 2020 12:09",
+				"Summary" : "Description: A snowstorm is expected.\n\nA major low pressure system will affect Central Quebec tonight.\n\nAnother 5 to 15 centimetres of snow is expected this evening.\n\nIn addition, strong winds combined with snow will give near zero visibilities in blowing snow.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-28T12:09:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T02:22:03-00:00, urn:oid:2.49.0.1.124.3908285218.2020<br>Area: Louiseville area, Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area, Sainte-Anne-de-la-Pérade area, Trois-Rivières area, Gouin Reservoir area, Parent area, Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Lake Bouchette area, La Tuque area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area, Apica Mountain area, Grands-Jardins Park area, l'Étape area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3908285218.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T02_22_03_00_00Iurn_oid_2.49.0.1.124.3908285218.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200228120903+00:00"
 			}
 		},
 		{
@@ -2064,102 +2209,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -72.003, 46.7326 ],
-							[ -72.0029, 47.2 ],
-							[ -71.585, 47.1941 ],
-							[ -71.016, 47.1831 ],
-							[ -70.5032, 47.6322 ],
-							[ -70.1357, 47.9471 ],
-							[ -69.8631, 47.8597 ],
-							[ -69.7836, 47.82 ],
-							[ -69.7113, 47.9448 ],
-							[ -69.4699, 48.2224 ],
-							[ -69.8095, 48.4184 ],
-							[ -70.2496, 48.6665 ],
-							[ -71.3493, 48.9995 ],
-							[ -71.766, 49.5499 ],
-							[ -71.9999, 49.5832 ],
-							[ -72.6628, 49.6658 ],
-							[ -72.6666, 49.6653 ],
-							[ -73.4993, 49.55 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.6025, 49.2849 ],
-							[ -75.9993, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -76.4994, 48.6998 ],
-							[ -76.4994, 48.3331 ],
-							[ -76.4994, 48.0998 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.1922, 47.4534 ],
-							[ -75.8328, 46.9998 ],
-							[ -75.2705, 46.9932 ],
-							[ -74.7495, 46.9999 ],
-							[ -74.7495, 46.9987 ],
-							[ -73.4169, 46.9988 ],
-							[ -73.2172, 46.7497 ],
-							[ -73.2168, 46.7492 ],
-							[ -73.1901, 46.5475 ],
-							[ -73.1857, 46.5141 ],
-							[ -73.1855, 46.5138 ],
-							[ -73.1838, 46.5093 ],
-							[ -73.0644, 46.2008 ],
-							[ -73.0479, 46.1579 ],
-							[ -73.0173, 46.1186 ],
-							[ -72.9808, 46.0734 ],
-							[ -72.9555, 46.0521 ],
-							[ -72.8994, 46.0524 ],
-							[ -72.8787, 46.0689 ],
-							[ -72.8809, 46.1038 ],
-							[ -72.7515, 46.1299 ],
-							[ -72.7036, 46.1498 ],
-							[ -72.6156, 46.1937 ],
-							[ -72.6275, 46.2367 ],
-							[ -72.5487, 46.2729 ],
-							[ -72.4446, 46.3484 ],
-							[ -72.3171, 46.3793 ],
-							[ -72.2343, 46.3957 ],
-							[ -72.2089, 46.4157 ],
-							[ -72.1727, 46.4987 ],
-							[ -72.1123, 46.5393 ],
-							[ -72.0408, 46.5373 ],
-							[ -71.9999, 46.5466 ],
-							[ -71.9989, 46.5797 ],
-							[ -72.003, 46.6149 ],
-							[ -72.003, 46.6401 ],
-							[ -72.003, 46.7326 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 28, 2020 02:22",
-				"Expires_UTC" : "February 28, 2020 12:09",
-				"Summary" : "Description: A snowstorm is expected.\n\nA major low pressure system will affect Central Quebec tonight.\n\nAnother 5 to 15 centimetres of snow is expected this evening.\n\nIn addition, strong winds combined with snow will give near zero visibilities in blowing snow.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-28T12:09:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T02:22:03-00:00, urn:oid:2.49.0.1.124.3908285218.2020<br>Area: Louiseville area, Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area, Sainte-Anne-de-la-Pérade area, Trois-Rivières area, Gouin Reservoir area, Parent area, Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Lake Bouchette area, La Tuque area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area, Apica Mountain area, Grands-Jardins Park area, l'Étape area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3908285218.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T02_22_03_00_00Iurn_oid_2.49.0.1.124.3908285218.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200228120903+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.6743, 50.7821 ],
 							[ -57.976, 51.1736 ],
 							[ -57.1162, 51.3508 ],
@@ -2202,47 +2251,43 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.1495, 43.8216 ],
-							[ -79.1574, 43.8392 ],
-							[ -79.1702, 43.8556 ],
-							[ -79.4107, 43.8111 ],
-							[ -79.6386, 43.75 ],
-							[ -79.6243, 43.7108 ],
-							[ -79.5887, 43.6646 ],
-							[ -79.6206, 43.6373 ],
-							[ -79.5925, 43.6216 ],
-							[ -79.5567, 43.571 ],
-							[ -79.5327, 43.5834 ],
-							[ -79.5036, 43.5329 ],
-							[ -79.0603, 43.7242 ],
-							[ -79.1029, 43.7947 ],
-							[ -79.1088, 43.7984 ],
-							[ -79.1091, 43.7985 ],
-							[ -79.1495, 43.8216 ]
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Wreckhouse Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Wind",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 28, 2020 03:09",
-				"Expires_UTC" : "February 28, 2020 19:08",
-				"Summary" : "Description: Snow squalls possible beginning Friday afternoon. \n\nSnow squalls off Lake Huron might affect the region Friday afternoon into Friday evening giving locally poor conditions in snow and local blowing snow.\n\nTravelers are advised to exercise caution.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-02-28T19:08:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T03:09:52-00:00, urn:oid:2.49.0.1.124.3539308657.2020<br>Area: City of Toronto",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 28, 2020 08:52",
+				"Expires_UTC" : "February 28, 2020 17:49",
+				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\n###\n\nDrivers may lose control of their vehicles; tall vehicles are at risk of being overturned.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-02-28T17:49:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T08:52:07-00:00, urn:oid:2.49.0.1.124.3473641927.2020<br>Area: Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3539308657.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T03_09_52_00_00Iurn_oid_2.49.0.1.124.3539308657.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3473641927.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T08_52_07_00_00Iurn_oid_2.49.0.1.124.3473641927.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200228190852+00:00"
+				"Expires_FMEFormat" : "20200228174907+00:00"
 			}
 		},
 		{
