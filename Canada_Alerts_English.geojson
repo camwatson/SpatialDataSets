@@ -1549,6 +1549,83 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.8436, 45.8719 ],
+							[ -60.789, 45.9777 ],
+							[ -60.7214, 46.0663 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.8098, 46.0638 ],
+							[ -60.8568, 46.0675 ],
+							[ -60.9256, 46.0478 ],
+							[ -60.9641, 46.0041 ],
+							[ -60.9766, 46.0016 ],
+							[ -61.0483, 46.1152 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.4371, 45.6492 ],
+							[ -61.5031, 45.6221 ],
+							[ -61.7374, 45.525 ],
+							[ -61.733, 45.5024 ],
+							[ -61.7299, 45.4868 ],
+							[ -61.949, 45.3941 ],
+							[ -62.0904, 45.3736 ],
+							[ -62.6235, 45.2947 ],
+							[ -62.6877, 45.2911 ],
+							[ -62.7118, 45.2704 ],
+							[ -62.1655, 44.9754 ],
+							[ -62.1647, 44.9739 ],
+							[ -62.1548, 44.9424 ],
+							[ -62.0547, 44.8797 ],
+							[ -61.1946, 45.1755 ],
+							[ -60.9193, 45.2127 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -60.227, 45.7243 ],
+							[ -60.6728, 45.8236 ],
+							[ -60.8436, 45.8719 ]
+						],
+						[
+							[ -60.8436, 45.8719 ],
+							[ -61.1587, 45.7085 ],
+							[ -61.1647, 45.7054 ],
+							[ -60.8436, 45.8719 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 28, 2020 02:31",
+				"Expires_UTC" : "February 28, 2020 10:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-02-28T10:59:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T02:31:21-00:00, urn:oid:2.49.0.1.124.3519900353.2020<br>Area: Guysborough County, Richmond County, Inverness County - south of Mabou",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3519900353.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T02_31_21_00_00Iurn_oid_2.49.0.1.124.3519900353.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200228105921+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.884, 46.5004 ],
 							[ -63.6271, 46.6222 ],
 							[ -63.9227, 46.7494 ],
@@ -2322,83 +2399,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T03_09_52_00_00Iurn_oid_2.49.0.1.124.3539308657.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200228190852+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.8436, 45.8719 ],
-							[ -60.789, 45.9777 ],
-							[ -60.7214, 46.0663 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.8098, 46.0638 ],
-							[ -60.8568, 46.0675 ],
-							[ -60.9256, 46.0478 ],
-							[ -60.9641, 46.0041 ],
-							[ -60.9766, 46.0016 ],
-							[ -61.0483, 46.1152 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.4371, 45.6492 ],
-							[ -61.5031, 45.6221 ],
-							[ -61.7374, 45.525 ],
-							[ -61.733, 45.5024 ],
-							[ -61.7299, 45.4868 ],
-							[ -61.949, 45.3941 ],
-							[ -62.0904, 45.3736 ],
-							[ -62.6235, 45.2947 ],
-							[ -62.6877, 45.2911 ],
-							[ -62.7118, 45.2704 ],
-							[ -62.1655, 44.9754 ],
-							[ -62.1647, 44.9739 ],
-							[ -62.1548, 44.9424 ],
-							[ -62.0547, 44.8797 ],
-							[ -61.1946, 45.1755 ],
-							[ -60.9193, 45.2127 ],
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -60.227, 45.7243 ],
-							[ -60.6728, 45.8236 ],
-							[ -60.8436, 45.8719 ]
-						],
-						[
-							[ -60.8436, 45.8719 ],
-							[ -61.1587, 45.7085 ],
-							[ -61.1647, 45.7054 ],
-							[ -60.8436, 45.8719 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 28, 2020 02:31",
-				"Expires_UTC" : "February 28, 2020 10:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-02-28T10:59:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T02:31:21-00:00, urn:oid:2.49.0.1.124.3519900353.2020<br>Area: Guysborough County, Richmond County, Inverness County - south of Mabou",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.3519900353.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T02_31_21_00_00Iurn_oid_2.49.0.1.124.3519900353.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200228105921+00:00"
 			}
 		},
 		{
