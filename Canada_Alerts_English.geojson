@@ -758,6 +758,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -77.1195, 55.7842 ],
+							[ -77.0573, 55.762 ],
+							[ -75.5197, 55.3505 ],
+							[ -75.5248, 57.9997 ],
+							[ -77.0238, 58.0142 ],
+							[ -77.0451, 58.0035 ],
+							[ -77.1123, 58.005 ],
+							[ -77.2009, 58.0161 ],
+							[ -77.2381, 58.0046 ],
+							[ -77.19, 57.9588 ],
+							[ -76.9873, 57.7643 ],
+							[ -76.729, 57.4077 ],
+							[ -76.6217, 57.0841 ],
+							[ -76.5798, 56.709 ],
+							[ -76.6311, 56.3038 ],
+							[ -76.7434, 56.0381 ],
+							[ -77.0865, 55.8067 ],
+							[ -77.1195, 55.7842 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 28, 2020 00:26",
+				"Expires_UTC" : "February 28, 2020 07:24",
+				"Summary" : "Description: Easterly winds with gusts to 90 kilometres per hour are expected over this region this evening.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-02-28T07:24:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-28T00:26:27-00:00, urn:oid:2.49.0.1.124.0669178852.2020<br>Area: Umiujaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-28:feed.atom/urn:oid:2.49.0.1.124.0669178852.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-28/2020_02_28T00_26_27_00_00Iurn_oid_2.49.0.1.124.0669178852.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200228072427+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.8468, 46.9104 ],
 							[ -64.7432, 47.0784 ],
 							[ -64.7688, 47.3864 ],
@@ -1362,68 +1413,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-27/2020_02_27T19_24_50_00_00Iurn_oid_2.49.0.1.124.4247033991.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200228065550+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.0627, 43.189 ],
-							[ -79.1728, 43.1417 ],
-							[ -79.1686, 43.0401 ],
-							[ -79.2875, 43.0208 ],
-							[ -79.279, 42.9611 ],
-							[ -79.4424, 43.0111 ],
-							[ -79.4969, 43.0013 ],
-							[ -79.5635, 42.9826 ],
-							[ -79.5391, 42.9727 ],
-							[ -79.5116, 42.9648 ],
-							[ -79.474, 42.9112 ],
-							[ -79.4371, 42.876 ],
-							[ -79.4301, 42.8607 ],
-							[ -79.3806, 42.8473 ],
-							[ -79.2598, 42.8617 ],
-							[ -79.1581, 42.8579 ],
-							[ -79.0947, 42.8217 ],
-							[ -79.0213, 42.8554 ],
-							[ -78.9102, 42.8751 ],
-							[ -78.8842, 42.9334 ],
-							[ -79.0158, 42.9904 ],
-							[ -79.0022, 43.0586 ],
-							[ -79.0626, 43.0782 ],
-							[ -79.0526, 43.1199 ],
-							[ -79.042, 43.1295 ],
-							[ -79.0372, 43.1549 ],
-							[ -79.0468, 43.1907 ],
-							[ -79.055, 43.1901 ],
-							[ -79.0627, 43.189 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 27, 2020 14:52",
-				"Expires_UTC" : "February 28, 2020 03:51",
-				"Summary" : "Description: Strong wind gusts today.  \n\nStrong wind gusts up to 80 km/h are expected to continue into this afternoon over areas along the lake shore.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-02-28T03:51:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-02-27T14:52:17-00:00, urn:oid:2.49.0.1.124.1638155863.2020<br>Area: Niagara Falls - Welland - Southern Niagara Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-02-27:feed.atom/urn:oid:2.49.0.1.124.1638155863.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-02-27/2020_02_27T14_52_17_00_00Iurn_oid_2.49.0.1.124.1638155863.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200228035117+00:00"
 			}
 		},
 		{
