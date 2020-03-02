@@ -1073,18 +1073,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 2, 2020 01:57",
-				"Expires_UTC" : "March 2, 2020 17:56",
-				"Summary" : "Description: A snowstorm is expected.\n\nTotal snowfall: 15 to 25 cm.\n\nMaximum wind gusts: northeasterly 60 km/h.\n\nLocations: St. John's and vicinity and the Southern Shore\n\nTime span: continuing until midday Monday.\n\nRemarks: Snow will taper to flurries on Monday near noon, with the heaviest snowfall accumulations expected tonight. Gusty northeasterly winds will accompany the snow causing reduced visibilities in blowing snow.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-02T17:56:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-02T01:57:34-00:00, urn:oid:2.49.0.1.124.2821078125.2020<br>Area: St. John's and vicinity",
+				"LastUpdate_UTC" : "March 2, 2020 08:49",
+				"Expires_UTC" : "March 2, 2020 19:59",
+				"Summary" : "Description: A snowstorm is expected.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-02T19:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-02T08:49:02-00:00, urn:oid:2.49.0.1.124.2983142452.2020<br>Area: St. John's and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-02:feed.atom/urn:oid:2.49.0.1.124.2821078125.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-02/2020_03_02T01_57_34_00_00Iurn_oid_2.49.0.1.124.2821078125.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-02:feed.atom/urn:oid:2.49.0.1.124.2983142452.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-02/2020_03_02T08_49_02_00_00Iurn_oid_2.49.0.1.124.2983142452.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200302175634+00:00"
+				"Expires_FMEFormat" : "20200302195902+00:00"
 			}
 		},
 		{
@@ -1317,6 +1317,49 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.0383, 52.2455 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.7002, 54.0287 ],
+							[ -87.008, 55.0039 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.5227, 54.1733 ],
+							[ -87.9958, 53.2172 ],
+							[ -88.0338, 52.7599 ],
+							[ -87.9904, 52.2453 ],
+							[ -83.0383, 52.2455 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 2, 2020 08:16",
+				"Expires_UTC" : "March 2, 2020 09:16",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-02T09:16:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-02T08:16:29-00:00, urn:oid:2.49.0.1.124.2018781503.2020<br>Area: Webequie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-02:feed.atom/urn:oid:2.49.0.1.124.2018781503.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-02/2020_03_02T08_16_29_00_00Iurn_oid_2.49.0.1.124.2018781503.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200302091629+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -113.486, 48.9975 ],
 							[ -113.2302, 48.9968 ],
 							[ -112.841, 48.9948 ],
@@ -1415,49 +1458,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.0383, 52.2455 ],
-							[ -83.0302, 52.2453 ],
-							[ -83.7002, 54.0287 ],
-							[ -87.008, 55.0039 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.5227, 54.1733 ],
-							[ -87.9958, 53.2172 ],
-							[ -88.0338, 52.7599 ],
-							[ -87.9904, 52.2453 ],
-							[ -83.0383, 52.2455 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 2, 2020 08:16",
-				"Expires_UTC" : "March 2, 2020 09:16",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-02T09:16:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-02T08:16:29-00:00, urn:oid:2.49.0.1.124.2018781503.2020<br>Area: Webequie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-02:feed.atom/urn:oid:2.49.0.1.124.2018781503.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-02/2020_03_02T08_16_29_00_00Iurn_oid_2.49.0.1.124.2018781503.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200302091629+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -53.9999, 47.9199 ],
 							[ -54.9999, 47.9199 ],
 							[ -55.1527, 47.5874 ],
@@ -1504,18 +1504,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 2, 2020 01:58",
+				"LastUpdate_UTC" : "March 2, 2020 08:49",
 				"Expires_UTC" : "March 2, 2020 16:59",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring.\n\nTotal snowfall: 5 to 15 cm.\n\nMaximum wind gusts: northeasterly 70 km/h.\n\nLocations: Burin and Avalon Peninsulas.\n\nTime span: continuing until midday Monday.\n\nRemarks: Fresh snowfall will combine with gusty northeasterly winds to produce poor visibility in blowing snow. Conditions are expected to improve Monday morning over the Burin Peninsula and near midday over the Avalon Peninsula as the snow tapers off.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-02T16:59:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-02T01:58:05-00:00, urn:oid:2.49.0.1.124.0471023098.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-02T16:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-02T08:49:14-00:00, urn:oid:2.49.0.1.124.3593555652.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-02:feed.atom/urn:oid:2.49.0.1.124.0471023098.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-02/2020_03_02T01_58_05_00_00Iurn_oid_2.49.0.1.124.0471023098.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-02:feed.atom/urn:oid:2.49.0.1.124.3593555652.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-02/2020_03_02T08_49_14_00_00Iurn_oid_2.49.0.1.124.3593555652.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200302165905+00:00"
+				"Expires_FMEFormat" : "20200302165914+00:00"
 			}
 		},
 		{
