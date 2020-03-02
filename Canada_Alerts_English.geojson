@@ -1064,6 +1064,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 2, 2020 00:48",
+				"Expires_UTC" : "March 2, 2020 01:48",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-02T01:48:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-02T00:48:25-00:00, urn:oid:2.49.0.1.124.0963722188.2020<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-02:feed.atom/urn:oid:2.49.0.1.124.0963722188.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-02/2020_03_02T00_48_25_00_00Iurn_oid_2.49.0.1.124.0963722188.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200302014825+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -91.5246, 52.2405 ],
 							[ -89.76, 52.237 ],
 							[ -87.9904, 52.2453 ],
@@ -1112,55 +1161,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-01/2020_03_01T21_02_49_00_00Iurn_oid_2.49.0.1.124.3096051019.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200302130149+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2020 19:56",
-				"Expires_UTC" : "March 2, 2020 05:00",
-				"Summary" : "Description: Total Snowfall amounts: 15 to 25 cm is expected. \n\nLocations: Prince Edward Island.  \n\nTime span: today and this evening. \n\nRemarks: A trough of low pressure continues to bring significant snow to the Island today.  Amounts are likely to be highly variable across the province, with the highest amounts likely over the northwest. Snow will end this evening as the system moves off to the southeast.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-03-02T05:00:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-01T19:56:34-00:00, urn:oid:2.49.0.1.124.0809471858.2020<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-01:feed.atom/urn:oid:2.49.0.1.124.0809471858.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-01/2020_03_01T19_56_34_00_00Iurn_oid_2.49.0.1.124.0809471858.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200302050034+00:00"
 			}
 		},
 		{
@@ -1556,25 +1556,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2020 19:55",
-				"Expires_UTC" : "March 2, 2020 11:54",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nTotal Snowfall amounts: 15 to 25 cm.\n\nLocations: along the east coast of New Brunswick.\n\nTime span: this evening.\n\nRemarks: A trough of low pressure continues to bring heavy snow to easternmost parts of the province.  The heaviest snowfall accumulations are expected to remain along the coast, with inland areas seeing significantly lesser amounts. The snow will end from north to south through the night tonight as the system moves off to the southeast.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-03-02T11:54:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-01T19:55:15-00:00, urn:oid:2.49.0.1.124.2339790906.2020<br>Area: Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Miramichi and area, Acadian Peninsula",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 2, 2020 00:48",
+				"Expires_UTC" : "March 2, 2020 01:48",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-02T01:48:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-02T00:48:15-00:00, urn:oid:2.49.0.1.124.3547796690.2020<br>Area: Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Miramichi and area, Acadian Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-01:feed.atom/urn:oid:2.49.0.1.124.2339790906.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-01/2020_03_01T19_55_15_00_00Iurn_oid_2.49.0.1.124.2339790906.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-02:feed.atom/urn:oid:2.49.0.1.124.3547796690.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-02/2020_03_02T00_48_15_00_00Iurn_oid_2.49.0.1.124.3547796690.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200302115415+00:00"
+				"Expires_FMEFormat" : "20200302014815+00:00"
 			}
 		},
 		{
