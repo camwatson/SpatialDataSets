@@ -422,6 +422,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ],
+							[ -64.7475, 48.4652 ],
+							[ -64.4498, 48.3987 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 4, 2020 09:40",
+				"Expires_UTC" : "March 5, 2020 01:39",
+				"Summary" : "Description: Snow with total amounts of 20 to 30 cm is expected today.   Strong winds combined with snow could reduce visibilities to zero locally.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-05T01:39:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T09:40:30-00:00, urn:oid:2.49.0.1.124.3767379598.2020<br>Area: Forillon National Park - Gaspé area, Percé area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.3767379598.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T09_40_30_00_00Iurn_oid_2.49.0.1.124.3767379598.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200305013930+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -57.5354, 50.5797 ],
 							[ -57.808, 50.0127 ],
 							[ -57.7515, 50.0004 ],
@@ -515,51 +560,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T08_55_36_00_00Iurn_oid_2.49.0.1.124.0463383999.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200305005436+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -64.7559, 48.6496 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.75, 48.4658 ],
-							[ -64.7475, 48.4652 ],
-							[ -64.4498, 48.3987 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7559, 48.6496 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "March 4, 2020 09:40",
-				"Expires_UTC" : "March 5, 2020 01:39",
-				"Summary" : "Description: Snow with total amounts of 20 to 30 cm is expected today.   Strong winds combined with snow could reduce visibilities to zero locally.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-05T01:39:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T09:40:30-00:00, urn:oid:2.49.0.1.124.3767379598.2020<br>Area: Forillon National Park - Gaspé area, Percé area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.3767379598.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T09_40_30_00_00Iurn_oid_2.49.0.1.124.3767379598.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200305013930+00:00"
 			}
 		},
 		{
@@ -820,6 +820,48 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T04_16_49_00_00Iurn_oid_2.49.0.1.124.1644163524.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200304201549+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.1162, 51.3508 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1075, 51.9221 ],
+							[ -58.9988, 51.333 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 4, 2020 09:42",
+				"Expires_UTC" : "March 5, 2020 01:41",
+				"Summary" : "Description: Easterly winds gusting up to 90 km/h are expected this afternoon and evening.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-05T01:41:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T09:42:02-00:00, urn:oid:2.49.0.1.124.2334302279.2020<br>Area: Blanc-Sablon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.2334302279.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T09_42_02_00_00Iurn_oid_2.49.0.1.124.2334302279.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200305014102+00:00"
 			}
 		},
 		{
@@ -1408,61 +1450,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T09_18_42_00_00Iurn_oid_2.49.0.1.124.2583337637.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200305011742+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -68.6166, 48.0496 ],
-							[ -68.3823, 47.9128 ],
-							[ -68.3823, 47.9161 ],
-							[ -68.1227, 47.9163 ],
-							[ -68.1226, 47.9998 ],
-							[ -67.6656, 48 ],
-							[ -67.6035, 47.9999 ],
-							[ -67.6276, 48.2166 ],
-							[ -67.6498, 48.4154 ],
-							[ -67.6687, 48.5824 ],
-							[ -67.669, 48.5823 ],
-							[ -67.6692, 48.5823 ],
-							[ -67.7056, 48.6956 ],
-							[ -67.7304, 48.7727 ],
-							[ -67.7305, 48.773 ],
-							[ -67.508, 49.2382 ],
-							[ -68.5214, 48.9033 ],
-							[ -69.2423, 48.4587 ],
-							[ -68.9741, 48.2826 ],
-							[ -68.6207, 48.05 ],
-							[ -68.6193, 48.0511 ],
-							[ -68.6166, 48.0496 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 4, 2020 09:35",
-				"Expires_UTC" : "March 5, 2020 01:34",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall amounts of 15 to 25 centimetres are expected today. Strong winds combined with snow will cause blowing snow with zero visibilities locally.\n\n###\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-05T01:34:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T09:35:26-00:00, urn:oid:2.49.0.1.124.3658910299.2020<br>Area: Mont-Joli area, Le Bic - Rimouski area, Rimouski Wildlife Reserve area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.3658910299.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T09_35_26_00_00Iurn_oid_2.49.0.1.124.3658910299.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200305013426+00:00"
 			}
 		},
 		{
@@ -2137,6 +2124,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -134.6088, 69.5219 ],
+							[ -134.625, 69.5217 ],
+							[ -134.6503, 69.7494 ],
+							[ -135.028, 69.7482 ],
+							[ -134.9727, 69.2322 ],
+							[ -134.8205, 68.6539 ],
+							[ -134.4901, 68.651 ],
+							[ -134.2055, 68.6549 ],
+							[ -133.651, 68.6495 ],
+							[ -133.0684, 68.6546 ],
+							[ -132.8203, 68.6469 ],
+							[ -132.5903, 68.6515 ],
+							[ -132.6302, 69.1236 ],
+							[ -132.7334, 69.5253 ],
+							[ -132.9811, 69.526 ],
+							[ -133.0809, 69.5269 ],
+							[ -133.2424, 69.7062 ],
+							[ -133.6843, 69.7117 ],
+							[ -133.8748, 69.7432 ],
+							[ -134.1813, 69.5985 ],
+							[ -134.1487, 69.5248 ],
+							[ -134.6088, 69.5219 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 4, 2020 05:17",
+				"Expires_UTC" : "March 4, 2020 18:59",
+				"Summary" : "Description: A period of very cold wind chills is expected. The coldest wind chill values will be between minus 50 and minus 55.\n\nThese very cold wind chills will continue tonight and moderate late Wednesday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-03-04T18:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T05:17:54-00:00, urn:oid:2.49.0.1.124.3573433231.2020<br>Area: Tuktoyaktuk - East Channel Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.3573433231.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T05_17_54_00_00Iurn_oid_2.49.0.1.124.3573433231.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200304185954+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -116.7937, 51.9409 ],
 							[ -116.782, 51.8899 ],
 							[ -116.6753, 51.814 ],
@@ -2196,61 +2238,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T05_21_55_00_00Iurn_oid_2.49.0.1.124.0294828126.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200304212055+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -134.6088, 69.5219 ],
-							[ -134.625, 69.5217 ],
-							[ -134.6503, 69.7494 ],
-							[ -135.028, 69.7482 ],
-							[ -134.9727, 69.2322 ],
-							[ -134.8205, 68.6539 ],
-							[ -134.4901, 68.651 ],
-							[ -134.2055, 68.6549 ],
-							[ -133.651, 68.6495 ],
-							[ -133.0684, 68.6546 ],
-							[ -132.8203, 68.6469 ],
-							[ -132.5903, 68.6515 ],
-							[ -132.6302, 69.1236 ],
-							[ -132.7334, 69.5253 ],
-							[ -132.9811, 69.526 ],
-							[ -133.0809, 69.5269 ],
-							[ -133.2424, 69.7062 ],
-							[ -133.6843, 69.7117 ],
-							[ -133.8748, 69.7432 ],
-							[ -134.1813, 69.5985 ],
-							[ -134.1487, 69.5248 ],
-							[ -134.6088, 69.5219 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 4, 2020 05:17",
-				"Expires_UTC" : "March 4, 2020 18:59",
-				"Summary" : "Description: A period of very cold wind chills is expected. The coldest wind chill values will be between minus 50 and minus 55.\n\nThese very cold wind chills will continue tonight and moderate late Wednesday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-03-04T18:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T05:17:54-00:00, urn:oid:2.49.0.1.124.3573433231.2020<br>Area: Tuktoyaktuk - East Channel Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.3573433231.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T05_17_54_00_00Iurn_oid_2.49.0.1.124.3573433231.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200304185954+00:00"
 			}
 		},
 		{
@@ -2381,48 +2368,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ],
-							[ -59.0029, 50.7675 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 4, 2020 09:42",
-				"Expires_UTC" : "March 5, 2020 01:41",
-				"Summary" : "Description: Easterly winds gusting up to 90 km/h are expected this afternoon and evening.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-05T01:41:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T09:42:02-00:00, urn:oid:2.49.0.1.124.2334302279.2020<br>Area: Blanc-Sablon",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.2334302279.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T09_42_02_00_00Iurn_oid_2.49.0.1.124.2334302279.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200305014102+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.8312, 49.5216 ],
 							[ -66.7602, 49.3619 ],
 							[ -66.805, 49.3539 ],
@@ -2539,61 +2484,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -55.1703, 47.5512 ],
-							[ -55.1557, 47.5799 ],
-							[ -55.1527, 47.5874 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.567607421, 48.1000655797 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 4, 2020 08:48",
-				"Expires_UTC" : "March 5, 2020 00:47",
-				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall. \n\nTotal rainfall:  15 - 25 mm \n\nLocations: Southern Newfoundland, from Channel-Port aux Basques to Connaigre\n\nTime span: this morning to this evening\n\nRemarks: Rain, at times heavy, will begin late this morning and continue through the day before changing to snow tonight. Snow will be at times heavy from Channel-Port aux Basques to Burgeo where winter storm warnings have been issued.\n\nLocalized flooding may occur in low lying areas. Where possible, ice and snow should be cleared from storm drains in advance of the rainfall.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-05T00:47:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T08:48:09-00:00, urn:oid:2.49.0.1.124.1300780189.2020<br>Area: Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.1300780189.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T08_48_09_00_00Iurn_oid_2.49.0.1.124.1300780189.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200305004709+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -52.911, 46.7993 ],
 							[ -52.735, 47.1318 ],
 							[ -52.4979, 47.5724 ],
@@ -2657,6 +2547,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -55.1703, 47.5512 ],
+							[ -55.1557, 47.5799 ],
+							[ -55.1527, 47.5874 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.567607421, 48.1000655797 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 4, 2020 08:48",
+				"Expires_UTC" : "March 5, 2020 00:47",
+				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall. \n\nTotal rainfall:  15 - 25 mm \n\nLocations: Southern Newfoundland, from Channel-Port aux Basques to Connaigre\n\nTime span: this morning to this evening\n\nRemarks: Rain, at times heavy, will begin late this morning and continue through the day before changing to snow tonight. Snow will be at times heavy from Channel-Port aux Basques to Burgeo where winter storm warnings have been issued.\n\nLocalized flooding may occur in low lying areas. Where possible, ice and snow should be cleared from storm drains in advance of the rainfall.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-05T00:47:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T08:48:09-00:00, urn:oid:2.49.0.1.124.1300780189.2020<br>Area: Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.1300780189.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T08_48_09_00_00Iurn_oid_2.49.0.1.124.1300780189.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200305004709+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.4207, 47.5744 ],
 							[ -58.42, 47.6535 ],
 							[ -58.42, 47.6666 ],
@@ -2694,6 +2639,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T08_27_16_00_00Iurn_oid_2.49.0.1.124.3528887122.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200305002616+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -68.6166, 48.0496 ],
+							[ -68.3823, 47.9128 ],
+							[ -68.3823, 47.9161 ],
+							[ -68.1227, 47.9163 ],
+							[ -68.1226, 47.9998 ],
+							[ -67.6656, 48 ],
+							[ -67.6035, 47.9999 ],
+							[ -67.6276, 48.2166 ],
+							[ -67.6498, 48.4154 ],
+							[ -67.6687, 48.5824 ],
+							[ -67.669, 48.5823 ],
+							[ -67.6692, 48.5823 ],
+							[ -67.7056, 48.6956 ],
+							[ -67.7304, 48.7727 ],
+							[ -67.7305, 48.773 ],
+							[ -67.508, 49.2382 ],
+							[ -68.5214, 48.9033 ],
+							[ -69.2423, 48.4587 ],
+							[ -68.9741, 48.2826 ],
+							[ -68.6207, 48.05 ],
+							[ -68.6193, 48.0511 ],
+							[ -68.6166, 48.0496 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 4, 2020 09:35",
+				"Expires_UTC" : "March 5, 2020 01:34",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall amounts of 15 to 25 centimetres are expected today. Strong winds combined with snow will cause blowing snow with zero visibilities locally.\n\n###\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-05T01:34:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-04T09:35:26-00:00, urn:oid:2.49.0.1.124.3658910299.2020<br>Area: Mont-Joli area, Le Bic - Rimouski area, Rimouski Wildlife Reserve area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-04:feed.atom/urn:oid:2.49.0.1.124.3658910299.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-04/2020_03_04T09_35_26_00_00Iurn_oid_2.49.0.1.124.3658910299.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200305013426+00:00"
 			}
 		}
 	]
