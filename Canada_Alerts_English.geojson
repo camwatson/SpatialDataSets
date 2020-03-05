@@ -317,53 +317,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Winter Storm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 5, 2020 16:16",
-				"Expires_UTC" : "March 5, 2020 17:16",
-				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n###<br>Expires: 2020-03-05T17:16:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-05T16:16:47-00:00, urn:oid:2.49.0.1.124.1428134114.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-05:feed.atom/urn:oid:2.49.0.1.124.1428134114.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T16_16_47_00_00Iurn_oid_2.49.0.1.124.1428134114.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200305171647+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.8133, 48.8226 ],
 							[ -59.2492, 48.6594 ],
 							[ -59.3848, 48.3577 ],
@@ -412,6 +365,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T14_18_55_00_00Iurn_oid_2.49.0.1.124.3303984836.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200306045955+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 5, 2020 16:16",
+				"Expires_UTC" : "March 5, 2020 17:16",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n###<br>Expires: 2020-03-05T17:16:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-05T16:16:47-00:00, urn:oid:2.49.0.1.124.1428134114.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-05:feed.atom/urn:oid:2.49.0.1.124.1428134114.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T16_16_47_00_00Iurn_oid_2.49.0.1.124.1428134114.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200305171647+00:00"
 			}
 		},
 		{
@@ -667,18 +667,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 5, 2020 09:52",
-				"Expires_UTC" : "March 6, 2020 01:51",
-				"Summary" : "Description: A significant snowfall will continue today.\n\nSnow will continue today before coming to an end this evening.\n\nTotal snowfall amounts near 15 cm are expected with the highest amounts falling this morning and afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-06T01:51:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-05T09:52:00-00:00, urn:oid:2.49.0.1.124.2594333431.2020<br>Area: City of Thunder Bay, Cloud Bay - Dorion, Kakabeka Falls - Whitefish Lake - Arrow Lake",
+				"LastUpdate_UTC" : "March 5, 2020 16:47",
+				"Expires_UTC" : "March 6, 2020 08:46",
+				"Summary" : "Description: A significant snowfall will continue today.\n\nSnow will continue today before coming to an end this evening.\n\nTotal snowfall amounts near 15 cm are expected with the highest amounts falling this morning and afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-06T08:46:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-05T16:47:40-00:00, urn:oid:2.49.0.1.124.1705074862.2020<br>Area: City of Thunder Bay, Cloud Bay - Dorion, Kakabeka Falls - Whitefish Lake - Arrow Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-05:feed.atom/urn:oid:2.49.0.1.124.2594333431.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T09_52_00_00_00Iurn_oid_2.49.0.1.124.2594333431.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-05:feed.atom/urn:oid:2.49.0.1.124.1705074862.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T16_47_40_00_00Iurn_oid_2.49.0.1.124.1705074862.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200306015100+00:00"
+				"Expires_FMEFormat" : "20200306084640+00:00"
 			}
 		},
 		{
@@ -967,142 +967,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ],
-							[ -60.3074, 54.9828 ],
-							[ -60.3072, 54.9832 ],
-							[ -60.2298, 55.0701 ],
-							[ -60.1066, 55.1369 ],
-							[ -60.0305, 55.2374 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.798, 55.9666 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8884, 55.8597 ],
-							[ -61.0222, 55.8603 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.891, 55.378 ]
-						]
-					],
-					[
-						[
-							[ -58.0061, 54.7317 ],
-							[ -59.3729, 54.19 ],
-							[ -59.0361, 54.0269 ],
-							[ -58.8814, 54.0182 ],
-							[ -58.8483, 53.9346 ],
-							[ -58.3667, 53.72 ],
-							[ -57.3704, 54.1207 ],
-							[ -57.0958, 54.136 ],
-							[ -56.7055, 54.7584 ],
-							[ -57.8299, 54.7766 ],
-							[ -58.0061, 54.7317 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 5, 2020 01:59",
-				"Expires_UTC" : "March 5, 2020 17:58",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: 10 to 20 cm.\n\nMaximum wind gusts: northerly 80 km/h.\n\nLocations: Rigolet and vicinity, as well as Hopedale and vicinity.\n\nTime span: tonight to Friday morning. \n\nRemarks: Snow will begin tonight and persist through Thursday before tapering to flurries Thursday night.  Strong northerly winds will accompany the snow, reducing visibility in blowing snow. \n\nIn Rigolet, the worst conditions are expected during the overnight hours tonight before temperatures warm to near zero, which will hamper the ability for the snow to blow around and reduce visibility.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-05T17:58:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-05T01:59:22-00:00, urn:oid:2.49.0.1.124.2939122935.2020<br>Area: Rigolet and vicinity, Hopedale and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-05:feed.atom/urn:oid:2.49.0.1.124.2939122935.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T01_59_22_00_00Iurn_oid_2.49.0.1.124.2939122935.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200305175822+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -115.0388, 68.0735 ],
-							[ -115.0934, 67.9545 ],
-							[ -115.6489, 67.917 ],
-							[ -115.6517, 67.9119 ],
-							[ -115.7054, 67.8289 ],
-							[ -115.669, 67.7438 ],
-							[ -115.5482, 67.6708 ],
-							[ -115.3717, 67.6228 ],
-							[ -115.1514, 67.6031 ],
-							[ -114.9375, 67.616 ],
-							[ -114.7513, 67.6583 ],
-							[ -114.6152, 67.7273 ],
-							[ -114.569, 67.7819 ],
-							[ -114.6262, 68.0024 ],
-							[ -115.0388, 68.0735 ]
-						]
-					],
-					[
-						[
-							[ -105.6733, 69.1682 ],
-							[ -105.727, 69.0273 ],
-							[ -105.2968, 68.8552 ],
-							[ -105.1657, 68.9165 ],
-							[ -105.0185, 68.9148 ],
-							[ -104.8746, 68.9257 ],
-							[ -104.76, 68.9448 ],
-							[ -104.6509, 68.9745 ],
-							[ -104.5629, 69.0122 ],
-							[ -104.5044, 69.0525 ],
-							[ -104.4622, 69.1378 ],
-							[ -104.5126, 69.2188 ],
-							[ -104.6455, 69.2871 ],
-							[ -104.8519, 69.3339 ],
-							[ -105.0834, 69.3484 ],
-							[ -105.3231, 69.3293 ],
-							[ -105.5217, 69.2785 ],
-							[ -105.6437, 69.2077 ],
-							[ -105.6733, 69.1682 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 5, 2020 15:26",
-				"Expires_UTC" : "March 6, 2020 07:25",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values between minus 55 and minus 60 are expected today and tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-06T07:25:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-05T15:26:47-00:00, urn:oid:2.49.0.1.124.1153235850.2020<br>Area: Cambridge Bay, Kugluktuk",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-05:feed.atom/urn:oid:2.49.0.1.124.1153235850.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T15_26_47_00_00Iurn_oid_2.49.0.1.124.1153235850.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200306072547+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -60.7702, 53 ],
 							[ -59, 52.4 ],
 							[ -58.0385, 52.5919 ],
@@ -1183,6 +1047,142 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T01_59_50_00_00Iurn_oid_2.49.0.1.124.4087102313.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200305175850+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -115.0388, 68.0735 ],
+							[ -115.0934, 67.9545 ],
+							[ -115.6489, 67.917 ],
+							[ -115.6517, 67.9119 ],
+							[ -115.7054, 67.8289 ],
+							[ -115.669, 67.7438 ],
+							[ -115.5482, 67.6708 ],
+							[ -115.3717, 67.6228 ],
+							[ -115.1514, 67.6031 ],
+							[ -114.9375, 67.616 ],
+							[ -114.7513, 67.6583 ],
+							[ -114.6152, 67.7273 ],
+							[ -114.569, 67.7819 ],
+							[ -114.6262, 68.0024 ],
+							[ -115.0388, 68.0735 ]
+						]
+					],
+					[
+						[
+							[ -105.6733, 69.1682 ],
+							[ -105.727, 69.0273 ],
+							[ -105.2968, 68.8552 ],
+							[ -105.1657, 68.9165 ],
+							[ -105.0185, 68.9148 ],
+							[ -104.8746, 68.9257 ],
+							[ -104.76, 68.9448 ],
+							[ -104.6509, 68.9745 ],
+							[ -104.5629, 69.0122 ],
+							[ -104.5044, 69.0525 ],
+							[ -104.4622, 69.1378 ],
+							[ -104.5126, 69.2188 ],
+							[ -104.6455, 69.2871 ],
+							[ -104.8519, 69.3339 ],
+							[ -105.0834, 69.3484 ],
+							[ -105.3231, 69.3293 ],
+							[ -105.5217, 69.2785 ],
+							[ -105.6437, 69.2077 ],
+							[ -105.6733, 69.1682 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 5, 2020 15:26",
+				"Expires_UTC" : "March 6, 2020 07:25",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values between minus 55 and minus 60 are expected today and tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-06T07:25:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-05T15:26:47-00:00, urn:oid:2.49.0.1.124.1153235850.2020<br>Area: Cambridge Bay, Kugluktuk",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-05:feed.atom/urn:oid:2.49.0.1.124.1153235850.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T15_26_47_00_00Iurn_oid_2.49.0.1.124.1153235850.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200306072547+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ],
+							[ -60.3074, 54.9828 ],
+							[ -60.3072, 54.9832 ],
+							[ -60.2298, 55.0701 ],
+							[ -60.1066, 55.1369 ],
+							[ -60.0305, 55.2374 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.798, 55.9666 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8884, 55.8597 ],
+							[ -61.0222, 55.8603 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.891, 55.378 ]
+						]
+					],
+					[
+						[
+							[ -58.0061, 54.7317 ],
+							[ -59.3729, 54.19 ],
+							[ -59.0361, 54.0269 ],
+							[ -58.8814, 54.0182 ],
+							[ -58.8483, 53.9346 ],
+							[ -58.3667, 53.72 ],
+							[ -57.3704, 54.1207 ],
+							[ -57.0958, 54.136 ],
+							[ -56.7055, 54.7584 ],
+							[ -57.8299, 54.7766 ],
+							[ -58.0061, 54.7317 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 5, 2020 01:59",
+				"Expires_UTC" : "March 5, 2020 17:58",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: 10 to 20 cm.\n\nMaximum wind gusts: northerly 80 km/h.\n\nLocations: Rigolet and vicinity, as well as Hopedale and vicinity.\n\nTime span: tonight to Friday morning. \n\nRemarks: Snow will begin tonight and persist through Thursday before tapering to flurries Thursday night.  Strong northerly winds will accompany the snow, reducing visibility in blowing snow. \n\nIn Rigolet, the worst conditions are expected during the overnight hours tonight before temperatures warm to near zero, which will hamper the ability for the snow to blow around and reduce visibility.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-05T17:58:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-05T01:59:22-00:00, urn:oid:2.49.0.1.124.2939122935.2020<br>Area: Rigolet and vicinity, Hopedale and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-05:feed.atom/urn:oid:2.49.0.1.124.2939122935.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-05/2020_03_05T01_59_22_00_00Iurn_oid_2.49.0.1.124.2939122935.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200305175822+00:00"
 			}
 		},
 		{
