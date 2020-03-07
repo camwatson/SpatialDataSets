@@ -189,6 +189,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 7, 2020 14:10",
+				"Expires_UTC" : "March 8, 2020 00:04",
+				"Summary" : "Description: High southerly winds are affecting this community today.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-08T00:04:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-07T14:10:38-00:00, urn:oid:2.49.0.1.124.2624007017.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-07:feed.atom/urn:oid:2.49.0.1.124.2624007017.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T14_10_38_00_00Iurn_oid_2.49.0.1.124.2624007017.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200308000438+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -71.399, 60.5219 ],
 							[ -70.2989, 60.2999 ],
 							[ -69.6866, 60.6351 ],
@@ -234,47 +275,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T16_39_09_00_00Iurn_oid_2.49.0.1.124.3933966558.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200308083809+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 7, 2020 14:10",
-				"Expires_UTC" : "March 8, 2020 00:04",
-				"Summary" : "Description: High southerly winds are affecting this community today.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-08T00:04:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-07T14:10:38-00:00, urn:oid:2.49.0.1.124.2624007017.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-07:feed.atom/urn:oid:2.49.0.1.124.2624007017.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T14_10_38_00_00Iurn_oid_2.49.0.1.124.2624007017.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200308000438+00:00"
 			}
 		},
 		{
@@ -2175,25 +2175,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
 				"Category" : "Actual",
 				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 7, 2020 14:40",
-				"Expires_UTC" : "March 8, 2020 00:19",
-				"Summary" : "Description: Wind chill values near minus 50 will continue this morning, but should begin to moderate later today.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-03-08T00:19:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-07T14:40:16-00:00, urn:oid:2.49.0.1.124.1742226729.2020<br>Area: North Slave Region including Wekweeti - Whati - Behchoko, Lutsel K'e Region",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 7, 2020 17:28",
+				"Expires_UTC" : "March 7, 2020 18:28",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-03-07T18:28:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-07T17:28:36-00:00, urn:oid:2.49.0.1.124.4020758537.2020<br>Area: North Slave Region including Wekweeti - Whati - Behchoko, Lutsel K'e Region",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-07:feed.atom/urn:oid:2.49.0.1.124.1742226729.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T14_40_16_00_00Iurn_oid_2.49.0.1.124.1742226729.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-07:feed.atom/urn:oid:2.49.0.1.124.4020758537.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T17_28_36_00_00Iurn_oid_2.49.0.1.124.4020758537.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200308001916+00:00"
+				"Expires_FMEFormat" : "20200307182836+00:00"
 			}
 		},
 		{
