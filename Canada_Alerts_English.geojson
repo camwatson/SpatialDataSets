@@ -166,62 +166,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.0999, 48.9 ],
-							[ -55.3717, 48.6868 ],
-							[ -55.3737, 48.6852 ],
-							[ -54.9999, 48.5499 ],
-							[ -54.2, 48.9 ],
-							[ -54.0086, 48.9045 ],
-							[ -53.9865, 48.8983 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 6, 2020 23:55",
-				"Expires_UTC" : "March 7, 2020 15:54",
-				"Summary" : "Description: Wintry weather for this weekend.  \n\nTotal snowfall: between 10 and 20 cm.\n\nLocations: northeastern Newfoundland, including Gander and vicinity, Bonavista North and Bay of Exploits, \n\nTimespan: Saturday evening until Sunday evening.\n\nRemarks: The snowfall rates are expected to remain light to moderate throughout the event.  \n\nOccasional blowing snow will also develop Saturday night with strengthening northeasterly wind gusts. Blowing snow conditions will ease throughout Sunday as the snow ends and the winds gradually shift to northwesterly and begin to weaken.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-07T15:54:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-06T23:55:40-00:00, urn:oid:2.49.0.1.124.4019739409.2020<br>Area: Bay of Exploits, Bonavista North, Gander and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-06:feed.atom/urn:oid:2.49.0.1.124.4019739409.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-06/2020_03_06T23_55_40_00_00Iurn_oid_2.49.0.1.124.4019739409.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200307155440+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -71.399, 60.5219 ],
 							[ -70.2989, 60.2999 ],
 							[ -69.6866, 60.6351 ],
@@ -267,6 +211,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T09_20_24_00_00Iurn_oid_2.49.0.1.124.1709484132.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200308011924+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 7, 2020 14:10",
+				"Expires_UTC" : "March 8, 2020 00:04",
+				"Summary" : "Description: High southerly winds are affecting this community today.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-08T00:04:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-07T14:10:38-00:00, urn:oid:2.49.0.1.124.2624007017.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-07:feed.atom/urn:oid:2.49.0.1.124.2624007017.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T14_10_38_00_00Iurn_oid_2.49.0.1.124.2624007017.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200308000438+00:00"
 			}
 		},
 		{
@@ -2149,6 +2134,62 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.0999, 48.9 ],
+							[ -55.3717, 48.6868 ],
+							[ -55.3737, 48.6852 ],
+							[ -54.9999, 48.5499 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 7, 2020 14:14",
+				"Expires_UTC" : "March 8, 2020 06:13",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: near 15 cm.\n\nMaximum wind gusts: northerly 80 km/h.\n\nTime span: tonight and Sunday morning.\n\nRemarks: Snow will combine with strong northerly winds developing this evening to produce reduced visibility in blowing snow. Conditions are forecast to improve by midday on Sunday as the snow tapers off and the winds ease.\n\n###\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-08T06:13:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-07T14:14:02-00:00, urn:oid:2.49.0.1.124.4125154592.2020<br>Area: Bay of Exploits, Bonavista North, Gander and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-07:feed.atom/urn:oid:2.49.0.1.124.4125154592.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T14_14_02_00_00Iurn_oid_2.49.0.1.124.4125154592.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200308061302+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -114, 50.1937 ],
 							[ -114.0064, 50.0532 ],
 							[ -114, 49.9105 ],
@@ -2562,62 +2603,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T09_48_36_00_00Iurn_oid_2.49.0.1.124.3864402254.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200308014736+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.0999, 48.9 ],
-							[ -55.3717, 48.6868 ],
-							[ -55.3737, 48.6852 ],
-							[ -54.9999, 48.5499 ],
-							[ -54.2, 48.9 ],
-							[ -54.0086, 48.9045 ],
-							[ -53.9865, 48.8983 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 7, 2020 08:48",
-				"Expires_UTC" : "March 8, 2020 00:47",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: near 15 cm.\n\nMaximum wind gusts: northerly 80 km/h.\n\nTimespan: tonight and Sunday morning.\n\nRemarks: Snow will combine with strong northerly winds developing this evening to produce reduced visibility in blowing snow. Conditions are forecast to improve by midday on Sunday as the snow tapers off and the winds ease.\n\n###\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-08T00:47:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-07T08:48:31-00:00, urn:oid:2.49.0.1.124.2689166493.2020<br>Area: Bay of Exploits, Bonavista North, Gander and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-07:feed.atom/urn:oid:2.49.0.1.124.2689166493.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-07/2020_03_07T08_48_31_00_00Iurn_oid_2.49.0.1.124.2689166493.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200308004731+00:00"
 			}
 		},
 		{
