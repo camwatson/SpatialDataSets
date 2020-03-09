@@ -96,6 +96,60 @@
 				]
 			},
 			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 9, 2020 02:57",
+				"Expires_UTC" : "March 9, 2020 18:56",
+				"Summary" : "Description: Northwesterlies are reaching up to 100 km/h in these communities. These winds will persist until Monday.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-09T18:56:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T02:57:21-00:00, urn:oid:2.49.0.1.124.0666273697.2020<br>Area: Kangiqsujuaq - Raglan Lake, Quaqtaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.0666273697.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T02_57_21_00_00Iurn_oid_2.49.0.1.124.0666273697.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200309185621+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.399, 60.5219 ],
+							[ -70.2989, 60.2999 ],
+							[ -69.6866, 60.6351 ],
+							[ -69.6265, 60.6532 ],
+							[ -69.3406, 60.7998 ],
+							[ -69.3708, 60.9674 ],
+							[ -69.5614, 61.1243 ],
+							[ -69.9939, 60.8678 ],
+							[ -70.0969, 61.1046 ],
+							[ -70.7234, 61.1481 ],
+							[ -71.5843, 61.2693 ],
+							[ -71.6299, 61.3212 ],
+							[ -71.3985, 61.5333 ],
+							[ -71.6698, 61.6967 ],
+							[ -72.0508, 61.7741 ],
+							[ -72.5983, 62.1553 ],
+							[ -73.0349, 62.2144 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.3218, 62.346 ],
+							[ -73.9992, 61.0465 ],
+							[ -71.399, 60.5219 ]
+						]
+					]
+				]
+			},
+			"properties" : {
 				"subCategory" : "Met:Warning:Severe",
 				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
@@ -445,59 +499,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-08/2020_03_08T21_34_27_00_00Iurn_oid_2.49.0.1.124.4044515180.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200309133327+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -68.8714, 63.5928 ],
-							[ -68.7424, 63.5556 ],
-							[ -68.5282, 63.576 ],
-							[ -68.2083, 63.5996 ],
-							[ -68.1887, 63.6089 ],
-							[ -68.1073, 63.6649 ],
-							[ -68.0685, 63.7293 ],
-							[ -68.0766, 63.796 ],
-							[ -68.1311, 63.8582 ],
-							[ -68.2269, 63.9099 ],
-							[ -68.3547, 63.946 ],
-							[ -68.5019, 63.9628 ],
-							[ -68.6536, 63.9586 ],
-							[ -68.7875, 63.9358 ],
-							[ -68.9058, 63.8939 ],
-							[ -68.9884, 63.838 ],
-							[ -69.0275, 63.7735 ],
-							[ -69.0195, 63.7069 ],
-							[ -68.9657, 63.6447 ],
-							[ -68.8714, 63.5928 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 8, 2020 19:48",
-				"Expires_UTC" : "March 9, 2020 11:47",
-				"Summary" : "Description: Strong winds and fresh snow are creating near zero visibilities in blowing snow. \n\nBlizzard conditions are occurring in Iqaluit as a deep low pressure system over Frobisher Bay moves eastward. Very strong northwest winds gusting to 90 km/h this evening will gradually weaken tonight and Monday.  \n\nThe blizzard will continue tonight and much of Monday. Wind chill values are also expected to fall to near -48 at times.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-09T11:47:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-08T19:48:51-00:00, urn:oid:2.49.0.1.124.0418915428.2020<br>Area: Iqaluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-08:feed.atom/urn:oid:2.49.0.1.124.0418915428.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-08/2020_03_08T19_48_51_00_00Iurn_oid_2.49.0.1.124.0418915428.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200309114751+00:00"
 			}
 		},
 		{
@@ -1773,60 +1774,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.399, 60.5219 ],
-							[ -70.2989, 60.2999 ],
-							[ -69.6866, 60.6351 ],
-							[ -69.6265, 60.6532 ],
-							[ -69.3406, 60.7998 ],
-							[ -69.3708, 60.9674 ],
-							[ -69.5614, 61.1243 ],
-							[ -69.9939, 60.8678 ],
-							[ -70.0969, 61.1046 ],
-							[ -70.7234, 61.1481 ],
-							[ -71.5843, 61.2693 ],
-							[ -71.6299, 61.3212 ],
-							[ -71.3985, 61.5333 ],
-							[ -71.6698, 61.6967 ],
-							[ -72.0508, 61.7741 ],
-							[ -72.5983, 62.1553 ],
-							[ -73.0349, 62.2144 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.3218, 62.346 ],
-							[ -73.9992, 61.0465 ],
-							[ -71.399, 60.5219 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 9, 2020 02:57",
-				"Expires_UTC" : "March 9, 2020 18:56",
-				"Summary" : "Description: Northwesterlies are reaching up to 100 km/h in these communities. These winds will persist until Monday.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-09T18:56:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T02:57:21-00:00, urn:oid:2.49.0.1.124.0666273697.2020<br>Area: Kangiqsujuaq - Raglan Lake, Quaqtaq",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.0666273697.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T02_57_21_00_00Iurn_oid_2.49.0.1.124.0666273697.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200309185621+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -68.8408, 49.251 ],
 							[ -69.7684, 48.8682 ],
 							[ -70.2496, 48.6665 ],
@@ -2063,6 +2010,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T03_00_12_00_00Iurn_oid_2.49.0.1.124.3688326632.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200309185912+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -68.8714, 63.5928 ],
+							[ -68.7424, 63.5556 ],
+							[ -68.5282, 63.576 ],
+							[ -68.2083, 63.5996 ],
+							[ -68.1887, 63.6089 ],
+							[ -68.1073, 63.6649 ],
+							[ -68.0685, 63.7293 ],
+							[ -68.0766, 63.796 ],
+							[ -68.1311, 63.8582 ],
+							[ -68.2269, 63.9099 ],
+							[ -68.3547, 63.946 ],
+							[ -68.5019, 63.9628 ],
+							[ -68.6536, 63.9586 ],
+							[ -68.7875, 63.9358 ],
+							[ -68.9058, 63.8939 ],
+							[ -68.9884, 63.838 ],
+							[ -69.0275, 63.7735 ],
+							[ -69.0195, 63.7069 ],
+							[ -68.9657, 63.6447 ],
+							[ -68.8714, 63.5928 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 9, 2020 05:32",
+				"Expires_UTC" : "March 9, 2020 21:31",
+				"Summary" : "Description: Blizzard conditions are occurring in Iqaluit as a deep low pressure system over Davis Strait continues to push east. Very strong northwest winds gusting to 80 km/h this evening will gradually weaken overnight and Monday. Blizzard conditions are expected to last until Monday late afternoon. \n\n  \nThe blizzard will continue tonight and much of Monday. Wind chill values are also expected to fall to near -48 at times.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-09T21:31:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T05:32:42-00:00, urn:oid:2.49.0.1.124.1630034127.2020<br>Area: Iqaluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.1630034127.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T05_32_42_00_00Iurn_oid_2.49.0.1.124.1630034127.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200309213142+00:00"
 			}
 		},
 		{
