@@ -481,6 +481,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -91.5246, 52.2405 ],
+							[ -89.76, 52.237 ],
+							[ -87.9904, 52.2453 ],
+							[ -87.9569, 52.7534 ],
+							[ -87.9958, 53.2172 ],
+							[ -89.3718, 53.4188 ],
+							[ -90.5082, 53.543 ],
+							[ -92.0407, 53.7604 ],
+							[ -93.4241, 53.9089 ],
+							[ -93.68, 53.7427 ],
+							[ -93.9327, 53.5766 ],
+							[ -94.5197, 53.2523 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.1632, 52.6707 ],
+							[ -95.1536, 52.4841 ],
+							[ -93.4886, 52.3546 ],
+							[ -91.5246, 52.2405 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 8, 2020 19:48",
+				"Expires_UTC" : "March 9, 2020 11:47",
+				"Summary" : "Description: Snow comes to an end early Monday.\n\nSnow will continue into this evening before slowly tapering off late tonight. Total snowfall accumulations near 15 cm are expected by early this evening with 5 additional centimetres possible tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-09T11:47:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-08T19:48:14-00:00, urn:oid:2.49.0.1.124.2157964242.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Summer Beaver - Wunnummin Lake - Kingfisher Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-08:feed.atom/urn:oid:2.49.0.1.124.2157964242.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-08/2020_03_08T19_48_14_00_00Iurn_oid_2.49.0.1.124.2157964242.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200309114714+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -83.5846, 63.9682 ],
 							[ -83.2662, 63.9163 ],
 							[ -82.8791, 64.1863 ],
@@ -1149,75 +1200,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T01_41_48_00_00Iurn_oid_2.49.0.1.124.3709967540.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200309174048+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.0579, 46.2733 ],
-							[ -82.82, 46.2733 ],
-							[ -83.8414, 46.4826 ],
-							[ -83.7076, 46.1874 ],
-							[ -83.5976, 46.1752 ],
-							[ -83.3864, 46.0319 ],
-							[ -82.3291, 46.0103 ],
-							[ -82.178, 45.9443 ],
-							[ -82.0969, 45.9754 ],
-							[ -82.0476, 46.0965 ],
-							[ -82.0579, 46.2733 ]
-						]
-					],
-					[
-						[
-							[ -82.0579, 46.2733 ],
-							[ -81.4263, 46.2733 ],
-							[ -81.4263, 46.1701 ],
-							[ -80.9338, 46.1701 ],
-							[ -80.9338, 46.0992 ],
-							[ -80.6965, 46.106 ],
-							[ -80.6965, 46.2675 ],
-							[ -80.4935, 46.2785 ],
-							[ -80.276, 46.2601 ],
-							[ -80.276, 46.6307 ],
-							[ -80.3679, 46.6307 ],
-							[ -80.3679, 46.7151 ],
-							[ -80.566, 46.7261 ],
-							[ -80.566, 46.8912 ],
-							[ -80.8125, 46.8912 ],
-							[ -80.8125, 46.9683 ],
-							[ -81.0754, 46.97 ],
-							[ -81.939, 46.9696 ],
-							[ -81.939, 46.6086 ],
-							[ -82.0579, 46.6086 ],
-							[ -82.0579, 46.2733 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 9, 2020 01:43",
-				"Expires_UTC" : "March 9, 2020 17:42",
-				"Summary" : "Description: Temperatures falling below freezing Monday night after rain. \n\nRain will begin Monday afternoon then change to brief freezing rain then snow Monday night as temperatures fall below zero. \n\nRoads and sidewalks may become icy as temperatures fall below zero Monday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-09T17:42:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T01:43:34-00:00, urn:oid:2.49.0.1.124.1776681219.2020<br>Area: Greater Sudbury and vicinity, Blind River - Thessalon",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.1776681219.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T01_43_34_00_00Iurn_oid_2.49.0.1.124.1776681219.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200309174234+00:00"
 			}
 		},
 		{
@@ -1924,57 +1906,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -91.5246, 52.2405 ],
-							[ -89.76, 52.237 ],
-							[ -87.9904, 52.2453 ],
-							[ -87.9569, 52.7534 ],
-							[ -87.9958, 53.2172 ],
-							[ -89.3718, 53.4188 ],
-							[ -90.5082, 53.543 ],
-							[ -92.0407, 53.7604 ],
-							[ -93.4241, 53.9089 ],
-							[ -93.68, 53.7427 ],
-							[ -93.9327, 53.5766 ],
-							[ -94.5197, 53.2523 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.1632, 52.6707 ],
-							[ -95.1536, 52.4841 ],
-							[ -93.4886, 52.3546 ],
-							[ -91.5246, 52.2405 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 9, 2020 01:37",
-				"Expires_UTC" : "March 9, 2020 02:37",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-09T02:37:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T01:37:52-00:00, urn:oid:2.49.0.1.124.2704339618.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Summer Beaver - Wunnummin Lake - Kingfisher Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.2704339618.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T01_37_52_00_00Iurn_oid_2.49.0.1.124.2704339618.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200309023752+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.4795, 46.2865 ],
 							[ -64.6509, 46.6934 ],
 							[ -64.769, 46.7321 ],
@@ -2115,6 +2046,75 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T01_13_00_00_00Iurn_oid_2.49.0.1.124.2838081897.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200309171200+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.0579, 46.2733 ],
+							[ -82.82, 46.2733 ],
+							[ -83.8414, 46.4826 ],
+							[ -83.7076, 46.1874 ],
+							[ -83.5976, 46.1752 ],
+							[ -83.3864, 46.0319 ],
+							[ -82.3291, 46.0103 ],
+							[ -82.178, 45.9443 ],
+							[ -82.0969, 45.9754 ],
+							[ -82.0476, 46.0965 ],
+							[ -82.0579, 46.2733 ]
+						]
+					],
+					[
+						[
+							[ -82.0579, 46.2733 ],
+							[ -81.4263, 46.2733 ],
+							[ -81.4263, 46.1701 ],
+							[ -80.9338, 46.1701 ],
+							[ -80.9338, 46.0992 ],
+							[ -80.6965, 46.106 ],
+							[ -80.6965, 46.2675 ],
+							[ -80.4935, 46.2785 ],
+							[ -80.276, 46.2601 ],
+							[ -80.276, 46.6307 ],
+							[ -80.3679, 46.6307 ],
+							[ -80.3679, 46.7151 ],
+							[ -80.566, 46.7261 ],
+							[ -80.566, 46.8912 ],
+							[ -80.8125, 46.8912 ],
+							[ -80.8125, 46.9683 ],
+							[ -81.0754, 46.97 ],
+							[ -81.939, 46.9696 ],
+							[ -81.939, 46.6086 ],
+							[ -82.0579, 46.6086 ],
+							[ -82.0579, 46.2733 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 9, 2020 01:43",
+				"Expires_UTC" : "March 9, 2020 17:42",
+				"Summary" : "Description: Temperatures falling below freezing Monday night after rain. \n\nRain will begin Monday afternoon then change to brief freezing rain then snow Monday night as temperatures fall below zero. \n\nRoads and sidewalks may become icy as temperatures fall below zero Monday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-09T17:42:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T01:43:34-00:00, urn:oid:2.49.0.1.124.1776681219.2020<br>Area: Greater Sudbury and vicinity, Blind River - Thessalon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.1776681219.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T01_43_34_00_00Iurn_oid_2.49.0.1.124.1776681219.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200309174234+00:00"
 			}
 		}
 	]
