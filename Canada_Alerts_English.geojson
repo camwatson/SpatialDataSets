@@ -144,6 +144,71 @@
 				"coordinates" : [
 					[
 						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					],
+					[
+						[
+							[ -93.6138, 69.4699 ],
+							[ -93.4803, 69.4587 ],
+							[ -93.6153, 69.3491 ],
+							[ -93.4314, 69.3393 ],
+							[ -93.2945, 69.3574 ],
+							[ -93.1092, 69.4087 ],
+							[ -92.9877, 69.4843 ],
+							[ -92.9587, 69.5667 ],
+							[ -93.0261, 69.6509 ],
+							[ -93.1729, 69.7158 ],
+							[ -93.3918, 69.7581 ],
+							[ -93.6305, 69.7675 ],
+							[ -93.8715, 69.7432 ],
+							[ -94.0649, 69.688 ],
+							[ -94.1766, 69.6146 ],
+							[ -94.1996, 69.5282 ],
+							[ -94.1276, 69.4476 ],
+							[ -94.1209, 69.3902 ],
+							[ -93.8696, 69.4025 ],
+							[ -93.6138, 69.4699 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 9, 2020 14:10",
+				"Expires_UTC" : "March 9, 2020 22:59",
+				"Summary" : "Description: Extreme cold wind chill values will continue to be near 55 this morning, but should moderate this afternoon as a weather system moves in.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-09T22:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T14:10:54-00:00, urn:oid:2.49.0.1.124.3143637045.2020<br>Area: Taloyoak, Gjoa Haven",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.3143637045.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T14_10_54_00_00Iurn_oid_2.49.0.1.124.3143637045.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200309225954+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -87.0122, 55.0075 ],
 							[ -87.008, 55.0039 ],
 							[ -83.7002, 54.0287 ],
@@ -456,71 +521,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					],
-					[
-						[
-							[ -93.6138, 69.4699 ],
-							[ -93.4803, 69.4587 ],
-							[ -93.6153, 69.3491 ],
-							[ -93.4314, 69.3393 ],
-							[ -93.2945, 69.3574 ],
-							[ -93.1092, 69.4087 ],
-							[ -92.9877, 69.4843 ],
-							[ -92.9587, 69.5667 ],
-							[ -93.0261, 69.6509 ],
-							[ -93.1729, 69.7158 ],
-							[ -93.3918, 69.7581 ],
-							[ -93.6305, 69.7675 ],
-							[ -93.8715, 69.7432 ],
-							[ -94.0649, 69.688 ],
-							[ -94.1766, 69.6146 ],
-							[ -94.1996, 69.5282 ],
-							[ -94.1276, 69.4476 ],
-							[ -94.1209, 69.3902 ],
-							[ -93.8696, 69.4025 ],
-							[ -93.6138, 69.4699 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 9, 2020 16:41",
-				"Expires_UTC" : "March 9, 2020 17:41",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-03-09T17:41:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T16:41:59-00:00, urn:oid:2.49.0.1.124.2614023287.2020<br>Area: Taloyoak, Gjoa Haven",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.2614023287.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T16_41_59_00_00Iurn_oid_2.49.0.1.124.2614023287.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200309174159+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -81.8404, 45.3535 ],
 							[ -81.4622, 44.5866 ],
 							[ -81.2913, 44.5944 ],
@@ -597,50 +597,81 @@
 				"coordinates" : [
 					[
 						[
-							[ -68.8714, 63.5928 ],
-							[ -68.7424, 63.5556 ],
-							[ -68.5282, 63.576 ],
-							[ -68.2083, 63.5996 ],
-							[ -68.1887, 63.6089 ],
-							[ -68.1073, 63.6649 ],
-							[ -68.0685, 63.7293 ],
-							[ -68.0766, 63.796 ],
-							[ -68.1311, 63.8582 ],
-							[ -68.2269, 63.9099 ],
-							[ -68.3547, 63.946 ],
-							[ -68.5019, 63.9628 ],
-							[ -68.6536, 63.9586 ],
-							[ -68.7875, 63.9358 ],
-							[ -68.9058, 63.8939 ],
-							[ -68.9884, 63.838 ],
-							[ -69.0275, 63.7735 ],
-							[ -69.0195, 63.7069 ],
-							[ -68.9657, 63.6447 ],
-							[ -68.8714, 63.5928 ]
+							[ -80.6965, 46.106 ],
+							[ -80.9338, 46.0992 ],
+							[ -80.9338, 46.1701 ],
+							[ -81.4263, 46.1701 ],
+							[ -81.4263, 46.2733 ],
+							[ -82.0579, 46.2733 ],
+							[ -82.0476, 46.0965 ],
+							[ -82.0969, 45.9754 ],
+							[ -82.178, 45.9443 ],
+							[ -82.3291, 46.0103 ],
+							[ -83.3864, 46.0319 ],
+							[ -83.4793, 45.9477 ],
+							[ -83.5446, 45.8405 ],
+							[ -82.9541, 45.6034 ],
+							[ -81.9674, 45.3827 ],
+							[ -81.3483, 45.4495 ],
+							[ -81.3805, 45.849 ],
+							[ -80.8486, 45.8248 ],
+							[ -80.7432, 45.8894 ],
+							[ -80.7251, 45.8899 ],
+							[ -80.5706, 45.8856 ],
+							[ -79.7785, 45.901 ],
+							[ -79.6173, 45.9047 ],
+							[ -79.5385, 45.9261 ],
+							[ -79.2711, 45.9989 ],
+							[ -78.6213, 46.1756 ],
+							[ -78.3597, 46.2468 ],
+							[ -78.3417, 46.2607 ],
+							[ -78.3382, 46.2631 ],
+							[ -78.3344, 46.2912 ],
+							[ -78.3748, 46.3144 ],
+							[ -78.4765, 46.3158 ],
+							[ -78.5836, 46.3403 ],
+							[ -78.6878, 46.344 ],
+							[ -78.6857, 46.3783 ],
+							[ -78.7063, 46.403 ],
+							[ -78.8477, 46.4674 ],
+							[ -78.953, 46.5625 ],
+							[ -78.984, 46.6586 ],
+							[ -79.0486, 46.6951 ],
+							[ -79.0624, 46.7207 ],
+							[ -79.1058, 46.7145 ],
+							[ -79.1099, 46.7147 ],
+							[ -79.5386, 46.7145 ],
+							[ -80.3679, 46.7151 ],
+							[ -80.3679, 46.6307 ],
+							[ -80.276, 46.6307 ],
+							[ -80.276, 46.2601 ],
+							[ -80.4935, 46.2785 ],
+							[ -80.6965, 46.2675 ],
+							[ -80.6965, 46.106 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Blizzard",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "March 9, 2020 14:18",
-				"Expires_UTC" : "March 10, 2020 06:17",
-				"Summary" : "Description: Blizzard conditions continue in Iqaluit as a deep low pressure system over Davis Strait continues to push eastward. Strong northwest winds gusting to 70 km/h today will gradually moderate this evening. \n\nBlizzard conditions will gradually ease tonight but some blowing snow will persist into Tuesday morning.  \n\nExtreme wind chill values are also expected to occur near minus 50 Monday night into Tuesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-10T06:17:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T14:18:46-00:00, urn:oid:2.49.0.1.124.2868379976.2020<br>Area: Iqaluit",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 9, 2020 15:16",
+				"Expires_UTC" : "March 10, 2020 07:15",
+				"Summary" : "Description: Rainfall tonight.\n\nRain is forecast to develop late this afternoon and continue through the night. The rain will end as it changes to a brief period of snow Tuesday morning.\n\nRainfall amounts of 15 to 25 mm are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-10T07:15:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T15:16:25-00:00, urn:oid:2.49.0.1.124.0699053946.2020<br>Area: West Nipissing - French River, North Bay - Powassan - Mattawa, Espanola - Killarney, Manitoulin Island",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.2868379976.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T14_18_46_00_00Iurn_oid_2.49.0.1.124.2868379976.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.0699053946.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T15_16_25_00_00Iurn_oid_2.49.0.1.124.0699053946.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200310061746+00:00"
+				"Expires_FMEFormat" : "20200310071525+00:00"
 			}
 		},
 		{
@@ -827,90 +858,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T15_53_21_00_00Iurn_oid_2.49.0.1.124.1784391130.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200310075221+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -80.6965, 46.106 ],
-							[ -80.9338, 46.0992 ],
-							[ -80.9338, 46.1701 ],
-							[ -81.4263, 46.1701 ],
-							[ -81.4263, 46.2733 ],
-							[ -82.0579, 46.2733 ],
-							[ -82.0476, 46.0965 ],
-							[ -82.0969, 45.9754 ],
-							[ -82.178, 45.9443 ],
-							[ -82.3291, 46.0103 ],
-							[ -83.3864, 46.0319 ],
-							[ -83.4793, 45.9477 ],
-							[ -83.5446, 45.8405 ],
-							[ -82.9541, 45.6034 ],
-							[ -81.9674, 45.3827 ],
-							[ -81.3483, 45.4495 ],
-							[ -81.3805, 45.849 ],
-							[ -80.8486, 45.8248 ],
-							[ -80.7432, 45.8894 ],
-							[ -80.7251, 45.8899 ],
-							[ -80.5706, 45.8856 ],
-							[ -79.7785, 45.901 ],
-							[ -79.6173, 45.9047 ],
-							[ -79.5385, 45.9261 ],
-							[ -79.2711, 45.9989 ],
-							[ -78.6213, 46.1756 ],
-							[ -78.3597, 46.2468 ],
-							[ -78.3417, 46.2607 ],
-							[ -78.3382, 46.2631 ],
-							[ -78.3344, 46.2912 ],
-							[ -78.3748, 46.3144 ],
-							[ -78.4765, 46.3158 ],
-							[ -78.5836, 46.3403 ],
-							[ -78.6878, 46.344 ],
-							[ -78.6857, 46.3783 ],
-							[ -78.7063, 46.403 ],
-							[ -78.8477, 46.4674 ],
-							[ -78.953, 46.5625 ],
-							[ -78.984, 46.6586 ],
-							[ -79.0486, 46.6951 ],
-							[ -79.0624, 46.7207 ],
-							[ -79.1058, 46.7145 ],
-							[ -79.1099, 46.7147 ],
-							[ -79.5386, 46.7145 ],
-							[ -80.3679, 46.7151 ],
-							[ -80.3679, 46.6307 ],
-							[ -80.276, 46.6307 ],
-							[ -80.276, 46.2601 ],
-							[ -80.4935, 46.2785 ],
-							[ -80.6965, 46.2675 ],
-							[ -80.6965, 46.106 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 9, 2020 15:16",
-				"Expires_UTC" : "March 10, 2020 07:15",
-				"Summary" : "Description: Rainfall tonight.\n\nRain is forecast to develop late this afternoon and continue through the night. The rain will end as it changes to a brief period of snow Tuesday morning.\n\nRainfall amounts of 15 to 25 mm are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-10T07:15:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T15:16:25-00:00, urn:oid:2.49.0.1.124.0699053946.2020<br>Area: West Nipissing - French River, North Bay - Powassan - Mattawa, Espanola - Killarney, Manitoulin Island",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.0699053946.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T15_16_25_00_00Iurn_oid_2.49.0.1.124.0699053946.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200310071525+00:00"
 			}
 		},
 		{
@@ -1585,6 +1532,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T13_30_42_00_00Iurn_oid_2.49.0.1.124.2744952755.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200310052942+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -68.8714, 63.5928 ],
+							[ -68.7424, 63.5556 ],
+							[ -68.5282, 63.576 ],
+							[ -68.2083, 63.5996 ],
+							[ -68.1887, 63.6089 ],
+							[ -68.1073, 63.6649 ],
+							[ -68.0685, 63.7293 ],
+							[ -68.0766, 63.796 ],
+							[ -68.1311, 63.8582 ],
+							[ -68.2269, 63.9099 ],
+							[ -68.3547, 63.946 ],
+							[ -68.5019, 63.9628 ],
+							[ -68.6536, 63.9586 ],
+							[ -68.7875, 63.9358 ],
+							[ -68.9058, 63.8939 ],
+							[ -68.9884, 63.838 ],
+							[ -69.0275, 63.7735 ],
+							[ -69.0195, 63.7069 ],
+							[ -68.9657, 63.6447 ],
+							[ -68.8714, 63.5928 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 9, 2020 14:18",
+				"Expires_UTC" : "March 10, 2020 06:17",
+				"Summary" : "Description: Blizzard conditions continue in Iqaluit as a deep low pressure system over Davis Strait continues to push eastward. Strong northwest winds gusting to 70 km/h today will gradually moderate this evening. \n\nBlizzard conditions will gradually ease tonight but some blowing snow will persist into Tuesday morning.  \n\nExtreme wind chill values are also expected to occur near minus 50 Monday night into Tuesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-10T06:17:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-09T14:18:46-00:00, urn:oid:2.49.0.1.124.2868379976.2020<br>Area: Iqaluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-09:feed.atom/urn:oid:2.49.0.1.124.2868379976.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-09/2020_03_09T14_18_46_00_00Iurn_oid_2.49.0.1.124.2868379976.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200310061746+00:00"
 			}
 		}
 	]
