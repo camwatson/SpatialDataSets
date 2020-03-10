@@ -289,6 +289,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 10, 2020 08:05",
+				"Expires_UTC" : "March 11, 2020 00:04",
+				"Summary" : "Description: A prolonged period of freezing rain is possible overnight tonight and early Wednesday morning.\n\nLocation: Iles de la Madeleine.\n\nTime span: Overnight tonight into Wednesday morning.\n\nRemarks: Periods of snow are forecast to develop over the Islands this morning and then become mixed with or change to freezing rain tonight. The freezing rain may persist into early Wednesday morning, possibly mixing with rain as temperature rise just above zero. Precipitation will change to scattered flurries on Wednesday as brisk northwesterly winds bring colder temperatures.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-11T00:04:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T08:05:02-00:00, urn:oid:2.49.0.1.124.3312018562.2020<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.3312018562.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T08_05_02_00_00Iurn_oid_2.49.0.1.124.3312018562.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200311000402+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -74.8956, 45.0818 ],
 							[ -74.8504, 45.0288 ],
 							[ -74.8476, 45.0242 ],
@@ -476,52 +516,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T01_25_54_00_00Iurn_oid_2.49.0.1.124.3871056525.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200310172454+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -63.5006, 46.213 ],
-							[ -63.5565, 46.3787 ],
-							[ -63.6157, 46.5529 ],
-							[ -63.6271, 46.6222 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 10, 2020 00:55",
-				"Expires_UTC" : "March 10, 2020 16:54",
-				"Summary" : "Description: A prolonged period of freezing rain possible early Wednesday morning. \n\nLocation: western Prince Edward Island\n\nTime span: Overnight Tuesday into Wednesday morning.\n\nRemarks: Periods of snow are expected on Tuesday, with a risk of freezing rain in the afternoon and evening. Overnight Tuesday, an extended period of freezing rain may develop and could persist into Wednesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-03-10T16:54:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T00:55:34-00:00, urn:oid:2.49.0.1.124.4248664644.2020<br>Area: Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.4248664644.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T00_55_34_00_00Iurn_oid_2.49.0.1.124.4248664644.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200310165434+00:00"
 			}
 		},
 		{
@@ -1095,70 +1089,46 @@
 				"coordinates" : [
 					[
 						[
-							[ -120.8907, 49.786 ],
-							[ -120.7729, 49.9888 ],
-							[ -120.7214, 50.0349 ],
-							[ -120.7399, 50.0547 ],
-							[ -120.749, 50.0897 ],
-							[ -120.8355, 50.1026 ],
-							[ -120.9219, 50.0414 ],
-							[ -120.9248, 50.0391 ],
-							[ -120.9259, 50.0382 ],
-							[ -120.9499, 50.0174 ],
-							[ -120.9643, 50.0036 ],
-							[ -120.9788, 49.9878 ],
-							[ -120.9844, 49.976 ],
-							[ -120.9866, 49.9653 ],
-							[ -120.9845, 49.9536 ],
-							[ -120.9808, 49.9338 ],
-							[ -120.9792, 49.8966 ],
-							[ -120.99, 49.8621 ],
-							[ -121.0043, 49.8389 ],
-							[ -121.1656, 49.6414 ],
-							[ -121.1868, 49.6375 ],
-							[ -121.2122, 49.6261 ],
-							[ -121.2385, 49.5997 ],
-							[ -121.2701, 49.5483 ],
-							[ -121.3801, 49.4438 ],
-							[ -121.4071, 49.4109 ],
-							[ -121.4727, 49.3739 ],
-							[ -121.4658, 49.3436 ],
-							[ -121.4325, 49.3127 ],
-							[ -121.3423, 49.3461 ],
-							[ -121.2446, 49.3861 ],
-							[ -121.1589, 49.4625 ],
-							[ -121.0615, 49.551 ],
-							[ -121.0148, 49.5729 ],
-							[ -121.0136, 49.5735 ],
-							[ -121.0134, 49.5736 ],
-							[ -120.9498, 49.6123 ],
-							[ -120.9364, 49.6316 ],
-							[ -120.937, 49.6573 ],
-							[ -120.8907, 49.786 ]
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.0222, 55.8603 ],
+							[ -60.8884, 55.8597 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.798, 55.9666 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"Title" : "Extreme Cold Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snowfall",
+				"event" : "Extreme Cold",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 10, 2020 05:25",
-				"Expires_UTC" : "March 10, 2020 21:24",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA Pacific front will bring snow to Coquihalla Highway - Hope to Merritt beginning Tuesday morning. Snowfall will intensify Tuesday night with 15 to 20 cm of snow expected near the summit. Snow is forecast to ease early Wednesday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-10T21:24:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T05:25:15-00:00, urn:oid:2.49.0.1.124.2486220236.2020<br>Area: Coquihalla Highway - Hope to Merritt",
+				"LastUpdate_UTC" : "March 10, 2020 02:37",
+				"Expires_UTC" : "March 10, 2020 12:29",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -45.\n\nMaximum winds: 50 km/h with gusts to 70.\n\nLocations: Nain and Natuashish.\n\nTime span: continuing until late overnight tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-10T12:29:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T02:37:24-00:00, urn:oid:2.49.0.1.124.3287409719.2020<br>Area: Nain and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.2486220236.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T05_25_15_00_00Iurn_oid_2.49.0.1.124.2486220236.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.3287409719.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T02_37_24_00_00Iurn_oid_2.49.0.1.124.3287409719.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200310212415+00:00"
+				"Expires_FMEFormat" : "20200310122924+00:00"
 			}
 		},
 		{
@@ -1317,6 +1287,82 @@
 				"coordinates" : [
 					[
 						[
+							[ -130.117, 55.7008 ],
+							[ -130.1003, 55.6917 ],
+							[ -130.1134, 55.5965 ],
+							[ -130.1118, 55.5667 ],
+							[ -130.0753, 55.5036 ],
+							[ -130.0158, 55.3804 ],
+							[ -130.0045, 55.3395 ],
+							[ -129.9976, 55.3324 ],
+							[ -129.9604, 55.3002 ],
+							[ -129.9932, 55.2589 ],
+							[ -129.9147, 55.1546 ],
+							[ -129.909, 55.147 ],
+							[ -129.8194, 55.2664 ],
+							[ -129.7755, 55.2934 ],
+							[ -129.764, 55.3494 ],
+							[ -129.7135, 55.3791 ],
+							[ -129.7161, 55.4149 ],
+							[ -129.7114, 55.4171 ],
+							[ -128.4667, 56.0247 ],
+							[ -128.6869, 56.5188 ],
+							[ -128.9927, 57.0307 ],
+							[ -129.0934, 57.0517 ],
+							[ -129.2187, 57.031 ],
+							[ -130.2942, 57.0779 ],
+							[ -131.2855, 57.0337 ],
+							[ -131.6605, 57.0683 ],
+							[ -132.0488, 57.037 ],
+							[ -132.1235, 56.8736 ],
+							[ -131.901, 56.7536 ],
+							[ -131.8353, 56.5992 ],
+							[ -131.472, 56.5526 ],
+							[ -131.0873, 56.406 ],
+							[ -130.6233, 56.2668 ],
+							[ -130.426, 56.1415 ],
+							[ -130.2462, 56.0964 ],
+							[ -130.1037, 56.1227 ],
+							[ -130.0176, 55.9119 ],
+							[ -130.0137, 55.8837 ],
+							[ -130.1076, 55.7973 ],
+							[ -130.1312, 55.7677 ],
+							[ -130.1366, 55.752 ],
+							[ -130.136, 55.7193 ],
+							[ -130.117, 55.7008 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 10, 2020 04:17",
+				"Expires_UTC" : "March 10, 2020 20:16",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA frontal system moving onto the north coast is giving heavy snow to the Stewart area. Snow is expected to continue through the night and then change to occasionally heavy flurries Tuesday morning. By Tuesday afternoon, the flurries will change to or become mixed with showers.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-10T20:16:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T04:17:04-00:00, urn:oid:2.49.0.1.124.4102415230.2020<br>Area: North Coast - inland including Stewart",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.4102415230.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T04_17_04_00_00Iurn_oid_2.49.0.1.124.4102415230.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200310201604+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -76.4994, 48.6998 ],
 							[ -76.4994, 49.2832 ],
 							[ -76.4997, 49.2832 ],
@@ -1435,49 +1481,46 @@
 				"coordinates" : [
 					[
 						[
-							[ -130.117, 55.7008 ],
-							[ -130.1003, 55.6917 ],
-							[ -130.1134, 55.5965 ],
-							[ -130.1118, 55.5667 ],
-							[ -130.0753, 55.5036 ],
-							[ -130.0158, 55.3804 ],
-							[ -130.0045, 55.3395 ],
-							[ -129.9976, 55.3324 ],
-							[ -129.9604, 55.3002 ],
-							[ -129.9932, 55.2589 ],
-							[ -129.9147, 55.1546 ],
-							[ -129.909, 55.147 ],
-							[ -129.8194, 55.2664 ],
-							[ -129.7755, 55.2934 ],
-							[ -129.764, 55.3494 ],
-							[ -129.7135, 55.3791 ],
-							[ -129.7161, 55.4149 ],
-							[ -129.7114, 55.4171 ],
-							[ -128.4667, 56.0247 ],
-							[ -128.6869, 56.5188 ],
-							[ -128.9927, 57.0307 ],
-							[ -129.0934, 57.0517 ],
-							[ -129.2187, 57.031 ],
-							[ -130.2942, 57.0779 ],
-							[ -131.2855, 57.0337 ],
-							[ -131.6605, 57.0683 ],
-							[ -132.0488, 57.037 ],
-							[ -132.1235, 56.8736 ],
-							[ -131.901, 56.7536 ],
-							[ -131.8353, 56.5992 ],
-							[ -131.472, 56.5526 ],
-							[ -131.0873, 56.406 ],
-							[ -130.6233, 56.2668 ],
-							[ -130.426, 56.1415 ],
-							[ -130.2462, 56.0964 ],
-							[ -130.1037, 56.1227 ],
-							[ -130.0176, 55.9119 ],
-							[ -130.0137, 55.8837 ],
-							[ -130.1076, 55.7973 ],
-							[ -130.1312, 55.7677 ],
-							[ -130.1366, 55.752 ],
-							[ -130.136, 55.7193 ],
-							[ -130.117, 55.7008 ]
+							[ -120.8907, 49.786 ],
+							[ -120.7729, 49.9888 ],
+							[ -120.7214, 50.0349 ],
+							[ -120.7399, 50.0547 ],
+							[ -120.749, 50.0897 ],
+							[ -120.8355, 50.1026 ],
+							[ -120.9219, 50.0414 ],
+							[ -120.9248, 50.0391 ],
+							[ -120.9259, 50.0382 ],
+							[ -120.9499, 50.0174 ],
+							[ -120.9643, 50.0036 ],
+							[ -120.9788, 49.9878 ],
+							[ -120.9844, 49.976 ],
+							[ -120.9866, 49.9653 ],
+							[ -120.9845, 49.9536 ],
+							[ -120.9808, 49.9338 ],
+							[ -120.9792, 49.8966 ],
+							[ -120.99, 49.8621 ],
+							[ -121.0043, 49.8389 ],
+							[ -121.1656, 49.6414 ],
+							[ -121.1868, 49.6375 ],
+							[ -121.2122, 49.6261 ],
+							[ -121.2385, 49.5997 ],
+							[ -121.2701, 49.5483 ],
+							[ -121.3801, 49.4438 ],
+							[ -121.4071, 49.4109 ],
+							[ -121.4727, 49.3739 ],
+							[ -121.4658, 49.3436 ],
+							[ -121.4325, 49.3127 ],
+							[ -121.3423, 49.3461 ],
+							[ -121.2446, 49.3861 ],
+							[ -121.1589, 49.4625 ],
+							[ -121.0615, 49.551 ],
+							[ -121.0148, 49.5729 ],
+							[ -121.0136, 49.5735 ],
+							[ -121.0134, 49.5736 ],
+							[ -120.9498, 49.6123 ],
+							[ -120.9364, 49.6316 ],
+							[ -120.937, 49.6573 ],
+							[ -120.8907, 49.786 ]
 						]
 					]
 				]
@@ -1490,66 +1533,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 10, 2020 04:17",
-				"Expires_UTC" : "March 10, 2020 20:16",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA frontal system moving onto the north coast is giving heavy snow to the Stewart area. Snow is expected to continue through the night and then change to occasionally heavy flurries Tuesday morning. By Tuesday afternoon, the flurries will change to or become mixed with showers.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-10T20:16:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T04:17:04-00:00, urn:oid:2.49.0.1.124.4102415230.2020<br>Area: North Coast - inland including Stewart",
+				"LastUpdate_UTC" : "March 10, 2020 05:25",
+				"Expires_UTC" : "March 10, 2020 21:24",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA Pacific front will bring snow to Coquihalla Highway - Hope to Merritt beginning Tuesday morning. Snowfall will intensify Tuesday night with 15 to 20 cm of snow expected near the summit. Snow is forecast to ease early Wednesday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-10T21:24:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T05:25:15-00:00, urn:oid:2.49.0.1.124.2486220236.2020<br>Area: Coquihalla Highway - Hope to Merritt",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.4102415230.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T04_17_04_00_00Iurn_oid_2.49.0.1.124.4102415230.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.2486220236.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T05_25_15_00_00Iurn_oid_2.49.0.1.124.2486220236.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200310201604+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -56.8199, 50.58 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.4008, 50.5801 ],
-							[ -56.8199, 50.58 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 10, 2020 07:44",
-				"Expires_UTC" : "March 10, 2020 16:59",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -35.\n\nLocations: northern Newfoundland.\n\nTime span: continuing this morning.\n\nRemarks: conditions will improve as winds ease today with slowly rising temperatures.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-10T16:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T07:44:57-00:00, urn:oid:2.49.0.1.124.2129319601.2020<br>Area: Northern Peninsula East, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.2129319601.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T07_44_57_00_00Iurn_oid_2.49.0.1.124.2129319601.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200310165957+00:00"
+				"Expires_FMEFormat" : "20200310212415+00:00"
 			}
 		},
 		{
@@ -1604,6 +1599,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T00_57_46_00_00Iurn_oid_2.49.0.1.124.4108619336.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200310165646+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.4008, 50.5801 ],
+							[ -56.8199, 50.58 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 10, 2020 07:44",
+				"Expires_UTC" : "March 10, 2020 16:59",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -35.\n\nLocations: northern Newfoundland.\n\nTime span: continuing this morning.\n\nRemarks: conditions will improve as winds ease today with slowly rising temperatures.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-10T16:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T07:44:57-00:00, urn:oid:2.49.0.1.124.2129319601.2020<br>Area: Northern Peninsula East, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.2129319601.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T07_44_57_00_00Iurn_oid_2.49.0.1.124.2129319601.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200310165957+00:00"
 			}
 		},
 		{
@@ -1675,60 +1718,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -80.4935, 46.2785 ],
-							[ -80.276, 46.2601 ],
-							[ -80.276, 46.6307 ],
-							[ -80.3679, 46.6307 ],
-							[ -80.3679, 46.7151 ],
-							[ -80.566, 46.7261 ],
-							[ -80.566, 46.8912 ],
-							[ -80.8125, 46.8912 ],
-							[ -80.8125, 46.9683 ],
-							[ -81.0754, 46.97 ],
-							[ -81.939, 46.9696 ],
-							[ -81.939, 46.6086 ],
-							[ -82.0579, 46.6086 ],
-							[ -82.0579, 46.2733 ],
-							[ -81.4263, 46.2733 ],
-							[ -81.4263, 46.1701 ],
-							[ -80.9338, 46.1701 ],
-							[ -80.9338, 46.0992 ],
-							[ -80.6965, 46.106 ],
-							[ -80.6965, 46.2675 ],
-							[ -80.4935, 46.2785 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 10, 2020 01:31",
-				"Expires_UTC" : "March 10, 2020 17:30",
-				"Summary" : "Description: Temperatures falling below the freezing mark early Tuesday morning after rain. \n\nPeriods of rain will change to snow tonight as temperatures fall below zero. During this transition, there is a risk of brief period of freezing rain. \n\nIn addition, roads and sidewalks may become icy as any water remaining on surfaces after the rain will likely freeze when temperatures fall below zero early Tuesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-10T17:30:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T01:31:50-00:00, urn:oid:2.49.0.1.124.1153915719.2020<br>Area: Greater Sudbury and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.1153915719.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T01_31_50_00_00Iurn_oid_2.49.0.1.124.1153915719.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200310173050+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -82.631, 47.221 ],
 							[ -82.6356, 46.9695 ],
 							[ -81.939, 46.9696 ],
@@ -1786,6 +1775,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T04_37_47_00_00Iurn_oid_2.49.0.1.124.3525403416.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200310175947+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -80.4935, 46.2785 ],
+							[ -80.276, 46.2601 ],
+							[ -80.276, 46.6307 ],
+							[ -80.3679, 46.6307 ],
+							[ -80.3679, 46.7151 ],
+							[ -80.566, 46.7261 ],
+							[ -80.566, 46.8912 ],
+							[ -80.8125, 46.8912 ],
+							[ -80.8125, 46.9683 ],
+							[ -81.0754, 46.97 ],
+							[ -81.939, 46.9696 ],
+							[ -81.939, 46.6086 ],
+							[ -82.0579, 46.6086 ],
+							[ -82.0579, 46.2733 ],
+							[ -81.4263, 46.2733 ],
+							[ -81.4263, 46.1701 ],
+							[ -80.9338, 46.1701 ],
+							[ -80.9338, 46.0992 ],
+							[ -80.6965, 46.106 ],
+							[ -80.6965, 46.2675 ],
+							[ -80.4935, 46.2785 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 10, 2020 01:31",
+				"Expires_UTC" : "March 10, 2020 17:30",
+				"Summary" : "Description: Temperatures falling below the freezing mark early Tuesday morning after rain. \n\nPeriods of rain will change to snow tonight as temperatures fall below zero. During this transition, there is a risk of brief period of freezing rain. \n\nIn addition, roads and sidewalks may become icy as any water remaining on surfaces after the rain will likely freeze when temperatures fall below zero early Tuesday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-10T17:30:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T01:31:50-00:00, urn:oid:2.49.0.1.124.1153915719.2020<br>Area: Greater Sudbury and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.1153915719.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T01_31_50_00_00Iurn_oid_2.49.0.1.124.1153915719.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200310173050+00:00"
 			}
 		},
 		{
@@ -2214,46 +2257,43 @@
 				"coordinates" : [
 					[
 						[
-							[ -60.7945, 56.6786 ],
-							[ -61.1044, 56.5708 ],
-							[ -61.8607, 56.6166 ],
-							[ -62.4923, 56.7524 ],
-							[ -63.0043, 56.7494 ],
-							[ -63.0038, 56.0019 ],
-							[ -63.0037, 55.8296 ],
-							[ -61.891, 55.378 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.0222, 55.8603 ],
-							[ -60.8884, 55.8597 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.798, 55.9666 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.7945, 56.6786 ]
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -63.5006, 46.213 ],
+							[ -63.5565, 46.3787 ],
+							[ -63.6157, 46.5529 ],
+							[ -63.6271, 46.6222 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 10, 2020 02:37",
-				"Expires_UTC" : "March 10, 2020 12:29",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nColdest wind chills: near -45.\n\nMaximum winds: 50 km/h with gusts to 70.\n\nLocations: Nain and Natuashish.\n\nTime span: continuing until late overnight tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-10T12:29:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T02:37:24-00:00, urn:oid:2.49.0.1.124.3287409719.2020<br>Area: Nain and vicinity",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 10, 2020 08:02",
+				"Expires_UTC" : "March 11, 2020 00:01",
+				"Summary" : "Description: Prolonged periods of freezing rain are possible this afternoon and early Wednesday morning. \n\nLocation: western Prince Edward Island\n\nTime span: Late this afternoon into this evening, then overnight tonight into Wednesday morning.\n\nRemarks: Periods of snow are expected to change to ice pellets mixed with freezing rain this afternoon and then end early this evening. Temperatures are forecast to hover near zero tonight, and it is possible that an extended period of freezing rain mixed with rain will develop overnight tonight.  Precipitation will change to flurries on Wednesday morning as brisk northwesterly winds bring in colder temperatures.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-03-11T00:01:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T08:02:54-00:00, urn:oid:2.49.0.1.124.0529438332.2020<br>Area: Prince County P.E.I.",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.3287409719.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T02_37_24_00_00Iurn_oid_2.49.0.1.124.3287409719.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.0529438332.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T08_02_54_00_00Iurn_oid_2.49.0.1.124.0529438332.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200310122924+00:00"
+				"Expires_FMEFormat" : "20200311000154+00:00"
 			}
 		}
 	]
