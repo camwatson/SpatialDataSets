@@ -53,6 +53,77 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.0222, 55.8603 ],
+							[ -60.8884, 55.8597 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.798, 55.9666 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ]
+						]
+					],
+					[
+						[
+							[ -59.3729, 54.19 ],
+							[ -59.0361, 54.0269 ],
+							[ -58.8814, 54.0182 ],
+							[ -58.8483, 53.9346 ],
+							[ -58.3667, 53.72 ],
+							[ -57.3704, 54.1207 ],
+							[ -57.0958, 54.136 ],
+							[ -56.7055, 54.7584 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.0305, 55.2374 ],
+							[ -60.1066, 55.1369 ],
+							[ -60.2298, 55.0701 ],
+							[ -60.3072, 54.9832 ],
+							[ -60.3074, 54.9828 ],
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 11, 2020 08:15",
+				"Expires_UTC" : "March 12, 2020 00:14",
+				"Summary" : "Description: Snow and blowing expected Thursday and Thursday night.\n\nTotal snowfall: 5 to 15 cm.\n\nMaximum wind gusts: 80 km/h.\n\nLocations: from Natuashish to Rigolet and vicinity.\n\nTime span: Thursday into Friday morning.\n\nRemarks: Snow, and strong northwesterly winds, are expected to develop in the Natuashish area Thursday morning and spread southward along the coast  to Makkovik and Rigolet Thursday night. Fresh snowfall combined with strong winds will combine to reduce visibilities in blowing snow.\n\nA blowing snow advisory has been issued for Hopedale and vicinity. The public is advised to monitor future forecasts as warnings or advisories may be issued.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-12T00:14:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-11T08:15:20-00:00, urn:oid:2.49.0.1.124.1776620428.2020<br>Area: Rigolet and vicinity, Postville - Makkovik, Nain and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-11:feed.atom/urn:oid:2.49.0.1.124.1776620428.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-11/2020_03_11T08_15_20_00_00Iurn_oid_2.49.0.1.124.1776620428.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200312001420+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -69.0682, 47.4227 ],
 							[ -69.0536, 47.4213 ],
 							[ -69.0574, 47.2989 ],
@@ -218,6 +289,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T19_39_37_00_00Iurn_oid_2.49.0.1.124.0498038148.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200311113837+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ],
+							[ -60.3074, 54.9828 ],
+							[ -60.3072, 54.9832 ],
+							[ -60.2298, 55.0701 ],
+							[ -60.1066, 55.1369 ],
+							[ -60.0305, 55.2374 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.798, 55.9666 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8884, 55.8597 ],
+							[ -61.0222, 55.8603 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.891, 55.378 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 11, 2020 08:14",
+				"Expires_UTC" : "March 12, 2020 00:14",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-12T00:14:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-11T08:14:46-00:00, urn:oid:2.49.0.1.124.2623048425.2020<br>Area: Hopedale and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-11:feed.atom/urn:oid:2.49.0.1.124.2623048425.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-11/2020_03_11T08_14_46_00_00Iurn_oid_2.49.0.1.124.2623048425.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200312001446+00:00"
 			}
 		},
 		{
@@ -702,25 +823,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 11, 2020 07:19",
-				"Expires_UTC" : "March 11, 2020 08:19",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-03-11T08:19:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-11T07:19:37-00:00, urn:oid:2.49.0.1.124.0274496470.2020<br>Area: M.D. of Ranchland, M.D. of Pincher Creek near Cowley Burmis and Maycroft, Piikani Reserve, Municipality of Crowsnest Pass including Coleman and Frank, M.D. of Pincher Creek near Beauvais Lake Prov. Park, M.D. of Pincher Creek near Pincher Creek and Twin Butte, Waterton Lakes Nat. Park and Blood Res. 148A, M.D. of Willow Creek near Granum and Peigan Timber Limit, M.D. of Willow Creek near Fort Macleod, Blood Res. 148 including Stand Off, Cardston Co. near Hill Spring and Glenwood, Cardston Co. near Magrath and Woolford Prov. Park, Cardston Co. near Del Bonita and Kimball, Cardston Co. near Mountain View and Beazer, Cardston Co. near Cardston and Carway, Co. of Lethbridge near Coalhurst Nobleford and Barons, Co. of Lethbridge near Picture Butte and Turin, Co. of Lethbridge near Coaldale, City of Lethbridge, M.D. of Taber near Vauxhall and Hays, M.D. of Taber near Taber and Barnwell, M.D. of Taber near Grassy Lake and Hwys 877 and 513, Co. of Warner near Raymond Stirling and New Dayton, Co. of Warner near Wrentham, Co. of Warner near Warner, Co. of Warner near Milk River and Coutts, Co. of Warner near Writing-On-Stone Prov. Park, Co. of Forty Mile near Skiff",
+				"urgency" : "Immediate",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 11, 2020 01:15",
+				"Expires_UTC" : "March 11, 2020 16:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong west winds with gusts up to 110 km/h will persist tonight.  Winds will diminish by Wednesday morning.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-03-11T16:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-11T01:15:29-00:00, urn:oid:2.49.0.1.124.3539855004.2020<br>Area: M.D. of Ranchland, M.D. of Pincher Creek near Cowley Burmis and Maycroft, Piikani Reserve, Municipality of Crowsnest Pass including Coleman and Frank, M.D. of Pincher Creek near Beauvais Lake Prov. Park, M.D. of Pincher Creek near Pincher Creek and Twin Butte, Waterton Lakes Nat. Park and Blood Res. 148A, M.D. of Willow Creek near Granum and Peigan Timber Limit, M.D. of Willow Creek near Fort Macleod, Blood Res. 148 including Stand Off, Cardston Co. near Hill Spring and Glenwood, Cardston Co. near Magrath and Woolford Prov. Park, Cardston Co. near Del Bonita and Kimball, Cardston Co. near Mountain View and Beazer, Cardston Co. near Cardston and Carway, Co. of Lethbridge near Coalhurst Nobleford and Barons, Co. of Lethbridge near Picture Butte and Turin, Co. of Lethbridge near Coaldale, City of Lethbridge, M.D. of Taber near Vauxhall and Hays, M.D. of Taber near Taber and Barnwell, M.D. of Taber near Grassy Lake and Hwys 877 and 513, Co. of Warner near Raymond Stirling and New Dayton, Co. of Warner near Wrentham, Co. of Warner near Warner, Co. of Warner near Milk River and Coutts, Co. of Warner near Writing-On-Stone Prov. Park, Co. of Forty Mile near Skiff",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-11:feed.atom/urn:oid:2.49.0.1.124.0274496470.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-11/2020_03_11T07_19_37_00_00Iurn_oid_2.49.0.1.124.0274496470.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-11:feed.atom/urn:oid:2.49.0.1.124.3539855004.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-11/2020_03_11T01_15_29_00_00Iurn_oid_2.49.0.1.124.3539855004.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200311081937+00:00"
+				"Expires_FMEFormat" : "20200311165929+00:00"
 			}
 		},
 		{
@@ -888,25 +1009,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 11, 2020 07:19",
-				"Expires_UTC" : "March 11, 2020 08:19",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-03-11T08:19:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-11T07:19:29-00:00, urn:oid:2.49.0.1.124.4240369592.2020<br>Area: M.D. of Bighorn near Ghost River Wilderness, M.D. of Bighorn near Canmore Exshaw and Ghost Lake, Kananaskis Improvement District near Kananaskis Village, Kananaskis Improvement District near Highwood House, Rocky View Co. near Bragg Creek and Tsuu T'ina Res., Foothills Co. near Priddis and Brown-Lowery Prov. Park, Foothills Co. near Turner Valley and Black Diamond, Foothills Co. near Longview and Eden Valley Res., Foothills Co. near Okotoks and De Winton, Foothills Co. near High River and Aldersyde, Foothills Co. near Cayley, M.D. of Willow Creek near Nanton and Parkland, M.D. of Willow Creek near Claresholm and Stavely",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 10, 2020 21:47",
+				"Expires_UTC" : "March 11, 2020 10:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong west winds with gusts up to 100 km/h will persist in wind prone areas this evening.  Winds will begin to diminish overnight.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-03-11T10:59:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T21:47:15-00:00, urn:oid:2.49.0.1.124.0722591261.2020<br>Area: M.D. of Bighorn near Ghost River Wilderness, M.D. of Bighorn near Canmore Exshaw and Ghost Lake, Kananaskis Improvement District near Kananaskis Village, Kananaskis Improvement District near Highwood House, Rocky View Co. near Bragg Creek and Tsuu T'ina Res., Foothills Co. near Priddis and Brown-Lowery Prov. Park, Foothills Co. near Turner Valley and Black Diamond, Foothills Co. near Longview and Eden Valley Res., Foothills Co. near Okotoks and De Winton, Foothills Co. near High River and Aldersyde, Foothills Co. near Cayley, M.D. of Willow Creek near Nanton and Parkland, M.D. of Willow Creek near Claresholm and Stavely",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-11:feed.atom/urn:oid:2.49.0.1.124.4240369592.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-11/2020_03_11T07_19_29_00_00Iurn_oid_2.49.0.1.124.4240369592.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.0722591261.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T21_47_15_00_00Iurn_oid_2.49.0.1.124.0722591261.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200311081929+00:00"
+				"Expires_FMEFormat" : "20200311105915+00:00"
 			}
 		},
 		{
