@@ -299,61 +299,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -68.6166, 48.0496 ],
-							[ -68.3823, 47.9128 ],
-							[ -68.3823, 47.9161 ],
-							[ -68.1227, 47.9163 ],
-							[ -68.1226, 47.9998 ],
-							[ -67.6656, 48 ],
-							[ -67.6035, 47.9999 ],
-							[ -67.6276, 48.2166 ],
-							[ -67.6498, 48.4154 ],
-							[ -67.6687, 48.5824 ],
-							[ -67.669, 48.5823 ],
-							[ -67.6692, 48.5823 ],
-							[ -67.7056, 48.6956 ],
-							[ -67.7304, 48.7727 ],
-							[ -67.7305, 48.773 ],
-							[ -67.508, 49.2382 ],
-							[ -68.5214, 48.9033 ],
-							[ -69.2423, 48.4587 ],
-							[ -68.9741, 48.2826 ],
-							[ -68.6207, 48.05 ],
-							[ -68.6193, 48.0511 ],
-							[ -68.6166, 48.0496 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 11, 2020 03:06",
-				"Expires_UTC" : "March 11, 2020 04:06",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n###<br>Expires: 2020-03-11T04:06:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-11T03:06:55-00:00, urn:oid:2.49.0.1.124.1576697117.2020<br>Area: Mont-Joli area, Le Bic - Rimouski area, Rimouski Wildlife Reserve area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-11:feed.atom/urn:oid:2.49.0.1.124.1576697117.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-11/2020_03_11T03_06_55_00_00Iurn_oid_2.49.0.1.124.1576697117.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200311040655+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -67.3011, 46.2169 ],
 							[ -66.2359, 46.3016 ],
 							[ -66.2355, 46.3017 ],
@@ -1520,24 +1465,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory Ended",
+				"Title" : "Blowing Snow Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Blowing Snow",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 11, 2020 03:06",
-				"Expires_UTC" : "March 11, 2020 04:06",
-				"Summary" : "Description: Conditions are no longer expected to meet blowing snow advisory criteria.\n\n###<br>Expires: 2020-03-11T04:06:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-11T03:06:33-00:00, urn:oid:2.49.0.1.124.1524360409.2020<br>Area: Baie-Trinité area, Sept-Îles - Port-Cartier area",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 10, 2020 19:38",
+				"Expires_UTC" : "March 11, 2020 11:37",
+				"Summary" : "Description: Snow combined with strong winds will reduce visibilities through this evening.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-11T11:37:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T19:38:18-00:00, urn:oid:2.49.0.1.124.2448020963.2020<br>Area: Baie-Trinité area, Sept-Îles - Port-Cartier area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-11:feed.atom/urn:oid:2.49.0.1.124.1524360409.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-11/2020_03_11T03_06_33_00_00Iurn_oid_2.49.0.1.124.1524360409.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.2448020963.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T19_38_18_00_00Iurn_oid_2.49.0.1.124.2448020963.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200311040633+00:00"
+				"Expires_FMEFormat" : "20200311113718+00:00"
 			}
 		},
 		{
