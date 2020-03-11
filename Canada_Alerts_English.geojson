@@ -1101,56 +1101,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -119.5942, 51.63 ],
-							[ -119.3886, 51.4936 ],
-							[ -118.9999, 51.2999 ],
-							[ -118.9239, 51.0175 ],
-							[ -118.8, 50.7499 ],
-							[ -118.0428, 50.7403 ],
-							[ -117.4199, 50.7499 ],
-							[ -117.1128, 50.7401 ],
-							[ -116.83, 50.7499 ],
-							[ -117.2563, 51.2202 ],
-							[ -117.6999, 51.63 ],
-							[ -118.4615, 52.1158 ],
-							[ -119.3, 52.5999 ],
-							[ -119.3821, 52.484 ],
-							[ -119.4599, 52.33 ],
-							[ -119.5448, 52.009 ],
-							[ -119.5942, 51.63 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 11, 2020 10:44",
-				"Expires_UTC" : "March 11, 2020 11:44",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-11T11:44:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-11T10:44:57-00:00, urn:oid:2.49.0.1.124.3418514299.2020<br>Area: North Columbia, West Columbia",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-11:feed.atom/urn:oid:2.49.0.1.124.3418514299.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-11/2020_03_11T10_44_57_00_00Iurn_oid_2.49.0.1.124.3418514299.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200311114457+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -117.141, 49.6799 ],
 							[ -117.1264, 49.4054 ],
 							[ -117.0727, 49.0992 ],
@@ -1202,6 +1152,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-11/2020_03_11T05_33_58_00_00Iurn_oid_2.49.0.1.124.1836934310.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200311162458+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -119.5942, 51.63 ],
+							[ -119.3886, 51.4936 ],
+							[ -118.9999, 51.2999 ],
+							[ -118.9239, 51.0175 ],
+							[ -118.8, 50.7499 ],
+							[ -118.0428, 50.7403 ],
+							[ -117.4199, 50.7499 ],
+							[ -117.1128, 50.7401 ],
+							[ -116.83, 50.7499 ],
+							[ -117.2563, 51.2202 ],
+							[ -117.6999, 51.63 ],
+							[ -118.4615, 52.1158 ],
+							[ -119.3, 52.5999 ],
+							[ -119.3821, 52.484 ],
+							[ -119.4599, 52.33 ],
+							[ -119.5448, 52.009 ],
+							[ -119.5942, 51.63 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 10, 2020 21:52",
+				"Expires_UTC" : "March 11, 2020 13:51",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm continues.\n\nSnow, at times heavy, continues tonight over the North and West Columbia regions. Total snowfall accumulation of 15 to 25 cm is expected by Wednesday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-11T13:51:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-10T21:52:35-00:00, urn:oid:2.49.0.1.124.1355052867.2020<br>Area: North Columbia, West Columbia",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-10:feed.atom/urn:oid:2.49.0.1.124.1355052867.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-10/2020_03_10T21_52_35_00_00Iurn_oid_2.49.0.1.124.1355052867.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200311135135+00:00"
 			}
 		},
 		{
