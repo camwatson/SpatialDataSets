@@ -871,49 +871,43 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.4419, 49.5091 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ],
-							[ -84.0149, 49.9497 ],
-							[ -81.4419, 49.5091 ]
+							[ -79.1674, 53.684 ],
+							[ -79.0663, 53.0129 ],
+							[ -78.7944, 52.4953 ],
+							[ -78.5825, 52.3523 ],
+							[ -79.0724, 51.785 ],
+							[ -78.9371, 51.6314 ],
+							[ -76, 51.6249 ],
+							[ -75.9579, 52.9714 ],
+							[ -76, 54.1505 ],
+							[ -77.5048, 54.1866 ],
+							[ -79.0758, 54.1628 ],
+							[ -79.3716, 54.1181 ],
+							[ -79.1674, 53.684 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
 				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 12, 2020 09:11",
-				"Expires_UTC" : "March 13, 2020 01:10",
-				"Summary" : "Description: Winter storm likely tonight to Friday night. \n\nLight snow is expected to develop today and become heavier tonight. The heavy snow will continue until Friday night before tapering to flurries on Saturday. \n\nStrong gusty winds up to 70 km/h will accompany this storm causing blowing snow and low visibilities on Friday. \n\nSnowfall amounts could exceed 25 cm in some regions.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T01:10:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T09:11:16-00:00, urn:oid:2.49.0.1.124.0982469680.2020<br>Area: Fraserdale - Pledger Lake, Little Abitibi - Kesagami Lake",
+				"LastUpdate_UTC" : "March 12, 2020 14:50",
+				"Expires_UTC" : "March 13, 2020 06:49",
+				"Summary" : "Description: Poor visibilities due to snow and blowing snow are expected on Friday, especially over southern section.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-13T06:49:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T14:50:17-00:00, urn:oid:2.49.0.1.124.4042177594.2020<br>Area: James Bay and La Grande River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.0982469680.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T09_11_16_00_00Iurn_oid_2.49.0.1.124.0982469680.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.4042177594.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T14_50_17_00_00Iurn_oid_2.49.0.1.124.4042177594.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313011016+00:00"
+				"Expires_FMEFormat" : "20200313064917+00:00"
 			}
 		},
 		{
@@ -965,61 +959,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T14_29_35_00_00Iurn_oid_2.49.0.1.124.1357747517.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313062835+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.1596, 51.3124 ],
-							[ -81.4395, 50.7218 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.496, 51.0628 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.8297, 51.4271 ],
-							[ -79.8263, 51.2605 ],
-							[ -80.0462, 51.3571 ],
-							[ -80.2894, 51.3971 ],
-							[ -80.3594, 51.6003 ],
-							[ -80.6927, 51.9724 ],
-							[ -81.4236, 52.4881 ],
-							[ -82.2216, 53.0256 ],
-							[ -81.9632, 53.3416 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.2294, 54.0004 ],
-							[ -82.2369, 54.0006 ],
-							[ -83.7002, 54.0287 ],
-							[ -83.0302, 52.2453 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.1596, 51.3124 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 12, 2020 09:11",
-				"Expires_UTC" : "March 13, 2020 01:10",
-				"Summary" : "Description: Winter storm likely tonight to Friday night. \n\nLight snow is expected to develop today and become heavier tonight. The heavy snow will continue until Friday night before tapering to flurries on Saturday. \n\nStrong gusty winds up to 70 km/h will accompany this storm causing blowing snow and low visibilities on Friday. \n\nSnowfall amounts could exceed 25 cm in some regions.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T01:10:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T09:11:16-00:00, urn:oid:2.49.0.1.124.0602590436.2020<br>Area: Attawapiskat, Fort Albany, Moosonee",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.0602590436.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T09_11_16_00_00Iurn_oid_2.49.0.1.124.0602590436.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313011016+00:00"
 			}
 		},
 		{
@@ -1663,58 +1602,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -85.9469, 48.8844 ],
-							[ -84.0089, 48.5511 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ],
-							[ -84.021, 49.9497 ],
-							[ -84.05, 51.1582 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.4321, 49.9482 ],
-							[ -88.5445, 49.9338 ],
-							[ -88.5445, 49.1129 ],
-							[ -87.4321, 49.1383 ],
-							[ -85.9469, 48.8844 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 12, 2020 17:06",
-				"Expires_UTC" : "March 13, 2020 09:06",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T09:06:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T17:06:57-00:00, urn:oid:2.49.0.1.124.3057133933.2020<br>Area: Beardmore - Jellicoe - Macdiarmid, Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat, Manitouwadge - Hornepayne",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.3057133933.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T17_06_57_00_00Iurn_oid_2.49.0.1.124.3057133933.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313090657+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -134.6088, 69.5219 ],
 							[ -134.625, 69.5217 ],
 							[ -134.6503, 69.7494 ],
@@ -1805,6 +1692,131 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T14_27_45_00_00Iurn_oid_2.49.0.1.124.2676590553.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313062645+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ],
+							[ -64.7475, 48.4652 ],
+							[ -64.4498, 48.3987 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ]
+						]
+					],
+					[
+						[
+							[ -67.4984, 53.7166 ],
+							[ -69.9976, 53.5006 ],
+							[ -69.9991, 52.2498 ],
+							[ -67.4964, 52.2499 ],
+							[ -67.4961, 52.2499 ],
+							[ -66.4625, 52.251 ],
+							[ -66.25, 52.3469 ],
+							[ -66.3014, 52.541 ],
+							[ -66.1856, 52.6287 ],
+							[ -66.2608, 52.7776 ],
+							[ -66.1736, 52.8903 ],
+							[ -66.3686, 53.0959 ],
+							[ -66.516, 53.0957 ],
+							[ -66.5775, 53.0077 ],
+							[ -66.6987, 52.9678 ],
+							[ -66.7516, 52.8386 ],
+							[ -66.8886, 52.7933 ],
+							[ -66.9854, 52.8253 ],
+							[ -67.0238, 52.9168 ],
+							[ -67.1902, 52.8965 ],
+							[ -67.2089, 52.9976 ],
+							[ -67.3269, 53.0504 ],
+							[ -67.2483, 53.1092 ],
+							[ -67.0093, 53.029 ],
+							[ -66.9279, 53.0501 ],
+							[ -66.8876, 53.3261 ],
+							[ -66.8084, 53.4196 ],
+							[ -66.9965, 53.5684 ],
+							[ -67.2578, 53.5977 ],
+							[ -67.3991, 53.7621 ],
+							[ -67.4984, 53.7166 ]
+						]
+					],
+					[
+						[
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -64.999, 50.7498 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.6884, 50.1063 ],
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.4551, 50.0679 ],
+							[ -59.7883, 50.1231 ],
+							[ -59.0574, 50.5037 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.1162, 51.3508 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1075, 51.9221 ],
+							[ -58.9988, 51.333 ],
+							[ -60.9991, 50.7497 ]
+						]
+					],
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Winter Storm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 12, 2020 14:51",
+				"Expires_UTC" : "March 13, 2020 06:50",
+				"Summary" : "Description: Snowfall amounts could exceed 25 cm over these regions. Snow will begin late Friday and persist into Saturday. Strong to high winds will cause widespread blowing snow.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-13T06:50:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T14:51:29-00:00, urn:oid:2.49.0.1.124.2435556004.2020<br>Area: Fermont, Grande-Vallée area, Sainte-Anne-des-Monts area, Forillon National Park - Gaspé area, Percé area, Minganie, Natashquan, Chevery, Blanc-Sablon, Anticosti",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.2435556004.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T14_51_29_00_00Iurn_oid_2.49.0.1.124.2435556004.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200313065029+00:00"
 			}
 		},
 		{
@@ -2135,54 +2147,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -84.3362, 51.1626 ],
-							[ -84.05, 51.1582 ],
-							[ -83.9119, 51.2539 ],
-							[ -83.2673, 51.4893 ],
-							[ -82.8342, 51.8669 ],
-							[ -82.9115, 51.9291 ],
-							[ -83.0302, 52.2453 ],
-							[ -83.0383, 52.2455 ],
-							[ -87.9904, 52.2453 ],
-							[ -87.9963, 51.1568 ],
-							[ -87.4321, 51.159 ],
-							[ -84.8479, 51.1686 ],
-							[ -84.57, 51.0622 ],
-							[ -84.4653, 51.0571 ],
-							[ -84.3362, 51.1626 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 12, 2020 09:11",
-				"Expires_UTC" : "March 13, 2020 01:10",
-				"Summary" : "Description: Winter storm likely tonight to Friday night for Ogoki Post. \n\nLight snow is expected to develop today and become heavier tonight. The heavy snow will continue until Friday night before tapering to flurries on Saturday. \n\nStrong gusty winds up to 70 km/h will accompany this storm causing blowing snow and low visibilities on Friday. \n\nSnowfall amounts could exceed 25 cm.\n\nNote that the communities of Fort Hope and Lansdowne House are expected to receive lesser snowfall amounts with wind gusts to 50 km/h.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T01:10:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T09:11:55-00:00, urn:oid:2.49.0.1.124.0734780334.2020<br>Area: Fort Hope - Lansdowne House - Ogoki",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.0734780334.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T09_11_55_00_00Iurn_oid_2.49.0.1.124.0734780334.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313011055+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.7544, 48.0994 ],
 							[ -64.2197, 48.3156 ],
 							[ -64.2107, 48.3332 ],
@@ -2371,6 +2335,120 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T14_57_00_00_00Iurn_oid_2.49.0.1.124.3236146210.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313065600+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ],
+							[ -82.6293, 48.2543 ],
+							[ -81.0729, 48.2526 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5072, 48.3417 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5062, 48.5243 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5076, 48.9319 ],
+							[ -79.5172, 49.1428 ],
+							[ -81.4419, 49.5091 ],
+							[ -84.0149, 49.9497 ],
+							[ -84.021, 49.9497 ],
+							[ -84.05, 51.1582 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.362, 51.2908 ],
+							[ -84.5361, 51.1721 ],
+							[ -84.7492, 51.2465 ],
+							[ -84.8479, 51.1686 ],
+							[ -87.4321, 51.159 ],
+							[ -87.4321, 49.9482 ],
+							[ -85.9469, 49.9546 ],
+							[ -85.9469, 48.8844 ],
+							[ -84.0089, 48.5511 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 12, 2020 12:19",
+				"Expires_UTC" : "March 13, 2020 04:18",
+				"Summary" : "Description: Significant snowfall likely this evening into Friday night.\n\nPeriods of snow will begin today and become heavier tonight before tapering to flurries Friday night. Total snowfall amounts of 10 to 20 cm are likely by Friday night.\n\nRapidly accumulating snow could make travel difficult and visibility may be suddenly reduced in heavy snow and blowing snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T04:18:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T12:19:53-00:00, urn:oid:2.49.0.1.124.2086395226.2020<br>Area: Nakina - Aroland - Pagwa, Manitouwadge - Hornepayne, Kapuskasing - Hearst - Smooth Rock Falls, Timmins - Cochrane - Iroquois Falls",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.2086395226.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T12_19_53_00_00Iurn_oid_2.49.0.1.124.2086395226.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200313041853+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -85.9469, 48.8844 ],
+							[ -84.0089, 48.5511 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ],
+							[ -84.021, 49.9497 ],
+							[ -84.05, 51.1582 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.362, 51.2908 ],
+							[ -84.5361, 51.1721 ],
+							[ -84.7492, 51.2465 ],
+							[ -84.8479, 51.1686 ],
+							[ -87.4321, 51.159 ],
+							[ -87.4321, 49.9482 ],
+							[ -88.5445, 49.9338 ],
+							[ -88.5445, 49.1129 ],
+							[ -87.4321, 49.1383 ],
+							[ -85.9469, 48.8844 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 12, 2020 17:07",
+				"Expires_UTC" : "March 13, 2020 09:06",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nHeavy snow tonight.  Periods of snow tapering off Friday.\n\nHeavy snow is expected to develop this evening.  Snowfall amounts near 15 cm are expected before the snow becomes light on Friday.\n\nGusty northwest winds will give some blowing and drifting snow Friday.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T09:06:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T17:07:57-00:00, urn:oid:2.49.0.1.124.0279224147.2020<br>Area: Beardmore - Jellicoe - Macdiarmid, Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat, Manitouwadge - Hornepayne",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.0279224147.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T17_07_57_00_00Iurn_oid_2.49.0.1.124.0279224147.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200313090657+00:00"
 			}
 		},
 		{
@@ -2623,131 +2701,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7559, 48.6496 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.75, 48.4658 ],
-							[ -64.7475, 48.4652 ],
-							[ -64.4498, 48.3987 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ]
-						]
-					],
-					[
-						[
-							[ -67.4984, 53.7166 ],
-							[ -69.9976, 53.5006 ],
-							[ -69.9991, 52.2498 ],
-							[ -67.4964, 52.2499 ],
-							[ -67.4961, 52.2499 ],
-							[ -66.4625, 52.251 ],
-							[ -66.25, 52.3469 ],
-							[ -66.3014, 52.541 ],
-							[ -66.1856, 52.6287 ],
-							[ -66.2608, 52.7776 ],
-							[ -66.1736, 52.8903 ],
-							[ -66.3686, 53.0959 ],
-							[ -66.516, 53.0957 ],
-							[ -66.5775, 53.0077 ],
-							[ -66.6987, 52.9678 ],
-							[ -66.7516, 52.8386 ],
-							[ -66.8886, 52.7933 ],
-							[ -66.9854, 52.8253 ],
-							[ -67.0238, 52.9168 ],
-							[ -67.1902, 52.8965 ],
-							[ -67.2089, 52.9976 ],
-							[ -67.3269, 53.0504 ],
-							[ -67.2483, 53.1092 ],
-							[ -67.0093, 53.029 ],
-							[ -66.9279, 53.0501 ],
-							[ -66.8876, 53.3261 ],
-							[ -66.8084, 53.4196 ],
-							[ -66.9965, 53.5684 ],
-							[ -67.2578, 53.5977 ],
-							[ -67.3991, 53.7621 ],
-							[ -67.4984, 53.7166 ]
-						]
-					],
-					[
-						[
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -64.999, 50.7498 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.6884, 50.1063 ],
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.4551, 50.0679 ],
-							[ -59.7883, 50.1231 ],
-							[ -59.0574, 50.5037 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ],
-							[ -60.9991, 50.7497 ]
-						]
-					],
-					[
-						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "March 12, 2020 14:51",
-				"Expires_UTC" : "March 13, 2020 06:50",
-				"Summary" : "Description: Snowfall amounts could exceed 25 cm over these regions. Snow will begin late Friday and persist into Saturday. Strong to high winds will cause widespread blowing snow.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-13T06:50:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T14:51:29-00:00, urn:oid:2.49.0.1.124.2435556004.2020<br>Area: Fermont, Grande-Vallée area, Sainte-Anne-des-Monts area, Forillon National Park - Gaspé area, Percé area, Minganie, Natashquan, Chevery, Blanc-Sablon, Anticosti",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.2435556004.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T14_51_29_00_00Iurn_oid_2.49.0.1.124.2435556004.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313065029+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -67.7904, 47.0599 ],
 							[ -67.789, 46.5984 ],
 							[ -67.7882, 46.5984 ],
@@ -2834,6 +2787,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T13_42_13_00_00Iurn_oid_2.49.0.1.124.0536225414.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313054113+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.3362, 51.1626 ],
+							[ -84.05, 51.1582 ],
+							[ -83.9119, 51.2539 ],
+							[ -83.2673, 51.4893 ],
+							[ -82.8342, 51.8669 ],
+							[ -82.9115, 51.9291 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -87.9904, 52.2453 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.4321, 51.159 ],
+							[ -84.8479, 51.1686 ],
+							[ -84.57, 51.0622 ],
+							[ -84.4653, 51.0571 ],
+							[ -84.3362, 51.1626 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 12, 2020 17:15",
+				"Expires_UTC" : "March 13, 2020 09:14",
+				"Summary" : "Description: Winter storm likely tonight to Friday night for Ogoki Post. \n\nLight snow is expected to develop today and become heavier tonight. The heavy snow will continue until Friday night before tapering to flurries on Saturday. \n\nStrong gusty winds up to 70 km/h will accompany this storm causing blowing snow and low visibilities on Friday. \n\nSnowfall amounts could exceed 25 cm.\n\nNote that the communities of Fort Hope and Lansdowne House are expected to receive lesser snowfall amounts with wind gusts to 50 km/h.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T09:14:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T17:15:03-00:00, urn:oid:2.49.0.1.124.3873721541.2020<br>Area: Fort Hope - Lansdowne House - Ogoki",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.3873721541.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T17_15_03_00_00Iurn_oid_2.49.0.1.124.3873721541.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200313091403+00:00"
 			}
 		},
 		{
@@ -2966,43 +2967,49 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.1674, 53.684 ],
-							[ -79.0663, 53.0129 ],
-							[ -78.7944, 52.4953 ],
-							[ -78.5825, 52.3523 ],
-							[ -79.0724, 51.785 ],
-							[ -78.9371, 51.6314 ],
-							[ -76, 51.6249 ],
-							[ -75.9579, 52.9714 ],
-							[ -76, 54.1505 ],
-							[ -77.5048, 54.1866 ],
-							[ -79.0758, 54.1628 ],
-							[ -79.3716, 54.1181 ],
-							[ -79.1674, 53.684 ]
+							[ -81.4419, 49.5091 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ],
+							[ -84.0149, 49.9497 ],
+							[ -81.4419, 49.5091 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 12, 2020 14:50",
-				"Expires_UTC" : "March 13, 2020 06:49",
-				"Summary" : "Description: Poor visibilities due to snow and blowing snow are expected on Friday, especially over southern section.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-13T06:49:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T14:50:17-00:00, urn:oid:2.49.0.1.124.4042177594.2020<br>Area: James Bay and La Grande River",
+				"LastUpdate_UTC" : "March 12, 2020 17:13",
+				"Expires_UTC" : "March 13, 2020 09:12",
+				"Summary" : "Description: Winter storm likely tonight to Friday night. \n\nHeavy snow is expected to develop this evening or tonight.  The snow will continue until Friday night before tapering to flurries by early Saturday. \n\nStrong gusty winds up to 70 km/h will accompany this storm causing blowing snow and low visibilities on Friday. \n\nSnowfall amounts could exceed 25 cm in some regions.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T09:12:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T17:13:01-00:00, urn:oid:2.49.0.1.124.1894264464.2020<br>Area: Fraserdale - Pledger Lake, Little Abitibi - Kesagami Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.4042177594.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T14_50_17_00_00Iurn_oid_2.49.0.1.124.4042177594.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.1894264464.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T17_13_01_00_00Iurn_oid_2.49.0.1.124.1894264464.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313064917+00:00"
+				"Expires_FMEFormat" : "20200313091201+00:00"
 			}
 		},
 		{
@@ -3085,6 +3092,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T16_22_50_00_00Iurn_oid_2.49.0.1.124.2627718882.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313082150+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.1596, 51.3124 ],
+							[ -81.4395, 50.7218 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.496, 51.0628 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.8297, 51.4271 ],
+							[ -79.8263, 51.2605 ],
+							[ -80.0462, 51.3571 ],
+							[ -80.2894, 51.3971 ],
+							[ -80.3594, 51.6003 ],
+							[ -80.6927, 51.9724 ],
+							[ -81.4236, 52.4881 ],
+							[ -82.2216, 53.0256 ],
+							[ -81.9632, 53.3416 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.2294, 54.0004 ],
+							[ -82.2369, 54.0006 ],
+							[ -83.7002, 54.0287 ],
+							[ -83.0302, 52.2453 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.1596, 51.3124 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 12, 2020 17:13",
+				"Expires_UTC" : "March 13, 2020 09:12",
+				"Summary" : "Description: Winter storm likely tonight to Friday night. \n\nHeavy snow is expected to develop this evening or tonight.  The snow will continue until Friday night before tapering to flurries by early Saturday. \n\nStrong gusty winds up to 70 km/h will accompany this storm causing blowing snow and low visibilities on Friday. \n\nSnowfall amounts could exceed 25 cm in some regions.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T09:12:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T17:13:01-00:00, urn:oid:2.49.0.1.124.3856264140.2020<br>Area: Attawapiskat, Fort Albany, Moosonee",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.3856264140.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T17_13_01_00_00Iurn_oid_2.49.0.1.124.3856264140.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200313091201+00:00"
 			}
 		},
 		{
@@ -3651,68 +3713,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T10_43_23_00_00Iurn_oid_2.49.0.1.124.2692081005.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313024223+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ],
-							[ -82.6293, 48.2543 ],
-							[ -81.0729, 48.2526 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5072, 48.3417 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5062, 48.5243 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5076, 48.9319 ],
-							[ -79.5172, 49.1428 ],
-							[ -81.4419, 49.5091 ],
-							[ -84.0149, 49.9497 ],
-							[ -84.021, 49.9497 ],
-							[ -84.05, 51.1582 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.4321, 49.9482 ],
-							[ -85.9469, 49.9546 ],
-							[ -85.9469, 48.8844 ],
-							[ -84.0089, 48.5511 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 12, 2020 12:19",
-				"Expires_UTC" : "March 13, 2020 04:18",
-				"Summary" : "Description: Significant snowfall likely this evening into Friday night.\n\nPeriods of snow will begin today and become heavier tonight before tapering to flurries Friday night. Total snowfall amounts of 10 to 20 cm are likely by Friday night.\n\nRapidly accumulating snow could make travel difficult and visibility may be suddenly reduced in heavy snow and blowing snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-13T04:18:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-12T12:19:53-00:00, urn:oid:2.49.0.1.124.2086395226.2020<br>Area: Nakina - Aroland - Pagwa, Manitouwadge - Hornepayne, Kapuskasing - Hearst - Smooth Rock Falls, Timmins - Cochrane - Iroquois Falls",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.2086395226.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T12_19_53_00_00Iurn_oid_2.49.0.1.124.2086395226.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313041853+00:00"
 			}
 		}
 	]
