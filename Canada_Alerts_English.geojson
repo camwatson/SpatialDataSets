@@ -591,6 +591,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 13, 2020 08:04",
+				"Expires_UTC" : "March 14, 2020 00:03",
+				"Summary" : "Description: Maximum gusts: southeasterly 100 km/h.\n\nLocations: Iles de la Madeleine.\n\nTime span: this evening through early Saturday morning.\n\nRemarks: Southeasterly wind gusts up to 100 km/h are expected to begin late this evening and continue overnight. Winds will ease upon shifting to southwesterly before dawn Saturday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-14T00:03:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T08:04:52-00:00, urn:oid:2.49.0.1.124.3888766606.2020<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.3888766606.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T08_04_52_00_00Iurn_oid_2.49.0.1.124.3888766606.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200314000352+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -76, 54.1505 ],
 							[ -77.5048, 54.1866 ],
 							[ -79.0758, 54.1628 ],
@@ -1072,88 +1112,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T02_38_57_00_00Iurn_oid_2.49.0.1.124.1687148951.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313183757+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -59.3729, 54.19 ],
-							[ -59.0361, 54.0269 ],
-							[ -58.8814, 54.0182 ],
-							[ -58.8483, 53.9346 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -59, 52.9 ],
-							[ -59.8804, 53.2 ],
-							[ -59.9432, 53.1171 ],
-							[ -60.0074, 53.0666 ],
-							[ -60.1736, 52.9893 ],
-							[ -60.3731, 52.9506 ],
-							[ -60.5825, 52.955 ],
-							[ -60.7702, 53 ],
-							[ -59, 52.4 ],
-							[ -58.0385, 52.5919 ],
-							[ -57.1146, 52.8003 ],
-							[ -57.1428, 52.4234 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.559, 53.2249 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -56.7055, 54.7584 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.7945, 56.6786 ],
-							[ -61.1044, 56.5708 ],
-							[ -61.8607, 56.6166 ],
-							[ -62.4923, 56.7524 ],
-							[ -63.0043, 56.7494 ],
-							[ -63.0038, 56.0019 ],
-							[ -63.0037, 55.8296 ],
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2020 08:06",
-				"Expires_UTC" : "March 14, 2020 00:06",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-14T00:06:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T08:06:00-00:00, urn:oid:2.49.0.1.124.0937539193.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Rigolet and vicinity, Postville - Makkovik, Hopedale and vicinity, Nain and vicinity, Eagle River",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.0937539193.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T08_06_00_00_00Iurn_oid_2.49.0.1.124.0937539193.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314000600+00:00"
 			}
 		},
 		{
@@ -2873,46 +2831,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2020 08:04",
-				"Expires_UTC" : "March 14, 2020 00:03",
-				"Summary" : "Description: Maximum gusts: southeasterly 100 km/h.\n\nLocations: Iles de la Madeleine.\n\nTime span: this evening through early Saturday morning.\n\nRemarks: Southeasterly wind gusts up to 100 km/h are expected to begin late this evening and continue overnight. Winds will ease upon shifting to southwesterly before dawn Saturday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-14T00:03:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T08:04:52-00:00, urn:oid:2.49.0.1.124.3888766606.2020<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.3888766606.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T08_04_52_00_00Iurn_oid_2.49.0.1.124.3888766606.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314000352+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.2107, 48.3332 ],
 							[ -64.0234, 48.6739 ],
 							[ -64.0922, 48.9092 ],
@@ -3572,6 +3490,88 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T07_28_57_00_00Iurn_oid_2.49.0.1.124.2499608095.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313232757+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -59.3729, 54.19 ],
+							[ -59.0361, 54.0269 ],
+							[ -58.8814, 54.0182 ],
+							[ -58.8483, 53.9346 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.9432, 53.1171 ],
+							[ -60.0074, 53.0666 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.5825, 52.955 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.1428, 52.4234 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.559, 53.2249 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -56.7055, 54.7584 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 13, 2020 08:07",
+				"Expires_UTC" : "March 14, 2020 00:06",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: generally 15 to 25 cm except up to 35 cm along the Strait.\n\nMaximum wind gusts: 90 km/h.\n\nLocations: entire Labrador Coast from Nain to L'Anse-au-Clair and inland to Eagle River.\n\nTime span: overnight tonight until Sunday afternoon.\n\nRemarks: The snowfall rates will be heaviest on Saturday and will combine with gusty easterly winds to cause widespread blowing snow.  Snowfall rates are forecast to ease Saturday night however the blowing snow is expected to persist throughout the weekend as the winds shift to strong northwesterlies.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-14T00:06:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T08:07:00-00:00, urn:oid:2.49.0.1.124.4258536429.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Rigolet and vicinity, Postville - Makkovik, Hopedale and vicinity, Nain and vicinity, Eagle River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.4258536429.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T08_07_00_00_00Iurn_oid_2.49.0.1.124.4258536429.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200314000600+00:00"
 			}
 		}
 	]
