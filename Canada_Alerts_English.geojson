@@ -657,55 +657,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -57.7515, 50.0004 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2020 07:29",
-				"Expires_UTC" : "March 13, 2020 23:29",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-13T23:29:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T07:29:36-00:00, urn:oid:2.49.0.1.124.1864677322.2020<br>Area: Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.1864677322.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T07_29_36_00_00Iurn_oid_2.49.0.1.124.1864677322.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313232936+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -81.4419, 49.5091 ],
 							[ -79.5172, 49.1428 ],
 							[ -79.5172, 49.2829 ],
@@ -1484,6 +1435,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T04_15_23_00_00Iurn_oid_2.49.0.1.124.3688491397.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313201423+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ],
+							[ -60.3074, 54.9828 ],
+							[ -60.3072, 54.9832 ],
+							[ -60.2298, 55.0701 ],
+							[ -60.1066, 55.1369 ],
+							[ -60.0305, 55.2374 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.798, 55.9666 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8884, 55.8597 ],
+							[ -61.0222, 55.8603 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.891, 55.378 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 13, 2020 00:08",
+				"Expires_UTC" : "March 13, 2020 10:59",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nAdditional snowfall: 5 to 10 cm, possibly higher amounts inland.\n\nMaximum wind gusts: 80 km/h.\n\nLocations: Hopedale and vicinity. \n\nTime span: tonight. \n\nRemarks: Fresh snowfall will combine with strengthening northerly winds this evening to produce near zero visibility in blowing snow. The snow will taper off overnight tonight and winds will ease early Friday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-13T10:59:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T00:08:59-00:00, urn:oid:2.49.0.1.124.1529909891.2020<br>Area: Hopedale and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.1529909891.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T00_08_59_00_00Iurn_oid_2.49.0.1.124.1529909891.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200313105959+00:00"
 			}
 		},
 		{
@@ -2462,52 +2463,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -127.6878, 54.538 ],
-							[ -127.6267, 54.3906 ],
-							[ -127.509, 54.1959 ],
-							[ -127.1346, 53.6587 ],
-							[ -126.7741, 53.2011 ],
-							[ -126.648, 53.014 ],
-							[ -126.5, 52.83 ],
-							[ -125.363, 52.8986 ],
-							[ -124.3065, 52.9994 ],
-							[ -125.0555, 54.2336 ],
-							[ -125.2762, 54.9367 ],
-							[ -125.6889, 54.7308 ],
-							[ -127.6878, 54.538 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 12, 2020 23:08",
-				"Expires_UTC" : "March 13, 2020 15:07",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nROAD DUST ADVISORY IN EFFECT FOR BURNS LAKE (March 12, 2020 - Smithers) \n\nThe Ministry of Environment and Climate Change Strategy in collaboration with Northern Health has issued a Road Dust Advisory for Burns Lake because of high concentrations of coarse particulate matter that are expected to persist until there is precipitation or dust suppression.  Levels tend to be highest around busy roads and industrial operations. This advisory is in effect until further notice. \n\nPersons with chronic underlying medical conditions should postpone strenuous exercise near busy roads until the advisory is lifted.  Exposure is particularly a concern for pregnant women, infants, the elderly and those who have diabetes, and lung or heart disease.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-03-13T15:07:23-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2020-03-12T23:08:23-00:00, urn:oid:2.49.0.1.124.0692659578.2020<br>Area: Lakes District",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-12:feed.atom/urn:oid:2.49.0.1.124.0692659578.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-12/2020_03_12T23_08_23_00_00Iurn_oid_2.49.0.1.124.0692659578.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313150723+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -73.2205, 45.8332 ],
 							[ -73.1782, 45.8989 ],
 							[ -73.1757, 45.9261 ],
@@ -2881,6 +2836,101 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 13, 2020 07:30",
+				"Expires_UTC" : "March 13, 2020 23:29",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 15 to 20 cm.\n\nMaximum wind gusts: 80 km/h except 100 km/h along parts of the coast.\n\nLocations: the Great Northern Peninsula. \n\nTime span: overnight tonight until noon on Saturday. \n\nRemarks: Snow at times heavy and blowing snow will begin overnight and then taper to flurries near noon on Saturday.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-13T23:29:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T07:30:36-00:00, urn:oid:2.49.0.1.124.1403607590.2020<br>Area: Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.1403607590.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T07_30_36_00_00Iurn_oid_2.49.0.1.124.1403607590.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200313232936+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "March 13, 2020 07:29",
+				"Expires_UTC" : "March 13, 2020 23:28",
+				"Summary" : "Description: Maximum gusts: southeasterly gusting to 150 km/h.\n\nTime span: after midnight tonight until Saturday morning.\n\nRemarks: strong southeasterly winds will develop after midnight tonight and then diminish somewhat and shift to southwesterly early Saturday morning.\n\n###\n\nDrivers may lose control of their vehicles; tall vehicles are at high risk of being overturned.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-13T23:28:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T07:29:20-00:00, urn:oid:2.49.0.1.124.2661152311.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.2661152311.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T07_29_20_00_00Iurn_oid_2.49.0.1.124.2661152311.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200313232820+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.8243, 48.018 ],
 							[ -66.0128, 48.0649 ],
 							[ -66.2939, 48.0424 ],
@@ -2974,52 +3024,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T01_17_38_00_00Iurn_oid_2.49.0.1.124.4006065158.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313171638+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "March 13, 2020 07:29",
-				"Expires_UTC" : "March 13, 2020 23:28",
-				"Summary" : "Description: Maximum gusts: southeasterly gusting to 150 km/h.\n\nTime span: after midnight tonight until Saturday morning.\n\nRemarks: strong southeasterly winds will develop after midnight tonight and then diminish somewhat and shift to southwesterly early Saturday morning.\n\n###\n\nDrivers may lose control of their vehicles; tall vehicles are at high risk of being overturned.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-13T23:28:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T07:29:20-00:00, urn:oid:2.49.0.1.124.2661152311.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.2661152311.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T07_29_20_00_00Iurn_oid_2.49.0.1.124.2661152311.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313232820+00:00"
 			}
 		},
 		{
@@ -3500,56 +3504,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T07_28_57_00_00Iurn_oid_2.49.0.1.124.2499608095.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200313232757+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ],
-							[ -60.3074, 54.9828 ],
-							[ -60.3072, 54.9832 ],
-							[ -60.2298, 55.0701 ],
-							[ -60.1066, 55.1369 ],
-							[ -60.0305, 55.2374 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.798, 55.9666 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8884, 55.8597 ],
-							[ -61.0222, 55.8603 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.891, 55.378 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2020 00:08",
-				"Expires_UTC" : "March 13, 2020 10:59",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nAdditional snowfall: 5 to 10 cm, possibly higher amounts inland.\n\nMaximum wind gusts: 80 km/h.\n\nLocations: Hopedale and vicinity. \n\nTime span: tonight. \n\nRemarks: Fresh snowfall will combine with strengthening northerly winds this evening to produce near zero visibility in blowing snow. The snow will taper off overnight tonight and winds will ease early Friday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-13T10:59:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-13T00:08:59-00:00, urn:oid:2.49.0.1.124.1529909891.2020<br>Area: Hopedale and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-13:feed.atom/urn:oid:2.49.0.1.124.1529909891.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-13/2020_03_13T00_08_59_00_00Iurn_oid_2.49.0.1.124.1529909891.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200313105959+00:00"
 			}
 		},
 		{
