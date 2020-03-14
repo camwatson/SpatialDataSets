@@ -9,71 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.8243, 48.018 ],
-							[ -66.0128, 48.0649 ],
-							[ -66.2939, 48.0424 ],
-							[ -66.4422, 48.0905 ],
-							[ -66.6148, 48.0154 ],
-							[ -66.7805, 47.993 ],
-							[ -66.7817, 48.0207 ],
-							[ -66.9036, 48.0246 ],
-							[ -66.9911, 47.9783 ],
-							[ -66.9979, 47.9393 ],
-							[ -67.0035, 47.9082 ],
-							[ -67.0033, 47.3573 ],
-							[ -67.0364, 47.3494 ],
-							[ -67.0349, 47.3489 ],
-							[ -66.6608, 46.7691 ],
-							[ -66.6606, 46.7689 ],
-							[ -65.937, 46.7796 ],
-							[ -65.7675, 46.7813 ],
-							[ -65.7656, 46.7811 ],
-							[ -65.802, 47.2158 ],
-							[ -65.2377, 47.2849 ],
-							[ -64.9706, 47.3164 ],
-							[ -64.9364, 47.3299 ],
-							[ -64.7688, 47.3864 ],
-							[ -64.7526, 47.5525 ],
-							[ -64.4105, 47.8072 ],
-							[ -64.4829, 48.0381 ],
-							[ -64.6328, 48.0419 ],
-							[ -64.7544, 48.0994 ],
-							[ -65.2163, 47.9516 ],
-							[ -65.4344, 47.921 ],
-							[ -65.8243, 48.018 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 14, 2020 03:05",
-				"Expires_UTC" : "March 14, 2020 04:05",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-14T04:05:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T03:05:31-00:00, urn:oid:2.49.0.1.124.1774494503.2020<br>Area: Campbellton and eastern half of Restigouche County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region, Acadian Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.1774494503.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T03_05_31_00_00Iurn_oid_2.49.0.1.124.1774494503.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314040531+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.4207, 47.5744 ],
 							[ -58.42, 47.6535 ],
 							[ -58.42, 47.6666 ],
@@ -366,6 +301,62 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T03_15_25_00_00Iurn_oid_2.49.0.1.124.1514765146.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200314191425+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.0969, 45.9754 ],
+							[ -82.178, 45.9443 ],
+							[ -82.3291, 46.0103 ],
+							[ -83.3864, 46.0319 ],
+							[ -83.4793, 45.9477 ],
+							[ -83.5446, 45.8405 ],
+							[ -82.9541, 45.6034 ],
+							[ -81.9674, 45.3827 ],
+							[ -81.3483, 45.4495 ],
+							[ -81.3805, 45.849 ],
+							[ -80.8486, 45.8248 ],
+							[ -80.7432, 45.8894 ],
+							[ -80.7251, 45.8899 ],
+							[ -80.5706, 45.8856 ],
+							[ -80.5701, 46.0178 ],
+							[ -80.6965, 46.106 ],
+							[ -80.9338, 46.0992 ],
+							[ -80.9338, 46.1701 ],
+							[ -81.4263, 46.1701 ],
+							[ -81.4263, 46.2733 ],
+							[ -82.0579, 46.2733 ],
+							[ -82.0476, 46.0965 ],
+							[ -82.0969, 45.9754 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 14, 2020 04:09",
+				"Expires_UTC" : "March 14, 2020 05:09",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-03-14T05:09:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T04:09:45-00:00, urn:oid:2.49.0.1.124.3712245102.2020<br>Area: Espanola - Killarney, Manitoulin Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.3712245102.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T04_09_45_00_00Iurn_oid_2.49.0.1.124.3712245102.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200314050945+00:00"
 			}
 		},
 		{
@@ -741,56 +732,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -84.9134, 47.2346 ],
-							[ -84.7351, 46.6321 ],
-							[ -84.4985, 46.6539 ],
-							[ -84.4894, 46.6516 ],
-							[ -83.8414, 46.4826 ],
-							[ -83.9907, 46.781 ],
-							[ -83.9911, 47.2211 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9939, 48.1107 ],
-							[ -83.996, 48.1106 ],
-							[ -84.2352, 48.0981 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.6559, 47.963 ],
-							[ -84.8608, 47.8957 ],
-							[ -85.1481, 47.824 ],
-							[ -84.9134, 47.2346 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 14, 2020 03:09",
-				"Expires_UTC" : "March 14, 2020 04:09",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2020-03-14T04:09:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T03:09:59-00:00, urn:oid:2.49.0.1.124.4004557539.2020<br>Area: Agawa - Lake Superior Park, Searchmont - Montreal River Harbour - Batchawana Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.4004557539.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T03_09_59_00_00Iurn_oid_2.49.0.1.124.4004557539.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314040959+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -81.8404, 45.3535 ],
 							[ -81.4622, 44.5866 ],
 							[ -81.2913, 44.5944 ],
@@ -995,58 +936,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T02_30_13_00_00Iurn_oid_2.49.0.1.124.0751679156.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200314095913+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -85.9469, 48.8844 ],
-							[ -84.0089, 48.5511 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ],
-							[ -84.021, 49.9497 ],
-							[ -84.05, 51.1582 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.4321, 49.9482 ],
-							[ -88.5445, 49.9338 ],
-							[ -88.5445, 49.1129 ],
-							[ -87.4321, 49.1383 ],
-							[ -85.9469, 48.8844 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 14, 2020 03:11",
-				"Expires_UTC" : "March 14, 2020 04:11",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-14T04:11:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T03:11:07-00:00, urn:oid:2.49.0.1.124.3000832085.2020<br>Area: Beardmore - Jellicoe - Macdiarmid, Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat, Manitouwadge - Hornepayne",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.3000832085.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T03_11_07_00_00Iurn_oid_2.49.0.1.124.3000832085.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314041107+00:00"
 			}
 		},
 		{
