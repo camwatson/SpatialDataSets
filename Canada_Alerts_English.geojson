@@ -1120,59 +1120,38 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.3709, 45.5863 ],
-							[ -61.3587, 45.578 ],
-							[ -61.2879, 45.5429 ],
-							[ -61.2399, 45.5263 ],
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -59.538, 46.0154 ],
-							[ -59.8902, 46.2624 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
 							[ -60.4985, 47.185 ],
 							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.3951, 45.6335 ],
-							[ -61.3709, 45.5863 ]
-						],
-						[
-							[ -61.1647, 45.7054 ],
-							[ -60.8436, 45.8719 ],
-							[ -61.1587, 45.7085 ],
-							[ -61.1647, 45.7054 ]
+							[ -61.6265, 46.0993 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Les Suêtes Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 14, 2020 06:15",
-				"Expires_UTC" : "March 14, 2020 07:15",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-03-14T07:15:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T06:15:36-00:00, urn:oid:2.49.0.1.124.4055488361.2020<br>Area: Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "March 14, 2020 02:25",
+				"Expires_UTC" : "March 14, 2020 10:29",
+				"Summary" : "Description: Maximum Les Suetes gusts: up to 180 km/h.\n\nTime span: late this evening through early Saturday morning.\n\nRemarks: Les Suetes winds gusting to 140 km/h this evening are expected to increase to gust up to 180 km/h tonight. Winds will ease upon shifting to southwesterly before dawn Saturday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-14T10:29:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T02:25:02-00:00, urn:oid:2.49.0.1.124.3301433028.2020<br>Area: Inverness County - Mabou and north",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.4055488361.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T06_15_36_00_00Iurn_oid_2.49.0.1.124.4055488361.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.3301433028.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T02_25_02_00_00Iurn_oid_2.49.0.1.124.3301433028.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314071536+00:00"
+				"Expires_FMEFormat" : "20200314102902+00:00"
 			}
 		},
 		{
@@ -1722,47 +1701,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T06_20_17_00_00Iurn_oid_2.49.0.1.124.1650600881.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200314072017+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Les Suêtes Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 14, 2020 06:15",
-				"Expires_UTC" : "March 14, 2020 07:15",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-03-14T07:15:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T06:15:29-00:00, urn:oid:2.49.0.1.124.2324808875.2020<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.2324808875.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T06_15_29_00_00Iurn_oid_2.49.0.1.124.2324808875.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314071529+00:00"
 			}
 		},
 		{
