@@ -317,6 +317,70 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.0612, 53.2803 ],
+							[ -61.0591, 53.2593 ],
+							[ -61.0344, 53.1975 ],
+							[ -60.9922, 53.1395 ],
+							[ -60.934, 53.0865 ],
+							[ -60.8616, 53.0404 ],
+							[ -60.8397, 53.0302 ],
+							[ -60.7771, 53.002 ],
+							[ -60.7702, 53 ],
+							[ -60.5825, 52.955 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.0074, 53.0666 ],
+							[ -59.9432, 53.1171 ],
+							[ -59.8804, 53.2 ],
+							[ -59.8625, 53.2339 ],
+							[ -59.8485, 53.297 ],
+							[ -59.853, 53.3605 ],
+							[ -59.8979, 53.4724 ],
+							[ -59.9665, 53.5313 ],
+							[ -60.064, 53.5983 ],
+							[ -60.1986, 53.644 ],
+							[ -60.3282, 53.6683 ],
+							[ -60.4351, 53.6762 ],
+							[ -60.5259, 53.6753 ],
+							[ -60.6518, 53.6602 ],
+							[ -60.8205, 53.6078 ],
+							[ -60.9451, 53.5344 ],
+							[ -61.0082, 53.4731 ],
+							[ -61.0589, 53.3876 ],
+							[ -61.0612, 53.2803 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 14, 2020 13:40",
+				"Expires_UTC" : "March 15, 2020 05:39",
+				"Summary" : "Description: Additional snowfall: 5 to 10 cm.\n\nMaximum wind gusts: 50 km/h.\n\nLocations: Upper Lake Melville.\n\nTime span: continuing until overnight tonight.\n\nRemarks: Snow will continue today and tonight, and combine with gusty winds tonight to cause blowing snow at times.  Conditions will improve before Sunday morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-15T05:39:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T13:40:34-00:00, urn:oid:2.49.0.1.124.4123686343.2020<br>Area: Upper Lake Melville",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.4123686343.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T13_40_34_00_00Iurn_oid_2.49.0.1.124.4123686343.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200315053934+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -109.2809, 50.0476 ],
 							[ -109.2898, 49.9683 ],
 							[ -109.2809, 49.8733 ],
@@ -718,65 +782,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T15_46_33_00_00Iurn_oid_2.49.0.1.124.3509589648.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200315074533+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.0934, 49.8139 ],
-							[ -123.155, 49.8988 ],
-							[ -123.3, 49.9085 ],
-							[ -123.2913, 49.8844 ],
-							[ -123.2883, 49.8762 ],
-							[ -123.2145, 49.6778 ],
-							[ -123.2485, 49.5881 ],
-							[ -123.4682, 49.5154 ],
-							[ -123.4627, 49.4313 ],
-							[ -123.518, 49.3701 ],
-							[ -123.509, 49.3539 ],
-							[ -123.3632, 49.2918 ],
-							[ -123.2902, 49.3448 ],
-							[ -123.2818, 49.351 ],
-							[ -123.2988, 49.3767 ],
-							[ -123.2629, 49.3867 ],
-							[ -123.2621, 49.3866 ],
-							[ -123.212, 49.3895 ],
-							[ -123.0938, 49.4314 ],
-							[ -122.9898, 49.4645 ],
-							[ -122.8909, 49.4802 ],
-							[ -122.884, 49.4813 ],
-							[ -122.7669, 49.5005 ],
-							[ -122.7445, 49.5042 ],
-							[ -122.8821, 49.7107 ],
-							[ -123.0934, 49.8139 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 14, 2020 11:45",
-				"Expires_UTC" : "March 15, 2020 03:44",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nCold arctic air moving southwards from the BC Interior will push out through Howe Sound this weekend. Northerly winds will gust to 80 km/h except to 100 near Bowen Island this morning and then diminish somewhat this afternoon. Winds will gust up to 90 km/h again near Bowen Island overnight and early Sunday morning.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-15T03:44:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T11:45:26-00:00, urn:oid:2.49.0.1.124.3696916497.2020<br>Area: Howe Sound",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.3696916497.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T11_45_26_00_00Iurn_oid_2.49.0.1.124.3696916497.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200315034426+00:00"
 			}
 		},
 		{
@@ -1634,70 +1639,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.0612, 53.2803 ],
-							[ -61.0591, 53.2593 ],
-							[ -61.0344, 53.1975 ],
-							[ -60.9922, 53.1395 ],
-							[ -60.934, 53.0865 ],
-							[ -60.8616, 53.0404 ],
-							[ -60.8397, 53.0302 ],
-							[ -60.7771, 53.002 ],
-							[ -60.7702, 53 ],
-							[ -60.5825, 52.955 ],
-							[ -60.3731, 52.9506 ],
-							[ -60.1736, 52.9893 ],
-							[ -60.0074, 53.0666 ],
-							[ -59.9432, 53.1171 ],
-							[ -59.8804, 53.2 ],
-							[ -59.8625, 53.2339 ],
-							[ -59.8485, 53.297 ],
-							[ -59.853, 53.3605 ],
-							[ -59.8979, 53.4724 ],
-							[ -59.9665, 53.5313 ],
-							[ -60.064, 53.5983 ],
-							[ -60.1986, 53.644 ],
-							[ -60.3282, 53.6683 ],
-							[ -60.4351, 53.6762 ],
-							[ -60.5259, 53.6753 ],
-							[ -60.6518, 53.6602 ],
-							[ -60.8205, 53.6078 ],
-							[ -60.9451, 53.5344 ],
-							[ -61.0082, 53.4731 ],
-							[ -61.0589, 53.3876 ],
-							[ -61.0612, 53.2803 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 14, 2020 13:40",
-				"Expires_UTC" : "March 15, 2020 05:39",
-				"Summary" : "Description: Additional snowfall: 5 to 10 cm.\n\nMaximum wind gusts: 50 km/h.\n\nLocations: Upper Lake Melville.\n\nTime span: continuing until overnight tonight.\n\nRemarks: Snow will continue today and tonight, and combine with gusty winds tonight to cause blowing snow at times.  Conditions will improve before Sunday morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-15T05:39:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T13:40:34-00:00, urn:oid:2.49.0.1.124.4123686343.2020<br>Area: Upper Lake Melville",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.4123686343.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T13_40_34_00_00Iurn_oid_2.49.0.1.124.4123686343.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200315053934+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -123.5563, 48.7245 ],
 							[ -123.5598, 48.7191 ],
 							[ -123.5635, 48.7133 ],
@@ -1820,16 +1761,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 14, 2020 17:50",
+				"LastUpdate_UTC" : "March 14, 2020 17:51",
 				"Expires_UTC" : "March 15, 2020 09:50",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-15T09:50:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T17:50:45-00:00, urn:oid:2.49.0.1.124.3866596101.2020<br>Area: Central Coast - coastal sections",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nNortheast outflow winds of 80 to 100 km/h will continue near the mainland inlets and valleys late this morning and early afternoon as arctic air spills out from the BC interior. These winds will diminish to 40 to 60 by late this afternoon.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-15T09:50:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T17:51:45-00:00, urn:oid:2.49.0.1.124.2829979680.2020<br>Area: Central Coast - coastal sections",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.3866596101.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T17_50_45_00_00Iurn_oid_2.49.0.1.124.3866596101.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.2829979680.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T17_51_45_00_00Iurn_oid_2.49.0.1.124.2829979680.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200315095045+00:00"
 			}
@@ -2087,6 +2028,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T10_48_35_00_00Iurn_oid_2.49.0.1.124.2673545982.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200315015935+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.0934, 49.8139 ],
+							[ -123.155, 49.8988 ],
+							[ -123.3, 49.9085 ],
+							[ -123.2913, 49.8844 ],
+							[ -123.2883, 49.8762 ],
+							[ -123.2145, 49.6778 ],
+							[ -123.2485, 49.5881 ],
+							[ -123.4682, 49.5154 ],
+							[ -123.4627, 49.4313 ],
+							[ -123.518, 49.3701 ],
+							[ -123.509, 49.3539 ],
+							[ -123.3632, 49.2918 ],
+							[ -123.2902, 49.3448 ],
+							[ -123.2818, 49.351 ],
+							[ -123.2988, 49.3767 ],
+							[ -123.2629, 49.3867 ],
+							[ -123.2621, 49.3866 ],
+							[ -123.212, 49.3895 ],
+							[ -123.0938, 49.4314 ],
+							[ -122.9898, 49.4645 ],
+							[ -122.8909, 49.4802 ],
+							[ -122.884, 49.4813 ],
+							[ -122.7669, 49.5005 ],
+							[ -122.7445, 49.5042 ],
+							[ -122.8821, 49.7107 ],
+							[ -123.0934, 49.8139 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 14, 2020 11:45",
+				"Expires_UTC" : "March 15, 2020 03:44",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nCold arctic air moving southwards from the BC Interior will push out through Howe Sound this weekend. Northerly winds will gust to 80 km/h except to 100 near Bowen Island this morning and then diminish somewhat this afternoon. Winds will gust up to 90 km/h again near Bowen Island overnight and early Sunday morning.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-15T03:44:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T11:45:26-00:00, urn:oid:2.49.0.1.124.3696916497.2020<br>Area: Howe Sound",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.3696916497.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T11_45_26_00_00Iurn_oid_2.49.0.1.124.3696916497.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200315034426+00:00"
 			}
 		}
 	]
