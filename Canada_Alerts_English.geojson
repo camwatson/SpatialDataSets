@@ -9,6 +9,71 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.8243, 48.018 ],
+							[ -66.0128, 48.0649 ],
+							[ -66.2939, 48.0424 ],
+							[ -66.4422, 48.0905 ],
+							[ -66.6148, 48.0154 ],
+							[ -66.7805, 47.993 ],
+							[ -66.7817, 48.0207 ],
+							[ -66.9036, 48.0246 ],
+							[ -66.9911, 47.9783 ],
+							[ -66.9979, 47.9393 ],
+							[ -67.0035, 47.9082 ],
+							[ -67.0033, 47.3573 ],
+							[ -67.0364, 47.3494 ],
+							[ -67.0349, 47.3489 ],
+							[ -66.6608, 46.7691 ],
+							[ -66.6606, 46.7689 ],
+							[ -65.937, 46.7796 ],
+							[ -65.7675, 46.7813 ],
+							[ -65.7656, 46.7811 ],
+							[ -65.802, 47.2158 ],
+							[ -65.2377, 47.2849 ],
+							[ -64.9706, 47.3164 ],
+							[ -64.9364, 47.3299 ],
+							[ -64.7688, 47.3864 ],
+							[ -64.7526, 47.5525 ],
+							[ -64.4105, 47.8072 ],
+							[ -64.4829, 48.0381 ],
+							[ -64.6328, 48.0419 ],
+							[ -64.7544, 48.0994 ],
+							[ -65.2163, 47.9516 ],
+							[ -65.4344, 47.921 ],
+							[ -65.8243, 48.018 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 14, 2020 03:05",
+				"Expires_UTC" : "March 14, 2020 04:05",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-14T04:05:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T03:05:31-00:00, urn:oid:2.49.0.1.124.1774494503.2020<br>Area: Campbellton and eastern half of Restigouche County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region, Acadian Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.1774494503.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T03_05_31_00_00Iurn_oid_2.49.0.1.124.1774494503.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200314040531+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.4207, 47.5744 ],
 							[ -58.42, 47.6535 ],
 							[ -58.42, 47.6666 ],
@@ -716,53 +781,45 @@
 				"coordinates" : [
 					[
 						[
-							[ -66.449, 45.2164 ],
-							[ -66.4517, 45.2004 ],
-							[ -66.4565, 45.0765 ],
-							[ -66.4488, 44.9966 ],
-							[ -66.1205, 45.0829 ],
-							[ -65.9007, 45.0895 ],
-							[ -65.1181, 45.3687 ],
-							[ -65.024, 45.4213 ],
-							[ -65.0077, 45.4302 ],
-							[ -64.9179, 45.4771 ],
-							[ -64.9366, 45.5456 ],
-							[ -64.9658, 45.615 ],
-							[ -64.9355, 45.6469 ],
-							[ -64.9493, 45.6986 ],
-							[ -64.9894, 45.6935 ],
-							[ -65.0336, 45.6833 ],
-							[ -65.0512, 45.6648 ],
-							[ -65.133, 45.6488 ],
-							[ -65.3306, 46.0852 ],
-							[ -65.3335, 46.0833 ],
-							[ -66.4509, 45.3156 ],
-							[ -66.4491, 45.2167 ],
-							[ -66.449, 45.2164 ]
+							[ -115.0388, 68.0735 ],
+							[ -115.0934, 67.9545 ],
+							[ -115.6489, 67.917 ],
+							[ -115.6517, 67.9119 ],
+							[ -115.7054, 67.8289 ],
+							[ -115.669, 67.7438 ],
+							[ -115.5482, 67.6708 ],
+							[ -115.3717, 67.6228 ],
+							[ -115.1514, 67.6031 ],
+							[ -114.9375, 67.616 ],
+							[ -114.7513, 67.6583 ],
+							[ -114.6152, 67.7273 ],
+							[ -114.569, 67.7819 ],
+							[ -114.6262, 68.0024 ],
+							[ -115.0388, 68.0735 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 14, 2020 02:02",
-				"Expires_UTC" : "March 14, 2020 03:02",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-03-14T03:02:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T02:02:36-00:00, urn:oid:2.49.0.1.124.1015851487.2020<br>Area: Sussex - Kennebecasis Valley and Kings County, Saint John and County, Fundy National Park",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 14, 2020 03:09",
+				"Expires_UTC" : "March 14, 2020 19:09",
+				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-14T19:09:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T03:09:36-00:00, urn:oid:2.49.0.1.124.3115307495.2020<br>Area: Kugluktuk",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.1015851487.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T02_02_36_00_00Iurn_oid_2.49.0.1.124.1015851487.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.3115307495.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T03_09_36_00_00Iurn_oid_2.49.0.1.124.3115307495.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314030236+00:00"
+				"Expires_FMEFormat" : "20200314190936+00:00"
 			}
 		},
 		{
