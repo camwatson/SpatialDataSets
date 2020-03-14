@@ -625,52 +625,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "March 14, 2020 07:58",
-				"Expires_UTC" : "March 14, 2020 13:59",
-				"Summary" : "Description: Maximum gusts: southeasterly gusting to 120 km/h in the Wreckhouse area.\n\nTime span: ending this morning.\n\nRemarks: strong southeasterly winds will shift to southwesterly and diminish early this morning.\n\n###\n\nDrivers may lose control of their vehicles; tall vehicles are at high risk of being overturned.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-14T13:59:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T07:58:40-00:00, urn:oid:2.49.0.1.124.0902287071.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.0902287071.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T07_58_40_00_00Iurn_oid_2.49.0.1.124.0902287071.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314135940+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -134.6088, 69.5219 ],
 							[ -134.625, 69.5217 ],
 							[ -134.6503, 69.7494 ],
@@ -1038,6 +992,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T08_10_28_00_00Iurn_oid_2.49.0.1.124.3488337060.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200315000928+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wreckhouse Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 14, 2020 09:04",
+				"Expires_UTC" : "March 14, 2020 10:04",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-03-14T10:04:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T09:04:03-00:00, urn:oid:2.49.0.1.124.3019039596.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.3019039596.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T09_04_03_00_00Iurn_oid_2.49.0.1.124.3019039596.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200314100403+00:00"
 			}
 		},
 		{
@@ -2414,18 +2414,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Extreme",
-				"LastUpdate_UTC" : "March 14, 2020 07:59",
+				"LastUpdate_UTC" : "March 14, 2020 09:06",
 				"Expires_UTC" : "March 14, 2020 13:59",
-				"Summary" : "Description: Dangerous wind gusts causing widespread damage are expected or occurring.\n\nLocations: western Newfoundland.\n\nMaximum gusts: 90 to 100 km/h, except locally 120 in areas prone to enhanced southeasterlies.\n\nTime span: ending this morning.\n\nRemarks: Strong southeasterly winds will diminish this morning as winds shift to southwesterly. \n\nLocal enhancement in southeasterly flow typically occurs in the vicinities of Cape St. George, Port au Port Bay, the outer Bay of Islands, Trout River Bay, Bonne Bay, Western Brook Pond and St. Pauls Bay.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-14T13:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T07:59:29-00:00, urn:oid:2.49.0.1.124.2543149963.2020<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Gros Morne, Bay St. George",
+				"Summary" : "Description: Dangerous wind gusts causing widespread damage are expected or occurring.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-14T13:59:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-14T09:06:44-00:00, urn:oid:2.49.0.1.124.0905819467.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.2543149963.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T07_59_29_00_00Iurn_oid_2.49.0.1.124.2543149963.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-14:feed.atom/urn:oid:2.49.0.1.124.0905819467.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-14/2020_03_14T09_06_44_00_00Iurn_oid_2.49.0.1.124.0905819467.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200314135929+00:00"
+				"Expires_FMEFormat" : "20200314135944+00:00"
 			}
 		}
 	]
