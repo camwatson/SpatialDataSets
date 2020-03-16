@@ -102,44 +102,111 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
+							[ -84.2401, 48.0978 ],
+							[ -85.2219, 48.2896 ],
 							[ -86.0931, 48.7455 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.2839, 48.5745 ],
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4467, 48.4447 ],
 							[ -86.5309, 48.2984 ],
 							[ -86.1345, 47.4654 ],
 							[ -85.809, 47.3094 ],
 							[ -84.9134, 47.2346 ],
 							[ -84.6283, 47.2522 ],
 							[ -83.9912, 47.2516 ],
-							[ -83.9939, 48.1107 ]
+							[ -83.9939, 48.1107 ],
+							[ -83.996, 48.1106 ],
+							[ -84.2352, 48.0981 ],
+							[ -84.2401, 48.0978 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"Title" : "Weather Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Weather",
 				"urgency" : "Future",
 				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 16, 2020 02:08",
-				"Expires_UTC" : "March 16, 2020 18:07",
-				"Summary" : "Description: Snow, at times heavy near Lake Superior on Monday.\n\nSnow will begin early Monday morning with snowfall amounts of 10 to 15 cm possible by Monday evening from Pic River to Wawa. From Wawa to Montreal River, similar snowfall amounts are possible by early Tuesday morning. The highest amounts are expected along the Lake Superior shoreline.\n\nBe prepared to adjust your driving with quickly changing and deteriorating travel conditions. Visibility may be suddenly reduced at times in heavy snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-16T18:07:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-16T02:08:39-00:00, urn:oid:2.49.0.1.124.2633069757.2020<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 16, 2020 06:17",
+				"Expires_UTC" : "March 16, 2020 22:16",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for today into tonight. \n\nSnow, at times heavy is expected near Lake Superior.\n\nSnow will begin early this morning with snowfall amounts of 10 to 15 cm possible by this evening from Terrace Bay to Wawa. From Wawa to Montreal River, similar snowfall amounts are possible by early Tuesday morning. The highest amounts are expected along the Lake Superior shoreline.\n\nBe prepared to adjust your driving with quickly changing and deteriorating travel conditions. Visibility may be suddenly reduced at times in heavy snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-16T22:16:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-16T06:17:08-00:00, urn:oid:2.49.0.1.124.0561747280.2020<br>Area: Marathon - Schreiber, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-16:feed.atom/urn:oid:2.49.0.1.124.2633069757.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-16/2020_03_16T02_08_39_00_00Iurn_oid_2.49.0.1.124.2633069757.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-16:feed.atom/urn:oid:2.49.0.1.124.0561747280.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-16/2020_03_16T06_17_08_00_00Iurn_oid_2.49.0.1.124.0561747280.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200316180739+00:00"
+				"Expires_FMEFormat" : "20200316221608+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					],
+					[
+						[
+							[ -93.6138, 69.4699 ],
+							[ -93.4803, 69.4587 ],
+							[ -93.6153, 69.3491 ],
+							[ -93.4314, 69.3393 ],
+							[ -93.2945, 69.3574 ],
+							[ -93.1092, 69.4087 ],
+							[ -92.9877, 69.4843 ],
+							[ -92.9587, 69.5667 ],
+							[ -93.0261, 69.6509 ],
+							[ -93.1729, 69.7158 ],
+							[ -93.3918, 69.7581 ],
+							[ -93.6305, 69.7675 ],
+							[ -93.8715, 69.7432 ],
+							[ -94.0649, 69.688 ],
+							[ -94.1766, 69.6146 ],
+							[ -94.1996, 69.5282 ],
+							[ -94.1276, 69.4476 ],
+							[ -94.1209, 69.3902 ],
+							[ -93.8696, 69.4025 ],
+							[ -93.6138, 69.4699 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 16, 2020 03:23",
+				"Expires_UTC" : "March 16, 2020 16:59",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected.\n\nBlizzard conditions are expected to continue in Gjoa Haven and Taloyoak tonight as northeast winds gust up to 80 km/h. Conditions will improve early Monday morning when the winds weaken.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-16T16:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-16T03:23:38-00:00, urn:oid:2.49.0.1.124.0471748056.2020<br>Area: Taloyoak, Gjoa Haven",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-16:feed.atom/urn:oid:2.49.0.1.124.0471748056.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-16/2020_03_16T03_23_38_00_00Iurn_oid_2.49.0.1.124.0471748056.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200316165938+00:00"
 			}
 		},
 		{
@@ -308,62 +375,44 @@
 				"coordinates" : [
 					[
 						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					],
-					[
-						[
-							[ -93.6138, 69.4699 ],
-							[ -93.4803, 69.4587 ],
-							[ -93.6153, 69.3491 ],
-							[ -93.4314, 69.3393 ],
-							[ -93.2945, 69.3574 ],
-							[ -93.1092, 69.4087 ],
-							[ -92.9877, 69.4843 ],
-							[ -92.9587, 69.5667 ],
-							[ -93.0261, 69.6509 ],
-							[ -93.1729, 69.7158 ],
-							[ -93.3918, 69.7581 ],
-							[ -93.6305, 69.7675 ],
-							[ -93.8715, 69.7432 ],
-							[ -94.0649, 69.688 ],
-							[ -94.1766, 69.6146 ],
-							[ -94.1996, 69.5282 ],
-							[ -94.1276, 69.4476 ],
-							[ -94.1209, 69.3902 ],
-							[ -93.8696, 69.4025 ],
-							[ -93.6138, 69.4699 ]
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.6283, 47.2522 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Blizzard",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 16, 2020 03:23",
-				"Expires_UTC" : "March 16, 2020 16:59",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected.\n\nBlizzard conditions are expected to continue in Gjoa Haven and Taloyoak tonight as northeast winds gust up to 80 km/h. Conditions will improve early Monday morning when the winds weaken.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-16T16:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-16T03:23:38-00:00, urn:oid:2.49.0.1.124.0471748056.2020<br>Area: Taloyoak, Gjoa Haven",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 16, 2020 02:08",
+				"Expires_UTC" : "March 16, 2020 18:07",
+				"Summary" : "Description: Snow, at times heavy near Lake Superior on Monday.\n\nSnow will begin early Monday morning with snowfall amounts of 10 to 15 cm possible by Monday evening from Pic River to Wawa. From Wawa to Montreal River, similar snowfall amounts are possible by early Tuesday morning. The highest amounts are expected along the Lake Superior shoreline.\n\nBe prepared to adjust your driving with quickly changing and deteriorating travel conditions. Visibility may be suddenly reduced at times in heavy snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-16T18:07:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-16T02:08:39-00:00, urn:oid:2.49.0.1.124.2633069757.2020<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-16:feed.atom/urn:oid:2.49.0.1.124.0471748056.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-16/2020_03_16T03_23_38_00_00Iurn_oid_2.49.0.1.124.0471748056.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-16:feed.atom/urn:oid:2.49.0.1.124.2633069757.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-16/2020_03_16T02_08_39_00_00Iurn_oid_2.49.0.1.124.2633069757.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200316165938+00:00"
+				"Expires_FMEFormat" : "20200316180739+00:00"
 			}
 		}
 	]
