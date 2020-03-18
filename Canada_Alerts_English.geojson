@@ -301,6 +301,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.5174, 48.6069 ],
+							[ -79.5076, 48.9319 ],
+							[ -79.5172, 49.1428 ],
+							[ -81.4419, 49.5091 ],
+							[ -81.4426, 49.1637 ],
+							[ -82.6268, 49.1616 ],
+							[ -82.6293, 48.2543 ],
+							[ -81.0729, 48.2526 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5072, 48.3417 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5062, 48.5243 ],
+							[ -79.5174, 48.6069 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 18, 2020 09:18",
+				"Expires_UTC" : "March 19, 2020 01:17",
+				"Summary" : "Description: Significant snowfall expected Thursday evening into Friday.\n\nAn approaching low pressure system will track over Lake Huron late Thursday bringing snow to Northern Ontario. Snow will begin over the area Thursday afternoon and become heavier through the evening. Snow may mix with rain Thursday evening. Snow will continue into Friday before gradually weakening Friday evening. \n\nTotal snowfall amounts of 10 to 20 cm are expected.\n\nThere remains some uncertainty in the exact track of this low and the precipitation associated with it. Should the low take a slightly more northerly track than anticipated, more of the precipitation will fall as rain and lower snowfall amounts will result. Snowfall warnings may be required as the situation becomes more clear.\n\nPrepare for quickly changing and deteriorating travel conditions Thursday evening into Friday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-19T01:17:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-18T09:18:18-00:00, urn:oid:2.49.0.1.124.0771435486.2020<br>Area: Timmins - Cochrane - Iroquois Falls",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-18:feed.atom/urn:oid:2.49.0.1.124.0771435486.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-18/2020_03_18T09_18_18_00_00Iurn_oid_2.49.0.1.124.0771435486.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200319011718+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -87.4321, 49.9482 ],
 							[ -88.5445, 49.9338 ],
 							[ -88.5445, 49.1129 ],
@@ -527,25 +573,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 18, 2020 08:38",
-				"Expires_UTC" : "March 18, 2020 09:38",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-03-18T09:38:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-18T08:38:25-00:00, urn:oid:2.49.0.1.124.3003053612.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 18, 2020 03:35",
+				"Expires_UTC" : "March 18, 2020 11:59",
+				"Summary" : "Description: Strong westerly winds with gusts to 90 kilometres per hour are expected overnight tonight.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-18T11:59:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-18T03:35:00-00:00, urn:oid:2.49.0.1.124.3115368005.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-18:feed.atom/urn:oid:2.49.0.1.124.3003053612.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-18/2020_03_18T08_38_25_00_00Iurn_oid_2.49.0.1.124.3003053612.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-18:feed.atom/urn:oid:2.49.0.1.124.3115368005.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-18/2020_03_18T03_35_00_00_00Iurn_oid_2.49.0.1.124.3115368005.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200318093825+00:00"
+				"Expires_FMEFormat" : "20200318115900+00:00"
 			}
 		},
 		{
@@ -640,24 +686,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory Ended",
+				"Title" : "Blowing Snow Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Blowing Snow",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 18, 2020 08:38",
-				"Expires_UTC" : "March 18, 2020 09:38",
-				"Summary" : "Description: Conditions are no longer expected to meet blowing snow advisory criteria.\n\n###<br>Expires: 2020-03-18T09:38:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-18T08:38:19-00:00, urn:oid:2.49.0.1.124.1454781136.2020<br>Area: Minganie, Natashquan, Chevery, Anticosti",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 18, 2020 02:37",
+				"Expires_UTC" : "March 18, 2020 18:36",
+				"Summary" : "Description: Snow combined with strong winds will greatly reduce visibilities beginning this evening. Conditions will improve on Wednesday.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-18T18:36:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-18T02:37:15-00:00, urn:oid:2.49.0.1.124.1841085397.2020<br>Area: Minganie, Natashquan, Chevery, Anticosti",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-18:feed.atom/urn:oid:2.49.0.1.124.1454781136.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-18/2020_03_18T08_38_19_00_00Iurn_oid_2.49.0.1.124.1454781136.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-18:feed.atom/urn:oid:2.49.0.1.124.1841085397.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-18/2020_03_18T02_37_15_00_00Iurn_oid_2.49.0.1.124.1841085397.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200318093819+00:00"
+				"Expires_FMEFormat" : "20200318183615+00:00"
 			}
 		},
 		{
