@@ -574,6 +574,88 @@
 				"coordinates" : [
 					[
 						[
+							[ -73.4755, 45.7402 ],
+							[ -73.5114, 45.7219 ],
+							[ -73.5138195577, 45.6957042549 ],
+							[ -73.5459, 45.6951 ],
+							[ -73.6747, 45.6644 ],
+							[ -73.7206, 45.5697 ],
+							[ -73.8173, 45.5564 ],
+							[ -73.9166, 45.549 ],
+							[ -73.9576, 45.5388 ],
+							[ -73.9858, 45.5108 ],
+							[ -74.0257, 45.4948 ],
+							[ -74.0516, 45.4625 ],
+							[ -74.081, 45.4257 ],
+							[ -74.0112, 45.3516 ],
+							[ -73.9724748689, 45.3510708132 ],
+							[ -74.0223, 45.3328 ],
+							[ -74.1783, 45.3161 ],
+							[ -74.2191, 45.2768 ],
+							[ -74.328, 45.2219 ],
+							[ -74.3627, 45.2198 ],
+							[ -74.4179, 45.1833 ],
+							[ -74.4697, 45.1699 ],
+							[ -74.521, 45.1357 ],
+							[ -74.5545, 45.0833 ],
+							[ -74.6356, 45.0538 ],
+							[ -74.6973, 45.0386 ],
+							[ -74.6612, 44.9994 ],
+							[ -74.2328, 44.9806 ],
+							[ -73.7832, 45.0016 ],
+							[ -73.4513, 45.0005 ],
+							[ -73.1194, 45.0019 ],
+							[ -73.0636, 45.2332 ],
+							[ -73.0516, 45.2831 ],
+							[ -72.7885, 45.4669 ],
+							[ -72.4986, 45.667 ],
+							[ -72.5018, 45.6657 ],
+							[ -72.7168, 45.8498 ],
+							[ -72.7965, 45.9176 ],
+							[ -72.9555, 46.0521 ],
+							[ -72.9808, 46.0734 ],
+							[ -73.0173, 46.1186 ],
+							[ -73.0479, 46.1579 ],
+							[ -73.0559, 46.1786 ],
+							[ -73.1623, 46.1349 ],
+							[ -73.2065, 46.0739 ],
+							[ -73.2215, 45.991 ],
+							[ -73.3097, 45.8917 ],
+							[ -73.377, 45.8363 ],
+							[ -73.4755, 45.7402 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 20, 2020 18:56",
+				"Expires_UTC" : "March 20, 2020 21:49",
+				"Summary" : "Description: At 2:56 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-03-20T21:49:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T18:56:34-00:00, urn:oid:2.49.0.1.124.3436635458.2020<br>Area: Longueuil - Varennes area, Montréal Island area, Châteauguay - La Prairie area, Saint-Rémi area, Valleyfield - Beauharnois area, Hemmingford area, Huntingdon area, Sorel - Yamaska area, Saint-Hyacinthe - Acton Vale area, Verchères - Beloeil area, Saint-Jean - Marieville area, Lacolle area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.3436635458.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T18_56_34_00_00Iurn_oid_2.49.0.1.124.3436635458.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200320214934+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -53.58, 47.3919 ],
 							[ -53.7999, 47.4599 ],
 							[ -53.9999, 47.9199 ],
@@ -651,53 +733,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.192, 51.7106 ],
-							[ -79.4165, 51.7137 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5368, 51.0871 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.5167, 50.5155 ],
-							[ -75.9995, 50.5156 ],
-							[ -76, 51.6249 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.9877, 51.6266 ],
-							[ -79.0521, 51.6205 ],
-							[ -79.1401, 51.6578 ],
-							[ -79.192, 51.7106 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 20, 2020 14:26",
-				"Expires_UTC" : "March 20, 2020 23:59",
-				"Summary" : "Description: Strong winds combined with snow will give zero visibilities in blowing snow today.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-20T23:59:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T14:26:52-00:00, urn:oid:2.49.0.1.124.0962343616.2020<br>Area: Waskaganish",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.0962343616.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T14_26_52_00_00Iurn_oid_2.49.0.1.124.0962343616.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200320235952+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -76.5919, 44.2558 ],
 							[ -76.7176, 44.243 ],
 							[ -76.8717, 44.1537 ],
@@ -763,6 +798,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T17_50_30_00_00Iurn_oid_2.49.0.1.124.0276842987.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200320211530+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.192, 51.7106 ],
+							[ -79.4165, 51.7137 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5368, 51.0871 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.5167, 50.5155 ],
+							[ -75.9995, 50.5156 ],
+							[ -76, 51.6249 ],
+							[ -78.9371, 51.6314 ],
+							[ -78.9877, 51.6266 ],
+							[ -79.0521, 51.6205 ],
+							[ -79.1401, 51.6578 ],
+							[ -79.192, 51.7106 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 20, 2020 14:26",
+				"Expires_UTC" : "March 20, 2020 23:59",
+				"Summary" : "Description: Strong winds combined with snow will give zero visibilities in blowing snow today.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-20T23:59:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T14:26:52-00:00, urn:oid:2.49.0.1.124.0962343616.2020<br>Area: Waskaganish",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.0962343616.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T14_26_52_00_00Iurn_oid_2.49.0.1.124.0962343616.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200320235952+00:00"
 			}
 		},
 		{
@@ -1221,73 +1303,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.7656, 46.7811 ],
-							[ -65.3925, 46.733 ],
-							[ -65.3919, 46.733 ],
-							[ -65.368, 46.7462 ],
-							[ -64.851, 47.0294 ],
-							[ -64.8304, 47.0405 ],
-							[ -64.7432, 47.0784 ],
-							[ -64.7688, 47.3864 ],
-							[ -64.7526, 47.5525 ],
-							[ -64.4105, 47.8072 ],
-							[ -64.4829, 48.0381 ],
-							[ -64.6328, 48.0419 ],
-							[ -64.7544, 48.0994 ],
-							[ -65.2163, 47.9516 ],
-							[ -65.4344, 47.921 ],
-							[ -65.8243, 48.018 ],
-							[ -66.0128, 48.0649 ],
-							[ -66.2939, 48.0424 ],
-							[ -66.4422, 48.0905 ],
-							[ -66.6148, 48.0154 ],
-							[ -66.7805, 47.993 ],
-							[ -66.7817, 48.0207 ],
-							[ -66.9036, 48.0246 ],
-							[ -66.9911, 47.9783 ],
-							[ -66.9979, 47.9393 ],
-							[ -67.0035, 47.9082 ],
-							[ -67.0033, 47.3573 ],
-							[ -67.0364, 47.3494 ],
-							[ -67.0349, 47.3489 ],
-							[ -66.6608, 46.7691 ],
-							[ -66.6606, 46.7689 ],
-							[ -65.937, 46.7796 ],
-							[ -65.7675, 46.7813 ],
-							[ -65.7656, 46.7811 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 20, 2020 15:01",
-				"Expires_UTC" : "March 20, 2020 18:59",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\nLocations: Northeastern New Brunswick.\n\nTime span: until early afternoon.\n\nRemarks: Patchy freezing rain will continue over northeastern New Brunswick for another hour or two then change over to rain by as warmer air from the south finally makes its way into the region.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-03-20T18:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T15:01:38-00:00, urn:oid:2.49.0.1.124.1515168169.2020<br>Area: Campbellton and eastern half of Restigouche County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region, Miramichi and area, Acadian Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.1515168169.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T15_01_38_00_00Iurn_oid_2.49.0.1.124.1515168169.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200320185938+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -57.1146, 52.8003 ],
 							[ -57.1428, 52.4234 ],
 							[ -57.1156, 52.1 ],
@@ -1346,16 +1361,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 20, 2020 18:46",
+				"LastUpdate_UTC" : "March 20, 2020 18:47",
 				"Expires_UTC" : "March 21, 2020 10:46",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-21T10:46:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T18:46:32-00:00, urn:oid:2.49.0.1.124.0569962375.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Upper Lake Melville, Eagle River",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nLocations: Norman Bay to L'Anse-au-Clair, as well as Eagle River and Upper Lake Melville.\n\nTime span: continuing until Saturday morning.\n\nRemarks: Snow at times heavy at times will change to rain by early Saturday morning from Norman Bay to L'Anse-au-Clair, but will persist until Saturday evening over Upper Lake Melville and Eagle River.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-21T10:46:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T18:47:32-00:00, urn:oid:2.49.0.1.124.2775533955.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Upper Lake Melville, Eagle River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.0569962375.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T18_46_32_00_00Iurn_oid_2.49.0.1.124.0569962375.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.2775533955.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T18_47_32_00_00Iurn_oid_2.49.0.1.124.2775533955.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200321104632+00:00"
 			}
@@ -1581,16 +1596,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 20, 2020 18:46",
+				"LastUpdate_UTC" : "March 20, 2020 18:47",
 				"Expires_UTC" : "March 21, 2020 10:46",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-21T10:46:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T18:46:52-00:00, urn:oid:2.49.0.1.124.1237765548.2020<br>Area: Red Bay to L'Anse-au-Clair",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nPeak wind gusts: westerly 100 km/h.\n\nLocations: the Labrador Straits.\n\nTime span: Saturday afternoon and evening.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-21T10:46:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T18:47:52-00:00, urn:oid:2.49.0.1.124.1367764916.2020<br>Area: Red Bay to L'Anse-au-Clair",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.1237765548.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T18_46_52_00_00Iurn_oid_2.49.0.1.124.1237765548.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.1367764916.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T18_47_52_00_00Iurn_oid_2.49.0.1.124.1367764916.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200321104652+00:00"
 			}
@@ -1630,16 +1645,16 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 20, 2020 18:46",
+				"LastUpdate_UTC" : "March 20, 2020 18:47",
 				"Expires_UTC" : "March 21, 2020 10:46",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-21T10:46:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T18:46:04-00:00, urn:oid:2.49.0.1.124.0392973514.2020<br>Area: Cartwright to Black Tickle, Rigolet and vicinity",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall amounts: 20 to 30 cm.\n\nPeak wind gusts: northwesterly 100 km/h.\n\nLocations: Black Tickle to Rigolet.\n\nTime span: tonight through Saturday evening.\n\nRemarks: Snow at times heavy will persist through tonight and Saturday. Strong northwesterly winds will develop Saturday afternoon and will combine with the fresh snowfall to reduce visibility in blowing snow. Conditions are expected to improve Saturday night as the snow tapers off the winds begin to ease.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-21T10:46:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T18:47:04-00:00, urn:oid:2.49.0.1.124.3385163892.2020<br>Area: Cartwright to Black Tickle, Rigolet and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.0392973514.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T18_46_04_00_00Iurn_oid_2.49.0.1.124.0392973514.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.3385163892.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T18_47_04_00_00Iurn_oid_2.49.0.1.124.3385163892.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200321104604+00:00"
 			}
