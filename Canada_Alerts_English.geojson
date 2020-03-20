@@ -74,6 +74,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 20, 2020 19:20",
+				"Expires_UTC" : "March 21, 2020 11:19",
+				"Summary" : "Description: Southwest winds will reach up to 90 kilometres per hour beginning Saturday night.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-21T11:19:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T19:20:33-00:00, urn:oid:2.49.0.1.124.0610610002.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.0610610002.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T19_20_33_00_00Iurn_oid_2.49.0.1.124.0610610002.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200321111933+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.7521, 48.9301 ],
 							[ -64.7559, 48.6496 ],
 							[ -64.2171, 48.6501 ],
@@ -115,60 +156,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T14_26_39_00_00Iurn_oid_2.49.0.1.124.1352429664.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200321062539+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.4419, 49.5091 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ],
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ],
-							[ -81.4426, 49.1637 ],
-							[ -81.4419, 49.5091 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 20, 2020 14:42",
-				"Expires_UTC" : "March 20, 2020 22:59",
-				"Summary" : "Description: Snow and blowing snow today.\n\nAdditional snowfall amounts of 2 to 5 cm are expected before the snow tapers off early this afternoon.\n\nNortherly winds gusting up to 60 km/h will give local blowing and drifting snow, particularly over exposed areas.\n\nPrepare for quickly changing and deteriorating travel conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-20T22:59:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T14:42:01-00:00, urn:oid:2.49.0.1.124.1157258870.2020<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.1157258870.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T14_42_01_00_00Iurn_oid_2.49.0.1.124.1157258870.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200320225901+00:00"
 			}
 		},
 		{
@@ -457,6 +444,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T14_41_44_00_00Iurn_oid_2.49.0.1.124.2687995632.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200321064044+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.4419, 49.5091 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ],
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ],
+							[ -81.4426, 49.1637 ],
+							[ -81.4419, 49.5091 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 20, 2020 14:42",
+				"Expires_UTC" : "March 20, 2020 22:59",
+				"Summary" : "Description: Snow and blowing snow today.\n\nAdditional snowfall amounts of 2 to 5 cm are expected before the snow tapers off early this afternoon.\n\nNortherly winds gusting up to 60 km/h will give local blowing and drifting snow, particularly over exposed areas.\n\nPrepare for quickly changing and deteriorating travel conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-20T22:59:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T14:42:01-00:00, urn:oid:2.49.0.1.124.1157258870.2020<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.1157258870.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T14_42_01_00_00Iurn_oid_2.49.0.1.124.1157258870.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200320225901+00:00"
 			}
 		},
 		{
@@ -1007,92 +1048,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -75.3692, 44.8253 ],
-							[ -75.4329, 44.7973 ],
-							[ -75.5821, 44.6966 ],
-							[ -75.6758, 44.6112 ],
-							[ -75.9048, 44.4662 ],
-							[ -75.9515, 44.4034 ],
-							[ -76.0771, 44.3828 ],
-							[ -76.1992, 44.3457 ],
-							[ -76.2862, 44.3387 ],
-							[ -76.4379, 44.2747 ],
-							[ -76.5919, 44.2558 ],
-							[ -76.6037, 44.2131 ],
-							[ -76.5882, 44.1816 ],
-							[ -76.5796, 44.162 ],
-							[ -76.5159, 44.0963 ],
-							[ -76.4895, 44.0862 ],
-							[ -76.455, 44.0731 ],
-							[ -76.4366, 44.066 ],
-							[ -76.3362, 44.1193 ],
-							[ -76.2874, 44.1754 ],
-							[ -76.1303, 44.2049 ],
-							[ -76.107, 44.2674 ],
-							[ -75.8638, 44.3439 ],
-							[ -75.7473, 44.4923 ],
-							[ -75.7458, 44.5122 ],
-							[ -75.5581, 44.651 ],
-							[ -75.4213, 44.7477 ],
-							[ -75.3701, 44.7743 ],
-							[ -75.348, 44.7971 ],
-							[ -75.2905, 44.8215 ],
-							[ -75.2895, 44.8342 ],
-							[ -75.2075, 44.8682 ],
-							[ -75.123, 44.8881 ],
-							[ -75.1131, 44.9064 ],
-							[ -74.9979, 44.9391 ],
-							[ -74.9742, 44.966 ],
-							[ -74.8933, 44.9716 ],
-							[ -74.8779, 44.9881 ],
-							[ -74.8171, 45.0036 ],
-							[ -74.7796, 44.9961 ],
-							[ -74.7712, 44.9846 ],
-							[ -74.7218, 44.9807 ],
-							[ -74.663, 44.9989 ],
-							[ -74.6705, 45.0062 ],
-							[ -74.6799, 45.0166 ],
-							[ -74.6869, 45.0243 ],
-							[ -74.7056, 45.0614 ],
-							[ -74.7831, 45.0511 ],
-							[ -74.8301, 45.0618 ],
-							[ -74.9556, 45.0434 ],
-							[ -75.1196, 44.9507 ],
-							[ -75.3019, 44.8892 ],
-							[ -75.3692, 44.8253 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "March 20, 2020 16:31",
-				"Expires_UTC" : "March 21, 2020 02:29",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 40 knots this afternoon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-03-21T02:29:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T16:31:08-00:00, urn:oid:2.49.0.1.124.3448022462.2020<br>Area: Prescott to Cornwall, Kingston to Prescott",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.3448022462.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T16_31_08_00_00Iurn_oid_2.49.0.1.124.3448022462.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200321022908+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -73.4755, 45.7402 ],
 							[ -73.5114, 45.7219 ],
 							[ -73.5138195577, 45.6957042549 ],
@@ -1568,6 +1523,92 @@
 				"coordinates" : [
 					[
 						[
+							[ -75.3692, 44.8253 ],
+							[ -75.4329, 44.7973 ],
+							[ -75.5821, 44.6966 ],
+							[ -75.6758, 44.6112 ],
+							[ -75.9048, 44.4662 ],
+							[ -75.9515, 44.4034 ],
+							[ -76.0771, 44.3828 ],
+							[ -76.1992, 44.3457 ],
+							[ -76.2862, 44.3387 ],
+							[ -76.4379, 44.2747 ],
+							[ -76.5919, 44.2558 ],
+							[ -76.6037, 44.2131 ],
+							[ -76.5882, 44.1816 ],
+							[ -76.5796, 44.162 ],
+							[ -76.5159, 44.0963 ],
+							[ -76.4895, 44.0862 ],
+							[ -76.455, 44.0731 ],
+							[ -76.4366, 44.066 ],
+							[ -76.3362, 44.1193 ],
+							[ -76.2874, 44.1754 ],
+							[ -76.1303, 44.2049 ],
+							[ -76.107, 44.2674 ],
+							[ -75.8638, 44.3439 ],
+							[ -75.7473, 44.4923 ],
+							[ -75.7458, 44.5122 ],
+							[ -75.5581, 44.651 ],
+							[ -75.4213, 44.7477 ],
+							[ -75.3701, 44.7743 ],
+							[ -75.348, 44.7971 ],
+							[ -75.2905, 44.8215 ],
+							[ -75.2895, 44.8342 ],
+							[ -75.2075, 44.8682 ],
+							[ -75.123, 44.8881 ],
+							[ -75.1131, 44.9064 ],
+							[ -74.9979, 44.9391 ],
+							[ -74.9742, 44.966 ],
+							[ -74.8933, 44.9716 ],
+							[ -74.8779, 44.9881 ],
+							[ -74.8171, 45.0036 ],
+							[ -74.7796, 44.9961 ],
+							[ -74.7712, 44.9846 ],
+							[ -74.7218, 44.9807 ],
+							[ -74.663, 44.9989 ],
+							[ -74.6705, 45.0062 ],
+							[ -74.6799, 45.0166 ],
+							[ -74.6869, 45.0243 ],
+							[ -74.7056, 45.0614 ],
+							[ -74.7831, 45.0511 ],
+							[ -74.8301, 45.0618 ],
+							[ -74.9556, 45.0434 ],
+							[ -75.1196, 44.9507 ],
+							[ -75.3019, 44.8892 ],
+							[ -75.3692, 44.8253 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Squall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 20, 2020 19:28",
+				"Expires_UTC" : "March 20, 2020 20:28",
+				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-03-20T20:28:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T19:28:30-00:00, urn:oid:2.49.0.1.124.2860019391.2020<br>Area: Prescott to Cornwall, Kingston to Prescott",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.2860019391.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T19_28_30_00_00Iurn_oid_2.49.0.1.124.2860019391.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200320202830+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -55.8517, 51.8524 ],
 							[ -55.2908, 52.0995 ],
 							[ -55.2952, 52.1186 ],
@@ -1946,85 +1987,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -80.2774, 44.6441 ],
-							[ -80.9105, 44.9805 ],
-							[ -81.0827, 45.0703 ],
-							[ -81.1853, 45.2717 ],
-							[ -81.4145, 45.3822 ],
-							[ -81.8404, 45.3535 ],
-							[ -81.4622, 44.5866 ],
-							[ -81.2913, 44.5944 ],
-							[ -81.2887, 44.5846 ],
-							[ -81.2724, 44.5229 ],
-							[ -81.1971, 44.5357 ],
-							[ -81.1203, 44.5511 ],
-							[ -81.1088, 44.4781 ],
-							[ -81.0823, 44.4005 ],
-							[ -80.2349, 44.2815 ],
-							[ -80.2918, 44.5273 ],
-							[ -80.2774, 44.6441 ]
-						]
-					],
-					[
-						[
-							[ -80.1856, 45.0191 ],
-							[ -80.3295, 44.8567 ],
-							[ -80.2774, 44.6441 ],
-							[ -79.9812, 44.6517 ],
-							[ -79.9704, 44.6487 ],
-							[ -79.6293, 44.5519 ],
-							[ -79.5662, 44.7803 ],
-							[ -79.5432, 44.8648 ],
-							[ -79.5006, 44.9608 ],
-							[ -79.4556, 45.0156 ],
-							[ -79.3914, 45.039 ],
-							[ -79.3499, 45.0509 ],
-							[ -79.3895, 45.1399 ],
-							[ -79.5935, 45.5573 ],
-							[ -79.0368, 45.5697 ],
-							[ -79.2711, 45.9989 ],
-							[ -79.5385, 45.9261 ],
-							[ -79.6173, 45.9047 ],
-							[ -79.7785, 45.901 ],
-							[ -80.5706, 45.8856 ],
-							[ -80.7251, 45.8899 ],
-							[ -80.7432, 45.8894 ],
-							[ -80.8486, 45.8248 ],
-							[ -80.5641, 45.5136 ],
-							[ -80.1856, 45.0191 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 20, 2020 16:18",
-				"Expires_UTC" : "March 21, 2020 00:59",
-				"Summary" : "Description: Strong wind gusts on the way today.\n\nStrong northwesterly winds are forecast to continue this afternoon in the wake of a strong cold front. Wind gusts up to 70 or 80 km/h are expected, particularly near the shores of Lake Huron and Georgian Bay. \n\nWinds are forecast to ease by early this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-21T00:59:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T16:18:21-00:00, urn:oid:2.49.0.1.124.2717098707.2020<br>Area: Midland - Coldwater - Orr Lake, Bruce Peninsula - Sauble Beach - Tobermory, Owen Sound - Blue Mountains - Northern Grey County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.2717098707.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T16_18_21_00_00Iurn_oid_2.49.0.1.124.2717098707.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200321005921+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -79.0603, 43.7242 ],
 							[ -78.4112, 43.8237 ],
 							[ -77.7696, 43.9565 ],
@@ -2174,6 +2136,85 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T17_54_48_00_00Iurn_oid_2.49.0.1.124.3538752147.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200321015948+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -80.2774, 44.6441 ],
+							[ -80.9105, 44.9805 ],
+							[ -81.0827, 45.0703 ],
+							[ -81.1853, 45.2717 ],
+							[ -81.4145, 45.3822 ],
+							[ -81.8404, 45.3535 ],
+							[ -81.4622, 44.5866 ],
+							[ -81.2913, 44.5944 ],
+							[ -81.2887, 44.5846 ],
+							[ -81.2724, 44.5229 ],
+							[ -81.1971, 44.5357 ],
+							[ -81.1203, 44.5511 ],
+							[ -81.1088, 44.4781 ],
+							[ -81.0823, 44.4005 ],
+							[ -80.2349, 44.2815 ],
+							[ -80.2918, 44.5273 ],
+							[ -80.2774, 44.6441 ]
+						]
+					],
+					[
+						[
+							[ -80.1856, 45.0191 ],
+							[ -80.3295, 44.8567 ],
+							[ -80.2774, 44.6441 ],
+							[ -79.9812, 44.6517 ],
+							[ -79.9704, 44.6487 ],
+							[ -79.6293, 44.5519 ],
+							[ -79.5662, 44.7803 ],
+							[ -79.5432, 44.8648 ],
+							[ -79.5006, 44.9608 ],
+							[ -79.4556, 45.0156 ],
+							[ -79.3914, 45.039 ],
+							[ -79.3499, 45.0509 ],
+							[ -79.3895, 45.1399 ],
+							[ -79.5935, 45.5573 ],
+							[ -79.0368, 45.5697 ],
+							[ -79.2711, 45.9989 ],
+							[ -79.5385, 45.9261 ],
+							[ -79.6173, 45.9047 ],
+							[ -79.7785, 45.901 ],
+							[ -80.5706, 45.8856 ],
+							[ -80.7251, 45.8899 ],
+							[ -80.7432, 45.8894 ],
+							[ -80.8486, 45.8248 ],
+							[ -80.5641, 45.5136 ],
+							[ -80.1856, 45.0191 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 20, 2020 16:18",
+				"Expires_UTC" : "March 21, 2020 00:59",
+				"Summary" : "Description: Strong wind gusts on the way today.\n\nStrong northwesterly winds are forecast to continue this afternoon in the wake of a strong cold front. Wind gusts up to 70 or 80 km/h are expected, particularly near the shores of Lake Huron and Georgian Bay. \n\nWinds are forecast to ease by early this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-21T00:59:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-20T16:18:21-00:00, urn:oid:2.49.0.1.124.2717098707.2020<br>Area: Midland - Coldwater - Orr Lake, Bruce Peninsula - Sauble Beach - Tobermory, Owen Sound - Blue Mountains - Northern Grey County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-20:feed.atom/urn:oid:2.49.0.1.124.2717098707.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-20/2020_03_20T16_18_21_00_00Iurn_oid_2.49.0.1.124.2717098707.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200321005921+00:00"
 			}
 		},
 		{
