@@ -305,6 +305,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 23, 2020 22:30",
+				"Expires_UTC" : "March 23, 2020 23:30",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2020-03-23T23:30:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-23T22:30:21-00:00, urn:oid:2.49.0.1.124.1433820119.2020<br>Area: Rankin Region including Whale Cove",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-23:feed.atom/urn:oid:2.49.0.1.124.1433820119.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T22_30_21_00_00Iurn_oid_2.49.0.1.124.1433820119.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200323233021+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -52.7949, 47.8738 ],
 							[ -52.7347, 48.2265 ],
 							[ -52.9479, 48.2795 ],
@@ -586,49 +633,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T19_47_17_00_00Iurn_oid_2.49.0.1.124.1753269856.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200324114617+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -121.4, 53.5999 ],
-							[ -120.7486, 53.7145 ],
-							[ -120.0013, 53.8698 ],
-							[ -120.0013, 53.8703 ],
-							[ -120.9189, 54.7056 ],
-							[ -121.6999, 55.38 ],
-							[ -122.0979, 55.2024 ],
-							[ -122.4999, 54.9999 ],
-							[ -121.9977, 54.3151 ],
-							[ -121.4, 53.5999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 23, 2020 19:24",
-				"Expires_UTC" : "March 24, 2020 03:24",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm continues.\n\nHeavy snow is falling over parts of the McGregor region. Snowfall accumulation totalling 10 to 15 cm is expected before the snow tapers to flurries this afternoon.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-24T03:24:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-23T19:24:09-00:00, urn:oid:2.49.0.1.124.2502746472.2020<br>Area: McGregor",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-23:feed.atom/urn:oid:2.49.0.1.124.2502746472.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T19_24_09_00_00Iurn_oid_2.49.0.1.124.2502746472.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200324032409+00:00"
 			}
 		},
 		{
@@ -1147,53 +1151,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T21_58_11_00_00Iurn_oid_2.49.0.1.124.2914903981.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200324135711+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Blizzard Warning Ended",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 23, 2020 22:30",
-				"Expires_UTC" : "March 23, 2020 23:30",
-				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2020-03-23T23:30:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-23T22:30:21-00:00, urn:oid:2.49.0.1.124.1433820119.2020<br>Area: Rankin Region including Whale Cove",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-23:feed.atom/urn:oid:2.49.0.1.124.1433820119.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T22_30_21_00_00Iurn_oid_2.49.0.1.124.1433820119.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200323233021+00:00"
 			}
 		},
 		{
@@ -1764,6 +1721,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T18_51_37_00_00Iurn_oid_2.49.0.1.124.0837920019.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200324105037+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -121.4, 53.5999 ],
+							[ -120.7486, 53.7145 ],
+							[ -120.0013, 53.8698 ],
+							[ -120.0013, 53.8703 ],
+							[ -120.9189, 54.7056 ],
+							[ -121.6999, 55.38 ],
+							[ -122.0979, 55.2024 ],
+							[ -122.4999, 54.9999 ],
+							[ -121.9977, 54.3151 ],
+							[ -121.4, 53.5999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 23, 2020 19:24",
+				"Expires_UTC" : "March 24, 2020 03:24",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm continues.\n\nHeavy snow is falling over parts of the McGregor region. Snowfall accumulation totalling 10 to 15 cm is expected before the snow tapers to flurries this afternoon.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-24T03:24:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-23T19:24:09-00:00, urn:oid:2.49.0.1.124.2502746472.2020<br>Area: McGregor",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-23:feed.atom/urn:oid:2.49.0.1.124.2502746472.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T19_24_09_00_00Iurn_oid_2.49.0.1.124.2502746472.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200324032409+00:00"
 			}
 		}
 	]
