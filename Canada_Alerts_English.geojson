@@ -247,53 +247,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 23, 2020 16:12",
-				"Expires_UTC" : "March 23, 2020 23:10",
-				"Summary" : "Description: The passage of a cold front is giving blizzard conditions to Rankin Inlet and Whale Cove this morning. This blizzard will ease early this afternoon as the winds slowly weaken.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-23T23:10:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-23T16:12:20-00:00, urn:oid:2.49.0.1.124.3843961800.2020<br>Area: Rankin Region including Whale Cove",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-23:feed.atom/urn:oid:2.49.0.1.124.3843961800.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T16_12_20_00_00Iurn_oid_2.49.0.1.124.3843961800.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200323231020+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -60.7119, 46.0869 ],
 							[ -60.7214, 46.0663 ],
 							[ -60.789, 45.9777 ],
@@ -385,6 +338,84 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T19_24_09_00_00Iurn_oid_2.49.0.1.124.2502746472.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200324032409+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -63.46, 44.9886 ],
+							[ -63.5208, 44.9693 ],
+							[ -63.657, 44.9416 ],
+							[ -63.7597, 44.8965 ],
+							[ -63.8291, 44.8025 ],
+							[ -64.2442, 44.762 ],
+							[ -64.2554, 44.7703 ],
+							[ -64.434, 44.9011 ],
+							[ -64.5243, 44.8377 ],
+							[ -64.5248, 44.838 ],
+							[ -64.5316, 44.8422 ],
+							[ -64.7714, 44.6652 ],
+							[ -64.9461, 44.5351 ],
+							[ -65.0755, 44.4407 ],
+							[ -65.1623, 44.4446 ],
+							[ -65.1856, 44.4122 ],
+							[ -65.3296, 44.3106 ],
+							[ -65.3923, 44.2277 ],
+							[ -65.6271, 44.193 ],
+							[ -65.8891, 44.1327 ],
+							[ -66.0272, 44.0753 ],
+							[ -66.1537, 44.0035 ],
+							[ -66.2609, 43.9343 ],
+							[ -66.2464, 43.8302 ],
+							[ -66.0816, 43.613 ],
+							[ -65.8528, 43.5481 ],
+							[ -65.779, 43.4069 ],
+							[ -65.6057, 43.3204 ],
+							[ -64.8863, 43.7582 ],
+							[ -64.4838, 44.0841 ],
+							[ -64.2742, 44.1629 ],
+							[ -63.9672, 44.4641 ],
+							[ -63.6521, 44.3309 ],
+							[ -63.2658, 44.6121 ],
+							[ -63.2105, 44.6376 ],
+							[ -62.9403, 44.6081 ],
+							[ -62.0547, 44.8797 ],
+							[ -62.1548, 44.9424 ],
+							[ -62.1647, 44.9739 ],
+							[ -62.1655, 44.9754 ],
+							[ -62.7118, 45.2704 ],
+							[ -62.8428, 45.2503 ],
+							[ -62.8749, 45.2036 ],
+							[ -63.3573, 45.0209 ],
+							[ -63.46, 44.9886 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 23, 2020 18:51",
+				"Expires_UTC" : "March 24, 2020 10:50",
+				"Summary" : "Description: Rain, heavy at times is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nTotal rainfall: 20 to 40 mm.\n\nMaximum wind gusts: 60 km/h.\n\nLocations: Atlantic coast of Nova Scotia.\n\nTime span: Tuesday morning until Tuesday evening.\n\nRemarks: A mix of rain and snow will begin in southwestern Nova Scotia early Tuesday morning and spread east throughout the morning. Higher snowfall totals of 5 to 10 cm are possible further inland before completely changing over to rain in the afternoon.  Rain will taper off by Tuesday evening.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Be prepared for winter conditions at higher elevations.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-24T10:50:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-23T18:51:37-00:00, urn:oid:2.49.0.1.124.0837920019.2020<br>Area: Lunenburg County, Queens County, Shelburne County, Yarmouth County, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-23:feed.atom/urn:oid:2.49.0.1.124.0837920019.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T18_51_37_00_00Iurn_oid_2.49.0.1.124.0837920019.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200324105037+00:00"
 			}
 		},
 		{
@@ -914,6 +945,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 23, 2020 19:32",
+				"Expires_UTC" : "March 23, 2020 23:10",
+				"Summary" : "Description: The passage of a cold front is giving blizzard conditions to Rankin Inlet and Whale Cove. This blizzard will ease this afternoon or this evening as the winds slowly weaken.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-23T23:10:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-23T19:32:50-00:00, urn:oid:2.49.0.1.124.3080881701.2020<br>Area: Rankin Region including Whale Cove",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-23:feed.atom/urn:oid:2.49.0.1.124.3080881701.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T19_32_50_00_00Iurn_oid_2.49.0.1.124.3080881701.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200323231050+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -74.5028, 62.3786 ],
 							[ -76.1437, 62.4482 ],
 							[ -75.9991, 61.45 ],
@@ -1115,84 +1193,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T16_36_49_00_00Iurn_oid_2.49.0.1.124.2202881489.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200324083549+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -63.46, 44.9886 ],
-							[ -63.5208, 44.9693 ],
-							[ -63.657, 44.9416 ],
-							[ -63.7597, 44.8965 ],
-							[ -63.8291, 44.8025 ],
-							[ -64.2442, 44.762 ],
-							[ -64.2554, 44.7703 ],
-							[ -64.434, 44.9011 ],
-							[ -64.5243, 44.8377 ],
-							[ -64.5248, 44.838 ],
-							[ -64.5316, 44.8422 ],
-							[ -64.7714, 44.6652 ],
-							[ -64.9461, 44.5351 ],
-							[ -65.0755, 44.4407 ],
-							[ -65.1623, 44.4446 ],
-							[ -65.1856, 44.4122 ],
-							[ -65.3296, 44.3106 ],
-							[ -65.3923, 44.2277 ],
-							[ -65.6271, 44.193 ],
-							[ -65.8891, 44.1327 ],
-							[ -66.0272, 44.0753 ],
-							[ -66.1537, 44.0035 ],
-							[ -66.2609, 43.9343 ],
-							[ -66.2464, 43.8302 ],
-							[ -66.0816, 43.613 ],
-							[ -65.8528, 43.5481 ],
-							[ -65.779, 43.4069 ],
-							[ -65.6057, 43.3204 ],
-							[ -64.8863, 43.7582 ],
-							[ -64.4838, 44.0841 ],
-							[ -64.2742, 44.1629 ],
-							[ -63.9672, 44.4641 ],
-							[ -63.6521, 44.3309 ],
-							[ -63.2658, 44.6121 ],
-							[ -63.2105, 44.6376 ],
-							[ -62.9403, 44.6081 ],
-							[ -62.0547, 44.8797 ],
-							[ -62.1548, 44.9424 ],
-							[ -62.1647, 44.9739 ],
-							[ -62.1655, 44.9754 ],
-							[ -62.7118, 45.2704 ],
-							[ -62.8428, 45.2503 ],
-							[ -62.8749, 45.2036 ],
-							[ -63.3573, 45.0209 ],
-							[ -63.46, 44.9886 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "March 23, 2020 18:51",
-				"Expires_UTC" : "March 24, 2020 10:50",
-				"Summary" : "Description: Rain, heavy at times is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nTotal rainfall: 20 to 40 mm.\n\nMaximum wind gusts: 60 km/h.\n\nLocations: Atlantic coast of Nova Scotia.\n\nTime span: Tuesday morning until Tuesday evening.\n\nRemarks: A mix of rain and snow will begin in southwestern Nova Scotia early Tuesday morning and spread east throughout the morning. Higher snowfall totals of 5 to 10 cm are possible further inland before completely changing over to rain in the afternoon.  Rain will taper off by Tuesday evening.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Be prepared for winter conditions at higher elevations.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-24T10:50:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-23T18:51:37-00:00, urn:oid:2.49.0.1.124.0837920019.2020<br>Area: Lunenburg County, Queens County, Shelburne County, Yarmouth County, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-23:feed.atom/urn:oid:2.49.0.1.124.0837920019.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-23/2020_03_23T18_51_37_00_00Iurn_oid_2.49.0.1.124.0837920019.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200324105037+00:00"
 			}
 		}
 	]
