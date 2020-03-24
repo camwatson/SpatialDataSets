@@ -9,6 +9,60 @@
 				"coordinates" : [
 					[
 						[
+							[ -90.4723, 55.9307 ],
+							[ -91.0742, 55.5552 ],
+							[ -91.653, 55.1549 ],
+							[ -92.6285, 54.5171 ],
+							[ -93.4241, 53.9089 ],
+							[ -92.0252, 53.7297 ],
+							[ -90.5082, 53.543 ],
+							[ -89.6215, 54.5866 ],
+							[ -88.8527, 55.4984 ],
+							[ -87.9707, 55.2549 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.0016, 55.9096 ],
+							[ -86.9972, 56.0007 ],
+							[ -87.4589, 56.1029 ],
+							[ -87.9073, 56.4915 ],
+							[ -88.6479, 56.724 ],
+							[ -88.9057, 56.9017 ],
+							[ -88.9894, 56.8474 ],
+							[ -89.8863, 56.3004 ],
+							[ -90.1757, 56.1351 ],
+							[ -90.4723, 55.9307 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 24, 2020 03:45",
+				"Expires_UTC" : "March 24, 2020 19:44",
+				"Summary" : "Description: Winter storm expected Tuesday.\n\nLight snow will begin Tuesday morning and become heavy at times in the afternoon. \n\nTotal snowfall accumulations with this winter storm are expected to be near 25 cm. Brisk north or northeast winds of 40 gusting to 60 or 70 km/h will produce local blowing snow.\n\nThe snow will taper off Wednesday morning.\n\nThis winter storm is associated with an intensifying low pressure system from southern Alberta that will track towards northern Ontario on Tuesday.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-24T19:44:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-24T03:45:03-00:00, urn:oid:2.49.0.1.124.3819553063.2020<br>Area: Fort Severn, Sachigo Lake - Bearskin Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-24:feed.atom/urn:oid:2.49.0.1.124.3819553063.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-24/2020_03_24T03_45_03_00_00Iurn_oid_2.49.0.1.124.3819553063.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200324194403+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -88.9894, 56.8474 ],
 							[ -89.8863, 56.3004 ],
 							[ -90.1757, 56.1351 ],
@@ -741,63 +795,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-24/2020_03_24T07_44_11_00_00Iurn_oid_2.49.0.1.124.3958723494.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200324234311+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.7119, 46.0869 ],
-							[ -60.7214, 46.0663 ],
-							[ -60.789, 45.9777 ],
-							[ -60.8436, 45.8719 ],
-							[ -60.6728, 45.8236 ],
-							[ -60.227, 45.7243 ],
-							[ -60.1685, 45.7073 ],
-							[ -59.538, 46.0154 ],
-							[ -59.8902, 46.2624 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.554, 47.0263 ],
-							[ -60.7422, 46.4987 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.9766, 46.0016 ],
-							[ -60.9641, 46.0041 ],
-							[ -60.9256, 46.0478 ],
-							[ -60.8568, 46.0675 ],
-							[ -60.8098, 46.0638 ],
-							[ -60.7119, 46.0869 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 24, 2020 07:41",
-				"Expires_UTC" : "March 24, 2020 23:40",
-				"Summary" : "Description: Total snowfall: 10 to 20 cm.\n\nMaximum wind gusts: 60 km/h.\n\nLocations: Victoria and Cape Breton counties.\n\nTime span: this morning morning until late this evening.\n\nRemarks: Snow is expected to start later this morning. Snow will changeover to rain at times heavy near the Atlantic coast of Cape Breton county in the afternoon, before switching back over to snow in the evening. The highest snow amounts will likely be over inland areas and higher terrain in Victoria and Cape Breton counties..\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-24T23:40:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-24T07:41:47-00:00, urn:oid:2.49.0.1.124.3652891036.2020<br>Area: Victoria County, Sydney Metro and Cape Breton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-24:feed.atom/urn:oid:2.49.0.1.124.3652891036.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-24/2020_03_24T07_41_47_00_00Iurn_oid_2.49.0.1.124.3652891036.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200324234047+00:00"
 			}
 		},
 		{
@@ -1561,60 +1558,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -90.4723, 55.9307 ],
-							[ -91.0742, 55.5552 ],
-							[ -91.653, 55.1549 ],
-							[ -92.6285, 54.5171 ],
-							[ -93.4241, 53.9089 ],
-							[ -92.0252, 53.7297 ],
-							[ -90.5082, 53.543 ],
-							[ -89.6215, 54.5866 ],
-							[ -88.8527, 55.4984 ],
-							[ -87.9707, 55.2549 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.0016, 55.9096 ],
-							[ -86.9972, 56.0007 ],
-							[ -87.4589, 56.1029 ],
-							[ -87.9073, 56.4915 ],
-							[ -88.6479, 56.724 ],
-							[ -88.9057, 56.9017 ],
-							[ -88.9894, 56.8474 ],
-							[ -89.8863, 56.3004 ],
-							[ -90.1757, 56.1351 ],
-							[ -90.4723, 55.9307 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 24, 2020 03:45",
-				"Expires_UTC" : "March 24, 2020 19:44",
-				"Summary" : "Description: Winter storm expected Tuesday.\n\nLight snow will begin Tuesday morning and become heavy at times in the afternoon. \n\nTotal snowfall accumulations with this winter storm are expected to be near 25 cm. Brisk north or northeast winds of 40 gusting to 60 or 70 km/h will produce local blowing snow.\n\nThe snow will taper off Wednesday morning.\n\nThis winter storm is associated with an intensifying low pressure system from southern Alberta that will track towards northern Ontario on Tuesday.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-24T19:44:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-24T03:45:03-00:00, urn:oid:2.49.0.1.124.3819553063.2020<br>Area: Fort Severn, Sachigo Lake - Bearskin Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-24:feed.atom/urn:oid:2.49.0.1.124.3819553063.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-24/2020_03_24T03_45_03_00_00Iurn_oid_2.49.0.1.124.3819553063.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200324194403+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -116.9198, 55.3751 ],
 							[ -117.1068, 55.3788 ],
 							[ -117.3556, 55.3754 ],
@@ -2261,6 +2204,63 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-24/2020_03_24T09_30_56_00_00Iurn_oid_2.49.0.1.124.2702974902.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200325012956+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -60.7119, 46.0869 ],
+							[ -60.7214, 46.0663 ],
+							[ -60.789, 45.9777 ],
+							[ -60.8436, 45.8719 ],
+							[ -60.6728, 45.8236 ],
+							[ -60.227, 45.7243 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.554, 47.0263 ],
+							[ -60.7422, 46.4987 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.9766, 46.0016 ],
+							[ -60.9641, 46.0041 ],
+							[ -60.9256, 46.0478 ],
+							[ -60.8568, 46.0675 ],
+							[ -60.8098, 46.0638 ],
+							[ -60.7119, 46.0869 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 24, 2020 07:41",
+				"Expires_UTC" : "March 24, 2020 23:40",
+				"Summary" : "Description: Total snowfall: 10 to 20 cm.\n\nMaximum wind gusts: 60 km/h.\n\nLocations: Victoria and Cape Breton counties.\n\nTime span: this morning morning until late this evening.\n\nRemarks: Snow is expected to start later this morning. Snow will changeover to rain at times heavy near the Atlantic coast of Cape Breton county in the afternoon, before switching back over to snow in the evening. The highest snow amounts will likely be over inland areas and higher terrain in Victoria and Cape Breton counties..\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-24T23:40:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-24T07:41:47-00:00, urn:oid:2.49.0.1.124.3652891036.2020<br>Area: Victoria County, Sydney Metro and Cape Breton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-24:feed.atom/urn:oid:2.49.0.1.124.3652891036.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-24/2020_03_24T07_41_47_00_00Iurn_oid_2.49.0.1.124.3652891036.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200324234047+00:00"
 			}
 		}
 	]
