@@ -151,6 +151,45 @@
 				"coordinates" : [
 					[
 						[
+							[ -113.1334, 51.2415 ],
+							[ -113.1508, 51.2274 ],
+							[ -113.1334, 51.2276 ],
+							[ -113.1334, 51.2415 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Other",
+				"Title" : "Alberta Emergency Alert - Telephone Service Alert",
+				"Category" : "Actual",
+				"event" : "Telephone Service",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 25, 2020 10:32",
+				"Expires_UTC" : "April 1, 2020 10:34",
+				"Summary" : "Description: The Village of Rockyford is experiencing an outage that is impacting the ability of TELUS MOBILE customers to contact 9-1-1.\nTELUS customers will not be able to get through to 9-1-1.  This applies to TELUS mobile users only.  \nLandline and other providers still have service.<br>Expires: 2020-04-01T10:34:08-06:00<br>Originated from CAP Alert: Village of Rockyford, 2020-03-25T10:32:07-06:00, NAADS-CA-AB-AEA1-6269<br>Area: Rockyford",
+				"Author" : "Village of Rockyford",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/NAADS-CA-AB-AEA1-6269",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T10_32_07_06_00INAADS_CA_AB_AEA1_6269.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200401103408-06:00",
+				"EnclosureType" : "audio/mpeg",
+				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/7723-0.mp3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -55, 48.25 ],
 							[ -54.9999, 47.9199 ],
 							[ -53.9999, 47.9199 ],
@@ -352,54 +391,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T01_34_49_00_00Iurn_oid_2.49.0.1.124.3865915084.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200325165949+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 25, 2020 07:42",
-				"Expires_UTC" : "March 25, 2020 16:30",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nAdditional snowfall: near 2 cm.\n\nMaximum wind gusts: northeasterly 70 km/h.\n\nLocations: Burin and Connaigre Peninsulas.\n\nTime span: ending this morning.\n\nRemarks: Snow is expected to redevelop this morning and persist for a couple of hours before ending. Strong winds accompanying the snow will cause poor visibilities in blowing snow.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-25T16:30:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T07:42:12-00:00, urn:oid:2.49.0.1.124.3499239966.2020<br>Area: Burin Peninsula, Connaigre",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.3499239966.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T07_42_12_00_00Iurn_oid_2.49.0.1.124.3499239966.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200325163012+00:00"
 			}
 		},
 		{
@@ -746,18 +737,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 25, 2020 10:20",
-				"Expires_UTC" : "March 25, 2020 19:59",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nStrong winds gusting to 70 km/h and snow are reducing visibility. Conditions are expected to improve later this morning.\n\n###\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-03-25T19:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T10:20:02-00:00, urn:oid:2.49.0.1.124.3895202259.2020<br>Area: Paulatuk",
+				"LastUpdate_UTC" : "March 25, 2020 16:38",
+				"Expires_UTC" : "March 25, 2020 23:29",
+				"Summary" : "Description: Blizzard conditions with poor visibility in blowing snow are expected or occurring.\n\n###\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-03-25T23:29:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T16:38:38-00:00, urn:oid:2.49.0.1.124.1257697205.2020<br>Area: Paulatuk",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.3895202259.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T10_20_02_00_00Iurn_oid_2.49.0.1.124.3895202259.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.1257697205.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T16_38_38_00_00Iurn_oid_2.49.0.1.124.1257697205.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200325195902+00:00"
+				"Expires_FMEFormat" : "20200325232938+00:00"
 			}
 		},
 		{
