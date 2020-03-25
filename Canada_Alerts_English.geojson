@@ -9,6 +9,49 @@
 				"coordinates" : [
 					[
 						[
+							[ -113.97, 51.2708 ],
+							[ -113.9783, 51.307 ],
+							[ -114.0486, 51.307 ],
+							[ -114.0485, 51.2491 ],
+							[ -113.9941, 51.2416 ],
+							[ -113.9949, 51.2562 ],
+							[ -113.9698, 51.2565 ],
+							[ -113.97, 51.2708 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Other",
+				"Title" : "Alberta Emergency Alert - Telephone Service Alert",
+				"Category" : "Actual",
+				"event" : "Telephone Service",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 25, 2020 10:18",
+				"Expires_UTC" : "April 1, 2020 10:20",
+				"Summary" : "Description: The City of Airdrie is experiencing an outage that is impacting the ability of TELUS MOBILE CUSTOMERS to contact 9-1-1.\n###\nThe City of Airdrie is experiencing an outage that is impacting the ability of TELUS MOBILE CUSTOMERS to contact 9-1-1. Telus cellular customers will not be able to dial 9-1-1 form anywhere in Alberta at this time. This outage DOES NOT impact landlines. Landlines can still be used to call 9-1-1 in an emergency.This outage is only impacting TELUS MOBILITY customers. It does not impact other providers. Telus is working to resolve this issue as quickly as possible.<br>Expires: 2020-04-01T10:20:08-06:00<br>Originated from CAP Alert: City of Airdrie, 2020-03-25T10:18:45-06:00, NAADS-CA-AB-AEA1-6268<br>Area: Airdrie",
+				"Author" : "City of Airdrie",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/NAADS-CA-AB-AEA1-6268",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T10_18_45_06_00INAADS_CA_AB_AEA1_6268.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200401102008-06:00",
+				"EnclosureType" : "audio/mpeg",
+				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/7721-0.mp3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -88.9894, 56.8474 ],
 							[ -89.8863, 56.3004 ],
 							[ -90.1757, 56.1351 ],
@@ -217,57 +260,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -54.65, 49.25 ],
-							[ -55.0999, 48.9 ],
-							[ -55.3717, 48.6868 ],
-							[ -55.3737, 48.6852 ],
-							[ -54.9999, 48.5499 ],
-							[ -54.2, 48.9 ],
-							[ -54.0086, 48.9045 ],
-							[ -53.9865, 48.8983 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.2131, 49.5679 ],
-							[ -54.362, 49.5406 ],
-							[ -54.5, 49.3639 ],
-							[ -54.5012, 49.363 ],
-							[ -54.65, 49.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 25, 2020 16:04",
-				"Expires_UTC" : "March 25, 2020 17:04",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-25T17:04:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T16:04:07-00:00, urn:oid:2.49.0.1.124.1994696787.2020<br>Area: Bonavista North, Gander and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.1994696787.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T16_04_07_00_00Iurn_oid_2.49.0.1.124.1994696787.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200325170407+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -70.2989, 59.6999 ],
 							[ -70.299, 58.7659 ],
 							[ -70.1936, 58.7957 ],
@@ -408,6 +400,68 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T07_42_12_00_00Iurn_oid_2.49.0.1.124.3499239966.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200325163012+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.0762, 47.581 ],
+							[ -81.0754, 46.97 ],
+							[ -80.8125, 46.9683 ],
+							[ -80.8125, 46.8912 ],
+							[ -80.566, 46.8912 ],
+							[ -80.566, 46.7261 ],
+							[ -80.3679, 46.7151 ],
+							[ -79.5386, 46.7145 ],
+							[ -79.1099, 46.7147 ],
+							[ -79.1058, 46.7145 ],
+							[ -79.0624, 46.7207 ],
+							[ -79.141, 46.8582 ],
+							[ -79.1873, 46.8737 ],
+							[ -79.275, 46.952 ],
+							[ -79.2923, 47.0127 ],
+							[ -79.3868, 47.1056 ],
+							[ -79.3589, 47.2434 ],
+							[ -79.4135, 47.302 ],
+							[ -79.4216, 47.341 ],
+							[ -79.4988, 47.4815 ],
+							[ -79.432, 47.5214 ],
+							[ -79.4188, 47.5697 ],
+							[ -79.4946, 47.5988 ],
+							[ -79.5175, 47.5701 ],
+							[ -79.5064, 47.6938 ],
+							[ -79.5176, 47.833 ],
+							[ -79.5175, 48.2511 ],
+							[ -81.0729, 48.2526 ],
+							[ -81.0762, 47.581 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 25, 2020 15:47",
+				"Expires_UTC" : "March 26, 2020 07:46",
+				"Summary" : "Description: Significant snowfall tonight into Thursday.\n\nSnow, heavy at times, will begin late this evening and end early Thursday afternoon. The heaviest snow is likely early Thursday morning with total snowfall amounts of 10 to 15 cm possible.\n\nTravel may become difficult due to quickly accumulating snow.  Motorists are advised to allow extra time to reach their destination.\n\nThere is still some uncertainty with the track of the low pressure system responsible for this snow.  Environment Canada meteorologists will continue to monitor this situation closely. A snowfall warning may be required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-26T07:46:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T15:47:29-00:00, urn:oid:2.49.0.1.124.3601783637.2020<br>Area: Kirkland Lake - Englehart, Temiskaming Shores - Temagami",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.3601783637.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T15_47_29_00_00Iurn_oid_2.49.0.1.124.3601783637.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200326074629+00:00"
 			}
 		},
 		{
@@ -669,68 +723,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.0762, 47.581 ],
-							[ -81.0754, 46.97 ],
-							[ -80.8125, 46.9683 ],
-							[ -80.8125, 46.8912 ],
-							[ -80.566, 46.8912 ],
-							[ -80.566, 46.7261 ],
-							[ -80.3679, 46.7151 ],
-							[ -79.5386, 46.7145 ],
-							[ -79.1099, 46.7147 ],
-							[ -79.1058, 46.7145 ],
-							[ -79.0624, 46.7207 ],
-							[ -79.141, 46.8582 ],
-							[ -79.1873, 46.8737 ],
-							[ -79.275, 46.952 ],
-							[ -79.2923, 47.0127 ],
-							[ -79.3868, 47.1056 ],
-							[ -79.3589, 47.2434 ],
-							[ -79.4135, 47.302 ],
-							[ -79.4216, 47.341 ],
-							[ -79.4988, 47.4815 ],
-							[ -79.432, 47.5214 ],
-							[ -79.4188, 47.5697 ],
-							[ -79.4946, 47.5988 ],
-							[ -79.5175, 47.5701 ],
-							[ -79.5064, 47.6938 ],
-							[ -79.5176, 47.833 ],
-							[ -79.5175, 48.2511 ],
-							[ -81.0729, 48.2526 ],
-							[ -81.0762, 47.581 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 25, 2020 15:47",
-				"Expires_UTC" : "March 26, 2020 07:46",
-				"Summary" : "Description: Significant snowfall tonight into Thursday.\n\nSnow, heavy at times, will begin late this evening and end early Thursday afternoon. The heaviest snow is likely early Thursday morning with total snowfall amounts of 10 to 15 cm possible.\n\nTravel may become difficult due to quickly accumulating snow.  Motorists are advised to allow extra time to reach their destination.\n\nThere is still some uncertainty with the track of the low pressure system responsible for this snow.  Environment Canada meteorologists will continue to monitor this situation closely. A snowfall warning may be required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-26T07:46:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T15:47:29-00:00, urn:oid:2.49.0.1.124.3601783637.2020<br>Area: Kirkland Lake - Englehart, Temiskaming Shores - Temagami",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.3601783637.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T15_47_29_00_00Iurn_oid_2.49.0.1.124.3601783637.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200326074629+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -124.241, 69.5607 ],
 							[ -124.4482, 69.5259 ],
 							[ -124.6933, 69.3795 ],
@@ -914,6 +906,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T15_20_44_00_00Iurn_oid_2.49.0.1.124.1552044772.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200326071944+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -54.65, 49.25 ],
+							[ -55.0999, 48.9 ],
+							[ -55.3717, 48.6868 ],
+							[ -55.3737, 48.6852 ],
+							[ -54.9999, 48.5499 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.2131, 49.5679 ],
+							[ -54.362, 49.5406 ],
+							[ -54.5, 49.3639 ],
+							[ -54.5012, 49.363 ],
+							[ -54.65, 49.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 25, 2020 16:04",
+				"Expires_UTC" : "March 25, 2020 17:04",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-25T17:04:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T16:04:07-00:00, urn:oid:2.49.0.1.124.1994696787.2020<br>Area: Bonavista North, Gander and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.1994696787.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T16_04_07_00_00Iurn_oid_2.49.0.1.124.1994696787.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200325170407+00:00"
 			}
 		}
 	]
