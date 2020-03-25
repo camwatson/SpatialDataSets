@@ -119,6 +119,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -113.8613, 52.3142 ],
+							[ -113.8968, 52.3176 ],
+							[ -113.8969, 52.3036 ],
+							[ -113.8608, 52.2966 ],
+							[ -113.8644, 52.2706 ],
+							[ -113.8371, 52.262 ],
+							[ -113.8523, 52.2593 ],
+							[ -113.8137, 52.2229 ],
+							[ -113.7662, 52.2157 ],
+							[ -113.7545, 52.2445 ],
+							[ -113.7423, 52.2445 ],
+							[ -113.7421, 52.2883 ],
+							[ -113.7658, 52.2956 ],
+							[ -113.7654, 52.3195 ],
+							[ -113.7851, 52.3281 ],
+							[ -113.8613, 52.3142 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Other",
+				"Title" : "Alberta Emergency Alert - Telephone Service Alert - Limited Access To 9-1-1",
+				"Category" : "Actual",
+				"event" : "Telephone Service",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 25, 2020 09:31",
+				"Expires_UTC" : "April 1, 2020 09:32",
+				"Summary" : "Description: Telus has informed The City of Red Deer of an outage that is impacting the ability of TELUS MOBILE CUSTOMERS to contact 9-1-1. \n\nIf you require emergency assistance from police, fire, or ambulance, use a landline or head to your nearest emergency services station, fire station, or RCMP detachment\n###\nTelus has informed The City of Red Deer of an outage that is impacting the ability of TELUS MOBILE CUSTOMERS to contact 9-1-1. This outage is impacting TELUS MOBILITY CUSTOMERS across the province. These customers will not be able to dial 9-1-1 form anywhere in Alberta at this time.\n\nIf you require emergency assistance from police, fire, or ambulance, use a landline or head to your nearest emergency services station, fire station, or RCMP detachment.\n\nThis outage DOES NOT impact landlines. Landlines can still be used to call 9-1-1 in an emergency. \n\nThis outage is only impacting TELUS MOBILITY customers. It does not impact other providers.\n\nTelus is working to resolve this issue as quickly as possible.<br>Expires: 2020-04-01T09:32:08-06:00<br>Originated from CAP Alert: City of Red Deer, 2020-03-25T09:31:40-06:00, NAADS-CA-AB-AEA1-6267<br>Area: Red Deer",
+				"Author" : "City of Red Deer",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/NAADS-CA-AB-AEA1-6267",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T09_31_40_06_00INAADS_CA_AB_AEA1_6267.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200401093208-06:00",
+				"EnclosureType" : "audio/mpeg",
+				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/7719-0.mp3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -55, 48.25 ],
 							[ -54.9999, 47.9199 ],
 							[ -53.9999, 47.9199 ],
@@ -469,66 +520,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -78.5138, 55.3729 ],
-							[ -78.2058, 56.8774 ],
-							[ -80.2962, 57.0654 ],
-							[ -80.7756, 55.6151 ],
-							[ -78.5138, 55.3729 ]
-						]
-					],
-					[
-						[
-							[ -77.1195, 55.7842 ],
-							[ -77.0573, 55.762 ],
-							[ -75.5197, 55.3505 ],
-							[ -75.5248, 57.9997 ],
-							[ -77.0238, 58.0142 ],
-							[ -77.0451, 58.0035 ],
-							[ -77.1123, 58.005 ],
-							[ -77.2009, 58.0161 ],
-							[ -77.2381, 58.0046 ],
-							[ -77.19, 57.9588 ],
-							[ -76.9873, 57.7643 ],
-							[ -76.729, 57.4077 ],
-							[ -76.6217, 57.0841 ],
-							[ -76.5798, 56.709 ],
-							[ -76.6311, 56.3038 ],
-							[ -76.7434, 56.0381 ],
-							[ -77.0865, 55.8067 ],
-							[ -77.1195, 55.7842 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 25, 2020 15:21",
-				"Expires_UTC" : "March 26, 2020 07:20",
-				"Summary" : "Description: Blizzard conditions are expected today. Conditions will improve gradually beginning this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-26T07:20:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T15:21:06-00:00, urn:oid:2.49.0.1.124.0680313661.2020<br>Area: Umiujaq, Sanikiluaq",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.0680313661.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T15_21_06_00_00Iurn_oid_2.49.0.1.124.0680313661.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200326072006+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -54.1199, 48.25 ],
 							[ -53.5167, 48.25 ],
 							[ -53.5163, 48.2499 ],
@@ -620,6 +611,66 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T15_06_44_00_00Iurn_oid_2.49.0.1.124.3527077047.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200325215944+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -78.5138, 55.3729 ],
+							[ -78.2058, 56.8774 ],
+							[ -80.2962, 57.0654 ],
+							[ -80.7756, 55.6151 ],
+							[ -78.5138, 55.3729 ]
+						]
+					],
+					[
+						[
+							[ -77.1195, 55.7842 ],
+							[ -77.0573, 55.762 ],
+							[ -75.5197, 55.3505 ],
+							[ -75.5248, 57.9997 ],
+							[ -77.0238, 58.0142 ],
+							[ -77.0451, 58.0035 ],
+							[ -77.1123, 58.005 ],
+							[ -77.2009, 58.0161 ],
+							[ -77.2381, 58.0046 ],
+							[ -77.19, 57.9588 ],
+							[ -76.9873, 57.7643 ],
+							[ -76.729, 57.4077 ],
+							[ -76.6217, 57.0841 ],
+							[ -76.5798, 56.709 ],
+							[ -76.6311, 56.3038 ],
+							[ -76.7434, 56.0381 ],
+							[ -77.0865, 55.8067 ],
+							[ -77.1195, 55.7842 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 25, 2020 15:21",
+				"Expires_UTC" : "March 26, 2020 07:20",
+				"Summary" : "Description: Blizzard conditions are expected today. Conditions will improve gradually beginning this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-26T07:20:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T15:21:06-00:00, urn:oid:2.49.0.1.124.0680313661.2020<br>Area: Umiujaq, Sanikiluaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.0680313661.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T15_21_06_00_00Iurn_oid_2.49.0.1.124.0680313661.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200326072006+00:00"
 			}
 		},
 		{
