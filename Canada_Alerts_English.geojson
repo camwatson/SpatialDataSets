@@ -200,68 +200,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.0762, 47.581 ],
-							[ -81.0754, 46.97 ],
-							[ -80.8125, 46.9683 ],
-							[ -80.8125, 46.8912 ],
-							[ -80.566, 46.8912 ],
-							[ -80.566, 46.7261 ],
-							[ -80.3679, 46.7151 ],
-							[ -79.5386, 46.7145 ],
-							[ -79.1099, 46.7147 ],
-							[ -79.1058, 46.7145 ],
-							[ -79.0624, 46.7207 ],
-							[ -79.141, 46.8582 ],
-							[ -79.1873, 46.8737 ],
-							[ -79.275, 46.952 ],
-							[ -79.2923, 47.0127 ],
-							[ -79.3868, 47.1056 ],
-							[ -79.3589, 47.2434 ],
-							[ -79.4135, 47.302 ],
-							[ -79.4216, 47.341 ],
-							[ -79.4988, 47.4815 ],
-							[ -79.432, 47.5214 ],
-							[ -79.4188, 47.5697 ],
-							[ -79.4946, 47.5988 ],
-							[ -79.5175, 47.5701 ],
-							[ -79.5064, 47.6938 ],
-							[ -79.5176, 47.833 ],
-							[ -79.5175, 48.2511 ],
-							[ -81.0729, 48.2526 ],
-							[ -81.0762, 47.581 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 25, 2020 15:47",
-				"Expires_UTC" : "March 26, 2020 07:46",
-				"Summary" : "Description: Significant snowfall tonight into Thursday.\n\nSnow, heavy at times, will begin late this evening and end early Thursday afternoon. The heaviest snow is likely early Thursday morning with total snowfall amounts of 10 to 15 cm possible.\n\nTravel may become difficult due to quickly accumulating snow.  Motorists are advised to allow extra time to reach their destination.\n\nThere is still some uncertainty with the track of the low pressure system responsible for this snow.  Environment Canada meteorologists will continue to monitor this situation closely. A snowfall warning may be required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-26T07:46:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-25T15:47:29-00:00, urn:oid:2.49.0.1.124.3601783637.2020<br>Area: Kirkland Lake - Englehart, Temiskaming Shores - Temagami",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-25:feed.atom/urn:oid:2.49.0.1.124.3601783637.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T15_47_29_00_00Iurn_oid_2.49.0.1.124.3601783637.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200326074629+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -77.2381, 58.0046 ],
 							[ -77.2009, 58.0161 ],
 							[ -77.1123, 58.005 ],
@@ -395,6 +333,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-25/2020_03_25T19_31_59_00_00Iurn_oid_2.49.0.1.124.2473810752.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200326113059+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.8517, 51.8524 ],
+							[ -55.9388, 51.6058 ],
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 26, 2020 07:48",
+				"Expires_UTC" : "March 26, 2020 23:48",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-26T23:48:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T07:48:09-00:00, urn:oid:2.49.0.1.124.2363431196.2020<br>Area: Northern Peninsula East",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.2363431196.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T07_48_09_00_00Iurn_oid_2.49.0.1.124.2363431196.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200326234809+00:00"
 			}
 		},
 		{
