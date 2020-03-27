@@ -94,152 +94,46 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.2803, 76.6381 ],
-							[ -83.138, 76.5178 ],
-							[ -83.1615, 76.298 ],
-							[ -82.0595, 76.2612 ],
-							[ -82.1153, 76.5344 ],
-							[ -82.072, 76.5808 ],
-							[ -82.4546, 76.6269 ],
-							[ -83.2803, 76.6381 ]
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.0222, 55.8603 ],
+							[ -60.8884, 55.8597 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.798, 55.9666 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Winter Storm",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 26, 2020 14:20",
-				"Expires_UTC" : "March 27, 2020 06:19",
-				"Summary" : "Description: A low pressure system will produce strong easterly winds in Grise Fiord on Friday. Wind gusts up to 80 km/h will cause reduced visibility in blowing snow. Due to the uncertainty in the strength of the system at this time, the severity of the blowing snow conditions is still unknown. Watch for updated alerts.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-27T06:19:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T14:20:49-00:00, urn:oid:2.49.0.1.124.2057769525.2020<br>Area: Grise Fiord",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 27, 2020 01:17",
+				"Expires_UTC" : "March 27, 2020 17:16",
+				"Summary" : "Description: Snow and blowing snow is expected Friday night and Saturday.\n\nMaximum snowfall: 10 cm with locally higher amounts possible.\n\nStrongest winds: northerly near 80 km/h.\n\nTime span: Friday evening to Saturday evening.\n\nRemarks: Snow will begin Friday afternoon and taper off Saturday evening.\nStrong northerly winds will develop Friday night and will persist on Saturday.  These winds will combine with fresh snow to cause reduced visibilities in blowing snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T17:16:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T01:17:14-00:00, urn:oid:2.49.0.1.124.0612035303.2020<br>Area: Nain and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.2057769525.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T14_20_49_00_00Iurn_oid_2.49.0.1.124.2057769525.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.0612035303.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_17_14_00_00Iurn_oid_2.49.0.1.124.0612035303.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327061949+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.7118, 45.2704 ],
-							[ -62.8428, 45.2503 ],
-							[ -62.8749, 45.2036 ],
-							[ -63.3573, 45.0209 ],
-							[ -63.46, 44.9886 ],
-							[ -63.2515, 44.736 ],
-							[ -63.2511, 44.7352 ],
-							[ -63.2405, 44.7163 ],
-							[ -63.2105, 44.6376 ],
-							[ -62.9403, 44.6081 ],
-							[ -62.0547, 44.8797 ],
-							[ -62.1548, 44.9424 ],
-							[ -62.1647, 44.9739 ],
-							[ -62.1655, 44.9754 ],
-							[ -62.7118, 45.2704 ]
-						]
-					],
-					[
-						[
-							[ -62.7118, 45.2704 ],
-							[ -62.6442, 45.2787 ],
-							[ -62.6235, 45.2947 ],
-							[ -62.0904, 45.3736 ],
-							[ -62.2179, 45.68 ],
-							[ -62.2353, 45.7216 ],
-							[ -62.2362, 45.7225 ],
-							[ -62.2998, 45.8648 ],
-							[ -63.1438, 45.8448 ],
-							[ -63.1906, 45.811 ],
-							[ -63.1498, 45.7512 ],
-							[ -63.1497, 45.7495 ],
-							[ -63.1475, 45.7457 ],
-							[ -63.1424, 45.7363 ],
-							[ -63.0045, 45.4831 ],
-							[ -62.9782, 45.464 ],
-							[ -62.7178, 45.2736 ],
-							[ -62.7118, 45.2704 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 26, 2020 18:46",
-				"Expires_UTC" : "March 27, 2020 07:59",
-				"Summary" : "Description: Total snowfall: 10 to 20 cm. \n\nMaximum wind gusts: northerly up to 60 km/h.\n\nLocations: Halifax county- east of Porters Lake and Pictou county.\n\nTime span: Snow tapering to flurries Friday morning.\n\nRemarks: Snow will transition to a mix of ice pellets and snow this evening with a risk of freezing rain. Areas along the Atlantic coast will see a switch over to rain later this evening.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-27T07:59:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T18:46:24-00:00, urn:oid:2.49.0.1.124.3257242365.2020<br>Area: Halifax County - east of Porters Lake, Pictou County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.3257242365.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T18_46_24_00_00Iurn_oid_2.49.0.1.124.3257242365.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327075924+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.9056, 74.3191 ],
-							[ -94.8626, 74.2936 ],
-							[ -94.1547, 74.3414 ],
-							[ -94.1885, 74.6339 ],
-							[ -94.152, 74.6625 ],
-							[ -94.2078, 74.8178 ],
-							[ -94.6546, 74.9248 ],
-							[ -95.2633, 74.925 ],
-							[ -95.7119, 74.8173 ],
-							[ -95.8949, 74.6509 ],
-							[ -95.9056, 74.3191 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 26, 2020 14:22",
-				"Expires_UTC" : "March 27, 2020 06:21",
-				"Summary" : "Description: A low pressure system will produce strong easterly winds and blowing snow in Resolute beginning this evening. Near blizzard conditions are expected overnight tonight and into Friday, with wind gusts up to 80 km/h. The reduced visibility in snow and blowing snow may become significant enough to warrant a blizzard warning. Watch for updated alerts.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-27T06:21:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T14:22:21-00:00, urn:oid:2.49.0.1.124.1532914362.2020<br>Area: Resolute",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.1532914362.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T14_22_21_00_00Iurn_oid_2.49.0.1.124.1532914362.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327062121+00:00"
+				"Expires_FMEFormat" : "20200327171614+00:00"
 			}
 		},
 		{
@@ -373,51 +267,42 @@
 				"coordinates" : [
 					[
 						[
-							[ -69.283, 47.6331 ],
-							[ -69.1372, 47.6881 ],
-							[ -69, 47.75 ],
-							[ -68.9992, 47.7504 ],
-							[ -68.6207, 48.05 ],
-							[ -68.9741, 48.2826 ],
-							[ -69.2423, 48.4587 ],
-							[ -69.4699, 48.2224 ],
-							[ -69.7113, 47.9448 ],
-							[ -69.7836, 47.82 ],
-							[ -70.2482, 47.4424 ],
-							[ -69.8796, 47.216 ],
-							[ -69.6272, 47.0648 ],
-							[ -69.3881, 47.3002 ],
-							[ -69.2277, 47.4561 ],
-							[ -69.1188, 47.4396 ],
-							[ -69.1098, 47.4259 ],
-							[ -69.0682, 47.4227 ],
-							[ -69.065, 47.4305 ],
-							[ -69.1636, 47.5317 ],
-							[ -69.283, 47.6331 ]
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.6948, 52.1 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 26, 2020 19:19",
-				"Expires_UTC" : "March 27, 2020 08:59",
-				"Summary" : "Description: A period of freezing rain is expected this evening before precipitation changes over to snow. Local ice accretion of 2 millimetres is possible.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-27T08:59:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T19:19:45-00:00, urn:oid:2.49.0.1.124.3441711244.2020<br>Area: Trois-Pistoles area, Pohénégamook area, Kamouraska area, Rivière-du-Loup area",
+				"LastUpdate_UTC" : "March 27, 2020 01:16",
+				"Expires_UTC" : "March 27, 2020 17:15",
+				"Summary" : "Description: A snowstorm is expected.\n\nTotal snowfall: near 25 cm.\n\nMaximum wind gusts: easterly near 70 km/h.\n\nLocation: the Labrador Straits.\n\nTime span: beginning Friday morning until Friday evening.\n\nRemarks: Snow at times heavy will develop Friday morning and will combine with strong easterly winds to reduce visibility in blowing snow through the day on Friday. Precipitation is expected to change to rain Friday evening.\n\n###\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T17:15:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T01:16:24-00:00, urn:oid:2.49.0.1.124.1058607654.2020<br>Area: Red Bay to L'Anse-au-Clair",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.3441711244.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T19_19_45_00_00Iurn_oid_2.49.0.1.124.3441711244.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.1058607654.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_16_24_00_00Iurn_oid_2.49.0.1.124.1058607654.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327085945+00:00"
+				"Expires_FMEFormat" : "20200327171524+00:00"
 			}
 		},
 		{
@@ -474,6 +359,76 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_07_26_00_00Iurn_oid_2.49.0.1.124.2865510215.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200327170626+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.7118, 45.2704 ],
+							[ -62.8428, 45.2503 ],
+							[ -62.8749, 45.2036 ],
+							[ -63.3573, 45.0209 ],
+							[ -63.46, 44.9886 ],
+							[ -63.2515, 44.736 ],
+							[ -63.2511, 44.7352 ],
+							[ -63.2405, 44.7163 ],
+							[ -63.2105, 44.6376 ],
+							[ -62.9403, 44.6081 ],
+							[ -62.0547, 44.8797 ],
+							[ -62.1548, 44.9424 ],
+							[ -62.1647, 44.9739 ],
+							[ -62.1655, 44.9754 ],
+							[ -62.7118, 45.2704 ]
+						]
+					],
+					[
+						[
+							[ -62.7118, 45.2704 ],
+							[ -62.6442, 45.2787 ],
+							[ -62.6235, 45.2947 ],
+							[ -62.0904, 45.3736 ],
+							[ -62.2179, 45.68 ],
+							[ -62.2353, 45.7216 ],
+							[ -62.2362, 45.7225 ],
+							[ -62.2998, 45.8648 ],
+							[ -63.1438, 45.8448 ],
+							[ -63.1906, 45.811 ],
+							[ -63.1498, 45.7512 ],
+							[ -63.1497, 45.7495 ],
+							[ -63.1475, 45.7457 ],
+							[ -63.1424, 45.7363 ],
+							[ -63.0045, 45.4831 ],
+							[ -62.9782, 45.464 ],
+							[ -62.7178, 45.2736 ],
+							[ -62.7118, 45.2704 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 27, 2020 01:23",
+				"Expires_UTC" : "March 27, 2020 02:23",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-03-27T02:23:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T01:23:11-00:00, urn:oid:2.49.0.1.124.2761268465.2020<br>Area: Halifax County - east of Porters Lake, Pictou County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.2761268465.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_23_11_00_00Iurn_oid_2.49.0.1.124.2761268465.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200327022311+00:00"
 			}
 		},
 		{
@@ -831,18 +786,72 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 26, 2020 18:45",
+				"LastUpdate_UTC" : "March 27, 2020 01:26",
 				"Expires_UTC" : "March 27, 2020 05:18",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum Les Suetes gusts: 90 km/h.\n\nTime span: Strong winds will develop this evening then diminish after midnight.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-27T05:18:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T18:45:52-00:00, urn:oid:2.49.0.1.124.0613929756.2020<br>Area: Inverness County - Mabou and north",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-27T05:18:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T01:26:58-00:00, urn:oid:2.49.0.1.124.2532433220.2020<br>Area: Inverness County - Mabou and north",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.0613929756.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T18_45_52_00_00Iurn_oid_2.49.0.1.124.0613929756.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.2532433220.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_26_58_00_00Iurn_oid_2.49.0.1.124.2532433220.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327051852+00:00"
+				"Expires_FMEFormat" : "20200327051858+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -69.283, 47.6331 ],
+							[ -69.1372, 47.6881 ],
+							[ -69, 47.75 ],
+							[ -68.9992, 47.7504 ],
+							[ -68.6207, 48.05 ],
+							[ -68.9741, 48.2826 ],
+							[ -69.2423, 48.4587 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.7113, 47.9448 ],
+							[ -69.7836, 47.82 ],
+							[ -70.2482, 47.4424 ],
+							[ -69.8796, 47.216 ],
+							[ -69.6272, 47.0648 ],
+							[ -69.3881, 47.3002 ],
+							[ -69.2277, 47.4561 ],
+							[ -69.1188, 47.4396 ],
+							[ -69.1098, 47.4259 ],
+							[ -69.0682, 47.4227 ],
+							[ -69.065, 47.4305 ],
+							[ -69.1636, 47.5317 ],
+							[ -69.283, 47.6331 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 26, 2020 19:19",
+				"Expires_UTC" : "March 27, 2020 08:59",
+				"Summary" : "Description: A period of freezing rain is expected this evening before precipitation changes over to snow. Local ice accretion of 2 millimetres is possible.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-27T08:59:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T19:19:45-00:00, urn:oid:2.49.0.1.124.3441711244.2020<br>Area: Trois-Pistoles area, Pohénégamook area, Kamouraska area, Rivière-du-Loup area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.3441711244.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T19_19_45_00_00Iurn_oid_2.49.0.1.124.3441711244.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200327085945+00:00"
 			}
 		},
 		{
@@ -884,51 +893,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T19_29_41_00_00Iurn_oid_2.49.0.1.124.0942234257.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200327112841+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.6948, 52.1 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 27, 2020 01:15",
-				"Expires_UTC" : "March 27, 2020 17:15",
-				"Summary" : "Description: A snowstorm is expected.\n\n###\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T17:15:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T01:15:24-00:00, urn:oid:2.49.0.1.124.0979126400.2020<br>Area: Red Bay to L'Anse-au-Clair",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.0979126400.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_15_24_00_00Iurn_oid_2.49.0.1.124.0979126400.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327171524+00:00"
 			}
 		},
 		{
@@ -1241,16 +1205,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 27, 2020 01:14",
+				"LastUpdate_UTC" : "March 27, 2020 01:15",
 				"Expires_UTC" : "March 27, 2020 17:14",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T17:14:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T01:14:37-00:00, urn:oid:2.49.0.1.124.0934624174.2020<br>Area: Norman Bay to Lodge Bay, Cartwright to Black Tickle, Rigolet and vicinity, Upper Lake Melville, Eagle River",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nLocations: Upper Lake Melville, Eagle River, and Lodge Bay to Rigolet.\n\nTime span: near noon Friday until near noon Saturday.\n\nRemarks: Snow at times heavy will develop near noon Friday and taper off near midday Saturday. Strong northeasterly winds will develop Friday evening and cause blowing snow over exposed areas. The snow is forecast to change briefly to rain or freezing drizzle over portions of the Labrador coast Friday night or early Saturday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T17:14:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T01:15:37-00:00, urn:oid:2.49.0.1.124.0817322618.2020<br>Area: Norman Bay to Lodge Bay, Cartwright to Black Tickle, Rigolet and vicinity, Upper Lake Melville, Eagle River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.0934624174.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_14_37_00_00Iurn_oid_2.49.0.1.124.0934624174.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.0817322618.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_15_37_00_00Iurn_oid_2.49.0.1.124.0817322618.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200327171437+00:00"
 			}
