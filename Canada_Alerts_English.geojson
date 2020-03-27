@@ -94,6 +94,50 @@
 				"coordinates" : [
 					[
 						[
+							[ -70.7234, 61.1481 ],
+							[ -71.399, 60.5219 ],
+							[ -70.2989, 60.2999 ],
+							[ -69.6866, 60.6351 ],
+							[ -69.6265, 60.6532 ],
+							[ -69.3406, 60.7998 ],
+							[ -69.3708, 60.9674 ],
+							[ -69.5614, 61.1243 ],
+							[ -69.9939, 60.8678 ],
+							[ -70.0969, 61.1046 ],
+							[ -70.7234, 61.1481 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 26, 2020 19:18",
+				"Expires_UTC" : "March 27, 2020 05:59",
+				"Summary" : "Description: Westerly winds will reach up to 90 km/h this evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-27T05:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T19:18:14-00:00, urn:oid:2.49.0.1.124.1695979716.2020<br>Area: Quaqtaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.1695979716.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T19_18_14_00_00Iurn_oid_2.49.0.1.124.1695979716.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200327055914+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.7118, 45.2704 ],
 							[ -62.8428, 45.2503 ],
 							[ -62.8749, 45.2036 ],
@@ -155,50 +199,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T18_46_24_00_00Iurn_oid_2.49.0.1.124.3257242365.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200327075924+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -70.7234, 61.1481 ],
-							[ -71.399, 60.5219 ],
-							[ -70.2989, 60.2999 ],
-							[ -69.6866, 60.6351 ],
-							[ -69.6265, 60.6532 ],
-							[ -69.3406, 60.7998 ],
-							[ -69.3708, 60.9674 ],
-							[ -69.5614, 61.1243 ],
-							[ -69.9939, 60.8678 ],
-							[ -70.0969, 61.1046 ],
-							[ -70.7234, 61.1481 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 26, 2020 19:18",
-				"Expires_UTC" : "March 27, 2020 05:59",
-				"Summary" : "Description: Westerly winds will reach up to 90 km/h this evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-27T05:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T19:18:14-00:00, urn:oid:2.49.0.1.124.1695979716.2020<br>Area: Quaqtaq",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.1695979716.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T19_18_14_00_00Iurn_oid_2.49.0.1.124.1695979716.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327055914+00:00"
 			}
 		},
 		{
@@ -711,47 +711,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_13_54_00_00Iurn_oid_2.49.0.1.124.2071634338.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200327171254+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 27, 2020 01:27",
-				"Expires_UTC" : "March 27, 2020 05:18",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum Les Suetes gusts: 90 km/h.\n\nTime span: Strong winds are still possible until midnight, however the diminishing trend will likely continue.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-03-27T05:18:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T01:27:58-00:00, urn:oid:2.49.0.1.124.3410040026.2020<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.3410040026.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T01_27_58_00_00Iurn_oid_2.49.0.1.124.3410040026.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327051858+00:00"
 			}
 		},
 		{
