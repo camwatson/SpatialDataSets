@@ -371,6 +371,50 @@
 				"coordinates" : [
 					[
 						[
+							[ -70.7234, 61.1481 ],
+							[ -71.399, 60.5219 ],
+							[ -70.2989, 60.2999 ],
+							[ -69.6866, 60.6351 ],
+							[ -69.6265, 60.6532 ],
+							[ -69.3406, 60.7998 ],
+							[ -69.3708, 60.9674 ],
+							[ -69.5614, 61.1243 ],
+							[ -69.9939, 60.8678 ],
+							[ -70.0969, 61.1046 ],
+							[ -70.7234, 61.1481 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 27, 2020 08:10",
+				"Expires_UTC" : "March 27, 2020 09:10",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n###<br>Expires: 2020-03-27T09:10:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T08:10:43-00:00, urn:oid:2.49.0.1.124.3932290393.2020<br>Area: Quaqtaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.3932290393.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T08_10_43_00_00Iurn_oid_2.49.0.1.124.3932290393.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200327091043+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -71.399, 60.5219 ],
 							[ -70.2989, 60.2999 ],
 							[ -69.6866, 60.6351 ],
@@ -460,50 +504,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T08_10_35_00_00Iurn_oid_2.49.0.1.124.0530878806.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200327091035+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -70.7234, 61.1481 ],
-							[ -71.399, 60.5219 ],
-							[ -70.2989, 60.2999 ],
-							[ -69.6866, 60.6351 ],
-							[ -69.6265, 60.6532 ],
-							[ -69.3406, 60.7998 ],
-							[ -69.3708, 60.9674 ],
-							[ -69.5614, 61.1243 ],
-							[ -69.9939, 60.8678 ],
-							[ -70.0969, 61.1046 ],
-							[ -70.7234, 61.1481 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Blizzard Warning Ended",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 27, 2020 08:10",
-				"Expires_UTC" : "March 27, 2020 09:10",
-				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n###<br>Expires: 2020-03-27T09:10:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T08:10:43-00:00, urn:oid:2.49.0.1.124.3932290393.2020<br>Area: Quaqtaq",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.3932290393.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T08_10_43_00_00Iurn_oid_2.49.0.1.124.3932290393.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327091043+00:00"
 			}
 		},
 		{
@@ -840,18 +840,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 26, 2020 19:27",
-				"Expires_UTC" : "March 27, 2020 11:26",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA storm system approaching from the south will bring blizzard conditions to Resolute in the overnight hours. This system will also bring extreme winds of 70 km/h with gusts to 90. Conditions should improve early Friday evening when the winds diminish.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-27T11:26:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-26T19:27:58-00:00, urn:oid:2.49.0.1.124.0935049896.2020<br>Area: Resolute",
+				"LastUpdate_UTC" : "March 27, 2020 08:37",
+				"Expires_UTC" : "March 28, 2020 00:37",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-28T00:37:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T08:37:39-00:00, urn:oid:2.49.0.1.124.3008350592.2020<br>Area: Resolute",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-26:feed.atom/urn:oid:2.49.0.1.124.0935049896.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-26/2020_03_26T19_27_58_00_00Iurn_oid_2.49.0.1.124.0935049896.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.3008350592.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T08_37_39_00_00Iurn_oid_2.49.0.1.124.3008350592.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327112658+00:00"
+				"Expires_FMEFormat" : "20200328003739+00:00"
 			}
 		},
 		{
