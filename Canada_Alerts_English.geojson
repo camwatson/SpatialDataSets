@@ -175,6 +175,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 27, 2020 13:19",
+				"Expires_UTC" : "March 28, 2020 05:18",
+				"Summary" : "Description: Southerly gusts near 100 kilometres per hour are expected this afternoon and this evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-28T05:18:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T13:19:19-00:00, urn:oid:2.49.0.1.124.3685819072.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.3685819072.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T13_19_19_00_00Iurn_oid_2.49.0.1.124.3685819072.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200328051819+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -60.7945, 56.6786 ],
 							[ -61.1044, 56.5708 ],
 							[ -61.8607, 56.6166 ],
@@ -429,16 +470,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 27, 2020 13:15",
+				"LastUpdate_UTC" : "March 27, 2020 13:16",
 				"Expires_UTC" : "March 27, 2020 19:59",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T19:59:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T13:15:17-00:00, urn:oid:2.49.0.1.124.3568123450.2020<br>Area: Deer Lake - Humber Valley, Green Bay - White Bay",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nLocations: Deer Lake, and Green Bay - White Bay.\n\nTime span: continuing until this afternoon.\n\nAdditional snow and ice pellets amounts: up to 5 cm.\n\nRemarks: Snow or ice pellets will transition to rain this afternoon. The rain will be accompanied by mild temperatures, resulting in snow melt and pooling water.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T19:59:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T13:16:17-00:00, urn:oid:2.49.0.1.124.1025833028.2020<br>Area: Deer Lake - Humber Valley, Green Bay - White Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.3568123450.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T13_15_17_00_00Iurn_oid_2.49.0.1.124.3568123450.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.1025833028.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T13_16_17_00_00Iurn_oid_2.49.0.1.124.1025833028.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200327195917+00:00"
 			}
@@ -469,24 +510,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wreckhouse Wind Warning Ended",
+				"Title" : "Wind Warning Ended",
 				"Category" : "Actual",
 				"event" : "Wind",
 				"urgency" : "Past",
 				"certainty" : "Observed",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 27, 2020 13:08",
-				"Expires_UTC" : "March 27, 2020 14:08",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-03-27T14:08:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T13:08:37-00:00, urn:oid:2.49.0.1.124.0354701488.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"LastUpdate_UTC" : "March 27, 2020 13:24",
+				"Expires_UTC" : "March 27, 2020 14:24",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-03-27T14:24:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T13:24:18-00:00, urn:oid:2.49.0.1.124.0722017291.2020<br>Area: Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.0354701488.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T13_08_37_00_00Iurn_oid_2.49.0.1.124.0354701488.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.0722017291.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T13_24_18_00_00Iurn_oid_2.49.0.1.124.0722017291.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327140837+00:00"
+				"Expires_FMEFormat" : "20200327142418+00:00"
 			}
 		},
 		{
@@ -520,18 +561,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 27, 2020 07:37",
-				"Expires_UTC" : "March 27, 2020 23:36",
-				"Summary" : "Description: A snowstorm is expected.\n\nTotal snowfall: 15 to 25 cm.\n\nMaximum wind gusts: easterly near 80 km/h.\n\nLocation: the eastern half of the Great Northern Peninsula.\n\nTime span: continuing until this evening.\n\nRemarks: Snow at times heavy and strong easterly winds will combine to reduce visibility in blowing snow today. Conditions will improve this evening as the snow transitions to rain.\n\n###\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T23:36:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T07:37:44-00:00, urn:oid:2.49.0.1.124.3656919031.2020<br>Area: Northern Peninsula East",
+				"LastUpdate_UTC" : "March 27, 2020 13:23",
+				"Expires_UTC" : "March 28, 2020 01:59",
+				"Summary" : "Description: A snowstorm is expected.\n\nTotal snowfall: 15 to 25 cm.\n\nMaximum wind gusts: easterly near 80 km/h.\n\nLocation: the eastern half of the Great Northern Peninsula.\n\nTime span: continuing until this evening.\n\nRemarks: Snow at times heavy and strong easterly winds will combine to reduce visibility in blowing snow today. Conditions will improve this evening as the snow transitions to rain.\n\n###\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-28T01:59:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T13:23:03-00:00, urn:oid:2.49.0.1.124.1801733113.2020<br>Area: Northern Peninsula East",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.3656919031.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T07_37_44_00_00Iurn_oid_2.49.0.1.124.3656919031.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.1801733113.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T13_23_03_00_00Iurn_oid_2.49.0.1.124.1801733113.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327233644+00:00"
+				"Expires_FMEFormat" : "20200328015903+00:00"
 			}
 		},
 		{
@@ -869,18 +910,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 27, 2020 07:36",
-				"Expires_UTC" : "March 27, 2020 23:35",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: southeasterly near 100 km/h.\n\nLocations: the Avalon and Bonavista peninsulas.\n\nTime span: continuing until this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T23:35:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T07:36:48-00:00, urn:oid:2.49.0.1.124.0540486061.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Bonavista Peninsula",
+				"LastUpdate_UTC" : "March 27, 2020 13:22",
+				"Expires_UTC" : "March 28, 2020 03:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: southeasterly near 100 km/h.\n\nLocations: the Avalon and Bonavista peninsulas.\n\nTime span: continuing until this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-28T03:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T13:22:34-00:00, urn:oid:2.49.0.1.124.3871856273.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Bonavista Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.0540486061.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T07_36_48_00_00Iurn_oid_2.49.0.1.124.0540486061.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.3871856273.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T13_22_34_00_00Iurn_oid_2.49.0.1.124.3871856273.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327233548+00:00"
+				"Expires_FMEFormat" : "20200328035934+00:00"
 			}
 		},
 		{
@@ -1002,18 +1043,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 27, 2020 07:35",
-				"Expires_UTC" : "March 27, 2020 23:34",
-				"Summary" : "Description: Rain, heavy at times is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nTotal rainfall: up to 25 mm.  \n\nLocations: the south coast and east coast of Newfoundland.\n\nTime span: continuing until this evening.\n\nRemarks: Snow will change to rain at times heavy this morning. The rain will be accompanied by mild temperatures and strong easterly winds, resulting in significant snow melt. As a result, localized flooding is likely.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-27T23:34:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T07:35:55-00:00, urn:oid:2.49.0.1.124.1065206710.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
+				"LastUpdate_UTC" : "March 27, 2020 13:22",
+				"Expires_UTC" : "March 28, 2020 03:59",
+				"Summary" : "Description: Rain, heavy at times is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nTotal rainfall: up to 30 mm.  \n\nLocations: the south coast and east coast of Newfoundland.\n\nTime span: continuing until late this afternoon or early this evening.\n\nRemarks: Rain at times heavy will be accompanied by mild temperatures and strong easterly winds, resulting in significant snow melt. As a result, localized flooding is likely.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-03-28T03:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-27T13:22:16-00:00, urn:oid:2.49.0.1.124.3153654338.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.1065206710.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T07_35_55_00_00Iurn_oid_2.49.0.1.124.1065206710.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-27:feed.atom/urn:oid:2.49.0.1.124.3153654338.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-27/2020_03_27T13_22_16_00_00Iurn_oid_2.49.0.1.124.3153654338.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200327233455+00:00"
+				"Expires_FMEFormat" : "20200328035916+00:00"
 			}
 		},
 		{
