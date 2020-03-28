@@ -70,56 +70,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -120.0013, 54.9374 ],
-							[ -120.0013, 55.4907 ],
-							[ -120.0013, 55.9599 ],
-							[ -120.2969, 55.9071 ],
-							[ -120.6878, 55.8267 ],
-							[ -121.6606, 55.7305 ],
-							[ -121.8488, 55.7259 ],
-							[ -122.0337, 55.7116 ],
-							[ -121.8569, 55.5253 ],
-							[ -121.6999, 55.38 ],
-							[ -120.9766, 54.701 ],
-							[ -120.0013, 53.8703 ],
-							[ -120.0013, 53.8894 ],
-							[ -120.0013, 53.9374 ],
-							[ -120.0013, 53.9904 ],
-							[ -120.0013, 54.5874 ],
-							[ -120.0013, 54.9374 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snow Squall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 28, 2020 07:24",
-				"Expires_UTC" : "March 28, 2020 08:24",
-				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2020-03-28T08:24:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T07:24:53-00:00, urn:oid:2.49.0.1.124.3978394351.2020<br>Area: B.C. South Peace River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.3978394351.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T07_24_53_00_00Iurn_oid_2.49.0.1.124.3978394351.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200328082453+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -101.4424, 49.8906 ],
 							[ -101.4424, 50.2433 ],
 							[ -101.4709, 50.2433 ],
@@ -280,38 +230,60 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.2803, 76.6381 ],
-							[ -83.138, 76.5178 ],
-							[ -83.1615, 76.298 ],
-							[ -82.0595, 76.2612 ],
-							[ -82.1153, 76.5344 ],
-							[ -82.072, 76.5808 ],
-							[ -82.4546, 76.6269 ],
-							[ -83.2803, 76.6381 ]
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Blizzard",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 28, 2020 03:39",
-				"Expires_UTC" : "March 28, 2020 10:29",
-				"Summary" : "Description: Very strong easterly winds with gusts near 100 km/h continue.\n\nThese gusty winds are also producing some blowing snow. \n\nExtreme winds are expected weaken overnight and become light on Saturday morning.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-28T10:29:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T03:39:47-00:00, urn:oid:2.49.0.1.124.1288469990.2020<br>Area: Grise Fiord",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 28, 2020 08:21",
+				"Expires_UTC" : "March 29, 2020 00:20",
+				"Summary" : "Description: Blizzard Saturday afternoon and night. \n\nOn Saturday, another low pressure system will track through the area bringing strong winds and more accumulating snow. \n\nIn Arviat, conditions will deteriorate to sustained blizzard Saturday afternoon as northwesterlies gusting to 70 or 80 km/h develop along with up to 5 cm of fresh snow. Near zero visibilities at times are likely. The blizzard will continue through the night before easing Sunday morning as the skies clear and winds diminish.\n\nIn Rankin Inlet including Whale Cove, northerly winds gusting up to 70 km/h with a few cm of accumulating snow create blizzard conditions with visibilities near zero at times in falling and blowing snow beginning Saturday evening and last until Sunday early afternoon.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-29T00:20:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T08:21:46-00:00, urn:oid:2.49.0.1.124.0358170511.2020<br>Area: Arviat, Rankin Region including Whale Cove",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.1288469990.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T03_39_47_00_00Iurn_oid_2.49.0.1.124.1288469990.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.0358170511.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T08_21_46_00_00Iurn_oid_2.49.0.1.124.0358170511.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200328102947+00:00"
+				"Expires_FMEFormat" : "20200329002046+00:00"
 			}
 		},
 		{
@@ -485,18 +457,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 28, 2020 03:46",
-				"Expires_UTC" : "March 28, 2020 19:45",
-				"Summary" : "Description: Wind chill values near minus 55 are expected to develop overnight then moderate on Saturday as temperatures rise.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-28T19:45:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T03:46:39-00:00, urn:oid:2.49.0.1.124.2798186655.2020<br>Area: Cambridge Bay, Taloyoak, Gjoa Haven, Kugaaruk",
+				"LastUpdate_UTC" : "March 28, 2020 08:20",
+				"Expires_UTC" : "March 28, 2020 19:59",
+				"Summary" : "Description: Extreme cold wind chill values near minus 55 will moderate today as temperatures rise.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-28T19:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T08:20:56-00:00, urn:oid:2.49.0.1.124.3284443561.2020<br>Area: Cambridge Bay, Taloyoak, Gjoa Haven, Kugaaruk",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.2798186655.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T03_46_39_00_00Iurn_oid_2.49.0.1.124.2798186655.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.3284443561.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T08_20_56_00_00Iurn_oid_2.49.0.1.124.3284443561.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200328194539+00:00"
+				"Expires_FMEFormat" : "20200328195956+00:00"
 			}
 		},
 		{
@@ -563,25 +535,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
 				"Category" : "Actual",
 				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 28, 2020 05:18",
-				"Expires_UTC" : "March 28, 2020 16:29",
-				"Summary" : "Description: Poor visibility in blowing snow will continue until later today.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-28T16:29:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T05:18:02-00:00, urn:oid:2.49.0.1.124.2806615530.2020<br>Area: Resolute",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 28, 2020 08:27",
+				"Expires_UTC" : "March 28, 2020 09:26",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\nHowever, some blowing snow will continue today.\n\n###<br>Expires: 2020-03-28T09:26:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T08:27:12-00:00, urn:oid:2.49.0.1.124.1765706612.2020<br>Area: Resolute",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.2806615530.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T05_18_02_00_00Iurn_oid_2.49.0.1.124.2806615530.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.1765706612.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T08_27_12_00_00Iurn_oid_2.49.0.1.124.1765706612.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200328162902+00:00"
+				"Expires_FMEFormat" : "20200328092612+00:00"
 			}
 		},
 		{
@@ -641,6 +613,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.2803, 76.6381 ],
+							[ -83.138, 76.5178 ],
+							[ -83.1615, 76.298 ],
+							[ -82.0595, 76.2612 ],
+							[ -82.1153, 76.5344 ],
+							[ -82.072, 76.5808 ],
+							[ -82.4546, 76.6269 ],
+							[ -83.2803, 76.6381 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 28, 2020 08:25",
+				"Expires_UTC" : "March 28, 2020 09:25",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-03-28T09:25:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T08:25:29-00:00, urn:oid:2.49.0.1.124.0716362622.2020<br>Area: Grise Fiord",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.0716362622.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T08_25_29_00_00Iurn_oid_2.49.0.1.124.0716362622.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200328092529+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -120.6878, 55.8267 ],
 							[ -120.2857, 55.8971 ],
 							[ -120.0013, 55.9599 ],
@@ -664,25 +677,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Snow Squall Watch Ended",
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Snow Squall Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Snow Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 28, 2020 07:27",
-				"Expires_UTC" : "March 28, 2020 08:27",
-				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2020-03-28T08:27:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T07:27:22-00:00, urn:oid:2.49.0.1.124.3681640809.2020<br>Area: B.C. North Peace River",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 28, 2020 01:29",
+				"Expires_UTC" : "March 28, 2020 09:59",
+				"Summary" : "Description: Brief, intense snowfall is expected to develop. Under the snow squall, visibilities will be significantly reduced due to the heavy snow combined with blowing snow.\n\nVisibility in snow and blowing snow could significantly be reduced this evening as an Arctic front blasts through the region. The sudden onset of snow with strong winds will likely create visibilities near zero in blowing snow for a brief period of time as the front passes.\n\nVisibilities will improve late this evening in the wake of the front.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Visibility may be significantly and suddenly reduced to near zero.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-28T09:59:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T01:29:19-00:00, urn:oid:2.49.0.1.124.3706822115.2020<br>Area: B.C. North Peace River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.3681640809.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T07_27_22_00_00Iurn_oid_2.49.0.1.124.3681640809.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.3706822115.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T01_29_19_00_00Iurn_oid_2.49.0.1.124.3706822115.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200328082722+00:00"
+				"Expires_FMEFormat" : "20200328095919+00:00"
 			}
 		},
 		{
@@ -1758,25 +1771,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snow Squall Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Snow Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Snow Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 28, 2020 07:24",
-				"Expires_UTC" : "March 28, 2020 08:24",
-				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2020-03-28T08:24:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T07:24:40-00:00, urn:oid:2.49.0.1.124.2406269770.2020<br>Area: B.C. South Peace River",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 28, 2020 01:42",
+				"Expires_UTC" : "March 28, 2020 10:29",
+				"Summary" : "Description: Periods of brief but intense snowfall are occurring. Visibilities will be rapidly reduced due to the heavy snow combined with blowing snow.\n\nAn intense band of snow has developed along the Rockies near Chetwynd. This band will continue south along the Rockies this evening.\n\nVisibility will be significantly and suddenly reduced to near zero as the band of snow passes. Travellers should be advised if travelling along area highways such as Highway 29, Highway 97 and Highway 52.\n\nThe band of snow will pass Chetwynd by 9 pm MST and pass Tumbler Ridge near 2am MST.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-28T10:29:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-28T01:42:17-00:00, urn:oid:2.49.0.1.124.2004702120.2020<br>Area: B.C. South Peace River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.2406269770.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T07_24_40_00_00Iurn_oid_2.49.0.1.124.2406269770.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-28:feed.atom/urn:oid:2.49.0.1.124.2004702120.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-28/2020_03_28T01_42_17_00_00Iurn_oid_2.49.0.1.124.2004702120.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200328082440+00:00"
+				"Expires_FMEFormat" : "20200328102917+00:00"
 			}
 		}
 	]
