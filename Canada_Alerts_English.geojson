@@ -742,25 +742,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 30, 2020 15:09",
-				"Expires_UTC" : "March 30, 2020 21:59",
-				"Summary" : "Description: An additional 5 to 10 centimetres of snow is expected today.\nSnow will ease this afternoon.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-03-30T21:59:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-30T15:09:20-00:00, urn:oid:2.49.0.1.124.0342620467.2020<br>Area: La Malbaie area, Baie-Saint-Paul area, Apica Mountain area, Grands-Jardins Park area, l'Étape area",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 30, 2020 18:07",
+				"Expires_UTC" : "March 30, 2020 19:07",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n###<br>Expires: 2020-03-30T19:07:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-30T18:07:00-00:00, urn:oid:2.49.0.1.124.1471321348.2020<br>Area: La Malbaie area, Baie-Saint-Paul area, Apica Mountain area, Grands-Jardins Park area, l'Étape area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-30:feed.atom/urn:oid:2.49.0.1.124.0342620467.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-30/2020_03_30T15_09_20_00_00Iurn_oid_2.49.0.1.124.0342620467.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-30:feed.atom/urn:oid:2.49.0.1.124.1471321348.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-30/2020_03_30T18_07_00_00_00Iurn_oid_2.49.0.1.124.1471321348.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200330215920+00:00"
+				"Expires_FMEFormat" : "20200330190700+00:00"
 			}
 		},
 		{
@@ -1150,6 +1150,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -82.411, 69.4413 ],
+							[ -82.4142, 69.3021 ],
+							[ -82.1715, 69.1889 ],
+							[ -81.8079, 69.1512 ],
+							[ -81.435, 69.199 ],
+							[ -81.4236, 69.3283 ],
+							[ -81.4161, 69.4318 ],
+							[ -81.817, 69.4695 ],
+							[ -81.9506, 69.4089 ],
+							[ -82.2197, 69.405 ],
+							[ -82.3907, 69.4415 ],
+							[ -82.411, 69.4413 ]
+						]
+					],
+					[
+						[
+							[ -81.8004, 68.8639 ],
+							[ -81.8335, 68.7595 ],
+							[ -81.7346, 68.6648 ],
+							[ -81.5301, 68.5966 ],
+							[ -81.0418, 68.5342 ],
+							[ -81.0006, 68.5737 ],
+							[ -81.0228, 68.9232 ],
+							[ -81.723, 68.9232 ],
+							[ -81.8004, 68.8639 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 30, 2020 18:06",
+				"Expires_UTC" : "March 31, 2020 07:59",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nNorthwest winds of 50 gusting 70 km/h today are causing poor visibilities due to blowing snow at Hall Beach and Igloolik. Blizzard conditions with visibilities generally less than 400 metres will persist until some time this evening after which time the winds will start diminishing and visibilities improving.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-31T07:59:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-30T18:06:49-00:00, urn:oid:2.49.0.1.124.2734012861.2020<br>Area: Hall Beach, Igloolik",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-30:feed.atom/urn:oid:2.49.0.1.124.2734012861.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-30/2020_03_30T18_06_49_00_00Iurn_oid_2.49.0.1.124.2734012861.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200331075949+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.8004, 68.8639 ],
 							[ -81.8335, 68.7595 ],
 							[ -81.7346, 68.6648 ],
@@ -1436,6 +1494,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-30/2020_03_30T16_48_16_00_00Iurn_oid_2.49.0.1.124.0752818389.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200331084716+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -127.6878, 54.538 ],
+							[ -127.6267, 54.3906 ],
+							[ -127.509, 54.1959 ],
+							[ -127.1346, 53.6587 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.648, 53.014 ],
+							[ -126.5, 52.83 ],
+							[ -125.363, 52.8986 ],
+							[ -124.3065, 52.9994 ],
+							[ -125.0555, 54.2336 ],
+							[ -125.2762, 54.9367 ],
+							[ -125.6889, 54.7308 ],
+							[ -127.6878, 54.538 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 30, 2020 18:03",
+				"Expires_UTC" : "March 31, 2020 04:02",
+				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\n10 cm of snow is forecast to fall today as a sharp front crosses the Lake District. The most favoured areas to receive the heavy snow are communities between Burns Lake and Fraser Lake.\n\nThe heavy snow will end this evening as the front passes.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-03-31T04:02:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-30T18:03:23-00:00, urn:oid:2.49.0.1.124.1771103676.2020<br>Area: Lakes District",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-30:feed.atom/urn:oid:2.49.0.1.124.1771103676.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-30/2020_03_30T18_03_23_00_00Iurn_oid_2.49.0.1.124.1771103676.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200331040223+00:00"
 			}
 		}
 	]
