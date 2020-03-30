@@ -477,6 +477,63 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.9939, 48.1107 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9911, 47.2211 ],
+							[ -82.631, 47.221 ],
+							[ -82.6293, 48.2543 ],
+							[ -81.0729, 48.2526 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5072, 48.3417 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5062, 48.5243 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5076, 48.9319 ],
+							[ -79.5172, 49.1428 ],
+							[ -81.4419, 49.5091 ],
+							[ -84.0149, 49.9497 ],
+							[ -84.021, 49.9497 ],
+							[ -85.9469, 49.9546 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.2219, 48.2896 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 30, 2020 04:55",
+				"Expires_UTC" : "March 30, 2020 20:54",
+				"Summary" : "Description: Heavy wet snow expected into the morning. \n\nSnow across the region will gradually tapering off this morning. Localized total snowfall amounts near 10 cm are possible by the middle of the morning. The snow may continue until the early afternoon between Timmins and the Quebec border.\n\nUntreated surfaces may become slippery. Be prepared to adjust your driving with changing road conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-30T20:54:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-30T04:55:07-00:00, urn:oid:2.49.0.1.124.2352818412.2020<br>Area: White River - Dubreuilville, Kapuskasing - Hearst - Smooth Rock Falls, Timmins - Cochrane - Iroquois Falls, Chapleau - Missinaibi Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-30:feed.atom/urn:oid:2.49.0.1.124.2352818412.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-30/2020_03_30T04_55_07_00_00Iurn_oid_2.49.0.1.124.2352818412.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200330205407+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -84.0021, 49.1609 ],
 							[ -84.0021, 48.5526 ],
 							[ -84.002, 48.5501 ],
@@ -751,63 +808,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-30/2020_03_30T10_31_49_00_00Iurn_oid_2.49.0.1.124.1580391333.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200331023049+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -83.9939, 48.1107 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9911, 47.2211 ],
-							[ -82.631, 47.221 ],
-							[ -82.6293, 48.2543 ],
-							[ -81.0729, 48.2526 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5072, 48.3417 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5062, 48.5243 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5076, 48.9319 ],
-							[ -79.5172, 49.1428 ],
-							[ -81.4419, 49.5091 ],
-							[ -84.0149, 49.9497 ],
-							[ -84.021, 49.9497 ],
-							[ -85.9469, 49.9546 ],
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.2219, 48.2896 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 30, 2020 04:55",
-				"Expires_UTC" : "March 30, 2020 20:54",
-				"Summary" : "Description: Heavy wet snow expected into the morning. \n\nSnow across the region will gradually tapering off this morning. Localized total snowfall amounts near 10 cm are possible by the middle of the morning. The snow may continue until the early afternoon between Timmins and the Quebec border.\n\nUntreated surfaces may become slippery. Be prepared to adjust your driving with changing road conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-03-30T20:54:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-30T04:55:07-00:00, urn:oid:2.49.0.1.124.2352818412.2020<br>Area: White River - Dubreuilville, Kapuskasing - Hearst - Smooth Rock Falls, Timmins - Cochrane - Iroquois Falls, Chapleau - Missinaibi Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-30:feed.atom/urn:oid:2.49.0.1.124.2352818412.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-30/2020_03_30T04_55_07_00_00Iurn_oid_2.49.0.1.124.2352818412.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200330205407+00:00"
 			}
 		},
 		{
