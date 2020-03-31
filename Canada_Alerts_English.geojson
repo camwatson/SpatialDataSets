@@ -997,6 +997,74 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ],
+							[ -65.0706, 48.4384 ],
+							[ -65.2298, 48.4244 ],
+							[ -65.4677, 48.4029 ],
+							[ -65.4764, 48.4021 ],
+							[ -65.4763, 48.4015 ],
+							[ -65.4342, 48 ],
+							[ -65.4344, 47.921 ],
+							[ -65.2163, 47.9516 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ]
+						]
+					],
+					[
+						[
+							[ -67.5055, 49.8307 ],
+							[ -67.5073, 49.3198 ],
+							[ -67.508, 49.2382 ],
+							[ -67.2832, 49.2432 ],
+							[ -66.805, 49.3539 ],
+							[ -66.868, 49.9512 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.999, 50.7498 ],
+							[ -67.502, 50.7497 ],
+							[ -67.5048, 49.9998 ],
+							[ -67.5055, 49.8307 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 31, 2020 08:38",
+				"Expires_UTC" : "April 1, 2020 00:37",
+				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nBetween 25 and 40 millimetres of rain is expected beginning Wednesday morning through Thursday.\n\n###\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-01T00:37:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-31T08:38:43-00:00, urn:oid:2.49.0.1.124.0716227661.2020<br>Area: Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Baie-Trinité area, Sept-Îles - Port-Cartier area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-31:feed.atom/urn:oid:2.49.0.1.124.0716227661.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-31/2020_03_31T08_38_43_00_00Iurn_oid_2.49.0.1.124.0716227661.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200401003743+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -106.7512, 54.1488 ],
 							[ -106.744, 54.236 ],
 							[ -106.7527, 54.3251 ],
@@ -1100,51 +1168,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-30/2020_03_30T21_42_48_00_00Iurn_oid_2.49.0.1.124.1708388348.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200331134148+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -90.1125, 68.3558 ],
-							[ -90.103, 68.3317 ],
-							[ -89.7179, 68.317 ],
-							[ -89.4075, 68.3718 ],
-							[ -89.2267, 68.4885 ],
-							[ -89.2625, 68.6185 ],
-							[ -89.4378, 68.7021 ],
-							[ -89.6941, 68.745 ],
-							[ -89.999, 68.7198 ],
-							[ -90.0171, 68.6934 ],
-							[ -90.0135, 68.6617 ],
-							[ -90.1125, 68.3558 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 31, 2020 05:20",
-				"Expires_UTC" : "March 31, 2020 14:59",
-				"Summary" : "Description: A period of very cold wind chills continues.\n\nA cold air mass over the region combined with strong winds are causing windchill values near minus 55. Conditions will improve Tuesday morning as the winds ease.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-03-31T14:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-31T05:20:57-00:00, urn:oid:2.49.0.1.124.2137887358.2020<br>Area: Kugaaruk",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-31:feed.atom/urn:oid:2.49.0.1.124.2137887358.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-31/2020_03_31T05_20_57_00_00Iurn_oid_2.49.0.1.124.2137887358.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200331145957+00:00"
 			}
 		},
 		{
@@ -2307,65 +2330,42 @@
 				"coordinates" : [
 					[
 						[
-							[ -64.7559, 48.6496 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.75, 48.4658 ],
-							[ -65.0706, 48.4384 ],
-							[ -65.2298, 48.4244 ],
-							[ -65.4677, 48.4029 ],
-							[ -65.4764, 48.4021 ],
-							[ -65.4763, 48.4015 ],
-							[ -65.4342, 48 ],
-							[ -65.4344, 47.921 ],
-							[ -65.2163, 47.9516 ],
-							[ -64.7544, 48.0994 ],
-							[ -64.2197, 48.3156 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7559, 48.6496 ]
-						]
-					],
-					[
-						[
-							[ -67.5055, 49.8307 ],
-							[ -67.5073, 49.3198 ],
-							[ -67.508, 49.2382 ],
-							[ -67.2832, 49.2432 ],
-							[ -66.805, 49.3539 ],
-							[ -66.868, 49.9512 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.999, 50.7498 ],
-							[ -67.502, 50.7497 ],
-							[ -67.5048, 49.9998 ],
-							[ -67.5055, 49.8307 ]
+							[ -90.1125, 68.3558 ],
+							[ -90.103, 68.3317 ],
+							[ -89.7179, 68.317 ],
+							[ -89.4075, 68.3718 ],
+							[ -89.2267, 68.4885 ],
+							[ -89.2625, 68.6185 ],
+							[ -89.4378, 68.7021 ],
+							[ -89.6941, 68.745 ],
+							[ -89.999, 68.7198 ],
+							[ -90.0171, 68.6934 ],
+							[ -90.0135, 68.6617 ],
+							[ -90.1125, 68.3558 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
 				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 31, 2020 08:38",
-				"Expires_UTC" : "April 1, 2020 00:37",
-				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nBetween 25 and 40 millimetres of rain is expected beginning Wednesday morning through Thursday.\n\n###\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-01T00:37:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-31T08:38:43-00:00, urn:oid:2.49.0.1.124.0716227661.2020<br>Area: Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Baie-Trinité area, Sept-Îles - Port-Cartier area",
+				"event" : "Extreme Cold",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 31, 2020 12:40",
+				"Expires_UTC" : "March 31, 2020 13:40",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-03-31T13:40:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-03-31T12:40:33-00:00, urn:oid:2.49.0.1.124.3356959338.2020<br>Area: Kugaaruk",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-31:feed.atom/urn:oid:2.49.0.1.124.0716227661.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-31/2020_03_31T08_38_43_00_00Iurn_oid_2.49.0.1.124.0716227661.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-03-31:feed.atom/urn:oid:2.49.0.1.124.3356959338.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-03-31/2020_03_31T12_40_33_00_00Iurn_oid_2.49.0.1.124.3356959338.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200401003743+00:00"
+				"Expires_FMEFormat" : "20200331134033+00:00"
 			}
 		},
 		{
