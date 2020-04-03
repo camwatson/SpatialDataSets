@@ -68,6 +68,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -93.5376, 48.516 ],
+							[ -93.3775, 48.5745 ],
+							[ -93.331, 48.6168 ],
+							[ -93.3443, 48.6272 ],
+							[ -93.2232, 48.8278 ],
+							[ -93.0991, 49.0813 ],
+							[ -93.4874, 49.0996 ],
+							[ -94.7042, 48.8242 ],
+							[ -94.7045, 48.8236 ],
+							[ -94.7052, 48.7719 ],
+							[ -94.5779, 48.7038 ],
+							[ -94.2445, 48.6444 ],
+							[ -93.8712, 48.6171 ],
+							[ -93.8049, 48.5028 ],
+							[ -93.5376, 48.516 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 3, 2020 13:01",
+				"Expires_UTC" : "April 4, 2020 02:59",
+				"Summary" : "Description: Precipitation has changed over to snow this morning as expected.\n\nTotal snowfall amounts of 5 to 10 cm are likely by late this afternoon.\n\nPoor winter driving conditions continue. Untreated highways may be snow covered and slippery. Motorists should allow extra time to reach their destination.\n\nThe snow is expected to taper off completely by this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-04T02:59:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-03T13:01:15-00:00, urn:oid:2.49.0.1.124.2268638414.2020<br>Area: Fort Frances - Emo - Rainy River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-03:feed.atom/urn:oid:2.49.0.1.124.2268638414.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-03/2020_04_03T13_01_15_00_00Iurn_oid_2.49.0.1.124.2268638414.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200404025915+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -93.4874, 50.2367 ],
 							[ -92.9179, 50.1283 ],
 							[ -92.3388, 51.1193 ],
@@ -216,6 +264,48 @@
 				"coordinates" : [
 					[
 						[
+							[ -104.8658, 57.0615 ],
+							[ -103.2379, 57.8161 ],
+							[ -102.0074, 58.3877 ],
+							[ -101.9745, 59.1823 ],
+							[ -102.0075, 59.9992 ],
+							[ -103.4256, 60.0239 ],
+							[ -104.8657, 59.9995 ],
+							[ -104.8657, 58.3999 ],
+							[ -104.8658, 57.0615 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 3, 2020 10:22",
+				"Expires_UTC" : "April 4, 2020 02:21",
+				"Summary" : "Description: Heavy snow will continue today.  By this evening, another 10 to 15 cm of snow is expected to accumulate.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-04-04T02:21:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-03T10:22:32-00:00, urn:oid:2.49.0.1.124.2111906760.2020<br>Area: Wollaston Lake - Collins Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-03:feed.atom/urn:oid:2.49.0.1.124.2111906760.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-03/2020_04_03T10_22_32_00_00Iurn_oid_2.49.0.1.124.2111906760.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200404022132+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.1536, 52.4841 ],
 							[ -95.1536, 52.4201 ],
 							[ -95.169, 52.0344 ],
@@ -261,48 +351,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-03/2020_04_03T09_30_44_00_00Iurn_oid_2.49.0.1.124.3919722170.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200404012944+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -104.8658, 57.0615 ],
-							[ -103.2379, 57.8161 ],
-							[ -102.0074, 58.3877 ],
-							[ -101.9745, 59.1823 ],
-							[ -102.0075, 59.9992 ],
-							[ -103.4256, 60.0239 ],
-							[ -104.8657, 59.9995 ],
-							[ -104.8657, 58.3999 ],
-							[ -104.8658, 57.0615 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 3, 2020 10:22",
-				"Expires_UTC" : "April 4, 2020 02:21",
-				"Summary" : "Description: Heavy snow will continue today.  By this evening, another 10 to 15 cm of snow is expected to accumulate.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-04-04T02:21:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-03T10:22:32-00:00, urn:oid:2.49.0.1.124.2111906760.2020<br>Area: Wollaston Lake - Collins Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-03:feed.atom/urn:oid:2.49.0.1.124.2111906760.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-03/2020_04_03T10_22_32_00_00Iurn_oid_2.49.0.1.124.2111906760.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200404022132+00:00"
 			}
 		},
 		{
@@ -894,18 +942,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 3, 2020 06:53",
-				"Expires_UTC" : "April 3, 2020 22:52",
-				"Summary" : "Description: Wintry mix freezing rain and snow continuing today.\n\nFreezing rain will change to snow early this morning and will continue through the day, Total snowfall amounts of 5 to 10 cm and locally up to 15 cm are likely along the Ontario-Manitoba border by late this afternoon.\n\nA freezing rain warning is also in effect for early this morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-03T22:52:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-03T06:53:22-00:00, urn:oid:2.49.0.1.124.0710381612.2020<br>Area: Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
+				"LastUpdate_UTC" : "April 3, 2020 12:50",
+				"Expires_UTC" : "April 4, 2020 03:59",
+				"Summary" : "Description: Precipitation has changed over to snow this morning as expected, except near Rawson Lake where a cold rain will change quickly through brief freezing rain and ice pellets to snow this morning.\n\nTotal snowfall amounts of 5 to 10 cm and locally up to 15 cm are likely along the Ontario-Manitoba border by late this afternoon.\n\nPoor winter driving conditions continue. Untreated highways may be snow covered and slippery. Motorists should allow extra time to reach their destination.\n\nThe snow is expected to taper off completely by this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-04T03:59:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-03T12:50:42-00:00, urn:oid:2.49.0.1.124.1302082433.2020<br>Area: Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-03:feed.atom/urn:oid:2.49.0.1.124.0710381612.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-03/2020_04_03T06_53_22_00_00Iurn_oid_2.49.0.1.124.0710381612.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-03:feed.atom/urn:oid:2.49.0.1.124.1302082433.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-03/2020_04_03T12_50_42_00_00Iurn_oid_2.49.0.1.124.1302082433.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200403225222+00:00"
+				"Expires_FMEFormat" : "20200404035942+00:00"
 			}
 		},
 		{
