@@ -167,6 +167,89 @@
 				"coordinates" : [
 					[
 						[
+							[ -102.0073, 57.11 ],
+							[ -100.5808, 57.11 ],
+							[ -99.4001, 57.11 ],
+							[ -99.4001, 59.9992 ],
+							[ -100.6699, 60.0474 ],
+							[ -102.0004, 59.9992 ],
+							[ -102.0075, 59.9992 ],
+							[ -102.0425, 59.1758 ],
+							[ -102.0074, 58.3877 ],
+							[ -102.0297, 57.6922 ],
+							[ -102.0073, 57.11 ]
+						]
+					],
+					[
+						[
+							[ -92.7352, 56.9253 ],
+							[ -92.3679, 57.2361 ],
+							[ -92.5275, 57.6436 ],
+							[ -93.151, 58.8144 ],
+							[ -94.2622, 58.8582 ],
+							[ -94.3979, 58.784 ],
+							[ -94.7122, 59.1161 ],
+							[ -94.6303, 59.369 ],
+							[ -94.7505, 59.6302 ],
+							[ -94.7036, 59.7963 ],
+							[ -94.8238, 59.9991 ],
+							[ -95.1085, 60.0563 ],
+							[ -95.4499, 59.9991 ],
+							[ -95.609, 58.7183 ],
+							[ -95.4499, 57.7824 ],
+							[ -95.6237, 57.7836 ],
+							[ -95.6164, 57.4604 ],
+							[ -95.4499, 57.4624 ],
+							[ -95.5213, 57.2946 ],
+							[ -95.4499, 57.11 ],
+							[ -94.0456, 56.9907 ],
+							[ -92.7352, 56.9253 ]
+						]
+					],
+					[
+						[
+							[ -92.7352, 56.9253 ],
+							[ -91.2455, 56.5961 ],
+							[ -89.8863, 56.3004 ],
+							[ -88.9894, 56.8474 ],
+							[ -88.9057, 56.9017 ],
+							[ -90.9184, 57.3183 ],
+							[ -92.5014, 57.0461 ],
+							[ -92.6586, 56.9651 ],
+							[ -92.7352, 56.9253 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 5, 2020 01:01",
+				"Expires_UTC" : "April 5, 2020 17:00",
+				"Summary" : "Description: A trough of low pressure will continue to bring snow to northern Manitoba tonight. The trough is expected to weaken as it tracks northward with the snow gradually tapering off from south to north. Further snowfall amounts of 5 to 10 cm can be expected in the warning area by Sunday morning with the heaviest amounts falling along a west to east line through Tadoule lake and the town of Churchill. Some light snow will continue to linger in the region on Sunday but no further significant amounts are expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-04-05T17:00:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-05T01:01:39-00:00, urn:oid:2.49.0.1.124.0764838198.2020<br>Area: Brochet, Churchill, York",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-05:feed.atom/urn:oid:2.49.0.1.124.0764838198.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-05/2020_04_05T01_01_39_00_00Iurn_oid_2.49.0.1.124.0764838198.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200405170039+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -97.2579, 49 ],
 							[ -97.167, 49 ],
 							[ -96.7845, 49 ],
@@ -479,25 +562,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Winter Storm Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Winter Storm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 5, 2020 09:12",
-				"Expires_UTC" : "April 5, 2020 10:12",
-				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-04-05T10:12:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-05T09:12:08-00:00, urn:oid:2.49.0.1.124.3977307070.2020<br>Area: Tadoule Lake",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 5, 2020 01:00",
+				"Expires_UTC" : "April 5, 2020 16:59",
+				"Summary" : "Description: A trough of low pressure will continue to bring snow to northern Manitoba tonight. The trough is expected to weaken as it tracks northward with the snow gradually tapering off from south to north. Further snowfall amounts of 2 to 10 cm can be expected in the warning area by Sunday morning with the heaviest amounts falling along a west to east line through Tadoule lake and the town of Churchill. Some light snow will continue to linger in the region on Sunday but no further significant amounts are expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-04-05T16:59:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-05T01:00:09-00:00, urn:oid:2.49.0.1.124.1568623776.2020<br>Area: Tadoule Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-05:feed.atom/urn:oid:2.49.0.1.124.3977307070.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-05/2020_04_05T09_12_08_00_00Iurn_oid_2.49.0.1.124.3977307070.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-05:feed.atom/urn:oid:2.49.0.1.124.1568623776.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-05/2020_04_05T01_00_09_00_00Iurn_oid_2.49.0.1.124.1568623776.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200405101208+00:00"
+				"Expires_FMEFormat" : "20200405165909+00:00"
 			}
 		},
 		{
@@ -507,80 +590,50 @@
 				"coordinates" : [
 					[
 						[
-							[ -102.0073, 57.11 ],
-							[ -100.5808, 57.11 ],
-							[ -99.4001, 57.11 ],
-							[ -99.4001, 59.9992 ],
-							[ -100.6699, 60.0474 ],
-							[ -102.0004, 59.9992 ],
-							[ -102.0075, 59.9992 ],
-							[ -102.0425, 59.1758 ],
-							[ -102.0074, 58.3877 ],
-							[ -102.0297, 57.6922 ],
-							[ -102.0073, 57.11 ]
-						]
-					],
-					[
-						[
-							[ -92.7352, 56.9253 ],
-							[ -92.3679, 57.2361 ],
-							[ -92.5275, 57.6436 ],
-							[ -93.151, 58.8144 ],
-							[ -94.2622, 58.8582 ],
-							[ -94.3979, 58.784 ],
-							[ -94.7122, 59.1161 ],
-							[ -94.6303, 59.369 ],
-							[ -94.7505, 59.6302 ],
-							[ -94.7036, 59.7963 ],
-							[ -94.8238, 59.9991 ],
-							[ -95.1085, 60.0563 ],
-							[ -95.4499, 59.9991 ],
-							[ -95.609, 58.7183 ],
-							[ -95.4499, 57.7824 ],
-							[ -95.6237, 57.7836 ],
-							[ -95.6164, 57.4604 ],
-							[ -95.4499, 57.4624 ],
-							[ -95.5213, 57.2946 ],
+							[ -96.8659, 56.3447 ],
+							[ -96.8659, 55.1555 ],
+							[ -96.8659, 55.155 ],
+							[ -95.4553, 55.155 ],
+							[ -95.3897, 56.1245 ],
 							[ -95.4499, 57.11 ],
-							[ -94.0456, 56.9907 ],
-							[ -92.7352, 56.9253 ]
-						]
-					],
-					[
-						[
-							[ -92.7352, 56.9253 ],
-							[ -91.2455, 56.5961 ],
-							[ -89.8863, 56.3004 ],
-							[ -88.9894, 56.8474 ],
-							[ -88.9057, 56.9017 ],
-							[ -90.9184, 57.3183 ],
-							[ -92.5014, 57.0461 ],
-							[ -92.6586, 56.9651 ],
-							[ -92.7352, 56.9253 ]
+							[ -95.397, 57.2899 ],
+							[ -95.4499, 57.4624 ],
+							[ -95.2626, 57.4609 ],
+							[ -95.2592, 57.7829 ],
+							[ -95.4499, 57.7824 ],
+							[ -95.3158, 58.6988 ],
+							[ -95.4499, 59.9991 ],
+							[ -97.4253, 60.0545 ],
+							[ -99.4001, 59.9992 ],
+							[ -99.4001, 57.11 ],
+							[ -99.4001, 56.7023 ],
+							[ -99.4001, 56.3447 ],
+							[ -98.1983, 56.3447 ],
+							[ -96.8659, 56.3447 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 5, 2020 09:12",
-				"Expires_UTC" : "April 5, 2020 10:12",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-04-05T10:12:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-05T09:12:24-00:00, urn:oid:2.49.0.1.124.4185139381.2020<br>Area: Brochet, Churchill, York",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 4, 2020 23:24",
+				"Expires_UTC" : "April 5, 2020 15:23",
+				"Summary" : "Description: A trough of low pressure will continue to bring snow to northeastern Manitoba today. The trough is expected to weaken tonight as it tracks northward with the snow gradually tapering off from south to north. Further snowfall amounts of 2 to 10 cm can be expected in the warning area by Sunday morning with the heaviest amounts falling along a west to east line through Tadoule lake and the town of Churchill. Some light snow will continue to linger in the region on Sunday but no further significant amounts are expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-04-05T15:23:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-04T23:24:01-00:00, urn:oid:2.49.0.1.124.4147825872.2020<br>Area: Tadoule Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-05:feed.atom/urn:oid:2.49.0.1.124.4185139381.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-05/2020_04_05T09_12_24_00_00Iurn_oid_2.49.0.1.124.4185139381.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-04:feed.atom/urn:oid:2.49.0.1.124.4147825872.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-04/2020_04_04T23_24_01_00_00Iurn_oid_2.49.0.1.124.4147825872.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200405101224+00:00"
+				"Expires_FMEFormat" : "20200405152301+00:00"
 			}
 		},
 		{
@@ -667,59 +720,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-04/2020_04_04T23_22_38_00_00Iurn_oid_2.49.0.1.124.2456368073.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200405152138+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -96.8659, 56.3447 ],
-							[ -96.8659, 55.1555 ],
-							[ -96.8659, 55.155 ],
-							[ -95.4553, 55.155 ],
-							[ -95.3897, 56.1245 ],
-							[ -95.4499, 57.11 ],
-							[ -95.397, 57.2899 ],
-							[ -95.4499, 57.4624 ],
-							[ -95.2626, 57.4609 ],
-							[ -95.2592, 57.7829 ],
-							[ -95.4499, 57.7824 ],
-							[ -95.3158, 58.6988 ],
-							[ -95.4499, 59.9991 ],
-							[ -97.4253, 60.0545 ],
-							[ -99.4001, 59.9992 ],
-							[ -99.4001, 57.11 ],
-							[ -99.4001, 56.7023 ],
-							[ -99.4001, 56.3447 ],
-							[ -98.1983, 56.3447 ],
-							[ -96.8659, 56.3447 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 4, 2020 23:24",
-				"Expires_UTC" : "April 5, 2020 15:23",
-				"Summary" : "Description: A trough of low pressure will continue to bring snow to northeastern Manitoba today. The trough is expected to weaken tonight as it tracks northward with the snow gradually tapering off from south to north. Further snowfall amounts of 2 to 10 cm can be expected in the warning area by Sunday morning with the heaviest amounts falling along a west to east line through Tadoule lake and the town of Churchill. Some light snow will continue to linger in the region on Sunday but no further significant amounts are expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-04-05T15:23:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-04T23:24:01-00:00, urn:oid:2.49.0.1.124.4147825872.2020<br>Area: Tadoule Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-04:feed.atom/urn:oid:2.49.0.1.124.4147825872.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-04/2020_04_04T23_24_01_00_00Iurn_oid_2.49.0.1.124.4147825872.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200405152301+00:00"
 			}
 		}
 	]
