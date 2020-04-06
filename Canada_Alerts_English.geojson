@@ -9,6 +9,72 @@
 				"coordinates" : [
 					[
 						[
+							[ -126.1231, 71.8522 ],
+							[ -125.5959, 71.7281 ],
+							[ -124.9602, 71.6351 ],
+							[ -124.8071, 71.8342 ],
+							[ -124.6732, 71.8806 ],
+							[ -124.589, 71.9357 ],
+							[ -124.5567, 71.9959 ],
+							[ -124.5793, 72.0565 ],
+							[ -124.6433, 72.1062 ],
+							[ -124.7449, 72.1496 ],
+							[ -125.0235, 72.2063 ],
+							[ -125.3674, 72.217 ],
+							[ -125.3692, 72.217 ],
+							[ -125.3709, 72.2168 ],
+							[ -125.6852, 72.1781 ],
+							[ -125.8024, 72.237 ],
+							[ -126.1308, 72.1003 ],
+							[ -126.1231, 71.8522 ]
+						]
+					],
+					[
+						[
+							[ -124.241, 69.5607 ],
+							[ -124.4482, 69.5259 ],
+							[ -124.6933, 69.3795 ],
+							[ -124.5705, 69.2189 ],
+							[ -124.1555, 69.135 ],
+							[ -123.731, 69.1725 ],
+							[ -123.483, 69.301 ],
+							[ -123.471, 69.3798 ],
+							[ -123.5454, 69.4616 ],
+							[ -123.9284, 69.5673 ],
+							[ -124.241, 69.5607 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "April 5, 2020 21:22",
+				"Expires_UTC" : "April 6, 2020 13:21",
+				"Summary" : "Description: Wind gusts near 90 km/h are expected early this evening in Paulatuk and Sachs Harbour. These extreme winds will diminish before midnight but strong gusty winds are forecast to continue into Monday evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-04-06T13:21:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-05T21:22:03-00:00, urn:oid:2.49.0.1.124.0395789750.2020<br>Area: Sachs Harbour, Paulatuk",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-05:feed.atom/urn:oid:2.49.0.1.124.0395789750.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-05/2020_04_05T21_22_03_00_00Iurn_oid_2.49.0.1.124.0395789750.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200406132103+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -97.2579, 49 ],
 							[ -97.167, 49 ],
 							[ -96.7845, 49 ],
@@ -213,72 +279,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-06/2020_04_06T03_44_12_00_00Iurn_oid_2.49.0.1.124.4142618526.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200406194312+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -126.1231, 71.8522 ],
-							[ -125.5959, 71.7281 ],
-							[ -124.9602, 71.6351 ],
-							[ -124.8071, 71.8342 ],
-							[ -124.6732, 71.8806 ],
-							[ -124.589, 71.9357 ],
-							[ -124.5567, 71.9959 ],
-							[ -124.5793, 72.0565 ],
-							[ -124.6433, 72.1062 ],
-							[ -124.7449, 72.1496 ],
-							[ -125.0235, 72.2063 ],
-							[ -125.3674, 72.217 ],
-							[ -125.3692, 72.217 ],
-							[ -125.3709, 72.2168 ],
-							[ -125.6852, 72.1781 ],
-							[ -125.8024, 72.237 ],
-							[ -126.1308, 72.1003 ],
-							[ -126.1231, 71.8522 ]
-						]
-					],
-					[
-						[
-							[ -124.241, 69.5607 ],
-							[ -124.4482, 69.5259 ],
-							[ -124.6933, 69.3795 ],
-							[ -124.5705, 69.2189 ],
-							[ -124.1555, 69.135 ],
-							[ -123.731, 69.1725 ],
-							[ -123.483, 69.301 ],
-							[ -123.471, 69.3798 ],
-							[ -123.5454, 69.4616 ],
-							[ -123.9284, 69.5673 ],
-							[ -124.241, 69.5607 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 6, 2020 07:25",
-				"Expires_UTC" : "April 6, 2020 08:25",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-04-06T08:25:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-06T07:25:10-00:00, urn:oid:2.49.0.1.124.0530299721.2020<br>Area: Sachs Harbour, Paulatuk",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-06:feed.atom/urn:oid:2.49.0.1.124.0530299721.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-06/2020_04_06T07_25_10_00_00Iurn_oid_2.49.0.1.124.0530299721.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200406082510+00:00"
 			}
 		},
 		{
