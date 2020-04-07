@@ -89,39 +89,42 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ],
-							[ -59.0029, 50.7675 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ]
+							[ -102.0073, 56.3385 ],
+							[ -102.0073, 57.11 ],
+							[ -101.9861, 57.6901 ],
+							[ -102.0074, 58.3877 ],
+							[ -103.3039, 57.8447 ],
+							[ -104.8658, 57.0615 ],
+							[ -104.8658, 56.1199 ],
+							[ -104.1998, 56.1199 ],
+							[ -103.2006, 56.1199 ],
+							[ -102.004, 56.1199 ],
+							[ -102.0008, 56.2197 ],
+							[ -102.0073, 56.3385 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 6, 2020 19:30",
-				"Expires_UTC" : "April 7, 2020 10:59",
-				"Summary" : "Description: An additional 5 to 10 centimetres of snow is expected by tomorrow morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-07T10:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-06T19:30:14-00:00, urn:oid:2.49.0.1.124.0356408039.2020<br>Area: Blanc-Sablon",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 7, 2020 10:31",
+				"Expires_UTC" : "April 7, 2020 11:31",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-04-07T11:31:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-07T10:31:20-00:00, urn:oid:2.49.0.1.124.2455435701.2020<br>Area: Southend - Brabant Lake - Kinoosao",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-06:feed.atom/urn:oid:2.49.0.1.124.0356408039.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-06/2020_04_06T19_30_14_00_00Iurn_oid_2.49.0.1.124.0356408039.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-07:feed.atom/urn:oid:2.49.0.1.124.2455435701.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-07/2020_04_07T10_31_20_00_00Iurn_oid_2.49.0.1.124.2455435701.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200407105914+00:00"
+				"Expires_FMEFormat" : "20200407113120+00:00"
 			}
 		},
 		{
@@ -293,6 +296,48 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-06/2020_04_06T11_52_17_05_00I6D3A7836_6547_D5C7_4C7D_823796F6689A.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200407114500-05:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.1162, 51.3508 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1075, 51.9221 ],
+							[ -58.9988, 51.333 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 6, 2020 19:30",
+				"Expires_UTC" : "April 7, 2020 10:59",
+				"Summary" : "Description: An additional 5 to 10 centimetres of snow is expected by tomorrow morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-07T10:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-06T19:30:14-00:00, urn:oid:2.49.0.1.124.0356408039.2020<br>Area: Blanc-Sablon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-06:feed.atom/urn:oid:2.49.0.1.124.0356408039.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-06/2020_04_06T19_30_14_00_00Iurn_oid_2.49.0.1.124.0356408039.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200407105914+00:00"
 			}
 		},
 		{
