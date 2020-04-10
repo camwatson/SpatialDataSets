@@ -598,79 +598,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.4371, 45.6492 ],
-							[ -61.5031, 45.6221 ],
-							[ -61.7374, 45.525 ],
-							[ -61.733, 45.5024 ],
-							[ -61.7299, 45.4868 ],
-							[ -61.949, 45.3941 ],
-							[ -62.0904, 45.3736 ],
-							[ -62.6235, 45.2947 ],
-							[ -62.6877, 45.2911 ],
-							[ -62.7118, 45.2704 ],
-							[ -62.1655, 44.9754 ],
-							[ -62.1647, 44.9739 ],
-							[ -62.1548, 44.9424 ],
-							[ -62.0547, 44.8797 ],
-							[ -61.1946, 45.1755 ],
-							[ -60.9193, 45.2127 ],
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -59.538, 46.0154 ],
-							[ -59.8902, 46.2624 ],
-							[ -60.3274, 46.3958 ]
-						],
-						[
-							[ -60.8436, 45.8719 ],
-							[ -61.1587, 45.7085 ],
-							[ -61.1647, 45.7054 ],
-							[ -60.8436, 45.8719 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 10, 2020 13:28",
-				"Expires_UTC" : "April 10, 2020 14:28",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-04-10T14:28:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T13:28:49-00:00, urn:oid:2.49.0.1.124.1944933192.2020<br>Area: Guysborough County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.1944933192.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T13_28_49_00_00Iurn_oid_2.49.0.1.124.1944933192.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200410142849+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -71.233, 47.0165 ],
 							[ -71.4664, 46.7831 ],
 							[ -71.4527, 46.7491 ],
@@ -1579,25 +1506,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Les Suêtes Wind Warning Ended",
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Les Suêtes Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 10, 2020 13:27",
-				"Expires_UTC" : "April 10, 2020 14:27",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-04-10T14:27:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T13:27:55-00:00, urn:oid:2.49.0.1.124.2772350278.2020<br>Area: Inverness County - Mabou and north",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "April 10, 2020 07:52",
+				"Expires_UTC" : "April 10, 2020 19:19",
+				"Summary" : "Description: Strong winds with damaging wind gusts are expected or occurring.\n\nLocation: from Margaree Harbour to Bay St. Lawrence.\n\nTime span: this morning.\n\nMaximum gusts: 140 km/h.\n\nVery strong easterly winds will continue in the lee of the Highlands this morning. Wind gusts will likely reach 140 km/h later this morning before diminishing around midday today.\n\n###\n\nDrivers may lose control of their vehicles; tall vehicles are at high risk of being overturned.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-10T19:19:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T07:52:04-00:00, urn:oid:2.49.0.1.124.1202957871.2020<br>Area: Inverness County - Mabou and north",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.2772350278.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T13_27_55_00_00Iurn_oid_2.49.0.1.124.2772350278.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.1202957871.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T07_52_04_00_00Iurn_oid_2.49.0.1.124.1202957871.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200410142755+00:00"
+				"Expires_FMEFormat" : "20200410191904+00:00"
 			}
 		},
 		{
