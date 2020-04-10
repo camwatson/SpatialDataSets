@@ -913,6 +913,74 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.9866, 49.1219 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -57.6827, 49.1504 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.83, 48.58 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.4199, 48.2499 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 48.5499 ],
+							[ -54.2, 48.9 ],
+							[ -54.15, 49.2 ],
+							[ -54.65, 49.25 ],
+							[ -55.0999, 48.9 ],
+							[ -55.3732, 49.056 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.45, 49.0999 ],
+							[ -55.9866, 49.1219 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 10, 2020 01:03",
+				"Expires_UTC" : "April 10, 2020 17:02",
+				"Summary" : "Description: Snow, rain and wind is expected on Friday.\n\nLocations: central and northern Newfoundland.\n\nTotal snowfall: ranging between 5 and 10 cm over central Newfoundland and 10 to 15 cm over the Baie Verte and Great Northern Peninsulas.\n\nTotal rainfall: 2 to 5 mm over central Newfoundland.\n\nMaximum wind gusts: east to southeasterly 80 km/h, possibly higher over exposed areas of central Newfoundland.\n\nTime span: late Friday morning into Friday evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T17:02:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T01:03:26-00:00, urn:oid:2.49.0.1.124.4292067351.2020<br>Area: Deer Lake - Humber Valley, Buchans and the interior, Grand Falls-Windsor and vicinity, Gander and vicinity, Green Bay - White Bay, Northern Peninsula East, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.4292067351.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T01_03_26_00_00Iurn_oid_2.49.0.1.124.4292067351.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200410170226+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -70.9806, 45.9844 ],
 							[ -70.9245, 45.9333 ],
 							[ -70.8331, 45.8497 ],
@@ -1054,52 +1122,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_40_44_00_00Iurn_oid_2.49.0.1.124.1546501687.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200410103944+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "April 9, 2020 18:20",
-				"Expires_UTC" : "April 10, 2020 10:19",
-				"Summary" : "Description: Maximum gusts: southeasterly up to 100 km/h late overnight tonight and up to 150 km/h Friday morning and early afternoon. \n\nLocation: Wreckhouse area.\n\n###\n\nDrivers may lose control of their vehicles; tall vehicles are at high risk of being overturned.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T10:19:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-09T18:20:55-00:00, urn:oid:2.49.0.1.124.1373499642.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-09:feed.atom/urn:oid:2.49.0.1.124.1373499642.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_20_55_00_00Iurn_oid_2.49.0.1.124.1373499642.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200410101955+00:00"
 			}
 		},
 		{
@@ -1271,57 +1293,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T15_53_40_00_00Iurn_oid_2.49.0.1.124.2510790471.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200410075240+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.559, 53.2249 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.9017, 53.3388 ],
-							[ -57.1137, 53.3384 ],
-							[ -57.129, 53.0471 ],
-							[ -57.1146, 52.8003 ],
-							[ -57.1428, 52.4234 ],
-							[ -57.1156, 52.1 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 9, 2020 18:49",
-				"Expires_UTC" : "April 10, 2020 10:48",
-				"Summary" : "Description: Significant snowfall expected late Friday.\n\nTotal snowfall: up to 15 cm.\n\nMaximum wind gusts: easterly 90 km/h.\n\nLocations: southeastern Labrador.\n\nTime span: Friday afternoon through Friday evening.\n\nRemarks: Snow is expected to spread across southeastern Labrador on Friday afternoon.  Strong easterly winds accompanying the fresh snow may cause reduced visibilities in blowing snow especially over exposed areas.  Conditions will improve by midnight on Friday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T10:48:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-09T18:49:36-00:00, urn:oid:2.49.0.1.124.0412016245.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-09:feed.atom/urn:oid:2.49.0.1.124.0412016245.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_49_36_00_00Iurn_oid_2.49.0.1.124.0412016245.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200410104836+00:00"
 			}
 		},
 		{
@@ -1616,6 +1587,119 @@
 				"coordinates" : [
 					[
 						[
+							[ -62.7118, 45.2704 ],
+							[ -62.6442, 45.2787 ],
+							[ -62.6235, 45.2947 ],
+							[ -62.0904, 45.3736 ],
+							[ -61.949, 45.3941 ],
+							[ -61.7299, 45.4868 ],
+							[ -61.733, 45.5024 ],
+							[ -61.7374, 45.525 ],
+							[ -61.5031, 45.6221 ],
+							[ -61.4371, 45.6492 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.5101, 45.737 ],
+							[ -61.7021, 45.7266 ],
+							[ -61.8482, 45.7753 ],
+							[ -61.8931, 45.94 ],
+							[ -62.2998, 45.8648 ],
+							[ -63.1438, 45.8448 ],
+							[ -63.1906, 45.811 ],
+							[ -63.4368, 45.9101 ],
+							[ -63.7346, 45.9185 ],
+							[ -63.8518, 46.0357 ],
+							[ -64.0407, 46.0039 ],
+							[ -64.0425, 45.9934 ],
+							[ -64.0685, 45.9947 ],
+							[ -64.0717, 45.9772 ],
+							[ -64.0795, 45.9775 ],
+							[ -64.1106, 45.9786 ],
+							[ -64.1234, 45.979 ],
+							[ -64.1364, 45.9793 ],
+							[ -64.1496, 45.9799 ],
+							[ -64.1528, 45.9784 ],
+							[ -64.1591, 45.9753 ],
+							[ -64.1646, 45.9608 ],
+							[ -64.1708, 45.9539 ],
+							[ -64.1766, 45.9478 ],
+							[ -64.1849, 45.939 ],
+							[ -64.2062, 45.9161 ],
+							[ -64.2347, 45.9284 ],
+							[ -64.2737, 45.9031 ],
+							[ -64.3108, 45.8312 ],
+							[ -64.3392, 45.8389 ],
+							[ -64.4894, 45.7165 ],
+							[ -64.9179, 45.4771 ],
+							[ -65.0077, 45.4302 ],
+							[ -65.024, 45.4213 ],
+							[ -65.1181, 45.3687 ],
+							[ -65.0987, 45.2427 ],
+							[ -65.8843, 44.8139 ],
+							[ -65.7604, 44.6859 ],
+							[ -65.3296, 44.3106 ],
+							[ -65.1856, 44.4122 ],
+							[ -65.1623, 44.4446 ],
+							[ -65.0755, 44.4407 ],
+							[ -64.9461, 44.5351 ],
+							[ -64.7714, 44.6652 ],
+							[ -64.5316, 44.8422 ],
+							[ -64.5248, 44.838 ],
+							[ -64.5243, 44.8377 ],
+							[ -64.434, 44.9011 ],
+							[ -64.2554, 44.7703 ],
+							[ -64.2442, 44.762 ],
+							[ -63.8291, 44.8025 ],
+							[ -63.7597, 44.8965 ],
+							[ -63.5724, 44.9528 ],
+							[ -63.5208, 44.9693 ],
+							[ -63.46, 44.9886 ],
+							[ -63.3573, 45.0209 ],
+							[ -62.8749, 45.2036 ],
+							[ -62.7945, 45.2192 ],
+							[ -62.7148, 45.2683 ],
+							[ -62.7118, 45.2704 ]
+						],
+						[
+							[ -63.3459, 45.3679 ],
+							[ -63.3609, 45.3663 ],
+							[ -63.4778593614, 45.3538515292 ],
+							[ -63.4779, 45.3539 ],
+							[ -63.4014, 45.362 ],
+							[ -63.3687, 45.3655 ],
+							[ -63.3459, 45.3679 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 9, 2020 18:39",
+				"Expires_UTC" : "April 10, 2020 10:38",
+				"Summary" : "Description: Windy with snow changing to rain tonight\n\nLocations: central and northern Nova Scotia\n\nMaximum wind gusts: 70 km/h \n\nTotal snowfall: 2 to 10 cm. \n\nTime span: tonight and Friday.\n\nRemarks: Snow will begin this evening and then change to rain overnight.  Strong southeast winds will also develop later this evening and then become southwesterly on Friday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-10T10:38:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-09T18:39:52-00:00, urn:oid:2.49.0.1.124.4263177020.2020<br>Area: Kings County, Annapolis County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Pictou County, Antigonish County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-09:feed.atom/urn:oid:2.49.0.1.124.4263177020.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_39_52_00_00Iurn_oid_2.49.0.1.124.4263177020.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200410103852+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -72.7168, 45.8498 ],
 							[ -72.7965, 45.9176 ],
 							[ -72.9555, 46.0521 ],
@@ -1764,18 +1848,120 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 10, 2020 00:58",
+				"LastUpdate_UTC" : "April 10, 2020 00:59",
 				"Expires_UTC" : "April 10, 2020 16:58",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T16:58:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T00:58:54-00:00, urn:oid:2.49.0.1.124.0918075444.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southeasterly 100 km/h except up to 120 km/h in the Port aux Basques area.\n\nLocations: south, east, and northeast coasts of Newfoundland.\n\nTime span: Friday morning to Friday afternoon for the south coast and Friday afternoon into early Friday evening for the east and northeast coasts.\n\nRemarks: Along with the wind on Friday, most areas will see snow changing through ice pellets to rain.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T16:58:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T00:59:54-00:00, urn:oid:2.49.0.1.124.2236491493.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.0918075444.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T00_58_54_00_00Iurn_oid_2.49.0.1.124.0918075444.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.2236491493.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T00_59_54_00_00Iurn_oid_2.49.0.1.124.2236491493.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200410165854+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "April 10, 2020 00:58",
+				"Expires_UTC" : "April 10, 2020 16:57",
+				"Summary" : "Description: Rain, heavy at times is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nTotal rainfall: 25 mm.\n\nLocations: southern Avalon Peninsula.\n\nTime span: Friday afternoon.\n\nRemarks: Precipitation may begin briefly as snow or ice pellets Friday morning.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T16:57:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T00:58:09-00:00, urn:oid:2.49.0.1.124.1113616531.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.1113616531.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T00_58_09_00_00Iurn_oid_2.49.0.1.124.1113616531.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200410165709+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.559, 53.2249 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.9017, 53.3388 ],
+							[ -57.1137, 53.3384 ],
+							[ -57.129, 53.0471 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.1428, 52.4234 ],
+							[ -57.1156, 52.1 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 10, 2020 01:00",
+				"Expires_UTC" : "April 10, 2020 16:59",
+				"Summary" : "Description: Significant snowfall expected late Friday.\n\nTotal snowfall: up to 15 cm.\n\nMaximum wind gusts: easterly 90 km/h.\n\nLocations: southeastern Labrador.\n\nTime span: Friday afternoon through Friday evening.\n\nRemarks: Snow is expected to spread across southeastern Labrador on Friday afternoon.  Strong easterly winds accompanying the fresh snow may cause reduced visibilities in blowing snow especially over exposed areas.  Conditions will improve by midnight on Friday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T16:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T01:00:16-00:00, urn:oid:2.49.0.1.124.3704923948.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.3704923948.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T01_00_16_00_00Iurn_oid_2.49.0.1.124.3704923948.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200410165916+00:00"
 			}
 		},
 		{
@@ -1816,46 +2002,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_37_55_00_00Iurn_oid_2.49.0.1.124.4192463387.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200410103655+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 9, 2020 18:44",
-				"Expires_UTC" : "April 10, 2020 10:43",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: easterly 100 km/h\n\nLocations: Iles de la Madeleine.\n\nTime span: Friday morning.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-10T10:43:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-09T18:44:01-00:00, urn:oid:2.49.0.1.124.3528744673.2020<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-09:feed.atom/urn:oid:2.49.0.1.124.3528744673.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_44_01_00_00Iurn_oid_2.49.0.1.124.3528744673.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200410104301+00:00"
 			}
 		},
 		{
@@ -1906,6 +2052,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 9, 2020 18:44",
+				"Expires_UTC" : "April 10, 2020 10:43",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: easterly 100 km/h\n\nLocations: Iles de la Madeleine.\n\nTime span: Friday morning.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-10T10:43:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-09T18:44:01-00:00, urn:oid:2.49.0.1.124.3528744673.2020<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-09:feed.atom/urn:oid:2.49.0.1.124.3528744673.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_44_01_00_00Iurn_oid_2.49.0.1.124.3528744673.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200410104301+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.3109, 49.4067 ],
 							[ -58.8133, 48.8226 ],
 							[ -59.2492, 48.6594 ],
@@ -1933,18 +2119,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "April 9, 2020 18:27",
-				"Expires_UTC" : "April 10, 2020 10:26",
-				"Summary" : "Description: Strong winds with severe and damaging gusts are expected or occurring.\n\nMaximum gusts: easterly 90 km/h, except locally 120 km/h in areas prone to enhanced easterlies.\n\nLocations: western Newfoundland.\n\nTime span: late Friday morning and early Friday afternoon.\n\nRemarks: Local enhancement in easterly flow typically occurs in the vicinities of Cape St. George, Port au Port Bay, the outer Bay of Islands, Trout River Bay, Bonne Bay, Western Brook Pond and St. Pauls Bay.\n\nAdditionally, along with the winds, snow will develop Friday morning and transition to rain showers in the afternoon before ending.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T10:26:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-09T18:27:39-00:00, urn:oid:2.49.0.1.124.1839196773.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
+				"LastUpdate_UTC" : "April 10, 2020 01:02",
+				"Expires_UTC" : "April 10, 2020 17:01",
+				"Summary" : "Description: Strong winds with severe and damaging gusts are expected or occurring.\n\nMaximum gusts: easterly 90 km/h, except locally 120 km/h in areas prone to enhanced easterlies.\n\nLocations: western Newfoundland.\n\nTime span: late Friday morning and early Friday afternoon.\n\nRemarks: Local enhancement in easterly flow typically occurs in the vicinities of Cape St. George, Port au Port Bay, the outer Bay of Islands, Trout River Bay, Bonne Bay, Western Brook Pond and St. Pauls Bay.\n\nAdditionally, along with the winds, snow will develop Friday morning and transition to rain showers in the afternoon before ending.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T17:01:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T01:02:25-00:00, urn:oid:2.49.0.1.124.2646902292.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-09:feed.atom/urn:oid:2.49.0.1.124.1839196773.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_27_39_00_00Iurn_oid_2.49.0.1.124.1839196773.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.2646902292.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T01_02_25_00_00Iurn_oid_2.49.0.1.124.2646902292.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200410102639+00:00"
+				"Expires_FMEFormat" : "20200410170125+00:00"
 			}
 		},
 		{
@@ -2402,119 +2588,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.7118, 45.2704 ],
-							[ -62.6442, 45.2787 ],
-							[ -62.6235, 45.2947 ],
-							[ -62.0904, 45.3736 ],
-							[ -61.949, 45.3941 ],
-							[ -61.7299, 45.4868 ],
-							[ -61.733, 45.5024 ],
-							[ -61.7374, 45.525 ],
-							[ -61.5031, 45.6221 ],
-							[ -61.4371, 45.6492 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.5101, 45.737 ],
-							[ -61.7021, 45.7266 ],
-							[ -61.8482, 45.7753 ],
-							[ -61.8931, 45.94 ],
-							[ -62.2998, 45.8648 ],
-							[ -63.1438, 45.8448 ],
-							[ -63.1906, 45.811 ],
-							[ -63.4368, 45.9101 ],
-							[ -63.7346, 45.9185 ],
-							[ -63.8518, 46.0357 ],
-							[ -64.0407, 46.0039 ],
-							[ -64.0425, 45.9934 ],
-							[ -64.0685, 45.9947 ],
-							[ -64.0717, 45.9772 ],
-							[ -64.0795, 45.9775 ],
-							[ -64.1106, 45.9786 ],
-							[ -64.1234, 45.979 ],
-							[ -64.1364, 45.9793 ],
-							[ -64.1496, 45.9799 ],
-							[ -64.1528, 45.9784 ],
-							[ -64.1591, 45.9753 ],
-							[ -64.1646, 45.9608 ],
-							[ -64.1708, 45.9539 ],
-							[ -64.1766, 45.9478 ],
-							[ -64.1849, 45.939 ],
-							[ -64.2062, 45.9161 ],
-							[ -64.2347, 45.9284 ],
-							[ -64.2737, 45.9031 ],
-							[ -64.3108, 45.8312 ],
-							[ -64.3392, 45.8389 ],
-							[ -64.4894, 45.7165 ],
-							[ -64.9179, 45.4771 ],
-							[ -65.0077, 45.4302 ],
-							[ -65.024, 45.4213 ],
-							[ -65.1181, 45.3687 ],
-							[ -65.0987, 45.2427 ],
-							[ -65.8843, 44.8139 ],
-							[ -65.7604, 44.6859 ],
-							[ -65.3296, 44.3106 ],
-							[ -65.1856, 44.4122 ],
-							[ -65.1623, 44.4446 ],
-							[ -65.0755, 44.4407 ],
-							[ -64.9461, 44.5351 ],
-							[ -64.7714, 44.6652 ],
-							[ -64.5316, 44.8422 ],
-							[ -64.5248, 44.838 ],
-							[ -64.5243, 44.8377 ],
-							[ -64.434, 44.9011 ],
-							[ -64.2554, 44.7703 ],
-							[ -64.2442, 44.762 ],
-							[ -63.8291, 44.8025 ],
-							[ -63.7597, 44.8965 ],
-							[ -63.5724, 44.9528 ],
-							[ -63.5208, 44.9693 ],
-							[ -63.46, 44.9886 ],
-							[ -63.3573, 45.0209 ],
-							[ -62.8749, 45.2036 ],
-							[ -62.7945, 45.2192 ],
-							[ -62.7148, 45.2683 ],
-							[ -62.7118, 45.2704 ]
-						],
-						[
-							[ -63.3459, 45.3679 ],
-							[ -63.3609, 45.3663 ],
-							[ -63.4778593614, 45.3538515292 ],
-							[ -63.4779, 45.3539 ],
-							[ -63.4014, 45.362 ],
-							[ -63.3687, 45.3655 ],
-							[ -63.3459, 45.3679 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 9, 2020 18:39",
-				"Expires_UTC" : "April 10, 2020 10:38",
-				"Summary" : "Description: Windy with snow changing to rain tonight\n\nLocations: central and northern Nova Scotia\n\nMaximum wind gusts: 70 km/h \n\nTotal snowfall: 2 to 10 cm. \n\nTime span: tonight and Friday.\n\nRemarks: Snow will begin this evening and then change to rain overnight.  Strong southeast winds will also develop later this evening and then become southwesterly on Friday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-10T10:38:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-09T18:39:52-00:00, urn:oid:2.49.0.1.124.4263177020.2020<br>Area: Kings County, Annapolis County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Pictou County, Antigonish County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-09:feed.atom/urn:oid:2.49.0.1.124.4263177020.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_39_52_00_00Iurn_oid_2.49.0.1.124.4263177020.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200410103852+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.802, 47.2158 ],
 							[ -65.7656, 46.7811 ],
 							[ -65.3925, 46.733 ],
@@ -2854,18 +2927,64 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 9, 2020 18:35",
-				"Expires_UTC" : "April 10, 2020 10:34",
-				"Summary" : "Description: High Storm Surge levels and large waves are expected to impact the coast.\n\nLocations: Western Nova Scotia\n\nMaximum water levels: exceeding high astronomical tide.\n\nTime span: tonight and again at noon on Friday.\n\nHigh tide: near midnight and noon on Friday.\n\nRemarks: Very low pressure will coincide with vary large spring tides to produce significantly elevated water levels. Shore or beach erosion and damage to coastal infrastructure are possible in vulnerable areas.\n\n###\n\nHigh waves combined with the surge may cause damage along the coast. Coastal flooding is likely.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-10T10:34:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-09T18:35:46-00:00, urn:oid:2.49.0.1.124.1673794654.2020<br>Area: Digby County, Shelburne County, Yarmouth County",
+				"LastUpdate_UTC" : "April 10, 2020 01:05",
+				"Expires_UTC" : "April 10, 2020 17:04",
+				"Summary" : "Description: High Storm Surge levels and large waves are expected to impact the coast.\n\nLocations: Western Nova Scotia\n\nMaximum water levels: exceeding high astronomical tide.\n\nTime span: tonight and again at noon on Friday.\n\nHigh tide: near midnight and noon on Friday.\n\nRemarks: Very low pressure will coincide with vary large spring tides to produce significantly elevated water levels. Shore or beach erosion and damage to coastal infrastructure are possible in vulnerable areas.\n\n###\n\nHigh waves combined with the surge may cause damage along the coast. Coastal flooding is likely.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-10T17:04:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T01:05:14-00:00, urn:oid:2.49.0.1.124.3463063143.2020<br>Area: Digby County, Shelburne County, Yarmouth County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-09:feed.atom/urn:oid:2.49.0.1.124.1673794654.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_35_46_00_00Iurn_oid_2.49.0.1.124.1673794654.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.3463063143.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T01_05_14_00_00Iurn_oid_2.49.0.1.124.3463063143.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200410103446+00:00"
+				"Expires_FMEFormat" : "20200410170414+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "April 10, 2020 00:58",
+				"Expires_UTC" : "April 10, 2020 16:57",
+				"Summary" : "Description: Maximum gusts: southeasterly up to 100 km/h late overnight tonight and up to 150 km/h Friday morning and early afternoon. \n\nLocation: Wreckhouse area.\n\n###\n\nDrivers may lose control of their vehicles; tall vehicles are at high risk of being overturned.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T16:57:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T00:58:40-00:00, urn:oid:2.49.0.1.124.0835253154.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.0835253154.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T00_58_40_00_00Iurn_oid_2.49.0.1.124.0835253154.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200410165740+00:00"
 			}
 		},
 		{
@@ -2978,57 +3097,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-09/2020_04_09T18_39_07_00_00Iurn_oid_2.49.0.1.124.2084356950.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200410103807+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "April 10, 2020 00:57",
-				"Expires_UTC" : "April 10, 2020 16:57",
-				"Summary" : "Description: Rain, heavy at times is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-10T16:57:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T00:57:09-00:00, urn:oid:2.49.0.1.124.0295475384.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.0295475384.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T00_57_09_00_00Iurn_oid_2.49.0.1.124.0295475384.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200410165709+00:00"
 			}
 		}
 	]
