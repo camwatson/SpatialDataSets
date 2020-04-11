@@ -137,60 +137,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -67.0013, 48.4494 ],
-							[ -67.0024, 48.2174 ],
-							[ -66.0664, 48.3334 ],
-							[ -65.4763, 48.4015 ],
-							[ -65.4764, 48.4021 ],
-							[ -65.4677, 48.4029 ],
-							[ -65.2298, 48.4244 ],
-							[ -65.0706, 48.4384 ],
-							[ -64.75, 48.4658 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.7559, 48.6496 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7535, 48.9304 ],
-							[ -65.4879, 49.0837 ],
-							[ -65.7491, 49.0651 ],
-							[ -66.0046, 49.0462 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.7518, 48.8661 ],
-							[ -66.9998, 48.7504 ],
-							[ -67.0013, 48.4494 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 11, 2020 01:13",
-				"Expires_UTC" : "April 11, 2020 02:13",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n###<br>Expires: 2020-04-11T02:13:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-11T01:13:38-00:00, urn:oid:2.49.0.1.124.0416329752.2020<br>Area: Murdochville area, Mont-Albert area, Grande-Rivière - Cascapédia area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-11:feed.atom/urn:oid:2.49.0.1.124.0416329752.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-11/2020_04_11T01_13_38_00_00Iurn_oid_2.49.0.1.124.0416329752.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200411021338+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -96.8733, 50.4017 ],
 							[ -96.8829, 50.4032 ],
 							[ -96.8891, 50.402 ],
@@ -957,25 +903,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Storm Surge Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Storm Surge Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Storm Surge",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 11, 2020 01:12",
-				"Expires_UTC" : "April 11, 2020 02:12",
-				"Summary" : "Description: Storm surge conditions are no longer expected.\n\n###<br>Expires: 2020-04-11T02:12:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-11T01:12:19-00:00, urn:oid:2.49.0.1.124.2079149877.2020<br>Area: Mont-Joli area, Le Bic - Rimouski area, Matane, Grande-Vallée area, Sainte-Anne-des-Monts area, Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 10, 2020 19:26",
+				"Expires_UTC" : "April 11, 2020 02:29",
+				"Summary" : "Description: Warning of potential breaking sea and coastal flood conditions issued jointly by Fisheries and Oceans Canada (Science) and the Meteorological Service of Canada - Quebec Area on 2020-04-09.\n\nAn intense low pressure system is producing strong winds in the areas listed below. The combination of these winds and the current run of high-amplitude tides could produce minor breaking sea conditions along the coast near the following locales on the dates and at the times specified (Eastern Daylight Time).\n\n\nRimouski - Mont-Joli: 2020-04-10, from 4 PM to 8 PM.\n\nMatane: 2020-04-10, from 4 PM to 8 PM.\n\nSainte-Anne-des-Monts - Grande-Vallée: 2020-04-10, from 4 PM to 8 PM.\n\nForillon Park - Gaspé - Percé: 2020-04-10, from 4 PM to 8 PM.\n\nNew-Carlisle - Chandler: 2020-04-10, from 4:30 PM to 8:30 PM.\n\n###\n\nHigh waves combined with the surge may cause damage along the coast. Coastal erosion is possible in vulnerable areas.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-11T02:29:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-10T19:26:53-00:00, urn:oid:2.49.0.1.124.3780755002.2020<br>Area: Mont-Joli area, Le Bic - Rimouski area, Matane, Grande-Vallée area, Sainte-Anne-des-Monts area, Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-11:feed.atom/urn:oid:2.49.0.1.124.2079149877.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-11/2020_04_11T01_12_19_00_00Iurn_oid_2.49.0.1.124.2079149877.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-10:feed.atom/urn:oid:2.49.0.1.124.3780755002.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-10/2020_04_10T19_26_53_00_00Iurn_oid_2.49.0.1.124.3780755002.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200411021219+00:00"
+				"Expires_FMEFormat" : "20200411022953+00:00"
 			}
 		},
 		{
@@ -1306,24 +1252,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
+				"Title" : "Blowing Snow Advisory Ended",
 				"Category" : "Actual",
 				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "April 11, 2020 01:06",
-				"Expires_UTC" : "April 11, 2020 05:29",
-				"Summary" : "Description: Poor visibility in blowing snow and rapidly accumulating snowfall are expected.\n\nTotal snowfall: 10 to 15 cm.\n\nMaximum wind gusts: easterly 70 km/h, except 90 along parts of the coast.\n\nLocations: Red Bay to L'Anse-au-Clair.\n\nTime span: this evening.\n\nRemarks: Snow at times heavy will taper to flurries this evening. Strong winds will combine with the fresh snowfall to cause blowing snow creating near-zero visibilities.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-11T05:29:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-11T01:06:40-00:00, urn:oid:2.49.0.1.124.1358650074.2020<br>Area: Red Bay to L'Anse-au-Clair",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 11, 2020 02:15",
+				"Expires_UTC" : "April 11, 2020 03:15",
+				"Summary" : "Description: Conditions are no longer expected to meet blowing snow advisory criteria.\n\n\n###<br>Expires: 2020-04-11T03:15:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-11T02:15:17-00:00, urn:oid:2.49.0.1.124.2093868028.2020<br>Area: Red Bay to L'Anse-au-Clair",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-11:feed.atom/urn:oid:2.49.0.1.124.1358650074.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-11/2020_04_11T01_06_40_00_00Iurn_oid_2.49.0.1.124.1358650074.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-11:feed.atom/urn:oid:2.49.0.1.124.2093868028.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-11/2020_04_11T02_15_17_00_00Iurn_oid_2.49.0.1.124.2093868028.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200411052940+00:00"
+				"Expires_FMEFormat" : "20200411031517+00:00"
 			}
 		},
 		{
