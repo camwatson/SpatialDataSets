@@ -590,6 +590,63 @@
 				"coordinates" : [
 					[
 						[
+							[ -78.9371, 51.6314 ],
+							[ -78.9877, 51.6266 ],
+							[ -79.0521, 51.6205 ],
+							[ -79.1401, 51.6578 ],
+							[ -79.192, 51.7106 ],
+							[ -79.4165, 51.7137 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5368, 51.0871 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.5167, 50.5155 ],
+							[ -75.9995, 50.5156 ],
+							[ -76, 51.6249 ],
+							[ -75.9579, 52.9714 ],
+							[ -76, 54.1505 ],
+							[ -77.5048, 54.1866 ],
+							[ -79.0758, 54.1628 ],
+							[ -79.3716, 54.1181 ],
+							[ -79.1674, 53.684 ],
+							[ -79.0663, 53.0129 ],
+							[ -78.7944, 52.4953 ],
+							[ -78.5825, 52.3523 ],
+							[ -79.0724, 51.785 ],
+							[ -78.9371, 51.6314 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 12, 2020 08:06",
+				"Expires_UTC" : "April 13, 2020 00:06",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-13T00:06:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-12T08:06:42-00:00, urn:oid:2.49.0.1.124.2460664171.2020<br>Area: Waskaganish, James Bay and La Grande River",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-12:feed.atom/urn:oid:2.49.0.1.124.2460664171.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-12/2020_04_12T08_06_42_00_00Iurn_oid_2.49.0.1.124.2460664171.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200413000642+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -87.4321, 49.9482 ],
 							[ -87.4321, 49.1383 ],
 							[ -87.4467, 48.4447 ],
@@ -838,6 +895,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.2357, 67.7789 ],
+							[ -64.017, 67.6056 ],
+							[ -64.0555, 67.5407 ],
+							[ -64.0099, 67.472 ],
+							[ -63.2837, 67.5032 ],
+							[ -63.5588, 67.559 ],
+							[ -64.001, 67.7288 ],
+							[ -64.2357, 67.7789 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 11, 2020 19:44",
+				"Expires_UTC" : "April 12, 2020 11:43",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA disturbance tracking across the region will bring heavy snow to the Qikiqtarjuaq area tonight and Sunday. Total snowfall amounts near 10 cm are possible by Sunday evening with the heaviest snowfall amounts occurring overnight and Sunday morning. Light snow will likely persist in the area Sunday night with no further significant accumulations occurring.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-04-12T11:43:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-11T19:44:51-00:00, urn:oid:2.49.0.1.124.2116222008.2020<br>Area: Qikiqtarjuaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-11:feed.atom/urn:oid:2.49.0.1.124.2116222008.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-11/2020_04_11T19_44_51_00_00Iurn_oid_2.49.0.1.124.2116222008.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200412114351+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.4419, 49.5091 ],
 							[ -79.5172, 49.1428 ],
 							[ -79.5172, 49.2829 ],
@@ -883,47 +981,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-12/2020_04_12T01_36_45_00_00Iurn_oid_2.49.0.1.124.2056804929.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200412173545+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -64.2357, 67.7789 ],
-							[ -64.017, 67.6056 ],
-							[ -64.0555, 67.5407 ],
-							[ -64.0099, 67.472 ],
-							[ -63.2837, 67.5032 ],
-							[ -63.5588, 67.559 ],
-							[ -64.001, 67.7288 ],
-							[ -64.2357, 67.7789 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 11, 2020 19:44",
-				"Expires_UTC" : "April 12, 2020 11:43",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA disturbance tracking across the region will bring heavy snow to the Qikiqtarjuaq area tonight and Sunday. Total snowfall amounts near 10 cm are possible by Sunday evening with the heaviest snowfall amounts occurring overnight and Sunday morning. Light snow will likely persist in the area Sunday night with no further significant accumulations occurring.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-04-12T11:43:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-11T19:44:51-00:00, urn:oid:2.49.0.1.124.2116222008.2020<br>Area: Qikiqtarjuaq",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-11:feed.atom/urn:oid:2.49.0.1.124.2116222008.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-11/2020_04_11T19_44_51_00_00Iurn_oid_2.49.0.1.124.2116222008.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200412114351+00:00"
 			}
 		},
 		{
