@@ -432,52 +432,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 12, 2020 18:18",
-				"Expires_UTC" : "April 13, 2020 10:18",
-				"Summary" : "Description: Strong winds are expected or occurring.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-13T10:18:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-12T18:18:21-00:00, urn:oid:2.49.0.1.124.1554418244.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-12:feed.atom/urn:oid:2.49.0.1.124.1554418244.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-12/2020_04_12T18_18_21_00_00Iurn_oid_2.49.0.1.124.1554418244.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200413101821+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.0706, 48.4384 ],
 							[ -65.2298, 48.4244 ],
 							[ -65.4677, 48.4029 ],
@@ -915,6 +869,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-12/2020_04_12T13_44_30_00_00Iurn_oid_2.49.0.1.124.1963453966.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200413054330+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.0762, 47.581 ],
+							[ -81.0729, 48.2526 ],
+							[ -82.6293, 48.2543 ],
+							[ -82.631, 47.221 ],
+							[ -82.6356, 46.9695 ],
+							[ -81.939, 46.9696 ],
+							[ -81.0754, 46.97 ],
+							[ -81.0762, 47.581 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 12, 2020 15:34",
+				"Expires_UTC" : "April 13, 2020 07:33",
+				"Summary" : "Description: Potential significant snowfall and rainfall tonight into Monday.  \n\nA low pressure system is forecast to track across Northeastern Ontario Monday bringing heavy rain and snow to the area. Snow will begin late this evening over areas near Foleyet and Gogama, while rain will begin further south toward Sudbury. The snow will change over to rain on Monday then change back to flurries Monday afternoon or evening. \n\nTotal snowfall amounts near 15 cm are expected near Foleyet while rainfall amounts of 15 to 25 mm in areas further to the south and east will be possible. \n\nExact snowfall amounts and the position of the rain snow line remain uncertain as a slight shift in the track or strength of this low pressure system will significantly change snow and rainfall amounts.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-13T07:33:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-12T15:34:11-00:00, urn:oid:2.49.0.1.124.3175074089.2020<br>Area: Gogama - Foleyet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-12:feed.atom/urn:oid:2.49.0.1.124.3175074089.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-12/2020_04_12T15_34_11_00_00Iurn_oid_2.49.0.1.124.3175074089.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200413073311+00:00"
 			}
 		},
 		{
@@ -2149,38 +2144,43 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.0762, 47.581 ],
-							[ -81.0729, 48.2526 ],
-							[ -82.6293, 48.2543 ],
-							[ -82.631, 47.221 ],
-							[ -82.6356, 46.9695 ],
-							[ -81.939, 46.9696 ],
-							[ -81.0754, 46.97 ],
-							[ -81.0762, 47.581 ]
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wreckhouse Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Wind",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 12, 2020 15:34",
-				"Expires_UTC" : "April 13, 2020 07:33",
-				"Summary" : "Description: Potential significant snowfall and rainfall tonight into Monday.  \n\nA low pressure system is forecast to track across Northeastern Ontario Monday bringing heavy rain and snow to the area. Snow will begin late this evening over areas near Foleyet and Gogama, while rain will begin further south toward Sudbury. The snow will change over to rain on Monday then change back to flurries Monday afternoon or evening. \n\nTotal snowfall amounts near 15 cm are expected near Foleyet while rainfall amounts of 15 to 25 mm in areas further to the south and east will be possible. \n\nExact snowfall amounts and the position of the rain snow line remain uncertain as a slight shift in the track or strength of this low pressure system will significantly change snow and rainfall amounts.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-13T07:33:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-12T15:34:11-00:00, urn:oid:2.49.0.1.124.3175074089.2020<br>Area: Gogama - Foleyet",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 12, 2020 18:19",
+				"Expires_UTC" : "April 13, 2020 10:18",
+				"Summary" : "Description: Strong winds are expected or occurring.\n\nMaximum gusts: 100 to 120 km/h.\n\nTime span: near midnight Monday night to near noon Tuesday.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-13T10:18:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-12T18:19:21-00:00, urn:oid:2.49.0.1.124.1244372878.2020<br>Area: Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-12:feed.atom/urn:oid:2.49.0.1.124.3175074089.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-12/2020_04_12T15_34_11_00_00Iurn_oid_2.49.0.1.124.3175074089.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-12:feed.atom/urn:oid:2.49.0.1.124.1244372878.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-12/2020_04_12T18_19_21_00_00Iurn_oid_2.49.0.1.124.1244372878.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200413073311+00:00"
+				"Expires_FMEFormat" : "20200413101821+00:00"
 			}
 		}
 	]
