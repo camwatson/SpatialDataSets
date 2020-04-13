@@ -9,6 +9,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -66.4517, 45.2004 ],
+							[ -66.4533, 45.2004 ],
+							[ -66.4535, 45.2004 ],
+							[ -67.1548, 45.2171 ],
+							[ -67.2843, 45.1927 ],
+							[ -67.3447, 45.1787 ],
+							[ -67.4075, 45.1606 ],
+							[ -67.3394, 45.12 ],
+							[ -67.2902, 45.1481 ],
+							[ -67.2717, 45.1815 ],
+							[ -67.2253, 45.1533 ],
+							[ -67.1617, 45.1528 ],
+							[ -66.9884, 44.9042 ],
+							[ -66.9778, 44.8326 ],
+							[ -66.8639, 44.7731 ],
+							[ -66.9393, 44.5943 ],
+							[ -66.6772, 44.5452 ],
+							[ -66.6191, 44.9452 ],
+							[ -66.4488, 44.9966 ],
+							[ -66.1205, 45.0829 ],
+							[ -65.9007, 45.0895 ],
+							[ -65.1181, 45.3687 ],
+							[ -65.024, 45.4213 ],
+							[ -65.0077, 45.4302 ],
+							[ -65.067, 45.5297 ],
+							[ -65.1174, 45.6154 ],
+							[ -65.1179, 45.6152 ],
+							[ -66.449, 45.2164 ],
+							[ -66.4517, 45.2004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 13, 2020 18:38",
+				"Expires_UTC" : "April 14, 2020 06:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-04-14T06:59:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T18:38:13-00:00, urn:oid:2.49.0.1.124.2233456035.2020<br>Area: Saint John and County, Grand Manan and Coastal Charlotte County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.2233456035.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T18_38_13_00_00Iurn_oid_2.49.0.1.124.2233456035.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200414065913+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -82.0579, 46.2733 ],
 							[ -82.82, 46.2733 ],
 							[ -83.8414, 46.4826 ],
@@ -155,48 +217,53 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.0758, 54.1628 ],
-							[ -77.5083, 54.1459 ],
-							[ -76, 54.1505 ],
-							[ -75.733, 54.1445 ],
-							[ -75.5197, 54.1498 ],
-							[ -75.5204, 55.02 ],
-							[ -75.5186, 55.3502 ],
-							[ -75.5197, 55.3505 ],
-							[ -77.0573, 55.762 ],
-							[ -77.1195, 55.7842 ],
-							[ -77.2405, 55.666 ],
-							[ -78.3271, 55.0811 ],
-							[ -79.3486, 54.785 ],
-							[ -79.9265, 54.7373 ],
-							[ -79.8968, 54.6024 ],
-							[ -79.6763, 54.5231 ],
-							[ -79.3716, 54.1181 ],
-							[ -79.0758, 54.1628 ]
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ],
+							[ -84.021, 49.9497 ],
+							[ -85.9469, 49.9546 ],
+							[ -85.9469, 48.8844 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 13, 2020 15:11",
-				"Expires_UTC" : "April 14, 2020 07:10",
-				"Summary" : "Description: Snow combined with sustained northerly winds will give blizzard conditions overnight tonight and Tuesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-14T07:10:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T15:11:55-00:00, urn:oid:2.49.0.1.124.3111596105.2020<br>Area: Kuujjuarapik",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "April 13, 2020 16:17",
+				"Expires_UTC" : "April 14, 2020 08:16",
+				"Summary" : "Description: Major winter storm continues today. \n\nHeavy snow will continue today as a strong low pressure system tracks across Northeastern Ontario. Northerly winds gusting up to 60 km/h in some areas will also cause widespread blowing snow. This snow and blowing snow will taper to flurries tonight. \n\nTotal snowfall amounts in the 30 to 50 cm range are expected by the time the snow comes to an end.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow. Road closures are possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-14T08:16:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T16:17:49-00:00, urn:oid:2.49.0.1.124.2113038924.2020<br>Area: Manitouwadge - Hornepayne, White River - Dubreuilville, Wawa - Pukaskwa Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.3111596105.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T15_11_55_00_00Iurn_oid_2.49.0.1.124.3111596105.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.2113038924.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T16_17_49_00_00Iurn_oid_2.49.0.1.124.2113038924.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200414071055+00:00"
+				"Expires_FMEFormat" : "20200414081649+00:00"
 			}
 		},
 		{
@@ -453,6 +520,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T13_49_44_00_00Iurn_oid_2.49.0.1.124.1367180705.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200414054844+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.0758, 54.1628 ],
+							[ -77.5083, 54.1459 ],
+							[ -76, 54.1505 ],
+							[ -75.733, 54.1445 ],
+							[ -75.5197, 54.1498 ],
+							[ -75.5204, 55.02 ],
+							[ -75.5186, 55.3502 ],
+							[ -75.5197, 55.3505 ],
+							[ -77.0573, 55.762 ],
+							[ -77.1195, 55.7842 ],
+							[ -77.2405, 55.666 ],
+							[ -78.3271, 55.0811 ],
+							[ -79.3486, 54.785 ],
+							[ -79.9265, 54.7373 ],
+							[ -79.8968, 54.6024 ],
+							[ -79.6763, 54.5231 ],
+							[ -79.3716, 54.1181 ],
+							[ -79.0758, 54.1628 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 13, 2020 15:11",
+				"Expires_UTC" : "April 14, 2020 07:10",
+				"Summary" : "Description: Snow combined with sustained northerly winds will give blizzard conditions overnight tonight and Tuesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-14T07:10:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T15:11:55-00:00, urn:oid:2.49.0.1.124.3111596105.2020<br>Area: Kuujjuarapik",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.3111596105.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T15_11_55_00_00Iurn_oid_2.49.0.1.124.3111596105.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200414071055+00:00"
 			}
 		},
 		{
@@ -1002,6 +1120,66 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T09_16_52_00_00Iurn_oid_2.49.0.1.124.1832814225.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200414011552+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.9681, 50.1859 ],
+							[ -60.9447, 50.2258 ],
+							[ -60.9519, 50.2315 ],
+							[ -60.9909, 50.2233 ],
+							[ -60.9983, 50.2284 ],
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -64.999, 50.7498 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.6884, 50.1063 ],
+							[ -62.995, 50.1418 ]
+						]
+					],
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 13, 2020 15:03",
+				"Expires_UTC" : "April 14, 2020 07:02",
+				"Summary" : "Description: Strong winds of up to 90 km/h are expected Tuesday.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-14T07:02:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T15:03:30-00:00, urn:oid:2.49.0.1.124.1229828833.2020<br>Area: Minganie, Natashquan, Anticosti",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.1229828833.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T15_03_30_00_00Iurn_oid_2.49.0.1.124.1229828833.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200414070230+00:00"
 			}
 		},
 		{
@@ -1580,55 +1758,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -82.1596, 51.3124 ],
-							[ -81.4395, 50.7218 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.496, 51.0628 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.8297, 51.4271 ],
-							[ -79.8263, 51.2605 ],
-							[ -80.0462, 51.3571 ],
-							[ -80.2894, 51.3971 ],
-							[ -80.3594, 51.6003 ],
-							[ -80.6927, 51.9724 ],
-							[ -81.4236, 52.4881 ],
-							[ -81.6114, 52.4649 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.1596, 51.3124 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "April 13, 2020 16:25",
-				"Expires_UTC" : "April 14, 2020 08:24",
-				"Summary" : "Description: Major winter storm continues today into tonight with near blizzard conditions.\n\nA strong low pressure system is tracking across Northeastern Ontario today bringing heavy snow and blowing snow to the area. \n\nNortherly winds gusting up to 70 km/h and even 80 km/h are also forecast with this storm resulting in widespread blowing snow. The snow and blowing snow will continue into tonight before tapering to flurries on Tuesday.  \n\nTotal snowfall amounts in the 30 to 50 cm range are expected.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow. Road closures are possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-14T08:24:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T16:25:41-00:00, urn:oid:2.49.0.1.124.2368857703.2020<br>Area: Fort Albany, Moosonee",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.2368857703.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T16_25_41_00_00Iurn_oid_2.49.0.1.124.2368857703.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200414082441+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -66.6191, 44.9452 ],
 							[ -66.4488, 44.9966 ],
 							[ -66.4465, 45.0788 ],
@@ -1761,18 +1890,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 13, 2020 13:31",
-				"Expires_UTC" : "April 14, 2020 05:30",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southeasterly at 100 km/h.\n\nLocations: west coast of Newfoundland.\n\nTime span: early Tuesday morning until near noon.\n\nRemarks: Local enhancement in southeasterly flow typically occurs in the vicinities of Cape St. George, Port au Port Bay, the outer Bay of Islands, Trout River Bay, Bonne Bay, Western Brook Pond and St. Pauls Bay.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-14T05:30:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T13:31:23-00:00, urn:oid:2.49.0.1.124.1830196075.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
+				"LastUpdate_UTC" : "April 13, 2020 18:31",
+				"Expires_UTC" : "April 14, 2020 10:30",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southeasterly at 100 km/h.\n\nLocations: west coast of Newfoundland.\n\nTime span: early Tuesday morning until near noon.\n\nRemarks: Local enhancement in southeasterly flow typically occurs in the vicinity of Cape St. George, Port au Port Bay, the outer Bay of Islands, Trout River Bay, Bonne Bay, Western Brook Pond and St. Pauls Bay.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-14T10:30:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T18:31:58-00:00, urn:oid:2.49.0.1.124.3139035285.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.1830196075.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T13_31_23_00_00Iurn_oid_2.49.0.1.124.1830196075.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.3139035285.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T18_31_58_00_00Iurn_oid_2.49.0.1.124.3139035285.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200414053023+00:00"
+				"Expires_FMEFormat" : "20200414103058+00:00"
 			}
 		},
 		{
@@ -1944,66 +2073,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T15_22_27_00_00Iurn_oid_2.49.0.1.124.2817876082.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200414055927+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -64.999, 50.7498 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.6884, 50.1063 ],
-							[ -62.995, 50.1418 ]
-						]
-					],
-					[
-						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 13, 2020 15:03",
-				"Expires_UTC" : "April 14, 2020 07:02",
-				"Summary" : "Description: Strong winds of up to 90 km/h are expected Tuesday.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-14T07:02:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T15:03:30-00:00, urn:oid:2.49.0.1.124.1229828833.2020<br>Area: Minganie, Natashquan, Anticosti",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.1229828833.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T15_03_30_00_00Iurn_oid_2.49.0.1.124.1229828833.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200414070230+00:00"
 			}
 		},
 		{
@@ -2218,62 +2287,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T15_14_33_00_00Iurn_oid_2.49.0.1.124.3114953858.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200414065933+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ],
-							[ -84.021, 49.9497 ],
-							[ -85.9469, 49.9546 ],
-							[ -85.9469, 48.8844 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "April 13, 2020 16:17",
-				"Expires_UTC" : "April 14, 2020 08:16",
-				"Summary" : "Description: Major winter storm continues today. \n\nHeavy snow will continue today as a strong low pressure system tracks across Northeastern Ontario. Northerly winds gusting up to 60 km/h in some areas will also cause widespread blowing snow. This snow and blowing snow will taper to flurries tonight. \n\nTotal snowfall amounts in the 30 to 50 cm range are expected by the time the snow comes to an end.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow. Road closures are possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-14T08:16:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T16:17:49-00:00, urn:oid:2.49.0.1.124.2113038924.2020<br>Area: Manitouwadge - Hornepayne, White River - Dubreuilville, Wawa - Pukaskwa Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.2113038924.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T16_17_49_00_00Iurn_oid_2.49.0.1.124.2113038924.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200414081649+00:00"
 			}
 		},
 		{
@@ -2837,18 +2850,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 13, 2020 13:31",
-				"Expires_UTC" : "April 14, 2020 05:30",
-				"Summary" : "Description: Rain, heavy at times is expected.\n\nTotal rainfall: 20 to 45 mm.\n\nLocations: southwestern Newfoundland.\n\nTime span: this evening until Tuesday afternoon.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-14T05:30:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T13:31:49-00:00, urn:oid:2.49.0.1.124.3944257823.2020<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"LastUpdate_UTC" : "April 13, 2020 18:32",
+				"Expires_UTC" : "April 14, 2020 10:31",
+				"Summary" : "Description: Rain, heavy at times is expected.\n\nTotal rainfall: 20 to 45 mm.\n\nLocations: southwestern Newfoundland.\n\nTime span: this evening until Tuesday afternoon.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-14T10:31:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T18:32:14-00:00, urn:oid:2.49.0.1.124.2384883127.2020<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.3944257823.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T13_31_49_00_00Iurn_oid_2.49.0.1.124.3944257823.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.2384883127.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T18_32_14_00_00Iurn_oid_2.49.0.1.124.2384883127.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200414053049+00:00"
+				"Expires_FMEFormat" : "20200414103114+00:00"
 			}
 		},
 		{
@@ -2883,16 +2896,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 13, 2020 18:29",
+				"LastUpdate_UTC" : "April 13, 2020 18:30",
 				"Expires_UTC" : "April 14, 2020 10:29",
-				"Summary" : "Description: Strong winds are expected or occurring.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-14T10:29:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T18:29:46-00:00, urn:oid:2.49.0.1.124.1097181151.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Summary" : "Description: Strong winds are expected or occurring.\n\nMaximum gusts: 100 to 120 km/h.\n\nTime span: after midnight tonight until mid-morning Tuesday.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-14T10:29:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T18:30:46-00:00, urn:oid:2.49.0.1.124.1131287804.2020<br>Area: Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.1097181151.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T18_29_46_00_00Iurn_oid_2.49.0.1.124.1097181151.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.1131287804.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T18_30_46_00_00Iurn_oid_2.49.0.1.124.1131287804.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200414102946+00:00"
 			}
@@ -3151,6 +3164,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T17_29_14_00_00Iurn_oid_2.49.0.1.124.1882645105.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200414092814+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.1596, 51.3124 ],
+							[ -81.4395, 50.7218 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.496, 51.0628 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.8297, 51.4271 ],
+							[ -79.8263, 51.2605 ],
+							[ -80.0462, 51.3571 ],
+							[ -80.2894, 51.3971 ],
+							[ -80.3594, 51.6003 ],
+							[ -80.6927, 51.9724 ],
+							[ -81.4236, 52.4881 ],
+							[ -81.6114, 52.4649 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.1596, 51.3124 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "April 13, 2020 16:25",
+				"Expires_UTC" : "April 14, 2020 08:24",
+				"Summary" : "Description: Major winter storm continues today into tonight with near blizzard conditions.\n\nA strong low pressure system is tracking across Northeastern Ontario today bringing heavy snow and blowing snow to the area. \n\nNortherly winds gusting up to 70 km/h and even 80 km/h are also forecast with this storm resulting in widespread blowing snow. The snow and blowing snow will continue into tonight before tapering to flurries on Tuesday.  \n\nTotal snowfall amounts in the 30 to 50 cm range are expected.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow. Road closures are possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-14T08:24:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-13T16:25:41-00:00, urn:oid:2.49.0.1.124.2368857703.2020<br>Area: Fort Albany, Moosonee",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-13:feed.atom/urn:oid:2.49.0.1.124.2368857703.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-13/2020_04_13T16_25_41_00_00Iurn_oid_2.49.0.1.124.2368857703.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200414082441+00:00"
 			}
 		}
 	]
