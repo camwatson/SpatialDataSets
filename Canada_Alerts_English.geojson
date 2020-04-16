@@ -9,6 +9,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -71.6698, 61.6967 ],
+							[ -72.0508, 61.7741 ],
+							[ -72.5983, 62.1553 ],
+							[ -73.0349, 62.2144 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.3218, 62.346 ],
+							[ -73.9992, 61.0465 ],
+							[ -71.399, 60.5219 ],
+							[ -70.7234, 61.1481 ],
+							[ -71.5843, 61.2693 ],
+							[ -71.6299, 61.3212 ],
+							[ -71.3985, 61.5333 ],
+							[ -71.6698, 61.6967 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 16, 2020 06:47",
+				"Expires_UTC" : "April 16, 2020 20:59",
+				"Summary" : "Description: Snow combined with strong to high winds are causing blizzard conditions over this community. These conditions will improve gradually this morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-16T20:59:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T06:47:27-00:00, urn:oid:2.49.0.1.124.2847601659.2020<br>Area: Kangiqsujuaq - Raglan Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.2847601659.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T06_47_27_00_00Iurn_oid_2.49.0.1.124.2847601659.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200416205927+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -76.4994, 49.2832 ],
 							[ -76.4997, 49.2832 ],
 							[ -77.3232, 49.2924 ],
@@ -115,52 +161,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T15_29_47_00_00Iurn_oid_2.49.0.1.124.0976965098.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200417072847+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -71.6698, 61.6967 ],
-							[ -72.0508, 61.7741 ],
-							[ -72.5983, 62.1553 ],
-							[ -73.0349, 62.2144 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.3218, 62.346 ],
-							[ -73.9992, 61.0465 ],
-							[ -71.399, 60.5219 ],
-							[ -70.7234, 61.1481 ],
-							[ -71.5843, 61.2693 ],
-							[ -71.6299, 61.3212 ],
-							[ -71.3985, 61.5333 ],
-							[ -71.6698, 61.6967 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 16, 2020 06:47",
-				"Expires_UTC" : "April 16, 2020 20:59",
-				"Summary" : "Description: Snow combined with strong to high winds are causing blizzard conditions over this community. These conditions will improve gradually this morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-16T20:59:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T06:47:27-00:00, urn:oid:2.49.0.1.124.2847601659.2020<br>Area: Kangiqsujuaq - Raglan Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.2847601659.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T06_47_27_00_00Iurn_oid_2.49.0.1.124.2847601659.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200416205927+00:00"
 			}
 		},
 		{
@@ -332,61 +332,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-15/2020_04_15T11_59_01_05_00I2B572BF7_FBB5_7990_DB1C_0D9A5EC57DDA.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200416114500-05:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -134.6088, 69.5219 ],
-							[ -134.625, 69.5217 ],
-							[ -134.6503, 69.7494 ],
-							[ -135.028, 69.7482 ],
-							[ -134.9727, 69.2322 ],
-							[ -134.8205, 68.6539 ],
-							[ -134.4901, 68.651 ],
-							[ -134.2055, 68.6549 ],
-							[ -133.651, 68.6495 ],
-							[ -133.0684, 68.6546 ],
-							[ -132.8203, 68.6469 ],
-							[ -132.5903, 68.6515 ],
-							[ -132.6302, 69.1236 ],
-							[ -132.7334, 69.5253 ],
-							[ -132.9811, 69.526 ],
-							[ -133.0809, 69.5269 ],
-							[ -133.2424, 69.7062 ],
-							[ -133.6843, 69.7117 ],
-							[ -133.8748, 69.7432 ],
-							[ -134.1813, 69.5985 ],
-							[ -134.1487, 69.5248 ],
-							[ -134.6088, 69.5219 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 16, 2020 15:22",
-				"Expires_UTC" : "April 16, 2020 19:29",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\nA low pressure system continues to bring freezing rain to the area this morning. The freezing rain will change to snow later in the morning.\n\n###\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-04-16T19:29:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T15:22:14-00:00, urn:oid:2.49.0.1.124.2591012720.2020<br>Area: Tuktoyaktuk - East Channel Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.2591012720.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T15_22_14_00_00Iurn_oid_2.49.0.1.124.2591012720.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200416192914+00:00"
 			}
 		},
 		{
@@ -697,6 +642,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-15/2020_04_15T12_04_15_05_00IE588AD05_7EF3_CE0C_4957_C0A186D165B6.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200416120000-05:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -134.6088, 69.5219 ],
+							[ -134.625, 69.5217 ],
+							[ -134.6503, 69.7494 ],
+							[ -135.028, 69.7482 ],
+							[ -134.9727, 69.2322 ],
+							[ -134.8205, 68.6539 ],
+							[ -134.4901, 68.651 ],
+							[ -134.2055, 68.6549 ],
+							[ -133.651, 68.6495 ],
+							[ -133.0684, 68.6546 ],
+							[ -132.8203, 68.6469 ],
+							[ -132.5903, 68.6515 ],
+							[ -132.6302, 69.1236 ],
+							[ -132.7334, 69.5253 ],
+							[ -132.9811, 69.526 ],
+							[ -133.0809, 69.5269 ],
+							[ -133.2424, 69.7062 ],
+							[ -133.6843, 69.7117 ],
+							[ -133.8748, 69.7432 ],
+							[ -134.1813, 69.5985 ],
+							[ -134.1487, 69.5248 ],
+							[ -134.6088, 69.5219 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 16, 2020 16:16",
+				"Expires_UTC" : "April 16, 2020 17:16",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n\n###<br>Expires: 2020-04-16T17:16:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T16:16:38-00:00, urn:oid:2.49.0.1.124.3826717020.2020<br>Area: Tuktoyaktuk - East Channel Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.3826717020.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T16_16_38_00_00Iurn_oid_2.49.0.1.124.3826717020.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200416171638+00:00"
 			}
 		},
 		{
