@@ -9,6 +9,101 @@
 				"coordinates" : [
 					[
 						[
+							[ -54.1199, 48.25 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.4599, 47.976 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.836, 48.4368 ],
+							[ -53.9005, 48.3746 ],
+							[ -54.1199, 48.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 16, 2020 01:05",
+				"Expires_UTC" : "April 16, 2020 13:59",
+				"Summary" : "Description: Snow expected tonight.\n\nTotal snowfall: near 10 cm.\n\nLocations: Clarenville and vicinity and the Bonavista Peninsula.\n\nTime span: this evening until early Thursday morning.\n\nRemarks: Snow may become mixed with or change to freezing rain in the overnight hours before ending early on Thursday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-16T13:59:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T01:05:40-00:00, urn:oid:2.49.0.1.124.4186631564.2020<br>Area: Bonavista Peninsula, Clarenville and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.4186631564.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T01_05_40_00_00Iurn_oid_2.49.0.1.124.4186631564.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200416135940+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -125.7425, 66.8628 ],
+							[ -125.5547, 66.9859 ],
+							[ -125.5454, 67.0444 ],
+							[ -125.7166, 67.1816 ],
+							[ -126.0977, 67.2424 ],
+							[ -126.5038, 67.1861 ],
+							[ -126.6874, 67.0412 ],
+							[ -126.5582, 66.889 ],
+							[ -126.1449, 66.8101 ],
+							[ -125.7425, 66.8628 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 16, 2020 10:18",
+				"Expires_UTC" : "April 16, 2020 22:59",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\n###\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-04-16T22:59:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T10:18:39-00:00, urn:oid:2.49.0.1.124.0979069663.2020<br>Area: Colville Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.0979069663.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T10_18_39_00_00Iurn_oid_2.49.0.1.124.0979069663.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200416225939+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -71.6698, 61.6967 ],
 							[ -72.0508, 61.7741 ],
 							[ -72.5983, 62.1553 ],
@@ -46,52 +141,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T06_47_27_00_00Iurn_oid_2.49.0.1.124.2847601659.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200416205927+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -71.6698, 61.6967 ],
-							[ -72.0508, 61.7741 ],
-							[ -72.5983, 62.1553 ],
-							[ -73.0349, 62.2144 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.3218, 62.346 ],
-							[ -73.9992, 61.0465 ],
-							[ -71.399, 60.5219 ],
-							[ -70.7234, 61.1481 ],
-							[ -71.5843, 61.2693 ],
-							[ -71.6299, 61.3212 ],
-							[ -71.3985, 61.5333 ],
-							[ -71.6698, 61.6967 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 15, 2020 19:12",
-				"Expires_UTC" : "April 16, 2020 11:11",
-				"Summary" : "Description: High northerly winds gusting up to 90 kilometres per hour can be expected tonight.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-16T11:11:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-15T19:12:26-00:00, urn:oid:2.49.0.1.124.0525790216.2020<br>Area: Kangiqsujuaq - Raglan Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-15:feed.atom/urn:oid:2.49.0.1.124.0525790216.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-15/2020_04_15T19_12_26_00_00Iurn_oid_2.49.0.1.124.0525790216.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200416111126+00:00"
 			}
 		},
 		{
@@ -353,49 +402,154 @@
 				"coordinates" : [
 					[
 						[
-							[ -54.1199, 48.25 ],
-							[ -55, 48.25 ],
-							[ -54.9999, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.4599, 47.976 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.6375, 48.5439 ],
-							[ -53.7275, 48.5317 ],
-							[ -53.836, 48.4368 ],
-							[ -53.9005, 48.3746 ],
-							[ -54.1199, 48.25 ]
+							[ -71.6698, 61.6967 ],
+							[ -72.0508, 61.7741 ],
+							[ -72.5983, 62.1553 ],
+							[ -73.0349, 62.2144 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.3218, 62.346 ],
+							[ -73.9992, 61.0465 ],
+							[ -71.399, 60.5219 ],
+							[ -70.7234, 61.1481 ],
+							[ -71.5843, 61.2693 ],
+							[ -71.6299, 61.3212 ],
+							[ -71.3985, 61.5333 ],
+							[ -71.6698, 61.6967 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Wind",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 16, 2020 01:05",
-				"Expires_UTC" : "April 16, 2020 13:59",
-				"Summary" : "Description: Snow expected tonight.\n\nTotal snowfall: near 10 cm.\n\nLocations: Clarenville and vicinity and the Bonavista Peninsula.\n\nTime span: this evening until early Thursday morning.\n\nRemarks: Snow may become mixed with or change to freezing rain in the overnight hours before ending early on Thursday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-16T13:59:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T01:05:40-00:00, urn:oid:2.49.0.1.124.4186631564.2020<br>Area: Bonavista Peninsula, Clarenville and vicinity",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 15, 2020 19:12",
+				"Expires_UTC" : "April 16, 2020 11:11",
+				"Summary" : "Description: High northerly winds gusting up to 90 kilometres per hour can be expected tonight.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-04-16T11:11:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-15T19:12:26-00:00, urn:oid:2.49.0.1.124.0525790216.2020<br>Area: Kangiqsujuaq - Raglan Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.4186631564.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T01_05_40_00_00Iurn_oid_2.49.0.1.124.4186631564.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-15:feed.atom/urn:oid:2.49.0.1.124.0525790216.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-15/2020_04_15T19_12_26_00_00Iurn_oid_2.49.0.1.124.0525790216.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200416135940+00:00"
+				"Expires_FMEFormat" : "20200416111126+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -134.6088, 69.5219 ],
+							[ -134.625, 69.5217 ],
+							[ -134.6503, 69.7494 ],
+							[ -135.028, 69.7482 ],
+							[ -134.9727, 69.2322 ],
+							[ -134.8205, 68.6539 ],
+							[ -134.4901, 68.651 ],
+							[ -134.2055, 68.6549 ],
+							[ -133.651, 68.6495 ],
+							[ -133.0684, 68.6546 ],
+							[ -132.8203, 68.6469 ],
+							[ -132.5903, 68.6515 ],
+							[ -132.6302, 69.1236 ],
+							[ -132.7334, 69.5253 ],
+							[ -132.9811, 69.526 ],
+							[ -133.0809, 69.5269 ],
+							[ -133.2424, 69.7062 ],
+							[ -133.6843, 69.7117 ],
+							[ -133.8748, 69.7432 ],
+							[ -134.1813, 69.5985 ],
+							[ -134.1487, 69.5248 ],
+							[ -134.6088, 69.5219 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 16, 2020 05:09",
+				"Expires_UTC" : "April 16, 2020 17:59",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\nA low pressure system will bring freezing rain to the area early this morning. The freezing rain will change to snow later in the morning.\n\n###\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-04-16T17:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T05:09:06-00:00, urn:oid:2.49.0.1.124.0958936248.2020<br>Area: Tuktoyaktuk - East Channel Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.0958936248.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T05_09_06_00_00Iurn_oid_2.49.0.1.124.0958936248.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200416175906+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 16, 2020 01:05",
+				"Expires_UTC" : "April 16, 2020 10:59",
+				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nTotal rainfall: near 25 mm.\n\nLocation: Avalon Peninsula.\n\nTime span: tonight.\n\nRemarks: Rain may mix at times with snow or change to freezing rain over some higher elevation areas.  Temperatures are expected to hover near zero and therefore there is some uncertainty regarding potential ice buildup.  Usually ice build up remains minor when temperatures remain near zero. However, caution should always be used when freezing rain is occurring.\n\n###\n\nLocalized flooding in low-lying areas is possible. Be prepared for possible winter conditions at higher elevations.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-16T10:59:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T01:05:18-00:00, urn:oid:2.49.0.1.124.0985015265.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.0985015265.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T01_05_18_00_00Iurn_oid_2.49.0.1.124.0985015265.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200416105918+00:00"
 			}
 		},
 		{
@@ -706,117 +860,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-15/2020_04_15T12_04_15_05_00IE588AD05_7EF3_CE0C_4957_C0A186D165B6.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200416120000-05:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -134.6088, 69.5219 ],
-							[ -134.625, 69.5217 ],
-							[ -134.6503, 69.7494 ],
-							[ -135.028, 69.7482 ],
-							[ -134.9727, 69.2322 ],
-							[ -134.8205, 68.6539 ],
-							[ -134.4901, 68.651 ],
-							[ -134.2055, 68.6549 ],
-							[ -133.651, 68.6495 ],
-							[ -133.0684, 68.6546 ],
-							[ -132.8203, 68.6469 ],
-							[ -132.5903, 68.6515 ],
-							[ -132.6302, 69.1236 ],
-							[ -132.7334, 69.5253 ],
-							[ -132.9811, 69.526 ],
-							[ -133.0809, 69.5269 ],
-							[ -133.2424, 69.7062 ],
-							[ -133.6843, 69.7117 ],
-							[ -133.8748, 69.7432 ],
-							[ -134.1813, 69.5985 ],
-							[ -134.1487, 69.5248 ],
-							[ -134.6088, 69.5219 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 16, 2020 05:09",
-				"Expires_UTC" : "April 16, 2020 17:59",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\nA low pressure system will bring freezing rain to the area early this morning. The freezing rain will change to snow later in the morning.\n\n###\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-04-16T17:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T05:09:06-00:00, urn:oid:2.49.0.1.124.0958936248.2020<br>Area: Tuktoyaktuk - East Channel Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.0958936248.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T05_09_06_00_00Iurn_oid_2.49.0.1.124.0958936248.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200416175906+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 16, 2020 01:05",
-				"Expires_UTC" : "April 16, 2020 10:59",
-				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nTotal rainfall: near 25 mm.\n\nLocation: Avalon Peninsula.\n\nTime span: tonight.\n\nRemarks: Rain may mix at times with snow or change to freezing rain over some higher elevation areas.  Temperatures are expected to hover near zero and therefore there is some uncertainty regarding potential ice buildup.  Usually ice build up remains minor when temperatures remain near zero. However, caution should always be used when freezing rain is occurring.\n\n###\n\nLocalized flooding in low-lying areas is possible. Be prepared for possible winter conditions at higher elevations.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-16T10:59:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-16T01:05:18-00:00, urn:oid:2.49.0.1.124.0985015265.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-16:feed.atom/urn:oid:2.49.0.1.124.0985015265.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-16/2020_04_16T01_05_18_00_00Iurn_oid_2.49.0.1.124.0985015265.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200416105918+00:00"
 			}
 		}
 	]
