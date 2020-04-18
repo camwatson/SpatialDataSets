@@ -9,117 +9,48 @@
 				"coordinates" : [
 					[
 						[
-							[ -60.8436, 45.8719 ],
-							[ -61.1587, 45.7085 ],
-							[ -61.1647, 45.7054 ],
-							[ -61.2321, 45.6675 ],
-							[ -61.36, 45.5953 ],
-							[ -61.3709, 45.5863 ],
-							[ -61.3587, 45.578 ],
-							[ -61.2879, 45.5429 ],
-							[ -61.2399, 45.5263 ],
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -59.538, 46.0154 ],
-							[ -59.8902, 46.2624 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4173, 46.2948 ],
-							[ -60.4991, 46.2258 ],
-							[ -60.5551, 46.1916 ],
-							[ -60.6021, 46.1338 ],
-							[ -60.6864, 46.0863 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.7214, 46.0663 ],
-							[ -60.789, 45.9777 ],
-							[ -60.8436, 45.8719 ]
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 46.7999 ],
+							[ -52.9466, 46.8016 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 18, 2020 07:49",
-				"Expires_UTC" : "April 18, 2020 23:49",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-18T23:49:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-18T07:49:46-00:00, urn:oid:2.49.0.1.124.4099873248.2020<br>Area: Richmond County, Sydney Metro and Cape Breton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-18:feed.atom/urn:oid:2.49.0.1.124.4099873248.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T07_49_46_00_00Iurn_oid_2.49.0.1.124.4099873248.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200418234946+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.0483, 46.1152 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.3951, 45.6335 ],
-							[ -61.3709, 45.5863 ],
-							[ -61.36, 45.5953 ],
-							[ -61.2321, 45.6675 ],
-							[ -61.1647, 45.7054 ],
-							[ -60.8436, 45.8719 ],
-							[ -60.789, 45.9777 ],
-							[ -60.7214, 46.0663 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.6864, 46.0863 ],
-							[ -60.6021, 46.1338 ],
-							[ -60.5551, 46.1916 ],
-							[ -60.4991, 46.2258 ],
-							[ -60.4173, 46.2948 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.554, 47.0263 ],
-							[ -60.7422, 46.4987 ],
-							[ -61.0483, 46.1152 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 18, 2020 07:50",
-				"Expires_UTC" : "April 18, 2020 23:50",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-18T23:50:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-18T07:50:22-00:00, urn:oid:2.49.0.1.124.1192729663.2020<br>Area: Inverness County - south of Mabou, Victoria County",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 18, 2020 07:46",
+				"Expires_UTC" : "April 18, 2020 23:45",
+				"Summary" : "Description: Wintry mix of snow, rain and wind is expected.\n\nTotal snowfall: near 10 cm.\n\nTotal rainfall: 20 to 30 mm. \n\nMaximum wind gusts: 70 km/h except locally 100 along parts of the coast\n\nLocations: St. John's and Vicinity and Avalon Peninsula North.\n\nTime span: Sunday morning through to Monday morning.\n\nRemarks: Snow is expected to begin Sunday morning then change to rain late Sunday afternoon or evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-18T23:45:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-18T07:46:20-00:00, urn:oid:2.49.0.1.124.0382432095.2020<br>Area: Avalon Peninsula North, St. John's and vicinity",
 				"Author" : "Environment Canada",
-				"msgType" : "Alert",
+				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-18:feed.atom/urn:oid:2.49.0.1.124.1192729663.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T07_50_22_00_00Iurn_oid_2.49.0.1.124.1192729663.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-18:feed.atom/urn:oid:2.49.0.1.124.0382432095.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T07_46_20_00_00Iurn_oid_2.49.0.1.124.0382432095.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200418235022+00:00"
+				"Expires_FMEFormat" : "20200418234520+00:00"
 			}
 		},
 		{
@@ -610,6 +541,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.8436, 45.8719 ],
+							[ -61.1587, 45.7085 ],
+							[ -61.1647, 45.7054 ],
+							[ -61.2321, 45.6675 ],
+							[ -61.36, 45.5953 ],
+							[ -61.3709, 45.5863 ],
+							[ -61.3587, 45.578 ],
+							[ -61.2879, 45.5429 ],
+							[ -61.2399, 45.5263 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4173, 46.2948 ],
+							[ -60.4991, 46.2258 ],
+							[ -60.5551, 46.1916 ],
+							[ -60.6021, 46.1338 ],
+							[ -60.6864, 46.0863 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.7214, 46.0663 ],
+							[ -60.789, 45.9777 ],
+							[ -60.8436, 45.8719 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 18, 2020 07:50",
+				"Expires_UTC" : "April 18, 2020 23:49",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 20 to 30 cm.\n\nMaximum wind gusts: 90 km/h.\n\nLocations: Cape Breton County and Richmond County.\n\nTime span: near midnight tonight until Sunday afternoon.\n\nRemarks: Snow and blowing snow will begin near midnight tonight and into Sunday.  Snow is expected to taper Sunday afternoon.\n\nStrong northeasterly winds with gusts up to 90 km/h are also expected on Sunday.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-18T23:49:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-18T07:50:46-00:00, urn:oid:2.49.0.1.124.2992970781.2020<br>Area: Richmond County, Sydney Metro and Cape Breton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-18:feed.atom/urn:oid:2.49.0.1.124.2992970781.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T07_50_46_00_00Iurn_oid_2.49.0.1.124.2992970781.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200418234946+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -53.3856, 48.0561 ],
 							[ -53.4304, 48.2241 ],
 							[ -53.3267, 48.2311 ],
@@ -861,6 +850,68 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T07_45_13_00_00Iurn_oid_2.49.0.1.124.3911134739.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200418234413+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.0483, 46.1152 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.3709, 45.5863 ],
+							[ -61.36, 45.5953 ],
+							[ -61.2321, 45.6675 ],
+							[ -61.1647, 45.7054 ],
+							[ -60.8436, 45.8719 ],
+							[ -60.789, 45.9777 ],
+							[ -60.7214, 46.0663 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.6864, 46.0863 ],
+							[ -60.6021, 46.1338 ],
+							[ -60.5551, 46.1916 ],
+							[ -60.4991, 46.2258 ],
+							[ -60.4173, 46.2948 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.554, 47.0263 ],
+							[ -60.7422, 46.4987 ],
+							[ -61.0483, 46.1152 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 18, 2020 07:51",
+				"Expires_UTC" : "April 18, 2020 23:50",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nLocations: parts of northern Cape Breton Island.\n\nTime span: overnight tonight until Sunday afternoon.\n\nRemarks: strong northeasterly winds may cause reduced visibilities in blowing snow over some locations.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-18T23:50:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-18T07:51:22-00:00, urn:oid:2.49.0.1.124.1979589904.2020<br>Area: Inverness County - south of Mabou, Victoria County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-18:feed.atom/urn:oid:2.49.0.1.124.1979589904.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T07_51_22_00_00Iurn_oid_2.49.0.1.124.1979589904.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200418235022+00:00"
 			}
 		},
 		{
