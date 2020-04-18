@@ -1131,70 +1131,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -57.1146, 52.8003 ],
-							[ -57.1428, 52.4234 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.559, 53.2249 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -57.3704, 54.1207 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -59, 52.9 ],
-							[ -59.8804, 53.2 ],
-							[ -59.9432, 53.1171 ],
-							[ -60.0074, 53.0666 ],
-							[ -60.1736, 52.9893 ],
-							[ -60.3731, 52.9506 ],
-							[ -60.5825, 52.955 ],
-							[ -60.7702, 53 ],
-							[ -59, 52.4 ],
-							[ -58.0385, 52.5919 ],
-							[ -57.1146, 52.8003 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 18, 2020 18:33",
-				"Expires_UTC" : "April 19, 2020 10:32",
-				"Summary" : "Description: Significant snowfall is expected.\n\nTotal snowfall: 20 to 30 cm.\n\nLocations: Cartwright to Lodge Bay, and possibly as far inland as Crook's Lake.\n\nTime span: Sunday night through Monday.\n\nRemarks: Snow is expected to begin Sunday evening in the Mary's Harbour area and spread northward to Cartwright by midnight. The snow will taper off over most areas Monday evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-19T10:32:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-18T18:33:28-00:00, urn:oid:2.49.0.1.124.3551532013.2020<br>Area: Norman Bay to Lodge Bay, Cartwright to Black Tickle, Eagle River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-18:feed.atom/urn:oid:2.49.0.1.124.3551532013.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T18_33_28_00_00Iurn_oid_2.49.0.1.124.3551532013.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200419103228+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -115.002, 54.1228 ],
 							[ -115.0018, 54.1522 ],
 							[ -115.2018, 54.1522 ],
@@ -1326,6 +1262,70 @@
 				"Expires_FMEFormat" : "20200425145008-06:00",
 				"EnclosureType" : "audio/mpeg",
 				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/7811-0.mp3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.1146, 52.8003 ],
+							[ -57.1428, 52.4234 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.559, 53.2249 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.9432, 53.1171 ],
+							[ -60.0074, 53.0666 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.5825, 52.955 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 18, 2020 18:33",
+				"Expires_UTC" : "April 19, 2020 10:32",
+				"Summary" : "Description: Significant snowfall is expected.\n\nTotal snowfall: 20 to 30 cm.\n\nLocations: Cartwright to Lodge Bay, and possibly as far inland as Crook's Lake.\n\nTime span: Sunday night through Monday.\n\nRemarks: Snow is expected to begin Sunday evening in the Mary's Harbour area and spread northward to Cartwright by midnight. The snow will taper off over most areas Monday evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-19T10:32:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-18T18:33:28-00:00, urn:oid:2.49.0.1.124.3551532013.2020<br>Area: Norman Bay to Lodge Bay, Cartwright to Black Tickle, Eagle River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-18:feed.atom/urn:oid:2.49.0.1.124.3551532013.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T18_33_28_00_00Iurn_oid_2.49.0.1.124.3551532013.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200419103228+00:00"
 			}
 		},
 		{
@@ -1469,25 +1469,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
 				"Category" : "Actual",
 				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 18, 2020 19:27",
-				"Expires_UTC" : "April 19, 2020 02:59",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nBlizzard conditions in Gjoa Haven are expected to persist intermittently until this evening.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-04-19T02:59:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-18T19:27:04-00:00, urn:oid:2.49.0.1.124.3486030360.2020<br>Area: Gjoa Haven",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 18, 2020 21:04",
+				"Expires_UTC" : "April 18, 2020 22:04",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2020-04-18T22:04:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-18T21:04:38-00:00, urn:oid:2.49.0.1.124.2168481235.2020<br>Area: Gjoa Haven",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-18:feed.atom/urn:oid:2.49.0.1.124.3486030360.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T19_27_04_00_00Iurn_oid_2.49.0.1.124.3486030360.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-18:feed.atom/urn:oid:2.49.0.1.124.2168481235.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-18/2020_04_18T21_04_38_00_00Iurn_oid_2.49.0.1.124.2168481235.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200419025904+00:00"
+				"Expires_FMEFormat" : "20200418220438+00:00"
 			}
 		},
 		{
