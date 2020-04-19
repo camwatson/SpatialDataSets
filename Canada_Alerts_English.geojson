@@ -605,61 +605,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -82.1596, 51.3124 ],
-							[ -81.4395, 50.7218 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.496, 51.0628 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.8297, 51.4271 ],
-							[ -79.8263, 51.2605 ],
-							[ -80.0462, 51.3571 ],
-							[ -80.2894, 51.3971 ],
-							[ -80.3594, 51.6003 ],
-							[ -80.6927, 51.9724 ],
-							[ -81.4236, 52.4881 ],
-							[ -82.2216, 53.0256 ],
-							[ -81.9632, 53.3416 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.2294, 54.0004 ],
-							[ -82.2369, 54.0006 ],
-							[ -83.7002, 54.0287 ],
-							[ -83.0302, 52.2453 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.1596, 51.3124 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 19, 2020 18:39",
-				"Expires_UTC" : "April 20, 2020 10:38",
-				"Summary" : "Description: Snow and blowing snow Monday through Tuesday.\n\nA low pressure system over central Manitoba is heading towards northern Ontario today. Snow, heavy at times, is expected to begin Monday morning, and continue into Tuesday. Total snowfall amounts up to 10 cm are likely by Tuesday afternoon when snow tapers off.\n\nIn addition, strong northerly wind gusts up to 70 km/h will combine with heavy snow producing very low visibility on Monday through Tuesday morning.\n\nHazardous driving conditions are likely due to very low visibilities in blowing snow and accumulating snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-20T10:38:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-19T18:39:20-00:00, urn:oid:2.49.0.1.124.0754593923.2020<br>Area: Attawapiskat, Fort Albany, Moosonee",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-19:feed.atom/urn:oid:2.49.0.1.124.0754593923.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-19/2020_04_19T18_39_20_00_00Iurn_oid_2.49.0.1.124.0754593923.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200420103820+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -99.8523, 50.9484 ],
 							[ -99.8342, 50.9485 ],
 							[ -99.8342, 50.8604 ],
@@ -3643,25 +3588,88 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 19, 2020 13:43",
-				"Expires_UTC" : "April 19, 2020 22:59",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nAdditional snowfall: 10 to 20 cm.\n\nMaximum wind gusts: 90 km/h.\n\nLocations: Cape Breton County and Richmond County.\n\nTime span: until this afternoon.\n\nRemarks: Snow and blowing snow should taper this afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-19T22:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-19T13:43:16-00:00, urn:oid:2.49.0.1.124.0841555518.2020<br>Area: Richmond County, Sydney Metro and Cape Breton County",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 19, 2020 18:52",
+				"Expires_UTC" : "April 19, 2020 19:52",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-04-19T19:52:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-19T18:52:41-00:00, urn:oid:2.49.0.1.124.1536545935.2020<br>Area: Richmond County, Sydney Metro and Cape Breton County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-19:feed.atom/urn:oid:2.49.0.1.124.0841555518.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-19/2020_04_19T13_43_16_00_00Iurn_oid_2.49.0.1.124.0841555518.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-19:feed.atom/urn:oid:2.49.0.1.124.1536545935.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-19/2020_04_19T18_52_41_00_00Iurn_oid_2.49.0.1.124.1536545935.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200419225916+00:00"
+				"Expires_FMEFormat" : "20200419195241+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55.1527, 47.5874 ],
+							[ -55.1557, 47.5799 ],
+							[ -55.1703, 47.5512 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 19, 2020 13:15",
+				"Expires_UTC" : "April 19, 2020 19:59",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nLocations: Burin and Avalon Peninsulas\n\nTotal snowfall: Near 15 cm\n\nTime span: until this afternoon\n\nRemarks: Snow at times heavy is forecast to change to heavy rain this afternoon. Reduced visibilities in blowing snow over exposed areas is possible late this morning and early this afternoon.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-19T19:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-19T13:15:02-00:00, urn:oid:2.49.0.1.124.1252469020.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-19:feed.atom/urn:oid:2.49.0.1.124.1252469020.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-19/2020_04_19T13_15_02_00_00Iurn_oid_2.49.0.1.124.1252469020.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200419195902+00:00"
 			}
 		},
 		{
@@ -3725,6 +3733,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-19/2020_04_19T18_21_14_00_00Iurn_oid_2.49.0.1.124.3648370996.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200420102014+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.1596, 51.3124 ],
+							[ -81.4395, 50.7218 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.496, 51.0628 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.8297, 51.4271 ],
+							[ -79.8263, 51.2605 ],
+							[ -80.0462, 51.3571 ],
+							[ -80.2894, 51.3971 ],
+							[ -80.3594, 51.6003 ],
+							[ -80.6927, 51.9724 ],
+							[ -81.4236, 52.4881 ],
+							[ -82.2216, 53.0256 ],
+							[ -81.9632, 53.3416 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.2294, 54.0004 ],
+							[ -82.2369, 54.0006 ],
+							[ -83.7002, 54.0287 ],
+							[ -83.0302, 52.2453 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.1596, 51.3124 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 19, 2020 18:48",
+				"Expires_UTC" : "April 20, 2020 10:47",
+				"Summary" : "Description: Snow and blowing snow Monday through Tuesday.\n\nA low pressure system over central Manitoba is heading towards northern Ontario today. Snow, heavy at times, is expected to begin Monday morning, and continue into Tuesday. Total snowfall amounts up to 10 cm are likely by Tuesday afternoon when the snow tapers off.\n\nIn addition, strong northerly wind gusts up to 70 km/h will combine with heavy snow producing very low visibility on Monday through Tuesday morning.\n\nHazardous driving conditions are likely due to very low visibilities in blowing snow and accumulating snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-04-20T10:47:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-19T18:48:32-00:00, urn:oid:2.49.0.1.124.2202533253.2020<br>Area: Attawapiskat, Fort Albany, Moosonee",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-19:feed.atom/urn:oid:2.49.0.1.124.2202533253.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-19/2020_04_19T18_48_32_00_00Iurn_oid_2.49.0.1.124.2202533253.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200420104732+00:00"
 			}
 		},
 		{
@@ -4091,69 +4154,6 @@
 				"Expires_FMEFormat" : "20200426092613-06:00",
 				"EnclosureType" : "audio/mpeg",
 				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/7819-0.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55.1527, 47.5874 ],
-							[ -55.1557, 47.5799 ],
-							[ -55.1703, 47.5512 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "April 19, 2020 13:15",
-				"Expires_UTC" : "April 19, 2020 19:59",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nLocations: Burin and Avalon Peninsulas\n\nTotal snowfall: Near 15 cm\n\nTime span: until this afternoon\n\nRemarks: Snow at times heavy is forecast to change to heavy rain this afternoon. Reduced visibilities in blowing snow over exposed areas is possible late this morning and early this afternoon.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-04-19T19:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-19T13:15:02-00:00, urn:oid:2.49.0.1.124.1252469020.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-19:feed.atom/urn:oid:2.49.0.1.124.1252469020.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-19/2020_04_19T13_15_02_00_00Iurn_oid_2.49.0.1.124.1252469020.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200419195902+00:00"
 			}
 		}
 	]
