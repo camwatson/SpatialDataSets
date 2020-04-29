@@ -9,6 +9,80 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.3709, 45.5863 ],
+							[ -61.3587, 45.578 ],
+							[ -61.2879, 45.5429 ],
+							[ -61.2399, 45.5263 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -60.227, 45.7243 ],
+							[ -60.6728, 45.8236 ],
+							[ -60.8436, 45.8719 ],
+							[ -60.789, 45.9777 ],
+							[ -60.7214, 46.0663 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.6864, 46.0863 ],
+							[ -60.6021, 46.1338 ],
+							[ -60.5551, 46.1916 ],
+							[ -60.4991, 46.2258 ],
+							[ -60.4173, 46.2948 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.554, 47.0263 ],
+							[ -60.7422, 46.4987 ],
+							[ -61.0483, 46.1152 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.3709, 45.5863 ]
+						],
+						[
+							[ -61.1647, 45.7054 ],
+							[ -60.8436, 45.8719 ],
+							[ -61.1587, 45.7085 ],
+							[ -61.1647, 45.7054 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "April 29, 2020 00:27",
+				"Expires_UTC" : "April 29, 2020 07:59",
+				"Summary" : "Description: Accumulating snow tonight.\n\nAdditional snowfall: up to 5 cm.\n\nMaximum wind gusts: 50 to 70 km/h.\n\nLocations: Parts of Cape Breton Island. Higher elevations in these areas are most at risk for highest snow amounts.\n\nTime span: continuing until early morning on Wednesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-29T07:59:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-29T00:27:25-00:00, urn:oid:2.49.0.1.124.2256085676.2020<br>Area: Richmond County, Inverness County - south of Mabou, Victoria County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-29:feed.atom/urn:oid:2.49.0.1.124.2256085676.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-29/2020_04_29T00_27_25_00_00Iurn_oid_2.49.0.1.124.2256085676.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200429075925+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -109.0767, 53.2852 ],
 							[ -109.0766, 53.2779 ],
 							[ -108.6362, 53.2783 ],
@@ -281,25 +355,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 29, 2020 06:13",
-				"Expires_UTC" : "April 29, 2020 07:13",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-04-29T07:13:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-29T06:13:59-00:00, urn:oid:2.49.0.1.124.1748209226.2020<br>Area: Sydney Metro and Cape Breton County",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "April 29, 2020 00:28",
+				"Expires_UTC" : "April 29, 2020 09:59",
+				"Summary" : "Description: Additional amounts of 5 cm \n\nMaximum wind gusts: northeasterly 70 km/h.\n\nLocations: Sydney Metro and Cape Breton County.\n\nRemarks: The snow will taper off overnight.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-04-29T09:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-29T00:28:02-00:00, urn:oid:2.49.0.1.124.0381337121.2020<br>Area: Sydney Metro and Cape Breton County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-29:feed.atom/urn:oid:2.49.0.1.124.1748209226.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-29/2020_04_29T06_13_59_00_00Iurn_oid_2.49.0.1.124.1748209226.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-29:feed.atom/urn:oid:2.49.0.1.124.0381337121.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-29/2020_04_29T00_28_02_00_00Iurn_oid_2.49.0.1.124.0381337121.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200429071359+00:00"
+				"Expires_FMEFormat" : "20200429095902+00:00"
 			}
 		},
 		{
@@ -491,80 +565,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-28/2020_04_28T19_47_27_00_00Iurn_oid_2.49.0.1.124.2675370305.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200429114627+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.3709, 45.5863 ],
-							[ -61.3587, 45.578 ],
-							[ -61.2879, 45.5429 ],
-							[ -61.2399, 45.5263 ],
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -60.227, 45.7243 ],
-							[ -60.6728, 45.8236 ],
-							[ -60.8436, 45.8719 ],
-							[ -60.789, 45.9777 ],
-							[ -60.7214, 46.0663 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.6864, 46.0863 ],
-							[ -60.6021, 46.1338 ],
-							[ -60.5551, 46.1916 ],
-							[ -60.4991, 46.2258 ],
-							[ -60.4173, 46.2948 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.554, 47.0263 ],
-							[ -60.7422, 46.4987 ],
-							[ -61.0483, 46.1152 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.3951, 45.6335 ],
-							[ -61.3709, 45.5863 ]
-						],
-						[
-							[ -61.1647, 45.7054 ],
-							[ -60.8436, 45.8719 ],
-							[ -61.1587, 45.7085 ],
-							[ -61.1647, 45.7054 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "April 29, 2020 06:14",
-				"Expires_UTC" : "April 29, 2020 07:13",
-				"Summary" : "Description: Snow has tapered off to flurries.\n\n###<br>Expires: 2020-04-29T07:13:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-04-29T06:14:42-00:00, urn:oid:2.49.0.1.124.2132604007.2020<br>Area: Richmond County, Inverness County - south of Mabou, Victoria County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-04-29:feed.atom/urn:oid:2.49.0.1.124.2132604007.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-29/2020_04_29T06_14_42_00_00Iurn_oid_2.49.0.1.124.2132604007.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200429071342+00:00"
 			}
 		},
 		{
