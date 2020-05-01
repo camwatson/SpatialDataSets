@@ -66,6 +66,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -55.1703, 47.5512 ],
+							[ -55.1557, 47.5799 ],
+							[ -55.1527, 47.5874 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.567607421, 48.1000655797 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 1, 2020 01:39",
+				"Expires_UTC" : "May 1, 2020 17:38",
+				"Summary" : "Description: Significant rainfall is expected.\n\nTotal rainfall: 30 to 50 mm. Locally higher amounts possible.\n\nLocations: southwestern Newfoundland.\n\nTime span: early Saturday morning until Saturday night.\n\nRemarks: Rain is expected to begin early Saturday morning in the Port-aux-Basques area and may become heavy at times on Saturday as it spreads eastward.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-05-01T17:38:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-01T01:39:40-00:00, urn:oid:2.49.0.1.124.2251594547.2020<br>Area: Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-01:feed.atom/urn:oid:2.49.0.1.124.2251594547.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-01/2020_05_01T01_39_40_00_00Iurn_oid_2.49.0.1.124.2251594547.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200501173840+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -97.2579, 49 ],
 							[ -97.167, 49 ],
 							[ -96.7845, 49 ],
@@ -413,69 +468,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-04-30/2020_04_30T22_42_16_00_00Iurn_oid_2.49.0.1.124.4165139244.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200501135916+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -77.0011, 47 ],
-							[ -76.6569, 46.8048 ],
-							[ -76.3327, 46.6332 ],
-							[ -75.8328, 46.9998 ],
-							[ -76.1922, 47.4534 ],
-							[ -76.4994, 47.8332 ],
-							[ -77.7494, 47.8332 ],
-							[ -77.7501, 46.9998 ],
-							[ -77.3649, 46.9966 ],
-							[ -77.0011, 47 ]
-						]
-					],
-					[
-						[
-							[ -73.6025, 49.2849 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.4993, 49.55 ],
-							[ -72.6666, 49.6653 ],
-							[ -72.6628, 49.6658 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 51.647 ],
-							[ -72.011, 51.6472 ],
-							[ -75.9391, 51.6264 ],
-							[ -76, 51.6249 ],
-							[ -75.9995, 50.5156 ],
-							[ -75.9995, 50.4999 ],
-							[ -75.9993, 49.2832 ],
-							[ -73.6025, 49.2849 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 1, 2020 09:00",
-				"Expires_UTC" : "May 1, 2020 17:59",
-				"Summary" : "Description: Rain, heavy at times is expected.\n\nUp to 5 millimetres of additional rainfall are expected this morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-01T17:59:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-01T09:00:51-00:00, urn:oid:2.49.0.1.124.3664516075.2020<br>Area: Dorval Lodge area, Le Domaine area, Chibougamau",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-01:feed.atom/urn:oid:2.49.0.1.124.3664516075.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-01/2020_05_01T09_00_51_00_00Iurn_oid_2.49.0.1.124.3664516075.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200501175951+00:00"
 			}
 		},
 		{
@@ -1364,61 +1356,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -55.1703, 47.5512 ],
-							[ -55.1557, 47.5799 ],
-							[ -55.1527, 47.5874 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.567607421, 48.1000655797 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 1, 2020 01:39",
-				"Expires_UTC" : "May 1, 2020 17:38",
-				"Summary" : "Description: Significant rainfall is expected.\n\nTotal rainfall: 30 to 50 mm. Locally higher amounts possible.\n\nLocations: southwestern Newfoundland.\n\nTime span: early Saturday morning until Saturday night.\n\nRemarks: Rain is expected to begin early Saturday morning in the Port-aux-Basques area and may become heavy at times on Saturday as it spreads eastward.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-05-01T17:38:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-01T01:39:40-00:00, urn:oid:2.49.0.1.124.2251594547.2020<br>Area: Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-01:feed.atom/urn:oid:2.49.0.1.124.2251594547.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-01/2020_05_01T01_39_40_00_00Iurn_oid_2.49.0.1.124.2251594547.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200501173840+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -77.7494, 47.8332 ],
 							[ -77.7501, 46.9998 ],
 							[ -77.3649, 46.9966 ],
@@ -1483,6 +1420,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-01/2020_05_01T04_12_38_00_00Iurn_oid_2.49.0.1.124.3503314028.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200501135938+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -77.0011, 47 ],
+							[ -76.6569, 46.8048 ],
+							[ -76.3327, 46.6332 ],
+							[ -75.8328, 46.9998 ],
+							[ -76.1922, 47.4534 ],
+							[ -76.4994, 47.8332 ],
+							[ -77.7494, 47.8332 ],
+							[ -77.7501, 46.9998 ],
+							[ -77.3649, 46.9966 ],
+							[ -77.0011, 47 ]
+						]
+					],
+					[
+						[
+							[ -73.6025, 49.2849 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.4993, 49.55 ],
+							[ -72.6666, 49.6653 ],
+							[ -72.6628, 49.6658 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 51.647 ],
+							[ -72.011, 51.6472 ],
+							[ -75.9391, 51.6264 ],
+							[ -76, 51.6249 ],
+							[ -75.9995, 50.5156 ],
+							[ -75.9995, 50.4999 ],
+							[ -75.9993, 49.2832 ],
+							[ -73.6025, 49.2849 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 1, 2020 09:00",
+				"Expires_UTC" : "May 1, 2020 17:59",
+				"Summary" : "Description: Rain, heavy at times is expected.\n\nUp to 5 millimetres of additional rainfall are expected this morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-01T17:59:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-01T09:00:51-00:00, urn:oid:2.49.0.1.124.3664516075.2020<br>Area: Dorval Lodge area, Le Domaine area, Chibougamau",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-01:feed.atom/urn:oid:2.49.0.1.124.3664516075.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-01/2020_05_01T09_00_51_00_00Iurn_oid_2.49.0.1.124.3664516075.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200501175951+00:00"
 			}
 		}
 	]
