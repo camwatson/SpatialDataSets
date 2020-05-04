@@ -156,52 +156,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.8173, 58.4841 ],
-							[ -123.817, 58.4844 ],
-							[ -123.7664, 58.9859 ],
-							[ -123.817, 59.4674 ],
-							[ -124.8878, 59.4884 ],
-							[ -125.9169, 59.4669 ],
-							[ -126.3618, 59.3444 ],
-							[ -126.817, 59.1829 ],
-							[ -126.2569, 58.7982 ],
-							[ -125.6669, 58.4669 ],
-							[ -124.7028, 58.4331 ],
-							[ -123.833, 58.4669 ],
-							[ -123.8173, 58.4841 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 4, 2020 11:09",
-				"Expires_UTC" : "May 5, 2020 00:24",
-				"Summary" : "Description: Rain changed to snow last night over many communities along Highway 97 west of Fort Nelson. Snow will continue this morning before precipitation eases to scattered flurries or rain showers early this afternoon. \n\nTotal snowfall accumulations of 10 to 20 cm are expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-05-05T00:24:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-04T11:09:25-00:00, urn:oid:2.49.0.1.124.2469892299.2020<br>Area: Muncho Lake Park - Stone Mountain Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-04:feed.atom/urn:oid:2.49.0.1.124.2469892299.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-04/2020_05_04T11_09_25_00_00Iurn_oid_2.49.0.1.124.2469892299.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200505002425+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -97.2547998898, 49.5320160956 ],
 							[ -97.7321, 49.5326 ],
 							[ -97.7304, 49.429 ],
@@ -761,6 +715,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-04/2020_05_04T02_26_52_00_00Iurn_oid_2.49.0.1.124.3193926224.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200504182552+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.8173, 58.4841 ],
+							[ -123.817, 58.4844 ],
+							[ -123.7664, 58.9859 ],
+							[ -123.817, 59.4674 ],
+							[ -124.8878, 59.4884 ],
+							[ -125.9169, 59.4669 ],
+							[ -126.3618, 59.3444 ],
+							[ -126.817, 59.1829 ],
+							[ -126.2569, 58.7982 ],
+							[ -125.6669, 58.4669 ],
+							[ -124.7028, 58.4331 ],
+							[ -123.833, 58.4669 ],
+							[ -123.8173, 58.4841 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 4, 2020 18:07",
+				"Expires_UTC" : "May 4, 2020 19:07",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-05-04T19:07:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-04T18:07:05-00:00, urn:oid:2.49.0.1.124.3141804276.2020<br>Area: Muncho Lake Park - Stone Mountain Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-04:feed.atom/urn:oid:2.49.0.1.124.3141804276.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-04/2020_05_04T18_07_05_00_00Iurn_oid_2.49.0.1.124.3141804276.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200504190705+00:00"
 			}
 		},
 		{
