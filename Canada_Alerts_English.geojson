@@ -73,6 +73,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.0483, 46.1152 ],
+							[ -60.9766, 46.0016 ],
+							[ -60.9641, 46.0041 ],
+							[ -60.9256, 46.0478 ],
+							[ -60.8568, 46.0675 ],
+							[ -60.8098, 46.0638 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.6864, 46.0863 ],
+							[ -60.6021, 46.1338 ],
+							[ -60.5551, 46.1916 ],
+							[ -60.4991, 46.2258 ],
+							[ -60.4173, 46.2948 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 6, 2020 01:46",
+				"Expires_UTC" : "May 6, 2020 17:45",
+				"Summary" : "Description: Wet heavy snow tonight and Wednesday.\n\nTotal snowfall: 10 to 15 cm or more over the Highlands.\n\nMaximum wind gusts: 70 km/h.\n\nLocations: northern Cape Breton Island. Higher elevations are most at risk for highest snowfall amounts.\n\nTime span: into Wednesday afternoon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-05-06T17:45:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-06T01:46:09-00:00, urn:oid:2.49.0.1.124.1863509859.2020<br>Area: Inverness County - Mabou and north, Victoria County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-06:feed.atom/urn:oid:2.49.0.1.124.1863509859.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-06/2020_05_06T01_46_09_00_00Iurn_oid_2.49.0.1.124.1863509859.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200506174509+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -105.4631, 51.7222 ],
 							[ -105.4632, 51.7256 ],
 							[ -105.4982, 51.7261 ],
@@ -207,52 +262,52 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.0483, 46.1152 ],
-							[ -60.9766, 46.0016 ],
-							[ -60.9641, 46.0041 ],
-							[ -60.9256, 46.0478 ],
-							[ -60.8568, 46.0675 ],
-							[ -60.8098, 46.0638 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.6864, 46.0863 ],
-							[ -60.6021, 46.1338 ],
-							[ -60.5551, 46.1916 ],
-							[ -60.4991, 46.2258 ],
-							[ -60.4173, 46.2948 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ]
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.9432, 53.1171 ],
+							[ -60.0074, 53.0666 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.5825, 52.955 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.0998, 53.0683 ],
+							[ -57.1137, 53.3384 ],
+							[ -55.9017, 53.3388 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Snowfall",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 6, 2020 01:46",
-				"Expires_UTC" : "May 6, 2020 17:45",
-				"Summary" : "Description: Wet heavy snow tonight and Wednesday.\n\nTotal snowfall: 10 to 15 cm or more over the Highlands.\n\nMaximum wind gusts: 70 km/h.\n\nLocations: northern Cape Breton Island. Higher elevations are most at risk for highest snowfall amounts.\n\nTime span: into Wednesday afternoon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-05-06T17:45:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-06T01:46:09-00:00, urn:oid:2.49.0.1.124.1863509859.2020<br>Area: Inverness County - Mabou and north, Victoria County",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 6, 2020 13:29",
+				"Expires_UTC" : "May 6, 2020 19:59",
+				"Summary" : "Description: Snow, at times heavy, is expected.\n\nLocations: the TLH through Eagle River to Cartwright and vicinity.\n\nTime span: ending this afternoon.\n\nRemarks: The snow will change to showers or drizzle this afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Road closures are possible.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-05-06T19:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-06T13:29:14-00:00, urn:oid:2.49.0.1.124.1945665114.2020<br>Area: Cartwright to Black Tickle, Eagle River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-06:feed.atom/urn:oid:2.49.0.1.124.1863509859.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-06/2020_05_06T01_46_09_00_00Iurn_oid_2.49.0.1.124.1863509859.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-06:feed.atom/urn:oid:2.49.0.1.124.1945665114.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-06/2020_05_06T13_29_14_00_00Iurn_oid_2.49.0.1.124.1945665114.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200506174509+00:00"
+				"Expires_FMEFormat" : "20200506195914+00:00"
 			}
 		},
 		{
@@ -307,18 +362,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 6, 2020 08:41",
-				"Expires_UTC" : "May 7, 2020 00:40",
-				"Summary" : "Description: Snow, at times heavy, is expected.\n\nLocations: Upper Lake Melville and Churchill Valley.\n\nFurther snowfall: 15 to 20 cm.\n\nTime span: ending Thursday morning.\n\nRemarks: Snow is expected to be heaviest today before becoming mixed with rain this afternoon and tonight.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-05-07T00:40:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-06T08:41:37-00:00, urn:oid:2.49.0.1.124.3955637750.2020<br>Area: Upper Lake Melville, Churchill Valley",
+				"LastUpdate_UTC" : "May 6, 2020 13:29",
+				"Expires_UTC" : "May 7, 2020 05:28",
+				"Summary" : "Description: Snow, at times heavy, is expected.\n\nLocations: Upper Lake Melville and Churchill Valley.\n\nFurther snowfall: 10 to 15 cm.\n\nTime span: ending Thursday morning.\n\nRemarks: Snow is expected to be heaviest today before becoming mixed with rain tonight.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-05-07T05:28:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-06T13:29:28-00:00, urn:oid:2.49.0.1.124.3263523975.2020<br>Area: Upper Lake Melville, Churchill Valley",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-06:feed.atom/urn:oid:2.49.0.1.124.3955637750.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-06/2020_05_06T08_41_37_00_00Iurn_oid_2.49.0.1.124.3955637750.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-06:feed.atom/urn:oid:2.49.0.1.124.3263523975.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-06/2020_05_06T13_29_28_00_00Iurn_oid_2.49.0.1.124.3263523975.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200507004037+00:00"
+				"Expires_FMEFormat" : "20200507052828+00:00"
 			}
 		},
 		{
