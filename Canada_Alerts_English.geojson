@@ -394,72 +394,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.5386, 46.7145 ],
-							[ -80.3679, 46.7151 ],
-							[ -80.3679, 46.6307 ],
-							[ -80.276, 46.6307 ],
-							[ -80.276, 46.2601 ],
-							[ -80.4935, 46.2785 ],
-							[ -80.6965, 46.2675 ],
-							[ -80.6965, 46.106 ],
-							[ -80.5701, 46.0178 ],
-							[ -80.5706, 45.8856 ],
-							[ -79.7785, 45.901 ],
-							[ -79.6173, 45.9047 ],
-							[ -79.5385, 45.9261 ],
-							[ -79.2711, 45.9989 ],
-							[ -78.6213, 46.1756 ],
-							[ -78.3597, 46.2468 ],
-							[ -78.3417, 46.2607 ],
-							[ -78.3382, 46.2631 ],
-							[ -78.3344, 46.2912 ],
-							[ -78.3748, 46.3144 ],
-							[ -78.4765, 46.3158 ],
-							[ -78.5836, 46.3403 ],
-							[ -78.6878, 46.344 ],
-							[ -78.6857, 46.3783 ],
-							[ -78.7063, 46.403 ],
-							[ -78.8477, 46.4674 ],
-							[ -78.953, 46.5625 ],
-							[ -78.984, 46.6586 ],
-							[ -79.0486, 46.6951 ],
-							[ -79.0624, 46.7207 ],
-							[ -79.1058, 46.7145 ],
-							[ -79.1099, 46.7147 ],
-							[ -79.5386, 46.7145 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 8, 2020 14:10",
-				"Expires_UTC" : "May 8, 2020 15:10",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2020-05-08T15:10:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-08T14:10:36-00:00, urn:oid:2.49.0.1.124.1558608238.2020<br>Area: West Nipissing - French River, North Bay - Powassan - Mattawa",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-08:feed.atom/urn:oid:2.49.0.1.124.1558608238.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-08/2020_05_08T14_10_36_00_00Iurn_oid_2.49.0.1.124.1558608238.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200508151036+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -73.8164, 45.8498 ],
 							[ -73.9777, 45.8522 ],
 							[ -74.1664, 45.8498 ],
@@ -711,6 +645,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -66.7602, 49.3619 ],
+							[ -66.805, 49.3539 ],
+							[ -67.2832, 49.2432 ],
+							[ -67.508, 49.2382 ],
+							[ -68.5214, 48.9033 ],
+							[ -69.2423, 48.4587 ],
+							[ -68.9741, 48.2826 ],
+							[ -68.6207, 48.05 ],
+							[ -68.6193, 48.0511 ],
+							[ -68.6166, 48.0496 ],
+							[ -68.1996, 48.2998 ],
+							[ -68.1575, 48.2345 ],
+							[ -67.6498, 48.4154 ],
+							[ -67.6687, 48.5824 ],
+							[ -67.0001, 48.7503 ],
+							[ -66.9998, 48.7504 ],
+							[ -66.7518, 48.8661 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Storm Surge Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Storm Surge",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 8, 2020 15:12",
+				"Expires_UTC" : "May 9, 2020 07:11",
+				"Summary" : "Description: Higher than normal water levels with large waves are expected near the coast.\n\nPotential breaking sea conditions and overwash warning issued jointly by Fisheries and Oceans Canada (Science) and the Meteorological Service of Canada - Quebec Region on May 8, 2020.\n\nAn intense low pressure system approaching from New England will give strong winds on Sunday over the regions specified below.  The combination of these winds and the current run of high-amplitude tides could produce minor breaking sea conditions along the coast in the vicinity of the following localities on the dates and at the times specified (Eastern Daylight Time).\n\n\nRimouski - Mont-Joli: 2020-05-10, from 03:00 AM to 06:00 AM.\n\nMatane: 2020-05-10, from 03:00 AM to 06:00 AM.\n\nSainte-Anne-des-Monts - Grande-Vallee: 2020-05-10, from 03:00 AM to 06:00 AM.\n\n###\n\nCoastal erosion is possible in vulnerable areas.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-09T07:11:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-08T15:12:46-00:00, urn:oid:2.49.0.1.124.0418076073.2020<br>Area: Mont-Joli area, Le Bic - Rimouski area, Matane, Grande-Vallée area, Sainte-Anne-des-Monts area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-08:feed.atom/urn:oid:2.49.0.1.124.0418076073.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-08/2020_05_08T15_12_46_00_00Iurn_oid_2.49.0.1.124.0418076073.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200509071146+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -87.0122, 55.0075 ],
 							[ -87.008, 55.0039 ],
 							[ -83.7002, 54.0287 ],
@@ -848,24 +843,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
+				"Title" : "Weather Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 8, 2020 14:10",
-				"Expires_UTC" : "May 8, 2020 15:10",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2020-05-08T15:10:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-08T14:10:36-00:00, urn:oid:2.49.0.1.124.1556553518.2020<br>Area: South River - Burk's Falls, Bayfield Inlet - Dunchurch, Deep River - Whitney - Eastern Algonquin Park, Western Algonquin Park - Lake of Two Rivers, Petawawa - Pembroke - Cobden, Renfrew - Arnprior - Calabogie",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 8, 2020 12:04",
+				"Expires_UTC" : "May 8, 2020 20:45",
+				"Summary" : "Description: Winter Weather Travel  Advisory until mid-morning.\n\nScattered bands of snow are expected to affect the regions this morning.  Visibility could be quite poor at times locally.\n\nSnowfall amounts are expected to be quite variable with some areas receiving a centimetre or less while others could receive up to 5 cm locally. Please consult your local forecast for details on expected snowfall amounts in your region.  \n\nThis will create winter driving conditions and may cause slippery conditions.\n\nConditions will improvelater this morning as the heaviest snow bands dissipate.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-05-08T20:45:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-08T12:04:27-00:00, urn:oid:2.49.0.1.124.2259509662.2020<br>Area: South River - Burk's Falls, Bayfield Inlet - Dunchurch, Deep River - Whitney - Eastern Algonquin Park, Western Algonquin Park - Lake of Two Rivers, Petawawa - Pembroke - Cobden, Renfrew - Arnprior - Calabogie",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-08:feed.atom/urn:oid:2.49.0.1.124.1556553518.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-08/2020_05_08T14_10_36_00_00Iurn_oid_2.49.0.1.124.1556553518.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-08:feed.atom/urn:oid:2.49.0.1.124.2259509662.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-08/2020_05_08T12_04_27_00_00Iurn_oid_2.49.0.1.124.2259509662.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200508151036+00:00"
+				"Expires_FMEFormat" : "20200508204527+00:00"
 			}
 		},
 		{
