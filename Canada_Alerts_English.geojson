@@ -74,47 +74,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.5846, 63.9682 ],
-							[ -83.2662, 63.9163 ],
-							[ -82.8791, 64.1863 ],
-							[ -82.9926, 64.3386 ],
-							[ -83.3373, 64.4141 ],
-							[ -83.6952, 64.3607 ],
-							[ -83.8576, 64.2208 ],
-							[ -83.5846, 63.9682 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 9, 2020 08:22",
-				"Expires_UTC" : "May 10, 2020 00:21",
-				"Summary" : "Description: Strong northerly winds expected throughout the weekend.\n\nA disturbance tracking into northern Quebec is bringing strong northerly winds to the Coral Harbour area. Winds gusting at times to 70 or 80 km/h are expected today with even stronger wind gusts of 90 km/h possible on Sunday. These winds will produce blowing snow which may result in blizzard or near blizzard conditions. The public is advised to listen for possible wind or blizzard warnings. The winds will moderate slightly on Monday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-05-10T00:21:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-09T08:22:43-00:00, urn:oid:2.49.0.1.124.2221398962.2020<br>Area: Coral Harbour",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-09:feed.atom/urn:oid:2.49.0.1.124.2221398962.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-09/2020_05_09T08_22_43_00_00Iurn_oid_2.49.0.1.124.2221398962.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200510002143+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -67.0013, 48.4494 ],
 							[ -67.0024, 48.2174 ],
 							[ -66.0664, 48.3334 ],
@@ -161,6 +120,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-09/2020_05_09T15_23_19_00_00Iurn_oid_2.49.0.1.124.3379583731.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200510072219+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -77.1195, 55.7842 ],
+							[ -77.0573, 55.762 ],
+							[ -75.5197, 55.3505 ],
+							[ -75.5248, 57.9997 ],
+							[ -77.0238, 58.0142 ],
+							[ -77.0451, 58.0035 ],
+							[ -77.1123, 58.005 ],
+							[ -77.2009, 58.0161 ],
+							[ -77.2381, 58.0046 ],
+							[ -77.19, 57.9588 ],
+							[ -76.9873, 57.7643 ],
+							[ -76.729, 57.4077 ],
+							[ -76.6217, 57.0841 ],
+							[ -76.5798, 56.709 ],
+							[ -76.6311, 56.3038 ],
+							[ -76.7434, 56.0381 ],
+							[ -77.0865, 55.8067 ],
+							[ -77.1195, 55.7842 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 9, 2020 19:16",
+				"Expires_UTC" : "May 10, 2020 11:15",
+				"Summary" : "Description: Blizzard conditions are expected by Sunday afternoon.   Conditions should gradually improve Monday morning.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-10T11:15:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-09T19:16:17-00:00, urn:oid:2.49.0.1.124.0481083050.2020<br>Area: Umiujaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-09:feed.atom/urn:oid:2.49.0.1.124.0481083050.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-09/2020_05_09T19_16_17_00_00Iurn_oid_2.49.0.1.124.0481083050.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200510111517+00:00"
 			}
 		},
 		{
@@ -1412,18 +1422,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 9, 2020 15:26",
-				"Expires_UTC" : "May 10, 2020 07:25",
-				"Summary" : "Description: Blizzard conditions are expected beginning this evening. These conditions will persist Sunday.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-10T07:25:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-09T15:26:57-00:00, urn:oid:2.49.0.1.124.2375464008.2020<br>Area: Inukjuak, Kuujjuarapik, Sanikiluaq",
+				"LastUpdate_UTC" : "May 9, 2020 19:17",
+				"Expires_UTC" : "May 10, 2020 11:16",
+				"Summary" : "Description: Blizzard conditions are expected beginning this evening. These conditions will persist Sunday.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-10T11:16:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-09T19:17:34-00:00, urn:oid:2.49.0.1.124.4191294984.2020<br>Area: Inukjuak, Kuujjuarapik, Sanikiluaq",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-09:feed.atom/urn:oid:2.49.0.1.124.2375464008.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-09/2020_05_09T15_26_57_00_00Iurn_oid_2.49.0.1.124.2375464008.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-09:feed.atom/urn:oid:2.49.0.1.124.4191294984.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-09/2020_05_09T19_17_34_00_00Iurn_oid_2.49.0.1.124.4191294984.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200510072557+00:00"
+				"Expires_FMEFormat" : "20200510111634+00:00"
 			}
 		},
 		{
