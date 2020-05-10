@@ -173,6 +173,84 @@
 				"coordinates" : [
 					[
 						[
+							[ -63.46, 44.9886 ],
+							[ -63.5208, 44.9693 ],
+							[ -63.657, 44.9416 ],
+							[ -63.7597, 44.8965 ],
+							[ -63.8291, 44.8025 ],
+							[ -64.2442, 44.762 ],
+							[ -64.2554, 44.7703 ],
+							[ -64.434, 44.9011 ],
+							[ -64.5243, 44.8377 ],
+							[ -64.5248, 44.838 ],
+							[ -64.5316, 44.8422 ],
+							[ -64.7714, 44.6652 ],
+							[ -64.9461, 44.5351 ],
+							[ -65.0755, 44.4407 ],
+							[ -65.1623, 44.4446 ],
+							[ -65.1856, 44.4122 ],
+							[ -65.3296, 44.3106 ],
+							[ -65.3923, 44.2277 ],
+							[ -65.6271, 44.193 ],
+							[ -65.8891, 44.1327 ],
+							[ -66.0272, 44.0753 ],
+							[ -66.1537, 44.0035 ],
+							[ -66.2609, 43.9343 ],
+							[ -66.2464, 43.8302 ],
+							[ -66.0816, 43.613 ],
+							[ -65.8528, 43.5481 ],
+							[ -65.779, 43.4069 ],
+							[ -65.6057, 43.3204 ],
+							[ -64.8863, 43.7582 ],
+							[ -64.4838, 44.0841 ],
+							[ -64.2742, 44.1629 ],
+							[ -63.9672, 44.4641 ],
+							[ -63.6521, 44.3309 ],
+							[ -63.2658, 44.6121 ],
+							[ -63.2105, 44.6376 ],
+							[ -62.9403, 44.6081 ],
+							[ -62.0547, 44.8797 ],
+							[ -62.1548, 44.9424 ],
+							[ -62.1647, 44.9739 ],
+							[ -62.1655, 44.9754 ],
+							[ -62.7118, 45.2704 ],
+							[ -62.8428, 45.2503 ],
+							[ -62.8749, 45.2036 ],
+							[ -63.3573, 45.0209 ],
+							[ -63.46, 44.9886 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 10, 2020 02:20",
+				"Expires_UTC" : "May 10, 2020 07:59",
+				"Summary" : "Description: Large waves, pounding surf and elevated water levels are expected. \n\nLocations: south to west facing coastlines from Sheet Harbour west into Shelburne County then north into Yarmouth County.\n\nTime Span: near high tide tonight.\n\nRemarks: A deep low pressure system north of Nova Scotia will drift to the northeast overnight. The waves combined with the storm surge may cause minor flooding near high tide.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-05-10T07:59:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T02:20:18-00:00, urn:oid:2.49.0.1.124.0309222724.2020<br>Area: Lunenburg County, Queens County, Shelburne County, Yarmouth County, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.0309222724.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T02_20_18_00_00Iurn_oid_2.49.0.1.124.0309222724.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200510075918+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -96.3536, 50.3272 ],
 							[ -96.3538, 50.3499 ],
 							[ -96.3536, 50.4156 ],
@@ -1065,47 +1143,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.5846, 63.9682 ],
-							[ -83.2662, 63.9163 ],
-							[ -82.8791, 64.1863 ],
-							[ -82.9926, 64.3386 ],
-							[ -83.3373, 64.4141 ],
-							[ -83.6952, 64.3607 ],
-							[ -83.8576, 64.2208 ],
-							[ -83.5846, 63.9682 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 9, 2020 19:39",
-				"Expires_UTC" : "May 10, 2020 11:38",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA disturbance tracking into northern Quebec is bringing strong northerly winds to the Coral Harbour area. Winds gusting at times to 80 km/h will persist tonight with even stronger gusts possible on Sunday. These winds are expected to produce extensive blowing snow with visibilities reduced to 400 metres or less. Conditions are expected to moderate on late Monday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-05-10T11:38:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-09T19:39:30-00:00, urn:oid:2.49.0.1.124.2299942753.2020<br>Area: Coral Harbour",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-09:feed.atom/urn:oid:2.49.0.1.124.2299942753.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-09/2020_05_09T19_39_30_00_00Iurn_oid_2.49.0.1.124.2299942753.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200510113830+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -55.9321, 47.1631 ],
 							[ -56.123, 46.9615 ],
 							[ -56.0644, 46.8176 ],
@@ -1768,44 +1805,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -78.5138, 55.3729 ],
-							[ -78.2058, 56.8774 ],
-							[ -80.2962, 57.0654 ],
-							[ -80.7756, 55.6151 ],
-							[ -78.5138, 55.3729 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 10, 2020 03:09",
-				"Expires_UTC" : "May 10, 2020 19:08",
-				"Summary" : "Description: Northwest winds gusting up to 90 kilometres per hour are expected Sunday afternoon.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-10T19:08:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T03:09:23-00:00, urn:oid:2.49.0.1.124.1826986074.2020<br>Area: Sanikiluaq",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.1826986074.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T03_09_23_00_00Iurn_oid_2.49.0.1.124.1826986074.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200510190823+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -62.7118, 45.2704 ],
 							[ -62.8428, 45.2503 ],
 							[ -62.8749, 45.2036 ],
@@ -1917,6 +1916,44 @@
 							[ -80.7756, 55.6151 ],
 							[ -78.5138, 55.3729 ]
 						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 10, 2020 03:09",
+				"Expires_UTC" : "May 10, 2020 19:08",
+				"Summary" : "Description: Northwest winds gusting up to 90 kilometres per hour are expected Sunday afternoon.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-10T19:08:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T03:09:23-00:00, urn:oid:2.49.0.1.124.1826986074.2020<br>Area: Sanikiluaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.1826986074.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T03_09_23_00_00Iurn_oid_2.49.0.1.124.1826986074.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200510190823+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -78.5138, 55.3729 ],
+							[ -78.2058, 56.8774 ],
+							[ -80.2962, 57.0654 ],
+							[ -80.7756, 55.6151 ],
+							[ -78.5138, 55.3729 ]
+						]
 					],
 					[
 						[
@@ -1978,84 +2015,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T03_09_03_00_00Iurn_oid_2.49.0.1.124.2159796857.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200510190803+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -63.46, 44.9886 ],
-							[ -63.5208, 44.9693 ],
-							[ -63.657, 44.9416 ],
-							[ -63.7597, 44.8965 ],
-							[ -63.8291, 44.8025 ],
-							[ -64.2442, 44.762 ],
-							[ -64.2554, 44.7703 ],
-							[ -64.434, 44.9011 ],
-							[ -64.5243, 44.8377 ],
-							[ -64.5248, 44.838 ],
-							[ -64.5316, 44.8422 ],
-							[ -64.7714, 44.6652 ],
-							[ -64.9461, 44.5351 ],
-							[ -65.0755, 44.4407 ],
-							[ -65.1623, 44.4446 ],
-							[ -65.1856, 44.4122 ],
-							[ -65.3296, 44.3106 ],
-							[ -65.3923, 44.2277 ],
-							[ -65.6271, 44.193 ],
-							[ -65.8891, 44.1327 ],
-							[ -66.0272, 44.0753 ],
-							[ -66.1537, 44.0035 ],
-							[ -66.2609, 43.9343 ],
-							[ -66.2464, 43.8302 ],
-							[ -66.0816, 43.613 ],
-							[ -65.8528, 43.5481 ],
-							[ -65.779, 43.4069 ],
-							[ -65.6057, 43.3204 ],
-							[ -64.8863, 43.7582 ],
-							[ -64.4838, 44.0841 ],
-							[ -64.2742, 44.1629 ],
-							[ -63.9672, 44.4641 ],
-							[ -63.6521, 44.3309 ],
-							[ -63.2658, 44.6121 ],
-							[ -63.2105, 44.6376 ],
-							[ -62.9403, 44.6081 ],
-							[ -62.0547, 44.8797 ],
-							[ -62.1548, 44.9424 ],
-							[ -62.1647, 44.9739 ],
-							[ -62.1655, 44.9754 ],
-							[ -62.7118, 45.2704 ],
-							[ -62.8428, 45.2503 ],
-							[ -62.8749, 45.2036 ],
-							[ -63.3573, 45.0209 ],
-							[ -63.46, 44.9886 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 10, 2020 04:06",
-				"Expires_UTC" : "May 10, 2020 05:05",
-				"Summary" : "Description: High water levels no longer expected.\n\n###<br>Expires: 2020-05-10T05:05:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T04:06:27-00:00, urn:oid:2.49.0.1.124.0332620327.2020<br>Area: Lunenburg County, Queens County, Shelburne County, Yarmouth County, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.0332620327.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T04_06_27_00_00Iurn_oid_2.49.0.1.124.0332620327.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200510050527+00:00"
 			}
 		},
 		{
@@ -2338,6 +2297,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T02_55_19_00_00Iurn_oid_2.49.0.1.124.2558141683.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200510165919+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -83.5846, 63.9682 ],
+							[ -83.2662, 63.9163 ],
+							[ -82.8791, 64.1863 ],
+							[ -82.9926, 64.3386 ],
+							[ -83.3373, 64.4141 ],
+							[ -83.6952, 64.3607 ],
+							[ -83.8576, 64.2208 ],
+							[ -83.5846, 63.9682 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 9, 2020 19:39",
+				"Expires_UTC" : "May 10, 2020 11:38",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA disturbance tracking into northern Quebec is bringing strong northerly winds to the Coral Harbour area. Winds gusting at times to 80 km/h will persist tonight with even stronger gusts possible on Sunday. These winds are expected to produce extensive blowing snow with visibilities reduced to 400 metres or less. Conditions are expected to moderate on late Monday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-05-10T11:38:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-09T19:39:30-00:00, urn:oid:2.49.0.1.124.2299942753.2020<br>Area: Coral Harbour",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-09:feed.atom/urn:oid:2.49.0.1.124.2299942753.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-09/2020_05_09T19_39_30_00_00Iurn_oid_2.49.0.1.124.2299942753.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200510113830+00:00"
 			}
 		}
 	]
