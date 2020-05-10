@@ -1379,53 +1379,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 10, 2020 15:08",
-				"Expires_UTC" : "May 10, 2020 16:08",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-05-10T16:08:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T15:08:18-00:00, urn:oid:2.49.0.1.124.2437576568.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.2437576568.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T15_08_18_00_00Iurn_oid_2.49.0.1.124.2437576568.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200510160818+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -78.1899, 61.8615 ],
 							[ -77.9932, 61.1989 ],
 							[ -78.2274, 60.8442 ],
@@ -1544,6 +1497,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T03_09_03_00_00Iurn_oid_2.49.0.1.124.2159796857.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200510190803+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 10, 2020 15:08",
+				"Expires_UTC" : "May 10, 2020 16:08",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-05-10T16:08:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T15:08:18-00:00, urn:oid:2.49.0.1.124.2437576568.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.2437576568.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T15_08_18_00_00Iurn_oid_2.49.0.1.124.2437576568.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200510160818+00:00"
 			}
 		},
 		{
@@ -1979,18 +1979,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 10, 2020 08:50",
-				"Expires_UTC" : "May 11, 2020 00:49",
-				"Summary" : "Description: The combination of strong northwest winds and snow will cause reduced visibilities in blowing snow today.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-11T00:49:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T08:50:36-00:00, urn:oid:2.49.0.1.124.4170871678.2020<br>Area: Waskaganish",
+				"LastUpdate_UTC" : "May 10, 2020 15:12",
+				"Expires_UTC" : "May 10, 2020 23:59",
+				"Summary" : "Description: The combination of strong northwest winds and snow will cause reduced visibilities in blowing snow today.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-10T23:59:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T15:12:11-00:00, urn:oid:2.49.0.1.124.2006745394.2020<br>Area: Waskaganish",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.4170871678.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T08_50_36_00_00Iurn_oid_2.49.0.1.124.4170871678.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.2006745394.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T15_12_11_00_00Iurn_oid_2.49.0.1.124.2006745394.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200511004936+00:00"
+				"Expires_FMEFormat" : "20200510235911+00:00"
 			}
 		},
 		{
