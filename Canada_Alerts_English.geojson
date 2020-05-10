@@ -318,6 +318,85 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.3709, 45.5863 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.4371, 45.6492 ],
+							[ -61.5031, 45.6221 ],
+							[ -61.7374, 45.525 ],
+							[ -61.733, 45.5024 ],
+							[ -61.7299, 45.4868 ],
+							[ -61.949, 45.3941 ],
+							[ -62.0904, 45.3736 ],
+							[ -62.6235, 45.2947 ],
+							[ -62.6877, 45.2911 ],
+							[ -62.7118, 45.2704 ],
+							[ -62.8428, 45.2503 ],
+							[ -62.8749, 45.2036 ],
+							[ -63.3573, 45.0209 ],
+							[ -63.46, 44.9886 ],
+							[ -63.2515, 44.736 ],
+							[ -63.2511, 44.7352 ],
+							[ -63.2405, 44.7163 ],
+							[ -63.2105, 44.6376 ],
+							[ -62.9403, 44.6081 ],
+							[ -62.0547, 44.8797 ],
+							[ -61.1946, 45.1755 ],
+							[ -60.9193, 45.2127 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4173, 46.2948 ],
+							[ -60.4991, 46.2258 ],
+							[ -60.5551, 46.1916 ],
+							[ -60.6021, 46.1338 ],
+							[ -60.6864, 46.0863 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.7214, 46.0663 ],
+							[ -60.789, 45.9777 ],
+							[ -60.8436, 45.8719 ],
+							[ -61.1587, 45.7085 ],
+							[ -61.1647, 45.7054 ],
+							[ -61.2321, 45.6675 ],
+							[ -61.36, 45.5953 ],
+							[ -61.3709, 45.5863 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 10, 2020 09:25",
+				"Expires_UTC" : "May 10, 2020 10:25",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-05-10T10:25:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T09:25:00-00:00, urn:oid:2.49.0.1.124.3445865037.2020<br>Area: Halifax County - east of Porters Lake, Guysborough County, Richmond County, Sydney Metro and Cape Breton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.3445865037.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T09_25_00_00_00Iurn_oid_2.49.0.1.124.3445865037.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200510102500+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -78.5138, 55.3729 ],
 							[ -78.2058, 56.8774 ],
 							[ -80.2962, 57.0654 ],
@@ -1095,56 +1174,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.9972, 56.0007 ],
-							[ -87.0016, 55.9096 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.008, 55.0039 ],
-							[ -83.7002, 54.0287 ],
-							[ -82.2369, 54.0006 ],
-							[ -82.2294, 54.0004 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.0824, 54.6123 ],
-							[ -82.007, 55.0671 ],
-							[ -82.2786, 55.1755 ],
-							[ -82.7847, 55.1832 ],
-							[ -82.9498, 55.2286 ],
-							[ -83.9602, 55.3859 ],
-							[ -84.958, 55.3741 ],
-							[ -85.6784, 55.7283 ],
-							[ -86.9972, 56.0007 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 10, 2020 01:16",
-				"Expires_UTC" : "May 10, 2020 17:15",
-				"Summary" : "Description: Blowing snow expected tonight through Sunday.\n\nStrong northerly winds will continue across the region. These winds, combined with freshly falling snow, may give visibilities near zero at times from tonight through Sunday. Gusts of up to 70 km/h are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-05-10T17:15:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T01:16:19-00:00, urn:oid:2.49.0.1.124.2586718760.2020<br>Area: Peawanuck",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.2586718760.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T01_16_19_00_00Iurn_oid_2.49.0.1.124.2586718760.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200510171519+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -62.884, 46.5004 ],
 							[ -63.6271, 46.6222 ],
 							[ -63.9227, 46.7494 ],
@@ -1738,6 +1767,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -67.0013, 48.4494 ],
+							[ -67.0024, 48.2174 ],
+							[ -66.0664, 48.3334 ],
+							[ -65.4763, 48.4015 ],
+							[ -65.4764, 48.4021 ],
+							[ -65.4677, 48.4029 ],
+							[ -65.2298, 48.4244 ],
+							[ -65.0706, 48.4384 ],
+							[ -64.75, 48.4658 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.7559, 48.6496 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.7518, 48.8661 ],
+							[ -66.9998, 48.7504 ],
+							[ -67.0013, 48.4494 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 10, 2020 02:56",
+				"Expires_UTC" : "May 10, 2020 18:55",
+				"Summary" : "Description: A coastal low pressure system from New England is currently over the Gaspé peninsula.\n\nSnowfall amounts of 10 to 15 centimetres are expected tonight. However, there will be great variation in the amounts of snow on ground due to temperatures near the freezing mark along the St. Lawrence River.\n\nThe combination of strong winds and heavy snow could cause damage to structures and trees.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-10T18:55:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T02:56:37-00:00, urn:oid:2.49.0.1.124.4104853877.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Murdochville area, Mont-Albert area, Grande-Rivière - Cascapédia area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.4104853877.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T02_56_37_00_00Iurn_oid_2.49.0.1.124.4104853877.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200510185537+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -61.7255, 47.1947 ],
 							[ -61.322, 47.5211 ],
 							[ -61.344, 47.8207 ],
@@ -1935,6 +2019,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T07_28_16_00_00Iurn_oid_2.49.0.1.124.1502566163.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200510145916+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -86.9972, 56.0007 ],
+							[ -87.0016, 55.9096 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.008, 55.0039 ],
+							[ -83.7002, 54.0287 ],
+							[ -82.2369, 54.0006 ],
+							[ -82.2294, 54.0004 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.0824, 54.6123 ],
+							[ -82.007, 55.0671 ],
+							[ -82.2786, 55.1755 ],
+							[ -82.7847, 55.1832 ],
+							[ -82.9498, 55.2286 ],
+							[ -83.9602, 55.3859 ],
+							[ -84.958, 55.3741 ],
+							[ -85.6784, 55.7283 ],
+							[ -86.9972, 56.0007 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 10, 2020 09:16",
+				"Expires_UTC" : "May 11, 2020 01:15",
+				"Summary" : "Description: Blowing snow expected today.\n\nStrong northerly winds will continue across the region. These winds, combined with freshly falling snow, may give visibilities near zero at times today. Gusts of up to 70 km/h are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-05-11T01:15:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T09:16:16-00:00, urn:oid:2.49.0.1.124.2439942969.2020<br>Area: Peawanuck",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.2439942969.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T09_16_16_00_00Iurn_oid_2.49.0.1.124.2439942969.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200511011516+00:00"
 			}
 		},
 		{
@@ -2312,61 +2446,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T08_50_36_00_00Iurn_oid_2.49.0.1.124.4170871678.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200511004936+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -67.0013, 48.4494 ],
-							[ -67.0024, 48.2174 ],
-							[ -66.0664, 48.3334 ],
-							[ -65.4763, 48.4015 ],
-							[ -65.4764, 48.4021 ],
-							[ -65.4677, 48.4029 ],
-							[ -65.2298, 48.4244 ],
-							[ -65.0706, 48.4384 ],
-							[ -64.75, 48.4658 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.7559, 48.6496 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.7518, 48.8661 ],
-							[ -66.9998, 48.7504 ],
-							[ -67.0013, 48.4494 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 10, 2020 02:56",
-				"Expires_UTC" : "May 10, 2020 18:55",
-				"Summary" : "Description: A coastal low pressure system from New England is currently over the Gaspé peninsula.\n\nSnowfall amounts of 10 to 15 centimetres are expected tonight. However, there will be great variation in the amounts of snow on ground due to temperatures near the freezing mark along the St. Lawrence River.\n\nThe combination of strong winds and heavy snow could cause damage to structures and trees.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-10T18:55:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T02:56:37-00:00, urn:oid:2.49.0.1.124.4104853877.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Murdochville area, Mont-Albert area, Grande-Rivière - Cascapédia area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.4104853877.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T02_56_37_00_00Iurn_oid_2.49.0.1.124.4104853877.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200510185537+00:00"
 			}
 		}
 	]
