@@ -776,6 +776,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -86.9972, 56.0007 ],
+							[ -87.0016, 55.9096 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.008, 55.0039 ],
+							[ -83.7002, 54.0287 ],
+							[ -82.2369, 54.0006 ],
+							[ -82.2294, 54.0004 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.0824, 54.6123 ],
+							[ -82.007, 55.0671 ],
+							[ -82.2786, 55.1755 ],
+							[ -82.7847, 55.1832 ],
+							[ -82.9498, 55.2286 ],
+							[ -83.9602, 55.3859 ],
+							[ -84.958, 55.3741 ],
+							[ -85.6784, 55.7283 ],
+							[ -86.9972, 56.0007 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 10, 2020 09:16",
+				"Expires_UTC" : "May 11, 2020 01:15",
+				"Summary" : "Description: Blowing snow expected today.\n\nStrong northerly winds will continue across the region. These winds, combined with freshly falling snow, may give visibilities near zero at times today. Gusts of up to 70 km/h are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-05-11T01:15:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T09:16:16-00:00, urn:oid:2.49.0.1.124.2439942969.2020<br>Area: Peawanuck",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.2439942969.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T09_16_16_00_00Iurn_oid_2.49.0.1.124.2439942969.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200511011516+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.9792, 43.1302 ],
 							[ -80.0381, 43.0565 ],
 							[ -80.0732, 42.9762 ],
@@ -1329,6 +1379,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 10, 2020 15:08",
+				"Expires_UTC" : "May 10, 2020 16:08",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-05-10T16:08:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T15:08:18-00:00, urn:oid:2.49.0.1.124.2437576568.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.2437576568.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T15_08_18_00_00Iurn_oid_2.49.0.1.124.2437576568.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200510160818+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -78.1899, 61.8615 ],
 							[ -77.9932, 61.1989 ],
 							[ -78.2274, 60.8442 ],
@@ -1517,56 +1614,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T13_21_09_00_00Iurn_oid_2.49.0.1.124.3941145849.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200510195909+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -86.9972, 56.0007 ],
-							[ -87.0016, 55.9096 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.008, 55.0039 ],
-							[ -83.7002, 54.0287 ],
-							[ -82.2369, 54.0006 ],
-							[ -82.2294, 54.0004 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.0824, 54.6123 ],
-							[ -82.007, 55.0671 ],
-							[ -82.2786, 55.1755 ],
-							[ -82.7847, 55.1832 ],
-							[ -82.9498, 55.2286 ],
-							[ -83.9602, 55.3859 ],
-							[ -84.958, 55.3741 ],
-							[ -85.6784, 55.7283 ],
-							[ -86.9972, 56.0007 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 10, 2020 09:16",
-				"Expires_UTC" : "May 11, 2020 01:15",
-				"Summary" : "Description: Blowing snow expected today.\n\nStrong northerly winds will continue across the region. These winds, combined with freshly falling snow, may give visibilities near zero at times today. Gusts of up to 70 km/h are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-05-11T01:15:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-10T09:16:16-00:00, urn:oid:2.49.0.1.124.2439942969.2020<br>Area: Peawanuck",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-10:feed.atom/urn:oid:2.49.0.1.124.2439942969.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-10/2020_05_10T09_16_16_00_00Iurn_oid_2.49.0.1.124.2439942969.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200511011516+00:00"
 			}
 		},
 		{
