@@ -198,6 +198,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -57.4008, 50.5801 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 14, 2020 01:35",
+				"Expires_UTC" : "May 14, 2020 17:34",
+				"Summary" : "Description: Significant snowfall is expected over higher terrain.\n\nLocation: west coast of Newfoundland.\n\nTime span: tonight until Thursday evening.\n\nTotal snowfall: from 5 to 10 cm along the coast to near 20 cm inland and over higher terrain.\n\nRemarks: A mix of flurries and rain showers will change to flurries tonight and persist until Thursday evening.  The snow is expected to be wet and heavy along the coast, with the highest accumulations occurring tonight as temperatures cool to freezing.\n\nIt is advised to reduce travel over higher terrain during this event as the potential for total snowfall amounts higher than 20 cm exists.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-05-14T17:34:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-14T01:35:48-00:00, urn:oid:2.49.0.1.124.3946533928.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-14:feed.atom/urn:oid:2.49.0.1.124.3946533928.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-14/2020_05_14T01_35_48_00_00Iurn_oid_2.49.0.1.124.3946533928.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200514173448+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.2998, 45.8648 ],
 							[ -63.1438, 45.8448 ],
 							[ -63.1906, 45.811 ],
@@ -799,76 +850,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Winter Storm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 14, 2020 08:08",
-				"Expires_UTC" : "May 15, 2020 00:07",
-				"Summary" : "Description: Snow will continue into Friday.\n\nAdditional snowfall: 10 to 15 cm along the coast.  Near 30 cm inland and over higher elevations.\n\nLocations: Hopedale to Makkovik.\n\nTime span: snow will finally taper to flurries late on Friday.\n\n.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-05-15T00:07:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-14T08:08:25-00:00, urn:oid:2.49.0.1.124.1136798967.2020<br>Area: Postville - Makkovik, Hopedale and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-14:feed.atom/urn:oid:2.49.0.1.124.1136798967.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-14/2020_05_14T08_08_25_00_00Iurn_oid_2.49.0.1.124.1136798967.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200515000725+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -57.4008, 50.5801 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
+				"urgency" : "Past",
+				"certainty" : "Observed",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 14, 2020 01:35",
-				"Expires_UTC" : "May 14, 2020 17:34",
-				"Summary" : "Description: Significant snowfall is expected over higher terrain.\n\nLocation: west coast of Newfoundland.\n\nTime span: tonight until Thursday evening.\n\nTotal snowfall: from 5 to 10 cm along the coast to near 20 cm inland and over higher terrain.\n\nRemarks: A mix of flurries and rain showers will change to flurries tonight and persist until Thursday evening.  The snow is expected to be wet and heavy along the coast, with the highest accumulations occurring tonight as temperatures cool to freezing.\n\nIt is advised to reduce travel over higher terrain during this event as the potential for total snowfall amounts higher than 20 cm exists.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-05-14T17:34:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-14T01:35:48-00:00, urn:oid:2.49.0.1.124.3946533928.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay",
+				"LastUpdate_UTC" : "May 14, 2020 10:28",
+				"Expires_UTC" : "May 14, 2020 11:28",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-05-14T11:28:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-14T10:28:28-00:00, urn:oid:2.49.0.1.124.0356748552.2020<br>Area: Postville - Makkovik, Hopedale and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-14:feed.atom/urn:oid:2.49.0.1.124.3946533928.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-14/2020_05_14T01_35_48_00_00Iurn_oid_2.49.0.1.124.3946533928.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-14:feed.atom/urn:oid:2.49.0.1.124.0356748552.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-14/2020_05_14T10_28_28_00_00Iurn_oid_2.49.0.1.124.0356748552.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200514173448+00:00"
+				"Expires_FMEFormat" : "20200514112828+00:00"
 			}
 		},
 		{
