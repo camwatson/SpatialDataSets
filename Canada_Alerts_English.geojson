@@ -9,6 +9,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.3709, 45.5863 ],
+							[ -61.3587, 45.578 ],
+							[ -61.2879, 45.5429 ],
+							[ -61.2399, 45.5263 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.3709, 45.5863 ]
+						],
+						[
+							[ -61.1647, 45.7054 ],
+							[ -60.8436, 45.8719 ],
+							[ -61.1587, 45.7085 ],
+							[ -61.1647, 45.7054 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Frost Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Frost",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 15, 2020 13:40",
+				"Expires_UTC" : "May 16, 2020 05:39",
+				"Summary" : "Description: Minimum temperatures: near zero.\n\nLocations: Cape Breton Island\n\nTime span: overnight and early Saturday morning.\n\nRemarks: Frost is expected to form tonight as clearing skies and light winds coincide with cool temperatures, especially in low lying areas.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-05-16T05:39:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-15T13:40:39-00:00, urn:oid:2.49.0.1.124.0660523854.2020<br>Area: Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-15:feed.atom/urn:oid:2.49.0.1.124.0660523854.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-15/2020_05_15T13_40_39_00_00Iurn_oid_2.49.0.1.124.0660523854.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200516053939+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -80.2499, 43.7561 ],
 							[ -80.3943, 43.8531 ],
 							[ -80.4023, 43.9218 ],
@@ -115,86 +177,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
+				"Title" : "Fog Advisory Ended",
 				"Category" : "Actual",
 				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 15, 2020 09:19",
-				"Expires_UTC" : "May 15, 2020 16:34",
-				"Summary" : "Description: Near zero visibility in fog is expected overnight and will dissipate early in the morning.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-05-15T16:34:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-15T09:19:46-00:00, urn:oid:2.49.0.1.124.2087676660.2020<br>Area: Bruce Peninsula - Sauble Beach - Tobermory, Owen Sound - Blue Mountains - Northern Grey County, Saugeen Shores - Kincardine - Southern Bruce County, Hanover - Dundalk - Southern Grey County, Listowel - Milverton - Northern Perth County, Stratford - Mitchell - Southern Perth County, Mount Forest - Arthur - Northern Wellington County, Guelph - Erin - Southern Wellington County, Kitchener - Cambridge - Region of Waterloo",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 15, 2020 14:38",
+				"Expires_UTC" : "May 15, 2020 15:38",
+				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-05-15T15:38:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-15T14:38:22-00:00, urn:oid:2.49.0.1.124.2981154008.2020<br>Area: Bruce Peninsula - Sauble Beach - Tobermory, Owen Sound - Blue Mountains - Northern Grey County, Saugeen Shores - Kincardine - Southern Bruce County, Hanover - Dundalk - Southern Grey County, Listowel - Milverton - Northern Perth County, Stratford - Mitchell - Southern Perth County, Mount Forest - Arthur - Northern Wellington County, Guelph - Erin - Southern Wellington County, Kitchener - Cambridge - Region of Waterloo",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-15:feed.atom/urn:oid:2.49.0.1.124.2087676660.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-15/2020_05_15T09_19_46_00_00Iurn_oid_2.49.0.1.124.2087676660.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-15:feed.atom/urn:oid:2.49.0.1.124.2981154008.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-15/2020_05_15T14_38_22_00_00Iurn_oid_2.49.0.1.124.2981154008.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200515163446+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.3709, 45.5863 ],
-							[ -61.3587, 45.578 ],
-							[ -61.2879, 45.5429 ],
-							[ -61.2399, 45.5263 ],
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -59.538, 46.0154 ],
-							[ -59.8902, 46.2624 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.3951, 45.6335 ],
-							[ -61.3709, 45.5863 ]
-						],
-						[
-							[ -61.1647, 45.7054 ],
-							[ -60.8436, 45.8719 ],
-							[ -61.1587, 45.7085 ],
-							[ -61.1647, 45.7054 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Frost Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Frost",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 15, 2020 13:40",
-				"Expires_UTC" : "May 16, 2020 05:39",
-				"Summary" : "Description: Minimum temperatures: near zero.\n\nLocations: Cape Breton Island\n\nTime span: overnight and early Saturday morning.\n\nRemarks: Frost is expected to form tonight as clearing skies and light winds coincide with cool temperatures, especially in low lying areas.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-05-16T05:39:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-15T13:40:39-00:00, urn:oid:2.49.0.1.124.0660523854.2020<br>Area: Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-15:feed.atom/urn:oid:2.49.0.1.124.0660523854.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-15/2020_05_15T13_40_39_00_00Iurn_oid_2.49.0.1.124.0660523854.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200516053939+00:00"
+				"Expires_FMEFormat" : "20200515153822+00:00"
 			}
 		},
 		{
