@@ -456,60 +456,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -115.9666, 54.1521 ],
-							[ -115.9666, 53.9771 ],
-							[ -115.9413, 53.9773 ],
-							[ -115.9316, 53.8853 ],
-							[ -115.7827, 53.8878 ],
-							[ -115.7834, 53.8186 ],
-							[ -115.6876, 53.8161 ],
-							[ -115.61, 53.8191 ],
-							[ -115.4858, 53.8034 ],
-							[ -115.3385, 53.8036 ],
-							[ -115.3323, 53.9359 ],
-							[ -115.337, 54.0635 ],
-							[ -115.1993, 54.0633 ],
-							[ -115.1965, 54.1056 ],
-							[ -115.2002, 54.1519 ],
-							[ -115.2528, 54.1866 ],
-							[ -115.675, 54.1969 ],
-							[ -115.736, 54.1868 ],
-							[ -115.7902, 54.214 ],
-							[ -115.9667, 54.2137 ],
-							[ -115.9666, 54.1521 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 18, 2020 06:28",
-				"Expires_UTC" : "May 18, 2020 09:27",
-				"Summary" : "Description: At 12:28 a.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-18T09:27:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-18T06:28:25-00:00, urn:oid:2.49.0.1.124.3847735945.2020<br>Area: Woodlands Co. near Whitecourt and Blue Ridge",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-18:feed.atom/urn:oid:2.49.0.1.124.3847735945.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-18/2020_05_18T06_28_25_00_00Iurn_oid_2.49.0.1.124.3847735945.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200518092725+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -95.4499, 59.9991 ],
 							[ -97.4253, 60.0545 ],
 							[ -99.4001, 59.9992 ],
@@ -616,6 +562,78 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-18/2020_05_18T01_47_35_00_00Iurn_oid_2.49.0.1.124.2918016211.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200518120435+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -116.9892300975, 57.3817574251 ],
+							[ -116.8378, 57.3817 ],
+							[ -116.6607, 57.3819 ],
+							[ -116.5466, 57.382 ],
+							[ -116.0715, 57.3819 ],
+							[ -115.9511, 57.3816 ],
+							[ -115.4503, 57.3605 ],
+							[ -114.975, 57.3807 ],
+							[ -114.4621, 57.3571 ],
+							[ -114, 57.3812 ],
+							[ -113.9554, 57.7377 ],
+							[ -113.9999, 58.0812 ],
+							[ -113.9889, 58.1699 ],
+							[ -114, 58.253 ],
+							[ -113.9835, 58.5248 ],
+							[ -113.9999, 58.7762 ],
+							[ -113.9571, 59.129 ],
+							[ -114, 59.475 ],
+							[ -114.7403, 59.4899 ],
+							[ -115.5532, 59.4759 ],
+							[ -115.553, 59.6481 ],
+							[ -115.5576, 59.6483 ],
+							[ -115.5692, 59.6489 ],
+							[ -115.5455, 59.8124 ],
+							[ -115.5673, 59.9981 ],
+							[ -116.2895, 60.0078 ],
+							[ -116.9878, 59.9995 ],
+							[ -117.4613, 60.0076 ],
+							[ -117.9999, 59.9996 ],
+							[ -118.9303, 60.0137 ],
+							[ -120.0013, 60.0004 ],
+							[ -120.0013, 59.4749 ],
+							[ -120.0013, 58.9507 ],
+							[ -120.0012, 58.0792 ],
+							[ -120.0012, 57.3805 ],
+							[ -119.0525, 57.3698 ],
+							[ -118.1545, 57.3829 ],
+							[ -117.5271, 57.3742 ],
+							[ -116.9892300975, 57.3817574251 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Frost Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Frost",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 17, 2020 21:27",
+				"Expires_UTC" : "May 18, 2020 13:26",
+				"Summary" : "Description: Some plants may be damaged or even destroyed by frost.\n\nClear skies will allow temperatures to drop near the freezing mark by Monday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-05-18T13:26:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-17T21:27:21-00:00, urn:oid:2.49.0.1.124.4104712954.2020<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-17:feed.atom/urn:oid:2.49.0.1.124.4104712954.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-17/2020_05_17T21_27_21_00_00Iurn_oid_2.49.0.1.124.4104712954.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200518132621+00:00"
 			}
 		},
 		{
@@ -734,78 +752,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-18/2020_05_18T01_47_54_00_00Iurn_oid_2.49.0.1.124.3170524964.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200518174654+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -116.9892300975, 57.3817574251 ],
-							[ -116.8378, 57.3817 ],
-							[ -116.6607, 57.3819 ],
-							[ -116.5466, 57.382 ],
-							[ -116.0715, 57.3819 ],
-							[ -115.9511, 57.3816 ],
-							[ -115.4503, 57.3605 ],
-							[ -114.975, 57.3807 ],
-							[ -114.4621, 57.3571 ],
-							[ -114, 57.3812 ],
-							[ -113.9554, 57.7377 ],
-							[ -113.9999, 58.0812 ],
-							[ -113.9889, 58.1699 ],
-							[ -114, 58.253 ],
-							[ -113.9835, 58.5248 ],
-							[ -113.9999, 58.7762 ],
-							[ -113.9571, 59.129 ],
-							[ -114, 59.475 ],
-							[ -114.7403, 59.4899 ],
-							[ -115.5532, 59.4759 ],
-							[ -115.553, 59.6481 ],
-							[ -115.5576, 59.6483 ],
-							[ -115.5692, 59.6489 ],
-							[ -115.5455, 59.8124 ],
-							[ -115.5673, 59.9981 ],
-							[ -116.2895, 60.0078 ],
-							[ -116.9878, 59.9995 ],
-							[ -117.4613, 60.0076 ],
-							[ -117.9999, 59.9996 ],
-							[ -118.9303, 60.0137 ],
-							[ -120.0013, 60.0004 ],
-							[ -120.0013, 59.4749 ],
-							[ -120.0013, 58.9507 ],
-							[ -120.0012, 58.0792 ],
-							[ -120.0012, 57.3805 ],
-							[ -119.0525, 57.3698 ],
-							[ -118.1545, 57.3829 ],
-							[ -117.5271, 57.3742 ],
-							[ -116.9892300975, 57.3817574251 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Frost Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Frost",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 17, 2020 21:27",
-				"Expires_UTC" : "May 18, 2020 13:26",
-				"Summary" : "Description: Some plants may be damaged or even destroyed by frost.\n\nClear skies will allow temperatures to drop near the freezing mark by Monday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-05-18T13:26:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-17T21:27:21-00:00, urn:oid:2.49.0.1.124.4104712954.2020<br>Area: Mackenzie Co. near Bistcho Lake, Mackenzie Co. near Rainbow Lake Zama Lake and Chateh, Mackenzie Co. near Zama City, Mackenzie Co. near Indian Cabins and Steen River, Mackenzie Co. near Meander River and Lutose, Mackenzie Co. near High Level and Bushe River Res., Co. of Northern Lights near Paddle Prairie Smt, Mackenzie Co. near the Caribou Mountains, Mackenzie Co. near Fort Vermilion, Mackenzie Co. near John D'or Prairie and Fox Lake, Mackenzie Co. near La Crête and Buffalo Head Prairie, Mackenzie Co. near the Tallcree and Wadlin Lake Reserves",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-17:feed.atom/urn:oid:2.49.0.1.124.4104712954.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-17/2020_05_17T21_27_21_00_00Iurn_oid_2.49.0.1.124.4104712954.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200518132621+00:00"
 			}
 		},
 		{
@@ -1151,101 +1097,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					],
-					[
-						[
-							[ -83.5846, 63.9682 ],
-							[ -83.2662, 63.9163 ],
-							[ -82.8791, 64.1863 ],
-							[ -82.9926, 64.3386 ],
-							[ -83.3373, 64.4141 ],
-							[ -83.6952, 64.3607 ],
-							[ -83.8576, 64.2208 ],
-							[ -83.5846, 63.9682 ]
-						]
-					],
-					[
-						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 18, 2020 02:45",
-				"Expires_UTC" : "May 18, 2020 18:44",
-				"Summary" : "Description: A winter storm will move from the Canadian Prairies into Hudson Bay on Tuesday, spreading heavy snow and freezing rain along coastal regions of the Kivalliq to Southampton Island.\n\nThere is still some uncertainty with this system, however early indications are that some snow, followed by a significant freezing rain event is possible for Arviat and Coral Harbour. Freezing rain may also be possible in Chesterfield Inlet and Rankin Inlet.\n\nNorth of the band of freezing rain, moderate to heavy snow will develop with accumulations of 10 to 15 cm.\n\nStay alert for revised bulletins as this system is still developing and warnings may be issued closer to the event.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-05-18T18:44:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-18T02:45:59-00:00, urn:oid:2.49.0.1.124.0374008872.2020<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet, Coral Harbour",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-18:feed.atom/urn:oid:2.49.0.1.124.0374008872.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-18/2020_05_18T02_45_59_00_00Iurn_oid_2.49.0.1.124.0374008872.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200518184459+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -104.6357, 53.2307 ],
 							[ -104.6222, 53.2343 ],
 							[ -104.5718, 53.2309 ],
@@ -1433,6 +1284,155 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-17/2020_05_17T09_51_03_06_00IB3FEBB21_B468_9905_C791_4F0FAD1208ED.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200518200000-06:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -115.9666, 54.1521 ],
+							[ -115.9666, 53.9771 ],
+							[ -115.9413, 53.9773 ],
+							[ -115.9316, 53.8853 ],
+							[ -115.7827, 53.8878 ],
+							[ -115.7834, 53.8186 ],
+							[ -115.6876, 53.8161 ],
+							[ -115.61, 53.8191 ],
+							[ -115.4858, 53.8034 ],
+							[ -115.3385, 53.8036 ],
+							[ -115.3323, 53.9359 ],
+							[ -115.337, 54.0635 ],
+							[ -115.1993, 54.0633 ],
+							[ -115.1965, 54.1056 ],
+							[ -115.2002, 54.1519 ],
+							[ -115.2528, 54.1866 ],
+							[ -115.675, 54.1969 ],
+							[ -115.736, 54.1868 ],
+							[ -115.7902, 54.214 ],
+							[ -115.9667, 54.2137 ],
+							[ -115.9666, 54.1521 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 18, 2020 06:29",
+				"Expires_UTC" : "May 18, 2020 09:27",
+				"Summary" : "Description: At 12:28 a.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing heavy rain.\n\nThis thunderstorm is located 5 km northwest of Connor Creek. Localized rainfall amounts of 50-75 mm are expected.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-18T09:27:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-18T06:29:25-00:00, urn:oid:2.49.0.1.124.2603621723.2020<br>Area: Woodlands Co. near Whitecourt and Blue Ridge",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-18:feed.atom/urn:oid:2.49.0.1.124.2603621723.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-18/2020_05_18T06_29_25_00_00Iurn_oid_2.49.0.1.124.2603621723.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200518092725+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					],
+					[
+						[
+							[ -83.5846, 63.9682 ],
+							[ -83.2662, 63.9163 ],
+							[ -82.8791, 64.1863 ],
+							[ -82.9926, 64.3386 ],
+							[ -83.3373, 64.4141 ],
+							[ -83.6952, 64.3607 ],
+							[ -83.8576, 64.2208 ],
+							[ -83.5846, 63.9682 ]
+						]
+					],
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Winter Storm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 18, 2020 02:45",
+				"Expires_UTC" : "May 18, 2020 18:44",
+				"Summary" : "Description: A winter storm will move from the Canadian Prairies into Hudson Bay on Tuesday, spreading heavy snow and freezing rain along coastal regions of the Kivalliq to Southampton Island.\n\nThere is still some uncertainty with this system, however early indications are that some snow, followed by a significant freezing rain event is possible for Arviat and Coral Harbour. Freezing rain may also be possible in Chesterfield Inlet and Rankin Inlet.\n\nNorth of the band of freezing rain, moderate to heavy snow will develop with accumulations of 10 to 15 cm.\n\nStay alert for revised bulletins as this system is still developing and warnings may be issued closer to the event.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-05-18T18:44:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-18T02:45:59-00:00, urn:oid:2.49.0.1.124.0374008872.2020<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet, Coral Harbour",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-18:feed.atom/urn:oid:2.49.0.1.124.0374008872.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-18/2020_05_18T02_45_59_00_00Iurn_oid_2.49.0.1.124.0374008872.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200518184459+00:00"
 			}
 		}
 	]
