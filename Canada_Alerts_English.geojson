@@ -335,6 +335,65 @@
 				"coordinates" : [
 					[
 						[
+							[ -99.4001, 57.11 ],
+							[ -99.2935, 56.9024 ],
+							[ -98.885, 56.8409 ],
+							[ -98.2313, 57.1168 ],
+							[ -97.6366, 57.0625 ],
+							[ -96.8659, 57.11 ],
+							[ -96.2038, 57.0856 ],
+							[ -95.4499, 57.11 ],
+							[ -95.397, 57.2899 ],
+							[ -95.4499, 57.4624 ],
+							[ -95.2626, 57.4609 ],
+							[ -95.2592, 57.7829 ],
+							[ -95.4499, 57.7824 ],
+							[ -95.3158, 58.6988 ],
+							[ -95.4499, 59.9991 ],
+							[ -97.4253, 60.0545 ],
+							[ -99.4001, 59.9992 ],
+							[ -100.6699, 60.0474 ],
+							[ -102.0004, 59.9992 ],
+							[ -102.0075, 59.9992 ],
+							[ -102.0425, 59.1758 ],
+							[ -102.0074, 58.3877 ],
+							[ -102.0297, 57.6922 ],
+							[ -102.0073, 57.11 ],
+							[ -100.5808, 57.11 ],
+							[ -99.4001, 57.11 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 19, 2020 15:28",
+				"Expires_UTC" : "May 19, 2020 16:28",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n\n###<br>Expires: 2020-05-19T16:28:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-19T15:28:42-00:00, urn:oid:2.49.0.1.124.0633353029.2020<br>Area: Brochet, Tadoule Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-19:feed.atom/urn:oid:2.49.0.1.124.0633353029.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-19/2020_05_19T15_28_42_00_00Iurn_oid_2.49.0.1.124.0633353029.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200519162842+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -104.6357, 53.2307 ],
 							[ -104.6222, 53.2343 ],
 							[ -104.5718, 53.2309 ],
@@ -945,6 +1004,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 19, 2020 08:12",
+				"Expires_UTC" : "May 20, 2020 00:11",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nWind gusts up to 100 km/h are expected Tuesday overnight and Wednesday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-20T00:11:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-19T08:12:03-00:00, urn:oid:2.49.0.1.124.1648923987.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-19:feed.atom/urn:oid:2.49.0.1.124.1648923987.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-19/2020_05_19T08_12_03_00_00Iurn_oid_2.49.0.1.124.1648923987.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200520001103+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.9179, 45.4771 ],
 							[ -64.4894, 45.7165 ],
 							[ -64.3392, 45.8389 ],
@@ -1086,47 +1186,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-19/2020_05_19T13_43_00_00_00Iurn_oid_2.49.0.1.124.1552637265.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200520054200+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 19, 2020 08:12",
-				"Expires_UTC" : "May 20, 2020 00:11",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nWind gusts up to 100 km/h are expected Tuesday overnight and Wednesday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-20T00:11:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-19T08:12:03-00:00, urn:oid:2.49.0.1.124.1648923987.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-19:feed.atom/urn:oid:2.49.0.1.124.1648923987.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-19/2020_05_19T08_12_03_00_00Iurn_oid_2.49.0.1.124.1648923987.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200520001103+00:00"
 			}
 		},
 		{
