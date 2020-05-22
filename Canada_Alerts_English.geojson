@@ -9,6 +9,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -102.432, 51.8821 ],
+							[ -102.4231, 52.1147 ],
+							[ -102.4338, 52.3181 ],
+							[ -102.639, 52.3215 ],
+							[ -102.8624, 52.3183 ],
+							[ -102.8716, 52.1406 ],
+							[ -102.8625, 51.9688 ],
+							[ -102.857, 51.9688 ],
+							[ -102.8619, 51.9231 ],
+							[ -102.8569, 51.8815 ],
+							[ -102.6422, 51.8777 ],
+							[ -102.432, 51.8821 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 22, 2020 04:21",
+				"Expires_UTC" : "May 22, 2020 05:21",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-05-22T05:21:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-22T04:21:49-00:00, urn:oid:2.49.0.1.124.3425406770.2020<br>Area: R.M. of Preeceville including Preeceville and Sturgis",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-22:feed.atom/urn:oid:2.49.0.1.124.3425406770.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-22/2020_05_22T04_21_49_00_00Iurn_oid_2.49.0.1.124.3425406770.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200522052149+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -107.8146, 50.5999 ],
 							[ -107.8051, 50.5905 ],
 							[ -107.805, 50.5938 ],
@@ -165,25 +210,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
 				"Category" : "Actual",
 				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 22, 2020 02:07",
-				"Expires_UTC" : "May 22, 2020 08:59",
-				"Summary" : "Description: The blizzard with very strong northwesterly or north winds giving poor to nil visibility in snow and blowing snow will continue until just after midnight. \n\nThe winds are expected to slowly diminish beginning at midnight, and the blizzard conditions will also slowly improve overnight. Local blowing snow is possible until Friday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-05-22T08:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-22T02:07:23-00:00, urn:oid:2.49.0.1.124.0898670071.2020<br>Area: Ivujivik, Akulivik, Salluit, Kangiqsujuaq - Raglan Lake",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 22, 2020 04:29",
+				"Expires_UTC" : "May 22, 2020 05:29",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n###<br>Expires: 2020-05-22T05:29:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-22T04:29:42-00:00, urn:oid:2.49.0.1.124.1335547238.2020<br>Area: Ivujivik, Akulivik, Salluit, Kangiqsujuaq - Raglan Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-22:feed.atom/urn:oid:2.49.0.1.124.0898670071.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-22/2020_05_22T02_07_23_00_00Iurn_oid_2.49.0.1.124.0898670071.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-22:feed.atom/urn:oid:2.49.0.1.124.1335547238.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-22/2020_05_22T04_29_42_00_00Iurn_oid_2.49.0.1.124.1335547238.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200522085923+00:00"
+				"Expires_FMEFormat" : "20200522052942+00:00"
 			}
 		},
 		{
@@ -402,25 +447,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 22, 2020 03:28",
-				"Expires_UTC" : "May 22, 2020 04:28",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-05-22T04:28:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-22T03:28:37-00:00, urn:oid:2.49.0.1.124.3957770037.2020<br>Area: M.D. of Ranchland, M.D. of Pincher Creek near Cowley Burmis and Maycroft, Piikani Reserve, Municipality of Crowsnest Pass including Coleman and Frank, M.D. of Pincher Creek near Beauvais Lake Prov. Park, M.D. of Pincher Creek near Pincher Creek and Twin Butte, Waterton Lakes Nat. Park and Blood Res. 148A",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 21, 2020 23:14",
+				"Expires_UTC" : "May 22, 2020 07:00",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong winds have developed in the region and will persist into this evening before weakening. \n\nGusts approaching 100 km/h have been reported at the Waterton Park Gate station.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-05-22T07:00:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-21T23:14:04-00:00, urn:oid:2.49.0.1.124.4097716067.2020<br>Area: M.D. of Ranchland, M.D. of Pincher Creek near Cowley Burmis and Maycroft, Piikani Reserve, Municipality of Crowsnest Pass including Coleman and Frank, M.D. of Pincher Creek near Beauvais Lake Prov. Park, M.D. of Pincher Creek near Pincher Creek and Twin Butte, Waterton Lakes Nat. Park and Blood Res. 148A",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-22:feed.atom/urn:oid:2.49.0.1.124.3957770037.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-22/2020_05_22T03_28_37_00_00Iurn_oid_2.49.0.1.124.3957770037.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-21:feed.atom/urn:oid:2.49.0.1.124.4097716067.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-21/2020_05_21T23_14_04_00_00Iurn_oid_2.49.0.1.124.4097716067.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200522042837+00:00"
+				"Expires_FMEFormat" : "20200522070004+00:00"
 			}
 		},
 		{
