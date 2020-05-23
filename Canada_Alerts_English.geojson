@@ -245,6 +245,48 @@
 				"coordinates" : [
 					[
 						[
+							[ -104.8658, 57.0615 ],
+							[ -103.2379, 57.8161 ],
+							[ -102.0074, 58.3877 ],
+							[ -101.9745, 59.1823 ],
+							[ -102.0075, 59.9992 ],
+							[ -103.4256, 60.0239 ],
+							[ -104.8657, 59.9995 ],
+							[ -104.8657, 58.3999 ],
+							[ -104.8658, 57.0615 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 23, 2020 11:19",
+				"Expires_UTC" : "May 23, 2020 12:19",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n\n###<br>Expires: 2020-05-23T12:19:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-23T11:19:18-00:00, urn:oid:2.49.0.1.124.2503294583.2020<br>Area: Wollaston Lake - Collins Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-23:feed.atom/urn:oid:2.49.0.1.124.2503294583.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-23/2020_05_23T11_19_18_00_00Iurn_oid_2.49.0.1.124.2503294583.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200523121918+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.4344, 47.921 ],
 							[ -65.2163, 47.9516 ],
 							[ -64.7544, 48.0994 ],
@@ -383,48 +425,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-23/2020_05_23T08_46_39_00_00Iurn_oid_2.49.0.1.124.4057780726.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200524004539+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -104.8658, 57.0615 ],
-							[ -103.2379, 57.8161 ],
-							[ -102.0074, 58.3877 ],
-							[ -101.9745, 59.1823 ],
-							[ -102.0075, 59.9992 ],
-							[ -103.4256, 60.0239 ],
-							[ -104.8657, 59.9995 ],
-							[ -104.8657, 58.3999 ],
-							[ -104.8658, 57.0615 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Freezing Rain Warning Ended",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 23, 2020 11:19",
-				"Expires_UTC" : "May 23, 2020 12:19",
-				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n\n###<br>Expires: 2020-05-23T12:19:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-23T11:19:18-00:00, urn:oid:2.49.0.1.124.2503294583.2020<br>Area: Wollaston Lake - Collins Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-23:feed.atom/urn:oid:2.49.0.1.124.2503294583.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-23/2020_05_23T11_19_18_00_00Iurn_oid_2.49.0.1.124.2503294583.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200523121918+00:00"
 			}
 		},
 		{
