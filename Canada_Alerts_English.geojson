@@ -226,6 +226,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -97.8785, 50.7717 ],
+							[ -98.128, 50.7882 ],
+							[ -98.4292, 50.7715 ],
+							[ -98.189, 50.5963 ],
+							[ -98.1795, 50.5132 ],
+							[ -98.1001, 50.4845 ],
+							[ -98.0011, 50.5186 ],
+							[ -97.9876, 50.5062 ],
+							[ -97.7374, 50.5066 ],
+							[ -97.7366, 50.5947 ],
+							[ -97.7379, 50.5951 ],
+							[ -97.7394, 50.5947 ],
+							[ -97.7397, 50.7719 ],
+							[ -97.8785, 50.7717 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 23, 2020 08:16",
+				"Expires_UTC" : "May 23, 2020 09:16",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-05-23T09:16:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-23T08:16:34-00:00, urn:oid:2.49.0.1.124.3237816783.2020<br>Area: R.M. of Coldwell incl. Lundar and Clarkleigh",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-23:feed.atom/urn:oid:2.49.0.1.124.3237816783.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-23/2020_05_23T08_16_34_00_00Iurn_oid_2.49.0.1.124.3237816783.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200523091634+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -98.4292, 50.7715 ],
 							[ -98.189, 50.5963 ],
 							[ -98.1795, 50.5132 ],
@@ -284,75 +331,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-23/2020_05_23T07_11_55_00_00Iurn_oid_2.49.0.1.124.1198482036.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200523095755+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -99.4973, 51.8514 ],
-							[ -99.6067, 51.7181 ],
-							[ -99.6, 51.5645 ],
-							[ -99.5553, 51.4312 ],
-							[ -99.4699, 51.4914 ],
-							[ -99.4349, 51.5713 ],
-							[ -99.3299, 51.5604 ],
-							[ -99.2771, 51.4275 ],
-							[ -99.1819, 51.4844 ],
-							[ -99.1363, 51.2418 ],
-							[ -99.0539, 51.1986 ],
-							[ -99.0805, 51.0378 ],
-							[ -98.9249, 50.8873 ],
-							[ -98.6424, 50.41 ],
-							[ -98.7085, 50.2836 ],
-							[ -98.549, 50.1221 ],
-							[ -98.3369, 50.1027 ],
-							[ -97.9342, 50.2602 ],
-							[ -97.8545, 50.3964 ],
-							[ -98.0373, 50.6163 ],
-							[ -98.5565, 50.9911 ],
-							[ -98.6893, 50.9466 ],
-							[ -98.6966, 51.0066 ],
-							[ -98.5202, 51.1726 ],
-							[ -98.5384, 51.2978 ],
-							[ -98.729, 51.3367 ],
-							[ -98.7154, 51.4418 ],
-							[ -98.7582, 51.5144 ],
-							[ -98.6862, 51.5663 ],
-							[ -98.8069, 51.7408 ],
-							[ -99.0947, 51.7452 ],
-							[ -99.2104, 51.8345 ],
-							[ -99.2399, 51.6682 ],
-							[ -99.3036, 51.8219 ],
-							[ -99.3791, 51.8033 ],
-							[ -99.4973, 51.8514 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 23, 2020 06:22",
-				"Expires_UTC" : "May 23, 2020 08:19",
-				"Summary" : "Description: Squalls with wind gusts up to 35 knots, frequent lightning and poor to very poor visibility in thunderstorms heavy at times are expected or occurring in the area.\n\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-05-23T08:19:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-23T06:22:46-00:00, urn:oid:2.49.0.1.124.3539437537.2020<br>Area: Lake Manitoba",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-23:feed.atom/urn:oid:2.49.0.1.124.3539437537.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-23/2020_05_23T06_22_46_00_00Iurn_oid_2.49.0.1.124.3539437537.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200523081946+00:00"
 			}
 		},
 		{
@@ -632,6 +610,48 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-23/2020_05_23T07_52_11_00_00Iurn_oid_2.49.0.1.124.3955467142.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200523235111+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -104.8658, 57.0615 ],
+							[ -103.2379, 57.8161 ],
+							[ -102.0074, 58.3877 ],
+							[ -101.9745, 59.1823 ],
+							[ -102.0075, 59.9992 ],
+							[ -103.4256, 60.0239 ],
+							[ -104.8657, 59.9995 ],
+							[ -104.8657, 58.3999 ],
+							[ -104.8658, 57.0615 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 23, 2020 08:14",
+				"Expires_UTC" : "May 23, 2020 16:13",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\nPatchy freezing rain will continue until midmorning when temperature rise above zero.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery. Utility outages may occur.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-05-23T16:13:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-23T08:14:50-00:00, urn:oid:2.49.0.1.124.2555093198.2020<br>Area: Wollaston Lake - Collins Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-23:feed.atom/urn:oid:2.49.0.1.124.2555093198.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-23/2020_05_23T08_14_50_00_00Iurn_oid_2.49.0.1.124.2555093198.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200523161350+00:00"
 			}
 		},
 		{
