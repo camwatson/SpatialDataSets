@@ -347,72 +347,6 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 24, 2020 22:18",
-				"Expires_UTC" : "May 25, 2020 01:16",
-				"Summary" : "Description: At 6:15 P.M. Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain. There is also the risk of a tornado with this storm located 6 kilometres north of Borden tracking northeastward at 40 kilometres per hour.\n\n###\n\nHeavy downpours are likely to cause flash floods and water pooling on roads.<br>Expires: 2020-05-25T01:16:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-24T22:18:46-00:00, urn:oid:2.49.0.1.124.1213618161.2020<br>Area: Barrie - Collingwood - Hillsdale",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-24:feed.atom/urn:oid:2.49.0.1.124.1213618161.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-24/2020_05_24T22_18_46_00_00Iurn_oid_2.49.0.1.124.1213618161.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200525011646+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.6299, 44.3954 ],
-							[ -79.6293, 44.5519 ],
-							[ -79.9704, 44.6487 ],
-							[ -79.9812, 44.6517 ],
-							[ -80.2774, 44.6441 ],
-							[ -80.2918, 44.5273 ],
-							[ -80.2349, 44.2815 ],
-							[ -80.2335, 44.2663 ],
-							[ -80.2285, 44.2542 ],
-							[ -80.1126, 44.2756 ],
-							[ -80.0028, 44.299 ],
-							[ -79.8682, 44.3238 ],
-							[ -79.7487, 44.3494 ],
-							[ -79.7441, 44.3283 ],
-							[ -79.738, 44.3101 ],
-							[ -79.7142, 44.3092 ],
-							[ -79.6886, 44.3101 ],
-							[ -79.6833, 44.3194 ],
-							[ -79.6802, 44.3286 ],
-							[ -79.666, 44.3236 ],
-							[ -79.6497, 44.3199 ],
-							[ -79.6429, 44.331 ],
-							[ -79.6383, 44.3401 ],
-							[ -79.6185, 44.3449 ],
-							[ -79.5995, 44.35 ],
-							[ -79.5991, 44.3546 ],
-							[ -79.5995, 44.3592 ],
-							[ -79.611, 44.3637 ],
-							[ -79.6218, 44.3673 ],
-							[ -79.6043, 44.3903 ],
-							[ -79.6284, 44.3869 ],
-							[ -79.6291, 44.3911 ],
-							[ -79.6299, 44.3954 ]
-						]
-					]
-				]
-			},
-			"properties" : {
 				"subCategory" : "Met:Watch:Severe",
 				"Title" : "Tornado Watch In Effect",
 				"Category" : "Actual",
@@ -484,6 +418,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-24/2020_05_24T13_52_08_00_00Iurn_oid_2.49.0.1.124.0937549368.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200524225908+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -83.5846, 63.9682 ],
+							[ -83.2662, 63.9163 ],
+							[ -82.8791, 64.1863 ],
+							[ -82.9926, 64.3386 ],
+							[ -83.3373, 64.4141 ],
+							[ -83.6952, 64.3607 ],
+							[ -83.8576, 64.2208 ],
+							[ -83.5846, 63.9682 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 24, 2020 19:29",
+				"Expires_UTC" : "May 25, 2020 11:28",
+				"Summary" : "Description: Heavy, accumulating snow continues in Coral Harbour.\n\nA further 2 to 4 cm is forecast to fall overnight and snow will gradually taper off Monday morning.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-05-25T11:28:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-24T19:29:16-00:00, urn:oid:2.49.0.1.124.1483510495.2020<br>Area: Coral Harbour",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-24:feed.atom/urn:oid:2.49.0.1.124.1483510495.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-24/2020_05_24T19_29_16_00_00Iurn_oid_2.49.0.1.124.1483510495.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200525112816+00:00"
 			}
 		},
 		{
@@ -1388,6 +1363,72 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.6299, 44.3954 ],
+							[ -79.6293, 44.5519 ],
+							[ -79.9704, 44.6487 ],
+							[ -79.9812, 44.6517 ],
+							[ -80.2774, 44.6441 ],
+							[ -80.2918, 44.5273 ],
+							[ -80.2349, 44.2815 ],
+							[ -80.2335, 44.2663 ],
+							[ -80.2285, 44.2542 ],
+							[ -80.1126, 44.2756 ],
+							[ -80.0028, 44.299 ],
+							[ -79.8682, 44.3238 ],
+							[ -79.7487, 44.3494 ],
+							[ -79.7441, 44.3283 ],
+							[ -79.738, 44.3101 ],
+							[ -79.7142, 44.3092 ],
+							[ -79.6886, 44.3101 ],
+							[ -79.6833, 44.3194 ],
+							[ -79.6802, 44.3286 ],
+							[ -79.666, 44.3236 ],
+							[ -79.6497, 44.3199 ],
+							[ -79.6429, 44.331 ],
+							[ -79.6383, 44.3401 ],
+							[ -79.6185, 44.3449 ],
+							[ -79.5995, 44.35 ],
+							[ -79.5991, 44.3546 ],
+							[ -79.5995, 44.3592 ],
+							[ -79.611, 44.3637 ],
+							[ -79.6218, 44.3673 ],
+							[ -79.6043, 44.3903 ],
+							[ -79.6284, 44.3869 ],
+							[ -79.6291, 44.3911 ],
+							[ -79.6299, 44.3954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 24, 2020 22:45",
+				"Expires_UTC" : "May 25, 2020 01:16",
+				"Summary" : "Description: At 6:45 P.M. Environment Canada meteorologists are tracking a few severe thunderstorms capable of producing very strong wind gusts, up to nickel size hail and heavy rain. The thunderstorms will be moving from west to east through the region early this evening.\n\n###\n\nHeavy downpours are likely to cause flash floods and water pooling on roads.<br>Expires: 2020-05-25T01:16:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-24T22:45:16-00:00, urn:oid:2.49.0.1.124.0740697252.2020<br>Area: Barrie - Collingwood - Hillsdale",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-24:feed.atom/urn:oid:2.49.0.1.124.0740697252.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-24/2020_05_24T22_45_16_00_00Iurn_oid_2.49.0.1.124.0740697252.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200525011616+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.2189, 43.9987 ],
 							[ -79.2174, 43.9983 ],
 							[ -78.7046, 44.0831 ],
@@ -1534,47 +1575,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-24/2020_05_24T22_35_39_00_00Iurn_oid_2.49.0.1.124.2692771785.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200525042939+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -83.5846, 63.9682 ],
-							[ -83.2662, 63.9163 ],
-							[ -82.8791, 64.1863 ],
-							[ -82.9926, 64.3386 ],
-							[ -83.3373, 64.4141 ],
-							[ -83.6952, 64.3607 ],
-							[ -83.8576, 64.2208 ],
-							[ -83.5846, 63.9682 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 24, 2020 19:29",
-				"Expires_UTC" : "May 25, 2020 11:28",
-				"Summary" : "Description: Heavy, accumulating snow continues in Coral Harbour.\n\nA further 2 to 4 cm is forecast to fall overnight and snow will gradually taper off Monday morning.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-05-25T11:28:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-24T19:29:16-00:00, urn:oid:2.49.0.1.124.1483510495.2020<br>Area: Coral Harbour",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-24:feed.atom/urn:oid:2.49.0.1.124.1483510495.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-24/2020_05_24T19_29_16_00_00Iurn_oid_2.49.0.1.124.1483510495.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200525112816+00:00"
 			}
 		}
 	]
