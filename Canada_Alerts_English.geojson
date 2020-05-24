@@ -72,6 +72,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 24, 2020 14:17",
+				"Expires_UTC" : "May 24, 2020 15:17",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n\n###<br>Expires: 2020-05-24T15:17:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-24T14:17:12-00:00, urn:oid:2.49.0.1.124.3172806706.2020<br>Area: Rankin Region including Whale Cove",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-24:feed.atom/urn:oid:2.49.0.1.124.3172806706.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-24/2020_05_24T14_17_12_00_00Iurn_oid_2.49.0.1.124.3172806706.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200524151712+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.4344, 47.921 ],
 							[ -65.2163, 47.9516 ],
 							[ -64.7544, 48.0994 ],
@@ -219,44 +266,45 @@
 				"coordinates" : [
 					[
 						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
+							[ -115.0388, 68.0735 ],
+							[ -115.0934, 67.9545 ],
+							[ -115.6489, 67.917 ],
+							[ -115.6517, 67.9119 ],
+							[ -115.7054, 67.8289 ],
+							[ -115.669, 67.7438 ],
+							[ -115.5482, 67.6708 ],
+							[ -115.3717, 67.6228 ],
+							[ -115.1514, 67.6031 ],
+							[ -114.9375, 67.616 ],
+							[ -114.7513, 67.6583 ],
+							[ -114.6152, 67.7273 ],
+							[ -114.569, 67.7819 ],
+							[ -114.6262, 68.0024 ],
+							[ -115.0388, 68.0735 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Freezing Rain Warning Ended",
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
 				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 24, 2020 14:17",
-				"Expires_UTC" : "May 24, 2020 15:17",
-				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n\n###<br>Expires: 2020-05-24T15:17:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-24T14:17:12-00:00, urn:oid:2.49.0.1.124.3172806706.2020<br>Area: Rankin Region including Whale Cove",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 24, 2020 14:29",
+				"Expires_UTC" : "May 25, 2020 06:29",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-05-25T06:29:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-24T14:29:06-00:00, urn:oid:2.49.0.1.124.3014625683.2020<br>Area: Kugluktuk",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-24:feed.atom/urn:oid:2.49.0.1.124.3172806706.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-24/2020_05_24T14_17_12_00_00Iurn_oid_2.49.0.1.124.3172806706.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-24:feed.atom/urn:oid:2.49.0.1.124.3014625683.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-24/2020_05_24T14_29_06_00_00Iurn_oid_2.49.0.1.124.3014625683.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200524151712+00:00"
+				"Expires_FMEFormat" : "20200525062906+00:00"
 			}
 		},
 		{
