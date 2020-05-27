@@ -636,6 +636,45 @@
 				"coordinates" : [
 					[
 						[
+							[ -114.3337, 53.6831 ],
+							[ -114.3701, 53.666 ],
+							[ -114.3326, 53.6724 ],
+							[ -114.3337, 53.6831 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Other",
+				"Title" : "Alberta Emergency Alert - High Water Level Alert",
+				"Category" : "Actual",
+				"event" : "High Water Level",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 27, 2020 16:55",
+				"Expires_UTC" : "June 3, 2020 16:56",
+				"Summary" : "Description: Rising lake water is threatening areas along the Village of Alberta Beach, Summer Village of Val Quentin, and Sunset Point shorelines.  This may threaten property in the area. \n###\nSandbags have been ordered and will be available at the Alberta Beach Public Works Building, 4000 Museum Road, by 6:00 PM.  Volunteers are available to assist with some of the sand bagging activities. \n\nListen to local community radio or follow https://www.facebook.com/albertabeach/ Facebook page or http://www.albertabeach.com/ for more information as it becomes available.\n\nGo to https://511.alberta.ca for up-to-date Road Report information.<br>Expires: 2020-06-03T16:56:09-06:00<br>Originated from CAP Alert: Alberta Emergency Management Agency on Behalf of the Village of Alberta Beach, 2020-05-27T16:55:43-06:00, NAADS-CA-AB-AEA1-6417<br>Area: Alberta Beach",
+				"Author" : "Alberta Emergency Management Agency on Behalf of the Village of Alberta Beach",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/NAADS-CA-AB-AEA1-6417",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T16_55_43_06_00INAADS_CA_AB_AEA1_6417.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200603165609-06:00",
+				"EnclosureType" : "audio/mpeg",
+				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/8017-0.mp3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -80.6965, 46.106 ],
 							[ -80.5701, 46.0178 ],
 							[ -80.5706, 45.8856 ],
@@ -1853,25 +1892,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 27, 2020 21:52",
-				"Expires_UTC" : "May 27, 2020 22:51",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\nThis storm has now dissipated.\n\n###<br>Expires: 2020-05-27T22:51:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T21:52:41-00:00, urn:oid:2.49.0.1.124.0679978708.2020<br>Area: Cornwall to Montréal",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 27, 2020 21:34",
+				"Expires_UTC" : "May 27, 2020 23:01",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots are expected or occurring in the area.\n\nA thunderstorm near Pointe-Fraser is moving northeast at 15 km/h, and may produce a squall to 40 kt. \n\nThis storm should mainly impact areas of the St. Lawrence River from Glen Walter to Port Lewis.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-05-27T23:01:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T21:34:45-00:00, urn:oid:2.49.0.1.124.1018937927.2020<br>Area: Cornwall to Montréal",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.0679978708.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T21_52_41_00_00Iurn_oid_2.49.0.1.124.0679978708.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.1018937927.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T21_34_45_00_00Iurn_oid_2.49.0.1.124.1018937927.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200527225141+00:00"
+				"Expires_FMEFormat" : "20200527230145+00:00"
 			}
 		},
 		{
