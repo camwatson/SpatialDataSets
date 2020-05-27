@@ -327,8 +327,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -80.8407, 51.8738 ],
-							[ -82.1507, 51.3164 ],
 							[ -82.1596, 51.3124 ],
 							[ -81.4395, 50.7218 ],
 							[ -79.5166, 50.7219 ],
@@ -341,32 +339,34 @@
 							[ -80.2894, 51.3971 ],
 							[ -80.3594, 51.6003 ],
 							[ -80.6927, 51.9724 ],
-							[ -80.8373, 51.8769 ],
-							[ -80.8407, 51.8738 ]
+							[ -81.4236, 52.4881 ],
+							[ -81.6114, 52.4649 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.1596, 51.3124 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Severe Thunderstorm Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
+				"urgency" : "Expected",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 27, 2020 21:17",
-				"Expires_UTC" : "May 28, 2020 00:16",
-				"Summary" : "Description: At 5:17 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to nickel size hail.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T00:16:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T21:17:26-00:00, urn:oid:2.49.0.1.124.3298964984.2020<br>Area: Moosonee",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 27, 2020 15:53",
+				"Expires_UTC" : "May 28, 2020 05:49",
+				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing very strong wind gusts and damaging hail.\n\nThe threat will end this evening.\n\n###\n\nVery large hail can damage property, break windows, dent vehicles and cause serious injury. Very strong wind gusts can damage buildings, down trees and blow large vehicles off the road. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-05-28T05:49:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T15:53:49-00:00, urn:oid:2.49.0.1.124.3636948399.2020<br>Area: Fort Albany, Moosonee",
 				"Author" : "Environment Canada",
-				"msgType" : "Alert",
+				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.3298964984.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T21_17_26_00_00Iurn_oid_2.49.0.1.124.3298964984.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.3636948399.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T15_53_49_00_00Iurn_oid_2.49.0.1.124.3636948399.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528001626+00:00"
+				"Expires_FMEFormat" : "20200528054949+00:00"
 			}
 		},
 		{
@@ -599,46 +599,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T20_37_42_00_00Iurn_oid_2.49.0.1.124.1217445390.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200527233642+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.4395, 50.7218 ],
-							[ -81.4419, 49.5091 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 27, 2020 19:17",
-				"Expires_UTC" : "May 27, 2020 22:14",
-				"Summary" : "Description: At 3:15 PM EDT, Environment Canada meteorologists are tracking several severe thunderstorms capable of producing very strong wind gusts and up to toonie size hail.  These thunderstorms are tracking northeast at 70 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-27T22:14:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T19:17:52-00:00, urn:oid:2.49.0.1.124.4106609689.2020<br>Area: Little Abitibi - Kesagami Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.4106609689.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T19_17_52_00_00Iurn_oid_2.49.0.1.124.4106609689.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200527221452+00:00"
 			}
 		},
 		{
@@ -935,6 +895,76 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T15_52_54_00_00Iurn_oid_2.49.0.1.124.3823970999.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200528054954+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ],
+							[ -82.6293, 48.2543 ],
+							[ -81.0729, 48.2526 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5072, 48.3417 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5062, 48.5243 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5076, 48.9319 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.362, 51.2908 ],
+							[ -84.5361, 51.1721 ],
+							[ -84.7492, 51.2465 ],
+							[ -84.8479, 51.1686 ],
+							[ -87.4321, 51.159 ],
+							[ -87.4321, 49.9482 ],
+							[ -85.9469, 49.9546 ],
+							[ -85.9469, 48.8844 ],
+							[ -84.0089, 48.5511 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 27, 2020 15:53",
+				"Expires_UTC" : "May 28, 2020 05:49",
+				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing very strong wind gusts and damaging hail.\n\nThe threat will end this evening.\n\n###\n\nVery large hail can damage property, break windows, dent vehicles and cause serious injury. Very strong wind gusts can damage buildings, down trees and blow large vehicles off the road. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-05-28T05:49:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T15:53:49-00:00, urn:oid:2.49.0.1.124.2824058959.2020<br>Area: Nakina - Aroland - Pagwa, Manitouwadge - Hornepayne, Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake, Timmins - Cochrane - Iroquois Falls",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.2824058959.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T15_53_49_00_00Iurn_oid_2.49.0.1.124.2824058959.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200528054949+00:00"
 			}
 		},
 		{
@@ -1600,6 +1630,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.4395, 50.7218 ],
+							[ -81.4419, 49.5091 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 27, 2020 21:22",
+				"Expires_UTC" : "May 27, 2020 23:14",
+				"Summary" : "Description: At 5:20 PM EDT, Environment Canada meteorologists are tracking several severe thunderstorms capable of producing very strong wind gusts and up to nickel size hail.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-27T23:14:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T21:22:01-00:00, urn:oid:2.49.0.1.124.2266559195.2020<br>Area: Little Abitibi - Kesagami Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.2266559195.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T21_22_01_00_00Iurn_oid_2.49.0.1.124.2266559195.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200527231401+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -77.7996, 48.4498 ],
 							[ -77.3996, 48.2831 ],
 							[ -77.3997, 48.0998 ],
@@ -1636,76 +1706,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T19_05_51_00_00Iurn_oid_2.49.0.1.124.3787433639.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200527215551+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ],
-							[ -82.6293, 48.2543 ],
-							[ -81.0729, 48.2526 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5072, 48.3417 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5062, 48.5243 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5076, 48.9319 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.4321, 49.9482 ],
-							[ -85.9469, 49.9546 ],
-							[ -85.9469, 48.8844 ],
-							[ -84.0089, 48.5511 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 27, 2020 15:53",
-				"Expires_UTC" : "May 28, 2020 05:49",
-				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing very strong wind gusts and damaging hail.\n\nThe threat will end this evening.\n\n###\n\nVery large hail can damage property, break windows, dent vehicles and cause serious injury. Very strong wind gusts can damage buildings, down trees and blow large vehicles off the road. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-05-28T05:49:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T15:53:49-00:00, urn:oid:2.49.0.1.124.2824058959.2020<br>Area: Nakina - Aroland - Pagwa, Manitouwadge - Hornepayne, Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake, Timmins - Cochrane - Iroquois Falls",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.2824058959.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T15_53_49_00_00Iurn_oid_2.49.0.1.124.2824058959.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528054949+00:00"
 			}
 		},
 		{
@@ -2391,6 +2391,8 @@
 				"coordinates" : [
 					[
 						[
+							[ -80.8407, 51.8738 ],
+							[ -82.1507, 51.3164 ],
 							[ -82.1596, 51.3124 ],
 							[ -81.4395, 50.7218 ],
 							[ -79.5166, 50.7219 ],
@@ -2403,34 +2405,32 @@
 							[ -80.2894, 51.3971 ],
 							[ -80.3594, 51.6003 ],
 							[ -80.6927, 51.9724 ],
-							[ -81.4236, 52.4881 ],
-							[ -81.6114, 52.4649 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.1596, 51.3124 ]
+							[ -80.8373, 51.8769 ],
+							[ -80.8407, 51.8738 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Severe Thunderstorm Watch In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Expected",
+				"urgency" : "Immediate",
 				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 27, 2020 15:53",
-				"Expires_UTC" : "May 28, 2020 05:49",
-				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing very strong wind gusts and damaging hail.\n\nThe threat will end this evening.\n\n###\n\nVery large hail can damage property, break windows, dent vehicles and cause serious injury. Very strong wind gusts can damage buildings, down trees and blow large vehicles off the road. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-05-28T05:49:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T15:53:49-00:00, urn:oid:2.49.0.1.124.3636948399.2020<br>Area: Fort Albany, Moosonee",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 27, 2020 21:18",
+				"Expires_UTC" : "May 28, 2020 00:16",
+				"Summary" : "Description: At 5:17 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to nickel size hail.\n\nThis severe thunderstorm is located 45 kilometres northeast of Kesagami Provincial Park or 180 km northwest of Matagami, moving northeast at 70 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T00:16:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T21:18:26-00:00, urn:oid:2.49.0.1.124.2991985907.2020<br>Area: Moosonee",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.3636948399.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T15_53_49_00_00Iurn_oid_2.49.0.1.124.3636948399.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.2991985907.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T21_18_26_00_00Iurn_oid_2.49.0.1.124.2991985907.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528054949+00:00"
+				"Expires_FMEFormat" : "20200528001626+00:00"
 			}
 		}
 	]
