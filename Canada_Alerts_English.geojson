@@ -110,53 +110,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.192, 51.7106 ],
-							[ -79.4165, 51.7137 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5368, 51.0871 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.5167, 50.5155 ],
-							[ -75.9995, 50.5156 ],
-							[ -76, 51.6249 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.9877, 51.6266 ],
-							[ -79.0521, 51.6205 ],
-							[ -79.1401, 51.6578 ],
-							[ -79.192, 51.7106 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 27, 2020 22:45",
-				"Expires_UTC" : "May 28, 2020 01:39",
-				"Summary" : "Description: At 6:40 P.M. EDT, Environment Canada meteorologists are tracking several severe thunderstorms about 60 km southeast of Waskaganish.  These thunderstorms are tracking northeast at 70 km/h and are capable of producing very strong wind gusts and up to nickel size hail.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T01:39:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T22:45:29-00:00, urn:oid:2.49.0.1.124.0801648848.2020<br>Area: Waskaganish",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.0801648848.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T22_45_29_00_00Iurn_oid_2.49.0.1.124.0801648848.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528013929+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -114.3337, 53.6831 ],
 							[ -114.3701, 53.666 ],
 							[ -114.3326, 53.6724 ],
@@ -698,6 +651,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -104.8658, 57.0615 ],
+							[ -104.8658, 56.1199 ],
+							[ -104.1998, 56.1199 ],
+							[ -103.2006, 56.1199 ],
+							[ -102.004, 56.1199 ],
+							[ -102.0008, 56.2197 ],
+							[ -102.0073, 56.3385 ],
+							[ -102.0073, 57.11 ],
+							[ -101.9861, 57.6901 ],
+							[ -102.0074, 58.3877 ],
+							[ -101.9745, 59.1823 ],
+							[ -102.0075, 59.9992 ],
+							[ -103.4256, 60.0239 ],
+							[ -104.8657, 59.9995 ],
+							[ -104.8657, 58.3999 ],
+							[ -104.8658, 57.0615 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 27, 2020 21:55",
+				"Expires_UTC" : "May 28, 2020 03:59",
+				"Summary" : "Description: Ice build-up due to freezing rain is expected or occurring.\n\nAn area of freezing rain over northeastern Saskatchewan will shift southward  impacting areas around Reindeer Lake tonight. Freezing rain will taper off by Thursday morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-05-28T03:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T21:55:34-00:00, urn:oid:2.49.0.1.124.1154656500.2020<br>Area: Wollaston Lake - Collins Bay, Southend - Brabant Lake - Kinoosao",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.1154656500.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T21_55_34_00_00Iurn_oid_2.49.0.1.124.1154656500.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200528035934+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -67.7823, 45.9319 ],
 							[ -67.815, 45.8762 ],
 							[ -67.839, 45.6671 ],
@@ -756,98 +758,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T23_52_16_00_00Iurn_oid_2.49.0.1.124.2052809846.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200528014416+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -104.8658, 57.0615 ],
-							[ -104.8658, 56.1199 ],
-							[ -104.1998, 56.1199 ],
-							[ -103.2006, 56.1199 ],
-							[ -102.004, 56.1199 ],
-							[ -102.0008, 56.2197 ],
-							[ -102.0073, 56.3385 ],
-							[ -102.0073, 57.11 ],
-							[ -101.9861, 57.6901 ],
-							[ -102.0074, 58.3877 ],
-							[ -101.9745, 59.1823 ],
-							[ -102.0075, 59.9992 ],
-							[ -103.4256, 60.0239 ],
-							[ -104.8657, 59.9995 ],
-							[ -104.8657, 58.3999 ],
-							[ -104.8658, 57.0615 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 27, 2020 21:55",
-				"Expires_UTC" : "May 28, 2020 03:59",
-				"Summary" : "Description: Ice build-up due to freezing rain is expected or occurring.\n\nAn area of freezing rain over northeastern Saskatchewan will shift southward  impacting areas around Reindeer Lake tonight. Freezing rain will taper off by Thursday morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-05-28T03:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T21:55:34-00:00, urn:oid:2.49.0.1.124.1154656500.2020<br>Area: Wollaston Lake - Collins Bay, Southend - Brabant Lake - Kinoosao",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.1154656500.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T21_55_34_00_00Iurn_oid_2.49.0.1.124.1154656500.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528035934+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -75.9995, 50.4999 ],
-							[ -75.9995, 50.5156 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -78.5004, 49.2934 ],
-							[ -77.3232, 49.2924 ],
-							[ -76.4997, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ],
-							[ -75.9995, 50.4999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 27, 2020 23:41",
-				"Expires_UTC" : "May 28, 2020 01:34",
-				"Summary" : "Description: At 7:40 p.m. EDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts and up to nickel size hail.\n\nThis line of thunderstorms is located 30 km east of Matagami and is tracking east at 65 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-05-28T01:34:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T23:41:58-00:00, urn:oid:2.49.0.1.124.3294195445.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.3294195445.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T23_41_58_00_00Iurn_oid_2.49.0.1.124.3294195445.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528013458+00:00"
 			}
 		},
 		{
