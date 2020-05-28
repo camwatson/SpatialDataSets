@@ -190,60 +190,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -75.9993, 49.2832 ],
-							[ -73.6025, 49.2849 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.4993, 49.55 ],
-							[ -72.6666, 49.6653 ],
-							[ -72.6628, 49.6658 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 51.647 ],
-							[ -72.011, 51.6472 ],
-							[ -75.9391, 51.6264 ],
-							[ -76, 51.6249 ],
-							[ -75.9995, 50.5156 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -78.5004, 49.2934 ],
-							[ -77.3232, 49.2924 ],
-							[ -76.4997, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 28, 2020 19:10",
-				"Expires_UTC" : "May 28, 2020 21:56",
-				"Summary" : "Description: At 19:09 UTC, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing heavy rain. The line is slowly moving to the south with multiple thunderstorms moving over the same areas producing large amounts of rain. Totals for some areas could exceed 50 mm.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T21:56:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T19:10:49-00:00, urn:oid:2.49.0.1.124.1009616872.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area, Chibougamau",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.1009616872.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T19_10_49_00_00Iurn_oid_2.49.0.1.124.1009616872.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528215649+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -75.9995, 50.4999 ],
 							[ -75.9995, 50.5156 ],
 							[ -79.5167, 50.5155 ],
@@ -918,6 +864,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.4419, 49.5091 ],
+							[ -81.4426, 49.1637 ],
+							[ -82.6268, 49.1616 ],
+							[ -82.6293, 48.2543 ],
+							[ -81.0729, 48.2526 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5072, 48.3417 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5062, 48.5243 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5076, 48.9319 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ],
+							[ -81.4419, 49.5091 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 28, 2020 18:31",
+				"Expires_UTC" : "May 29, 2020 08:00",
+				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing large hail and torrential rain.\n\nScattered thunderstorms have developed across the area. These thunderstorms will be very slow moving. As a result the main threat from these thunderstorms will be heavy rainfall with a slight chance of nickel size hail.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-05-29T08:00:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T18:31:16-00:00, urn:oid:2.49.0.1.124.2530526548.2020<br>Area: Little Abitibi - Kesagami Lake, Timmins - Cochrane - Iroquois Falls",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.2530526548.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T18_31_16_00_00Iurn_oid_2.49.0.1.124.2530526548.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200529080016+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -86.5309, 48.2984 ],
 							[ -86.1345, 47.4654 ],
 							[ -85.809, 47.3094 ],
@@ -990,18 +986,18 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 28, 2020 20:11",
-				"Expires_UTC" : "May 28, 2020 21:59",
-				"Summary" : "Description: At 5:10 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nMaximum wind gusts: 90 to 110 km/h in thunderstorms.\n\nLocations: Hacheyville, Saint-Isidore, Saint-Irenee, Gaspereau,Tracadie-Sheila and Val-Comeau.\n\nTime span: until 6:00 PM.\n\nRemarks: A second cluster of thunderstorms near Haut-Saint-Isidore is slowly moving eastward. Torrential downpours, hail and strong wind gusts are associated with these thunderstorms.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T21:59:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T20:11:20-00:00, urn:oid:2.49.0.1.124.2703543881.2020<br>Area: Acadian Peninsula",
+				"LastUpdate_UTC" : "May 28, 2020 20:37",
+				"Expires_UTC" : "May 28, 2020 22:59",
+				"Summary" : "Description: At 5:37 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T22:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T20:37:16-00:00, urn:oid:2.49.0.1.124.0511599954.2020<br>Area: Acadian Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.2703543881.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T20_11_20_00_00Iurn_oid_2.49.0.1.124.2703543881.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.0511599954.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T20_37_16_00_00Iurn_oid_2.49.0.1.124.0511599954.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528215920+00:00"
+				"Expires_FMEFormat" : "20200528225916+00:00"
 			}
 		},
 		{
@@ -1348,6 +1344,60 @@
 				"coordinates" : [
 					[
 						[
+							[ -75.9993, 49.2832 ],
+							[ -73.6025, 49.2849 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.4993, 49.55 ],
+							[ -72.6666, 49.6653 ],
+							[ -72.6628, 49.6658 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 51.647 ],
+							[ -72.011, 51.6472 ],
+							[ -75.9391, 51.6264 ],
+							[ -76, 51.6249 ],
+							[ -75.9995, 50.5156 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -78.5004, 49.2934 ],
+							[ -77.3232, 49.2924 ],
+							[ -76.4997, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 28, 2020 20:33",
+				"Expires_UTC" : "May 28, 2020 23:24",
+				"Summary" : "Description: At 20:25 UTC, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing heavy rain. The line is oriented from northeast to southwest and is slowly moving to the southeast with multiple thunderstorms moving over the same areas producing large amounts of rain. Totals for some areas could exceed 50 mm.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T23:24:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T20:33:38-00:00, urn:oid:2.49.0.1.124.2189206437.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area, Chibougamau",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.2189206437.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T20_33_38_00_00Iurn_oid_2.49.0.1.124.2189206437.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200528232438+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.8243, 48.018 ],
 							[ -66.0128, 48.0649 ],
 							[ -66.2939, 48.0424 ],
@@ -1532,18 +1582,18 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 28, 2020 19:58",
-				"Expires_UTC" : "May 28, 2020 21:59",
-				"Summary" : "Description: At 4:57 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nMaximum wind gusts: 90 to 110 km/h in thunderstorms.\n\nLocations: Notre-Dame-de-Lourdes, Fleming, Grande Riviere, Veneer, Violette and Black Brook. \n\nTime span: until 6:00 PM.\n\nRemarks: A cluster of thunderstorms near Notre-Dame-de-Lourdes is moving northeastward at 30 km/h. Torrential downpours, hail and strong wind gusts are associated with these thunderstorms.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T21:59:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T19:58:00-00:00, urn:oid:2.49.0.1.124.3332989877.2020<br>Area: Edmundston and Madawaska County",
+				"LastUpdate_UTC" : "May 28, 2020 20:33",
+				"Expires_UTC" : "May 28, 2020 22:59",
+				"Summary" : "Description: At 5:32 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nMaximum wind gusts: 90 to 110 km/h in thunderstorms.\n\nLocations: areas west of Kedgwick and Saint-Jean-baptiste-de-Restigouche. \n\nTime span: until 7:00 PM.\n\nRemarks: A cluster of thunderstorms between Mount Connacher and Brodericks Hill is moving northeastward at 30 km/h. Torrential downpours, hail and strong wind gusts are associated with these thunderstorms.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T22:59:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T20:33:47-00:00, urn:oid:2.49.0.1.124.2221757313.2020<br>Area: Edmundston and Madawaska County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.3332989877.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T19_58_00_00_00Iurn_oid_2.49.0.1.124.3332989877.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.2221757313.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T20_33_47_00_00Iurn_oid_2.49.0.1.124.2221757313.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528215900+00:00"
+				"Expires_FMEFormat" : "20200528225947+00:00"
 			}
 		},
 		{
@@ -1627,74 +1677,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement Ended",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
 				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
+				"urgency" : "Future",
+				"certainty" : "Possible",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 28, 2020 19:33",
-				"Expires_UTC" : "May 28, 2020 20:32",
-				"Summary" : "Description: Temperatures and humidex on Friday are no longer expected to approach warning criteria.\n\n###<br>Expires: 2020-05-28T20:32:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T19:33:06-00:00, urn:oid:2.49.0.1.124.4242075297.2020<br>Area: Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, St. Stephen and Northern Charlotte County, Moncton and Southeast New Brunswick",
+				"LastUpdate_UTC" : "May 28, 2020 14:00",
+				"Expires_UTC" : "May 29, 2020 05:59",
+				"Summary" : "Description: Unseasonably warm temperatures and high humidity expected today and Friday\n\nTime span: today and potentially into Friday.\n\nMaximum temperatures: Temperatures reaching or exceeding 30 degrees Celsius today.  Temperatures Friday reaching 28 degrees C.\n\nLocations: Southern New Brunswick (cooler temperatures for coastal communities).\n\nRemarks: Temperatures are expected to reach or exceed 30 degrees today and 28 degrees on Friday. Humidex values are expected to reach 31 to 37. A cold front will bring a return to seasonable temperatures for the start of the weekend.\n\nHeat warnings have been issued for portions of northern and central New Brunswick.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-05-29T05:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T14:00:38-00:00, urn:oid:2.49.0.1.124.1249353903.2020<br>Area: Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, St. Stephen and Northern Charlotte County, Moncton and Southeast New Brunswick",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.4242075297.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T19_33_06_00_00Iurn_oid_2.49.0.1.124.4242075297.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.1249353903.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T14_00_38_00_00Iurn_oid_2.49.0.1.124.1249353903.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528203206+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.4419, 49.5091 ],
-							[ -81.4426, 49.1637 ],
-							[ -82.6268, 49.1616 ],
-							[ -82.6293, 48.2543 ],
-							[ -81.0729, 48.2526 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5072, 48.3417 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5062, 48.5243 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5076, 48.9319 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -81.4419, 49.5091 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 28, 2020 18:31",
-				"Expires_UTC" : "May 29, 2020 08:00",
-				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing large hail and torrential rain.\n\nScattered thunderstorms have developed across the area. These thunderstorms will be very slow moving. As a result the main threat from these thunderstorms will be heavy rainfall with a slight chance of nickel size hail.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-05-29T08:00:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T18:31:16-00:00, urn:oid:2.49.0.1.124.2530526548.2020<br>Area: Little Abitibi - Kesagami Lake, Timmins - Cochrane - Iroquois Falls",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.2530526548.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T18_31_16_00_00Iurn_oid_2.49.0.1.124.2530526548.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200529080016+00:00"
+				"Expires_FMEFormat" : "20200529055938+00:00"
 			}
 		}
 	]
