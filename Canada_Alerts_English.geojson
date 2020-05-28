@@ -168,6 +168,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.4419, 49.5091 ],
+							[ -81.4426, 49.1637 ],
+							[ -82.6268, 49.1616 ],
+							[ -82.6293, 48.2543 ],
+							[ -81.0729, 48.2526 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5072, 48.3417 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5062, 48.5243 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5076, 48.9319 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ],
+							[ -81.4419, 49.5091 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Severe Thunderstorm Watch Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 27, 2020 23:51",
+				"Expires_UTC" : "May 28, 2020 00:50",
+				"Summary" : "Description: The severe thunderstorm threat area has moved well east. Thus, the watch is ended.\n\n###<br>Expires: 2020-05-28T00:50:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T23:51:39-00:00, urn:oid:2.49.0.1.124.3722001636.2020<br>Area: Little Abitibi - Kesagami Lake, Timmins - Cochrane - Iroquois Falls",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.3722001636.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T23_51_39_00_00Iurn_oid_2.49.0.1.124.3722001636.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200528005039+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -114.3337, 53.6831 ],
 							[ -114.3701, 53.666 ],
 							[ -114.3326, 53.6724 ],
@@ -364,49 +414,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -75.9995, 50.4999 ],
-							[ -75.9995, 50.5156 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -78.5004, 49.2934 ],
-							[ -77.3232, 49.2924 ],
-							[ -76.4997, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ],
-							[ -75.9995, 50.4999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 27, 2020 23:41",
-				"Expires_UTC" : "May 28, 2020 01:34",
-				"Summary" : "Description: At 7:40 p.m. EDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts and up to nickel size hail.\n\nThis line of thunderstorms is located 30 km east of Matagami and is tracking east at 65 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-05-28T01:34:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T23:41:58-00:00, urn:oid:2.49.0.1.124.3294195445.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.3294195445.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T23_41_58_00_00Iurn_oid_2.49.0.1.124.3294195445.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528013458+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -104.8658, 57.0615 ],
 							[ -104.8658, 56.1199 ],
 							[ -104.1998, 56.1199 ],
@@ -447,56 +454,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T21_55_34_00_00Iurn_oid_2.49.0.1.124.1154656500.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200528035934+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.4419, 49.5091 ],
-							[ -81.4426, 49.1637 ],
-							[ -82.6268, 49.1616 ],
-							[ -82.6293, 48.2543 ],
-							[ -81.0729, 48.2526 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5072, 48.3417 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5062, 48.5243 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5076, 48.9319 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -81.4419, 49.5091 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 27, 2020 23:51",
-				"Expires_UTC" : "May 28, 2020 00:50",
-				"Summary" : "Description: The severe thunderstorm threat area has moved well east. Thus, the watch is ended.\n\n###<br>Expires: 2020-05-28T00:50:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T23:51:39-00:00, urn:oid:2.49.0.1.124.3722001636.2020<br>Area: Little Abitibi - Kesagami Lake, Timmins - Cochrane - Iroquois Falls",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.3722001636.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T23_51_39_00_00Iurn_oid_2.49.0.1.124.3722001636.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528005039+00:00"
 			}
 		},
 		{
@@ -1358,72 +1315,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -66.8566, 46.7641 ],
-							[ -66.8571, 46.764 ],
-							[ -67.4395, 46.6526 ],
-							[ -67.7163, 46.5982 ],
-							[ -67.7882, 46.5984 ],
-							[ -67.789, 46.5984 ],
-							[ -67.7823, 45.9319 ],
-							[ -67.7666, 45.9302 ],
-							[ -67.7156, 45.9324 ],
-							[ -67.6941, 45.9545 ],
-							[ -67.6665, 45.9829 ],
-							[ -67.6318, 45.9663 ],
-							[ -67.5989, 45.9841 ],
-							[ -67.533, 45.9333 ],
-							[ -67.3011, 46.2169 ],
-							[ -66.2359, 46.3016 ],
-							[ -66.2355, 46.3017 ],
-							[ -66.2353, 46.3019 ],
-							[ -66.2349, 46.3023 ],
-							[ -65.9799, 46.3222 ],
-							[ -65.8356, 46.3331 ],
-							[ -65.5705, 46.6329 ],
-							[ -65.3919, 46.733 ],
-							[ -65.3925, 46.733 ],
-							[ -65.7656, 46.7811 ],
-							[ -65.7675, 46.7813 ],
-							[ -65.937, 46.7796 ],
-							[ -66.6606, 46.7689 ],
-							[ -66.6625, 46.7689 ],
-							[ -66.7052, 46.768 ],
-							[ -66.8513, 46.7651 ],
-							[ -66.8554, 46.7644 ],
-							[ -66.8566, 46.7641 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 27, 2020 22:45",
-				"Expires_UTC" : "May 28, 2020 00:44",
-				"Summary" : "Description: At 7:44 p.m. ADT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nMaximum rainfall rates: locally 25 to 35 mm per hour, and 2 cm hail.\n\nMaximum wind gusts: near 100 km/h.\n\nLocations impacted include:\nTracey Mills to Woodstock to Meductic, and another area over Parker Ridge and Boiestown.\n\nTime span: until mid-evening.\n\nRemarks: clusters of severe thunderstorms moving eastward at 30 km/h.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-28T00:44:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T22:45:04-00:00, urn:oid:2.49.0.1.124.2303047566.2020<br>Area: Woodstock and Carleton County, Stanley - Doaktown - Blackville Area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.2303047566.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T22_45_04_00_00Iurn_oid_2.49.0.1.124.2303047566.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528004404+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -75.9993, 49.2832 ],
 							[ -73.6025, 49.2849 ],
 							[ -73.6022, 49.2849 ],
@@ -1457,18 +1348,18 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 28, 2020 00:19",
+				"LastUpdate_UTC" : "May 28, 2020 00:41",
 				"Expires_UTC" : "May 28, 2020 02:34",
-				"Summary" : "Description: At 8:18 p.m. EDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts and up to nickel size hail.\n\nThis line of thunderstorms is moving eastward at 65 km/h and is approaching Waswanipi, Desmaraisville, and Miquelon.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-05-28T02:34:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T00:19:04-00:00, urn:oid:2.49.0.1.124.4110406236.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area, Chibougamau",
+				"Summary" : "Description: At 8:40 p.m. EDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts and up to nickel size hail.\n\nThis line of thunderstorms is moving eastward at 65 km/h and is approaching Waswanipi, Desmaraisville, and Miquelon.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-05-28T02:34:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T00:41:03-00:00, urn:oid:2.49.0.1.124.3284118645.2020<br>Area: Miquelon - Desmaraisville area, Chibougamau",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.4110406236.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T00_19_04_00_00Iurn_oid_2.49.0.1.124.4110406236.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.3284118645.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T00_41_03_00_00Iurn_oid_2.49.0.1.124.3284118645.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200528023404+00:00"
+				"Expires_FMEFormat" : "20200528023403+00:00"
 			}
 		},
 		{
@@ -1561,6 +1452,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T00_03_56_00_00Iurn_oid_2.49.0.1.124.0548904819.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200528045956+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -75.9995, 50.4999 ],
+							[ -75.9995, 50.5156 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -78.5004, 49.2934 ],
+							[ -77.3232, 49.2924 ],
+							[ -76.4997, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ],
+							[ -75.9995, 50.4999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 27, 2020 23:41",
+				"Expires_UTC" : "May 28, 2020 01:34",
+				"Summary" : "Description: At 7:40 p.m. EDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts and up to nickel size hail.\n\nThis line of thunderstorms is located 30 km east of Matagami and is tracking east at 65 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-05-28T01:34:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-27T23:41:58-00:00, urn:oid:2.49.0.1.124.3294195445.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-27:feed.atom/urn:oid:2.49.0.1.124.3294195445.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-27/2020_05_27T23_41_58_00_00Iurn_oid_2.49.0.1.124.3294195445.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200528013458+00:00"
 			}
 		}
 	]
