@@ -489,42 +489,116 @@
 				"coordinates" : [
 					[
 						[
-							[ -80.0799, 42.3935 ],
-							[ -78.9353, 42.8283 ],
-							[ -78.9059, 42.9052 ],
-							[ -78.8933, 42.9389 ],
-							[ -79.0529, 42.9623 ],
-							[ -79.6261, 42.9814 ],
-							[ -80.3291, 42.9012 ],
-							[ -80.5966, 42.7293 ],
-							[ -81.2109, 42.784 ],
-							[ -81.1553, 42.66 ],
-							[ -80.9327, 42.2591 ],
-							[ -80.0799, 42.3935 ]
+							[ -84.4985, 46.6539 ],
+							[ -84.6124, 46.6233 ],
+							[ -84.6283, 46.5491 ],
+							[ -84.5588, 46.4765 ],
+							[ -84.4902, 46.4573 ],
+							[ -84.1729, 46.4924 ],
+							[ -84.0972, 46.1959 ],
+							[ -83.9476, 46.0487 ],
+							[ -83.822, 46.1212 ],
+							[ -83.7566, 46.1199 ],
+							[ -83.7076, 46.1874 ],
+							[ -83.8414, 46.4826 ],
+							[ -83.9907, 46.781 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9912, 47.2516 ],
+							[ -84.6283, 47.2522 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.7351, 46.6321 ],
+							[ -84.4985, 46.6539 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory Ended",
 				"Category" : "Actual",
-				"event" : "Squall",
+				"event" : "Fog",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "May 29, 2020 16:39",
+				"Expires_UTC" : "May 29, 2020 17:39",
+				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-05-29T17:39:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T16:39:13-00:00, urn:oid:2.49.0.1.124.2313805379.2020<br>Area: Searchmont - Montreal River Harbour - Batchawana Bay, Sault Ste. Marie - St. Joseph Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.2313805379.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T16_39_13_00_00Iurn_oid_2.49.0.1.124.2313805379.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200529173913+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.3895, 45.1399 ],
+							[ -79.3499, 45.0509 ],
+							[ -79.3914, 45.039 ],
+							[ -79.4556, 45.0156 ],
+							[ -79.5006, 44.9608 ],
+							[ -79.5432, 44.8648 ],
+							[ -79.5662, 44.7803 ],
+							[ -79.5166, 44.784 ],
+							[ -79.3992, 44.7928 ],
+							[ -79.2988, 44.7904 ],
+							[ -79.2851, 44.7824 ],
+							[ -79.2358, 44.7938 ],
+							[ -79.2089, 44.8001 ],
+							[ -79.0624, 44.8403 ],
+							[ -79.1186, 44.95 ],
+							[ -79.1096, 44.9521 ],
+							[ -79.0993, 44.9549 ],
+							[ -79.0963, 44.9492 ],
+							[ -79.0928, 44.9431 ],
+							[ -79.0237, 44.9606 ],
+							[ -78.9347, 44.9858 ],
+							[ -78.9645, 45.046 ],
+							[ -79.0012, 45.1053 ],
+							[ -78.9997, 45.1057 ],
+							[ -78.8427, 45.1449 ],
+							[ -78.8439, 45.1471 ],
+							[ -78.8118, 45.1515 ],
+							[ -78.9392, 45.3891 ],
+							[ -78.8593, 45.4143 ],
+							[ -78.918, 45.531 ],
+							[ -79.0029, 45.5074 ],
+							[ -79.0368, 45.5697 ],
+							[ -79.5935, 45.5573 ],
+							[ -79.3895, 45.1399 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 29, 2020 16:29",
-				"Expires_UTC" : "May 29, 2020 18:29",
-				"Summary" : "Description: Squalls with wind gusts up to 35 knots are expected or occurring in the area.\n\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-05-29T18:29:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T16:29:52-00:00, urn:oid:2.49.0.1.124.0924398840.2020<br>Area: Eastern Lake Erie",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 29, 2020 16:37",
+				"Expires_UTC" : "May 29, 2020 19:36",
+				"Summary" : "Description: At 12:37 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-05-29T19:36:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T16:37:20-00:00, urn:oid:2.49.0.1.124.4175528350.2020<br>Area: Huntsville - Baysville, Bracebridge - Gravenhurst",
 				"Author" : "Environment Canada",
 				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.0924398840.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T16_29_52_00_00Iurn_oid_2.49.0.1.124.0924398840.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.4175528350.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T16_37_20_00_00Iurn_oid_2.49.0.1.124.4175528350.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200529182952+00:00"
+				"Expires_FMEFormat" : "20200529193620+00:00"
 			}
 		},
 		{
@@ -892,6 +966,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T14_33_55_00_00Iurn_oid_2.49.0.1.124.1940824375.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200530030355+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -80.0799, 42.3935 ],
+							[ -78.9353, 42.8283 ],
+							[ -78.9059, 42.9052 ],
+							[ -78.8933, 42.9389 ],
+							[ -79.0529, 42.9623 ],
+							[ -79.6261, 42.9814 ],
+							[ -80.3291, 42.9012 ],
+							[ -80.5966, 42.7293 ],
+							[ -81.2109, 42.784 ],
+							[ -81.1553, 42.66 ],
+							[ -80.9327, 42.2591 ],
+							[ -80.0799, 42.3935 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 29, 2020 16:37",
+				"Expires_UTC" : "May 29, 2020 18:29",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-05-29T18:29:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T16:37:30-00:00, urn:oid:2.49.0.1.124.2687033397.2020<br>Area: Eastern Lake Erie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.2687033397.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T16_37_30_00_00Iurn_oid_2.49.0.1.124.2687033397.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200529182930+00:00"
 			}
 		}
 	]
