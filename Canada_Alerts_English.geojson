@@ -337,56 +337,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.9972, 56.0007 ],
-							[ -87.0016, 55.9096 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.008, 55.0039 ],
-							[ -83.7002, 54.0287 ],
-							[ -82.2369, 54.0006 ],
-							[ -82.2294, 54.0004 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.0824, 54.6123 ],
-							[ -82.007, 55.0671 ],
-							[ -82.2786, 55.1755 ],
-							[ -82.7847, 55.1832 ],
-							[ -82.9498, 55.2286 ],
-							[ -83.9602, 55.3859 ],
-							[ -84.958, 55.3741 ],
-							[ -85.6784, 55.7283 ],
-							[ -86.9972, 56.0007 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 29, 2020 05:27",
-				"Expires_UTC" : "May 29, 2020 11:00",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\nRain from earlier this evening has changed to freezing rain as surface temperatures have dropped below zero. \n\nFreezing rain will continue for a few hours before fully transitioning to snow overnight.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-05-29T11:00:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T05:27:45-00:00, urn:oid:2.49.0.1.124.0477802279.2020<br>Area: Peawanuck",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.0477802279.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T05_27_45_00_00Iurn_oid_2.49.0.1.124.0477802279.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200529110045+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -86.5309, 48.2984 ],
 							[ -86.1345, 47.4654 ],
 							[ -85.809, 47.3094 ],
@@ -426,6 +376,79 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T19_55_17_00_00Iurn_oid_2.49.0.1.124.4286379345.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200529115417+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -100.5241, 54.318 ],
+							[ -100.5544, 54.318 ],
+							[ -101.1726, 54.3306 ],
+							[ -101.8105, 54.318 ],
+							[ -101.8172, 54.1902 ],
+							[ -101.8104, 54.0644 ],
+							[ -101.7713, 54.0644 ],
+							[ -101.7851, 53.8739 ],
+							[ -101.7712, 53.7151 ],
+							[ -101.7513, 53.7145 ],
+							[ -101.7354, 53.715 ],
+							[ -101.7442, 53.5647 ],
+							[ -101.7355, 53.3658 ],
+							[ -101.7006, 53.3657 ],
+							[ -101.7087, 53.198 ],
+							[ -101.7006, 53.0164 ],
+							[ -101.6716, 53.0164 ],
+							[ -101.6716, 53.0161 ],
+							[ -101.2982, 53.006 ],
+							[ -100.9129, 53.0151 ],
+							[ -100.8982, 53.0267 ],
+							[ -100.9274, 53.0351 ],
+							[ -100.9988, 53.0715 ],
+							[ -101.0842, 53.1025 ],
+							[ -101.0382, 53.1201 ],
+							[ -100.9752, 53.0742 ],
+							[ -100.9338, 53.0449 ],
+							[ -100.8759, 53.0219 ],
+							[ -100.6871, 53.0306 ],
+							[ -100.499, 53.0791 ],
+							[ -100.3968, 53.0578 ],
+							[ -100.2745, 53.0251 ],
+							[ -100.1269, 52.9915 ],
+							[ -100.053, 53.0302 ],
+							[ -99.9988, 53.0863 ],
+							[ -99.7255, 53.2184 ],
+							[ -99.7365, 53.2832 ],
+							[ -99.4001, 53.5312 ],
+							[ -99.4001, 54.318 ],
+							[ -100.5241, 54.318 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Frost Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Frost",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 28, 2020 20:22",
+				"Expires_UTC" : "May 29, 2020 12:21",
+				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\nA high pressure ridge will bring clearing skies and diminishing winds to west-central Manitoba overnight. As a result, temperatures are expected to dip to near zero degrees.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-05-29T12:21:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T20:22:31-00:00, urn:oid:2.49.0.1.124.1598185558.2020<br>Area: The Pas Cormorant Westray and Wanless, North and South Moose Lake incl. Moose Lake Res.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.1598185558.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T20_22_31_00_00Iurn_oid_2.49.0.1.124.1598185558.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200529122131+00:00"
 			}
 		},
 		{
@@ -595,79 +618,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T21_22_22_00_00Iurn_oid_2.49.0.1.124.1554465459.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200529132122+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -100.5241, 54.318 ],
-							[ -100.5544, 54.318 ],
-							[ -101.1726, 54.3306 ],
-							[ -101.8105, 54.318 ],
-							[ -101.8172, 54.1902 ],
-							[ -101.8104, 54.0644 ],
-							[ -101.7713, 54.0644 ],
-							[ -101.7851, 53.8739 ],
-							[ -101.7712, 53.7151 ],
-							[ -101.7513, 53.7145 ],
-							[ -101.7354, 53.715 ],
-							[ -101.7442, 53.5647 ],
-							[ -101.7355, 53.3658 ],
-							[ -101.7006, 53.3657 ],
-							[ -101.7087, 53.198 ],
-							[ -101.7006, 53.0164 ],
-							[ -101.6716, 53.0164 ],
-							[ -101.6716, 53.0161 ],
-							[ -101.2982, 53.006 ],
-							[ -100.9129, 53.0151 ],
-							[ -100.8982, 53.0267 ],
-							[ -100.9274, 53.0351 ],
-							[ -100.9988, 53.0715 ],
-							[ -101.0842, 53.1025 ],
-							[ -101.0382, 53.1201 ],
-							[ -100.9752, 53.0742 ],
-							[ -100.9338, 53.0449 ],
-							[ -100.8759, 53.0219 ],
-							[ -100.6871, 53.0306 ],
-							[ -100.499, 53.0791 ],
-							[ -100.3968, 53.0578 ],
-							[ -100.2745, 53.0251 ],
-							[ -100.1269, 52.9915 ],
-							[ -100.053, 53.0302 ],
-							[ -99.9988, 53.0863 ],
-							[ -99.7255, 53.2184 ],
-							[ -99.7365, 53.2832 ],
-							[ -99.4001, 53.5312 ],
-							[ -99.4001, 54.318 ],
-							[ -100.5241, 54.318 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Frost Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Frost",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 28, 2020 20:22",
-				"Expires_UTC" : "May 29, 2020 12:21",
-				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\nA high pressure ridge will bring clearing skies and diminishing winds to west-central Manitoba overnight. As a result, temperatures are expected to dip to near zero degrees.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-05-29T12:21:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-28T20:22:31-00:00, urn:oid:2.49.0.1.124.1598185558.2020<br>Area: The Pas Cormorant Westray and Wanless, North and South Moose Lake incl. Moose Lake Res.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-28:feed.atom/urn:oid:2.49.0.1.124.1598185558.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-28/2020_05_28T20_22_31_00_00Iurn_oid_2.49.0.1.124.1598185558.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200529122131+00:00"
 			}
 		},
 		{
