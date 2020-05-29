@@ -186,45 +186,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -114.3337, 53.6831 ],
-							[ -114.3701, 53.666 ],
-							[ -114.3326, 53.6724 ],
-							[ -114.3337, 53.6831 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Other",
-				"Title" : "Alberta Emergency Alert - High Water Level Alert Cancelled",
-				"Category" : "Actual",
-				"event" : "High Water Level",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "May 29, 2020 10:08",
-				"Expires_UTC" : "May 29, 2020 10:23",
-				"Summary" : "Description: The situation has stabilized. Sandbags are available at the Alberta Beach Public Works Building, 4000 Museum Road, if required. \n###\nMore information is available at https://www.facebook.com/albertabeach/ Facebook page or the http://www.albertabeach.com/ website.<br>Expires: 2020-05-29T10:23:06-06:00<br>Originated from CAP Alert: Alberta Emergency Management Agency on Behalf of the Village of Alberta Beach, 2020-05-29T10:08:06-06:00, NAADS-CA-AB-AEA1-6421<br>Area: Alberta Beach",
-				"Author" : "Alberta Emergency Management Agency on Behalf of the Village of Alberta Beach",
-				"msgType" : "Cancel",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/NAADS-CA-AB-AEA1-6421",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T10_08_06_06_00INAADS_CA_AB_AEA1_6421.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200529102306-06:00",
-				"EnclosureType" : "audio/mpeg",
-				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/8025-0.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -76.6023, 45.6457 ],
 							[ -76.5608, 45.7001 ],
 							[ -76.5822, 45.7897 ],
@@ -519,6 +480,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T01_02_20_00_00Iurn_oid_2.49.0.1.124.2823960571.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200529170120+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -80.0799, 42.3935 ],
+							[ -78.9353, 42.8283 ],
+							[ -78.9059, 42.9052 ],
+							[ -78.8933, 42.9389 ],
+							[ -79.0529, 42.9623 ],
+							[ -79.6261, 42.9814 ],
+							[ -80.3291, 42.9012 ],
+							[ -80.5966, 42.7293 ],
+							[ -81.2109, 42.784 ],
+							[ -81.1553, 42.66 ],
+							[ -80.9327, 42.2591 ],
+							[ -80.0799, 42.3935 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 29, 2020 16:29",
+				"Expires_UTC" : "May 29, 2020 18:29",
+				"Summary" : "Description: Squalls with wind gusts up to 35 knots are expected or occurring in the area.\n\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-05-29T18:29:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T16:29:52-00:00, urn:oid:2.49.0.1.124.0924398840.2020<br>Area: Eastern Lake Erie",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.0924398840.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T16_29_52_00_00Iurn_oid_2.49.0.1.124.0924398840.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200529182952+00:00"
 			}
 		},
 		{
