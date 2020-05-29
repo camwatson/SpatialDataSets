@@ -90,52 +90,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.1168, 44.2981 ],
-							[ -79.1254, 44.5711 ],
-							[ -79.3102, 44.6334 ],
-							[ -79.3167, 44.8032 ],
-							[ -79.3962, 44.7602 ],
-							[ -79.4671, 44.5367 ],
-							[ -79.5961, 44.4572 ],
-							[ -79.7573, 44.3841 ],
-							[ -79.6004, 44.3261 ],
-							[ -79.5983, 44.2122 ],
-							[ -79.48, 44.1477 ],
-							[ -79.4177, 44.2745 ],
-							[ -79.1168, 44.2981 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "May 29, 2020 14:33",
-				"Expires_UTC" : "May 30, 2020 03:03",
-				"Summary" : "Description: Conditions are favourable this afternoon for the development of squalls with wind gusts up to 40 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-05-30T03:03:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T14:33:55-00:00, urn:oid:2.49.0.1.124.2039474130.2020<br>Area: Lake Simcoe",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.2039474130.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T14_33_55_00_00Iurn_oid_2.49.0.1.124.2039474130.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200530030355+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -76.6023, 45.6457 ],
 							[ -76.5608, 45.7001 ],
 							[ -76.5822, 45.7897 ],
@@ -470,6 +424,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T18_38_47_00_00Iurn_oid_2.49.0.1.124.0424898291.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200529193847+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.1168, 44.2981 ],
+							[ -79.1254, 44.5711 ],
+							[ -79.3102, 44.6334 ],
+							[ -79.3167, 44.8032 ],
+							[ -79.3962, 44.7602 ],
+							[ -79.4671, 44.5367 ],
+							[ -79.5961, 44.4572 ],
+							[ -79.7573, 44.3841 ],
+							[ -79.6004, 44.3261 ],
+							[ -79.5983, 44.2122 ],
+							[ -79.48, 44.1477 ],
+							[ -79.4177, 44.2745 ],
+							[ -79.1168, 44.2981 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 29, 2020 18:48",
+				"Expires_UTC" : "May 29, 2020 20:47",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-05-29T20:47:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T18:48:07-00:00, urn:oid:2.49.0.1.124.3126538276.2020<br>Area: Lake Simcoe",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.3126538276.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T18_48_07_00_00Iurn_oid_2.49.0.1.124.3126538276.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200529204707+00:00"
 			}
 		},
 		{
