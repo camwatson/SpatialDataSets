@@ -800,51 +800,6 @@
 							[ -80.9327, 42.2591 ],
 							[ -80.0799, 42.3935 ]
 						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 29, 2020 16:59",
-				"Expires_UTC" : "May 29, 2020 17:59",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-05-29T17:59:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T16:59:50-00:00, urn:oid:2.49.0.1.124.3421856715.2020<br>Area: Eastern Lake Erie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.3421856715.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T16_59_50_00_00Iurn_oid_2.49.0.1.124.3421856715.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200529175950+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -80.0799, 42.3935 ],
-							[ -78.9353, 42.8283 ],
-							[ -78.9059, 42.9052 ],
-							[ -78.8933, 42.9389 ],
-							[ -79.0529, 42.9623 ],
-							[ -79.6261, 42.9814 ],
-							[ -80.3291, 42.9012 ],
-							[ -80.5966, 42.7293 ],
-							[ -81.2109, 42.784 ],
-							[ -81.1553, 42.66 ],
-							[ -80.9327, 42.2591 ],
-							[ -80.0799, 42.3935 ]
-						]
 					],
 					[
 						[
@@ -944,6 +899,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T14_33_55_00_00Iurn_oid_2.49.0.1.124.1940824375.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200530030355+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -80.0799, 42.3935 ],
+							[ -78.9353, 42.8283 ],
+							[ -78.9059, 42.9052 ],
+							[ -78.8933, 42.9389 ],
+							[ -79.0529, 42.9623 ],
+							[ -79.6261, 42.9814 ],
+							[ -80.3291, 42.9012 ],
+							[ -80.5966, 42.7293 ],
+							[ -81.2109, 42.784 ],
+							[ -81.1553, 42.66 ],
+							[ -80.9327, 42.2591 ],
+							[ -80.0799, 42.3935 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "May 29, 2020 16:38",
+				"Expires_UTC" : "May 29, 2020 18:29",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots are expected or occurring in the area.\n\nAn area of thunderstorms southeast of Port Colborne is moving northeast at 40 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-05-29T18:29:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-29T16:38:30-00:00, urn:oid:2.49.0.1.124.1650428609.2020<br>Area: Eastern Lake Erie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-29:feed.atom/urn:oid:2.49.0.1.124.1650428609.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-29/2020_05_29T16_38_30_00_00Iurn_oid_2.49.0.1.124.1650428609.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200529182930+00:00"
 			}
 		}
 	]
