@@ -667,6 +667,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -106.0038, 51.0961 ],
+							[ -105.8145, 51.09 ],
+							[ -105.6354, 51.0956 ],
+							[ -105.6266, 51.1824 ],
+							[ -105.6354, 51.2705 ],
+							[ -105.6485, 51.2713 ],
+							[ -105.6625, 51.2705 ],
+							[ -105.6561, 51.3134 ],
+							[ -105.6625, 51.358 ],
+							[ -105.7307, 51.3612 ],
+							[ -105.8031, 51.358 ],
+							[ -105.7877, 51.494 ],
+							[ -105.8028, 51.6201 ],
+							[ -105.8955, 51.628 ],
+							[ -106.0037, 51.62 ],
+							[ -106.1471, 51.627 ],
+							[ -106.2852, 51.6199 ],
+							[ -106.2992, 51.4995 ],
+							[ -106.2848, 51.3582 ],
+							[ -106.3526, 51.3611 ],
+							[ -106.4253, 51.3582 ],
+							[ -106.4324, 51.2397 ],
+							[ -106.4225, 51.096 ],
+							[ -106.1973, 51.0926 ],
+							[ -106.0038, 51.0961 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 1, 2020 00:39",
+				"Expires_UTC" : "June 1, 2020 03:35",
+				"Summary" : "Description: At 6:39 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to nickel size hail.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-01T03:35:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-01T00:39:33-00:00, urn:oid:2.49.0.1.124.2015327021.2020<br>Area: R.M. of McCraney including Kenaston and Bladworth, R.M. of Arm River including Davidson and Girvin, R.M. of Willner west of Davidson",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-01:feed.atom/urn:oid:2.49.0.1.124.2015327021.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-01/2020_06_01T00_39_33_00_00Iurn_oid_2.49.0.1.124.2015327021.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200601033533+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -113.2302, 48.9968 ],
 							[ -112.841, 48.9948 ],
 							[ -112.4088, 48.9968 ],
@@ -1594,25 +1652,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "May 31, 2020 23:32",
-				"Expires_UTC" : "June 1, 2020 00:32",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-01T00:32:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-31T23:32:07-00:00, urn:oid:2.49.0.1.124.3337756107.2020<br>Area: Flagstaff Co. near Lougheed and Hardisty, Flagstaff Co. near Alliance and Bellshill Lake, M.D. of Wainwright near Irma",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "May 31, 2020 23:04",
+				"Expires_UTC" : "June 1, 2020 01:56",
+				"Summary" : "Description: At 5:03 p.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThe thunderstorm is located 50 km southwest of Wainwright and is moving northeast at 40 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-01T01:56:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-05-31T23:04:29-00:00, urn:oid:2.49.0.1.124.2426028892.2020<br>Area: Flagstaff Co. near Lougheed and Hardisty, Flagstaff Co. near Alliance and Bellshill Lake, M.D. of Wainwright near Irma",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-31:feed.atom/urn:oid:2.49.0.1.124.3337756107.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-31/2020_05_31T23_32_07_00_00Iurn_oid_2.49.0.1.124.3337756107.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-05-31:feed.atom/urn:oid:2.49.0.1.124.2426028892.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-05-31/2020_05_31T23_04_29_00_00Iurn_oid_2.49.0.1.124.2426028892.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200601003207+00:00"
+				"Expires_FMEFormat" : "20200601015629+00:00"
 			}
 		},
 		{
@@ -1755,25 +1813,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "June 1, 2020 00:04",
-				"Expires_UTC" : "June 1, 2020 01:51",
-				"Summary" : "Description: At 6:03 p.m. MDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, pea to dime size hail and heavy rain.\n\nThe line of thunderstorms is located from Acme to Delburne and is moving north at 10 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-01T01:51:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-01T00:04:18-00:00, urn:oid:2.49.0.1.124.2180335290.2020<br>Area: Red Deer Co. near Pine Lake, Red Deer Co. near Elnora Lousana and Delburne, Kneehill Co. near Torrington and Wimborne, Kneehill Co. near Trochu and Huxley, Kneehill Co. near Three Hills, Kneehill Co. near Acme and Linden",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 1, 2020 00:32",
+				"Expires_UTC" : "June 1, 2020 01:32",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-01T01:32:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-01T00:32:25-00:00, urn:oid:2.49.0.1.124.2096783985.2020<br>Area: Red Deer Co. near Pine Lake, Red Deer Co. near Elnora Lousana and Delburne, Kneehill Co. near Torrington and Wimborne, Kneehill Co. near Trochu and Huxley, Kneehill Co. near Three Hills, Kneehill Co. near Acme and Linden",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-01:feed.atom/urn:oid:2.49.0.1.124.2180335290.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-01/2020_06_01T00_04_18_00_00Iurn_oid_2.49.0.1.124.2180335290.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-01:feed.atom/urn:oid:2.49.0.1.124.2096783985.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-01/2020_06_01T00_32_25_00_00Iurn_oid_2.49.0.1.124.2096783985.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200601015118+00:00"
+				"Expires_FMEFormat" : "20200601013225+00:00"
 			}
 		},
 		{
