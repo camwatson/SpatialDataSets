@@ -75,60 +75,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -76.5159, 44.0963 ],
-							[ -76.5796, 44.162 ],
-							[ -76.5882, 44.1816 ],
-							[ -76.6037, 44.2131 ],
-							[ -76.5919, 44.2558 ],
-							[ -76.7176, 44.243 ],
-							[ -76.8717, 44.1537 ],
-							[ -76.8926, 44.2175 ],
-							[ -77.0582, 44.2296 ],
-							[ -77.4108, 44.2078 ],
-							[ -77.6138, 44.1434 ],
-							[ -77.6392, 44.0745 ],
-							[ -77.729, 44.0845 ],
-							[ -77.8441, 44.0509 ],
-							[ -77.8409, 43.9912 ],
-							[ -77.8417, 43.6548 ],
-							[ -77.8418, 43.6361 ],
-							[ -76.7966, 43.6311 ],
-							[ -76.455, 44.0731 ],
-							[ -76.4895, 44.0862 ],
-							[ -76.5159, 44.0963 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 3, 2020 21:06",
-				"Expires_UTC" : "June 4, 2020 02:04",
-				"Summary" : "Description: Thunderstorms approaching Lake Ontario may be capable of producing wind gusts to 35 knots. Small hail and frequent lightning are also concerns.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-04T02:04:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-03T21:06:40-00:00, urn:oid:2.49.0.1.124.2060607163.2020<br>Area: Eastern Lake Ontario",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-03:feed.atom/urn:oid:2.49.0.1.124.2060607163.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-03/2020_06_03T21_06_40_00_00Iurn_oid_2.49.0.1.124.2060607163.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200604020440+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -104.1998, 53.8012 ],
 							[ -103.8982, 53.7942 ],
 							[ -103.6415, 53.8015 ],
@@ -497,6 +443,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-03/2020_06_03T19_55_41_00_00Iurn_oid_2.49.0.1.124.2615211889.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200604115441+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.5159, 44.0963 ],
+							[ -76.5796, 44.162 ],
+							[ -76.5882, 44.1816 ],
+							[ -76.6037, 44.2131 ],
+							[ -76.5919, 44.2558 ],
+							[ -76.7176, 44.243 ],
+							[ -76.8717, 44.1537 ],
+							[ -76.8926, 44.2175 ],
+							[ -77.0582, 44.2296 ],
+							[ -77.4108, 44.2078 ],
+							[ -77.6138, 44.1434 ],
+							[ -77.6392, 44.0745 ],
+							[ -77.729, 44.0845 ],
+							[ -77.8441, 44.0509 ],
+							[ -77.8409, 43.9912 ],
+							[ -77.8417, 43.6548 ],
+							[ -77.8418, 43.6361 ],
+							[ -76.7966, 43.6311 ],
+							[ -76.455, 44.0731 ],
+							[ -76.4895, 44.0862 ],
+							[ -76.5159, 44.0963 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 3, 2020 21:52",
+				"Expires_UTC" : "June 4, 2020 00:49",
+				"Summary" : "Description: A thunderstorm located northwest of Amherst Island is tracking southeast at 25 knots.  This thunderstorm is capable of producing wind gusts to 35 knots and sizeable hail.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-04T00:49:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-03T21:52:58-00:00, urn:oid:2.49.0.1.124.0466588113.2020<br>Area: Eastern Lake Ontario",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-03:feed.atom/urn:oid:2.49.0.1.124.0466588113.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-03/2020_06_03T21_52_58_00_00Iurn_oid_2.49.0.1.124.0466588113.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200604004958+00:00"
 			}
 		},
 		{
@@ -877,6 +877,64 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-03/2020_06_03T21_30_40_00_00Iurn_oid_2.49.0.1.124.1956196075.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200603232840+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -77.5904, 43.9059 ],
+							[ -77.5277, 43.832 ],
+							[ -77.1887, 43.8008 ],
+							[ -76.7025, 43.886 ],
+							[ -76.8197, 44.0917 ],
+							[ -76.8085, 44.1612 ],
+							[ -76.8167, 44.1705 ],
+							[ -76.9098, 44.2731 ],
+							[ -76.9303, 44.2707 ],
+							[ -76.9553, 44.323 ],
+							[ -77.0591, 44.4199 ],
+							[ -77.1392, 44.4018 ],
+							[ -77.0894, 44.2901 ],
+							[ -77.2964, 44.2585 ],
+							[ -77.2969, 44.2584 ],
+							[ -77.2549, 44.1734 ],
+							[ -77.2358, 44.1367 ],
+							[ -77.3721, 44.1503 ],
+							[ -77.408, 44.126 ],
+							[ -77.498, 44.1054 ],
+							[ -77.5819, 44.0529 ],
+							[ -77.6046, 44.0311 ],
+							[ -77.6125, 44.0232 ],
+							[ -77.6389, 43.9639 ],
+							[ -77.5904, 43.9059 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 3, 2020 21:55",
+				"Expires_UTC" : "June 4, 2020 00:47",
+				"Summary" : "Description: At 5:54 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to nickel size hail.\n\nThis severe thunderstorm is located 6 kilometres southwest of Marysville, moving southeast at 50 km/h. \n\nLocations impacted include:\nDeseronto, Marysville and Dorland.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-04T00:47:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-03T21:55:16-00:00, urn:oid:2.49.0.1.124.3253554236.2020<br>Area: Napanee - Consecon, Picton - Sandbanks Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-03:feed.atom/urn:oid:2.49.0.1.124.3253554236.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-03/2020_06_03T21_55_16_00_00Iurn_oid_2.49.0.1.124.3253554236.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200604004716+00:00"
 			}
 		}
 	]
