@@ -323,70 +323,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -103.6231, 53.6026 ],
-							[ -103.6253, 53.4992 ],
-							[ -103.6007, 53.4669 ],
-							[ -103.3762, 53.4965 ],
-							[ -103.3203, 53.6263 ],
-							[ -103.1497, 53.6917 ],
-							[ -103.0474, 53.7417 ],
-							[ -103.0477, 53.7153 ],
-							[ -103.0348, 53.7142 ],
-							[ -102.4197, 53.7036 ],
-							[ -101.7724, 53.7151 ],
-							[ -101.7712, 53.7151 ],
-							[ -101.7605, 53.8721 ],
-							[ -101.7713, 54.0644 ],
-							[ -101.8104, 54.0644 ],
-							[ -101.8031, 54.1904 ],
-							[ -101.8105, 54.318 ],
-							[ -101.8062, 54.3611 ],
-							[ -101.8104, 54.4053 ],
-							[ -102.7877, 54.4053 ],
-							[ -104.1998, 54.4053 ],
-							[ -104.1998, 53.8012 ],
-							[ -103.8982, 53.7942 ],
-							[ -103.6415, 53.8015 ],
-							[ -103.6452, 53.7589 ],
-							[ -103.6412, 53.7143 ],
-							[ -103.6335, 53.7136 ],
-							[ -103.6268, 53.7139 ],
-							[ -103.6307, 53.6847 ],
-							[ -103.6268, 53.6539 ],
-							[ -103.6231, 53.6026 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 3, 2020 21:08",
-				"Expires_UTC" : "June 4, 2020 01:07",
-				"Summary" : "Description: At 3:08 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-04T01:07:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-03T21:08:10-00:00, urn:oid:2.49.0.1.124.0560413364.2020<br>Area: Cumberland House",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-03:feed.atom/urn:oid:2.49.0.1.124.0560413364.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-03/2020_06_03T21_08_10_00_00Iurn_oid_2.49.0.1.124.0560413364.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200604010710+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -69.6866, 60.6351 ],
 							[ -70.2989, 60.2999 ],
 							[ -70.3356, 60.0088 ],
@@ -655,6 +591,70 @@
 				"Expires_FMEFormat" : "20200610110808-06:00",
 				"EnclosureType" : "audio/mpeg",
 				"EnclosureURI" : "http://www.emergencyalert.alberta.ca/aea/audio/2020/8045-0.mp3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -103.6231, 53.6026 ],
+							[ -103.6253, 53.4992 ],
+							[ -103.6007, 53.4669 ],
+							[ -103.3762, 53.4965 ],
+							[ -103.3203, 53.6263 ],
+							[ -103.1497, 53.6917 ],
+							[ -103.0474, 53.7417 ],
+							[ -103.0477, 53.7153 ],
+							[ -103.0348, 53.7142 ],
+							[ -102.4197, 53.7036 ],
+							[ -101.7724, 53.7151 ],
+							[ -101.7712, 53.7151 ],
+							[ -101.7605, 53.8721 ],
+							[ -101.7713, 54.0644 ],
+							[ -101.8104, 54.0644 ],
+							[ -101.8031, 54.1904 ],
+							[ -101.8105, 54.318 ],
+							[ -101.8062, 54.3611 ],
+							[ -101.8104, 54.4053 ],
+							[ -102.7877, 54.4053 ],
+							[ -104.1998, 54.4053 ],
+							[ -104.1998, 53.8012 ],
+							[ -103.8982, 53.7942 ],
+							[ -103.6415, 53.8015 ],
+							[ -103.6452, 53.7589 ],
+							[ -103.6412, 53.7143 ],
+							[ -103.6335, 53.7136 ],
+							[ -103.6268, 53.7139 ],
+							[ -103.6307, 53.6847 ],
+							[ -103.6268, 53.6539 ],
+							[ -103.6231, 53.6026 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 3, 2020 21:09",
+				"Expires_UTC" : "June 4, 2020 01:07",
+				"Summary" : "Description: At 3:08 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nA severe thunderstorm is located approximately 35 km southwest of Cumberland House and is moving towards the north.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-04T01:07:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-03T21:09:10-00:00, urn:oid:2.49.0.1.124.3236018749.2020<br>Area: Cumberland House",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-03:feed.atom/urn:oid:2.49.0.1.124.3236018749.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-03/2020_06_03T21_09_10_00_00Iurn_oid_2.49.0.1.124.3236018749.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200604010710+00:00"
 			}
 		},
 		{
