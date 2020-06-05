@@ -9,35 +9,48 @@
 				"coordinates" : [
 					[
 						[
-							[ -104.6061, 49.4542 ],
-							[ -104.5948, 49.4578 ],
-							[ -104.5947, 49.4642 ],
-							[ -104.6062, 49.4644 ],
-							[ -104.6061, 49.4542 ]
+							[ -79.322, 43.1293 ],
+							[ -79.0451, 43.217 ],
+							[ -79.0681, 43.2627 ],
+							[ -79.2006, 43.4504 ],
+							[ -78.6903, 43.6311 ],
+							[ -77.8418, 43.6361 ],
+							[ -77.8417, 43.6548 ],
+							[ -77.8409, 43.9912 ],
+							[ -77.8441, 44.0509 ],
+							[ -78.1201, 44.0441 ],
+							[ -78.5026, 43.9796 ],
+							[ -78.8315, 43.9453 ],
+							[ -79.1002, 43.8743 ],
+							[ -79.5584, 43.6838 ],
+							[ -79.7153, 43.4925 ],
+							[ -79.8894, 43.3464 ],
+							[ -79.7776, 43.1723 ],
+							[ -79.322, 43.1293 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Health",
-				"Title" : "Precautionary Drinking Water Advisory Alert Is Being Issued By The Village Of Ceylon.",
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
 				"Category" : "Actual",
-				"event" : "Drinking Water",
-				"urgency" : "Immediate",
-				"certainty" : "Observed",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 4, 2020 15:27",
-				"Expires_UTC" : "June 11, 2020 13:00",
-				"Summary" : "Description: A Precautionary Drinking Water Advisory has been issued for the Village of Ceylon. This advisory is for the entire community and for any individuals who may access water the Village of Cyelon water system. This advisory is in effect until further notice.<br>Expires: 2020-06-11T13:00:00-06:00<br>Originated from CAP Alert: SK Provincial Emergency Communications Centre, 2020-06-04T15:27:08-06:00, A730F54A-C29F-0010-6501-DD1B5C8F6101<br>Area: The Village of Ceylon.",
-				"Author" : "SK Provincial Emergency Communications Centre",
-				"msgType" : "Alert",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 5, 2020 18:20",
+				"Expires_UTC" : "June 6, 2020 03:10",
+				"Summary" : "Description: Thunderstorms may affect western Lake Ontario and Lake Simcoe this afternoon into this evening and could produce squalls up to 40 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T03:10:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T18:20:44-00:00, urn:oid:2.49.0.1.124.2828469129.2020<br>Area: Western Lake Ontario",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-04:feed.atom/A730F54A-C29F-0010-6501-DD1B5C8F6101",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-04/2020_06_04T15_27_08_06_00IA730F54A_C29F_0010_6501_DD1B5C8F6101.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2828469129.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T18_20_44_00_00Iurn_oid_2.49.0.1.124.2828469129.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200611130000-06:00"
+				"Expires_FMEFormat" : "20200606031044+00:00"
 			}
 		},
 		{
@@ -78,6 +91,44 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T19_03_54_00_00Iurn_oid_2.49.0.1.124.0766056556.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200605200354+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -104.6061, 49.4542 ],
+							[ -104.5948, 49.4578 ],
+							[ -104.5947, 49.4642 ],
+							[ -104.6062, 49.4644 ],
+							[ -104.6061, 49.4542 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Health",
+				"Title" : "Precautionary Drinking Water Advisory Alert Is Being Issued By The Village Of Ceylon.",
+				"Category" : "Actual",
+				"event" : "Drinking Water",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 4, 2020 15:27",
+				"Expires_UTC" : "June 11, 2020 13:00",
+				"Summary" : "Description: A Precautionary Drinking Water Advisory has been issued for the Village of Ceylon. This advisory is for the entire community and for any individuals who may access water the Village of Cyelon water system. This advisory is in effect until further notice.<br>Expires: 2020-06-11T13:00:00-06:00<br>Originated from CAP Alert: SK Provincial Emergency Communications Centre, 2020-06-04T15:27:08-06:00, A730F54A-C29F-0010-6501-DD1B5C8F6101<br>Area: The Village of Ceylon.",
+				"Author" : "SK Provincial Emergency Communications Centre",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-04:feed.atom/A730F54A-C29F-0010-6501-DD1B5C8F6101",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-04/2020_06_04T15_27_08_06_00IA730F54A_C29F_0010_6501_DD1B5C8F6101.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200611130000-06:00"
 			}
 		},
 		{
@@ -201,107 +252,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T17_35_09_00_00Iurn_oid_2.49.0.1.124.2843023079.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200606093409+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.322, 43.1293 ],
-							[ -79.0451, 43.217 ],
-							[ -79.0681, 43.2627 ],
-							[ -79.2006, 43.4504 ],
-							[ -78.6903, 43.6311 ],
-							[ -77.8418, 43.6361 ],
-							[ -77.8417, 43.6548 ],
-							[ -77.8409, 43.9912 ],
-							[ -77.8441, 44.0509 ],
-							[ -78.1201, 44.0441 ],
-							[ -78.5026, 43.9796 ],
-							[ -78.8315, 43.9453 ],
-							[ -79.1002, 43.8743 ],
-							[ -79.5584, 43.6838 ],
-							[ -79.7153, 43.4925 ],
-							[ -79.8894, 43.3464 ],
-							[ -79.7776, 43.1723 ],
-							[ -79.322, 43.1293 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 5, 2020 18:20",
-				"Expires_UTC" : "June 6, 2020 03:10",
-				"Summary" : "Description: Thunderstorms may affect western Lake Ontario and Lake Simcoe this afternoon into this evening and could produce squalls up to 40 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T03:10:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T18:20:44-00:00, urn:oid:2.49.0.1.124.2828469129.2020<br>Area: Western Lake Ontario",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2828469129.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T18_20_44_00_00Iurn_oid_2.49.0.1.124.2828469129.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606031044+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.2038, 43.9616 ],
-							[ -79.2851, 43.9532 ],
-							[ -79.3788, 43.9306 ],
-							[ -79.3936, 43.9693 ],
-							[ -79.4476, 43.9629 ],
-							[ -79.5019, 43.9435 ],
-							[ -79.4976, 43.9322 ],
-							[ -79.6055, 43.9151 ],
-							[ -79.715, 43.8829 ],
-							[ -79.714, 43.8793 ],
-							[ -79.7114, 43.8757 ],
-							[ -79.6842, 43.8218 ],
-							[ -79.6386, 43.75 ],
-							[ -79.4059, 43.7956 ],
-							[ -79.1702, 43.8556 ],
-							[ -79.1726, 43.9089 ],
-							[ -79.2038, 43.9616 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 5, 2020 16:22",
-				"Expires_UTC" : "June 5, 2020 19:20",
-				"Summary" : "Description: At 12:21 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing up to nickel size hail.\n\nThis severe thunderstorm is located 6 kilometres northeast of Kleinburg, moving east at 15 km/h. \n\nLocations impacted include:\nRichmond Hill, King City, Maple and Oak Ridges.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-05T19:20:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T16:22:12-00:00, urn:oid:2.49.0.1.124.4038718567.2020<br>Area: Vaughan - Richmond Hill - Markham",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.4038718567.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T16_22_12_00_00Iurn_oid_2.49.0.1.124.4038718567.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200605192012+00:00"
 			}
 		},
 		{
