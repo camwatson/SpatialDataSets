@@ -216,6 +216,69 @@
 				"coordinates" : [
 					[
 						[
+							[ -63.999, 48.4979 ],
+							[ -63.9984, 48.5125 ],
+							[ -64.2253, 48.5122 ],
+							[ -64.3032, 48.5124 ],
+							[ -64.4129, 48.4501 ],
+							[ -64.6556, 48.3886 ],
+							[ -65.1617, 48.1835 ],
+							[ -65.4387, 48.0563 ],
+							[ -65.953, 48.2679 ],
+							[ -66.1576, 48.15 ],
+							[ -66.5182, 48.1606 ],
+							[ -66.8549, 48.0002 ],
+							[ -66.7859, 47.9366 ],
+							[ -66.4294, 47.9711 ],
+							[ -65.8329, 47.8054 ],
+							[ -65.7337, 47.6059 ],
+							[ -65.6524, 47.5775 ],
+							[ -65.212, 47.7501 ],
+							[ -64.9349, 47.7368 ],
+							[ -64.8051, 47.6755 ],
+							[ -64.8572, 47.6469 ],
+							[ -65.0289, 47.3368 ],
+							[ -65.3948, 47.1114 ],
+							[ -65.3603, 47.0226 ],
+							[ -65.0342, 46.9974 ],
+							[ -64.8432, 47.0806 ],
+							[ -64.0022, 47.0603 ],
+							[ -64.0011, 47.0593 ],
+							[ -64.0009, 47.2151 ],
+							[ -63.999, 48.4979 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 5, 2020 22:57",
+				"Expires_UTC" : "June 6, 2020 00:56",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots, hail up to 2 centimetres and poor to very poor visibility in thunderstorms heavy at times are expected or occurring in the area.\n\n###\n\nLarge hail can damage vessels and cause injury.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T00:56:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T22:57:03-00:00, urn:oid:2.49.0.1.124.4045598854.2020<br>Area: Chaleur - Miscou",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.4045598854.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T22_57_03_00_00Iurn_oid_2.49.0.1.124.4045598854.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606005603+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -66.2355, 46.3017 ],
 							[ -66.9168, 45.501 ],
 							[ -66.917, 45.5008 ],
@@ -543,25 +606,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 5, 2020 22:37",
-				"Expires_UTC" : "June 6, 2020 04:10",
-				"Summary" : "Description: Thunderstorms may affect western Lake Ontario this evening.  Squalls to 40 knots are possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T04:10:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T22:37:44-00:00, urn:oid:2.49.0.1.124.1650162278.2020<br>Area: Western Lake Ontario",
+				"LastUpdate_UTC" : "June 5, 2020 22:57",
+				"Expires_UTC" : "June 6, 2020 02:56",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots and poor to very poor visibility in thunderstorms heavy at times are expected or occurring in the area.\n\n###\n\nPoor to very poor visibility may contribute to voyage delays and make marine navigation hazardous.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T02:56:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T22:57:16-00:00, urn:oid:2.49.0.1.124.4279256807.2020<br>Area: Western Lake Ontario",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.1650162278.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T22_37_44_00_00Iurn_oid_2.49.0.1.124.1650162278.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.4279256807.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T22_57_16_00_00Iurn_oid_2.49.0.1.124.4279256807.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606041044+00:00"
+				"Expires_FMEFormat" : "20200606025616+00:00"
 			}
 		},
 		{
