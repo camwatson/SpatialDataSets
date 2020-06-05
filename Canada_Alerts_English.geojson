@@ -9,6 +9,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.322, 43.1293 ],
+							[ -79.0451, 43.217 ],
+							[ -79.0681, 43.2627 ],
+							[ -79.2006, 43.4504 ],
+							[ -78.6903, 43.6311 ],
+							[ -77.8418, 43.6361 ],
+							[ -77.8417, 43.6548 ],
+							[ -77.8409, 43.9912 ],
+							[ -77.8441, 44.0509 ],
+							[ -78.1201, 44.0441 ],
+							[ -78.5026, 43.9796 ],
+							[ -78.8315, 43.9453 ],
+							[ -79.1002, 43.8743 ],
+							[ -79.5584, 43.6838 ],
+							[ -79.7153, 43.4925 ],
+							[ -79.8894, 43.3464 ],
+							[ -79.7776, 43.1723 ],
+							[ -79.322, 43.1293 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 5, 2020 18:20",
+				"Expires_UTC" : "June 6, 2020 03:10",
+				"Summary" : "Description: Thunderstorms may affect western Lake Ontario and Lake Simcoe this afternoon into this evening and could produce squalls up to 40 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T03:10:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T18:20:44-00:00, urn:oid:2.49.0.1.124.2828469129.2020<br>Area: Western Lake Ontario",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2828469129.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T18_20_44_00_00Iurn_oid_2.49.0.1.124.2828469129.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606031044+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -104.6061, 49.4542 ],
 							[ -104.5948, 49.4578 ],
 							[ -104.5947, 49.4642 ],
@@ -38,46 +89,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-04/2020_06_04T15_27_08_06_00IA730F54A_C29F_0010_6501_DD1B5C8F6101.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200611130000-06:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -88.6636, 49.1101 ],
-							[ -88.1405, 48.6611 ],
-							[ -87.9958, 48.475 ],
-							[ -87.4467, 48.4447 ],
-							[ -87.4321, 49.1383 ],
-							[ -88.5445, 49.1129 ],
-							[ -88.6636, 49.1101 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 5, 2020 19:03",
-				"Expires_UTC" : "June 5, 2020 20:03",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-05T20:03:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T19:03:54-00:00, urn:oid:2.49.0.1.124.0766056556.2020<br>Area: Nipigon - Rossport",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.0766056556.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T19_03_54_00_00Iurn_oid_2.49.0.1.124.0766056556.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200605200354+00:00"
 			}
 		},
 		{
@@ -210,24 +221,19 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.322, 43.1293 ],
-							[ -79.0451, 43.217 ],
-							[ -79.0681, 43.2627 ],
-							[ -79.2006, 43.4504 ],
-							[ -78.6903, 43.6311 ],
-							[ -77.8418, 43.6361 ],
-							[ -77.8417, 43.6548 ],
-							[ -77.8409, 43.9912 ],
-							[ -77.8441, 44.0509 ],
-							[ -78.1201, 44.0441 ],
-							[ -78.5026, 43.9796 ],
-							[ -78.8315, 43.9453 ],
-							[ -79.1002, 43.8743 ],
-							[ -79.5584, 43.6838 ],
-							[ -79.7153, 43.4925 ],
-							[ -79.8894, 43.3464 ],
-							[ -79.7776, 43.1723 ],
-							[ -79.322, 43.1293 ]
+							[ -79.1168, 44.2981 ],
+							[ -79.1254, 44.5711 ],
+							[ -79.3102, 44.6334 ],
+							[ -79.3167, 44.8032 ],
+							[ -79.3962, 44.7602 ],
+							[ -79.4671, 44.5367 ],
+							[ -79.5961, 44.4572 ],
+							[ -79.7573, 44.3841 ],
+							[ -79.6004, 44.3261 ],
+							[ -79.5983, 44.2122 ],
+							[ -79.48, 44.1477 ],
+							[ -79.4177, 44.2745 ],
+							[ -79.1168, 44.2981 ]
 						]
 					]
 				]
@@ -242,14 +248,14 @@
 				"severity" : "Severe",
 				"LastUpdate_UTC" : "June 5, 2020 18:20",
 				"Expires_UTC" : "June 6, 2020 03:10",
-				"Summary" : "Description: Thunderstorms may affect western Lake Ontario and Lake Simcoe this afternoon into this evening and could produce squalls up to 40 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T03:10:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T18:20:44-00:00, urn:oid:2.49.0.1.124.2828469129.2020<br>Area: Western Lake Ontario",
+				"Summary" : "Description: Thunderstorms may affect western Lake Ontario and Lake Simcoe this afternoon into this evening and could produce squalls up to 40 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T03:10:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T18:20:44-00:00, urn:oid:2.49.0.1.124.2046578554.2020<br>Area: Lake Simcoe",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2828469129.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T18_20_44_00_00Iurn_oid_2.49.0.1.124.2828469129.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2046578554.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T18_20_44_00_00Iurn_oid_2.49.0.1.124.2046578554.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200606031044+00:00"
 			}
@@ -394,52 +400,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T19_51_23_00_00Iurn_oid_2.49.0.1.124.4116918774.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200606115023+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.1168, 44.2981 ],
-							[ -79.1254, 44.5711 ],
-							[ -79.3102, 44.6334 ],
-							[ -79.3167, 44.8032 ],
-							[ -79.3962, 44.7602 ],
-							[ -79.4671, 44.5367 ],
-							[ -79.5961, 44.4572 ],
-							[ -79.7573, 44.3841 ],
-							[ -79.6004, 44.3261 ],
-							[ -79.5983, 44.2122 ],
-							[ -79.48, 44.1477 ],
-							[ -79.4177, 44.2745 ],
-							[ -79.1168, 44.2981 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 5, 2020 18:20",
-				"Expires_UTC" : "June 6, 2020 03:10",
-				"Summary" : "Description: Thunderstorms may affect western Lake Ontario and Lake Simcoe this afternoon into this evening and could produce squalls up to 40 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T03:10:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T18:20:44-00:00, urn:oid:2.49.0.1.124.2046578554.2020<br>Area: Lake Simcoe",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2046578554.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T18_20_44_00_00Iurn_oid_2.49.0.1.124.2046578554.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606031044+00:00"
 			}
 		},
 		{
