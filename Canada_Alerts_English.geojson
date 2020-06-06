@@ -132,6 +132,81 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.4292, 45.2706 ],
+							[ -74.4507, 45.2895 ],
+							[ -74.472, 45.3027 ],
+							[ -74.4411, 45.3508 ],
+							[ -74.4349, 45.4028 ],
+							[ -74.3865, 45.487 ],
+							[ -74.3682, 45.5879 ],
+							[ -74.4745, 45.6193 ],
+							[ -74.5134, 45.6211 ],
+							[ -74.6175, 45.6634 ],
+							[ -74.8383, 45.6618 ],
+							[ -74.9395, 45.671 ],
+							[ -75.0093, 45.6376 ],
+							[ -75.1824, 45.6126 ],
+							[ -75.251, 45.6089 ],
+							[ -75.3429, 45.5609 ],
+							[ -75.3129, 45.4613 ],
+							[ -75.2401, 45.372 ],
+							[ -75.3278, 45.3501 ],
+							[ -75.4223, 45.3203 ],
+							[ -75.3965, 45.255 ],
+							[ -75.3515, 45.1828 ],
+							[ -75.4768, 45.1391 ],
+							[ -75.5942, 45.085 ],
+							[ -75.595, 45.0845 ],
+							[ -75.5142, 44.9784 ],
+							[ -75.4171, 44.8704 ],
+							[ -75.3666, 44.8098 ],
+							[ -75.356, 44.8059 ],
+							[ -75.3534, 44.8031 ],
+							[ -74.8476, 45.0242 ],
+							[ -74.8006, 45.0212 ],
+							[ -74.7882, 45.0071 ],
+							[ -74.6612, 44.9994 ],
+							[ -74.6134, 44.9974 ],
+							[ -74.5788, 45.0158 ],
+							[ -74.4541, 45.0282 ],
+							[ -74.374, 45.1128 ],
+							[ -74.3059, 45.1508 ],
+							[ -74.3427, 45.205 ],
+							[ -74.3627, 45.2198 ],
+							[ -74.4292, 45.2706 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 6, 2020 00:21",
+				"Expires_UTC" : "June 6, 2020 05:59",
+				"Summary" : "Description: A small area of thunderstorms containing heavy downpours is rumbling east across the region this evening. \n\nLocal rainfall amounts near 30 mm in an hour or less are likely in the heaviest thunderstorms. Wind gusts near 60 km/h are also possible. \n\nMotorists should be prepared for sudden very low visibility in heavy downpours. Poorly drained sections of highways may be subject to sudden ponding of water.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-06T05:59:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T00:21:07-00:00, urn:oid:2.49.0.1.124.3723881500.2020<br>Area: Maxville - Alexandria, Cornwall - Lancaster, Winchester - Newington, Morrisburg - Long Sault, Prescott and Russell",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.3723881500.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T00_21_07_00_00Iurn_oid_2.49.0.1.124.3723881500.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606055907+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.1168, 44.2981 ],
 							[ -79.1254, 44.5711 ],
 							[ -79.3102, 44.6334 ],
@@ -461,25 +536,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Squall Watch Ended",
 				"Category" : "Actual",
 				"event" : "Squall",
 				"urgency" : "Past",
 				"certainty" : "Observed",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 5, 2020 23:55",
-				"Expires_UTC" : "June 6, 2020 00:55",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-06-06T00:55:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T23:55:10-00:00, urn:oid:2.49.0.1.124.3354261161.2020<br>Area: Western Lake Ontario",
+				"LastUpdate_UTC" : "June 6, 2020 00:22",
+				"Expires_UTC" : "June 6, 2020 01:21",
+				"Summary" : "Description: Squalls are no longer expected over the area.\n\nSqualls have now moved out of the area.\n\n###<br>Expires: 2020-06-06T01:21:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T00:22:12-00:00, urn:oid:2.49.0.1.124.2253482724.2020<br>Area: Western Lake Ontario",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.3354261161.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T23_55_10_00_00Iurn_oid_2.49.0.1.124.3354261161.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.2253482724.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T00_22_12_00_00Iurn_oid_2.49.0.1.124.2253482724.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606005510+00:00"
+				"Expires_FMEFormat" : "20200606012112+00:00"
 			}
 		},
 		{
