@@ -253,69 +253,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.4024, 49.0288 ],
-							[ -58.4123, 49.0958 ],
-							[ -58.3653, 49.1496 ],
-							[ -58.3649, 49.15 ],
-							[ -58.3659, 49.1516 ],
-							[ -58.4059, 49.2084 ],
-							[ -58.6528, 49.5556 ],
-							[ -58.805, 49.7569 ],
-							[ -59.4135, 50.5415 ],
-							[ -59.4244, 50.5552 ],
-							[ -59.4392, 50.5739 ],
-							[ -59.4429, 50.5786 ],
-							[ -59.4535, 50.5918 ],
-							[ -59.6407, 50.6535 ],
-							[ -59.7155, 50.5248 ],
-							[ -59.9629, 50.4153 ],
-							[ -60.3093, 50.387 ],
-							[ -60.5002, 50.3004 ],
-							[ -60.4989, 50.2056 ],
-							[ -60.4989, 49.0719 ],
-							[ -60.4989, 48.4997 ],
-							[ -60.235, 48.2375 ],
-							[ -59.9989, 47.9997 ],
-							[ -59.28, 47.9992 ],
-							[ -58.7029, 48.0051 ],
-							[ -58.0024, 48.2921 ],
-							[ -57.2076, 48.4289 ],
-							[ -57.2799, 48.7265 ],
-							[ -57.761, 48.7473 ],
-							[ -58.4024, 49.0288 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 6, 2020 00:37",
-				"Expires_UTC" : "June 6, 2020 08:04",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T08:04:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T00:37:12-00:00, urn:oid:2.49.0.1.124.1262178925.2020<br>Area: Gulf - Port au Port",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.1262178925.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T00_37_12_00_00Iurn_oid_2.49.0.1.124.1262178925.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606080412+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -74.4423, 45.0079 ],
 							[ -74.3214, 45.1223 ],
 							[ -74.1461, 45.1778 ],
@@ -567,6 +504,75 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T19_51_23_00_00Iurn_oid_2.49.0.1.124.4116918774.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200606115023+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -66.917, 45.5008 ],
+							[ -66.5516, 45.4995 ],
+							[ -66.5514, 45.4997 ],
+							[ -65.8356, 46.3331 ],
+							[ -65.5705, 46.6329 ],
+							[ -65.3919, 46.733 ],
+							[ -65.3925, 46.733 ],
+							[ -65.7656, 46.7811 ],
+							[ -65.7675, 46.7813 ],
+							[ -65.937, 46.7796 ],
+							[ -66.6606, 46.7689 ],
+							[ -66.6625, 46.7689 ],
+							[ -66.7052, 46.768 ],
+							[ -66.8513, 46.7651 ],
+							[ -66.8554, 46.7644 ],
+							[ -66.8566, 46.7641 ],
+							[ -66.8787, 46.7372 ],
+							[ -67.3009, 46.2171 ],
+							[ -67.3011, 46.2169 ],
+							[ -67.533, 45.9333 ],
+							[ -67.5989, 45.9841 ],
+							[ -67.6318, 45.9663 ],
+							[ -67.6665, 45.9829 ],
+							[ -67.6941, 45.9545 ],
+							[ -67.7156, 45.9324 ],
+							[ -67.7666, 45.9302 ],
+							[ -67.7823, 45.9319 ],
+							[ -67.815, 45.8762 ],
+							[ -67.839, 45.6671 ],
+							[ -67.7222, 45.6482 ],
+							[ -67.624, 45.5767 ],
+							[ -67.4348, 45.5763 ],
+							[ -67.454, 45.5059 ],
+							[ -67.4498, 45.5024 ],
+							[ -67.4475, 45.5001 ],
+							[ -66.917, 45.5008 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 5, 2020 21:59",
+				"Expires_UTC" : "June 6, 2020 01:16",
+				"Summary" : "Description: At 6:58 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nA line of thunderstorms stretching from Fredericton Doaktown is moving eastward at about 50 km/h. Wind gusts of 90 km/h or stronger and hail of 2 cm or larger are possible.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-06T01:16:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T21:59:38-00:00, urn:oid:2.49.0.1.124.2888029413.2020<br>Area: Fredericton and Southern York County, Oromocto and Sunbury County, Stanley - Doaktown - Blackville Area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2888029413.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T21_59_38_00_00Iurn_oid_2.49.0.1.124.2888029413.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606011638+00:00"
 			}
 		},
 		{
@@ -1063,6 +1069,69 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.4024, 49.0288 ],
+							[ -58.4123, 49.0958 ],
+							[ -58.3653, 49.1496 ],
+							[ -58.3649, 49.15 ],
+							[ -58.3659, 49.1516 ],
+							[ -58.4059, 49.2084 ],
+							[ -58.6528, 49.5556 ],
+							[ -58.805, 49.7569 ],
+							[ -59.4135, 50.5415 ],
+							[ -59.4244, 50.5552 ],
+							[ -59.4392, 50.5739 ],
+							[ -59.4429, 50.5786 ],
+							[ -59.4535, 50.5918 ],
+							[ -59.6407, 50.6535 ],
+							[ -59.7155, 50.5248 ],
+							[ -59.9629, 50.4153 ],
+							[ -60.3093, 50.387 ],
+							[ -60.5002, 50.3004 ],
+							[ -60.4989, 50.2056 ],
+							[ -60.4989, 49.0719 ],
+							[ -60.4989, 48.4997 ],
+							[ -60.235, 48.2375 ],
+							[ -59.9989, 47.9997 ],
+							[ -59.28, 47.9992 ],
+							[ -58.7029, 48.0051 ],
+							[ -58.0024, 48.2921 ],
+							[ -57.2076, 48.4289 ],
+							[ -57.2799, 48.7265 ],
+							[ -57.761, 48.7473 ],
+							[ -58.4024, 49.0288 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 6, 2020 00:38",
+				"Expires_UTC" : "June 6, 2020 08:04",
+				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots.\n\nAn area of thunderstorms over Gulf - Magdalen are moving eastward and may move into the southern Gulf - Port au Port later this evening. These storm may give local gusts to 35 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T08:04:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T00:38:12-00:00, urn:oid:2.49.0.1.124.1949999087.2020<br>Area: Gulf - Port au Port",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.1949999087.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T00_38_12_00_00Iurn_oid_2.49.0.1.124.1949999087.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606080412+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -63.999, 48.4979 ],
 							[ -63.9984, 48.5125 ],
 							[ -64.2253, 48.5122 ],
@@ -1168,75 +1237,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T00_22_12_00_00Iurn_oid_2.49.0.1.124.2253482724.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200606012112+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -66.917, 45.5008 ],
-							[ -66.5516, 45.4995 ],
-							[ -66.5514, 45.4997 ],
-							[ -65.8356, 46.3331 ],
-							[ -65.5705, 46.6329 ],
-							[ -65.3919, 46.733 ],
-							[ -65.3925, 46.733 ],
-							[ -65.7656, 46.7811 ],
-							[ -65.7675, 46.7813 ],
-							[ -65.937, 46.7796 ],
-							[ -66.6606, 46.7689 ],
-							[ -66.6625, 46.7689 ],
-							[ -66.7052, 46.768 ],
-							[ -66.8513, 46.7651 ],
-							[ -66.8554, 46.7644 ],
-							[ -66.8566, 46.7641 ],
-							[ -66.8787, 46.7372 ],
-							[ -67.3009, 46.2171 ],
-							[ -67.3011, 46.2169 ],
-							[ -67.533, 45.9333 ],
-							[ -67.5989, 45.9841 ],
-							[ -67.6318, 45.9663 ],
-							[ -67.6665, 45.9829 ],
-							[ -67.6941, 45.9545 ],
-							[ -67.7156, 45.9324 ],
-							[ -67.7666, 45.9302 ],
-							[ -67.7823, 45.9319 ],
-							[ -67.815, 45.8762 ],
-							[ -67.839, 45.6671 ],
-							[ -67.7222, 45.6482 ],
-							[ -67.624, 45.5767 ],
-							[ -67.4348, 45.5763 ],
-							[ -67.454, 45.5059 ],
-							[ -67.4498, 45.5024 ],
-							[ -67.4475, 45.5001 ],
-							[ -66.917, 45.5008 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 5, 2020 21:59",
-				"Expires_UTC" : "June 6, 2020 01:16",
-				"Summary" : "Description: At 6:58 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nA line of thunderstorms stretching from Fredericton Doaktown is moving eastward at about 50 km/h. Wind gusts of 90 km/h or stronger and hail of 2 cm or larger are possible.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-06T01:16:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T21:59:38-00:00, urn:oid:2.49.0.1.124.2888029413.2020<br>Area: Fredericton and Southern York County, Oromocto and Sunbury County, Stanley - Doaktown - Blackville Area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2888029413.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T21_59_38_00_00Iurn_oid_2.49.0.1.124.2888029413.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606011638+00:00"
 			}
 		}
 	]
