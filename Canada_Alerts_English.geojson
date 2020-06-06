@@ -221,51 +221,51 @@
 				"coordinates" : [
 					[
 						[
-							[ -76.5159, 44.0963 ],
-							[ -76.5796, 44.162 ],
-							[ -76.5882, 44.1816 ],
-							[ -76.6037, 44.2131 ],
-							[ -76.5919, 44.2558 ],
-							[ -76.7176, 44.243 ],
-							[ -76.8717, 44.1537 ],
-							[ -76.8926, 44.2175 ],
-							[ -77.0582, 44.2296 ],
-							[ -77.4108, 44.2078 ],
-							[ -77.6138, 44.1434 ],
-							[ -77.6392, 44.0745 ],
-							[ -77.729, 44.0845 ],
-							[ -77.8441, 44.0509 ],
-							[ -77.8409, 43.9912 ],
-							[ -77.8417, 43.6548 ],
-							[ -77.8418, 43.6361 ],
-							[ -76.7966, 43.6311 ],
-							[ -76.455, 44.0731 ],
-							[ -76.4895, 44.0862 ],
-							[ -76.5159, 44.0963 ]
+							[ -72.7965, 45.9176 ],
+							[ -72.7168, 45.8498 ],
+							[ -72.5018, 45.6657 ],
+							[ -72.4986, 45.667 ],
+							[ -72.0166, 45.8501 ],
+							[ -72.2497, 46.0998 ],
+							[ -72.4864, 46.3366 ],
+							[ -72.4977, 46.3478 ],
+							[ -72.5039, 46.3532 ],
+							[ -72.5286, 46.3853 ],
+							[ -72.591, 46.3304 ],
+							[ -72.6613, 46.3071 ],
+							[ -72.7648, 46.3127 ],
+							[ -73.0134, 46.218 ],
+							[ -73.0318, 46.1874 ],
+							[ -73.0559, 46.1786 ],
+							[ -73.0479, 46.1579 ],
+							[ -73.0173, 46.1186 ],
+							[ -72.9808, 46.0734 ],
+							[ -72.9555, 46.0521 ],
+							[ -72.7965, 45.9176 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 6, 2020 20:18",
-				"Expires_UTC" : "June 6, 2020 21:18",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-06-06T21:18:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T20:18:34-00:00, urn:oid:2.49.0.1.124.2103199489.2020<br>Area: Eastern Lake Ontario",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 6, 2020 20:49",
+				"Expires_UTC" : "June 6, 2020 23:48",
+				"Summary" : "Description: At 4:49 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-06T23:48:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T20:49:02-00:00, urn:oid:2.49.0.1.124.1430870437.2020<br>Area: Nicolet area, Drummondville area",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.2103199489.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T20_18_34_00_00Iurn_oid_2.49.0.1.124.2103199489.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.1430870437.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T20_49_02_00_00Iurn_oid_2.49.0.1.124.1430870437.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606211834+00:00"
+				"Expires_FMEFormat" : "20200606234802+00:00"
 			}
 		},
 		{
@@ -383,6 +383,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T14_12_37_00_00Iurn_oid_2.49.0.1.124.2821048819.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200607061137+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.5159, 44.0963 ],
+							[ -76.5796, 44.162 ],
+							[ -76.5882, 44.1816 ],
+							[ -76.6037, 44.2131 ],
+							[ -76.5919, 44.2558 ],
+							[ -76.7176, 44.243 ],
+							[ -76.8717, 44.1537 ],
+							[ -76.8926, 44.2175 ],
+							[ -77.0582, 44.2296 ],
+							[ -77.4108, 44.2078 ],
+							[ -77.6138, 44.1434 ],
+							[ -77.6392, 44.0745 ],
+							[ -77.729, 44.0845 ],
+							[ -77.8441, 44.0509 ],
+							[ -77.8409, 43.9912 ],
+							[ -77.8417, 43.6548 ],
+							[ -77.8418, 43.6361 ],
+							[ -76.7966, 43.6311 ],
+							[ -76.455, 44.0731 ],
+							[ -76.4895, 44.0862 ],
+							[ -76.5159, 44.0963 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Squall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 6, 2020 20:18",
+				"Expires_UTC" : "June 6, 2020 21:18",
+				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-06-06T21:18:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T20:18:34-00:00, urn:oid:2.49.0.1.124.2103199489.2020<br>Area: Eastern Lake Ontario",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.2103199489.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T20_18_34_00_00Iurn_oid_2.49.0.1.124.2103199489.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606211834+00:00"
 			}
 		},
 		{
@@ -748,72 +802,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -74.4423, 45.0079 ],
-							[ -74.3214, 45.1223 ],
-							[ -74.1461, 45.1778 ],
-							[ -74.0071, 45.1839 ],
-							[ -73.885, 45.2963 ],
-							[ -73.7967, 45.3048 ],
-							[ -73.7428, 45.3571 ],
-							[ -73.7654, 45.3972 ],
-							[ -73.7689, 45.4374 ],
-							[ -73.7678, 45.524 ],
-							[ -73.7667, 45.5346 ],
-							[ -73.7528, 45.643 ],
-							[ -73.7523, 45.6669 ],
-							[ -73.7563, 45.7252 ],
-							[ -73.9237, 45.5514 ],
-							[ -74.0071, 45.4835 ],
-							[ -74.0225, 45.4709 ],
-							[ -74.0574, 45.4694 ],
-							[ -74.0526, 45.4589 ],
-							[ -74.068, 45.442 ],
-							[ -74.07, 45.4393 ],
-							[ -74.1025, 45.4149 ],
-							[ -74.041, 45.3447 ],
-							[ -74.1788, 45.3326 ],
-							[ -74.4939, 45.1997 ],
-							[ -74.5648, 45.0901 ],
-							[ -74.7056, 45.0614 ],
-							[ -74.6869, 45.0243 ],
-							[ -74.6799, 45.0166 ],
-							[ -74.6705, 45.0062 ],
-							[ -74.663, 44.9989 ],
-							[ -74.6372, 44.9803 ],
-							[ -74.4423, 45.0079 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 6, 2020 19:13",
-				"Expires_UTC" : "June 6, 2020 23:00",
-				"Summary" : "Description: Squalls with wind gusts up to 35 knots are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T23:00:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T19:13:47-00:00, urn:oid:2.49.0.1.124.0603804380.2020<br>Area: Cornwall to Montréal",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.0603804380.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T19_13_47_00_00Iurn_oid_2.49.0.1.124.0603804380.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606230047+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.3335, 46.0833 ],
 							[ -66.4509, 45.3156 ],
 							[ -66.4491, 45.2167 ],
@@ -1167,6 +1155,72 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T18_22_22_00_00Iurn_oid_2.49.0.1.124.0660346435.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200607102122+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -74.4423, 45.0079 ],
+							[ -74.3214, 45.1223 ],
+							[ -74.1461, 45.1778 ],
+							[ -74.0071, 45.1839 ],
+							[ -73.885, 45.2963 ],
+							[ -73.7967, 45.3048 ],
+							[ -73.7428, 45.3571 ],
+							[ -73.7654, 45.3972 ],
+							[ -73.7689, 45.4374 ],
+							[ -73.7678, 45.524 ],
+							[ -73.7667, 45.5346 ],
+							[ -73.7528, 45.643 ],
+							[ -73.7523, 45.6669 ],
+							[ -73.7563, 45.7252 ],
+							[ -73.9237, 45.5514 ],
+							[ -74.0071, 45.4835 ],
+							[ -74.0225, 45.4709 ],
+							[ -74.0574, 45.4694 ],
+							[ -74.0526, 45.4589 ],
+							[ -74.068, 45.442 ],
+							[ -74.07, 45.4393 ],
+							[ -74.1025, 45.4149 ],
+							[ -74.041, 45.3447 ],
+							[ -74.1788, 45.3326 ],
+							[ -74.4939, 45.1997 ],
+							[ -74.5648, 45.0901 ],
+							[ -74.7056, 45.0614 ],
+							[ -74.6869, 45.0243 ],
+							[ -74.6799, 45.0166 ],
+							[ -74.6705, 45.0062 ],
+							[ -74.663, 44.9989 ],
+							[ -74.6372, 44.9803 ],
+							[ -74.4423, 45.0079 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Squall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 6, 2020 20:41",
+				"Expires_UTC" : "June 6, 2020 21:41",
+				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n###<br>Expires: 2020-06-06T21:41:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T20:41:50-00:00, urn:oid:2.49.0.1.124.0975578348.2020<br>Area: Cornwall to Montréal",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.0975578348.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T20_41_50_00_00Iurn_oid_2.49.0.1.124.0975578348.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606214150+00:00"
 			}
 		},
 		{
