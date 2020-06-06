@@ -221,60 +221,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -72.7965, 45.9176 ],
-							[ -72.7168, 45.8498 ],
-							[ -72.5018, 45.6657 ],
-							[ -72.4986, 45.667 ],
-							[ -72.0166, 45.8501 ],
-							[ -72.2497, 46.0998 ],
-							[ -72.4864, 46.3366 ],
-							[ -72.4977, 46.3478 ],
-							[ -72.5039, 46.3532 ],
-							[ -72.5286, 46.3853 ],
-							[ -72.591, 46.3304 ],
-							[ -72.6613, 46.3071 ],
-							[ -72.7648, 46.3127 ],
-							[ -73.0134, 46.218 ],
-							[ -73.0318, 46.1874 ],
-							[ -73.0559, 46.1786 ],
-							[ -73.0479, 46.1579 ],
-							[ -73.0173, 46.1186 ],
-							[ -72.9808, 46.0734 ],
-							[ -72.9555, 46.0521 ],
-							[ -72.7965, 45.9176 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 6, 2020 20:49",
-				"Expires_UTC" : "June 6, 2020 23:48",
-				"Summary" : "Description: At 4:49 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-06T23:48:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T20:49:02-00:00, urn:oid:2.49.0.1.124.1430870437.2020<br>Area: Nicolet area, Drummondville area",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.1430870437.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T20_49_02_00_00Iurn_oid_2.49.0.1.124.1430870437.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606234802+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -103.2077, 48.9993 ],
 							[ -103.0129, 48.9984 ],
 							[ -102.8124, 48.999 ],
@@ -1097,6 +1043,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T19_52_35_00_00Iurn_oid_2.49.0.1.124.2781278602.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200606215935+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.7965, 45.9176 ],
+							[ -72.7168, 45.8498 ],
+							[ -72.5018, 45.6657 ],
+							[ -72.4986, 45.667 ],
+							[ -72.0166, 45.8501 ],
+							[ -72.2497, 46.0998 ],
+							[ -72.4864, 46.3366 ],
+							[ -72.4977, 46.3478 ],
+							[ -72.5039, 46.3532 ],
+							[ -72.5286, 46.3853 ],
+							[ -72.591, 46.3304 ],
+							[ -72.6613, 46.3071 ],
+							[ -72.7648, 46.3127 ],
+							[ -73.0134, 46.218 ],
+							[ -73.0318, 46.1874 ],
+							[ -73.0559, 46.1786 ],
+							[ -73.0479, 46.1579 ],
+							[ -73.0173, 46.1186 ],
+							[ -72.9808, 46.0734 ],
+							[ -72.9555, 46.0521 ],
+							[ -72.7965, 45.9176 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 6, 2020 21:09",
+				"Expires_UTC" : "June 6, 2020 22:09",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2020-06-06T22:09:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T21:09:23-00:00, urn:oid:2.49.0.1.124.2544273493.2020<br>Area: Nicolet area, Drummondville area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.2544273493.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T21_09_23_00_00Iurn_oid_2.49.0.1.124.2544273493.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606220923+00:00"
 			}
 		},
 		{
