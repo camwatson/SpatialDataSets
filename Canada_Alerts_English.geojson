@@ -513,75 +513,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -66.917, 45.5008 ],
-							[ -66.5516, 45.4995 ],
-							[ -66.5514, 45.4997 ],
-							[ -65.8356, 46.3331 ],
-							[ -65.5705, 46.6329 ],
-							[ -65.3919, 46.733 ],
-							[ -65.3925, 46.733 ],
-							[ -65.7656, 46.7811 ],
-							[ -65.7675, 46.7813 ],
-							[ -65.937, 46.7796 ],
-							[ -66.6606, 46.7689 ],
-							[ -66.6625, 46.7689 ],
-							[ -66.7052, 46.768 ],
-							[ -66.8513, 46.7651 ],
-							[ -66.8554, 46.7644 ],
-							[ -66.8566, 46.7641 ],
-							[ -66.8787, 46.7372 ],
-							[ -67.3009, 46.2171 ],
-							[ -67.3011, 46.2169 ],
-							[ -67.533, 45.9333 ],
-							[ -67.5989, 45.9841 ],
-							[ -67.6318, 45.9663 ],
-							[ -67.6665, 45.9829 ],
-							[ -67.6941, 45.9545 ],
-							[ -67.7156, 45.9324 ],
-							[ -67.7666, 45.9302 ],
-							[ -67.7823, 45.9319 ],
-							[ -67.815, 45.8762 ],
-							[ -67.839, 45.6671 ],
-							[ -67.7222, 45.6482 ],
-							[ -67.624, 45.5767 ],
-							[ -67.4348, 45.5763 ],
-							[ -67.454, 45.5059 ],
-							[ -67.4498, 45.5024 ],
-							[ -67.4475, 45.5001 ],
-							[ -66.917, 45.5008 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 5, 2020 21:59",
-				"Expires_UTC" : "June 6, 2020 01:16",
-				"Summary" : "Description: At 6:58 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nA line of thunderstorms stretching from Fredericton Doaktown is moving eastward at about 50 km/h. Wind gusts of 90 km/h or stronger and hail of 2 cm or larger are possible.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-06T01:16:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T21:59:38-00:00, urn:oid:2.49.0.1.124.2888029413.2020<br>Area: Fredericton and Southern York County, Oromocto and Sunbury County, Stanley - Doaktown - Blackville Area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2888029413.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T21_59_38_00_00Iurn_oid_2.49.0.1.124.2888029413.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606011638+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.8468, 46.9104 ],
 							[ -64.7432, 47.0784 ],
 							[ -64.8304, 47.0405 ],
@@ -711,25 +642,90 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Squall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 5, 2020 23:48",
-				"Expires_UTC" : "June 6, 2020 03:45",
-				"Summary" : "Description: Squalls with wind gusts up to 40 knots, hail up to 2 centimetres and poor to very poor visibility in thunderstorms heavy at times are expected or occurring in the area.\n\nA line of strong thunderstorms is moving eastward at 30 KT over the eastern parts of the Chaleur-Miscou region and into the Gulf-Magdalen as well as another line over the northern Gulf-Magdalen. These storms may give local gusts to 40 knots and large hail.\n\n###\n\nLarge hail can damage vessels and cause injury.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T03:45:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T23:48:16-00:00, urn:oid:2.49.0.1.124.0689343993.2020<br>Area: Chaleur - Miscou, Gulf - Magdalen",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 6, 2020 00:54",
+				"Expires_UTC" : "June 6, 2020 01:54",
+				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-06-06T01:54:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T00:54:55-00:00, urn:oid:2.49.0.1.124.0441198519.2020<br>Area: Chaleur - Miscou, Gulf - Magdalen",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.0689343993.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T23_48_16_00_00Iurn_oid_2.49.0.1.124.0689343993.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.0441198519.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T00_54_55_00_00Iurn_oid_2.49.0.1.124.0441198519.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606034516+00:00"
+				"Expires_FMEFormat" : "20200606015455+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.9371, 46.3695 ],
+							[ -62.6102, 46.4261 ],
+							[ -61.9992, 46.4562 ],
+							[ -61.9881, 46.4552 ],
+							[ -61.964, 46.4531 ],
+							[ -61.1259, 46.4516 ],
+							[ -61.1038, 46.4505 ],
+							[ -60.9543, 46.4307 ],
+							[ -60.7682, 46.7488 ],
+							[ -60.593, 46.8903 ],
+							[ -60.5894, 46.9883 ],
+							[ -60.5871, 47.0393 ],
+							[ -60.4726, 47.2296 ],
+							[ -59.9989, 47.9997 ],
+							[ -60.235, 48.2375 ],
+							[ -60.4989, 48.4997 ],
+							[ -60.5255, 48.5142 ],
+							[ -61.9655, 48.5146 ],
+							[ -62.894, 48.5136 ],
+							[ -63.9984, 48.5125 ],
+							[ -63.999, 48.4979 ],
+							[ -64.0009, 47.2151 ],
+							[ -64.0011, 47.0593 ],
+							[ -64.0107, 47.0163 ],
+							[ -64.1374, 46.7838 ],
+							[ -64.0543, 46.7025 ],
+							[ -63.9168, 46.446 ],
+							[ -63.6825, 46.3949 ],
+							[ -63.6436, 46.508 ],
+							[ -63.3732, 46.4532 ],
+							[ -63.2517, 46.3907 ],
+							[ -62.9371, 46.3695 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 6, 2020 00:54",
+				"Expires_UTC" : "June 6, 2020 04:52",
+				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots and poor to very poor visibility in thunderstorms heavy at times.\n\nAn area of strong thunderstorms continues to move eastward over parts of western and northern Gulf-Magdalen. These storms may give local gusts to 35 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T04:52:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-06T00:54:47-00:00, urn:oid:2.49.0.1.124.4037634102.2020<br>Area: Gulf - Magdalen",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-06:feed.atom/urn:oid:2.49.0.1.124.4037634102.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T00_54_47_00_00Iurn_oid_2.49.0.1.124.4037634102.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606045247+00:00"
 			}
 		},
 		{
@@ -1004,71 +1000,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.6386, 43.75 ],
-							[ -79.6746, 43.8215 ],
-							[ -79.7114, 43.8757 ],
-							[ -79.8267, 43.7916 ],
-							[ -79.9283, 43.7031 ],
-							[ -79.8622, 43.6523 ],
-							[ -79.7916, 43.6064 ],
-							[ -79.7953, 43.6066 ],
-							[ -79.7981, 43.6052 ],
-							[ -79.7984, 43.6034 ],
-							[ -79.8039, 43.6014 ],
-							[ -79.8064, 43.5962 ],
-							[ -79.7724, 43.5683 ],
-							[ -79.7308, 43.5407 ],
-							[ -79.7036, 43.5176 ],
-							[ -79.6786, 43.5023 ],
-							[ -79.6703, 43.5057 ],
-							[ -79.6652, 43.512 ],
-							[ -79.6405, 43.4919 ],
-							[ -79.6205, 43.4786 ],
-							[ -79.6174, 43.4775 ],
-							[ -79.5957, 43.4581 ],
-							[ -79.5036, 43.5329 ],
-							[ -79.0603, 43.7242 ],
-							[ -79.1029, 43.7947 ],
-							[ -79.1088, 43.7984 ],
-							[ -79.1091, 43.7985 ],
-							[ -79.1495, 43.8216 ],
-							[ -79.1574, 43.8392 ],
-							[ -79.1702, 43.8556 ],
-							[ -79.4107, 43.8111 ],
-							[ -79.6386, 43.75 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 5, 2020 19:04",
-				"Expires_UTC" : "June 6, 2020 00:53",
-				"Summary" : "Description: Slowing moving thunderstorms giving heavy rain this afternoon.\n\nA southwest to northeast line of slow moving thunderstorms is affecting portions of the Greater Toronto Area this afternoon.  Local rainfall amounts of up to 50 mm are possible by 5PM.\n\nLocations impacted include:\nMississauga, Downtown Toronto and Etobicoke.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-06T00:53:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T19:04:37-00:00, urn:oid:2.49.0.1.124.3005767291.2020<br>Area: City of Toronto, Mississauga - Brampton",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.3005767291.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T19_04_37_00_00Iurn_oid_2.49.0.1.124.3005767291.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606005337+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.4024, 49.0288 ],
 							[ -58.4123, 49.0958 ],
 							[ -58.3653, 49.1496 ],
@@ -1132,69 +1063,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -63.999, 48.4979 ],
-							[ -63.9984, 48.5125 ],
-							[ -64.2253, 48.5122 ],
-							[ -64.3032, 48.5124 ],
-							[ -64.4129, 48.4501 ],
-							[ -64.6556, 48.3886 ],
-							[ -65.1617, 48.1835 ],
-							[ -65.4387, 48.0563 ],
-							[ -65.953, 48.2679 ],
-							[ -66.1576, 48.15 ],
-							[ -66.5182, 48.1606 ],
-							[ -66.8549, 48.0002 ],
-							[ -66.7859, 47.9366 ],
-							[ -66.4294, 47.9711 ],
-							[ -65.8329, 47.8054 ],
-							[ -65.7337, 47.6059 ],
-							[ -65.6524, 47.5775 ],
-							[ -65.212, 47.7501 ],
-							[ -64.9349, 47.7368 ],
-							[ -64.8051, 47.6755 ],
-							[ -64.8572, 47.6469 ],
-							[ -65.0289, 47.3368 ],
-							[ -65.3948, 47.1114 ],
-							[ -65.3603, 47.0226 ],
-							[ -65.0342, 46.9974 ],
-							[ -64.8432, 47.0806 ],
-							[ -64.0022, 47.0603 ],
-							[ -64.0011, 47.0593 ],
-							[ -64.0009, 47.2151 ],
-							[ -63.999, 48.4979 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 5, 2020 22:58",
-				"Expires_UTC" : "June 6, 2020 00:56",
-				"Summary" : "Description: Squalls with wind gusts up to 40 knots, hail up to 2 centimetres and poor to very poor visibility in thunderstorms heavy at times are expected or occurring in the area.\n\nStrong thunderstorms are moving off the coast and pushing east into the eastern parts of the Chaleur-Miscou region and may give local gusts to 40 knots and large hail.\n\n###\n\nLarge hail can damage vessels and cause injury.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-06T00:56:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T22:58:03-00:00, urn:oid:2.49.0.1.124.1751222186.2020<br>Area: Chaleur - Miscou",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.1751222186.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T22_58_03_00_00Iurn_oid_2.49.0.1.124.1751222186.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200606005603+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -79.322, 43.1293 ],
 							[ -79.0451, 43.217 ],
 							[ -79.0681, 43.2627 ],
@@ -1237,6 +1105,75 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-06/2020_06_06T00_22_12_00_00Iurn_oid_2.49.0.1.124.2253482724.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200606012112+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -66.917, 45.5008 ],
+							[ -66.5516, 45.4995 ],
+							[ -66.5514, 45.4997 ],
+							[ -65.8356, 46.3331 ],
+							[ -65.5705, 46.6329 ],
+							[ -65.3919, 46.733 ],
+							[ -65.3925, 46.733 ],
+							[ -65.7656, 46.7811 ],
+							[ -65.7675, 46.7813 ],
+							[ -65.937, 46.7796 ],
+							[ -66.6606, 46.7689 ],
+							[ -66.6625, 46.7689 ],
+							[ -66.7052, 46.768 ],
+							[ -66.8513, 46.7651 ],
+							[ -66.8554, 46.7644 ],
+							[ -66.8566, 46.7641 ],
+							[ -66.8787, 46.7372 ],
+							[ -67.3009, 46.2171 ],
+							[ -67.3011, 46.2169 ],
+							[ -67.533, 45.9333 ],
+							[ -67.5989, 45.9841 ],
+							[ -67.6318, 45.9663 ],
+							[ -67.6665, 45.9829 ],
+							[ -67.6941, 45.9545 ],
+							[ -67.7156, 45.9324 ],
+							[ -67.7666, 45.9302 ],
+							[ -67.7823, 45.9319 ],
+							[ -67.815, 45.8762 ],
+							[ -67.839, 45.6671 ],
+							[ -67.7222, 45.6482 ],
+							[ -67.624, 45.5767 ],
+							[ -67.4348, 45.5763 ],
+							[ -67.454, 45.5059 ],
+							[ -67.4498, 45.5024 ],
+							[ -67.4475, 45.5001 ],
+							[ -66.917, 45.5008 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 5, 2020 21:59",
+				"Expires_UTC" : "June 6, 2020 01:16",
+				"Summary" : "Description: At 6:58 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nA line of thunderstorms stretching from Fredericton Doaktown is moving eastward at about 50 km/h. Wind gusts of 90 km/h or stronger and hail of 2 cm or larger are possible.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-06T01:16:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-05T21:59:38-00:00, urn:oid:2.49.0.1.124.2888029413.2020<br>Area: Fredericton and Southern York County, Oromocto and Sunbury County, Stanley - Doaktown - Blackville Area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-05:feed.atom/urn:oid:2.49.0.1.124.2888029413.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-05/2020_06_05T21_59_38_00_00Iurn_oid_2.49.0.1.124.2888029413.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200606011638+00:00"
 			}
 		}
 	]
