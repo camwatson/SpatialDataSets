@@ -724,6 +724,77 @@
 				"coordinates" : [
 					[
 						[
+							[ -111.9578, 51.1832 ],
+							[ -111.9577, 51.0377 ],
+							[ -111.975, 51.0277 ],
+							[ -111.9464, 50.9696 ],
+							[ -111.9979, 50.9339 ],
+							[ -111.9611, 50.8989 ],
+							[ -111.8874, 50.8993 ],
+							[ -111.8529, 50.8758 ],
+							[ -111.8363, 50.8815 ],
+							[ -111.5844, 50.8788 ],
+							[ -111.2508, 50.8814 ],
+							[ -111.2503, 50.9072 ],
+							[ -111.2496, 50.9204 ],
+							[ -111.2501, 50.9217 ],
+							[ -111.2597, 50.9217 ],
+							[ -111.2542, 51.0623 ],
+							[ -111.2595, 51.1831 ],
+							[ -111.2596, 51.2615 ],
+							[ -111.2596, 51.27 ],
+							[ -111.2641, 51.2703 ],
+							[ -111.2698, 51.2701 ],
+							[ -111.2645, 51.3433 ],
+							[ -111.269, 51.4159 ],
+							[ -111.2646, 51.5238 ],
+							[ -111.2701, 51.6195 ],
+							[ -111.2806, 51.6198 ],
+							[ -111.2779, 51.6616 ],
+							[ -111.2807, 51.7069 ],
+							[ -112.1063, 51.7068 ],
+							[ -112.1147, 51.6196 ],
+							[ -112.1156, 51.6048 ],
+							[ -112.1148, 51.5904 ],
+							[ -112.1841, 51.5916 ],
+							[ -112.2552, 51.5904 ],
+							[ -112.2569, 51.5004 ],
+							[ -112.2543, 51.4159 ],
+							[ -111.958, 51.4159 ],
+							[ -111.9578, 51.1832 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 13, 2020 07:10",
+				"Expires_UTC" : "June 13, 2020 08:10",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-13T08:10:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-13T07:10:41-00:00, urn:oid:2.49.0.1.124.4280145972.2020<br>Area: S.A. 2 near Hanna and Richdale, S.A. 2 near Sunnynook, S.A. 2 near Cessford Wardlow and Pollockville",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-13:feed.atom/urn:oid:2.49.0.1.124.4280145972.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-13/2020_06_13T07_10_41_00_00Iurn_oid_2.49.0.1.124.4280145972.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200613081041+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -84.4985, 46.6539 ],
 							[ -84.6124, 46.6233 ],
 							[ -84.6283, 46.5491 ],
@@ -3215,72 +3286,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -112.2197, 50.9212 ],
-							[ -112.22, 50.4849 ],
-							[ -112.22, 50.4845 ],
-							[ -111.7908, 50.4845 ],
-							[ -111.7912, 50.837 ],
-							[ -111.7911, 50.8572 ],
-							[ -111.8057334413, 50.8811723711 ],
-							[ -111.5844, 50.8788 ],
-							[ -111.2508, 50.8814 ],
-							[ -111.2503, 50.9072 ],
-							[ -111.2496, 50.9204 ],
-							[ -111.2501, 50.9217 ],
-							[ -111.2597, 50.9217 ],
-							[ -111.2542, 51.0623 ],
-							[ -111.2595, 51.1831 ],
-							[ -111.8893, 51.1834 ],
-							[ -111.9578, 51.1832 ],
-							[ -111.957728997, 51.0798906945 ],
-							[ -111.9606, 51.0845 ],
-							[ -112.2213, 51.2233 ],
-							[ -112.237, 51.2136 ],
-							[ -112.2373, 51.1838 ],
-							[ -112.2415, 51.1421 ],
-							[ -112.2376, 51.0959 ],
-							[ -112.312, 51.0969 ],
-							[ -112.3763, 51.0957 ],
-							[ -112.3763, 51.0595 ],
-							[ -112.3765, 51.0089 ],
-							[ -112.4454, 51.01 ],
-							[ -112.5157, 51.0088 ],
-							[ -112.5156, 50.9999 ],
-							[ -112.5157, 50.9213 ],
-							[ -112.2197, 50.9212 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 13, 2020 06:00",
-				"Expires_UTC" : "June 13, 2020 08:33",
-				"Summary" : "Description: At 11:59 p.m. MDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nThis cluster of severe thunderstorms is located from Brooks to 10 km west of Rosemary and is moving towards the north at 45 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-13T08:33:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-13T06:00:53-00:00, urn:oid:2.49.0.1.124.0795217954.2020<br>Area: Co. of Newell near Gem, Co. of Newell near Brooks Rosemary and Duchess, S.A. 2 near Cessford Wardlow and Pollockville",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-13:feed.atom/urn:oid:2.49.0.1.124.0795217954.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-13/2020_06_13T06_00_53_00_00Iurn_oid_2.49.0.1.124.0795217954.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200613083353+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -115.1709, 53.3676 ],
 							[ -115.1708, 53.052 ],
 							[ -115.1556, 53.0303 ],
@@ -3724,6 +3729,72 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-13/2020_06_13T03_33_36_00_00Iurn_oid_2.49.0.1.124.1755618469.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200613105936+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -112.2197, 50.9212 ],
+							[ -112.22, 50.4849 ],
+							[ -112.22, 50.4845 ],
+							[ -111.7908, 50.4845 ],
+							[ -111.7912, 50.837 ],
+							[ -111.7911, 50.8572 ],
+							[ -111.8057334413, 50.8811723711 ],
+							[ -111.5844, 50.8788 ],
+							[ -111.2508, 50.8814 ],
+							[ -111.2503, 50.9072 ],
+							[ -111.2496, 50.9204 ],
+							[ -111.2501, 50.9217 ],
+							[ -111.2597, 50.9217 ],
+							[ -111.2542, 51.0623 ],
+							[ -111.2595, 51.1831 ],
+							[ -111.8893, 51.1834 ],
+							[ -111.9578, 51.1832 ],
+							[ -111.957728997, 51.0798906945 ],
+							[ -111.9606, 51.0845 ],
+							[ -112.2213, 51.2233 ],
+							[ -112.237, 51.2136 ],
+							[ -112.2373, 51.1838 ],
+							[ -112.2415, 51.1421 ],
+							[ -112.2376, 51.0959 ],
+							[ -112.312, 51.0969 ],
+							[ -112.3763, 51.0957 ],
+							[ -112.3763, 51.0595 ],
+							[ -112.3765, 51.0089 ],
+							[ -112.4454, 51.01 ],
+							[ -112.5157, 51.0088 ],
+							[ -112.5156, 50.9999 ],
+							[ -112.5157, 50.9213 ],
+							[ -112.2197, 50.9212 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 13, 2020 06:00",
+				"Expires_UTC" : "June 13, 2020 08:33",
+				"Summary" : "Description: At 11:59 p.m. MDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nThis cluster of severe thunderstorms is located from Brooks to 10 km west of Rosemary and is moving towards the north at 45 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-13T08:33:53-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-13T06:00:53-00:00, urn:oid:2.49.0.1.124.0795217954.2020<br>Area: Co. of Newell near Gem, Co. of Newell near Brooks Rosemary and Duchess, S.A. 2 near Cessford Wardlow and Pollockville",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-13:feed.atom/urn:oid:2.49.0.1.124.0795217954.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-13/2020_06_13T06_00_53_00_00Iurn_oid_2.49.0.1.124.0795217954.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200613083353+00:00"
 			}
 		},
 		{
