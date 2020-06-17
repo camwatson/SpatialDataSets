@@ -9,57 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -97.9365, 53.5279 ],
-							[ -97.6154, 53.112 ],
-							[ -97.5905, 52.8597 ],
-							[ -97.2463, 52.419 ],
-							[ -96.9655, 52.4201 ],
-							[ -96.2216, 52.42 ],
-							[ -95.7101, 52.4152 ],
-							[ -95.1536, 52.4201 ],
-							[ -95.1536, 52.4841 ],
-							[ -95.1429, 52.6767 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1677, 53.1857 ],
-							[ -95.2444, 53.5312 ],
-							[ -96.075, 53.5525 ],
-							[ -96.8648, 53.5312 ],
-							[ -97.4342, 53.5446 ],
-							[ -97.9365, 53.5279 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 17, 2020 05:16",
-				"Expires_UTC" : "June 17, 2020 06:16",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-17T06:16:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-17T05:16:04-00:00, urn:oid:2.49.0.1.124.4097190228.2020<br>Area: Poplar River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-17:feed.atom/urn:oid:2.49.0.1.124.4097190228.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-17/2020_06_17T05_16_04_00_00Iurn_oid_2.49.0.1.124.4097190228.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200617061604+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.0234, 48.6739 ],
 							[ -64.0922, 48.9092 ],
 							[ -64.7482, 49.4732 ],
@@ -187,6 +136,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-17/2020_06_17T03_25_46_00_00Iurn_oid_2.49.0.1.124.2594265398.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200617192446+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -97.9365, 53.5279 ],
+							[ -97.6154, 53.112 ],
+							[ -97.5905, 52.8597 ],
+							[ -97.2463, 52.419 ],
+							[ -96.9655, 52.4201 ],
+							[ -96.2216, 52.42 ],
+							[ -95.7101, 52.4152 ],
+							[ -95.1536, 52.4201 ],
+							[ -95.1536, 52.4841 ],
+							[ -95.1429, 52.6767 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1677, 53.1857 ],
+							[ -95.2444, 53.5312 ],
+							[ -96.075, 53.5525 ],
+							[ -96.8648, 53.5312 ],
+							[ -97.4342, 53.5446 ],
+							[ -97.9365, 53.5279 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 17, 2020 05:16",
+				"Expires_UTC" : "June 17, 2020 06:16",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-17T06:16:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-17T05:16:04-00:00, urn:oid:2.49.0.1.124.4097190228.2020<br>Area: Poplar River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-17:feed.atom/urn:oid:2.49.0.1.124.4097190228.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-17/2020_06_17T05_16_04_00_00Iurn_oid_2.49.0.1.124.4097190228.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200617061604+00:00"
 			}
 		},
 		{
@@ -1424,25 +1424,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 17, 2020 04:28",
-				"Expires_UTC" : "June 17, 2020 05:28",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-17T05:28:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-17T04:28:36-00:00, urn:oid:2.49.0.1.124.1173723217.2020<br>Area: Sioux Lookout - Eastern Lac Seul",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 17, 2020 03:44",
+				"Expires_UTC" : "June 17, 2020 05:59",
+				"Summary" : "Description: At 10:43 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis severe thunderstorm is located 9 kilometres north of Otatakan Lake, moving east at 55 km/h. \n\nThis severe thunderstorm will be near:\nRoadhouse Lake around 12:05 AM EDT.\nBlackstone Lake around 12:30 AM EDT.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-06-17T05:59:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-17T03:44:32-00:00, urn:oid:2.49.0.1.124.3930245412.2020<br>Area: Sioux Lookout - Eastern Lac Seul",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-17:feed.atom/urn:oid:2.49.0.1.124.1173723217.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-17/2020_06_17T04_28_36_00_00Iurn_oid_2.49.0.1.124.1173723217.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-17:feed.atom/urn:oid:2.49.0.1.124.3930245412.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-17/2020_06_17T03_44_32_00_00Iurn_oid_2.49.0.1.124.3930245412.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200617052836+00:00"
+				"Expires_FMEFormat" : "20200617055932+00:00"
 			}
 		},
 		{
@@ -1858,25 +1858,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 17, 2020 04:59",
-				"Expires_UTC" : "June 17, 2020 06:57",
-				"Summary" : "Description: At 11:58 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, nickel to ping pong ball size hail and heavy rain.\n\nAt 11:55 PM CDT, a severe thunderstorm located 10 km south of the Canadian border was moving northeast at 80 km/h. This thunderstorm will cross the border and head towards the Waskada to Melita area.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-17T06:57:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-17T04:59:46-00:00, urn:oid:2.49.0.1.124.3601363800.2020<br>Area: Mun. of Two Borders incl. Melita Coulter and Tilston",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 17, 2020 05:21",
+				"Expires_UTC" : "June 17, 2020 06:21",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-17T06:21:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-17T05:21:50-00:00, urn:oid:2.49.0.1.124.1918189999.2020<br>Area: Mun. of Two Borders incl. Melita Coulter and Tilston",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-17:feed.atom/urn:oid:2.49.0.1.124.3601363800.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-17/2020_06_17T04_59_46_00_00Iurn_oid_2.49.0.1.124.3601363800.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-17:feed.atom/urn:oid:2.49.0.1.124.1918189999.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-17/2020_06_17T05_21_50_00_00Iurn_oid_2.49.0.1.124.1918189999.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200617065746+00:00"
+				"Expires_FMEFormat" : "20200617062150+00:00"
 			}
 		}
 	]
