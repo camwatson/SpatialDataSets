@@ -447,6 +447,65 @@
 				"coordinates" : [
 					[
 						[
+							[ -103.5965, 51.8669 ],
+							[ -103.7068, 51.8674 ],
+							[ -103.7122, 51.8678 ],
+							[ -103.7176, 51.8674 ],
+							[ -103.7199, 51.8493 ],
+							[ -103.7176, 51.8275 ],
+							[ -103.7174, 51.8274 ],
+							[ -103.712, 51.8269 ],
+							[ -103.7068, 51.8272 ],
+							[ -103.7158, 51.747 ],
+							[ -103.7066, 51.6543 ],
+							[ -103.7059, 51.6522 ],
+							[ -103.718, 51.5139 ],
+							[ -103.704, 51.3871 ],
+							[ -103.4934, 51.3803 ],
+							[ -103.2799, 51.3869 ],
+							[ -103.2674, 51.5169 ],
+							[ -103.282, 51.6521 ],
+							[ -103.2752, 51.7246 ],
+							[ -103.2815, 51.7939 ],
+							[ -103.3555, 51.7976 ],
+							[ -103.435, 51.7938 ],
+							[ -103.4367, 51.819 ],
+							[ -103.508, 51.867 ],
+							[ -103.5894, 51.8782 ],
+							[ -103.5965, 51.8669 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 16, 2020 23:59",
+				"Expires_UTC" : "June 17, 2020 00:59",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-17T00:59:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-16T23:59:51-00:00, urn:oid:2.49.0.1.124.2686623613.2020<br>Area: R.M. of Foam Lake including Foam Lake and Fishing Lake Res.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-16:feed.atom/urn:oid:2.49.0.1.124.2686623613.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T23_59_51_00_00Iurn_oid_2.49.0.1.124.2686623613.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200617005951+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -104.0994, 51.0956 ],
 							[ -104.0857, 51.1855 ],
 							[ -104.1004, 51.2702 ],
@@ -642,56 +701,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -91.5246, 52.2405 ],
-							[ -93.4852, 52.4148 ],
-							[ -95.1536, 52.4841 ],
-							[ -95.1536, 52.4201 ],
-							[ -95.169, 52.0344 ],
-							[ -95.1536, 51.6128 ],
-							[ -94.5283, 51.5309 ],
-							[ -93.9542, 51.4733 ],
-							[ -93.733, 51.4154 ],
-							[ -93.4873, 51.3669 ],
-							[ -92.3388, 51.1193 ],
-							[ -91.0434, 51.1282 ],
-							[ -89.9953, 51.1354 ],
-							[ -87.9963, 51.1568 ],
-							[ -87.9904, 52.2453 ],
-							[ -89.8479, 52.2797 ],
-							[ -91.5246, 52.2405 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Heat Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Heat",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 16, 2020 19:24",
-				"Expires_UTC" : "June 17, 2020 11:23",
-				"Summary" : "Description: Temperatures reaching 29 to 32 degrees Celsius with humidex in the mid to high thirties combined with overnight lows near 18 degrees Celsius are expected for tonight into Wednesday. \n\nA cooler airmass will arrive on Thursday.\n\n###\n\nExtreme heat affects everyone.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-17T11:23:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-16T19:24:30-00:00, urn:oid:2.49.0.1.124.3751793048.2020<br>Area: Pikangikum - Poplar Hill - MacDowell, Pickle Lake - Cat Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-16:feed.atom/urn:oid:2.49.0.1.124.3751793048.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T19_24_30_00_00Iurn_oid_2.49.0.1.124.3751793048.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200617112330+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -104.0994, 51.0956 ],
 							[ -104.0857, 51.1855 ],
 							[ -104.1004, 51.2702 ],
@@ -781,6 +790,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T22_01_57_00_00Iurn_oid_2.49.0.1.124.1363249316.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200617005457+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -91.5246, 52.2405 ],
+							[ -93.4852, 52.4148 ],
+							[ -95.1536, 52.4841 ],
+							[ -95.1536, 52.4201 ],
+							[ -95.169, 52.0344 ],
+							[ -95.1536, 51.6128 ],
+							[ -94.5283, 51.5309 ],
+							[ -93.9542, 51.4733 ],
+							[ -93.733, 51.4154 ],
+							[ -93.4873, 51.3669 ],
+							[ -92.3388, 51.1193 ],
+							[ -91.0434, 51.1282 ],
+							[ -89.9953, 51.1354 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.9904, 52.2453 ],
+							[ -89.8479, 52.2797 ],
+							[ -91.5246, 52.2405 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Heat Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Heat",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 16, 2020 19:24",
+				"Expires_UTC" : "June 17, 2020 11:23",
+				"Summary" : "Description: Temperatures reaching 29 to 32 degrees Celsius with humidex in the mid to high thirties combined with overnight lows near 18 degrees Celsius are expected for tonight into Wednesday. \n\nA cooler airmass will arrive on Thursday.\n\n###\n\nExtreme heat affects everyone.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-17T11:23:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-16T19:24:30-00:00, urn:oid:2.49.0.1.124.3751793048.2020<br>Area: Pikangikum - Poplar Hill - MacDowell, Pickle Lake - Cat Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-16:feed.atom/urn:oid:2.49.0.1.124.3751793048.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T19_24_30_00_00Iurn_oid_2.49.0.1.124.3751793048.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200617112330+00:00"
 			}
 		},
 		{
@@ -924,6 +983,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T23_57_36_00_00Iurn_oid_2.49.0.1.124.0999902770.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200617014950+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -105.3096, 51.0957 ],
+							[ -105.2778, 51.0244 ],
+							[ -105.0709, 50.7931 ],
+							[ -105.0374, 50.7944 ],
+							[ -105.0151, 50.7976 ],
+							[ -104.9961, 50.8043 ],
+							[ -104.9742, 50.8014 ],
+							[ -104.9618, 50.7991 ],
+							[ -104.9428, 50.7934 ],
+							[ -104.9161, 50.7848 ],
+							[ -104.916, 50.7988 ],
+							[ -104.9113, 50.8555 ],
+							[ -104.9162, 50.921 ],
+							[ -104.8575, 50.9191 ],
+							[ -104.7975, 50.921 ],
+							[ -104.7898, 51.0039 ],
+							[ -104.7978, 51.0956 ],
+							[ -104.7978, 51.1392 ],
+							[ -104.7854, 51.2062 ],
+							[ -104.7978, 51.2705 ],
+							[ -104.8187, 51.2705 ],
+							[ -104.8072, 51.3173 ],
+							[ -104.8188, 51.358 ],
+							[ -104.8899, 51.3636 ],
+							[ -104.9594, 51.3579 ],
+							[ -105.1014, 51.3614 ],
+							[ -105.2395, 51.3578 ],
+							[ -105.2871, 51.3578 ],
+							[ -105.3303, 51.1989 ],
+							[ -105.3096, 51.0957 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 16, 2020 23:58",
+				"Expires_UTC" : "June 17, 2020 00:58",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-17T00:58:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-16T23:58:33-00:00, urn:oid:2.49.0.1.124.1134833463.2020<br>Area: R.M. of McKillop including Strasbourg and Rowans Ravine Prov. Park, R.M. of Last Mountain Valley including Govan and Duval",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-16:feed.atom/urn:oid:2.49.0.1.124.1134833463.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T23_58_33_00_00Iurn_oid_2.49.0.1.124.1134833463.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200617005833+00:00"
 			}
 		},
 		{
@@ -1391,92 +1513,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -103.2799, 51.3869 ],
-							[ -103.2674, 51.5169 ],
-							[ -103.282, 51.6521 ],
-							[ -103.2752, 51.7246 ],
-							[ -103.2815, 51.7939 ],
-							[ -103.3555, 51.7976 ],
-							[ -103.435, 51.7938 ],
-							[ -103.4367, 51.819 ],
-							[ -103.508, 51.867 ],
-							[ -103.5894, 51.8782 ],
-							[ -103.5965, 51.8669 ],
-							[ -103.7068, 51.8674 ],
-							[ -103.7122, 51.8678 ],
-							[ -103.7176, 51.8674 ],
-							[ -103.7199, 51.8493 ],
-							[ -103.7176, 51.8275 ],
-							[ -103.7174, 51.8274 ],
-							[ -103.712, 51.8269 ],
-							[ -103.7068, 51.8272 ],
-							[ -103.7158, 51.747 ],
-							[ -103.7066, 51.6543 ],
-							[ -103.7059, 51.6522 ],
-							[ -103.8939, 51.6588 ],
-							[ -104.1285, 51.6522 ],
-							[ -104.1339, 51.607 ],
-							[ -104.1285, 51.5636 ],
-							[ -104.1377, 51.4789 ],
-							[ -104.1285, 51.3869 ],
-							[ -104.2004, 51.3917 ],
-							[ -104.27, 51.3877 ],
-							[ -104.2734, 51.3746 ],
-							[ -104.2699, 51.3576 ],
-							[ -104.4047, 51.3635 ],
-							[ -104.5374, 51.3578 ],
-							[ -104.5468, 51.3127 ],
-							[ -104.5373, 51.2704 ],
-							[ -104.528, 51.2694 ],
-							[ -104.5187, 51.2704 ],
-							[ -104.5263, 51.1829 ],
-							[ -104.5187, 51.0956 ],
-							[ -104.3056, 51.0889 ],
-							[ -104.0994, 51.0956 ],
-							[ -103.9064, 51.089 ],
-							[ -103.6902, 51.0956 ],
-							[ -103.6891, 51.1098 ],
-							[ -103.6897, 51.1217 ],
-							[ -103.4795, 51.1152 ],
-							[ -103.2698, 51.1219 ],
-							[ -103.2597, 51.2132 ],
-							[ -103.2694, 51.2987 ],
-							[ -103.2794, 51.2986 ],
-							[ -103.2752, 51.342 ],
-							[ -103.2799, 51.3869 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 16, 2020 22:50",
-				"Expires_UTC" : "June 17, 2020 00:54",
-				"Summary" : "Description: At 4:49 p.m. CST, Environment Canada meteorologists are tracking a dangerous thunderstorm capable of producing very strong wind gusts, up to golf ball size hail and heavy rain.\n\nThis thunderstorm is near Lestock and is moving northeast at 60 km/h. Golf ball sized hail was reported earlier in Southey.\n\n###\n\nVery large hail can damage property, break windows, dent vehicles and cause serious injury. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-17T00:54:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-16T22:50:38-00:00, urn:oid:2.49.0.1.124.0959039089.2020<br>Area: R.M. of Emerald including Wishart and Bankend, R.M. of Kellross including Kelliher and Lestock, R.M. of Foam Lake including Foam Lake and Fishing Lake Res., R.M. of Ituna Bon Accord including Ituna and Hubbard",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-16:feed.atom/urn:oid:2.49.0.1.124.0959039089.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T22_50_38_00_00Iurn_oid_2.49.0.1.124.0959039089.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200617005438+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -89.6337, 48.0095 ],
 							[ -89.6069, 47.9704 ],
 							[ -89.2481, 48.034 ],
@@ -1616,6 +1652,92 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T19_24_30_00_00Iurn_oid_2.49.0.1.124.3717871061.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200617112330+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -103.2799, 51.3869 ],
+							[ -103.2674, 51.5169 ],
+							[ -103.282, 51.6521 ],
+							[ -103.2752, 51.7246 ],
+							[ -103.2815, 51.7939 ],
+							[ -103.3555, 51.7976 ],
+							[ -103.435, 51.7938 ],
+							[ -103.4367, 51.819 ],
+							[ -103.508, 51.867 ],
+							[ -103.5894, 51.8782 ],
+							[ -103.5965, 51.8669 ],
+							[ -103.7068, 51.8674 ],
+							[ -103.7122, 51.8678 ],
+							[ -103.7176, 51.8674 ],
+							[ -103.7199, 51.8493 ],
+							[ -103.7176, 51.8275 ],
+							[ -103.7174, 51.8274 ],
+							[ -103.712, 51.8269 ],
+							[ -103.7068, 51.8272 ],
+							[ -103.7158, 51.747 ],
+							[ -103.7066, 51.6543 ],
+							[ -103.7059, 51.6522 ],
+							[ -103.8939, 51.6588 ],
+							[ -104.1285, 51.6522 ],
+							[ -104.1339, 51.607 ],
+							[ -104.1285, 51.5636 ],
+							[ -104.1377, 51.4789 ],
+							[ -104.1285, 51.3869 ],
+							[ -104.2004, 51.3917 ],
+							[ -104.27, 51.3877 ],
+							[ -104.2734, 51.3746 ],
+							[ -104.2699, 51.3576 ],
+							[ -104.4047, 51.3635 ],
+							[ -104.5374, 51.3578 ],
+							[ -104.5468, 51.3127 ],
+							[ -104.5373, 51.2704 ],
+							[ -104.528, 51.2694 ],
+							[ -104.5187, 51.2704 ],
+							[ -104.5263, 51.1829 ],
+							[ -104.5187, 51.0956 ],
+							[ -104.3056, 51.0889 ],
+							[ -104.0994, 51.0956 ],
+							[ -103.9064, 51.089 ],
+							[ -103.6902, 51.0956 ],
+							[ -103.6891, 51.1098 ],
+							[ -103.6897, 51.1217 ],
+							[ -103.4795, 51.1152 ],
+							[ -103.2698, 51.1219 ],
+							[ -103.2597, 51.2132 ],
+							[ -103.2694, 51.2987 ],
+							[ -103.2794, 51.2986 ],
+							[ -103.2752, 51.342 ],
+							[ -103.2799, 51.3869 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 16, 2020 22:50",
+				"Expires_UTC" : "June 17, 2020 00:54",
+				"Summary" : "Description: At 4:49 p.m. CST, Environment Canada meteorologists are tracking a dangerous thunderstorm capable of producing very strong wind gusts, up to golf ball size hail and heavy rain.\n\nThis thunderstorm is near Lestock and is moving northeast at 60 km/h. Golf ball sized hail was reported earlier in Southey.\n\n###\n\nVery large hail can damage property, break windows, dent vehicles and cause serious injury. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-17T00:54:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-16T22:50:38-00:00, urn:oid:2.49.0.1.124.0959039089.2020<br>Area: R.M. of Emerald including Wishart and Bankend, R.M. of Kellross including Kelliher and Lestock, R.M. of Foam Lake including Foam Lake and Fishing Lake Res., R.M. of Ituna Bon Accord including Ituna and Hubbard",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-16:feed.atom/urn:oid:2.49.0.1.124.0959039089.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T22_50_38_00_00Iurn_oid_2.49.0.1.124.0959039089.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200617005438+00:00"
 			}
 		},
 		{
@@ -2748,25 +2870,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 16, 2020 23:40",
-				"Expires_UTC" : "June 17, 2020 01:59",
-				"Summary" : "Description: At 5:39 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, nickel to ping pong ball size hail and heavy rain.\n\nThis thunderstorm is 10 km west of Gravelbourg and is moving north at 60 km/h.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-17T01:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-16T23:40:06-00:00, urn:oid:2.49.0.1.124.3833980036.2020<br>Area: R.M. of Lawtonia including Hodgeville, R.M. of Glen Bain including Glen Bain, R.M. of Shamrock including Shamrock and Kelstern, R.M. of Gravelbourg including Gravelbourg and Bateman",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 17, 2020 00:03",
+				"Expires_UTC" : "June 17, 2020 01:03",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-17T01:03:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-17T00:03:21-00:00, urn:oid:2.49.0.1.124.4096053314.2020<br>Area: R.M. of Lawtonia including Hodgeville, R.M. of Glen Bain including Glen Bain, R.M. of Shamrock including Shamrock and Kelstern, R.M. of Gravelbourg including Gravelbourg and Bateman",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-16:feed.atom/urn:oid:2.49.0.1.124.3833980036.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-16/2020_06_16T23_40_06_00_00Iurn_oid_2.49.0.1.124.3833980036.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-17:feed.atom/urn:oid:2.49.0.1.124.4096053314.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-17/2020_06_17T00_03_21_00_00Iurn_oid_2.49.0.1.124.4096053314.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200617015906+00:00"
+				"Expires_FMEFormat" : "20200617010321+00:00"
 			}
 		},
 		{
