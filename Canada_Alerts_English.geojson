@@ -266,6 +266,59 @@
 				"coordinates" : [
 					[
 						[
+							[ -87.9904, 52.2453 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.4321, 51.159 ],
+							[ -84.8479, 51.1686 ],
+							[ -84.57, 51.0622 ],
+							[ -84.4653, 51.0571 ],
+							[ -84.3362, 51.1626 ],
+							[ -84.05, 51.1582 ],
+							[ -83.9119, 51.2539 ],
+							[ -83.2673, 51.4893 ],
+							[ -82.8342, 51.8669 ],
+							[ -82.9115, 51.9291 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.7002, 54.0287 ],
+							[ -87.008, 55.0039 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.5227, 54.1733 ],
+							[ -87.9958, 53.2172 ],
+							[ -88.0338, 52.7599 ],
+							[ -87.9904, 52.2453 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 18, 2020 23:08",
+				"Expires_UTC" : "June 19, 2020 01:57",
+				"Summary" : "Description: At 7:08 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n\n###\n\nHeavy downpours are likely to cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-19T01:57:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-18T23:08:28-00:00, urn:oid:2.49.0.1.124.0996531610.2020<br>Area: Webequie, Fort Hope - Lansdowne House - Ogoki",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-18:feed.atom/urn:oid:2.49.0.1.124.0996531610.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-18/2020_06_18T23_08_28_00_00Iurn_oid_2.49.0.1.124.0996531610.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200619015728+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -75.7679, 45.5176 ],
 							[ -75.7641, 45.4864 ],
 							[ -75.7944, 45.4905 ],
@@ -1384,25 +1437,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Heat Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Heat Warning Ended",
 				"Category" : "Actual",
 				"event" : "Heat",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 18, 2020 19:28",
-				"Expires_UTC" : "June 19, 2020 11:27",
-				"Summary" : "Description: Temperatures reaching 27 degrees Celsius are expected.\n\nAbove normal temperatures and high humidex values will continue in the Kugluktuk area before coming to an end overnight tonight.\n\nToday's daytime high temperature will approach 26 degrees Celsius with a humidex of 29 degrees. \n\nThe current record high temperature for Kugluktuk on June 18 is 26.7 degrees Celsius, set in 1935. Records for this area began in 1930.\n\n###\n\nExtreme heat affects everyone.\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-06-19T11:27:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-18T19:28:04-00:00, urn:oid:2.49.0.1.124.0817018389.2020<br>Area: Kugluktuk",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 18, 2020 23:05",
+				"Expires_UTC" : "June 19, 2020 00:05",
+				"Summary" : "Description: Conditions are no longer expected to reach heat warning criteria.\n\n\n###<br>Expires: 2020-06-19T00:05:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-18T23:05:40-00:00, urn:oid:2.49.0.1.124.4186699646.2020<br>Area: Kugluktuk",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-18:feed.atom/urn:oid:2.49.0.1.124.0817018389.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-18/2020_06_18T19_28_04_00_00Iurn_oid_2.49.0.1.124.0817018389.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-18:feed.atom/urn:oid:2.49.0.1.124.4186699646.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-18/2020_06_18T23_05_40_00_00Iurn_oid_2.49.0.1.124.4186699646.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200619112704+00:00"
+				"Expires_FMEFormat" : "20200619000540+00:00"
 			}
 		},
 		{
