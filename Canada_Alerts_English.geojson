@@ -939,6 +939,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -87.0122, 55.0075 ],
+							[ -87.921, 55.2628 ],
+							[ -88.8527, 55.4984 ],
+							[ -89.6775, 54.5994 ],
+							[ -90.5082, 53.543 ],
+							[ -91.0141, 52.9445 ],
+							[ -91.5246, 52.2405 ],
+							[ -89.76, 52.237 ],
+							[ -87.9904, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.7002, 54.0287 ],
+							[ -87.008, 55.0039 ],
+							[ -87.0122, 55.0075 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 18, 2020 06:47",
+				"Expires_UTC" : "June 18, 2020 10:29",
+				"Summary" : "Description: At 1:47 a.m. CDT (2:47 a.m. EDT), Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts and heavy rain.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.<br>Expires: 2020-06-18T10:29:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-18T06:47:22-00:00, urn:oid:2.49.0.1.124.2727911578.2020<br>Area: Big Trout Lake - Kasabonika, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Webequie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-18:feed.atom/urn:oid:2.49.0.1.124.2727911578.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-18/2020_06_18T06_47_22_00_00Iurn_oid_2.49.0.1.124.2727911578.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200618102922+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -96.3536, 50.3271 ],
 							[ -96.3567, 50.3053 ],
 							[ -96.3535, 50.2844 ],
@@ -1489,25 +1536,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 18, 2020 05:00",
-				"Expires_UTC" : "June 18, 2020 08:29",
-				"Summary" : "Description: At 11:59 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, pea to dime size hail and heavy rain.\n\nA north to south line of thunderstorms has developed near the Ontario-Manitoba border and is moving slowly east into the area.\n\nTorrential downpours are likely, which will lead to rainfall amounts of 50 to 75 mm in areas that receive two or more thunderstorms in a row. Locally higher rainfall amounts of 75 to 100 mm are possible near the Manitoba Border tonight. \n\nWind gusts to 100 km/h are also possible.\n\n###\n\nHeavy downpours are likely to cause flash floods and water pooling on roads. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-06-18T08:29:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-18T05:00:59-00:00, urn:oid:2.49.0.1.124.2424466226.2020<br>Area: Pikangikum - Poplar Hill - MacDowell, Red Lake - Woodland Caribou Park, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 18, 2020 06:42",
+				"Expires_UTC" : "June 18, 2020 07:42",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-06-18T07:42:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-18T06:42:38-00:00, urn:oid:2.49.0.1.124.0463349913.2020<br>Area: Pikangikum - Poplar Hill - MacDowell, Red Lake - Woodland Caribou Park, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-18:feed.atom/urn:oid:2.49.0.1.124.2424466226.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-18/2020_06_18T05_00_59_00_00Iurn_oid_2.49.0.1.124.2424466226.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-18:feed.atom/urn:oid:2.49.0.1.124.0463349913.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-18/2020_06_18T06_42_38_00_00Iurn_oid_2.49.0.1.124.0463349913.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200618082959+00:00"
+				"Expires_FMEFormat" : "20200618074238+00:00"
 			}
 		},
 		{
@@ -1615,25 +1662,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Squall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 18, 2020 05:04",
-				"Expires_UTC" : "June 18, 2020 08:29",
-				"Summary" : "Description: Squalls with wind gusts up to 50 knots, frequent lightning, waterspout activity and poor to very poor visibility in thunderstorms heavy at times are expected or occurring in the area.\n\nA north to south line of severe thunderstorms will slowly move across the lake tonight.\n\nSqualls to 50 knots are possible. Visibility may suddenly be reduced to near zero in torrential downpours.\n\nMariners should remain in port until the thunderstorms pass by.\n\n###\n\nKeep in mind that waterspouts cannot be seen at night and may strike suddenly.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-18T08:29:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-18T05:04:15-00:00, urn:oid:2.49.0.1.124.2469012373.2020<br>Area: Lake of the Woods",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 18, 2020 06:44",
+				"Expires_UTC" : "June 18, 2020 07:43",
+				"Summary" : "Description: Thunderstorms approaching from the southwest keep on weakening as they arrive over the lake.\n\n###<br>Expires: 2020-06-18T07:43:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-18T06:44:30-00:00, urn:oid:2.49.0.1.124.3102757656.2020<br>Area: Lake of the Woods",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-18:feed.atom/urn:oid:2.49.0.1.124.2469012373.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-18/2020_06_18T05_04_15_00_00Iurn_oid_2.49.0.1.124.2469012373.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-18:feed.atom/urn:oid:2.49.0.1.124.3102757656.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-18/2020_06_18T06_44_30_00_00Iurn_oid_2.49.0.1.124.3102757656.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200618082915+00:00"
+				"Expires_FMEFormat" : "20200618074330+00:00"
 			}
 		},
 		{
