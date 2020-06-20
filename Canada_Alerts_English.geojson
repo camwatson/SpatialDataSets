@@ -900,6 +900,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -84.021, 49.9497 ],
+							[ -84.0021, 49.1609 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.002, 48.5501 ],
+							[ -84.002, 48.5499 ],
+							[ -83.9939, 48.1107 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9911, 47.2211 ],
+							[ -82.631, 47.221 ],
+							[ -82.6293, 48.2543 ],
+							[ -82.6268, 49.1616 ],
+							[ -81.4426, 49.1637 ],
+							[ -81.4419, 49.5091 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Heat Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Heat",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 19, 2020 20:59",
+				"Expires_UTC" : "June 20, 2020 12:58",
+				"Summary" : "Description: Heat event continues tonight.\n\nTiming: Persisting tonight. Daytime temperatures will be cooler tomorrow and are not likely to meet heat warning criteria. \n\nMinimum overnight temperatures: 16 to 18 degrees Celsius\n\nHot and humid air can bring deteriorating air quality and can result in the Air Quality Health Index to approach the high risk category.\n\n###\n\nExtreme heat affects everyone.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-20T12:58:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-19T20:59:17-00:00, urn:oid:2.49.0.1.124.1911848531.2020<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake, Chapleau - Missinaibi Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-19:feed.atom/urn:oid:2.49.0.1.124.1911848531.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-19/2020_06_19T20_59_17_00_00Iurn_oid_2.49.0.1.124.1911848531.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200620125817+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.5386, 46.7145 ],
 							[ -80.3679, 46.7151 ],
 							[ -80.566, 46.7261 ],
@@ -1739,68 +1801,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T07_45_12_00_00Iurn_oid_2.49.0.1.124.3135219628.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200620234412+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -84.021, 49.9497 ],
-							[ -84.0021, 49.1609 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.002, 48.5501 ],
-							[ -84.002, 48.5499 ],
-							[ -83.9939, 48.1107 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9911, 47.2211 ],
-							[ -82.631, 47.221 ],
-							[ -82.6293, 48.2543 ],
-							[ -82.6268, 49.1616 ],
-							[ -81.4426, 49.1637 ],
-							[ -81.4419, 49.5091 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Heat Warning Ended",
-				"Category" : "Actual",
-				"event" : "Heat",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 20, 2020 09:15",
-				"Expires_UTC" : "June 20, 2020 10:15",
-				"Summary" : "Description: Conditions are no longer expected to reach heat warning criteria.\n\n\n###<br>Expires: 2020-06-20T10:15:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T09:15:46-00:00, urn:oid:2.49.0.1.124.3622994048.2020<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake, Chapleau - Missinaibi Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.3622994048.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T09_15_46_00_00Iurn_oid_2.49.0.1.124.3622994048.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200620101546+00:00"
 			}
 		}
 	]
