@@ -392,55 +392,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -72.3411, 48.7419 ],
-							[ -72.3178, 48.7149 ],
-							[ -72.3088, 48.7148 ],
-							[ -72.0383, 48.7099 ],
-							[ -72.0284, 48.7145 ],
-							[ -72.0278, 48.7149 ],
-							[ -72.0253, 48.7159 ],
-							[ -71.3493, 48.9995 ],
-							[ -71.766, 49.5499 ],
-							[ -71.9999, 49.5832 ],
-							[ -72.6628, 49.6658 ],
-							[ -72.6666, 49.6653 ],
-							[ -72.7997, 48.9498 ],
-							[ -72.5997, 48.7665 ],
-							[ -72.4163, 48.7498 ],
-							[ -72.3411, 48.7419 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 20, 2020 22:10",
-				"Expires_UTC" : "June 20, 2020 23:10",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2020-06-20T23:10:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T22:10:27-00:00, urn:oid:2.49.0.1.124.3761783860.2020<br>Area: Normandin - Péribonka area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.3761783860.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T22_10_27_00_00Iurn_oid_2.49.0.1.124.3761783860.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200620231027+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -75.9993, 49.2832 ],
 							[ -73.6025, 49.2849 ],
 							[ -73.6022, 49.2849 ],
@@ -612,6 +563,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T21_43_33_00_00Iurn_oid_2.49.0.1.124.3331835210.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200621004233+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.3207, 53.2026 ],
+							[ -122.349, 53.3864 ],
+							[ -121.4, 53.5999 ],
+							[ -121.9409, 54.3293 ],
+							[ -122.4999, 54.9999 ],
+							[ -122.8496, 54.8582 ],
+							[ -123.1999, 54.7 ],
+							[ -123.3477, 54.6596 ],
+							[ -123.4872, 54.615 ],
+							[ -123.3207, 53.2026 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 20, 2020 23:06",
+				"Expires_UTC" : "June 21, 2020 02:49",
+				"Summary" : "Description: Radar indicates a north to south line of severe thunderstorms 40 km east of Prince George capable of producing very strong wind gusts, up to nickel size hail and heavy rain. \n\nThe line is moving eastwards at 30 km/h. Communities along Upper Fraser Rd from Newlands to Hansard and Highway 16 will be affected in the next hour.\n\n###\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.<br>Expires: 2020-06-21T02:49:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T23:06:09-00:00, urn:oid:2.49.0.1.124.4008124714.2020<br>Area: Prince George",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.4008124714.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T23_06_09_00_00Iurn_oid_2.49.0.1.124.4008124714.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200621024909+00:00"
 			}
 		},
 		{
