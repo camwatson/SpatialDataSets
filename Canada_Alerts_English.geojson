@@ -841,85 +841,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -97.1599, 49.5319 ],
-							[ -97.2203, 49.5348 ],
-							[ -97.3023, 49.532 ],
-							[ -97.5149, 49.539 ],
-							[ -97.7302, 49.5322 ],
-							[ -97.7385, 49.4852 ],
-							[ -97.7302, 49.4436 ],
-							[ -97.7465, 49.362 ],
-							[ -97.7303, 49.2666 ],
-							[ -97.7978, 49.2731 ],
-							[ -97.866, 49.2665 ],
-							[ -97.8747, 49.1468 ],
-							[ -97.8633, 49.0004 ],
-							[ -97.8633, 48.9999 ],
-							[ -97.7243, 49.0002 ],
-							[ -97.4671, 49.0003 ],
-							[ -97.3253, 49.0003 ],
-							[ -97.2622, 49.0003 ],
-							[ -97.2608, 49.0195 ],
-							[ -97.2627, 49.0372 ],
-							[ -97.2285, 49.0369 ],
-							[ -97.2285, 49.0318 ],
-							[ -97.2267, 49.0191 ],
-							[ -97.1903, 49.0205 ],
-							[ -97.1763, 49.0431 ],
-							[ -97.2039, 49.0975 ],
-							[ -97.2657, 49.1923 ],
-							[ -97.2676, 49.2054 ],
-							[ -97.2635, 49.2137 ],
-							[ -97.266, 49.2371 ],
-							[ -97.2734, 49.2545 ],
-							[ -97.2769, 49.2658 ],
-							[ -97.2324, 49.2626 ],
-							[ -97.1869, 49.2663 ],
-							[ -96.9888, 49.2597 ],
-							[ -96.7814, 49.2666 ],
-							[ -96.7705, 49.3119 ],
-							[ -96.78, 49.355 ],
-							[ -96.8562, 49.3578 ],
-							[ -96.9177, 49.355 ],
-							[ -96.9115, 49.4426 ],
-							[ -96.918, 49.532 ],
-							[ -96.9892, 49.5346 ],
-							[ -97.0487, 49.5318 ],
-							[ -97.1054, 49.5355 ],
-							[ -97.1599, 49.5319 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 20, 2020 20:38",
-				"Expires_UTC" : "June 20, 2020 22:44",
-				"Summary" : "Description: At 3:38 p.m. CDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-20T22:44:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T20:38:46-00:00, urn:oid:2.49.0.1.124.2681859045.2020<br>Area: R.M. of Morris incl. Rosenort and Aubigny, R.M. of Montcalm incl. St. Jean Baptiste, Mun. of Rhineland incl. Altona Plum Coulee and Gretna, R.M. of De Salaberry incl. St-Pierre-Jolys and St. Malo",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.2681859045.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T20_38_46_00_00Iurn_oid_2.49.0.1.124.2681859045.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200620224446+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -74.8476, 45.0242 ],
 							[ -74.8006, 45.0212 ],
 							[ -74.7882, 45.0071 ],
@@ -2539,25 +2460,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Squall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 20, 2020 20:29",
-				"Expires_UTC" : "June 20, 2020 22:21",
-				"Summary" : "Description: Squalls with wind gusts up to 40 knots are expected or occurring in the area.\n\nA cluster of thunderstorms in the Mahone Bay area could be producing strong gusts.  These thunderstorms are expected to weaken within the hour.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-20T22:21:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T20:29:45-00:00, urn:oid:2.49.0.1.124.2729076290.2020<br>Area: Southwestern Shore",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 20, 2020 20:48",
+				"Expires_UTC" : "June 20, 2020 21:48",
+				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-06-20T21:48:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T20:48:49-00:00, urn:oid:2.49.0.1.124.2338778794.2020<br>Area: Southwestern Shore",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.2729076290.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T20_29_45_00_00Iurn_oid_2.49.0.1.124.2729076290.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.2338778794.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T20_48_49_00_00Iurn_oid_2.49.0.1.124.2338778794.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200620222145+00:00"
+				"Expires_FMEFormat" : "20200620214849+00:00"
 			}
 		},
 		{
@@ -3162,54 +3083,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -70.2496, 48.6665 ],
-							[ -69.8095, 48.4184 ],
-							[ -69.4699, 48.2224 ],
-							[ -69.2423, 48.4587 ],
-							[ -68.5214, 48.9033 ],
-							[ -68.6283, 49.004 ],
-							[ -68.8408, 49.251 ],
-							[ -68.8348, 49.2537 ],
-							[ -69.1996, 49.9998 ],
-							[ -70.2496, 49.9998 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.766, 49.5499 ],
-							[ -71.3493, 48.9995 ],
-							[ -70.2496, 48.6665 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 20, 2020 16:20",
-				"Expires_UTC" : "June 21, 2020 04:30",
-				"Summary" : "Description: Smoke is causing poor air quality and reducing visibility. Smoke is expected or occurring.\n\nHigh levels of air pollution are expected today due to smoke from forest fires.\nSmoke plumes from forest fires in the Manicouagan area could affect neighbouring areas. Air quality could deteriorate should the smoke go down to ground level.\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors, and those with cardiovascular or lung disease, such as asthma, are especially at risk.\n\nIf your home is not air-conditioned, be sure the house doesn't get too warm when doors and windows are closed to keep out smoke. Exposure to too much heat can also result in illness.\n\nPeople with lung diseases, such as asthma and COPD, can be particularly sensitive to air pollution. They will generally experience more serious health effects at lower levels. Pollution can aggravate their diseases, leading to increased medication use, doctor and emergency room visits, and hospital visits.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-06-21T04:30:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T16:20:26-00:00, urn:oid:2.49.0.1.124.1436779428.2020<br>Area: Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.1436779428.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T16_20_26_00_00Iurn_oid_2.49.0.1.124.1436779428.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200621043026+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -52.7949, 47.8738 ],
 							[ -52.7347, 48.2265 ],
 							[ -52.9479, 48.2795 ],
@@ -3288,6 +3161,85 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T18_26_47_00_00Iurn_oid_2.49.0.1.124.1757710307.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200621085947+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -97.1599, 49.5319 ],
+							[ -97.2203, 49.5348 ],
+							[ -97.3023, 49.532 ],
+							[ -97.5149, 49.539 ],
+							[ -97.7302, 49.5322 ],
+							[ -97.7385, 49.4852 ],
+							[ -97.7302, 49.4436 ],
+							[ -97.7465, 49.362 ],
+							[ -97.7303, 49.2666 ],
+							[ -97.7978, 49.2731 ],
+							[ -97.866, 49.2665 ],
+							[ -97.8747, 49.1468 ],
+							[ -97.8633, 49.0004 ],
+							[ -97.8633, 48.9999 ],
+							[ -97.7243, 49.0002 ],
+							[ -97.4671, 49.0003 ],
+							[ -97.3253, 49.0003 ],
+							[ -97.2622, 49.0003 ],
+							[ -97.2608, 49.0195 ],
+							[ -97.2627, 49.0372 ],
+							[ -97.2285, 49.0369 ],
+							[ -97.2285, 49.0318 ],
+							[ -97.2267, 49.0191 ],
+							[ -97.1903, 49.0205 ],
+							[ -97.1763, 49.0431 ],
+							[ -97.2039, 49.0975 ],
+							[ -97.2657, 49.1923 ],
+							[ -97.2676, 49.2054 ],
+							[ -97.2635, 49.2137 ],
+							[ -97.266, 49.2371 ],
+							[ -97.2734, 49.2545 ],
+							[ -97.2769, 49.2658 ],
+							[ -97.2324, 49.2626 ],
+							[ -97.1869, 49.2663 ],
+							[ -96.9888, 49.2597 ],
+							[ -96.7814, 49.2666 ],
+							[ -96.7705, 49.3119 ],
+							[ -96.78, 49.355 ],
+							[ -96.8562, 49.3578 ],
+							[ -96.9177, 49.355 ],
+							[ -96.9115, 49.4426 ],
+							[ -96.918, 49.532 ],
+							[ -96.9892, 49.5346 ],
+							[ -97.0487, 49.5318 ],
+							[ -97.1054, 49.5355 ],
+							[ -97.1599, 49.5319 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 20, 2020 20:39",
+				"Expires_UTC" : "June 20, 2020 22:44",
+				"Summary" : "Description: At 3:38 p.m. CDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nA line of severe thunderstorms is stretching from Rosengart to McTavish and moving east at 30 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-20T22:44:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T20:39:46-00:00, urn:oid:2.49.0.1.124.3103232903.2020<br>Area: R.M. of Morris incl. Rosenort and Aubigny, R.M. of Montcalm incl. St. Jean Baptiste, Mun. of Rhineland incl. Altona Plum Coulee and Gretna, R.M. of De Salaberry incl. St-Pierre-Jolys and St. Malo",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.3103232903.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T20_39_46_00_00Iurn_oid_2.49.0.1.124.3103232903.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200620224446+00:00"
 			}
 		},
 		{
