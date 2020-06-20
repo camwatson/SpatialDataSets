@@ -1071,49 +1071,38 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.4419, 49.5091 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ],
-							[ -84.0149, 49.9497 ],
-							[ -81.4419, 49.5091 ]
+							[ -68.5214, 48.9033 ],
+							[ -67.508, 49.2382 ],
+							[ -67.5073, 49.3198 ],
+							[ -67.5055, 49.8307 ],
+							[ -68.8348, 49.2537 ],
+							[ -68.8408, 49.251 ],
+							[ -68.6283, 49.004 ],
+							[ -68.5214, 48.9033 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 20, 2020 00:59",
-				"Expires_UTC" : "June 20, 2020 03:56",
-				"Summary" : "Description: At 8:58 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing up to nickel size hail.\n\nThis line of severe thunderstorms is located from 45 kilometres northwest of Ranoke to 20 kilometres east of Brownrigg, moving east at 60 km/h. \n\nHazards: \n-up to quarter size hail\n\nLocations impacted include:\nCoral, Ranoke and Onakawana.\n\n###<br>Expires: 2020-06-20T03:56:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T00:59:35-00:00, urn:oid:2.49.0.1.124.0699959949.2020<br>Area: Fraserdale - Pledger Lake, Little Abitibi - Kesagami Lake",
+				"LastUpdate_UTC" : "June 19, 2020 21:18",
+				"Expires_UTC" : "June 20, 2020 05:59",
+				"Summary" : "Description: Smoke is causing poor air quality and reducing visibility. Smoke is expected or occurring.\n\nHigh air pollution is expected today and this evening due to forest fire smoke.\nPlumes of smoke above the Baie-Comeau area and caused by forest fires in the Manicouagan region could affect the area.  The air quality conditions could still deteriorate should the smoke go down to ground level.\n\nConditions will improve this evening with the change in wind direction.\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors, and those with cardiovascular or lung disease, such as asthma, are especially at risk.\n\nIf your home is not air-conditioned, be sure the house doesn't get too warm when doors and windows are closed to keep out smoke. Exposure to too much heat can also result in illness.\n\nPeople with lung diseases, such as asthma and COPD, can be particularly sensitive to air pollution. They will generally experience more serious health effects at lower levels. Pollution can aggravate their diseases, leading to increased medication use, doctor and emergency room visits, and hospital visits.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-06-20T05:59:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-19T21:18:13-00:00, urn:oid:2.49.0.1.124.0852480313.2020<br>Area: Baie-Comeau",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.0699959949.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T00_59_35_00_00Iurn_oid_2.49.0.1.124.0699959949.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-19:feed.atom/urn:oid:2.49.0.1.124.0852480313.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-19/2020_06_19T21_18_13_00_00Iurn_oid_2.49.0.1.124.0852480313.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200620035635+00:00"
+				"Expires_FMEFormat" : "20200620055913+00:00"
 			}
 		},
 		{
@@ -1162,47 +1151,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T01_03_36_00_00Iurn_oid_2.49.0.1.124.3074668121.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200620085936+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -68.5214, 48.9033 ],
-							[ -67.508, 49.2382 ],
-							[ -67.5073, 49.3198 ],
-							[ -67.5055, 49.8307 ],
-							[ -68.8348, 49.2537 ],
-							[ -68.8408, 49.251 ],
-							[ -68.6283, 49.004 ],
-							[ -68.5214, 48.9033 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 19, 2020 21:18",
-				"Expires_UTC" : "June 20, 2020 05:59",
-				"Summary" : "Description: Smoke is causing poor air quality and reducing visibility. Smoke is expected or occurring.\n\nHigh air pollution is expected today and this evening due to forest fire smoke.\nPlumes of smoke above the Baie-Comeau area and caused by forest fires in the Manicouagan region could affect the area.  The air quality conditions could still deteriorate should the smoke go down to ground level.\n\nConditions will improve this evening with the change in wind direction.\n\n###\n\nIndividuals may experience symptoms such as increased coughing, throat irritation, headaches or shortness of breath. Children, seniors, and those with cardiovascular or lung disease, such as asthma, are especially at risk.\n\nIf your home is not air-conditioned, be sure the house doesn't get too warm when doors and windows are closed to keep out smoke. Exposure to too much heat can also result in illness.\n\nPeople with lung diseases, such as asthma and COPD, can be particularly sensitive to air pollution. They will generally experience more serious health effects at lower levels. Pollution can aggravate their diseases, leading to increased medication use, doctor and emergency room visits, and hospital visits.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-06-20T05:59:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-19T21:18:13-00:00, urn:oid:2.49.0.1.124.0852480313.2020<br>Area: Baie-Comeau",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-19:feed.atom/urn:oid:2.49.0.1.124.0852480313.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-19/2020_06_19T21_18_13_00_00Iurn_oid_2.49.0.1.124.0852480313.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200620055913+00:00"
 			}
 		},
 		{
