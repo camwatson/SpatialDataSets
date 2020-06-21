@@ -198,6 +198,60 @@
 				"coordinates" : [
 					[
 						[
+							[ -75.9993, 49.2832 ],
+							[ -73.6025, 49.2849 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.4993, 49.55 ],
+							[ -72.6666, 49.6653 ],
+							[ -72.6628, 49.6658 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 51.647 ],
+							[ -72.011, 51.6472 ],
+							[ -75.9391, 51.6264 ],
+							[ -76, 51.6249 ],
+							[ -75.9995, 50.5156 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -78.5004, 49.2934 ],
+							[ -77.3232, 49.2924 ],
+							[ -76.4997, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 20, 2020 22:24",
+				"Expires_UTC" : "June 21, 2020 03:59",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms capable of producing strong wind gusts, large hail and heavy rain this afternoon and early this evening.\n\n###\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-06-21T03:59:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-20T22:24:20-00:00, urn:oid:2.49.0.1.124.2244779063.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area, Chibougamau",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-20:feed.atom/urn:oid:2.49.0.1.124.2244779063.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-20/2020_06_20T22_24_20_00_00Iurn_oid_2.49.0.1.124.2244779063.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200621035920+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -72.6666, 49.6653 ],
 							[ -73.4993, 49.55 ],
 							[ -73.6022, 49.2849 ],
@@ -618,60 +672,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-21/2020_06_21T01_49_47_00_00Iurn_oid_2.49.0.1.124.2304376021.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200621161847+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -75.9993, 49.2832 ],
-							[ -73.6025, 49.2849 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.4993, 49.55 ],
-							[ -72.6666, 49.6653 ],
-							[ -72.6628, 49.6658 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 51.647 ],
-							[ -72.011, 51.6472 ],
-							[ -75.9391, 51.6264 ],
-							[ -76, 51.6249 ],
-							[ -75.9995, 50.5156 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -78.5004, 49.2934 ],
-							[ -77.3232, 49.2924 ],
-							[ -76.4997, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 21, 2020 02:00",
-				"Expires_UTC" : "June 21, 2020 03:00",
-				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n###<br>Expires: 2020-06-21T03:00:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-21T02:00:58-00:00, urn:oid:2.49.0.1.124.1396927618.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area, Chibougamau",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-21:feed.atom/urn:oid:2.49.0.1.124.1396927618.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-21/2020_06_21T02_00_58_00_00Iurn_oid_2.49.0.1.124.1396927618.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200621030058+00:00"
 			}
 		},
 		{
