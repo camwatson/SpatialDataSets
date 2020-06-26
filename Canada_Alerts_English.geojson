@@ -293,6 +293,66 @@
 				"coordinates" : [
 					[
 						[
+							[ -67.7901, 47.0598 ],
+							[ -67.7904, 47.0599 ],
+							[ -67.789, 46.5984 ],
+							[ -67.7882, 46.5984 ],
+							[ -67.7163, 46.5982 ],
+							[ -67.4395, 46.6526 ],
+							[ -66.8571, 46.764 ],
+							[ -66.8566, 46.7641 ],
+							[ -66.8554, 46.7644 ],
+							[ -66.8513, 46.7651 ],
+							[ -66.7052, 46.768 ],
+							[ -66.6625, 46.7689 ],
+							[ -66.6606, 46.7689 ],
+							[ -66.6608, 46.7691 ],
+							[ -67.0349, 47.3489 ],
+							[ -67.0364, 47.3494 ],
+							[ -67.6782, 47.5623 ],
+							[ -67.6725, 47.1642 ],
+							[ -67.6725, 47.164 ],
+							[ -67.6507, 47.1636 ],
+							[ -67.6503, 47.1636 ],
+							[ -67.6521, 47.161 ],
+							[ -67.6852, 47.1137 ],
+							[ -67.7021, 47.0692 ],
+							[ -67.703, 47.0668 ],
+							[ -67.787, 47.0596 ],
+							[ -67.7901, 47.0598 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 26, 2020 22:09",
+				"Expires_UTC" : "June 27, 2020 01:08",
+				"Summary" : "Description: At 7:09 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-27T01:08:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-26T22:09:03-00:00, urn:oid:2.49.0.1.124.2100145947.2020<br>Area: Grand Falls and Victoria County",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-26:feed.atom/urn:oid:2.49.0.1.124.2100145947.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-26/2020_06_26T22_09_03_00_00Iurn_oid_2.49.0.1.124.2100145947.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200627010803+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -124.3, 53 ],
 							[ -123.6124, 52.5607 ],
 							[ -122.9899, 52.2151 ],
@@ -410,6 +470,66 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-26/2020_06_26T20_01_02_00_00Iurn_oid_2.49.0.1.124.1185955380.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200627120002+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -54.65, 49.25 ],
+							[ -54.5012, 49.363 ],
+							[ -54.5, 49.3639 ],
+							[ -54.362, 49.5406 ],
+							[ -54.2131, 49.5679 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -57.6827, 49.1504 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.83, 48.58 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.4199, 48.2499 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 48.5499 ],
+							[ -54.2, 48.9 ],
+							[ -54.15, 49.2 ],
+							[ -54.65, 49.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Heat Warning Ended",
+				"Category" : "Actual",
+				"event" : "Heat",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 26, 2020 22:00",
+				"Expires_UTC" : "June 26, 2020 23:00",
+				"Summary" : "Description: Conditions are no longer expected to reach heat warning criteria.\n\n\n###<br>Expires: 2020-06-26T23:00:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-26T22:00:52-00:00, urn:oid:2.49.0.1.124.1069653690.2020<br>Area: Deer Lake - Humber Valley, Buchans and the interior, Grand Falls-Windsor and vicinity, Bay of Exploits, Gander and vicinity, Green Bay - White Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-26:feed.atom/urn:oid:2.49.0.1.124.1069653690.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-26/2020_06_26T22_00_52_00_00Iurn_oid_2.49.0.1.124.1069653690.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200626230052+00:00"
 			}
 		},
 		{
