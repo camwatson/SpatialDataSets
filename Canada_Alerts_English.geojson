@@ -293,57 +293,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -117.9704, 70.6618 ],
-							[ -117.6802, 70.5501 ],
-							[ -117.4352, 70.5879 ],
-							[ -117.3187, 70.6198 ],
-							[ -117.2284, 70.6592 ],
-							[ -117.1705, 70.7006 ],
-							[ -117.1358, 70.7604 ],
-							[ -117.1524, 70.821 ],
-							[ -117.2138, 70.8744 ],
-							[ -117.3239, 70.9235 ],
-							[ -117.4716, 70.9606 ],
-							[ -117.6454, 70.9829 ],
-							[ -117.8314, 70.9884 ],
-							[ -118.0038, 70.9781 ],
-							[ -118.1617, 70.9535 ],
-							[ -118.3025, 70.9131 ],
-							[ -118.3629, 70.8409 ],
-							[ -117.9704, 70.6618 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 26, 2020 15:05",
-				"Expires_UTC" : "June 27, 2020 03:05",
-				"Summary" : "Description: Dense fog will continue today before lifting this evening as the wind becomes easterly.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-06-27T03:05:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-26T15:05:35-00:00, urn:oid:2.49.0.1.124.0866203682.2020<br>Area: Ulukhaktok",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-26:feed.atom/urn:oid:2.49.0.1.124.0866203682.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-26/2020_06_26T15_05_35_00_00Iurn_oid_2.49.0.1.124.0866203682.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200627030535+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -124.3, 53 ],
 							[ -123.6124, 52.5607 ],
 							[ -122.9899, 52.2151 ],
@@ -552,6 +501,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-26/2020_06_26T19_23_39_00_00Iurn_oid_2.49.0.1.124.0612742085.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200627112239+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -117.9704, 70.6618 ],
+							[ -117.6802, 70.5501 ],
+							[ -117.4352, 70.5879 ],
+							[ -117.3187, 70.6198 ],
+							[ -117.2284, 70.6592 ],
+							[ -117.1705, 70.7006 ],
+							[ -117.1358, 70.7604 ],
+							[ -117.1524, 70.821 ],
+							[ -117.2138, 70.8744 ],
+							[ -117.3239, 70.9235 ],
+							[ -117.4716, 70.9606 ],
+							[ -117.6454, 70.9829 ],
+							[ -117.8314, 70.9884 ],
+							[ -118.0038, 70.9781 ],
+							[ -118.1617, 70.9535 ],
+							[ -118.3025, 70.9131 ],
+							[ -118.3629, 70.8409 ],
+							[ -117.9704, 70.6618 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 26, 2020 21:19",
+				"Expires_UTC" : "June 26, 2020 22:19",
+				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-06-26T22:19:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-26T21:19:47-00:00, urn:oid:2.49.0.1.124.3979628096.2020<br>Area: Ulukhaktok",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-26:feed.atom/urn:oid:2.49.0.1.124.3979628096.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-26/2020_06_26T21_19_47_00_00Iurn_oid_2.49.0.1.124.3979628096.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200626221947+00:00"
 			}
 		},
 		{
