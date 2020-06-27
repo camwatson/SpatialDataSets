@@ -9,6 +9,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.2803, 76.6381 ],
+							[ -83.138, 76.5178 ],
+							[ -83.1615, 76.298 ],
+							[ -82.0595, 76.2612 ],
+							[ -82.1153, 76.5344 ],
+							[ -82.072, 76.5808 ],
+							[ -82.4546, 76.6269 ],
+							[ -83.2803, 76.6381 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 27, 2020 03:22",
+				"Expires_UTC" : "June 27, 2020 19:21",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nThis evening fog is expected to move back into town and persist until Saturday afternoon.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-06-27T19:21:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T03:22:09-00:00, urn:oid:2.49.0.1.124.2075607686.2020<br>Area: Grise Fiord",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.2075607686.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T03_22_09_00_00Iurn_oid_2.49.0.1.124.2075607686.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200627192109+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.2109, 42.784 ],
 							[ -81.7125, 42.5988 ],
 							[ -82.3391, 42.2319 ],
@@ -130,66 +171,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Squall Watch Ended",
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 27, 2020 08:20",
-				"Expires_UTC" : "June 27, 2020 09:20",
-				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2020-06-27T09:20:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T08:20:38-00:00, urn:oid:2.49.0.1.124.2095499321.2020<br>Area: Eastern Lake Erie, Western Lake Erie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.2095499321.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T08_20_38_00_00Iurn_oid_2.49.0.1.124.2095499321.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200627092038+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -83.2803, 76.6381 ],
-							[ -83.138, 76.5178 ],
-							[ -83.1615, 76.298 ],
-							[ -82.0595, 76.2612 ],
-							[ -82.1153, 76.5344 ],
-							[ -82.072, 76.5808 ],
-							[ -82.4546, 76.6269 ],
-							[ -83.2803, 76.6381 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
+				"urgency" : "Expected",
 				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 27, 2020 03:22",
-				"Expires_UTC" : "June 27, 2020 19:21",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nThis evening fog is expected to move back into town and persist until Saturday afternoon.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-06-27T19:21:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T03:22:09-00:00, urn:oid:2.49.0.1.124.2075607686.2020<br>Area: Grise Fiord",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 27, 2020 06:34",
+				"Expires_UTC" : "June 27, 2020 16:59",
+				"Summary" : "Description: Thunderstorms over Lake Erie will continue moving east and out of the area early this morning. \n\nWind gusts of 35 knots are possible for the next few hours until thunderstorms move east of Lake Erie.\n\n###\n\nProceed with caution as visibility may suddenly be reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-06-27T16:59:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T06:34:31-00:00, urn:oid:2.49.0.1.124.1050913145.2020<br>Area: Eastern Lake Erie, Western Lake Erie",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.2075607686.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T03_22_09_00_00Iurn_oid_2.49.0.1.124.2075607686.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.1050913145.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T06_34_31_00_00Iurn_oid_2.49.0.1.124.1050913145.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200627192109+00:00"
+				"Expires_FMEFormat" : "20200627165931+00:00"
 			}
 		},
 		{
@@ -470,18 +470,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 27, 2020 04:06",
-				"Expires_UTC" : "June 27, 2020 20:05",
-				"Summary" : "Description: Heat event beginning today continuing for about one week.\n\nDaytime high temperatures in the low to mid thirties with overnight lows near 20 are expected until the end of next week.\n\nPlease refer to your public forecast for further details on expected temperatures.\n\n###\n\nExtreme heat affects everyone.\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nWatch for the effects of heat illness: swelling, rash, cramps, fainting, heat exhaustion, heat stroke and the worsening of some health conditions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-27T20:05:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T04:06:06-00:00, urn:oid:2.49.0.1.124.2378634308.2020<br>Area: Sachigo Lake - Bearskin Lake, Big Trout Lake - Kasabonika, Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Pickle Lake - Cat Lake",
+				"LastUpdate_UTC" : "June 27, 2020 09:25",
+				"Expires_UTC" : "June 28, 2020 01:24",
+				"Summary" : "Description: Heat event beginning today continuing for about one week.\n\nDaytime high temperatures in the low to mid thirties with overnight lows near 20 are expected until the end of next week.\n\nPlease refer to your public forecast for further details on expected temperatures.\n\n###\n\nExtreme heat affects everyone.\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nWatch for the effects of heat illness: swelling, rash, cramps, fainting, heat exhaustion, heat stroke and the worsening of some health conditions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-28T01:24:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T09:25:13-00:00, urn:oid:2.49.0.1.124.3874206672.2020<br>Area: Sachigo Lake - Bearskin Lake, Big Trout Lake - Kasabonika, Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Pickle Lake - Cat Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.2378634308.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T04_06_06_00_00Iurn_oid_2.49.0.1.124.2378634308.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.3874206672.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T09_25_13_00_00Iurn_oid_2.49.0.1.124.3874206672.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200627200506+00:00"
+				"Expires_FMEFormat" : "20200628012413+00:00"
 			}
 		},
 		{
@@ -1006,18 +1006,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 27, 2020 04:06",
-				"Expires_UTC" : "June 27, 2020 20:05",
-				"Summary" : "Description: Heat event beginning today continuing for about one week.\n\nDaytime high temperatures in the low to mid thirties with overnight lows near 20 are expected until the end of next week.\n\nPlease refer to your public forecast for further details on expected temperatures.\n\n###\n\nExtreme heat affects everyone.\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nWatch for the effects of heat illness: swelling, rash, cramps, fainting, heat exhaustion, heat stroke and the worsening of some health conditions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-27T20:05:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T04:06:06-00:00, urn:oid:2.49.0.1.124.3211587861.2020<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
+				"LastUpdate_UTC" : "June 27, 2020 09:25",
+				"Expires_UTC" : "June 28, 2020 01:24",
+				"Summary" : "Description: Heat event beginning today continuing for about one week.\n\nDaytime high temperatures in the low to mid thirties with overnight lows near 20 are expected until the end of next week.\n\nPlease refer to your public forecast for further details on expected temperatures.\n\n###\n\nExtreme heat affects everyone.\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nWatch for the effects of heat illness: swelling, rash, cramps, fainting, heat exhaustion, heat stroke and the worsening of some health conditions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-28T01:24:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T09:25:13-00:00, urn:oid:2.49.0.1.124.3692588368.2020<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.3211587861.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T04_06_06_00_00Iurn_oid_2.49.0.1.124.3211587861.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.3692588368.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T09_25_13_00_00Iurn_oid_2.49.0.1.124.3692588368.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200627200506+00:00"
+				"Expires_FMEFormat" : "20200628012413+00:00"
 			}
 		}
 	]
