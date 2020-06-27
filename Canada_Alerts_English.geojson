@@ -441,6 +441,78 @@
 				"coordinates" : [
 					[
 						[
+							[ -118.3899, 50.06 ],
+							[ -118.574, 50.3966 ],
+							[ -118.8, 50.7499 ],
+							[ -119.2914, 50.6752 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.7856, 50.6975 ],
+							[ -119.9, 50.7999 ],
+							[ -120.177, 50.8947 ],
+							[ -120.58, 51 ],
+							[ -121.1311, 51.013 ],
+							[ -121.65, 50.9999 ],
+							[ -122.6066, 51.0096 ],
+							[ -123.8, 51 ],
+							[ -123.7878, 50.9933 ],
+							[ -123.7789, 50.9894 ],
+							[ -123.2886, 50.7303 ],
+							[ -122.8931, 50.5465 ],
+							[ -122.5243, 50.3561 ],
+							[ -122.1663, 50.1832 ],
+							[ -121.966, 50.3431 ],
+							[ -121.6568, 50.3298 ],
+							[ -121.4319, 50.441 ],
+							[ -121.3503, 50.2159 ],
+							[ -121.26, 50 ],
+							[ -121.1772, 49.7381 ],
+							[ -121.0637, 49.4682 ],
+							[ -121.0994, 49.4698 ],
+							[ -121.1293, 49.3409 ],
+							[ -121.0015, 49.2791 ],
+							[ -120.8912, 49.3292 ],
+							[ -120.9164, 49.3465 ],
+							[ -120.4962, 49.5618 ],
+							[ -120.0012, 49.8499 ],
+							[ -120.0068, 49.743 ],
+							[ -120.0011, 49.6368 ],
+							[ -119.5566, 49.6228 ],
+							[ -118.9946, 49.6244 ],
+							[ -118.686, 49.841 ],
+							[ -118.3899, 50.06 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 27, 2020 11:39",
+				"Expires_UTC" : "June 28, 2020 03:38",
+				"Summary" : "Description: Heavy downpours expected today. \n\nThe airmass will become particularly unstable this afternoon as an upper low pressure system moves in from the north. Consequently, thunderstorms are likely to develop this afternoon and give 10 to 15 mm of rain in a short period of time.  \n\nSevere thunderstorm watches and warnings may be issued later today for these Dry Belt regions as the rainfall warning criterion is only 15 mm/hr. This is enough to cause localized flooding particularly on sloping terrain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-06-28T03:38:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T11:39:22-00:00, urn:oid:2.49.0.1.124.2452886725.2020<br>Area: Fraser Canyon - north including Lillooet, South Thompson, Nicola, North Okanagan - including Vernon, Central Okanagan - including Kelowna",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.2452886725.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T11_39_22_00_00Iurn_oid_2.49.0.1.124.2452886725.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200628033822+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.2109, 42.784 ],
 							[ -81.7125, 42.5988 ],
 							[ -82.3391, 42.2319 ],
@@ -513,185 +585,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T05_38_29_00_00Iurn_oid_2.49.0.1.124.1043468937.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200627165929+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 27, 2020 10:15",
-				"Expires_UTC" : "June 27, 2020 20:13",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nFog is expected to clear near noon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-06-27T20:13:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T10:15:20-00:00, urn:oid:2.49.0.1.124.2627235801.2020<br>Area: Gjoa Haven",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.2627235801.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T10_15_20_00_00Iurn_oid_2.49.0.1.124.2627235801.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200627201320+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.3414, 54.2782 ],
-							[ -95.3005, 53.8878 ],
-							[ -95.2444, 53.5312 ],
-							[ -95.2248, 53.1762 ],
-							[ -95.153, 52.8419 ],
-							[ -94.4788, 53.228 ],
-							[ -93.9327, 53.5766 ],
-							[ -93.631, 53.7387 ],
-							[ -93.4241, 53.9089 ],
-							[ -92.5613, 54.4865 ],
-							[ -91.653, 55.1549 ],
-							[ -92.879, 55.1812 ],
-							[ -93.9327, 55.155 ],
-							[ -94.2557, 55.1652 ],
-							[ -94.5762, 55.155 ],
-							[ -95.0284, 55.1727 ],
-							[ -95.4553, 55.155 ],
-							[ -95.3414, 54.2782 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Heat Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Heat",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 27, 2020 09:30",
-				"Expires_UTC" : "June 28, 2020 01:29",
-				"Summary" : "Description: Humidex values reaching 38 are expected.\n\nA prolonged period of hot weather will develop over portions of southern and east-central Manitoba today and persist into next week.\n\nSoutherly winds will push hot and increasingly humid weather into Manitoba today. Daytime highs will climb into the low thirties with overnight lows rising into the upper teens or low twenties.\n\nThese hot temperatures will be joined by humid conditions next week which will increase humidex values into the upper thirties. Notably, the high humidity will likely result in several nights of overnight minimum temperatures in the low twenties. The heat will begin to break through the latter half of next week.\n\nOn Sunday, in southwestern Manitoba, a strong cold front will produce a sharp temperature change from highs in the low thirties to its east to highs in the mid-twenties to its west. There is a chance that this front will slide east of Brandon and the Turtle Mountains; if it does those areas may see an early reprieve from the heat.\n\nFor most regions in the heat warning, daytime highs may dip a couple degrees on Monday into the upper twenties. Overnight lows will not be impacted by this and daytime highs will climb back into the low thirties for Tuesday and Wednesday.\n\n###\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nFor more information on heat and your health:\n- Visit Manitoba Health at: http://www.manitoba.ca/health/publichealth/environmentalhealth/heat.html. \n- Call Health Links – Info Santé at 204-788-8200 or toll-free at 1-888-315-9257.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-06-28T01:29:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T09:30:50-00:00, urn:oid:2.49.0.1.124.0480196851.2020<br>Area: Oxford House and Gods Lake, Red Sucker Lake, Island Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.0480196851.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T09_30_50_00_00Iurn_oid_2.49.0.1.124.0480196851.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200628012950+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.1533, 49.5976 ],
-							[ -95.1534, 49.4999 ],
-							[ -95.1592, 49.4435 ],
-							[ -95.1539, 49.3847 ],
-							[ -95.1286, 49.3704 ],
-							[ -95.0582, 49.3532 ],
-							[ -95.025, 49.3554 ],
-							[ -95.0141, 49.3564 ],
-							[ -94.987, 49.3687 ],
-							[ -94.9573, 49.3701 ],
-							[ -94.9091, 49.3501 ],
-							[ -94.8782, 49.3333 ],
-							[ -94.8162, 49.3213 ],
-							[ -94.8255, 49.2943 ],
-							[ -94.7973, 49.2143 ],
-							[ -94.7979, 49.1978 ],
-							[ -94.7819, 49.1486 ],
-							[ -94.7727, 49.1205 ],
-							[ -94.7496, 49.0987 ],
-							[ -94.6834, 48.8841 ],
-							[ -94.6843, 48.8723 ],
-							[ -94.6923, 48.869 ],
-							[ -94.692, 48.8569 ],
-							[ -94.693, 48.8534 ],
-							[ -94.6855, 48.84 ],
-							[ -94.6975, 48.8354 ],
-							[ -94.702, 48.8318 ],
-							[ -94.7042, 48.8242 ],
-							[ -94.7016, 48.8244 ],
-							[ -93.4874, 49.0996 ],
-							[ -93.4874, 49.6218 ],
-							[ -93.4874, 50.2367 ],
-							[ -92.9179, 50.1283 ],
-							[ -92.3388, 51.1193 ],
-							[ -93.4873, 51.3669 ],
-							[ -93.6935, 51.4257 ],
-							[ -93.9542, 51.4733 ],
-							[ -94.5036, 51.5513 ],
-							[ -95.1536, 51.6128 ],
-							[ -95.1961, 51.2501 ],
-							[ -95.1536, 50.8931 ],
-							[ -95.1655, 50.6658 ],
-							[ -95.1536, 50.3956 ],
-							[ -95.1601, 50.3682 ],
-							[ -95.1536, 50.3452 ],
-							[ -95.1657, 50.1839 ],
-							[ -95.1535, 49.9987 ],
-							[ -95.1694, 49.8299 ],
-							[ -95.1534, 49.6651 ],
-							[ -95.1534, 49.6482 ],
-							[ -95.1536, 49.6236 ],
-							[ -95.1534, 49.6169 ],
-							[ -95.1533, 49.6032 ],
-							[ -95.1533, 49.5976 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Heat Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Heat",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "June 27, 2020 09:25",
-				"Expires_UTC" : "June 28, 2020 01:24",
-				"Summary" : "Description: Heat event beginning today continuing for about one week.\n\nDaytime high temperatures in the low to mid thirties with overnight lows near 20 are expected until the end of next week.\n\nPlease refer to your public forecast for further details on expected temperatures.\n\n###\n\nExtreme heat affects everyone.\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nWatch for the effects of heat illness: swelling, rash, cramps, fainting, heat exhaustion, heat stroke and the worsening of some health conditions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-28T01:24:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T09:25:13-00:00, urn:oid:2.49.0.1.124.3692588368.2020<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.3692588368.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T09_25_13_00_00Iurn_oid_2.49.0.1.124.3692588368.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200628012413+00:00"
 			}
 		},
 		{
@@ -852,6 +745,144 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T03_05_19_00_00Iurn_oid_2.49.0.1.124.1249591017.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200627165919+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.3414, 54.2782 ],
+							[ -95.3005, 53.8878 ],
+							[ -95.2444, 53.5312 ],
+							[ -95.2248, 53.1762 ],
+							[ -95.153, 52.8419 ],
+							[ -94.4788, 53.228 ],
+							[ -93.9327, 53.5766 ],
+							[ -93.631, 53.7387 ],
+							[ -93.4241, 53.9089 ],
+							[ -92.5613, 54.4865 ],
+							[ -91.653, 55.1549 ],
+							[ -92.879, 55.1812 ],
+							[ -93.9327, 55.155 ],
+							[ -94.2557, 55.1652 ],
+							[ -94.5762, 55.155 ],
+							[ -95.0284, 55.1727 ],
+							[ -95.4553, 55.155 ],
+							[ -95.3414, 54.2782 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Heat Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Heat",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 27, 2020 09:30",
+				"Expires_UTC" : "June 28, 2020 01:29",
+				"Summary" : "Description: Humidex values reaching 38 are expected.\n\nA prolonged period of hot weather will develop over portions of southern and east-central Manitoba today and persist into next week.\n\nSoutherly winds will push hot and increasingly humid weather into Manitoba today. Daytime highs will climb into the low thirties with overnight lows rising into the upper teens or low twenties.\n\nThese hot temperatures will be joined by humid conditions next week which will increase humidex values into the upper thirties. Notably, the high humidity will likely result in several nights of overnight minimum temperatures in the low twenties. The heat will begin to break through the latter half of next week.\n\nOn Sunday, in southwestern Manitoba, a strong cold front will produce a sharp temperature change from highs in the low thirties to its east to highs in the mid-twenties to its west. There is a chance that this front will slide east of Brandon and the Turtle Mountains; if it does those areas may see an early reprieve from the heat.\n\nFor most regions in the heat warning, daytime highs may dip a couple degrees on Monday into the upper twenties. Overnight lows will not be impacted by this and daytime highs will climb back into the low thirties for Tuesday and Wednesday.\n\n###\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nFor more information on heat and your health:\n- Visit Manitoba Health at: http://www.manitoba.ca/health/publichealth/environmentalhealth/heat.html. \n- Call Health Links – Info Santé at 204-788-8200 or toll-free at 1-888-315-9257.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-06-28T01:29:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T09:30:50-00:00, urn:oid:2.49.0.1.124.0480196851.2020<br>Area: Oxford House and Gods Lake, Red Sucker Lake, Island Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.0480196851.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T09_30_50_00_00Iurn_oid_2.49.0.1.124.0480196851.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200628012950+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.1533, 49.5976 ],
+							[ -95.1534, 49.4999 ],
+							[ -95.1592, 49.4435 ],
+							[ -95.1539, 49.3847 ],
+							[ -95.1286, 49.3704 ],
+							[ -95.0582, 49.3532 ],
+							[ -95.025, 49.3554 ],
+							[ -95.0141, 49.3564 ],
+							[ -94.987, 49.3687 ],
+							[ -94.9573, 49.3701 ],
+							[ -94.9091, 49.3501 ],
+							[ -94.8782, 49.3333 ],
+							[ -94.8162, 49.3213 ],
+							[ -94.8255, 49.2943 ],
+							[ -94.7973, 49.2143 ],
+							[ -94.7979, 49.1978 ],
+							[ -94.7819, 49.1486 ],
+							[ -94.7727, 49.1205 ],
+							[ -94.7496, 49.0987 ],
+							[ -94.6834, 48.8841 ],
+							[ -94.6843, 48.8723 ],
+							[ -94.6923, 48.869 ],
+							[ -94.692, 48.8569 ],
+							[ -94.693, 48.8534 ],
+							[ -94.6855, 48.84 ],
+							[ -94.6975, 48.8354 ],
+							[ -94.702, 48.8318 ],
+							[ -94.7042, 48.8242 ],
+							[ -94.7016, 48.8244 ],
+							[ -93.4874, 49.0996 ],
+							[ -93.4874, 49.6218 ],
+							[ -93.4874, 50.2367 ],
+							[ -92.9179, 50.1283 ],
+							[ -92.3388, 51.1193 ],
+							[ -93.4873, 51.3669 ],
+							[ -93.6935, 51.4257 ],
+							[ -93.9542, 51.4733 ],
+							[ -94.5036, 51.5513 ],
+							[ -95.1536, 51.6128 ],
+							[ -95.1961, 51.2501 ],
+							[ -95.1536, 50.8931 ],
+							[ -95.1655, 50.6658 ],
+							[ -95.1536, 50.3956 ],
+							[ -95.1601, 50.3682 ],
+							[ -95.1536, 50.3452 ],
+							[ -95.1657, 50.1839 ],
+							[ -95.1535, 49.9987 ],
+							[ -95.1694, 49.8299 ],
+							[ -95.1534, 49.6651 ],
+							[ -95.1534, 49.6482 ],
+							[ -95.1536, 49.6236 ],
+							[ -95.1534, 49.6169 ],
+							[ -95.1533, 49.6032 ],
+							[ -95.1533, 49.5976 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Heat Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Heat",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "June 27, 2020 09:25",
+				"Expires_UTC" : "June 28, 2020 01:24",
+				"Summary" : "Description: Heat event beginning today continuing for about one week.\n\nDaytime high temperatures in the low to mid thirties with overnight lows near 20 are expected until the end of next week.\n\nPlease refer to your public forecast for further details on expected temperatures.\n\n###\n\nExtreme heat affects everyone.\n\nThe risks are greater for young children, pregnant women, older adults, people with chronic illnesses and people working or exercising outdoors.\n\nWatch for the effects of heat illness: swelling, rash, cramps, fainting, heat exhaustion, heat stroke and the worsening of some health conditions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-28T01:24:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T09:25:13-00:00, urn:oid:2.49.0.1.124.3692588368.2020<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.3692588368.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T09_25_13_00_00Iurn_oid_2.49.0.1.124.3692588368.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200628012413+00:00"
 			}
 		},
 		{
@@ -1141,6 +1172,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T07_06_17_00_00Iurn_oid_2.49.0.1.124.4216413425.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200627145917+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 27, 2020 10:15",
+				"Expires_UTC" : "June 27, 2020 20:13",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nFog is expected to clear near noon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-06-27T20:13:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-27T10:15:20-00:00, urn:oid:2.49.0.1.124.2627235801.2020<br>Area: Gjoa Haven",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-27:feed.atom/urn:oid:2.49.0.1.124.2627235801.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-27/2020_06_27T10_15_20_00_00Iurn_oid_2.49.0.1.124.2627235801.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200627201320+00:00"
 			}
 		},
 		{
