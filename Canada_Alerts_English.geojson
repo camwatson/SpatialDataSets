@@ -152,6 +152,107 @@
 				"coordinates" : [
 					[
 						[
+							[ -88.9894, 56.8474 ],
+							[ -89.8863, 56.3004 ],
+							[ -90.1757, 56.1351 ],
+							[ -90.4723, 55.9307 ],
+							[ -89.6861, 55.7142 ],
+							[ -88.8527, 55.4984 ],
+							[ -87.9707, 55.2549 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.0016, 55.9096 ],
+							[ -86.9972, 56.0007 ],
+							[ -87.4589, 56.1029 ],
+							[ -87.9073, 56.4915 ],
+							[ -88.6479, 56.724 ],
+							[ -88.9057, 56.9017 ],
+							[ -88.9894, 56.8474 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "June 28, 2020 08:48",
+				"Expires_UTC" : "June 29, 2020 00:47",
+				"Summary" : "Description: One day heat event for today.\n\nDaytime maximum temperatures near 32 degrees Celsius are expected with humidex values near 40. Relief from the heat is expected tonight as a much cooler airmass moves into the area. \n\nThese conditions pose a health risk when you are not used to the heat.\n\nEveryone is at risk from heat, especially older adults; infants and young children; and people with chronic illnesses.\n\nYou are advised to 1) drink plenty of cool liquids before feeling thirsty; and 2) keep cool by dressing for the weather and spending a few hours each day in a cool place.\n\nHot and humid air can bring deteriorating air quality and can result in the Air Quality Health Index to approach the high risk category.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-29T00:47:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-28T08:48:49-00:00, urn:oid:2.49.0.1.124.2522172080.2020<br>Area: Fort Severn",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-28:feed.atom/urn:oid:2.49.0.1.124.2522172080.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-28/2020_06_28T08_48_49_00_00Iurn_oid_2.49.0.1.124.2522172080.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200629004749+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -99.5472, 51.1252 ],
+							[ -99.5361, 51.1537 ],
+							[ -99.5476, 51.1843 ],
+							[ -99.5586, 51.1847 ],
+							[ -99.5737, 51.1839 ],
+							[ -99.8487, 51.1805 ],
+							[ -99.8415, 51.1734 ],
+							[ -99.8521, 51.139 ],
+							[ -99.8653, 51.0785 ],
+							[ -99.8522, 50.9484 ],
+							[ -99.8343, 50.9486 ],
+							[ -99.834, 50.8596 ],
+							[ -99.5786, 50.8603 ],
+							[ -99.5684, 50.9091 ],
+							[ -99.5783, 50.9487 ],
+							[ -99.5937, 50.9486 ],
+							[ -99.5736, 51.0311 ],
+							[ -99.5941, 51.1254 ],
+							[ -99.5704, 51.1238 ],
+							[ -99.5472, 51.1252 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "June 28, 2020 12:14",
+				"Expires_UTC" : "June 28, 2020 15:12",
+				"Summary" : "Description: At 7:13 a.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis storm is northwest of Laurier and tracking to the northeast at 30 km/h.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-28T15:12:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-28T12:14:33-00:00, urn:oid:2.49.0.1.124.3304399640.2020<br>Area: R.M. of Lakeshore incl. Ochre River and Makinak",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-28:feed.atom/urn:oid:2.49.0.1.124.3304399640.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-28/2020_06_28T12_14_33_00_00Iurn_oid_2.49.0.1.124.3304399640.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200628151233+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.3875, 68.77 ],
 							[ -95.7982, 68.8485 ],
 							[ -96.2346, 68.7983 ],
@@ -217,26 +318,90 @@
 				"coordinates" : [
 					[
 						[
-							[ -99.5472, 51.1252 ],
-							[ -99.5361, 51.1537 ],
-							[ -99.5476, 51.1843 ],
-							[ -99.5586, 51.1847 ],
-							[ -99.5737, 51.1839 ],
-							[ -99.8487, 51.1805 ],
-							[ -99.8415, 51.1734 ],
-							[ -99.8521, 51.139 ],
-							[ -99.8653, 51.0785 ],
-							[ -99.8522, 50.9484 ],
-							[ -99.8343, 50.9486 ],
-							[ -99.834, 50.8596 ],
+							[ -100.9506, 50.9482 ],
+							[ -100.9528, 50.9059 ],
+							[ -100.9505, 50.8598 ],
+							[ -100.671, 50.8598 ],
+							[ -100.6714, 50.7713 ],
+							[ -100.5314, 50.7711 ],
+							[ -100.5315, 50.727 ],
+							[ -100.5316, 50.7269 ],
+							[ -100.4479, 50.7255 ],
+							[ -100.3691, 50.727 ],
+							[ -100.3708, 50.7038 ],
+							[ -100.369, 50.6831 ],
+							[ -100.3144, 50.6782 ],
+							[ -100.2532, 50.6827 ],
+							[ -100.2501, 50.6977 ],
+							[ -100.2534, 50.7125 ],
+							[ -100.1986, 50.7099 ],
+							[ -100.1368, 50.7124 ],
+							[ -100.1365, 50.6763 ],
+							[ -99.9951, 50.6086 ],
+							[ -99.8336, 50.6095 ],
+							[ -99.8331, 50.5944 ],
+							[ -99.7644, 50.5924 ],
+							[ -99.6938, 50.5949 ],
+							[ -99.6937, 50.6393 ],
+							[ -99.6348, 50.6393 ],
+							[ -99.4781, 50.6388 ],
+							[ -99.486, 50.7946 ],
 							[ -99.5786, 50.8603 ],
-							[ -99.5684, 50.9091 ],
-							[ -99.5783, 50.9487 ],
-							[ -99.5937, 50.9486 ],
-							[ -99.5736, 51.0311 ],
-							[ -99.5941, 51.1254 ],
-							[ -99.5704, 51.1238 ],
-							[ -99.5472, 51.1252 ]
+							[ -99.7029, 50.8627 ],
+							[ -99.834, 50.8596 ],
+							[ -99.8343, 50.9486 ],
+							[ -99.8522, 50.9484 ],
+							[ -99.8274, 51.0761 ],
+							[ -99.8415, 51.1734 ],
+							[ -99.8487, 51.1805 ],
+							[ -99.8523, 51.3138 ],
+							[ -99.888, 51.4437 ],
+							[ -99.8897, 51.4486 ],
+							[ -100.08, 51.4553 ],
+							[ -100.2755, 51.4487 ],
+							[ -100.2717, 51.5287 ],
+							[ -100.2751, 51.6239 ],
+							[ -100.2858, 51.624 ],
+							[ -100.2972, 51.6239 ],
+							[ -100.2947, 51.6666 ],
+							[ -100.2972, 51.7112 ],
+							[ -100.4791, 51.714 ],
+							[ -100.6516, 51.7114 ],
+							[ -100.6516, 51.7257 ],
+							[ -100.6993, 51.7256 ],
+							[ -100.6992, 51.7402 ],
+							[ -100.6755, 51.7401 ],
+							[ -100.6755, 51.7549 ],
+							[ -100.6521, 51.7549 ],
+							[ -100.6517, 51.7548 ],
+							[ -100.6516, 51.8855 ],
+							[ -100.7223, 51.8855 ],
+							[ -100.7222, 51.971 ],
+							[ -100.7511, 51.9708 ],
+							[ -100.9541, 51.9774 ],
+							[ -101.1522, 51.9686 ],
+							[ -101.1678, 51.925 ],
+							[ -101.152, 51.881 ],
+							[ -101.2286, 51.8882 ],
+							[ -101.294, 51.8808 ],
+							[ -101.311, 51.7953 ],
+							[ -101.2939, 51.706 ],
+							[ -101.4363, 51.7165 ],
+							[ -101.5772, 51.7062 ],
+							[ -101.5773, 51.6554 ],
+							[ -101.5773, 51.6549 ],
+							[ -101.5705, 51.6549 ],
+							[ -101.5705, 51.5667 ],
+							[ -101.5758, 51.4362 ],
+							[ -101.5705, 51.3018 ],
+							[ -101.5391, 51.3018 ],
+							[ -101.5458, 51.2152 ],
+							[ -101.539, 51.1255 ],
+							[ -101.2887, 51.1105 ],
+							[ -100.9765, 51.1254 ],
+							[ -100.9832, 51.0299 ],
+							[ -100.9759, 50.9479 ],
+							[ -100.9506, 50.9482 ]
 						]
 					]
 				]
@@ -249,18 +414,18 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "June 28, 2020 12:14",
-				"Expires_UTC" : "June 28, 2020 15:12",
-				"Summary" : "Description: At 7:13 a.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis storm is northwest of Laurier and tracking to the northeast at 30 km/h.\n\n###\n\nIntense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-28T15:12:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-28T12:14:33-00:00, urn:oid:2.49.0.1.124.3304399640.2020<br>Area: R.M. of Lakeshore incl. Ochre River and Makinak",
+				"LastUpdate_UTC" : "June 28, 2020 13:58",
+				"Expires_UTC" : "June 28, 2020 16:21",
+				"Summary" : "Description: At 8:57 a.m. CDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis line of severe thunderstorms currently stretches from north of Whitewater Lake to Duck Mountain Provincial Park and is tracking to the northeast at 50 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-06-28T16:21:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-28T13:58:04-00:00, urn:oid:2.49.0.1.124.0418894251.2020<br>Area: R.M. of Dauphin incl. Sifton and Valley River, Mun. of Ethelbert incl. Garland, Gilbert Plains Mun. incl. Ashville, Grandview Mun. incl. Valley River Res., Riding Mountain Nat. Park, Duck Mountain Prov. Park and Prov. Forest",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-28:feed.atom/urn:oid:2.49.0.1.124.3304399640.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-28/2020_06_28T12_14_33_00_00Iurn_oid_2.49.0.1.124.3304399640.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-28:feed.atom/urn:oid:2.49.0.1.124.0418894251.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-28/2020_06_28T13_58_04_00_00Iurn_oid_2.49.0.1.124.0418894251.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200628151233+00:00"
+				"Expires_FMEFormat" : "20200628162104+00:00"
 			}
 		},
 		{
@@ -1100,54 +1265,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-28/2020_06_28T09_32_35_00_00Iurn_oid_2.49.0.1.124.3510015796.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200629013135+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -88.9894, 56.8474 ],
-							[ -89.8863, 56.3004 ],
-							[ -90.1757, 56.1351 ],
-							[ -90.4723, 55.9307 ],
-							[ -89.6861, 55.7142 ],
-							[ -88.8527, 55.4984 ],
-							[ -87.9707, 55.2549 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.0016, 55.9096 ],
-							[ -86.9972, 56.0007 ],
-							[ -87.4589, 56.1029 ],
-							[ -87.9073, 56.4915 ],
-							[ -88.6479, 56.724 ],
-							[ -88.9057, 56.9017 ],
-							[ -88.9894, 56.8474 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "June 28, 2020 08:48",
-				"Expires_UTC" : "June 29, 2020 00:47",
-				"Summary" : "Description: One day heat event for today.\n\nDaytime maximum temperatures near 32 degrees Celsius are expected with humidex values near 40. Relief from the heat is expected tonight as a much cooler airmass moves into the area. \n\nThese conditions pose a health risk when you are not used to the heat.\n\nEveryone is at risk from heat, especially older adults; infants and young children; and people with chronic illnesses.\n\nYou are advised to 1) drink plenty of cool liquids before feeling thirsty; and 2) keep cool by dressing for the weather and spending a few hours each day in a cool place.\n\nHot and humid air can bring deteriorating air quality and can result in the Air Quality Health Index to approach the high risk category.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-06-29T00:47:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-06-28T08:48:49-00:00, urn:oid:2.49.0.1.124.2522172080.2020<br>Area: Fort Severn",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-06-28:feed.atom/urn:oid:2.49.0.1.124.2522172080.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-06-28/2020_06_28T08_48_49_00_00Iurn_oid_2.49.0.1.124.2522172080.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200629004749+00:00"
 			}
 		}
 	]
