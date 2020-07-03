@@ -839,25 +839,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 3, 2020 10:28",
-				"Expires_UTC" : "July 3, 2020 11:28",
-				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n\n###<br>Expires: 2020-07-03T11:28:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-03T10:28:42-00:00, urn:oid:2.49.0.1.124.0307883832.2020<br>Area: Molson Lake and Bear Lake, Cross Lake and Jenpeg, Wabowden, Hwy 6 between Little Limestone Lake and Ponton, Norway House, South Indian Lake and Amisk Prov. Park, Split Lake and York Landing, Thompson Thicket Portage and Pikwitonei, Nelson House",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 3, 2020 10:05",
+				"Expires_UTC" : "July 3, 2020 13:04",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nWith an approaching upper disturbance and recent heat and moisture in the watch area, conditions are allowing for the development of severe thunderstorms overnight in northern MB.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-07-03T13:04:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-03T10:05:40-00:00, urn:oid:2.49.0.1.124.2444919552.2020<br>Area: Molson Lake and Bear Lake, Cross Lake and Jenpeg, Wabowden, Hwy 6 between Little Limestone Lake and Ponton, Norway House, South Indian Lake and Amisk Prov. Park, Split Lake and York Landing, Thompson Thicket Portage and Pikwitonei, Nelson House",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-03:feed.atom/urn:oid:2.49.0.1.124.0307883832.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T10_28_42_00_00Iurn_oid_2.49.0.1.124.0307883832.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-03:feed.atom/urn:oid:2.49.0.1.124.2444919552.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T10_05_40_00_00Iurn_oid_2.49.0.1.124.2444919552.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200703112842+00:00"
+				"Expires_FMEFormat" : "20200703130440+00:00"
 			}
 		},
 		{
@@ -907,52 +907,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T08_57_44_00_00Iurn_oid_2.49.0.1.124.0490045621.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200703115544+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.8173, 58.4841 ],
-							[ -123.817, 58.4844 ],
-							[ -123.7664, 58.9859 ],
-							[ -123.817, 59.4674 ],
-							[ -124.8878, 59.4884 ],
-							[ -125.9169, 59.4669 ],
-							[ -126.3618, 59.3444 ],
-							[ -126.817, 59.1829 ],
-							[ -126.2569, 58.7982 ],
-							[ -125.6669, 58.4669 ],
-							[ -124.7028, 58.4331 ],
-							[ -123.833, 58.4669 ],
-							[ -123.8173, 58.4841 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 3, 2020 06:00",
-				"Expires_UTC" : "July 3, 2020 21:59",
-				"Summary" : "Description: A long episode of rain, at times heavy, continues.\n\nA further 20 to 40 mm of rain expected to fall through Friday over the Peace River, Fort Nelson, Muncho-Lake Park-Stone Mountain Park regions. \n\nHeavy rain transitioned into widespread showers and thunderstorms over the region earlier today. While thunderstorm activity is easing late this evening, showers will persist overnight and through Friday. Conditions will finally begin to dry out on Saturday.\n\nSo far in this rain event 40 to 80 mm of rain has fallen over the region since Wednesday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-07-03T21:59:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-03T06:00:51-00:00, urn:oid:2.49.0.1.124.1653670984.2020<br>Area: Muncho Lake Park - Stone Mountain Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-03:feed.atom/urn:oid:2.49.0.1.124.1653670984.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T06_00_51_00_00Iurn_oid_2.49.0.1.124.1653670984.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200703215951+00:00"
 			}
 		},
 		{
@@ -1047,25 +1001,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 3, 2020 10:21",
-				"Expires_UTC" : "July 3, 2020 12:55",
-				"Summary" : "Description: At 5:20 a.m. CDT, Environment Canada meteorologists are tracking an area of severe thunderstorms capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThese severe thunderstorms are located near Fox Lake First Nation and are tracking to the north.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-03T12:55:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-03T10:21:43-00:00, urn:oid:2.49.0.1.124.2069426601.2020<br>Area: Gillam",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 3, 2020 11:23",
+				"Expires_UTC" : "July 3, 2020 12:23",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-07-03T12:23:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-03T11:23:22-00:00, urn:oid:2.49.0.1.124.2858154717.2020<br>Area: Gillam",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-03:feed.atom/urn:oid:2.49.0.1.124.2069426601.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T10_21_43_00_00Iurn_oid_2.49.0.1.124.2069426601.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-03:feed.atom/urn:oid:2.49.0.1.124.2858154717.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T11_23_22_00_00Iurn_oid_2.49.0.1.124.2858154717.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200703125543+00:00"
+				"Expires_FMEFormat" : "20200703122322+00:00"
 			}
 		},
 		{
@@ -1143,77 +1097,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T06_00_51_00_00Iurn_oid_2.49.0.1.124.1567349940.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200703215951+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -96.5034, 51.4761 ],
-							[ -96.4772, 51.5301 ],
-							[ -96.6955, 51.7288 ],
-							[ -96.79, 51.751 ],
-							[ -96.7995, 51.7473 ],
-							[ -96.8308, 51.7351 ],
-							[ -96.8841, 51.6986 ],
-							[ -96.8382, 51.6371 ],
-							[ -96.8644, 51.575 ],
-							[ -96.7826, 51.5479 ],
-							[ -96.982, 51.3553 ],
-							[ -97.0797, 51.1434 ],
-							[ -96.9645, 51.1419 ],
-							[ -96.7369, 51.301 ],
-							[ -96.6581, 51.317 ],
-							[ -96.8659, 51.1746 ],
-							[ -96.8936, 51.1191 ],
-							[ -97.0132, 51.0462 ],
-							[ -96.9852, 50.9824 ],
-							[ -97.0625, 50.908 ],
-							[ -97.0188, 50.819 ],
-							[ -97.0173, 50.4104 ],
-							[ -96.9, 50.3619 ],
-							[ -96.7914, 50.3168 ],
-							[ -96.778, 50.3112 ],
-							[ -96.4993, 50.409 ],
-							[ -96.5504, 50.533 ],
-							[ -96.5314, 50.6366 ],
-							[ -96.3359, 50.587 ],
-							[ -96.2586, 50.533 ],
-							[ -96.0893, 50.5418 ],
-							[ -96.3024, 50.6964 ],
-							[ -96.2805, 50.8029 ],
-							[ -96.3727, 51.0753 ],
-							[ -96.2239, 51.0739 ],
-							[ -96.3158, 51.1614 ],
-							[ -96.1912, 51.1901 ],
-							[ -96.5034, 51.4761 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 3, 2020 06:29",
-				"Expires_UTC" : "July 3, 2020 11:27",
-				"Summary" : "Description: Conditions are favourable for the development of squalls with wind gusts up to 35 knots, frequent lightning and poor to very poor visibility in thunderstorms heavy at times.\n\nA line of severe thunderstorms over the interlake is heading toward the south basin. These thunderstorms are capable of producing gusts in excess of 35 kts.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-03T11:27:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-03T06:29:51-00:00, urn:oid:2.49.0.1.124.1629536566.2020<br>Area: Lake Winnipeg - south basin",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-03:feed.atom/urn:oid:2.49.0.1.124.1629536566.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T06_29_51_00_00Iurn_oid_2.49.0.1.124.1629536566.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200703112751+00:00"
 			}
 		},
 		{
@@ -2135,6 +2018,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T10_17_49_00_00Iurn_oid_2.49.0.1.124.3422220231.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200704021649+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.8173, 58.4841 ],
+							[ -123.817, 58.4844 ],
+							[ -123.7664, 58.9859 ],
+							[ -123.817, 59.4674 ],
+							[ -124.8878, 59.4884 ],
+							[ -125.9169, 59.4669 ],
+							[ -126.3618, 59.3444 ],
+							[ -126.817, 59.1829 ],
+							[ -126.2569, 58.7982 ],
+							[ -125.6669, 58.4669 ],
+							[ -124.7028, 58.4331 ],
+							[ -123.833, 58.4669 ],
+							[ -123.8173, 58.4841 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 3, 2020 06:00",
+				"Expires_UTC" : "July 3, 2020 21:59",
+				"Summary" : "Description: A long episode of rain, at times heavy, continues.\n\nA further 20 to 40 mm of rain expected to fall through Friday over the Peace River, Fort Nelson, Muncho-Lake Park-Stone Mountain Park regions. \n\nHeavy rain transitioned into widespread showers and thunderstorms over the region earlier today. While thunderstorm activity is easing late this evening, showers will persist overnight and through Friday. Conditions will finally begin to dry out on Saturday.\n\nSo far in this rain event 40 to 80 mm of rain has fallen over the region since Wednesday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-07-03T21:59:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-03T06:00:51-00:00, urn:oid:2.49.0.1.124.1653670984.2020<br>Area: Muncho Lake Park - Stone Mountain Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-03:feed.atom/urn:oid:2.49.0.1.124.1653670984.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-03/2020_07_03T06_00_51_00_00Iurn_oid_2.49.0.1.124.1653670984.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200703215951+00:00"
 			}
 		}
 	]
