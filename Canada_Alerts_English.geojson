@@ -776,25 +776,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Squall Watch Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 5, 2020 03:54",
-				"Expires_UTC" : "July 5, 2020 04:54",
-				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2020-07-05T04:54:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T03:54:13-00:00, urn:oid:2.49.0.1.124.3629644256.2020<br>Area: Lake of the Woods",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 5, 2020 02:03",
+				"Expires_UTC" : "July 5, 2020 05:37",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots are expected or occurring in the area.\n\nA line of severe thunderstorms is located 35 km west of Big Grassy and moving eastwards at 40km/h.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-05T05:37:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T02:03:32-00:00, urn:oid:2.49.0.1.124.3325321039.2020<br>Area: Lake of the Woods",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.3629644256.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T03_54_13_00_00Iurn_oid_2.49.0.1.124.3629644256.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.3325321039.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T02_03_32_00_00Iurn_oid_2.49.0.1.124.3325321039.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200705045413+00:00"
+				"Expires_FMEFormat" : "20200705053732+00:00"
 			}
 		},
 		{
@@ -1454,65 +1454,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T03_21_41_00_00Iurn_oid_2.49.0.1.124.2641220838.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200705055341+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.5175, 47.5701 ],
-							[ -79.6092, 47.5715 ],
-							[ -81.0762, 47.581 ],
-							[ -81.0754, 46.97 ],
-							[ -80.8125, 46.9683 ],
-							[ -80.8125, 46.8912 ],
-							[ -80.566, 46.8912 ],
-							[ -80.566, 46.7261 ],
-							[ -80.3679, 46.7151 ],
-							[ -79.5386, 46.7145 ],
-							[ -79.1099, 46.7147 ],
-							[ -79.1058, 46.7145 ],
-							[ -79.0624, 46.7207 ],
-							[ -79.141, 46.8582 ],
-							[ -79.1873, 46.8737 ],
-							[ -79.275, 46.952 ],
-							[ -79.2923, 47.0127 ],
-							[ -79.3868, 47.1056 ],
-							[ -79.3589, 47.2434 ],
-							[ -79.4135, 47.302 ],
-							[ -79.4216, 47.341 ],
-							[ -79.4988, 47.4815 ],
-							[ -79.432, 47.5214 ],
-							[ -79.4188, 47.5697 ],
-							[ -79.4946, 47.5988 ],
-							[ -79.5175, 47.5701 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 5, 2020 01:54",
-				"Expires_UTC" : "July 5, 2020 04:52",
-				"Summary" : "Description: At 9:53 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis storm is located 15 km west of New Liskeard and moving southeastwards at 60 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-07-05T04:52:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T01:54:28-00:00, urn:oid:2.49.0.1.124.3134946418.2020<br>Area: Temiskaming Shores - Temagami",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.3134946418.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T01_54_28_00_00Iurn_oid_2.49.0.1.124.3134946418.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200705045228+00:00"
 			}
 		},
 		{
@@ -2480,6 +2421,90 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T03_44_15_00_00Iurn_oid_2.49.0.1.124.0600279832.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200705105915+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -104.0233, 49.5225 ],
+							[ -104.038, 49.5225 ],
+							[ -104.2166, 49.5284 ],
+							[ -104.4276, 49.5226 ],
+							[ -104.4354, 49.5231 ],
+							[ -104.4447, 49.5227 ],
+							[ -104.6163, 49.5305 ],
+							[ -104.8305, 49.5223 ],
+							[ -104.8519, 49.5223 ],
+							[ -105.0341, 49.5332 ],
+							[ -105.2334, 49.5226 ],
+							[ -105.2455, 49.5239 ],
+							[ -105.2585, 49.5229 ],
+							[ -105.2445, 49.6523 ],
+							[ -105.258, 49.7848 ],
+							[ -105.4628, 49.795 ],
+							[ -105.6649, 49.7848 ],
+							[ -105.688, 49.639 ],
+							[ -105.6632, 49.5224 ],
+							[ -105.8296, 49.5309 ],
+							[ -106.0051, 49.5235 ],
+							[ -106.0115, 49.4875 ],
+							[ -106.0048, 49.451 ],
+							[ -106.015, 49.3557 ],
+							[ -106.0054, 49.2613 ],
+							[ -106.0143, 49.1204 ],
+							[ -106.0044, 48.9994 ],
+							[ -105.8256, 48.9994 ],
+							[ -105.614, 48.9994 ],
+							[ -105.4223, 48.9988 ],
+							[ -105.2101, 48.9989 ],
+							[ -105.0169, 48.9988 ],
+							[ -104.8107, 48.9988 ],
+							[ -104.6119, 48.9988 ],
+							[ -104.41, 48.9991 ],
+							[ -104.2211, 48.9993 ],
+							[ -104.0088, 48.9995 ],
+							[ -103.8029, 48.9992 ],
+							[ -103.6083, 48.9989 ],
+							[ -103.6083, 48.9992 ],
+							[ -103.6028, 49.0857 ],
+							[ -103.6084, 49.1733 ],
+							[ -103.6144, 49.1737 ],
+							[ -103.6201, 49.1732 ],
+							[ -103.6164, 49.2216 ],
+							[ -103.6197, 49.2606 ],
+							[ -103.6128, 49.3871 ],
+							[ -103.6193, 49.5225 ],
+							[ -103.6322, 49.5225 ],
+							[ -103.8216, 49.5272 ],
+							[ -104.0233, 49.5225 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 5, 2020 04:52",
+				"Expires_UTC" : "July 5, 2020 06:56",
+				"Summary" : "Description: At 10:51 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nA line of thunderstorms is developing from Fife Lake east to Oungre and south to the international border. Thunderstorms are moving east at 30 km/h.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-05T06:56:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T04:52:23-00:00, urn:oid:2.49.0.1.124.3374727526.2020<br>Area: R.M. of Excel including Viceroy Ormiston and Verwood, R.M. of Willow Bunch including Willow Bunch and St Victor, R.M. of Poplar Valley including Rockglen and Fife Lake, R.M. of Hart Butte including Coronach, R.M. of Bengough including Bengough, R.M. of The Gap including Ceylon and Hardy, R.M. of Happy Valley including Big Beaver, R.M. of Surprise Valley including Minton and Regway, R.M. of Laurier including Radville, R.M. of Lomond including Colgate and Goodwater, R.M. of Lake Alma including Lake Alma and Beaubier, R.M. of Souris Valley including Tribune and Oungre",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.3374727526.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T04_52_23_00_00Iurn_oid_2.49.0.1.124.3374727526.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200705065623+00:00"
 			}
 		}
 	]
