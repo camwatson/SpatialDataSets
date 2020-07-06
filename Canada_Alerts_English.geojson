@@ -9,68 +9,101 @@
 				"coordinates" : [
 					[
 						[
-							[ -96.5034, 51.4761 ],
-							[ -96.4772, 51.5301 ],
-							[ -96.6955, 51.7288 ],
-							[ -96.79, 51.751 ],
-							[ -96.7995, 51.7473 ],
-							[ -96.8308, 51.7351 ],
-							[ -96.8841, 51.6986 ],
-							[ -96.8382, 51.6371 ],
-							[ -96.8644, 51.575 ],
-							[ -96.7826, 51.5479 ],
-							[ -96.982, 51.3553 ],
-							[ -97.0797, 51.1434 ],
-							[ -96.9645, 51.1419 ],
-							[ -96.7369, 51.301 ],
-							[ -96.6581, 51.317 ],
-							[ -96.8659, 51.1746 ],
-							[ -96.8936, 51.1191 ],
-							[ -97.0132, 51.0462 ],
-							[ -96.9852, 50.9824 ],
-							[ -97.0625, 50.908 ],
-							[ -97.0188, 50.819 ],
-							[ -97.0173, 50.4104 ],
-							[ -96.9, 50.3619 ],
-							[ -96.7914, 50.3168 ],
-							[ -96.778, 50.3112 ],
-							[ -96.4993, 50.409 ],
-							[ -96.5504, 50.533 ],
-							[ -96.5314, 50.6366 ],
-							[ -96.3359, 50.587 ],
-							[ -96.2586, 50.533 ],
-							[ -96.0893, 50.5418 ],
-							[ -96.3024, 50.6964 ],
-							[ -96.2805, 50.8029 ],
-							[ -96.3727, 51.0753 ],
-							[ -96.2239, 51.0739 ],
-							[ -96.3158, 51.1614 ],
-							[ -96.1912, 51.1901 ],
-							[ -96.5034, 51.4761 ]
+							[ -103.217, 49.2604 ],
+							[ -103.4096, 49.2645 ],
+							[ -103.6197, 49.2606 ],
+							[ -103.6242, 49.2206 ],
+							[ -103.6202, 49.1735 ],
+							[ -103.6201, 49.1732 ],
+							[ -103.6144, 49.1729 ],
+							[ -103.6084, 49.1733 ],
+							[ -103.6133, 49.0869 ],
+							[ -103.6083, 48.9992 ],
+							[ -103.6083, 48.9989 ],
+							[ -103.414, 48.9988 ],
+							[ -103.2077, 48.9993 ],
+							[ -103.2014, 49.0834 ],
+							[ -103.2075, 49.1737 ],
+							[ -103.2117, 49.1741 ],
+							[ -103.2168, 49.1741 ],
+							[ -103.2133, 49.2184 ],
+							[ -103.217, 49.2604 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Squall Watch Ended",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
-				"event" : "Squall",
+				"event" : "Thunderstorm",
 				"urgency" : "Past",
 				"certainty" : "Observed",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 5, 2020 23:14",
-				"Expires_UTC" : "July 6, 2020 00:14",
-				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2020-07-06T00:14:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T23:14:25-00:00, urn:oid:2.49.0.1.124.3143737886.2020<br>Area: Lake Winnipeg - south basin",
+				"LastUpdate_UTC" : "July 6, 2020 00:12",
+				"Expires_UTC" : "July 6, 2020 01:11",
+				"Summary" : "Description: The thunderstorm that prompted the warning has moved into North Dakota.\n\n###<br>Expires: 2020-07-06T01:11:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-06T00:12:18-00:00, urn:oid:2.49.0.1.124.0914251523.2020<br>Area: R.M. of Cambria including Torquay and Outram",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.3143737886.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_14_25_00_00Iurn_oid_2.49.0.1.124.3143737886.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-06:feed.atom/urn:oid:2.49.0.1.124.0914251523.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-06/2020_07_06T00_12_18_00_00Iurn_oid_2.49.0.1.124.0914251523.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200706001425+00:00"
+				"Expires_FMEFormat" : "20200706011118+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -86.0931, 48.7455 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 5, 2020 23:33",
+				"Expires_UTC" : "July 6, 2020 00:33",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-07-06T00:33:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T23:33:46-00:00, urn:oid:2.49.0.1.124.4209362164.2020<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.4209362164.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_33_46_00_00Iurn_oid_2.49.0.1.124.4209362164.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200706003346+00:00"
 			}
 		},
 		{
@@ -231,6 +264,119 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T22_09_25_00_00Iurn_oid_2.49.0.1.124.3436916187.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200706010725+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.1534, 49.4999 ],
+							[ -95.1533, 49.5976 ],
+							[ -95.1533, 49.6032 ],
+							[ -95.1534, 49.6169 ],
+							[ -95.1536, 49.6236 ],
+							[ -95.1534, 49.6482 ],
+							[ -95.1534, 49.6651 ],
+							[ -95.1371, 49.829 ],
+							[ -95.1535, 49.9987 ],
+							[ -95.1394, 50.1769 ],
+							[ -95.1536, 50.3452 ],
+							[ -95.1468, 50.3696 ],
+							[ -95.1536, 50.3956 ],
+							[ -95.2096, 50.3981 ],
+							[ -95.259, 50.3959 ],
+							[ -95.2645, 50.3822 ],
+							[ -95.2598, 50.3701 ],
+							[ -95.3876, 50.3704 ],
+							[ -95.5344, 50.3649 ],
+							[ -95.5358, 50.3517 ],
+							[ -95.5343, 50.3376 ],
+							[ -95.5687, 50.3391 ],
+							[ -95.6028, 50.3376 ],
+							[ -95.6067, 50.2841 ],
+							[ -95.6029, 50.2214 ],
+							[ -95.6214, 50.2218 ],
+							[ -95.6392, 50.2214 ],
+							[ -95.6417, 50.207 ],
+							[ -95.6395, 50.1923 ],
+							[ -95.7356, 50.1938 ],
+							[ -95.8211, 50.1923 ],
+							[ -95.8212, 50.2214 ],
+							[ -95.8155, 50.2212 ],
+							[ -95.8091, 50.2214 ],
+							[ -95.7896, 50.3036 ],
+							[ -95.8097, 50.3959 ],
+							[ -95.9492, 50.4025 ],
+							[ -96.0751, 50.3965 ],
+							[ -96.0676, 50.4066 ],
+							[ -96.0752, 50.415 ],
+							[ -96.2192, 50.4251 ],
+							[ -96.3534, 50.4156 ],
+							[ -96.3621, 50.3754 ],
+							[ -96.3536, 50.3271 ],
+							[ -96.3567, 50.3053 ],
+							[ -96.3535, 50.2844 ],
+							[ -96.3535, 50.239 ],
+							[ -96.3617, 50.2391 ],
+							[ -96.3612, 50.0623 ],
+							[ -96.3611, 49.9728 ],
+							[ -96.3656, 49.7959 ],
+							[ -96.3657, 49.7072 ],
+							[ -96.3658, 49.532 ],
+							[ -96.3708, 49.5333 ],
+							[ -96.3752, 49.5321 ],
+							[ -96.3765, 49.4139 ],
+							[ -96.3835, 49.3412 ],
+							[ -96.3761, 49.2662 ],
+							[ -96.3154, 49.2613 ],
+							[ -96.2396, 49.2662 ],
+							[ -96.2489, 49.2238 ],
+							[ -96.2393, 49.1779 ],
+							[ -96.2434, 49.1794 ],
+							[ -96.2471, 49.1778 ],
+							[ -96.2549, 49.0954 ],
+							[ -96.2476, 48.9999 ],
+							[ -96.2476, 48.9993 ],
+							[ -96.0492, 48.9996 ],
+							[ -95.757, 48.9987 ],
+							[ -95.4644, 48.9987 ],
+							[ -95.3058, 48.9986 ],
+							[ -95.3058, 48.9988 ],
+							[ -95.2953, 48.9988 ],
+							[ -95.2828, 48.9988 ],
+							[ -95.1536, 48.9988 ],
+							[ -95.1531, 49.1401 ],
+							[ -95.1455, 49.2628 ],
+							[ -95.1539, 49.3847 ],
+							[ -95.148, 49.4403 ],
+							[ -95.1534, 49.4999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Severe Thunderstorm Watch Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 6, 2020 00:05",
+				"Expires_UTC" : "July 6, 2020 01:04",
+				"Summary" : "Description: Thunderstorms have moved into Ontario.\n\n###<br>Expires: 2020-07-06T01:04:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-06T00:05:54-00:00, urn:oid:2.49.0.1.124.0743183175.2020<br>Area: R.M. of Lac Du Bonnet, L.G. of Pinawa incl. Seven Sisters Falls, R.M. of Whitemouth incl. Elma, Pointe du Bois, Falcon Lake and West Hawk Lake, Shoal Lake Reserves, R.M. of Reynolds incl. Ste. Rita Hadashville and Rennie, Buffalo Point Res. and Northwest Angle Prov. Forest, R.M. of Piney incl. Sandilands and Sprague",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-06:feed.atom/urn:oid:2.49.0.1.124.0743183175.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-06/2020_07_06T00_05_54_00_00Iurn_oid_2.49.0.1.124.0743183175.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200706010454+00:00"
 			}
 		},
 		{
@@ -560,61 +706,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -95.4553, 55.155 ],
-							[ -95.0427, 55.1432 ],
-							[ -94.5762, 55.155 ],
-							[ -94.2723, 55.1474 ],
-							[ -93.9327, 55.155 ],
-							[ -92.8461, 55.136 ],
-							[ -91.653, 55.1549 ],
-							[ -91.021, 55.5607 ],
-							[ -90.4723, 55.9307 ],
-							[ -90.1415, 56.1239 ],
-							[ -89.8863, 56.3004 ],
-							[ -91.2133, 56.6231 ],
-							[ -92.7352, 56.9253 ],
-							[ -94.1102, 57.0589 ],
-							[ -95.4499, 57.11 ],
-							[ -96.2223, 57.1434 ],
-							[ -96.8659, 57.11 ],
-							[ -96.8659, 56.3447 ],
-							[ -98.1983, 56.3447 ],
-							[ -98.1983, 55.155 ],
-							[ -96.8659, 55.155 ],
-							[ -95.4553, 55.155 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 5, 2020 23:47",
-				"Expires_UTC" : "July 6, 2020 02:26",
-				"Summary" : "Description: At 6:46 p.m. CDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis line of thunderstorms is currently from northeast of Utik Lake southeastward to north of Gods and is tracking to the northeast at 20 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Heavy downpours are likely to cause flash floods and water pooling on roads. Fast-moving water across a road can sweep a vehicle away. Large hail can damage property and cause injury. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-06T02:26:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T23:47:31-00:00, urn:oid:2.49.0.1.124.1100879561.2020<br>Area: Gillam, Shamattawa",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.1100879561.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_47_31_00_00Iurn_oid_2.49.0.1.124.1100879561.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200706022631+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -95.1536, 50.3452 ],
 							[ -95.1657, 50.1839 ],
 							[ -95.1535, 49.9987 ],
@@ -725,25 +816,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 5, 2020 23:13",
-				"Expires_UTC" : "July 6, 2020 00:13",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-07-06T00:13:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T23:13:21-00:00, urn:oid:2.49.0.1.124.4003469613.2020<br>Area: Kingston to Prescott",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 5, 2020 22:51",
+				"Expires_UTC" : "July 6, 2020 00:48",
+				"Summary" : "Description: Squalls with wind gusts up to 45 knots, frequent lightning, hail of 1 to 2 centimetres and poor to very poor visibility in thunderstorms heavy at times are expected or occurring in the area.\n\nThis thunderstorm is currently between Kingston and Gananoque and is moving southeast at 25 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-06T00:48:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T22:51:06-00:00, urn:oid:2.49.0.1.124.3554696117.2020<br>Area: Kingston to Prescott",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.4003469613.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_13_21_00_00Iurn_oid_2.49.0.1.124.4003469613.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.3554696117.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T22_51_06_00_00Iurn_oid_2.49.0.1.124.3554696117.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200706001321+00:00"
+				"Expires_FMEFormat" : "20200706004806+00:00"
 			}
 		},
 		{
@@ -1029,41 +1120,51 @@
 				"coordinates" : [
 					[
 						[
-							[ -93.331, 48.6168 ],
-							[ -93.2604, 48.6223 ],
-							[ -92.7767, 48.5433 ],
-							[ -92.6904, 48.4226 ],
-							[ -92.4487, 48.324 ],
-							[ -91.2145, 48.9922 ],
-							[ -92.7424, 49.0644 ],
-							[ -93.0991, 49.0813 ],
-							[ -93.2232, 48.8278 ],
-							[ -93.3443, 48.6272 ],
-							[ -93.331, 48.6168 ]
+							[ -95.1536, 52.4841 ],
+							[ -95.1536, 52.4201 ],
+							[ -95.169, 52.0344 ],
+							[ -95.1536, 51.6128 ],
+							[ -94.5283, 51.5309 ],
+							[ -93.9542, 51.4733 ],
+							[ -93.733, 51.4154 ],
+							[ -93.4873, 51.3669 ],
+							[ -92.3388, 51.1193 ],
+							[ -91.5246, 52.2405 ],
+							[ -90.9516, 52.9541 ],
+							[ -90.5082, 53.543 ],
+							[ -92.0407, 53.7604 ],
+							[ -93.4241, 53.9089 ],
+							[ -93.68, 53.7427 ],
+							[ -93.9327, 53.5766 ],
+							[ -94.5197, 53.2523 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.1632, 52.6707 ],
+							[ -95.1536, 52.4841 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Severe Thunderstorm Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 5, 2020 23:16",
-				"Expires_UTC" : "July 6, 2020 00:16",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-07-06T00:16:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T23:16:37-00:00, urn:oid:2.49.0.1.124.3254209397.2020<br>Area: Seine River Village - Mine Centre",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 5, 2020 23:54",
+				"Expires_UTC" : "July 6, 2020 08:31",
+				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing damaging wind gusts and large hail.\n\nHazards:\n- Damaging wind gusts of 90 to 100 km/h\n- Quarter to Toonie size hail\n\nLocations:\nPortions of Northwestern Ontario including Kenora, Fort Frances, Dryden and Red Lake.\n\nTiming: \nThis evening.\n\n###\n\nLarge hail can damage property and cause injury. Very strong wind gusts can damage buildings, down trees and blow large vehicles off the road.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-07-06T08:31:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T23:54:44-00:00, urn:oid:2.49.0.1.124.4069701018.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.3254209397.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_16_37_00_00Iurn_oid_2.49.0.1.124.3254209397.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.4069701018.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_54_44_00_00Iurn_oid_2.49.0.1.124.4069701018.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200706001637+00:00"
+				"Expires_FMEFormat" : "20200706083144+00:00"
 			}
 		},
 		{
@@ -1135,60 +1236,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_58_11_00_00Iurn_oid_2.49.0.1.124.2840351976.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200706045911+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.1536, 52.4841 ],
-							[ -95.1536, 52.4201 ],
-							[ -95.169, 52.0344 ],
-							[ -95.1536, 51.6128 ],
-							[ -94.5283, 51.5309 ],
-							[ -93.9542, 51.4733 ],
-							[ -93.733, 51.4154 ],
-							[ -93.4873, 51.3669 ],
-							[ -92.3388, 51.1193 ],
-							[ -91.5246, 52.2405 ],
-							[ -90.9516, 52.9541 ],
-							[ -90.5082, 53.543 ],
-							[ -92.0407, 53.7604 ],
-							[ -93.4241, 53.9089 ],
-							[ -93.68, 53.7427 ],
-							[ -93.9327, 53.5766 ],
-							[ -94.5197, 53.2523 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.1632, 52.6707 ],
-							[ -95.1536, 52.4841 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 5, 2020 23:54",
-				"Expires_UTC" : "July 6, 2020 08:31",
-				"Summary" : "Description: Conditions are favourable for the development of dangerous thunderstorms that may be capable of producing damaging wind gusts and large hail.\n\nHazards:\n- Damaging wind gusts of 90 to 100 km/h\n- Quarter to Toonie size hail\n\nLocations:\nPortions of Northwestern Ontario including Kenora, Fort Frances, Dryden and Red Lake.\n\nTiming: \nThis evening.\n\n###\n\nLarge hail can damage property and cause injury. Very strong wind gusts can damage buildings, down trees and blow large vehicles off the road.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-07-06T08:31:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T23:54:44-00:00, urn:oid:2.49.0.1.124.4069701018.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.4069701018.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_54_44_00_00Iurn_oid_2.49.0.1.124.4069701018.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200706083144+00:00"
 			}
 		},
 		{
@@ -1303,16 +1350,16 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 6, 2020 00:06",
+				"LastUpdate_UTC" : "July 6, 2020 00:07",
 				"Expires_UTC" : "July 6, 2020 03:05",
-				"Summary" : "Description: Squalls with wind gusts up to 45 knots and frequent lightning are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-06T03:05:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-06T00:06:58-00:00, urn:oid:2.49.0.1.124.3160688690.2020<br>Area: Lake of the Woods",
+				"Summary" : "Description: Squalls with wind gusts up to 45 knots and frequent lightning are expected or occurring in the area.\n\nA thunderstorm over western Shoal Lake continues to move east at 20 knots. \n\nHazards: 40 knot wind gusts.\n\nLocations impacted include: \nWaters around the Northern Peninsula; waters around the Western Peninsula and waters west of the Aulneau Peninsula.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-06T03:05:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-06T00:07:58-00:00, urn:oid:2.49.0.1.124.4207517795.2020<br>Area: Lake of the Woods",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-06:feed.atom/urn:oid:2.49.0.1.124.3160688690.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-06/2020_07_06T00_06_58_00_00Iurn_oid_2.49.0.1.124.3160688690.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-06:feed.atom/urn:oid:2.49.0.1.124.4207517795.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-06/2020_07_06T00_07_58_00_00Iurn_oid_2.49.0.1.124.4207517795.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200706030558+00:00"
 			}
@@ -1454,58 +1501,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T22_12_35_00_00Iurn_oid_2.49.0.1.124.2791319221.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200706011035+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -86.0931, 48.7455 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 5, 2020 23:33",
-				"Expires_UTC" : "July 6, 2020 00:33",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-07-06T00:33:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T23:33:46-00:00, urn:oid:2.49.0.1.124.4209362164.2020<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.4209362164.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_33_46_00_00Iurn_oid_2.49.0.1.124.4209362164.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200706003346+00:00"
 			}
 		},
 		{
@@ -1772,6 +1767,105 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_54_44_00_00Iurn_oid_2.49.0.1.124.3074186466.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200706083144+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -91.2145, 48.9922 ],
+							[ -89.6538, 48.5979 ],
+							[ -89.3858, 48.7365 ],
+							[ -88.6636, 49.1101 ],
+							[ -90.0178, 49.5235 ],
+							[ -90.2392, 49.5614 ],
+							[ -91.6834, 49.8681 ],
+							[ -91.6842, 49.8683 ],
+							[ -91.6848, 49.8671 ],
+							[ -92.7424, 49.0644 ],
+							[ -91.2145, 48.9922 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 6, 2020 00:14",
+				"Expires_UTC" : "July 6, 2020 03:12",
+				"Summary" : "Description: At 7:13 p.m. CDT (8:13 p.m. EDT), Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to nickel size hail.\n\nThis storm is located 20 km southeast of Ignace and moving northeast at 60 km/h.\n\nHazards: - Damaging wind gusts of 90 to 100 km/h - Quarter to Toonie size hail \n\nLocations: Highway 105, English River, Graham and Upsala.   \n\nTiming: This evening.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-06T03:12:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-06T00:14:33-00:00, urn:oid:2.49.0.1.124.3996485755.2020<br>Area: Ignace - English River, Upsala - Raith",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-06:feed.atom/urn:oid:2.49.0.1.124.3996485755.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-06/2020_07_06T00_14_33_00_00Iurn_oid_2.49.0.1.124.3996485755.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200706031233+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.4553, 55.155 ],
+							[ -95.0427, 55.1432 ],
+							[ -94.5762, 55.155 ],
+							[ -94.2723, 55.1474 ],
+							[ -93.9327, 55.155 ],
+							[ -92.8461, 55.136 ],
+							[ -91.653, 55.1549 ],
+							[ -91.021, 55.5607 ],
+							[ -90.4723, 55.9307 ],
+							[ -90.1415, 56.1239 ],
+							[ -89.8863, 56.3004 ],
+							[ -91.2133, 56.6231 ],
+							[ -92.7352, 56.9253 ],
+							[ -94.1102, 57.0589 ],
+							[ -95.4499, 57.11 ],
+							[ -96.2223, 57.1434 ],
+							[ -96.8659, 57.11 ],
+							[ -96.8659, 56.3447 ],
+							[ -98.1983, 56.3447 ],
+							[ -98.1983, 55.155 ],
+							[ -96.8659, 55.155 ],
+							[ -95.4553, 55.155 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 5, 2020 23:47",
+				"Expires_UTC" : "July 6, 2020 02:26",
+				"Summary" : "Description: At 6:46 p.m. CDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis line of thunderstorms is currently from northeast of Utik Lake southeastward to north of Gods and is tracking to the northeast at 20 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Heavy downpours are likely to cause flash floods and water pooling on roads. Fast-moving water across a road can sweep a vehicle away. Large hail can damage property and cause injury. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-06T02:26:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-05T23:47:31-00:00, urn:oid:2.49.0.1.124.1100879561.2020<br>Area: Gillam, Shamattawa",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-05:feed.atom/urn:oid:2.49.0.1.124.1100879561.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-05/2020_07_05T23_47_31_00_00Iurn_oid_2.49.0.1.124.1100879561.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200706022631+00:00"
 			}
 		}
 	]
