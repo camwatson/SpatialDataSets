@@ -634,45 +634,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -73.0007, 47.7998 ],
-							[ -72.0027, 47.7998 ],
-							[ -72.0026, 48.2497 ],
-							[ -73.0002, 48.6669 ],
-							[ -73.0004, 48.3331 ],
-							[ -73.0007, 47.7998 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 8, 2020 21:28",
-				"Expires_UTC" : "July 9, 2020 00:27",
-				"Summary" : "Description: At 5:28 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-09T00:27:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-08T21:28:37-00:00, urn:oid:2.49.0.1.124.2169338806.2020<br>Area: Lake Bouchette area",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-08:feed.atom/urn:oid:2.49.0.1.124.2169338806.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-08/2020_07_08T21_28_37_00_00Iurn_oid_2.49.0.1.124.2169338806.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200709002737+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -77.2189, 44.5891 ],
 							[ -77.2622, 44.582 ],
 							[ -77.7584, 44.4985 ],
@@ -2211,6 +2172,45 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-08/2020_07_08T20_51_35_00_00Iurn_oid_2.49.0.1.124.3460682774.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200709002935+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -73.0007, 47.7998 ],
+							[ -72.0027, 47.7998 ],
+							[ -72.0026, 48.2497 ],
+							[ -73.0002, 48.6669 ],
+							[ -73.0004, 48.3331 ],
+							[ -73.0007, 47.7998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 9, 2020 00:03",
+				"Expires_UTC" : "July 9, 2020 01:03",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2020-07-09T01:03:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T00:03:46-00:00, urn:oid:2.49.0.1.124.0387338533.2020<br>Area: Lake Bouchette area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.0387338533.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T00_03_46_00_00Iurn_oid_2.49.0.1.124.0387338533.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200709010346+00:00"
 			}
 		},
 		{
