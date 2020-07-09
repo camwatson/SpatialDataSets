@@ -852,6 +852,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -68.0185, 48.5965 ],
+							[ -67.3876, 48.8122 ],
+							[ -67.3881, 48.8789 ],
+							[ -67.3874, 49.1134 ],
+							[ -67.3869, 49.3155 ],
+							[ -67.3855, 49.4305 ],
+							[ -68.1589, 49.3834 ],
+							[ -68.3852, 49.1948 ],
+							[ -68.62, 49.1222 ],
+							[ -68.6844, 49.0629 ],
+							[ -68.62, 49.0063 ],
+							[ -68.6199, 48.4227 ],
+							[ -68.622, 48.3596 ],
+							[ -68.0185, 48.5965 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 9, 2020 03:00",
+				"Expires_UTC" : "July 9, 2020 04:59",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-09T04:59:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T03:00:05-00:00, urn:oid:2.49.0.1.124.2998254410.2020<br>Area: Pointe à Michel to Pointe-des-Monts",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.2998254410.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T03_00_05_00_00Iurn_oid_2.49.0.1.124.2998254410.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200709045905+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -68.5214, 48.9033 ],
 							[ -68.3575, 48.55 ],
 							[ -68.1996, 48.2998 ],
@@ -1811,53 +1858,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T01_35_10_00_00Iurn_oid_2.49.0.1.124.1579321332.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200709140810+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -68.0185, 48.5965 ],
-							[ -67.3876, 48.8122 ],
-							[ -67.3881, 48.8789 ],
-							[ -67.3874, 49.1134 ],
-							[ -67.3869, 49.3155 ],
-							[ -67.3855, 49.4305 ],
-							[ -68.1589, 49.3834 ],
-							[ -68.3852, 49.1948 ],
-							[ -68.62, 49.1222 ],
-							[ -68.6844, 49.0629 ],
-							[ -68.62, 49.0063 ],
-							[ -68.6199, 48.4227 ],
-							[ -68.622, 48.3596 ],
-							[ -68.0185, 48.5965 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 9, 2020 03:28",
-				"Expires_UTC" : "July 9, 2020 04:28",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n###<br>Expires: 2020-07-09T04:28:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T03:28:15-00:00, urn:oid:2.49.0.1.124.0508702978.2020<br>Area: Pointe à Michel to Pointe-des-Monts",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.0508702978.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T03_28_15_00_00Iurn_oid_2.49.0.1.124.0508702978.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200709042815+00:00"
 			}
 		}
 	]
