@@ -1402,55 +1402,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -70.5032, 47.6322 ],
-							[ -71.016, 47.1831 ],
-							[ -71.233, 47.0165 ],
-							[ -71.1749, 46.8566 ],
-							[ -71.1752, 46.8396 ],
-							[ -71.0366, 46.8367 ],
-							[ -70.8366, 46.9432 ],
-							[ -70.7923, 46.9668 ],
-							[ -70.7199, 47.0115 ],
-							[ -70.7016, 47.0257 ],
-							[ -70.5437, 47.16 ],
-							[ -70.2482, 47.4424 ],
-							[ -69.7836, 47.82 ],
-							[ -69.8631, 47.8597 ],
-							[ -70.1357, 47.9471 ],
-							[ -70.5032, 47.6322 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 8, 2020 23:01",
-				"Expires_UTC" : "July 9, 2020 02:00",
-				"Summary" : "Description: At 7:01 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nHeavy downpours are likely to cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-09T02:00:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-08T23:01:37-00:00, urn:oid:2.49.0.1.124.1917077247.2020<br>Area: Côte-de-Beaupré - L'Île d'Orléans area, La Malbaie area, Baie-Saint-Paul area",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-08:feed.atom/urn:oid:2.49.0.1.124.1917077247.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-08/2020_07_08T23_01_37_00_00Iurn_oid_2.49.0.1.124.1917077247.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200709020037+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -76.7091, 45.1823 ],
 							[ -76.7391, 45.1648 ],
 							[ -76.7701, 45.143 ],
@@ -2488,6 +2439,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-08/2020_07_08T20_33_42_00_00Iurn_oid_2.49.0.1.124.1478005697.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200709042942+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -70.5032, 47.6322 ],
+							[ -71.016, 47.1831 ],
+							[ -71.233, 47.0165 ],
+							[ -71.1749, 46.8566 ],
+							[ -71.1752, 46.8396 ],
+							[ -71.0366, 46.8367 ],
+							[ -70.8366, 46.9432 ],
+							[ -70.7923, 46.9668 ],
+							[ -70.7199, 47.0115 ],
+							[ -70.7016, 47.0257 ],
+							[ -70.5437, 47.16 ],
+							[ -70.2482, 47.4424 ],
+							[ -69.7836, 47.82 ],
+							[ -69.8631, 47.8597 ],
+							[ -70.1357, 47.9471 ],
+							[ -70.5032, 47.6322 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 9, 2020 00:42",
+				"Expires_UTC" : "July 9, 2020 01:42",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2020-07-09T01:42:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T00:42:46-00:00, urn:oid:2.49.0.1.124.2780100755.2020<br>Area: Côte-de-Beaupré - L'Île d'Orléans area, La Malbaie area, Baie-Saint-Paul area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.2780100755.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T00_42_46_00_00Iurn_oid_2.49.0.1.124.2780100755.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200709014246+00:00"
 			}
 		},
 		{
