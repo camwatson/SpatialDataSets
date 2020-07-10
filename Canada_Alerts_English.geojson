@@ -125,6 +125,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -87.9904, 52.2453 ],
+							[ -89.8479, 52.2797 ],
+							[ -91.5246, 52.2405 ],
+							[ -92.3388, 51.1193 ],
+							[ -91.0434, 51.1282 ],
+							[ -89.9953, 51.1354 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.9904, 52.2453 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 10, 2020 01:00",
+				"Expires_UTC" : "July 10, 2020 02:00",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-07-10T02:00:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T01:00:47-00:00, urn:oid:2.49.0.1.124.1506964461.2020<br>Area: Pickle Lake - Cat Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.1506964461.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T01_00_47_00_00Iurn_oid_2.49.0.1.124.1506964461.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200710020047+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -114.2064, 50.3096 ],
 							[ -114.134, 50.3068 ],
 							[ -114.07, 50.3099 ],
@@ -1338,49 +1379,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -57.3704, 54.1207 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -57.1137, 53.3384 ],
-							[ -55.9017, 53.3388 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -57.3704, 54.1207 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 10, 2020 00:28",
-				"Expires_UTC" : "July 10, 2020 01:28",
-				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n\n###<br>Expires: 2020-07-10T01:28:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:28:30-00:00, urn:oid:2.49.0.1.124.1875929677.2020<br>Area: Cartwright to Black Tickle",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.1875929677.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_28_30_00_00Iurn_oid_2.49.0.1.124.1875929677.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710012830+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.8468, 46.9104 ],
 							[ -64.7432, 47.0784 ],
 							[ -64.7688, 47.3864 ],
@@ -1448,6 +1446,49 @@
 				"coordinates" : [
 					[
 						[
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -57.1137, 53.3384 ],
+							[ -55.9017, 53.3388 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Severe Thunderstorm Watch Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 10, 2020 00:28",
+				"Expires_UTC" : "July 10, 2020 01:28",
+				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n\n###<br>Expires: 2020-07-10T01:28:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:28:30-00:00, urn:oid:2.49.0.1.124.1875929677.2020<br>Area: Cartwright to Black Tickle",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.1875929677.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_28_30_00_00Iurn_oid_2.49.0.1.124.1875929677.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200710012830+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -87.9958, 53.2172 ],
 							[ -88.0338, 52.7599 ],
 							[ -87.9904, 52.2453 ],
@@ -1498,6 +1539,114 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_38_10_00_00Iurn_oid_2.49.0.1.124.2670635033.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200710033310+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -87.0122, 55.0075 ],
+							[ -87.5227, 54.1733 ],
+							[ -87.9958, 53.2172 ],
+							[ -88.0338, 52.7599 ],
+							[ -87.9904, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.7002, 54.0287 ],
+							[ -82.2369, 54.0006 ],
+							[ -82.2294, 54.0004 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.0824, 54.6123 ],
+							[ -82.007, 55.0671 ],
+							[ -82.2786, 55.1755 ],
+							[ -82.7847, 55.1832 ],
+							[ -82.9498, 55.2286 ],
+							[ -83.9602, 55.3859 ],
+							[ -84.958, 55.3741 ],
+							[ -85.6784, 55.7283 ],
+							[ -86.9972, 56.0007 ],
+							[ -87.0016, 55.9096 ],
+							[ -87.0122, 55.0075 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 10, 2020 01:01",
+				"Expires_UTC" : "July 10, 2020 03:49",
+				"Summary" : "Description: At 9:00 p.m. EDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing strong wind gusts and up to nickel size hail.\n\nThis cluster of severe thunderstorms is located 49 kilometres southwest of Spruce Lake, moving northeast at 80 km/h. \n\nLocations impacted include:\nNorth Washagami Lake and Spruce Lake.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-10T03:49:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T01:01:18-00:00, urn:oid:2.49.0.1.124.2858321968.2020<br>Area: Peawanuck, Webequie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.2858321968.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T01_01_18_00_00Iurn_oid_2.49.0.1.124.2858321968.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200710034918+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -115.6094, 53.3672 ],
+							[ -116.23, 53.3667 ],
+							[ -116.814, 53.3667 ],
+							[ -116.2683, 52.8421 ],
+							[ -115.9271, 52.839 ],
+							[ -115.5978, 52.843 ],
+							[ -115.5942, 52.8816 ],
+							[ -115.5977, 52.9224 ],
+							[ -115.5738, 52.9231 ],
+							[ -115.5777, 52.9518 ],
+							[ -115.5986, 52.951 ],
+							[ -115.5948, 53.0073 ],
+							[ -115.6006, 53.0192 ],
+							[ -115.2119, 53.019 ],
+							[ -115.1755, 53.0137 ],
+							[ -115.1556, 53.0303 ],
+							[ -115.1708, 53.052 ],
+							[ -115.1709, 53.3676 ],
+							[ -115.3942, 53.3708 ],
+							[ -115.6094, 53.3672 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 10, 2020 00:03",
+				"Expires_UTC" : "July 10, 2020 02:33",
+				"Summary" : "Description: At 6:02 p.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThe severe thunderstorm is located 30 km northwest of Lodgepole and is moving southeast at 35 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-10T02:33:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:03:35-00:00, urn:oid:2.49.0.1.124.1821503195.2020<br>Area: Brazeau Co. near Cynthia and Lodgepole, Yellowhead Co. near Minnow and Wolf Lakes and Elk River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.1821503195.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_03_35_00_00Iurn_oid_2.49.0.1.124.1821503195.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200710023335+00:00"
 			}
 		},
 		{
@@ -1601,59 +1750,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T23_21_41_00_00Iurn_oid_2.49.0.1.124.3296235705.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200710040241+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -115.6094, 53.3672 ],
-							[ -116.23, 53.3667 ],
-							[ -116.814, 53.3667 ],
-							[ -116.2683, 52.8421 ],
-							[ -115.9271, 52.839 ],
-							[ -115.5978, 52.843 ],
-							[ -115.5942, 52.8816 ],
-							[ -115.5977, 52.9224 ],
-							[ -115.5738, 52.9231 ],
-							[ -115.5777, 52.9518 ],
-							[ -115.5986, 52.951 ],
-							[ -115.5948, 53.0073 ],
-							[ -115.6006, 53.0192 ],
-							[ -115.2119, 53.019 ],
-							[ -115.1755, 53.0137 ],
-							[ -115.1556, 53.0303 ],
-							[ -115.1708, 53.052 ],
-							[ -115.1709, 53.3676 ],
-							[ -115.3942, 53.3708 ],
-							[ -115.6094, 53.3672 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 10, 2020 00:03",
-				"Expires_UTC" : "July 10, 2020 02:33",
-				"Summary" : "Description: At 6:02 p.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThe severe thunderstorm is located 30 km northwest of Lodgepole and is moving southeast at 35 km/h.\n\n###\n\nLarge hail can damage property and cause injury. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-10T02:33:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:03:35-00:00, urn:oid:2.49.0.1.124.1821503195.2020<br>Area: Brazeau Co. near Cynthia and Lodgepole, Yellowhead Co. near Minnow and Wolf Lakes and Elk River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.1821503195.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_03_35_00_00Iurn_oid_2.49.0.1.124.1821503195.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710023335+00:00"
 			}
 		},
 		{
