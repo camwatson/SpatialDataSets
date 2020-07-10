@@ -472,71 +472,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -87.9904, 52.2453 ],
-							[ -87.9963, 51.1568 ],
-							[ -87.4321, 51.159 ],
-							[ -84.8479, 51.1686 ],
-							[ -84.57, 51.0622 ],
-							[ -84.4653, 51.0571 ],
-							[ -84.3362, 51.1626 ],
-							[ -84.05, 51.1582 ],
-							[ -83.9119, 51.2539 ],
-							[ -83.2673, 51.4893 ],
-							[ -82.8342, 51.8669 ],
-							[ -82.9115, 51.9291 ],
-							[ -83.0302, 52.2453 ],
-							[ -83.7002, 54.0287 ],
-							[ -82.2369, 54.0006 ],
-							[ -82.2294, 54.0004 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.0824, 54.6123 ],
-							[ -82.007, 55.0671 ],
-							[ -82.2786, 55.1755 ],
-							[ -82.7847, 55.1832 ],
-							[ -82.9498, 55.2286 ],
-							[ -83.9602, 55.3859 ],
-							[ -84.958, 55.3741 ],
-							[ -85.6784, 55.7283 ],
-							[ -86.9972, 56.0007 ],
-							[ -87.0016, 55.9096 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.5227, 54.1733 ],
-							[ -87.9958, 53.2172 ],
-							[ -88.0338, 52.7599 ],
-							[ -87.9904, 52.2453 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 9, 2020 21:44",
-				"Expires_UTC" : "July 10, 2020 00:44",
-				"Summary" : "Description: At 5:43 p.m. EDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nThis line of severe thunderstorms is located from 45 kilometres south of Peawanuck to 165 kilometres east of Webequie to 150 kilometres west of Fort Albany, moving northeast at 75 km/h. \n\nLocations impacted include:\nPeawanuck, North Washagami Lake, Spruce Lake and Opinnagau Lake.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.<br>Expires: 2020-07-10T00:44:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T21:44:05-00:00, urn:oid:2.49.0.1.124.1842715125.2020<br>Area: Peawanuck, Webequie, Fort Hope - Lansdowne House - Ogoki",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.1842715125.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T21_44_05_00_00Iurn_oid_2.49.0.1.124.1842715125.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710004405+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -82.9115, 51.9291 ],
 							[ -82.1596, 51.3124 ],
 							[ -82.1507, 51.3164 ],
@@ -868,9 +803,12 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.0164, 47.7998 ],
 							[ -71.016, 47.1831 ],
-							[ -70.5032, 47.6322 ],
+							[ -70.7016, 47.0257 ],
+							[ -70.5437, 47.16 ],
+							[ -70.2482, 47.4424 ],
+							[ -69.7836, 47.82 ],
+							[ -69.8631, 47.8597 ],
 							[ -70.1357, 47.9471 ],
 							[ -70.2615, 47.9894 ],
 							[ -70.5546, 48.0769 ],
@@ -880,32 +818,79 @@
 							[ -72.0026, 48.2499 ],
 							[ -72.0026, 48.2497 ],
 							[ -72.0027, 47.7998 ],
-							[ -71.5114, 47.791 ],
-							[ -71.0164, 47.7998 ]
+							[ -72.0029, 47.2 ],
+							[ -71.585, 47.1941 ],
+							[ -71.016, 47.1831 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Severe Thunderstorm Watch Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 9, 2020 22:22",
-				"Expires_UTC" : "July 10, 2020 01:21",
-				"Summary" : "Description: At 6:22 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-10T01:21:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T22:22:24-00:00, urn:oid:2.49.0.1.124.3713854857.2020<br>Area: Apica Mountain area, Grands-Jardins Park area",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 10, 2020 00:32",
+				"Expires_UTC" : "July 10, 2020 01:32",
+				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n###<br>Expires: 2020-07-10T01:32:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:32:54-00:00, urn:oid:2.49.0.1.124.1451742267.2020<br>Area: La Malbaie area, Baie-Saint-Paul area, Apica Mountain area, Grands-Jardins Park area, l'Étape area",
 				"Author" : "Environment Canada",
-				"msgType" : "Alert",
+				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.3713854857.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T22_22_24_00_00Iurn_oid_2.49.0.1.124.3713854857.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.1451742267.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_32_54_00_00Iurn_oid_2.49.0.1.124.1451742267.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710012124+00:00"
+				"Expires_FMEFormat" : "20200710013254+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -63.5006, 46.213 ],
+							[ -63.5565, 46.3787 ],
+							[ -63.6157, 46.5529 ],
+							[ -63.6271, 46.6222 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 9, 2020 21:50",
+				"Expires_UTC" : "July 10, 2020 01:59",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nPotential rainfall rates: in excess of 25 mm/h.\n\nTotal rainfall: possibly in excess of 50 mm\n\nPotential wind gusts:70-90 km/h\n\nLocations: northern and eastern New Brunswick and Prince County, Prince Edward Island.\n\nTime span: into this evening.\n\nRemarks: Scattered thunderstorms have developed and are expected to continue into this evening.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-07-10T01:59:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T21:50:59-00:00, urn:oid:2.49.0.1.124.2428607107.2020<br>Area: Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.2428607107.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T21_50_59_00_00Iurn_oid_2.49.0.1.124.2428607107.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200710015959+00:00"
 			}
 		},
 		{
@@ -1089,39 +1074,93 @@
 				"coordinates" : [
 					[
 						[
-							[ -87.9958, 53.2172 ],
-							[ -87.4504, 54.1558 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.921, 55.2628 ],
-							[ -88.8527, 55.4984 ],
-							[ -89.6775, 54.5994 ],
-							[ -90.5082, 53.543 ],
-							[ -89.3769, 53.3863 ],
-							[ -87.9958, 53.2172 ]
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.667, 45.9567 ],
+							[ -62.7976, 46.2718 ],
+							[ -62.8642, 46.4308 ],
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
+				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 9, 2020 21:46",
-				"Expires_UTC" : "July 10, 2020 00:44",
-				"Summary" : "Description: At 4:45 p.m. CDT, Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nThis line of severe thunderstorms is located from 35 kilometres northeast of Angling Lake to 35 kilometres northeast of Straight Lake, moving north at 70 km/h. \n\nLocations impacted include:\nGhost Lake and Moshikopaw Lake.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.<br>Expires: 2020-07-10T00:44:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T21:46:58-00:00, urn:oid:2.49.0.1.124.3826265674.2020<br>Area: Big Trout Lake - Kasabonika",
+				"LastUpdate_UTC" : "July 9, 2020 23:58",
+				"Expires_UTC" : "July 10, 2020 02:59",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nPotential rainfall rates: in excess of 25 mm/h.\n\nTotal rainfall: possibly in excess of 50 mm\n\nPotential wind gusts:70-90 km/h\n\nLocations: Kent County and Kouchibouguac National Park.\n\nTime span: into this evening.\n\nRemarks: Scattered thunderstorms have developed and are expected to continue into this evening.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-07-10T02:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T23:58:02-00:00, urn:oid:2.49.0.1.124.1105556727.2020<br>Area: Queens County P.E.I., Prince County P.E.I.",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.3826265674.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T21_46_58_00_00Iurn_oid_2.49.0.1.124.3826265674.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.1105556727.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T23_58_02_00_00Iurn_oid_2.49.0.1.124.1105556727.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710004458+00:00"
+				"Expires_FMEFormat" : "20200710025902+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.0164, 47.7998 ],
+							[ -71.016, 47.1831 ],
+							[ -70.5032, 47.6322 ],
+							[ -70.1357, 47.9471 ],
+							[ -70.2615, 47.9894 ],
+							[ -70.5546, 48.0769 ],
+							[ -70.9118, 48.1728 ],
+							[ -71.0126, 48.1917 ],
+							[ -71.5524, 48.3338 ],
+							[ -72.0026, 48.2499 ],
+							[ -72.0026, 48.2497 ],
+							[ -72.0027, 47.7998 ],
+							[ -71.5114, 47.791 ],
+							[ -71.0164, 47.7998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 10, 2020 00:32",
+				"Expires_UTC" : "July 10, 2020 01:32",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2020-07-10T01:32:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:32:35-00:00, urn:oid:2.49.0.1.124.3006977713.2020<br>Area: Apica Mountain area, Grands-Jardins Park area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.3006977713.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_32_35_00_00Iurn_oid_2.49.0.1.124.3006977713.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200710013235+00:00"
 			}
 		},
 		{
@@ -1257,64 +1296,18 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 10, 2020 00:15",
-				"Expires_UTC" : "July 10, 2020 02:29",
-				"Summary" : "Description: At 8:14 p.m. EDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing very strong wind gusts and heavy rain.\n\nThis cluster of severe thunderstorms is located from 10 kilometres east of Blyth to Bluewater to 11 kilometres west of Mitchell and is nearly stationary.\n\nThe main threat from this cluster of thunderstorms remains heavy rainfall rates of 50 mm per hour or more and wind gusts to 100 km/h.\n\nLocations impacted include:\nBluewater, Seaforth, Vanastra, Hensall, Roxboro and Huron East.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.<br>Expires: 2020-07-10T02:29:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:15:50-00:00, urn:oid:2.49.0.1.124.3595000681.2020<br>Area: Wingham - Blyth - Northern Huron County, Goderich - Bluewater - Southern Huron County, Stratford - Mitchell - Southern Perth County",
+				"LastUpdate_UTC" : "July 10, 2020 00:37",
+				"Expires_UTC" : "July 10, 2020 02:39",
+				"Summary" : "Description: At 8:37 p.m. EDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing very strong wind gusts and heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.<br>Expires: 2020-07-10T02:39:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:37:25-00:00, urn:oid:2.49.0.1.124.3164447023.2020<br>Area: Wingham - Blyth - Northern Huron County, Goderich - Bluewater - Southern Huron County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.3595000681.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_15_50_00_00Iurn_oid_2.49.0.1.124.3595000681.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.3164447023.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_37_25_00_00Iurn_oid_2.49.0.1.124.3164447023.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710022950+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ],
-							[ -63.5006, 46.213 ],
-							[ -63.5565, 46.3787 ],
-							[ -63.6157, 46.5529 ],
-							[ -63.6271, 46.6222 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 9, 2020 21:50",
-				"Expires_UTC" : "July 10, 2020 01:59",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nPotential rainfall rates: in excess of 25 mm/h.\n\nTotal rainfall: possibly in excess of 50 mm\n\nPotential wind gusts:70-90 km/h\n\nLocations: northern and eastern New Brunswick and Prince County, Prince Edward Island.\n\nTime span: into this evening.\n\nRemarks: Scattered thunderstorms have developed and are expected to continue into this evening.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-07-10T01:59:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T21:50:59-00:00, urn:oid:2.49.0.1.124.2428607107.2020<br>Area: Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.2428607107.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T21_50_59_00_00Iurn_oid_2.49.0.1.124.2428607107.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710015959+00:00"
+				"Expires_FMEFormat" : "20200710023925+00:00"
 			}
 		},
 		{
@@ -1383,118 +1376,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T22_28_23_00_00Iurn_oid_2.49.0.1.124.2144232747.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200710004423+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -64.8468, 46.9104 ],
-							[ -64.7432, 47.0784 ],
-							[ -64.7688, 47.3864 ],
-							[ -64.7526, 47.5525 ],
-							[ -64.4105, 47.8072 ],
-							[ -64.4829, 48.0381 ],
-							[ -64.6328, 48.0419 ],
-							[ -64.7544, 48.0994 ],
-							[ -65.2163, 47.9516 ],
-							[ -65.4344, 47.921 ],
-							[ -65.8243, 48.018 ],
-							[ -65.864, 47.906 ],
-							[ -65.8658, 47.847 ],
-							[ -66.1079, 47.5641 ],
-							[ -66.1938, 47.5446 ],
-							[ -65.8021, 47.2172 ],
-							[ -65.802, 47.2161 ],
-							[ -65.802, 47.2158 ],
-							[ -65.7656, 46.7811 ],
-							[ -65.3925, 46.733 ],
-							[ -65.3919, 46.733 ],
-							[ -65.5705, 46.6329 ],
-							[ -65.8356, 46.3331 ],
-							[ -65.4013, 46.2515 ],
-							[ -65.4013, 46.2519 ],
-							[ -65.4017, 46.2523 ],
-							[ -64.9392, 46.2697 ],
-							[ -64.9062, 46.2709 ],
-							[ -64.81, 46.2742 ],
-							[ -64.5766, 46.2818 ],
-							[ -64.4795, 46.2865 ],
-							[ -64.6509, 46.6934 ],
-							[ -64.769, 46.7321 ],
-							[ -64.8468, 46.9104 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 9, 2020 23:15",
-				"Expires_UTC" : "July 10, 2020 01:59",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-07-10T01:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T23:15:02-00:00, urn:oid:2.49.0.1.124.1717204616.2020<br>Area: Kent County, Kouchibouguac National Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.1717204616.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T23_15_02_00_00Iurn_oid_2.49.0.1.124.1717204616.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710015902+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -65.2163, 47.9516 ],
-							[ -65.2163, 47.8063 ],
-							[ -65.2377, 47.2849 ],
-							[ -64.9706, 47.3164 ],
-							[ -64.9364, 47.3299 ],
-							[ -64.7688, 47.3864 ],
-							[ -64.7526, 47.5525 ],
-							[ -64.4105, 47.8072 ],
-							[ -64.4829, 48.0381 ],
-							[ -64.6328, 48.0419 ],
-							[ -64.7544, 48.0994 ],
-							[ -65.2163, 47.9516 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 9, 2020 22:15",
-				"Expires_UTC" : "July 10, 2020 01:13",
-				"Summary" : "Description: At 7:14 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts, up to nickel size hail and heavy rain.\n\nRadar indicates that between 25 mm and  35 mm of rain will fall over the next hour.\n\nPotential rainfall rates: in excess of 25 mm/h.  \n\nTotal rainfall: possibly 35 mm  \n\nPotential wind gusts:70-90 km/h  \n\nLocations: 5 km northest of Tracadie, heading southeast at 45 km/h. \n\nTime span: ending by 8:00 pm ADT.  \n\nRemarks:A severe thunderstorm with heavy downpours, followed by small hail and gusty winds will move away from the county in the next 30-40 minutes.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-10T01:13:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T22:15:21-00:00, urn:oid:2.49.0.1.124.0941000791.2020<br>Area: Acadian Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.0941000791.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T22_15_21_00_00Iurn_oid_2.49.0.1.124.0941000791.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710011321+00:00"
 			}
 		},
 		{
@@ -1574,6 +1455,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.2163, 47.9516 ],
+							[ -65.2163, 47.8063 ],
+							[ -65.2377, 47.2849 ],
+							[ -64.9706, 47.3164 ],
+							[ -64.9364, 47.3299 ],
+							[ -64.7688, 47.3864 ],
+							[ -64.7526, 47.5525 ],
+							[ -64.4105, 47.8072 ],
+							[ -64.4829, 48.0381 ],
+							[ -64.6328, 48.0419 ],
+							[ -64.7544, 48.0994 ],
+							[ -65.2163, 47.9516 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 9, 2020 22:15",
+				"Expires_UTC" : "July 10, 2020 01:13",
+				"Summary" : "Description: At 7:14 p.m. ADT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts, up to nickel size hail and heavy rain.\n\nRadar indicates that between 25 mm and  35 mm of rain will fall over the next hour.\n\nPotential rainfall rates: in excess of 25 mm/h.  \n\nTotal rainfall: possibly 35 mm  \n\nPotential wind gusts:70-90 km/h  \n\nLocations: 5 km northest of Tracadie, heading southeast at 45 km/h. \n\nTime span: ending by 8:00 pm ADT.  \n\nRemarks:A severe thunderstorm with heavy downpours, followed by small hail and gusty winds will move away from the county in the next 30-40 minutes.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-10T01:13:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T22:15:21-00:00, urn:oid:2.49.0.1.124.0941000791.2020<br>Area: Acadian Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.0941000791.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T22_15_21_00_00Iurn_oid_2.49.0.1.124.0941000791.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200710011321+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -57.3704, 54.1207 ],
 							[ -58.3667, 53.72 ],
 							[ -57.499, 53.3332 ],
@@ -1608,6 +1534,73 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_28_30_00_00Iurn_oid_2.49.0.1.124.1875929677.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200710012830+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -64.8468, 46.9104 ],
+							[ -64.7432, 47.0784 ],
+							[ -64.7688, 47.3864 ],
+							[ -64.7526, 47.5525 ],
+							[ -64.4105, 47.8072 ],
+							[ -64.4829, 48.0381 ],
+							[ -64.6328, 48.0419 ],
+							[ -64.7544, 48.0994 ],
+							[ -65.2163, 47.9516 ],
+							[ -65.4344, 47.921 ],
+							[ -65.8243, 48.018 ],
+							[ -65.864, 47.906 ],
+							[ -65.8658, 47.847 ],
+							[ -66.1079, 47.5641 ],
+							[ -66.1938, 47.5446 ],
+							[ -65.8021, 47.2172 ],
+							[ -65.802, 47.2161 ],
+							[ -65.802, 47.2158 ],
+							[ -65.7656, 46.7811 ],
+							[ -65.3925, 46.733 ],
+							[ -65.3919, 46.733 ],
+							[ -65.5705, 46.6329 ],
+							[ -65.8356, 46.3331 ],
+							[ -65.4013, 46.2515 ],
+							[ -65.4013, 46.2519 ],
+							[ -65.4017, 46.2523 ],
+							[ -64.9392, 46.2697 ],
+							[ -64.9062, 46.2709 ],
+							[ -64.81, 46.2742 ],
+							[ -64.5766, 46.2818 ],
+							[ -64.4795, 46.2865 ],
+							[ -64.6509, 46.6934 ],
+							[ -64.769, 46.7321 ],
+							[ -64.8468, 46.9104 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 9, 2020 23:15",
+				"Expires_UTC" : "July 10, 2020 01:59",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-07-10T01:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T23:15:02-00:00, urn:oid:2.49.0.1.124.1717204616.2020<br>Area: Kent County, Kouchibouguac National Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.1717204616.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T23_15_02_00_00Iurn_oid_2.49.0.1.124.1717204616.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200710015902+00:00"
 			}
 		},
 		{
@@ -1655,18 +1648,18 @@
 				"urgency" : "Immediate",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 9, 2020 23:17",
-				"Expires_UTC" : "July 10, 2020 01:44",
-				"Summary" : "Description: At 6:16 p.m. CDT (7:16 p.m. EDT), Environment Canada meteorologists are tracking a line of severe thunderstorms capable of producing very strong wind gusts, up to toonie size hail and heavy rain.\n\nThis line of severe thunderstorms is located from 95 kilometres northwest of Moshikopaw Lake to 45 kilometres east of Opinnagau Lake, moving north at 75 km/h. \n\nLocations impacted include:\nPeawanuck, North Washagami Lake and Spruce Lake.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.<br>Expires: 2020-07-10T01:44:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T23:17:50-00:00, urn:oid:2.49.0.1.124.0848213720.2020<br>Area: Peawanuck, Big Trout Lake - Kasabonika, Webequie",
+				"LastUpdate_UTC" : "July 10, 2020 00:38",
+				"Expires_UTC" : "July 10, 2020 03:33",
+				"Summary" : "Description: At 7:37 p.m. CDT (8:37 p.m. EDT), Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts and up to nickel size hail.\n\nThis cluster of severe thunderstorms is located 75 kilometres southwest of Peawanuck, moving northeast at 50 km/h. \n\nLocations impacted include:\nPeawanuck.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-10T03:33:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:38:10-00:00, urn:oid:2.49.0.1.124.2670635033.2020<br>Area: Peawanuck, Webequie",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.0848213720.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T23_17_50_00_00Iurn_oid_2.49.0.1.124.0848213720.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.2670635033.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_38_10_00_00Iurn_oid_2.49.0.1.124.2670635033.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710014450+00:00"
+				"Expires_FMEFormat" : "20200710033310+00:00"
 			}
 		},
 		{
@@ -1989,6 +1982,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.8468, 46.9104 ],
+							[ -64.8927, 46.9111 ],
+							[ -64.9004, 46.9072 ],
+							[ -64.9163, 46.8992 ],
+							[ -65.0159, 46.8998 ],
+							[ -65.0173, 46.7997 ],
+							[ -65.0318, 46.7989 ],
+							[ -65.0318, 46.7677 ],
+							[ -64.9515, 46.767 ],
+							[ -64.9176, 46.7149 ],
+							[ -64.9175, 46.7147 ],
+							[ -64.8389, 46.7031 ],
+							[ -64.7427, 46.6652 ],
+							[ -64.7103, 46.684 ],
+							[ -64.769, 46.7321 ],
+							[ -64.8468, 46.9104 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 10, 2020 00:33",
+				"Expires_UTC" : "July 10, 2020 04:59",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nPotential rainfall rates: in excess of 25 mm/h.\n\nTotal rainfall: possibly in excess of 50 mm\n\nPotential wind gusts:70-90 km/h\n\nLocations: Queens County.\n\nTime span: late this evening.\n\nRemarks: Scattered thunderstorms have developed and are expected to continue late this evening.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-07-10T04:59:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-10T00:33:05-00:00, urn:oid:2.49.0.1.124.0430360564.2020<br>Area: Kouchibouguac National Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-10:feed.atom/urn:oid:2.49.0.1.124.0430360564.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_33_05_00_00Iurn_oid_2.49.0.1.124.0430360564.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200710045905+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.8031, 43.8383 ],
 							[ -81.7783, 43.333 ],
 							[ -81.7554, 43.3155 ],
@@ -2269,55 +2311,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-10/2020_07_10T00_24_26_00_00Iurn_oid_2.49.0.1.124.3093057865.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200710012426+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.667, 45.9567 ],
-							[ -62.7976, 46.2718 ],
-							[ -62.8642, 46.4308 ],
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.9227, 46.7494 ],
-							[ -63.9571, 47.0651 ],
-							[ -64.0142, 47.1084 ],
-							[ -64.4465, 46.7886 ],
-							[ -64.4493, 46.6226 ],
-							[ -64.1916, 46.4052 ],
-							[ -63.758, 46.2118 ],
-							[ -63.4926, 46.1673 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 9, 2020 23:58",
-				"Expires_UTC" : "July 10, 2020 02:59",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts, large hail and heavy rain.\n\nPotential rainfall rates: in excess of 25 mm/h.\n\nTotal rainfall: possibly in excess of 50 mm\n\nPotential wind gusts:70-90 km/h\n\nLocations: Kent County and Kouchibouguac National Park.\n\nTime span: into this evening.\n\nRemarks: Scattered thunderstorms have developed and are expected to continue into this evening.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Heavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-07-10T02:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-09T23:58:02-00:00, urn:oid:2.49.0.1.124.1105556727.2020<br>Area: Queens County P.E.I., Prince County P.E.I.",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-09:feed.atom/urn:oid:2.49.0.1.124.1105556727.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-09/2020_07_09T23_58_02_00_00Iurn_oid_2.49.0.1.124.1105556727.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200710025902+00:00"
 			}
 		}
 	]
