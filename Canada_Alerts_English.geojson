@@ -469,6 +469,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.322, 43.1293 ],
+							[ -79.0451, 43.217 ],
+							[ -79.0681, 43.2627 ],
+							[ -79.2006, 43.4504 ],
+							[ -78.6903, 43.6311 ],
+							[ -77.8418, 43.6361 ],
+							[ -77.8417, 43.6548 ],
+							[ -77.8409, 43.9912 ],
+							[ -77.8441, 44.0509 ],
+							[ -78.1201, 44.0441 ],
+							[ -78.5026, 43.9796 ],
+							[ -78.8315, 43.9453 ],
+							[ -79.1002, 43.8743 ],
+							[ -79.5584, 43.6838 ],
+							[ -79.7153, 43.4925 ],
+							[ -79.8894, 43.3464 ],
+							[ -79.7776, 43.1723 ],
+							[ -79.322, 43.1293 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 11, 2020 02:20",
+				"Expires_UTC" : "July 11, 2020 05:18",
+				"Summary" : "Description: An area of thunderstorms over the Niagara region is moving northward and is expected to move out over the western end of Lake Ontario by 10:30 P.M. EDT.  These thunderstorms are capable of producing wind gusts to 35 knots, as well as frequent lightning and reduced visibilities in heavy downpours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-11T05:18:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-11T02:20:16-00:00, urn:oid:2.49.0.1.124.3147946319.2020<br>Area: Western Lake Ontario",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-11:feed.atom/urn:oid:2.49.0.1.124.3147946319.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-11/2020_07_11T02_20_16_00_00Iurn_oid_2.49.0.1.124.3147946319.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200711051816+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -72.9555, 46.0521 ],
 							[ -72.7965, 45.9176 ],
 							[ -72.7168, 45.8498 ],
@@ -1136,48 +1187,42 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.322, 43.1293 ],
-							[ -79.0451, 43.217 ],
-							[ -79.0681, 43.2627 ],
-							[ -79.2006, 43.4504 ],
-							[ -78.6903, 43.6311 ],
-							[ -77.8418, 43.6361 ],
-							[ -77.8417, 43.6548 ],
-							[ -77.8409, 43.9912 ],
-							[ -77.8441, 44.0509 ],
-							[ -78.1201, 44.0441 ],
-							[ -78.5026, 43.9796 ],
-							[ -78.8315, 43.9453 ],
-							[ -79.1002, 43.8743 ],
-							[ -79.5584, 43.6838 ],
-							[ -79.7153, 43.4925 ],
-							[ -79.8894, 43.3464 ],
-							[ -79.7776, 43.1723 ],
-							[ -79.322, 43.1293 ]
+							[ -108.0515, 54.5869 ],
+							[ -108.0042, 54.5855 ],
+							[ -107.9683, 54.5861 ],
+							[ -106.7528, 54.5866 ],
+							[ -106.7528, 56.1199 ],
+							[ -108.0497, 56.1199 ],
+							[ -108.0516, 56.1199 ],
+							[ -108.0516, 55.6714 ],
+							[ -108.1905, 55.6713 ],
+							[ -108.1978, 55.4327 ],
+							[ -108.0515, 55.432 ],
+							[ -108.0515, 54.5869 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 11, 2020 03:50",
-				"Expires_UTC" : "July 11, 2020 04:50",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-07-11T04:50:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-11T03:50:38-00:00, urn:oid:2.49.0.1.124.3438212706.2020<br>Area: Western Lake Ontario",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 11, 2020 04:54",
+				"Expires_UTC" : "July 11, 2020 07:52",
+				"Summary" : "Description: At 10:53 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThis severe thunderstorm is located 20 km northeast of Beauval and is moving east at 35 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-11T07:52:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-11T04:54:06-00:00, urn:oid:2.49.0.1.124.3248840170.2020<br>Area: Île à la Crosse and Beauval",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-11:feed.atom/urn:oid:2.49.0.1.124.3438212706.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-11/2020_07_11T03_50_38_00_00Iurn_oid_2.49.0.1.124.3438212706.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-11:feed.atom/urn:oid:2.49.0.1.124.3248840170.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-11/2020_07_11T04_54_06_00_00Iurn_oid_2.49.0.1.124.3248840170.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200711045038+00:00"
+				"Expires_FMEFormat" : "20200711075206+00:00"
 			}
 		}
 	]
