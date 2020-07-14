@@ -73,60 +73,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -72.0817, 45.0038 ],
-							[ -71.5365, 44.9999 ],
-							[ -71.4914, 45.0109 ],
-							[ -71.3803, 45.2016 ],
-							[ -71.2936, 45.2989 ],
-							[ -71.2937, 45.299 ],
-							[ -71.2943, 45.299 ],
-							[ -71.2954, 45.2989 ],
-							[ -71.7164, 45.2665 ],
-							[ -72.0824, 45.2498 ],
-							[ -72.0831, 45.2498 ],
-							[ -72.083, 45.4665 ],
-							[ -72.433, 45.4665 ],
-							[ -72.5069, 45.4665 ],
-							[ -72.5164, 45.4665 ],
-							[ -72.5164, 45.2332 ],
-							[ -73.0636, 45.2332 ],
-							[ -73.1194, 45.0019 ],
-							[ -72.516, 45.0045 ],
-							[ -72.2561, 45.0023 ],
-							[ -72.0817, 45.0038 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 14, 2020 19:16",
-				"Expires_UTC" : "July 14, 2020 23:15",
-				"Summary" : "Description: At 3:16 p.m. EDT, Environment Canada meteorologists are tracking a cluster of severe thunderstorms capable of producing heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-14T23:15:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-14T19:16:28-00:00, urn:oid:2.49.0.1.124.3261687650.2020<br>Area: Brome-Missisquoi area, Mont-Orford - Lake Memphrémagog area, Coaticook area",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-14:feed.atom/urn:oid:2.49.0.1.124.3261687650.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-14/2020_07_14T19_16_28_00_00Iurn_oid_2.49.0.1.124.3261687650.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200714231528+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -74.5028, 62.3786 ],
 							[ -76.1437, 62.4482 ],
 							[ -75.9991, 61.45 ],
@@ -220,6 +166,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-14/2020_07_14T19_12_10_00_00Iurn_oid_2.49.0.1.124.0360263491.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200715111110+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.0817, 45.0038 ],
+							[ -71.5365, 44.9999 ],
+							[ -71.4914, 45.0109 ],
+							[ -71.3803, 45.2016 ],
+							[ -71.2936, 45.2989 ],
+							[ -71.2937, 45.299 ],
+							[ -71.2943, 45.299 ],
+							[ -71.2954, 45.2989 ],
+							[ -71.7164, 45.2665 ],
+							[ -72.0824, 45.2498 ],
+							[ -72.0831, 45.2498 ],
+							[ -72.083, 45.4665 ],
+							[ -72.433, 45.4665 ],
+							[ -72.5069, 45.4665 ],
+							[ -72.5164, 45.4665 ],
+							[ -72.5164, 45.2332 ],
+							[ -73.0636, 45.2332 ],
+							[ -73.1194, 45.0019 ],
+							[ -72.516, 45.0045 ],
+							[ -72.2561, 45.0023 ],
+							[ -72.0817, 45.0038 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 14, 2020 21:29",
+				"Expires_UTC" : "July 14, 2020 22:29",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2020-07-14T22:29:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-14T21:29:56-00:00, urn:oid:2.49.0.1.124.0084814188.2020<br>Area: Brome-Missisquoi area, Mont-Orford - Lake Memphrémagog area, Coaticook area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-14:feed.atom/urn:oid:2.49.0.1.124.0084814188.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-14/2020_07_14T21_29_56_00_00Iurn_oid_2.49.0.1.124.0084814188.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200714222956+00:00"
 			}
 		},
 		{
@@ -329,25 +329,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 14, 2020 16:36",
-				"Expires_UTC" : "July 15, 2020 02:00",
-				"Summary" : "Description: Rain, at times heavy, continues.\n\nHeavy rainfall will continue today with additional amounts of 10 to 20 mm. The rain is expected to end this afternoon and evening.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-07-15T02:00:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-14T16:36:56-00:00, urn:oid:2.49.0.1.124.1639272314.2020<br>Area: Yellowknife Region, Hay River Region including Enterprise",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 14, 2020 21:31",
+				"Expires_UTC" : "July 14, 2020 22:31",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-07-14T22:31:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-14T21:31:55-00:00, urn:oid:2.49.0.1.124.1620824574.2020<br>Area: Yellowknife Region, Hay River Region including Enterprise",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-14:feed.atom/urn:oid:2.49.0.1.124.1639272314.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-14/2020_07_14T16_36_56_00_00Iurn_oid_2.49.0.1.124.1639272314.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-14:feed.atom/urn:oid:2.49.0.1.124.1620824574.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-14/2020_07_14T21_31_55_00_00Iurn_oid_2.49.0.1.124.1620824574.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200715020056+00:00"
+				"Expires_FMEFormat" : "20200714223155+00:00"
 			}
 		}
 	]
