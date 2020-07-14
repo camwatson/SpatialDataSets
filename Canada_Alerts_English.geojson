@@ -585,54 +585,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -93.5376, 48.516 ],
-							[ -93.3775, 48.5745 ],
-							[ -93.331, 48.6168 ],
-							[ -93.3443, 48.6272 ],
-							[ -93.2232, 48.8278 ],
-							[ -93.0991, 49.0813 ],
-							[ -93.4874, 49.0996 ],
-							[ -94.7042, 48.8242 ],
-							[ -94.7045, 48.8236 ],
-							[ -94.7052, 48.7719 ],
-							[ -94.5779, 48.7038 ],
-							[ -94.2445, 48.6444 ],
-							[ -93.8712, 48.6171 ],
-							[ -93.8049, 48.5028 ],
-							[ -93.5376, 48.516 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 14, 2020 03:13",
-				"Expires_UTC" : "July 14, 2020 04:13",
-				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n\n###<br>Expires: 2020-07-14T04:13:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-14T03:13:57-00:00, urn:oid:2.49.0.1.124.2840817749.2020<br>Area: Fort Frances - Emo - Rainy River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-14:feed.atom/urn:oid:2.49.0.1.124.2840817749.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-14/2020_07_14T03_13_57_00_00Iurn_oid_2.49.0.1.124.2840817749.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200714041357+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -98.7821, 50.8688 ],
 							[ -98.5509, 50.8451 ],
 							[ -98.4292, 50.7715 ],
@@ -1826,25 +1778,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Squall Watch Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 14, 2020 03:10",
-				"Expires_UTC" : "July 14, 2020 04:10",
-				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2020-07-14T04:10:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-14T03:10:56-00:00, urn:oid:2.49.0.1.124.3162765379.2020<br>Area: Lake of the Woods",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 14, 2020 00:25",
+				"Expires_UTC" : "July 14, 2020 04:24",
+				"Summary" : "Description: Squalls with wind gusts up to 40 knots, waterspout activity and poor to very poor visibility in thunderstorms heavy at times are expected or occurring in the area.\n\nA line of thunderstorms approaching from Manitoba will cross Lake of the Woods from west to east this evening. Visibility may be reduced to zero at times.\n\n###\n\nPoor to very poor visibility may contribute to voyage delays and make marine navigation hazardous.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-14T04:24:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-14T00:25:05-00:00, urn:oid:2.49.0.1.124.3512622744.2020<br>Area: Lake of the Woods",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-14:feed.atom/urn:oid:2.49.0.1.124.3162765379.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-14/2020_07_14T03_10_56_00_00Iurn_oid_2.49.0.1.124.3162765379.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-14:feed.atom/urn:oid:2.49.0.1.124.3512622744.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-14/2020_07_14T00_25_05_00_00Iurn_oid_2.49.0.1.124.3512622744.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200714041056+00:00"
+				"Expires_FMEFormat" : "20200714042405+00:00"
 			}
 		},
 		{
