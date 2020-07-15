@@ -281,16 +281,16 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 15, 2020 21:37",
+				"LastUpdate_UTC" : "July 15, 2020 21:38",
 				"Expires_UTC" : "July 16, 2020 06:59",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-07-16T06:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-15T21:37:06-00:00, urn:oid:2.49.0.1.124.2977930551.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Pickle Lake - Cat Lake",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts.\n\nHazards... Isolated wind gusts of 90 km/h and nickel size hail\n\nTiming... Into the early evening\n\nSummary... Scattered thunderstorms will continue to affect the watch area into the early evening. A few wind gusts of 70 to 80 km/h have been observed with these storms. The primary threat from stronger cells will continue to be locally severe wind gusts. Isolated nickel size hail is also possible.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-07-16T06:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-15T21:38:06-00:00, urn:oid:2.49.0.1.124.2849611211.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Pickle Lake - Cat Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-15:feed.atom/urn:oid:2.49.0.1.124.2977930551.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-15/2020_07_15T21_37_06_00_00Iurn_oid_2.49.0.1.124.2977930551.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-15:feed.atom/urn:oid:2.49.0.1.124.2849611211.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-15/2020_07_15T21_38_06_00_00Iurn_oid_2.49.0.1.124.2849611211.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200716065906+00:00"
 			}
@@ -679,6 +679,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 15, 2020 19:23",
+				"Expires_UTC" : "July 16, 2020 11:22",
+				"Summary" : "Description: Strong southerly wind gusts will reach up to 100 kilometres per hour tonight.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-07-16T11:22:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-15T19:23:59-00:00, urn:oid:2.49.0.1.124.3093625895.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-15:feed.atom/urn:oid:2.49.0.1.124.3093625895.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-15/2020_07_15T19_23_59_00_00Iurn_oid_2.49.0.1.124.3093625895.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200716112259+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -93.331, 48.6168 ],
 							[ -93.2604, 48.6223 ],
 							[ -92.7767, 48.5433 ],
@@ -776,59 +817,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 15, 2020 21:37",
+				"LastUpdate_UTC" : "July 15, 2020 21:38",
 				"Expires_UTC" : "July 16, 2020 06:59",
-				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-07-16T06:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-15T21:37:06-00:00, urn:oid:2.49.0.1.124.3950107242.2020<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Savant Lake - Sturgeon Lake, Sioux Lookout - Eastern Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson, Dryden - Vermilion Bay, Ignace - English River, Fort Frances - Emo - Rainy River, Seine River Village - Mine Centre, Upsala - Raith, Atikokan - Shebandowan - Quetico Park",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing strong wind gusts.\n\nHazards... Isolated wind gusts of 90 km/h and nickel size hail\n\nTiming... Into the early evening\n\nSummary... Scattered thunderstorms will continue to affect the watch area into the early evening. A few wind gusts of 70 to 80 km/h have been observed with these storms. The primary threat from stronger cells will continue to be locally severe wind gusts. Isolated nickel size hail is also possible.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-07-16T06:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-15T21:38:06-00:00, urn:oid:2.49.0.1.124.2324986589.2020<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Savant Lake - Sturgeon Lake, Sioux Lookout - Eastern Lac Seul, Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson, Dryden - Vermilion Bay, Ignace - English River, Fort Frances - Emo - Rainy River, Seine River Village - Mine Centre, Upsala - Raith, Atikokan - Shebandowan - Quetico Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-15:feed.atom/urn:oid:2.49.0.1.124.3950107242.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-15/2020_07_15T21_37_06_00_00Iurn_oid_2.49.0.1.124.3950107242.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-15:feed.atom/urn:oid:2.49.0.1.124.2324986589.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-15/2020_07_15T21_38_06_00_00Iurn_oid_2.49.0.1.124.2324986589.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200716065906+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 15, 2020 19:23",
-				"Expires_UTC" : "July 16, 2020 11:22",
-				"Summary" : "Description: Strong southerly wind gusts will reach up to 100 kilometres per hour tonight.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-07-16T11:22:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-15T19:23:59-00:00, urn:oid:2.49.0.1.124.3093625895.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-15:feed.atom/urn:oid:2.49.0.1.124.3093625895.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-15/2020_07_15T19_23_59_00_00Iurn_oid_2.49.0.1.124.3093625895.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200716112259+00:00"
 			}
 		},
 		{
