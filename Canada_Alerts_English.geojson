@@ -75,6 +75,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 15, 2020 19:23",
+				"Expires_UTC" : "July 16, 2020 11:22",
+				"Summary" : "Description: Strong southerly wind gusts will reach up to 100 kilometres per hour tonight.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-07-16T11:22:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-15T19:23:59-00:00, urn:oid:2.49.0.1.124.3093625895.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-15:feed.atom/urn:oid:2.49.0.1.124.3093625895.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-15/2020_07_15T19_23_59_00_00Iurn_oid_2.49.0.1.124.3093625895.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200716112259+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -83.3864, 46.0319 ],
 							[ -83.4793, 45.9477 ],
 							[ -83.5446, 45.8405 ],
@@ -122,47 +163,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-16/2020_07_16T04_11_11_00_00Iurn_oid_2.49.0.1.124.1269816594.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200716200711+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 16, 2020 10:11",
-				"Expires_UTC" : "July 16, 2020 11:11",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-07-16T11:11:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-16T10:11:54-00:00, urn:oid:2.49.0.1.124.4205354771.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-16:feed.atom/urn:oid:2.49.0.1.124.4205354771.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-16/2020_07_16T10_11_54_00_00Iurn_oid_2.49.0.1.124.4205354771.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200716111154+00:00"
 			}
 		},
 		{
