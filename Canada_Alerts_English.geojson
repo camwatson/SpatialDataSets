@@ -75,59 +75,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -89.0071, 48.4482 ],
-							[ -88.828, 48.5107 ],
-							[ -88.9702, 48.2896 ],
-							[ -88.5412, 48.3327 ],
-							[ -87.9958, 48.475 ],
-							[ -88.1405, 48.6611 ],
-							[ -88.6636, 49.1101 ],
-							[ -89.3858, 48.7365 ],
-							[ -89.6538, 48.5979 ],
-							[ -90.5764, 48.1209 ],
-							[ -90.6192, 48.0971 ],
-							[ -90.1265, 48.0754 ],
-							[ -89.8952, 47.9812 ],
-							[ -89.637, 48.004 ],
-							[ -89.6337, 48.0095 ],
-							[ -89.6069, 47.9704 ],
-							[ -89.2481, 48.034 ],
-							[ -88.9231, 48.2327 ],
-							[ -89.1102, 48.3079 ],
-							[ -89.0071, 48.4482 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 16, 2020 18:17",
-				"Expires_UTC" : "July 16, 2020 21:08",
-				"Summary" : "Description: At 2:17 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to toonie size hail.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-07-16T21:08:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-16T18:17:18-00:00, urn:oid:2.49.0.1.124.1207743117.2020<br>Area: City of Thunder Bay, Cloud Bay - Dorion, Kakabeka Falls - Whitefish Lake - Arrow Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-16:feed.atom/urn:oid:2.49.0.1.124.1207743117.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-16/2020_07_16T18_17_18_00_00Iurn_oid_2.49.0.1.124.1207743117.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200716210818+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -83.3864, 46.0319 ],
 							[ -83.4793, 45.9477 ],
 							[ -83.5446, 45.8405 ],
@@ -175,6 +122,77 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-16/2020_07_16T04_11_11_00_00Iurn_oid_2.49.0.1.124.1269816594.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200716200711+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.0999, 48.9 ],
+							[ -55.3732, 49.056 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.45, 49.0999 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -57.6827, 49.1504 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.83, 48.58 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.4199, 48.2499 ],
+							[ -55, 48.25 ],
+							[ -54.1199, 48.25 ],
+							[ -53.9005, 48.3746 ],
+							[ -53.836, 48.4368 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.9865, 48.8983 ],
+							[ -54.0086, 48.9045 ],
+							[ -54.2, 48.9 ],
+							[ -54.15, 49.2 ],
+							[ -54.65, 49.25 ],
+							[ -55.0999, 48.9 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Frost Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Frost",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 16, 2020 18:24",
+				"Expires_UTC" : "July 17, 2020 10:23",
+				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\nMinimum temperatures: zero to +2 (coolest in low lying areas).\n\nLocations: most of Newfoundland.\n\nTime span: early Friday morning and early Saturday morning.\n\nRemarks: Patchy frost is expected to form as clear skies and light winds coincide with cool temperatures, especially in low lying areas.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-07-17T10:23:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-16T18:24:36-00:00, urn:oid:2.49.0.1.124.1790983972.2020<br>Area: Deer Lake - Humber Valley, Buchans and the interior, Grand Falls-Windsor and vicinity, Gander and vicinity, Green Bay - White Bay, Terra Nova",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-16:feed.atom/urn:oid:2.49.0.1.124.1790983972.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-16/2020_07_16T18_24_36_00_00Iurn_oid_2.49.0.1.124.1790983972.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200717102336+00:00"
 			}
 		},
 		{
@@ -253,6 +271,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-16/2020_07_16T17_19_48_00_00Iurn_oid_2.49.0.1.124.0821063210.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200717035948+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -89.0071, 48.4482 ],
+							[ -88.828, 48.5107 ],
+							[ -88.9702, 48.2896 ],
+							[ -88.5412, 48.3327 ],
+							[ -87.9958, 48.475 ],
+							[ -88.1405, 48.6611 ],
+							[ -88.6636, 49.1101 ],
+							[ -89.3858, 48.7365 ],
+							[ -89.6538, 48.5979 ],
+							[ -90.5764, 48.1209 ],
+							[ -90.6192, 48.0971 ],
+							[ -90.1265, 48.0754 ],
+							[ -89.8952, 47.9812 ],
+							[ -89.637, 48.004 ],
+							[ -89.6337, 48.0095 ],
+							[ -89.6069, 47.9704 ],
+							[ -89.2481, 48.034 ],
+							[ -88.9231, 48.2327 ],
+							[ -89.1102, 48.3079 ],
+							[ -89.0071, 48.4482 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 16, 2020 18:18",
+				"Expires_UTC" : "July 16, 2020 21:08",
+				"Summary" : "Description: At 2:17 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts and up to toonie size hail.\n\nThis severe thunderstorm is located near Nolalu, moving east at 40 km/h. \n\nHazards... Peak wind gusts to 100 km/h and nickel to toonie size hail\n\nSource... Radar indicated.\n\nThis severe thunderstorm will be near:\nThunder Bay around 3:15 PM EDT.\n\nLocations impacted include:\nThunder Bay, Whitefish Lake, Kakabeka Falls Provincial Park, Kakabeka Falls and Cloud Bay.\n\n###\n\nLarge hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.<br>Expires: 2020-07-16T21:08:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-16T18:18:18-00:00, urn:oid:2.49.0.1.124.2360173046.2020<br>Area: City of Thunder Bay, Cloud Bay - Dorion, Kakabeka Falls - Whitefish Lake - Arrow Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-16:feed.atom/urn:oid:2.49.0.1.124.2360173046.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-16/2020_07_16T18_18_18_00_00Iurn_oid_2.49.0.1.124.2360173046.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200716210818+00:00"
 			}
 		},
 		{
