@@ -285,6 +285,101 @@
 				"coordinates" : [
 					[
 						[
+							[ -73.0002, 48.6669 ],
+							[ -72.0026, 48.2497 ],
+							[ -72.0026, 48.2499 ],
+							[ -72.0034, 48.2604 ],
+							[ -72.0169, 48.4279 ],
+							[ -72.0383, 48.7099 ],
+							[ -72.3088, 48.7148 ],
+							[ -72.3178, 48.7149 ],
+							[ -72.3411, 48.7419 ],
+							[ -72.4163, 48.7498 ],
+							[ -72.5997, 48.7665 ],
+							[ -72.7997, 48.9498 ],
+							[ -72.6666, 49.6653 ],
+							[ -73.4993, 49.55 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.667, 48.9996 ],
+							[ -73.0002, 48.6669 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 17, 2020 22:55",
+				"Expires_UTC" : "July 18, 2020 01:07",
+				"Summary" : "Description: At 6:55 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-18T01:07:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-17T22:55:57-00:00, urn:oid:2.49.0.1.124.1110843610.2020<br>Area: Ashuapmushuan Wildlife Reserve area, Saint-Félicien - Roberval area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-17:feed.atom/urn:oid:2.49.0.1.124.1110843610.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-17/2020_07_17T22_55_57_00_00Iurn_oid_2.49.0.1.124.1110843610.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200718010757+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.4163, 48.7498 ],
+							[ -72.5997, 48.7665 ],
+							[ -73.0002, 48.6669 ],
+							[ -72.0026, 48.2497 ],
+							[ -72.0026, 48.2499 ],
+							[ -72.0034, 48.2604 ],
+							[ -72.0169, 48.4279 ],
+							[ -72.0383, 48.7099 ],
+							[ -72.3088, 48.7148 ],
+							[ -72.3178, 48.7149 ],
+							[ -72.3411, 48.7419 ],
+							[ -72.4163, 48.7498 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 18, 2020 00:03",
+				"Expires_UTC" : "July 18, 2020 01:03",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n###<br>Expires: 2020-07-18T01:03:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-18T00:03:55-00:00, urn:oid:2.49.0.1.124.1041982182.2020<br>Area: Saint-Félicien - Roberval area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-18:feed.atom/urn:oid:2.49.0.1.124.1041982182.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T00_03_55_00_00Iurn_oid_2.49.0.1.124.1041982182.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200718010355+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -80.9533, 43.8223 ],
 							[ -80.966, 43.9059 ],
 							[ -80.9912, 43.9864 ],
@@ -446,56 +541,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-17/2020_07_17T19_36_11_00_00Iurn_oid_2.49.0.1.124.3644628008.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200718113511+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -73.0002, 48.6669 ],
-							[ -72.0026, 48.2497 ],
-							[ -72.0026, 48.2499 ],
-							[ -72.0034, 48.2604 ],
-							[ -72.0169, 48.4279 ],
-							[ -72.0383, 48.7099 ],
-							[ -72.3088, 48.7148 ],
-							[ -72.3178, 48.7149 ],
-							[ -72.3411, 48.7419 ],
-							[ -72.4163, 48.7498 ],
-							[ -72.5997, 48.7665 ],
-							[ -72.7997, 48.9498 ],
-							[ -72.6666, 49.6653 ],
-							[ -73.4993, 49.55 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.667, 48.9996 ],
-							[ -73.0002, 48.6669 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 17, 2020 22:55",
-				"Expires_UTC" : "July 18, 2020 01:07",
-				"Summary" : "Description: At 6:55 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-18T01:07:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-17T22:55:57-00:00, urn:oid:2.49.0.1.124.1110843610.2020<br>Area: Ashuapmushuan Wildlife Reserve area, Saint-Félicien - Roberval area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-17:feed.atom/urn:oid:2.49.0.1.124.1110843610.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-17/2020_07_17T22_55_57_00_00Iurn_oid_2.49.0.1.124.1110843610.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200718010757+00:00"
 			}
 		},
 		{
@@ -1159,6 +1204,66 @@
 				"coordinates" : [
 					[
 						[
+							[ -110.005, 49.2318 ],
+							[ -109.995, 49.3713 ],
+							[ -110.005, 49.5238 ],
+							[ -109.997, 49.6604 ],
+							[ -110.005, 49.7856 ],
+							[ -110.3951, 49.7856 ],
+							[ -110.6914, 49.7856 ],
+							[ -110.8164, 49.7856 ],
+							[ -110.985, 49.7859 ],
+							[ -111.2878, 49.7859 ],
+							[ -111.2879, 49.4786 ],
+							[ -111.2879, 49.2615 ],
+							[ -111.2879, 49.261 ],
+							[ -111.4405, 49.261 ],
+							[ -111.4432, 49.2237 ],
+							[ -111.441, 49.1824 ],
+							[ -111.4301, 49.1823 ],
+							[ -111.4302, 49.1543 ],
+							[ -111.4303, 49.1327 ],
+							[ -111.429, 49.105 ],
+							[ -111.3412, 49.1068 ],
+							[ -111.3457, 49.0551 ],
+							[ -111.3428, 48.9999 ],
+							[ -110.6728, 48.9986 ],
+							[ -110.005, 48.9994 ],
+							[ -109.9957, 49.112 ],
+							[ -110.005, 49.2318 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 18, 2020 00:08",
+				"Expires_UTC" : "July 18, 2020 01:08",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-07-18T01:08:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-18T00:08:12-00:00, urn:oid:2.49.0.1.124.3723048090.2020<br>Area: Co. of Forty Mile near Etzikom and Maleb, Co. of Forty Mile near Orion and Manyberries, Cypress Co. near Cypress Hills Prov. Park and Cressday, Co. of Forty Mile near Aden and Kennedy Coulee, Cypress Co. near Onefour and Wild Horse",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-18:feed.atom/urn:oid:2.49.0.1.124.3723048090.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T00_08_12_00_00Iurn_oid_2.49.0.1.124.3723048090.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200718010812+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -72.0029, 47.2 ],
 							[ -71.585, 47.1941 ],
 							[ -71.016, 47.1831 ],
@@ -1550,25 +1655,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 17, 2020 23:43",
-				"Expires_UTC" : "July 18, 2020 02:41",
-				"Summary" : "Description: At 6:42 p.m. CDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThe thunderstorm is located 20 km southeast of Swan River and moving to the east at 20 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-18T02:41:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-17T23:43:57-00:00, urn:oid:2.49.0.1.124.1475646712.2020<br>Area: Mun. of Minitonas-Bowsman incl. Renwer, Duck Mountain Prov. Park and Prov. Forest",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 18, 2020 00:08",
+				"Expires_UTC" : "July 18, 2020 01:08",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-07-18T01:08:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-18T00:08:00-00:00, urn:oid:2.49.0.1.124.1664325958.2020<br>Area: Mun. of Minitonas-Bowsman incl. Renwer, Duck Mountain Prov. Park and Prov. Forest",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-17:feed.atom/urn:oid:2.49.0.1.124.1475646712.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-17/2020_07_17T23_43_57_00_00Iurn_oid_2.49.0.1.124.1475646712.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-18:feed.atom/urn:oid:2.49.0.1.124.1664325958.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T00_08_00_00_00Iurn_oid_2.49.0.1.124.1664325958.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200718024157+00:00"
+				"Expires_FMEFormat" : "20200718010800+00:00"
 			}
 		},
 		{
