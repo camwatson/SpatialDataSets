@@ -601,6 +601,70 @@
 				"coordinates" : [
 					[
 						[
+							[ -110.0047, 50.1348 ],
+							[ -110.0048, 50.1128 ],
+							[ -110.0119, 49.9675 ],
+							[ -110.005, 49.7948 ],
+							[ -109.6362, 49.7893 ],
+							[ -109.2566, 49.7948 ],
+							[ -109.2533, 49.8373 ],
+							[ -109.2571, 49.8727 ],
+							[ -109.269, 49.8731 ],
+							[ -109.2804, 49.8728 ],
+							[ -109.2809, 49.8733 ],
+							[ -109.2723, 49.9681 ],
+							[ -109.2809, 50.0476 ],
+							[ -109.4845, 50.0522 ],
+							[ -109.69, 50.0476 ],
+							[ -109.6864, 50.0935 ],
+							[ -109.6896, 50.1348 ],
+							[ -109.6869, 50.1793 ],
+							[ -109.69, 50.2222 ],
+							[ -109.7029, 50.2226 ],
+							[ -109.7154, 50.2222 ],
+							[ -109.7137, 50.2683 ],
+							[ -109.717, 50.3097 ],
+							[ -109.7091, 50.4335 ],
+							[ -109.7164, 50.5718 ],
+							[ -109.7292, 50.572 ],
+							[ -109.7435, 50.5718 ],
+							[ -109.8643, 50.575 ],
+							[ -110.005, 50.5716 ],
+							[ -110.0153, 50.3657 ],
+							[ -110.0047, 50.1348 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 18, 2020 05:22",
+				"Expires_UTC" : "July 18, 2020 08:20",
+				"Summary" : "Description: Environment Canada meteorologists are tracking a severe thunderstorm capable of producing quarter-sized hail and wind gusts in excess of 90 km/h.\n\nAt 11:20 PM CST Doppler RADAR indicated that this severe thunderstorm was located about 20 km north of Walsh, AB, and was moving toward the southeast at 30 km/h.\n\n###\n\nLarge hail can damage property and cause injury.<br>Expires: 2020-07-18T08:20:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-18T05:22:58-00:00, urn:oid:2.49.0.1.124.3895143991.2020<br>Area: R.M. of Enterprise including Richmound, R.M. of Maple Creek including Maple Creek",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-18:feed.atom/urn:oid:2.49.0.1.124.3895143991.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T05_22_58_00_00Iurn_oid_2.49.0.1.124.3895143991.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200718082058+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -99.9353, 50.0635 ],
 							[ -99.8011, 50.0537 ],
 							[ -99.6602, 50.0635 ],
@@ -1937,70 +2001,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T04_40_06_00_00Iurn_oid_2.49.0.1.124.3663866860.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200718073806+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -110.0047, 50.1348 ],
-							[ -110.0048, 50.1128 ],
-							[ -110.0119, 49.9675 ],
-							[ -110.005, 49.7948 ],
-							[ -109.6362, 49.7893 ],
-							[ -109.2566, 49.7948 ],
-							[ -109.2533, 49.8373 ],
-							[ -109.2571, 49.8727 ],
-							[ -109.269, 49.8731 ],
-							[ -109.2804, 49.8728 ],
-							[ -109.2809, 49.8733 ],
-							[ -109.2723, 49.9681 ],
-							[ -109.2809, 50.0476 ],
-							[ -109.4845, 50.0522 ],
-							[ -109.69, 50.0476 ],
-							[ -109.6864, 50.0935 ],
-							[ -109.6896, 50.1348 ],
-							[ -109.6869, 50.1793 ],
-							[ -109.69, 50.2222 ],
-							[ -109.7029, 50.2226 ],
-							[ -109.7154, 50.2222 ],
-							[ -109.7137, 50.2683 ],
-							[ -109.717, 50.3097 ],
-							[ -109.7091, 50.4335 ],
-							[ -109.7164, 50.5718 ],
-							[ -109.7292, 50.572 ],
-							[ -109.7435, 50.5718 ],
-							[ -109.8643, 50.575 ],
-							[ -110.005, 50.5716 ],
-							[ -110.0153, 50.3657 ],
-							[ -110.0047, 50.1348 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 18, 2020 06:02",
-				"Expires_UTC" : "July 18, 2020 07:01",
-				"Summary" : "Description: The thunderstorm that prompted the warning has weakened to below severe limits.\n\n###<br>Expires: 2020-07-18T07:01:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-18T06:02:04-00:00, urn:oid:2.49.0.1.124.2602195073.2020<br>Area: R.M. of Enterprise including Richmound, R.M. of Maple Creek including Maple Creek",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-18:feed.atom/urn:oid:2.49.0.1.124.2602195073.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T06_02_04_00_00Iurn_oid_2.49.0.1.124.2602195073.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200718070104+00:00"
 			}
 		},
 		{
