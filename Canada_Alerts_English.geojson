@@ -673,6 +673,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -126.1231, 71.8522 ],
+							[ -125.5959, 71.7281 ],
+							[ -124.9602, 71.6351 ],
+							[ -124.8071, 71.8342 ],
+							[ -124.6732, 71.8806 ],
+							[ -124.589, 71.9357 ],
+							[ -124.5567, 71.9959 ],
+							[ -124.5793, 72.0565 ],
+							[ -124.6433, 72.1062 ],
+							[ -124.7449, 72.1496 ],
+							[ -125.0235, 72.2063 ],
+							[ -125.3674, 72.217 ],
+							[ -125.3692, 72.217 ],
+							[ -125.3709, 72.2168 ],
+							[ -125.6852, 72.1781 ],
+							[ -125.8024, 72.237 ],
+							[ -126.1308, 72.1003 ],
+							[ -126.1231, 71.8522 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 18, 2020 20:10",
+				"Expires_UTC" : "July 19, 2020 12:09",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nFog may lift slightly this afternoon before redeveloping later this evening.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-07-19T12:09:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-18T20:10:59-00:00, urn:oid:2.49.0.1.124.4025705788.2020<br>Area: Sachs Harbour",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-18:feed.atom/urn:oid:2.49.0.1.124.4025705788.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T20_10_59_00_00Iurn_oid_2.49.0.1.124.4025705788.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200719120959+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -75.3534, 44.8031 ],
 							[ -74.8476, 45.0242 ],
 							[ -74.8006, 45.0212 ],
@@ -903,81 +954,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T04_40_43_00_00Iurn_oid_2.49.0.1.124.3014260662.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200719203943+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -84.9134, 47.2346 ],
-							[ -84.7351, 46.6321 ],
-							[ -84.4985, 46.6539 ],
-							[ -84.6124, 46.6233 ],
-							[ -84.6283, 46.5491 ],
-							[ -84.5588, 46.4765 ],
-							[ -84.4902, 46.4573 ],
-							[ -84.1729, 46.4924 ],
-							[ -84.0972, 46.1959 ],
-							[ -83.9476, 46.0487 ],
-							[ -83.822, 46.1212 ],
-							[ -83.7566, 46.1199 ],
-							[ -83.7076, 46.1874 ],
-							[ -83.8414, 46.4826 ],
-							[ -83.9907, 46.781 ],
-							[ -83.9911, 47.2211 ],
-							[ -83.9912, 47.2516 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
-							[ -85.9469, 49.9546 ],
-							[ -87.4321, 49.9482 ],
-							[ -88.5445, 49.9338 ],
-							[ -88.5445, 49.1129 ],
-							[ -88.6636, 49.1101 ],
-							[ -89.3858, 48.7365 ],
-							[ -89.6337, 48.0095 ],
-							[ -89.6069, 47.9704 ],
-							[ -89.2481, 48.034 ],
-							[ -88.9231, 48.2327 ],
-							[ -89.1102, 48.3079 ],
-							[ -89.0071, 48.4482 ],
-							[ -88.828, 48.5107 ],
-							[ -88.9702, 48.2896 ],
-							[ -88.5412, 48.3327 ],
-							[ -87.9958, 48.475 ],
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 19, 2020 06:15",
-				"Expires_UTC" : "July 19, 2020 09:00",
-				"Summary" : "Description: A line of thunderstorms will move over areas east of Lake Superior overnight beginning near 4.00 AM in the Wawa to Sault Ste Marie areas. Some of the thunderstorms will bring heavy downpours giving 15 to 25 mm of rain in an hour or less, frequent lightning and wind gusts to 70 km/h.\n\nMotorists should be prepared for sudden very low visibility in heavy downpours and ponding of water on poorly  drained sections of highways.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-07-19T09:00:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T06:15:29-00:00, urn:oid:2.49.0.1.124.3929965142.2020<br>Area: City of Thunder Bay, Beardmore - Jellicoe - Macdiarmid, Geraldton - Longlac - Caramat, Cloud Bay - Dorion, Nipigon - Rossport, Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park, Searchmont - Montreal River Harbour - Batchawana Bay, Sault Ste. Marie - St. Joseph Island",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.3929965142.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T06_15_29_00_00Iurn_oid_2.49.0.1.124.3929965142.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200719090029+00:00"
 			}
 		},
 		{
@@ -1269,25 +1245,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 19, 2020 05:41",
-				"Expires_UTC" : "July 19, 2020 06:40",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\nThe strongest thunderstorms have moved to the southeast of the area over US waters.\n\n###<br>Expires: 2020-07-19T06:40:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T05:41:07-00:00, urn:oid:2.49.0.1.124.3484470308.2020<br>Area: Western Lake Superior",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 19, 2020 03:22",
+				"Expires_UTC" : "July 19, 2020 07:21",
+				"Summary" : "Description: Squalls with wind gusts up to 35 knots, frequent lightning and poor to very poor visibility in thunderstorms heavy at times are expected or occurring in the area.\n\nThunderstorms moving across the Lake from the Thunder Bay area may produce squalls of 35 knots, sudden near zero visibility in torrential downpours and frequent lightning. \n\nThe thunderstorms will move away to the east and slowly weaken after midnight.\n\n###\n\nPoor to very poor visibility may contribute to voyage delays and make marine navigation hazardous.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-19T07:21:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T03:22:30-00:00, urn:oid:2.49.0.1.124.0277696299.2020<br>Area: Western Lake Superior",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.3484470308.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T05_41_07_00_00Iurn_oid_2.49.0.1.124.3484470308.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.0277696299.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T03_22_30_00_00Iurn_oid_2.49.0.1.124.0277696299.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200719064007+00:00"
+				"Expires_FMEFormat" : "20200719072130+00:00"
 			}
 		},
 		{
@@ -1376,57 +1352,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T05_57_55_00_00Iurn_oid_2.49.0.1.124.0313776982.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200719065655+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -126.1231, 71.8522 ],
-							[ -125.5959, 71.7281 ],
-							[ -124.9602, 71.6351 ],
-							[ -124.8071, 71.8342 ],
-							[ -124.6732, 71.8806 ],
-							[ -124.589, 71.9357 ],
-							[ -124.5567, 71.9959 ],
-							[ -124.5793, 72.0565 ],
-							[ -124.6433, 72.1062 ],
-							[ -124.7449, 72.1496 ],
-							[ -125.0235, 72.2063 ],
-							[ -125.3674, 72.217 ],
-							[ -125.3692, 72.217 ],
-							[ -125.3709, 72.2168 ],
-							[ -125.6852, 72.1781 ],
-							[ -125.8024, 72.237 ],
-							[ -126.1308, 72.1003 ],
-							[ -126.1231, 71.8522 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 18, 2020 20:10",
-				"Expires_UTC" : "July 19, 2020 12:09",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nFog may lift slightly this afternoon before redeveloping later this evening.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-07-19T12:09:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-18T20:10:59-00:00, urn:oid:2.49.0.1.124.4025705788.2020<br>Area: Sachs Harbour",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-18:feed.atom/urn:oid:2.49.0.1.124.4025705788.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T20_10_59_00_00Iurn_oid_2.49.0.1.124.4025705788.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200719120959+00:00"
 			}
 		},
 		{
@@ -1666,6 +1591,81 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T02_47_34_00_00Iurn_oid_2.49.0.1.124.3797908038.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200719184634+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.9134, 47.2346 ],
+							[ -84.7351, 46.6321 ],
+							[ -84.4985, 46.6539 ],
+							[ -84.6124, 46.6233 ],
+							[ -84.6283, 46.5491 ],
+							[ -84.5588, 46.4765 ],
+							[ -84.4902, 46.4573 ],
+							[ -84.1729, 46.4924 ],
+							[ -84.0972, 46.1959 ],
+							[ -83.9476, 46.0487 ],
+							[ -83.822, 46.1212 ],
+							[ -83.7566, 46.1199 ],
+							[ -83.7076, 46.1874 ],
+							[ -83.8414, 46.4826 ],
+							[ -83.9907, 46.781 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -85.9469, 49.9546 ],
+							[ -87.4321, 49.9482 ],
+							[ -88.5445, 49.9338 ],
+							[ -88.5445, 49.1129 ],
+							[ -88.6636, 49.1101 ],
+							[ -89.3858, 48.7365 ],
+							[ -89.6337, 48.0095 ],
+							[ -89.6069, 47.9704 ],
+							[ -89.2481, 48.034 ],
+							[ -88.9231, 48.2327 ],
+							[ -89.1102, 48.3079 ],
+							[ -89.0071, 48.4482 ],
+							[ -88.828, 48.5107 ],
+							[ -88.9702, 48.2896 ],
+							[ -88.5412, 48.3327 ],
+							[ -87.9958, 48.475 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 19, 2020 06:29",
+				"Expires_UTC" : "July 19, 2020 09:00",
+				"Summary" : "Description: A line of thunderstorms will move over areas east of Lake Superior overnight beginning near 4.00 AM in the Wawa to Sault Ste Marie areas. Some of the thunderstorms will bring heavy downpours giving 15 to 25 mm of rain in an hour or less, frequent lightning and wind gusts to 70 km/h.\n\nMotorists should be prepared for sudden very low visibility in heavy downpours and ponding of water on poorly  drained sections of highways.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-07-19T09:00:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T06:29:22-00:00, urn:oid:2.49.0.1.124.2299959880.2020<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park, Searchmont - Montreal River Harbour - Batchawana Bay, Sault Ste. Marie - St. Joseph Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.2299959880.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T06_29_22_00_00Iurn_oid_2.49.0.1.124.2299959880.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200719090022+00:00"
 			}
 		},
 		{
