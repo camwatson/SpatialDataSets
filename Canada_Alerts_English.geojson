@@ -408,6 +408,65 @@
 				"coordinates" : [
 					[
 						[
+							[ -80.6927, 51.9724 ],
+							[ -81.4236, 52.4881 ],
+							[ -81.6114, 52.4649 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ],
+							[ -84.0149, 49.9497 ],
+							[ -81.4419, 49.5091 ],
+							[ -81.4395, 50.7218 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.496, 51.0628 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.8297, 51.4271 ],
+							[ -79.8263, 51.2605 ],
+							[ -80.0462, 51.3571 ],
+							[ -80.2894, 51.3971 ],
+							[ -80.3594, 51.6003 ],
+							[ -80.6927, 51.9724 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 19, 2020 21:39",
+				"Expires_UTC" : "July 20, 2020 01:19",
+				"Summary" : "Description: Isolated severe thunderstorms are likely this evening. Damaging hail near 3 centimetres in diameter and heavy downpours may be associated with thunderstorms.\n\n###\n\nLarge hail can damage property and cause injury.<br>Expires: 2020-07-20T01:19:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T21:39:24-00:00, urn:oid:2.49.0.1.124.2325209353.2020<br>Area: Fort Albany, Moosonee, Fraserdale - Pledger Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.2325209353.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T21_39_24_00_00Iurn_oid_2.49.0.1.124.2325209353.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200720011924+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -72.0029, 47.2 ],
 							[ -71.585, 47.1941 ],
 							[ -71.016, 47.1831 ],
@@ -1843,67 +1902,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.149, 42.2478 ],
-							[ -83.128, 42.2387 ],
-							[ -83.1339, 42.1748 ],
-							[ -83.1217, 42.1254 ],
-							[ -83.1496, 42.0409 ],
-							[ -83.0691, 41.8635 ],
-							[ -82.6797, 41.6765 ],
-							[ -82.3974, 41.6765 ],
-							[ -81.2457, 42.2075 ],
-							[ -80.9327, 42.2591 ],
-							[ -81.1553, 42.66 ],
-							[ -81.2109, 42.784 ],
-							[ -81.7125, 42.5988 ],
-							[ -82.3391, 42.2319 ],
-							[ -82.6165, 42.0946 ],
-							[ -82.9069, 42.0167 ],
-							[ -83.0565, 42.0629 ],
-							[ -83.0602, 42.185 ],
-							[ -83.0816, 42.2449 ],
-							[ -83.0518, 42.295 ],
-							[ -82.9097, 42.3254 ],
-							[ -82.9189, 42.3377 ],
-							[ -82.9211, 42.3422 ],
-							[ -82.9249, 42.3485 ],
-							[ -82.9263, 42.3512 ],
-							[ -82.9303, 42.3586 ],
-							[ -83.0787, 42.3244 ],
-							[ -83.149, 42.2478 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 19, 2020 20:07",
-				"Expires_UTC" : "July 19, 2020 23:44",
-				"Summary" : "Description: Squalls with wind gusts up to 50 knots, frequent lightning and waterspout activity are expected or occurring in the area.\n\nA line of thunderstorms has and is south of Point Peele to Erieau, moving east at 35 knots.\n\nSqualls of 45 knots, torrential downpours suddenly reducing visibility to near zero and frequent lightning are likely with the strongest thunderstorms. There is also a potential for waterspout.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-19T23:44:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T20:07:18-00:00, urn:oid:2.49.0.1.124.3902038827.2020<br>Area: Western Lake Erie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.3902038827.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T20_07_18_00_00Iurn_oid_2.49.0.1.124.3902038827.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200719234418+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -82.9303, 42.3586 ],
 							[ -83.0787, 42.3244 ],
 							[ -83.149, 42.2478 ],
@@ -2308,65 +2306,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -80.6927, 51.9724 ],
-							[ -81.4236, 52.4881 ],
-							[ -81.6114, 52.4649 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ],
-							[ -84.0149, 49.9497 ],
-							[ -81.4419, 49.5091 ],
-							[ -81.4395, 50.7218 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.496, 51.0628 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.8297, 51.4271 ],
-							[ -79.8263, 51.2605 ],
-							[ -80.0462, 51.3571 ],
-							[ -80.2894, 51.3971 ],
-							[ -80.3594, 51.6003 ],
-							[ -80.6927, 51.9724 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 19, 2020 21:39",
-				"Expires_UTC" : "July 20, 2020 01:19",
-				"Summary" : "Description: Isolated severe thunderstorms are likely this evening. Damaging hail near 3 centimetres in diameter and heavy downpours may be associated with thunderstorms.\n\n###\n\nLarge hail can damage property and cause injury.<br>Expires: 2020-07-20T01:19:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T21:39:24-00:00, urn:oid:2.49.0.1.124.2325209353.2020<br>Area: Fort Albany, Moosonee, Fraserdale - Pledger Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.2325209353.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T21_39_24_00_00Iurn_oid_2.49.0.1.124.2325209353.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200720011924+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -81.4419, 49.5091 ],
 							[ -79.5172, 49.1428 ],
 							[ -79.5172, 49.2829 ],
@@ -2694,6 +2633,67 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T20_46_21_00_00Iurn_oid_2.49.0.1.124.1500115532.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200720003921+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -83.149, 42.2478 ],
+							[ -83.128, 42.2387 ],
+							[ -83.1339, 42.1748 ],
+							[ -83.1217, 42.1254 ],
+							[ -83.1496, 42.0409 ],
+							[ -83.0691, 41.8635 ],
+							[ -82.6797, 41.6765 ],
+							[ -82.3974, 41.6765 ],
+							[ -81.2457, 42.2075 ],
+							[ -80.9327, 42.2591 ],
+							[ -81.1553, 42.66 ],
+							[ -81.2109, 42.784 ],
+							[ -81.7125, 42.5988 ],
+							[ -82.3391, 42.2319 ],
+							[ -82.6165, 42.0946 ],
+							[ -82.9069, 42.0167 ],
+							[ -83.0565, 42.0629 ],
+							[ -83.0602, 42.185 ],
+							[ -83.0816, 42.2449 ],
+							[ -83.0518, 42.295 ],
+							[ -82.9097, 42.3254 ],
+							[ -82.9189, 42.3377 ],
+							[ -82.9211, 42.3422 ],
+							[ -82.9249, 42.3485 ],
+							[ -82.9263, 42.3512 ],
+							[ -82.9303, 42.3586 ],
+							[ -83.0787, 42.3244 ],
+							[ -83.149, 42.2478 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "July 19, 2020 20:07",
+				"Expires_UTC" : "July 19, 2020 23:44",
+				"Summary" : "Description: Squalls with wind gusts up to 50 knots, frequent lightning and waterspout activity are expected or occurring in the area.\n\nA line of thunderstorms has and is south of Point Peele to Erieau, moving east at 35 knots.\n\nSqualls of 45 knots, torrential downpours suddenly reducing visibility to near zero and frequent lightning are likely with the strongest thunderstorms. There is also a potential for waterspout.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-19T23:44:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T20:07:18-00:00, urn:oid:2.49.0.1.124.3902038827.2020<br>Area: Western Lake Erie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.3902038827.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T20_07_18_00_00Iurn_oid_2.49.0.1.124.3902038827.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200719234418+00:00"
 			}
 		}
 	]
