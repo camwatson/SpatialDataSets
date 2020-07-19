@@ -864,6 +864,65 @@
 				"coordinates" : [
 					[
 						[
+							[ -90.5082, 53.543 ],
+							[ -92.0407, 53.7604 ],
+							[ -93.4241, 53.9089 ],
+							[ -93.68, 53.7427 ],
+							[ -93.9327, 53.5766 ],
+							[ -94.5197, 53.2523 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.1632, 52.6707 ],
+							[ -95.1536, 52.4841 ],
+							[ -95.1536, 52.4201 ],
+							[ -95.169, 52.0344 ],
+							[ -95.1536, 51.6128 ],
+							[ -94.5283, 51.5309 ],
+							[ -93.9542, 51.4733 ],
+							[ -93.733, 51.4154 ],
+							[ -93.4873, 51.3669 ],
+							[ -92.3388, 51.1193 ],
+							[ -91.0434, 51.1282 ],
+							[ -89.9953, 51.1354 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.9904, 52.2453 ],
+							[ -87.9569, 52.7534 ],
+							[ -87.9958, 53.2172 ],
+							[ -89.3718, 53.4188 ],
+							[ -90.5082, 53.543 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 18, 2020 22:25",
+				"Expires_UTC" : "July 19, 2020 06:20",
+				"Summary" : "Description: A few rounds of thunderstorms will develop across the area this evening and continue through the overnight hours.\n\nHazards:\nIsolated wind gusts up to 110 km/h \nHail of 2-4 cm in diameter\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.\n\nFor more information: http://www.emergencymanagementontario.ca/english/beprepared/beprepared.html.<br>Expires: 2020-07-19T06:20:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-18T22:25:58-00:00, urn:oid:2.49.0.1.124.1269090956.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Pickle Lake - Cat Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-18:feed.atom/urn:oid:2.49.0.1.124.1269090956.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T22_25_58_00_00Iurn_oid_2.49.0.1.124.1269090956.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200719062058+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -75.7679, 45.5176 ],
 							[ -75.7641, 45.4864 ],
 							[ -75.7944, 45.4905 ],
@@ -1161,50 +1220,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T02_15_49_00_00Iurn_oid_2.49.0.1.124.3807126055.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200719121149+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.9056, 74.3191 ],
-							[ -94.8626, 74.2936 ],
-							[ -94.1547, 74.3414 ],
-							[ -94.1885, 74.6339 ],
-							[ -94.152, 74.6625 ],
-							[ -94.2078, 74.8178 ],
-							[ -94.6546, 74.9248 ],
-							[ -95.2633, 74.925 ],
-							[ -95.7119, 74.8173 ],
-							[ -95.8949, 74.6509 ],
-							[ -95.9056, 74.3191 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 19, 2020 00:23",
-				"Expires_UTC" : "July 19, 2020 16:22",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nFog will persist overnight before clearing in the morning.\n\n###\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-07-19T16:22:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T00:23:08-00:00, urn:oid:2.49.0.1.124.2911467188.2020<br>Area: Resolute",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.2911467188.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T00_23_08_00_00Iurn_oid_2.49.0.1.124.2911467188.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200719162208+00:00"
 			}
 		},
 		{
@@ -1739,24 +1754,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
+				"Title" : "Fog Advisory Ended",
 				"Category" : "Actual",
 				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 18, 2020 20:10",
-				"Expires_UTC" : "July 19, 2020 12:09",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nFog may lift slightly this afternoon before redeveloping later this evening.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-07-19T12:09:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-18T20:10:59-00:00, urn:oid:2.49.0.1.124.4025705788.2020<br>Area: Sachs Harbour",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 19, 2020 02:28",
+				"Expires_UTC" : "July 19, 2020 03:28",
+				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-07-19T03:28:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T02:28:51-00:00, urn:oid:2.49.0.1.124.0362802423.2020<br>Area: Sachs Harbour",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-18:feed.atom/urn:oid:2.49.0.1.124.4025705788.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-18/2020_07_18T20_10_59_00_00Iurn_oid_2.49.0.1.124.4025705788.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.0362802423.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T02_28_51_00_00Iurn_oid_2.49.0.1.124.0362802423.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200719120959+00:00"
+				"Expires_FMEFormat" : "20200719032851+00:00"
 			}
 		},
 		{
@@ -1992,65 +2007,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T00_56_53_00_00Iurn_oid_2.49.0.1.124.0402208359.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200719045553+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -90.5082, 53.543 ],
-							[ -92.0407, 53.7604 ],
-							[ -93.4241, 53.9089 ],
-							[ -93.68, 53.7427 ],
-							[ -93.9327, 53.5766 ],
-							[ -94.5197, 53.2523 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.1632, 52.6707 ],
-							[ -95.1536, 52.4841 ],
-							[ -95.1536, 52.4201 ],
-							[ -95.169, 52.0344 ],
-							[ -95.1536, 51.6128 ],
-							[ -94.5283, 51.5309 ],
-							[ -93.9542, 51.4733 ],
-							[ -93.733, 51.4154 ],
-							[ -93.4873, 51.3669 ],
-							[ -92.3388, 51.1193 ],
-							[ -91.0434, 51.1282 ],
-							[ -89.9953, 51.1354 ],
-							[ -87.9963, 51.1568 ],
-							[ -87.9904, 52.2453 ],
-							[ -87.9569, 52.7534 ],
-							[ -87.9958, 53.2172 ],
-							[ -89.3718, 53.4188 ],
-							[ -90.5082, 53.543 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 19, 2020 01:29",
-				"Expires_UTC" : "July 19, 2020 02:28",
-				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\nThunderstorms are weakening and have become isolated.\n\n###<br>Expires: 2020-07-19T02:28:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T01:29:52-00:00, urn:oid:2.49.0.1.124.0445440688.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Pickle Lake - Cat Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.0445440688.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T01_29_52_00_00Iurn_oid_2.49.0.1.124.0445440688.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200719022852+00:00"
 			}
 		},
 		{
@@ -2380,6 +2336,50 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T01_18_37_00_00Iurn_oid_2.49.0.1.124.1919228945.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200719171737+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.9056, 74.3191 ],
+							[ -94.8626, 74.2936 ],
+							[ -94.1547, 74.3414 ],
+							[ -94.1885, 74.6339 ],
+							[ -94.152, 74.6625 ],
+							[ -94.2078, 74.8178 ],
+							[ -94.6546, 74.9248 ],
+							[ -95.2633, 74.925 ],
+							[ -95.7119, 74.8173 ],
+							[ -95.8949, 74.6509 ],
+							[ -95.9056, 74.3191 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 19, 2020 00:23",
+				"Expires_UTC" : "July 19, 2020 16:22",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nFog will persist overnight before clearing in the morning.\n\n###\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-07-19T16:22:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T00:23:08-00:00, urn:oid:2.49.0.1.124.2911467188.2020<br>Area: Resolute",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.2911467188.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T00_23_08_00_00Iurn_oid_2.49.0.1.124.2911467188.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200719162208+00:00"
 			}
 		}
 	]
