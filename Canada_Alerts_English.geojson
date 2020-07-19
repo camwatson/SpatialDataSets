@@ -271,6 +271,48 @@
 				"coordinates" : [
 					[
 						[
+							[ -71.3493, 46.3167 ],
+							[ -71.3497, 46.3165 ],
+							[ -71.683, 46.1827 ],
+							[ -71.6857, 46.1857 ],
+							[ -71.798, 45.9332 ],
+							[ -71.3322, 45.9255 ],
+							[ -70.9245, 45.9333 ],
+							[ -70.9806, 45.9844 ],
+							[ -71.3493, 46.3167 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 19, 2020 22:57",
+				"Expires_UTC" : "July 20, 2020 01:49",
+				"Summary" : "Description: At 6:57 p.m. EDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-20T01:49:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T22:57:40-00:00, urn:oid:2.49.0.1.124.0859696155.2020<br>Area: Thetford Mines area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.0859696155.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T22_57_40_00_00Iurn_oid_2.49.0.1.124.0859696155.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200720014940+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -82.631, 47.221 ],
 							[ -82.6356, 46.9695 ],
 							[ -81.939, 46.9696 ],
@@ -2426,25 +2468,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Severe",
-				"Title" : "Squall Watch In Effect",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Squall Watch Ended",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Expected",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "July 19, 2020 22:02",
-				"Expires_UTC" : "July 20, 2020 04:09",
-				"Summary" : "Description: Potential for more squalls early this evening. \n\nWhile the risk of thunderstorms has diminished significantly there is a chance of thunderstorm redevelopment. Should thunderstorms develop they may be accompanied by wind gusts near 40 knots.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-07-20T04:09:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T22:02:58-00:00, urn:oid:2.49.0.1.124.3038058207.2020<br>Area: Eastern Lake Erie, Western Lake Erie",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 19, 2020 22:54",
+				"Expires_UTC" : "July 19, 2020 23:54",
+				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2020-07-19T23:54:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T22:54:45-00:00, urn:oid:2.49.0.1.124.2254058156.2020<br>Area: Eastern Lake Erie, Western Lake Erie",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.3038058207.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T22_02_58_00_00Iurn_oid_2.49.0.1.124.3038058207.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.2254058156.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T22_54_45_00_00Iurn_oid_2.49.0.1.124.2254058156.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200720040958+00:00"
+				"Expires_FMEFormat" : "20200719235445+00:00"
 			}
 		},
 		{
@@ -2633,25 +2675,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Severe Thunderstorm Watch Ended",
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 19, 2020 21:55",
-				"Expires_UTC" : "July 19, 2020 22:55",
-				"Summary" : "Description: Conditions are no longer favourable for the development of severe thunderstorms.\n\n\n###<br>Expires: 2020-07-19T22:55:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T21:55:02-00:00, urn:oid:2.49.0.1.124.0539007823.2020<br>Area: Hants County, Halifax Metro and Halifax County West",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 19, 2020 20:46",
+				"Expires_UTC" : "July 20, 2020 00:39",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms that may be capable of producing heavy rain.\n\nA strong thunderstorm has formed near Windsor and is moving southeastward at about 30 km/h. This storm is producing heavy downpours of rain. \n\nThere is potential for development of more thunderstorms that could produce heavy high rainfall rates in these areas.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-07-20T00:39:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T20:46:21-00:00, urn:oid:2.49.0.1.124.1500115532.2020<br>Area: Hants County, Halifax Metro and Halifax County West",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.0539007823.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T21_55_02_00_00Iurn_oid_2.49.0.1.124.0539007823.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.1500115532.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T20_46_21_00_00Iurn_oid_2.49.0.1.124.1500115532.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200719225502+00:00"
+				"Expires_FMEFormat" : "20200720003921+00:00"
 			}
 		}
 	]
