@@ -643,6 +643,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -113.1096, 49.7163 ],
+							[ -113.0083, 49.7582 ],
+							[ -112.9913, 49.778 ],
+							[ -113.0345, 49.7936 ],
+							[ -113.1653, 49.8112 ],
+							[ -113.1851, 49.7967 ],
+							[ -113.523, 49.7966 ],
+							[ -113.5233, 49.6983 ],
+							[ -113.5263, 49.5892 ],
+							[ -113.524, 49.4808 ],
+							[ -113.551, 49.4814 ],
+							[ -113.5776, 49.4807 ],
+							[ -113.5782, 49.4424 ],
+							[ -113.5756, 49.4086 ],
+							[ -113.5767, 49.3927 ],
+							[ -113.4192, 49.429 ],
+							[ -113.2533, 49.5273 ],
+							[ -113.2121, 49.5983 ],
+							[ -113.2362, 49.6158 ],
+							[ -113.2576, 49.6221 ],
+							[ -113.2563, 49.6431 ],
+							[ -113.2237, 49.6521 ],
+							[ -113.1709, 49.6896 ],
+							[ -113.1519, 49.7132 ],
+							[ -113.1096, 49.7163 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 20, 2020 03:38",
+				"Expires_UTC" : "July 20, 2020 06:37",
+				"Summary" : "Description: At 9:38 p.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Intense lightning is likely with any thunderstorm that develops.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-20T06:37:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-20T03:38:03-00:00, urn:oid:2.49.0.1.124.3400923580.2020<br>Area: M.D. of Willow Creek near Fort Macleod",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-20:feed.atom/urn:oid:2.49.0.1.124.3400923580.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-20/2020_07_20T03_38_03_00_00Iurn_oid_2.49.0.1.124.3400923580.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200720063703+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -81.2109, 42.784 ],
 							[ -81.7125, 42.5988 ],
 							[ -82.3391, 42.2319 ],
@@ -1063,72 +1121,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-20/2020_07_20T03_22_00_00_00Iurn_oid_2.49.0.1.124.3676809374.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200720042200+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -76.4994, 48.6998 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ],
-							[ -75.9995, 50.4999 ],
-							[ -75.9995, 50.5156 ],
-							[ -76, 51.6249 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.9877, 51.6266 ],
-							[ -79.0521, 51.6205 ],
-							[ -79.1401, 51.6578 ],
-							[ -79.192, 51.7106 ],
-							[ -79.4165, 51.7137 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5368, 51.0871 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5289, 48.9206 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5246, 48.5242 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5258, 48.3407 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5176, 47.833 ],
-							[ -78.4996, 47.8372 ],
-							[ -77.9663, 47.835 ],
-							[ -77.7494, 47.8332 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.4994, 48.0998 ],
-							[ -76.4994, 48.3331 ],
-							[ -76.4994, 48.6998 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Severe Thunderstorm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 19, 2020 22:13",
-				"Expires_UTC" : "July 20, 2020 07:59",
-				"Summary" : "Description: This evening, conditions are favourable for the development of severe thunderstorms capable of producing strong wind gusts, large hail and heavy rain.\n\nBoaters may be surprised by strong wind gusts over bodies of water.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-07-20T07:59:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-19T22:13:31-00:00, urn:oid:2.49.0.1.124.3629174015.2020<br>Area: Waskaganish, Joutel - Matagami area, Miquelon - Desmaraisville area, La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-19:feed.atom/urn:oid:2.49.0.1.124.3629174015.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-19/2020_07_19T22_13_31_00_00Iurn_oid_2.49.0.1.124.3629174015.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200720075931+00:00"
 			}
 		},
 		{
@@ -2503,6 +2495,72 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-20/2020_07_20T02_51_24_00_00Iurn_oid_2.49.0.1.124.2849593218.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200720054424+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ],
+							[ -75.9995, 50.4999 ],
+							[ -75.9995, 50.5156 ],
+							[ -76, 51.6249 ],
+							[ -78.9371, 51.6314 ],
+							[ -78.9877, 51.6266 ],
+							[ -79.0521, 51.6205 ],
+							[ -79.1401, 51.6578 ],
+							[ -79.192, 51.7106 ],
+							[ -79.4165, 51.7137 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5368, 51.0871 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.6998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Severe Thunderstorm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 20, 2020 03:32",
+				"Expires_UTC" : "July 20, 2020 07:59",
+				"Summary" : "Description: Conditions are favourable for the development of severe thunderstorms capable of producing strong wind gusts, large hail and heavy rain into the early overnight hours.\n\nBoaters may be surprised by strong wind gusts over bodies of water.\n\n###\n\nStrong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles. Remember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm watches are issued when atmospheric conditions are favourable for the development of thunderstorms that could produce one or more of the following: large hail, damaging winds, torrential rainfall.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-07-20T07:59:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-20T03:32:18-00:00, urn:oid:2.49.0.1.124.1329039148.2020<br>Area: Waskaganish, Joutel - Matagami area, Miquelon - Desmaraisville area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-20:feed.atom/urn:oid:2.49.0.1.124.1329039148.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-20/2020_07_20T03_32_18_00_00Iurn_oid_2.49.0.1.124.1329039148.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200720075918+00:00"
 			}
 		}
 	]
