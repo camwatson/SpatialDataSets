@@ -9,58 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -103.2006, 56.1199 ],
-							[ -102.004, 56.1199 ],
-							[ -102.0008, 56.2197 ],
-							[ -102.0073, 56.3385 ],
-							[ -102.0073, 57.11 ],
-							[ -101.9861, 57.6901 ],
-							[ -102.0074, 58.3877 ],
-							[ -103.3039, 57.8447 ],
-							[ -104.8658, 57.0615 ],
-							[ -104.8658, 56.1199 ],
-							[ -105.3779, 56.1199 ],
-							[ -105.3779, 55.4845 ],
-							[ -105.3778, 54.8216 ],
-							[ -104.7904, 54.8127 ],
-							[ -104.1998, 54.8216 ],
-							[ -104.1998, 54.8172 ],
-							[ -102.7872, 54.8231 ],
-							[ -103.0806, 55.2364 ],
-							[ -103.2006, 56.1199 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 23, 2020 00:46",
-				"Expires_UTC" : "July 23, 2020 03:45",
-				"Summary" : "Description: At 6:46 p.m. CST, Environment Canada meteorologists are tracking an area of severe thunderstorms capable of producing strong wind gusts, up to toonie size hail and heavy rain.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-23T03:45:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-23T00:46:34-00:00, urn:oid:2.49.0.1.124.2406973769.2020<br>Area: Lac la Ronge Prov. Park including La Ronge, Seabee Mine, Southend - Brabant Lake - Kinoosao",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-23:feed.atom/urn:oid:2.49.0.1.124.2406973769.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-23/2020_07_23T00_46_34_00_00Iurn_oid_2.49.0.1.124.2406973769.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200723034534+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -117.6599, 62.622 ],
 							[ -115.8892, 62.6102 ],
 							[ -115.6981, 62.6222 ],
@@ -179,62 +127,109 @@
 				"coordinates" : [
 					[
 						[
-							[ -107.4095, 51.271 ],
-							[ -107.3945, 51.4488 ],
-							[ -107.4093, 51.6199 ],
-							[ -107.5527, 51.6252 ],
-							[ -107.691, 51.6198 ],
-							[ -107.7021, 51.4978 ],
-							[ -107.691, 51.3581 ],
-							[ -107.8747, 51.3667 ],
-							[ -108.113, 51.3582 ],
-							[ -108.2329, 51.3627 ],
-							[ -108.3705, 51.3581 ],
-							[ -108.377, 51.3163 ],
-							[ -108.371, 51.2707 ],
-							[ -108.3607, 51.2701 ],
-							[ -108.3515, 51.2706 ],
-							[ -108.3675, 51.1948 ],
-							[ -108.3526, 51.0958 ],
-							[ -108.2317, 51.0901 ],
-							[ -108.1087, 51.0956 ],
-							[ -108.0948, 51.0052 ],
-							[ -108.073, 51.0083 ],
-							[ -107.9444, 51.0006 ],
-							[ -107.8174, 51.0086 ],
-							[ -107.7416, 51.0042 ],
-							[ -107.6776, 51.0085 ],
-							[ -107.4701, 51.0021 ],
-							[ -107.2597, 51.0087 ],
-							[ -107.2589, 51.0088 ],
-							[ -107.2432, 51.1461 ],
-							[ -107.2594, 51.2705 ],
-							[ -107.3264, 51.2741 ],
-							[ -107.4095, 51.271 ]
+							[ -103.2006, 56.1199 ],
+							[ -102.004, 56.1199 ],
+							[ -102.0008, 56.2197 ],
+							[ -102.0073, 56.3385 ],
+							[ -102.0073, 57.11 ],
+							[ -101.9861, 57.6901 ],
+							[ -102.0074, 58.3877 ],
+							[ -103.3039, 57.8447 ],
+							[ -104.8658, 57.0615 ],
+							[ -104.8658, 56.1199 ],
+							[ -105.3779, 56.1199 ],
+							[ -105.3779, 55.4845 ],
+							[ -105.3778, 54.8216 ],
+							[ -104.7904, 54.8127 ],
+							[ -104.1998, 54.8216 ],
+							[ -104.1998, 54.8172 ],
+							[ -102.7872, 54.8231 ],
+							[ -103.0806, 55.2364 ],
+							[ -103.2006, 56.1199 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Severe Thunderstorm Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Thunderstorm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "July 23, 2020 00:34",
-				"Expires_UTC" : "July 23, 2020 01:34",
-				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-07-23T01:34:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-23T00:34:57-00:00, urn:oid:2.49.0.1.124.3415152761.2020<br>Area: R.M. of Milden including Dinsmore Milden and Wiseton, R.M. of King George northwest of Lucky Lake, R.M. of Monet including Elrose Wartime and Forgan",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 23, 2020 00:47",
+				"Expires_UTC" : "July 23, 2020 03:45",
+				"Summary" : "Description: At 6:46 p.m. CST, Environment Canada meteorologists are tracking an area of severe thunderstorms capable of producing strong wind gusts, up to toonie size hail and heavy rain.\n\nThese thunderstorms are located from 65 km west of Southend to 40 km southwest of Brabant Lake and are moving to the northeast at 40 km/h.\n\n###\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-23T03:45:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-23T00:47:34-00:00, urn:oid:2.49.0.1.124.0781726439.2020<br>Area: Lac la Ronge Prov. Park including La Ronge, Seabee Mine, Southend - Brabant Lake - Kinoosao",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-23:feed.atom/urn:oid:2.49.0.1.124.3415152761.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-23/2020_07_23T00_34_57_00_00Iurn_oid_2.49.0.1.124.3415152761.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-23:feed.atom/urn:oid:2.49.0.1.124.0781726439.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-23/2020_07_23T00_47_34_00_00Iurn_oid_2.49.0.1.124.0781726439.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200723013457+00:00"
+				"Expires_FMEFormat" : "20200723034534+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -114.7038, 51.6201 ],
+							[ -114.7093, 51.6201 ],
+							[ -114.7098, 51.6494 ],
+							[ -114.7401, 51.6505 ],
+							[ -114.7806, 51.6494 ],
+							[ -114.7779, 51.6778 ],
+							[ -114.7804, 51.7075 ],
+							[ -114.8409, 51.7076 ],
+							[ -114.8512, 51.719 ],
+							[ -114.9835, 51.7081 ],
+							[ -114.993, 51.6412 ],
+							[ -114.9929, 51.6208 ],
+							[ -115.2708, 51.6236 ],
+							[ -115.5754, 51.6195 ],
+							[ -115.6245, 51.6066 ],
+							[ -115.5301, 51.3141 ],
+							[ -115.3258, 51.2334 ],
+							[ -115.1852, 51.2917 ],
+							[ -114.7274, 51.2918 ],
+							[ -114.7274, 51.2997 ],
+							[ -114.7036, 51.2995 ],
+							[ -114.7016, 51.3748 ],
+							[ -114.7037, 51.4457 ],
+							[ -114.4788, 51.4432 ],
+							[ -114.2841, 51.4456 ],
+							[ -114.2843, 51.62 ],
+							[ -114.7038, 51.6201 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 23, 2020 01:06",
+				"Expires_UTC" : "July 23, 2020 04:04",
+				"Summary" : "Description: At 7:05 p.m. MDT, Environment Canada meteorologists are tracking an area of severe thunderstorms capable of producing strong wind gusts, nickel to ping pong ball size hail and heavy rain.\n\nOne thunderstorm is located 15 km west of Water Valley and is moving to the east at 30 km/h.\n\nAnother thunderstorm is developing 5 km northwest of Benchlands.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-23T04:04:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-23T01:06:36-00:00, urn:oid:2.49.0.1.124.0546031869.2020<br>Area: M.D. of Bighorn near Ghost River Wilderness, Mountain View Co. near Cremona and Water Valley",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-23:feed.atom/urn:oid:2.49.0.1.124.0546031869.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-23/2020_07_23T01_06_36_00_00Iurn_oid_2.49.0.1.124.0546031869.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200723040436+00:00"
 			}
 		},
 		{
@@ -1308,6 +1303,71 @@
 				"coordinates" : [
 					[
 						[
+							[ -107.4095, 51.271 ],
+							[ -107.3945, 51.4488 ],
+							[ -107.4093, 51.6199 ],
+							[ -107.5527, 51.6252 ],
+							[ -107.691, 51.6198 ],
+							[ -107.7021, 51.4978 ],
+							[ -107.691, 51.3581 ],
+							[ -107.8747, 51.3667 ],
+							[ -108.113, 51.3582 ],
+							[ -108.2329, 51.3627 ],
+							[ -108.3705, 51.3581 ],
+							[ -108.377, 51.3163 ],
+							[ -108.371, 51.2707 ],
+							[ -108.3607, 51.2701 ],
+							[ -108.3515, 51.2706 ],
+							[ -108.3675, 51.1948 ],
+							[ -108.3526, 51.0958 ],
+							[ -108.2317, 51.0901 ],
+							[ -108.1087, 51.0956 ],
+							[ -108.0948, 51.0052 ],
+							[ -108.073, 51.0083 ],
+							[ -107.9444, 51.0006 ],
+							[ -107.8174, 51.0086 ],
+							[ -107.7416, 51.0042 ],
+							[ -107.6776, 51.0085 ],
+							[ -107.4701, 51.0021 ],
+							[ -107.2597, 51.0087 ],
+							[ -107.2589, 51.0088 ],
+							[ -107.2432, 51.1461 ],
+							[ -107.2594, 51.2705 ],
+							[ -107.3264, 51.2741 ],
+							[ -107.4095, 51.271 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Severe Thunderstorm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "July 23, 2020 00:34",
+				"Expires_UTC" : "July 23, 2020 01:34",
+				"Summary" : "Description: Severe thunderstorms have weakened or moved out of the region.\n\n\n###<br>Expires: 2020-07-23T01:34:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-23T00:34:57-00:00, urn:oid:2.49.0.1.124.3415152761.2020<br>Area: R.M. of Milden including Dinsmore Milden and Wiseton, R.M. of King George northwest of Lucky Lake, R.M. of Monet including Elrose Wartime and Forgan",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-23:feed.atom/urn:oid:2.49.0.1.124.3415152761.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-23/2020_07_23T00_34_57_00_00Iurn_oid_2.49.0.1.124.3415152761.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200723013457+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -111.9355, 50.9329 ],
 							[ -111.8838, 50.9612 ],
 							[ -111.957728997, 51.0798906945 ],
@@ -1616,71 +1676,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -107.6786, 51.2708 ],
-							[ -107.6853, 51.2713 ],
-							[ -107.6909, 51.2707 ],
-							[ -107.6805, 51.3133 ],
-							[ -107.691, 51.3581 ],
-							[ -107.8747, 51.3667 ],
-							[ -108.113, 51.3582 ],
-							[ -108.2329, 51.3627 ],
-							[ -108.3705, 51.3581 ],
-							[ -108.377, 51.3163 ],
-							[ -108.371, 51.2707 ],
-							[ -108.3607, 51.2701 ],
-							[ -108.3515, 51.2706 ],
-							[ -108.3675, 51.1948 ],
-							[ -108.3526, 51.0958 ],
-							[ -108.2317, 51.0901 ],
-							[ -108.1087, 51.0956 ],
-							[ -108.0948, 51.0052 ],
-							[ -108.073, 51.0083 ],
-							[ -107.9444, 51.0006 ],
-							[ -107.8174, 51.0086 ],
-							[ -107.7416, 51.0042 ],
-							[ -107.6776, 51.0085 ],
-							[ -107.4701, 51.0021 ],
-							[ -107.2597, 51.0087 ],
-							[ -107.2589, 51.0088 ],
-							[ -107.2432, 51.1461 ],
-							[ -107.2594, 51.2705 ],
-							[ -107.3264, 51.2741 ],
-							[ -107.4095, 51.271 ],
-							[ -107.5425, 51.2747 ],
-							[ -107.6786, 51.2708 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 22, 2020 23:44",
-				"Expires_UTC" : "July 23, 2020 02:07",
-				"Summary" : "Description: At 5:43 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThe thunderstorm is located 8 km southesast of Hughton and is moving to the east at 20 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-23T02:07:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-22T23:44:28-00:00, urn:oid:2.49.0.1.124.2470063964.2020<br>Area: R.M. of King George northwest of Lucky Lake, R.M. of Monet including Elrose Wartime and Forgan",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-22:feed.atom/urn:oid:2.49.0.1.124.2470063964.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-22/2020_07_22T23_44_28_00_00Iurn_oid_2.49.0.1.124.2470063964.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200723020728+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -111.9355, 50.9329 ],
 							[ -111.8838, 50.9612 ],
 							[ -111.957728997, 51.0798906945 ],
@@ -1906,6 +1901,71 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-22/2020_07_22T21_26_55_00_00Iurn_oid_2.49.0.1.124.0474742593.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200723082955+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -107.6786, 51.2708 ],
+							[ -107.6853, 51.2713 ],
+							[ -107.6909, 51.2707 ],
+							[ -107.6805, 51.3133 ],
+							[ -107.691, 51.3581 ],
+							[ -107.8747, 51.3667 ],
+							[ -108.113, 51.3582 ],
+							[ -108.2329, 51.3627 ],
+							[ -108.3705, 51.3581 ],
+							[ -108.377, 51.3163 ],
+							[ -108.371, 51.2707 ],
+							[ -108.3607, 51.2701 ],
+							[ -108.3515, 51.2706 ],
+							[ -108.3675, 51.1948 ],
+							[ -108.3526, 51.0958 ],
+							[ -108.2317, 51.0901 ],
+							[ -108.1087, 51.0956 ],
+							[ -108.0948, 51.0052 ],
+							[ -108.073, 51.0083 ],
+							[ -107.9444, 51.0006 ],
+							[ -107.8174, 51.0086 ],
+							[ -107.7416, 51.0042 ],
+							[ -107.6776, 51.0085 ],
+							[ -107.4701, 51.0021 ],
+							[ -107.2597, 51.0087 ],
+							[ -107.2589, 51.0088 ],
+							[ -107.2432, 51.1461 ],
+							[ -107.2594, 51.2705 ],
+							[ -107.3264, 51.2741 ],
+							[ -107.4095, 51.271 ],
+							[ -107.5425, 51.2747 ],
+							[ -107.6786, 51.2708 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Severe Thunderstorm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Thunderstorm",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "July 22, 2020 23:44",
+				"Expires_UTC" : "July 23, 2020 02:07",
+				"Summary" : "Description: At 5:43 p.m. CST, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing very strong wind gusts, up to nickel size hail and heavy rain.\n\nThe thunderstorm is located 8 km southesast of Hughton and is moving to the east at 20 km/h.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Large hail can damage property and cause injury. Strong wind gusts can toss loose objects, damage weak buildings, break branches off trees and overturn large vehicles.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-23T02:07:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-22T23:44:28-00:00, urn:oid:2.49.0.1.124.2470063964.2020<br>Area: R.M. of King George northwest of Lucky Lake, R.M. of Monet including Elrose Wartime and Forgan",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-22:feed.atom/urn:oid:2.49.0.1.124.2470063964.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-22/2020_07_22T23_44_28_00_00Iurn_oid_2.49.0.1.124.2470063964.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200723020728+00:00"
 			}
 		},
 		{
@@ -2757,66 +2817,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-22/2020_07_22T22_31_03_00_00Iurn_oid_2.49.0.1.124.1662513268.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200723122903+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -114.7038, 51.6201 ],
-							[ -114.7093, 51.6201 ],
-							[ -114.7098, 51.6494 ],
-							[ -114.7401, 51.6505 ],
-							[ -114.7806, 51.6494 ],
-							[ -114.7779, 51.6778 ],
-							[ -114.7804, 51.7075 ],
-							[ -114.8409, 51.7076 ],
-							[ -114.8512, 51.719 ],
-							[ -114.9835, 51.7081 ],
-							[ -114.993, 51.6412 ],
-							[ -114.9929, 51.6208 ],
-							[ -115.2708, 51.6236 ],
-							[ -115.5754, 51.6195 ],
-							[ -115.6245, 51.6066 ],
-							[ -115.5301, 51.3141 ],
-							[ -115.3258, 51.2334 ],
-							[ -115.1852, 51.2917 ],
-							[ -114.7274, 51.2918 ],
-							[ -114.7274, 51.2997 ],
-							[ -114.7036, 51.2995 ],
-							[ -114.7016, 51.3748 ],
-							[ -114.7037, 51.4457 ],
-							[ -114.4788, 51.4432 ],
-							[ -114.2841, 51.4456 ],
-							[ -114.2843, 51.62 ],
-							[ -114.7038, 51.6201 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Severe Thunderstorm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Thunderstorm",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "July 23, 2020 00:56",
-				"Expires_UTC" : "July 23, 2020 03:54",
-				"Summary" : "Description: At 6:55 p.m. MDT, Environment Canada meteorologists are tracking a severe thunderstorm capable of producing strong wind gusts, nickel to ping pong ball size hail and heavy rain.\n\nThis thunderstorm is located 15 km west of Water Valley and is moving to the east at 30 km/h.\n\n###\n\nRemember, severe thunderstorms can produce tornadoes.\n\nSevere thunderstorm warnings are issued when imminent or occurring thunderstorms are likely to produce or are producing one or more of the following: large hail, damaging winds, torrential rainfall.<br>Expires: 2020-07-23T03:54:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-07-23T00:56:52-00:00, urn:oid:2.49.0.1.124.2909554466.2020<br>Area: M.D. of Bighorn near Ghost River Wilderness, Mountain View Co. near Cremona and Water Valley",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-07-23:feed.atom/urn:oid:2.49.0.1.124.2909554466.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-07-23/2020_07_23T00_56_52_00_00Iurn_oid_2.49.0.1.124.2909554466.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200723035452+00:00"
 			}
 		}
 	]
