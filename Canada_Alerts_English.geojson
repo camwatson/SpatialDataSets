@@ -60,46 +60,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 23, 2020 07:51",
-				"Expires_UTC" : "September 23, 2020 20:14",
-				"Summary" : "Description: Large waves, rough and pounding surf, and elevated water levels are expected, possibly approaching warning level. \n\nWave heights: 3 to 5 metres with possibly high waves, breaking upon approach to shore.\n\nLocation: Iles-de-la-Madeleine.\n\nTime span: near high tide today.\n\nRemarks: Long period swell and large wind waves associated with Hurricane Teddy are expected to impact east facing coastlines of Les Iles-de-la-Madeleine today. There is a risk of local flooding and coastal erosion, especially during high tide.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-09-23T20:14:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T07:51:55-00:00, urn:oid:2.49.0.1.124.2227157781.2020<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2227157781.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_51_55_00_00Iurn_oid_2.49.0.1.124.2227157781.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200923201455+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.6743, 50.7821 ],
 							[ -57.976, 51.1736 ],
 							[ -57.1162, 51.3508 ],
@@ -133,6 +93,46 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T08_53_48_00_00Iurn_oid_2.49.0.1.124.1773238744.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200924005248+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 23, 2020 07:51",
+				"Expires_UTC" : "September 23, 2020 20:14",
+				"Summary" : "Description: Large waves, rough and pounding surf, and elevated water levels are expected, possibly approaching warning level. \n\nWave heights: 3 to 5 metres with possibly high waves, breaking upon approach to shore.\n\nLocation: Iles-de-la-Madeleine.\n\nTime span: near high tide today.\n\nRemarks: Long period swell and large wind waves associated with Hurricane Teddy are expected to impact east facing coastlines of Les Iles-de-la-Madeleine today. There is a risk of local flooding and coastal erosion, especially during high tide.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-09-23T20:14:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T07:51:55-00:00, urn:oid:2.49.0.1.124.2227157781.2020<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2227157781.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_51_55_00_00Iurn_oid_2.49.0.1.124.2227157781.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200923201455+00:00"
 			}
 		},
 		{
@@ -1614,25 +1614,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 07:41",
-				"Expires_UTC" : "September 23, 2020 15:59",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nLocations: Moncton and Southeast New Brunswick.\n\nTime span: Into this afternoon.\n\nRemarks: Periods of rain will persist into this afternoon. Additional rainfall amounts of 10 to 20 mm are expected.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-09-23T15:59:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T07:41:30-00:00, urn:oid:2.49.0.1.124.1347949771.2020<br>Area: Moncton and Southeast New Brunswick",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 23, 2020 14:00",
+				"Expires_UTC" : "September 23, 2020 15:00",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-09-23T15:00:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T14:00:33-00:00, urn:oid:2.49.0.1.124.1809806833.2020<br>Area: Moncton and Southeast New Brunswick",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.1347949771.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_41_30_00_00Iurn_oid_2.49.0.1.124.1347949771.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.1809806833.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T14_00_33_00_00Iurn_oid_2.49.0.1.124.1809806833.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200923155930+00:00"
+				"Expires_FMEFormat" : "20200923150033+00:00"
 			}
 		},
 		{
@@ -2175,101 +2175,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.2306, 45.3247 ],
-							[ -61.6072, 45.2033 ],
-							[ -61.8272, 45.2762 ],
-							[ -61.8351, 45.1516 ],
-							[ -62.0101, 45.1543 ],
-							[ -62.1165, 45.0344 ],
-							[ -62.1198, 44.9905 ],
-							[ -62.3707, 45.0018 ],
-							[ -62.7295, 44.8657 ],
-							[ -63.0865, 44.8498 ],
-							[ -63.435, 44.6768 ],
-							[ -63.4507, 44.6069 ],
-							[ -63.4503, 44.5887 ],
-							[ -63.4841, 44.5507 ],
-							[ -63.5219, 44.5086 ],
-							[ -63.541, 44.5049 ],
-							[ -63.6164, 44.5083 ],
-							[ -63.8497, 44.5719 ],
-							[ -63.8382, 44.7916 ],
-							[ -64.4091, 44.5566 ],
-							[ -64.4091, 44.3551 ],
-							[ -64.5133, 44.219 ],
-							[ -64.653, 44.1776 ],
-							[ -64.6669, 44.086 ],
-							[ -65.1384, 43.8306 ],
-							[ -65.3681, 43.8306 ],
-							[ -65.5019, 43.6194 ],
-							[ -65.5014, 43.5376 ],
-							[ -65.4987, 43.4949 ],
-							[ -65.4991, 43.4927 ],
-							[ -65.4991, 42.9998 ],
-							[ -64.1353, 43.5589 ],
-							[ -64.1186, 43.5656 ],
-							[ -62.9985, 43.9999 ],
-							[ -61.4306, 44.4181 ],
-							[ -60.9535, 44.5385 ],
-							[ -58.9989, 44.9996 ],
-							[ -58.9982, 44.9998 ],
-							[ -58.9989, 45.4617 ],
-							[ -58.9989, 45.9997 ],
-							[ -59.7038, 46.0002 ],
-							[ -59.7315, 46.01 ],
-							[ -59.7583, 46.0058 ],
-							[ -59.7765, 45.9999 ],
-							[ -59.8475, 45.9996 ],
-							[ -59.9406, 45.9976 ],
-							[ -60.0648, 46.0088 ],
-							[ -60.6416, 45.6841 ],
-							[ -60.8266, 45.6372 ],
-							[ -60.9707, 45.6923 ],
-							[ -61.1453, 45.6428 ],
-							[ -61.3059, 45.7162 ],
-							[ -61.3984, 45.6418 ],
-							[ -61.4116, 45.6375 ],
-							[ -61.5112, 45.5733 ],
-							[ -61.2799, 45.4987 ],
-							[ -61.473, 45.4249 ],
-							[ -61.5447, 45.4869 ],
-							[ -61.6609, 45.4763 ],
-							[ -61.5326, 45.3794 ],
-							[ -61.5692, 45.3309 ],
-							[ -61.2306, 45.3247 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "High Water Level Warning In Effect",
-				"Category" : "Actual",
-				"event" : "High Water Level",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "September 23, 2020 06:40",
-				"Expires_UTC" : "September 23, 2020 21:59",
-				"Summary" : "Description: Higher than normal water levels are expected or occurring.\n\nMaximum water levels: storm surge near 50 cm except higher in areas where large waves break on shore.\n\nMaximum wave heights: 7 to 9 metres, possibly exceeding 10 metres over eastern areas. \n\nLocations: eastern shore east to Sydney. \n\nTime span: For Eastern Shore and eastern Cape Breton: near high tides near noon Wednesday.\n\nRemarks: The main risk is for very large waves, rough and pounding surf, and a threat for rip currents. The high waves will persist into Wednesday over eastern areas. Outside of the times for high tide, there is still a threat for very large waves, rough and pounding surf, and local overwash. The public should observe extreme caution.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-09-23T21:59:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T06:40:12-00:00, urn:oid:2.49.0.1.124.0626862330.2020<br>Area: Fourchu, Eastern Shore",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.0626862330.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T06_40_12_00_00Iurn_oid_2.49.0.1.124.0626862330.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200923215912+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -123.8076, 49.271 ],
 							[ -123.8889, 49.1808 ],
 							[ -123.8587, 49.1464 ],
@@ -2736,6 +2641,84 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_59_35_00_00Iurn_oid_2.49.0.1.124.2135223397.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200923165935+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.3709, 45.5863 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.4371, 45.6492 ],
+							[ -61.5031, 45.6221 ],
+							[ -61.7374, 45.525 ],
+							[ -61.733, 45.5024 ],
+							[ -61.7299, 45.4868 ],
+							[ -61.949, 45.3941 ],
+							[ -62.0904, 45.3736 ],
+							[ -62.6235, 45.2947 ],
+							[ -62.6877, 45.2911 ],
+							[ -62.7118, 45.2704 ],
+							[ -62.8428, 45.2503 ],
+							[ -62.8749, 45.2036 ],
+							[ -63.3573, 45.0209 ],
+							[ -63.46, 44.9886 ],
+							[ -63.2515, 44.736 ],
+							[ -63.2511, 44.7352 ],
+							[ -63.2405, 44.7163 ],
+							[ -63.2105, 44.6376 ],
+							[ -62.9403, 44.6081 ],
+							[ -62.0547, 44.8797 ],
+							[ -61.1946, 45.1755 ],
+							[ -60.9193, 45.2127 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4173, 46.2948 ],
+							[ -60.4991, 46.2258 ],
+							[ -60.5551, 46.1916 ],
+							[ -60.6021, 46.1338 ],
+							[ -60.6864, 46.0863 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.7214, 46.0663 ],
+							[ -60.789, 45.9777 ],
+							[ -60.8436, 45.8719 ],
+							[ -61.1647, 45.7054 ],
+							[ -61.2321, 45.6675 ],
+							[ -61.36, 45.5953 ],
+							[ -61.3709, 45.5863 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Storm Surge Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Storm Surge",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "September 23, 2020 14:03",
+				"Expires_UTC" : "September 23, 2020 21:59",
+				"Summary" : "Description: High Storm Surge levels and very large waves are expected to impact the coast.\n\nMaximum water levels: storm surge of up to 50 cm except higher in areas where large waves break on shore\n\nMaximum wave heights: 7 to 9 metres, possibly exceeding 10 metres over eastern areas.\n\nLocations: Along the atlantic coast from east of Halifax to eastern Cape Breton. \n\nTime span: For the Eastern Shore and Cape Breton, near the high tides near noon. \n\nRemarks: Storm surge and very large breaking waves are the main concern and could pose a significant threat. Early today as Teddy approaches, eastern Nova Scotia will see very large wave and significant storm surge. Outside of the times for high tide, there is still a threat for very large waves, rough and pounding surf, and local overwash. The public should exercise extreme caution.\n\n###\n\nThis is a potentially dangerous situation. High waves combined with the surge may cause damage along the coast. Coastal flooding is possible along the shoreline.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-09-23T21:59:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T14:03:30-00:00, urn:oid:2.49.0.1.124.0954788054.2020<br>Area: Halifax County - east of Porters Lake, Guysborough County, Richmond County, Sydney Metro and Cape Breton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.0954788054.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T14_03_30_00_00Iurn_oid_2.49.0.1.124.0954788054.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200923215930+00:00"
 			}
 		}
 	]
