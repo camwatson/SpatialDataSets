@@ -9,45 +9,39 @@
 				"coordinates" : [
 					[
 						[
-							[ -115.0388, 68.0735 ],
-							[ -115.0934, 67.9545 ],
-							[ -115.6489, 67.917 ],
-							[ -115.6517, 67.9119 ],
-							[ -115.7054, 67.8289 ],
-							[ -115.669, 67.7438 ],
-							[ -115.5482, 67.6708 ],
-							[ -115.3717, 67.6228 ],
-							[ -115.1514, 67.6031 ],
-							[ -114.9375, 67.616 ],
-							[ -114.7513, 67.6583 ],
-							[ -114.6152, 67.7273 ],
-							[ -114.569, 67.7819 ],
-							[ -114.6262, 68.0024 ],
-							[ -115.0388, 68.0735 ]
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.1162, 51.3508 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1075, 51.9221 ],
+							[ -58.9988, 51.333 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Fog",
+				"event" : "Weather",
 				"urgency" : "Future",
 				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 04:17",
-				"Expires_UTC" : "September 23, 2020 20:03",
-				"Summary" : "Description: Near zero visibility in dense fog is expected to persist tonight.  Fog will lift through the day Wednesday.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-09-23T20:03:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T04:17:22-00:00, urn:oid:2.49.0.1.124.1908517216.2020<br>Area: Kugluktuk",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 23, 2020 03:02",
+				"Expires_UTC" : "September 23, 2020 19:01",
+				"Summary" : "Description: Rainfall amounts reaching 50 millimetres are expected over the Blanc-Sablon area as post-tropical Teddy will track across the Gulf of St Lawrence. Rain will begin overnight tonight and end Thursday morning.\n\nFor more information on this system's development, please refer to Environment and Climate Change Canada's tropical cyclone information statement: https://www.canada.ca/en/environment-climate-change/services/hurricane-forecasts-facts/products.html.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-09-23T19:01:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T03:02:30-00:00, urn:oid:2.49.0.1.124.2774174175.2020<br>Area: Blanc-Sablon",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.1908517216.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T04_17_22_00_00Iurn_oid_2.49.0.1.124.1908517216.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2774174175.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T03_02_30_00_00Iurn_oid_2.49.0.1.124.2774174175.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200923200322+00:00"
+				"Expires_FMEFormat" : "20200923190130+00:00"
 			}
 		},
 		{
@@ -173,6 +167,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T01_19_01_00_00Iurn_oid_2.49.0.1.124.4056128918.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200924035901+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.9902, 64.0605 ],
+							[ -76.5029, 64.098 ],
+							[ -75.9763, 64.1551 ],
+							[ -76.1267, 64.3652 ],
+							[ -76.161, 64.3733 ],
+							[ -76.2585, 64.4104 ],
+							[ -76.3913, 64.4375 ],
+							[ -76.5534, 64.4459 ],
+							[ -76.6728, 64.4374 ],
+							[ -76.798, 64.4125 ],
+							[ -76.9078, 64.3707 ],
+							[ -76.9807, 64.3203 ],
+							[ -77.019, 64.2602 ],
+							[ -76.9902, 64.0605 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 23, 2020 08:26",
+				"Expires_UTC" : "September 24, 2020 00:26",
+				"Summary" : "Description: Heavy snowfall and high winds are expected.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-09-24T00:26:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T08:26:58-00:00, urn:oid:2.49.0.1.124.4223486711.2020<br>Area: Cape Dorset",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.4223486711.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T08_26_58_00_00Iurn_oid_2.49.0.1.124.4223486711.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200924002658+00:00"
 			}
 		},
 		{
@@ -355,71 +396,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -57.1146, 52.8003 ],
-							[ -57.1428, 52.4234 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 52.0026 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.559, 53.2249 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -57.3704, 54.1207 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -59, 52.9 ],
-							[ -59.8804, 53.2 ],
-							[ -59.9432, 53.1171 ],
-							[ -60.0074, 53.0666 ],
-							[ -60.1736, 52.9893 ],
-							[ -60.3731, 52.9506 ],
-							[ -60.5825, 52.955 ],
-							[ -60.7702, 53 ],
-							[ -59, 52.4 ],
-							[ -58.0385, 52.5919 ],
-							[ -57.1146, 52.8003 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 23, 2020 01:48",
-				"Expires_UTC" : "September 23, 2020 17:47",
-				"Summary" : "Description: Heavy rain associated with the remnants of Post-Tropical Storm Teddy expected.\n\nTotal rainfall: 30 to 60 mm with locally higher amounts possible.\n\nTime span: early Wednesday morning until mid day Thursday.\n\nLocations: southeastern Labrador.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-09-23T17:47:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T01:48:52-00:00, urn:oid:2.49.0.1.124.2501030110.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Eagle River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2501030110.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T01_48_52_00_00Iurn_oid_2.49.0.1.124.2501030110.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200923174752+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -62.884, 46.5004 ],
 							[ -63.6271, 46.6222 ],
 							[ -63.9227, 46.7494 ],
@@ -471,48 +447,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T01_22_57_00_00Iurn_oid_2.49.0.1.124.0758703006.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200924042957+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ],
-							[ -59.0029, 50.7675 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 23, 2020 03:02",
-				"Expires_UTC" : "September 23, 2020 19:01",
-				"Summary" : "Description: Rainfall amounts reaching 50 millimetres are expected over the Blanc-Sablon area as post-tropical Teddy will track across the Gulf of St Lawrence. Rain will begin overnight tonight and end Thursday morning.\n\nFor more information on this system's development, please refer to Environment and Climate Change Canada's tropical cyclone information statement: https://www.canada.ca/en/environment-climate-change/services/hurricane-forecasts-facts/products.html.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-09-23T19:01:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T03:02:30-00:00, urn:oid:2.49.0.1.124.2774174175.2020<br>Area: Blanc-Sablon",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2774174175.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T03_02_30_00_00Iurn_oid_2.49.0.1.124.2774174175.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200923190130+00:00"
 			}
 		},
 		{
@@ -688,6 +622,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -115.0388, 68.0735 ],
+							[ -115.0934, 67.9545 ],
+							[ -115.6489, 67.917 ],
+							[ -115.6517, 67.9119 ],
+							[ -115.7054, 67.8289 ],
+							[ -115.669, 67.7438 ],
+							[ -115.5482, 67.6708 ],
+							[ -115.3717, 67.6228 ],
+							[ -115.1514, 67.6031 ],
+							[ -114.9375, 67.616 ],
+							[ -114.7513, 67.6583 ],
+							[ -114.6152, 67.7273 ],
+							[ -114.569, 67.7819 ],
+							[ -114.6262, 68.0024 ],
+							[ -115.0388, 68.0735 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 23, 2020 08:20",
+				"Expires_UTC" : "September 23, 2020 19:59",
+				"Summary" : "Description: Near zero visibility in dense fog will continue to persist through the morning.  Fog is expected to lift by midday today.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-09-23T19:59:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T08:20:08-00:00, urn:oid:2.49.0.1.124.2226564667.2020<br>Area: Kugluktuk",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2226564667.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T08_20_08_00_00Iurn_oid_2.49.0.1.124.2226564667.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200923195908+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.7118, 45.2704 ],
 							[ -62.8428, 45.2503 ],
 							[ -62.8749, 45.2036 ],
@@ -787,6 +769,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_41_50_00_00Iurn_oid_2.49.0.1.124.4083759411.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200923215950+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 23, 2020 07:59",
+				"Expires_UTC" : "September 23, 2020 16:59",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAdditional rainfall: 10 to 20 mm.\n\nLocations: the Burin and Southern Avalon peninsulas.\n\nTime span: ending near noon.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-09-23T16:59:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T07:59:35-00:00, urn:oid:2.49.0.1.124.2135223397.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2135223397.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_59_35_00_00Iurn_oid_2.49.0.1.124.2135223397.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200923165935+00:00"
 			}
 		},
 		{
@@ -904,65 +945,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 07:59",
-				"Expires_UTC" : "September 23, 2020 16:59",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAdditional rainfall: 10 to 20 mm.\n\nLocations: the Burin and Southern Avalon peninsulas.\n\nTime span: ending near noon.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-09-23T16:59:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T07:59:35-00:00, urn:oid:2.49.0.1.124.2135223397.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2135223397.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_59_35_00_00Iurn_oid_2.49.0.1.124.2135223397.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200923165935+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -55.9321, 47.1631 ],
 							[ -56.123, 46.9615 ],
 							[ -56.0644, 46.8176 ],
@@ -1002,6 +984,71 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_52_29_00_00Iurn_oid_2.49.0.1.124.2940716634.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200923235129+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.1146, 52.8003 ],
+							[ -57.1428, 52.4234 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 52.0026 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.559, 53.2249 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.9432, 53.1171 ],
+							[ -60.0074, 53.0666 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.5825, 52.955 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 23, 2020 08:21",
+				"Expires_UTC" : "September 24, 2020 00:20",
+				"Summary" : "Description: Heavy rain associated with the remnants of Post-Tropical Storm Teddy expected.\n\nTotal rainfall: 30 to 45 mm with locally higher amounts possible.\n\nTime span continuing until Thursday morning.\n\nLocations: southeastern Labrador.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-09-24T00:20:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T08:21:18-00:00, urn:oid:2.49.0.1.124.1273907049.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Eagle River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.1273907049.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T08_21_18_00_00Iurn_oid_2.49.0.1.124.1273907049.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200924002018+00:00"
 			}
 		},
 		{
@@ -1414,64 +1461,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
-						]
-					],
-					[
-						[
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.4551, 50.0679 ],
-							[ -59.7883, 50.1231 ],
-							[ -59.0574, 50.5037 ],
-							[ -58.9502, 50.7022 ],
-							[ -59.0029, 50.7675 ],
-							[ -58.9988, 51.333 ],
-							[ -60.9991, 50.7497 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 03:02",
-				"Expires_UTC" : "September 23, 2020 19:01",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nRainfall amounts of 50 to 70 millimetres are expected over the Lower North Shore and the eastern part of Anticosti Island as post-tropical storm Teddy crosses the Gulf of St. Lawrence. Rain will begin overnight tonight and should end overnight Wednesday night.\n\nFor more information on this system's development, please refer to Environment and Climate Change Canada's tropical cyclone information statement: https://www.canada.ca/en/environment-climate-change/services/hurricane-forecasts-facts/products.html\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-09-23T19:01:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T03:02:07-00:00, urn:oid:2.49.0.1.124.3941213609.2020<br>Area: Natashquan, Chevery, Anticosti",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.3941213609.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T03_02_07_00_00Iurn_oid_2.49.0.1.124.3941213609.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200923190107+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.4207, 47.5744 ],
 							[ -58.144, 47.5744 ],
 							[ -56.9846, 47.386 ],
@@ -1624,6 +1613,64 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_45_28_00_00Iurn_oid_2.49.0.1.124.3379125068.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200923234428+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					],
+					[
+						[
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.4551, 50.0679 ],
+							[ -59.7883, 50.1231 ],
+							[ -59.0574, 50.5037 ],
+							[ -58.9502, 50.7022 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9988, 51.333 ],
+							[ -60.9991, 50.7497 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 23, 2020 03:02",
+				"Expires_UTC" : "September 23, 2020 19:01",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nRainfall amounts of 50 to 70 millimetres are expected over the Lower North Shore and the eastern part of Anticosti Island as post-tropical storm Teddy crosses the Gulf of St. Lawrence. Rain will begin overnight tonight and should end overnight Wednesday night.\n\nFor more information on this system's development, please refer to Environment and Climate Change Canada's tropical cyclone information statement: https://www.canada.ca/en/environment-climate-change/services/hurricane-forecasts-facts/products.html\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-09-23T19:01:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T03:02:07-00:00, urn:oid:2.49.0.1.124.3941213609.2020<br>Area: Natashquan, Chevery, Anticosti",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.3941213609.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T03_02_07_00_00Iurn_oid_2.49.0.1.124.3941213609.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200923190107+00:00"
 			}
 		},
 		{
@@ -2140,46 +2187,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 23, 2020 07:51",
-				"Expires_UTC" : "September 23, 2020 20:14",
-				"Summary" : "Description: Large waves, rough and pounding surf, and elevated water levels are expected, possibly approaching warning level. \n\nWave heights: 3 to 5 metres with possibly high waves, breaking upon approach to shore.\n\nLocation: Iles-de-la-Madeleine.\n\nTime span: near high tide today.\n\nRemarks: Long period swell and large wind waves associated with Hurricane Teddy are expected to impact east facing coastlines of Les Iles-de-la-Madeleine today. There is a risk of local flooding and coastal erosion, especially during high tide.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-09-23T20:14:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T07:51:55-00:00, urn:oid:2.49.0.1.124.2227157781.2020<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2227157781.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_51_55_00_00Iurn_oid_2.49.0.1.124.2227157781.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200923201455+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -133.1509, 51.5791 ],
 							[ -130.2525, 51.7341 ],
 							[ -129.7723, 51.8698 ],
@@ -2214,6 +2221,46 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-22/2020_09_22T22_53_26_00_00Iurn_oid_2.49.0.1.124.2026620168.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200923105926+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 23, 2020 07:51",
+				"Expires_UTC" : "September 23, 2020 20:14",
+				"Summary" : "Description: Large waves, rough and pounding surf, and elevated water levels are expected, possibly approaching warning level. \n\nWave heights: 3 to 5 metres with possibly high waves, breaking upon approach to shore.\n\nLocation: Iles-de-la-Madeleine.\n\nTime span: near high tide today.\n\nRemarks: Long period swell and large wind waves associated with Hurricane Teddy are expected to impact east facing coastlines of Les Iles-de-la-Madeleine today. There is a risk of local flooding and coastal erosion, especially during high tide.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-09-23T20:14:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T07:51:55-00:00, urn:oid:2.49.0.1.124.2227157781.2020<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2227157781.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T07_51_55_00_00Iurn_oid_2.49.0.1.124.2227157781.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200923201455+00:00"
 			}
 		}
 	]
