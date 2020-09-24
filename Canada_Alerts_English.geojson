@@ -9,6 +9,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.4551, 50.0679 ],
+							[ -59.7883, 50.1231 ],
+							[ -59.0574, 50.5037 ],
+							[ -58.9502, 50.7022 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9988, 51.333 ],
+							[ -60.9991, 50.7497 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 24, 2020 01:50",
+				"Expires_UTC" : "September 24, 2020 02:50",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2020-09-24T02:50:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-24T01:50:54-00:00, urn:oid:2.49.0.1.124.0752908108.2020<br>Area: Natashquan, Chevery",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-24:feed.atom/urn:oid:2.49.0.1.124.0752908108.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T01_50_54_00_00Iurn_oid_2.49.0.1.124.0752908108.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200924025054+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -127.6288, 50.1628 ],
 							[ -127.6515, 50.1593 ],
 							[ -127.6707, 50.1385 ],
@@ -128,62 +173,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T00_42_25_00_00Iurn_oid_2.49.0.1.124.3649645774.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200924153925+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -73.0007, 47.7998 ],
-							[ -73.0011, 47.2021 ],
-							[ -72.55, 47.2024 ],
-							[ -72.5497, 47.2024 ],
-							[ -72.0029, 47.2 ],
-							[ -72.0027, 47.7998 ],
-							[ -72.0026, 48.2497 ],
-							[ -73.0002, 48.6669 ],
-							[ -73.0004, 48.3331 ],
-							[ -73.0007, 47.7998 ]
-						]
-					],
-					[
-						[
-							[ -70.5032, 47.6322 ],
-							[ -71.016, 47.1831 ],
-							[ -70.7016, 47.0257 ],
-							[ -70.5437, 47.16 ],
-							[ -70.2482, 47.4424 ],
-							[ -69.7836, 47.82 ],
-							[ -69.8631, 47.8597 ],
-							[ -70.1357, 47.9471 ],
-							[ -70.5032, 47.6322 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Frost Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Frost",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 19:30",
-				"Expires_UTC" : "September 24, 2020 11:29",
-				"Summary" : "Description: Frost may damage some crops in areas prone to frost Thursday night.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-09-24T11:29:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T19:30:55-00:00, urn:oid:2.49.0.1.124.1700982457.2020<br>Area: Lake Bouchette area, La Tuque area, La Malbaie area, Baie-Saint-Paul area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.1700982457.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T19_30_55_00_00Iurn_oid_2.49.0.1.124.1700982457.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200924112955+00:00"
 			}
 		},
 		{
@@ -905,105 +894,53 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.8076, 49.271 ],
-							[ -123.8889, 49.1808 ],
-							[ -123.8587, 49.1464 ],
-							[ -123.8189, 49.1393 ],
-							[ -123.7355, 49.0573 ],
-							[ -123.7232, 49.0452 ],
-							[ -123.7318, 49.0014 ],
-							[ -123.614, 48.8658 ],
-							[ -123.5868, 48.8543 ],
-							[ -123.5731, 48.8185 ],
-							[ -123.5597, 48.8 ],
-							[ -123.5526, 48.7749 ],
-							[ -123.569, 48.7675 ],
-							[ -123.5563, 48.7245 ],
-							[ -123.5279, 48.7224 ],
-							[ -123.5208, 48.7134 ],
-							[ -123.4615, 48.7087 ],
-							[ -123.4183, 48.7175 ],
-							[ -123.2699, 48.6899 ],
-							[ -123.01, 48.77 ],
-							[ -123.01, 48.8299 ],
-							[ -123.3099, 49 ],
-							[ -123.2807, 49.0003 ],
-							[ -123.2855, 49.0031 ],
-							[ -123.2983, 49.0114 ],
-							[ -123.3238, 49.0333 ],
-							[ -123.4531, 49.1434 ],
-							[ -123.514, 49.1821 ],
-							[ -123.5195, 49.1856 ],
-							[ -123.5999, 49.2234 ],
-							[ -123.6253, 49.2315 ],
-							[ -123.509, 49.3539 ],
-							[ -123.518, 49.3701 ],
-							[ -123.4627, 49.4313 ],
-							[ -123.4682, 49.5154 ],
-							[ -123.2485, 49.5881 ],
-							[ -123.2145, 49.6778 ],
-							[ -123.2883, 49.8762 ],
-							[ -123.2913, 49.8844 ],
-							[ -123.2918, 49.9079 ],
-							[ -123.2929, 49.9654 ],
-							[ -123.3283, 50.0057 ],
-							[ -123.0843, 50.2907 ],
-							[ -122.8931, 50.5465 ],
-							[ -123.2689, 50.7493 ],
-							[ -123.7789, 50.9894 ],
-							[ -123.7873, 50.9941 ],
-							[ -123.8, 51 ],
-							[ -124.2921, 51.3111 ],
-							[ -124.8664, 51.6273 ],
-							[ -125.0938, 51.2855 ],
-							[ -125.3217, 50.9024 ],
-							[ -125.5165, 50.7234 ],
-							[ -125.7049, 50.5132 ],
-							[ -125.7091, 50.4949 ],
-							[ -125.764, 50.4844 ],
-							[ -125.7875, 50.4827 ],
-							[ -125.7248, 50.4263 ],
-							[ -125.7844, 50.4041 ],
-							[ -125.8373, 50.4041 ],
-							[ -125.8534, 50.3892 ],
-							[ -125.899, 50.3883 ],
-							[ -125.988, 50.3402 ],
-							[ -126.1582, 50.2352 ],
-							[ -126.217, 50.199 ],
-							[ -125.8494, 49.9394 ],
-							[ -125.4947, 49.7249 ],
-							[ -125.3163, 49.5948 ],
-							[ -125.123, 49.4816 ],
-							[ -124.905, 49.3297 ],
-							[ -124.7045, 49.2064 ],
-							[ -124.4102, 49.0768 ],
-							[ -124.1351, 49.2536 ],
-							[ -123.9656, 49.3653 ],
-							[ -123.8076, 49.271 ]
+							[ -73.0007, 47.7998 ],
+							[ -73.0011, 47.2021 ],
+							[ -72.55, 47.2024 ],
+							[ -72.5497, 47.2024 ],
+							[ -72.0029, 47.2 ],
+							[ -72.0027, 47.7998 ],
+							[ -72.0026, 48.2497 ],
+							[ -73.0002, 48.6669 ],
+							[ -73.0004, 48.3331 ],
+							[ -73.0007, 47.7998 ]
+						]
+					],
+					[
+						[
+							[ -70.5032, 47.6322 ],
+							[ -71.016, 47.1831 ],
+							[ -70.7016, 47.0257 ],
+							[ -70.5437, 47.16 ],
+							[ -70.2482, 47.4424 ],
+							[ -69.7836, 47.82 ],
+							[ -69.8631, 47.8597 ],
+							[ -70.1357, 47.9471 ],
+							[ -70.5032, 47.6322 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Frost Advisory In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Frost",
 				"urgency" : "Future",
-				"certainty" : "Likely",
+				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 18:04",
-				"Expires_UTC" : "September 24, 2020 01:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong southeasterly winds of 50-70 km/h continue along the Sunshine Coast through mid this afternoon. Thereafter, winds will diminish below warning criteria but remain gusty into this evening.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-09-24T01:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T18:04:34-00:00, urn:oid:2.49.0.1.124.1587820349.2020<br>Area: Sunshine Coast - Gibsons to Earls Cove, Sunshine Coast - Saltery Bay to Powell River",
+				"LastUpdate_UTC" : "September 24, 2020 01:52",
+				"Expires_UTC" : "September 24, 2020 17:51",
+				"Summary" : "Description: Frost may damage some crops in areas prone to frost Thursday night.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-09-24T17:51:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-24T01:52:35-00:00, urn:oid:2.49.0.1.124.2242070378.2020<br>Area: Lake Bouchette area, La Tuque area, La Malbaie area, Baie-Saint-Paul area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.1587820349.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T18_04_34_00_00Iurn_oid_2.49.0.1.124.1587820349.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-24:feed.atom/urn:oid:2.49.0.1.124.2242070378.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T01_52_35_00_00Iurn_oid_2.49.0.1.124.2242070378.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200924015934+00:00"
+				"Expires_FMEFormat" : "20200924175135+00:00"
 			}
 		},
 		{
@@ -1690,58 +1627,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -134.371, 67.8553 ],
-							[ -133.6543, 67.8418 ],
-							[ -133.0092, 67.8428 ],
-							[ -133.0012, 68.2704 ],
-							[ -133.0684, 68.6546 ],
-							[ -133.6359, 68.6617 ],
-							[ -134.2055, 68.6549 ],
-							[ -134.4973, 68.6575 ],
-							[ -134.8205, 68.6539 ],
-							[ -135.1491, 68.6544 ],
-							[ -135.2643, 68.6955 ],
-							[ -135.3318, 68.6907 ],
-							[ -135.3054, 68.6544 ],
-							[ -136.4483, 68.6502 ],
-							[ -136.4596, 68.5843 ],
-							[ -136.4483, 68.4998 ],
-							[ -136.4483, 67.8636 ],
-							[ -135.456, 67.8526 ],
-							[ -134.371, 67.8553 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 20:48",
-				"Expires_UTC" : "September 24, 2020 12:47",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog will develop this evening and is expected to persist until midday on Thursday.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-09-24T12:47:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T20:48:42-00:00, urn:oid:2.49.0.1.124.2204111534.2020<br>Area: Aklavik Region, Inuvik Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2204111534.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T20_48_42_00_00Iurn_oid_2.49.0.1.124.2204111534.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200924124742+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -122.877, 49.2011 ],
 							[ -122.7573, 49.1925 ],
 							[ -122.7218, 49.1721 ],
@@ -1859,6 +1744,58 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T23_48_58_00_00Iurn_oid_2.49.0.1.124.2642598025.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200924165958+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -134.371, 67.8553 ],
+							[ -133.6543, 67.8418 ],
+							[ -133.0092, 67.8428 ],
+							[ -133.0012, 68.2704 ],
+							[ -133.0684, 68.6546 ],
+							[ -133.6359, 68.6617 ],
+							[ -134.2055, 68.6549 ],
+							[ -134.4973, 68.6575 ],
+							[ -134.8205, 68.6539 ],
+							[ -135.1491, 68.6544 ],
+							[ -135.2643, 68.6955 ],
+							[ -135.3318, 68.6907 ],
+							[ -135.3054, 68.6544 ],
+							[ -136.4483, 68.6502 ],
+							[ -136.4596, 68.5843 ],
+							[ -136.4483, 68.4998 ],
+							[ -136.4483, 67.8636 ],
+							[ -135.456, 67.8526 ],
+							[ -134.371, 67.8553 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 23, 2020 20:48",
+				"Expires_UTC" : "September 24, 2020 12:47",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog will develop this evening and is expected to persist until midday on Thursday.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-09-24T12:47:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T20:48:42-00:00, urn:oid:2.49.0.1.124.2204111534.2020<br>Area: Aklavik Region, Inuvik Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2204111534.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T20_48_42_00_00Iurn_oid_2.49.0.1.124.2204111534.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200924124742+00:00"
 			}
 		},
 		{
