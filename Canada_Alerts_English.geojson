@@ -400,71 +400,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -57.1146, 52.8003 ],
-							[ -57.1428, 52.4234 ],
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 52.0026 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.559, 53.2249 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -57.3704, 54.1207 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -59, 52.9 ],
-							[ -59.8804, 53.2 ],
-							[ -59.9432, 53.1171 ],
-							[ -60.0074, 53.0666 ],
-							[ -60.1736, 52.9893 ],
-							[ -60.3731, 52.9506 ],
-							[ -60.5825, 52.955 ],
-							[ -60.7702, 53 ],
-							[ -59, 52.4 ],
-							[ -58.0385, 52.5919 ],
-							[ -57.1146, 52.8003 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 23, 2020 18:34",
-				"Expires_UTC" : "September 24, 2020 10:33",
-				"Summary" : "Description: More rain is expected in association with the remnants of Post-Tropical Storm Teddy.\n\nAdditional rainfall: 10 to 30 mm.\n\nTime span: this evening until Thursday morning.\n\nLocations: southeastern Labrador.\n\nRemarks: Rain is forecast to redevelop this evening and will become heavy, at times, over some areas. The rain will taper off Thursday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-09-24T10:33:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T18:34:18-00:00, urn:oid:2.49.0.1.124.2610092859.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Eagle River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2610092859.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T18_34_18_00_00Iurn_oid_2.49.0.1.124.2610092859.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200924103318+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.3007, 66.282 ],
 							[ -65.4886, 66.3376 ],
 							[ -65.5369, 66.3117 ],
@@ -884,48 +819,62 @@
 				"coordinates" : [
 					[
 						[
-							[ -137.8443, 65.4581 ],
-							[ -134.9833, 67 ],
-							[ -135.4962, 67.0133 ],
-							[ -135.9999, 67 ],
-							[ -136.012, 67 ],
-							[ -136.0889, 67.1757 ],
-							[ -135.9251, 67.2657 ],
-							[ -136.136, 67.2766 ],
-							[ -136.3737, 67.1424 ],
-							[ -136.6048, 67.0102 ],
-							[ -137.1316, 66.6721 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.4948, 64.415 ],
-							[ -138.0022, 64.3497 ],
-							[ -137.911, 64.3385 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8443, 65.4581 ]
+							[ -57.1146, 52.8003 ],
+							[ -57.1428, 52.4234 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 52.0026 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.559, 53.2249 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.9432, 53.1171 ],
+							[ -60.0074, 53.0666 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.5825, 52.955 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
+				"certainty" : "Possible",
+				"severity" : "Minor",
 				"LastUpdate_UTC" : "September 24, 2020 03:26",
-				"Expires_UTC" : "September 24, 2020 19:25",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nEasterly winds of 80 km/h gusting to 100 near the Richardson Mountains are expected to ease overnight or early Thursday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-09-24T19:25:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-24T03:26:16-00:00, urn:oid:2.49.0.1.124.3279368057.2020<br>Area: Dempster",
+				"Expires_UTC" : "September 24, 2020 13:59",
+				"Summary" : "Description: More rain is expected in association with the remnants of Post-Tropical Storm Teddy.\n\nAdditional rainfall: 5 to 15 mm.\n\nTime span: continuing until later this morning.\n\nLocations: southeastern Labrador.\n\nRemarks: Rain, heavy at times over some areas, will taper off later this morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-09-24T13:59:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-24T03:26:31-00:00, urn:oid:2.49.0.1.124.2331373173.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Eagle River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-24:feed.atom/urn:oid:2.49.0.1.124.3279368057.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T03_26_16_00_00Iurn_oid_2.49.0.1.124.3279368057.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-24:feed.atom/urn:oid:2.49.0.1.124.2331373173.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T03_26_31_00_00Iurn_oid_2.49.0.1.124.2331373173.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200924192516+00:00"
+				"Expires_FMEFormat" : "20200924135931+00:00"
 			}
 		},
 		{
@@ -1012,6 +961,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T23_14_30_00_00Iurn_oid_2.49.0.1.124.0454841540.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200924151330+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ],
+							[ -136.3737, 67.1424 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 24, 2020 03:26",
+				"Expires_UTC" : "September 24, 2020 19:25",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nEasterly winds of 80 km/h gusting to 100 near the Richardson Mountains are expected to ease overnight or early Thursday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-09-24T19:25:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-24T03:26:16-00:00, urn:oid:2.49.0.1.124.3279368057.2020<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-24:feed.atom/urn:oid:2.49.0.1.124.3279368057.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T03_26_16_00_00Iurn_oid_2.49.0.1.124.3279368057.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200924192516+00:00"
 			}
 		},
 		{
