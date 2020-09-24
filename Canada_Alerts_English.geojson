@@ -9,51 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.4551, 50.0679 ],
-							[ -59.7883, 50.1231 ],
-							[ -59.0574, 50.5037 ],
-							[ -58.9502, 50.7022 ],
-							[ -59.0029, 50.7675 ],
-							[ -58.9988, 51.333 ],
-							[ -60.9991, 50.7497 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 24, 2020 01:50",
-				"Expires_UTC" : "September 24, 2020 02:50",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2020-09-24T02:50:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-24T01:50:54-00:00, urn:oid:2.49.0.1.124.0752908108.2020<br>Area: Natashquan, Chevery",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-24:feed.atom/urn:oid:2.49.0.1.124.0752908108.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T01_50_54_00_00Iurn_oid_2.49.0.1.124.0752908108.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200924025054+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -55.9321, 47.1631 ],
 							[ -56.123, 46.9615 ],
 							[ -56.0644, 46.8176 ],
@@ -1218,25 +1173,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 23:11",
-				"Expires_UTC" : "September 24, 2020 05:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong southeasterly winds of 50-70 km/h will continue along the Sunshine Coast this evening as a secondary disturbance moves over the area.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-09-24T05:59:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T23:11:15-00:00, urn:oid:2.49.0.1.124.2786546132.2020<br>Area: Sunshine Coast - Gibsons to Earls Cove, Sunshine Coast - Saltery Bay to Powell River",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 24, 2020 02:54",
+				"Expires_UTC" : "September 24, 2020 03:54",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-09-24T03:54:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-24T02:54:11-00:00, urn:oid:2.49.0.1.124.3012097046.2020<br>Area: Sunshine Coast - Gibsons to Earls Cove, Sunshine Coast - Saltery Bay to Powell River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2786546132.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T23_11_15_00_00Iurn_oid_2.49.0.1.124.2786546132.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-24:feed.atom/urn:oid:2.49.0.1.124.3012097046.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T02_54_11_00_00Iurn_oid_2.49.0.1.124.3012097046.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200924055915+00:00"
+				"Expires_FMEFormat" : "20200924035411+00:00"
 			}
 		},
 		{
@@ -1434,18 +1389,70 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 23:48",
-				"Expires_UTC" : "September 24, 2020 16:59",
-				"Summary" : "Description: For Post-tropical Storm Teddy.\n\nThis will be the last full information statement issued for Post-Tropical Storm Teddy. A final intermediate statement will be issued by 12:30 A.M. NDT.\n\nPost-Tropical Storm Teddy continues to track towards northern Newfoundland and out into the Labrador Sea on Thursday.\n\n1. Summary of basic information at 9:30 P.M. NDT.\n\nLocation: near 49.7 North 58.2 West.\n\nAbout 130 kilometres north of Stephenville.\n\nMaximum sustained winds: 85 kilometres per hour.\n\nPresent movement: northeast at 50 kilometres per hour.\n\nMinimum estimated central pressure: 978 millibars.\n\nTeddy continues to move northeastward off the west coast of Newfoundland. It's likely to maintain its intensity before reaching the Labrador Sea on Thursday.\n\n2. Public impacts and warnings summary: \n\na. Wind.\nWind and Tropical Storm warnings have now ended for Channel-Port-aux-Basques and vicinity and Burgeo - Ramea however wind gusts of 70 to 80 km/h are still expected this evening.\n\nb. Rainfall.\nSome residual moisture from post-tropical Teddy may give some locally heavy rain across portions of southeastern Labrador tonight.\n\nc. Surge/Waves.\nLarge waves and high water levels will subside this evening over southwestern Newfoundland.\n\n3. Marine impacts and warning summary:\nPost-Tropical Storm Teddy will continue to produce waves of 7 to 9 metres east of the storms track into the southwest coast of Newfoundland this evening, but will begin to subside overnight. \n\nForecaster(s): March/Mercer/McArthur\n\n###\n\nPlease continue to monitor alerts issued by the Canadian Hurricane Centre and forecasts issued by Environment Canada.<br>Expires: 2020-09-24T16:59:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T23:48:58-00:00, urn:oid:2.49.0.1.124.2642598025.2020<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"LastUpdate_UTC" : "September 24, 2020 02:54",
+				"Expires_UTC" : "September 24, 2020 19:59",
+				"Summary" : "Description: For Post-tropical Storm Teddy.\n\n###\n\nPlease continue to monitor alerts issued by the Canadian Hurricane Centre and forecasts issued by Environment Canada.<br>Expires: 2020-09-24T19:59:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-24T02:54:00-00:00, urn:oid:2.49.0.1.124.1168127931.2020<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2642598025.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T23_48_58_00_00Iurn_oid_2.49.0.1.124.2642598025.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-24:feed.atom/urn:oid:2.49.0.1.124.1168127931.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T02_54_00_00_00Iurn_oid_2.49.0.1.124.1168127931.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200924165958+00:00"
+				"Expires_FMEFormat" : "20200924195900+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -134.371, 67.8553 ],
+							[ -133.6543, 67.8418 ],
+							[ -133.0092, 67.8428 ],
+							[ -133.0012, 68.2704 ],
+							[ -133.0684, 68.6546 ],
+							[ -133.6359, 68.6617 ],
+							[ -134.2055, 68.6549 ],
+							[ -134.4973, 68.6575 ],
+							[ -134.8205, 68.6539 ],
+							[ -135.1491, 68.6544 ],
+							[ -135.2643, 68.6955 ],
+							[ -135.3318, 68.6907 ],
+							[ -135.3054, 68.6544 ],
+							[ -136.4483, 68.6502 ],
+							[ -136.4596, 68.5843 ],
+							[ -136.4483, 68.4998 ],
+							[ -136.4483, 67.8636 ],
+							[ -135.456, 67.8526 ],
+							[ -134.371, 67.8553 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 23, 2020 20:48",
+				"Expires_UTC" : "September 24, 2020 12:47",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog will develop this evening and is expected to persist until midday on Thursday.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-09-24T12:47:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T20:48:42-00:00, urn:oid:2.49.0.1.124.2204111534.2020<br>Area: Aklavik Region, Inuvik Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2204111534.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T20_48_42_00_00Iurn_oid_2.49.0.1.124.2204111534.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200924124742+00:00"
 			}
 		},
 		{
@@ -1501,58 +1508,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-24/2020_09_24T02_39_44_00_00Iurn_oid_2.49.0.1.124.4279710315.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200924153944+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -134.371, 67.8553 ],
-							[ -133.6543, 67.8418 ],
-							[ -133.0092, 67.8428 ],
-							[ -133.0012, 68.2704 ],
-							[ -133.0684, 68.6546 ],
-							[ -133.6359, 68.6617 ],
-							[ -134.2055, 68.6549 ],
-							[ -134.4973, 68.6575 ],
-							[ -134.8205, 68.6539 ],
-							[ -135.1491, 68.6544 ],
-							[ -135.2643, 68.6955 ],
-							[ -135.3318, 68.6907 ],
-							[ -135.3054, 68.6544 ],
-							[ -136.4483, 68.6502 ],
-							[ -136.4596, 68.5843 ],
-							[ -136.4483, 68.4998 ],
-							[ -136.4483, 67.8636 ],
-							[ -135.456, 67.8526 ],
-							[ -134.371, 67.8553 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 23, 2020 20:48",
-				"Expires_UTC" : "September 24, 2020 12:47",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog will develop this evening and is expected to persist until midday on Thursday.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-09-24T12:47:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-23T20:48:42-00:00, urn:oid:2.49.0.1.124.2204111534.2020<br>Area: Aklavik Region, Inuvik Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-23:feed.atom/urn:oid:2.49.0.1.124.2204111534.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-23/2020_09_23T20_48_42_00_00Iurn_oid_2.49.0.1.124.2204111534.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200924124742+00:00"
 			}
 		},
 		{
