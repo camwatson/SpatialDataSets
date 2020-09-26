@@ -9,6 +9,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.2313, 42.8415 ],
+							[ -81.2492, 42.8375 ],
+							[ -81.2656, 42.8331 ],
+							[ -81.3476, 42.8164 ],
+							[ -81.4239, 42.7935 ],
+							[ -81.4514, 42.8241 ],
+							[ -81.6455, 42.7335 ],
+							[ -81.691, 42.7377 ],
+							[ -81.7396, 42.6975 ],
+							[ -81.8354, 42.651 ],
+							[ -81.8308, 42.63 ],
+							[ -81.835, 42.6081 ],
+							[ -81.8179, 42.591 ],
+							[ -81.7656, 42.539 ],
+							[ -81.6728, 42.4755 ],
+							[ -81.6662, 42.4727 ],
+							[ -81.6432, 42.4497 ],
+							[ -81.525, 42.5465 ],
+							[ -81.4424, 42.5758 ],
+							[ -81.2929, 42.639 ],
+							[ -81.218, 42.6458 ],
+							[ -81.2218, 42.6597 ],
+							[ -81.2292, 42.6684 ],
+							[ -81.2261, 42.753 ],
+							[ -81.2313, 42.8415 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 26, 2020 03:09",
+				"Expires_UTC" : "September 26, 2020 16:59",
+				"Summary" : "Description: Locally dense fog tonight.\n\nAreas of locally dense fog have formed over portions of the region early tonight. This fog will continue until early Saturday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-09-26T16:59:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-26T03:09:00-00:00, urn:oid:2.49.0.1.124.3860348238.2020<br>Area: Rodney - Shedden - Western Elgin County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-26:feed.atom/urn:oid:2.49.0.1.124.3860348238.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-26/2020_09_26T03_09_00_00_00Iurn_oid_2.49.0.1.124.3860348238.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200926165900+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -78.5095, 44.0823 ],
 							[ -78.5121, 44.0902 ],
 							[ -78.5165, 44.0984 ],
@@ -259,64 +317,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-26/2020_09_26T05_12_16_00_00Iurn_oid_2.49.0.1.124.3066504296.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200926165916+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.2313, 42.8415 ],
-							[ -81.2492, 42.8375 ],
-							[ -81.2656, 42.8331 ],
-							[ -81.3476, 42.8164 ],
-							[ -81.4239, 42.7935 ],
-							[ -81.4514, 42.8241 ],
-							[ -81.6455, 42.7335 ],
-							[ -81.691, 42.7377 ],
-							[ -81.7396, 42.6975 ],
-							[ -81.8354, 42.651 ],
-							[ -81.8308, 42.63 ],
-							[ -81.835, 42.6081 ],
-							[ -81.8179, 42.591 ],
-							[ -81.7656, 42.539 ],
-							[ -81.6728, 42.4755 ],
-							[ -81.6662, 42.4727 ],
-							[ -81.6432, 42.4497 ],
-							[ -81.525, 42.5465 ],
-							[ -81.4424, 42.5758 ],
-							[ -81.2929, 42.639 ],
-							[ -81.218, 42.6458 ],
-							[ -81.2218, 42.6597 ],
-							[ -81.2292, 42.6684 ],
-							[ -81.2261, 42.753 ],
-							[ -81.2313, 42.8415 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 26, 2020 05:01",
-				"Expires_UTC" : "September 26, 2020 06:01",
-				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-09-26T06:01:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-26T05:01:11-00:00, urn:oid:2.49.0.1.124.3955238244.2020<br>Area: Rodney - Shedden - Western Elgin County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-26:feed.atom/urn:oid:2.49.0.1.124.3955238244.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-26/2020_09_26T05_01_11_00_00Iurn_oid_2.49.0.1.124.3955238244.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200926060111+00:00"
 			}
 		},
 		{
