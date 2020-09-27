@@ -151,6 +151,62 @@
 				"coordinates" : [
 					[
 						[
+							[ -129.9046, 55.1528 ],
+							[ -129.9932, 55.2589 ],
+							[ -130.0772, 55.2552 ],
+							[ -130.2895, 54.9473 ],
+							[ -130.8917, 54.6961 ],
+							[ -131.2934, 54.6904 ],
+							[ -131.4498, 54.688 ],
+							[ -131.1621, 54.069 ],
+							[ -130.7899, 52.8924 ],
+							[ -130.6502, 52.6745 ],
+							[ -129.7723, 51.8698 ],
+							[ -129.7213, 51.8219 ],
+							[ -128.9311, 52.4737 ],
+							[ -128.7809, 52.6384 ],
+							[ -128.4465, 52.8318 ],
+							[ -128.2098, 52.8688 ],
+							[ -127.8972, 52.8496 ],
+							[ -128.3465, 53.3251 ],
+							[ -128.8866, 53.7938 ],
+							[ -128.9298, 53.8451 ],
+							[ -129.0948, 54.0659 ],
+							[ -129.4711, 54.6241 ],
+							[ -129.9046, 55.1528 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 27, 2020 22:43",
+				"Expires_UTC" : "September 27, 2020 23:43",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-09-27T23:43:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-27T22:43:06-00:00, urn:oid:2.49.0.1.124.0106876676.2020<br>Area: North Coast - coastal sections",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-27:feed.atom/urn:oid:2.49.0.1.124.0106876676.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-27/2020_09_27T22_43_06_00_00Iurn_oid_2.49.0.1.124.0106876676.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200927234306+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -137.8443, 65.4581 ],
 							[ -134.9833, 67 ],
 							[ -135.4962, 67.0133 ],
@@ -340,62 +396,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-27/2020_09_27T11_36_42_00_00Iurn_oid_2.49.0.1.124.1348744992.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200928033542+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -129.9046, 55.1528 ],
-							[ -129.9932, 55.2589 ],
-							[ -130.0772, 55.2552 ],
-							[ -130.2895, 54.9473 ],
-							[ -130.8917, 54.6961 ],
-							[ -131.2934, 54.6904 ],
-							[ -131.4498, 54.688 ],
-							[ -131.1621, 54.069 ],
-							[ -130.7899, 52.8924 ],
-							[ -130.6502, 52.6745 ],
-							[ -129.7723, 51.8698 ],
-							[ -129.7213, 51.8219 ],
-							[ -128.9311, 52.4737 ],
-							[ -128.7809, 52.6384 ],
-							[ -128.4465, 52.8318 ],
-							[ -128.2098, 52.8688 ],
-							[ -127.8972, 52.8496 ],
-							[ -128.3465, 53.3251 ],
-							[ -128.8866, 53.7938 ],
-							[ -128.9298, 53.8451 ],
-							[ -129.0948, 54.0659 ],
-							[ -129.4711, 54.6241 ],
-							[ -129.9046, 55.1528 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "September 27, 2020 11:36",
-				"Expires_UTC" : "September 28, 2020 03:35",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAn intense Pacific weather system is bringing rain to the north coast. The rain will intensify later this morning as the system moves over the region. By Monday morning, rainfall amounts across the coastal regions of the north coast will reach near 100 mm.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-09-28T03:35:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-27T11:36:06-00:00, urn:oid:2.49.0.1.124.0946738307.2020<br>Area: North Coast - coastal sections",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-27:feed.atom/urn:oid:2.49.0.1.124.0946738307.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-27/2020_09_27T11_36_06_00_00Iurn_oid_2.49.0.1.124.0946738307.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200928033506+00:00"
 			}
 		},
 		{
@@ -665,6 +665,62 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-27/2020_09_27T21_29_13_00_00Iurn_oid_2.49.0.1.124.1925939549.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20200928132813+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -129.9046, 55.1528 ],
+							[ -129.9932, 55.2589 ],
+							[ -130.0772, 55.2552 ],
+							[ -130.2895, 54.9473 ],
+							[ -130.8917, 54.6961 ],
+							[ -131.2934, 54.6904 ],
+							[ -131.4498, 54.688 ],
+							[ -131.1621, 54.069 ],
+							[ -130.7899, 52.8924 ],
+							[ -130.6502, 52.6745 ],
+							[ -129.7723, 51.8698 ],
+							[ -129.7213, 51.8219 ],
+							[ -128.9311, 52.4737 ],
+							[ -128.7809, 52.6384 ],
+							[ -128.4465, 52.8318 ],
+							[ -128.2098, 52.8688 ],
+							[ -127.8972, 52.8496 ],
+							[ -128.3465, 53.3251 ],
+							[ -128.8866, 53.7938 ],
+							[ -128.9298, 53.8451 ],
+							[ -129.0948, 54.0659 ],
+							[ -129.4711, 54.6241 ],
+							[ -129.9046, 55.1528 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 27, 2020 11:36",
+				"Expires_UTC" : "September 28, 2020 03:35",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAn intense Pacific weather system is bringing rain to the north coast. The rain will intensify later this morning as the system moves over the region. By Monday morning, rainfall amounts across the coastal regions of the north coast will reach near 100 mm.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-09-28T03:35:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-27T11:36:06-00:00, urn:oid:2.49.0.1.124.0946738307.2020<br>Area: North Coast - coastal sections",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-27:feed.atom/urn:oid:2.49.0.1.124.0946738307.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-27/2020_09_27T11_36_06_00_00Iurn_oid_2.49.0.1.124.0946738307.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200928033506+00:00"
 			}
 		},
 		{
