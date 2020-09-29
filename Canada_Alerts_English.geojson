@@ -64,6 +64,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -82.1596, 51.3124 ],
+							[ -81.4395, 50.7218 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.496, 51.0628 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.8297, 51.4271 ],
+							[ -79.8263, 51.2605 ],
+							[ -80.0462, 51.3571 ],
+							[ -80.2894, 51.3971 ],
+							[ -80.3594, 51.6003 ],
+							[ -80.6927, 51.9724 ],
+							[ -81.4236, 52.4881 ],
+							[ -81.6114, 52.4649 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.8343, 51.8669 ],
+							[ -82.1596, 51.3124 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 28, 2020 19:30",
+				"Expires_UTC" : "September 29, 2020 11:29",
+				"Summary" : "Description: 30 to 50 mm of rain possible tonight into Tuesday morning\n\nRain will become heavy sometime after midnight. Total rainfall amounts of 30 to 50 mm locally are possible by late Tuesday morning. \nRainfall warning might be required. \n\nFor information concerning flooding, please consult your local Conservation Authority or Ontario Ministry of Natural Resources and Forestry District Office.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-09-29T11:29:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-28T19:30:50-00:00, urn:oid:2.49.0.1.124.1802491236.2020<br>Area: Fort Albany, Moosonee",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-28:feed.atom/urn:oid:2.49.0.1.124.1802491236.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-28/2020_09_28T19_30_50_00_00Iurn_oid_2.49.0.1.124.1802491236.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200929112950+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -136.9346920642, 59.990160094 ],
 							[ -136.8794, 59.9092 ],
 							[ -136.8505, 59.8836 ],
@@ -178,75 +228,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 28, 2020 22:50",
-				"Expires_UTC" : "September 28, 2020 23:50",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-09-28T23:50:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-28T22:50:45-00:00, urn:oid:2.49.0.1.124.1841417246.2020<br>Area: Haines Road - Haines Junction to Pleasant Camp, South Klondike Highway - Carcross to White Pass, Haines Junction",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-28:feed.atom/urn:oid:2.49.0.1.124.1841417246.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-28/2020_09_28T22_50_45_00_00Iurn_oid_2.49.0.1.124.1841417246.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200928235045+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.1596, 51.3124 ],
-							[ -81.4395, 50.7218 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.496, 51.0628 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.8297, 51.4271 ],
-							[ -79.8263, 51.2605 ],
-							[ -80.0462, 51.3571 ],
-							[ -80.2894, 51.3971 ],
-							[ -80.3594, 51.6003 ],
-							[ -80.6927, 51.9724 ],
-							[ -81.4236, 52.4881 ],
-							[ -81.6114, 52.4649 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.8343, 51.8669 ],
-							[ -82.1596, 51.3124 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 28, 2020 19:30",
-				"Expires_UTC" : "September 29, 2020 11:29",
-				"Summary" : "Description: 30 to 50 mm of rain possible tonight into Tuesday morning\n\nRain will become heavy sometime after midnight. Total rainfall amounts of 30 to 50 mm locally are possible by late Tuesday morning. \nRainfall warning might be required. \n\nFor information concerning flooding, please consult your local Conservation Authority or Ontario Ministry of Natural Resources and Forestry District Office.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-09-29T11:29:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-28T19:30:50-00:00, urn:oid:2.49.0.1.124.1802491236.2020<br>Area: Fort Albany, Moosonee",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 28, 2020 17:37",
+				"Expires_UTC" : "September 29, 2020 03:44",
+				"Summary" : "Description: A deep Gulf of Alaska low is moving inland over Alaska today, sending a strong frontal system across the Yukon. \n\nSouth to southwest winds of 40 to 60 km/h with gusts to 90 are expected over the South Klondike Highway, the Haines Road and the town of Haines Junction this afternoon.\n\nOver the South Klondike Highway the strongest winds will occur near White Pass. Over the Haines Road the strongest winds will be north of Chilkat Pass and near the town of Haines junction.\n\nWinds will start to ease late this afternoon.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.<br>Expires: 2020-09-29T03:44:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-28T17:37:43-00:00, urn:oid:2.49.0.1.124.3968576148.2020<br>Area: Haines Road - Haines Junction to Pleasant Camp, South Klondike Highway - Carcross to White Pass, Haines Junction",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-28:feed.atom/urn:oid:2.49.0.1.124.1802491236.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-28/2020_09_28T19_30_50_00_00Iurn_oid_2.49.0.1.124.1802491236.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-28:feed.atom/urn:oid:2.49.0.1.124.3968576148.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-28/2020_09_28T17_37_43_00_00Iurn_oid_2.49.0.1.124.3968576148.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200929112950+00:00"
+				"Expires_FMEFormat" : "20200929034443+00:00"
 			}
 		},
 		{
