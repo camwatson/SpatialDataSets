@@ -9,6 +9,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.4419, 49.5091 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.8343, 51.8669 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ],
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ],
+							[ -81.4426, 49.1637 ],
+							[ -81.4419, 49.5091 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "September 29, 2020 03:43",
+				"Expires_UTC" : "September 29, 2020 19:42",
+				"Summary" : "Description: Rain continues into Tuesday morning.\n\nTotal rainfall amounts of 30 to 50 mm are possible before the rain tapers late Tuesday morning. \n\nFor information concerning flooding, please consult your local Conservation Authority or Ontario Ministry of Natural Resources and Forestry District office. Visit Ontario.ca/floods for the latest details.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-09-29T19:42:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-29T03:43:03-00:00, urn:oid:2.49.0.1.124.2178803430.2020<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-29:feed.atom/urn:oid:2.49.0.1.124.2178803430.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-29/2020_09_29T03_43_03_00_00Iurn_oid_2.49.0.1.124.2178803430.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20200929194203+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -92.37, 48.2211 ],
 							[ -84.6328, 46.3395 ],
 							[ -82.9934, 45.5018 ],
@@ -166,81 +221,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Other",
-				"Title" : "Ontario Amber Alert In Effect",
+				"Title" : "Ontario Amber Alert Cancelled",
 				"Category" : "Actual",
 				"event" : "Amber Alert",
 				"urgency" : "Immediate",
 				"certainty" : "Observed",
 				"severity" : "Extreme",
-				"LastUpdate_UTC" : "September 28, 2020 23:31",
+				"LastUpdate_UTC" : "September 29, 2020 00:10",
 				"Expires_UTC" : "September 29, 2020 23:30",
-				"Summary" : "Description: Ontario AMBER Alert in effect. Waterloo Regional Police Service have requested an AMBER Alert. Victim 1, Hanan AHMED, Female, 3 yr old, 2 feet 6 inches, 40lbs, brown skin, brown eyes, short black hair, wearing red/black striped shirt, dark blue jeans, red shoes, grey jacket. Victim 2, Fowsia AHMED, Female 1 yr old, 2 feet, brown skin, short black curly hair, brown eyes, last seen wearing red/black overalls, white t-shirt and red shoes. Suspect 1 Mariam Muhsin MOHAMED, Female, 21 yr old, 5 feet 3 inches, 110lbs, black, shoulder length curly hair. Suspect 2, Maxamed ABUKAR MAXAAD, Male, 27 yr old, black skin, 5 feet 8 inches, 122 lbs, black hair, brown eyes, no clothing description. Vehicle, 2018 Grey Kia Forte Ontario Plate C F E N 6 3 9. Vehicle was last seen traveling SB on Fairway Rd from River Rd East and Kinzie Ave, Kitchener, ON.  https://amberalert.opp.ca  If observed call 9 1 1<br>Expires: 2020-09-29T23:30:30-04:00<br>Originated from CAP Alert: OPP Provincial Operations Centre, 2020-09-28T23:31:30-04:00, opp5c733edf-f901-eb11-80f9-005056971de5<br>Area: Ontario",
+				"Summary" : "Description: AMBER Alert cancelled, Children have been located safe<br>Expires: 2020-09-29T23:30:30-04:00<br>Originated from CAP Alert: OPP Provincial Operations Centre, 2020-09-29T00:10:24-04:00, opp55c73339-383e-40d2-ae60-10955887366a<br>Area: Ontario",
 				"Author" : "OPP Provincial Operations Centre",
-				"msgType" : "Alert",
+				"msgType" : "Cancel",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-28:feed.atom/opp5c733edf-f901-eb11-80f9-005056971de5",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-28/2020_09_28T23_31_30_04_00Iopp5c733edf_f901_eb11_80f9_005056971de5.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-29:feed.atom/opp55c73339-383e-40d2-ae60-10955887366a",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-29/2020_09_29T00_10_24_04_00Iopp55c73339_383e_40d2_ae60_10955887366a.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200929233030-04:00",
-				"EnclosureType" : "audio/mpeg",
-				"EnclosureURI" : "https://s3.amazonaws.com/naadsttsfs-prod/opp5c733edf-f901-eb11-80f9-005056971de5-en-CA.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.4419, 49.5091 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.8343, 51.8669 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ],
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ],
-							[ -81.4426, 49.1637 ],
-							[ -81.4419, 49.5091 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 29, 2020 03:43",
-				"Expires_UTC" : "September 29, 2020 19:42",
-				"Summary" : "Description: Rain continues into Tuesday morning.\n\nTotal rainfall amounts of 30 to 50 mm are possible before the rain tapers late Tuesday morning. \n\nFor information concerning flooding, please consult your local Conservation Authority or Ontario Ministry of Natural Resources and Forestry District office. Visit Ontario.ca/floods for the latest details.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-09-29T19:42:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-29T03:43:03-00:00, urn:oid:2.49.0.1.124.2178803430.2020<br>Area: Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-29:feed.atom/urn:oid:2.49.0.1.124.2178803430.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-29/2020_09_29T03_43_03_00_00Iurn_oid_2.49.0.1.124.2178803430.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200929194203+00:00"
+				"Expires_FMEFormat" : "20200929233030-04:00"
 			}
 		},
 		{
