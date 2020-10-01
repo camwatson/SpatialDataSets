@@ -9,63 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -60.8032, 53.8891 ],
-							[ -61.1662, 53.7512 ],
-							[ -60.8697, 53.6541 ],
-							[ -60.3384, 53.5206 ],
-							[ -60.3572, 53.4591 ],
-							[ -60.7929, 53.3083 ],
-							[ -60.8725, 53.191 ],
-							[ -60.3111, 53.1533 ],
-							[ -59.7695, 53.3942 ],
-							[ -58.9635, 53.6275 ],
-							[ -58.7114, 53.8655 ],
-							[ -58.4278, 53.9806 ],
-							[ -58.429, 54.0249 ],
-							[ -58.4296, 54.0605 ],
-							[ -58.4305, 54.1128 ],
-							[ -58.4315, 54.1645 ],
-							[ -58.4273, 54.2191 ],
-							[ -58.4303, 54.2339 ],
-							[ -58.4328, 54.2903 ],
-							[ -58.8512, 54.1965 ],
-							[ -59.6304, 54.0894 ],
-							[ -60.1701, 53.8374 ],
-							[ -60.2904, 53.6764 ],
-							[ -60.8032, 53.8891 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "October 1, 2020 02:38",
-				"Expires_UTC" : "October 1, 2020 05:59",
-				"Summary" : "Description: Squalls with wind gusts up to 50 knots are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-01T05:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T02:38:22-00:00, urn:oid:2.49.0.1.124.1900343206.2020<br>Area: Lake Melville",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.1900343206.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T02_38_22_00_00Iurn_oid_2.49.0.1.124.1900343206.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201001055922+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -70.2989, 59.6999 ],
 							[ -70.299, 58.7659 ],
 							[ -70.1936, 58.7957 ],
@@ -631,6 +574,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-30/2020_09_30T22_26_04_00_00Iurn_oid_2.49.0.1.124.3495465138.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201001142504+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 1, 2020 00:57",
+				"Expires_UTC" : "October 1, 2020 07:59",
+				"Summary" : "Description: Maximum gusts: southeasterly near 100 km/h in the Wreckhouse area.\n\nTime span: continuing until overnight tonight.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-01T07:59:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T00:57:27-00:00, urn:oid:2.49.0.1.124.1804054946.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.1804054946.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T00_57_27_00_00Iurn_oid_2.49.0.1.124.1804054946.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201001075927+00:00"
 			}
 		},
 		{
@@ -1494,6 +1484,63 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.8032, 53.8891 ],
+							[ -61.1662, 53.7512 ],
+							[ -60.8697, 53.6541 ],
+							[ -60.3384, 53.5206 ],
+							[ -60.3572, 53.4591 ],
+							[ -60.7929, 53.3083 ],
+							[ -60.8725, 53.191 ],
+							[ -60.3111, 53.1533 ],
+							[ -59.7695, 53.3942 ],
+							[ -58.9635, 53.6275 ],
+							[ -58.7114, 53.8655 ],
+							[ -58.4278, 53.9806 ],
+							[ -58.429, 54.0249 ],
+							[ -58.4296, 54.0605 ],
+							[ -58.4305, 54.1128 ],
+							[ -58.4315, 54.1645 ],
+							[ -58.4273, 54.2191 ],
+							[ -58.4303, 54.2339 ],
+							[ -58.4328, 54.2903 ],
+							[ -58.8512, 54.1965 ],
+							[ -59.6304, 54.0894 ],
+							[ -60.1701, 53.8374 ],
+							[ -60.2904, 53.6764 ],
+							[ -60.8032, 53.8891 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "October 1, 2020 02:39",
+				"Expires_UTC" : "October 1, 2020 05:59",
+				"Summary" : "Description: Squalls with wind gusts up to 50 knots are expected or occurring in the area.\n\nLocations: Goose Bay and Lake Melville\n\nTime span: 12:00 A.M. to 3:00 A.M.tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-01T05:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T02:39:22-00:00, urn:oid:2.49.0.1.124.2059205583.2020<br>Area: Lake Melville",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.2059205583.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T02_39_22_00_00Iurn_oid_2.49.0.1.124.2059205583.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201001055922+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -60.7945, 56.6786 ],
 							[ -61.1044, 56.5708 ],
 							[ -61.8607, 56.6166 ],
@@ -1900,53 +1947,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T02_27_53_00_00Iurn_oid_2.49.0.1.124.0979011637.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201001135953+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 1, 2020 00:57",
-				"Expires_UTC" : "October 1, 2020 07:59",
-				"Summary" : "Description: Maximum gusts: southeasterly near 100 km/h in the Wreckhouse area.\n\nTime span: continuing until overnight tonight.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-01T07:59:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T00:57:27-00:00, urn:oid:2.49.0.1.124.1804054946.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.1804054946.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T00_57_27_00_00Iurn_oid_2.49.0.1.124.1804054946.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201001075927+00:00"
 			}
 		}
 	]
