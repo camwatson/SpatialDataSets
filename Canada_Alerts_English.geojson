@@ -126,6 +126,62 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.7518, 48.8661 ],
+							[ -66.9998, 48.7504 ],
+							[ -67.0013, 48.4494 ],
+							[ -67.0024, 48.2174 ],
+							[ -66.0664, 48.3334 ],
+							[ -65.4763, 48.4015 ],
+							[ -65.4764, 48.4021 ],
+							[ -65.4677, 48.4029 ],
+							[ -65.2298, 48.4244 ],
+							[ -65.0706, 48.4384 ],
+							[ -64.75, 48.4658 ],
+							[ -64.7475, 48.4652 ],
+							[ -64.4498, 48.3987 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "September 30, 2020 20:10",
+				"Expires_UTC" : "October 1, 2020 01:59",
+				"Summary" : "Description: Strong southerly winds with gusts to 90 kilometres per hour will diminish gradually in the next few hours.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-10-01T01:59:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-30T20:10:41-00:00, urn:oid:2.49.0.1.124.0366175687.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Murdochville area, Mont-Albert area, Grande-Rivière - Cascapédia area, Forillon National Park - Gaspé area, Percé area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-30:feed.atom/urn:oid:2.49.0.1.124.0366175687.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-30/2020_09_30T20_10_41_00_00Iurn_oid_2.49.0.1.124.0366175687.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201001015941+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -110.005, 49.7856 ],
 							[ -110.0045, 49.7905 ],
 							[ -110.005, 49.7948 ],
@@ -998,62 +1054,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-30/2020_09_30T20_31_47_00_00Iurn_oid_2.49.0.1.124.1150536280.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201001115947+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.7518, 48.8661 ],
-							[ -66.9998, 48.7504 ],
-							[ -67.0013, 48.4494 ],
-							[ -67.0024, 48.2174 ],
-							[ -66.0664, 48.3334 ],
-							[ -65.4763, 48.4015 ],
-							[ -65.4764, 48.4021 ],
-							[ -65.4677, 48.4029 ],
-							[ -65.2298, 48.4244 ],
-							[ -65.0706, 48.4384 ],
-							[ -64.75, 48.4658 ],
-							[ -64.7475, 48.4652 ],
-							[ -64.4498, 48.3987 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "September 30, 2020 22:51",
-				"Expires_UTC" : "September 30, 2020 23:51",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-09-30T23:51:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-09-30T22:51:38-00:00, urn:oid:2.49.0.1.124.4049176317.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Murdochville area, Mont-Albert area, Grande-Rivière - Cascapédia area, Forillon National Park - Gaspé area, Percé area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-09-30:feed.atom/urn:oid:2.49.0.1.124.4049176317.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-09-30/2020_09_30T22_51_38_00_00Iurn_oid_2.49.0.1.124.4049176317.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20200930235138+00:00"
 			}
 		},
 		{
