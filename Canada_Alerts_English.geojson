@@ -9,57 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 1, 2020 18:24",
-				"Expires_UTC" : "October 2, 2020 10:23",
-				"Summary" : "Description: Significant rainfall possible to start the weekend.\n\nTotal rainfall: 30 to 50 mm with locally higher amounts possible.\n\nLocations: southern Avalon Peninsula.\n\nTime span: Friday afternoon to Saturday morning.\n\nRemarks: Periods of rain or scattered showers will continue tonight into Friday before heavier rain moves into the area Friday afternoon. Some forecast guidance indicates that total rainfall amounts of 50 mm or more may occur before rain tapers to scattered showers Saturday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-02T10:23:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T18:24:27-00:00, urn:oid:2.49.0.1.124.0515333609.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.0515333609.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T18_24_27_00_00Iurn_oid_2.49.0.1.124.0515333609.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201002102327+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -123.0934, 49.8139 ],
 							[ -123.155, 49.8988 ],
 							[ -123.2918, 49.9079 ],
@@ -192,6 +141,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T19_47_44_00_00Iurn_oid_2.49.0.1.124.2722184867.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201002114644+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -80.0799, 42.3935 ],
+							[ -78.9353, 42.8283 ],
+							[ -78.9059, 42.9052 ],
+							[ -78.8933, 42.9389 ],
+							[ -79.0529, 42.9623 ],
+							[ -79.6261, 42.9814 ],
+							[ -80.3291, 42.9012 ],
+							[ -80.5966, 42.7293 ],
+							[ -81.2109, 42.784 ],
+							[ -81.1553, 42.66 ],
+							[ -80.9327, 42.2591 ],
+							[ -80.0799, 42.3935 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "October 1, 2020 23:01",
+				"Expires_UTC" : "October 2, 2020 01:54",
+				"Summary" : "Description: Thunderstorms located from south of Long Point to south of Port Stanley are moving east at 20 knots.  These thunderstorms are capable of producing wind gusts to 35 knots and waterspouts.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-02T01:54:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T23:01:28-00:00, urn:oid:2.49.0.1.124.1274076929.2020<br>Area: Eastern Lake Erie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.1274076929.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T23_01_28_00_00Iurn_oid_2.49.0.1.124.1274076929.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201002015428+00:00"
 			}
 		},
 		{
@@ -379,6 +373,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 2, 2020 01:17",
+				"Expires_UTC" : "October 2, 2020 17:16",
+				"Summary" : "Description: Significant rainfall possible to start the weekend.\n\nTotal rainfall: 30 to 50 mm with locally higher amounts possible.\n\nLocations: southern Avalon Peninsula.\n\nTime span: Friday afternoon to Saturday morning.\n\nRemarks: Periods of rain or scattered showers will continue tonight into Friday before heavier rain moves into the area Friday afternoon. Some forecast guidance indicates that total rainfall amounts of 50 mm or more may occur before rain tapers to scattered showers Saturday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-02T17:16:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T01:17:47-00:00, urn:oid:2.49.0.1.124.0366730378.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.0366730378.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T01_17_47_00_00Iurn_oid_2.49.0.1.124.0366730378.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201002171647+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -83.149, 42.2478 ],
 							[ -83.128, 42.2387 ],
 							[ -83.1339, 42.1748 ],
@@ -499,51 +544,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T21_15_12_00_00Iurn_oid_2.49.0.1.124.0992329203.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201002131412+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -80.0799, 42.3935 ],
-							[ -78.9353, 42.8283 ],
-							[ -78.9059, 42.9052 ],
-							[ -78.8933, 42.9389 ],
-							[ -79.0529, 42.9623 ],
-							[ -79.6261, 42.9814 ],
-							[ -80.3291, 42.9012 ],
-							[ -80.5966, 42.7293 ],
-							[ -81.2109, 42.784 ],
-							[ -81.1553, 42.66 ],
-							[ -80.9327, 42.2591 ],
-							[ -80.0799, 42.3935 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 2, 2020 00:26",
-				"Expires_UTC" : "October 2, 2020 01:26",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-10-02T01:26:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T00:26:52-00:00, urn:oid:2.49.0.1.124.2110181667.2020<br>Area: Eastern Lake Erie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.2110181667.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T00_26_52_00_00Iurn_oid_2.49.0.1.124.2110181667.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201002012652+00:00"
 			}
 		}
 	]
