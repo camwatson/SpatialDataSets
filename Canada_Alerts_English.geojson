@@ -9,6 +9,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -123.0934, 49.8139 ],
+							[ -123.155, 49.8988 ],
+							[ -123.2918, 49.9079 ],
+							[ -123.3, 49.9085 ],
+							[ -123.2913, 49.8844 ],
+							[ -123.2883, 49.8762 ],
+							[ -123.2145, 49.6778 ],
+							[ -123.2485, 49.5881 ],
+							[ -123.4682, 49.5154 ],
+							[ -123.4627, 49.4313 ],
+							[ -123.518, 49.3701 ],
+							[ -123.509, 49.3539 ],
+							[ -123.3632, 49.2918 ],
+							[ -123.2902, 49.3448 ],
+							[ -123.2818, 49.351 ],
+							[ -123.2988, 49.3767 ],
+							[ -123.2629, 49.3867 ],
+							[ -123.2621, 49.3866 ],
+							[ -123.212, 49.3895 ],
+							[ -123.0938, 49.4314 ],
+							[ -122.9898, 49.4645 ],
+							[ -122.8909, 49.4802 ],
+							[ -122.884, 49.4813 ],
+							[ -122.7973, 49.4955 ],
+							[ -122.7669, 49.5005 ],
+							[ -122.7445, 49.5042 ],
+							[ -122.8821, 49.7107 ],
+							[ -123.0934, 49.8139 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 1, 2020 17:39",
+				"Expires_UTC" : "October 2, 2020 09:38",
+				"Summary" : "Description: The following areas set a daily maximum temperature record on September 30, 2020:\n\nPort Hardy Area (Port Hardy A)\nNew record of 22.6\nOld record of 21.1 set in 2008\nRecords in this area have been kept since 1944\n\nSechelt Area (Sechelt Aut)\nNew record of 23.5\nOld record of 23.0 set in 1992\nRecords in this area have been kept since 1956\n\nNote: the temperature records reported here have been derived from a selection of historical stations in each geographic area that were active during the period of record.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-10-02T09:38:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T17:39:25-00:00, urn:oid:2.49.0.1.124.3759884208.2020<br>Area: Howe Sound",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.3759884208.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T17_39_25_00_00Iurn_oid_2.49.0.1.124.3759884208.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201002093825+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -73.9497, 46.1998 ],
 							[ -74.3173, 46.1852 ],
 							[ -74.7194, 46.1675 ],
@@ -80,67 +141,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T19_47_44_00_00Iurn_oid_2.49.0.1.124.2722184867.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201002114644+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.0934, 49.8139 ],
-							[ -123.155, 49.8988 ],
-							[ -123.2918, 49.9079 ],
-							[ -123.3, 49.9085 ],
-							[ -123.2913, 49.8844 ],
-							[ -123.2883, 49.8762 ],
-							[ -123.2145, 49.6778 ],
-							[ -123.2485, 49.5881 ],
-							[ -123.4682, 49.5154 ],
-							[ -123.4627, 49.4313 ],
-							[ -123.518, 49.3701 ],
-							[ -123.509, 49.3539 ],
-							[ -123.3632, 49.2918 ],
-							[ -123.2902, 49.3448 ],
-							[ -123.2818, 49.351 ],
-							[ -123.2988, 49.3767 ],
-							[ -123.2629, 49.3867 ],
-							[ -123.2621, 49.3866 ],
-							[ -123.212, 49.3895 ],
-							[ -123.0938, 49.4314 ],
-							[ -122.9898, 49.4645 ],
-							[ -122.8909, 49.4802 ],
-							[ -122.884, 49.4813 ],
-							[ -122.7973, 49.4955 ],
-							[ -122.7669, 49.5005 ],
-							[ -122.7445, 49.5042 ],
-							[ -122.8821, 49.7107 ],
-							[ -123.0934, 49.8139 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 1, 2020 17:39",
-				"Expires_UTC" : "October 2, 2020 09:38",
-				"Summary" : "Description: The following areas set a daily maximum temperature record on September 30, 2020:\n\nPort Hardy Area (Port Hardy A)\nNew record of 22.6\nOld record of 21.1 set in 2008\nRecords in this area have been kept since 1944\n\nSechelt Area (Sechelt Aut)\nNew record of 23.5\nOld record of 23.0 set in 1992\nRecords in this area have been kept since 1956\n\nNote: the temperature records reported here have been derived from a selection of historical stations in each geographic area that were active during the period of record.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-10-02T09:38:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T17:39:25-00:00, urn:oid:2.49.0.1.124.3759884208.2020<br>Area: Howe Sound",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.3759884208.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T17_39_25_00_00Iurn_oid_2.49.0.1.124.3759884208.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201002093825+00:00"
 			}
 		},
 		{
@@ -260,57 +260,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 2, 2020 01:17",
-				"Expires_UTC" : "October 2, 2020 17:16",
-				"Summary" : "Description: Significant rainfall possible to start the weekend.\n\nTotal rainfall: 30 to 50 mm with locally higher amounts possible.\n\nLocations: southern Avalon Peninsula.\n\nTime span: Friday afternoon to Saturday morning.\n\nRemarks: Periods of rain or scattered showers will continue tonight into Friday before heavier rain moves into the area Friday afternoon. Some forecast guidance indicates that total rainfall amounts of 50 mm or more may occur before rain tapers to scattered showers Saturday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-02T17:16:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T01:17:47-00:00, urn:oid:2.49.0.1.124.0366730378.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.0366730378.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T01_17_47_00_00Iurn_oid_2.49.0.1.124.0366730378.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201002171647+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -81.2109, 42.784 ],
 							[ -81.7125, 42.5988 ],
 							[ -82.3391, 42.2319 ],
@@ -379,65 +328,89 @@
 				"coordinates" : [
 					[
 						[
-							[ -82.4895, 42.6303 ],
-							[ -82.4679, 42.7047 ],
-							[ -82.4354, 42.7602 ],
-							[ -82.4526, 42.8271 ],
-							[ -82.3823, 43.0052 ],
-							[ -82.2082, 43.0182 ],
-							[ -82.1082, 43.0488 ],
-							[ -81.9831, 43.1746 ],
-							[ -81.7126, 43.2738 ],
-							[ -81.6524, 43.4006 ],
-							[ -81.6417, 43.8003 ],
-							[ -81.6693, 44.0654 ],
-							[ -81.4092, 44.3362 ],
-							[ -81.2158, 44.5146 ],
-							[ -81.2189, 44.7061 ],
-							[ -81.273, 44.7035 ],
-							[ -81.2898, 44.7041 ],
-							[ -82.3729, 44.7096 ],
-							[ -82.1227, 43.5911 ],
-							[ -82.4137, 43.0113 ],
-							[ -82.4333, 43.013 ],
-							[ -82.4458, 42.968 ],
-							[ -82.4738, 42.9437 ],
-							[ -82.5023, 42.8107 ],
-							[ -82.4853, 42.7674 ],
-							[ -82.5316, 42.6712 ],
-							[ -82.5333, 42.6465 ],
-							[ -82.5465, 42.63 ],
-							[ -82.5309, 42.6192 ],
-							[ -82.5258, 42.6151 ],
-							[ -82.5225, 42.6139 ],
-							[ -82.5199, 42.6123 ],
-							[ -82.5175, 42.6108 ],
-							[ -82.5154, 42.6095 ],
-							[ -82.4895, 42.6303 ]
+							[ -83.2803, 76.6381 ],
+							[ -83.138, 76.5178 ],
+							[ -83.1615, 76.298 ],
+							[ -82.0595, 76.2612 ],
+							[ -82.1153, 76.5344 ],
+							[ -82.072, 76.5808 ],
+							[ -82.4546, 76.6269 ],
+							[ -83.2803, 76.6381 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Waterspout Watch In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Waterspout",
+				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 1, 2020 21:15",
-				"Expires_UTC" : "October 2, 2020 13:14",
-				"Summary" : "Description: Conditions are favourable for the development of waterspouts.\n\nWaterspouts are possible over southern Lake Huron through Friday afternoon.  Waterspouts are most likely over Lake Huron this evening into Friday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-02T13:14:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T21:15:12-00:00, urn:oid:2.49.0.1.124.0992329203.2020<br>Area: Southern Lake Huron",
+				"LastUpdate_UTC" : "October 2, 2020 03:24",
+				"Expires_UTC" : "October 2, 2020 17:22",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nStrong northerly winds with gusts to 90 km/h are expected overnight tonight. The strong wind gusts are expected to weaken Friday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-10-02T17:22:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T03:24:24-00:00, urn:oid:2.49.0.1.124.0768837159.2020<br>Area: Grise Fiord",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.0992329203.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T21_15_12_00_00Iurn_oid_2.49.0.1.124.0992329203.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.0768837159.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T03_24_24_00_00Iurn_oid_2.49.0.1.124.0768837159.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201002131412+00:00"
+				"Expires_FMEFormat" : "20201002172224+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 2, 2020 01:17",
+				"Expires_UTC" : "October 2, 2020 17:16",
+				"Summary" : "Description: Significant rainfall possible to start the weekend.\n\nTotal rainfall: 30 to 50 mm with locally higher amounts possible.\n\nLocations: southern Avalon Peninsula.\n\nTime span: Friday afternoon to Saturday morning.\n\nRemarks: Periods of rain or scattered showers will continue tonight into Friday before heavier rain moves into the area Friday afternoon. Some forecast guidance indicates that total rainfall amounts of 50 mm or more may occur before rain tapers to scattered showers Saturday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-02T17:16:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T01:17:47-00:00, urn:oid:2.49.0.1.124.0366730378.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.0366730378.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T01_17_47_00_00Iurn_oid_2.49.0.1.124.0366730378.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201002171647+00:00"
 			}
 		},
 		{
@@ -499,6 +472,74 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T21_24_58_00_00Iurn_oid_2.49.0.1.124.3025750116.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201002064458+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.4895, 42.6303 ],
+							[ -82.4679, 42.7047 ],
+							[ -82.4354, 42.7602 ],
+							[ -82.4526, 42.8271 ],
+							[ -82.3823, 43.0052 ],
+							[ -82.2082, 43.0182 ],
+							[ -82.1082, 43.0488 ],
+							[ -81.9831, 43.1746 ],
+							[ -81.7126, 43.2738 ],
+							[ -81.6524, 43.4006 ],
+							[ -81.6417, 43.8003 ],
+							[ -81.6693, 44.0654 ],
+							[ -81.4092, 44.3362 ],
+							[ -81.2158, 44.5146 ],
+							[ -81.2189, 44.7061 ],
+							[ -81.273, 44.7035 ],
+							[ -81.2898, 44.7041 ],
+							[ -82.3729, 44.7096 ],
+							[ -82.1227, 43.5911 ],
+							[ -82.4137, 43.0113 ],
+							[ -82.4333, 43.013 ],
+							[ -82.4458, 42.968 ],
+							[ -82.4738, 42.9437 ],
+							[ -82.5023, 42.8107 ],
+							[ -82.4853, 42.7674 ],
+							[ -82.5316, 42.6712 ],
+							[ -82.5333, 42.6465 ],
+							[ -82.5465, 42.63 ],
+							[ -82.5309, 42.6192 ],
+							[ -82.5258, 42.6151 ],
+							[ -82.5225, 42.6139 ],
+							[ -82.5199, 42.6123 ],
+							[ -82.5175, 42.6108 ],
+							[ -82.5154, 42.6095 ],
+							[ -82.4895, 42.6303 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Waterspout Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Waterspout",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 1, 2020 21:15",
+				"Expires_UTC" : "October 2, 2020 13:14",
+				"Summary" : "Description: Conditions are favourable for the development of waterspouts.\n\nWaterspouts are possible over southern Lake Huron through Friday afternoon.  Waterspouts are most likely over Lake Huron this evening into Friday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-02T13:14:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-01T21:15:12-00:00, urn:oid:2.49.0.1.124.0992329203.2020<br>Area: Southern Lake Huron",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-01:feed.atom/urn:oid:2.49.0.1.124.0992329203.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-01/2020_10_01T21_15_12_00_00Iurn_oid_2.49.0.1.124.0992329203.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201002131412+00:00"
 			}
 		}
 	]
