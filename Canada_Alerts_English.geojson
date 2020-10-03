@@ -99,48 +99,52 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
+							[ -74.7194, 46.1675 ],
+							[ -74.7495, 46.9987 ],
+							[ -74.7495, 46.9999 ],
+							[ -75.2722, 47.0065 ],
+							[ -75.8328, 46.9998 ],
+							[ -76.3327, 46.6332 ],
+							[ -75.3789, 46.3624 ],
+							[ -74.7194, 46.1675 ]
+						]
+					],
+					[
+						[
+							[ -74.7194, 46.1675 ],
+							[ -74.6995, 45.8 ],
+							[ -74.3484, 45.8011 ],
+							[ -74.1664, 45.801 ],
+							[ -74.1664, 45.8498 ],
+							[ -73.9758, 45.8477 ],
+							[ -73.8164, 45.8498 ],
+							[ -73.9497, 46.1998 ],
+							[ -74.3173, 46.1852 ],
+							[ -74.7194, 46.1675 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"Title" : "Frost Advisory In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Frost",
 				"urgency" : "Future",
 				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 2, 2020 14:21",
-				"Expires_UTC" : "October 3, 2020 06:20",
-				"Summary" : "Description: Significant rainfall to start the weekend.\n\nTotal rainfall: 30 to 45 mm with locally higher amounts possible.\n\nLocations: southern Avalon Peninsula.\n\nTime span: this afternoon until midday Saturday.\n\nRemarks: Scattered showers will give way to steady rain this afternoon and will become heavy at times tonight. Some forecast guidance indicates that total rainfall amounts of 50 mm or more may occur before rain tapers to scattered showers midday Saturday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-03T06:20:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T14:21:37-00:00, urn:oid:2.49.0.1.124.1116207899.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 2, 2020 19:48",
+				"Expires_UTC" : "October 3, 2020 11:47",
+				"Summary" : "Description: Frost may damage some crops in areas prone to frost overnight tonight. Conditions will again be favourable to frost formation Saturday night.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-10-03T11:47:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T19:48:25-00:00, urn:oid:2.49.0.1.124.1379471515.2020<br>Area: Mont-Laurier area, La Minerve - Rouge River area, Mont-Tremblant - Sainte-Agathe area, Sainte-Adèle - Saint-Sauveur area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.1116207899.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T14_21_37_00_00Iurn_oid_2.49.0.1.124.1116207899.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.1379471515.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T19_48_25_00_00Iurn_oid_2.49.0.1.124.1379471515.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201003062037+00:00"
+				"Expires_FMEFormat" : "20201003114725+00:00"
 			}
 		},
 		{
@@ -294,61 +298,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T23_16_41_00_00Iurn_oid_2.49.0.1.124.4078221004.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201003145241+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.7194, 46.1675 ],
-							[ -74.7495, 46.9987 ],
-							[ -74.7495, 46.9999 ],
-							[ -75.2722, 47.0065 ],
-							[ -75.8328, 46.9998 ],
-							[ -76.3327, 46.6332 ],
-							[ -75.3789, 46.3624 ],
-							[ -74.7194, 46.1675 ]
-						]
-					],
-					[
-						[
-							[ -74.7194, 46.1675 ],
-							[ -74.6995, 45.8 ],
-							[ -74.3484, 45.8011 ],
-							[ -74.1664, 45.801 ],
-							[ -74.1664, 45.8498 ],
-							[ -73.9758, 45.8477 ],
-							[ -73.8164, 45.8498 ],
-							[ -73.9497, 46.1998 ],
-							[ -74.3173, 46.1852 ],
-							[ -74.7194, 46.1675 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Frost Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Frost",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 2, 2020 19:48",
-				"Expires_UTC" : "October 3, 2020 11:47",
-				"Summary" : "Description: Frost may damage some crops in areas prone to frost overnight tonight. Conditions will again be favourable to frost formation Saturday night.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-10-03T11:47:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T19:48:25-00:00, urn:oid:2.49.0.1.124.1379471515.2020<br>Area: Mont-Laurier area, La Minerve - Rouge River area, Mont-Tremblant - Sainte-Agathe area, Sainte-Adèle - Saint-Sauveur area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.1379471515.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T19_48_25_00_00Iurn_oid_2.49.0.1.124.1379471515.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201003114725+00:00"
 			}
 		},
 		{
@@ -1076,6 +1025,74 @@
 				"coordinates" : [
 					[
 						[
+							[ -82.4895, 42.6303 ],
+							[ -82.4679, 42.7047 ],
+							[ -82.4354, 42.7602 ],
+							[ -82.4526, 42.8271 ],
+							[ -82.3823, 43.0052 ],
+							[ -82.2082, 43.0182 ],
+							[ -82.1082, 43.0488 ],
+							[ -81.9831, 43.1746 ],
+							[ -81.7126, 43.2738 ],
+							[ -81.6524, 43.4006 ],
+							[ -81.6417, 43.8003 ],
+							[ -81.6693, 44.0654 ],
+							[ -81.4092, 44.3362 ],
+							[ -81.2158, 44.5146 ],
+							[ -81.2189, 44.7061 ],
+							[ -81.273, 44.7035 ],
+							[ -81.2898, 44.7041 ],
+							[ -82.3729, 44.7096 ],
+							[ -82.1227, 43.5911 ],
+							[ -82.4137, 43.0113 ],
+							[ -82.4333, 43.013 ],
+							[ -82.4458, 42.968 ],
+							[ -82.4738, 42.9437 ],
+							[ -82.5023, 42.8107 ],
+							[ -82.4853, 42.7674 ],
+							[ -82.5316, 42.6712 ],
+							[ -82.5333, 42.6465 ],
+							[ -82.5465, 42.63 ],
+							[ -82.5309, 42.6192 ],
+							[ -82.5258, 42.6151 ],
+							[ -82.5225, 42.6139 ],
+							[ -82.5199, 42.6123 ],
+							[ -82.5175, 42.6108 ],
+							[ -82.5154, 42.6095 ],
+							[ -82.4895, 42.6303 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Waterspout Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Waterspout",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 2, 2020 23:00",
+				"Expires_UTC" : "October 3, 2020 14:59",
+				"Summary" : "Description: Conditions are favourable for the development of waterspouts.\n\nWaterspout activity is expected to continue over southern Lake Huron through Saturday afternoon. Conditions will become less favourable for waterspout development late Saturday morning, though an isolated waterspout is still possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-03T14:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T23:00:54-00:00, urn:oid:2.49.0.1.124.1430065952.2020<br>Area: Southern Lake Huron",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.1430065952.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T23_00_54_00_00Iurn_oid_2.49.0.1.124.1430065952.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201003145954+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -123.4872, 54.615 ],
 							[ -123.9108, 55.067 ],
 							[ -124.1479, 55.2006 ],
@@ -1244,74 +1261,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-03/2020_10_03T06_16_03_00_00Iurn_oid_2.49.0.1.124.3688684509.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201003221503+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.4895, 42.6303 ],
-							[ -82.4679, 42.7047 ],
-							[ -82.4354, 42.7602 ],
-							[ -82.4526, 42.8271 ],
-							[ -82.3823, 43.0052 ],
-							[ -82.2082, 43.0182 ],
-							[ -82.1082, 43.0488 ],
-							[ -81.9831, 43.1746 ],
-							[ -81.7126, 43.2738 ],
-							[ -81.6524, 43.4006 ],
-							[ -81.6417, 43.8003 ],
-							[ -81.6693, 44.0654 ],
-							[ -81.4092, 44.3362 ],
-							[ -81.2158, 44.5146 ],
-							[ -81.2189, 44.7061 ],
-							[ -81.273, 44.7035 ],
-							[ -81.2898, 44.7041 ],
-							[ -82.3729, 44.7096 ],
-							[ -82.1227, 43.5911 ],
-							[ -82.4137, 43.0113 ],
-							[ -82.4333, 43.013 ],
-							[ -82.4458, 42.968 ],
-							[ -82.4738, 42.9437 ],
-							[ -82.5023, 42.8107 ],
-							[ -82.4853, 42.7674 ],
-							[ -82.5316, 42.6712 ],
-							[ -82.5333, 42.6465 ],
-							[ -82.5465, 42.63 ],
-							[ -82.5309, 42.6192 ],
-							[ -82.5258, 42.6151 ],
-							[ -82.5225, 42.6139 ],
-							[ -82.5199, 42.6123 ],
-							[ -82.5175, 42.6108 ],
-							[ -82.5154, 42.6095 ],
-							[ -82.4895, 42.6303 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Waterspout Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Waterspout",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 2, 2020 23:00",
-				"Expires_UTC" : "October 3, 2020 14:59",
-				"Summary" : "Description: Conditions are favourable for the development of waterspouts.\n\nWaterspout activity is expected to continue over southern Lake Huron through Saturday afternoon. Conditions will become less favourable for waterspout development late Saturday morning, though an isolated waterspout is still possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-03T14:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-02T23:00:54-00:00, urn:oid:2.49.0.1.124.1430065952.2020<br>Area: Southern Lake Huron",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-02:feed.atom/urn:oid:2.49.0.1.124.1430065952.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-02/2020_10_02T23_00_54_00_00Iurn_oid_2.49.0.1.124.1430065952.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201003145954+00:00"
 			}
 		}
 	]
