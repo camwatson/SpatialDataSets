@@ -63,63 +63,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.0126, 48.1917 ],
-							[ -70.5609, 48.0539 ],
-							[ -70.1357, 47.9471 ],
-							[ -69.8631, 47.8597 ],
-							[ -69.7836, 47.82 ],
-							[ -69.7113, 47.9448 ],
-							[ -69.4699, 48.2224 ],
-							[ -69.8095, 48.4184 ],
-							[ -70.2496, 48.6665 ],
-							[ -71.3493, 48.9995 ],
-							[ -72.0253, 48.7159 ],
-							[ -72.0278, 48.7149 ],
-							[ -72.0284, 48.7145 ],
-							[ -72.0383, 48.7099 ],
-							[ -72.3088, 48.7148 ],
-							[ -72.3178, 48.7149 ],
-							[ -72.3411, 48.7419 ],
-							[ -72.4163, 48.7498 ],
-							[ -72.5997, 48.7665 ],
-							[ -73.0002, 48.6669 ],
-							[ -72.0026, 48.2497 ],
-							[ -72.0026, 48.2499 ],
-							[ -71.5524, 48.3338 ],
-							[ -71.0126, 48.1917 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Frost Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Frost",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 5, 2020 03:41",
-				"Expires_UTC" : "October 5, 2020 13:59",
-				"Summary" : "Description: Frost may damage some crops in areas prone to frost overnight Sunday.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-10-05T13:59:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-05T03:41:32-00:00, urn:oid:2.49.0.1.124.3918209778.2020<br>Area: Alma - Desbiens area, Saint-Félicien - Roberval area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-05:feed.atom/urn:oid:2.49.0.1.124.3918209778.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-05/2020_10_05T03_41_32_00_00Iurn_oid_2.49.0.1.124.3918209778.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201005135932+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -80.7143, 42.5948 ],
 							[ -80.6074, 42.5635 ],
 							[ -80.3658, 42.5585 ],
@@ -226,6 +169,63 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-05/2020_10_05T08_23_53_00_00Iurn_oid_2.49.0.1.124.1774072128.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201005165953+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.0126, 48.1917 ],
+							[ -70.5609, 48.0539 ],
+							[ -70.1357, 47.9471 ],
+							[ -69.8631, 47.8597 ],
+							[ -69.7836, 47.82 ],
+							[ -69.7113, 47.9448 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.8095, 48.4184 ],
+							[ -70.2496, 48.6665 ],
+							[ -71.3493, 48.9995 ],
+							[ -72.0253, 48.7159 ],
+							[ -72.0278, 48.7149 ],
+							[ -72.0284, 48.7145 ],
+							[ -72.0383, 48.7099 ],
+							[ -72.3088, 48.7148 ],
+							[ -72.3178, 48.7149 ],
+							[ -72.3411, 48.7419 ],
+							[ -72.4163, 48.7498 ],
+							[ -72.5997, 48.7665 ],
+							[ -73.0002, 48.6669 ],
+							[ -72.0026, 48.2497 ],
+							[ -72.0026, 48.2499 ],
+							[ -71.5524, 48.3338 ],
+							[ -71.0126, 48.1917 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Frost Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Frost",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 5, 2020 08:48",
+				"Expires_UTC" : "October 5, 2020 09:48",
+				"Summary" : "Description: Widespread frost is no longer expected.\n\n###<br>Expires: 2020-10-05T09:48:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-05T08:48:19-00:00, urn:oid:2.49.0.1.124.1386692154.2020<br>Area: Alma - Desbiens area, Saint-Félicien - Roberval area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-05:feed.atom/urn:oid:2.49.0.1.124.1386692154.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-05/2020_10_05T08_48_19_00_00Iurn_oid_2.49.0.1.124.1386692154.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201005094819+00:00"
 			}
 		}
 	]
