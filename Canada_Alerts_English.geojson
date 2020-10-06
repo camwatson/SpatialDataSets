@@ -795,25 +795,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 6, 2020 08:31",
-				"Expires_UTC" : "October 7, 2020 00:30",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nA disturbance intensifying near Southampton Island will bring strong winds and wet snow to the Sanirajak (Hall Beach) region. \n\nEasterly winds of 40 gusting to 60 km/h early this morning will increase throughout the day with gusts near 90 km/h developing later this afternoon. Northeasterly winds of 60 gusting to 90 km/h will persist for much of tonight before moderating slightly but remaining strong on Wednesday. The system will continue to weaken on Thursday with winds gradually diminishing into the 30 gusting to 50 km/h range by Thursday afternoon.\n\nIn addition to the strong winds, wet snow and blowing snow will accompany this system. With surface temperatures hovering around the zero mark snowfall amounts will be difficult to predict as some of the precipitation will melt with ground contact. At this time total snowfall amounts of 10 to 15 cm are expected for today, tonight and Wednesday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-10-07T00:30:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-06T08:31:06-00:00, urn:oid:2.49.0.1.124.1442161222.2020<br>Area: Hall Beach",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 6, 2020 19:34",
+				"Expires_UTC" : "October 6, 2020 20:34",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-10-06T20:34:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-06T19:34:24-00:00, urn:oid:2.49.0.1.124.0870171634.2020<br>Area: Hall Beach",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-06:feed.atom/urn:oid:2.49.0.1.124.1442161222.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-06/2020_10_06T08_31_06_00_00Iurn_oid_2.49.0.1.124.1442161222.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-06:feed.atom/urn:oid:2.49.0.1.124.0870171634.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-06/2020_10_06T19_34_24_00_00Iurn_oid_2.49.0.1.124.0870171634.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201007003006+00:00"
+				"Expires_FMEFormat" : "20201006203424+00:00"
 			}
 		},
 		{
@@ -1036,6 +1036,64 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-06/2020_10_06T19_16_08_00_00Iurn_oid_2.49.0.1.124.1966360473.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201007111508+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.411, 69.4413 ],
+							[ -82.4142, 69.3021 ],
+							[ -82.1715, 69.1889 ],
+							[ -81.8079, 69.1512 ],
+							[ -81.435, 69.199 ],
+							[ -81.4236, 69.3283 ],
+							[ -81.4161, 69.4318 ],
+							[ -81.817, 69.4695 ],
+							[ -81.9506, 69.4089 ],
+							[ -82.2197, 69.405 ],
+							[ -82.3907, 69.4415 ],
+							[ -82.411, 69.4413 ]
+						]
+					],
+					[
+						[
+							[ -81.8004, 68.8639 ],
+							[ -81.8335, 68.7595 ],
+							[ -81.7346, 68.6648 ],
+							[ -81.5301, 68.5966 ],
+							[ -81.0418, 68.5342 ],
+							[ -81.0006, 68.5737 ],
+							[ -81.0228, 68.9232 ],
+							[ -81.723, 68.9232 ],
+							[ -81.8004, 68.8639 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 6, 2020 19:33",
+				"Expires_UTC" : "October 7, 2020 11:32",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nAn intense low pressure system near Southampton Island will bring a mix of heavy snow, strong winds and blowing snow to Sanirajak and Igloolik over the coming days.  \n\nWet snow will continue over the next several days with total amounts of 15 to 25 cm possible by Thursday morning, although melting may limit major accumulations.\n\nStrong easterly winds with gusts possibly exceeding 90 km/h will develop this afternoon and persist through the night before easing slightly on Wednesday and even more so by Thursday.\n\nSignificantly reduced visibilities will accompany the snow and strong winds, at times reduced to 800 meters or less.\n\nOverall improvement in conditions can be expected on Thursday morning.\n\nThis Winter Storm Warning replaces the Wind Warning for Sanirajak.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-10-07T11:32:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-06T19:33:45-00:00, urn:oid:2.49.0.1.124.1243442647.2020<br>Area: Hall Beach, Igloolik",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-06:feed.atom/urn:oid:2.49.0.1.124.1243442647.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-06/2020_10_06T19_33_45_00_00Iurn_oid_2.49.0.1.124.1243442647.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201007113245+00:00"
 			}
 		}
 	]
