@@ -9,6 +9,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.0792, 47.826 ],
+							[ -54.0697, 47.8335 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 6, 2020 07:56",
+				"Expires_UTC" : "October 6, 2020 23:55",
+				"Summary" : "Description: Significant rainfall is expected.\n\nLocations: Burin Peninsula to Connaigre.\n\nTotal rainfall: possibly exceeding 50 mm.\n\nTime span: Wednesday evening until Thursday evening.\n\nRemarks: Periods of rain will develop on Wednesday evening and likely become heavy, at times, overnight. The rain is expected to taper off late on Thursday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-06T23:55:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-06T07:56:06-00:00, urn:oid:2.49.0.1.124.3940581966.2020<br>Area: Burin Peninsula, Connaigre",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-06:feed.atom/urn:oid:2.49.0.1.124.3940581966.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-06/2020_10_06T07_56_06_00_00Iurn_oid_2.49.0.1.124.3940581966.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201006235506+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -103.2553, 49.3073 ],
 							[ -103.2552, 49.3116 ],
 							[ -103.2508, 49.3116 ],
@@ -42,6 +90,50 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-05/2020_10_05T15_42_53_06_00I991282C0_DF0C_EDC8_E067_A50A199C3770.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201014120000-06:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.6944, 62.0492 ],
+							[ -122.9055, 62.3157 ],
+							[ -122.2057, 62.573 ],
+							[ -123.9869, 64.6194 ],
+							[ -124.3405, 64.5073 ],
+							[ -124.7031, 64.3708 ],
+							[ -124.7448, 64.3563 ],
+							[ -125.079, 64.2453 ],
+							[ -125.4256, 64.1122 ],
+							[ -124.6054, 63.0998 ],
+							[ -123.6944, 62.0492 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 5, 2020 18:22",
+				"Expires_UTC" : "October 6, 2020 10:21",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog has settled in the Wrigley region today. Fog and patchy fog is expected to persist until tomorrow morning.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-10-06T10:21:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-05T18:22:14-00:00, urn:oid:2.49.0.1.124.1191080629.2020<br>Area: Wrigley Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-05:feed.atom/urn:oid:2.49.0.1.124.1191080629.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-05/2020_10_05T18_22_14_00_00Iurn_oid_2.49.0.1.124.1191080629.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201006102114+00:00"
 			}
 		},
 		{
@@ -92,50 +184,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-06/2020_10_06T07_55_30_00_00Iurn_oid_2.49.0.1.124.0810251076.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201006235430+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.6944, 62.0492 ],
-							[ -122.9055, 62.3157 ],
-							[ -122.2057, 62.573 ],
-							[ -123.9869, 64.6194 ],
-							[ -124.3405, 64.5073 ],
-							[ -124.7031, 64.3708 ],
-							[ -124.7448, 64.3563 ],
-							[ -125.079, 64.2453 ],
-							[ -125.4256, 64.1122 ],
-							[ -124.6054, 63.0998 ],
-							[ -123.6944, 62.0492 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 5, 2020 18:22",
-				"Expires_UTC" : "October 6, 2020 10:21",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog has settled in the Wrigley region today. Fog and patchy fog is expected to persist until tomorrow morning.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-10-06T10:21:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-05T18:22:14-00:00, urn:oid:2.49.0.1.124.1191080629.2020<br>Area: Wrigley Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-05:feed.atom/urn:oid:2.49.0.1.124.1191080629.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-05/2020_10_05T18_22_14_00_00Iurn_oid_2.49.0.1.124.1191080629.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201006102114+00:00"
 			}
 		}
 	]
