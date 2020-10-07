@@ -406,60 +406,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -76.5159, 44.0963 ],
-							[ -76.5796, 44.162 ],
-							[ -76.5882, 44.1816 ],
-							[ -76.6037, 44.2131 ],
-							[ -76.5919, 44.2558 ],
-							[ -76.7176, 44.243 ],
-							[ -76.8717, 44.1537 ],
-							[ -76.8926, 44.2175 ],
-							[ -77.0582, 44.2296 ],
-							[ -77.4108, 44.2078 ],
-							[ -77.6138, 44.1434 ],
-							[ -77.6392, 44.0745 ],
-							[ -77.729, 44.0845 ],
-							[ -77.8441, 44.0509 ],
-							[ -77.8409, 43.9912 ],
-							[ -77.8417, 43.6548 ],
-							[ -77.8418, 43.6361 ],
-							[ -76.7966, 43.6311 ],
-							[ -76.455, 44.0731 ],
-							[ -76.4895, 44.0862 ],
-							[ -76.5159, 44.0963 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Squall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 7, 2020 17:18",
-				"Expires_UTC" : "October 7, 2020 18:18",
-				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-10-07T18:18:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-07T17:18:36-00:00, urn:oid:2.49.0.1.124.3732927936.2020<br>Area: Eastern Lake Ontario",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-07:feed.atom/urn:oid:2.49.0.1.124.3732927936.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T17_18_36_00_00Iurn_oid_2.49.0.1.124.3732927936.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201007181836+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -75.3692, 44.8253 ],
 							[ -75.4329, 44.7973 ],
 							[ -75.5821, 44.6966 ],
@@ -526,25 +472,79 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Minor",
-				"Title" : "Squall Watch Ended",
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Squall Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 7, 2020 17:19",
-				"Expires_UTC" : "October 7, 2020 18:19",
-				"Summary" : "Description: Squalls are no longer expected over the area.\n\n\n###<br>Expires: 2020-10-07T18:19:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-07T17:19:56-00:00, urn:oid:2.49.0.1.124.1787041353.2020<br>Area: Eastern Lake Ontario, Prescott to Cornwall, Kingston to Prescott",
+				"urgency" : "Expected",
+				"certainty" : "Possible",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "October 7, 2020 15:01",
+				"Expires_UTC" : "October 7, 2020 22:59",
+				"Summary" : "Description: Squalls to 50 knots and hail to 2 cm in diameter are possible from thunderstorms that will move over the waters this afternoon.\n\nThe threat will diminish later this afternoon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-07T22:59:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-07T15:01:48-00:00, urn:oid:2.49.0.1.124.3537292156.2020<br>Area: Eastern Lake Ontario, Prescott to Cornwall, Kingston to Prescott",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-07:feed.atom/urn:oid:2.49.0.1.124.1787041353.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T17_19_56_00_00Iurn_oid_2.49.0.1.124.1787041353.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-07:feed.atom/urn:oid:2.49.0.1.124.3537292156.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T15_01_48_00_00Iurn_oid_2.49.0.1.124.3537292156.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201007181956+00:00"
+				"Expires_FMEFormat" : "20201007225948+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.5159, 44.0963 ],
+							[ -76.5796, 44.162 ],
+							[ -76.5882, 44.1816 ],
+							[ -76.6037, 44.2131 ],
+							[ -76.5919, 44.2558 ],
+							[ -76.7176, 44.243 ],
+							[ -76.8717, 44.1537 ],
+							[ -76.8926, 44.2175 ],
+							[ -77.0582, 44.2296 ],
+							[ -77.4108, 44.2078 ],
+							[ -77.6138, 44.1434 ],
+							[ -77.6392, 44.0745 ],
+							[ -77.729, 44.0845 ],
+							[ -77.8441, 44.0509 ],
+							[ -77.8409, 43.9912 ],
+							[ -77.8417, 43.6548 ],
+							[ -77.8418, 43.6361 ],
+							[ -76.7966, 43.6311 ],
+							[ -76.455, 44.0731 ],
+							[ -76.4895, 44.0862 ],
+							[ -76.5159, 44.0963 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "October 7, 2020 16:42",
+				"Expires_UTC" : "October 7, 2020 19:01",
+				"Summary" : "Description: Squalls with wind gusts up to 50 knots and frequent lightning are expected or occurring in the area.\n\nA line of thunderstorms south of Point Petre will move southeast across the waters into the United States by 1:30 pm. Squalls to 50 knots are possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-07T19:01:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-07T16:42:46-00:00, urn:oid:2.49.0.1.124.1705920090.2020<br>Area: Eastern Lake Ontario",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-07:feed.atom/urn:oid:2.49.0.1.124.1705920090.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T16_42_46_00_00Iurn_oid_2.49.0.1.124.1705920090.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201007190146+00:00"
 			}
 		},
 		{
