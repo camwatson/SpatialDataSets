@@ -160,66 +160,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 6, 2020 13:08",
-				"Expires_UTC" : "October 7, 2020 05:07",
-				"Summary" : "Description: Significant rainfall is expected.\n\nLocations: Channel-Port aux Basques to Burin Peninsula.\n\nTotal rainfall: possibly exceeding 50 mm.\n\nTime span: Wednesday morning until Thursday evening.\n\nRemarks: Periods of rain will develop in the southwest on Wednesday morning and spread eastwards during the day, becoming heavy, at times, on Wednesday night. The rain is expected to taper off late on Thursday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-07T05:07:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-06T13:08:14-00:00, urn:oid:2.49.0.1.124.2744596928.2020<br>Area: Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-06:feed.atom/urn:oid:2.49.0.1.124.2744596928.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-06/2020_10_06T13_08_14_00_00Iurn_oid_2.49.0.1.124.2744596928.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201007050714+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -104.5968, 52.4051 ],
 							[ -104.5016, 52.4056 ],
 							[ -104.5016, 52.4324 ],
@@ -264,6 +204,77 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-06/2020_10_06T12_47_06_06_00IA9A05D3F_DCE8_C410_427B_AEF4D19DDE2C.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201020090000-06:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 7, 2020 01:40",
+				"Expires_UTC" : "October 7, 2020 17:39",
+				"Summary" : "Description: Significant rainfall is expected.\n\nLocations: south coast of Newfoundland.\n\nTotal rainfall: Generally 20 to 40 mm with the possibility of exceeding 50 mm in some areas.\n\nTime span: Wednesday morning until Thursday evening.\n\nRemarks: Periods of rain will develop in the southwest on Wednesday morning and spread eastwards during the day, becoming heavy at times on Wednesday night. The rain is expected to taper off late on Thursday.\n\nAt this time, there is considerable uncertainty as to where the highest rainfall totals will occur.  Rainfall warnings may be required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-07T17:39:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-07T01:40:40-00:00, urn:oid:2.49.0.1.124.4021540053.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-07:feed.atom/urn:oid:2.49.0.1.124.4021540053.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T01_40_40_00_00Iurn_oid_2.49.0.1.124.4021540053.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201007173940+00:00"
 			}
 		},
 		{
@@ -426,77 +437,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T01_41_51_00_00Iurn_oid_2.49.0.1.124.0327030812.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201007174051+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 7, 2020 01:40",
-				"Expires_UTC" : "October 7, 2020 17:39",
-				"Summary" : "Description: Significant rainfall is expected.\n\nLocations: south coast of Newfoundland.\n\nTotal rainfall: Generally 20 to 40 mm with the possibility of exceeding 50 mm in some areas.\n\nTime span: Wednesday morning until Thursday evening.\n\nRemarks: Periods of rain will develop in the southwest on Wednesday morning and spread eastwards during the day, becoming heavy at times on Wednesday night. The rain is expected to taper off late on Thursday.\n\nAt this time, there is considerable uncertainty as to where the highest rainfall totals will occur.  Rainfall warnings may be required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-07T17:39:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-07T01:40:40-00:00, urn:oid:2.49.0.1.124.4021540053.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-07:feed.atom/urn:oid:2.49.0.1.124.4021540053.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T01_40_40_00_00Iurn_oid_2.49.0.1.124.4021540053.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201007173940+00:00"
 			}
 		},
 		{
