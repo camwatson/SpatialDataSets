@@ -754,77 +754,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 7, 2020 13:34",
-				"Expires_UTC" : "October 8, 2020 05:33",
-				"Summary" : "Description: Significant rainfall is expected.\n\nLocations: south coast of Newfoundland.\n\nTotal rainfall: Generally 20 to 40 mm with the possibility of exceeding 50 mm in some areas.\n\nTime span: today until Thursday evening.\n\nRemarks: Periods of rain this morning will become heavy at times today and tonight. The rain is expected to taper off late on Thursday.\n\nAt this time, there remains some uncertainty on the total rainfall amount over the inland portions of the southwest.  Rainfall warnings may be required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-08T05:33:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-07T13:34:43-00:00, urn:oid:2.49.0.1.124.2845785006.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-07:feed.atom/urn:oid:2.49.0.1.124.2845785006.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T13_34_43_00_00Iurn_oid_2.49.0.1.124.2845785006.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201008053343+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -75.3692, 44.8253 ],
 							[ -75.4329, 44.7973 ],
 							[ -75.5821, 44.6966 ],
@@ -1030,6 +959,77 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T14_41_52_00_00Iurn_oid_2.49.0.1.124.3345420434.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201008035952+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 7, 2020 13:34",
+				"Expires_UTC" : "October 8, 2020 05:33",
+				"Summary" : "Description: Significant rainfall is expected.\n\nLocations: south coast of Newfoundland.\n\nTotal rainfall: Generally 20 to 40 mm with the possibility of exceeding 50 mm in some areas.\n\nTime span: today until Thursday evening.\n\nRemarks: Periods of rain this morning will become heavy at times today and tonight. The rain is expected to taper off late on Thursday.\n\nAt this time, there remains some uncertainty on the total rainfall amount over the inland portions of the southwest.  Rainfall warnings may be required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-08T05:33:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-07T13:34:43-00:00, urn:oid:2.49.0.1.124.2845785006.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-07:feed.atom/urn:oid:2.49.0.1.124.2845785006.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-07/2020_10_07T13_34_43_00_00Iurn_oid_2.49.0.1.124.2845785006.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201008053343+00:00"
 			}
 		},
 		{
