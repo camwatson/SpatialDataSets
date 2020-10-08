@@ -9,6 +9,75 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -58.0061, 54.7317 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ]
+						]
+					],
+					[
+						[
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.0998, 53.0683 ],
+							[ -57.1137, 53.3384 ],
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.9432, 53.1171 ],
+							[ -60.0074, 53.0666 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.5825, 52.955 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 8, 2020 13:18",
+				"Expires_UTC" : "October 9, 2020 05:17",
+				"Summary" : "Description: An early season snowfall is expected.\n\nLocations: portions of central and northern Labrador.\n\nSnowfall amount: generally 5 to 10 cm with higher amounts likely inland and over higher terrain.\n\nTime span: this morning through Friday night. \n\nRemarks: The first accumulating snow of the season is expected to arrive today or tonight with the highest amounts over higher terrain. Precipitation will start as rain over many areas then change to, or mix with, snow later today or tonight.\n\nSurfaces such as highways, roads, and walkways may become difficult to navigate. Motorists should be prepared for winter driving conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-09T05:17:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T13:18:25-00:00, urn:oid:2.49.0.1.124.1109533322.2020<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity, Eagle River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.1109533322.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T13_18_25_00_00Iurn_oid_2.49.0.1.124.1109533322.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201009051725+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.7521, 48.9301 ],
 							[ -64.7559, 48.6496 ],
 							[ -64.2171, 48.6501 ],
@@ -50,61 +119,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T08_42_28_00_00Iurn_oid_2.49.0.1.124.1781666877.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201009004128+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -55.9388, 51.6058 ],
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 8, 2020 07:43",
-				"Expires_UTC" : "October 8, 2020 23:42",
-				"Summary" : "Description: Wet, windy and cold this weekend.\n\nLocation: West Coast of Newfoundland\n\nTime span: tonight through Friday night, with the possibility of another significant rainfall Saturday night.\n\nRemarks: An intensifying low pressure system is forecast to pass over western Newfoundland later today, and move into the Labrador Sea on Friday where it will remain nearly stationary through Saturday. Rain associated with this system will be light today, but intensify into heavier bands tonight as winds strengthen out of the northwest. Additional rainfall amounts of 30 to 40 are possible by Friday evening. \n\nLate tonight or early Friday morning, precipitation is expected to change to wet snow over higher terrain. Accumulations of 5 to 10 cm are possible on Friday over the highest terrain, but a light dusting of snow is also possible at lower elevations and driving could be impacted in some areas.\n\nAfter a reprieve from the wind and weather on Saturday afternoon, a second low pressure system is expected to pass through the Gulf of St. Lawrence Saturday night. While it is too early to predict rainfall amounts from this system, another significant rainfall seems likely during that period.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-08T23:42:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T07:43:50-00:00, urn:oid:2.49.0.1.124.0449001413.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.0449001413.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T07_43_50_00_00Iurn_oid_2.49.0.1.124.0449001413.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201008234250+00:00"
 			}
 		},
 		{
@@ -309,93 +323,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 8, 2020 07:48",
-				"Expires_UTC" : "October 8, 2020 23:47",
-				"Summary" : "Description: Locations: Churchill Falls and vicinity, Churchill Valley and Upper Lake Melville.\n\nTime span: today, tonight and Friday.\n\nRemarks: Rain is expected to change over to snow near noon today over Churchill Falls and vicinity. Rain is expected to change to snow this afternoon over Churchill Valley and tonight over Upper Lake Melville. The highest snowfall amounts are expected to be over higher terrain. Lower elevations are expected to receive 10 to 15 centimetres of snow and higher elevations 15 to 30 centimetres.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-08T23:47:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T07:48:13-00:00, urn:oid:2.49.0.1.124.1039057977.2020<br>Area: Upper Lake Melville, Churchill Valley, Churchill Falls and vicinity",
+				"LastUpdate_UTC" : "October 8, 2020 13:18",
+				"Expires_UTC" : "October 9, 2020 05:17",
+				"Summary" : "Description: Locations: Churchill Falls and vicinity, Churchill Valley and Upper Lake Melville.\n\nTime span: today, tonight and Friday.\n\nRemarks: Rain is expected to change over to snow near noon today over Churchill Falls and vicinity. Rain is expected to change to snow this afternoon over Churchill Valley and tonight over Upper Lake Melville. The highest snowfall amounts are expected to be over higher terrain. Lower elevations are expected to receive 10 to 15 centimetres of snow and higher elevations 15 to 30 centimetres.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-09T05:17:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T13:18:12-00:00, urn:oid:2.49.0.1.124.2822405556.2020<br>Area: Upper Lake Melville, Churchill Valley, Churchill Falls and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.1039057977.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T07_48_13_00_00Iurn_oid_2.49.0.1.124.1039057977.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.2822405556.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T13_18_12_00_00Iurn_oid_2.49.0.1.124.2822405556.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201008234713+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -65.2074, 53.2454 ],
-							[ -65.2929, 53.5562 ],
-							[ -65.9681, 53.3999 ],
-							[ -66.1928, 53.5357 ],
-							[ -66.573, 53.6494 ],
-							[ -66.9979, 53.6775 ],
-							[ -67.2095, 53.6577 ],
-							[ -67.2943, 53.6403 ],
-							[ -67.3901, 53.6205 ],
-							[ -67.395, 53.6189 ],
-							[ -67.4492, 53.6156 ],
-							[ -67.3262, 53.5041 ],
-							[ -67.1137, 53.4892 ],
-							[ -67.007, 53.4261 ],
-							[ -67.1111, 53.3398 ],
-							[ -67.04, 53.2782 ],
-							[ -67.0727, 53.1831 ],
-							[ -67.3159, 53.2211 ],
-							[ -67.4732, 53.1139 ],
-							[ -67.4197, 52.9835 ],
-							[ -67.4209, 52.8874 ],
-							[ -66.8589, 52.6151 ],
-							[ -66.6924, 52.6502 ],
-							[ -66.6736, 52.7242 ],
-							[ -66.5908, 52.7544 ],
-							[ -66.5774, 52.8755 ],
-							[ -66.4083, 52.9547 ],
-							[ -66.3918, 52.9252 ],
-							[ -66.4872, 52.8641 ],
-							[ -66.4128, 52.7531 ],
-							[ -66.5051, 52.6306 ],
-							[ -66.4317, 52.4229 ],
-							[ -66.563, 52.3541 ],
-							[ -66.5062, 52.2511 ],
-							[ -66.4625, 52.251 ],
-							[ -66.25, 52.3469 ],
-							[ -66.2111, 52.3643 ],
-							[ -65.9218, 52.5465 ],
-							[ -65.7644, 52.7401 ],
-							[ -65.7115, 52.991 ],
-							[ -65.736, 53.1 ],
-							[ -65.2074, 53.2454 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 8, 2020 13:17",
-				"Expires_UTC" : "October 9, 2020 01:59",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-09T01:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T13:17:56-00:00, urn:oid:2.49.0.1.124.3143060429.2020<br>Area: Labrador City and Wabush",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.3143060429.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T13_17_56_00_00Iurn_oid_2.49.0.1.124.3143060429.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201009015956+00:00"
+				"Expires_FMEFormat" : "20201009051712+00:00"
 			}
 		},
 		{
@@ -476,6 +415,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -55.9388, 51.6058 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 8, 2020 13:19",
+				"Expires_UTC" : "October 9, 2020 05:18",
+				"Summary" : "Description: Wet, windy and cold this weekend.\n\nLocation: West Coast of Newfoundland\n\nTime span: tonight through Friday night, with the possibility of another significant rainfall Saturday night.\n\nRemarks: An intensifying low pressure system is forecast to pass over western Newfoundland later today, and move into the Labrador Sea on Friday where it will remain nearly stationary through Saturday. Rain associated with this system will be light today, but intensify into heavier bands tonight as winds strengthen out of the northwest. Additional rainfall amounts of 30 to 40 are possible by Friday evening. \n\nLate tonight or early Friday morning, precipitation is expected to change to wet snow over higher terrain. Accumulations of 5 to 10 cm are possible on Friday over the highest terrain, but a light dusting of snow is also possible at lower elevations and driving could be impacted in some areas.\n\nAfter a reprieve from the wind and weather on Saturday afternoon, a second low pressure system is expected to pass through the Gulf of St. Lawrence Saturday night. While it is too early to predict rainfall amounts from this system, another significant rainfall seems likely during that period.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-09T05:18:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T13:19:05-00:00, urn:oid:2.49.0.1.124.3474584303.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George, Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.3474584303.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T13_19_05_00_00Iurn_oid_2.49.0.1.124.3474584303.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201009051805+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -61.7255, 47.1947 ],
 							[ -61.322, 47.5211 ],
 							[ -61.344, 47.8207 ],
@@ -542,16 +536,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 8, 2020 13:18",
+				"LastUpdate_UTC" : "October 8, 2020 13:19",
 				"Expires_UTC" : "October 9, 2020 05:18",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-09T05:18:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T13:18:40-00:00, urn:oid:2.49.0.1.124.1735609647.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nLocation: Port-aux-Basques and Vicinity\n\nMaximum wind gusts: northwesterly near 100 km/h\n\nTime span: late this evening and after midnight.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-09T05:18:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T13:19:40-00:00, urn:oid:2.49.0.1.124.1473560568.2020<br>Area: Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.1735609647.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T13_18_40_00_00Iurn_oid_2.49.0.1.124.1735609647.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.1473560568.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T13_19_40_00_00Iurn_oid_2.49.0.1.124.1473560568.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201009051840+00:00"
 			}
@@ -802,6 +796,81 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T08_41_58_00_00Iurn_oid_2.49.0.1.124.2524769225.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201009004058+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.2074, 53.2454 ],
+							[ -65.2929, 53.5562 ],
+							[ -65.9681, 53.3999 ],
+							[ -66.1928, 53.5357 ],
+							[ -66.573, 53.6494 ],
+							[ -66.9979, 53.6775 ],
+							[ -67.2095, 53.6577 ],
+							[ -67.2943, 53.6403 ],
+							[ -67.3901, 53.6205 ],
+							[ -67.395, 53.6189 ],
+							[ -67.4492, 53.6156 ],
+							[ -67.3262, 53.5041 ],
+							[ -67.1137, 53.4892 ],
+							[ -67.007, 53.4261 ],
+							[ -67.1111, 53.3398 ],
+							[ -67.04, 53.2782 ],
+							[ -67.0727, 53.1831 ],
+							[ -67.3159, 53.2211 ],
+							[ -67.4732, 53.1139 ],
+							[ -67.4197, 52.9835 ],
+							[ -67.4209, 52.8874 ],
+							[ -66.8589, 52.6151 ],
+							[ -66.6924, 52.6502 ],
+							[ -66.6736, 52.7242 ],
+							[ -66.5908, 52.7544 ],
+							[ -66.5774, 52.8755 ],
+							[ -66.4083, 52.9547 ],
+							[ -66.3918, 52.9252 ],
+							[ -66.4872, 52.8641 ],
+							[ -66.4128, 52.7531 ],
+							[ -66.5051, 52.6306 ],
+							[ -66.4317, 52.4229 ],
+							[ -66.563, 52.3541 ],
+							[ -66.5062, 52.2511 ],
+							[ -66.4625, 52.251 ],
+							[ -66.25, 52.3469 ],
+							[ -66.2111, 52.3643 ],
+							[ -65.9218, 52.5465 ],
+							[ -65.7644, 52.7401 ],
+							[ -65.7115, 52.991 ],
+							[ -65.736, 53.1 ],
+							[ -65.2074, 53.2454 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 8, 2020 13:18",
+				"Expires_UTC" : "October 9, 2020 01:59",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nLocations: Labrador City and Wabush\n\nTime span: this morning until this evening.\n\nRemarks: Rain is expected to change to snow this morning and taper to flurries this evening. Snowfall accumulations are expected to vary considerably with elevation. Lower elevations are expected to receive 5 to 10 centimetres and higher elevations should receive 15 centimetres or possibly more.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-09T01:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T13:18:56-00:00, urn:oid:2.49.0.1.124.3392642287.2020<br>Area: Labrador City and Wabush",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.3392642287.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T13_18_56_00_00Iurn_oid_2.49.0.1.124.3392642287.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201009015956+00:00"
 			}
 		}
 	]
