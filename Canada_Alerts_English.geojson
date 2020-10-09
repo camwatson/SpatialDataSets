@@ -478,18 +478,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 8, 2020 22:43",
-				"Expires_UTC" : "October 9, 2020 14:42",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nA moist Pacific frontal system will approach the south coast on Friday bringing heavy rain to West Vancouver Island. The heavy rain will begin early Friday morning and continue through Friday night. Rainfall amounts of 100 to 120 mm are expected by Saturday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-10-09T14:42:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-08T22:43:01-00:00, urn:oid:2.49.0.1.124.0422190053.2020<br>Area: West Vancouver Island",
+				"LastUpdate_UTC" : "October 9, 2020 11:56",
+				"Expires_UTC" : "October 10, 2020 03:56",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-10-10T03:56:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-09T11:56:57-00:00, urn:oid:2.49.0.1.124.1629924604.2020<br>Area: West Vancouver Island",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-08:feed.atom/urn:oid:2.49.0.1.124.0422190053.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-08/2020_10_08T22_43_01_00_00Iurn_oid_2.49.0.1.124.0422190053.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-09:feed.atom/urn:oid:2.49.0.1.124.1629924604.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-09/2020_10_09T11_56_57_00_00Iurn_oid_2.49.0.1.124.1629924604.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201009144201+00:00"
+				"Expires_FMEFormat" : "20201010035657+00:00"
 			}
 		},
 		{
@@ -866,6 +866,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -58.0061, 54.7317 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 9, 2020 08:19",
+				"Expires_UTC" : "October 10, 2020 00:18",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: northwesterly 80 km/h, except 100 along parts of the coast.\n\nLocations: northern Labrador.\n\nTime span: this morning to Saturday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-10T00:18:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-09T08:19:20-00:00, urn:oid:2.49.0.1.124.1797996720.2020<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-09:feed.atom/urn:oid:2.49.0.1.124.1797996720.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-09/2020_10_09T08_19_20_00_00Iurn_oid_2.49.0.1.124.1797996720.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201010001820+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -75.3429, 45.5609 ],
 							[ -75.349, 45.5595 ],
 							[ -75.3524, 45.5797 ],
@@ -1034,6 +1084,87 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-09/2020_10_09T07_20_02_00_00Iurn_oid_2.49.0.1.124.1975929618.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201009145902+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -122.9343, 49.2984 ],
+							[ -122.9167, 49.2931 ],
+							[ -122.9161, 49.2909 ],
+							[ -122.9157, 49.2858 ],
+							[ -122.907, 49.2241 ],
+							[ -122.9062, 49.2188 ],
+							[ -122.9046, 49.203 ],
+							[ -122.877, 49.2011 ],
+							[ -122.7573, 49.1925 ],
+							[ -122.7218, 49.1721 ],
+							[ -122.6558, 49.1883 ],
+							[ -122.6086, 49.1786 ],
+							[ -122.5613, 49.1541 ],
+							[ -122.4372, 49.1548 ],
+							[ -122.4155, 49.1576 ],
+							[ -122.3956, 49.1742 ],
+							[ -122.383, 49.1861 ],
+							[ -122.3966, 49.2071 ],
+							[ -122.4142, 49.2073 ],
+							[ -122.4232, 49.2564 ],
+							[ -122.4101, 49.2576 ],
+							[ -122.3938, 49.3687 ],
+							[ -122.4076, 49.3691 ],
+							[ -122.5626, 49.3694 ],
+							[ -122.6893, 49.3641 ],
+							[ -122.719, 49.4314 ],
+							[ -122.7669, 49.5005 ],
+							[ -122.7445, 49.5042 ],
+							[ -122.8821, 49.7107 ],
+							[ -123.0934, 49.8139 ],
+							[ -123.155, 49.8988 ],
+							[ -123.2918, 49.9079 ],
+							[ -123.3, 49.9085 ],
+							[ -123.2913, 49.8844 ],
+							[ -123.2883, 49.8762 ],
+							[ -123.2145, 49.6778 ],
+							[ -123.2485, 49.5881 ],
+							[ -123.4682, 49.5154 ],
+							[ -123.4627, 49.4313 ],
+							[ -123.518, 49.3701 ],
+							[ -123.509, 49.3539 ],
+							[ -123.3632, 49.2918 ],
+							[ -123.2902, 49.3448 ],
+							[ -123.2726, 49.3234 ],
+							[ -123.1385, 49.3167 ],
+							[ -123.0949, 49.2962 ],
+							[ -123.021, 49.2973 ],
+							[ -122.9343, 49.2984 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 9, 2020 11:53",
+				"Expires_UTC" : "October 10, 2020 03:52",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nA moist Pacific frontal system will bring heavy rain to the south coast today through tonight. Higher rainfall amounts are expected over Howe Sound and northern sections of Metro Vancouver where 50 to 70 mm of rain are expected by Saturday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-10-10T03:52:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-09T11:53:32-00:00, urn:oid:2.49.0.1.124.0691084140.2020<br>Area: Howe Sound, Metro Vancouver - North Shore including West Vancouver and North Vancouver, Metro Vancouver - northeast including Coquitlam and Maple Ridge",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-09:feed.atom/urn:oid:2.49.0.1.124.0691084140.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-09/2020_10_09T11_53_32_00_00Iurn_oid_2.49.0.1.124.0691084140.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201010035232+00:00"
 			}
 		},
 		{
@@ -1535,56 +1666,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-09/2020_10_09T07_37_57_00_00Iurn_oid_2.49.0.1.124.2661166066.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201009230557+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ],
-							[ -58.0061, 54.7317 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.7945, 56.6786 ],
-							[ -61.1044, 56.5708 ],
-							[ -61.8607, 56.6166 ],
-							[ -62.4923, 56.7524 ],
-							[ -63.0043, 56.7494 ],
-							[ -63.0038, 56.0019 ],
-							[ -63.0037, 55.8296 ],
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 9, 2020 08:19",
-				"Expires_UTC" : "October 10, 2020 00:18",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: northwesterly 80 km/h, except 100 along parts of the coast.\n\nLocations: northern Labrador.\n\nTime span: this morning to Saturday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-10T00:18:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-09T08:19:20-00:00, urn:oid:2.49.0.1.124.1797996720.2020<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-09:feed.atom/urn:oid:2.49.0.1.124.1797996720.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-09/2020_10_09T08_19_20_00_00Iurn_oid_2.49.0.1.124.1797996720.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201010001820+00:00"
 			}
 		}
 	]
