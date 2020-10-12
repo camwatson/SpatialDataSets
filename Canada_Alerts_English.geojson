@@ -1127,6 +1127,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.9432, 53.1171 ],
+							[ -60.0074, 53.0666 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.5825, 52.955 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.0998, 53.0683 ],
+							[ -57.1137, 53.3384 ],
+							[ -55.9017, 53.3388 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 11, 2020 18:40",
+				"Expires_UTC" : "October 12, 2020 01:59",
+				"Summary" : "Description: Total snowfall: 10 to 15 cm.\n\nLocations: Cartwright and vicinity, as well as the Trans Labrador Highway between Cartwright Junction and Crooks Lake.\n\nTime span: continuing until later this evening.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-12T01:59:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-11T18:40:32-00:00, urn:oid:2.49.0.1.124.3511161380.2020<br>Area: Cartwright to Black Tickle, Eagle River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-11:feed.atom/urn:oid:2.49.0.1.124.3511161380.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-11/2020_10_11T18_40_32_00_00Iurn_oid_2.49.0.1.124.3511161380.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201012015932+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -73.2172, 46.7497 ],
 							[ -73.2168, 46.7492 ],
 							[ -73.1901, 46.5475 ],
@@ -1385,61 +1440,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-11/2020_10_11T20_41_05_00_00Iurn_oid_2.49.0.1.124.2624014097.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201012015905+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.4985, 53.333 ],
-							[ -59, 52.9 ],
-							[ -59.8804, 53.2 ],
-							[ -59.9432, 53.1171 ],
-							[ -60.0074, 53.0666 ],
-							[ -60.1736, 52.9893 ],
-							[ -60.3731, 52.9506 ],
-							[ -60.5825, 52.955 ],
-							[ -60.7702, 53 ],
-							[ -59, 52.4 ],
-							[ -58.0385, 52.5919 ],
-							[ -57.1146, 52.8003 ],
-							[ -57.0998, 53.0683 ],
-							[ -57.1137, 53.3384 ],
-							[ -55.9017, 53.3388 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -57.3704, 54.1207 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 12, 2020 00:02",
-				"Expires_UTC" : "October 12, 2020 01:02",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-10-12T01:02:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-12T00:02:21-00:00, urn:oid:2.49.0.1.124.1285986104.2020<br>Area: Cartwright to Black Tickle, Eagle River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-12:feed.atom/urn:oid:2.49.0.1.124.1285986104.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-12/2020_10_12T00_02_21_00_00Iurn_oid_2.49.0.1.124.1285986104.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201012010221+00:00"
 			}
 		},
 		{
