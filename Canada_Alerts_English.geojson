@@ -447,6 +447,75 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ],
+							[ -65.0706, 48.4384 ],
+							[ -65.2298, 48.4244 ],
+							[ -65.4677, 48.4029 ],
+							[ -65.4764, 48.4021 ],
+							[ -65.4763, 48.4015 ],
+							[ -65.4342, 48 ],
+							[ -65.4344, 47.921 ],
+							[ -65.2163, 47.9516 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ]
+						]
+					],
+					[
+						[
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.4551, 50.0679 ],
+							[ -59.7883, 50.1231 ],
+							[ -59.0574, 50.5037 ],
+							[ -58.9502, 50.7022 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9988, 51.333 ],
+							[ -60.9991, 50.7497 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 13, 2020 08:40",
+				"Expires_UTC" : "October 14, 2020 00:39",
+				"Summary" : "Description: Heavy rain over Eastern Quebec Wednesday: 40 to 50 millimetres are expected.\n\nA low pressure system will move across the Gulf of St. Lawrence on Wednesday.   Over the tip of the Gaspé Peninsula, the rain will be heavier in the afternoon.\n\nOver the Lower North Shore, the rain will intensify in the afternoon and amounts could exceed 50 millimetres until the evening; all this will be accompanied by strong southeast winds.\n\nHeavy rain may cause flash floods and ponding on the roads.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-10-14T00:39:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-13T08:40:31-00:00, urn:oid:2.49.0.1.124.0785726115.2020<br>Area: Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Natashquan, Chevery",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-13:feed.atom/urn:oid:2.49.0.1.124.0785726115.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-13/2020_10_13T08_40_31_00_00Iurn_oid_2.49.0.1.124.0785726115.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201014003931+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -83.7076, 46.1874 ],
 							[ -83.5976, 46.1752 ],
 							[ -83.3864, 46.0319 ],
@@ -1825,24 +1894,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Frost Advisory Ended",
+				"Title" : "Frost Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Frost",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 13, 2020 07:49",
-				"Expires_UTC" : "October 13, 2020 08:49",
-				"Summary" : "Description: Widespread frost is no longer expected.\n\n\n###<br>Expires: 2020-10-13T08:49:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-13T07:49:24-00:00, urn:oid:2.49.0.1.124.2251259036.2020<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 13, 2020 01:26",
+				"Expires_UTC" : "October 13, 2020 12:59",
+				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\nMinimum temperatures: ranging from -2 in low lying inland areas to +5 along parts of the coast.\n\nLocations: Prince Edward Island.\n\nTime span: early Tuesday morning.\n\nRemarks: Frost is expected again early Tuesday morning as clear skies and light winds coincide with cool temperatures, especially in low lying areas.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-10-13T12:59:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-13T01:26:01-00:00, urn:oid:2.49.0.1.124.3359851995.2020<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-13:feed.atom/urn:oid:2.49.0.1.124.2251259036.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-13/2020_10_13T07_49_24_00_00Iurn_oid_2.49.0.1.124.2251259036.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-13:feed.atom/urn:oid:2.49.0.1.124.3359851995.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-13/2020_10_13T01_26_01_00_00Iurn_oid_2.49.0.1.124.3359851995.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201013084924+00:00"
+				"Expires_FMEFormat" : "20201013125901+00:00"
 			}
 		},
 		{
@@ -1872,16 +1941,16 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 13, 2020 08:29",
+				"LastUpdate_UTC" : "October 13, 2020 08:30",
 				"Expires_UTC" : "October 14, 2020 00:29",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-10-14T00:29:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-13T08:29:15-00:00, urn:oid:2.49.0.1.124.1187128002.2020<br>Area: Gjoa Haven",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nSnow, heavy at times, will continue today, with an additional 5 cm expected. Strong winds with gusts to 70 km/h will increase to 90 km/h this morning. The snow and strong wind will taper off by Wednesday morning.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-10-14T00:29:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-13T08:30:15-00:00, urn:oid:2.49.0.1.124.2099975385.2020<br>Area: Gjoa Haven",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-13:feed.atom/urn:oid:2.49.0.1.124.1187128002.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-13/2020_10_13T08_29_15_00_00Iurn_oid_2.49.0.1.124.1187128002.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-13:feed.atom/urn:oid:2.49.0.1.124.2099975385.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-13/2020_10_13T08_30_15_00_00Iurn_oid_2.49.0.1.124.2099975385.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201014002915+00:00"
 			}
@@ -2337,24 +2406,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Frost Advisory Ended",
+				"Title" : "Frost Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Frost",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 13, 2020 07:49",
-				"Expires_UTC" : "October 13, 2020 08:49",
-				"Summary" : "Description: Widespread frost is no longer expected.\n\n\n###<br>Expires: 2020-10-13T08:49:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-13T07:49:31-00:00, urn:oid:2.49.0.1.124.3381126481.2020<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 13, 2020 01:26",
+				"Expires_UTC" : "October 13, 2020 12:59",
+				"Summary" : "Description: Frost may damage some crops in frost-prone areas.\n\nMinimum temperatures: ranging from -3 in low lying inland areas to +4 along parts of the coast.\n\nLocations: Nova Scotia.\n\nTime span: early Tuesday morning.\n\nRemarks: Frost is expected to form again early Tuesday morning as clear skies and light winds coincide with cool temperatures.\n\n###\n\nFrost advisories are issued when temperatures are expected to reach the freezing mark during the growing season, leading to potential damage and destruction to plants and crops.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-10-13T12:59:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-13T01:26:18-00:00, urn:oid:2.49.0.1.124.1524094003.2020<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Cumberland County - Minas Shore, Cumberland County North and Cobequid Pass, Colchester County - Cobequid Bay, Colchester County North, Hants County, Colchester County - Truro and south, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Pictou County, Guysborough County, Antigonish County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-13:feed.atom/urn:oid:2.49.0.1.124.3381126481.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-13/2020_10_13T07_49_31_00_00Iurn_oid_2.49.0.1.124.3381126481.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-13:feed.atom/urn:oid:2.49.0.1.124.1524094003.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-13/2020_10_13T01_26_18_00_00Iurn_oid_2.49.0.1.124.1524094003.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201013084931+00:00"
+				"Expires_FMEFormat" : "20201013125918+00:00"
 			}
 		},
 		{
