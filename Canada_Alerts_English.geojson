@@ -9,47 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.9469, 48.8844 ],
-							[ -87.4321, 49.1383 ],
-							[ -87.4467, 48.4447 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 16, 2020 15:30",
-				"Expires_UTC" : "October 16, 2020 19:30",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for late this morning and early this afternoon. \n\nLocally heavy snow is occurring in the Marathon area. Local amounts of 10 to 15 cm are possible by the time the snow ends in the next few hours.\n\nBrief but intense snowfall could affect road conditions and visibilities.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-10-16T19:30:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-16T15:30:17-00:00, urn:oid:2.49.0.1.124.0542825971.2020<br>Area: Marathon - Schreiber",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-16:feed.atom/urn:oid:2.49.0.1.124.0542825971.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-16/2020_10_16T15_30_17_00_00Iurn_oid_2.49.0.1.124.0542825971.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201016193017+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -112.4089, 49.1737 ],
 							[ -112.4129, 49.085 ],
 							[ -112.4088, 48.9968 ],
@@ -1697,6 +1656,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4467, 48.4447 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 16, 2020 16:07",
+				"Expires_UTC" : "October 16, 2020 17:07",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2020-10-16T17:07:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-16T16:07:35-00:00, urn:oid:2.49.0.1.124.2235234793.2020<br>Area: Marathon - Schreiber",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-16:feed.atom/urn:oid:2.49.0.1.124.2235234793.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-16/2020_10_16T16_07_35_00_00Iurn_oid_2.49.0.1.124.2235234793.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201016170735+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -69.7836, 47.82 ],
 							[ -70.2482, 47.4424 ],
 							[ -70.5437, 47.16 ],
@@ -1816,65 +1816,79 @@
 				"coordinates" : [
 					[
 						[
-							[ -116.7937, 51.9409 ],
-							[ -116.782, 51.8899 ],
-							[ -116.6753, 51.814 ],
-							[ -116.5, 51.6381 ],
-							[ -116.3905, 51.606 ],
-							[ -116.3721, 51.5517 ],
-							[ -116.2247, 51.3978 ],
-							[ -116.1264, 51.4477 ],
-							[ -116.2352, 51.5817 ],
-							[ -116.2563, 51.6442 ],
-							[ -116.3916, 51.7006 ],
-							[ -116.4582, 51.7757 ],
-							[ -116.5529, 51.8633 ],
-							[ -116.6453, 51.9311 ],
-							[ -116.6411, 51.9713 ],
-							[ -116.7145, 52.0168 ],
-							[ -117.0396, 52.228 ],
-							[ -117.1946, 52.2646 ],
-							[ -117.2559, 52.3109 ],
-							[ -117.359, 52.4662 ],
-							[ -117.5099, 52.5436 ],
-							[ -117.801, 52.6622 ],
-							[ -117.8354, 52.7246 ],
-							[ -117.9395, 52.7976 ],
-							[ -118.0423, 52.9223 ],
-							[ -118.1665, 52.8572 ],
-							[ -118.0993, 52.7545 ],
-							[ -117.9907, 52.6938 ],
-							[ -117.9299, 52.6111 ],
-							[ -117.819, 52.5471 ],
-							[ -117.4692, 52.4043 ],
-							[ -117.3931, 52.273 ],
-							[ -117.2509, 52.1756 ],
-							[ -117.1351, 52.1575 ],
-							[ -116.7937, 51.9409 ]
+							[ -68.3825, 47.7887 ],
+							[ -68.3834, 47.5531 ],
+							[ -68.5692, 47.4271 ],
+							[ -68.7996, 47.3489 ],
+							[ -69.0509, 47.3 ],
+							[ -69.0574, 47.2989 ],
+							[ -69.0541, 47.2467 ],
+							[ -68.9005, 47.1771 ],
+							[ -68.6058, 47.2408 ],
+							[ -68.5711, 47.2816 ],
+							[ -68.3713, 47.2786 ],
+							[ -68.3631, 47.3546 ],
+							[ -68.238, 47.3454 ],
+							[ -68.232, 47.345 ],
+							[ -68.2296, 47.3434 ],
+							[ -67.8877, 47.1049 ],
+							[ -67.7904, 47.0599 ],
+							[ -67.7901, 47.0598 ],
+							[ -67.787, 47.0596 ],
+							[ -67.703, 47.0668 ],
+							[ -67.7021, 47.0692 ],
+							[ -67.6852, 47.1137 ],
+							[ -67.6521, 47.161 ],
+							[ -67.6503, 47.1636 ],
+							[ -67.6507, 47.1636 ],
+							[ -67.6725, 47.164 ],
+							[ -67.6725, 47.1642 ],
+							[ -67.6782, 47.5623 ],
+							[ -67.0364, 47.3494 ],
+							[ -67.0033, 47.3573 ],
+							[ -67.0035, 47.8662 ],
+							[ -67.0035, 47.9082 ],
+							[ -66.9979, 47.9393 ],
+							[ -67.0565, 47.9629 ],
+							[ -67.2139, 47.9066 ],
+							[ -67.3012, 47.9247 ],
+							[ -67.3717, 47.9107 ],
+							[ -67.3847, 47.8902 ],
+							[ -67.4796, 47.9265 ],
+							[ -67.5727, 47.9437 ],
+							[ -67.5768, 47.9997 ],
+							[ -67.598, 47.9999 ],
+							[ -67.6035, 47.9999 ],
+							[ -67.6656, 48 ],
+							[ -68.1226, 47.9998 ],
+							[ -68.1227, 47.9163 ],
+							[ -68.3823, 47.9161 ],
+							[ -68.3823, 47.9128 ],
+							[ -68.3825, 47.7887 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snowfall",
+				"event" : "Rainfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 16, 2020 10:19",
-				"Expires_UTC" : "October 17, 2020 00:29",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nA potent low pressure system will provide copious amounts of snow to the Icefields Parkway and the Grande Cache Regions today. \n\nTotal snowfall accumulations may reach 15 to 25 cm by the time the snow ends late Friday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-10-17T00:29:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-16T10:19:27-00:00, urn:oid:2.49.0.1.124.3290788380.2020<br>Area: Highway 93 South - Lake Louise to Saskatchewan River Crossing, Highway 93 North - Jasper to Saskatchewan River Crossing",
+				"LastUpdate_UTC" : "October 16, 2020 13:42",
+				"Expires_UTC" : "October 17, 2020 05:41",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nHeavy rain expected on the weekend.\n\nWhen: beginning this afternoon, tapering off before morning on Sunday.\n\nWhere: northwestern New Brunswick.\n\nRainfall amounts: 50 millimetres or more.\n\nRemarks: Heavy rain associated with an approaching low pressure system could give rainfall amounts of 50 millimetres or more over parts of New Brunswick this weekend.  Rain will develop this afternoon and intensify overnight, becoming heavy at times on Saturday and ending overnight Saturday night.  \n\nAdditionally, there is the potential for the rain to transition to wet snow over higher terrain Saturday night.\n\n###\n\nLocalized flooding in low-lying areas is possible. Be prepared for possible winter conditions at higher elevations.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-10-17T05:41:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-16T13:42:03-00:00, urn:oid:2.49.0.1.124.1211814263.2020<br>Area: Edmundston and Madawaska County, western half of Restigouche County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-16:feed.atom/urn:oid:2.49.0.1.124.3290788380.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-16/2020_10_16T10_19_27_00_00Iurn_oid_2.49.0.1.124.3290788380.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-16:feed.atom/urn:oid:2.49.0.1.124.1211814263.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-16/2020_10_16T13_42_03_00_00Iurn_oid_2.49.0.1.124.1211814263.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201017002927+00:00"
+				"Expires_FMEFormat" : "20201017054103+00:00"
 			}
 		},
 		{
@@ -3397,6 +3411,74 @@
 				"coordinates" : [
 					[
 						[
+							[ -116.7937, 51.9409 ],
+							[ -116.782, 51.8899 ],
+							[ -116.6753, 51.814 ],
+							[ -116.5, 51.6381 ],
+							[ -116.3905, 51.606 ],
+							[ -116.3721, 51.5517 ],
+							[ -116.2247, 51.3978 ],
+							[ -116.1264, 51.4477 ],
+							[ -116.2352, 51.5817 ],
+							[ -116.2563, 51.6442 ],
+							[ -116.3916, 51.7006 ],
+							[ -116.4582, 51.7757 ],
+							[ -116.5529, 51.8633 ],
+							[ -116.6453, 51.9311 ],
+							[ -116.6411, 51.9713 ],
+							[ -116.7145, 52.0168 ],
+							[ -117.0396, 52.228 ],
+							[ -117.1946, 52.2646 ],
+							[ -117.2559, 52.3109 ],
+							[ -117.359, 52.4662 ],
+							[ -117.5099, 52.5436 ],
+							[ -117.801, 52.6622 ],
+							[ -117.8354, 52.7246 ],
+							[ -117.9395, 52.7976 ],
+							[ -118.0423, 52.9223 ],
+							[ -118.1665, 52.8572 ],
+							[ -118.0993, 52.7545 ],
+							[ -117.9907, 52.6938 ],
+							[ -117.9299, 52.6111 ],
+							[ -117.819, 52.5471 ],
+							[ -117.4692, 52.4043 ],
+							[ -117.3931, 52.273 ],
+							[ -117.2509, 52.1756 ],
+							[ -117.1351, 52.1575 ],
+							[ -116.7937, 51.9409 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 16, 2020 10:19",
+				"Expires_UTC" : "October 17, 2020 00:29",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nA potent low pressure system will provide copious amounts of snow to the Icefields Parkway and the Grande Cache Regions today. \n\nTotal snowfall accumulations may reach 15 to 25 cm by the time the snow ends late Friday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-10-17T00:29:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-16T10:19:27-00:00, urn:oid:2.49.0.1.124.3290788380.2020<br>Area: Highway 93 South - Lake Louise to Saskatchewan River Crossing, Highway 93 North - Jasper to Saskatchewan River Crossing",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-16:feed.atom/urn:oid:2.49.0.1.124.3290788380.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-16/2020_10_16T10_19_27_00_00Iurn_oid_2.49.0.1.124.3290788380.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201017002927+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -82.0998, 43.127 ],
 							[ -82.1612, 43.1061 ],
 							[ -82.1749, 43.066 ],
@@ -4266,88 +4348,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-16/2020_10_16T10_17_21_00_00Iurn_oid_2.49.0.1.124.3083258036.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201017021621+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -68.3825, 47.7887 ],
-							[ -68.3834, 47.5531 ],
-							[ -68.5692, 47.4271 ],
-							[ -68.7996, 47.3489 ],
-							[ -69.0509, 47.3 ],
-							[ -69.0574, 47.2989 ],
-							[ -69.0541, 47.2467 ],
-							[ -68.9005, 47.1771 ],
-							[ -68.6058, 47.2408 ],
-							[ -68.5711, 47.2816 ],
-							[ -68.3713, 47.2786 ],
-							[ -68.3631, 47.3546 ],
-							[ -68.238, 47.3454 ],
-							[ -68.232, 47.345 ],
-							[ -68.2296, 47.3434 ],
-							[ -67.8877, 47.1049 ],
-							[ -67.7904, 47.0599 ],
-							[ -67.7901, 47.0598 ],
-							[ -67.787, 47.0596 ],
-							[ -67.703, 47.0668 ],
-							[ -67.7021, 47.0692 ],
-							[ -67.6852, 47.1137 ],
-							[ -67.6521, 47.161 ],
-							[ -67.6503, 47.1636 ],
-							[ -67.6507, 47.1636 ],
-							[ -67.6725, 47.164 ],
-							[ -67.6725, 47.1642 ],
-							[ -67.6782, 47.5623 ],
-							[ -67.0364, 47.3494 ],
-							[ -67.0033, 47.3573 ],
-							[ -67.0035, 47.8662 ],
-							[ -67.0035, 47.9082 ],
-							[ -66.9979, 47.9393 ],
-							[ -67.0565, 47.9629 ],
-							[ -67.2139, 47.9066 ],
-							[ -67.3012, 47.9247 ],
-							[ -67.3717, 47.9107 ],
-							[ -67.3847, 47.8902 ],
-							[ -67.4796, 47.9265 ],
-							[ -67.5727, 47.9437 ],
-							[ -67.5768, 47.9997 ],
-							[ -67.598, 47.9999 ],
-							[ -67.6035, 47.9999 ],
-							[ -67.6656, 48 ],
-							[ -68.1226, 47.9998 ],
-							[ -68.1227, 47.9163 ],
-							[ -68.3823, 47.9161 ],
-							[ -68.3823, 47.9128 ],
-							[ -68.3825, 47.7887 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 16, 2020 13:42",
-				"Expires_UTC" : "October 17, 2020 05:41",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nHeavy rain expected on the weekend.\n\nWhen: beginning this afternoon, tapering off before morning on Sunday.\n\nWhere: northwestern New Brunswick.\n\nRainfall amounts: 50 millimetres or more.\n\nRemarks: Heavy rain associated with an approaching low pressure system could give rainfall amounts of 50 millimetres or more over parts of New Brunswick this weekend.  Rain will develop this afternoon and intensify overnight, becoming heavy at times on Saturday and ending overnight Saturday night.  \n\nAdditionally, there is the potential for the rain to transition to wet snow over higher terrain Saturday night.\n\n###\n\nLocalized flooding in low-lying areas is possible. Be prepared for possible winter conditions at higher elevations.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-10-17T05:41:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-16T13:42:03-00:00, urn:oid:2.49.0.1.124.1211814263.2020<br>Area: Edmundston and Madawaska County, western half of Restigouche County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-16:feed.atom/urn:oid:2.49.0.1.124.1211814263.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-16/2020_10_16T13_42_03_00_00Iurn_oid_2.49.0.1.124.1211814263.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201017054103+00:00"
 			}
 		}
 	]
