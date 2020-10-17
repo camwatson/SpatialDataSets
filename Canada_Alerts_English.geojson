@@ -9,99 +9,42 @@
 				"coordinates" : [
 					[
 						[
-							[ -87.4321, 49.1383 ],
-							[ -85.9469, 48.8844 ],
-							[ -85.9469, 49.9546 ],
-							[ -84.021, 49.9497 ],
-							[ -84.05, 51.1582 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.9963, 51.1568 ],
-							[ -89.9953, 51.1354 ],
-							[ -90.0123, 49.9131 ],
-							[ -90.0178, 49.5235 ],
-							[ -88.6636, 49.1101 ],
-							[ -88.5445, 49.1129 ],
-							[ -87.4321, 49.1383 ]
+							[ -80.0799, 42.3935 ],
+							[ -78.9353, 42.8283 ],
+							[ -78.9059, 42.9052 ],
+							[ -78.8933, 42.9389 ],
+							[ -79.0529, 42.9623 ],
+							[ -79.6261, 42.9814 ],
+							[ -80.3291, 42.9012 ],
+							[ -80.5966, 42.7293 ],
+							[ -81.2109, 42.784 ],
+							[ -81.1553, 42.66 ],
+							[ -80.9327, 42.2591 ],
+							[ -80.0799, 42.3935 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Waterspout Watch Ended",
 				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
+				"event" : "Waterspout",
+				"urgency" : "Past",
+				"certainty" : "Observed",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 17, 2020 10:18",
-				"Expires_UTC" : "October 18, 2020 02:17",
-				"Summary" : "Description: The first accumulating snowfall of the season will begin tonight.\n\nSnow is expected to begin north of Lake Superior this afternoon and taper off on Sunday morning. \n\nCurrent indications suggest snowfall amounts of 10 to 15 cm are possible, however, uncertainty remains high.\n\nHeavy snow could affect road conditions and visibilities. Be prepared to adjust your driving with changing road conditions.  \n\nSnowfall Warnings may be required as the event draws nearer.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-10-18T02:17:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-17T10:18:16-00:00, urn:oid:2.49.0.1.124.0320025466.2020<br>Area: Armstrong - Auden - Wabakimi Park, Beardmore - Jellicoe - Macdiarmid, Gull Bay - Black Sturgeon Lake, Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat",
+				"LastUpdate_UTC" : "October 17, 2020 17:37",
+				"Expires_UTC" : "October 17, 2020 18:37",
+				"Summary" : "Description: Conditions are no longer favourable for the development of waterspouts.\n\n\n###<br>Expires: 2020-10-17T18:37:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-17T17:37:04-00:00, urn:oid:2.49.0.1.124.1189231303.2020<br>Area: Eastern Lake Erie",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-17:feed.atom/urn:oid:2.49.0.1.124.0320025466.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T10_18_16_00_00Iurn_oid_2.49.0.1.124.0320025466.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-17:feed.atom/urn:oid:2.49.0.1.124.1189231303.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T17_37_04_00_00Iurn_oid_2.49.0.1.124.1189231303.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201018021716+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -87.4321, 49.1383 ],
-							[ -85.9469, 48.8844 ],
-							[ -85.9469, 49.9546 ],
-							[ -84.021, 49.9497 ],
-							[ -84.05, 51.1582 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.4321, 49.9482 ],
-							[ -88.5445, 49.9338 ],
-							[ -90.0123, 49.9131 ],
-							[ -90.0178, 49.5235 ],
-							[ -88.6636, 49.1101 ],
-							[ -88.5445, 49.1129 ],
-							[ -87.4321, 49.1383 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 17, 2020 10:31",
-				"Expires_UTC" : "October 18, 2020 02:30",
-				"Summary" : "Description: The first accumulating snowfall of the season will begin today.\n\nSnow is expected to begin north of Lake Superior this afternoon and taper off on Sunday morning. \n\nCurrent indications suggest snowfall amounts of 10 to 15 cm are possible, however, uncertainty remains high.\n\nHeavy snow could affect road conditions and visibilities. Be prepared to adjust your driving with changing road conditions.  \n\nSnowfall Warnings may be required as the event draws nearer.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-10-18T02:30:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-17T10:31:22-00:00, urn:oid:2.49.0.1.124.1991593691.2020<br>Area: Beardmore - Jellicoe - Macdiarmid, Gull Bay - Black Sturgeon Lake, Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-17:feed.atom/urn:oid:2.49.0.1.124.1991593691.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T10_31_22_00_00Iurn_oid_2.49.0.1.124.1991593691.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201018023022+00:00"
+				"Expires_FMEFormat" : "20201017183704+00:00"
 			}
 		},
 		{
@@ -207,65 +150,99 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.2109, 42.784 ],
-							[ -81.7125, 42.5988 ],
-							[ -82.3391, 42.2319 ],
-							[ -82.6165, 42.0946 ],
-							[ -82.9069, 42.0167 ],
-							[ -83.0565, 42.0629 ],
-							[ -83.0602, 42.185 ],
-							[ -83.0816, 42.2449 ],
-							[ -83.0518, 42.295 ],
-							[ -82.9097, 42.3254 ],
-							[ -82.9189, 42.3377 ],
-							[ -82.9211, 42.3422 ],
-							[ -82.9249, 42.3485 ],
-							[ -82.9263, 42.3512 ],
-							[ -82.9303, 42.3586 ],
-							[ -83.0787, 42.3244 ],
-							[ -83.149, 42.2478 ],
-							[ -83.128, 42.2387 ],
-							[ -83.1339, 42.1748 ],
-							[ -83.1217, 42.1254 ],
-							[ -83.1496, 42.0409 ],
-							[ -83.0691, 41.8635 ],
-							[ -82.6797, 41.6765 ],
-							[ -82.3974, 41.6765 ],
-							[ -81.2457, 42.2075 ],
-							[ -80.9327, 42.2591 ],
-							[ -80.0799, 42.3935 ],
-							[ -78.9353, 42.8283 ],
-							[ -78.9059, 42.9052 ],
-							[ -78.8933, 42.9389 ],
-							[ -79.0529, 42.9623 ],
-							[ -79.6261, 42.9814 ],
-							[ -80.3291, 42.9012 ],
-							[ -80.5966, 42.7293 ],
-							[ -81.2109, 42.784 ]
+							[ -87.4321, 49.1383 ],
+							[ -85.9469, 48.8844 ],
+							[ -85.9469, 49.9546 ],
+							[ -84.021, 49.9497 ],
+							[ -84.05, 51.1582 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.362, 51.2908 ],
+							[ -84.5361, 51.1721 ],
+							[ -84.7492, 51.2465 ],
+							[ -84.8479, 51.1686 ],
+							[ -87.4321, 51.159 ],
+							[ -87.9963, 51.1568 ],
+							[ -89.9953, 51.1354 ],
+							[ -90.0123, 49.9131 ],
+							[ -90.0178, 49.5235 ],
+							[ -88.6636, 49.1101 ],
+							[ -88.5445, 49.1129 ],
+							[ -87.4321, 49.1383 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Waterspout Watch In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Waterspout",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 17, 2020 02:53",
-				"Expires_UTC" : "October 17, 2020 18:52",
-				"Summary" : "Description: Conditions will be favourable for the development of waterspouts this evening. The risk will remain through the overnight hours and into Saturday morning.\n\n###\n\nWind speeds inside the spray ring of a waterspout are 45 knots or higher. Vulnerable vessels are at risk of damage or capsizing. Keep in mind that waterspouts cannot be seen at night and may strike suddenly.\n\nWaterspouts are generally isolated in nature although they can also occur in families of two or more. Waterspouts sometimes appear as funnel clouds with swirling water visible near the surface.\n\nWaterspouts are generated by weak rotation under rapidly growing clouds or weak thunderstorms. Under favourable conditions, this weak rotation could intensify and become a tornado.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-17T18:52:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-17T02:53:42-00:00, urn:oid:2.49.0.1.124.0835209668.2020<br>Area: Eastern Lake Erie, Western Lake Erie",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 17, 2020 10:18",
+				"Expires_UTC" : "October 18, 2020 02:17",
+				"Summary" : "Description: The first accumulating snowfall of the season will begin tonight.\n\nSnow is expected to begin north of Lake Superior this afternoon and taper off on Sunday morning. \n\nCurrent indications suggest snowfall amounts of 10 to 15 cm are possible, however, uncertainty remains high.\n\nHeavy snow could affect road conditions and visibilities. Be prepared to adjust your driving with changing road conditions.  \n\nSnowfall Warnings may be required as the event draws nearer.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-10-18T02:17:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-17T10:18:16-00:00, urn:oid:2.49.0.1.124.0320025466.2020<br>Area: Armstrong - Auden - Wabakimi Park, Beardmore - Jellicoe - Macdiarmid, Gull Bay - Black Sturgeon Lake, Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-17:feed.atom/urn:oid:2.49.0.1.124.0835209668.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T02_53_42_00_00Iurn_oid_2.49.0.1.124.0835209668.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-17:feed.atom/urn:oid:2.49.0.1.124.0320025466.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T10_18_16_00_00Iurn_oid_2.49.0.1.124.0320025466.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201017185242+00:00"
+				"Expires_FMEFormat" : "20201018021716+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -87.4321, 49.1383 ],
+							[ -85.9469, 48.8844 ],
+							[ -85.9469, 49.9546 ],
+							[ -84.021, 49.9497 ],
+							[ -84.05, 51.1582 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.362, 51.2908 ],
+							[ -84.5361, 51.1721 ],
+							[ -84.7492, 51.2465 ],
+							[ -84.8479, 51.1686 ],
+							[ -87.4321, 51.159 ],
+							[ -87.4321, 49.9482 ],
+							[ -88.5445, 49.9338 ],
+							[ -90.0123, 49.9131 ],
+							[ -90.0178, 49.5235 ],
+							[ -88.6636, 49.1101 ],
+							[ -88.5445, 49.1129 ],
+							[ -87.4321, 49.1383 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 17, 2020 10:31",
+				"Expires_UTC" : "October 18, 2020 02:30",
+				"Summary" : "Description: The first accumulating snowfall of the season will begin today.\n\nSnow is expected to begin north of Lake Superior this afternoon and taper off on Sunday morning. \n\nCurrent indications suggest snowfall amounts of 10 to 15 cm are possible, however, uncertainty remains high.\n\nHeavy snow could affect road conditions and visibilities. Be prepared to adjust your driving with changing road conditions.  \n\nSnowfall Warnings may be required as the event draws nearer.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-10-18T02:30:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-17T10:31:22-00:00, urn:oid:2.49.0.1.124.1991593691.2020<br>Area: Beardmore - Jellicoe - Macdiarmid, Gull Bay - Black Sturgeon Lake, Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-17:feed.atom/urn:oid:2.49.0.1.124.1991593691.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T10_31_22_00_00Iurn_oid_2.49.0.1.124.1991593691.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201018023022+00:00"
 			}
 		},
 		{
@@ -404,6 +381,74 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T10_30_23_00_00Iurn_oid_2.49.0.1.124.1143208106.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201018022923+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.2109, 42.784 ],
+							[ -81.7125, 42.5988 ],
+							[ -82.3391, 42.2319 ],
+							[ -82.6165, 42.0946 ],
+							[ -82.9069, 42.0167 ],
+							[ -83.0565, 42.0629 ],
+							[ -83.0602, 42.185 ],
+							[ -83.0816, 42.2449 ],
+							[ -83.0518, 42.295 ],
+							[ -82.9097, 42.3254 ],
+							[ -82.9189, 42.3377 ],
+							[ -82.9211, 42.3422 ],
+							[ -82.9249, 42.3485 ],
+							[ -82.9263, 42.3512 ],
+							[ -82.9303, 42.3586 ],
+							[ -83.0787, 42.3244 ],
+							[ -83.149, 42.2478 ],
+							[ -83.128, 42.2387 ],
+							[ -83.1339, 42.1748 ],
+							[ -83.1217, 42.1254 ],
+							[ -83.1496, 42.0409 ],
+							[ -83.0691, 41.8635 ],
+							[ -82.6797, 41.6765 ],
+							[ -82.3974, 41.6765 ],
+							[ -81.2457, 42.2075 ],
+							[ -80.9327, 42.2591 ],
+							[ -80.0799, 42.3935 ],
+							[ -78.9353, 42.8283 ],
+							[ -78.9059, 42.9052 ],
+							[ -78.8933, 42.9389 ],
+							[ -79.0529, 42.9623 ],
+							[ -79.6261, 42.9814 ],
+							[ -80.3291, 42.9012 ],
+							[ -80.5966, 42.7293 ],
+							[ -81.2109, 42.784 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Waterspout Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Waterspout",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 17, 2020 02:53",
+				"Expires_UTC" : "October 17, 2020 18:52",
+				"Summary" : "Description: Conditions will be favourable for the development of waterspouts this evening. The risk will remain through the overnight hours and into Saturday morning.\n\n###\n\nWind speeds inside the spray ring of a waterspout are 45 knots or higher. Vulnerable vessels are at risk of damage or capsizing. Keep in mind that waterspouts cannot be seen at night and may strike suddenly.\n\nWaterspouts are generally isolated in nature although they can also occur in families of two or more. Waterspouts sometimes appear as funnel clouds with swirling water visible near the surface.\n\nWaterspouts are generated by weak rotation under rapidly growing clouds or weak thunderstorms. Under favourable conditions, this weak rotation could intensify and become a tornado.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-10-17T18:52:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-17T02:53:42-00:00, urn:oid:2.49.0.1.124.0835209668.2020<br>Area: Eastern Lake Erie, Western Lake Erie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-17:feed.atom/urn:oid:2.49.0.1.124.0835209668.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T02_53_42_00_00Iurn_oid_2.49.0.1.124.0835209668.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201017185242+00:00"
 			}
 		},
 		{
@@ -906,53 +951,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 17, 2020 13:23",
-				"Expires_UTC" : "October 18, 2020 05:22",
-				"Summary" : "Description: Strong winds are expected or occurring.\n\nMaximum wind gusts: southeasterly 120 km/h\n\nTime span: early this evening until late overnight.\n\nLocation: Wreckhouse area.\n\nRemarks:  Winds are currently gusting near 80 km/h, and will gradually increase to 120 km/h this evening. Winds will ease upon shifting to westerly before Sunday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-18T05:22:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-17T13:23:10-00:00, urn:oid:2.49.0.1.124.3997300072.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-17:feed.atom/urn:oid:2.49.0.1.124.3997300072.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T13_23_10_00_00Iurn_oid_2.49.0.1.124.3997300072.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201018052210+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -113.7179, 61.6293 ],
 							[ -114.8765, 61.3365 ],
 							[ -115.0815, 61.2448 ],
@@ -1080,6 +1078,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T13_54_21_00_00Iurn_oid_2.49.0.1.124.1474725802.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201018035921+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 17, 2020 13:23",
+				"Expires_UTC" : "October 18, 2020 05:22",
+				"Summary" : "Description: Strong winds are expected or occurring.\n\nMaximum wind gusts: southeasterly 120 km/h\n\nTime span: early this evening until late overnight.\n\nLocation: Wreckhouse area.\n\nRemarks:  Winds are currently gusting near 80 km/h, and will gradually increase to 120 km/h this evening. Winds will ease upon shifting to westerly before Sunday morning.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-10-18T05:22:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-17T13:23:10-00:00, urn:oid:2.49.0.1.124.3997300072.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-17:feed.atom/urn:oid:2.49.0.1.124.3997300072.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-17/2020_10_17T13_23_10_00_00Iurn_oid_2.49.0.1.124.3997300072.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201018052210+00:00"
 			}
 		},
 		{
