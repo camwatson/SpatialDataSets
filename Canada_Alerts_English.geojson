@@ -61,6 +61,58 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.6884, 50.1063 ],
+							[ -62.995, 50.1418 ],
+							[ -62.999, 50.7498 ],
+							[ -64.999, 50.7498 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.6884, 50.1063 ]
+						]
+					],
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 18, 2020 10:08",
+				"Expires_UTC" : "October 18, 2020 11:08",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-10-18T11:08:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-18T10:08:30-00:00, urn:oid:2.49.0.1.124.2373172406.2020<br>Area: Minganie, Anticosti",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-18:feed.atom/urn:oid:2.49.0.1.124.2373172406.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-18/2020_10_18T10_08_30_00_00Iurn_oid_2.49.0.1.124.2373172406.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201018110830+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.8312, 49.5216 ],
 							[ -66.7602, 49.3619 ],
 							[ -66.7497, 49.0778 ],
