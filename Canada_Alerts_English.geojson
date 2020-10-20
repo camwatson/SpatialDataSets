@@ -9,42 +9,59 @@
 				"coordinates" : [
 					[
 						[
-							[ -125.2762, 54.9367 ],
-							[ -124.4416, 55.346 ],
-							[ -125.3473, 56.067 ],
-							[ -126.6699, 56.9999 ],
-							[ -127.7835, 57.0545 ],
-							[ -128.9927, 57.0307 ],
-							[ -128.7494, 56.5021 ],
-							[ -128.4667, 56.0247 ],
-							[ -128.1367, 55.2999 ],
-							[ -127.6878, 54.538 ],
-							[ -125.6889, 54.7308 ],
-							[ -125.2762, 54.9367 ]
+							[ -64.2247, 45.8022 ],
+							[ -64.2193, 45.8068 ],
+							[ -64.2114, 45.8034 ],
+							[ -64.2033, 45.8052 ],
+							[ -64.2014, 45.8085 ],
+							[ -64.2004, 45.8073 ],
+							[ -64.1974, 45.8088 ],
+							[ -64.1789, 45.8207 ],
+							[ -64.1885, 45.8297 ],
+							[ -64.1799, 45.837 ],
+							[ -64.1961, 45.8447 ],
+							[ -64.2064, 45.8428 ],
+							[ -64.2203, 45.8364 ],
+							[ -64.2221, 45.8327 ],
+							[ -64.2199, 45.8316 ],
+							[ -64.2212, 45.8291 ],
+							[ -64.2196, 45.8255 ],
+							[ -64.2281, 45.823 ],
+							[ -64.2203, 45.8165 ],
+							[ -64.2217, 45.8158 ],
+							[ -64.2265, 45.8201 ],
+							[ -64.2323, 45.8172 ],
+							[ -64.2255, 45.8108 ],
+							[ -64.2329, 45.8068 ],
+							[ -64.2304, 45.8046 ],
+							[ -64.227, 45.8062 ],
+							[ -64.2247, 45.8022 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory Ended",
+				"subCategory" : "Security",
+				"Title" : "Dangerous Person - Amherst",
 				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Past",
+				"event" : "Civil Emergency",
+				"urgency" : "Immediate",
 				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 20, 2020 15:33",
-				"Expires_UTC" : "October 20, 2020 16:33",
-				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-10-20T16:33:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-20T15:33:33-00:00, urn:oid:2.49.0.1.124.2573827589.2020<br>Area: Bulkley Valley",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "October 20, 2020 13:13",
+				"Expires_UTC" : "October 21, 2020 13:00",
+				"Summary" : "Description: Amherst Police Department are responding a complaint in regards to a possible sighting of a person who may have been in possession of a firearm in the area of Church and East Pleasant St. Police have been in contact with local schools and are checking the areas for a person on a bicycle wearing a reddish/orange hoodie, sweatpants and a vest that resembled a ballistic vest. Police are asking that people in the Church Street/East Pleasant Street area to remain in their houses until further notice.<br>Expires: 2020-10-21T13:00:00-03:00<br>Originated from CAP Alert: Province of NS, 2020-10-20T13:13:47-03:00, 6B707DE0-FC50-C706-90BE-229DFBFC61D3<br>Area: Amherst, Nova Scotia",
+				"Author" : "Province of NS",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-20:feed.atom/urn:oid:2.49.0.1.124.2573827589.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-20/2020_10_20T15_33_33_00_00Iurn_oid_2.49.0.1.124.2573827589.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-20:feed.atom/6B707DE0-FC50-C706-90BE-229DFBFC61D3",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-20/2020_10_20T13_13_47_03_00I6B707DE0_FC50_C706_90BE_229DFBFC61D3.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201020163333+00:00"
+				"Expires_FMEFormat" : "20201021130000-03:00",
+				"EnclosureType" : "audio/mpeg",
+				"EnclosureURI" : "https://s3.amazonaws.com/naadsttsfs-prod/2e2ab9f6-72a2-a714-370f-903c77656588-en-CA.mp3"
 			}
 		},
 		{
@@ -93,6 +110,105 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-19/2020_10_19T15_01_23_06_00I735733B0_7B55_708A_4F2D_01E678CE9679.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201023170000-06:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -113.7179, 61.6293 ],
+							[ -114.8765, 61.3365 ],
+							[ -115.0815, 61.2448 ],
+							[ -114.9258, 60.8933 ],
+							[ -114.6108, 60.4106 ],
+							[ -114.1688, 60.4741 ],
+							[ -113.6711, 60.5759 ],
+							[ -113.3555, 60.6508 ],
+							[ -112.9112, 60.7689 ],
+							[ -112.5591, 60.8709 ],
+							[ -111.9456, 61.0815 ],
+							[ -111.7342, 61.1802 ],
+							[ -111.5035, 61.2868 ],
+							[ -112.1664, 61.6857 ],
+							[ -112.1705, 61.6881 ],
+							[ -112.1866, 61.6968 ],
+							[ -112.2039, 61.8586 ],
+							[ -111.9605, 61.9557 ],
+							[ -111.9663, 62.1016 ],
+							[ -113.1652, 61.8281 ],
+							[ -113.7179, 61.6293 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Snow Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 20, 2020 16:17",
+				"Expires_UTC" : "October 21, 2020 08:16",
+				"Summary" : "Description: Persistent snow squalls are expected to develop. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow, and snow will quickly accumulate.\n\nSnow squalls are expected to develop over southern sections of Great Slave Lake beginning this evening. The squalls are expected to persist over the region on Wednesday and into Thursday, with localized snowfall amounts possibly reaching or exceeding 25 cm by Thursday night.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility may be suddenly reduced at times in heavy snow.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-10-21T08:16:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-20T16:17:40-00:00, urn:oid:2.49.0.1.124.3315017566.2020<br>Area: Ft. Resolution Region including Hwy. 6",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-20:feed.atom/urn:oid:2.49.0.1.124.3315017566.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-20/2020_10_20T16_17_40_00_00Iurn_oid_2.49.0.1.124.3315017566.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201021081640+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -125.2762, 54.9367 ],
+							[ -124.4416, 55.346 ],
+							[ -125.3473, 56.067 ],
+							[ -126.6699, 56.9999 ],
+							[ -127.7835, 57.0545 ],
+							[ -128.9927, 57.0307 ],
+							[ -128.7494, 56.5021 ],
+							[ -128.4667, 56.0247 ],
+							[ -128.1367, 55.2999 ],
+							[ -127.6878, 54.538 ],
+							[ -125.6889, 54.7308 ],
+							[ -125.2762, 54.9367 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 20, 2020 15:33",
+				"Expires_UTC" : "October 20, 2020 16:33",
+				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-10-20T16:33:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-20T15:33:33-00:00, urn:oid:2.49.0.1.124.2573827589.2020<br>Area: Bulkley Valley",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-20:feed.atom/urn:oid:2.49.0.1.124.2573827589.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-20/2020_10_20T15_33_33_00_00Iurn_oid_2.49.0.1.124.2573827589.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201020163333+00:00"
 			}
 		}
 	]
