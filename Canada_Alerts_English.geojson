@@ -92,6 +92,70 @@
 				"coordinates" : [
 					[
 						[
+							[ -110.8164, 49.7856 ],
+							[ -110.985, 49.7859 ],
+							[ -111.2878, 49.7859 ],
+							[ -111.6297, 49.7859 ],
+							[ -111.6306, 49.7859 ],
+							[ -111.6339, 49.6829 ],
+							[ -111.6295, 49.5692 ],
+							[ -111.6193, 49.5233 ],
+							[ -111.62, 49.2613 ],
+							[ -111.5223, 49.2598 ],
+							[ -111.4405, 49.261 ],
+							[ -111.4432, 49.2237 ],
+							[ -111.441, 49.1824 ],
+							[ -111.4301, 49.1823 ],
+							[ -111.4302, 49.1543 ],
+							[ -111.4303, 49.1327 ],
+							[ -111.429, 49.105 ],
+							[ -111.3412, 49.1068 ],
+							[ -111.3457, 49.0551 ],
+							[ -111.3428, 48.9999 ],
+							[ -110.6728, 48.9986 ],
+							[ -110.005, 48.9994 ],
+							[ -109.9957, 49.112 ],
+							[ -110.005, 49.2318 ],
+							[ -109.995, 49.3713 ],
+							[ -110.005, 49.5238 ],
+							[ -109.997, 49.6604 ],
+							[ -110.005, 49.7856 ],
+							[ -110.3951, 49.7856 ],
+							[ -110.6914, 49.7856 ],
+							[ -110.8164, 49.7856 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 22, 2020 10:17",
+				"Expires_UTC" : "October 22, 2020 11:17",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-10-22T11:17:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-22T10:17:29-00:00, urn:oid:2.49.0.1.124.1015586956.2020<br>Area: Co. of Forty Mile near Foremost, Co. of Forty Mile near Etzikom and Maleb, Co. of Forty Mile near Orion and Manyberries, Cypress Co. near Cypress Hills Prov. Park and Cressday, Co. of Forty Mile near Aden and Kennedy Coulee, Cypress Co. near Onefour and Wild Horse",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-22:feed.atom/urn:oid:2.49.0.1.124.1015586956.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-22/2020_10_22T10_17_29_00_00Iurn_oid_2.49.0.1.124.1015586956.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201022111729+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -107.1341, 53.2067 ],
 							[ -107.1233, 53.2067 ],
 							[ -107.1233, 53.2141 ],
@@ -148,44 +212,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-21/2020_10_21T09_28_06_06_00I998A048B_F4C5_6DF3_CBA4_D0FC7C40B627.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201022100000-06:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -104.5104, 52.5719 ],
-							[ -104.5005, 52.5761 ],
-							[ -104.5005, 52.5803 ],
-							[ -104.5132, 52.5803 ],
-							[ -104.5104, 52.5719 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Health",
-				"Title" : "Update For The Precautionary Drinking Water Advisory For The Village Of Pleasantdale",
-				"Category" : "Actual",
-				"event" : "Drinking Water",
-				"urgency" : "Immediate",
-				"certainty" : "Observed",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 21, 2020 12:05",
-				"Expires_UTC" : "October 27, 2020 12:00",
-				"Summary" : "Description: Update for the Precautionary Drinking Water Advisory that was issued for Village of Pleasantdale.  This advisory is for the Village of Pleasantdale and for any individuals who may access water the Pleasantdale water system.  This advisory is in effect until further notice.<br>Expires: 2020-10-27T12:00:00-06:00<br>Originated from CAP Alert: SK Pleasantdale, 2020-10-21T12:05:35-06:00, BF91742D-BEA5-6963-FD29-8936FB680E94<br>Area: Village of Pleasantdale",
-				"Author" : "SK Pleasantdale",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-21:feed.atom/BF91742D-BEA5-6963-FD29-8936FB680E94",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-21/2020_10_21T12_05_35_06_00IBF91742D_BEA5_6963_FD29_8936FB680E94.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201027120000-06:00"
 			}
 		},
 		{
@@ -330,6 +356,44 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-21/2020_10_21T21_12_03_00_00Iurn_oid_2.49.0.1.124.2444501335.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201022131103+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -104.5104, 52.5719 ],
+							[ -104.5005, 52.5761 ],
+							[ -104.5005, 52.5803 ],
+							[ -104.5132, 52.5803 ],
+							[ -104.5104, 52.5719 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Health",
+				"Title" : "Update For The Precautionary Drinking Water Advisory For The Village Of Pleasantdale",
+				"Category" : "Actual",
+				"event" : "Drinking Water",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 21, 2020 12:05",
+				"Expires_UTC" : "October 27, 2020 12:00",
+				"Summary" : "Description: Update for the Precautionary Drinking Water Advisory that was issued for Village of Pleasantdale.  This advisory is for the Village of Pleasantdale and for any individuals who may access water the Pleasantdale water system.  This advisory is in effect until further notice.<br>Expires: 2020-10-27T12:00:00-06:00<br>Originated from CAP Alert: SK Pleasantdale, 2020-10-21T12:05:35-06:00, BF91742D-BEA5-6963-FD29-8936FB680E94<br>Area: Village of Pleasantdale",
+				"Author" : "SK Pleasantdale",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-21:feed.atom/BF91742D-BEA5-6963-FD29-8936FB680E94",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-21/2020_10_21T12_05_35_06_00IBF91742D_BEA5_6963_FD29_8936FB680E94.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201027120000-06:00"
 			}
 		},
 		{
