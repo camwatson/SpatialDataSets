@@ -9,6 +9,58 @@
 				"coordinates" : [
 					[
 						[
+							[ -95.1536, 52.4841 ],
+							[ -95.1429, 52.6767 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1677, 53.1857 ],
+							[ -95.2444, 53.5312 ],
+							[ -96.075, 53.5525 ],
+							[ -96.8648, 53.5312 ],
+							[ -97.4342, 53.5446 ],
+							[ -97.5848, 53.5398 ],
+							[ -97.9365, 53.5279 ],
+							[ -97.6154, 53.112 ],
+							[ -97.5905, 52.8597 ],
+							[ -97.2463, 52.419 ],
+							[ -96.9655, 52.4201 ],
+							[ -96.2216, 52.42 ],
+							[ -95.7101, 52.4152 ],
+							[ -95.1536, 52.4201 ],
+							[ -95.1536, 52.4841 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snow Squall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 26, 2020 15:21",
+				"Expires_UTC" : "October 26, 2020 16:21",
+				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2020-10-26T16:21:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-26T15:21:17-00:00, urn:oid:2.49.0.1.124.1058916530.2020<br>Area: Poplar River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-26:feed.atom/urn:oid:2.49.0.1.124.1058916530.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-26/2020_10_26T15_21_17_00_00Iurn_oid_2.49.0.1.124.1058916530.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201026162117+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -129.909, 55.147 ],
 							[ -129.9003, 55.1355 ],
 							[ -129.592, 54.6849 ],
@@ -127,55 +179,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-26/2020_10_26T11_34_23_00_00Iurn_oid_2.49.0.1.124.0831137568.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201026191423+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.6944, 62.0492 ],
-							[ -122.0903, 61.5799 ],
-							[ -120.8441, 61.2474 ],
-							[ -120.2217, 61.0481 ],
-							[ -119.5784, 60.8692 ],
-							[ -119.1044, 61.2559 ],
-							[ -118.6464, 61.7115 ],
-							[ -122.2057, 62.573 ],
-							[ -123.9869, 64.6194 ],
-							[ -124.3405, 64.5073 ],
-							[ -124.7031, 64.3708 ],
-							[ -124.7448, 64.3563 ],
-							[ -125.079, 64.2453 ],
-							[ -125.4256, 64.1122 ],
-							[ -124.6054, 63.0998 ],
-							[ -123.6944, 62.0492 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 26, 2020 10:33",
-				"Expires_UTC" : "October 27, 2020 02:32",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nHeavy snow is forecast to develop today and taper off by Tuesday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-10-27T02:32:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-26T10:33:10-00:00, urn:oid:2.49.0.1.124.1096568998.2020<br>Area: Ft. Simpson Region including Jean Marie River, Wrigley Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-26:feed.atom/urn:oid:2.49.0.1.124.1096568998.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-26/2020_10_26T10_33_10_00_00Iurn_oid_2.49.0.1.124.1096568998.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201027023210+00:00"
 			}
 		},
 		{
@@ -314,76 +317,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-26/2020_10_26T13_12_26_00_00Iurn_oid_2.49.0.1.124.3646175554.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201026195926+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -126.5, 52.83 ],
-							[ -125.9601, 52.3626 ],
-							[ -125.4999, 52 ],
-							[ -125.1728, 51.7875 ],
-							[ -124.8664, 51.6273 ],
-							[ -124.3309, 51.2912 ],
-							[ -123.8, 51 ],
-							[ -122.604, 50.9901 ],
-							[ -121.65, 50.9999 ],
-							[ -121.8392, 51.3144 ],
-							[ -122.08, 51.6699 ],
-							[ -122.4911, 51.9305 ],
-							[ -122.9899, 52.2151 ],
-							[ -121.5051, 52.7044 ],
-							[ -120.3818, 53.1151 ],
-							[ -120.8538, 53.3575 ],
-							[ -121.4, 53.5999 ],
-							[ -122.3734, 53.4189 ],
-							[ -123.3207, 53.2026 ],
-							[ -123.4872, 54.615 ],
-							[ -123.9108, 55.067 ],
-							[ -124.1479, 55.2006 ],
-							[ -124.4416, 55.346 ],
-							[ -125.3473, 56.067 ],
-							[ -126.6699, 56.9999 ],
-							[ -127.7835, 57.0545 ],
-							[ -128.9927, 57.0307 ],
-							[ -128.7494, 56.5021 ],
-							[ -128.4667, 56.0247 ],
-							[ -128.1367, 55.2999 ],
-							[ -127.6878, 54.538 ],
-							[ -127.6267, 54.3906 ],
-							[ -127.509, 54.1959 ],
-							[ -127.1346, 53.6587 ],
-							[ -126.7741, 53.2011 ],
-							[ -126.648, 53.014 ],
-							[ -126.5, 52.83 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 25, 2020 23:26",
-				"Expires_UTC" : "October 26, 2020 15:25",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA frontal system will move across central and northern parts of the interior tonight through Monday morning. Snow associated with this system will start early this evening and is expected to change to ice pellets mixed with freezing rain overnight. Snowfall amounts of 10 to 20 cm can be expected by Monday morning.  As the front moves eastwards, the freezing rain or ice pellets will ease on Monday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-10-26T15:25:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-25T23:26:08-00:00, urn:oid:2.49.0.1.124.1819965462.2020<br>Area: Chilcotin, Cariboo - north including Quesnel, Bulkley Valley, Lakes District, Stuart - Nechako",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-25:feed.atom/urn:oid:2.49.0.1.124.1819965462.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-25/2020_10_25T23_26_08_00_00Iurn_oid_2.49.0.1.124.1819965462.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201026152508+00:00"
 			}
 		},
 		{
@@ -891,6 +824,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-26/2020_10_26T14_54_24_00_00Iurn_oid_2.49.0.1.124.1042805906.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201027065324+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.6944, 62.0492 ],
+							[ -122.0903, 61.5799 ],
+							[ -120.8441, 61.2474 ],
+							[ -120.2217, 61.0481 ],
+							[ -119.5784, 60.8692 ],
+							[ -119.1044, 61.2559 ],
+							[ -118.6464, 61.7115 ],
+							[ -122.2057, 62.573 ],
+							[ -123.9869, 64.6194 ],
+							[ -124.3405, 64.5073 ],
+							[ -124.7031, 64.3708 ],
+							[ -124.7448, 64.3563 ],
+							[ -125.079, 64.2453 ],
+							[ -125.4256, 64.1122 ],
+							[ -124.6054, 63.0998 ],
+							[ -123.6944, 62.0492 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 26, 2020 10:33",
+				"Expires_UTC" : "October 27, 2020 02:32",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nHeavy snow is forecast to develop today and taper off by Tuesday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-10-27T02:32:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-26T10:33:10-00:00, urn:oid:2.49.0.1.124.1096568998.2020<br>Area: Ft. Simpson Region including Jean Marie River, Wrigley Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-26:feed.atom/urn:oid:2.49.0.1.124.1096568998.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-26/2020_10_26T10_33_10_00_00Iurn_oid_2.49.0.1.124.1096568998.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201027023210+00:00"
 			}
 		}
 	]
