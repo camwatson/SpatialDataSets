@@ -9,6 +9,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -136.3938, 60 ],
+							[ -135.2242, 59.9835 ],
+							[ -134.1809, 60 ],
+							[ -134.122, 59.9974 ],
+							[ -134.0684, 60 ],
+							[ -133.5278, 60.3312 ],
+							[ -133.0688, 60.6497 ],
+							[ -133.8099, 61.0997 ],
+							[ -134.5718, 61.4667 ],
+							[ -135.1225, 61.4797 ],
+							[ -135.8519, 61.4667 ],
+							[ -136.1591, 60.764 ],
+							[ -136.3938, 60 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 31, 2020 22:52",
+				"Expires_UTC" : "November 1, 2020 14:52",
+				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-01T14:52:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T22:52:05-00:00, urn:oid:2.49.0.1.124.3067448439.2020<br>Area: Whitehorse",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.3067448439.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T22_52_05_00_00Iurn_oid_2.49.0.1.124.3067448439.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201101145205+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -131.5895, 60 ],
 							[ -131.5585, 59.8247 ],
 							[ -131.4847, 59.6497 ],
@@ -47,6 +93,94 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T11_26_46_00_00Iurn_oid_2.49.0.1.124.2152898396.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201101011446+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.0612, 53.2803 ],
+							[ -61.5, 53.2003 ],
+							[ -63.4949, 53.6005 ],
+							[ -63.4901, 53.5719 ],
+							[ -63.5244, 53.4468 ],
+							[ -63.568, 53.3889 ],
+							[ -63.6863, 53.3002 ],
+							[ -61.5, 52.9003 ],
+							[ -60.8397, 53.0302 ],
+							[ -60.7771, 53.002 ],
+							[ -60.7702, 53 ],
+							[ -60.5825, 52.955 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.0074, 53.0666 ],
+							[ -59.9432, 53.1171 ],
+							[ -59.8804, 53.2 ],
+							[ -59.8625, 53.2339 ],
+							[ -59.8485, 53.297 ],
+							[ -59.853, 53.3605 ],
+							[ -59.8979, 53.4724 ],
+							[ -59.9665, 53.5313 ],
+							[ -60.064, 53.5983 ],
+							[ -60.1986, 53.644 ],
+							[ -60.3282, 53.6683 ],
+							[ -60.4351, 53.6762 ],
+							[ -60.5259, 53.6753 ],
+							[ -60.6518, 53.6602 ],
+							[ -60.8205, 53.6078 ],
+							[ -60.9451, 53.5344 ],
+							[ -61.0082, 53.4731 ],
+							[ -61.0589, 53.3876 ],
+							[ -61.0612, 53.2803 ]
+						]
+					],
+					[
+						[
+							[ -59.3729, 54.19 ],
+							[ -59.0361, 54.0269 ],
+							[ -58.8814, 54.0182 ],
+							[ -58.8483, 53.9346 ],
+							[ -58.3667, 53.72 ],
+							[ -57.3704, 54.1207 ],
+							[ -57.0958, 54.136 ],
+							[ -56.7055, 54.7584 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.0305, 55.2374 ],
+							[ -60.1066, 55.1369 ],
+							[ -60.2298, 55.0701 ],
+							[ -60.3072, 54.9832 ],
+							[ -60.3074, 54.9828 ],
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 31, 2020 18:51",
+				"Expires_UTC" : "November 1, 2020 10:50",
+				"Summary" : "Description: Significant snow is expected.\n\nTotal snowfall: 20 to 40 cm with higher amounts possible.\n\nLocations: central Labrador and mid-Labrador coast.\n\nTime span: Monday through Tuesday afternoon.\n\nRemarks: Rain will begin over most areas Monday morning then transition to snow later in the day and persist into Tuesday morning. Conditions will improve by Tuesday afternoon. \n\nAt this time, there is considerable uncertainty regarding the track of the system, which could cause snowfall amounts to vary significantly or shift to adjacent regions. Please monitor bulletins for future updates.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-01T10:50:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T18:51:05-00:00, urn:oid:2.49.0.1.124.2759277785.2020<br>Area: Rigolet and vicinity, Postville - Makkovik, Upper Lake Melville, Churchill Valley",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.2759277785.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T18_51_05_00_00Iurn_oid_2.49.0.1.124.2759277785.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201101105005+00:00"
 			}
 		},
 		{
@@ -200,149 +334,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T19_18_01_00_00Iurn_oid_2.49.0.1.124.0572938843.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201101111701+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.0612, 53.2803 ],
-							[ -61.5, 53.2003 ],
-							[ -63.4949, 53.6005 ],
-							[ -63.4901, 53.5719 ],
-							[ -63.5244, 53.4468 ],
-							[ -63.568, 53.3889 ],
-							[ -63.6863, 53.3002 ],
-							[ -61.5, 52.9003 ],
-							[ -60.8397, 53.0302 ],
-							[ -60.7771, 53.002 ],
-							[ -60.7702, 53 ],
-							[ -60.5825, 52.955 ],
-							[ -60.3731, 52.9506 ],
-							[ -60.1736, 52.9893 ],
-							[ -60.0074, 53.0666 ],
-							[ -59.9432, 53.1171 ],
-							[ -59.8804, 53.2 ],
-							[ -59.8625, 53.2339 ],
-							[ -59.8485, 53.297 ],
-							[ -59.853, 53.3605 ],
-							[ -59.8979, 53.4724 ],
-							[ -59.9665, 53.5313 ],
-							[ -60.064, 53.5983 ],
-							[ -60.1986, 53.644 ],
-							[ -60.3282, 53.6683 ],
-							[ -60.4351, 53.6762 ],
-							[ -60.5259, 53.6753 ],
-							[ -60.6518, 53.6602 ],
-							[ -60.8205, 53.6078 ],
-							[ -60.9451, 53.5344 ],
-							[ -61.0082, 53.4731 ],
-							[ -61.0589, 53.3876 ],
-							[ -61.0612, 53.2803 ]
-						]
-					],
-					[
-						[
-							[ -59.3729, 54.19 ],
-							[ -59.0361, 54.0269 ],
-							[ -58.8814, 54.0182 ],
-							[ -58.8483, 53.9346 ],
-							[ -58.3667, 53.72 ],
-							[ -57.3704, 54.1207 ],
-							[ -57.0958, 54.136 ],
-							[ -56.7055, 54.7584 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.0305, 55.2374 ],
-							[ -60.1066, 55.1369 ],
-							[ -60.2298, 55.0701 ],
-							[ -60.3072, 54.9832 ],
-							[ -60.3074, 54.9828 ],
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 31, 2020 18:51",
-				"Expires_UTC" : "November 1, 2020 10:50",
-				"Summary" : "Description: Significant snow is expected.\n\nTotal snowfall: 20 to 40 cm with higher amounts possible.\n\nLocations: central Labrador and mid-Labrador coast.\n\nTime span: Monday through Tuesday afternoon.\n\nRemarks: Rain will begin over most areas Monday morning then transition to snow later in the day and persist into Tuesday morning. Conditions will improve by Tuesday afternoon. \n\nAt this time, there is considerable uncertainty regarding the track of the system, which could cause snowfall amounts to vary significantly or shift to adjacent regions. Please monitor bulletins for future updates.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-01T10:50:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T18:51:05-00:00, urn:oid:2.49.0.1.124.2759277785.2020<br>Area: Rigolet and vicinity, Postville - Makkovik, Upper Lake Melville, Churchill Valley",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.2759277785.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T18_51_05_00_00Iurn_oid_2.49.0.1.124.2759277785.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101105005+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -87.0122, 55.0075 ],
-							[ -87.5227, 54.1733 ],
-							[ -87.9958, 53.2172 ],
-							[ -88.0338, 52.7599 ],
-							[ -87.9904, 52.2453 ],
-							[ -83.0383, 52.2455 ],
-							[ -83.0302, 52.2453 ],
-							[ -83.7002, 54.0287 ],
-							[ -82.2369, 54.0006 ],
-							[ -82.2294, 54.0004 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.0824, 54.6123 ],
-							[ -82.007, 55.0671 ],
-							[ -82.2786, 55.1755 ],
-							[ -82.7847, 55.1832 ],
-							[ -82.9498, 55.2286 ],
-							[ -83.9602, 55.3859 ],
-							[ -84.958, 55.3741 ],
-							[ -85.6784, 55.7283 ],
-							[ -86.9972, 56.0007 ],
-							[ -87.0016, 55.9096 ],
-							[ -87.0122, 55.0075 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 31, 2020 09:21",
-				"Expires_UTC" : "November 1, 2020 01:20",
-				"Summary" : "Description: Snow at times heavy today and tonight.\n\nSnow is forecast to begin this morning and continue into tonight. For areas near and south of Webequie, the snow is expected to transition over to a period of rain late this afternoon. After this period of rain, snow will redevelop this evening before easing overnight. \n\nNear 10 centimeters of new snowfall can be expected for areas near and south of Webequie while further north, up to 15 centimeters can be expected.\n\nTonight, very strong northerly winds gusting up to 70 km/h will also develop, leading to reduced visibilities in blowing snow at times.\n\nThis heavy snow is associated with a strengthening low pressure system that will track across northern Ontario today and tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-01T01:20:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T09:21:01-00:00, urn:oid:2.49.0.1.124.1044666992.2020<br>Area: Peawanuck, Webequie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.1044666992.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T09_21_01_00_00Iurn_oid_2.49.0.1.124.1044666992.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101012001+00:00"
 			}
 		},
 		{
@@ -601,83 +592,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -131.4847, 59.6497 ],
-							[ -130.9608, 59.3157 ],
-							[ -130.3347, 58.9997 ],
-							[ -129.7659, 58.8024 ],
-							[ -129.2187, 58.6497 ],
-							[ -128.8039, 58.8954 ],
-							[ -128.4847, 59.1828 ],
-							[ -127.6373, 59.1587 ],
-							[ -126.817, 59.1829 ],
-							[ -126.3258, 59.3238 ],
-							[ -125.9169, 59.4669 ],
-							[ -126.3281, 59.7323 ],
-							[ -126.8261, 60 ],
-							[ -128.099, 60.0156 ],
-							[ -129.4364, 60.0001 ],
-							[ -129.4368, 59.9999 ],
-							[ -129.4372, 60.0001 ],
-							[ -130.4505, 60.0201 ],
-							[ -131.5895, 60 ],
-							[ -132.7012, 60.0225 ],
-							[ -133.8138, 60 ],
-							[ -133.9424, 60.0083 ],
-							[ -134.0684, 60 ],
-							[ -134.1231, 60.0023 ],
-							[ -134.1809, 60 ],
-							[ -134.2395, 59.9133 ],
-							[ -134.304, 59.8901 ],
-							[ -134.2925, 59.8559 ],
-							[ -134.6587, 59.6393 ],
-							[ -135.0104, 59.3946 ],
-							[ -135.0305, 59.3463 ],
-							[ -134.9599, 59.2809 ],
-							[ -134.7007, 59.249 ],
-							[ -134.6791, 59.1922 ],
-							[ -134.3927, 59.0235 ],
-							[ -134.4071, 58.9792 ],
-							[ -134.258, 58.861 ],
-							[ -134.0837, 58.804 ],
-							[ -134.0783, 58.8079 ],
-							[ -134.0472, 58.8087 ],
-							[ -133.29, 59.0256 ],
-							[ -132.5017, 59.2827 ],
-							[ -131.9502, 59.4663 ],
-							[ -131.4847, 59.6497 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 31, 2020 17:40",
-				"Expires_UTC" : "November 1, 2020 09:39",
-				"Summary" : "Description: A vigorous Pacific frontal system will move through southern Yukon beginning Sunday evening.\n\nSnow will begin falling on Sunday afternoon and increase in intensity overnight.    The snow will taper off on Monday afternoon.  The exact track of the system will impact snowfall totals, however amounts exceeding 25 cm are possible.\n\nStrong northerly winds will also accompany this system leading to blowing snow and poor visibility.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-01T09:39:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T17:40:32-00:00, urn:oid:2.49.0.1.124.1103783550.2020<br>Area: Watson Lake, Cassiar Mountains, Teslin, Atlin",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.1103783550.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T17_40_32_00_00Iurn_oid_2.49.0.1.124.1103783550.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101093932+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -116.9862, 57.3818 ],
 							[ -116.8378, 57.3817 ],
 							[ -116.6607, 57.3819 ],
@@ -811,64 +725,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T19_45_29_00_00Iurn_oid_2.49.0.1.124.3048996769.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201101114429+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -131.5895, 60 ],
-							[ -130.4578, 59.9802 ],
-							[ -129.4368, 59.9999 ],
-							[ -128.071, 59.9837 ],
-							[ -126.8261, 60 ],
-							[ -128.143, 60.8193 ],
-							[ -129.6349, 61.6498 ],
-							[ -130.104, 61.3575 ],
-							[ -130.6018, 60.9998 ],
-							[ -130.2383, 60.6578 ],
-							[ -129.8507, 60.3551 ],
-							[ -129.8615, 60.3495 ],
-							[ -129.8618, 60.3498 ],
-							[ -130.749, 60.4492 ],
-							[ -131.7479, 60.5292 ],
-							[ -131.7549, 60.5899 ],
-							[ -131.7848, 60.6527 ],
-							[ -132.4233, 60.6723 ],
-							[ -133.0688, 60.6497 ],
-							[ -133.5684, 60.3483 ],
-							[ -134.0684, 60 ],
-							[ -133.9424, 59.9929 ],
-							[ -133.8138, 60 ],
-							[ -132.7189, 59.9811 ],
-							[ -131.5895, 60 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 31, 2020 17:40",
-				"Expires_UTC" : "November 1, 2020 09:39",
-				"Summary" : "Description: A vigorous Pacific frontal system will move through southern Yukon beginning Sunday evening.\n\nSnow will begin falling on Sunday afternoon and increase in intensity overnight.    The snow will taper off on Monday afternoon.  The exact track of the system will impact snowfall totals, however amounts exceeding 25 cm are possible.\n\nStrong northerly winds will also accompany this system leading to blowing snow and poor visibility.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-01T09:39:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T17:40:32-00:00, urn:oid:2.49.0.1.124.1096704399.2020<br>Area: Teslin, Cassiar Mountains, Watson Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.1096704399.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T17_40_32_00_00Iurn_oid_2.49.0.1.124.1096704399.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101093932+00:00"
 			}
 		},
 		{
@@ -1580,6 +1436,83 @@
 				"coordinates" : [
 					[
 						[
+							[ -131.4847, 59.6497 ],
+							[ -130.9608, 59.3157 ],
+							[ -130.3347, 58.9997 ],
+							[ -129.7659, 58.8024 ],
+							[ -129.2187, 58.6497 ],
+							[ -128.8039, 58.8954 ],
+							[ -128.4847, 59.1828 ],
+							[ -127.6373, 59.1587 ],
+							[ -126.817, 59.1829 ],
+							[ -126.3258, 59.3238 ],
+							[ -125.9169, 59.4669 ],
+							[ -126.3281, 59.7323 ],
+							[ -126.8261, 60 ],
+							[ -128.099, 60.0156 ],
+							[ -129.4364, 60.0001 ],
+							[ -129.4368, 59.9999 ],
+							[ -129.4372, 60.0001 ],
+							[ -130.4505, 60.0201 ],
+							[ -131.5895, 60 ],
+							[ -132.7012, 60.0225 ],
+							[ -133.8138, 60 ],
+							[ -133.9424, 60.0083 ],
+							[ -134.0684, 60 ],
+							[ -134.1231, 60.0023 ],
+							[ -134.1809, 60 ],
+							[ -134.2395, 59.9133 ],
+							[ -134.304, 59.8901 ],
+							[ -134.2925, 59.8559 ],
+							[ -134.6587, 59.6393 ],
+							[ -135.0104, 59.3946 ],
+							[ -135.0305, 59.3463 ],
+							[ -134.9599, 59.2809 ],
+							[ -134.7007, 59.249 ],
+							[ -134.6791, 59.1922 ],
+							[ -134.3927, 59.0235 ],
+							[ -134.4071, 58.9792 ],
+							[ -134.258, 58.861 ],
+							[ -134.0837, 58.804 ],
+							[ -134.0783, 58.8079 ],
+							[ -134.0472, 58.8087 ],
+							[ -133.29, 59.0256 ],
+							[ -132.5017, 59.2827 ],
+							[ -131.9502, 59.4663 ],
+							[ -131.4847, 59.6497 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 31, 2020 22:52",
+				"Expires_UTC" : "November 1, 2020 14:52",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-01T14:52:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T22:52:46-00:00, urn:oid:2.49.0.1.124.0425063288.2020<br>Area: Watson Lake, Cassiar Mountains, Teslin, Atlin",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.0425063288.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T22_52_46_00_00Iurn_oid_2.49.0.1.124.0425063288.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201101145246+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -129.9046, 55.1528 ],
 							[ -129.8194, 55.2664 ],
 							[ -129.7755, 55.2934 ],
@@ -1636,18 +1569,319 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 31, 2020 11:57",
-				"Expires_UTC" : "November 1, 2020 03:56",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nA frontal system will approach Stewart today then stall over the region tonight through Monday. Rainfall amounts of up 80 mm are expected tonight and Sunday.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-01T03:56:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T11:57:45-00:00, urn:oid:2.49.0.1.124.1028460952.2020<br>Area: North Coast - inland including Stewart",
+				"LastUpdate_UTC" : "October 31, 2020 22:54",
+				"Expires_UTC" : "November 1, 2020 14:54",
+				"Summary" : "Description: A long episode of rain, at times heavy, is expected.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-01T14:54:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T22:54:35-00:00, urn:oid:2.49.0.1.124.1238643233.2020<br>Area: North Coast - inland including Stewart",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.1028460952.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T11_57_45_00_00Iurn_oid_2.49.0.1.124.1028460952.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.1238643233.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T22_54_35_00_00Iurn_oid_2.49.0.1.124.1238643233.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101035645+00:00"
+				"Expires_FMEFormat" : "20201101145435+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -91.5246, 52.2405 ],
+							[ -89.76, 52.237 ],
+							[ -87.9904, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.7002, 54.0287 ],
+							[ -87.008, 55.0039 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.5227, 54.1733 ],
+							[ -87.9958, 53.2172 ],
+							[ -89.3718, 53.4188 ],
+							[ -90.5082, 53.543 ],
+							[ -92.0407, 53.7604 ],
+							[ -93.4241, 53.9089 ],
+							[ -93.68, 53.7427 ],
+							[ -93.9327, 53.5766 ],
+							[ -94.5197, 53.2523 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.1632, 52.6707 ],
+							[ -95.1536, 52.4841 ],
+							[ -93.4886, 52.3546 ],
+							[ -91.5246, 52.2405 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 31, 2020 19:45",
+				"Expires_UTC" : "November 1, 2020 11:44",
+				"Summary" : "Description: Snow at times heavy tonight.\n\nSnow at times heavy will continue as an Alberta Clipper tracks eastward across Ontario. Snow mixed with rain will transition back to snow later this evening. Snowfall totals of 15 to 20 cm can be expected before the snow ends early Sunday morning.\n\nIn addition, strong winds gusting up to 70 km/h will accompany the snow resulting in reduced visibilities in blow snow at times.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-01T11:44:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T19:45:43-00:00, urn:oid:2.49.0.1.124.3961691607.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Webequie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.3961691607.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T19_45_43_00_00Iurn_oid_2.49.0.1.124.3961691607.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201101114443+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.848, 60.0781 ],
+							[ -123.8675, 60.0492 ],
+							[ -123.8085, 60 ],
+							[ -123.7935, 59.9993 ],
+							[ -123.7728, 60.0004 ],
+							[ -122.3513, 59.9606 ],
+							[ -120.8537, 60.0007 ],
+							[ -120.8037, 60.6261 ],
+							[ -120.8441, 61.2474 ],
+							[ -122.0804, 61.6443 ],
+							[ -123.6944, 62.0492 ],
+							[ -123.8996, 61.142 ],
+							[ -123.9607, 60.2993 ],
+							[ -123.8771, 60.1355 ],
+							[ -123.848, 60.0781 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Winter Storm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 31, 2020 21:41",
+				"Expires_UTC" : "November 1, 2020 13:40",
+				"Summary" : "Description: A strong weather system is forecast to affect southwestern sections of the Northwest Territories beginning Sunday afternoon and persist into early next week.\n\nHeavy snow is expected with this system, with total accumulations possibly exceeding 25 cm by Tuesday morning. The heaviest snow is predicted to fall mostly over higher terrain and over the Nahanni National Park region, however accumulations are expected in communities east of these regions as well. \n\nWarnings may be issued as confidence regarding this system increases.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-11-01T13:40:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T21:41:08-00:00, urn:oid:2.49.0.1.124.3302066898.2020<br>Area: Ft. Liard Region including Nahanni Butte - Sambaa K'e",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.3302066898.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T21_41_08_00_00Iurn_oid_2.49.0.1.124.3302066898.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201101134008+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 31, 2020 18:17",
+				"Expires_UTC" : "November 1, 2020 10:16",
+				"Summary" : "Description: Significant rain and wind is expected.\n\nTotal rainfall: 30 to 50 mm. Locally higher amounts possible.\n\nMaximum wind gusts: 80 km/h inland to 120 km/h near the coast, with locally stronger gusts possible.\n\nLocations: Port aux Basques and Burgeo regions.\n\nTime span: Monday through Tuesday morning.\n\nRemarks: Rain is expected to begin Monday morning and become heavy at times. Currently, the highest rainfall amounts are expected to be inland and over higher terrain, however coastal communities may still see significant amounts. The rain will taper off overnight into Tuesday. \n\nStrong south to southeasterly winds will increase across the island through the day on Monday. A period of strong southwesterly winds may follow late Monday night into Tuesday morning. \n\nAnyone who has Halloween decorations outdoors should consider bringing them inside before Monday, as they are at risk of being tossed by the wind.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-01T10:16:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T18:17:12-00:00, urn:oid:2.49.0.1.124.2345781484.2020<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.2345781484.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T18_17_12_00_00Iurn_oid_2.49.0.1.124.2345781484.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201101101612+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.2369, 54.0006 ],
+							[ -83.7002, 54.0287 ],
+							[ -83.0302, 52.2453 ],
+							[ -82.9115, 51.9291 ],
+							[ -81.6114, 52.4649 ],
+							[ -81.4236, 52.4881 ],
+							[ -82.2216, 53.0256 ],
+							[ -81.9632, 53.3416 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.2294, 54.0004 ],
+							[ -82.2369, 54.0006 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "October 31, 2020 19:46",
+				"Expires_UTC" : "November 1, 2020 11:45",
+				"Summary" : "Description: Snow and blowing snow tonight and Sunday.\n\nSnow will continue as an Alberta Clipper tracks eastward across Ontario. Snow will briefly change to rain this evening before changing back to snow overnight. Snowfall totals near 10 cm can be expected before the snow ends Sunday morning.\n\nIn addition, strong northerly winds gusting up to 60 km/h will accompany the snow resulting in reduced visibilities in blowing snow at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-01T11:45:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T19:46:15-00:00, urn:oid:2.49.0.1.124.2696799291.2020<br>Area: Attawapiskat",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.2696799291.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T19_46_15_00_00Iurn_oid_2.49.0.1.124.2696799291.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201101114515+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -130.6018, 60.9998 ],
+							[ -130.0613, 61.3421 ],
+							[ -129.6349, 61.6498 ],
+							[ -130.6714, 61.9794 ],
+							[ -131.947, 62.2934 ],
+							[ -133.1452, 62.6705 ],
+							[ -134.485, 62.9997 ],
+							[ -134.5715, 62.4032 ],
+							[ -134.5349, 61.8167 ],
+							[ -134.5343, 61.8166 ],
+							[ -132.5756, 61.3723 ],
+							[ -130.6018, 60.9998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 31, 2020 22:41",
+				"Expires_UTC" : "November 1, 2020 14:40",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA Pacific frontal system will continue to spread light density snow to the region before ending this evening.\n\nThe snow will last through the day and then end later this evening. Total accumulations of 10 to 15 cm are expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-01T14:40:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T22:41:07-00:00, urn:oid:2.49.0.1.124.1349011789.2020<br>Area: Faro - Ross River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.1349011789.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T22_41_07_00_00Iurn_oid_2.49.0.1.124.1349011789.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201101144007+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -131.5895, 60 ],
+							[ -130.4578, 59.9802 ],
+							[ -129.4368, 59.9999 ],
+							[ -128.071, 59.9837 ],
+							[ -126.8261, 60 ],
+							[ -128.143, 60.8193 ],
+							[ -129.6349, 61.6498 ],
+							[ -130.104, 61.3575 ],
+							[ -130.6018, 60.9998 ],
+							[ -130.2383, 60.6578 ],
+							[ -129.8507, 60.3551 ],
+							[ -129.8615, 60.3495 ],
+							[ -129.8618, 60.3498 ],
+							[ -130.749, 60.4492 ],
+							[ -131.7479, 60.5292 ],
+							[ -131.7549, 60.5899 ],
+							[ -131.7848, 60.6527 ],
+							[ -132.4233, 60.6723 ],
+							[ -133.0688, 60.6497 ],
+							[ -133.5684, 60.3483 ],
+							[ -134.0684, 60 ],
+							[ -133.9424, 59.9929 ],
+							[ -133.8138, 60 ],
+							[ -132.7189, 59.9811 ],
+							[ -131.5895, 60 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "October 31, 2020 22:52",
+				"Expires_UTC" : "November 1, 2020 14:52",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-01T14:52:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T22:52:46-00:00, urn:oid:2.49.0.1.124.3817477685.2020<br>Area: Teslin, Cassiar Mountains, Watson Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.3817477685.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T22_52_46_00_00Iurn_oid_2.49.0.1.124.3817477685.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201101145246+00:00"
 			}
 		},
 		{
@@ -1810,145 +2044,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T17_37_21_00_00Iurn_oid_2.49.0.1.124.0869561202.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201101093621+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 31, 2020 18:17",
-				"Expires_UTC" : "November 1, 2020 10:16",
-				"Summary" : "Description: Significant rain and wind is expected.\n\nTotal rainfall: 30 to 50 mm. Locally higher amounts possible.\n\nMaximum wind gusts: 80 km/h inland to 120 km/h near the coast, with locally stronger gusts possible.\n\nLocations: Port aux Basques and Burgeo regions.\n\nTime span: Monday through Tuesday morning.\n\nRemarks: Rain is expected to begin Monday morning and become heavy at times. Currently, the highest rainfall amounts are expected to be inland and over higher terrain, however coastal communities may still see significant amounts. The rain will taper off overnight into Tuesday. \n\nStrong south to southeasterly winds will increase across the island through the day on Monday. A period of strong southwesterly winds may follow late Monday night into Tuesday morning. \n\nAnyone who has Halloween decorations outdoors should consider bringing them inside before Monday, as they are at risk of being tossed by the wind.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-01T10:16:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T18:17:12-00:00, urn:oid:2.49.0.1.124.2345781484.2020<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.2345781484.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T18_17_12_00_00Iurn_oid_2.49.0.1.124.2345781484.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101101612+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.2369, 54.0006 ],
-							[ -83.7002, 54.0287 ],
-							[ -83.0302, 52.2453 ],
-							[ -82.9115, 51.9291 ],
-							[ -81.6114, 52.4649 ],
-							[ -81.4236, 52.4881 ],
-							[ -82.2216, 53.0256 ],
-							[ -81.9632, 53.3416 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.2294, 54.0004 ],
-							[ -82.2369, 54.0006 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "October 31, 2020 19:46",
-				"Expires_UTC" : "November 1, 2020 11:45",
-				"Summary" : "Description: Snow and blowing snow tonight and Sunday.\n\nSnow will continue as an Alberta Clipper tracks eastward across Ontario. Snow will briefly change to rain this evening before changing back to snow overnight. Snowfall totals near 10 cm can be expected before the snow ends Sunday morning.\n\nIn addition, strong northerly winds gusting up to 60 km/h will accompany the snow resulting in reduced visibilities in blowing snow at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-01T11:45:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T19:46:15-00:00, urn:oid:2.49.0.1.124.2696799291.2020<br>Area: Attawapiskat",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.2696799291.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T19_46_15_00_00Iurn_oid_2.49.0.1.124.2696799291.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101114515+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -130.6018, 60.9998 ],
-							[ -130.0613, 61.3421 ],
-							[ -129.6349, 61.6498 ],
-							[ -130.6714, 61.9794 ],
-							[ -131.947, 62.2934 ],
-							[ -133.1452, 62.6705 ],
-							[ -134.485, 62.9997 ],
-							[ -134.5715, 62.4032 ],
-							[ -134.5349, 61.8167 ],
-							[ -134.5343, 61.8166 ],
-							[ -132.5756, 61.3723 ],
-							[ -130.6018, 60.9998 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 31, 2020 22:41",
-				"Expires_UTC" : "November 1, 2020 14:40",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA Pacific frontal system will continue to spread light density snow to the region before ending this evening.\n\nThe snow will last through the day and then end later this evening. Total accumulations of 10 to 15 cm are expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-01T14:40:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T22:41:07-00:00, urn:oid:2.49.0.1.124.1349011789.2020<br>Area: Faro - Ross River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.1349011789.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T22_41_07_00_00Iurn_oid_2.49.0.1.124.1349011789.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101144007+00:00"
 			}
 		},
 		{
@@ -2393,110 +2488,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T18_56_32_00_00Iurn_oid_2.49.0.1.124.0281935290.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201101105532+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -91.5246, 52.2405 ],
-							[ -89.76, 52.237 ],
-							[ -87.9904, 52.2453 ],
-							[ -83.0383, 52.2455 ],
-							[ -83.0302, 52.2453 ],
-							[ -83.7002, 54.0287 ],
-							[ -87.008, 55.0039 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.5227, 54.1733 ],
-							[ -87.9958, 53.2172 ],
-							[ -89.3718, 53.4188 ],
-							[ -90.5082, 53.543 ],
-							[ -92.0407, 53.7604 ],
-							[ -93.4241, 53.9089 ],
-							[ -93.68, 53.7427 ],
-							[ -93.9327, 53.5766 ],
-							[ -94.5197, 53.2523 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.1632, 52.6707 ],
-							[ -95.1536, 52.4841 ],
-							[ -93.4886, 52.3546 ],
-							[ -91.5246, 52.2405 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 31, 2020 19:45",
-				"Expires_UTC" : "November 1, 2020 11:44",
-				"Summary" : "Description: Snow at times heavy tonight.\n\nSnow at times heavy will continue as an Alberta Clipper tracks eastward across Ontario. Snow mixed with rain will transition back to snow later this evening. Snowfall totals of 15 to 20 cm can be expected before the snow ends early Sunday morning.\n\nIn addition, strong winds gusting up to 70 km/h will accompany the snow resulting in reduced visibilities in blow snow at times.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-01T11:44:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T19:45:43-00:00, urn:oid:2.49.0.1.124.3961691607.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Webequie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.3961691607.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T19_45_43_00_00Iurn_oid_2.49.0.1.124.3961691607.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101114443+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.848, 60.0781 ],
-							[ -123.8675, 60.0492 ],
-							[ -123.8085, 60 ],
-							[ -123.7935, 59.9993 ],
-							[ -123.7728, 60.0004 ],
-							[ -122.3513, 59.9606 ],
-							[ -120.8537, 60.0007 ],
-							[ -120.8037, 60.6261 ],
-							[ -120.8441, 61.2474 ],
-							[ -122.0804, 61.6443 ],
-							[ -123.6944, 62.0492 ],
-							[ -123.8996, 61.142 ],
-							[ -123.9607, 60.2993 ],
-							[ -123.8771, 60.1355 ],
-							[ -123.848, 60.0781 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "October 31, 2020 21:41",
-				"Expires_UTC" : "November 1, 2020 13:40",
-				"Summary" : "Description: A strong weather system is forecast to affect southwestern sections of the Northwest Territories beginning Sunday afternoon and persist into early next week.\n\nHeavy snow is expected with this system, with total accumulations possibly exceeding 25 cm by Tuesday morning. The heaviest snow is predicted to fall mostly over higher terrain and over the Nahanni National Park region, however accumulations are expected in communities east of these regions as well. \n\nWarnings may be issued as confidence regarding this system increases.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-11-01T13:40:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-10-31T21:41:08-00:00, urn:oid:2.49.0.1.124.3302066898.2020<br>Area: Ft. Liard Region including Nahanni Butte - Sambaa K'e",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-10-31:feed.atom/urn:oid:2.49.0.1.124.3302066898.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-10-31/2020_10_31T21_41_08_00_00Iurn_oid_2.49.0.1.124.3302066898.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201101134008+00:00"
 			}
 		}
 	]
