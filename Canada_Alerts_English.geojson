@@ -477,6 +477,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ],
+							[ -84.021, 49.9497 ],
+							[ -85.9469, 49.9546 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.6283, 47.2522 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 1, 2020 23:14",
+				"Expires_UTC" : "November 2, 2020 00:14",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2020-11-02T00:14:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T23:14:26-00:00, urn:oid:2.49.0.1.124.1975654728.2020<br>Area: Manitouwadge - Hornepayne, White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1975654728.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T23_14_26_00_00Iurn_oid_2.49.0.1.124.1975654728.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102001426+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -127.6288, 50.1628 ],
 							[ -127.6515, 50.1593 ],
 							[ -127.6707, 50.1385 ],
@@ -676,6 +727,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_23_35_00_00Iurn_oid_2.49.0.1.124.2560410345.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102112235+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -119.9857, 57.2379 ],
+							[ -120.0012, 57.3805 ],
+							[ -120.0012, 58.0792 ],
+							[ -120.0013, 58.9507 ],
+							[ -120.0013, 59.4749 ],
+							[ -120.0013, 60.0004 ],
+							[ -120.3721, 60.0094 ],
+							[ -120.8537, 60.0007 ],
+							[ -122.1769, 60.0416 ],
+							[ -123.7728, 60.0004 ],
+							[ -123.7954, 60.0001 ],
+							[ -123.8085, 60 ],
+							[ -123.817, 60 ],
+							[ -123.817, 59.9998 ],
+							[ -123.817, 59.9356 ],
+							[ -123.8528, 59.7415 ],
+							[ -123.817, 59.4674 ],
+							[ -123.8541, 58.9744 ],
+							[ -123.833, 58.4669 ],
+							[ -123.8503, 58.2678 ],
+							[ -123.817, 58 ],
+							[ -123.4638, 57.5317 ],
+							[ -122.9999, 57.0999 ],
+							[ -121.5305, 57.0723 ],
+							[ -120.0013, 57.0999 ],
+							[ -119.9857, 57.2379 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 23:18",
+				"Expires_UTC" : "November 2, 2020 15:18",
+				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-02T15:18:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T23:18:08-00:00, urn:oid:2.49.0.1.124.2161288214.2020<br>Area: Fort Nelson",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.2161288214.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T23_18_08_00_00Iurn_oid_2.49.0.1.124.2161288214.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102151808+00:00"
 			}
 		},
 		{
@@ -1212,6 +1322,72 @@
 				"coordinates" : [
 					[
 						[
+							[ -131.5895, 60 ],
+							[ -130.4578, 59.9802 ],
+							[ -129.4368, 59.9999 ],
+							[ -128.071, 59.9837 ],
+							[ -126.8261, 60 ],
+							[ -128.143, 60.8193 ],
+							[ -129.6349, 61.6498 ],
+							[ -130.104, 61.3575 ],
+							[ -130.6018, 60.9998 ],
+							[ -130.2383, 60.6578 ],
+							[ -129.8507, 60.3551 ],
+							[ -129.8615, 60.3495 ],
+							[ -129.8618, 60.3498 ],
+							[ -130.749, 60.4492 ],
+							[ -131.7479, 60.5292 ],
+							[ -131.7549, 60.5899 ],
+							[ -131.7848, 60.6527 ],
+							[ -132.4233, 60.6723 ],
+							[ -133.0688, 60.6497 ],
+							[ -133.8099, 61.0997 ],
+							[ -134.5718, 61.4667 ],
+							[ -135.1225, 61.4797 ],
+							[ -135.8519, 61.4667 ],
+							[ -136.1591, 60.764 ],
+							[ -136.3938, 60 ],
+							[ -135.2242, 59.9835 ],
+							[ -134.1809, 60 ],
+							[ -134.122, 59.9974 ],
+							[ -134.0684, 60 ],
+							[ -133.9424, 59.9929 ],
+							[ -133.8138, 60 ],
+							[ -132.7189, 59.9811 ],
+							[ -131.5895, 60 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 23:17",
+				"Expires_UTC" : "November 2, 2020 15:17",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-02T15:17:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T23:17:39-00:00, urn:oid:2.49.0.1.124.0758406970.2020<br>Area: Whitehorse, Teslin, Cassiar Mountains, Watson Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.0758406970.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T23_17_39_00_00Iurn_oid_2.49.0.1.124.0758406970.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102151739+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.3109, 49.4067 ],
 							[ -58.8133, 48.8226 ],
 							[ -59.2492, 48.6594 ],
@@ -1410,6 +1586,91 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T21_42_13_00_00Iurn_oid_2.49.0.1.124.3924191299.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102134113+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -126.817, 59.1829 ],
+							[ -126.2569, 58.7982 ],
+							[ -125.6669, 58.4669 ],
+							[ -124.7028, 58.4331 ],
+							[ -123.833, 58.4669 ],
+							[ -123.8173, 58.4841 ],
+							[ -123.817, 58.4844 ],
+							[ -123.7664, 58.9859 ],
+							[ -123.817, 59.4674 ],
+							[ -124.8878, 59.4884 ],
+							[ -125.9169, 59.4669 ],
+							[ -126.3281, 59.7323 ],
+							[ -126.8261, 60 ],
+							[ -128.099, 60.0156 ],
+							[ -129.4364, 60.0001 ],
+							[ -129.4368, 59.9999 ],
+							[ -129.4372, 60.0001 ],
+							[ -130.4505, 60.0201 ],
+							[ -131.5895, 60 ],
+							[ -132.7012, 60.0225 ],
+							[ -133.8138, 60 ],
+							[ -133.9424, 60.0083 ],
+							[ -134.0684, 60 ],
+							[ -134.1231, 60.0023 ],
+							[ -134.1809, 60 ],
+							[ -134.2395, 59.9133 ],
+							[ -134.304, 59.8901 ],
+							[ -134.2925, 59.8559 ],
+							[ -134.6587, 59.6393 ],
+							[ -135.0104, 59.3946 ],
+							[ -135.0305, 59.3463 ],
+							[ -134.9599, 59.2809 ],
+							[ -134.7007, 59.249 ],
+							[ -134.6791, 59.1922 ],
+							[ -134.3927, 59.0235 ],
+							[ -134.4071, 58.9792 ],
+							[ -134.258, 58.861 ],
+							[ -134.0837, 58.804 ],
+							[ -134.0783, 58.8079 ],
+							[ -134.0472, 58.8087 ],
+							[ -133.29, 59.0256 ],
+							[ -132.5017, 59.2827 ],
+							[ -131.9502, 59.4663 ],
+							[ -131.4847, 59.6497 ],
+							[ -130.9608, 59.3157 ],
+							[ -130.3347, 58.9997 ],
+							[ -129.7659, 58.8024 ],
+							[ -129.2187, 58.6497 ],
+							[ -128.8039, 58.8954 ],
+							[ -128.4847, 59.1828 ],
+							[ -127.6373, 59.1587 ],
+							[ -126.817, 59.1829 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 23:17",
+				"Expires_UTC" : "November 2, 2020 15:17",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-02T15:17:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T23:17:39-00:00, urn:oid:2.49.0.1.124.1546209216.2020<br>Area: Muncho Lake Park - Stone Mountain Park, Watson Lake, Cassiar Mountains, Teslin, Atlin",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1546209216.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T23_17_39_00_00Iurn_oid_2.49.0.1.124.1546209216.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102151739+00:00"
 			}
 		},
 		{
@@ -1845,71 +2106,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T20_48_53_00_00Iurn_oid_2.49.0.1.124.1508642056.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102124753+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -107.1341, 53.2067 ],
-							[ -107.1233, 53.2067 ],
-							[ -107.1233, 53.2141 ],
-							[ -107.1284, 53.214 ],
-							[ -107.1284, 53.2173 ],
-							[ -107.1355, 53.2174 ],
-							[ -107.1354, 53.216 ],
-							[ -107.1322, 53.2153 ],
-							[ -107.1305, 53.2112 ],
-							[ -107.1378, 53.2135 ],
-							[ -107.1396, 53.2124 ],
-							[ -107.1341, 53.2067 ]
-						]
-					],
-					[
-						[
-							[ -107.0556, 53.3011 ],
-							[ -107.0559, 53.3051 ],
-							[ -107.0492, 53.3056 ],
-							[ -107.0533, 53.3057 ],
-							[ -107.0535, 53.3082 ],
-							[ -107.0576, 53.3082 ],
-							[ -107.0561, 53.3091 ],
-							[ -107.0576, 53.3101 ],
-							[ -107.0682, 53.3101 ],
-							[ -107.0681, 53.3081 ],
-							[ -107.0703, 53.3064 ],
-							[ -107.0747, 53.3063 ],
-							[ -107.0747, 53.304 ],
-							[ -107.0724, 53.3043 ],
-							[ -107.0724, 53.3012 ],
-							[ -107.0556, 53.3011 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Infra",
-				"Title" : "Sasktel Planned Service Outage In Iroquois Lake, Echo Bay And Shell Lake",
-				"Category" : "Actual",
-				"event" : "Telephone Service",
-				"urgency" : "Immediate",
-				"certainty" : "Observed",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2020 10:10",
-				"Expires_UTC" : "November 2, 2020 10:00",
-				"Summary" : "Description: On November 2nd, from 12:00 am (midnight) until approximately 6:00 am, SaskTel crews will be performing maintenance on the network infrastructure serving the Iroquois Lake and Echo Bay area.  During that timeframe, SaskTel Internet, Wireless, and Landline Phone services will be unavailable.\nSaskTel Internet and Wireless services in the Village of Shell Lake will also be unavailable, however, Shell Lake customers will have access to Landline Phone service during the outage.<br>Expires: 2020-11-02T10:00:00-06:00<br>Originated from CAP Alert: SK SaskTel, 2020-11-01T10:10:14-06:00, 48FD7EA9-F39F-4772-F2F6-79D8F05F088E<br>Area: Iroquois Lake, Echo Bay and Shell Lake",
-				"Author" : "SK SaskTel",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/48FD7EA9-F39F-4772-F2F6-79D8F05F088E",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T10_10_14_06_00I48FD7EA9_F39F_4772_F2F6_79D8F05F088E.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102100000-06:00"
 			}
 		},
 		{
@@ -3027,6 +3223,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -66.4517, 45.2004 ],
+							[ -66.4533, 45.2004 ],
+							[ -66.4535, 45.2004 ],
+							[ -67.1548, 45.2171 ],
+							[ -67.2843, 45.1927 ],
+							[ -67.3447, 45.1787 ],
+							[ -67.4075, 45.1606 ],
+							[ -67.3394, 45.12 ],
+							[ -67.2902, 45.1481 ],
+							[ -67.2717, 45.1815 ],
+							[ -67.2253, 45.1533 ],
+							[ -67.1617, 45.1528 ],
+							[ -66.9884, 44.9042 ],
+							[ -66.9778, 44.8326 ],
+							[ -66.8639, 44.7731 ],
+							[ -66.9393, 44.5943 ],
+							[ -66.6772, 44.5452 ],
+							[ -66.6191, 44.9452 ],
+							[ -66.4488, 44.9966 ],
+							[ -66.1205, 45.0829 ],
+							[ -65.9007, 45.0895 ],
+							[ -65.1181, 45.3687 ],
+							[ -65.024, 45.4213 ],
+							[ -65.0077, 45.4302 ],
+							[ -65.067, 45.5297 ],
+							[ -65.1174, 45.6154 ],
+							[ -65.1179, 45.6152 ],
+							[ -66.449, 45.2164 ],
+							[ -66.4517, 45.2004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 19:56",
+				"Expires_UTC" : "November 2, 2020 11:55",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nTotal Rainfall: 40 to 60 mm, with locally higher amounts possible.\n\nTime span: beginning this evening through Monday morning.\n\nRemarks: Rain at times heavy is expected to begin this evening then taper to a few showers, near noon. Rainfall amounts will range from 40 to 60 mm but areas under the heaviest rain bands may see slightly higher accumulations.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-11-02T11:55:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:56:23-00:00, urn:oid:2.49.0.1.124.2654714531.2020<br>Area: Saint John and County, Grand Manan and Coastal Charlotte County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.2654714531.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_56_23_00_00Iurn_oid_2.49.0.1.124.2654714531.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102115523+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -116.9862, 57.3818 ],
 							[ -116.8378, 57.3817 ],
 							[ -116.6607, 57.3819 ],
@@ -3091,68 +3349,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T22_46_08_00_00Iurn_oid_2.49.0.1.124.4070097238.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102144508+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -66.4517, 45.2004 ],
-							[ -66.4533, 45.2004 ],
-							[ -66.4535, 45.2004 ],
-							[ -67.1548, 45.2171 ],
-							[ -67.2843, 45.1927 ],
-							[ -67.3447, 45.1787 ],
-							[ -67.4075, 45.1606 ],
-							[ -67.3394, 45.12 ],
-							[ -67.2902, 45.1481 ],
-							[ -67.2717, 45.1815 ],
-							[ -67.2253, 45.1533 ],
-							[ -67.1617, 45.1528 ],
-							[ -66.9884, 44.9042 ],
-							[ -66.9778, 44.8326 ],
-							[ -66.8639, 44.7731 ],
-							[ -66.9393, 44.5943 ],
-							[ -66.6772, 44.5452 ],
-							[ -66.6191, 44.9452 ],
-							[ -66.4488, 44.9966 ],
-							[ -66.1205, 45.0829 ],
-							[ -65.9007, 45.0895 ],
-							[ -65.1181, 45.3687 ],
-							[ -65.024, 45.4213 ],
-							[ -65.0077, 45.4302 ],
-							[ -65.067, 45.5297 ],
-							[ -65.1174, 45.6154 ],
-							[ -65.1179, 45.6152 ],
-							[ -66.449, 45.2164 ],
-							[ -66.4517, 45.2004 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2020 19:56",
-				"Expires_UTC" : "November 2, 2020 11:55",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nTotal Rainfall: 40 to 60 mm, with locally higher amounts possible.\n\nTime span: beginning this evening through Monday morning.\n\nRemarks: Rain at times heavy is expected to begin this evening then taper to a few showers, near noon. Rainfall amounts will range from 40 to 60 mm but areas under the heaviest rain bands may see slightly higher accumulations.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-11-02T11:55:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:56:23-00:00, urn:oid:2.49.0.1.124.2654714531.2020<br>Area: Saint John and County, Grand Manan and Coastal Charlotte County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.2654714531.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_56_23_00_00Iurn_oid_2.49.0.1.124.2654714531.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102115523+00:00"
 			}
 		},
 		{
