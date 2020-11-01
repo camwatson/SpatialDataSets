@@ -398,39 +398,62 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.6743, 50.7821 ],
-							[ -57.976, 51.1736 ],
-							[ -57.1162, 51.3508 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1075, 51.9221 ],
-							[ -58.9988, 51.333 ],
-							[ -59.0029, 50.7675 ],
-							[ -58.9502, 50.7022 ],
-							[ -58.6743, 50.7821 ]
+							[ -107.1341, 53.2067 ],
+							[ -107.1233, 53.2067 ],
+							[ -107.1233, 53.2141 ],
+							[ -107.1284, 53.214 ],
+							[ -107.1284, 53.2173 ],
+							[ -107.1355, 53.2174 ],
+							[ -107.1354, 53.216 ],
+							[ -107.1322, 53.2153 ],
+							[ -107.1305, 53.2112 ],
+							[ -107.1378, 53.2135 ],
+							[ -107.1396, 53.2124 ],
+							[ -107.1341, 53.2067 ]
+						]
+					],
+					[
+						[
+							[ -107.0556, 53.3011 ],
+							[ -107.0559, 53.3051 ],
+							[ -107.0492, 53.3056 ],
+							[ -107.0533, 53.3057 ],
+							[ -107.0535, 53.3082 ],
+							[ -107.0576, 53.3082 ],
+							[ -107.0561, 53.3091 ],
+							[ -107.0576, 53.3101 ],
+							[ -107.0682, 53.3101 ],
+							[ -107.0681, 53.3081 ],
+							[ -107.0703, 53.3064 ],
+							[ -107.0747, 53.3063 ],
+							[ -107.0747, 53.304 ],
+							[ -107.0724, 53.3043 ],
+							[ -107.0724, 53.3012 ],
+							[ -107.0556, 53.3011 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Infra",
+				"Title" : "Sasktel Planned Service Outage In Iroquois Lake, Echo Bay And Shell Lake",
 				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
+				"event" : "Telephone Service",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2020 09:01",
-				"Expires_UTC" : "November 2, 2020 01:00",
-				"Summary" : "Description: Heavy rain and strong southerly winds are expected over the Lower North Shore overnight tonight and Monday.   The Blanc-Sablon area will be especially affected with rainfall totals of 50 to 60 millimetres.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-11-02T01:00:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T09:01:32-00:00, urn:oid:2.49.0.1.124.2639909585.2020<br>Area: Blanc-Sablon",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"LastUpdate_UTC" : "November 1, 2020 10:10",
+				"Expires_UTC" : "November 2, 2020 10:00",
+				"Summary" : "Description: On November 2nd, from 12:00 am (midnight) until approximately 6:00 am, SaskTel crews will be performing maintenance on the network infrastructure serving the Iroquois Lake and Echo Bay area.  During that timeframe, SaskTel Internet, Wireless, and Landline Phone services will be unavailable.\nSaskTel Internet and Wireless services in the Village of Shell Lake will also be unavailable, however, Shell Lake customers will have access to Landline Phone service during the outage.<br>Expires: 2020-11-02T10:00:00-06:00<br>Originated from CAP Alert: SK SaskTel, 2020-11-01T10:10:14-06:00, 48FD7EA9-F39F-4772-F2F6-79D8F05F088E<br>Area: Iroquois Lake, Echo Bay and Shell Lake",
+				"Author" : "SK SaskTel",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.2639909585.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T09_01_32_00_00Iurn_oid_2.49.0.1.124.2639909585.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/48FD7EA9-F39F-4772-F2F6-79D8F05F088E",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T10_10_14_06_00I48FD7EA9_F39F_4772_F2F6_79D8F05F088E.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102010032+00:00"
+				"Expires_FMEFormat" : "20201102100000-06:00"
 			}
 		},
 		{
