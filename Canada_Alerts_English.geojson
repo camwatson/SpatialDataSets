@@ -9,6 +9,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ],
+							[ -84.021, 49.9497 ],
+							[ -85.9469, 49.9546 ],
+							[ -87.4321, 49.9482 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.6283, 47.2522 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 20:41",
+				"Expires_UTC" : "November 2, 2020 03:06",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for early this evening.\n\nVisibilities may be significantly reduced in snow and blowing snow as an Alberta Clipper moves through northeastern Ontario.\n\nSnow and wind gusts up to 70 km/h are expected to continue early this evening. Falling snow along with strong wind gusts will allow for blowing snow to occur and affect travel.\n\nConditions will improve this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-02T03:06:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T20:41:00-00:00, urn:oid:2.49.0.1.124.1567999839.2020<br>Area: Manitouwadge - Hornepayne, White River - Dubreuilville, Wawa - Pukaskwa Park, Agawa - Lake Superior Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1567999839.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T20_41_00_00_00Iurn_oid_2.49.0.1.124.1567999839.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102030600+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -127.6288, 50.1628 ],
 							[ -127.6515, 50.1593 ],
 							[ -127.6707, 50.1385 ],
@@ -250,56 +300,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_23_35_00_00Iurn_oid_2.49.0.1.124.2560410345.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102112235+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 1, 2020 14:27",
-				"Expires_UTC" : "November 2, 2020 06:26",
-				"Summary" : "Description: Significant rain is expected.\n\nTotal rainfall: 20 to 40 mm. Locally higher amounts possible.\n\nLocations: Port aux Basques and Burgeo regions.\n\nTime span: Monday morning through Tuesday morning.\n\nRemarks: Rain, at times heavy, is forecast to begin early Monday morning. Currently, the highest rainfall amounts are expected to be inland and over higher terrain, although coastal communities may still see significant amounts. The rain will taper off Monday night.\n\nAdditionally, strong southerly winds will develop on Monday for which wind warnings have been issued. Please refer to those warnings for more details.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-02T06:26:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T14:27:09-00:00, urn:oid:2.49.0.1.124.3358089548.2020<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.3358089548.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T14_27_09_00_00Iurn_oid_2.49.0.1.124.3358089548.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102062609+00:00"
 			}
 		},
 		{
@@ -553,6 +553,181 @@
 				"coordinates" : [
 					[
 						[
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ]
+						]
+					],
+					[
+						[
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -54.65, 49.25 ]
+						]
+					],
+					[
+						[
+							[ -54.1199, 48.25 ],
+							[ -53.5167, 48.25 ],
+							[ -53.5163, 48.2499 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.836, 48.4368 ],
+							[ -53.9005, 48.3746 ],
+							[ -54.1199, 48.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 19:23",
+				"Expires_UTC" : "November 2, 2020 11:22",
+				"Summary" : "Description: Significant wind is expected.\n\nMaximum wind gusts: 80 km/h except 110 along parts of the coast.\n\nLocations: southern, eastern, and northeastern Newfoundland.\n\nTime span: midday Monday to Tuesday morning.\n\nRemarks: Strong south to southeasterly winds will increase across the island through the day on Monday. A period of strong southwesterly winds will follow late Monday night into Tuesday morning. \n\nAnyone who has Halloween decorations outdoors should consider bringing them inside before Monday, as they are at risk of being tossed by the wind.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-02T11:22:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:23:58-00:00, urn:oid:2.49.0.1.124.1632946491.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1632946491.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_23_58_00_00Iurn_oid_2.49.0.1.124.1632946491.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102112258+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.8528, 43.5481 ],
+							[ -65.779, 43.4069 ],
+							[ -65.6057, 43.3204 ],
+							[ -64.8863, 43.7582 ],
+							[ -64.4838, 44.0841 ],
+							[ -64.5022, 44.1157 ],
+							[ -64.5276, 44.1403 ],
+							[ -64.5586, 44.1453 ],
+							[ -64.8731, 44.4146 ],
+							[ -64.8653, 44.4201 ],
+							[ -64.8546, 44.458 ],
+							[ -64.9461, 44.5351 ],
+							[ -65.0755, 44.4407 ],
+							[ -65.1623, 44.4446 ],
+							[ -65.1856, 44.4122 ],
+							[ -65.3296, 44.3106 ],
+							[ -65.7604, 44.6859 ],
+							[ -65.8843, 44.8139 ],
+							[ -66.5371, 44.3055 ],
+							[ -66.2609, 43.9343 ],
+							[ -66.2464, 43.8302 ],
+							[ -66.0816, 43.613 ],
+							[ -65.8528, 43.5481 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 14:45",
+				"Expires_UTC" : "November 2, 2020 06:44",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nTotal Rainfall: 40 to 60 mm, with locally higher amounts possible.\n\nTime span: beginning this evening through Monday morning.\n\nRemarks:  Rain at times heavy is expected to begin this evening then taper to a few showers Monday morning. Generally 40 to 60 mm is expected but areas under the heaviest rain bands may see slightly higher accumulations.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-11-02T06:44:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T14:45:46-00:00, urn:oid:2.49.0.1.124.2486114111.2020<br>Area: Digby County, Queens County, Shelburne County, Yarmouth County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.2486114111.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T14_45_46_00_00Iurn_oid_2.49.0.1.124.2486114111.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102064446+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -84.021, 49.9497 ],
 							[ -85.9469, 49.9546 ],
 							[ -87.4321, 49.9482 ],
@@ -614,6 +789,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T16_18_08_00_00Iurn_oid_2.49.0.1.124.3014466007.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102030608+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 19:26",
+				"Expires_UTC" : "November 2, 2020 11:25",
+				"Summary" : "Description: Significant wind is expected.\n\nMaximum wind gusts: southerly 80 km/h except 100 along parts of the coast.\n\nLocations: western Newfoundland.\n\nTime span: Monday morning through Tuesday morning.\n\nRemarks: The strongest gusts are expected in areas prone to enhanced southerly winds. These winds typically occur in the vicinities of the outer Bay of Islands and Bonne Bay.\n\nA period of strong southwesterly winds will follow late Monday night into Tuesday morning before easing later on Tuesday.\n\nAnyone who has Halloween decorations outdoors should consider bringing them inside before Monday, as they are at risk of being tossed by the wind.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-02T11:25:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:26:48-00:00, urn:oid:2.49.0.1.124.2341778868.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.2341778868.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_26_48_00_00Iurn_oid_2.49.0.1.124.2341778868.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102112548+00:00"
 			}
 		},
 		{
@@ -822,6 +1046,92 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T16_16_34_00_00Iurn_oid_2.49.0.1.124.2561136364.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102081534+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -80.6965, 46.106 ],
+							[ -80.5701, 46.0178 ],
+							[ -80.5706, 45.8856 ],
+							[ -79.7785, 45.901 ],
+							[ -79.6173, 45.9047 ],
+							[ -79.5385, 45.9261 ],
+							[ -79.2711, 45.9989 ],
+							[ -78.6213, 46.1756 ],
+							[ -78.3696, 46.2441 ],
+							[ -78.3597, 46.2468 ],
+							[ -78.3417, 46.2607 ],
+							[ -78.3382, 46.2631 ],
+							[ -78.3344, 46.2912 ],
+							[ -78.3748, 46.3144 ],
+							[ -78.4765, 46.3158 ],
+							[ -78.5836, 46.3403 ],
+							[ -78.6878, 46.344 ],
+							[ -78.6857, 46.3783 ],
+							[ -78.7063, 46.403 ],
+							[ -78.8477, 46.4674 ],
+							[ -78.953, 46.5625 ],
+							[ -78.984, 46.6586 ],
+							[ -79.0486, 46.6951 ],
+							[ -79.0624, 46.7207 ],
+							[ -79.141, 46.8582 ],
+							[ -79.1873, 46.8737 ],
+							[ -79.275, 46.952 ],
+							[ -79.2888, 47.0002 ],
+							[ -79.2923, 47.0127 ],
+							[ -79.3868, 47.1056 ],
+							[ -79.3589, 47.2434 ],
+							[ -79.4135, 47.302 ],
+							[ -79.4216, 47.341 ],
+							[ -79.4988, 47.4815 ],
+							[ -79.432, 47.5214 ],
+							[ -79.4188, 47.5697 ],
+							[ -79.4946, 47.5988 ],
+							[ -79.5175, 47.5701 ],
+							[ -79.5064, 47.6938 ],
+							[ -79.5176, 47.833 ],
+							[ -79.5175, 48.2511 ],
+							[ -81.0729, 48.2526 ],
+							[ -81.0762, 47.581 ],
+							[ -81.0754, 46.97 ],
+							[ -81.939, 46.9696 ],
+							[ -81.939, 46.6086 ],
+							[ -82.0579, 46.6086 ],
+							[ -82.0579, 46.2733 ],
+							[ -81.4263, 46.2733 ],
+							[ -81.4263, 46.1701 ],
+							[ -80.9338, 46.1701 ],
+							[ -80.9338, 46.0992 ],
+							[ -80.6965, 46.106 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 20:39",
+				"Expires_UTC" : "November 2, 2020 10:14",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for this evening.\n\nVisibilities may be significantly reduced in snow and blowing snow as an Alberta Clipper moves through northeastern Ontario.\n\nSnow and wind gusts up to 70 km/h are expected this evening. Falling snow along with strong wind gusts will allow for blowing snow to occur and affect travel.\n\nConditions will improve near or after midnight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-02T10:14:26-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T20:39:26-00:00, urn:oid:2.49.0.1.124.0634686890.2020<br>Area: Greater Sudbury and vicinity, Kirkland Lake - Englehart, Temiskaming Shores - Temagami, West Nipissing - French River, North Bay - Powassan - Mattawa",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.0634686890.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T20_39_26_00_00Iurn_oid_2.49.0.1.124.0634686890.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102101426+00:00"
 			}
 		},
 		{
@@ -1526,125 +1836,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4599, 47.976 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.9999, 47.9199 ]
-						]
-					],
-					[
-						[
-							[ -54.65, 49.25 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.0086, 48.9045 ],
-							[ -53.9865, 48.8983 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ]
-						]
-					],
-					[
-						[
-							[ -54.1199, 48.25 ],
-							[ -53.5167, 48.25 ],
-							[ -53.5163, 48.2499 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.6375, 48.5439 ],
-							[ -53.7275, 48.5317 ],
-							[ -53.836, 48.4368 ],
-							[ -53.9005, 48.3746 ],
-							[ -54.1199, 48.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2020 19:23",
-				"Expires_UTC" : "November 2, 2020 11:22",
-				"Summary" : "Description: Significant wind is expected.\n\nMaximum wind gusts: 80 km/h except 110 along parts of the coast.\n\nLocations: southern, eastern, and northeastern Newfoundland.\n\nTime span: midday Monday to Tuesday morning.\n\nRemarks: Strong south to southeasterly winds will increase across the island through the day on Monday. A period of strong southwesterly winds will follow late Monday night into Tuesday morning. \n\nAnyone who has Halloween decorations outdoors should consider bringing them inside before Monday, as they are at risk of being tossed by the wind.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-02T11:22:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:23:58-00:00, urn:oid:2.49.0.1.124.1632946491.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1632946491.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_23_58_00_00Iurn_oid_2.49.0.1.124.1632946491.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102112258+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -80.2349, 44.2815 ],
 							[ -80.2918, 44.5273 ],
 							[ -80.2774, 44.6441 ],
@@ -1729,62 +1920,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T15_15_14_00_00Iurn_oid_2.49.0.1.124.3201421680.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102071414+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -65.8528, 43.5481 ],
-							[ -65.779, 43.4069 ],
-							[ -65.6057, 43.3204 ],
-							[ -64.8863, 43.7582 ],
-							[ -64.4838, 44.0841 ],
-							[ -64.5022, 44.1157 ],
-							[ -64.5276, 44.1403 ],
-							[ -64.5586, 44.1453 ],
-							[ -64.8731, 44.4146 ],
-							[ -64.8653, 44.4201 ],
-							[ -64.8546, 44.458 ],
-							[ -64.9461, 44.5351 ],
-							[ -65.0755, 44.4407 ],
-							[ -65.1623, 44.4446 ],
-							[ -65.1856, 44.4122 ],
-							[ -65.3296, 44.3106 ],
-							[ -65.7604, 44.6859 ],
-							[ -65.8843, 44.8139 ],
-							[ -66.5371, 44.3055 ],
-							[ -66.2609, 43.9343 ],
-							[ -66.2464, 43.8302 ],
-							[ -66.0816, 43.613 ],
-							[ -65.8528, 43.5481 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2020 14:45",
-				"Expires_UTC" : "November 2, 2020 06:44",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nTotal Rainfall: 40 to 60 mm, with locally higher amounts possible.\n\nTime span: beginning this evening through Monday morning.\n\nRemarks:  Rain at times heavy is expected to begin this evening then taper to a few showers Monday morning. Generally 40 to 60 mm is expected but areas under the heaviest rain bands may see slightly higher accumulations.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-11-02T06:44:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T14:45:46-00:00, urn:oid:2.49.0.1.124.2486114111.2020<br>Area: Digby County, Queens County, Shelburne County, Yarmouth County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.2486114111.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T14_45_46_00_00Iurn_oid_2.49.0.1.124.2486114111.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102064446+00:00"
 			}
 		},
 		{
@@ -1893,55 +2028,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -57.7515, 50.0004 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2020 19:26",
-				"Expires_UTC" : "November 2, 2020 11:25",
-				"Summary" : "Description: Significant wind is expected.\n\nMaximum wind gusts: southerly 80 km/h except 100 along parts of the coast.\n\nLocations: western Newfoundland.\n\nTime span: Monday morning through Tuesday morning.\n\nRemarks: The strongest gusts are expected in areas prone to enhanced southerly winds. These winds typically occur in the vicinities of the outer Bay of Islands and Bonne Bay.\n\nA period of strong southwesterly winds will follow late Monday night into Tuesday morning before easing later on Tuesday.\n\nAnyone who has Halloween decorations outdoors should consider bringing them inside before Monday, as they are at risk of being tossed by the wind.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-02T11:25:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:26:48-00:00, urn:oid:2.49.0.1.124.2341778868.2020<br>Area: Corner Brook and vicinity, Gros Morne, Bay St. George",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.2341778868.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_26_48_00_00Iurn_oid_2.49.0.1.124.2341778868.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102112548+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -62.884, 46.5004 ],
 							[ -63.6271, 46.6222 ],
 							[ -63.9227, 46.7494 ],
@@ -1982,6 +2068,163 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_59_11_00_00Iurn_oid_2.49.0.1.124.3323527007.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102115811+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -79.6299, 44.3954 ],
+							[ -79.6293, 44.5519 ],
+							[ -79.9704, 44.6487 ],
+							[ -79.9812, 44.6517 ],
+							[ -80.2774, 44.6441 ],
+							[ -80.2918, 44.5273 ],
+							[ -80.2349, 44.2815 ],
+							[ -80.2335, 44.2663 ],
+							[ -80.2285, 44.2542 ],
+							[ -80.1126, 44.2756 ],
+							[ -80.0028, 44.299 ],
+							[ -79.8682, 44.3238 ],
+							[ -79.7487, 44.3494 ],
+							[ -79.7441, 44.3283 ],
+							[ -79.738, 44.3101 ],
+							[ -79.7142, 44.3092 ],
+							[ -79.6886, 44.3101 ],
+							[ -79.6833, 44.3194 ],
+							[ -79.6802, 44.3286 ],
+							[ -79.666, 44.3236 ],
+							[ -79.6497, 44.3199 ],
+							[ -79.6429, 44.331 ],
+							[ -79.6383, 44.3401 ],
+							[ -79.6185, 44.3449 ],
+							[ -79.5995, 44.35 ],
+							[ -79.5991, 44.3546 ],
+							[ -79.5995, 44.3592 ],
+							[ -79.611, 44.3637 ],
+							[ -79.6218, 44.3673 ],
+							[ -79.6043, 44.3903 ],
+							[ -79.6284, 44.3869 ],
+							[ -79.6291, 44.3911 ],
+							[ -79.6299, 44.3954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Snow Squall Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 20:12",
+				"Expires_UTC" : "November 2, 2020 12:11",
+				"Summary" : "Description: Snow squalls are expected to develop. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow, and snow will quickly accumulate.\n\nFlurries at times heavy and local snow squalls are expected to begin this evening and continue through the night. Snowfall amounts of 10 to 15 cm in 12 hours are possible especially over the higher terrain south of Collingwood. Strong winds along with the falling snow will reduce visibilities at times and make travel difficult.\n\nSnow squalls will taper off Monday morning.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-02T12:11:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T20:12:50-00:00, urn:oid:2.49.0.1.124.1938588354.2020<br>Area: Barrie - Collingwood - Hillsdale",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1938588354.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T20_12_50_00_00Iurn_oid_2.49.0.1.124.1938588354.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102121150+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -55.9388, 51.6058 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 19:24",
+				"Expires_UTC" : "November 2, 2020 11:23",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southwesterly 80 km/h, except 110 along parts of the coast.\n\nLocations: northern Newfoundland.\n\nTime span: overnight Monday until Tuesday morning.\n\nRemarks: Anyone who has Halloween decorations outdoors should consider bringing them inside before Monday, as they are at risk of being tossed by the wind.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-02T11:23:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:24:39-00:00, urn:oid:2.49.0.1.124.1539078771.2020<br>Area: Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1539078771.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_24_39_00_00Iurn_oid_2.49.0.1.124.1539078771.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102112339+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "November 1, 2020 19:26",
+				"Expires_UTC" : "November 2, 2020 11:25",
+				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\nMaximum wind gusts: southeasterly 130 km/h in the Wreckhouse area.\n\nTime span: Monday afternoon.\n\nRemarks: Strong southeasterly winds gusting to 80 km/h will develop overnight tonight. Winds will further increase Monday afternoon with gusts to 130 km/h before diminishing somewhat Monday evening as winds shift to strong southwesterlies.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-02T11:25:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:26:10-00:00, urn:oid:2.49.0.1.124.4216921852.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.4216921852.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_26_10_00_00Iurn_oid_2.49.0.1.124.4216921852.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102112510+00:00"
 			}
 		},
 		{
@@ -2247,163 +2490,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T20_23_54_00_00Iurn_oid_2.49.0.1.124.1885757004.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102122254+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -79.6299, 44.3954 ],
-							[ -79.6293, 44.5519 ],
-							[ -79.9704, 44.6487 ],
-							[ -79.9812, 44.6517 ],
-							[ -80.2774, 44.6441 ],
-							[ -80.2918, 44.5273 ],
-							[ -80.2349, 44.2815 ],
-							[ -80.2335, 44.2663 ],
-							[ -80.2285, 44.2542 ],
-							[ -80.1126, 44.2756 ],
-							[ -80.0028, 44.299 ],
-							[ -79.8682, 44.3238 ],
-							[ -79.7487, 44.3494 ],
-							[ -79.7441, 44.3283 ],
-							[ -79.738, 44.3101 ],
-							[ -79.7142, 44.3092 ],
-							[ -79.6886, 44.3101 ],
-							[ -79.6833, 44.3194 ],
-							[ -79.6802, 44.3286 ],
-							[ -79.666, 44.3236 ],
-							[ -79.6497, 44.3199 ],
-							[ -79.6429, 44.331 ],
-							[ -79.6383, 44.3401 ],
-							[ -79.6185, 44.3449 ],
-							[ -79.5995, 44.35 ],
-							[ -79.5991, 44.3546 ],
-							[ -79.5995, 44.3592 ],
-							[ -79.611, 44.3637 ],
-							[ -79.6218, 44.3673 ],
-							[ -79.6043, 44.3903 ],
-							[ -79.6284, 44.3869 ],
-							[ -79.6291, 44.3911 ],
-							[ -79.6299, 44.3954 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Snow Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2020 20:12",
-				"Expires_UTC" : "November 2, 2020 12:11",
-				"Summary" : "Description: Snow squalls are expected to develop. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow, and snow will quickly accumulate.\n\nFlurries at times heavy and local snow squalls are expected to begin this evening and continue through the night. Snowfall amounts of 10 to 15 cm in 12 hours are possible especially over the higher terrain south of Collingwood. Strong winds along with the falling snow will reduce visibilities at times and make travel difficult.\n\nSnow squalls will taper off Monday morning.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-02T12:11:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T20:12:50-00:00, urn:oid:2.49.0.1.124.1938588354.2020<br>Area: Barrie - Collingwood - Hillsdale",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1938588354.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T20_12_50_00_00Iurn_oid_2.49.0.1.124.1938588354.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102121150+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -57.7515, 50.0004 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -55.9388, 51.6058 ],
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2020 19:24",
-				"Expires_UTC" : "November 2, 2020 11:23",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southwesterly 80 km/h, except 110 along parts of the coast.\n\nLocations: northern Newfoundland.\n\nTime span: overnight Monday until Tuesday morning.\n\nRemarks: Anyone who has Halloween decorations outdoors should consider bringing them inside before Monday, as they are at risk of being tossed by the wind.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-02T11:23:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:24:39-00:00, urn:oid:2.49.0.1.124.1539078771.2020<br>Area: Parson's Pond - Hawke's Bay, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1539078771.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_24_39_00_00Iurn_oid_2.49.0.1.124.1539078771.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102112339+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "November 1, 2020 19:26",
-				"Expires_UTC" : "November 2, 2020 11:25",
-				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\nMaximum wind gusts: southeasterly 130 km/h in the Wreckhouse area.\n\nTime span: Monday afternoon.\n\nRemarks: Strong southeasterly winds gusting to 80 km/h will develop overnight tonight. Winds will further increase Monday afternoon with gusts to 130 km/h before diminishing somewhat Monday evening as winds shift to strong southwesterlies.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-02T11:25:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T19:26:10-00:00, urn:oid:2.49.0.1.124.4216921852.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.4216921852.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T19_26_10_00_00Iurn_oid_2.49.0.1.124.4216921852.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102112510+00:00"
 			}
 		},
 		{
