@@ -9,6 +9,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.0627, 43.189 ],
+							[ -79.1728, 43.1417 ],
+							[ -79.1686, 43.0401 ],
+							[ -79.2875, 43.0208 ],
+							[ -79.279, 42.9611 ],
+							[ -79.4424, 43.0111 ],
+							[ -79.4969, 43.0013 ],
+							[ -79.5635, 42.9826 ],
+							[ -79.5391, 42.9727 ],
+							[ -79.5116, 42.9648 ],
+							[ -79.474, 42.9112 ],
+							[ -79.4371, 42.876 ],
+							[ -79.4301, 42.8607 ],
+							[ -79.3806, 42.8473 ],
+							[ -79.2598, 42.8617 ],
+							[ -79.1581, 42.8579 ],
+							[ -79.0947, 42.8217 ],
+							[ -79.0213, 42.8554 ],
+							[ -78.9102, 42.8751 ],
+							[ -78.8842, 42.9334 ],
+							[ -79.0158, 42.9904 ],
+							[ -79.0022, 43.0586 ],
+							[ -79.0626, 43.0782 ],
+							[ -79.0526, 43.1199 ],
+							[ -79.042, 43.1295 ],
+							[ -79.0372, 43.1549 ],
+							[ -79.0468, 43.1907 ],
+							[ -79.055, 43.1901 ],
+							[ -79.0627, 43.189 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 2, 2020 23:06",
+				"Expires_UTC" : "November 3, 2020 06:34",
+				"Summary" : "Description: Severe wind gusts to 100 km/h are occurring. \n\nHazard: Wind gusts of 80-100 km/h. Port Colborne weather station has observed a wind gust to 100 km/h early this evening. \nTiming: Now until midnight. \n\nWinds should gradually ease after midnight. Consider securing loose items.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-03T06:34:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T23:06:18-00:00, urn:oid:2.49.0.1.124.0839922017.2020<br>Area: Niagara Falls - Welland - Southern Niagara Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.0839922017.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T23_06_18_00_00Iurn_oid_2.49.0.1.124.0839922017.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201103063418+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.4344, 47.921 ],
 							[ -65.2163, 47.9516 ],
 							[ -64.7544, 48.0994 ],
@@ -439,6 +501,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T20_04_21_00_00Iurn_oid_2.49.0.1.124.4128279289.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201103072921+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.848, 60.0781 ],
+							[ -123.8675, 60.0492 ],
+							[ -123.8085, 60 ],
+							[ -123.7935, 59.9993 ],
+							[ -123.7728, 60.0004 ],
+							[ -122.3513, 59.9606 ],
+							[ -120.8537, 60.0007 ],
+							[ -120.8037, 60.6261 ],
+							[ -120.8441, 61.2474 ],
+							[ -122.0804, 61.6443 ],
+							[ -123.6944, 62.0492 ],
+							[ -123.8996, 61.142 ],
+							[ -123.9607, 60.2993 ],
+							[ -123.8771, 60.1355 ],
+							[ -123.848, 60.0781 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 2, 2020 22:37",
+				"Expires_UTC" : "November 2, 2020 23:37",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-11-02T23:37:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T22:37:01-00:00, urn:oid:2.49.0.1.124.4179422715.2020<br>Area: Ft. Liard Region including Nahanni Butte - Sambaa K'e",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.4179422715.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T22_37_01_00_00Iurn_oid_2.49.0.1.124.4179422715.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102233701+00:00"
 			}
 		},
 		{
@@ -1613,54 +1723,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.848, 60.0781 ],
-							[ -123.8675, 60.0492 ],
-							[ -123.8085, 60 ],
-							[ -123.7935, 59.9993 ],
-							[ -123.7728, 60.0004 ],
-							[ -122.3513, 59.9606 ],
-							[ -120.8537, 60.0007 ],
-							[ -120.8037, 60.6261 ],
-							[ -120.8441, 61.2474 ],
-							[ -122.0804, 61.6443 ],
-							[ -123.6944, 62.0492 ],
-							[ -123.8996, 61.142 ],
-							[ -123.9607, 60.2993 ],
-							[ -123.8771, 60.1355 ],
-							[ -123.848, 60.0781 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Winter Storm Warning Ended",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 2, 2020 22:37",
-				"Expires_UTC" : "November 2, 2020 23:37",
-				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-11-02T23:37:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T22:37:01-00:00, urn:oid:2.49.0.1.124.4179422715.2020<br>Area: Ft. Liard Region including Nahanni Butte - Sambaa K'e",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.4179422715.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T22_37_01_00_00Iurn_oid_2.49.0.1.124.4179422715.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102233701+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -131.4847, 59.6497 ],
 							[ -130.9608, 59.3157 ],
 							[ -130.3347, 58.9997 ],
@@ -1738,6 +1800,64 @@
 				"coordinates" : [
 					[
 						[
+							[ -131.5895, 60 ],
+							[ -130.4578, 59.9802 ],
+							[ -129.4368, 59.9999 ],
+							[ -128.071, 59.9837 ],
+							[ -126.8261, 60 ],
+							[ -128.143, 60.8193 ],
+							[ -129.6349, 61.6498 ],
+							[ -130.104, 61.3575 ],
+							[ -130.6018, 60.9998 ],
+							[ -130.2383, 60.6578 ],
+							[ -129.8507, 60.3551 ],
+							[ -129.8615, 60.3495 ],
+							[ -129.8618, 60.3498 ],
+							[ -130.749, 60.4492 ],
+							[ -131.7479, 60.5292 ],
+							[ -131.7549, 60.5899 ],
+							[ -131.7848, 60.6527 ],
+							[ -132.4233, 60.6723 ],
+							[ -133.0688, 60.6497 ],
+							[ -133.5684, 60.3483 ],
+							[ -134.0684, 60 ],
+							[ -133.9424, 59.9929 ],
+							[ -133.8138, 60 ],
+							[ -132.7189, 59.9811 ],
+							[ -131.5895, 60 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 2, 2020 21:38",
+				"Expires_UTC" : "November 3, 2020 13:37",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA vigorous Pacific frontal system is moving through southern Yukon and northern B.C. today bringing heavy snowfall and local blowing snow. Total snowfall accumulations of 25 to 45 cm are expected.\n\nPeriods of snow will continue over Cassiar Mountains and Watson Lake this afternoon and early this evening. \n\nHeavy snow has ended over Whitehorse, Teslin, and Atlin.\n\nStrong northerly winds will also accompany this system producing local blowing snow and poor visibility.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-03T13:37:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T21:38:04-00:00, urn:oid:2.49.0.1.124.1369538289.2020<br>Area: Cassiar Mountains, Watson Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.1369538289.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T21_38_04_00_00Iurn_oid_2.49.0.1.124.1369538289.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201103133704+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -127.6288, 50.1628 ],
 							[ -127.6515, 50.1593 ],
 							[ -127.6707, 50.1385 ],
@@ -1802,64 +1922,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T18_29_19_00_00Iurn_oid_2.49.0.1.124.0989419905.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201103102819+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -131.5895, 60 ],
-							[ -130.4578, 59.9802 ],
-							[ -129.4368, 59.9999 ],
-							[ -128.071, 59.9837 ],
-							[ -126.8261, 60 ],
-							[ -128.143, 60.8193 ],
-							[ -129.6349, 61.6498 ],
-							[ -130.104, 61.3575 ],
-							[ -130.6018, 60.9998 ],
-							[ -130.2383, 60.6578 ],
-							[ -129.8507, 60.3551 ],
-							[ -129.8615, 60.3495 ],
-							[ -129.8618, 60.3498 ],
-							[ -130.749, 60.4492 ],
-							[ -131.7479, 60.5292 ],
-							[ -131.7549, 60.5899 ],
-							[ -131.7848, 60.6527 ],
-							[ -132.4233, 60.6723 ],
-							[ -133.0688, 60.6497 ],
-							[ -133.5684, 60.3483 ],
-							[ -134.0684, 60 ],
-							[ -133.9424, 59.9929 ],
-							[ -133.8138, 60 ],
-							[ -132.7189, 59.9811 ],
-							[ -131.5895, 60 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 2, 2020 21:38",
-				"Expires_UTC" : "November 3, 2020 13:37",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA vigorous Pacific frontal system is moving through southern Yukon and northern B.C. today bringing heavy snowfall and local blowing snow. Total snowfall accumulations of 25 to 45 cm are expected.\n\nPeriods of snow will continue over Cassiar Mountains and Watson Lake this afternoon and early this evening. \n\nHeavy snow has ended over Whitehorse, Teslin, and Atlin.\n\nStrong northerly winds will also accompany this system producing local blowing snow and poor visibility.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-03T13:37:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T21:38:04-00:00, urn:oid:2.49.0.1.124.1369538289.2020<br>Area: Cassiar Mountains, Watson Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.1369538289.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T21_38_04_00_00Iurn_oid_2.49.0.1.124.1369538289.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201103133704+00:00"
 			}
 		},
 		{
