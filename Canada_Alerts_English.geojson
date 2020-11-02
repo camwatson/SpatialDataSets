@@ -853,79 +853,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.1702, 43.8556 ],
-							[ -79.1726, 43.9089 ],
-							[ -79.2038, 43.9616 ],
-							[ -79.2851, 43.9532 ],
-							[ -79.3788, 43.9306 ],
-							[ -79.3936, 43.9693 ],
-							[ -79.4476, 43.9629 ],
-							[ -79.5019, 43.9435 ],
-							[ -79.4976, 43.9322 ],
-							[ -79.6055, 43.9151 ],
-							[ -79.715, 43.8829 ],
-							[ -79.714, 43.8793 ],
-							[ -79.7114, 43.8757 ],
-							[ -79.8267, 43.7916 ],
-							[ -79.9283, 43.7031 ],
-							[ -79.8622, 43.6523 ],
-							[ -79.7916, 43.6064 ],
-							[ -79.7953, 43.6066 ],
-							[ -79.7981, 43.6052 ],
-							[ -79.7984, 43.6034 ],
-							[ -79.8039, 43.6014 ],
-							[ -79.8064, 43.5962 ],
-							[ -79.7724, 43.5683 ],
-							[ -79.7308, 43.5407 ],
-							[ -79.7036, 43.5176 ],
-							[ -79.6786, 43.5023 ],
-							[ -79.6703, 43.5057 ],
-							[ -79.6652, 43.512 ],
-							[ -79.6405, 43.4919 ],
-							[ -79.6205, 43.4786 ],
-							[ -79.6174, 43.4775 ],
-							[ -79.5957, 43.4581 ],
-							[ -79.5036, 43.5329 ],
-							[ -79.0603, 43.7242 ],
-							[ -79.1029, 43.7947 ],
-							[ -79.1088, 43.7984 ],
-							[ -79.1091, 43.7985 ],
-							[ -79.1495, 43.8216 ],
-							[ -79.1574, 43.8392 ],
-							[ -79.1702, 43.8556 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 2, 2020 04:58",
-				"Expires_UTC" : "November 2, 2020 14:02",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for tonight. \n\nAfter an initial round of heavy flurries, more heavy flurries are moving into the Greater Toronto area tonight. Strong winds will combine with the locally heavy flurries to result in reduced visibilities in blowing snow at times.\n\nThese heavy flurries will slowly weaken late tonight and will come to an end by early Monday morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-02T14:02:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T04:58:46-00:00, urn:oid:2.49.0.1.124.2189503270.2020<br>Area: City of Toronto, Vaughan - Richmond Hill - Markham, Mississauga - Brampton",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.2189503270.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T04_58_46_00_00Iurn_oid_2.49.0.1.124.2189503270.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102140246+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -81.3636, 43.2638 ],
 							[ -81.3165, 43.3129 ],
 							[ -81.2894, 43.3592 ],
@@ -1715,6 +1642,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -120.0013, 54.9374 ],
+							[ -120.0013, 55.4907 ],
+							[ -120.0013, 55.9599 ],
+							[ -120.2969, 55.9071 ],
+							[ -120.6878, 55.8267 ],
+							[ -121.6606, 55.7305 ],
+							[ -121.8488, 55.7259 ],
+							[ -122.0337, 55.7116 ],
+							[ -121.8569, 55.5253 ],
+							[ -121.6999, 55.38 ],
+							[ -120.9766, 54.701 ],
+							[ -120.0013, 53.8703 ],
+							[ -120.0013, 53.8894 ],
+							[ -120.0013, 53.9374 ],
+							[ -120.0013, 53.9904 ],
+							[ -120.0013, 54.5874 ],
+							[ -120.0013, 54.9374 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 1, 2020 23:01",
+				"Expires_UTC" : "November 2, 2020 15:00",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nA vigorous frontal system is expected to move over northern British Columbia Monday accompanying a strong southwesterly flow. \n\nSouthwesterly winds over the South Peace River region will begin strengthening Monday morning with speeds reaching 70 km/h gusting to 90 km/h near Tumbler Ridge. \n\nThe stronger winds are expected to ease late Monday afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-02T15:00:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T23:01:51-00:00, urn:oid:2.49.0.1.124.1206620385.2020<br>Area: B.C. South Peace River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1206620385.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T23_01_51_00_00Iurn_oid_2.49.0.1.124.1206620385.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102150051+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.9838, 44.1095 ],
 							[ -79.9802, 44.0311 ],
 							[ -79.9696, 43.9463 ],
@@ -2404,6 +2381,79 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.1702, 43.8556 ],
+							[ -79.1726, 43.9089 ],
+							[ -79.2038, 43.9616 ],
+							[ -79.2851, 43.9532 ],
+							[ -79.3788, 43.9306 ],
+							[ -79.3936, 43.9693 ],
+							[ -79.4476, 43.9629 ],
+							[ -79.5019, 43.9435 ],
+							[ -79.4976, 43.9322 ],
+							[ -79.6055, 43.9151 ],
+							[ -79.715, 43.8829 ],
+							[ -79.714, 43.8793 ],
+							[ -79.7114, 43.8757 ],
+							[ -79.8267, 43.7916 ],
+							[ -79.9283, 43.7031 ],
+							[ -79.8622, 43.6523 ],
+							[ -79.7916, 43.6064 ],
+							[ -79.7953, 43.6066 ],
+							[ -79.7981, 43.6052 ],
+							[ -79.7984, 43.6034 ],
+							[ -79.8039, 43.6014 ],
+							[ -79.8064, 43.5962 ],
+							[ -79.7724, 43.5683 ],
+							[ -79.7308, 43.5407 ],
+							[ -79.7036, 43.5176 ],
+							[ -79.6786, 43.5023 ],
+							[ -79.6703, 43.5057 ],
+							[ -79.6652, 43.512 ],
+							[ -79.6405, 43.4919 ],
+							[ -79.6205, 43.4786 ],
+							[ -79.6174, 43.4775 ],
+							[ -79.5957, 43.4581 ],
+							[ -79.5036, 43.5329 ],
+							[ -79.0603, 43.7242 ],
+							[ -79.1029, 43.7947 ],
+							[ -79.1088, 43.7984 ],
+							[ -79.1091, 43.7985 ],
+							[ -79.1495, 43.8216 ],
+							[ -79.1574, 43.8392 ],
+							[ -79.1702, 43.8556 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 2, 2020 06:08",
+				"Expires_UTC" : "November 2, 2020 07:08",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2020-11-02T07:08:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T06:08:56-00:00, urn:oid:2.49.0.1.124.2535697477.2020<br>Area: City of Toronto, Vaughan - Richmond Hill - Markham, Mississauga - Brampton",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.2535697477.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T06_08_56_00_00Iurn_oid_2.49.0.1.124.2535697477.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102070856+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -61.891, 55.378 ],
 							[ -60.5775, 54.79 ],
 							[ -60.3074, 54.9828 ],
@@ -2608,56 +2658,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T01_54_09_00_00Iurn_oid_2.49.0.1.124.4083283368.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201102175309+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -120.0013, 54.9374 ],
-							[ -120.0013, 55.4907 ],
-							[ -120.0013, 55.9599 ],
-							[ -120.2969, 55.9071 ],
-							[ -120.6878, 55.8267 ],
-							[ -121.6606, 55.7305 ],
-							[ -121.8488, 55.7259 ],
-							[ -122.0337, 55.7116 ],
-							[ -121.8569, 55.5253 ],
-							[ -121.6999, 55.38 ],
-							[ -120.9766, 54.701 ],
-							[ -120.0013, 53.8703 ],
-							[ -120.0013, 53.8894 ],
-							[ -120.0013, 53.9374 ],
-							[ -120.0013, 53.9904 ],
-							[ -120.0013, 54.5874 ],
-							[ -120.0013, 54.9374 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 1, 2020 23:01",
-				"Expires_UTC" : "November 2, 2020 15:00",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nA vigorous frontal system is expected to move over northern British Columbia Monday accompanying a strong southwesterly flow. \n\nSouthwesterly winds over the South Peace River region will begin strengthening Monday morning with speeds reaching 70 km/h gusting to 90 km/h near Tumbler Ridge. \n\nThe stronger winds are expected to ease late Monday afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-02T15:00:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-01T23:01:51-00:00, urn:oid:2.49.0.1.124.1206620385.2020<br>Area: B.C. South Peace River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-01:feed.atom/urn:oid:2.49.0.1.124.1206620385.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-01/2020_11_01T23_01_51_00_00Iurn_oid_2.49.0.1.124.1206620385.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201102150051+00:00"
 			}
 		},
 		{
