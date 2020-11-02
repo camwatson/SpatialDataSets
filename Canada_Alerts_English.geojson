@@ -448,6 +448,60 @@
 				"coordinates" : [
 					[
 						[
+							[ -129.4368, 59.9999 ],
+							[ -129.4372, 60.0001 ],
+							[ -130.4505, 60.0201 ],
+							[ -131.5895, 60 ],
+							[ -131.5585, 59.8247 ],
+							[ -131.4847, 59.6497 ],
+							[ -130.9608, 59.3157 ],
+							[ -130.3347, 58.9997 ],
+							[ -129.7659, 58.8024 ],
+							[ -129.2187, 58.6497 ],
+							[ -128.8039, 58.8954 ],
+							[ -128.4847, 59.1828 ],
+							[ -127.6373, 59.1587 ],
+							[ -126.817, 59.1829 ],
+							[ -126.3258, 59.3238 ],
+							[ -125.9169, 59.4669 ],
+							[ -126.3281, 59.7323 ],
+							[ -126.8261, 60 ],
+							[ -128.099, 60.0156 ],
+							[ -129.4364, 60.0001 ],
+							[ -129.4368, 59.9999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 2, 2020 22:52",
+				"Expires_UTC" : "November 2, 2020 23:52",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-11-02T23:52:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T22:52:43-00:00, urn:oid:2.49.0.1.124.3251326346.2020<br>Area: Watson Lake, Cassiar Mountains",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.3251326346.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T22_52_43_00_00Iurn_oid_2.49.0.1.124.3251326346.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102235243+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -53.9999, 47.9199 ],
 							[ -54.9999, 47.9199 ],
 							[ -55, 48.25 ],
@@ -615,6 +669,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T20_51_06_00_00Iurn_oid_2.49.0.1.124.3438944749.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201103115906+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -129.8615, 60.3495 ],
+							[ -129.8618, 60.3498 ],
+							[ -130.749, 60.4492 ],
+							[ -131.7479, 60.5292 ],
+							[ -131.6823, 60.2426 ],
+							[ -131.5895, 60 ],
+							[ -130.4578, 59.9802 ],
+							[ -129.4368, 59.9999 ],
+							[ -128.071, 59.9837 ],
+							[ -126.8261, 60 ],
+							[ -128.143, 60.8193 ],
+							[ -129.6349, 61.6498 ],
+							[ -130.104, 61.3575 ],
+							[ -130.6018, 60.9998 ],
+							[ -130.2383, 60.6578 ],
+							[ -129.8507, 60.3551 ],
+							[ -129.8615, 60.3495 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 2, 2020 22:52",
+				"Expires_UTC" : "November 2, 2020 23:52",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-11-02T23:52:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T22:52:43-00:00, urn:oid:2.49.0.1.124.0987174749.2020<br>Area: Cassiar Mountains, Watson Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.0987174749.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T22_52_43_00_00Iurn_oid_2.49.0.1.124.0987174749.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201102235243+00:00"
 			}
 		},
 		{
@@ -1880,25 +1984,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 2, 2020 19:05",
-				"Expires_UTC" : "November 3, 2020 09:03",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm continues.\n\nHeavy snow over the Faro-Ross River region overnight has persisted through the morning. So far 17 cm of snow has been recorded at the Faro Airport. An additional 5 to 10 cm of snow is possible before snow eases late this afternoon.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-03T09:03:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T19:05:37-00:00, urn:oid:2.49.0.1.124.2598657893.2020<br>Area: Faro - Ross River",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 2, 2020 22:52",
+				"Expires_UTC" : "November 2, 2020 23:52",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-11-02T23:52:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T22:52:55-00:00, urn:oid:2.49.0.1.124.2903590967.2020<br>Area: Faro - Ross River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.2598657893.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T19_05_37_00_00Iurn_oid_2.49.0.1.124.2598657893.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.2903590967.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T22_52_55_00_00Iurn_oid_2.49.0.1.124.2903590967.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201103090337+00:00"
+				"Expires_FMEFormat" : "20201102235255+00:00"
 			}
 		},
 		{
