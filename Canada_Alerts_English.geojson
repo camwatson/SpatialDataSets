@@ -55,6 +55,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.5846, 63.9682 ],
+							[ -83.2662, 63.9163 ],
+							[ -82.8791, 64.1863 ],
+							[ -82.9926, 64.3386 ],
+							[ -83.3373, 64.4141 ],
+							[ -83.6952, 64.3607 ],
+							[ -83.8576, 64.2208 ],
+							[ -83.5846, 63.9682 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 3, 2020 18:26",
+				"Expires_UTC" : "November 4, 2020 00:24",
+				"Summary" : "Description: Blizzard conditions have lasted longer than expected. These blizzard conditions are expected to end this afternoon as the strong northwest winds subside.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-11-04T00:24:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T18:26:57-00:00, urn:oid:2.49.0.1.124.4165719521.2020<br>Area: Coral Harbour",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.4165719521.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T18_26_57_00_00Iurn_oid_2.49.0.1.124.4165719521.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201104002457+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -127.6288, 50.1628 ],
 							[ -127.6515, 50.1593 ],
 							[ -127.6707, 50.1385 ],
@@ -178,77 +219,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T18_37_23_00_00Iurn_oid_2.49.0.1.124.3079134242.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201104103623+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.4599, 47.976 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.2131, 49.5679 ],
-							[ -54.362, 49.5406 ],
-							[ -54.5, 49.3639 ],
-							[ -54.5012, 49.363 ],
-							[ -54.65, 49.25 ],
-							[ -55.0999, 48.9 ],
-							[ -55.3717, 48.6868 ],
-							[ -55.3737, 48.6852 ],
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 3, 2020 18:44",
-				"Expires_UTC" : "November 4, 2020 10:43",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\nTime frame: overnight tonight into Wednesday morning.\n\nLocations: parts of southern, eastern, and northeastern Newfoundland.\n\nRemarks: The snow will be heavy at times and will combine with strong northwesterly winds to give blowing snow over exposed areas mainly Wednesday morning. \n\nThe highest snowfall amounts will be inland where only snow is expected. Coastal areas will see the precipitation begin as rain or a rain and snow mix tonight which will result in lower snowfall amounts in these areas at first.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-04T10:43:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T18:44:11-00:00, urn:oid:2.49.0.1.124.2922605085.2020<br>Area: Burin Peninsula, Connaigre, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Gander and vicinity, Terra Nova",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.2922605085.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T18_44_11_00_00Iurn_oid_2.49.0.1.124.2922605085.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201104104311+00:00"
 			}
 		},
 		{
@@ -567,78 +537,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.3737, 48.6852 ],
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7593, 47.9199 ],
-							[ -53.7419, 47.9233 ],
-							[ -53.6555, 47.9243 ],
-							[ -53.4599, 47.976 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 3, 2020 14:22",
-				"Expires_UTC" : "November 4, 2020 06:21",
-				"Summary" : "Description: Significant snowfall expected.\n\nTotal Snowfall Amounts: 5 to 10 cm with up to 20 cm possible in some areas. \n\nTime frame: overnight tonight into Wednesday morning.\n\nLocations: Parts of central, southern, eastern, and northeastern Newfoundland.\n\nRemarks:  Environment Canada Meteorologists are tracking a developing low pressure system forecast to track across the Avalon Peninsula tonight.  The forecast track of this system has been trending westward and forecast guidance is coming into agreement on potential for a significant snowfall overnight tonight in to Wednesday morning combined with strong northwesterly winds. The details are currently being worked on and warnings might be required for some areas in subsequent forecasts later today.\n\nThe public should prepare for accumulating snow and winter driving conditions for the morning commute on Wednesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-04T06:21:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T14:22:42-00:00, urn:oid:2.49.0.1.124.3826637020.2020<br>Area: Burin Peninsula, Connaigre, Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Gander and vicinity, Terra Nova",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.3826637020.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T14_22_42_00_00Iurn_oid_2.49.0.1.124.3826637020.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201104062142+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -122.0485, 49.0013 ],
 							[ -121.9611, 49.0003 ],
 							[ -121.764, 48.9964 ],
@@ -726,6 +624,78 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T18_42_57_00_00Iurn_oid_2.49.0.1.124.1413504308.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201104104157+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.3737, 48.6852 ],
+							[ -54.9999, 48.5499 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.0792, 47.826 ],
+							[ -54.0697, 47.8335 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.4599, 47.976 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 3, 2020 14:22",
+				"Expires_UTC" : "November 4, 2020 06:21",
+				"Summary" : "Description: Significant snowfall expected.\n\nTotal Snowfall Amounts: 5 to 10 cm with up to 20 cm possible in some areas. \n\nTime frame: overnight tonight into Wednesday morning.\n\nLocations: Parts of central, southern, eastern, and northeastern Newfoundland.\n\nRemarks:  Environment Canada Meteorologists are tracking a developing low pressure system forecast to track across the Avalon Peninsula tonight.  The forecast track of this system has been trending westward and forecast guidance is coming into agreement on potential for a significant snowfall overnight tonight in to Wednesday morning combined with strong northwesterly winds. The details are currently being worked on and warnings might be required for some areas in subsequent forecasts later today.\n\nThe public should prepare for accumulating snow and winter driving conditions for the morning commute on Wednesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-04T06:21:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T14:22:42-00:00, urn:oid:2.49.0.1.124.3826637020.2020<br>Area: Burin Peninsula, Connaigre, Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Gander and vicinity, Terra Nova",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.3826637020.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T14_22_42_00_00Iurn_oid_2.49.0.1.124.3826637020.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201104062142+00:00"
 			}
 		},
 		{
@@ -946,38 +916,68 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.5846, 63.9682 ],
-							[ -83.2662, 63.9163 ],
-							[ -82.8791, 64.1863 ],
-							[ -82.9926, 64.3386 ],
-							[ -83.3373, 64.4141 ],
-							[ -83.6952, 64.3607 ],
-							[ -83.8576, 64.2208 ],
-							[ -83.5846, 63.9682 ]
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.0792, 47.826 ],
+							[ -54.0697, 47.8335 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.4599, 47.976 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.2131, 49.5679 ],
+							[ -54.362, 49.5406 ],
+							[ -54.5, 49.3639 ],
+							[ -54.5012, 49.363 ],
+							[ -54.65, 49.25 ],
+							[ -55.0999, 48.9 ],
+							[ -55.3717, 48.6868 ],
+							[ -55.3737, 48.6852 ],
+							[ -54.9999, 48.5499 ],
+							[ -55, 48.25 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Blizzard Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 3, 2020 20:13",
-				"Expires_UTC" : "November 3, 2020 21:13",
-				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2020-11-03T21:13:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T20:13:04-00:00, urn:oid:2.49.0.1.124.0595215440.2020<br>Area: Coral Harbour",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 3, 2020 18:44",
+				"Expires_UTC" : "November 4, 2020 10:43",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\nTime frame: overnight tonight into Wednesday morning.\n\nLocations: parts of southern, eastern, and northeastern Newfoundland.\n\nRemarks: The snow will be heavy at times and will combine with strong northwesterly winds to give blowing snow over exposed areas mainly Wednesday morning. \n\nThe highest snowfall amounts will be inland where only snow is expected. Coastal areas will see the precipitation begin as rain or a rain and snow mix tonight which will result in lower snowfall amounts in these areas at first.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-04T10:43:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T18:44:11-00:00, urn:oid:2.49.0.1.124.2922605085.2020<br>Area: Burin Peninsula, Connaigre, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Gander and vicinity, Terra Nova",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.0595215440.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T20_13_04_00_00Iurn_oid_2.49.0.1.124.0595215440.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.2922605085.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T18_44_11_00_00Iurn_oid_2.49.0.1.124.2922605085.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201103211304+00:00"
+				"Expires_FMEFormat" : "20201104104311+00:00"
 			}
 		}
 	]
