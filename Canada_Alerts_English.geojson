@@ -9,6 +9,48 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.1162, 51.3508 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1075, 51.9221 ],
+							[ -58.9988, 51.333 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 3, 2020 12:36",
+				"Expires_UTC" : "November 3, 2020 13:36",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-11-03T13:36:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T12:36:21-00:00, urn:oid:2.49.0.1.124.2666718620.2020<br>Area: Blanc-Sablon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.2666718620.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T12_36_21_00_00Iurn_oid_2.49.0.1.124.2666718620.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201103133621+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.8312, 49.5216 ],
 							[ -66.7602, 49.3619 ],
 							[ -66.805, 49.3539 ],
@@ -451,102 +493,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T02_17_59_00_00Iurn_oid_2.49.0.1.124.2666200667.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201103181659+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -122.0485, 49.0013 ],
-							[ -121.9611, 49.0003 ],
-							[ -121.764, 48.9964 ],
-							[ -121.3016, 49 ],
-							[ -121.2289, 49.0006 ],
-							[ -121.1942, 49.0003 ],
-							[ -121.1809, 49.151 ],
-							[ -121.257, 49.2793 ],
-							[ -121.3009, 49.2852 ],
-							[ -121.3198, 49.3216 ],
-							[ -121.3467, 49.3731 ],
-							[ -121.4038, 49.467 ],
-							[ -121.5289, 49.522 ],
-							[ -121.6512, 49.5698 ],
-							[ -121.6978, 49.7382 ],
-							[ -121.7625, 49.889 ],
-							[ -121.7791, 49.9472 ],
-							[ -121.8, 50 ],
-							[ -121.9646, 50.0972 ],
-							[ -122.1663, 50.1832 ],
-							[ -122.5174, 50.3632 ],
-							[ -122.8931, 50.5465 ],
-							[ -123.1208, 50.2801 ],
-							[ -123.3283, 50.0057 ],
-							[ -123.3506, 49.9045 ],
-							[ -123.2883, 49.8762 ],
-							[ -123.2145, 49.6778 ],
-							[ -123.2485, 49.5881 ],
-							[ -123.4682, 49.5154 ],
-							[ -123.4627, 49.4313 ],
-							[ -123.518, 49.3701 ],
-							[ -123.509, 49.3539 ],
-							[ -123.3632, 49.2918 ],
-							[ -123.2642, 49.2248 ],
-							[ -123.2309, 49.2017 ],
-							[ -123.1931, 49.0027 ],
-							[ -123.1928, 49.0011 ],
-							[ -123.1905, 49.0011 ],
-							[ -123.0894, 49.002 ],
-							[ -122.8948, 49.0016 ],
-							[ -122.8815, 49.0015 ],
-							[ -122.7186, 49.0018 ],
-							[ -122.4582, 49.0022 ],
-							[ -122.3248, 49.0022 ],
-							[ -122.098, 49.002 ],
-							[ -122.0739, 49.0015 ],
-							[ -122.0485, 49.0013 ]
-						]
-					],
-					[
-						[
-							[ -124.1351, 49.2536 ],
-							[ -123.9656, 49.3653 ],
-							[ -124.1442, 49.4629 ],
-							[ -124.1967, 49.5111 ],
-							[ -124.3107, 49.5442 ],
-							[ -124.6759, 49.7175 ],
-							[ -124.8997, 49.6049 ],
-							[ -125.123, 49.4816 ],
-							[ -124.905, 49.3297 ],
-							[ -124.7045, 49.2064 ],
-							[ -124.4102, 49.0768 ],
-							[ -124.1351, 49.2536 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 2, 2020 23:33",
-				"Expires_UTC" : "November 3, 2020 15:32",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nA frontal system carrying sub-tropical moisture is set to arrive on the south coast by early Tuesday. \n\nHeavy rain will begin late overnight tonight and persist through early afternoon on Tuesday. Rain will taper off to showers in the afternoon. \n\nA second, weaker system will sweep across the region Tuesday night bringing another round of steady rain. Total rainfall amounts of 50 to 80 mm can be expected by Wednesday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-03T15:32:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-02T23:33:02-00:00, urn:oid:2.49.0.1.124.3909078570.2020<br>Area: East Vancouver Island - Nanoose Bay to Fanny Bay, Whistler, Howe Sound, Metro Vancouver - North Shore including West Vancouver and North Vancouver, Metro Vancouver - central including the City of Vancouver Burnaby and New Westminster, Metro Vancouver - northeast including Coquitlam and Maple Ridge, Metro Vancouver - southeast including Surrey and Langley, Metro Vancouver - southwest including Richmond and Delta, Fraser Valley - west including Abbotsford, Fraser Valley - central including Chilliwack, Fraser Valley - east including Hope",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-02:feed.atom/urn:oid:2.49.0.1.124.3909078570.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-02/2020_11_02T23_33_02_00_00Iurn_oid_2.49.0.1.124.3909078570.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201103153202+00:00"
 			}
 		},
 		{
