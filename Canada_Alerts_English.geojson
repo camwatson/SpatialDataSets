@@ -511,51 +511,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -102.0073, 56.3385 ],
-							[ -102.0073, 57.11 ],
-							[ -101.9861, 57.6901 ],
-							[ -102.0074, 58.3877 ],
-							[ -103.3039, 57.8447 ],
-							[ -104.8658, 57.0615 ],
-							[ -104.8658, 56.1199 ],
-							[ -104.1998, 56.1199 ],
-							[ -103.2006, 56.1199 ],
-							[ -102.004, 56.1199 ],
-							[ -102.0008, 56.2197 ],
-							[ -102.0073, 56.3385 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Freezing Rain Warning Ended",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 3, 2020 06:13",
-				"Expires_UTC" : "November 3, 2020 07:13",
-				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n\n###<br>Expires: 2020-11-03T07:13:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T06:13:11-00:00, urn:oid:2.49.0.1.124.3328167609.2020<br>Area: Southend - Brabant Lake - Kinoosao",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.3328167609.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T06_13_11_00_00Iurn_oid_2.49.0.1.124.3328167609.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201103071311+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -61.0612, 53.2803 ],
 							[ -61.0591, 53.2593 ],
 							[ -61.0344, 53.1975 ],
@@ -997,25 +952,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 3, 2020 06:11",
-				"Expires_UTC" : "November 3, 2020 07:11",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-11-03T07:11:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T06:11:55-00:00, urn:oid:2.49.0.1.124.1502080948.2020<br>Area: Picton - Sandbanks Park",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 3, 2020 02:42",
+				"Expires_UTC" : "November 3, 2020 13:59",
+				"Summary" : "Description: Severe wind gusts to 90 km/h are expected early tonight.  \n\nHazard: Wind gusts to 90 km/h. The worst winds will be along the shore of Lake Ontario. \n\nTiming: Now until midnight.  Winds should gradually ease after midnight.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-03T13:59:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T02:42:28-00:00, urn:oid:2.49.0.1.124.1716871491.2020<br>Area: Picton - Sandbanks Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.1502080948.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T06_11_55_00_00Iurn_oid_2.49.0.1.124.1502080948.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.1716871491.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T02_42_28_00_00Iurn_oid_2.49.0.1.124.1716871491.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201103071155+00:00"
+				"Expires_FMEFormat" : "20201103135928+00:00"
 			}
 		},
 		{
@@ -1362,25 +1317,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 3, 2020 06:13",
-				"Expires_UTC" : "November 3, 2020 07:13",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-11-03T07:13:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T06:13:30-00:00, urn:oid:2.49.0.1.124.2794488102.2020<br>Area: Wollaston Lake - Collins Bay",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 3, 2020 04:31",
+				"Expires_UTC" : "November 3, 2020 11:59",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm continues.\n\nHeavy snow is expected to taper off by Tuesday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-11-03T11:59:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T04:31:49-00:00, urn:oid:2.49.0.1.124.1706606324.2020<br>Area: Wollaston Lake - Collins Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.2794488102.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T06_13_30_00_00Iurn_oid_2.49.0.1.124.2794488102.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.1706606324.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T04_31_49_00_00Iurn_oid_2.49.0.1.124.1706606324.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201103071330+00:00"
+				"Expires_FMEFormat" : "20201103115949+00:00"
 			}
 		},
 		{
@@ -1722,25 +1677,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 3, 2020 06:10",
-				"Expires_UTC" : "November 3, 2020 07:10",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-11-03T07:10:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T06:10:55-00:00, urn:oid:2.49.0.1.124.1640352930.2020<br>Area: Niagara Falls - Welland - Southern Niagara Region",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 3, 2020 02:43",
+				"Expires_UTC" : "November 3, 2020 13:59",
+				"Summary" : "Description: Severe wind gusts up to 110 km/h are occurring. \n\nHazard: Wind gusts of 90 to 110 km/h.\n\nTiming: Now until midnight. \n\nWinds should gradually ease after midnight.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-03T13:59:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-03T02:43:55-00:00, urn:oid:2.49.0.1.124.0756132928.2020<br>Area: Niagara Falls - Welland - Southern Niagara Region",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.1640352930.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T06_10_55_00_00Iurn_oid_2.49.0.1.124.1640352930.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-03:feed.atom/urn:oid:2.49.0.1.124.0756132928.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-03/2020_11_03T02_43_55_00_00Iurn_oid_2.49.0.1.124.0756132928.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201103071055+00:00"
+				"Expires_FMEFormat" : "20201103135955+00:00"
 			}
 		},
 		{
