@@ -1275,88 +1275,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -85.9469, 48.8844 ],
-							[ -84.0089, 48.5511 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ],
-							[ -84.021, 49.9497 ],
-							[ -85.9469, 49.9546 ],
-							[ -87.4321, 49.9482 ],
-							[ -87.4321, 49.1383 ],
-							[ -85.9469, 48.8844 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 4, 2020 20:21",
-				"Expires_UTC" : "November 5, 2020 05:29",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nPatchy dense fog is expected to linger into the late afternoon.\n\nFog may redevelop in similar locales early this evening.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-05T05:29:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-04T20:21:58-00:00, urn:oid:2.49.0.1.124.3844388486.2020<br>Area: Geraldton - Longlac - Caramat, Manitouwadge - Hornepayne",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-04:feed.atom/urn:oid:2.49.0.1.124.3844388486.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-04/2020_11_04T20_21_58_00_00Iurn_oid_2.49.0.1.124.3844388486.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201105052958+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -78.5138, 55.3729 ],
-							[ -78.2058, 56.8774 ],
-							[ -80.2962, 57.0654 ],
-							[ -80.7756, 55.6151 ],
-							[ -78.5138, 55.3729 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 5, 2020 03:20",
-				"Expires_UTC" : "November 5, 2020 19:19",
-				"Summary" : "Description: High winds gusting to 90 kilometres per hour are expected Thursday afternoon.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-11-05T19:19:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-05T03:20:28-00:00, urn:oid:2.49.0.1.124.1098178514.2020<br>Area: Sanikiluaq",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-05:feed.atom/urn:oid:2.49.0.1.124.1098178514.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-05/2020_11_05T03_20_28_00_00Iurn_oid_2.49.0.1.124.1098178514.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201105191928+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -99.4001, 55.6367 ],
 							[ -99.4001, 55.155 ],
 							[ -98.1983, 55.155 ],
@@ -1410,6 +1328,44 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-04/2020_11_04T21_16_39_00_00Iurn_oid_2.49.0.1.124.2314234101.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201105082439+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -78.5138, 55.3729 ],
+							[ -78.2058, 56.8774 ],
+							[ -80.2962, 57.0654 ],
+							[ -80.7756, 55.6151 ],
+							[ -78.5138, 55.3729 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 5, 2020 03:20",
+				"Expires_UTC" : "November 5, 2020 19:19",
+				"Summary" : "Description: High winds gusting to 90 kilometres per hour are expected Thursday afternoon.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-11-05T19:19:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-05T03:20:28-00:00, urn:oid:2.49.0.1.124.1098178514.2020<br>Area: Sanikiluaq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-05:feed.atom/urn:oid:2.49.0.1.124.1098178514.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-05/2020_11_05T03_20_28_00_00Iurn_oid_2.49.0.1.124.1098178514.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201105191928+00:00"
 			}
 		},
 		{
