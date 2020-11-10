@@ -243,69 +243,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -63.6863, 53.3002 ],
-							[ -61.5, 52.9003 ],
-							[ -60.8397, 53.0302 ],
-							[ -60.8616, 53.0404 ],
-							[ -60.934, 53.0865 ],
-							[ -60.9922, 53.1395 ],
-							[ -61.0344, 53.1975 ],
-							[ -61.0591, 53.2593 ],
-							[ -61.0612, 53.2803 ],
-							[ -61.5, 53.2003 ],
-							[ -63.4949, 53.6005 ],
-							[ -63.5298, 53.6964 ],
-							[ -63.6393, 53.8054 ],
-							[ -63.8052, 53.8866 ],
-							[ -63.8699, 53.9032 ],
-							[ -64.0071, 53.9264 ],
-							[ -64.2239, 53.9237 ],
-							[ -64.4239, 53.8772 ],
-							[ -64.5841, 53.7931 ],
-							[ -64.6719, 53.6999 ],
-							[ -65.2929, 53.5562 ],
-							[ -65.2074, 53.2454 ],
-							[ -64.6455, 53.4 ],
-							[ -64.4839, 53.2804 ],
-							[ -64.2983, 53.22 ],
-							[ -64.0897, 53.201 ],
-							[ -63.8828, 53.2255 ],
-							[ -63.8713, 53.2288 ],
-							[ -63.7018, 53.2906 ],
-							[ -63.6863, 53.3002 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 10, 2020 08:56",
-				"Expires_UTC" : "November 11, 2020 00:56",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-11T00:56:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-10T08:56:23-00:00, urn:oid:2.49.0.1.124.1902148127.2020<br>Area: Churchill Valley, Churchill Falls and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-10:feed.atom/urn:oid:2.49.0.1.124.1902148127.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-10/2020_11_10T08_56_23_00_00Iurn_oid_2.49.0.1.124.1902148127.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201111005623+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -123.4951, 48.6815 ],
 							[ -123.5018, 48.6933 ],
 							[ -123.5091, 48.7016 ],
@@ -610,6 +547,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-09/2020_11_09T18_27_59_00_00Iurn_oid_2.49.0.1.124.2336381347.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201110102659+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -63.6863, 53.3002 ],
+							[ -61.5, 52.9003 ],
+							[ -60.8397, 53.0302 ],
+							[ -60.8616, 53.0404 ],
+							[ -60.934, 53.0865 ],
+							[ -60.9922, 53.1395 ],
+							[ -61.0344, 53.1975 ],
+							[ -61.0591, 53.2593 ],
+							[ -61.0612, 53.2803 ],
+							[ -61.5, 53.2003 ],
+							[ -63.4949, 53.6005 ],
+							[ -63.5298, 53.6964 ],
+							[ -63.6393, 53.8054 ],
+							[ -63.8052, 53.8866 ],
+							[ -63.8699, 53.9032 ],
+							[ -64.0071, 53.9264 ],
+							[ -64.2239, 53.9237 ],
+							[ -64.4239, 53.8772 ],
+							[ -64.5841, 53.7931 ],
+							[ -64.6719, 53.6999 ],
+							[ -65.2929, 53.5562 ],
+							[ -65.2074, 53.2454 ],
+							[ -64.6455, 53.4 ],
+							[ -64.4839, 53.2804 ],
+							[ -64.2983, 53.22 ],
+							[ -64.0897, 53.201 ],
+							[ -63.8828, 53.2255 ],
+							[ -63.8713, 53.2288 ],
+							[ -63.7018, 53.2906 ],
+							[ -63.6863, 53.3002 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 10, 2020 08:57",
+				"Expires_UTC" : "November 11, 2020 00:56",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\nLocations: Churchill Falls and Churchill Valley areas.\n\nTime span: Wednesday afternoon into Wednesday evening.\n\nRemarks: Precipitation will begin as snow Wednesday morning, and then change to freezing rain Wednesday near noon before changing to periods of rain in the evening. Motorists travelling the Trans-Labrador Highway between Churchill Falls and Happy Valley-Goose Bay will experience icy road conditions during this period.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-11T00:56:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-10T08:57:23-00:00, urn:oid:2.49.0.1.124.2370834872.2020<br>Area: Churchill Valley, Churchill Falls and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-10:feed.atom/urn:oid:2.49.0.1.124.2370834872.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-10/2020_11_10T08_57_23_00_00Iurn_oid_2.49.0.1.124.2370834872.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201111005623+00:00"
 			}
 		},
 		{
