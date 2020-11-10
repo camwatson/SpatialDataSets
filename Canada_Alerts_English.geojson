@@ -243,38 +243,60 @@
 				"coordinates" : [
 					[
 						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
+							[ -63.6863, 53.3002 ],
+							[ -61.5, 52.9003 ],
+							[ -60.8397, 53.0302 ],
+							[ -60.8616, 53.0404 ],
+							[ -60.934, 53.0865 ],
+							[ -60.9922, 53.1395 ],
+							[ -61.0344, 53.1975 ],
+							[ -61.0591, 53.2593 ],
+							[ -61.0612, 53.2803 ],
+							[ -61.5, 53.2003 ],
+							[ -63.4949, 53.6005 ],
+							[ -63.5298, 53.6964 ],
+							[ -63.6393, 53.8054 ],
+							[ -63.8052, 53.8866 ],
+							[ -63.8699, 53.9032 ],
+							[ -64.0071, 53.9264 ],
+							[ -64.2239, 53.9237 ],
+							[ -64.4239, 53.8772 ],
+							[ -64.5841, 53.7931 ],
+							[ -64.6719, 53.6999 ],
+							[ -65.2929, 53.5562 ],
+							[ -65.2074, 53.2454 ],
+							[ -64.6455, 53.4 ],
+							[ -64.4839, 53.2804 ],
+							[ -64.2983, 53.22 ],
+							[ -64.0897, 53.201 ],
+							[ -63.8828, 53.2255 ],
+							[ -63.8713, 53.2288 ],
+							[ -63.7018, 53.2906 ],
+							[ -63.6863, 53.3002 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"Title" : "Freezing Rain Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Freezing Rain",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 10, 2020 08:42",
-				"Expires_UTC" : "November 11, 2020 00:41",
-				"Summary" : "Description: Southwesterly winds will reach up to 90 kilometres per hour beginning tonight and ease Wednesday midday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-11-11T00:41:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-10T08:42:15-00:00, urn:oid:2.49.0.1.124.3342066476.2020<br>Area: Salluit",
+				"LastUpdate_UTC" : "November 10, 2020 08:56",
+				"Expires_UTC" : "November 11, 2020 00:56",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-11T00:56:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-10T08:56:23-00:00, urn:oid:2.49.0.1.124.1902148127.2020<br>Area: Churchill Valley, Churchill Falls and vicinity",
 				"Author" : "Environment Canada",
-				"msgType" : "Update",
+				"msgType" : "Alert",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-10:feed.atom/urn:oid:2.49.0.1.124.3342066476.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-10/2020_11_10T08_42_15_00_00Iurn_oid_2.49.0.1.124.3342066476.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-10:feed.atom/urn:oid:2.49.0.1.124.1902148127.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-10/2020_11_10T08_56_23_00_00Iurn_oid_2.49.0.1.124.1902148127.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201111004115+00:00"
+				"Expires_FMEFormat" : "20201111005623+00:00"
 			}
 		},
 		{
@@ -356,6 +378,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-09/2020_11_09T23_29_46_00_00Iurn_oid_2.49.0.1.124.0736875032.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201110152846+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 10, 2020 08:42",
+				"Expires_UTC" : "November 11, 2020 00:41",
+				"Summary" : "Description: Southwesterly winds will reach up to 90 kilometres per hour beginning tonight and ease Wednesday midday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-11-11T00:41:15-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-10T08:42:15-00:00, urn:oid:2.49.0.1.124.3342066476.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-10:feed.atom/urn:oid:2.49.0.1.124.3342066476.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-10/2020_11_10T08_42_15_00_00Iurn_oid_2.49.0.1.124.3342066476.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201111004115+00:00"
 			}
 		},
 		{
@@ -496,6 +559,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-10/2020_11_10T03_57_43_00_00Iurn_oid_2.49.0.1.124.1586197576.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201110195643+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ],
+							[ -136.3737, 67.1424 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 9, 2020 18:27",
+				"Expires_UTC" : "November 10, 2020 10:26",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA deep low is moving across central Yukon this morning. It will be followed by a rapidly building ridge of high pressure from the Beaufort Sea.  Consequently, east winds of 70 km/h with gusts up to 100 are occurring near the Richardson Mountains. The winds combined with freshly fallen snow will give blizzard conditions to the area. Conditions are forecast to improve this afternoon.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-10T10:26:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-09T18:27:59-00:00, urn:oid:2.49.0.1.124.2336381347.2020<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-09:feed.atom/urn:oid:2.49.0.1.124.2336381347.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-09/2020_11_09T18_27_59_00_00Iurn_oid_2.49.0.1.124.2336381347.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201110102659+00:00"
 			}
 		},
 		{
@@ -1040,48 +1154,72 @@
 				"coordinates" : [
 					[
 						[
-							[ -137.8443, 65.4581 ],
-							[ -134.9833, 67 ],
-							[ -135.4962, 67.0133 ],
-							[ -135.9999, 67 ],
-							[ -136.012, 67 ],
-							[ -136.0889, 67.1757 ],
-							[ -135.9251, 67.2657 ],
-							[ -136.136, 67.2766 ],
-							[ -136.3737, 67.1424 ],
-							[ -136.6048, 67.0102 ],
-							[ -137.1316, 66.6721 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.4948, 64.415 ],
-							[ -138.0022, 64.3497 ],
-							[ -137.911, 64.3385 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8443, 65.4581 ]
+							[ -65.2074, 53.2454 ],
+							[ -65.2929, 53.5562 ],
+							[ -65.9681, 53.3999 ],
+							[ -66.1928, 53.5357 ],
+							[ -66.573, 53.6494 ],
+							[ -66.9979, 53.6775 ],
+							[ -67.2095, 53.6577 ],
+							[ -67.2943, 53.6403 ],
+							[ -67.3901, 53.6205 ],
+							[ -67.395, 53.6189 ],
+							[ -67.4492, 53.6156 ],
+							[ -67.3262, 53.5041 ],
+							[ -67.1137, 53.4892 ],
+							[ -67.007, 53.4261 ],
+							[ -67.1111, 53.3398 ],
+							[ -67.04, 53.2782 ],
+							[ -67.0727, 53.1831 ],
+							[ -67.3159, 53.2211 ],
+							[ -67.4732, 53.1139 ],
+							[ -67.4197, 52.9835 ],
+							[ -67.4209, 52.8874 ],
+							[ -66.8589, 52.6151 ],
+							[ -66.6924, 52.6502 ],
+							[ -66.6736, 52.7242 ],
+							[ -66.5908, 52.7544 ],
+							[ -66.5774, 52.8755 ],
+							[ -66.4083, 52.9547 ],
+							[ -66.3918, 52.9252 ],
+							[ -66.4872, 52.8641 ],
+							[ -66.4128, 52.7531 ],
+							[ -66.5051, 52.6306 ],
+							[ -66.4317, 52.4229 ],
+							[ -66.563, 52.3541 ],
+							[ -66.5062, 52.2511 ],
+							[ -66.4625, 52.251 ],
+							[ -66.25, 52.3469 ],
+							[ -66.2111, 52.3643 ],
+							[ -65.9218, 52.5465 ],
+							[ -65.7644, 52.7401 ],
+							[ -65.7115, 52.991 ],
+							[ -65.736, 53.1 ],
+							[ -65.2074, 53.2454 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"Title" : "Freezing Rain Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blizzard",
+				"event" : "Freezing Rain",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 9, 2020 18:27",
-				"Expires_UTC" : "November 10, 2020 10:26",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA deep low is moving across central Yukon this morning. It will be followed by a rapidly building ridge of high pressure from the Beaufort Sea.  Consequently, east winds of 70 km/h with gusts up to 100 are occurring near the Richardson Mountains. The winds combined with freshly fallen snow will give blizzard conditions to the area. Conditions are forecast to improve this afternoon.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-11-10T10:26:59-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-09T18:27:59-00:00, urn:oid:2.49.0.1.124.2336381347.2020<br>Area: Dempster",
+				"LastUpdate_UTC" : "November 10, 2020 08:56",
+				"Expires_UTC" : "November 11, 2020 00:55",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\nLocation: Labrador City and Wabush area.\n\nTime span: overnight tonight until noon Wednesday.\n\nRemarks: Freezing rain will begin during the overnight hours tonight, and then transition to rain near noon Wednesday as temperatures rise above zero.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-11T00:55:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-10T08:56:54-00:00, urn:oid:2.49.0.1.124.1922462322.2020<br>Area: Labrador City and Wabush",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-09:feed.atom/urn:oid:2.49.0.1.124.2336381347.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-09/2020_11_09T18_27_59_00_00Iurn_oid_2.49.0.1.124.2336381347.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-10:feed.atom/urn:oid:2.49.0.1.124.1922462322.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-10/2020_11_10T08_56_54_00_00Iurn_oid_2.49.0.1.124.1922462322.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201110102659+00:00"
+				"Expires_FMEFormat" : "20201111005554+00:00"
 			}
 		}
 	]
