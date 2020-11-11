@@ -460,54 +460,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -76, 51.6249 ],
-							[ -78.907, 51.6318 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.9877, 51.6266 ],
-							[ -79.0521, 51.6205 ],
-							[ -79.1401, 51.6578 ],
-							[ -79.192, 51.7106 ],
-							[ -79.4165, 51.7137 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5368, 51.0871 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.5167, 50.5155 ],
-							[ -75.9995, 50.5156 ],
-							[ -76, 51.6249 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 11, 2020 12:29",
-				"Expires_UTC" : "November 11, 2020 18:59",
-				"Summary" : "Description: There will be freezing rain for a few hours this morning. The freezing rain will change to snow later this morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-11-11T18:59:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-11T12:29:04-00:00, urn:oid:2.49.0.1.124.0679581475.2020<br>Area: Waskaganish",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-11:feed.atom/urn:oid:2.49.0.1.124.0679581475.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-11/2020_11_11T12_29_04_00_00Iurn_oid_2.49.0.1.124.0679581475.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201111185904+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -84.021, 49.9497 ],
 							[ -85.9469, 49.9546 ],
 							[ -85.9469, 48.8844 ],
@@ -764,6 +716,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-11/2020_11_11T14_55_10_00_00Iurn_oid_2.49.0.1.124.2263917398.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201112015910+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76, 51.6249 ],
+							[ -78.907, 51.6318 ],
+							[ -78.9371, 51.6314 ],
+							[ -78.9877, 51.6266 ],
+							[ -79.0521, 51.6205 ],
+							[ -79.1401, 51.6578 ],
+							[ -79.192, 51.7106 ],
+							[ -79.4165, 51.7137 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5368, 51.0871 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.5167, 50.5155 ],
+							[ -75.9995, 50.5156 ],
+							[ -76, 51.6249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 11, 2020 16:26",
+				"Expires_UTC" : "November 11, 2020 17:26",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n###<br>Expires: 2020-11-11T17:26:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-11T16:26:24-00:00, urn:oid:2.49.0.1.124.3723558377.2020<br>Area: Waskaganish",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-11:feed.atom/urn:oid:2.49.0.1.124.3723558377.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-11/2020_11_11T16_26_24_00_00Iurn_oid_2.49.0.1.124.3723558377.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201111172624+00:00"
 			}
 		},
 		{
@@ -1218,25 +1218,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
 				"Category" : "Actual",
 				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 11, 2020 11:12",
-				"Expires_UTC" : "November 11, 2020 18:59",
-				"Summary" : "Description: Freezing rain is expected early this morning. This rain will change to snow in the morning. 2 to 4 millimetres of freezing precipitation is expected.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-11-11T18:59:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-11T11:12:51-00:00, urn:oid:2.49.0.1.124.2895544737.2020<br>Area: James Bay and La Grande River",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 11, 2020 16:27",
+				"Expires_UTC" : "November 11, 2020 17:27",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n###<br>Expires: 2020-11-11T17:27:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-11T16:27:08-00:00, urn:oid:2.49.0.1.124.0933854969.2020<br>Area: James Bay and La Grande River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-11:feed.atom/urn:oid:2.49.0.1.124.2895544737.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-11/2020_11_11T11_12_51_00_00Iurn_oid_2.49.0.1.124.2895544737.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-11:feed.atom/urn:oid:2.49.0.1.124.0933854969.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-11/2020_11_11T16_27_08_00_00Iurn_oid_2.49.0.1.124.0933854969.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201111185951+00:00"
+				"Expires_FMEFormat" : "20201111172708+00:00"
 			}
 		}
 	]
