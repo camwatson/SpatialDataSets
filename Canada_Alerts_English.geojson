@@ -9,58 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -77.0321, 44.6119 ],
-							[ -77.1181, 44.777 ],
-							[ -77.168, 44.7635 ],
-							[ -77.1961, 44.851 ],
-							[ -77.2213, 44.9195 ],
-							[ -77.0657, 44.9625 ],
-							[ -77.1374, 45.0992 ],
-							[ -77.2158, 45.237 ],
-							[ -77.3773, 45.1899 ],
-							[ -77.5414, 45.1442 ],
-							[ -77.5248, 45.1063 ],
-							[ -77.5195, 45.1025 ],
-							[ -77.5025, 45.0736 ],
-							[ -77.3138, 44.7256 ],
-							[ -77.2883, 44.7322 ],
-							[ -77.2075, 44.567 ],
-							[ -77.0321, 44.6119 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Security",
-				"Title" : "Active Shooter",
-				"Category" : "Actual",
-				"event" : "Civil Emergency",
-				"urgency" : "Immediate",
-				"certainty" : "Observed",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "November 12, 2020 08:31",
-				"Expires_UTC" : "November 12, 2020 12:30",
-				"Summary" : "Description: Police investigating armed and dangerous person in the area.<br>Expires: 2020-11-12T12:30:00-05:00<br>Originated from CAP Alert: Provincial Emergency Operations Center, 2020-11-12T08:31:44-05:00, 69288BD2-EC3D-A87D-6EA5-3AAD6F99B582<br>Area: Area surrounding Hwy 41 between Otter Rd and Delyea Rd.",
-				"Author" : "Provincial Emergency Operations Center",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-12:feed.atom/69288BD2-EC3D-A87D-6EA5-3AAD6F99B582",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-12/2020_11_12T08_31_44_05_00I69288BD2_EC3D_A87D_6EA5_3AAD6F99B582.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201112123000-05:00",
-				"EnclosureType" : "audio/mpeg",
-				"EnclosureURI" : "https://s3.amazonaws.com/naadsttsfs-prod/ce499daa-7075-9ba7-1872-ab701b23c3d2-en-CA.mp3"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -137.8443, 65.4581 ],
 							[ -134.9833, 67 ],
 							[ -135.4962, 67.0133 ],
@@ -434,6 +382,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-12/2020_11_12T14_12_37_00_00Iurn_oid_2.49.0.1.124.3273022570.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201112225937+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -77.0321, 44.6119 ],
+							[ -77.1181, 44.777 ],
+							[ -77.168, 44.7635 ],
+							[ -77.1961, 44.851 ],
+							[ -77.2213, 44.9195 ],
+							[ -77.0657, 44.9625 ],
+							[ -77.1374, 45.0992 ],
+							[ -77.2158, 45.237 ],
+							[ -77.3773, 45.1899 ],
+							[ -77.5414, 45.1442 ],
+							[ -77.5248, 45.1063 ],
+							[ -77.5195, 45.1025 ],
+							[ -77.5025, 45.0736 ],
+							[ -77.3138, 44.7256 ],
+							[ -77.2883, 44.7322 ],
+							[ -77.2075, 44.567 ],
+							[ -77.0321, 44.6119 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Security",
+				"Title" : "Alert Cancelled. Active Shooter",
+				"Category" : "Actual",
+				"event" : "Civil Emergency",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "November 12, 2020 11:09",
+				"Expires_UTC" : "November 12, 2020 11:15",
+				"Summary" : "Description: Alert Cancelled. Police investigating armed and dangerous person in the area.<br>Expires: 2020-11-12T11:15:00-05:00<br>Originated from CAP Alert: Provincial Emergency Operations Center, 2020-11-12T11:09:33-05:00, AD8395AA-5721-7844-86A7-97CBDE78DC4B<br>Area: Alert Cancelled. Area surrounding Hwy 41 between Otter Rd and Delyea Rd.",
+				"Author" : "Provincial Emergency Operations Center",
+				"msgType" : "Cancel",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-12:feed.atom/AD8395AA-5721-7844-86A7-97CBDE78DC4B",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-12/2020_11_12T11_09_33_05_00IAD8395AA_5721_7844_86A7_97CBDE78DC4B.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201112111500-05:00"
 			}
 		}
 	]
