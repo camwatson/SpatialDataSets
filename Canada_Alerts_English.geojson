@@ -311,78 +311,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.9865, 48.8983 ],
-							[ -54.0086, 48.9045 ],
-							[ -54.2, 48.9 ],
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ],
-							[ -54.9999, 47.9199 ],
-							[ -55.1527, 47.5874 ],
-							[ -55.1557, 47.5799 ],
-							[ -55.1703, 47.5512 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.58, 47.3919 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.0399, 46.7999 ],
-							[ -52.9466, 46.8016 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 13, 2020 19:08",
-				"Expires_UTC" : "November 14, 2020 11:07",
-				"Summary" : "Description: Significant snowfall is expected over some areas.\n\nTotal snowfall: 10 to 20 cm.\n\nLocations: mainly inland sections of eastern Newfoundland.\n\nTime span: Saturday afternoon until Sunday morning.\n\nRemarks: The highest snowfall amounts can be expected inland and over higher terrain. Most coastal areas should see much lower snowfall amounts as the snow occasionally mixes with or changes to rain.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-14T11:07:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-13T19:08:19-00:00, urn:oid:2.49.0.1.124.2996609228.2020<br>Area: Avalon Peninsula North, St. John's and vicinity, Burin Peninsula, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-13:feed.atom/urn:oid:2.49.0.1.124.2996609228.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-13/2020_11_13T19_08_19_00_00Iurn_oid_2.49.0.1.124.2996609228.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201114110719+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -120.58, 51 ],
 							[ -120.5638, 51.5499 ],
 							[ -120.58, 51.9999 ],
@@ -425,50 +353,60 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.5748, 48.3943 ],
-							[ -123.542, 48.3187 ],
-							[ -123.4896, 48.2322 ],
-							[ -123.426, 48.2476 ],
-							[ -123.25, 48.29 ],
-							[ -123.12, 48.4199 ],
-							[ -123.16, 48.4599 ],
-							[ -123.22, 48.5499 ],
-							[ -123.2699, 48.6899 ],
-							[ -123.4183, 48.7175 ],
-							[ -123.4615, 48.7087 ],
-							[ -123.5208, 48.7134 ],
-							[ -123.5279, 48.7224 ],
-							[ -123.5563, 48.7245 ],
-							[ -123.5598, 48.7191 ],
-							[ -123.5635, 48.7133 ],
-							[ -123.5665, 48.6917 ],
-							[ -123.5774, 48.6142 ],
-							[ -123.6336, 48.4754 ],
-							[ -123.5748, 48.3943 ]
+							[ -121.2108, 51.6062 ],
+							[ -121.2139, 51.655 ],
+							[ -121.3623, 51.6733 ],
+							[ -121.4242, 51.5742 ],
+							[ -121.4363, 51.5462 ],
+							[ -121.4407, 51.5154 ],
+							[ -121.4408, 51.5147 ],
+							[ -121.4527, 51.4158 ],
+							[ -121.522, 51.2875 ],
+							[ -121.5541, 51.2633 ],
+							[ -121.5545, 51.263 ],
+							[ -121.5902, 51.2357 ],
+							[ -121.6039, 51.219 ],
+							[ -121.6608, 51.0953 ],
+							[ -121.6619, 51.0764 ],
+							[ -121.6648, 51.072 ],
+							[ -121.4523, 51.1008 ],
+							[ -121.4375, 51.1119 ],
+							[ -121.4283, 51.1285 ],
+							[ -121.4295, 51.1497 ],
+							[ -121.4391, 51.1864 ],
+							[ -121.3378, 51.2783 ],
+							[ -121.328, 51.2917 ],
+							[ -121.293, 51.3666 ],
+							[ -121.2924, 51.3906 ],
+							[ -121.3021, 51.4325 ],
+							[ -121.2965, 51.5084 ],
+							[ -121.2892, 51.5408 ],
+							[ -121.246, 51.5694 ],
+							[ -121.2108, 51.6062 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Snowfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 14, 2020 02:08",
-				"Expires_UTC" : "November 14, 2020 07:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-14T07:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-14T02:08:14-00:00, urn:oid:2.49.0.1.124.0578708421.2020<br>Area: Greater Victoria",
+				"LastUpdate_UTC" : "November 13, 2020 23:33",
+				"Expires_UTC" : "November 14, 2020 09:07",
+				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\nA Pacific storm will continue tracking across the B.C. interior tonight,  Approximately 10 cm of snow has already today, with a further 5 cm expected this evening before the snow eases.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-14T09:07:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-13T23:33:54-00:00, urn:oid:2.49.0.1.124.1344301083.2020<br>Area: Highway 97 - Clinton to 100 Mile House via Begbie Summit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-14:feed.atom/urn:oid:2.49.0.1.124.0578708421.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-14/2020_11_14T02_08_14_00_00Iurn_oid_2.49.0.1.124.0578708421.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-13:feed.atom/urn:oid:2.49.0.1.124.1344301083.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-13/2020_11_13T23_33_54_00_00Iurn_oid_2.49.0.1.124.1344301083.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201114075914+00:00"
+				"Expires_FMEFormat" : "20201114090754+00:00"
 			}
 		},
 		{
@@ -596,36 +534,45 @@
 				"coordinates" : [
 					[
 						[
-							[ -121.2108, 51.6062 ],
-							[ -121.2139, 51.655 ],
-							[ -121.3623, 51.6733 ],
-							[ -121.4242, 51.5742 ],
-							[ -121.4363, 51.5462 ],
-							[ -121.4407, 51.5154 ],
-							[ -121.4408, 51.5147 ],
-							[ -121.4527, 51.4158 ],
-							[ -121.522, 51.2875 ],
-							[ -121.5541, 51.2633 ],
-							[ -121.5545, 51.263 ],
-							[ -121.5902, 51.2357 ],
-							[ -121.6039, 51.219 ],
-							[ -121.6608, 51.0953 ],
-							[ -121.6619, 51.0764 ],
-							[ -121.6648, 51.072 ],
-							[ -121.4523, 51.1008 ],
-							[ -121.4375, 51.1119 ],
-							[ -121.4283, 51.1285 ],
-							[ -121.4295, 51.1497 ],
-							[ -121.4391, 51.1864 ],
-							[ -121.3378, 51.2783 ],
-							[ -121.328, 51.2917 ],
-							[ -121.293, 51.3666 ],
-							[ -121.2924, 51.3906 ],
-							[ -121.3021, 51.4325 ],
-							[ -121.2965, 51.5084 ],
-							[ -121.2892, 51.5408 ],
-							[ -121.246, 51.5694 ],
-							[ -121.2108, 51.6062 ]
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.9865, 48.8983 ],
+							[ -54.0086, 48.9045 ],
+							[ -54.2, 48.9 ],
+							[ -54.9999, 48.5499 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 47.9199 ],
+							[ -55.1527, 47.5874 ],
+							[ -55.1557, 47.5799 ],
+							[ -55.1703, 47.5512 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.0792, 47.826 ],
+							[ -54.0697, 47.8335 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 46.7999 ],
+							[ -52.9466, 46.8016 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ]
 						]
 					]
 				]
@@ -638,18 +585,67 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 13, 2020 23:33",
-				"Expires_UTC" : "November 14, 2020 09:07",
-				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\nA Pacific storm will continue tracking across the B.C. interior tonight,  Approximately 10 cm of snow has already today, with a further 5 cm expected this evening before the snow eases.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-14T09:07:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-13T23:33:54-00:00, urn:oid:2.49.0.1.124.1344301083.2020<br>Area: Highway 97 - Clinton to 100 Mile House via Begbie Summit",
+				"LastUpdate_UTC" : "November 14, 2020 02:09",
+				"Expires_UTC" : "November 14, 2020 18:08",
+				"Summary" : "Description: Significant snowfall is expected over some areas.\n\nTotal snowfall: 10 to 20 cm.\n\nLocations: mainly inland sections of eastern Newfoundland.\n\nTime span: Saturday afternoon until Sunday morning.\n\nRemarks: The highest snowfall amounts can be expected inland and over higher terrain. Most coastal areas should see much lower snowfall amounts as the snow occasionally mixes with or changes to rain.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-14T18:08:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-14T02:09:56-00:00, urn:oid:2.49.0.1.124.3241126005.2020<br>Area: Avalon Peninsula North, St. John's and vicinity, Burin Peninsula, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-13:feed.atom/urn:oid:2.49.0.1.124.1344301083.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-13/2020_11_13T23_33_54_00_00Iurn_oid_2.49.0.1.124.1344301083.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-14:feed.atom/urn:oid:2.49.0.1.124.3241126005.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-14/2020_11_14T02_09_56_00_00Iurn_oid_2.49.0.1.124.3241126005.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201114090754+00:00"
+				"Expires_FMEFormat" : "20201114180856+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -117.6999, 51.63 ],
+							[ -118.6577, 51.6435 ],
+							[ -119.5942, 51.63 ],
+							[ -119.3886, 51.4936 ],
+							[ -118.9999, 51.2999 ],
+							[ -118.9239, 51.0175 ],
+							[ -118.8, 50.7499 ],
+							[ -118.0428, 50.7403 ],
+							[ -117.4199, 50.7499 ],
+							[ -117.1128, 50.7401 ],
+							[ -116.83, 50.7499 ],
+							[ -116.3949, 50.7447 ],
+							[ -116.006, 50.7499 ],
+							[ -117.0162, 51.6262 ],
+							[ -117.3481, 51.6379 ],
+							[ -117.6999, 51.63 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 13, 2020 18:26",
+				"Expires_UTC" : "November 14, 2020 08:01",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA Pacific storm will continue tracking across the B.C. interior today.  Snowfall amounts near 15 cm can be expected for West Columbia - including Revelstoke, and near 10 cm for East Columbia - including Golden, by this afternoon. \n\nThe snow is expected to taper to flurries this evening.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-14T08:01:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-13T18:26:34-00:00, urn:oid:2.49.0.1.124.0731315166.2020<br>Area: West Columbia, East Columbia",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-13:feed.atom/urn:oid:2.49.0.1.124.0731315166.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-13/2020_11_13T18_26_34_00_00Iurn_oid_2.49.0.1.124.0731315166.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201114080134+00:00"
 			}
 		},
 		{
@@ -1055,6 +1051,59 @@
 				"coordinates" : [
 					[
 						[
+							[ -123.5748, 48.3943 ],
+							[ -123.542, 48.3187 ],
+							[ -123.4896, 48.2322 ],
+							[ -123.426, 48.2476 ],
+							[ -123.25, 48.29 ],
+							[ -123.12, 48.4199 ],
+							[ -123.16, 48.4599 ],
+							[ -123.22, 48.5499 ],
+							[ -123.2699, 48.6899 ],
+							[ -123.4183, 48.7175 ],
+							[ -123.4615, 48.7087 ],
+							[ -123.5208, 48.7134 ],
+							[ -123.5279, 48.7224 ],
+							[ -123.5563, 48.7245 ],
+							[ -123.5598, 48.7191 ],
+							[ -123.5635, 48.7133 ],
+							[ -123.5665, 48.6917 ],
+							[ -123.5774, 48.6142 ],
+							[ -123.6336, 48.4754 ],
+							[ -123.5748, 48.3943 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 14, 2020 02:09",
+				"Expires_UTC" : "November 14, 2020 07:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nWesterly winds of 70 km/h gusting to 90 over Greater Victoria near Juan de Fuca Strait will ease later this evening.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-14T07:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-14T02:09:14-00:00, urn:oid:2.49.0.1.124.3584933953.2020<br>Area: Greater Victoria",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-14:feed.atom/urn:oid:2.49.0.1.124.3584933953.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-14/2020_11_14T02_09_14_00_00Iurn_oid_2.49.0.1.124.3584933953.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201114075914+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -117.7867, 49.3442 ],
 							[ -117.8499, 49.3434 ],
 							[ -117.8646, 49.3427 ],
@@ -1165,55 +1214,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-13/2020_11_13T22_39_53_00_00Iurn_oid_2.49.0.1.124.3671017755.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201114143853+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -117.6999, 51.63 ],
-							[ -118.6577, 51.6435 ],
-							[ -119.5942, 51.63 ],
-							[ -119.3886, 51.4936 ],
-							[ -118.9999, 51.2999 ],
-							[ -118.9239, 51.0175 ],
-							[ -118.8, 50.7499 ],
-							[ -118.0428, 50.7403 ],
-							[ -117.4199, 50.7499 ],
-							[ -117.1128, 50.7401 ],
-							[ -116.83, 50.7499 ],
-							[ -116.3949, 50.7447 ],
-							[ -116.006, 50.7499 ],
-							[ -117.0162, 51.6262 ],
-							[ -117.3481, 51.6379 ],
-							[ -117.6999, 51.63 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 13, 2020 18:26",
-				"Expires_UTC" : "November 14, 2020 08:01",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nA Pacific storm will continue tracking across the B.C. interior today.  Snowfall amounts near 15 cm can be expected for West Columbia - including Revelstoke, and near 10 cm for East Columbia - including Golden, by this afternoon. \n\nThe snow is expected to taper to flurries this evening.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-14T08:01:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-13T18:26:34-00:00, urn:oid:2.49.0.1.124.0731315166.2020<br>Area: West Columbia, East Columbia",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-13:feed.atom/urn:oid:2.49.0.1.124.0731315166.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-13/2020_11_13T18_26_34_00_00Iurn_oid_2.49.0.1.124.0731315166.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201114080134+00:00"
 			}
 		}
 	]
