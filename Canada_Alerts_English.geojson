@@ -874,6 +874,76 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.8343, 51.8669 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.362, 51.2908 ],
+							[ -84.5361, 51.1721 ],
+							[ -84.7492, 51.2465 ],
+							[ -84.8479, 51.1686 ],
+							[ -87.4321, 51.159 ],
+							[ -87.4321, 49.9482 ],
+							[ -85.9469, 49.9546 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.2219, 48.2896 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ],
+							[ -81.4426, 49.1637 ],
+							[ -81.4419, 49.5091 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 15, 2020 11:28",
+				"Expires_UTC" : "November 16, 2020 03:27",
+				"Summary" : "Description: Snow at times heavy continues today.\n\nHeavy snow is expected today. A total snowfall accumulation of up to 15 cm is possible by the time the snow changes to scattered flurries early Monday morning. \n\nThis snow event is associated with a strengthening low pressure system that is forecast to track across northeastern Ontario today.\n\nReduced visibility in heavy snow and snow covered roads could potentially lead to hazardous driving conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-16T03:27:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-15T11:28:51-00:00, urn:oid:2.49.0.1.124.1220604491.2020<br>Area: Nakina - Aroland - Pagwa, Manitouwadge - Hornepayne, White River - Dubreuilville, Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-15:feed.atom/urn:oid:2.49.0.1.124.1220604491.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T11_28_51_00_00Iurn_oid_2.49.0.1.124.1220604491.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201116032751+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -83.3864, 46.0319 ],
 							[ -83.4793, 45.9477 ],
 							[ -83.5446, 45.8405 ],
@@ -1444,62 +1514,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.3709, 45.5863 ],
-							[ -61.3587, 45.578 ],
-							[ -61.2879, 45.5429 ],
-							[ -61.2399, 45.5263 ],
-							[ -60.9214, 45.3595 ],
-							[ -60.8672, 45.3945 ],
-							[ -60.8348, 45.5153 ],
-							[ -60.1685, 45.7073 ],
-							[ -59.538, 46.0154 ],
-							[ -59.8902, 46.2624 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ],
-							[ -61.6947, 46.0096 ],
-							[ -61.5101, 45.737 ],
-							[ -61.4305, 45.6526 ],
-							[ -61.3951, 45.6335 ],
-							[ -61.3709, 45.5863 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 15, 2020 14:54",
-				"Expires_UTC" : "November 16, 2020 06:54",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-11-16T06:54:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-15T14:54:25-00:00, urn:oid:2.49.0.1.124.1417078222.2020<br>Area: Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-15:feed.atom/urn:oid:2.49.0.1.124.1417078222.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T14_54_25_00_00Iurn_oid_2.49.0.1.124.1417078222.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201116065425+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.8312, 49.5216 ],
 							[ -66.7602, 49.3619 ],
 							[ -66.7497, 49.0778 ],
@@ -1746,58 +1760,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T14_43_05_00_00Iurn_oid_2.49.0.1.124.2477298315.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201116064205+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.6299, 48.7822 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 15, 2020 14:39",
-				"Expires_UTC" : "November 16, 2020 06:38",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southeasterly 80 km/h, except 110 km/h along parts of the coast prone to enhanced southeasterlies.\n\nLocations: Bay St. George and Channel-Port aux Basques.\n\nTime span: Monday afternoon until Monday evening.\n\nRemarks: A low pressure system will approach the island Monday bringing strong southeasterly winds ahead of it. Winds will diminish as they become westerly Monday evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-16T06:38:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-15T14:39:07-00:00, urn:oid:2.49.0.1.124.0827075823.2020<br>Area: Channel-Port aux Basques and vicinity, Bay St. George",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-15:feed.atom/urn:oid:2.49.0.1.124.0827075823.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T14_39_07_00_00Iurn_oid_2.49.0.1.124.0827075823.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201116063807+00:00"
 			}
 		},
 		{
@@ -2112,6 +2074,62 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T09_01_21_00_00Iurn_oid_2.49.0.1.124.1027653589.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201116010021+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.3709, 45.5863 ],
+							[ -61.3587, 45.578 ],
+							[ -61.2879, 45.5429 ],
+							[ -61.2399, 45.5263 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.3709, 45.5863 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 15, 2020 14:55",
+				"Expires_UTC" : "November 16, 2020 06:54",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southerly gusting to 90 km/h along parts of the coast.\n\nLocations: Cape Breton\n\nTime span: Monday morning until Monday afternoon.\n\nRemarks: a fast moving trough of low pressure will bring a short period of heavy rain and strong winds as it passes over the province on Monday.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-11-16T06:54:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-15T14:55:25-00:00, urn:oid:2.49.0.1.124.4039435866.2020<br>Area: Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-15:feed.atom/urn:oid:2.49.0.1.124.4039435866.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T14_55_25_00_00Iurn_oid_2.49.0.1.124.4039435866.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201116065425+00:00"
 			}
 		},
 		{
@@ -2664,76 +2682,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.8343, 51.8669 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.4321, 49.9482 ],
-							[ -85.9469, 49.9546 ],
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.2219, 48.2896 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ],
-							[ -81.4426, 49.1637 ],
-							[ -81.4419, 49.5091 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 15, 2020 11:28",
-				"Expires_UTC" : "November 16, 2020 03:27",
-				"Summary" : "Description: Snow at times heavy continues today.\n\nHeavy snow is expected today. A total snowfall accumulation of up to 15 cm is possible by the time the snow changes to scattered flurries early Monday morning. \n\nThis snow event is associated with a strengthening low pressure system that is forecast to track across northeastern Ontario today.\n\nReduced visibility in heavy snow and snow covered roads could potentially lead to hazardous driving conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-11-16T03:27:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-15T11:28:51-00:00, urn:oid:2.49.0.1.124.1220604491.2020<br>Area: Nakina - Aroland - Pagwa, Manitouwadge - Hornepayne, White River - Dubreuilville, Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-15:feed.atom/urn:oid:2.49.0.1.124.1220604491.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T11_28_51_00_00Iurn_oid_2.49.0.1.124.1220604491.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201116032751+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.5014, 43.5376 ],
 							[ -65.5812, 43.5847 ],
 							[ -65.7051, 43.5436 ],
@@ -2808,6 +2756,58 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T14_03_15_00_00Iurn_oid_2.49.0.1.124.1104003641.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201116060215+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.6299, 48.7822 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 15, 2020 14:39",
+				"Expires_UTC" : "November 16, 2020 06:38",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: southeasterly 80 km/h, except 110 km/h along parts of the coast prone to enhanced southeasterlies.\n\nLocations: Bay St. George and Channel-Port aux Basques.\n\nTime span: Monday afternoon until Monday evening.\n\nRemarks: A low pressure system will approach the island Monday bringing strong southeasterly winds ahead of it. Winds will diminish as they become westerly Monday evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-16T06:38:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-15T14:39:07-00:00, urn:oid:2.49.0.1.124.0827075823.2020<br>Area: Channel-Port aux Basques and vicinity, Bay St. George",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-15:feed.atom/urn:oid:2.49.0.1.124.0827075823.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T14_39_07_00_00Iurn_oid_2.49.0.1.124.0827075823.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201116063807+00:00"
 			}
 		}
 	]
