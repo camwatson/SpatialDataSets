@@ -768,6 +768,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.8779, 44.9881 ],
+							[ -74.8171, 45.0036 ],
+							[ -74.7796, 44.9961 ],
+							[ -74.7712, 44.9846 ],
+							[ -74.7218, 44.9807 ],
+							[ -74.663, 44.9989 ],
+							[ -74.6705, 45.0062 ],
+							[ -74.6799, 45.0166 ],
+							[ -74.6869, 45.0243 ],
+							[ -74.7056, 45.0614 ],
+							[ -74.7831, 45.0511 ],
+							[ -74.8301, 45.0618 ],
+							[ -74.9556, 45.0434 ],
+							[ -75.1196, 44.9507 ],
+							[ -75.3019, 44.8892 ],
+							[ -75.3692, 44.8253 ],
+							[ -75.3622, 44.8151 ],
+							[ -75.356, 44.8059 ],
+							[ -75.3524, 44.8022 ],
+							[ -75.348, 44.7971 ],
+							[ -75.2905, 44.8215 ],
+							[ -75.2895, 44.8342 ],
+							[ -75.2075, 44.8682 ],
+							[ -75.123, 44.8881 ],
+							[ -75.1131, 44.9064 ],
+							[ -74.9979, 44.9391 ],
+							[ -74.9742, 44.966 ],
+							[ -74.8933, 44.9716 ],
+							[ -74.8779, 44.9881 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Squall",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "November 15, 2020 23:49",
+				"Expires_UTC" : "November 16, 2020 02:59",
+				"Summary" : "Description: Squalls with wind gusts up to 50 knots are expected or occurring in the area.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-11-16T02:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-15T23:49:06-00:00, urn:oid:2.49.0.1.124.2100878886.2020<br>Area: Prescott to Cornwall",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-15:feed.atom/urn:oid:2.49.0.1.124.2100878886.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T23_49_06_00_00Iurn_oid_2.49.0.1.124.2100878886.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201116025906+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -67.7904, 47.0599 ],
 							[ -67.789, 46.5984 ],
 							[ -67.7882, 46.5984 ],
@@ -1910,25 +1972,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Squall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Squall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Squall",
-				"urgency" : "Immediate",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "November 15, 2020 23:20",
-				"Expires_UTC" : "November 16, 2020 02:59",
-				"Summary" : "Description: Squalls with wind gusts up to 50 knots are expected or occurring in the area.\n\nA line of thunderstorms will track east through the St Lawrence from Kingston to Prescott early this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2020-11-16T02:59:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-15T23:20:37-00:00, urn:oid:2.49.0.1.124.2501331725.2020<br>Area: Kingston to Prescott",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 15, 2020 23:47",
+				"Expires_UTC" : "November 16, 2020 00:47",
+				"Summary" : "Description: Squalls have weakened or moved out of the area.\n\n\n###<br>Expires: 2020-11-16T00:47:52-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-15T23:47:52-00:00, urn:oid:2.49.0.1.124.2635113137.2020<br>Area: Kingston to Prescott",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-15:feed.atom/urn:oid:2.49.0.1.124.2501331725.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T23_20_37_00_00Iurn_oid_2.49.0.1.124.2501331725.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-15:feed.atom/urn:oid:2.49.0.1.124.2635113137.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-15/2020_11_15T23_47_52_00_00Iurn_oid_2.49.0.1.124.2635113137.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201116025937+00:00"
+				"Expires_FMEFormat" : "20201116004752+00:00"
 			}
 		},
 		{
