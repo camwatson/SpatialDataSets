@@ -9,6 +9,74 @@
 				"coordinates" : [
 					[
 						[
+							[ -127.6878, 54.538 ],
+							[ -127.6267, 54.3906 ],
+							[ -127.509, 54.1959 ],
+							[ -127.1346, 53.6587 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.648, 53.014 ],
+							[ -126.5, 52.83 ],
+							[ -125.363, 52.8986 ],
+							[ -124.3065, 52.9994 ],
+							[ -125.0555, 54.2336 ],
+							[ -125.2762, 54.9367 ],
+							[ -124.4416, 55.346 ],
+							[ -124.4199, 55.33 ],
+							[ -124.1684, 55.1898 ],
+							[ -123.9108, 55.067 ],
+							[ -123.4872, 54.615 ],
+							[ -123.3415, 54.655 ],
+							[ -123.1999, 54.7 ],
+							[ -122.8357, 54.848 ],
+							[ -122.4999, 54.9999 ],
+							[ -122.0782, 55.1899 ],
+							[ -121.6999, 55.38 ],
+							[ -121.839, 55.5297 ],
+							[ -122.0337, 55.7116 ],
+							[ -122.6071, 56.3068 ],
+							[ -123.2874, 56.9577 ],
+							[ -123.3, 56.9999 ],
+							[ -125.06, 57.0477 ],
+							[ -126.6699, 56.9999 ],
+							[ -127.7835, 57.0545 ],
+							[ -128.9927, 57.0307 ],
+							[ -128.7494, 56.5021 ],
+							[ -128.4667, 56.0247 ],
+							[ -128.1367, 55.2999 ],
+							[ -127.6878, 54.538 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 16, 2020 12:48",
+				"Expires_UTC" : "November 17, 2020 04:48",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-17T04:48:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-16T12:48:02-00:00, urn:oid:2.49.0.1.124.1377026431.2020<br>Area: Bulkley Valley, Lakes District, Williston",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-16:feed.atom/urn:oid:2.49.0.1.124.1377026431.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-16/2020_11_16T12_48_02_00_00Iurn_oid_2.49.0.1.124.1377026431.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201117044802+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -72.0027, 47.7998 ],
 							[ -72.0029, 47.2 ],
 							[ -71.585, 47.1941 ],
@@ -1348,25 +1416,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
 				"Category" : "Actual",
 				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 16, 2020 05:48",
-				"Expires_UTC" : "November 16, 2020 15:14",
-				"Summary" : "Description: Significant amounts of snow are expected.\n\nSnow heavy at times over the Coquihalla Highway - Hope to Merritt will continue tonight. Near 25 cm of snow has fallen today. A further 5 to 10 cm is expected before the snow tapers off to a few flurries overnight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-16T15:14:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-16T05:48:36-00:00, urn:oid:2.49.0.1.124.4058936072.2020<br>Area: Coquihalla Highway - Hope to Merritt",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 16, 2020 12:43",
+				"Expires_UTC" : "November 16, 2020 13:43",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2020-11-16T13:43:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-16T12:43:29-00:00, urn:oid:2.49.0.1.124.3863848942.2020<br>Area: Coquihalla Highway - Hope to Merritt",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-16:feed.atom/urn:oid:2.49.0.1.124.4058936072.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-16/2020_11_16T05_48_36_00_00Iurn_oid_2.49.0.1.124.4058936072.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-16:feed.atom/urn:oid:2.49.0.1.124.3863848942.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-16/2020_11_16T12_43_29_00_00Iurn_oid_2.49.0.1.124.3863848942.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201116151436+00:00"
+				"Expires_FMEFormat" : "20201116134329+00:00"
 			}
 		},
 		{
