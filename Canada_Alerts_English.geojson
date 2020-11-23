@@ -108,57 +108,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.016, 47.1831 ],
-							[ -70.7016, 47.0257 ],
-							[ -70.5437, 47.16 ],
-							[ -70.2482, 47.4424 ],
-							[ -69.7836, 47.82 ],
-							[ -69.8631, 47.8597 ],
-							[ -70.1357, 47.9471 ],
-							[ -70.2615, 47.9894 ],
-							[ -70.5546, 48.0769 ],
-							[ -70.9118, 48.1728 ],
-							[ -71.0126, 48.1917 ],
-							[ -71.5524, 48.3338 ],
-							[ -72.0026, 48.2499 ],
-							[ -72.0026, 48.2497 ],
-							[ -72.0027, 47.7998 ],
-							[ -72.0029, 47.2 ],
-							[ -71.585, 47.1941 ],
-							[ -71.016, 47.1831 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "November 23, 2020 22:45",
-				"Expires_UTC" : "November 23, 2020 23:45",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n###<br>Expires: 2020-11-23T23:45:33-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-23T22:45:33-00:00, urn:oid:2.49.0.1.124.0496753841.2020<br>Area: La Malbaie area, Baie-Saint-Paul area, Apica Mountain area, Grands-Jardins Park area, l'Étape area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-23:feed.atom/urn:oid:2.49.0.1.124.0496753841.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T22_45_33_00_00Iurn_oid_2.49.0.1.124.0496753841.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201123234533+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.8312, 49.5216 ],
 							[ -66.7602, 49.3619 ],
 							[ -66.7497, 49.0778 ],
@@ -278,6 +227,58 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T20_42_11_00_00Iurn_oid_2.49.0.1.124.2546253948.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201124055911+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
+							[ -57.3499, 49.58 ],
+							[ -57.2, 49.8499 ],
+							[ -56.99, 50.25 ],
+							[ -56.8199, 50.58 ],
+							[ -57.4008, 50.5801 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 23, 2020 19:01",
+				"Expires_UTC" : "November 24, 2020 05:49",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-24T05:49:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-23T19:01:05-00:00, urn:oid:2.49.0.1.124.2240623748.2020<br>Area: Corner Brook and vicinity, Bay St. George",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-23:feed.atom/urn:oid:2.49.0.1.124.2240623748.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T19_01_05_00_00Iurn_oid_2.49.0.1.124.2240623748.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201124054927+00:00"
 			}
 		},
 		{
@@ -1326,6 +1327,83 @@
 				"coordinates" : [
 					[
 						[
+							[ -129.9046, 55.1528 ],
+							[ -129.8194, 55.2664 ],
+							[ -129.7755, 55.2934 ],
+							[ -129.764, 55.3494 ],
+							[ -129.7135, 55.3791 ],
+							[ -129.7161, 55.4149 ],
+							[ -129.7114, 55.4171 ],
+							[ -128.4667, 56.0247 ],
+							[ -128.6869, 56.5188 ],
+							[ -128.9927, 57.0307 ],
+							[ -129.0934, 57.0517 ],
+							[ -129.2187, 57.031 ],
+							[ -130.2942, 57.0779 ],
+							[ -131.2855, 57.0337 ],
+							[ -131.6605, 57.0683 ],
+							[ -132.0488, 57.037 ],
+							[ -132.1235, 56.8736 ],
+							[ -131.901, 56.7536 ],
+							[ -131.8353, 56.5992 ],
+							[ -131.472, 56.5526 ],
+							[ -131.0873, 56.406 ],
+							[ -130.6233, 56.2668 ],
+							[ -130.426, 56.1415 ],
+							[ -130.2462, 56.0964 ],
+							[ -130.1037, 56.1227 ],
+							[ -130.0176, 55.9119 ],
+							[ -130.0137, 55.8837 ],
+							[ -130.1076, 55.7973 ],
+							[ -130.1312, 55.7677 ],
+							[ -130.1366, 55.752 ],
+							[ -130.136, 55.7193 ],
+							[ -130.117, 55.7008 ],
+							[ -130.1003, 55.6917 ],
+							[ -130.1134, 55.5965 ],
+							[ -130.1118, 55.5667 ],
+							[ -130.0753, 55.5036 ],
+							[ -130.0158, 55.3804 ],
+							[ -130.0045, 55.3395 ],
+							[ -129.9976, 55.3324 ],
+							[ -129.9604, 55.3002 ],
+							[ -129.9932, 55.2589 ],
+							[ -129.9147, 55.1546 ],
+							[ -129.909, 55.147 ],
+							[ -129.9046, 55.1528 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 23, 2020 23:44",
+				"Expires_UTC" : "November 24, 2020 15:43",
+				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\nA Pacific frontal system will move onto the north coast this evening.  Snow over North Coast - inland including Stewart will become heavy at times tonight and ease Tuesday morning.  Snowfall accumulations of 15 cm can be expected by Tuesday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-24T15:43:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-23T23:44:09-00:00, urn:oid:2.49.0.1.124.3284946720.2020<br>Area: North Coast - inland including Stewart",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-23:feed.atom/urn:oid:2.49.0.1.124.3284946720.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T23_44_09_00_00Iurn_oid_2.49.0.1.124.3284946720.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201124154309+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -54.65, 49.25 ],
 							[ -54.15, 49.2 ],
 							[ -54.2, 48.9 ],
@@ -1372,49 +1450,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T19_01_32_00_00Iurn_oid_2.49.0.1.124.2742528735.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201124110032+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.3704, 54.1207 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -57.1137, 53.3384 ],
-							[ -55.9017, 53.3388 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -57.3704, 54.1207 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 23, 2020 19:37",
-				"Expires_UTC" : "November 24, 2020 11:36",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nAdditional snowfall Tuesday night: near 10 cm.\n\nLocations: Cartwright to Black Tickle.\n\nTime span: early Tuesday evening until overnight Tuesday night.\n\nRemarks: A combination of fresh snowfall and strong winds will result in poor visibility in blowing snow.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-24T11:36:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-23T19:37:51-00:00, urn:oid:2.49.0.1.124.0617772019.2020<br>Area: Cartwright to Black Tickle",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-23:feed.atom/urn:oid:2.49.0.1.124.0617772019.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T19_37_51_00_00Iurn_oid_2.49.0.1.124.0617772019.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201124113651+00:00"
 			}
 		},
 		{
@@ -1488,6 +1523,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T19_04_33_00_00Iurn_oid_2.49.0.1.124.2513356244.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201124110333+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -57.1137, 53.3384 ],
+							[ -55.9017, 53.3388 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 23, 2020 19:37",
+				"Expires_UTC" : "November 24, 2020 11:36",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nAdditional snowfall Tuesday night: near 10 cm.\n\nLocations: Cartwright to Black Tickle.\n\nTime span: early Tuesday evening until overnight Tuesday night.\n\nRemarks: A combination of fresh snowfall and strong winds will result in poor visibility in blowing snow.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-24T11:36:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-23T19:37:51-00:00, urn:oid:2.49.0.1.124.0617772019.2020<br>Area: Cartwright to Black Tickle",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-23:feed.atom/urn:oid:2.49.0.1.124.0617772019.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T19_37_51_00_00Iurn_oid_2.49.0.1.124.0617772019.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201124113651+00:00"
 			}
 		},
 		{
@@ -1657,58 +1735,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T19_35_31_00_00Iurn_oid_2.49.0.1.124.4173074740.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201124113431+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -56.99, 50.25 ],
-							[ -56.8199, 50.58 ],
-							[ -57.4008, 50.5801 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 23, 2020 19:01",
-				"Expires_UTC" : "November 24, 2020 05:49",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-11-24T05:49:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-23T19:01:05-00:00, urn:oid:2.49.0.1.124.2240623748.2020<br>Area: Corner Brook and vicinity, Bay St. George",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-23:feed.atom/urn:oid:2.49.0.1.124.2240623748.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-23/2020_11_23T19_01_05_00_00Iurn_oid_2.49.0.1.124.2240623748.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201124054927+00:00"
 			}
 		},
 		{
