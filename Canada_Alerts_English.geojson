@@ -579,6 +579,59 @@
 				"coordinates" : [
 					[
 						[
+							[ -127.8972, 52.8496 ],
+							[ -127.2959, 52.2345 ],
+							[ -126.692, 51.65 ],
+							[ -125.9914, 51.2562 ],
+							[ -125.3217, 50.9024 ],
+							[ -125.0716, 51.2815 ],
+							[ -124.8664, 51.6273 ],
+							[ -125.1345, 51.8012 ],
+							[ -125.4999, 52 ],
+							[ -125.9295, 52.3749 ],
+							[ -126.5, 52.83 ],
+							[ -126.6264, 53.0161 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.9334, 53.0642 ],
+							[ -127.034, 52.961 ],
+							[ -127.1737, 52.8773 ],
+							[ -127.3188, 52.8257 ],
+							[ -127.5427, 52.8083 ],
+							[ -127.7684, 52.8375 ],
+							[ -127.8972, 52.8496 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 27, 2020 09:38",
+				"Expires_UTC" : "November 27, 2020 20:34",
+				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-27T20:34:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-27T09:38:34-00:00, urn:oid:2.49.0.1.124.0459809956.2020<br>Area: Central Coast - inland sections",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-27:feed.atom/urn:oid:2.49.0.1.124.0459809956.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-27/2020_11_27T09_38_34_00_00Iurn_oid_2.49.0.1.124.0459809956.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201127203434+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.8312, 49.5216 ],
 							[ -66.7602, 49.3619 ],
 							[ -66.805, 49.3539 ],
@@ -1235,25 +1288,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 26, 2020 23:51",
-				"Expires_UTC" : "November 27, 2020 15:50",
-				"Summary" : "Description: Rainfall amounts in excess of 100 mm are expected by Friday evening.\n\nA frontal system will stall over the Central Coast tonight and Friday with a long episode of heavy rain. Heavy rain over the inland sections of the Central Coast will continue tonight and Friday. The rain will ease on Friday evening.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-27T15:50:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-26T23:51:31-00:00, urn:oid:2.49.0.1.124.2272024865.2020<br>Area: Central Coast - inland sections",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 27, 2020 09:32",
+				"Expires_UTC" : "November 27, 2020 10:32",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-11-27T10:32:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-27T09:32:20-00:00, urn:oid:2.49.0.1.124.4241787227.2020<br>Area: Central Coast - inland sections",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-26:feed.atom/urn:oid:2.49.0.1.124.2272024865.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-26/2020_11_26T23_51_31_00_00Iurn_oid_2.49.0.1.124.2272024865.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-27:feed.atom/urn:oid:2.49.0.1.124.4241787227.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-27/2020_11_27T09_32_20_00_00Iurn_oid_2.49.0.1.124.4241787227.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201127155031+00:00"
+				"Expires_FMEFormat" : "20201127103220+00:00"
 			}
 		},
 		{
@@ -1425,16 +1478,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 27, 2020 09:24",
+				"LastUpdate_UTC" : "November 27, 2020 09:25",
 				"Expires_UTC" : "November 28, 2020 01:24",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-11-28T01:24:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-27T09:24:23-00:00, urn:oid:2.49.0.1.124.1958263368.2020<br>Area: Coral Harbour",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA strong low pressure system tracking towards Hudson Strait brought blizzard conditions to Coral Harbour beginning last evening. Strong north to northeast winds gusting to 60 km/h with visibilities near 400 metres in blowing snow will persist this morning. Visibilities should start to slowly improve this afternoon.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-11-28T01:24:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-27T09:25:23-00:00, urn:oid:2.49.0.1.124.0938343672.2020<br>Area: Coral Harbour",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-27:feed.atom/urn:oid:2.49.0.1.124.1958263368.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-27/2020_11_27T09_24_23_00_00Iurn_oid_2.49.0.1.124.1958263368.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-27:feed.atom/urn:oid:2.49.0.1.124.0938343672.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-27/2020_11_27T09_25_23_00_00Iurn_oid_2.49.0.1.124.0938343672.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201128012423+00:00"
 			}
