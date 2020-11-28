@@ -79,6 +79,49 @@
 					[
 						[
 							[ -121.4, 53.5999 ],
+							[ -120.7486, 53.7145 ],
+							[ -120.0013, 53.8698 ],
+							[ -120.0013, 53.8703 ],
+							[ -120.9189, 54.7056 ],
+							[ -121.6999, 55.38 ],
+							[ -122.0979, 55.2024 ],
+							[ -122.4999, 54.9999 ],
+							[ -121.9977, 54.3151 ],
+							[ -121.4, 53.5999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 28, 2020 09:30",
+				"Expires_UTC" : "November 28, 2020 10:30",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-11-28T10:30:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-28T09:30:56-00:00, urn:oid:2.49.0.1.124.3944054135.2020<br>Area: McGregor",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-28:feed.atom/urn:oid:2.49.0.1.124.3944054135.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-28/2020_11_28T09_30_56_00_00Iurn_oid_2.49.0.1.124.3944054135.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201128103056+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -121.4, 53.5999 ],
 							[ -120.8534, 53.3228 ],
 							[ -120.3818, 53.1151 ],
 							[ -119.8492, 52.8456 ],
@@ -158,6 +201,86 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-28/2020_11_28T00_22_55_00_00Iurn_oid_2.49.0.1.124.3127037429.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201128162155+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.003, 46.7326 ],
+							[ -72.0029, 47.2 ],
+							[ -72.5497, 47.2024 ],
+							[ -72.55, 47.2024 ],
+							[ -73.0011, 47.2021 ],
+							[ -73.4166, 47.1998 ],
+							[ -73.4687, 47.0993 ],
+							[ -73.4403, 47.0439 ],
+							[ -73.4177, 46.9998 ],
+							[ -73.4169, 46.9988 ],
+							[ -73.2172, 46.7497 ],
+							[ -73.2168, 46.7492 ],
+							[ -73.1901, 46.5475 ],
+							[ -73.1857, 46.5141 ],
+							[ -73.1855, 46.5138 ],
+							[ -73.1838, 46.5093 ],
+							[ -73.0644, 46.2008 ],
+							[ -73.0559, 46.1786 ],
+							[ -73.0479, 46.1579 ],
+							[ -73.0173, 46.1186 ],
+							[ -72.9808, 46.0734 ],
+							[ -72.9555, 46.0521 ],
+							[ -72.8994, 46.0524 ],
+							[ -72.8787, 46.0689 ],
+							[ -72.8809, 46.1038 ],
+							[ -72.7515, 46.1299 ],
+							[ -72.7036, 46.1498 ],
+							[ -72.6156, 46.1937 ],
+							[ -72.6275, 46.2367 ],
+							[ -72.5487, 46.2729 ],
+							[ -72.4757, 46.3259 ],
+							[ -72.4446, 46.3484 ],
+							[ -72.3171, 46.3793 ],
+							[ -72.2343, 46.3957 ],
+							[ -72.2089, 46.4157 ],
+							[ -72.1727, 46.4987 ],
+							[ -72.1123, 46.5393 ],
+							[ -72.0408, 46.5373 ],
+							[ -72.0018, 46.5462 ],
+							[ -71.9999, 46.5466 ],
+							[ -71.9995, 46.5613 ],
+							[ -71.9989, 46.5797 ],
+							[ -72.0007, 46.5949 ],
+							[ -72.0024, 46.6099 ],
+							[ -72.003, 46.6149 ],
+							[ -72.003, 46.6401 ],
+							[ -72.003, 46.7326 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Smog Warning Ended",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 28, 2020 09:33",
+				"Expires_UTC" : "November 28, 2020 10:33",
+				"Summary" : "Description: As air quality is back to \"fair\", a smog warning is no longer required.\n\n###<br>Expires: 2020-11-28T10:33:30-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2020-11-28T09:33:30-00:00, urn:oid:2.49.0.1.124.1115998690.2020<br>Area: Louiseville area, Matawin - Mauricie National Park area, Lac-aux-Sables area, Shawinigan area, Sainte-Anne-de-la-Pérade area, Trois-Rivières area",
+				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-28:feed.atom/urn:oid:2.49.0.1.124.1115998690.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-28/2020_11_28T09_33_30_00_00Iurn_oid_2.49.0.1.124.1115998690.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201128103330+00:00"
 			}
 		},
 		{
@@ -650,25 +773,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "November 28, 2020 05:20",
-				"Expires_UTC" : "November 28, 2020 21:19",
-				"Summary" : "Description: A weather system moving across the central interior continues to bring snow to most of the region.\n\nSnow will persist over the McGregor region and Yellowhead Highway past midnight. Additional snowfall amounts of 5 to 10 cm are expected before the snow tapers off overnight.\n\nOver the Prince George and Stuart - Nechako regions, snow has eased to a few flurries. Further snowfall amounts will be minimal.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-11-28T21:19:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-28T05:20:12-00:00, urn:oid:2.49.0.1.124.3239963039.2020<br>Area: Yellowhead Highway – Tête Jaune Cache to the Alberta Border",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "November 28, 2020 09:30",
+				"Expires_UTC" : "November 28, 2020 10:30",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-11-28T10:30:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-28T09:30:56-00:00, urn:oid:2.49.0.1.124.0852211421.2020<br>Area: Yellowhead Highway – Tête Jaune Cache to the Alberta Border",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-28:feed.atom/urn:oid:2.49.0.1.124.3239963039.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-28/2020_11_28T05_20_12_00_00Iurn_oid_2.49.0.1.124.3239963039.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-28:feed.atom/urn:oid:2.49.0.1.124.0852211421.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-28/2020_11_28T09_30_56_00_00Iurn_oid_2.49.0.1.124.0852211421.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201128211912+00:00"
+				"Expires_FMEFormat" : "20201128103056+00:00"
 			}
 		},
 		{
