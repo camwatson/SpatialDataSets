@@ -1036,64 +1036,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -122.0337, 55.7116 ],
-							[ -121.8569, 55.5253 ],
-							[ -121.6999, 55.38 ],
-							[ -120.9766, 54.701 ],
-							[ -120.0013, 53.8703 ],
-							[ -120.0013, 53.8894 ],
-							[ -120.0013, 53.9374 ],
-							[ -120.0013, 53.9904 ],
-							[ -120.0013, 54.5874 ],
-							[ -120.0013, 54.9374 ],
-							[ -120.0013, 55.4907 ],
-							[ -120.0013, 55.9599 ],
-							[ -120.0013, 56.0691 ],
-							[ -120.0013, 56.1476 ],
-							[ -119.9982, 56.2107 ],
-							[ -119.9861, 56.4573 ],
-							[ -120.0013, 56.7699 ],
-							[ -120.0013, 57.0999 ],
-							[ -121.5476, 57.1397 ],
-							[ -122.9999, 57.0999 ],
-							[ -123.1581, 57.058 ],
-							[ -123.3, 56.9999 ],
-							[ -123.2874, 56.9577 ],
-							[ -122.6457, 56.2943 ],
-							[ -122.0337, 55.7116 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 1, 2020 00:22",
-				"Expires_UTC" : "December 1, 2020 01:22",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-12-01T01:22:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-01T00:22:03-00:00, urn:oid:2.49.0.1.124.1368632376.2020<br>Area: B.C. South Peace River, B.C. North Peace River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-01:feed.atom/urn:oid:2.49.0.1.124.1368632376.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-01/2020_12_01T00_22_03_00_00Iurn_oid_2.49.0.1.124.1368632376.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201201012203+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -63.4949, 53.6005 ],
 							[ -63.4901, 53.5719 ],
 							[ -63.5244, 53.4468 ],
@@ -2812,25 +2754,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 1, 2020 00:25",
-				"Expires_UTC" : "December 1, 2020 01:25",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-12-01T01:25:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-01T00:25:22-00:00, urn:oid:2.49.0.1.124.3561316720.2020<br>Area: Greater Victoria",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "November 30, 2020 23:15",
+				"Expires_UTC" : "December 1, 2020 08:24",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nIn the wake of an intense cold front, westerly winds of 70 gusting to 90 km/h have developed near Juan de Fuca Strait. These winds will abate early this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-01T08:24:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-11-30T23:15:48-00:00, urn:oid:2.49.0.1.124.2870190430.2020<br>Area: Greater Victoria",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-01:feed.atom/urn:oid:2.49.0.1.124.3561316720.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-01/2020_12_01T00_25_22_00_00Iurn_oid_2.49.0.1.124.3561316720.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-11-30:feed.atom/urn:oid:2.49.0.1.124.2870190430.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-11-30/2020_11_30T23_15_48_00_00Iurn_oid_2.49.0.1.124.2870190430.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201201012522+00:00"
+				"Expires_FMEFormat" : "20201201082448+00:00"
 			}
 		},
 		{
