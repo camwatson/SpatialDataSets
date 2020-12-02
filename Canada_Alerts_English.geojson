@@ -1110,6 +1110,73 @@
 				"coordinates" : [
 					[
 						[
+							[ -67.2943, 53.6403 ],
+							[ -67.3991, 53.7621 ],
+							[ -67.4984, 53.7166 ],
+							[ -67.5844, 53.7102 ],
+							[ -69.9976, 53.5006 ],
+							[ -69.9991, 52.2498 ],
+							[ -67.4964, 52.2499 ],
+							[ -67.4961, 52.2499 ],
+							[ -66.5062, 52.2511 ],
+							[ -66.4625, 52.251 ],
+							[ -66.25, 52.3469 ],
+							[ -66.3014, 52.541 ],
+							[ -66.1856, 52.6287 ],
+							[ -66.2608, 52.7776 ],
+							[ -66.1736, 52.8903 ],
+							[ -66.3686, 53.0959 ],
+							[ -66.516, 53.0957 ],
+							[ -66.5775, 53.0077 ],
+							[ -66.6987, 52.9678 ],
+							[ -66.7516, 52.8386 ],
+							[ -66.8886, 52.7933 ],
+							[ -66.9854, 52.8253 ],
+							[ -67.0238, 52.9168 ],
+							[ -67.1902, 52.8965 ],
+							[ -67.2089, 52.9976 ],
+							[ -67.3269, 53.0504 ],
+							[ -67.2483, 53.1092 ],
+							[ -67.0093, 53.029 ],
+							[ -66.9279, 53.0501 ],
+							[ -66.8876, 53.3261 ],
+							[ -66.8084, 53.4196 ],
+							[ -66.9965, 53.5684 ],
+							[ -67.2578, 53.5977 ],
+							[ -67.2943, 53.6403 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 2, 2020 16:05",
+				"Expires_UTC" : "December 2, 2020 17:05",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n###<br>Expires: 2020-12-02T17:05:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-02T16:05:04-00:00, urn:oid:2.49.0.1.124.2926064045.2020<br>Area: Fermont",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-02:feed.atom/urn:oid:2.49.0.1.124.2926064045.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T16_05_04_00_00Iurn_oid_2.49.0.1.124.2926064045.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201202170504+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -77.1375, 45.0992 ],
 							[ -77.0499, 45.1219 ],
 							[ -76.9706, 45.1453 ],
@@ -1209,78 +1276,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T10_49_22_00_00Iurn_oid_2.49.0.1.124.0873268460.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201203023922+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -66.645, 54.9416 ],
-							[ -66.5636, 54.9638 ],
-							[ -66.6462, 55.0574 ],
-							[ -66.6976, 55.1236 ],
-							[ -66.6085, 55.1862 ],
-							[ -66.7494, 55.2535 ],
-							[ -66.8496, 55.2548 ],
-							[ -69.9991, 55.2499 ],
-							[ -69.9991, 55.2482 ],
-							[ -69.9991, 54.9997 ],
-							[ -69.9989, 53.5007 ],
-							[ -69.9989, 53.5004 ],
-							[ -69.998, 53.5005 ],
-							[ -69.9976, 53.5006 ],
-							[ -67.5844, 53.7102 ],
-							[ -67.4984, 53.7166 ],
-							[ -67.3991, 53.7621 ],
-							[ -67.4516, 53.7851 ],
-							[ -67.4461, 53.8593 ],
-							[ -67.7079, 54.0502 ],
-							[ -67.6919, 54.1161 ],
-							[ -67.5633, 54.1503 ],
-							[ -67.5472, 54.2142 ],
-							[ -67.6669, 54.3987 ],
-							[ -67.3951, 54.4796 ],
-							[ -67.2345, 54.4449 ],
-							[ -67.1394, 54.5163 ],
-							[ -67.1675, 54.5707 ],
-							[ -66.9855, 54.6733 ],
-							[ -67.0109, 54.7297 ],
-							[ -67.1963, 54.845 ],
-							[ -67.3659, 55.0227 ],
-							[ -67.3368, 55.0349 ],
-							[ -67.0304, 54.8231 ],
-							[ -66.6809, 54.6707 ],
-							[ -66.6013, 54.6887 ],
-							[ -66.6128, 54.7493 ],
-							[ -66.5189, 54.8066 ],
-							[ -66.645, 54.9416 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 2, 2020 09:37",
-				"Expires_UTC" : "December 3, 2020 01:36",
-				"Summary" : "Description: Freezing precipitation amounts of 2 to 4 millimetres are forecast for this afternoon. Freezing rain will change over to snow during the evening.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-03T01:36:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-02T09:37:02-00:00, urn:oid:2.49.0.1.124.3365620267.2020<br>Area: Schefferville",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-02:feed.atom/urn:oid:2.49.0.1.124.3365620267.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T09_37_02_00_00Iurn_oid_2.49.0.1.124.3365620267.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201203013602+00:00"
 			}
 		},
 		{
@@ -1403,6 +1398,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T14_20_27_00_00Iurn_oid_2.49.0.1.124.2169588154.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201203061927+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ],
+							[ -75.9995, 50.4999 ],
+							[ -75.9995, 50.5156 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.6998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 2, 2020 16:08",
+				"Expires_UTC" : "December 2, 2020 22:59",
+				"Summary" : "Description: Another 5 centimetres of snow is expected today.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-02T22:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-02T16:08:16-00:00, urn:oid:2.49.0.1.124.0856975815.2020<br>Area: Joutel - Matagami area, Miquelon - Desmaraisville area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-02:feed.atom/urn:oid:2.49.0.1.124.0856975815.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T16_08_16_00_00Iurn_oid_2.49.0.1.124.0856975815.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201202225916+00:00"
 			}
 		},
 		{
@@ -1686,6 +1736,106 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T08_46_57_00_00Iurn_oid_2.49.0.1.124.0573840928.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201202195957+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -58.0061, 54.7317 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.798, 55.9666 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8884, 55.8597 ],
+							[ -61.0222, 55.8603 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 2, 2020 14:52",
+				"Expires_UTC" : "December 3, 2020 06:51",
+				"Summary" : "Description: Rain, heavy at times is expected.\n\nTotal rainfall: 20 to 30 mm.\n\nLocations: Hopedale, Postville, and Makkovik.\n\nTime span: late this afternoon until Thursday morning.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-03T06:51:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-02T14:52:47-00:00, urn:oid:2.49.0.1.124.1030708873.2020<br>Area: Postville - Makkovik, Hopedale and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-02:feed.atom/urn:oid:2.49.0.1.124.1030708873.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T14_52_47_00_00Iurn_oid_2.49.0.1.124.1030708873.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201203065147+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -117.9704, 70.6618 ],
+							[ -117.6802, 70.5501 ],
+							[ -117.4352, 70.5879 ],
+							[ -117.3187, 70.6198 ],
+							[ -117.2284, 70.6592 ],
+							[ -117.1705, 70.7006 ],
+							[ -117.1358, 70.7604 ],
+							[ -117.1524, 70.821 ],
+							[ -117.2138, 70.8744 ],
+							[ -117.3239, 70.9235 ],
+							[ -117.4716, 70.9606 ],
+							[ -117.6454, 70.9829 ],
+							[ -117.8314, 70.9884 ],
+							[ -118.0038, 70.9781 ],
+							[ -118.1617, 70.9535 ],
+							[ -118.3025, 70.9131 ],
+							[ -118.3629, 70.8409 ],
+							[ -117.9704, 70.6618 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "December 2, 2020 11:59",
+				"Expires_UTC" : "December 3, 2020 03:58",
+				"Summary" : "Description: Blizzard conditions with gusty winds and persistent visibility near zero in snow and blowing snow are expected or occurring.\n\nBlizzard conditions with very strong gusty winds and persistent visibility near zero in snow and blowing snow are expected to develop early this evening.  \n\nStrong gusty winds with blowing snow will develop this afternoon.  The winds will strengthen with a blizzard developing this evening and lasting until Friday afternoon.  Very strong damaging winds will accompany the blizzard.  The strongest winds will occur from early Thursday morning until late Thursday afternoon with wind gusts as high as 110 km/h possible.\n\n###\n\nTravel is expected to be extremely hazardous due to widespread poor visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-12-03T03:58:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-02T11:59:51-00:00, urn:oid:2.49.0.1.124.3339895533.2020<br>Area: Ulukhaktok",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-02:feed.atom/urn:oid:2.49.0.1.124.3339895533.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T11_59_51_00_00Iurn_oid_2.49.0.1.124.3339895533.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201203035851+00:00"
 			}
 		},
 		{
@@ -2007,6 +2157,125 @@
 				"coordinates" : [
 					[
 						[
+							[ -66.645, 54.9416 ],
+							[ -66.5636, 54.9638 ],
+							[ -66.6462, 55.0574 ],
+							[ -66.6976, 55.1236 ],
+							[ -66.6085, 55.1862 ],
+							[ -66.7494, 55.2535 ],
+							[ -66.8496, 55.2548 ],
+							[ -69.9991, 55.2499 ],
+							[ -69.9991, 55.2482 ],
+							[ -69.9991, 54.9997 ],
+							[ -69.9989, 53.5007 ],
+							[ -69.9989, 53.5004 ],
+							[ -69.998, 53.5005 ],
+							[ -69.9976, 53.5006 ],
+							[ -67.5844, 53.7102 ],
+							[ -67.4984, 53.7166 ],
+							[ -67.3991, 53.7621 ],
+							[ -67.4516, 53.7851 ],
+							[ -67.4461, 53.8593 ],
+							[ -67.7079, 54.0502 ],
+							[ -67.6919, 54.1161 ],
+							[ -67.5633, 54.1503 ],
+							[ -67.5472, 54.2142 ],
+							[ -67.6669, 54.3987 ],
+							[ -67.3951, 54.4796 ],
+							[ -67.2345, 54.4449 ],
+							[ -67.1394, 54.5163 ],
+							[ -67.1675, 54.5707 ],
+							[ -66.9855, 54.6733 ],
+							[ -67.0109, 54.7297 ],
+							[ -67.1963, 54.845 ],
+							[ -67.3659, 55.0227 ],
+							[ -67.3368, 55.0349 ],
+							[ -67.0304, 54.8231 ],
+							[ -66.6809, 54.6707 ],
+							[ -66.6013, 54.6887 ],
+							[ -66.6128, 54.7493 ],
+							[ -66.5189, 54.8066 ],
+							[ -66.645, 54.9416 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 2, 2020 16:06",
+				"Expires_UTC" : "December 3, 2020 03:59",
+				"Summary" : "Description: Freezing precipitation amounts of 2 to 4 millimetres are forecast for this afternoon. Freezing rain will change over to snow during the evening.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-03T03:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-02T16:06:54-00:00, urn:oid:2.49.0.1.124.0836182699.2020<br>Area: Schefferville",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-02:feed.atom/urn:oid:2.49.0.1.124.0836182699.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T16_06_54_00_00Iurn_oid_2.49.0.1.124.0836182699.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201203035954+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.9681, 50.1859 ],
+							[ -60.9447, 50.2258 ],
+							[ -60.9519, 50.2315 ],
+							[ -60.9909, 50.2233 ],
+							[ -60.9983, 50.2284 ],
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -64.999, 50.7498 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.6884, 50.1063 ],
+							[ -62.995, 50.1418 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 2, 2020 16:08",
+				"Expires_UTC" : "December 3, 2020 04:59",
+				"Summary" : "Description: A long episode of rain, at times heavy, is expected.\n\nAnother 15 to 30 millimetres of rain is expected today.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-03T04:59:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-02T16:08:41-00:00, urn:oid:2.49.0.1.124.1168565624.2020<br>Area: Minganie, Natashquan",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-02:feed.atom/urn:oid:2.49.0.1.124.1168565624.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T16_08_41_00_00Iurn_oid_2.49.0.1.124.1168565624.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201203045941+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -61.6265, 46.0993 ],
 							[ -61.4829, 46.0971 ],
 							[ -61.0483, 46.1152 ],
@@ -2090,106 +2359,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T11_28_54_00_00Iurn_oid_2.49.0.1.124.3555695044.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201203032754+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -117.9704, 70.6618 ],
-							[ -117.6802, 70.5501 ],
-							[ -117.4352, 70.5879 ],
-							[ -117.3187, 70.6198 ],
-							[ -117.2284, 70.6592 ],
-							[ -117.1705, 70.7006 ],
-							[ -117.1358, 70.7604 ],
-							[ -117.1524, 70.821 ],
-							[ -117.2138, 70.8744 ],
-							[ -117.3239, 70.9235 ],
-							[ -117.4716, 70.9606 ],
-							[ -117.6454, 70.9829 ],
-							[ -117.8314, 70.9884 ],
-							[ -118.0038, 70.9781 ],
-							[ -118.1617, 70.9535 ],
-							[ -118.3025, 70.9131 ],
-							[ -118.3629, 70.8409 ],
-							[ -117.9704, 70.6618 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "December 2, 2020 11:59",
-				"Expires_UTC" : "December 3, 2020 03:58",
-				"Summary" : "Description: Blizzard conditions with gusty winds and persistent visibility near zero in snow and blowing snow are expected or occurring.\n\nBlizzard conditions with very strong gusty winds and persistent visibility near zero in snow and blowing snow are expected to develop early this evening.  \n\nStrong gusty winds with blowing snow will develop this afternoon.  The winds will strengthen with a blizzard developing this evening and lasting until Friday afternoon.  Very strong damaging winds will accompany the blizzard.  The strongest winds will occur from early Thursday morning until late Thursday afternoon with wind gusts as high as 110 km/h possible.\n\n###\n\nTravel is expected to be extremely hazardous due to widespread poor visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-12-03T03:58:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-02T11:59:51-00:00, urn:oid:2.49.0.1.124.3339895533.2020<br>Area: Ulukhaktok",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-02:feed.atom/urn:oid:2.49.0.1.124.3339895533.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T11_59_51_00_00Iurn_oid_2.49.0.1.124.3339895533.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201203035851+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ],
-							[ -58.0061, 54.7317 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.798, 55.9666 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8884, 55.8597 ],
-							[ -61.0222, 55.8603 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 2, 2020 14:52",
-				"Expires_UTC" : "December 3, 2020 06:51",
-				"Summary" : "Description: Rain, heavy at times is expected.\n\nTotal rainfall: 20 to 30 mm.\n\nLocations: Hopedale, Postville, and Makkovik.\n\nTime span: late this afternoon until Thursday morning.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-03T06:51:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-02T14:52:47-00:00, urn:oid:2.49.0.1.124.1030708873.2020<br>Area: Postville - Makkovik, Hopedale and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-02:feed.atom/urn:oid:2.49.0.1.124.1030708873.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-02/2020_12_02T14_52_47_00_00Iurn_oid_2.49.0.1.124.1030708873.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201203065147+00:00"
 			}
 		}
 	]
