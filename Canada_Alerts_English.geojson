@@ -219,61 +219,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.2219, 48.2896 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ],
-							[ -84.021, 49.9497 ],
-							[ -84.05, 51.1582 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.362, 51.2908 ],
-							[ -84.5361, 51.1721 ],
-							[ -84.7492, 51.2465 ],
-							[ -84.8479, 51.1686 ],
-							[ -87.4321, 51.159 ],
-							[ -87.4321, 49.9482 ],
-							[ -87.4321, 49.1383 ],
-							[ -85.9469, 48.8844 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Freezing Drizzle Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Drizzle",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 3, 2020 03:07",
-				"Expires_UTC" : "December 3, 2020 16:05",
-				"Summary" : "Description: Areas of freezing drizzle tonight.\n\nFreezing drizzle and light flurries are being reported in the Geraldton area. These flurries and freezing drizzle are expected to last through the night.\n\nSurfaces may become icy and slippery.\n\n###\n\nFreezing drizzle can produce thin, hard-to-detect layers of ice.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-03T16:05:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-03T03:07:44-00:00, urn:oid:2.49.0.1.124.4207361825.2020<br>Area: Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat, Manitouwadge - Hornepayne, White River - Dubreuilville",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-03:feed.atom/urn:oid:2.49.0.1.124.4207361825.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T03_07_44_00_00Iurn_oid_2.49.0.1.124.4207361825.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201203160544+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -66.645, 54.9416 ],
 							[ -66.5636, 54.9638 ],
 							[ -66.6462, 55.0574 ],
@@ -647,6 +592,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.9681, 50.1859 ],
+							[ -60.9447, 50.2258 ],
+							[ -60.9519, 50.2315 ],
+							[ -60.9909, 50.2233 ],
+							[ -60.9983, 50.2284 ],
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -64.999, 50.7498 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.6884, 50.1063 ],
+							[ -62.995, 50.1418 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 3, 2020 09:35",
+				"Expires_UTC" : "December 3, 2020 10:35",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2020-12-03T10:35:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-03T09:35:20-00:00, urn:oid:2.49.0.1.124.0315828319.2020<br>Area: Minganie, Natashquan",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-03:feed.atom/urn:oid:2.49.0.1.124.0315828319.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T09_35_20_00_00Iurn_oid_2.49.0.1.124.0315828319.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201203103520+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -137.8443, 65.4581 ],
 							[ -134.9833, 67 ],
 							[ -135.4962, 67.0133 ],
@@ -719,25 +711,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 3, 2020 09:26",
-				"Expires_UTC" : "December 3, 2020 10:26",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-12-03T10:26:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-03T09:26:57-00:00, urn:oid:2.49.0.1.124.3017260200.2020<br>Area: Postville - Makkovik, Hopedale and vicinity",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 3, 2020 02:41",
+				"Expires_UTC" : "December 3, 2020 16:59",
+				"Summary" : "Description: Rain, heavy at times is expected.\n\nTotal rainfall: 20 to 30 mm.\n\nLocations: Hopedale, Postville, and Makkovik.\n\nTime span: continuing until Thursday morning.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-03T16:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-03T02:41:23-00:00, urn:oid:2.49.0.1.124.4073001629.2020<br>Area: Postville - Makkovik, Hopedale and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-03:feed.atom/urn:oid:2.49.0.1.124.3017260200.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T09_26_57_00_00Iurn_oid_2.49.0.1.124.3017260200.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-03:feed.atom/urn:oid:2.49.0.1.124.4073001629.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T02_41_23_00_00Iurn_oid_2.49.0.1.124.4073001629.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201203102657+00:00"
+				"Expires_FMEFormat" : "20201203165923+00:00"
 			}
 		},
 		{
@@ -1020,6 +1012,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.2219, 48.2896 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ],
+							[ -84.021, 49.9497 ],
+							[ -84.05, 51.1582 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.362, 51.2908 ],
+							[ -84.5361, 51.1721 ],
+							[ -84.7492, 51.2465 ],
+							[ -84.8479, 51.1686 ],
+							[ -87.4321, 51.159 ],
+							[ -87.4321, 49.9482 ],
+							[ -87.4321, 49.1383 ],
+							[ -85.9469, 48.8844 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Freezing Drizzle Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Drizzle",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 3, 2020 10:18",
+				"Expires_UTC" : "December 3, 2020 19:59",
+				"Summary" : "Description: Areas of freezing drizzle early this morning.\n\nFreezing drizzle is being reported in the Geraldton area. The freezing drizzle is expected to continue for a few more hours before coming to an end.\n\nSurfaces may become icy and slippery.\n\n###\n\nFreezing drizzle can produce thin, hard-to-detect layers of ice.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-03T19:59:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-03T10:18:37-00:00, urn:oid:2.49.0.1.124.4076561757.2020<br>Area: Nakina - Aroland - Pagwa, Geraldton - Longlac - Caramat, Manitouwadge - Hornepayne, White River - Dubreuilville",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-03:feed.atom/urn:oid:2.49.0.1.124.4076561757.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T10_18_37_00_00Iurn_oid_2.49.0.1.124.4076561757.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201203195937+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -70.299, 58.7659 ],
 							[ -70.2999, 58.3 ],
 							[ -68.999, 57.9998 ],
@@ -1184,53 +1231,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T04_38_26_00_00Iurn_oid_2.49.0.1.124.0746476679.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201203203726+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -64.999, 50.7498 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.6884, 50.1063 ],
-							[ -62.995, 50.1418 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 3, 2020 09:35",
-				"Expires_UTC" : "December 3, 2020 10:35",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2020-12-03T10:35:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-03T09:35:20-00:00, urn:oid:2.49.0.1.124.0315828319.2020<br>Area: Minganie, Natashquan",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-03:feed.atom/urn:oid:2.49.0.1.124.0315828319.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T09_35_20_00_00Iurn_oid_2.49.0.1.124.0315828319.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201203103520+00:00"
 			}
 		}
 	]
