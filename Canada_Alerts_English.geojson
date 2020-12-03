@@ -329,6 +329,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.9681, 50.1859 ],
+							[ -60.9447, 50.2258 ],
+							[ -60.9519, 50.2315 ],
+							[ -60.9909, 50.2233 ],
+							[ -60.9983, 50.2284 ],
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -64.999, 50.7498 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.6884, 50.1063 ],
+							[ -62.995, 50.1418 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 3, 2020 02:44",
+				"Expires_UTC" : "December 3, 2020 13:59",
+				"Summary" : "Description: An extended period of rain is expected.\n\nAn additional 5 to 10 millimetres of rain is expected this evening.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-03T13:59:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-03T02:44:55-00:00, urn:oid:2.49.0.1.124.3774253552.2020<br>Area: Minganie, Natashquan",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-03:feed.atom/urn:oid:2.49.0.1.124.3774253552.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T02_44_55_00_00Iurn_oid_2.49.0.1.124.3774253552.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201203135955+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.9056, 74.3191 ],
 							[ -94.8626, 74.2936 ],
 							[ -94.1547, 74.3414 ],
@@ -583,53 +630,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T04_47_48_00_00Iurn_oid_2.49.0.1.124.2268872116.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201203204648+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -64.999, 50.7498 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.6884, 50.1063 ],
-							[ -62.995, 50.1418 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 3, 2020 09:35",
-				"Expires_UTC" : "December 3, 2020 10:35",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2020-12-03T10:35:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-03T09:35:20-00:00, urn:oid:2.49.0.1.124.0315828319.2020<br>Area: Minganie, Natashquan",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-03:feed.atom/urn:oid:2.49.0.1.124.0315828319.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-03/2020_12_03T09_35_20_00_00Iurn_oid_2.49.0.1.124.0315828319.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201203103520+00:00"
 			}
 		},
 		{
