@@ -907,6 +907,89 @@
 				"coordinates" : [
 					[
 						[
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 52.0026 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.559, 53.2249 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.8625, 53.2339 ],
+							[ -59.8485, 53.297 ],
+							[ -59.853, 53.3605 ],
+							[ -59.8979, 53.4724 ],
+							[ -59.9665, 53.5313 ],
+							[ -60.064, 53.5983 ],
+							[ -60.1986, 53.644 ],
+							[ -60.3282, 53.6683 ],
+							[ -60.4351, 53.6762 ],
+							[ -60.5259, 53.6753 ],
+							[ -60.6518, 53.6602 ],
+							[ -60.8205, 53.6078 ],
+							[ -60.9451, 53.5344 ],
+							[ -61.0082, 53.4731 ],
+							[ -61.0589, 53.3876 ],
+							[ -61.0612, 53.2803 ],
+							[ -61.0591, 53.2593 ],
+							[ -61.0344, 53.1975 ],
+							[ -60.9922, 53.1395 ],
+							[ -60.934, 53.0865 ],
+							[ -60.8616, 53.0404 ],
+							[ -60.8397, 53.0302 ],
+							[ -60.7771, 53.002 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.1428, 52.4234 ],
+							[ -57.1156, 52.1 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 5, 2020 02:36",
+				"Expires_UTC" : "December 5, 2020 18:35",
+				"Summary" : "Description: Significant snowfall Sunday night to Monday night.\n\nLocations: Eagle River, Cartwright to Black Tickle, Norman Bay to Lodge Bay, Red Bay to L'Anse-au-Clair.\n\nMaximum snowfall: Possibly exceeding 30 cm, especially inland.\n\nRemarks: Areas immediately along the coast from L'Anse-au-Clair to Mary's Harbour may see precipitation fall as rain or wet snow, significantly reducing accumulations.  If precipitation falls only as rain, accumulations could reach 30 mm instead.\n\nLocation: Upper Lake Melville.\n\nMaximum snowfall:  Possibly reaching 15 cm.\n\nRemarks: Depending on the track of the low, the Upper Lake Melville area may or may not see significant snowfall.  Confidence for this area is lower.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-05T18:35:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-05T02:36:30-00:00, urn:oid:2.49.0.1.124.0609937106.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Upper Lake Melville, Eagle River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-05:feed.atom/urn:oid:2.49.0.1.124.0609937106.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-05/2020_12_05T02_36_30_00_00Iurn_oid_2.49.0.1.124.0609937106.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201205183530+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -55.2908, 52.0995 ],
 							[ -55.2952, 52.1186 ],
 							[ -55.6948, 52.1 ],
@@ -1321,47 +1404,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 5, 2020 08:43",
-				"Expires_UTC" : "December 6, 2020 00:42",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum Les Suetes gusts: 90 km/h.\n\nTime span: Overnight Saturday until early Sunday morning.\n\nRemarks:  Strong southeast winds will develop Saturday evening with gusts to 90 km/h overnight until early Sunday morning.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-12-06T00:42:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-05T08:43:49-00:00, urn:oid:2.49.0.1.124.2896064095.2020<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-05:feed.atom/urn:oid:2.49.0.1.124.2896064095.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-05/2020_12_05T08_43_49_00_00Iurn_oid_2.49.0.1.124.2896064095.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201206004249+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.2163, 47.9516 ],
 							[ -65.2163, 47.8063 ],
 							[ -65.2377, 47.2849 ],
@@ -1705,89 +1747,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -57.1156, 52.1 ],
-							[ -57.1159, 52.0026 ],
-							[ -57.1159, 51.9984 ],
-							[ -57.1077, 51.9984 ],
-							[ -57.1075, 51.9221 ],
-							[ -57.1085, 51.4106 ],
-							[ -57.1162, 51.3508 ],
-							[ -56.8508, 51.3971 ],
-							[ -55.8517, 51.8524 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.559, 53.2249 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -57.3704, 54.1207 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -59, 52.9 ],
-							[ -59.8804, 53.2 ],
-							[ -59.8625, 53.2339 ],
-							[ -59.8485, 53.297 ],
-							[ -59.853, 53.3605 ],
-							[ -59.8979, 53.4724 ],
-							[ -59.9665, 53.5313 ],
-							[ -60.064, 53.5983 ],
-							[ -60.1986, 53.644 ],
-							[ -60.3282, 53.6683 ],
-							[ -60.4351, 53.6762 ],
-							[ -60.5259, 53.6753 ],
-							[ -60.6518, 53.6602 ],
-							[ -60.8205, 53.6078 ],
-							[ -60.9451, 53.5344 ],
-							[ -61.0082, 53.4731 ],
-							[ -61.0589, 53.3876 ],
-							[ -61.0612, 53.2803 ],
-							[ -61.0591, 53.2593 ],
-							[ -61.0344, 53.1975 ],
-							[ -60.9922, 53.1395 ],
-							[ -60.934, 53.0865 ],
-							[ -60.8616, 53.0404 ],
-							[ -60.8397, 53.0302 ],
-							[ -60.7771, 53.002 ],
-							[ -60.7702, 53 ],
-							[ -59, 52.4 ],
-							[ -58.0385, 52.5919 ],
-							[ -57.1146, 52.8003 ],
-							[ -57.1428, 52.4234 ],
-							[ -57.1156, 52.1 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 5, 2020 02:36",
-				"Expires_UTC" : "December 5, 2020 18:35",
-				"Summary" : "Description: Significant snowfall Sunday night to Monday night.\n\nLocations: Eagle River, Cartwright to Black Tickle, Norman Bay to Lodge Bay, Red Bay to L'Anse-au-Clair.\n\nMaximum snowfall: Possibly exceeding 30 cm, especially inland.\n\nRemarks: Areas immediately along the coast from L'Anse-au-Clair to Mary's Harbour may see precipitation fall as rain or wet snow, significantly reducing accumulations.  If precipitation falls only as rain, accumulations could reach 30 mm instead.\n\nLocation: Upper Lake Melville.\n\nMaximum snowfall:  Possibly reaching 15 cm.\n\nRemarks: Depending on the track of the low, the Upper Lake Melville area may or may not see significant snowfall.  Confidence for this area is lower.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-05T18:35:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-05T02:36:30-00:00, urn:oid:2.49.0.1.124.0609937106.2020<br>Area: Red Bay to L'Anse-au-Clair, Norman Bay to Lodge Bay, Cartwright to Black Tickle, Upper Lake Melville, Eagle River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-05:feed.atom/urn:oid:2.49.0.1.124.0609937106.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-05/2020_12_05T02_36_30_00_00Iurn_oid_2.49.0.1.124.0609937106.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201205183530+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -95.9056, 74.3191 ],
 							[ -94.8626, 74.2936 ],
 							[ -94.1547, 74.3414 ],
@@ -1918,6 +1877,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-05/2020_12_05T08_50_17_00_00Iurn_oid_2.49.0.1.124.1803181271.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201206004917+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Les Suêtes Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 5, 2020 08:43",
+				"Expires_UTC" : "December 6, 2020 00:42",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum Les Suetes gusts: 90 km/h.\n\nTime span: Overnight Saturday until early Sunday morning.\n\nRemarks:  Strong southeast winds will develop Saturday evening with gusts to 90 km/h overnight until early Sunday morning.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-12-06T00:42:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-05T08:43:49-00:00, urn:oid:2.49.0.1.124.2896064095.2020<br>Area: Inverness County - Mabou and north",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-05:feed.atom/urn:oid:2.49.0.1.124.2896064095.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-05/2020_12_05T08_43_49_00_00Iurn_oid_2.49.0.1.124.2896064095.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201206004249+00:00"
 			}
 		}
 	]
