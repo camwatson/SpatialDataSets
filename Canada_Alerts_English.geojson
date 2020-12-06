@@ -9,6 +9,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.2163, 47.9516 ],
+							[ -65.2163, 47.8063 ],
+							[ -65.2377, 47.2849 ],
+							[ -64.9706, 47.3164 ],
+							[ -64.9364, 47.3299 ],
+							[ -64.7688, 47.3864 ],
+							[ -64.7526, 47.5525 ],
+							[ -64.4105, 47.8072 ],
+							[ -64.4829, 48.0381 ],
+							[ -64.6328, 48.0419 ],
+							[ -64.7544, 48.0994 ],
+							[ -65.2163, 47.9516 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 6, 2020 15:13",
+				"Expires_UTC" : "December 6, 2020 16:13",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-12-06T16:13:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T15:13:03-00:00, urn:oid:2.49.0.1.124.0903109772.2020<br>Area: Acadian Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.0903109772.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T15_13_03_00_00Iurn_oid_2.49.0.1.124.0903109772.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201206161303+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.3276, 48.954 ],
 							[ -61.5516, 49.0069 ],
 							[ -61.6531, 49.3315 ],
@@ -483,80 +528,100 @@
 				"coordinates" : [
 					[
 						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					],
-					[
-						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
+							[ -65.7656, 46.7811 ],
+							[ -65.802, 47.2158 ],
+							[ -65.2377, 47.2849 ],
+							[ -65.2163, 47.8063 ],
+							[ -65.2163, 47.9516 ],
+							[ -65.4344, 47.921 ],
+							[ -65.8243, 48.018 ],
+							[ -66.0128, 48.0649 ],
+							[ -66.2939, 48.0424 ],
+							[ -66.4422, 48.0905 ],
+							[ -66.6148, 48.0154 ],
+							[ -66.7805, 47.993 ],
+							[ -66.7817, 48.0207 ],
+							[ -66.9036, 48.0246 ],
+							[ -66.9658, 47.9917 ],
+							[ -66.9911, 47.9783 ],
+							[ -66.9979, 47.9393 ],
+							[ -67.0565, 47.9629 ],
+							[ -67.2139, 47.9066 ],
+							[ -67.3012, 47.9247 ],
+							[ -67.3717, 47.9107 ],
+							[ -67.3847, 47.8902 ],
+							[ -67.4796, 47.9265 ],
+							[ -67.5727, 47.9437 ],
+							[ -67.5768, 47.9997 ],
+							[ -67.598, 47.9999 ],
+							[ -67.6035, 47.9999 ],
+							[ -67.6656, 48 ],
+							[ -68.1226, 47.9998 ],
+							[ -68.1227, 47.9163 ],
+							[ -68.3823, 47.9161 ],
+							[ -68.3823, 47.9128 ],
+							[ -68.3825, 47.7887 ],
+							[ -68.3834, 47.5531 ],
+							[ -68.5692, 47.4271 ],
+							[ -68.7996, 47.3489 ],
+							[ -69.0509, 47.3 ],
+							[ -69.0574, 47.2989 ],
+							[ -69.0541, 47.2467 ],
+							[ -68.9005, 47.1771 ],
+							[ -68.6058, 47.2408 ],
+							[ -68.5711, 47.2816 ],
+							[ -68.3713, 47.2786 ],
+							[ -68.3631, 47.3546 ],
+							[ -68.238, 47.3454 ],
+							[ -68.232, 47.345 ],
+							[ -68.2296, 47.3434 ],
+							[ -67.8877, 47.1049 ],
+							[ -67.7904, 47.0599 ],
+							[ -67.789, 46.5984 ],
+							[ -67.7823, 45.9319 ],
+							[ -67.815, 45.8762 ],
+							[ -67.839, 45.6671 ],
+							[ -67.7222, 45.6482 ],
+							[ -67.624, 45.5767 ],
+							[ -67.4348, 45.5763 ],
+							[ -67.454, 45.5059 ],
+							[ -67.4498, 45.5024 ],
+							[ -67.4475, 45.5001 ],
+							[ -66.917, 45.5008 ],
+							[ -66.9168, 45.501 ],
+							[ -66.2355, 46.3017 ],
+							[ -66.2353, 46.3019 ],
+							[ -66.2349, 46.3023 ],
+							[ -65.9799, 46.3222 ],
+							[ -65.8356, 46.3331 ],
+							[ -65.5705, 46.6329 ],
+							[ -65.3919, 46.733 ],
+							[ -65.3925, 46.733 ],
+							[ -65.7656, 46.7811 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Snowfall",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 6, 2020 09:28",
-				"Expires_UTC" : "December 7, 2020 01:27",
-				"Summary" : "Description: A disturbance tracking across the central Kivalliq will bring snow and blowing snow to most of the region later today and tonight. \n\nSnow is expected to begin along the southern coastal areas of Kivalliq this afternoon and persist into the evening hours before tapering off overnight. Total snowfall accumulations of 5 to 10 cm are expected by Monday morning with lesser amounts of 2 to 4 cm likely in the Arviat area. \n\nAlong with the snow, strong southerly winds are expected to develop this afternoon gusting at times to 70 or 80 km/h. These winds combined with the falling snow will produce near blizzard conditions at times especially during the late afternoon and early evening hours. Winds are expected to diminish later this evening into the overnight hours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-12-07T01:27:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T09:28:42-00:00, urn:oid:2.49.0.1.124.3090843226.2020<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 6, 2020 15:13",
+				"Expires_UTC" : "December 7, 2020 07:12",
+				"Summary" : "Description: Significant snowfall expected to continue today and tonight.\n\nAdditional snowfall: 5 to 15 cm.\n\nLocations: central and western New Brunswick\n\nTime span: today until early Monday.\n\nRemarks: For the Fredericton, Stanley, Doaktown and Blackville regions, rain is expected to change over to snow this afternoon. Elsewhere, snow is expected to continue today and ease overnight tonight.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-12-07T07:12:13-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T15:13:13-00:00, urn:oid:2.49.0.1.124.4057935514.2020<br>Area: Fredericton and Southern York County, Woodstock and Carleton County, Stanley - Doaktown - Blackville Area, Grand Falls and Victoria County, Mount Carleton - Renous Highway",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3090843226.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T09_28_42_00_00Iurn_oid_2.49.0.1.124.3090843226.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.4057935514.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T15_13_13_00_00Iurn_oid_2.49.0.1.124.4057935514.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201207012742+00:00"
+				"Expires_FMEFormat" : "20201207071213+00:00"
 			}
 		},
 		{
@@ -653,6 +718,89 @@
 				"coordinates" : [
 					[
 						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 6, 2020 09:28",
+				"Expires_UTC" : "December 7, 2020 01:27",
+				"Summary" : "Description: A disturbance tracking across the central Kivalliq will bring snow and blowing snow to most of the region later today and tonight. \n\nSnow is expected to begin along the southern coastal areas of Kivalliq this afternoon and persist into the evening hours before tapering off overnight. Total snowfall accumulations of 5 to 10 cm are expected by Monday morning with lesser amounts of 2 to 4 cm likely in the Arviat area. \n\nAlong with the snow, strong southerly winds are expected to develop this afternoon gusting at times to 70 or 80 km/h. These winds combined with the falling snow will produce near blizzard conditions at times especially during the late afternoon and early evening hours. Winds are expected to diminish later this evening into the overnight hours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-12-07T01:27:42-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T09:28:42-00:00, urn:oid:2.49.0.1.124.3090843226.2020<br>Area: Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3090843226.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T09_28_42_00_00Iurn_oid_2.49.0.1.124.3090843226.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201207012742+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -129.7213, 51.8219 ],
 							[ -128.8048, 50.9385 ],
 							[ -127.9174, 50.973 ],
@@ -712,109 +860,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T12_39_03_00_00Iurn_oid_2.49.0.1.124.2426067677.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201207015903+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -65.7656, 46.7811 ],
-							[ -65.802, 47.2158 ],
-							[ -65.2377, 47.2849 ],
-							[ -65.2163, 47.8063 ],
-							[ -65.2163, 47.9516 ],
-							[ -65.4344, 47.921 ],
-							[ -65.8243, 48.018 ],
-							[ -66.0128, 48.0649 ],
-							[ -66.2939, 48.0424 ],
-							[ -66.4422, 48.0905 ],
-							[ -66.6148, 48.0154 ],
-							[ -66.7805, 47.993 ],
-							[ -66.7817, 48.0207 ],
-							[ -66.9036, 48.0246 ],
-							[ -66.9658, 47.9917 ],
-							[ -66.9911, 47.9783 ],
-							[ -66.9979, 47.9393 ],
-							[ -67.0565, 47.9629 ],
-							[ -67.2139, 47.9066 ],
-							[ -67.3012, 47.9247 ],
-							[ -67.3717, 47.9107 ],
-							[ -67.3847, 47.8902 ],
-							[ -67.4796, 47.9265 ],
-							[ -67.5727, 47.9437 ],
-							[ -67.5768, 47.9997 ],
-							[ -67.598, 47.9999 ],
-							[ -67.6035, 47.9999 ],
-							[ -67.6656, 48 ],
-							[ -68.1226, 47.9998 ],
-							[ -68.1227, 47.9163 ],
-							[ -68.3823, 47.9161 ],
-							[ -68.3823, 47.9128 ],
-							[ -68.3825, 47.7887 ],
-							[ -68.3834, 47.5531 ],
-							[ -68.5692, 47.4271 ],
-							[ -68.7996, 47.3489 ],
-							[ -69.0509, 47.3 ],
-							[ -69.0574, 47.2989 ],
-							[ -69.0541, 47.2467 ],
-							[ -68.9005, 47.1771 ],
-							[ -68.6058, 47.2408 ],
-							[ -68.5711, 47.2816 ],
-							[ -68.3713, 47.2786 ],
-							[ -68.3631, 47.3546 ],
-							[ -68.238, 47.3454 ],
-							[ -68.232, 47.345 ],
-							[ -68.2296, 47.3434 ],
-							[ -67.8877, 47.1049 ],
-							[ -67.7904, 47.0599 ],
-							[ -67.789, 46.5984 ],
-							[ -67.7823, 45.9319 ],
-							[ -67.815, 45.8762 ],
-							[ -67.839, 45.6671 ],
-							[ -67.7222, 45.6482 ],
-							[ -67.624, 45.5767 ],
-							[ -67.4348, 45.5763 ],
-							[ -67.454, 45.5059 ],
-							[ -67.4498, 45.5024 ],
-							[ -67.4475, 45.5001 ],
-							[ -66.917, 45.5008 ],
-							[ -66.9168, 45.501 ],
-							[ -66.2355, 46.3017 ],
-							[ -66.2353, 46.3019 ],
-							[ -66.2349, 46.3023 ],
-							[ -65.9799, 46.3222 ],
-							[ -65.8356, 46.3331 ],
-							[ -65.5705, 46.6329 ],
-							[ -65.3919, 46.733 ],
-							[ -65.3925, 46.733 ],
-							[ -65.7656, 46.7811 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 6, 2020 08:44",
-				"Expires_UTC" : "December 7, 2020 00:43",
-				"Summary" : "Description: Significant snowfall expected to continue today and tonight.\n\nAdditional snowfall: 15 to 20 cm.\n\nLocations: northern and western New Brunswick\n\nTime span: today until early Monday.\n\nRemarks: For the Fredericton and Bathurst regions, rain is expected to change over to snow this morning except for easternmost areas of the Bathurst region where it may remain as rain until this afternoon. \n\nElsewhere, snow is expected to continue today and ease overnight tonight.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Heavy snowfall accumulation may cause tree branches to break.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-12-07T00:43:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T08:44:46-00:00, urn:oid:2.49.0.1.124.1149641044.2020<br>Area: Fredericton and Southern York County, Woodstock and Carleton County, Stanley - Doaktown - Blackville Area, Edmundston and Madawaska County, western half of Restigouche County, Campbellton and eastern half of Restigouche County, Grand Falls and Victoria County, Mount Carleton - Renous Highway, Bathurst and Chaleur Region",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.1149641044.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T08_44_46_00_00Iurn_oid_2.49.0.1.124.1149641044.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201207004346+00:00"
 			}
 		},
 		{
@@ -1038,53 +1083,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T11_30_03_00_00Iurn_oid_2.49.0.1.124.2326482192.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201206195903+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 6, 2020 14:18",
-				"Expires_UTC" : "December 6, 2020 18:59",
-				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\nMaximum gusts: southeasterly up to 130 km/h in the Wreckhouse area.\n\nTime span: diminishing early this afternoon.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-06T18:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T14:18:29-00:00, urn:oid:2.49.0.1.124.3415874657.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3415874657.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T14_18_29_00_00Iurn_oid_2.49.0.1.124.3415874657.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201206185929+00:00"
 			}
 		},
 		{
@@ -1672,18 +1670,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 6, 2020 11:30",
+				"LastUpdate_UTC" : "December 6, 2020 15:17",
 				"Expires_UTC" : "December 6, 2020 19:59",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog patches developed over a large portion of Manitoba overnight but are expected to dissipate later this morning or by early afternoon.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-12-06T19:59:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T11:30:03-00:00, urn:oid:2.49.0.1.124.4146476424.2020<br>Area: R.M. of Coldwell incl. Lundar and Clarkleigh, R.M. of Gimli incl. Winnipeg Beach and Arnes, R.M. of St. Laurent incl. Oak Point, R.M. of Woodlands incl. Warren and Lake Francis, R.M. of Rockwood incl. Teulon Stonewall and Stony Mountain, R.M. of Rosser incl. Meadows, R.M. of West St. Paul incl. Middlechurch and Rivercrest, R.M. of Armstrong incl. Chatfield Inwood and Narcisse, R.M. of St. Andrews incl. Selkirk Lockport and Ponemah, R.M. of St. Clements incl. Grand Beach Brokenhead and Libau, R.M. of Brokenhead incl. Beausejour and Garson, R.M. of Springfield incl. Anola and Birds Hill Prov. Park, R.M. of East St. Paul incl. Birds Hill, Manigotagan Black River Res. and Hollow Water Res., Bissett, Nopiming Prov. Park, R.M. of Alexander incl. Powerview-Pine Falls, R.M. of Victoria Beach, R.M. of Lac Du Bonnet, L.G. of Pinawa incl. Seven Sisters Falls, R.M. of Whitemouth incl. Elma, Pointe du Bois, Falcon Lake and West Hawk Lake, Shoal Lake Reserves, R.M. of Reynolds incl. Ste. Rita Hadashville and Rennie, Buffalo Point Res. and Northwest Angle Prov. Forest, R.M. of Piney incl. Sandilands and Sprague, Grand Rapids and Easterville, Waterhen Meadow Portage and Skownan, R.M. of Grahamdale incl. Gypsumville Moosehorn and Camper, Jackhead Res., R.M. of West Interlake incl. Eriksdale and Ashern, Mun. of Bifrost-Riverton incl. Arborg Hnausa and Hecla, Moose Creek Prov. Forest Pine Dock and Matheson Island, R.M. of Fisher incl. Poplarfield, Peguis Res. and Fisher River Res., Poplar River, Berens River, Little Grand Rapids and Atikaki Prov. Park, Bloodvein",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-12-06T19:59:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T15:17:00-00:00, urn:oid:2.49.0.1.124.3248186591.2020<br>Area: Grand Rapids and Easterville, Waterhen Meadow Portage and Skownan, R.M. of Grahamdale incl. Gypsumville Moosehorn and Camper, Jackhead Res., R.M. of West Interlake incl. Eriksdale and Ashern, Mun. of Bifrost-Riverton incl. Arborg Hnausa and Hecla, Moose Creek Prov. Forest Pine Dock and Matheson Island, R.M. of Fisher incl. Poplarfield, Peguis Res. and Fisher River Res., Poplar River, Berens River, Little Grand Rapids and Atikaki Prov. Park, Bloodvein",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.4146476424.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T11_30_03_00_00Iurn_oid_2.49.0.1.124.4146476424.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3248186591.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T15_17_00_00_00Iurn_oid_2.49.0.1.124.3248186591.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201206195903+00:00"
+				"Expires_FMEFormat" : "20201206195900+00:00"
 			}
 		},
 		{
@@ -1801,18 +1799,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 6, 2020 11:30",
+				"LastUpdate_UTC" : "December 6, 2020 15:17",
 				"Expires_UTC" : "December 6, 2020 19:59",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog patches developed over a large portion of Manitoba overnight but are expected to dissipate later this morning or by early afternoon.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-12-06T19:59:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T11:30:03-00:00, urn:oid:2.49.0.1.124.0272551496.2020<br>Area: Lake Winnipeg - north basin, Lake Winnipeg - south basin",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2020-12-06T19:59:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T15:17:00-00:00, urn:oid:2.49.0.1.124.3890695706.2020<br>Area: Lake Winnipeg - north basin, Lake Winnipeg - south basin",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.0272551496.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T11_30_03_00_00Iurn_oid_2.49.0.1.124.0272551496.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3890695706.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T15_17_00_00_00Iurn_oid_2.49.0.1.124.3890695706.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201206195903+00:00"
+				"Expires_FMEFormat" : "20201206195900+00:00"
 			}
 		},
 		{
@@ -1910,51 +1908,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T11_42_34_00_00Iurn_oid_2.49.0.1.124.1955790669.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201207034134+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -65.2163, 47.9516 ],
-							[ -65.2163, 47.8063 ],
-							[ -65.2377, 47.2849 ],
-							[ -64.9706, 47.3164 ],
-							[ -64.9364, 47.3299 ],
-							[ -64.7688, 47.3864 ],
-							[ -64.7526, 47.5525 ],
-							[ -64.4105, 47.8072 ],
-							[ -64.4829, 48.0381 ],
-							[ -64.6328, 48.0419 ],
-							[ -64.7544, 48.0994 ],
-							[ -65.2163, 47.9516 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 6, 2020 08:39",
-				"Expires_UTC" : "December 6, 2020 17:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: northeasterly 70 km/h, except 100 along parts of the coast.\n\nLocations: Acadian Peninsula.\n\nTime span: until near noon.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2020-12-06T17:59:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T08:39:41-00:00, urn:oid:2.49.0.1.124.2915449887.2020<br>Area: Acadian Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.2915449887.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T08_39_41_00_00Iurn_oid_2.49.0.1.124.2915449887.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201206175941+00:00"
 			}
 		},
 		{
@@ -2395,6 +2348,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T08_47_02_00_00Iurn_oid_2.49.0.1.124.3608789489.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201207004602+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 6, 2020 14:18",
+				"Expires_UTC" : "December 6, 2020 18:59",
+				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\nMaximum gusts: southeasterly up to 130 km/h in the Wreckhouse area.\n\nTime span: diminishing early this afternoon.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-06T18:59:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T14:18:29-00:00, urn:oid:2.49.0.1.124.3415874657.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3415874657.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T14_18_29_00_00Iurn_oid_2.49.0.1.124.3415874657.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201206185929+00:00"
 			}
 		}
 	]
