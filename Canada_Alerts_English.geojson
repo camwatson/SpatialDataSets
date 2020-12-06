@@ -9,52 +9,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -136.3938, 60 ],
-							[ -135.2242, 59.9835 ],
-							[ -134.1809, 60 ],
-							[ -134.122, 59.9974 ],
-							[ -134.0684, 60 ],
-							[ -133.5278, 60.3312 ],
-							[ -133.0688, 60.6497 ],
-							[ -133.8099, 61.0997 ],
-							[ -134.5718, 61.4667 ],
-							[ -135.1225, 61.4797 ],
-							[ -135.8519, 61.4667 ],
-							[ -136.1591, 60.764 ],
-							[ -136.3938, 60 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 5, 2020 23:01",
-				"Expires_UTC" : "December 6, 2020 11:14",
-				"Summary" : "Description: 10 to 15 cm of snow is forecast for tonight as a low pressure system moves across the area. The moist airmass will interact with the cooler lower atmosphere to generate lower density snow for a total of 10 to 15 cm.\n\nThe snow will end overnight as the low moves out of the region.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-12-06T11:14:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-05T23:01:25-00:00, urn:oid:2.49.0.1.124.0649379485.2020<br>Area: Whitehorse",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-05:feed.atom/urn:oid:2.49.0.1.124.0649379485.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-05/2020_12_05T23_01_25_00_00Iurn_oid_2.49.0.1.124.0649379485.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201206111425+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -116.9874, 60.6669 ],
 							[ -116.9878, 59.9995 ],
 							[ -116.2909, 59.9891 ],
@@ -754,6 +708,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -136.3938, 60 ],
+							[ -135.2242, 59.9835 ],
+							[ -134.1809, 60 ],
+							[ -134.122, 59.9974 ],
+							[ -134.0684, 60 ],
+							[ -133.5278, 60.3312 ],
+							[ -133.0688, 60.6497 ],
+							[ -133.8099, 61.0997 ],
+							[ -134.5718, 61.4667 ],
+							[ -135.1225, 61.4797 ],
+							[ -135.8519, 61.4667 ],
+							[ -136.1591, 60.764 ],
+							[ -136.3938, 60 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 6, 2020 08:27",
+				"Expires_UTC" : "December 6, 2020 09:27",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-06T09:27:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T08:27:09-00:00, urn:oid:2.49.0.1.124.2233576950.2020<br>Area: Whitehorse",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.2233576950.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T08_27_09_00_00Iurn_oid_2.49.0.1.124.2233576950.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201206092709+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -99.4001, 54.318 ],
 							[ -99.4001, 53.5312 ],
 							[ -99.1529, 53.5331 ],
@@ -853,45 +853,84 @@
 				"coordinates" : [
 					[
 						[
-							[ -59, 52.4 ],
-							[ -58.0385, 52.5919 ],
-							[ -57.1146, 52.8003 ],
-							[ -57.0998, 53.0683 ],
-							[ -57.1137, 53.3384 ],
-							[ -57.4985, 53.333 ],
-							[ -59, 52.9 ],
-							[ -59.8804, 53.2 ],
-							[ -59.9432, 53.1171 ],
-							[ -60.0074, 53.0666 ],
-							[ -60.1736, 52.9893 ],
-							[ -60.3731, 52.9506 ],
-							[ -60.5825, 52.955 ],
-							[ -60.7702, 53 ],
-							[ -59, 52.4 ]
+							[ -70.9806, 45.9844 ],
+							[ -70.9245, 45.9333 ],
+							[ -71.3583, 45.9425 ],
+							[ -71.798, 45.9332 ],
+							[ -71.7994, 45.9313 ],
+							[ -71.7164, 45.4998 ],
+							[ -71.7164, 45.2735 ],
+							[ -71.7164, 45.2665 ],
+							[ -72.0824, 45.2498 ],
+							[ -72.0831, 45.2498 ],
+							[ -72.0831, 45.0165 ],
+							[ -72.0819, 45.0059 ],
+							[ -72.0817, 45.0038 ],
+							[ -71.5365, 44.9999 ],
+							[ -71.4914, 45.0109 ],
+							[ -71.3803, 45.2016 ],
+							[ -71.2936, 45.2989 ],
+							[ -71.2828, 45.2992 ],
+							[ -71.2664, 45.2751 ],
+							[ -71.2508, 45.2521 ],
+							[ -71.1356, 45.2329 ],
+							[ -70.995, 45.3252 ],
+							[ -70.9335, 45.3125 ],
+							[ -70.9237, 45.2875 ],
+							[ -70.9032, 45.2352 ],
+							[ -70.8347, 45.226 ],
+							[ -70.7612, 45.4061 ],
+							[ -70.663, 45.352 ],
+							[ -70.6187, 45.4011 ],
+							[ -70.6635, 45.5682 ],
+							[ -70.5944, 45.6297 ],
+							[ -70.3798, 45.7268 ],
+							[ -70.3968, 45.7994 ],
+							[ -70.1895, 45.9332 ],
+							[ -70.2857, 45.9942 ],
+							[ -70.2231, 46.1506 ],
+							[ -70.2871, 46.188 ],
+							[ -70.2447, 46.2494 ],
+							[ -70.2068, 46.3004 ],
+							[ -70.0652, 46.4129 ],
+							[ -70.0567, 46.4154 ],
+							[ -70.0565, 46.4165 ],
+							[ -69.9971, 46.6955 ],
+							[ -69.6272, 47.0648 ],
+							[ -69.8796, 47.216 ],
+							[ -70.2482, 47.4424 ],
+							[ -70.5437, 47.16 ],
+							[ -70.7016, 47.0257 ],
+							[ -70.7199, 47.0115 ],
+							[ -70.4841, 46.7998 ],
+							[ -70.8484, 46.5986 ],
+							[ -71.1687, 46.4191 ],
+							[ -71.3493, 46.3167 ],
+							[ -70.9806, 45.9844 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
+				"event" : "Snowfall",
+				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 6, 2020 01:55",
-				"Expires_UTC" : "December 6, 2020 17:54",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 25 to 35 cm.\n\nMaximum winds: northeasterly gusting to 60 km/h.\n\nTime span: Sunday afternoon until Monday evening.\n\nLocations: Eagle River section of the Trans-Labrador Highway.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-06T17:54:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T01:55:09-00:00, urn:oid:2.49.0.1.124.3713724525.2020<br>Area: Eagle River",
+				"LastUpdate_UTC" : "December 6, 2020 03:35",
+				"Expires_UTC" : "December 6, 2020 13:59",
+				"Summary" : "Description: A low pressure system will give snowfall amounts of 15 to 25 cm from this evening through Sunday morning over the eastern part of the Eastern Townships and over higher grounds of the Chaudiere-Appalaches area.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-06T13:59:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T03:35:50-00:00, urn:oid:2.49.0.1.124.2842367808.2020<br>Area: Weedon area, Coaticook area, Lac-Mégantic area, Cookshire area, Lac-Etchemin area, Sainte-Marie-de-Beauce area, Saint-Georges-de-Beauce area, Montmagny - Saint-Jean-Port-Joli area, Saint-Fabien - Saint-Pamphile area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3713724525.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T01_55_09_00_00Iurn_oid_2.49.0.1.124.3713724525.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.2842367808.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T03_35_50_00_00Iurn_oid_2.49.0.1.124.2842367808.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201206175409+00:00"
+				"Expires_FMEFormat" : "20201206135950+00:00"
 			}
 		},
 		{
@@ -1510,6 +1549,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.0998, 53.0683 ],
+							[ -57.1137, 53.3384 ],
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.9432, 53.1171 ],
+							[ -60.0074, 53.0666 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.5825, 52.955 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 6, 2020 01:55",
+				"Expires_UTC" : "December 6, 2020 17:54",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 25 to 35 cm.\n\nMaximum winds: northeasterly gusting to 60 km/h.\n\nTime span: Sunday afternoon until Monday evening.\n\nLocations: Eagle River section of the Trans-Labrador Highway.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-06T17:54:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T01:55:09-00:00, urn:oid:2.49.0.1.124.3713724525.2020<br>Area: Eagle River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3713724525.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T01_55_09_00_00Iurn_oid_2.49.0.1.124.3713724525.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201206175409+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.1534, 49.6651 ],
 							[ -95.1371, 49.829 ],
 							[ -95.1535, 49.9987 ],
@@ -1643,57 +1730,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T02_31_34_00_00Iurn_oid_2.49.0.1.124.0950097318.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201206141034+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -137.8443, 65.4581 ],
-							[ -134.9833, 67 ],
-							[ -135.4962, 67.0133 ],
-							[ -135.9999, 67 ],
-							[ -136.012, 67 ],
-							[ -136.0889, 67.1757 ],
-							[ -135.9251, 67.2657 ],
-							[ -136.136, 67.2766 ],
-							[ -136.3737, 67.1424 ],
-							[ -136.6048, 67.0102 ],
-							[ -137.1316, 66.6721 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.4948, 64.415 ],
-							[ -138.0022, 64.3497 ],
-							[ -137.911, 64.3385 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8443, 65.4581 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 6, 2020 04:32",
-				"Expires_UTC" : "December 6, 2020 20:31",
-				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nBlizzard conditions will develop Sunday night as an upper warm front brings snow in concert with a very strong easterly surface wind.\n\nEasterly winds of 80 km/h gusting to 100 near the Richardson Mountains will generate near zero visibility in snow and blowing snow beginning Sunday evening.\n\nBlizzard conditions will end Monday morning as the winds ease.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-12-06T20:31:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T04:32:48-00:00, urn:oid:2.49.0.1.124.3034290270.2020<br>Area: Dempster",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3034290270.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T04_32_48_00_00Iurn_oid_2.49.0.1.124.3034290270.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201206203148+00:00"
 			}
 		},
 		{
@@ -1942,6 +1978,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T02_31_34_00_00Iurn_oid_2.49.0.1.124.1610792019.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201206141034+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ],
+							[ -136.3737, 67.1424 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 6, 2020 04:32",
+				"Expires_UTC" : "December 6, 2020 20:31",
+				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nBlizzard conditions will develop Sunday night as an upper warm front brings snow in concert with a very strong easterly surface wind.\n\nEasterly winds of 80 km/h gusting to 100 near the Richardson Mountains will generate near zero visibility in snow and blowing snow beginning Sunday evening.\n\nBlizzard conditions will end Monday morning as the winds ease.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-12-06T20:31:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T04:32:48-00:00, urn:oid:2.49.0.1.124.3034290270.2020<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3034290270.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T04_32_48_00_00Iurn_oid_2.49.0.1.124.3034290270.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201206203148+00:00"
 			}
 		},
 		{
@@ -2339,93 +2426,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T03_52_35_00_00Iurn_oid_2.49.0.1.124.0451005227.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201206145035+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -70.9806, 45.9844 ],
-							[ -70.9245, 45.9333 ],
-							[ -71.3583, 45.9425 ],
-							[ -71.798, 45.9332 ],
-							[ -71.7994, 45.9313 ],
-							[ -71.7164, 45.4998 ],
-							[ -71.7164, 45.2735 ],
-							[ -71.7164, 45.2665 ],
-							[ -72.0824, 45.2498 ],
-							[ -72.0831, 45.2498 ],
-							[ -72.0831, 45.0165 ],
-							[ -72.0819, 45.0059 ],
-							[ -72.0817, 45.0038 ],
-							[ -71.5365, 44.9999 ],
-							[ -71.4914, 45.0109 ],
-							[ -71.3803, 45.2016 ],
-							[ -71.2936, 45.2989 ],
-							[ -71.2828, 45.2992 ],
-							[ -71.2664, 45.2751 ],
-							[ -71.2508, 45.2521 ],
-							[ -71.1356, 45.2329 ],
-							[ -70.995, 45.3252 ],
-							[ -70.9335, 45.3125 ],
-							[ -70.9237, 45.2875 ],
-							[ -70.9032, 45.2352 ],
-							[ -70.8347, 45.226 ],
-							[ -70.7612, 45.4061 ],
-							[ -70.663, 45.352 ],
-							[ -70.6187, 45.4011 ],
-							[ -70.6635, 45.5682 ],
-							[ -70.5944, 45.6297 ],
-							[ -70.3798, 45.7268 ],
-							[ -70.3968, 45.7994 ],
-							[ -70.1895, 45.9332 ],
-							[ -70.2857, 45.9942 ],
-							[ -70.2231, 46.1506 ],
-							[ -70.2871, 46.188 ],
-							[ -70.2447, 46.2494 ],
-							[ -70.2068, 46.3004 ],
-							[ -70.0652, 46.4129 ],
-							[ -70.0567, 46.4154 ],
-							[ -70.0565, 46.4165 ],
-							[ -69.9971, 46.6955 ],
-							[ -69.6272, 47.0648 ],
-							[ -69.8796, 47.216 ],
-							[ -70.2482, 47.4424 ],
-							[ -70.5437, 47.16 ],
-							[ -70.7016, 47.0257 ],
-							[ -70.7199, 47.0115 ],
-							[ -70.4841, 46.7998 ],
-							[ -70.8484, 46.5986 ],
-							[ -71.1687, 46.4191 ],
-							[ -71.3493, 46.3167 ],
-							[ -70.9806, 45.9844 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 6, 2020 03:35",
-				"Expires_UTC" : "December 6, 2020 13:59",
-				"Summary" : "Description: A low pressure system will give snowfall amounts of 15 to 25 cm from this evening through Sunday morning over the eastern part of the Eastern Townships and over higher grounds of the Chaudiere-Appalaches area.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-06T13:59:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T03:35:50-00:00, urn:oid:2.49.0.1.124.2842367808.2020<br>Area: Weedon area, Coaticook area, Lac-Mégantic area, Cookshire area, Lac-Etchemin area, Sainte-Marie-de-Beauce area, Saint-Georges-de-Beauce area, Montmagny - Saint-Jean-Port-Joli area, Saint-Fabien - Saint-Pamphile area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.2842367808.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T03_35_50_00_00Iurn_oid_2.49.0.1.124.2842367808.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201206135950+00:00"
 			}
 		}
 	]
