@@ -381,24 +381,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory Ended",
+				"Title" : "Fog Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Fog",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 7, 2020 16:14",
-				"Expires_UTC" : "December 7, 2020 17:14",
-				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-12-07T17:14:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T16:14:17-00:00, urn:oid:2.49.0.1.124.1524466902.2020<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Dryden - Vermilion Bay, Seine River Village - Mine Centre",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 7, 2020 10:30",
+				"Expires_UTC" : "December 7, 2020 19:59",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nPatchy dense fog expected early this morning. The fog will dissipate late near noon.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-07T19:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T10:30:16-00:00, urn:oid:2.49.0.1.124.2007700500.2020<br>Area: Red Lake - Woodland Caribou Park, Ear Falls - Perrault Falls - Western Lac Seul, Dryden - Vermilion Bay, Seine River Village - Mine Centre",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.1524466902.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T16_14_17_00_00Iurn_oid_2.49.0.1.124.1524466902.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.2007700500.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T10_30_16_00_00Iurn_oid_2.49.0.1.124.2007700500.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201207171417+00:00"
+				"Expires_FMEFormat" : "20201207195916+00:00"
 			}
 		},
 		{
@@ -681,60 +681,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T16_40_00_00_00Iurn_oid_2.49.0.1.124.1170368031.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201208041900+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.1536, 52.4841 ],
-							[ -95.1536, 52.4201 ],
-							[ -95.169, 52.0344 ],
-							[ -95.1536, 51.6128 ],
-							[ -94.5283, 51.5309 ],
-							[ -93.9542, 51.4733 ],
-							[ -93.733, 51.4154 ],
-							[ -93.4873, 51.3669 ],
-							[ -92.3388, 51.1193 ],
-							[ -91.5246, 52.2405 ],
-							[ -90.9516, 52.9541 ],
-							[ -90.5082, 53.543 ],
-							[ -92.0407, 53.7604 ],
-							[ -93.4241, 53.9089 ],
-							[ -93.68, 53.7427 ],
-							[ -93.9327, 53.5766 ],
-							[ -94.5197, 53.2523 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.1632, 52.6707 ],
-							[ -95.1536, 52.4841 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 7, 2020 16:14",
-				"Expires_UTC" : "December 7, 2020 17:14",
-				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-12-07T17:14:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T16:14:17-00:00, urn:oid:2.49.0.1.124.0594859894.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.0594859894.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T16_14_17_00_00Iurn_oid_2.49.0.1.124.0594859894.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201207171417+00:00"
 			}
 		},
 		{
@@ -1231,6 +1177,60 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T16_14_05_00_00Iurn_oid_2.49.0.1.124.3488824196.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201207205905+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.1536, 52.4841 ],
+							[ -95.1536, 52.4201 ],
+							[ -95.169, 52.0344 ],
+							[ -95.1536, 51.6128 ],
+							[ -94.5283, 51.5309 ],
+							[ -93.9542, 51.4733 ],
+							[ -93.733, 51.4154 ],
+							[ -93.4873, 51.3669 ],
+							[ -92.3388, 51.1193 ],
+							[ -91.5246, 52.2405 ],
+							[ -90.9516, 52.9541 ],
+							[ -90.5082, 53.543 ],
+							[ -92.0407, 53.7604 ],
+							[ -93.4241, 53.9089 ],
+							[ -93.68, 53.7427 ],
+							[ -93.9327, 53.5766 ],
+							[ -94.5197, 53.2523 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.1632, 52.6707 ],
+							[ -95.1536, 52.4841 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 7, 2020 10:30",
+				"Expires_UTC" : "December 7, 2020 19:59",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nPatchy dense fog expected early this morning. The fog will dissipate late near noon.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-07T19:59:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T10:30:16-00:00, urn:oid:2.49.0.1.124.1420935266.2020<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.1420935266.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T10_30_16_00_00Iurn_oid_2.49.0.1.124.1420935266.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201207195916+00:00"
 			}
 		},
 		{
@@ -1815,24 +1815,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory Ended",
+				"Title" : "Fog Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Fog",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 7, 2020 16:14",
-				"Expires_UTC" : "December 7, 2020 17:14",
-				"Summary" : "Description: Visibilities have improved and are no longer expected to meet fog advisory criteria.\n\n\n###<br>Expires: 2020-12-07T17:14:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T16:14:54-00:00, urn:oid:2.49.0.1.124.3215513376.2020<br>Area: Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson, Fort Frances - Emo - Rainy River",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 7, 2020 10:21",
+				"Expires_UTC" : "December 7, 2020 19:59",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog will continue this morning before dissipating near noon.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-07T19:59:21-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T10:21:21-00:00, urn:oid:2.49.0.1.124.1244457175.2020<br>Area: Kenora - Grassy Narrows - Whitedog, Sioux Narrows - Nestor Falls - Morson, Fort Frances - Emo - Rainy River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.3215513376.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T16_14_54_00_00Iurn_oid_2.49.0.1.124.3215513376.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.1244457175.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T10_21_21_00_00Iurn_oid_2.49.0.1.124.1244457175.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201207171454+00:00"
+				"Expires_FMEFormat" : "20201207195921+00:00"
 			}
 		}
 	]
