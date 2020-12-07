@@ -9,6 +9,79 @@
 				"coordinates" : [
 					[
 						[
+							[ -127.6288, 50.1628 ],
+							[ -127.6515, 50.1593 ],
+							[ -127.6707, 50.1385 ],
+							[ -127.6944, 50.1238 ],
+							[ -127.7942, 50.0736 ],
+							[ -127.8902, 50.0396 ],
+							[ -126.4845, 49.2822 ],
+							[ -124.902, 48.535 ],
+							[ -124.7295, 48.4895 ],
+							[ -124.5128, 48.4292 ],
+							[ -124.3568, 48.3855 ],
+							[ -124.0199, 48.29 ],
+							[ -123.69, 48.24 ],
+							[ -123.54, 48.22 ],
+							[ -123.4896, 48.2322 ],
+							[ -123.5292, 48.3187 ],
+							[ -123.5729, 48.3917 ],
+							[ -123.5748, 48.3943 ],
+							[ -123.5861, 48.3959 ],
+							[ -123.7437, 48.418 ],
+							[ -123.9542, 48.4697 ],
+							[ -124.1846, 48.5387 ],
+							[ -124.2412, 48.5641 ],
+							[ -124.3604, 48.6218 ],
+							[ -124.4824, 48.6728 ],
+							[ -124.6859, 48.7959 ],
+							[ -124.7019, 48.8056 ],
+							[ -124.9712, 48.9685 ],
+							[ -125.0206, 49.0033 ],
+							[ -125.0469, 49.0144 ],
+							[ -125.6541, 49.3819 ],
+							[ -125.8351, 49.5163 ],
+							[ -126.0514, 49.6497 ],
+							[ -126.3526, 49.9252 ],
+							[ -126.69, 50.1899 ],
+							[ -126.9556, 50.2012 ],
+							[ -127.1624, 50.2095 ],
+							[ -127.316, 50.2003 ],
+							[ -127.508, 50.181 ],
+							[ -127.6288, 50.1628 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 7, 2020 12:43",
+				"Expires_UTC" : "December 8, 2020 04:43",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-08T04:43:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T12:43:39-00:00, urn:oid:2.49.0.1.124.3334709216.2020<br>Area: West Vancouver Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.3334709216.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T12_43_39_00_00Iurn_oid_2.49.0.1.124.3334709216.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201208044339+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -134.5891, 59.9596 ],
 							[ -134.5475, 59.9971 ],
 							[ -134.5439, 60 ],
@@ -112,25 +185,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 6, 2020 23:58",
-				"Expires_UTC" : "December 7, 2020 15:57",
-				"Summary" : "Description: A series of weather systems are impacting the North Coast Inland region (including Kitimat) with heavy rain tonight and Monday. During this period, rainfall amounts of 40 to 60 mm are forecast. The heavy rainfall will ease in intensity during the day on Monday.\n\nDue to recent significant rainfall, the ground is already near saturation and has less ability to absorb further rainfall. The upcoming period of heavy rain may bring higher than normal impacts to the region.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-07T15:57:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T23:58:51-00:00, urn:oid:2.49.0.1.124.3702922352.2020<br>Area: North Coast - inland including Kitimat",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 7, 2020 12:45",
+				"Expires_UTC" : "December 7, 2020 13:45",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-12-07T13:45:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T12:45:37-00:00, urn:oid:2.49.0.1.124.1965338085.2020<br>Area: North Coast - inland including Kitimat",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3702922352.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T23_58_51_00_00Iurn_oid_2.49.0.1.124.3702922352.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.1965338085.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T12_45_37_00_00Iurn_oid_2.49.0.1.124.1965338085.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201207155751+00:00"
+				"Expires_FMEFormat" : "20201207134537+00:00"
 			}
 		},
 		{
@@ -689,51 +762,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T06_32_39_00_00Iurn_oid_2.49.0.1.124.0892129166.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201207135939+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -124.1351, 49.2536 ],
-							[ -123.9656, 49.3653 ],
-							[ -124.1442, 49.4629 ],
-							[ -124.1967, 49.5111 ],
-							[ -124.3107, 49.5442 ],
-							[ -124.6759, 49.7175 ],
-							[ -124.8997, 49.6049 ],
-							[ -125.123, 49.4816 ],
-							[ -124.905, 49.3297 ],
-							[ -124.7045, 49.2064 ],
-							[ -124.4102, 49.0768 ],
-							[ -124.1351, 49.2536 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 6, 2020 23:56",
-				"Expires_UTC" : "December 7, 2020 15:55",
-				"Summary" : "Description: An intense frontal system will move across BC Coast on Monday.  \n\nRain, heavy at times, will develop overnight over East Vancouver Island near Bowser. Total rainfall amounts of 50 to 70 mm is expected.  The heavy rain will ease late on Monday evening.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-07T15:55:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T23:56:10-00:00, urn:oid:2.49.0.1.124.3363932498.2020<br>Area: East Vancouver Island - Nanoose Bay to Fanny Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3363932498.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T23_56_10_00_00Iurn_oid_2.49.0.1.124.3363932498.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201207155510+00:00"
 			}
 		},
 		{
@@ -2015,18 +2043,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 6, 2020 23:59",
-				"Expires_UTC" : "December 7, 2020 15:58",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nA series of weather systems will impact the Central Coast Inland region (including Bella Coola) with heavy rain beginning late this afternoon and persisting into Monday morning. During this period, rainfall amounts of\n60 to 80 mm are forecast. The heavy rainfall will ease in intensity Monday morning.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-07T15:58:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-06T23:59:27-00:00, urn:oid:2.49.0.1.124.3225994970.2020<br>Area: Central Coast - inland sections",
+				"LastUpdate_UTC" : "December 7, 2020 12:49",
+				"Expires_UTC" : "December 7, 2020 22:39",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-07T22:39:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T12:49:05-00:00, urn:oid:2.49.0.1.124.2633332161.2020<br>Area: Central Coast - inland sections",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-06:feed.atom/urn:oid:2.49.0.1.124.3225994970.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-06/2020_12_06T23_59_27_00_00Iurn_oid_2.49.0.1.124.3225994970.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.2633332161.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T12_49_05_00_00Iurn_oid_2.49.0.1.124.2633332161.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201207155827+00:00"
+				"Expires_FMEFormat" : "20201207223905+00:00"
 			}
 		},
 		{
