@@ -440,6 +440,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -124.1351, 49.2536 ],
+							[ -123.9656, 49.3653 ],
+							[ -124.1442, 49.4629 ],
+							[ -124.1967, 49.5111 ],
+							[ -124.3107, 49.5442 ],
+							[ -124.6759, 49.7175 ],
+							[ -124.8997, 49.6049 ],
+							[ -125.123, 49.4816 ],
+							[ -124.905, 49.3297 ],
+							[ -124.7045, 49.2064 ],
+							[ -124.4102, 49.0768 ],
+							[ -124.1351, 49.2536 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 8, 2020 02:24",
+				"Expires_UTC" : "December 8, 2020 14:59",
+				"Summary" : "Description: An intense frontal system is moving across the BC Coast tonight.  \n\nRain, heavy at times, is occurring over East Vancouver Island near Bowser. Total rainfall amounts of 50 to 70 mm is expected.  The heavy rain will ease by Tuesday morning.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-08T14:59:47-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-08T02:24:47-00:00, urn:oid:2.49.0.1.124.3779247231.2020<br>Area: East Vancouver Island - Nanoose Bay to Fanny Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-08:feed.atom/urn:oid:2.49.0.1.124.3779247231.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-08/2020_12_08T02_24_47_00_00Iurn_oid_2.49.0.1.124.3779247231.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201208145947+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -54.9999, 48.5499 ],
 							[ -55.3737, 48.6852 ],
 							[ -55.3717, 48.6868 ],
@@ -748,51 +793,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-08/2020_12_08T10_12_29_00_00Iurn_oid_2.49.0.1.124.3631587376.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201208165929+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -124.1351, 49.2536 ],
-							[ -123.9656, 49.3653 ],
-							[ -124.1442, 49.4629 ],
-							[ -124.1967, 49.5111 ],
-							[ -124.3107, 49.5442 ],
-							[ -124.6759, 49.7175 ],
-							[ -124.8997, 49.6049 ],
-							[ -125.123, 49.4816 ],
-							[ -124.905, 49.3297 ],
-							[ -124.7045, 49.2064 ],
-							[ -124.4102, 49.0768 ],
-							[ -124.1351, 49.2536 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 8, 2020 12:12",
-				"Expires_UTC" : "December 8, 2020 13:12",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-12-08T13:12:48-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-08T12:12:48-00:00, urn:oid:2.49.0.1.124.3259350338.2020<br>Area: East Vancouver Island - Nanoose Bay to Fanny Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-08:feed.atom/urn:oid:2.49.0.1.124.3259350338.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-08/2020_12_08T12_12_48_00_00Iurn_oid_2.49.0.1.124.3259350338.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201208131248+00:00"
 			}
 		},
 		{
@@ -1283,25 +1283,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 8, 2020 12:12",
-				"Expires_UTC" : "December 8, 2020 13:12",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n\n###<br>Expires: 2020-12-08T13:12:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-08T12:12:38-00:00, urn:oid:2.49.0.1.124.4052323357.2020<br>Area: West Vancouver Island",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 7, 2020 23:30",
+				"Expires_UTC" : "December 8, 2020 15:29",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nAn intense frontal system is moving across the BC Coast tonight.\n\nRain, heavy at times, is occurring over west Vancouver Island. Total rainfall in excess of 100 mm is expected.\n\nThe heavy rain will ease overnight.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-08T15:29:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-07T23:30:41-00:00, urn:oid:2.49.0.1.124.0927354160.2020<br>Area: West Vancouver Island",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-08:feed.atom/urn:oid:2.49.0.1.124.4052323357.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-08/2020_12_08T12_12_38_00_00Iurn_oid_2.49.0.1.124.4052323357.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-07:feed.atom/urn:oid:2.49.0.1.124.0927354160.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-07/2020_12_07T23_30_41_00_00Iurn_oid_2.49.0.1.124.0927354160.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201208131238+00:00"
+				"Expires_FMEFormat" : "20201208152941+00:00"
 			}
 		},
 		{
