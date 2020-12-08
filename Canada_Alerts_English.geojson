@@ -231,6 +231,49 @@
 				"coordinates" : [
 					[
 						[
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -57.1137, 53.3384 ],
+							[ -55.9017, 53.3388 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 8, 2020 09:19",
+				"Expires_UTC" : "December 8, 2020 10:19",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-08T10:19:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-08T09:19:11-00:00, urn:oid:2.49.0.1.124.0919292029.2020<br>Area: Cartwright to Black Tickle",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-08:feed.atom/urn:oid:2.49.0.1.124.0919292029.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-08/2020_12_08T09_19_11_00_00Iurn_oid_2.49.0.1.124.0919292029.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201208101911+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -54.65, 49.25 ],
 							[ -55.0999, 48.9 ],
 							[ -55.3732, 49.056 ],
@@ -287,6 +330,75 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-08/2020_12_08T08_58_42_00_00Iurn_oid_2.49.0.1.124.2004712886.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201209005742+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.836, 48.4368 ],
+							[ -53.9005, 48.3746 ],
+							[ -54.1199, 48.25 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 47.9199 ],
+							[ -55.1527, 47.5874 ],
+							[ -55.1557, 47.5799 ],
+							[ -55.1703, 47.5512 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 8, 2020 09:08",
+				"Expires_UTC" : "December 9, 2020 01:07",
+				"Summary" : "Description: Rain, at times heavy, tonight and Wednesday.\n\nLocations: Avalon Peninsula and Burin Peninsula.\n\nTotal rainfall: 25 to near 40 mm.\n\nRemarks: It no longer seems likely any significant snow will fall with this system.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-09T01:07:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-08T09:08:55-00:00, urn:oid:2.49.0.1.124.1449754333.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Bonavista Peninsula, Clarenville and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-08:feed.atom/urn:oid:2.49.0.1.124.1449754333.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-08/2020_12_08T09_08_55_00_00Iurn_oid_2.49.0.1.124.1449754333.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201209010755+00:00"
 			}
 		},
 		{
@@ -975,18 +1087,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 8, 2020 03:12",
-				"Expires_UTC" : "December 8, 2020 19:11",
-				"Summary" : "Description: Blizzard conditions will affect this community tonight and Tuesday. Near-zero visibilities are expected in the snow and blowing snow.\n\nProtect yourself from the wind, cold conditions and desorientation by staying sheltered, inside.\n\nA blizzard warning is issued when winds are expected to reduce visibilities in the widespread blowing snow at 400 metres or less for at least 6 hours.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-08T19:11:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-08T03:12:25-00:00, urn:oid:2.49.0.1.124.2532684662.2020<br>Area: Salluit",
+				"LastUpdate_UTC" : "December 8, 2020 09:16",
+				"Expires_UTC" : "December 9, 2020 01:15",
+				"Summary" : "Description: Strong southerly winds will lift the snow and give blizzard conditions over this community through Wednesday.\n\nProtect yourself from the wind, cold conditions and disorientation by staying sheltered, inside.\n\nA blizzard warning is issued when winds are expected to reduce visibilities in the widespread blowing snow at 400 metres or less for at least 6 hours.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-09T01:15:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-08T09:16:23-00:00, urn:oid:2.49.0.1.124.0314150202.2020<br>Area: Salluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-08:feed.atom/urn:oid:2.49.0.1.124.2532684662.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-08/2020_12_08T03_12_25_00_00Iurn_oid_2.49.0.1.124.2532684662.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-08:feed.atom/urn:oid:2.49.0.1.124.0314150202.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-08/2020_12_08T09_16_23_00_00Iurn_oid_2.49.0.1.124.0314150202.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201208191125+00:00"
+				"Expires_FMEFormat" : "20201209011523+00:00"
 			}
 		},
 		{
