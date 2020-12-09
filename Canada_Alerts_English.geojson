@@ -101,6 +101,74 @@
 				"coordinates" : [
 					[
 						[
+							[ -54.1199, 48.25 ],
+							[ -53.5167, 48.25 ],
+							[ -53.5163, 48.2499 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.836, 48.4368 ],
+							[ -53.9005, 48.3746 ],
+							[ -54.1199, 48.25 ]
+						]
+					],
+					[
+						[
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 46.7999 ],
+							[ -52.9466, 46.8016 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4599, 47.976 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 9, 2020 16:26",
+				"Expires_UTC" : "December 9, 2020 17:26",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-12-09T17:26:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T16:26:19-00:00, urn:oid:2.49.0.1.124.0020393658.2020<br>Area: Avalon Peninsula North, St. John's and vicinity, Bonavista Peninsula",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.0020393658.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T16_26_19_00_00Iurn_oid_2.49.0.1.124.0020393658.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201209172619+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -98.6715, 49 ],
 							[ -98.5739, 49 ],
 							[ -98.4059, 49.0001 ],
@@ -598,6 +666,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T10_21_50_00_00Iurn_oid_2.49.0.1.124.2391210331.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201210021450+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -54.362, 49.5406 ],
+							[ -54.5, 49.3639 ],
+							[ -54.5012, 49.363 ],
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.2131, 49.5679 ],
+							[ -54.362, 49.5406 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 9, 2020 16:26",
+				"Expires_UTC" : "December 9, 2020 17:26",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-09T17:26:28-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T16:26:28-00:00, urn:oid:2.49.0.1.124.3864575659.2020<br>Area: Bonavista North",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.3864575659.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T16_26_28_00_00Iurn_oid_2.49.0.1.124.3864575659.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201209172628+00:00"
 			}
 		},
 		{
@@ -2597,56 +2713,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -106.4297, 59.9992 ],
-							[ -107.2378, 60.0172 ],
-							[ -108.0496, 59.9996 ],
-							[ -108.9939, 60.0176 ],
-							[ -110.0063, 59.9994 ],
-							[ -110.035, 59.6475 ],
-							[ -110.0061, 59.3009 ],
-							[ -110.033, 59.0026 ],
-							[ -110.0061, 58.6892 ],
-							[ -110.0222, 58.5503 ],
-							[ -110.006, 58.3999 ],
-							[ -108.0497, 58.3999 ],
-							[ -106.4297, 58.3999 ],
-							[ -104.8657, 58.3999 ],
-							[ -104.8657, 59.9995 ],
-							[ -105.63, 60.0171 ],
-							[ -106.4297, 59.9992 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 9, 2020 04:29",
-				"Expires_UTC" : "December 9, 2020 20:28",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nExtensive fog is forecast to develop tonight and persist until Wednesday afternoon.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-12-09T20:28:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T04:29:50-00:00, urn:oid:2.49.0.1.124.1024585334.2020<br>Area: Uranium City - Camsell Portage, Fond-du-Lac, Stony Rapids and Black Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.1024585334.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T04_29_50_00_00Iurn_oid_2.49.0.1.124.1024585334.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201209202850+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -114.344, 50.3096 ],
 							[ -114.2064, 50.3096 ],
 							[ -114.134, 50.3068 ],
@@ -2835,6 +2901,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T11_34_46_00_00Iurn_oid_2.49.0.1.124.2762331576.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201210012446+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -106.4297, 59.9992 ],
+							[ -107.2378, 60.0172 ],
+							[ -108.0496, 59.9996 ],
+							[ -108.9939, 60.0176 ],
+							[ -110.0063, 59.9994 ],
+							[ -110.035, 59.6475 ],
+							[ -110.0061, 59.3009 ],
+							[ -110.033, 59.0026 ],
+							[ -110.0061, 58.6892 ],
+							[ -110.0222, 58.5503 ],
+							[ -110.006, 58.3999 ],
+							[ -108.0497, 58.3999 ],
+							[ -106.4297, 58.3999 ],
+							[ -104.8657, 58.3999 ],
+							[ -104.8657, 59.9995 ],
+							[ -105.63, 60.0171 ],
+							[ -106.4297, 59.9992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 9, 2020 04:29",
+				"Expires_UTC" : "December 9, 2020 20:28",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nExtensive fog is forecast to develop tonight and persist until Wednesday afternoon.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-12-09T20:28:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T04:29:50-00:00, urn:oid:2.49.0.1.124.1024585334.2020<br>Area: Uranium City - Camsell Portage, Fond-du-Lac, Stony Rapids and Black Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.1024585334.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T04_29_50_00_00Iurn_oid_2.49.0.1.124.1024585334.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201209202850+00:00"
 			}
 		}
 	]
