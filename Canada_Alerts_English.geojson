@@ -1056,48 +1056,61 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ],
-							[ -54.5012, 49.363 ],
-							[ -54.5, 49.3639 ],
-							[ -54.362, 49.5406 ],
-							[ -54.2131, 49.5679 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ]
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.836, 48.4368 ],
+							[ -53.9005, 48.3746 ],
+							[ -54.1199, 48.25 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Wind",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 9, 2020 08:52",
-				"Expires_UTC" : "December 9, 2020 16:59",
-				"Summary" : "Description: Snow will gradually ease through the day. \n\nAdditional snowfall amounts: 2 to 5 cm.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-09T16:59:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T08:52:04-00:00, urn:oid:2.49.0.1.124.2801899750.2020<br>Area: Bay of Exploits",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 9, 2020 14:29",
+				"Expires_UTC" : "December 9, 2020 19:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: Westerly 80 km/h, except 100 along parts of the coast.\n\nLocations: eastern Newfoundland.\n\nTime span: until mid afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-09T19:59:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T14:29:55-00:00, urn:oid:2.49.0.1.124.2173580306.2020<br>Area: Avalon Peninsula North, St. John's and vicinity, Bonavista Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.2801899750.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T08_52_04_00_00Iurn_oid_2.49.0.1.124.2801899750.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.2173580306.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T14_29_55_00_00Iurn_oid_2.49.0.1.124.2173580306.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201209165904+00:00"
+				"Expires_FMEFormat" : "20201209195955+00:00"
 			}
 		},
 		{
@@ -1166,56 +1179,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T04_25_56_00_00Iurn_oid_2.49.0.1.124.1103546976.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201209202456+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -106.4297, 59.9992 ],
-							[ -107.2378, 60.0172 ],
-							[ -108.0496, 59.9996 ],
-							[ -108.9939, 60.0176 ],
-							[ -110.0063, 59.9994 ],
-							[ -110.035, 59.6475 ],
-							[ -110.0061, 59.3009 ],
-							[ -110.033, 59.0026 ],
-							[ -110.0061, 58.6892 ],
-							[ -110.0222, 58.5503 ],
-							[ -110.006, 58.3999 ],
-							[ -108.0497, 58.3999 ],
-							[ -106.4297, 58.3999 ],
-							[ -104.8657, 58.3999 ],
-							[ -104.8657, 59.9995 ],
-							[ -105.63, 60.0171 ],
-							[ -106.4297, 59.9992 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Fog Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Fog",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 9, 2020 04:29",
-				"Expires_UTC" : "December 9, 2020 20:28",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nExtensive fog is forecast to develop tonight and persist until Wednesday afternoon.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-12-09T20:28:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T04:29:50-00:00, urn:oid:2.49.0.1.124.1024585334.2020<br>Area: Uranium City - Camsell Portage, Fond-du-Lac, Stony Rapids and Black Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.1024585334.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T04_29_50_00_00Iurn_oid_2.49.0.1.124.1024585334.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201209202850+00:00"
 			}
 		},
 		{
@@ -1751,70 +1714,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T16_31_19_00_00Iurn_oid_2.49.0.1.124.3224124184.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201210083019+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.6375, 48.5439 ],
-							[ -53.7275, 48.5317 ],
-							[ -53.836, 48.4368 ],
-							[ -53.9005, 48.3746 ],
-							[ -54.1199, 48.25 ],
-							[ -55, 48.25 ],
-							[ -54.9999, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 9, 2020 14:29",
-				"Expires_UTC" : "December 9, 2020 19:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: Westerly 80 km/h, except 100 along parts of the coast.\n\nLocations: eastern Newfoundland.\n\nTime span: until mid afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-09T19:59:55-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T14:29:55-00:00, urn:oid:2.49.0.1.124.2173580306.2020<br>Area: Avalon Peninsula North, St. John's and vicinity, Bonavista Peninsula",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.2173580306.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T14_29_55_00_00Iurn_oid_2.49.0.1.124.2173580306.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201209195955+00:00"
 			}
 		},
 		{
@@ -2872,6 +2771,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T11_34_46_00_00Iurn_oid_2.49.0.1.124.2762331576.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201210012446+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -106.4297, 59.9992 ],
+							[ -107.2378, 60.0172 ],
+							[ -108.0496, 59.9996 ],
+							[ -108.9939, 60.0176 ],
+							[ -110.0063, 59.9994 ],
+							[ -110.035, 59.6475 ],
+							[ -110.0061, 59.3009 ],
+							[ -110.033, 59.0026 ],
+							[ -110.0061, 58.6892 ],
+							[ -110.0222, 58.5503 ],
+							[ -110.006, 58.3999 ],
+							[ -108.0497, 58.3999 ],
+							[ -106.4297, 58.3999 ],
+							[ -104.8657, 58.3999 ],
+							[ -104.8657, 59.9995 ],
+							[ -105.63, 60.0171 ],
+							[ -106.4297, 59.9992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Fog Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Fog",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 9, 2020 04:29",
+				"Expires_UTC" : "December 9, 2020 20:28",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nExtensive fog is forecast to develop tonight and persist until Wednesday afternoon.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nFog advisories are issued when near zero visibilities in fog are expected or occurring.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2020-12-09T20:28:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T04:29:50-00:00, urn:oid:2.49.0.1.124.1024585334.2020<br>Area: Uranium City - Camsell Portage, Fond-du-Lac, Stony Rapids and Black Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.1024585334.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T04_29_50_00_00Iurn_oid_2.49.0.1.124.1024585334.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201209202850+00:00"
 			}
 		}
 	]
