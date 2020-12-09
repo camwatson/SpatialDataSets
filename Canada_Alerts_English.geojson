@@ -167,16 +167,16 @@
 				"severity" : "Minor",
 				"LastUpdate_UTC" : "December 9, 2020 09:23",
 				"Expires_UTC" : "December 9, 2020 10:23",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-09T10:23:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T09:23:16-00:00, urn:oid:2.49.0.1.124.2686645638.2020<br>Area: Yoho Park - Kootenay Park",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-09T10:23:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T09:23:08-00:00, urn:oid:2.49.0.1.124.3407120753.2020<br>Area: Yoho Park - Kootenay Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.2686645638.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T09_23_16_00_00Iurn_oid_2.49.0.1.124.2686645638.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.3407120753.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T09_23_08_00_00Iurn_oid_2.49.0.1.124.3407120753.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201209102316+00:00"
+				"Expires_FMEFormat" : "20201209102308+00:00"
 			}
 		},
 		{
@@ -1171,47 +1171,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 9, 2020 09:21",
-				"Expires_UTC" : "December 10, 2020 01:20",
-				"Summary" : "Description: Strong southerly winds will lift the snow and produce blizzard conditions over this community today until early Thursday morning.\n\nProtect yourself from the wind, the cold and disorientation by staying safely inside.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-10T01:20:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T09:21:58-00:00, urn:oid:2.49.0.1.124.2095962683.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.2095962683.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T09_21_58_00_00Iurn_oid_2.49.0.1.124.2095962683.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201210012058+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -55.9866, 49.1219 ],
 							[ -55.45, 49.0999 ],
 							[ -55.3806, 49.0603 ],
@@ -1254,6 +1213,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T08_52_04_00_00Iurn_oid_2.49.0.1.124.2801899750.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201209165904+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 9, 2020 09:21",
+				"Expires_UTC" : "December 10, 2020 01:20",
+				"Summary" : "Description: Strong southerly winds will lift the snow and produce blizzard conditions over this community today until early Thursday morning.\n\nProtect yourself from the wind, the cold and disorientation by staying safely inside.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-10T01:20:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T09:21:58-00:00, urn:oid:2.49.0.1.124.2095962683.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.2095962683.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T09_21_58_00_00Iurn_oid_2.49.0.1.124.2095962683.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201210012058+00:00"
 			}
 		},
 		{
@@ -1488,16 +1488,16 @@
 				"severity" : "Minor",
 				"LastUpdate_UTC" : "December 9, 2020 09:23",
 				"Expires_UTC" : "December 9, 2020 10:23",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-09T10:23:08-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T09:23:08-00:00, urn:oid:2.49.0.1.124.3407120753.2020<br>Area: Yoho Park - Kootenay Park",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-09T10:23:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-09T09:23:16-00:00, urn:oid:2.49.0.1.124.2686645638.2020<br>Area: Yoho Park - Kootenay Park",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.3407120753.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T09_23_08_00_00Iurn_oid_2.49.0.1.124.3407120753.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-09:feed.atom/urn:oid:2.49.0.1.124.2686645638.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-09/2020_12_09T09_23_16_00_00Iurn_oid_2.49.0.1.124.2686645638.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201209102308+00:00"
+				"Expires_FMEFormat" : "20201209102316+00:00"
 			}
 		},
 		{
