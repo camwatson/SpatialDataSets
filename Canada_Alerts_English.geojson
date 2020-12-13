@@ -167,45 +167,54 @@
 				"coordinates" : [
 					[
 						[
-							[ -72.6666, 49.6653 ],
-							[ -73.4993, 49.55 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.667, 48.9996 ],
-							[ -73.0002, 48.6669 ],
-							[ -72.0026, 48.2497 ],
-							[ -72.0026, 48.2499 ],
-							[ -71.5524, 48.3338 ],
-							[ -71.4202, 48.4971 ],
-							[ -71.3505, 48.5827 ],
-							[ -71.3493, 48.9995 ],
-							[ -71.766, 49.5499 ],
-							[ -71.9999, 49.5832 ],
-							[ -72.6628, 49.6658 ],
-							[ -72.6666, 49.6653 ]
+							[ -78.1899, 61.8615 ],
+							[ -77.9932, 61.1989 ],
+							[ -78.2274, 60.8442 ],
+							[ -78.2824, 60.7491 ],
+							[ -77.9155, 60.7296 ],
+							[ -77.817, 60.3916 ],
+							[ -77.5979, 60.2596 ],
+							[ -77.4863, 60.2597 ],
+							[ -75.8395, 60.25 ],
+							[ -75.8391, 60.25 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -76.1525, 62.616 ],
+							[ -77.4581, 62.669 ],
+							[ -78.1974, 62.6192 ],
+							[ -78.2083, 62.5253 ],
+							[ -78.161, 62.3538 ],
+							[ -78.249, 62.2815 ],
+							[ -78.1899, 61.8615 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Winter Storm Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 13, 2020 20:15",
-				"Expires_UTC" : "December 13, 2020 21:15",
-				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n###<br>Expires: 2020-12-13T21:15:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T20:15:20-00:00, urn:oid:2.49.0.1.124.4022888171.2020<br>Area: Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 13, 2020 20:25",
+				"Expires_UTC" : "December 14, 2020 12:24",
+				"Summary" : "Description: Blizzard conditions reducing visibilities to zero at times in snow and blowing snow are affecting these communities. Conditions will improve tomorrow morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-14T12:24:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T20:25:12-00:00, urn:oid:2.49.0.1.124.1163319511.2020<br>Area: Ivujivik, Akulivik, Salluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.4022888171.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T20_15_20_00_00Iurn_oid_2.49.0.1.124.4022888171.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.1163319511.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T20_25_12_00_00Iurn_oid_2.49.0.1.124.1163319511.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201213211520+00:00"
+				"Expires_FMEFormat" : "20201214122412+00:00"
 			}
 		},
 		{
@@ -275,6 +284,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T10_10_11_00_00Iurn_oid_2.49.0.1.124.3212271726.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201214020411+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -72.6666, 49.6653 ],
+							[ -73.4993, 49.55 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.667, 48.9996 ],
+							[ -73.0002, 48.6669 ],
+							[ -72.0026, 48.2497 ],
+							[ -72.0026, 48.2499 ],
+							[ -71.5524, 48.3338 ],
+							[ -71.4202, 48.4971 ],
+							[ -71.3505, 48.5827 ],
+							[ -71.3493, 48.9995 ],
+							[ -71.766, 49.5499 ],
+							[ -71.9999, 49.5832 ],
+							[ -72.6628, 49.6658 ],
+							[ -72.6666, 49.6653 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Winter Storm Warning Ended",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 13, 2020 20:15",
+				"Expires_UTC" : "December 13, 2020 21:15",
+				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n###<br>Expires: 2020-12-13T21:15:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T20:15:20-00:00, urn:oid:2.49.0.1.124.4022888171.2020<br>Area: Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.4022888171.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T20_15_20_00_00Iurn_oid_2.49.0.1.124.4022888171.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201213211520+00:00"
 			}
 		},
 		{
@@ -648,100 +705,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.805, 49.3539 ],
-							[ -66.868, 49.9512 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.999, 50.7498 ],
-							[ -67.502, 50.7497 ],
-							[ -67.5048, 49.9998 ],
-							[ -67.5055, 49.8307 ],
-							[ -68.8348, 49.2537 ],
-							[ -68.8408, 49.251 ],
-							[ -69.7684, 48.8682 ],
-							[ -70.2496, 48.6665 ],
-							[ -69.8095, 48.4184 ],
-							[ -69.4699, 48.2224 ],
-							[ -69.7113, 47.9448 ],
-							[ -69.7836, 47.82 ],
-							[ -70.2482, 47.4424 ],
-							[ -69.8796, 47.216 ],
-							[ -69.6272, 47.0648 ],
-							[ -69.3881, 47.3002 ],
-							[ -69.5997, 47.4498 ],
-							[ -69.283, 47.6331 ],
-							[ -69.1372, 47.6881 ],
-							[ -69, 47.75 ],
-							[ -68.9992, 47.7504 ],
-							[ -68.6207, 48.05 ],
-							[ -68.6193, 48.0511 ],
-							[ -68.6166, 48.0496 ],
-							[ -68.1996, 48.2998 ],
-							[ -68.1575, 48.2345 ],
-							[ -67.6498, 48.4154 ],
-							[ -67.6687, 48.5824 ],
-							[ -67.0001, 48.7503 ],
-							[ -66.9998, 48.7504 ],
-							[ -66.7518, 48.8661 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7559, 48.6496 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.75, 48.4658 ],
-							[ -65.0706, 48.4384 ],
-							[ -65.2298, 48.4244 ],
-							[ -65.4677, 48.4029 ],
-							[ -65.4764, 48.4021 ],
-							[ -65.4763, 48.4015 ],
-							[ -65.4342, 48 ],
-							[ -65.4344, 47.921 ],
-							[ -65.2163, 47.9516 ],
-							[ -64.7544, 48.0994 ],
-							[ -64.2197, 48.3156 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Storm Surge Warning Ended",
-				"Category" : "Actual",
-				"event" : "Storm Surge",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 13, 2020 20:09",
-				"Expires_UTC" : "December 13, 2020 21:09",
-				"Summary" : "Description: Storm surge conditions are no longer expected.\n\n###<br>Expires: 2020-12-13T21:09:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T20:09:36-00:00, urn:oid:2.49.0.1.124.2267100331.2020<br>Area: Forestville area, Les Escoumins area, Mont-Joli area, Le Bic - Rimouski area, Matane, Grande-Vallée area, Sainte-Anne-des-Monts area, Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Baie-Comeau, Baie-Trinité area, Sept-Îles - Port-Cartier area, Trois-Pistoles area, Kamouraska area, Rivière-du-Loup area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.2267100331.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T20_09_36_00_00Iurn_oid_2.49.0.1.124.2267100331.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201213210936+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -128.7905, 65.5328 ],
 							[ -128.5444, 65.6128 ],
 							[ -128.5178, 65.6213 ],
@@ -779,6 +742,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T17_29_55_00_00Iurn_oid_2.49.0.1.124.1885888422.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201213235955+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 13, 2020 20:26",
+				"Expires_UTC" : "December 14, 2020 12:25",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nHigh southerly winds gusting to 90 km/h will affect this community through early tomorrow morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-14T12:25:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T20:26:12-00:00, urn:oid:2.49.0.1.124.3392321246.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.3392321246.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T20_26_12_00_00Iurn_oid_2.49.0.1.124.3392321246.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201214122512+00:00"
 			}
 		},
 		{
@@ -832,47 +836,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T17_30_17_00_00Iurn_oid_2.49.0.1.124.4078461619.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201214092917+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 13, 2020 14:14",
-				"Expires_UTC" : "December 14, 2020 06:13",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nHigh southerly winds gusting to 90 kilometres per hour will affect this community through tomorrow morning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-14T06:13:01-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T14:14:01-00:00, urn:oid:2.49.0.1.124.1045017783.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.1045017783.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T14_14_01_00_00Iurn_oid_2.49.0.1.124.1045017783.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201214061301+00:00"
 			}
 		},
 		{
@@ -1213,38 +1176,91 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.805, 49.3539 ],
+							[ -66.868, 49.9512 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.999, 50.7498 ],
+							[ -67.502, 50.7497 ],
+							[ -67.5048, 49.9998 ],
+							[ -67.5055, 49.8307 ],
+							[ -68.8348, 49.2537 ],
+							[ -68.8408, 49.251 ],
+							[ -69.7684, 48.8682 ],
+							[ -70.2496, 48.6665 ],
+							[ -69.8095, 48.4184 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.7113, 47.9448 ],
+							[ -69.7836, 47.82 ],
+							[ -70.2482, 47.4424 ],
+							[ -69.8796, 47.216 ],
+							[ -69.6272, 47.0648 ],
+							[ -69.3881, 47.3002 ],
+							[ -69.5997, 47.4498 ],
+							[ -69.283, 47.6331 ],
+							[ -69.1372, 47.6881 ],
+							[ -69, 47.75 ],
+							[ -68.9992, 47.7504 ],
+							[ -68.6207, 48.05 ],
+							[ -68.6193, 48.0511 ],
+							[ -68.6166, 48.0496 ],
+							[ -68.1996, 48.2998 ],
+							[ -68.1575, 48.2345 ],
+							[ -67.6498, 48.4154 ],
+							[ -67.6687, 48.5824 ],
+							[ -67.0001, 48.7503 ],
+							[ -66.9998, 48.7504 ],
+							[ -66.7518, 48.8661 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ],
+							[ -65.0706, 48.4384 ],
+							[ -65.2298, 48.4244 ],
+							[ -65.4677, 48.4029 ],
+							[ -65.4764, 48.4021 ],
+							[ -65.4763, 48.4015 ],
+							[ -65.4342, 48 ],
+							[ -65.4344, 47.921 ],
+							[ -65.2163, 47.9516 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Les Suêtes Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Storm Surge Warning Ended",
 				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 13, 2020 10:32",
-				"Expires_UTC" : "December 13, 2020 20:29",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum Les Suetes gusts: 100 km/h.\n\nTime span: continuing until early this afternoon.\n\n###\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-12-13T20:29:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T10:32:45-00:00, urn:oid:2.49.0.1.124.0284893684.2020<br>Area: Inverness County - Mabou and north",
+				"event" : "Storm Surge",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 13, 2020 20:09",
+				"Expires_UTC" : "December 13, 2020 21:09",
+				"Summary" : "Description: Storm surge conditions are no longer expected.\n\n###<br>Expires: 2020-12-13T21:09:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T20:09:36-00:00, urn:oid:2.49.0.1.124.2267100331.2020<br>Area: Forestville area, Les Escoumins area, Mont-Joli area, Le Bic - Rimouski area, Matane, Grande-Vallée area, Sainte-Anne-des-Monts area, Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Baie-Comeau, Baie-Trinité area, Sept-Îles - Port-Cartier area, Trois-Pistoles area, Kamouraska area, Rivière-du-Loup area",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.0284893684.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T10_32_45_00_00Iurn_oid_2.49.0.1.124.0284893684.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.2267100331.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T20_09_36_00_00Iurn_oid_2.49.0.1.124.2267100331.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201213202945+00:00"
+				"Expires_FMEFormat" : "20201213210936+00:00"
 			}
 		}
 	]
