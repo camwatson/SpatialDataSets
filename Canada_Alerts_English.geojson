@@ -579,6 +579,76 @@
 				"coordinates" : [
 					[
 						[
+							[ -70.8484, 46.5986 ],
+							[ -71.1687, 46.4191 ],
+							[ -71.3493, 46.3167 ],
+							[ -71.3497, 46.3165 ],
+							[ -71.683, 46.1827 ],
+							[ -71.6857, 46.1857 ],
+							[ -71.798, 45.9332 ],
+							[ -71.7994, 45.9313 ],
+							[ -71.7164, 45.4998 ],
+							[ -71.2997, 45.5498 ],
+							[ -71.2831, 45.3003 ],
+							[ -71.2828, 45.2992 ],
+							[ -71.2664, 45.2751 ],
+							[ -71.2508, 45.2521 ],
+							[ -71.1356, 45.2329 ],
+							[ -70.995, 45.3252 ],
+							[ -70.9335, 45.3125 ],
+							[ -70.9237, 45.2875 ],
+							[ -70.9032, 45.2352 ],
+							[ -70.8347, 45.226 ],
+							[ -70.7612, 45.4061 ],
+							[ -70.663, 45.352 ],
+							[ -70.6187, 45.4011 ],
+							[ -70.6635, 45.5682 ],
+							[ -70.5944, 45.6297 ],
+							[ -70.3798, 45.7268 ],
+							[ -70.3968, 45.7994 ],
+							[ -70.1895, 45.9332 ],
+							[ -70.2857, 45.9942 ],
+							[ -70.2231, 46.1506 ],
+							[ -70.2871, 46.188 ],
+							[ -70.2447, 46.2494 ],
+							[ -70.2068, 46.3004 ],
+							[ -70.0652, 46.4129 ],
+							[ -70.0697, 46.4154 ],
+							[ -70.4841, 46.7998 ],
+							[ -70.8484, 46.5986 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 13, 2020 09:55",
+				"Expires_UTC" : "December 13, 2020 10:55",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n###<br>Expires: 2020-12-13T10:55:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T09:55:56-00:00, urn:oid:2.49.0.1.124.1706109902.2020<br>Area: Weedon area, Thetford Mines area, Lac-Mégantic area, Lac-Etchemin area, Sainte-Marie-de-Beauce area, Saint-Georges-de-Beauce area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.1706109902.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T09_55_56_00_00Iurn_oid_2.49.0.1.124.1706109902.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201213105556+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -63.4949, 53.6005 ],
 							[ -63.5298, 53.6964 ],
 							[ -63.6393, 53.8054 ],
@@ -1374,66 +1444,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -68.8408, 49.251 ],
-							[ -69.7684, 48.8682 ],
-							[ -70.2496, 48.6665 ],
-							[ -71.3493, 48.9995 ],
-							[ -71.3505, 48.5827 ],
-							[ -71.4202, 48.4971 ],
-							[ -71.5524, 48.3338 ],
-							[ -71.0126, 48.1917 ],
-							[ -70.5609, 48.0539 ],
-							[ -70.1357, 47.9471 ],
-							[ -69.8631, 47.8597 ],
-							[ -69.7836, 47.82 ],
-							[ -69.7113, 47.9448 ],
-							[ -69.4699, 48.2224 ],
-							[ -69.2423, 48.4587 ],
-							[ -68.5214, 48.9033 ],
-							[ -67.508, 49.2382 ],
-							[ -67.2832, 49.2432 ],
-							[ -66.805, 49.3539 ],
-							[ -66.868, 49.9512 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.999, 50.7498 ],
-							[ -67.502, 50.7497 ],
-							[ -67.5048, 49.9998 ],
-							[ -67.5055, 49.8307 ],
-							[ -68.8348, 49.2537 ],
-							[ -68.8408, 49.251 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 13, 2020 03:46",
-				"Expires_UTC" : "December 13, 2020 19:45",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nSnowfall amounts of 20 to 30 centimetres and blowing snow are expected.\n\nSnow and blowing snow will begin overnight and will continue until Sunday evening.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-13T19:45:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T03:46:10-00:00, urn:oid:2.49.0.1.124.3948370492.2020<br>Area: Forestville area, Les Escoumins area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area, Baie-Comeau, Baie-Trinité area, Sept-Îles - Port-Cartier area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.3948370492.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T03_46_10_00_00Iurn_oid_2.49.0.1.124.3948370492.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201213194510+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -70.1357, 47.9471 ],
 							[ -69.8631, 47.8597 ],
 							[ -69.7836, 47.82 ],
@@ -1493,6 +1503,66 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T04_53_20_00_00Iurn_oid_2.49.0.1.124.0462728820.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201213205220+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -68.8408, 49.251 ],
+							[ -69.7684, 48.8682 ],
+							[ -70.2496, 48.6665 ],
+							[ -71.3493, 48.9995 ],
+							[ -71.3505, 48.5827 ],
+							[ -71.4202, 48.4971 ],
+							[ -71.5524, 48.3338 ],
+							[ -71.0126, 48.1917 ],
+							[ -70.5609, 48.0539 ],
+							[ -70.1357, 47.9471 ],
+							[ -69.8631, 47.8597 ],
+							[ -69.7836, 47.82 ],
+							[ -69.7113, 47.9448 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.2423, 48.4587 ],
+							[ -68.5214, 48.9033 ],
+							[ -67.508, 49.2382 ],
+							[ -67.2832, 49.2432 ],
+							[ -66.805, 49.3539 ],
+							[ -66.868, 49.9512 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.999, 50.7498 ],
+							[ -67.502, 50.7497 ],
+							[ -67.5048, 49.9998 ],
+							[ -67.5055, 49.8307 ],
+							[ -68.8348, 49.2537 ],
+							[ -68.8408, 49.251 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 13, 2020 03:46",
+				"Expires_UTC" : "December 13, 2020 19:45",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nSnowfall amounts of 20 to 30 centimetres and blowing snow are expected.\n\nSnow and blowing snow will begin overnight and will continue until Sunday evening.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-13T19:45:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-13T03:46:10-00:00, urn:oid:2.49.0.1.124.3948370492.2020<br>Area: Forestville area, Les Escoumins area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area, Baie-Comeau, Baie-Trinité area, Sept-Îles - Port-Cartier area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-13:feed.atom/urn:oid:2.49.0.1.124.3948370492.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-13/2020_12_13T03_46_10_00_00Iurn_oid_2.49.0.1.124.3948370492.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201213194510+00:00"
 			}
 		},
 		{
