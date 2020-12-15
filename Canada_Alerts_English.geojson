@@ -9,6 +9,81 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -59.0361, 54.0269 ],
+							[ -58.8814, 54.0182 ],
+							[ -58.8483, 53.9346 ],
+							[ -58.3667, 53.72 ],
+							[ -57.3704, 54.1207 ],
+							[ -57.0958, 54.136 ],
+							[ -56.7055, 54.7584 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ]
+						]
+					],
+					[
+						[
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.0998, 53.0683 ],
+							[ -57.1137, 53.3384 ],
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.9432, 53.1171 ],
+							[ -60.0074, 53.0666 ],
+							[ -60.1736, 52.9893 ],
+							[ -60.3731, 52.9506 ],
+							[ -60.5825, 52.955 ],
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 15, 2020 03:14",
+				"Expires_UTC" : "December 15, 2020 19:13",
+				"Summary" : "Description: Significant snowfall expected beginning Tuesday.\n\nLocations: Rigolet to Nain and the Eagle River area.\n\nTotal snowfall: 10 to 20 cm by Wednesday morning with additional amounts possible on Wednesday. \n\nTime span: overnight tonight through Wednesday.\n\nRemarks: snow is forecast to spread across Labrador overnight tonight. Snow will continue until Thursday morning before tapering off. In addition, strong northerly winds could result in blowing snow over exposed area Tuesday night into Wednesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-15T19:13:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T03:14:44-00:00, urn:oid:2.49.0.1.124.3208143378.2020<br>Area: Rigolet and vicinity, Postville - Makkovik, Hopedale and vicinity, Nain and vicinity, Eagle River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.3208143378.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T03_14_44_00_00Iurn_oid_2.49.0.1.124.3208143378.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201215191344+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.2442, 44.762 ],
 							[ -64.2554, 44.7703 ],
 							[ -64.434, 44.9011 ],
@@ -1059,116 +1134,63 @@
 				"coordinates" : [
 					[
 						[
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ],
-							[ -59.0361, 54.0269 ],
-							[ -58.8814, 54.0182 ],
-							[ -58.8483, 53.9346 ],
-							[ -58.3667, 53.72 ],
-							[ -57.3704, 54.1207 ],
-							[ -57.0958, 54.136 ],
-							[ -56.7055, 54.7584 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.7945, 56.6786 ],
-							[ -61.1044, 56.5708 ],
-							[ -61.8607, 56.6166 ],
-							[ -62.4923, 56.7524 ],
-							[ -63.0043, 56.7494 ],
-							[ -63.0038, 56.0019 ],
-							[ -63.0037, 55.8296 ],
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ]
-						]
-					],
-					[
-						[
-							[ -59, 52.4 ],
-							[ -58.0385, 52.5919 ],
-							[ -57.1146, 52.8003 ],
-							[ -57.0998, 53.0683 ],
-							[ -57.1137, 53.3384 ],
-							[ -57.4985, 53.333 ],
-							[ -59, 52.9 ],
-							[ -59.8804, 53.2 ],
-							[ -59.9432, 53.1171 ],
-							[ -60.0074, 53.0666 ],
-							[ -60.1736, 52.9893 ],
-							[ -60.3731, 52.9506 ],
-							[ -60.5825, 52.955 ],
-							[ -60.7702, 53 ],
-							[ -59, 52.4 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 15, 2020 03:14",
-				"Expires_UTC" : "December 15, 2020 19:13",
-				"Summary" : "Description: Significant snowfall expected beginning Tuesday.\n\nLocations: Rigolet to Nain and the Eagle River area.\n\nTotal snowfall: 10 to 20 cm by Wednesday morning with additional amounts possible on Wednesday. \n\nTime span: overnight tonight through Wednesday.\n\nRemarks: snow is forecast to spread across Labrador overnight tonight. Snow will continue until Thursday morning before tapering off. In addition, strong northerly winds could result in blowing snow over exposed area Tuesday night into Wednesday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-15T19:13:44-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T03:14:44-00:00, urn:oid:2.49.0.1.124.3208143378.2020<br>Area: Rigolet and vicinity, Postville - Makkovik, Hopedale and vicinity, Nain and vicinity, Eagle River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.3208143378.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T03_14_44_00_00Iurn_oid_2.49.0.1.124.3208143378.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201215191344+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.9056, 74.3191 ],
-							[ -94.8626, 74.2936 ],
-							[ -94.1547, 74.3414 ],
-							[ -94.1885, 74.6339 ],
-							[ -94.152, 74.6625 ],
-							[ -94.2078, 74.8178 ],
-							[ -94.6546, 74.9248 ],
-							[ -95.2633, 74.925 ],
-							[ -95.7119, 74.8173 ],
-							[ -95.8949, 74.6509 ],
-							[ -95.9056, 74.3191 ]
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.9865, 48.8983 ],
+							[ -54.0086, 48.9045 ],
+							[ -54.2, 48.9 ],
+							[ -54.9999, 48.5499 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 47.9199 ],
+							[ -53.9999, 47.9199 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blizzard",
+				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2020 07:39",
-				"Expires_UTC" : "December 15, 2020 23:38",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA blizzard is expected to develop Tuesday morning, with winds gusting between 80 and 90 km/h. Winds are anticipated to diminish overnight Tuesday, allowing the blizzard conditions to end by Wednesday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-12-15T23:38:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T07:39:46-00:00, urn:oid:2.49.0.1.124.0788960929.2020<br>Area: Resolute",
+				"LastUpdate_UTC" : "December 15, 2020 08:43",
+				"Expires_UTC" : "December 16, 2020 00:43",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-16T00:43:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T08:43:31-00:00, urn:oid:2.49.0.1.124.2087871778.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.0788960929.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T07_39_46_00_00Iurn_oid_2.49.0.1.124.0788960929.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.2087871778.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T08_43_31_00_00Iurn_oid_2.49.0.1.124.2087871778.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201215233846+00:00"
+				"Expires_FMEFormat" : "20201216004331+00:00"
 			}
 		},
 		{
@@ -1260,18 +1282,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2020 03:23",
-				"Expires_UTC" : "December 15, 2020 19:22",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nLocations: The Great Northern Peninsula.\n\nTime span: Tuesday and Tuesday night.\n\nRemarks: Temperatures are expected to remain near the freezing mark throughout the whole event, resulting in blowing snow occurring only in exposed areas.\n\nConditions will improve for most areas Wednesday morning as snow tapers off to flurries. Southern portions of Port Saunders and the Straits will likely see some further accumulations on Wednesday from more persistent flurries.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-15T19:22:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T03:23:25-00:00, urn:oid:2.49.0.1.124.0295843191.2020<br>Area: Northern Peninsula East, Port Saunders and the Straits",
+				"LastUpdate_UTC" : "December 15, 2020 08:45",
+				"Expires_UTC" : "December 16, 2020 00:45",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-16T00:45:07-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T08:45:07-00:00, urn:oid:2.49.0.1.124.2250382291.2020<br>Area: Northern Peninsula East, Port Saunders and the Straits",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.0295843191.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T03_23_25_00_00Iurn_oid_2.49.0.1.124.0295843191.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.2250382291.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T08_45_07_00_00Iurn_oid_2.49.0.1.124.2250382291.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201215192225+00:00"
+				"Expires_FMEFormat" : "20201216004507+00:00"
 			}
 		},
 		{
@@ -1648,72 +1670,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.9865, 48.8983 ],
-							[ -54.0086, 48.9045 ],
-							[ -54.2, 48.9 ],
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ],
-							[ -54.9999, 47.9199 ],
-							[ -53.9999, 47.9199 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2020 03:21",
-				"Expires_UTC" : "December 15, 2020 19:20",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: westerly near 100 km/h.\n\nLocations: The Avalon Peninsula and eastern Newfoundland.\n\nTime span: beginning Tuesday evening and lasting until Wednesday afternoon.\n\nRemarks: The strongest winds will mainly occur over areas exposed to the west.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-15T19:20:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T03:21:00-00:00, urn:oid:2.49.0.1.124.3750911084.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Bonavista Peninsula, Clarenville and vicinity, Terra Nova",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.3750911084.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T03_21_00_00_00Iurn_oid_2.49.0.1.124.3750911084.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201215192000+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -125.4256, 64.1122 ],
 							[ -125.0514, 64.2389 ],
 							[ -124.7448, 64.3563 ],
@@ -1931,18 +1887,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 15, 2020 03:20",
-				"Expires_UTC" : "December 15, 2020 19:19",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: westerly near 100 km/h.\n\nLocations: The Burin and Connaigre peninsulas.\n\nTime span: beginning Tuesday evening and lasting until Wednesday morning.\n\nRemarks: The strongest winds will occur over southern areas of both peninsulas, especially over areas exposed to the west.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-15T19:19:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T03:20:37-00:00, urn:oid:2.49.0.1.124.1532062499.2020<br>Area: Burin Peninsula, Connaigre",
+				"LastUpdate_UTC" : "December 15, 2020 08:43",
+				"Expires_UTC" : "December 16, 2020 00:43",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-16T00:43:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T08:43:02-00:00, urn:oid:2.49.0.1.124.0294045491.2020<br>Area: Burin Peninsula, Connaigre",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.1532062499.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T03_20_37_00_00Iurn_oid_2.49.0.1.124.1532062499.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.0294045491.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T08_43_02_00_00Iurn_oid_2.49.0.1.124.0294045491.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201215191937+00:00"
+				"Expires_FMEFormat" : "20201216004302+00:00"
 			}
 		},
 		{
@@ -2127,6 +2083,50 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T08_28_09_00_00Iurn_oid_2.49.0.1.124.1638320259.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201216002709+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.9056, 74.3191 ],
+							[ -94.8626, 74.2936 ],
+							[ -94.1547, 74.3414 ],
+							[ -94.1885, 74.6339 ],
+							[ -94.152, 74.6625 ],
+							[ -94.2078, 74.8178 ],
+							[ -94.6546, 74.9248 ],
+							[ -95.2633, 74.925 ],
+							[ -95.7119, 74.8173 ],
+							[ -95.8949, 74.6509 ],
+							[ -95.9056, 74.3191 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 15, 2020 07:39",
+				"Expires_UTC" : "December 15, 2020 23:38",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA blizzard is expected to develop Tuesday morning, with winds gusting between 80 and 90 km/h. Winds are anticipated to diminish overnight Tuesday, allowing the blizzard conditions to end by Wednesday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-12-15T23:38:46-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-15T07:39:46-00:00, urn:oid:2.49.0.1.124.0788960929.2020<br>Area: Resolute",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-15:feed.atom/urn:oid:2.49.0.1.124.0788960929.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T07_39_46_00_00Iurn_oid_2.49.0.1.124.0788960929.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201215233846+00:00"
 			}
 		}
 	]
