@@ -230,6 +230,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ],
+							[ -64.2171, 48.6501 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 16, 2020 09:39",
+				"Expires_UTC" : "December 16, 2020 10:39",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-12-16T10:39:54-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T09:39:54-00:00, urn:oid:2.49.0.1.124.2546846563.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Forillon National Park - Gaspé area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.2546846563.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T09_39_54_00_00Iurn_oid_2.49.0.1.124.2546846563.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201216103954+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -117.7867, 49.3442 ],
 							[ -117.8499, 49.3434 ],
 							[ -117.8646, 49.3427 ],
@@ -1171,24 +1221,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Env",
-				"Title" : "Smog Warning In Effect",
+				"Title" : "Smog Warning Ended",
 				"Category" : "Actual",
 				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 01:23",
-				"Expires_UTC" : "December 16, 2020 18:19",
-				"Summary" : "Description: High concentration of pollutants are expected and will result in poor air quality, especially in urban areas where pollutant emissions are higher.\n\nHigh levels of pollutants are expected to persist until Wednesday morning.\n\n###\n\nSmog especially affects asthmatic children and people with respiratory ailments or heart disease. It is therefore recommended that these individuals avoid intense physical activity outdoors until the smog warning is lifted.\n\nIn Quebec, wood heating is the main source of fine particles that contribute to smog during winter. This activity generates the largest number of these particulates, more than industrial activities and transportation.\n\nAdditional information:\n\nTo learn more about the Info-Smog program, go to Environment Canada’s website at www.canada.ca/info-smog-program.\n\nFor air quality indexes in Quebec, visit the website of the Ministère de l'Environnement et de la Lutte contre les changements climatiques at www.iqa.environnement.gouv.qc.ca/contenu/index_en.asp.\n\nFor the air quality index in Montréal, visit the Réseau de surveillance de la qualité de l’air de la Ville de Montréal’s website at www.rsqa.qc.ca (french only).\n\nTo learn more about the effects of smog on your health in Québec, visit the Ministère de la Santé et des Services sociaux’s website at www.quebec.ca/en/health. You can also visit the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal at www.santemontreal.qc.ca/en/public.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2020-12-16T18:19:11-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2020-12-16T01:23:11-00:00, urn:oid:2.49.0.1.124.4279570765.2020<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 16, 2020 09:39",
+				"Expires_UTC" : "December 16, 2020 10:39",
+				"Summary" : "Description: As air quality is back to \"fair\", a smog warning is no longer required.\n\n###<br>Expires: 2020-12-16T10:39:24-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2020-12-16T09:39:24-00:00, urn:oid:2.49.0.1.124.3962854082.2020<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
 				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.4279570765.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T01_23_11_00_00Iurn_oid_2.49.0.1.124.4279570765.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3962854082.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T09_39_24_00_00Iurn_oid_2.49.0.1.124.3962854082.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201216181911+00:00"
+				"Expires_FMEFormat" : "20201216103924+00:00"
 			}
 		},
 		{
