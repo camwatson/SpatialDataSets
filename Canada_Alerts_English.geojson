@@ -244,58 +244,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.0931, 48.7455 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 16, 2020 22:09",
-				"Expires_UTC" : "December 16, 2020 23:09",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2020-12-16T23:09:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T22:09:40-00:00, urn:oid:2.49.0.1.124.0959462934.2020<br>Area: White River - Dubreuilville, Wawa - Pukaskwa Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0959462934.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T22_09_40_00_00Iurn_oid_2.49.0.1.124.0959462934.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201216230940+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -86.5309, 48.2984 ],
 							[ -86.1345, 47.4654 ],
 							[ -85.809, 47.3094 ],
@@ -335,6 +283,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T16_16_58_00_00Iurn_oid_2.49.0.1.124.2354627985.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201217045958+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -117.6288, 49.3397 ],
+							[ -117.9877, 49.3461 ],
+							[ -118.2922, 49.1165 ],
+							[ -118.2885, 49.0147 ],
+							[ -118.1528, 49.0098 ],
+							[ -118.0876, 49.1037 ],
+							[ -117.8554, 49.2529 ],
+							[ -117.351, 49.1413 ],
+							[ -117.3061, 49.0281 ],
+							[ -117.1813, 48.9703 ],
+							[ -116.7943, 49.0828 ],
+							[ -116.4784, 49.0384 ],
+							[ -116.4185, 49.1387 ],
+							[ -116.7929, 49.1868 ],
+							[ -117.1566, 49.0847 ],
+							[ -117.2275, 49.214 ],
+							[ -117.6288, 49.3397 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 23:04",
+				"Expires_UTC" : "December 17, 2020 15:04",
+				"Summary" : "Description: Snowfall with total amounts of 20 to 25 cm is expected.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-17T15:04:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T23:04:32-00:00, urn:oid:2.49.0.1.124.2460192385.2020<br>Area: Highway 3 - Paulson Summit to Kootenay Pass",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.2460192385.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T23_04_32_00_00Iurn_oid_2.49.0.1.124.2460192385.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217150432+00:00"
 			}
 		},
 		{
