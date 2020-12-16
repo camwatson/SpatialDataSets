@@ -9,6 +9,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -88.5445, 49.1129 ],
+							[ -88.6636, 49.1101 ],
+							[ -88.1405, 48.6611 ],
+							[ -87.9958, 48.475 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 03:38",
+				"Expires_UTC" : "December 16, 2020 19:37",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect through Wednesday afternoon.\n\nLake effect snow off of Lake Superior is occurring. Snowfall rates may reach 1 to 3 centimeters per hour at times overnight through to Wednesday afternoon. Total snowfall amounts of 10 to 15 centimeters are forecast by Wednesday evening.\n\nThe heaviest snow will occur between Wawa and Nipigon, so expect poor travel conditions along this stretch of Highway 17.\n\nPrepare for quickly changing and deteriorating travel conditions. Visibility may be significantly reduced in heavy snow or blowing snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-16T19:37:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T03:38:57-00:00, urn:oid:2.49.0.1.124.0609516865.2020<br>Area: Nipigon - Rossport, Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0609516865.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T03_38_57_00_00Iurn_oid_2.49.0.1.124.0609516865.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201216193757+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -87.0122, 55.0075 ],
 							[ -87.008, 55.0039 ],
 							[ -83.7002, 54.0287 ],
@@ -169,6 +224,72 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T01_37_52_00_00Iurn_oid_2.49.0.1.124.0736762913.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201216173652+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -60.7702, 53 ],
+							[ -59, 52.4 ],
+							[ -58.0385, 52.5919 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.0998, 53.0683 ],
+							[ -57.1137, 53.3384 ],
+							[ -57.4985, 53.333 ],
+							[ -59, 52.9 ],
+							[ -59.8804, 53.2 ],
+							[ -59.8625, 53.2339 ],
+							[ -59.8485, 53.297 ],
+							[ -59.853, 53.3605 ],
+							[ -59.8979, 53.4724 ],
+							[ -59.9665, 53.5313 ],
+							[ -60.064, 53.5983 ],
+							[ -60.1986, 53.644 ],
+							[ -60.3282, 53.6683 ],
+							[ -60.4351, 53.6762 ],
+							[ -60.5259, 53.6753 ],
+							[ -60.6518, 53.6602 ],
+							[ -60.8205, 53.6078 ],
+							[ -60.9451, 53.5344 ],
+							[ -61.0082, 53.4731 ],
+							[ -61.0589, 53.3876 ],
+							[ -61.0612, 53.2803 ],
+							[ -61.0591, 53.2593 ],
+							[ -61.0344, 53.1975 ],
+							[ -60.9922, 53.1395 ],
+							[ -60.934, 53.0865 ],
+							[ -60.8616, 53.0404 ],
+							[ -60.8397, 53.0302 ],
+							[ -60.7771, 53.002 ],
+							[ -60.7702, 53 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 01:44",
+				"Expires_UTC" : "December 16, 2020 17:43",
+				"Summary" : "Description: A prolonged period of significant snowfall is occurring.\n\nAdditional snowfall expected: 10 to 15 cm.\n\nTime span: continuing until Wednesday night.\n\nLocations: Happy Valley-Goose Bay and areas eastward along the Trans-Labrador Highway to Cartwright Junction.\n\nRemarks:  Strong northwesterly winds tonight and Wednesday will combine with the fresh snowfall to cause reduced visibilities in blowing snow over exposed areas.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-16T17:43:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T01:44:41-00:00, urn:oid:2.49.0.1.124.1595824935.2020<br>Area: Upper Lake Melville, Eagle River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.1595824935.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T01_44_41_00_00Iurn_oid_2.49.0.1.124.1595824935.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201216174341+00:00"
 			}
 		},
 		{
@@ -682,94 +803,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -79.5957, 43.4581 ],
-							[ -79.5036, 43.5329 ],
-							[ -79.0603, 43.7242 ],
-							[ -79.1029, 43.7947 ],
-							[ -79.1088, 43.7984 ],
-							[ -79.1091, 43.7985 ],
-							[ -79.1495, 43.8216 ],
-							[ -79.1574, 43.8392 ],
-							[ -79.1702, 43.8556 ],
-							[ -79.4107, 43.8111 ],
-							[ -79.6386, 43.75 ],
-							[ -79.6746, 43.8215 ],
-							[ -79.7114, 43.8757 ],
-							[ -79.8267, 43.7916 ],
-							[ -79.9283, 43.7031 ],
-							[ -79.9691, 43.7344 ],
-							[ -80.0537, 43.6639 ],
-							[ -80.1344, 43.5855 ],
-							[ -80.1318, 43.5832 ],
-							[ -80.1284, 43.5815 ],
-							[ -80.1374, 43.5756 ],
-							[ -80.1447, 43.5673 ],
-							[ -80.1474, 43.5695 ],
-							[ -80.1503, 43.5704 ],
-							[ -80.1562, 43.5664 ],
-							[ -80.1603, 43.5611 ],
-							[ -80.1048, 43.5154 ],
-							[ -80.034, 43.4708 ],
-							[ -80.063, 43.4529 ],
-							[ -80.0838, 43.4351 ],
-							[ -80.0835, 43.4274 ],
-							[ -80.0785, 43.418 ],
-							[ -80.1438, 43.41 ],
-							[ -80.2045, 43.3976 ],
-							[ -80.1982, 43.3676 ],
-							[ -80.1877, 43.3443 ],
-							[ -80.2177, 43.3407 ],
-							[ -80.2487, 43.3341 ],
-							[ -80.2454, 43.3189 ],
-							[ -80.2385, 43.3062 ],
-							[ -80.2329, 43.264 ],
-							[ -80.2005, 43.2106 ],
-							[ -80.1103, 43.1719 ],
-							[ -79.9792, 43.1302 ],
-							[ -79.8715, 43.0818 ],
-							[ -79.7541, 43.0507 ],
-							[ -79.7246, 43.1047 ],
-							[ -79.7098, 43.1557 ],
-							[ -79.6838, 43.1468 ],
-							[ -79.6585, 43.1439 ],
-							[ -79.6202, 43.2066 ],
-							[ -79.6136, 43.2456 ],
-							[ -79.7344, 43.2659 ],
-							[ -79.7506, 43.3044 ],
-							[ -79.5957, 43.4581 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 00:13",
-				"Expires_UTC" : "December 16, 2020 16:12",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for Wednesday.\n\nA narrow band of lake effect snow is expected to develop off Lake Ontario overnight and move inland early Wednesday morning. This band will be over the Burlington area early Wednesday morning and slowly shift northwards reaching the southwestern section of the City of Toronto by mid morning. Through the afternoon the band will drift south, reaching downtown Hamilton in the evening. Snowfall amounts of 5 to 10 cm are possible by Wednesday overnight with snowfall rates of several centimeters per hour likely.\n\nUnder the lake effect bands heavy bursts of snow and blowing snow can significantly reduce visibilities.\n\nMotorists are advised to exercise caution and be prepared for quickly changing driving conditions. Consider postponing non essential travel as snow covered and icy roads are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-16T16:12:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T00:13:37-00:00, urn:oid:2.49.0.1.124.3626724427.2020<br>Area: City of Toronto, City of Hamilton, Mississauga - Brampton, Halton Hills - Milton, Burlington - Oakville",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3626724427.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T00_13_37_00_00Iurn_oid_2.49.0.1.124.3626724427.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201216161237+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -61.7255, 47.1947 ],
 							[ -61.322, 47.5211 ],
 							[ -61.344, 47.8207 ],
@@ -1273,110 +1306,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ],
-							[ -60.3074, 54.9828 ],
-							[ -60.3072, 54.9832 ],
-							[ -60.2298, 55.0701 ],
-							[ -60.1066, 55.1369 ],
-							[ -60.0305, 55.2374 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.798, 55.9666 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8884, 55.8597 ],
-							[ -61.0222, 55.8603 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.891, 55.378 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 09:04",
-				"Expires_UTC" : "December 17, 2020 01:03",
-				"Summary" : "Description: Significant snowfall and strong winds are occurring.\n\nFurther snowfall expected: 25 to 35 cm.\n\nMaximum wind gusts: northwesterly 80 km/h.\n\nLocations: Hopedale and vicinity.\n\nTime span: continuing until this evening.\n\nRemarks: Snow, at times heavy, strong northwesterly winds and falling temperatures will combine with the fresh snowfall to cause reduced visibility in blowing snow today. Conditions are expected to improve tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T01:03:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T09:04:36-00:00, urn:oid:2.49.0.1.124.0986434800.2020<br>Area: Hopedale and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0986434800.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T09_04_36_00_00Iurn_oid_2.49.0.1.124.0986434800.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201217010336+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -77.3232, 49.2924 ],
-							[ -78.5004, 49.2934 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5289, 48.9206 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5246, 48.5242 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5258, 48.3407 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5176, 47.833 ],
-							[ -78.4996, 47.8372 ],
-							[ -77.9663, 47.835 ],
-							[ -77.7494, 47.8332 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.4994, 48.0998 ],
-							[ -76.4994, 48.3331 ],
-							[ -76.4994, 48.6998 ],
-							[ -76.4994, 49.2832 ],
-							[ -76.4997, 49.2832 ],
-							[ -77.3232, 49.2924 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Smog Warning Ended",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 16, 2020 09:39",
-				"Expires_UTC" : "December 16, 2020 10:39",
-				"Summary" : "Description: As air quality is back to \"fair\", a smog warning is no longer required.\n\n###<br>Expires: 2020-12-16T10:39:24-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2020-12-16T09:39:24-00:00, urn:oid:2.49.0.1.124.3962854082.2020<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
-				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3962854082.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T09_39_24_00_00Iurn_oid_2.49.0.1.124.3962854082.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201216103924+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -54.65, 49.25 ],
 							[ -54.15, 49.2 ],
 							[ -54.2, 48.9 ],
@@ -1547,6 +1476,94 @@
 				"coordinates" : [
 					[
 						[
+							[ -79.5957, 43.4581 ],
+							[ -79.5036, 43.5329 ],
+							[ -79.0603, 43.7242 ],
+							[ -79.1029, 43.7947 ],
+							[ -79.1088, 43.7984 ],
+							[ -79.1091, 43.7985 ],
+							[ -79.1495, 43.8216 ],
+							[ -79.1574, 43.8392 ],
+							[ -79.1702, 43.8556 ],
+							[ -79.4107, 43.8111 ],
+							[ -79.6386, 43.75 ],
+							[ -79.6746, 43.8215 ],
+							[ -79.7114, 43.8757 ],
+							[ -79.8267, 43.7916 ],
+							[ -79.9283, 43.7031 ],
+							[ -79.9691, 43.7344 ],
+							[ -80.0537, 43.6639 ],
+							[ -80.1344, 43.5855 ],
+							[ -80.1318, 43.5832 ],
+							[ -80.1284, 43.5815 ],
+							[ -80.1374, 43.5756 ],
+							[ -80.1447, 43.5673 ],
+							[ -80.1474, 43.5695 ],
+							[ -80.1503, 43.5704 ],
+							[ -80.1562, 43.5664 ],
+							[ -80.1603, 43.5611 ],
+							[ -80.1048, 43.5154 ],
+							[ -80.034, 43.4708 ],
+							[ -80.063, 43.4529 ],
+							[ -80.0838, 43.4351 ],
+							[ -80.0835, 43.4274 ],
+							[ -80.0785, 43.418 ],
+							[ -80.1438, 43.41 ],
+							[ -80.2045, 43.3976 ],
+							[ -80.1982, 43.3676 ],
+							[ -80.1877, 43.3443 ],
+							[ -80.2177, 43.3407 ],
+							[ -80.2487, 43.3341 ],
+							[ -80.2454, 43.3189 ],
+							[ -80.2385, 43.3062 ],
+							[ -80.2329, 43.264 ],
+							[ -80.2005, 43.2106 ],
+							[ -80.1103, 43.1719 ],
+							[ -79.9792, 43.1302 ],
+							[ -79.8715, 43.0818 ],
+							[ -79.7541, 43.0507 ],
+							[ -79.7246, 43.1047 ],
+							[ -79.7098, 43.1557 ],
+							[ -79.6838, 43.1468 ],
+							[ -79.6585, 43.1439 ],
+							[ -79.6202, 43.2066 ],
+							[ -79.6136, 43.2456 ],
+							[ -79.7344, 43.2659 ],
+							[ -79.7506, 43.3044 ],
+							[ -79.5957, 43.4581 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 09:54",
+				"Expires_UTC" : "December 17, 2020 01:53",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect today.\n\nA narrow band of lake effect snow has developed over western Lake Ontario  and is expected to move inland early this morning. This band will be over the Burlington area early this morning and slowly shift northwards reaching the southwestern section of the City of Toronto by mid morning. Through the afternoon the band will drift south, reaching downtown Hamilton in the evening. Total snowfall amounts of 5 to 10 cm are possible by the time snow tapers off overnight with snowfall rates of several centimeters per hour likely.\n\nUnder the lake effect bands heavy bursts of snow and blowing snow can significantly reduce visibilities.\n\nMotorists are advised to exercise caution and be prepared for quickly changing driving conditions. Consider postponing non essential travel as snow covered and icy roads are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-17T01:53:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T09:54:32-00:00, urn:oid:2.49.0.1.124.1580017963.2020<br>Area: City of Toronto, City of Hamilton, Mississauga - Brampton, Halton Hills - Milton, Burlington - Oakville",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.1580017963.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T09_54_32_00_00Iurn_oid_2.49.0.1.124.1580017963.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217015332+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -120.8907, 49.786 ],
 							[ -120.7729, 49.9888 ],
 							[ -120.7214, 50.0349 ],
@@ -1611,61 +1628,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T00_03_59_00_00Iurn_oid_2.49.0.1.124.1131980562.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201216160259+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
-							[ -87.4321, 49.1383 ],
-							[ -88.5445, 49.1129 ],
-							[ -88.6636, 49.1101 ],
-							[ -88.1405, 48.6611 ],
-							[ -87.9958, 48.475 ],
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 03:38",
-				"Expires_UTC" : "December 16, 2020 19:37",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect through Wednesday afternoon.\n\nLake effect snow off of Lake Superior is occurring. Snowfall rates may reach 1 to 3 centimeters per hour at times overnight through to Wednesday afternoon. Total snowfall amounts of 10 to 15 centimeters are forecast by Wednesday evening.\n\nThe heaviest snow will occur between Wawa and Nipigon, so expect poor travel conditions along this stretch of Highway 17.\n\nPrepare for quickly changing and deteriorating travel conditions. Visibility may be significantly reduced in heavy snow or blowing snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-16T19:37:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T03:38:57-00:00, urn:oid:2.49.0.1.124.0609516865.2020<br>Area: Nipigon - Rossport, Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0609516865.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T03_38_57_00_00Iurn_oid_2.49.0.1.124.0609516865.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201216193757+00:00"
 			}
 		},
 		{
@@ -1770,72 +1732,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-15/2020_12_15T23_52_40_00_00Iurn_oid_2.49.0.1.124.1984710090.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201216155140+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.7702, 53 ],
-							[ -59, 52.4 ],
-							[ -58.0385, 52.5919 ],
-							[ -57.1146, 52.8003 ],
-							[ -57.0998, 53.0683 ],
-							[ -57.1137, 53.3384 ],
-							[ -57.4985, 53.333 ],
-							[ -59, 52.9 ],
-							[ -59.8804, 53.2 ],
-							[ -59.8625, 53.2339 ],
-							[ -59.8485, 53.297 ],
-							[ -59.853, 53.3605 ],
-							[ -59.8979, 53.4724 ],
-							[ -59.9665, 53.5313 ],
-							[ -60.064, 53.5983 ],
-							[ -60.1986, 53.644 ],
-							[ -60.3282, 53.6683 ],
-							[ -60.4351, 53.6762 ],
-							[ -60.5259, 53.6753 ],
-							[ -60.6518, 53.6602 ],
-							[ -60.8205, 53.6078 ],
-							[ -60.9451, 53.5344 ],
-							[ -61.0082, 53.4731 ],
-							[ -61.0589, 53.3876 ],
-							[ -61.0612, 53.2803 ],
-							[ -61.0591, 53.2593 ],
-							[ -61.0344, 53.1975 ],
-							[ -60.9922, 53.1395 ],
-							[ -60.934, 53.0865 ],
-							[ -60.8616, 53.0404 ],
-							[ -60.8397, 53.0302 ],
-							[ -60.7771, 53.002 ],
-							[ -60.7702, 53 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 16, 2020 09:02",
-				"Expires_UTC" : "December 16, 2020 10:02",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-16T10:02:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T09:02:19-00:00, urn:oid:2.49.0.1.124.3232129111.2020<br>Area: Upper Lake Melville, Eagle River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3232129111.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T09_02_19_00_00Iurn_oid_2.49.0.1.124.3232129111.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201216100219+00:00"
 			}
 		},
 		{
@@ -2078,6 +1974,110 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T08_39_52_00_00Iurn_oid_2.49.0.1.124.2881538716.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201216172952+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ],
+							[ -60.3074, 54.9828 ],
+							[ -60.3072, 54.9832 ],
+							[ -60.2298, 55.0701 ],
+							[ -60.1066, 55.1369 ],
+							[ -60.0305, 55.2374 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.798, 55.9666 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8884, 55.8597 ],
+							[ -61.0222, 55.8603 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.891, 55.378 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 09:04",
+				"Expires_UTC" : "December 17, 2020 01:03",
+				"Summary" : "Description: Significant snowfall and strong winds are occurring.\n\nFurther snowfall expected: 25 to 35 cm.\n\nMaximum wind gusts: northwesterly 80 km/h.\n\nLocations: Hopedale and vicinity.\n\nTime span: continuing until this evening.\n\nRemarks: Snow, at times heavy, strong northwesterly winds and falling temperatures will combine with the fresh snowfall to cause reduced visibility in blowing snow today. Conditions are expected to improve tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T01:03:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T09:04:36-00:00, urn:oid:2.49.0.1.124.0986434800.2020<br>Area: Hopedale and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0986434800.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T09_04_36_00_00Iurn_oid_2.49.0.1.124.0986434800.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217010336+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -77.3232, 49.2924 ],
+							[ -78.5004, 49.2934 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 49.2832 ],
+							[ -76.4997, 49.2832 ],
+							[ -77.3232, 49.2924 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Smog Warning Ended",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 16, 2020 09:39",
+				"Expires_UTC" : "December 16, 2020 10:39",
+				"Summary" : "Description: As air quality is back to \"fair\", a smog warning is no longer required.\n\n###<br>Expires: 2020-12-16T10:39:24-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2020-12-16T09:39:24-00:00, urn:oid:2.49.0.1.124.3962854082.2020<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
+				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3962854082.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T09_39_24_00_00Iurn_oid_2.49.0.1.124.3962854082.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201216103924+00:00"
 			}
 		}
 	]
