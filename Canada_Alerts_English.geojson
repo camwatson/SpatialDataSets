@@ -343,6 +343,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -85.2219, 48.2896 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 16:16",
+				"Expires_UTC" : "December 17, 2020 04:59",
+				"Summary" : "Description: Snow at times heavy today.\n\nThe Winter Weather Travel Advisory has been upgraded to a Snowfall Warning.\n\nLake enhanced snow will continue throughout the day. Additional snowfall amounts up to 15 centimeters are expected to fall by this evening.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-17T04:59:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T16:16:58-00:00, urn:oid:2.49.0.1.124.2354627985.2020<br>Area: Marathon - Schreiber, Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.2354627985.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T16_16_58_00_00Iurn_oid_2.49.0.1.124.2354627985.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217045958+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -115.0388, 68.0735 ],
 							[ -115.0934, 67.9545 ],
 							[ -115.6489, 67.917 ],
@@ -1201,54 +1249,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -85.2219, 48.2896 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.9469, 48.8844 ],
-							[ -87.4321, 49.1383 ],
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 16, 2020 20:49",
-				"Expires_UTC" : "December 16, 2020 21:49",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-16T21:49:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T20:49:36-00:00, urn:oid:2.49.0.1.124.2369796284.2020<br>Area: Marathon - Schreiber, Wawa - Pukaskwa Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.2369796284.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T20_49_36_00_00Iurn_oid_2.49.0.1.124.2369796284.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201216214936+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -137.8443, 65.4581 ],
 							[ -134.9833, 67 ],
 							[ -135.4962, 67.0133 ],
@@ -1300,16 +1300,71 @@
 				"coordinates" : [
 					[
 						[
-							[ -57.3704, 54.1207 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -57.1137, 53.3384 ],
-							[ -55.9017, 53.3388 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -57.3704, 54.1207 ]
+							[ -116.6618, 55.898 ],
+							[ -116.64, 56.3444 ],
+							[ -116.6612, 56.7699 ],
+							[ -116.6607, 57.3819 ],
+							[ -116.8378, 57.3817 ],
+							[ -116.9862, 57.3818 ],
+							[ -117.2644, 57.3887 ],
+							[ -117.5248, 57.3946 ],
+							[ -118.1545, 57.3829 ],
+							[ -119.0597, 57.3969 ],
+							[ -120.0012, 57.3805 ],
+							[ -120.0161, 57.2385 ],
+							[ -120.0013, 57.0999 ],
+							[ -120.0013, 56.7699 ],
+							[ -120.0139, 56.5097 ],
+							[ -120.0013, 56.1476 ],
+							[ -120.0013, 56.0691 ],
+							[ -120.0013, 55.9599 ],
+							[ -120.0013, 55.4907 ],
+							[ -119.8792, 55.4609 ],
+							[ -119.5804, 55.4616 ],
+							[ -119.4335, 55.5156 ],
+							[ -119.3954, 55.5488 ],
+							[ -119.1881, 55.5488 ],
+							[ -119.1887, 55.4909 ],
+							[ -118.9052, 55.4843 ],
+							[ -118.6159, 55.4903 ],
+							[ -118.6169, 55.4756 ],
+							[ -118.6151, 55.462 ],
+							[ -118.4944, 55.4587 ],
+							[ -118.361, 55.4603 ],
+							[ -118.3617, 55.5259 ],
+							[ -118.3107, 55.5256 ],
+							[ -118.2891, 55.5309 ],
+							[ -118.2583, 55.5498 ],
+							[ -118.2569, 55.5506 ],
+							[ -118.2577, 55.5536 ],
+							[ -118.2601, 55.563 ],
+							[ -118.2563, 55.563 ],
+							[ -118.2098, 55.5635 ],
+							[ -118.2073, 55.5489 ],
+							[ -118.2065, 55.5172 ],
+							[ -118.0812, 55.5146 ],
+							[ -117.9932, 55.5467 ],
+							[ -117.747, 55.529 ],
+							[ -117.5814, 55.6055 ],
+							[ -117.5692, 55.6055 ],
+							[ -117.5703, 55.4605 ],
+							[ -117.5569, 55.4603 ],
+							[ -117.5436, 55.4605 ],
+							[ -117.5354, 55.3748 ],
+							[ -117.4263, 55.3727 ],
+							[ -117.3556, 55.3754 ],
+							[ -116.9715, 55.3713 ],
+							[ -116.9198, 55.3751 ],
+							[ -116.8342, 55.3739 ],
+							[ -116.7709, 55.3741 ],
+							[ -116.7708, 55.3751 ],
+							[ -116.4349, 55.375 ],
+							[ -116.4349, 55.4616 ],
+							[ -116.4349, 55.6367 ],
+							[ -116.4349, 55.6666 ],
+							[ -116.5067, 55.6666 ],
+							[ -116.5064, 55.8978 ],
+							[ -116.6618, 55.898 ]
 						]
 					]
 				]
@@ -1322,18 +1377,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 19:53",
-				"Expires_UTC" : "December 17, 2020 10:59",
-				"Summary" : "Description: A extended period of significant snowfall is occurring.\n\nAdditional snowfall expected: 5 to 10 cm except 15 inland and over higher terrain.\n\nLocations: Cartwright and vicinity.\n\nTime span: continuing until Thursday morning.\n\nRemarks: Snow will continue tonight, combined with winds up to 80 km/h and areas of blowing snow. The snow will taper off or end over all areas by early Thursday.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T10:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T19:53:06-00:00, urn:oid:2.49.0.1.124.1393613585.2020<br>Area: Cartwright to Black Tickle",
+				"LastUpdate_UTC" : "December 16, 2020 17:40",
+				"Expires_UTC" : "December 17, 2020 09:39",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nHeavy snow will begin this evening and continue until Thursday afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-12-17T09:39:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T17:40:39-00:00, urn:oid:2.49.0.1.124.3903222615.2020<br>Area: Clear Hills Co. near Chinchaga Wildland Prov. Park, Clear Hills Co. near Cleardale Worsley and Cherry Point, Clear Hills Co. near Hines Creek and Eureka River, Saddle Hills Co. near Bay Tree and Silver Valley, Saddle Hills Co. near Moonshine Lake Prov. Park, Saddle Hills Co. near Woking, M.D. of Spirit River including Spirit River and Rycroft, M.D. of Fairview including Fairview Whitelaw and Dunvegan, M.D. of Peace including Grimshaw and Berwyn, Co. of Northern Lights near Manning and Notikewin Prov. Park, Co. of Northern Lights near Dixonville and Cardinal Lake, Birch Hills Co. near Wanham and Peoria, Birch Hills Co. near Eaglesham and Hwy 740, Nrn Sunrise Co. near Keppler Creek, Nrn Sunrise Co. near Peace River Nampa and Three Creeks, M.D. of Smoky River including Falher McLennan and Guy, Big Lakes County near High Prairie and Winagami Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.1393613585.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T19_53_06_00_00Iurn_oid_2.49.0.1.124.1393613585.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3903222615.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T17_40_39_00_00Iurn_oid_2.49.0.1.124.3903222615.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201217105906+00:00"
+				"Expires_FMEFormat" : "20201217093939+00:00"
 			}
 		},
 		{
@@ -1615,104 +1670,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T19_54_19_00_00Iurn_oid_2.49.0.1.124.1001412304.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201217115419+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -116.6618, 55.898 ],
-							[ -116.64, 56.3444 ],
-							[ -116.6612, 56.7699 ],
-							[ -116.6607, 57.3819 ],
-							[ -116.8378, 57.3817 ],
-							[ -116.9862, 57.3818 ],
-							[ -117.2644, 57.3887 ],
-							[ -117.5248, 57.3946 ],
-							[ -118.1545, 57.3829 ],
-							[ -119.0597, 57.3969 ],
-							[ -120.0012, 57.3805 ],
-							[ -120.0161, 57.2385 ],
-							[ -120.0013, 57.0999 ],
-							[ -120.0013, 56.7699 ],
-							[ -120.0139, 56.5097 ],
-							[ -120.0013, 56.1476 ],
-							[ -120.0013, 56.0691 ],
-							[ -120.0013, 55.9599 ],
-							[ -120.0013, 55.4907 ],
-							[ -119.8792, 55.4609 ],
-							[ -119.5804, 55.4616 ],
-							[ -119.4335, 55.5156 ],
-							[ -119.3954, 55.5488 ],
-							[ -119.1881, 55.5488 ],
-							[ -119.1887, 55.4909 ],
-							[ -118.9052, 55.4843 ],
-							[ -118.6159, 55.4903 ],
-							[ -118.6169, 55.4756 ],
-							[ -118.6151, 55.462 ],
-							[ -118.4944, 55.4587 ],
-							[ -118.361, 55.4603 ],
-							[ -118.3617, 55.5259 ],
-							[ -118.3107, 55.5256 ],
-							[ -118.2891, 55.5309 ],
-							[ -118.2583, 55.5498 ],
-							[ -118.2569, 55.5506 ],
-							[ -118.2577, 55.5536 ],
-							[ -118.2601, 55.563 ],
-							[ -118.2563, 55.563 ],
-							[ -118.2098, 55.5635 ],
-							[ -118.2073, 55.5489 ],
-							[ -118.2065, 55.5172 ],
-							[ -118.0812, 55.5146 ],
-							[ -117.9932, 55.5467 ],
-							[ -117.747, 55.529 ],
-							[ -117.5814, 55.6055 ],
-							[ -117.5692, 55.6055 ],
-							[ -117.5703, 55.4605 ],
-							[ -117.5569, 55.4603 ],
-							[ -117.5436, 55.4605 ],
-							[ -117.5354, 55.3748 ],
-							[ -117.4263, 55.3727 ],
-							[ -117.3556, 55.3754 ],
-							[ -116.9715, 55.3713 ],
-							[ -116.9198, 55.3751 ],
-							[ -116.8342, 55.3739 ],
-							[ -116.7709, 55.3741 ],
-							[ -116.7708, 55.3751 ],
-							[ -116.4349, 55.375 ],
-							[ -116.4349, 55.4616 ],
-							[ -116.4349, 55.6367 ],
-							[ -116.4349, 55.6666 ],
-							[ -116.5067, 55.6666 ],
-							[ -116.5064, 55.8978 ],
-							[ -116.6618, 55.898 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 17:40",
-				"Expires_UTC" : "December 17, 2020 09:39",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nHeavy snow will begin this evening and continue until Thursday afternoon.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2020-12-17T09:39:39-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T17:40:39-00:00, urn:oid:2.49.0.1.124.3903222615.2020<br>Area: Clear Hills Co. near Chinchaga Wildland Prov. Park, Clear Hills Co. near Cleardale Worsley and Cherry Point, Clear Hills Co. near Hines Creek and Eureka River, Saddle Hills Co. near Bay Tree and Silver Valley, Saddle Hills Co. near Moonshine Lake Prov. Park, Saddle Hills Co. near Woking, M.D. of Spirit River including Spirit River and Rycroft, M.D. of Fairview including Fairview Whitelaw and Dunvegan, M.D. of Peace including Grimshaw and Berwyn, Co. of Northern Lights near Manning and Notikewin Prov. Park, Co. of Northern Lights near Dixonville and Cardinal Lake, Birch Hills Co. near Wanham and Peoria, Birch Hills Co. near Eaglesham and Hwy 740, Nrn Sunrise Co. near Keppler Creek, Nrn Sunrise Co. near Peace River Nampa and Three Creeks, M.D. of Smoky River including Falher McLennan and Guy, Big Lakes County near High Prairie and Winagami Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3903222615.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T17_40_39_00_00Iurn_oid_2.49.0.1.124.3903222615.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201217093939+00:00"
 			}
 		},
 		{
@@ -2229,6 +2186,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T16_31_44_00_00Iurn_oid_2.49.0.1.124.4165003265.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201217083044+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -57.1137, 53.3384 ],
+							[ -55.9017, 53.3388 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 19:53",
+				"Expires_UTC" : "December 17, 2020 10:59",
+				"Summary" : "Description: A extended period of significant snowfall is occurring.\n\nAdditional snowfall expected: 5 to 10 cm except 15 inland and over higher terrain.\n\nLocations: Cartwright and vicinity.\n\nTime span: continuing until Thursday morning.\n\nRemarks: Snow will continue tonight, combined with winds up to 80 km/h and areas of blowing snow. The snow will taper off or end over all areas by early Thursday.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T10:59:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T19:53:06-00:00, urn:oid:2.49.0.1.124.1393613585.2020<br>Area: Cartwright to Black Tickle",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.1393613585.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T19_53_06_00_00Iurn_oid_2.49.0.1.124.1393613585.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217105906+00:00"
 			}
 		}
 	]
