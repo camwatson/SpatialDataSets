@@ -275,6 +275,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.0792, 47.826 ],
+							[ -54.0697, 47.8335 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.5671, 48.1004 ],
+							[ -58.5677, 48.1 ],
+							[ -58.4199, 48.1 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.42, 47.6666 ],
+							[ -58.42, 47.6535 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 14:21",
+				"Expires_UTC" : "December 16, 2020 21:29",
+				"Summary" : "Description: Strong winds that may cause damage are occurring.\n\nLocations: south coast of Newfoundland.\n\nMaximum wind gusts: westerly 80 km/h except 110 along parts of the coast.\n\nTime span: continuing until early this afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-16T21:29:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T14:21:12-00:00, urn:oid:2.49.0.1.124.0854222524.2020<br>Area: Burin Peninsula, Connaigre, Burgeo - Ramea",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0854222524.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T14_21_12_00_00Iurn_oid_2.49.0.1.124.0854222524.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201216212912+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -61.891, 55.378 ],
 							[ -60.5775, 54.79 ],
 							[ -60.3074, 54.9828 ],
@@ -650,61 +712,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T11_54_34_00_00Iurn_oid_2.49.0.1.124.3080838285.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201217025934+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -54.65, 49.25 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.0086, 48.9045 ],
-							[ -53.9865, 48.8983 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 14:20",
-				"Expires_UTC" : "December 17, 2020 04:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: westerly 80 km/h, except 100 along parts of the coast.\n\nLocations: northeast coast of Newfoundland.\n\nTime span: this morning until this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T04:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T14:20:02-00:00, urn:oid:2.49.0.1.124.0427495979.2020<br>Area: Bay of Exploits, Bonavista North",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0427495979.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T14_20_02_00_00Iurn_oid_2.49.0.1.124.0427495979.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201217045902+00:00"
 			}
 		},
 		{
@@ -1498,35 +1505,28 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.0792, 47.826 ],
-							[ -54.0697, 47.8335 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -58.5677, 48.1 ],
-							[ -58.4199, 48.1 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.42, 47.6666 ],
-							[ -58.42, 47.6535 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ]
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -54.65, 49.25 ]
 						]
 					]
 				]
@@ -1539,18 +1539,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 14:21",
-				"Expires_UTC" : "December 16, 2020 21:29",
-				"Summary" : "Description: Strong winds that may cause damage are occurring.\n\nLocations: south coast of Newfoundland.\n\nMaximum wind gusts: westerly 80 km/h except 110 along parts of the coast.\n\nTime span: continuing until early this afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-16T21:29:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T14:21:12-00:00, urn:oid:2.49.0.1.124.0854222524.2020<br>Area: Burin Peninsula, Connaigre, Burgeo - Ramea",
+				"LastUpdate_UTC" : "December 16, 2020 14:20",
+				"Expires_UTC" : "December 17, 2020 04:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: westerly 80 km/h, except 100 along parts of the coast.\n\nLocations: northeast coast of Newfoundland.\n\nTime span: this morning until this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T04:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T14:20:02-00:00, urn:oid:2.49.0.1.124.0427495979.2020<br>Area: Bay of Exploits, Bonavista North",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0854222524.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T14_21_12_00_00Iurn_oid_2.49.0.1.124.0854222524.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0427495979.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T14_20_02_00_00Iurn_oid_2.49.0.1.124.0427495979.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201216212912+00:00"
+				"Expires_FMEFormat" : "20201217045902+00:00"
 			}
 		}
 	]
