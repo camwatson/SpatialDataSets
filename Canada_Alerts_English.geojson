@@ -84,6 +84,61 @@
 							[ -84.6559, 47.963 ],
 							[ -84.2418, 48.0973 ],
 							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -88.5445, 49.1129 ],
+							[ -88.6636, 49.1101 ],
+							[ -88.1405, 48.6611 ],
+							[ -87.9958, 48.475 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 10:12",
+				"Expires_UTC" : "December 17, 2020 02:11",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect through this afternoon.\n\nLake effect snow is occurring off of Lake Superior. Snowfall rates may reach up to 3 centimeters per hour at times. Total snowfall amounts of 10 to 15 centimeters are forecast by this evening.\n\nThe heaviest snow will occur between Wawa and Nipigon, so expect poor travel conditions along this stretch of Highway 17.\n\nPrepare for quickly changing and deteriorating travel conditions. Visibility may be significantly reduced in heavy snow or blowing snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-17T02:11:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T10:12:14-00:00, urn:oid:2.49.0.1.124.4239815838.2020<br>Area: Nipigon - Rossport, Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.4239815838.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T10_12_14_00_00Iurn_oid_2.49.0.1.124.4239815838.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217021114+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
 							[ -85.2219, 48.2896 ],
 							[ -86.0931, 48.7455 ],
 							[ -85.9469, 48.8844 ],
@@ -553,107 +608,48 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
-							[ -87.4321, 49.1383 ],
-							[ -88.5445, 49.1129 ],
-							[ -88.6636, 49.1101 ],
-							[ -88.1405, 48.6611 ],
-							[ -87.9958, 48.475 ],
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ]
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ],
+							[ -136.3737, 67.1424 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
+				"Title" : "Blowing Snow Advisory In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Blowing Snow",
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 10:12",
-				"Expires_UTC" : "December 17, 2020 02:11",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect through this afternoon.\n\nLake effect snow is occurring off of Lake Superior. Snowfall rates may reach up to 3 centimeters per hour at times. Total snowfall amounts of 10 to 15 centimeters are forecast by this evening.\n\nThe heaviest snow will occur between Wawa and Nipigon, so expect poor travel conditions along this stretch of Highway 17.\n\nPrepare for quickly changing and deteriorating travel conditions. Visibility may be significantly reduced in heavy snow or blowing snow.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-17T02:11:14-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T10:12:14-00:00, urn:oid:2.49.0.1.124.4239815838.2020<br>Area: Nipigon - Rossport, Marathon - Schreiber, White River - Dubreuilville, Wawa - Pukaskwa Park",
+				"LastUpdate_UTC" : "December 16, 2020 11:54",
+				"Expires_UTC" : "December 17, 2020 02:59",
+				"Summary" : "Description: Poor visibility in blowing snow is expected or occurring in some locations.\n\nModerate northeast winds of 40 km/h gusting to 60 over the Richardson Mountains will continue today. These winds will persist through Wednesday. The wind combined with loose snow will occasionally reduce visibility to 800 metres or less.\n\nThe wind will ease tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-12-17T02:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T11:54:34-00:00, urn:oid:2.49.0.1.124.3080838285.2020<br>Area: Dempster",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.4239815838.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T10_12_14_00_00Iurn_oid_2.49.0.1.124.4239815838.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3080838285.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T11_54_34_00_00Iurn_oid_2.49.0.1.124.3080838285.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201217021114+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -54.65, 49.25 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.0086, 48.9045 ],
-							[ -53.9865, 48.8983 ],
-							[ -53.8688, 48.9067 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 14:20",
-				"Expires_UTC" : "December 17, 2020 04:59",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: westerly 80 km/h, except 100 along parts of the coast.\n\nLocations: northeast coast of Newfoundland.\n\nTime span: this morning until this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T04:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T14:20:02-00:00, urn:oid:2.49.0.1.124.0427495979.2020<br>Area: Bay of Exploits, Bonavista North",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0427495979.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T14_20_02_00_00Iurn_oid_2.49.0.1.124.0427495979.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201217045902+00:00"
+				"Expires_FMEFormat" : "20201217025934+00:00"
 			}
 		},
 		{
@@ -931,57 +927,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -137.8443, 65.4581 ],
-							[ -134.9833, 67 ],
-							[ -135.4962, 67.0133 ],
-							[ -135.9999, 67 ],
-							[ -136.012, 67 ],
-							[ -136.0889, 67.1757 ],
-							[ -135.9251, 67.2657 ],
-							[ -136.136, 67.2766 ],
-							[ -136.3737, 67.1424 ],
-							[ -136.6048, 67.0102 ],
-							[ -137.1316, 66.6721 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.4948, 64.415 ],
-							[ -138.0022, 64.3497 ],
-							[ -137.911, 64.3385 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8443, 65.4581 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 16, 2020 11:54",
-				"Expires_UTC" : "December 17, 2020 02:59",
-				"Summary" : "Description: Poor visibility in blowing snow is expected or occurring in some locations.\n\nModerate northeast winds of 40 km/h gusting to 60 over the Richardson Mountains will continue today. These winds will persist through Wednesday. The wind combined with loose snow will occasionally reduce visibility to 800 metres or less.\n\nThe wind will ease tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-12-17T02:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T11:54:34-00:00, urn:oid:2.49.0.1.124.3080838285.2020<br>Area: Dempster",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3080838285.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T11_54_34_00_00Iurn_oid_2.49.0.1.124.3080838285.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201217025934+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -123.5748, 48.3943 ],
 							[ -123.542, 48.3187 ],
 							[ -123.4896, 48.2322 ],
@@ -1138,6 +1083,87 @@
 				"coordinates" : [
 					[
 						[
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.9999, 48.5499 ],
+							[ -55, 48.25 ],
+							[ -54.9999, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.58, 47.3919 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.0399, 46.7999 ],
+							[ -52.9466, 46.8016 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -54.65, 49.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 16, 2020 14:19",
+				"Expires_UTC" : "December 17, 2020 06:18",
+				"Summary" : "Description: Higher than normal water levels are expected.\n\nLocations: east and northeast coasts, between St. John's and La Scie.\n\nTime span: today and Thursday.\n\nRemarks: Higher than normal water levels are likely today and possibly again Thursday morning during high tide due to a combination of storm surge and large waves. Minor coastal flooding or erosion may occur.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T06:18:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T14:19:40-00:00, urn:oid:2.49.0.1.124.3171291653.2020<br>Area: Avalon Peninsula North, St. John's and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Green Bay - White Bay, Terra Nova",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3171291653.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T14_19_40_00_00Iurn_oid_2.49.0.1.124.3171291653.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217061840+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -117.7867, 49.3442 ],
 							[ -117.8499, 49.3434 ],
 							[ -117.8646, 49.3427 ],
@@ -1248,87 +1274,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T12_51_06_00_00Iurn_oid_2.49.0.1.124.3386843862.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201217045006+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -54.65, 49.25 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ],
-							[ -54.9999, 47.9199 ],
-							[ -53.9999, 47.9199 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.58, 47.3919 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.0399, 46.7999 ],
-							[ -52.9466, 46.8016 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.4018, 49.5793 ],
-							[ -55.3736, 50.013 ],
-							[ -55.7129, 50.3339 ],
-							[ -56.4068, 50.2167 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.99, 50.25 ],
-							[ -57.2, 49.8499 ],
-							[ -57.3499, 49.58 ],
-							[ -56.817, 49.2073 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 16, 2020 14:19",
-				"Expires_UTC" : "December 17, 2020 06:18",
-				"Summary" : "Description: Higher than normal water levels are expected.\n\nLocations: east and northeast coasts, between St. John's and La Scie.\n\nTime span: today and Thursday.\n\nRemarks: Higher than normal water levels are likely today and possibly again Thursday morning during high tide due to a combination of storm surge and large waves. Minor coastal flooding or erosion may occur.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T06:18:40-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T14:19:40-00:00, urn:oid:2.49.0.1.124.3171291653.2020<br>Area: Avalon Peninsula North, St. John's and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Green Bay - White Bay, Terra Nova",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.3171291653.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T14_19_40_00_00Iurn_oid_2.49.0.1.124.3171291653.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201217061840+00:00"
 			}
 		},
 		{
@@ -1476,6 +1421,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T14_21_12_00_00Iurn_oid_2.49.0.1.124.0854222524.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201216212912+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -54.65, 49.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 16, 2020 14:20",
+				"Expires_UTC" : "December 17, 2020 04:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: westerly 80 km/h, except 100 along parts of the coast.\n\nLocations: northeast coast of Newfoundland.\n\nTime span: this morning until this evening.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-17T04:59:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-16T14:20:02-00:00, urn:oid:2.49.0.1.124.0427495979.2020<br>Area: Bay of Exploits, Bonavista North",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-16:feed.atom/urn:oid:2.49.0.1.124.0427495979.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-16/2020_12_16T14_20_02_00_00Iurn_oid_2.49.0.1.124.0427495979.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217045902+00:00"
 			}
 		}
 	]
