@@ -266,14 +266,14 @@
 				"severity" : "Moderate",
 				"LastUpdate_UTC" : "December 17, 2020 09:35",
 				"Expires_UTC" : "December 18, 2020 01:35",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-18T01:35:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T09:35:29-00:00, urn:oid:2.49.0.1.124.0355604716.2020<br>Area: Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nAn Arctic airmass combined with moderate winds will generate wind chill values between -38 and -40 this morning and overnight tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-18T01:35:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T09:35:29-00:00, urn:oid:2.49.0.1.124.0608780054.2020<br>Area: Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
 				"Author" : "Environment Canada",
-				"msgType" : "Alert",
+				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.0355604716.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T09_35_29_00_00Iurn_oid_2.49.0.1.124.0355604716.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.0608780054.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T09_35_29_00_00Iurn_oid_2.49.0.1.124.0608780054.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201218013529+00:00"
 			}
@@ -285,57 +285,80 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.9999, 49.5832 ],
-							[ -72.6628, 49.6658 ],
-							[ -72.6666, 49.6653 ],
-							[ -73.4993, 49.55 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.667, 48.9996 ],
-							[ -73.0002, 48.6669 ],
-							[ -72.0026, 48.2497 ],
-							[ -72.0026, 48.2499 ],
-							[ -71.5524, 48.3338 ],
-							[ -71.4202, 48.4971 ],
-							[ -71.3505, 48.5827 ],
-							[ -71.3493, 48.9995 ],
-							[ -70.2496, 48.6665 ],
-							[ -69.7684, 48.8682 ],
-							[ -68.8408, 49.251 ],
-							[ -68.8348, 49.2537 ],
-							[ -67.5055, 49.8307 ],
-							[ -67.5048, 49.9998 ],
-							[ -67.502, 50.7497 ],
-							[ -67.4961, 52.2499 ],
-							[ -67.4964, 52.2499 ],
-							[ -69.9991, 52.2498 ],
-							[ -69.9993, 51.646 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9999, 49.5832 ]
+							[ -62.7118, 45.2704 ],
+							[ -62.8428, 45.2503 ],
+							[ -62.8749, 45.2036 ],
+							[ -63.3573, 45.0209 ],
+							[ -63.3321, 45.18 ],
+							[ -63.4779, 45.3539 ],
+							[ -63.5272, 45.3486 ],
+							[ -63.5763, 45.3433 ],
+							[ -64.1149, 45.2833 ],
+							[ -64.2264, 45.2662 ],
+							[ -64.3226, 45.3291 ],
+							[ -64.5186, 45.3454 ],
+							[ -65.0577, 45.1243 ],
+							[ -65.0987, 45.2427 ],
+							[ -65.8843, 44.8139 ],
+							[ -66.5371, 44.3055 ],
+							[ -66.2609, 43.9343 ],
+							[ -66.2464, 43.8302 ],
+							[ -66.0816, 43.613 ],
+							[ -65.8528, 43.5481 ],
+							[ -65.779, 43.4069 ],
+							[ -65.6057, 43.3204 ],
+							[ -64.8863, 43.7582 ],
+							[ -64.4838, 44.0841 ],
+							[ -64.2742, 44.1629 ],
+							[ -63.9672, 44.4641 ],
+							[ -63.6521, 44.3309 ],
+							[ -63.2658, 44.6121 ],
+							[ -63.2105, 44.6376 ],
+							[ -62.9403, 44.6081 ],
+							[ -62.0547, 44.8797 ],
+							[ -61.1946, 45.1755 ],
+							[ -60.9193, 45.2127 ],
+							[ -60.9214, 45.3595 ],
+							[ -61.2399, 45.5263 ],
+							[ -61.2879, 45.5429 ],
+							[ -61.3587, 45.578 ],
+							[ -61.3709, 45.5863 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.4371, 45.6492 ],
+							[ -61.5031, 45.6221 ],
+							[ -61.7374, 45.525 ],
+							[ -61.733, 45.5024 ],
+							[ -61.7299, 45.4868 ],
+							[ -61.949, 45.3941 ],
+							[ -62.0904, 45.3736 ],
+							[ -62.6235, 45.2947 ],
+							[ -62.6877, 45.2911 ],
+							[ -62.7118, 45.2704 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
+				"event" : "Snowfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 17, 2020 09:35",
-				"Expires_UTC" : "December 18, 2020 01:35",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nAn Arctic airmass combined with moderate winds will generate wind chill values between -38 and -40 this morning and overnight tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-18T01:35:29-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T09:35:29-00:00, urn:oid:2.49.0.1.124.0608780054.2020<br>Area: Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
+				"LastUpdate_UTC" : "December 17, 2020 15:56",
+				"Expires_UTC" : "December 18, 2020 07:56",
+				"Summary" : "Description: Significant snowfall will continue today and into tonight.\n\nTotal snowfall: 20 to 30 cm.\n\nLocations: portions of mainland Nova Scotia.\n\nTime span: tonight and early Friday morning.\n\nRemarks: A low pressure system passing to the south of the province will continue to bring snowfall and gusty winds of up to 70 km/h. The heaviest snowfall rates are expected this evening and into tonight. Conditions will improve from west to east on Friday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. There may be a significant impact on rush hour traffic in urban areas.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-12-18T07:56:36-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T15:56:36-00:00, urn:oid:2.49.0.1.124.4072428369.2020<br>Area: Kings County, Annapolis County, Digby County, Lunenburg County, Queens County, Shelburne County, Yarmouth County, Hants County, Halifax Metro and Halifax County West, Halifax County - east of Porters Lake, Guysborough County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.0608780054.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T09_35_29_00_00Iurn_oid_2.49.0.1.124.0608780054.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.4072428369.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T15_56_36_00_00Iurn_oid_2.49.0.1.124.4072428369.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201218013529+00:00"
+				"Expires_FMEFormat" : "20201218075636+00:00"
 			}
 		},
 		{
@@ -1063,57 +1086,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.233, 47.0165 ],
-							[ -71.4664, 46.7831 ],
-							[ -71.4527, 46.7491 ],
-							[ -71.433, 46.6998 ],
-							[ -71.4113, 46.6782 ],
-							[ -71.3876, 46.6545 ],
-							[ -71.3164, 46.5831 ],
-							[ -70.9766, 46.7611 ],
-							[ -70.9664, 46.7665 ],
-							[ -70.852, 46.6032 ],
-							[ -70.8497, 46.5998 ],
-							[ -70.8486, 46.5988 ],
-							[ -70.8484, 46.5986 ],
-							[ -70.4841, 46.7998 ],
-							[ -70.7199, 47.0115 ],
-							[ -70.7016, 47.0257 ],
-							[ -71.016, 47.1831 ],
-							[ -71.233, 47.0165 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Storm Surge Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Storm Surge",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 17, 2020 13:27",
-				"Expires_UTC" : "December 18, 2020 04:59",
-				"Summary" : "Description: Coastal flood warning issued jointly by Fisheries and Oceans Canada (Science) and the Meteorological Service of Canada - Quebec Region on 2020-12-17.\n\nHigher than normal water levels and waves are expected near the coast this evening.\n\nA strong area of high pressure will bring moderate northeasterly winds to the region mentioned below.  The combination of these winds and the fact that we are currently in a period of high amplitude tidal range could cause minor flooding along the coast near these localities, on the dates and at the times specified (Eastern Standard Time).\n\nQuebec City: 2020-12-17, from 06:30 p.m. to 09:30 p.m.\n\n###\n\nCoastal flooding is possible along the shoreline. Coastal erosion is possible in vulnerable areas.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-18T04:59:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T13:27:27-00:00, urn:oid:2.49.0.1.124.2521162839.2020<br>Area: Québec area, Côte-de-Beaupré - L'Île d'Orléans area, Bellechasse area, Lévis area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.2521162839.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T13_27_27_00_00Iurn_oid_2.49.0.1.124.2521162839.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201218045927+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -125.7425, 66.8628 ],
 							[ -125.5547, 66.9859 ],
 							[ -125.5454, 67.0444 ],
@@ -1163,6 +1135,67 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T04_25_39_00_00Iurn_oid_2.49.0.1.124.0815931287.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201217202539+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -136.4483, 67.8636 ],
+							[ -136.4483, 67.7088 ],
+							[ -136.6, 67.7081 ],
+							[ -136.599, 67.6198 ],
+							[ -136.3751, 67.5717 ],
+							[ -136.3691, 67.3323 ],
+							[ -136.2898, 67.2533 ],
+							[ -136.3737, 67.1424 ],
+							[ -136.3978, 67.1103 ],
+							[ -136.4139, 67.0889 ],
+							[ -136.3553, 66.9923 ],
+							[ -136.012, 67 ],
+							[ -135.5163, 66.9908 ],
+							[ -134.9833, 67 ],
+							[ -134.6249, 66.9942 ],
+							[ -134.2512, 67 ],
+							[ -133.8504, 66.9932 ],
+							[ -133.591, 67.0054 ],
+							[ -133.2737, 67.0038 ],
+							[ -133.011, 67.0157 ],
+							[ -133.0009, 67.1165 ],
+							[ -133.0064, 67.2151 ],
+							[ -132.9819, 67.5732 ],
+							[ -133.0092, 67.8428 ],
+							[ -133.6812, 67.8581 ],
+							[ -134.371, 67.8553 ],
+							[ -135.436, 67.8735 ],
+							[ -136.4483, 67.8636 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 17, 2020 11:17",
+				"Expires_UTC" : "December 18, 2020 03:17",
+				"Summary" : "Description: Very cold temperatures with light winds will cause the windchill to drop to -50 on Thursday night.  The extreme cold warning is expected to be ended by Friday afternoon.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-12-18T03:17:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T11:17:06-00:00, urn:oid:2.49.0.1.124.3500363409.2020<br>Area: South Delta Region including Ft. McPherson - Tsiigehtchic",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.3500363409.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T11_17_06_00_00Iurn_oid_2.49.0.1.124.3500363409.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201218031706+00:00"
 			}
 		},
 		{
@@ -1249,67 +1282,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T03_08_47_00_00Iurn_oid_2.49.0.1.124.3250530439.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201217165947+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -136.4483, 67.8636 ],
-							[ -136.4483, 67.7088 ],
-							[ -136.6, 67.7081 ],
-							[ -136.599, 67.6198 ],
-							[ -136.3751, 67.5717 ],
-							[ -136.3691, 67.3323 ],
-							[ -136.2898, 67.2533 ],
-							[ -136.3737, 67.1424 ],
-							[ -136.3978, 67.1103 ],
-							[ -136.4139, 67.0889 ],
-							[ -136.3553, 66.9923 ],
-							[ -136.012, 67 ],
-							[ -135.5163, 66.9908 ],
-							[ -134.9833, 67 ],
-							[ -134.6249, 66.9942 ],
-							[ -134.2512, 67 ],
-							[ -133.8504, 66.9932 ],
-							[ -133.591, 67.0054 ],
-							[ -133.2737, 67.0038 ],
-							[ -133.011, 67.0157 ],
-							[ -133.0009, 67.1165 ],
-							[ -133.0064, 67.2151 ],
-							[ -132.9819, 67.5732 ],
-							[ -133.0092, 67.8428 ],
-							[ -133.6812, 67.8581 ],
-							[ -134.371, 67.8553 ],
-							[ -135.436, 67.8735 ],
-							[ -136.4483, 67.8636 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 17, 2020 11:17",
-				"Expires_UTC" : "December 18, 2020 03:17",
-				"Summary" : "Description: Very cold temperatures with light winds will cause the windchill to drop to -50 on Thursday night.  The extreme cold warning is expected to be ended by Friday afternoon.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-12-18T03:17:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T11:17:06-00:00, urn:oid:2.49.0.1.124.3500363409.2020<br>Area: South Delta Region including Ft. McPherson - Tsiigehtchic",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.3500363409.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T11_17_06_00_00Iurn_oid_2.49.0.1.124.3500363409.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201218031706+00:00"
 			}
 		},
 		{
@@ -2595,6 +2567,66 @@
 				"coordinates" : [
 					[
 						[
+							[ -71.9999, 49.5832 ],
+							[ -72.6628, 49.6658 ],
+							[ -72.6666, 49.6653 ],
+							[ -73.4993, 49.55 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.667, 48.9996 ],
+							[ -73.0002, 48.6669 ],
+							[ -72.0026, 48.2497 ],
+							[ -72.0026, 48.2499 ],
+							[ -71.5524, 48.3338 ],
+							[ -71.4202, 48.4971 ],
+							[ -71.3505, 48.5827 ],
+							[ -71.3493, 48.9995 ],
+							[ -70.2496, 48.6665 ],
+							[ -69.7684, 48.8682 ],
+							[ -68.8408, 49.251 ],
+							[ -68.8348, 49.2537 ],
+							[ -67.5055, 49.8307 ],
+							[ -67.5048, 49.9998 ],
+							[ -67.502, 50.7497 ],
+							[ -67.4961, 52.2499 ],
+							[ -67.4964, 52.2499 ],
+							[ -69.9991, 52.2498 ],
+							[ -69.9993, 51.646 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9999, 49.5832 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 17, 2020 16:08",
+				"Expires_UTC" : "December 18, 2020 08:08",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-18T08:08:35-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T16:08:35-00:00, urn:oid:2.49.0.1.124.3345475355.2020<br>Area: Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.3345475355.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T16_08_35_00_00Iurn_oid_2.49.0.1.124.3345475355.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201218080835+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -62.2998, 45.8648 ],
 							[ -63.1438, 45.8448 ],
 							[ -63.1906, 45.811 ],
@@ -2757,6 +2789,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T14_11_43_00_00Iurn_oid_2.49.0.1.124.2196127105.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201217215943+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.233, 47.0165 ],
+							[ -71.4664, 46.7831 ],
+							[ -71.4527, 46.7491 ],
+							[ -71.433, 46.6998 ],
+							[ -71.4113, 46.6782 ],
+							[ -71.3876, 46.6545 ],
+							[ -71.3164, 46.5831 ],
+							[ -70.9766, 46.7611 ],
+							[ -70.9664, 46.7665 ],
+							[ -70.852, 46.6032 ],
+							[ -70.8497, 46.5998 ],
+							[ -70.8486, 46.5988 ],
+							[ -70.8484, 46.5986 ],
+							[ -70.4841, 46.7998 ],
+							[ -70.7199, 47.0115 ],
+							[ -70.7016, 47.0257 ],
+							[ -71.016, 47.1831 ],
+							[ -71.233, 47.0165 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Storm Surge Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Storm Surge",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 17, 2020 15:58",
+				"Expires_UTC" : "December 18, 2020 04:59",
+				"Summary" : "Description: Coastal flood warning issued jointly by Fisheries and Oceans Canada (Science) and the Meteorological Service of Canada - Quebec Region on 2020-12-17.\n\nHigher than normal water levels and waves are expected near the coast this evening.\n\nA strong area of high pressure will bring moderate northeasterly winds to the region mentioned below. The combination of these winds and the fact that we are currently in a period of high amplitude tidal range could cause minor flooding along the coast near these localities, on the dates and at the times specified (Eastern Standard Time).\n\nQuebec City: 2020-12-17, from 06:30 p.m. to 09:30 p.m.\n\n###\n\nCoastal flooding is possible along the shoreline. Coastal erosion is possible in vulnerable areas.\n\nStorm surge warnings are issued when water levels pose a threat to coastal regions.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-18T04:59:05-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T15:58:05-00:00, urn:oid:2.49.0.1.124.0815029811.2020<br>Area: Québec area, Côte-de-Beaupré - L'Île d'Orléans area, Bellechasse area, Lévis area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.0815029811.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T15_58_05_00_00Iurn_oid_2.49.0.1.124.0815029811.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201218045905+00:00"
 			}
 		},
 		{
