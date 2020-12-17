@@ -493,6 +493,59 @@
 				"coordinates" : [
 					[
 						[
+							[ -123.5748, 48.3943 ],
+							[ -123.542, 48.3187 ],
+							[ -123.4896, 48.2322 ],
+							[ -123.426, 48.2476 ],
+							[ -123.25, 48.29 ],
+							[ -123.12, 48.4199 ],
+							[ -123.16, 48.4599 ],
+							[ -123.22, 48.5499 ],
+							[ -123.2699, 48.6899 ],
+							[ -123.4183, 48.7175 ],
+							[ -123.4615, 48.7087 ],
+							[ -123.5208, 48.7134 ],
+							[ -123.5279, 48.7224 ],
+							[ -123.5563, 48.7245 ],
+							[ -123.5598, 48.7191 ],
+							[ -123.5635, 48.7133 ],
+							[ -123.5665, 48.6917 ],
+							[ -123.5774, 48.6142 ],
+							[ -123.6336, 48.4754 ],
+							[ -123.5748, 48.3943 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 17, 2020 12:31",
+				"Expires_UTC" : "December 17, 2020 13:31",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-12-17T13:31:51-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T12:31:51-00:00, urn:oid:2.49.0.1.124.2312032955.2020<br>Area: Greater Victoria",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.2312032955.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T12_31_51_00_00Iurn_oid_2.49.0.1.124.2312032955.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217133151+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -117.6288, 49.3397 ],
 							[ -117.9877, 49.3461 ],
 							[ -118.2922, 49.1165 ],
@@ -1324,6 +1377,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T09_18_05_00_00Iurn_oid_2.49.0.1.124.0555120261.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201218011805+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.1999, 54.7 ],
+							[ -122.8357, 54.848 ],
+							[ -122.4999, 54.9999 ],
+							[ -122.0782, 55.1899 ],
+							[ -121.6999, 55.38 ],
+							[ -121.839, 55.5297 ],
+							[ -122.0337, 55.7116 ],
+							[ -122.6071, 56.3068 ],
+							[ -123.2874, 56.9577 ],
+							[ -123.3, 56.9999 ],
+							[ -125.06, 57.0477 ],
+							[ -126.6699, 56.9999 ],
+							[ -125.4202, 56.0297 ],
+							[ -124.4416, 55.346 ],
+							[ -124.4199, 55.33 ],
+							[ -124.1684, 55.1898 ],
+							[ -123.9108, 55.067 ],
+							[ -123.4872, 54.615 ],
+							[ -123.3415, 54.655 ],
+							[ -123.1999, 54.7 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 17, 2020 12:11",
+				"Expires_UTC" : "December 17, 2020 13:11",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-17T13:11:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T12:11:56-00:00, urn:oid:2.49.0.1.124.2213607247.2020<br>Area: Williston",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.2213607247.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T12_11_56_00_00Iurn_oid_2.49.0.1.124.2213607247.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201217131156+00:00"
 			}
 		},
 		{
@@ -2346,59 +2452,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T11_21_14_00_00Iurn_oid_2.49.0.1.124.0341596269.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201218032114+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.1999, 54.7 ],
-							[ -122.8357, 54.848 ],
-							[ -122.4999, 54.9999 ],
-							[ -122.0782, 55.1899 ],
-							[ -121.6999, 55.38 ],
-							[ -121.839, 55.5297 ],
-							[ -122.0337, 55.7116 ],
-							[ -122.6071, 56.3068 ],
-							[ -123.2874, 56.9577 ],
-							[ -123.3, 56.9999 ],
-							[ -125.06, 57.0477 ],
-							[ -126.6699, 56.9999 ],
-							[ -125.4202, 56.0297 ],
-							[ -124.4416, 55.346 ],
-							[ -124.4199, 55.33 ],
-							[ -124.1684, 55.1898 ],
-							[ -123.9108, 55.067 ],
-							[ -123.4872, 54.615 ],
-							[ -123.3415, 54.655 ],
-							[ -123.1999, 54.7 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 17, 2020 12:11",
-				"Expires_UTC" : "December 17, 2020 13:11",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-17T13:11:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T12:11:56-00:00, urn:oid:2.49.0.1.124.2213607247.2020<br>Area: Williston",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.2213607247.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T12_11_56_00_00Iurn_oid_2.49.0.1.124.2213607247.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201217131156+00:00"
 			}
 		},
 		{
