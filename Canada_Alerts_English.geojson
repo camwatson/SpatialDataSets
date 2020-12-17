@@ -322,48 +322,35 @@
 				"coordinates" : [
 					[
 						[
-							[ -137.8443, 65.4581 ],
-							[ -134.9833, 67 ],
-							[ -135.4962, 67.0133 ],
-							[ -135.9999, 67 ],
-							[ -136.012, 67 ],
-							[ -136.0889, 67.1757 ],
-							[ -135.9251, 67.2657 ],
-							[ -136.136, 67.2766 ],
-							[ -136.3737, 67.1424 ],
-							[ -136.6048, 67.0102 ],
-							[ -137.1316, 66.6721 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.4948, 64.415 ],
-							[ -138.0022, 64.3497 ],
-							[ -137.911, 64.3385 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8443, 65.4581 ]
+							[ -78.5138, 55.3729 ],
+							[ -78.2058, 56.8774 ],
+							[ -80.2962, 57.0654 ],
+							[ -80.7756, 55.6151 ],
+							[ -78.5138, 55.3729 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
 				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 17, 2020 23:20",
-				"Expires_UTC" : "December 18, 2020 15:20",
-				"Summary" : "Description: Poor visibility in blowing snow is expected or occurring in some locations.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-12-18T15:20:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T23:20:38-00:00, urn:oid:2.49.0.1.124.1198575933.2020<br>Area: Dempster",
+				"event" : "Blizzard",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 17, 2020 23:31",
+				"Expires_UTC" : "December 18, 2020 00:31",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n###<br>Expires: 2020-12-18T00:31:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T23:31:57-00:00, urn:oid:2.49.0.1.124.1660024954.2020<br>Area: Sanikiluaq",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.1198575933.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T23_20_38_00_00Iurn_oid_2.49.0.1.124.1198575933.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.1660024954.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T23_31_57_00_00Iurn_oid_2.49.0.1.124.1660024954.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201218152038+00:00"
+				"Expires_FMEFormat" : "20201218003157+00:00"
 			}
 		},
 		{
@@ -413,6 +400,57 @@
 				"language" : "en-CA",
 				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.3531601331.2020",
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T23_20_38_00_00Iurn_oid_2.49.0.1.124.3531601331.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201218152038+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ],
+							[ -136.3737, 67.1424 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 17, 2020 23:20",
+				"Expires_UTC" : "December 18, 2020 15:20",
+				"Summary" : "Description: Poor visibility in blowing snow is expected or occurring in some locations.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2020-12-18T15:20:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-17T23:20:38-00:00, urn:oid:2.49.0.1.124.1198575933.2020<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-17:feed.atom/urn:oid:2.49.0.1.124.1198575933.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-17/2020_12_17T23_20_38_00_00Iurn_oid_2.49.0.1.124.1198575933.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201218152038+00:00"
 			}
