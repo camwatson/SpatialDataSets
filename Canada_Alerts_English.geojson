@@ -3902,67 +3902,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -55.3737, 48.6852 ],
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ],
-							[ -54.1199, 48.25 ],
-							[ -53.9005, 48.3746 ],
-							[ -53.836, 48.4368 ],
-							[ -53.7275, 48.5317 ],
-							[ -53.6375, 48.5439 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.4018, 49.5793 ],
-							[ -55.3736, 50.013 ],
-							[ -55.7129, 50.3339 ],
-							[ -56.4068, 50.2167 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.99, 50.25 ],
-							[ -57.2, 49.8499 ],
-							[ -57.3499, 49.58 ],
-							[ -56.817, 49.2073 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.3737, 48.6852 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Freezing Drizzle Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Drizzle",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 19, 2020 08:29",
-				"Expires_UTC" : "December 19, 2020 22:59",
-				"Summary" : "Description: An extended period of freezing drizzle is expected.\n\nLocations: northeastern Newfoundland.\n\nTime span: today.\n\nRemarks: A mixture of freezing drizzle and flurries will persist through much of the day today. \n\nConditions are expected to improve this afternoon and into this evening as the northeasterly flow weakens.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous.\n\nFreezing drizzle advisories are issued when drizzle falling in sub-zero temperatures is expected to freeze on contact, and over time create icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-19T22:59:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-19T08:29:23-00:00, urn:oid:2.49.0.1.124.3044317956.2020<br>Area: Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Gander and vicinity, Green Bay - White Bay, Terra Nova",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-19:feed.atom/urn:oid:2.49.0.1.124.3044317956.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-19/2020_12_19T08_29_23_00_00Iurn_oid_2.49.0.1.124.3044317956.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201219225923+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -105.6733, 69.1682 ],
 							[ -105.727, 69.0273 ],
 							[ -105.2968, 68.8552 ],
@@ -4802,6 +4741,67 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-19/2020_12_19T11_55_08_00_00Iurn_oid_2.49.0.1.124.0483567969.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201220035508+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.3737, 48.6852 ],
+							[ -54.9999, 48.5499 ],
+							[ -55, 48.25 ],
+							[ -54.1199, 48.25 ],
+							[ -53.9005, 48.3746 ],
+							[ -53.836, 48.4368 ],
+							[ -53.7275, 48.5317 ],
+							[ -53.6375, 48.5439 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.3737, 48.6852 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Freezing Drizzle Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Drizzle",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 19, 2020 14:12",
+				"Expires_UTC" : "December 19, 2020 15:12",
+				"Summary" : "Description: Widespread freezing drizzle is no longer expected.\n\n\n###<br>Expires: 2020-12-19T15:12:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-19T14:12:49-00:00, urn:oid:2.49.0.1.124.3060939044.2020<br>Area: Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Gander and vicinity, Green Bay - White Bay, Terra Nova",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-19:feed.atom/urn:oid:2.49.0.1.124.3060939044.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-19/2020_12_19T14_12_49_00_00Iurn_oid_2.49.0.1.124.3060939044.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201219151249+00:00"
 			}
 		}
 	]
