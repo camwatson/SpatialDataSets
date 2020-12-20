@@ -1010,6 +1010,111 @@
 				"coordinates" : [
 					[
 						[
+							[ -128.7905, 65.5328 ],
+							[ -128.5444, 65.6128 ],
+							[ -128.5178, 65.6213 ],
+							[ -127.3516, 65.9868 ],
+							[ -129.0486, 66.8628 ],
+							[ -129.5412, 66.7186 ],
+							[ -129.5586, 66.7133 ],
+							[ -129.5802, 66.7072 ],
+							[ -129.6147, 66.6966 ],
+							[ -129.6207, 66.6949 ],
+							[ -129.6267, 66.6931 ],
+							[ -130.5023, 66.4274 ],
+							[ -128.7905, 65.5328 ]
+						]
+					],
+					[
+						[
+							[ -125.7425, 66.8628 ],
+							[ -125.5547, 66.9859 ],
+							[ -125.5454, 67.0444 ],
+							[ -125.7166, 67.1816 ],
+							[ -126.0977, 67.2424 ],
+							[ -126.5038, 67.1861 ],
+							[ -126.6874, 67.0412 ],
+							[ -126.5582, 66.889 ],
+							[ -126.1449, 66.8101 ],
+							[ -125.7425, 66.8628 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Immediate",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 20, 2020 17:28",
+				"Expires_UTC" : "December 21, 2020 06:59",
+				"Summary" : "Description: A prolonged period of very cold wind chills continues.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2020-12-21T06:59:58-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-20T17:28:58-00:00, urn:oid:2.49.0.1.124.0507183731.2020<br>Area: Fort Good Hope Region",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-20:feed.atom/urn:oid:2.49.0.1.124.0507183731.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-20/2020_12_20T17_28_58_00_00Iurn_oid_2.49.0.1.124.0507183731.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201221065958+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -117.6599, 62.622 ],
+							[ -115.8892, 62.6102 ],
+							[ -115.6981, 62.6222 ],
+							[ -115.5291, 62.6347 ],
+							[ -115.5035, 62.6368 ],
+							[ -115.5019, 62.637 ],
+							[ -113.9731, 62.768 ],
+							[ -113.2389, 62.8246 ],
+							[ -113.4282, 63.5167 ],
+							[ -113.7516, 64.6254 ],
+							[ -117.7149, 64.6564 ],
+							[ -117.6599, 62.622 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 20, 2020 17:27",
+				"Expires_UTC" : "December 20, 2020 18:27",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-12-20T18:27:03-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-20T17:27:03-00:00, urn:oid:2.49.0.1.124.4258612324.2020<br>Area: North Slave Region including Wekweeti - Whati - Behchoko",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-20:feed.atom/urn:oid:2.49.0.1.124.4258612324.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-20/2020_12_20T17_27_03_00_00Iurn_oid_2.49.0.1.124.4258612324.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201220182703+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -113.6528, 48.9975 ],
 							[ -113.486, 48.9975 ],
 							[ -113.2302, 48.9968 ],
@@ -2871,51 +2976,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-20/2020_12_20T11_54_47_00_00Iurn_oid_2.49.0.1.124.0418221792.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201221035447+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -110.0061, 59.3009 ],
-							[ -110.033, 59.0026 ],
-							[ -110.0061, 58.6892 ],
-							[ -110.0222, 58.5503 ],
-							[ -110.006, 58.3999 ],
-							[ -108.0497, 58.3999 ],
-							[ -108.0249, 59.1555 ],
-							[ -108.0496, 59.9996 ],
-							[ -108.9939, 60.0176 ],
-							[ -110.0063, 59.9994 ],
-							[ -110.035, 59.6475 ],
-							[ -110.0061, 59.3009 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 20, 2020 16:22",
-				"Expires_UTC" : "December 20, 2020 17:22",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2020-12-20T17:22:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-20T16:22:18-00:00, urn:oid:2.49.0.1.124.4286238550.2020<br>Area: Uranium City - Camsell Portage",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-20:feed.atom/urn:oid:2.49.0.1.124.4286238550.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-20/2020_12_20T16_22_18_00_00Iurn_oid_2.49.0.1.124.4286238550.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201220172218+00:00"
 			}
 		},
 		{
