@@ -1073,6 +1073,80 @@
 				"coordinates" : [
 					[
 						[
+							[ -128.8048, 50.9385 ],
+							[ -129.3279, 50.9024 ],
+							[ -128.7561, 50.7181 ],
+							[ -127.8902, 50.0396 ],
+							[ -127.7942, 50.0736 ],
+							[ -127.6944, 50.1238 ],
+							[ -127.6707, 50.1385 ],
+							[ -127.6515, 50.1593 ],
+							[ -127.6288, 50.1628 ],
+							[ -127.508, 50.181 ],
+							[ -127.316, 50.2003 ],
+							[ -127.1624, 50.2095 ],
+							[ -126.9556, 50.2012 ],
+							[ -126.69, 50.1899 ],
+							[ -126.484, 50.1866 ],
+							[ -126.217, 50.199 ],
+							[ -126.1582, 50.2352 ],
+							[ -125.988, 50.3402 ],
+							[ -125.899, 50.3883 ],
+							[ -125.8534, 50.3892 ],
+							[ -125.8373, 50.4041 ],
+							[ -125.7844, 50.4041 ],
+							[ -125.7248, 50.4263 ],
+							[ -125.7875, 50.4827 ],
+							[ -125.764, 50.4844 ],
+							[ -125.7091, 50.4949 ],
+							[ -125.7049, 50.5132 ],
+							[ -125.5025, 50.7065 ],
+							[ -125.3217, 50.9024 ],
+							[ -125.9809, 51.2728 ],
+							[ -126.692, 51.65 ],
+							[ -127.2572, 52.2609 ],
+							[ -127.8972, 52.8496 ],
+							[ -128.0577, 52.8693 ],
+							[ -128.2098, 52.8688 ],
+							[ -128.4465, 52.8318 ],
+							[ -128.6149, 52.7579 ],
+							[ -128.7809, 52.6384 ],
+							[ -128.9311, 52.4737 ],
+							[ -129.7213, 51.8219 ],
+							[ -128.8048, 50.9385 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 20, 2020 03:56",
+				"Expires_UTC" : "December 20, 2020 04:56",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-12-20T04:56:50-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-20T03:56:50-00:00, urn:oid:2.49.0.1.124.3035034014.2020<br>Area: North Vancouver Island, Central Coast - coastal sections",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-20:feed.atom/urn:oid:2.49.0.1.124.3035034014.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-20/2020_12_20T03_56_50_00_00Iurn_oid_2.49.0.1.124.3035034014.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201220045650+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -105.6733, 69.1682 ],
 							[ -105.727, 69.0273 ],
 							[ -105.2968, 68.8552 ],
@@ -2577,65 +2651,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -77.2381, 58.0046 ],
-							[ -77.19, 57.9588 ],
-							[ -76.9873, 57.7643 ],
-							[ -76.729, 57.4077 ],
-							[ -76.6217, 57.0841 ],
-							[ -76.5798, 56.709 ],
-							[ -76.6311, 56.3038 ],
-							[ -76.7434, 56.0381 ],
-							[ -77.0865, 55.8067 ],
-							[ -77.1195, 55.7842 ],
-							[ -77.0573, 55.762 ],
-							[ -76.9938, 55.7456 ],
-							[ -75.5197, 55.3505 ],
-							[ -75.5248, 57.9997 ],
-							[ -75.6792, 59.25 ],
-							[ -75.8391, 60.25 ],
-							[ -75.8395, 60.25 ],
-							[ -77.4863, 60.2597 ],
-							[ -77.5979, 60.2596 ],
-							[ -77.746, 60.0826 ],
-							[ -77.5194, 59.8669 ],
-							[ -77.9427, 59.7479 ],
-							[ -78.0177, 59.2767 ],
-							[ -78.6421, 58.9635 ],
-							[ -78.6557, 58.6258 ],
-							[ -77.2381, 58.0046 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 20, 2020 03:38",
-				"Expires_UTC" : "December 20, 2020 12:49",
-				"Summary" : "Description: Blizzard ending overnight.\n\nA blizzard warning is issued when winds are expected to produce blowing snow causing widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-20T12:49:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-20T03:38:16-00:00, urn:oid:2.49.0.1.124.3040343203.2020<br>Area: Puvirnituq, Inukjuak",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-20:feed.atom/urn:oid:2.49.0.1.124.3040343203.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-20/2020_12_20T03_38_16_00_00Iurn_oid_2.49.0.1.124.3040343203.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201220124916+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -141.0012, 66.9991 ],
 							[ -140.9984, 66.9989 ],
 							[ -139.4889, 66.9773 ],
@@ -2719,6 +2734,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-19/2020_12_19T23_59_38_00_00Iurn_oid_2.49.0.1.124.0608612829.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201220155938+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -77.2381, 58.0046 ],
+							[ -77.19, 57.9588 ],
+							[ -76.9873, 57.7643 ],
+							[ -76.729, 57.4077 ],
+							[ -76.6217, 57.0841 ],
+							[ -76.5798, 56.709 ],
+							[ -76.6311, 56.3038 ],
+							[ -76.7434, 56.0381 ],
+							[ -77.0865, 55.8067 ],
+							[ -77.1195, 55.7842 ],
+							[ -77.0573, 55.762 ],
+							[ -76.9938, 55.7456 ],
+							[ -75.5197, 55.3505 ],
+							[ -75.5248, 57.9997 ],
+							[ -75.6792, 59.25 ],
+							[ -75.8391, 60.25 ],
+							[ -75.8395, 60.25 ],
+							[ -77.4863, 60.2597 ],
+							[ -77.5979, 60.2596 ],
+							[ -77.746, 60.0826 ],
+							[ -77.5194, 59.8669 ],
+							[ -77.9427, 59.7479 ],
+							[ -78.0177, 59.2767 ],
+							[ -78.6421, 58.9635 ],
+							[ -78.6557, 58.6258 ],
+							[ -77.2381, 58.0046 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 20, 2020 03:38",
+				"Expires_UTC" : "December 20, 2020 12:49",
+				"Summary" : "Description: Blizzard ending overnight.\n\nA blizzard warning is issued when winds are expected to produce blowing snow causing widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-20T12:49:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-20T03:38:16-00:00, urn:oid:2.49.0.1.124.3040343203.2020<br>Area: Puvirnituq, Inukjuak",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-20:feed.atom/urn:oid:2.49.0.1.124.3040343203.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-20/2020_12_20T03_38_16_00_00Iurn_oid_2.49.0.1.124.3040343203.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201220124916+00:00"
 			}
 		},
 		{
