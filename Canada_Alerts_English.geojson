@@ -165,45 +165,91 @@
 				"coordinates" : [
 					[
 						[
-							[ -115.0388, 68.0735 ],
-							[ -115.0934, 67.9545 ],
-							[ -115.6489, 67.917 ],
-							[ -115.6517, 67.9119 ],
-							[ -115.7054, 67.8289 ],
-							[ -115.669, 67.7438 ],
-							[ -115.5482, 67.6708 ],
-							[ -115.3717, 67.6228 ],
-							[ -115.1514, 67.6031 ],
-							[ -114.9375, 67.616 ],
-							[ -114.7513, 67.6583 ],
-							[ -114.6152, 67.7273 ],
-							[ -114.569, 67.7819 ],
-							[ -114.6262, 68.0024 ],
-							[ -115.0388, 68.0735 ]
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Wreckhouse Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
+				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 21, 2020 15:38",
-				"Expires_UTC" : "December 22, 2020 07:38",
-				"Summary" : "Description: Extreme cold wind chill values near minus 55 are expected to continue until Tuesday morning.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-12-22T07:38:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T15:38:11-00:00, urn:oid:2.49.0.1.124.4044441236.2020<br>Area: Kugluktuk",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 21, 2020 19:30",
+				"Expires_UTC" : "December 22, 2020 11:30",
+				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\nMaximum gusts: southeasterly up to 130 km/h in the Wreckhouse area.\n\nTime span: tonight and Tuesday morning.\n\nRemarks:  Winds will generally gust to 100 km/h into this evening, then a bit of a lull is likely for a few hours.  Winds will increase again overnight with gusts reaching 130 km/h. Winds will ease upon shifting to southwesterly by midday Tuesday.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-22T11:30:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T19:30:12-00:00, urn:oid:2.49.0.1.124.1490751820.2020<br>Area: Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.4044441236.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T15_38_11_00_00Iurn_oid_2.49.0.1.124.4044441236.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.1490751820.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_30_12_00_00Iurn_oid_2.49.0.1.124.1490751820.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222073811+00:00"
+				"Expires_FMEFormat" : "20201222113012+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 21, 2020 19:30",
+				"Expires_UTC" : "December 22, 2020 11:30",
+				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-22T11:30:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T19:30:12-00:00, urn:oid:2.49.0.1.124.3223395881.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.3223395881.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_30_12_00_00Iurn_oid_2.49.0.1.124.3223395881.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222113012+00:00"
 			}
 		},
 		{
@@ -242,18 +288,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 21, 2020 13:59",
-				"Expires_UTC" : "December 22, 2020 05:59",
-				"Summary" : "Description: A major winter storm is expected.\n\nA deepening Pacific low will make its way across Washington state during the day then will cross the southeast corner of B.C. tonight. Abundant moisture associated with the system combined with cold air to the north of its trajectory will produce heavy snowfall across the southern interior of British Columbia. \n\nSnow will begin this morning and become heavy this evening before tapering off Tuesday morning.\n\nTotal snowfall accumulation of 15 to 25 cm is expected across southeastern BC. For Kootenay Pass, amounts up to 40 cm are possible. Over the southernmost regions, precipitation may change to rain this evening which will limit the snowfall amounts locally.\n\n###\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T05:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T13:59:57-00:00, urn:oid:2.49.0.1.124.1647655332.2020<br>Area: Highway 3 - Paulson Summit to Kootenay Pass",
+				"LastUpdate_UTC" : "December 21, 2020 20:11",
+				"Expires_UTC" : "December 22, 2020 12:11",
+				"Summary" : "Description: A major winter storm is expected.\n\nA deepening Pacific low will make its way across Washington state during the day then will cross the southeast corner of B.C. tonight. Abundant moisture associated with the system combined with cold air to the north of its trajectory will produce heavy snowfall across the southern interior of British Columbia. \n\nSnow will continue over southeastern British Columbia and become heavy this evening before tapering off Tuesday morning.\n\nTotal snowfall accumulations of 15 to 25 cm is expected for the Kootenays and Elk Valley. For higher elevations and highway passes like Kootenay Pass, amounts of up to 40 cm are possible. \n\nOver the southernmost regions, precipitation may briefly change over to rain this evening which will limit the snowfall amounts locally.\n\n###\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T12:11:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T20:11:31-00:00, urn:oid:2.49.0.1.124.3210486147.2020<br>Area: Highway 3 - Paulson Summit to Kootenay Pass",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.1647655332.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T13_59_57_00_00Iurn_oid_2.49.0.1.124.1647655332.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.3210486147.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T20_11_31_00_00Iurn_oid_2.49.0.1.124.3210486147.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222055957+00:00"
+				"Expires_FMEFormat" : "20201222121131+00:00"
 			}
 		},
 		{
@@ -292,68 +338,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 21, 2020 13:59",
-				"Expires_UTC" : "December 22, 2020 05:59",
-				"Summary" : "Description: A major winter storm is expected.\n\n###\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T05:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T13:59:38-00:00, urn:oid:2.49.0.1.124.1163085208.2020<br>Area: Highway 3 - Paulson Summit to Kootenay Pass",
+				"LastUpdate_UTC" : "December 21, 2020 20:11",
+				"Expires_UTC" : "December 22, 2020 12:11",
+				"Summary" : "Description: A major winter storm is expected.\n\n###\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T12:11:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T20:11:31-00:00, urn:oid:2.49.0.1.124.4224455924.2020<br>Area: Highway 3 - Paulson Summit to Kootenay Pass",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.1163085208.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T13_59_38_00_00Iurn_oid_2.49.0.1.124.1163085208.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.4224455924.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T20_11_31_00_00Iurn_oid_2.49.0.1.124.4224455924.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222055938+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -117.6288, 49.3397 ],
-							[ -117.9877, 49.3461 ],
-							[ -118.2922, 49.1165 ],
-							[ -118.2885, 49.0147 ],
-							[ -118.1528, 49.0098 ],
-							[ -118.0876, 49.1037 ],
-							[ -117.8554, 49.2529 ],
-							[ -117.351, 49.1413 ],
-							[ -117.3061, 49.0281 ],
-							[ -117.1813, 48.9703 ],
-							[ -116.7943, 49.0828 ],
-							[ -116.4784, 49.0384 ],
-							[ -116.4185, 49.1387 ],
-							[ -116.7929, 49.1868 ],
-							[ -117.1566, 49.0847 ],
-							[ -117.2275, 49.214 ],
-							[ -117.6288, 49.3397 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 21, 2020 13:59",
-				"Expires_UTC" : "December 22, 2020 05:59",
-				"Summary" : "Description: A major winter storm is expected.\n\n###\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T05:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T13:59:57-00:00, urn:oid:2.49.0.1.124.2338545441.2020<br>Area: Highway 3 - Paulson Summit to Kootenay Pass",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.2338545441.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T13_59_57_00_00Iurn_oid_2.49.0.1.124.2338545441.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222055957+00:00"
+				"Expires_FMEFormat" : "20201222121131+00:00"
 			}
 		},
 		{
@@ -551,6 +547,81 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_25_14_00_00Iurn_oid_2.49.0.1.124.1089447609.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201222112514+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -118.9819, 50.7748 ],
+							[ -118.7997, 50.8505 ],
+							[ -118.6785, 50.9394 ],
+							[ -118.5147, 50.8879 ],
+							[ -118.3992, 50.8985 ],
+							[ -118.2175, 50.9531 ],
+							[ -118.1127, 50.9501 ],
+							[ -117.9182, 51.0075 ],
+							[ -117.797, 51.1084 ],
+							[ -117.5946, 51.2075 ],
+							[ -117.49, 51.2228 ],
+							[ -117.4525, 51.2352 ],
+							[ -117.3827, 51.3083 ],
+							[ -117.3632, 51.3427 ],
+							[ -117.3686, 51.3684 ],
+							[ -117.3969, 51.4386 ],
+							[ -117.1808, 51.4357 ],
+							[ -117.1178, 51.3977 ],
+							[ -117.0047, 51.2544 ],
+							[ -116.8691, 51.2971 ],
+							[ -116.9673, 51.4158 ],
+							[ -117.0115, 51.4594 ],
+							[ -117.1232, 51.5222 ],
+							[ -117.1234, 51.5223 ],
+							[ -117.2079, 51.5397 ],
+							[ -117.4283, 51.5563 ],
+							[ -117.4697, 51.5531 ],
+							[ -117.5246, 51.5241 ],
+							[ -117.5521, 51.4885 ],
+							[ -117.5502, 51.4217 ],
+							[ -117.5404, 51.3946 ],
+							[ -117.5576, 51.35 ],
+							[ -117.6053, 51.3005 ],
+							[ -117.6487, 51.2912 ],
+							[ -117.7822, 51.24 ],
+							[ -117.936, 51.1604 ],
+							[ -118.0126, 51.0837 ],
+							[ -118.1426, 51.0473 ],
+							[ -118.4368, 51.0182 ],
+							[ -118.7159, 51.0619 ],
+							[ -119.0844, 50.8447 ],
+							[ -118.9819, 50.7748 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 21, 2020 20:06",
+				"Expires_UTC" : "December 22, 2020 12:06",
+				"Summary" : "Description: Snowfall with total amounts of 20 to 25 cm is expected.\n\nA deepening Pacific low will make its way across Washington state during the day then will cross the southeast corner of B.C. tonight. Abundant moisture associated with the system combined with cold air to the north of its trajectory will produce heavy snowfall across the southern interior of British Columbia. \n\nSnow will continue to intensify over the West Columbia region today before tapering off to flurries overnight. \n\nTotal snowfall accumulations of 20 to 25 cm is expected for this event with the highest amounts likely near Rogers Pass and more generally over higher terrain.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T12:06:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T20:06:00-00:00, urn:oid:2.49.0.1.124.0778943286.2020<br>Area: Trans-Canada Highway - Eagle Pass to Rogers Pass",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.0778943286.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T20_06_00_00_00Iurn_oid_2.49.0.1.124.0778943286.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222120600+00:00"
 			}
 		},
 		{
@@ -1065,6 +1136,51 @@
 						[
 							[ -62.884, 46.5004 ],
 							[ -63.6271, 46.6222 ],
+							[ -63.6157, 46.5529 ],
+							[ -63.5565, 46.3787 ],
+							[ -63.5006, 46.213 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 21, 2020 14:50",
+				"Expires_UTC" : "December 22, 2020 06:50",
+				"Summary" : "Description: Rain, heavy at times is expected.\n\nTotal rainfall: 20 to 35 mm.\n\nLocations: Central and eastern Prince Edward Island.\n\nTime span: Today and persisting into Tuesday morning.\n\nRemarks: An extended period of rain is forecast, with the heaviest amounts tonight. The rain will change to snow Tuesday morning with about 5 cm of snow expected.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-12-22T06:50:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T14:50:41-00:00, urn:oid:2.49.0.1.124.0957985820.2020<br>Area: Kings County P.E.I., Queens County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.0957985820.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T14_50_41_00_00Iurn_oid_2.49.0.1.124.0957985820.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222065041+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
 							[ -63.9227, 46.7494 ],
 							[ -63.9571, 47.0651 ],
 							[ -64.0142, 47.1084 ],
@@ -1112,42 +1228,112 @@
 				"coordinates" : [
 					[
 						[
-							[ -62.884, 46.5004 ],
-							[ -63.6271, 46.6222 ],
-							[ -63.6157, 46.5529 ],
-							[ -63.5565, 46.3787 ],
-							[ -63.5006, 46.213 ],
-							[ -63.4926, 46.1673 ],
-							[ -62.9096, 45.9108 ],
-							[ -62.6427, 45.9054 ],
-							[ -62.4341, 45.9429 ],
-							[ -61.9613, 46.401 ],
-							[ -61.9482, 46.5526 ],
-							[ -62.884, 46.5004 ]
+							[ -119.1405, 49.5191 ],
+							[ -119.0564, 49.5779 ],
+							[ -118.9946, 49.6244 ],
+							[ -118.686, 49.841 ],
+							[ -118.3899, 50.06 ],
+							[ -118.574, 50.3966 ],
+							[ -118.8, 50.7499 ],
+							[ -119.2914, 50.6752 ],
+							[ -119.6999, 50.5999 ],
+							[ -120.3109, 50.5432 ],
+							[ -120.86, 50.47 ],
+							[ -121.061, 50.2555 ],
+							[ -121.26, 50 ],
+							[ -121.1772, 49.7381 ],
+							[ -121.0637, 49.4682 ],
+							[ -121.0994, 49.4698 ],
+							[ -121.1293, 49.3409 ],
+							[ -121.1192, 49.3361 ],
+							[ -121.0015, 49.2791 ],
+							[ -120.8912, 49.3292 ],
+							[ -120.9164, 49.3465 ],
+							[ -120.4962, 49.5618 ],
+							[ -120.0012, 49.8499 ],
+							[ -120.0068, 49.743 ],
+							[ -120.0011, 49.6368 ],
+							[ -120.0129, 49.329 ],
+							[ -120.0009, 48.9994 ],
+							[ -119.6832, 48.9976 ],
+							[ -119.3607, 48.9999 ],
+							[ -119.0352, 48.999 ],
+							[ -118.4789, 48.9986 ],
+							[ -118.0805, 48.9999 ],
+							[ -118.1718, 49.1586 ],
+							[ -118.3111, 49.3599 ],
+							[ -118.6854, 49.4424 ],
+							[ -119.1405, 49.5191 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Rainfall",
+				"event" : "Snowfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 21, 2020 14:50",
-				"Expires_UTC" : "December 22, 2020 06:50",
-				"Summary" : "Description: Rain, heavy at times is expected.\n\nTotal rainfall: 20 to 35 mm.\n\nLocations: Central and eastern Prince Edward Island.\n\nTime span: Today and persisting into Tuesday morning.\n\nRemarks: An extended period of rain is forecast, with the heaviest amounts tonight. The rain will change to snow Tuesday morning with about 5 cm of snow expected.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2020-12-22T06:50:41-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T14:50:41-00:00, urn:oid:2.49.0.1.124.0957985820.2020<br>Area: Kings County P.E.I., Queens County P.E.I.",
+				"LastUpdate_UTC" : "December 21, 2020 20:14",
+				"Expires_UTC" : "December 22, 2020 12:14",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T12:14:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T20:14:30-00:00, urn:oid:2.49.0.1.124.1351922835.2020<br>Area: Nicola, North Okanagan - including Vernon, Central Okanagan - including Kelowna, South Okanagan - including Penticton, Boundary",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.0957985820.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T14_50_41_00_00Iurn_oid_2.49.0.1.124.0957985820.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.1351922835.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T20_14_30_00_00Iurn_oid_2.49.0.1.124.1351922835.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222065041+00:00"
+				"Expires_FMEFormat" : "20201222121430+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -117.6999, 51.63 ],
+							[ -118.6577, 51.6435 ],
+							[ -119.5942, 51.63 ],
+							[ -119.3886, 51.4936 ],
+							[ -118.9999, 51.2999 ],
+							[ -118.9239, 51.0175 ],
+							[ -118.8, 50.7499 ],
+							[ -118.0428, 50.7403 ],
+							[ -117.4199, 50.7499 ],
+							[ -117.1128, 50.7401 ],
+							[ -116.83, 50.7499 ],
+							[ -117.2563, 51.2202 ],
+							[ -117.6999, 51.63 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 21, 2020 20:06",
+				"Expires_UTC" : "December 22, 2020 12:06",
+				"Summary" : "Description: Snowfall with total amounts of 20 to 25 cm is expected.\n\nA deepening Pacific low will make its way across Washington state during the day then will cross the southeast corner of B.C. tonight. Abundant moisture associated with the system combined with cold air to the north of its trajectory will produce heavy snowfall across the southern interior of British Columbia. \n\nSnow will continue to intensify over the West Columbia region today before tapering off to flurries overnight. \n\nTotal snowfall accumulations of 20 to 25 cm is expected for this event with the highest amounts likely near Rogers Pass and more generally over higher terrain.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T12:06:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T20:06:00-00:00, urn:oid:2.49.0.1.124.2866936532.2020<br>Area: West Columbia",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.2866936532.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T20_06_00_00_00Iurn_oid_2.49.0.1.124.2866936532.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222120600+00:00"
 			}
 		},
 		{
@@ -1611,6 +1797,105 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_53_09_00_00Iurn_oid_2.49.0.1.124.0428205590.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201222115309+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ],
+							[ -54.65, 49.25 ],
+							[ -54.15, 49.2 ],
+							[ -54.2, 48.9 ],
+							[ -54.9999, 48.5499 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ]
+						]
+					],
+					[
+						[
+							[ -55.8517, 51.8524 ],
+							[ -55.9388, 51.6058 ],
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 21, 2020 19:22",
+				"Expires_UTC" : "December 22, 2020 11:22",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-22T11:22:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T19:22:02-00:00, urn:oid:2.49.0.1.124.1666553033.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Terra Nova, Northern Peninsula East",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.1666553033.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_22_02_00_00Iurn_oid_2.49.0.1.124.1666553033.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222112202+00:00"
 			}
 		},
 		{
@@ -2523,54 +2808,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_35_50_00_00Iurn_oid_2.49.0.1.124.0602664225.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201222113550+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -68.866, 70.2973 ],
-							[ -68.4617, 70.2406 ],
-							[ -68.1424, 70.3227 ],
-							[ -68.0901, 70.3251 ],
-							[ -68.1042, 70.5961 ],
-							[ -68.7571, 70.7588 ],
-							[ -68.8495, 70.6702 ],
-							[ -68.9763, 70.6379 ],
-							[ -69.0844, 70.5918 ],
-							[ -69.1466, 70.5427 ],
-							[ -69.1714, 70.4863 ],
-							[ -69.1544, 70.4334 ],
-							[ -69.0945, 70.3801 ],
-							[ -68.996, 70.3337 ],
-							[ -68.866, 70.2973 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 21, 2020 15:17",
-				"Expires_UTC" : "December 22, 2020 07:17",
-				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\nBlizzard developing tonight at Clyde River ending early Wednesday.\n\nNorthwesterly winds will strengthen further tonight as a low pressure system passes by in Davis Strait. Conditions will deteriorate to blizzard as winds gusting 80 km/h develop by midnight accompanied by falling snow. Near zero visibilities are likely throughout the remainder of the night and all of Tuesday. \nThe blizzard will ease early Wednesday morning when the low moves off into Baffin Bay.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-12-22T07:17:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T15:17:04-00:00, urn:oid:2.49.0.1.124.0745989926.2020<br>Area: Clyde River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.0745989926.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T15_17_04_00_00Iurn_oid_2.49.0.1.124.0745989926.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222071704+00:00"
 			}
 		},
 		{
@@ -3552,6 +3789,78 @@
 				"coordinates" : [
 					[
 						[
+							[ -118.8, 50.7499 ],
+							[ -118.6009, 50.3905 ],
+							[ -118.3899, 50.06 ],
+							[ -118.7142, 49.8357 ],
+							[ -118.9946, 49.6244 ],
+							[ -119.0591, 49.5801 ],
+							[ -119.1405, 49.5191 ],
+							[ -118.6926, 49.4209 ],
+							[ -118.3111, 49.3599 ],
+							[ -117.7187, 49.5096 ],
+							[ -117.141, 49.6799 ],
+							[ -117.2652, 50.2322 ],
+							[ -117.4199, 50.7499 ],
+							[ -118.0374, 50.7609 ],
+							[ -118.8, 50.7499 ]
+						]
+					],
+					[
+						[
+							[ -116.83, 50.7499 ],
+							[ -116.6401, 50.3736 ],
+							[ -116.4199, 49.9999 ],
+							[ -116.408, 49.9148 ],
+							[ -116.3836, 49.8129 ],
+							[ -115.3497, 49.8395 ],
+							[ -115.2737, 50.1776 ],
+							[ -115.2294, 50.5168 ],
+							[ -115.2263, 50.5403 ],
+							[ -115.2839, 50.5485 ],
+							[ -115.3848, 50.5628 ],
+							[ -115.544, 50.5793 ],
+							[ -115.7542, 50.6325 ],
+							[ -115.837, 50.6508 ],
+							[ -116.006, 50.7499 ],
+							[ -117.0162, 51.6262 ],
+							[ -117.3481, 51.6379 ],
+							[ -117.6999, 51.63 ],
+							[ -117.2965, 51.2012 ],
+							[ -116.83, 50.7499 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 21, 2020 20:08",
+				"Expires_UTC" : "December 22, 2020 12:08",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 20 cm is expected.\n\nA deepening Pacific low will make its way across Washington state during the day then will cross the southeast corner of B.C. tonight. Abundant moisture associated with the system combined with cold air to the north of its trajectory will produce heavy snowfall across the southern interior of British Columbia.\n\nSnow will continue over the Arrow Lakes - Slocan Lake, East Columbia and East Kootenay - North regions through tonight before tapering off Tuesday morning.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T12:08:16-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T20:08:16-00:00, urn:oid:2.49.0.1.124.4004396410.2020<br>Area: Arrow Lakes - Slocan Lake, East Kootenay - north including Invermere, East Columbia",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.4004396410.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T20_08_16_00_00Iurn_oid_2.49.0.1.124.4004396410.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222120816+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -123.6336, 48.4754 ],
 							[ -123.5748, 48.3943 ],
 							[ -123.542, 48.3187 ],
@@ -3700,18 +4009,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 21, 2020 13:59",
-				"Expires_UTC" : "December 22, 2020 05:59",
-				"Summary" : "Description: A major winter storm is expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T05:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T13:59:57-00:00, urn:oid:2.49.0.1.124.2924935524.2020<br>Area: West Kootenay, Kootenay Lake, East Kootenay - south including Cranbrook, Elk Valley",
+				"LastUpdate_UTC" : "December 21, 2020 20:11",
+				"Expires_UTC" : "December 22, 2020 12:11",
+				"Summary" : "Description: A major winter storm is expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T12:11:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T20:11:31-00:00, urn:oid:2.49.0.1.124.3618460591.2020<br>Area: West Kootenay, Kootenay Lake, East Kootenay - south including Cranbrook, Elk Valley",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.2924935524.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T13_59_57_00_00Iurn_oid_2.49.0.1.124.2924935524.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.3618460591.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T20_11_31_00_00Iurn_oid_2.49.0.1.124.3618460591.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222055957+00:00"
+				"Expires_FMEFormat" : "20201222121131+00:00"
 			}
 		},
 		{
@@ -3794,112 +4103,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 21, 2020 13:59",
-				"Expires_UTC" : "December 22, 2020 05:59",
-				"Summary" : "Description: A major winter storm is expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T05:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T13:59:38-00:00, urn:oid:2.49.0.1.124.0533312322.2020<br>Area: West Kootenay, Kootenay Lake, East Kootenay - south including Cranbrook, Elk Valley",
+				"LastUpdate_UTC" : "December 21, 2020 20:11",
+				"Expires_UTC" : "December 22, 2020 12:11",
+				"Summary" : "Description: A major winter storm is expected.\n\nA deepening Pacific low will make its way across Washington state during the day then will cross the southeast corner of B.C. tonight. Abundant moisture associated with the system combined with cold air to the north of its trajectory will produce heavy snowfall across the southern interior of British Columbia. \n\nSnow will continue over southeastern British Columbia and become heavy this evening before tapering off Tuesday morning.\n\nTotal snowfall accumulations of 15 to 25 cm is expected for the Kootenays and Elk Valley. For higher elevations and highway passes like Kootenay Pass, amounts of up to 40 cm are possible. \n\nOver the southernmost regions, precipitation may briefly change over to rain this evening which will limit the snowfall amounts locally.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T12:11:31-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T20:11:31-00:00, urn:oid:2.49.0.1.124.0751731873.2020<br>Area: West Kootenay, Kootenay Lake, East Kootenay - south including Cranbrook, Elk Valley",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.0533312322.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T13_59_38_00_00Iurn_oid_2.49.0.1.124.0533312322.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.0751731873.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T20_11_31_00_00Iurn_oid_2.49.0.1.124.0751731873.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222055938+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -116.3836, 49.8129 ],
-							[ -116.3968, 49.9055 ],
-							[ -116.4199, 49.9999 ],
-							[ -116.6106, 50.3766 ],
-							[ -116.83, 50.7499 ],
-							[ -117.1084, 50.7584 ],
-							[ -117.4199, 50.7499 ],
-							[ -117.3089, 50.2203 ],
-							[ -117.141, 49.6799 ],
-							[ -117.73, 49.5293 ],
-							[ -118.3111, 49.3599 ],
-							[ -118.1874, 49.1482 ],
-							[ -118.0805, 48.9999 ],
-							[ -117.919, 48.9997 ],
-							[ -117.6076, 48.9998 ],
-							[ -117.1382, 48.9984 ],
-							[ -117.0272, 48.9991 ],
-							[ -116.9629, 48.9993 ],
-							[ -116.4059, 48.9995 ],
-							[ -116.2208, 49.0007 ],
-							[ -115.6153, 48.9995 ],
-							[ -115.1307, 48.9988 ],
-							[ -114.9505, 48.9998 ],
-							[ -114.1153, 48.9991 ],
-							[ -114.0303, 48.9984 ],
-							[ -114.0318, 49.0579 ],
-							[ -114.0966, 49.1067 ],
-							[ -114.1096, 49.1281 ],
-							[ -114.124, 49.1518 ],
-							[ -114.1695, 49.1905 ],
-							[ -114.1825, 49.1953 ],
-							[ -114.3582, 49.2598 ],
-							[ -114.5375, 49.4199 ],
-							[ -114.5326, 49.5244 ],
-							[ -114.5297, 49.5853 ],
-							[ -114.59, 49.5825 ],
-							[ -114.6833, 49.5779 ],
-							[ -114.7006, 49.6025 ],
-							[ -114.6251, 49.6256 ],
-							[ -114.6261, 49.6693 ],
-							[ -114.6266, 49.6915 ],
-							[ -114.5873, 49.7123 ],
-							[ -114.5918, 49.8335 ],
-							[ -114.6409, 49.9156 ],
-							[ -114.6039, 49.9909 ],
-							[ -114.6643, 50.1372 ],
-							[ -114.6898, 50.1988 ],
-							[ -114.7018, 50.2277 ],
-							[ -114.7095, 50.267 ],
-							[ -114.7433, 50.322 ],
-							[ -114.7326, 50.3623 ],
-							[ -114.8075, 50.4109 ],
-							[ -115.0047, 50.606 ],
-							[ -115.1688, 50.5894 ],
-							[ -115.1982, 50.5684 ],
-							[ -115.2241, 50.5401 ],
-							[ -115.2263, 50.5403 ],
-							[ -115.2314, 50.5176 ],
-							[ -115.3049, 50.1876 ],
-							[ -115.3497, 49.8395 ],
-							[ -116.3836, 49.8129 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 21, 2020 13:59",
-				"Expires_UTC" : "December 22, 2020 05:59",
-				"Summary" : "Description: A major winter storm is expected.\n\nA deepening Pacific low will make its way across Washington state during the day then will cross the southeast corner of B.C. tonight. Abundant moisture associated with the system combined with cold air to the north of its trajectory will produce heavy snowfall across the southern interior of British Columbia. \n\nSnow will begin this morning and become heavy this evening before tapering off Tuesday morning.\n\nTotal snowfall accumulation of 15 to 25 cm is expected across southeastern BC. For Kootenay Pass, amounts up to 40 cm are possible. Over the southernmost regions, precipitation may change to rain this evening which will limit the snowfall amounts locally.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T05:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T13:59:57-00:00, urn:oid:2.49.0.1.124.3953842923.2020<br>Area: West Kootenay, Kootenay Lake, East Kootenay - south including Cranbrook, Elk Valley",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.3953842923.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T13_59_57_00_00Iurn_oid_2.49.0.1.124.3953842923.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222055957+00:00"
+				"Expires_FMEFormat" : "20201222121131+00:00"
 			}
 		},
 		{
@@ -4187,6 +4402,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -115.0388, 68.0735 ],
+							[ -115.0934, 67.9545 ],
+							[ -115.6489, 67.917 ],
+							[ -115.6517, 67.9119 ],
+							[ -115.7054, 67.8289 ],
+							[ -115.669, 67.7438 ],
+							[ -115.5482, 67.6708 ],
+							[ -115.3717, 67.6228 ],
+							[ -115.1514, 67.6031 ],
+							[ -114.9375, 67.616 ],
+							[ -114.7513, 67.6583 ],
+							[ -114.6152, 67.7273 ],
+							[ -114.569, 67.7819 ],
+							[ -114.6262, 68.0024 ],
+							[ -115.0388, 68.0735 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 21, 2020 15:38",
+				"Expires_UTC" : "December 22, 2020 07:38",
+				"Summary" : "Description: Extreme cold wind chill values near minus 55 are expected to continue until Tuesday morning.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-12-22T07:38:11-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T15:38:11-00:00, urn:oid:2.49.0.1.124.4044441236.2020<br>Area: Kugluktuk",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.4044441236.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T15_38_11_00_00Iurn_oid_2.49.0.1.124.4044441236.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222073811+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.0764, 48.6423 ],
 							[ -58.6299, 48.7822 ],
 							[ -58.8133, 48.8226 ],
@@ -4373,55 +4636,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -57.1137, 53.3384 ],
-							[ -57.129, 53.0471 ],
-							[ -57.1146, 52.8003 ],
-							[ -57.1428, 52.4234 ],
-							[ -57.1156, 52.1 ],
-							[ -55.6948, 52.1 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.559, 53.2249 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -57.3704, 54.1207 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -57.1137, 53.3384 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 21, 2020 19:37",
-				"Expires_UTC" : "December 22, 2020 11:37",
-				"Summary" : "Description: A combination of snow and rain is expected.\n\nTotal snowfall: 5 to 10 cm (highest inland and in the Cartwright area).\n\nTotal rainfall: 5 to 25 mm (highest south of Norman Bay).\n\nLocations: Cartwright to Lodge Bay.\n\nTime span: midnight tonight until overnight Tuesday night.\n\nRemarks: Snow will spread over southeastern Labrador around midnight tonight. Snow will change to rain by Tuesday morning for coastal areas south of Norman Bay, and by Tuesday evening in the Cartwright area. Significant snowmelt may occur in some areas. \n\nPrecipitation will taper to scattered flurries for all areas overnight Tuesday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-22T11:37:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T19:37:04-00:00, urn:oid:2.49.0.1.124.2975103621.2020<br>Area: Norman Bay to Lodge Bay, Cartwright to Black Tickle",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.2975103621.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_37_04_00_00Iurn_oid_2.49.0.1.124.2975103621.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222113704+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -59.3729, 54.19 ],
 							[ -59.0361, 54.0269 ],
 							[ -58.8814, 54.0182 ],
@@ -4468,6 +4682,54 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_35_50_00_00Iurn_oid_2.49.0.1.124.2177033207.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201222113550+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -68.866, 70.2973 ],
+							[ -68.4617, 70.2406 ],
+							[ -68.1424, 70.3227 ],
+							[ -68.0901, 70.3251 ],
+							[ -68.1042, 70.5961 ],
+							[ -68.7571, 70.7588 ],
+							[ -68.8495, 70.6702 ],
+							[ -68.9763, 70.6379 ],
+							[ -69.0844, 70.5918 ],
+							[ -69.1466, 70.5427 ],
+							[ -69.1714, 70.4863 ],
+							[ -69.1544, 70.4334 ],
+							[ -69.0945, 70.3801 ],
+							[ -68.996, 70.3337 ],
+							[ -68.866, 70.2973 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "December 21, 2020 20:18",
+				"Expires_UTC" : "December 22, 2020 12:18",
+				"Summary" : "Description: Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-12-22T12:18:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T20:18:25-00:00, urn:oid:2.49.0.1.124.1987110876.2020<br>Area: Clyde River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.1987110876.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T20_18_25_00_00Iurn_oid_2.49.0.1.124.1987110876.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222121825+00:00"
 			}
 		},
 		{
@@ -4686,100 +4948,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_47_07_00_00Iurn_oid_2.49.0.1.124.2406574274.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201222114707+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 21, 2020 19:30",
-				"Expires_UTC" : "December 22, 2020 11:30",
-				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\nMaximum gusts: southeasterly up to 130 km/h in the Wreckhouse area.\n\nTime span: tonight and Tuesday morning.\n\nRemarks:  Winds will generally gust to 100 km/h into this evening, then a bit of a lull is likely for a few hours.  Winds will increase again overnight with gusts reaching 130 km/h. Winds will ease upon shifting to southwesterly by midday Tuesday.\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-22T11:30:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T19:30:12-00:00, urn:oid:2.49.0.1.124.1490751820.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.1490751820.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_30_12_00_00Iurn_oid_2.49.0.1.124.1490751820.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222113012+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "December 21, 2020 19:30",
-				"Expires_UTC" : "December 22, 2020 11:30",
-				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\n###\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-22T11:30:12-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T19:30:12-00:00, urn:oid:2.49.0.1.124.3223395881.2020<br>Area: Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.3223395881.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_30_12_00_00Iurn_oid_2.49.0.1.124.3223395881.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222113012+00:00"
 			}
 		},
 		{
@@ -5162,105 +5330,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.3856, 48.0561 ],
-							[ -53.4304, 48.2241 ],
-							[ -53.3267, 48.2311 ],
-							[ -52.988, 48.4463 ],
-							[ -52.9636, 48.7633 ],
-							[ -53.4377, 48.6575 ],
-							[ -53.5415, 48.8765 ],
-							[ -53.6584, 48.9743 ],
-							[ -53.3971, 49.165 ],
-							[ -53.0127, 49.8502 ],
-							[ -53.9485, 49.6489 ],
-							[ -54.1587, 49.8735 ],
-							[ -54.9918, 49.7089 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.45, 49.0999 ],
-							[ -55.3806, 49.0603 ],
-							[ -55.3732, 49.056 ],
-							[ -55.0999, 48.9 ],
-							[ -54.65, 49.25 ],
-							[ -54.15, 49.2 ],
-							[ -54.2, 48.9 ],
-							[ -54.9999, 48.5499 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.735, 47.1318 ],
-							[ -52.4979, 47.5724 ],
-							[ -52.7949, 47.8738 ],
-							[ -52.7347, 48.2265 ],
-							[ -52.9479, 48.2795 ],
-							[ -53.3856, 48.0561 ]
-						]
-					],
-					[
-						[
-							[ -55.8517, 51.8524 ],
-							[ -55.9388, 51.6058 ],
-							[ -56.8199, 50.58 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 21, 2020 19:22",
-				"Expires_UTC" : "December 22, 2020 11:22",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-22T11:22:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T19:22:02-00:00, urn:oid:2.49.0.1.124.1666553033.2020<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Terra Nova, Northern Peninsula East",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.1666553033.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_22_02_00_00Iurn_oid_2.49.0.1.124.1666553033.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222112202+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -55.2908, 52.0995 ],
 							[ -55.2952, 52.1186 ],
 							[ -55.6948, 52.1 ],
@@ -5344,6 +5413,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_33_46_00_00Iurn_oid_2.49.0.1.124.0576469537.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201222113346+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -57.1137, 53.3384 ],
+							[ -57.129, 53.0471 ],
+							[ -57.1146, 52.8003 ],
+							[ -57.1428, 52.4234 ],
+							[ -57.1156, 52.1 ],
+							[ -55.6948, 52.1 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.559, 53.2249 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -57.3704, 54.1207 ],
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -57.1137, 53.3384 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 21, 2020 19:37",
+				"Expires_UTC" : "December 22, 2020 11:37",
+				"Summary" : "Description: A combination of snow and rain is expected.\n\nTotal snowfall: 5 to 10 cm (highest inland and in the Cartwright area).\n\nTotal rainfall: 5 to 25 mm (highest south of Norman Bay).\n\nLocations: Cartwright to Lodge Bay.\n\nTime span: midnight tonight until overnight Tuesday night.\n\nRemarks: Snow will spread over southeastern Labrador around midnight tonight. Snow will change to rain by Tuesday morning for coastal areas south of Norman Bay, and by Tuesday evening in the Cartwright area. Significant snowmelt may occur in some areas. \n\nPrecipitation will taper to scattered flurries for all areas overnight Tuesday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-22T11:37:04-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-21T19:37:04-00:00, urn:oid:2.49.0.1.124.2975103621.2020<br>Area: Norman Bay to Lodge Bay, Cartwright to Black Tickle",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-21:feed.atom/urn:oid:2.49.0.1.124.2975103621.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-21/2020_12_21T19_37_04_00_00Iurn_oid_2.49.0.1.124.2975103621.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222113704+00:00"
 			}
 		}
 	]
