@@ -5358,96 +5358,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -95.9747, 64.0894 ],
-							[ -95.8731, 64.1005 ],
-							[ -95.8385, 64.1083 ],
-							[ -95.7695, 64.1237 ],
-							[ -95.6416, 64.1779 ],
-							[ -95.5546, 64.2743 ],
-							[ -95.5549, 64.3297 ],
-							[ -95.6192, 64.4102 ],
-							[ -95.7449, 64.471 ],
-							[ -95.9232, 64.5079 ],
-							[ -96.1125, 64.5122 ],
-							[ -96.2988, 64.4835 ],
-							[ -96.4385, 64.4285 ],
-							[ -96.5218, 64.3513 ],
-							[ -96.5299, 64.2699 ],
-							[ -96.4674, 64.1931 ],
-							[ -96.337, 64.1298 ],
-							[ -96.1607, 64.0935 ],
-							[ -95.9747, 64.0894 ]
-						]
-					],
-					[
-						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Blizzard Warning Ended",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 22, 2020 06:17",
-				"Expires_UTC" : "December 22, 2020 07:17",
-				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2020-12-22T07:17:17-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-22T06:17:17-00:00, urn:oid:2.49.0.1.124.0309300305.2020<br>Area: Baker Lake, Rankin Region including Whale Cove, Chesterfield Inlet",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-22:feed.atom/urn:oid:2.49.0.1.124.0309300305.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-22/2020_12_22T06_17_17_00_00Iurn_oid_2.49.0.1.124.0309300305.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222071717+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.4207, 47.5744 ],
 							[ -58.42, 47.6535 ],
 							[ -58.42, 47.6666 ],
@@ -5592,25 +5502,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 22, 2020 06:14",
-				"Expires_UTC" : "December 22, 2020 07:14",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2020-12-22T07:14:32-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-22T06:14:32-00:00, urn:oid:2.49.0.1.124.0712207664.2020<br>Area: Fraser Valley - west including Abbotsford, Fraser Valley - central including Chilliwack, Fraser Valley - east including Hope",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 22, 2020 05:11",
+				"Expires_UTC" : "December 22, 2020 16:54",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm continues.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow. There may be a significant impact on rush hour traffic in urban areas.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T16:54:43-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-22T05:11:43-00:00, urn:oid:2.49.0.1.124.3316776794.2020<br>Area: Fraser Valley - west including Abbotsford, Fraser Valley - central including Chilliwack, Fraser Valley - east including Hope",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-22:feed.atom/urn:oid:2.49.0.1.124.0712207664.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-22/2020_12_22T06_14_32_00_00Iurn_oid_2.49.0.1.124.0712207664.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-22:feed.atom/urn:oid:2.49.0.1.124.3316776794.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-22/2020_12_22T05_11_43_00_00Iurn_oid_2.49.0.1.124.3316776794.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201222071432+00:00"
+				"Expires_FMEFormat" : "20201222165443+00:00"
 			}
 		},
 		{
