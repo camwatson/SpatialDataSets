@@ -872,6 +872,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -119.9, 50.7999 ],
+							[ -120.177, 50.8947 ],
+							[ -120.58, 51 ],
+							[ -121.1311, 51.013 ],
+							[ -121.65, 50.9999 ],
+							[ -121.5622, 50.7329 ],
+							[ -121.4319, 50.441 ],
+							[ -121.3503, 50.2159 ],
+							[ -121.26, 50 ],
+							[ -121.0269, 50.2548 ],
+							[ -120.86, 50.47 ],
+							[ -120.2689, 50.5261 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.7856, 50.6975 ],
+							[ -119.9, 50.7999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 22, 2020 12:25",
+				"Expires_UTC" : "December 22, 2020 20:23",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-22T20:23:18-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-22T12:25:18-00:00, urn:oid:2.49.0.1.124.0506270682.2020<br>Area: South Thompson",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-22:feed.atom/urn:oid:2.49.0.1.124.0506270682.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-22/2020_12_22T12_25_18_00_00Iurn_oid_2.49.0.1.124.0506270682.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201222202318+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -82.1596, 51.3124 ],
 							[ -81.4395, 50.7218 ],
 							[ -79.5166, 50.7219 ],
@@ -1762,77 +1810,6 @@
 				"language" : "en-CA",
 				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-22:feed.atom/urn:oid:2.49.0.1.124.3854423903.2020",
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-22/2020_12_22T08_56_38_00_00Iurn_oid_2.49.0.1.124.3854423903.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201223005638+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -53.9999, 47.9199 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -56.123, 46.9615 ],
-							[ -56.0644, 46.8176 ],
-							[ -55.955, 46.6458 ],
-							[ -55.3398, 46.5142 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "December 22, 2020 08:56",
-				"Expires_UTC" : "December 23, 2020 00:56",
-				"Summary" : "Description: Torrential rain is expected.\n\nAdditional rainfall: 10 to 40 mm, with locally higher amounts possible, especially over higher elevations just inland from the coast.\n\nLocations: south coast of Newfoundland from Port aux Basques to the southern Avalon.\n\nTime span: continuing until this evening. \n\nRemarks: The heavy rain combined with mild temperatures will also cause any existing higher elevation or inland snowpack to melt, adding to the runoff.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-23T00:56:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-22T08:56:38-00:00, urn:oid:2.49.0.1.124.2935708102.2020<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-22:feed.atom/urn:oid:2.49.0.1.124.2935708102.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-22/2020_12_22T08_56_38_00_00Iurn_oid_2.49.0.1.124.2935708102.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201223005638+00:00"
 			}
