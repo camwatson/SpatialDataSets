@@ -985,6 +985,68 @@
 				"coordinates" : [
 					[
 						[
+							[ -125.123, 49.4816 ],
+							[ -124.905, 49.3297 ],
+							[ -124.7045, 49.2064 ],
+							[ -124.4102, 49.0768 ],
+							[ -124.1351, 49.2536 ],
+							[ -123.9656, 49.3653 ],
+							[ -124.1442, 49.4629 ],
+							[ -124.1967, 49.5111 ],
+							[ -124.3107, 49.5442 ],
+							[ -124.6759, 49.7175 ],
+							[ -125.0588, 49.911 ],
+							[ -125.198, 49.9806 ],
+							[ -125.2447, 50.0621 ],
+							[ -125.3518, 50.1358 ],
+							[ -125.3873, 50.2504 ],
+							[ -125.4344, 50.3362 ],
+							[ -125.5821, 50.3783 ],
+							[ -125.7229, 50.3692 ],
+							[ -125.7825, 50.3744 ],
+							[ -125.8373, 50.4041 ],
+							[ -125.8534, 50.3892 ],
+							[ -125.899, 50.3883 ],
+							[ -125.988, 50.3402 ],
+							[ -126.1582, 50.2352 ],
+							[ -126.217, 50.199 ],
+							[ -125.8494, 49.9394 ],
+							[ -125.4947, 49.7249 ],
+							[ -125.3163, 49.5948 ],
+							[ -125.123, 49.4816 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 26, 2020 04:45",
+				"Expires_UTC" : "December 26, 2020 20:45",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2020-12-26T20:45:45-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-26T04:45:45-00:00, urn:oid:2.49.0.1.124.1969766081.2020<br>Area: East Vancouver Island - Nanoose Bay to Fanny Bay, East Vancouver Island - Courtenay to Campbell River",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-26:feed.atom/urn:oid:2.49.0.1.124.1969766081.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T04_45_45_00_00Iurn_oid_2.49.0.1.124.1969766081.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201226204545+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.3919, 46.733 ],
 							[ -65.5705, 46.6329 ],
 							[ -65.8356, 46.3331 ],
@@ -1382,89 +1444,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -70.5032, 47.6322 ],
-							[ -71.016, 47.1831 ],
-							[ -70.7016, 47.0257 ],
-							[ -70.5437, 47.16 ],
-							[ -70.2482, 47.4424 ],
-							[ -69.7836, 47.82 ],
-							[ -69.8631, 47.8597 ],
-							[ -70.1357, 47.9471 ],
-							[ -70.5032, 47.6322 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Rainfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 26, 2020 04:03",
-				"Expires_UTC" : "December 26, 2020 05:03",
-				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2020-12-26T05:03:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-26T04:03:38-00:00, urn:oid:2.49.0.1.124.2301571557.2020<br>Area: La Malbaie area, Baie-Saint-Paul area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-26:feed.atom/urn:oid:2.49.0.1.124.2301571557.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T04_03_38_00_00Iurn_oid_2.49.0.1.124.2301571557.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201226050338+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 26, 2020 02:10",
-				"Expires_UTC" : "December 26, 2020 18:10",
-				"Summary" : "Description: Strong Les Suetes winds will continue.\n\nMaximum wind gusts: 90 to 120 km/h.\n\nTime span: until Saturday evening.\n\nLocation: Inverness County - Mabou and north.\n\nRemarks: Wind gusts to 90 km/h will continue for tonight, increasing to 120 km/h on Saturday. Winds will diminish Saturday evening when they shift to southwesterly.\n\n###\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-12-26T18:10:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-26T02:10:06-00:00, urn:oid:2.49.0.1.124.2724406390.2020<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-26:feed.atom/urn:oid:2.49.0.1.124.2724406390.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T02_10_06_00_00Iurn_oid_2.49.0.1.124.2724406390.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201226181006+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -63.4949, 53.6005 ],
 							[ -63.5298, 53.6964 ],
 							[ -63.6393, 53.8054 ],
@@ -1576,6 +1555,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T02_16_49_00_00Iurn_oid_2.49.0.1.124.4021977420.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201226095949+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Les Suêtes Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 26, 2020 02:10",
+				"Expires_UTC" : "December 26, 2020 18:10",
+				"Summary" : "Description: Strong Les Suetes winds will continue.\n\nMaximum wind gusts: 90 to 120 km/h.\n\nTime span: until Saturday evening.\n\nLocation: Inverness County - Mabou and north.\n\nRemarks: Wind gusts to 90 km/h will continue for tonight, increasing to 120 km/h on Saturday. Winds will diminish Saturday evening when they shift to southwesterly.\n\n###\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-12-26T18:10:06-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-26T02:10:06-00:00, urn:oid:2.49.0.1.124.2724406390.2020<br>Area: Inverness County - Mabou and north",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-26:feed.atom/urn:oid:2.49.0.1.124.2724406390.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T02_10_06_00_00Iurn_oid_2.49.0.1.124.2724406390.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201226181006+00:00"
 			}
 		},
 		{
@@ -2005,6 +2025,48 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T01_59_50_00_00Iurn_oid_2.49.0.1.124.1417552603.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201226161050+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -70.5032, 47.6322 ],
+							[ -71.016, 47.1831 ],
+							[ -70.7016, 47.0257 ],
+							[ -70.5437, 47.16 ],
+							[ -70.2482, 47.4424 ],
+							[ -69.7836, 47.82 ],
+							[ -69.8631, 47.8597 ],
+							[ -70.1357, 47.9471 ],
+							[ -70.5032, 47.6322 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Rainfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 26, 2020 04:03",
+				"Expires_UTC" : "December 26, 2020 05:03",
+				"Summary" : "Description: Significant rainfall is no longer expected.\n\n###<br>Expires: 2020-12-26T05:03:38-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-26T04:03:38-00:00, urn:oid:2.49.0.1.124.2301571557.2020<br>Area: La Malbaie area, Baie-Saint-Paul area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-26:feed.atom/urn:oid:2.49.0.1.124.2301571557.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T04_03_38_00_00Iurn_oid_2.49.0.1.124.2301571557.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201226050338+00:00"
 			}
 		},
 		{
