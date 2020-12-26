@@ -1421,6 +1421,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 26, 2020 18:18",
+				"Expires_UTC" : "December 26, 2020 19:18",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-12-26T19:18:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-26T18:18:24-00:00, urn:oid:2.49.0.1.124.3588626331.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-26:feed.atom/urn:oid:2.49.0.1.124.3588626331.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T18_18_24_00_00Iurn_oid_2.49.0.1.124.3588626331.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201226191824+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -69.9976, 53.5006 ],
 							[ -69.9991, 52.2498 ],
 							[ -67.4964, 52.2499 ],
@@ -1831,53 +1878,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T15_38_23_00_00Iurn_oid_2.49.0.1.124.1434787356.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201227073823+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 26, 2020 18:18",
-				"Expires_UTC" : "December 26, 2020 19:18",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2020-12-26T19:18:24-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-26T18:18:24-00:00, urn:oid:2.49.0.1.124.3588626331.2020<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-26:feed.atom/urn:oid:2.49.0.1.124.3588626331.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-26/2020_12_26T18_18_24_00_00Iurn_oid_2.49.0.1.124.3588626331.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201226191824+00:00"
 			}
 		},
 		{
