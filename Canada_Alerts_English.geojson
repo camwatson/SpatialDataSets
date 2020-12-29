@@ -1169,6 +1169,51 @@
 				"coordinates" : [
 					[
 						[
+							[ -77.8038, 59.2602 ],
+							[ -75.6792, 59.25 ],
+							[ -75.8391, 60.25 ],
+							[ -75.8395, 60.25 ],
+							[ -77.4863, 60.2597 ],
+							[ -77.5979, 60.2596 ],
+							[ -77.746, 60.0826 ],
+							[ -77.5194, 59.8669 ],
+							[ -77.9427, 59.7479 ],
+							[ -78.0177, 59.2767 ],
+							[ -77.9282, 59.2596 ],
+							[ -77.8038, 59.2602 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 29, 2020 20:04",
+				"Expires_UTC" : "December 29, 2020 21:04",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n###<br>Expires: 2020-12-29T21:04:00-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-29T20:04:00-00:00, urn:oid:2.49.0.1.124.1246372067.2020<br>Area: Puvirnituq",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-29:feed.atom/urn:oid:2.49.0.1.124.1246372067.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-29/2020_12_29T20_04_00_00_00Iurn_oid_2.49.0.1.124.1246372067.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201229210400+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.4207, 47.5744 ],
 							[ -58.42, 47.6535 ],
 							[ -58.42, 47.6666 ],
@@ -1188,25 +1233,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 29, 2020 19:09",
-				"Expires_UTC" : "December 29, 2020 20:09",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2020-12-29T20:09:27-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-29T19:09:27-00:00, urn:oid:2.49.0.1.124.3745521795.2020<br>Area: Channel-Port aux Basques and vicinity",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 29, 2020 14:34",
+				"Expires_UTC" : "December 29, 2020 22:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2020-12-29T22:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-29T14:34:57-00:00, urn:oid:2.49.0.1.124.0914185142.2020<br>Area: Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-29:feed.atom/urn:oid:2.49.0.1.124.3745521795.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-29/2020_12_29T19_09_27_00_00Iurn_oid_2.49.0.1.124.3745521795.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-29:feed.atom/urn:oid:2.49.0.1.124.0914185142.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-29/2020_12_29T14_34_57_00_00Iurn_oid_2.49.0.1.124.0914185142.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201229200927+00:00"
+				"Expires_FMEFormat" : "20201229225957+00:00"
 			}
 		},
 		{
@@ -1347,18 +1392,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 29, 2020 15:03",
-				"Expires_UTC" : "December 30, 2020 07:03",
-				"Summary" : "Description: Total snowfall: up to 15 cm except possibly near 30 cm over the Highlands.\n\nMaximum wind gusts: 60 to 80 km/h.\n\nLocations: western Cape Breton.\n\nTime span: tonight and Wednesday morning.\n\nRemarks: Flurries heavy at times will develop this evening possibly producing rapid snowfall accumulation. Areas of snow squall activity are possible overnight and Wednesday morning as cold westerly winds strengthen. These winds will produce blowing snow which will reduce visibility.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility may be significantly and suddenly reduced to near zero.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-12-30T07:03:23-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-29T15:03:23-00:00, urn:oid:2.49.0.1.124.3008675539.2020<br>Area: Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County",
+				"LastUpdate_UTC" : "December 29, 2020 19:58",
+				"Expires_UTC" : "December 30, 2020 11:58",
+				"Summary" : "Description: Total snowfall: up to 15 cm except possibly near 30 cm over the Highlands.\n\nMaximum wind gusts: 60 to 80 km/h.\n\nLocations: western Cape Breton.\n\nTime span: tonight and Wednesday morning.\n\nRemarks: Flurries heavy at times will develop this evening possibly producing rapid snowfall accumulation. Areas of snow squall activity are possible overnight and Wednesday morning as cold westerly winds strengthen. These winds will produce blowing snow which will reduce visibility.\n\n###\n\nSnow squalls cause weather conditions to vary considerably; changes from clear skies to heavy snow within just a few kilometres are common. Visibility may be significantly and suddenly reduced to near zero.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2020-12-30T11:58:20-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-29T19:58:20-00:00, urn:oid:2.49.0.1.124.2280641996.2020<br>Area: Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-29:feed.atom/urn:oid:2.49.0.1.124.3008675539.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-29/2020_12_29T15_03_23_00_00Iurn_oid_2.49.0.1.124.3008675539.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-29:feed.atom/urn:oid:2.49.0.1.124.2280641996.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-29/2020_12_29T19_58_20_00_00Iurn_oid_2.49.0.1.124.2280641996.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201230070323+00:00"
+				"Expires_FMEFormat" : "20201230115820+00:00"
 			}
 		},
 		{
@@ -1429,18 +1474,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Extreme",
-				"LastUpdate_UTC" : "December 29, 2020 15:38",
-				"Expires_UTC" : "December 30, 2020 07:38",
-				"Summary" : "Description: Blizzard conditions are currently affecting this community and will persist until Wednesday.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nTravel is expected to be very difficult or impossible due to near-zero visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-30T07:38:34-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-29T15:38:34-00:00, urn:oid:2.49.0.1.124.0626080788.2020<br>Area: Salluit",
+				"LastUpdate_UTC" : "December 29, 2020 20:04",
+				"Expires_UTC" : "December 30, 2020 12:04",
+				"Summary" : "Description: Blizzard conditions are currently affecting this community and will persist until Wednesday.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nTravel is expected to be very difficult or impossible due to near-zero visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-30T12:04:37-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-29T20:04:37-00:00, urn:oid:2.49.0.1.124.1106672809.2020<br>Area: Salluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-29:feed.atom/urn:oid:2.49.0.1.124.0626080788.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-29/2020_12_29T15_38_34_00_00Iurn_oid_2.49.0.1.124.0626080788.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-29:feed.atom/urn:oid:2.49.0.1.124.1106672809.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-29/2020_12_29T20_04_37_00_00Iurn_oid_2.49.0.1.124.1106672809.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201230073834+00:00"
+				"Expires_FMEFormat" : "20201230120437+00:00"
 			}
 		},
 		{
