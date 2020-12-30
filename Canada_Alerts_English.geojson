@@ -1306,6 +1306,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 29, 2020 20:25",
+				"Expires_UTC" : "December 30, 2020 04:59",
+				"Summary" : "Description: Strong northerly winds with falling snow are giving blizzard conditions. The blizzard is expected to end this evening when the winds weaken and the snow ends.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2020-12-30T04:59:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-29T20:25:19-00:00, urn:oid:2.49.0.1.124.4216834328.2020<br>Area: Gjoa Haven",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-29:feed.atom/urn:oid:2.49.0.1.124.4216834328.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-29/2020_12_29T20_25_19_00_00Iurn_oid_2.49.0.1.124.4216834328.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201230045919+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -128.8048, 50.9385 ],
 							[ -129.3279, 50.9024 ],
 							[ -128.7561, 50.7181 ],
@@ -1789,47 +1830,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-29/2020_12_29T20_04_37_00_00Iurn_oid_2.49.0.1.124.1106672809.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201230120437+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Blizzard Warning Ended",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "December 30, 2020 00:07",
-				"Expires_UTC" : "December 30, 2020 01:07",
-				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2020-12-30T01:07:10-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T00:07:10-00:00, urn:oid:2.49.0.1.124.1169139683.2020<br>Area: Gjoa Haven",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.1169139683.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T00_07_10_00_00Iurn_oid_2.49.0.1.124.1169139683.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201230010710+00:00"
 			}
 		}
 	]
