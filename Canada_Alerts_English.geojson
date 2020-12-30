@@ -244,6 +244,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -85.2219, 48.2896 ],
+							[ -86.0931, 48.7455 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 30, 2020 17:24",
+				"Expires_UTC" : "December 31, 2020 09:24",
+				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T09:24:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T17:24:25-00:00, urn:oid:2.49.0.1.124.0581607028.2020<br>Area: Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.0581607028.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T17_24_25_00_00Iurn_oid_2.49.0.1.124.0581607028.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201231092425+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -123.2285, 49.766 ],
 							[ -123.1629, 49.7824 ],
 							[ -123.1164, 49.781 ],
@@ -1493,98 +1540,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.8404, 45.3535 ],
-							[ -81.4622, 44.5866 ],
-							[ -81.2913, 44.5944 ],
-							[ -81.2887, 44.5846 ],
-							[ -81.2724, 44.5229 ],
-							[ -81.1971, 44.5357 ],
-							[ -81.1203, 44.5511 ],
-							[ -81.1256, 44.6259 ],
-							[ -81.127, 44.6447 ],
-							[ -81.1314, 44.7363 ],
-							[ -81.1313, 44.7385 ],
-							[ -81.073, 44.7847 ],
-							[ -81.0217, 44.7958 ],
-							[ -80.9764, 44.9231 ],
-							[ -80.9105, 44.9805 ],
-							[ -81.0827, 45.0703 ],
-							[ -81.1853, 45.2717 ],
-							[ -81.4145, 45.3822 ],
-							[ -81.8404, 45.3535 ]
-						]
-					],
-					[
-						[
-							[ -78.9997, 45.1057 ],
-							[ -78.8427, 45.1449 ],
-							[ -78.8439, 45.1471 ],
-							[ -78.8118, 45.1515 ],
-							[ -78.9392, 45.3891 ],
-							[ -78.8593, 45.4143 ],
-							[ -78.918, 45.531 ],
-							[ -79.0029, 45.5074 ],
-							[ -79.0368, 45.5697 ],
-							[ -79.5935, 45.5573 ],
-							[ -80.4369, 45.5363 ],
-							[ -80.5641, 45.5136 ],
-							[ -80.1856, 45.0191 ],
-							[ -80.1213, 44.933 ],
-							[ -80.053, 44.862 ],
-							[ -79.9107, 44.872 ],
-							[ -79.823, 44.7847 ],
-							[ -79.7087, 44.7864 ],
-							[ -79.5662, 44.7803 ],
-							[ -79.5166, 44.784 ],
-							[ -79.3992, 44.7928 ],
-							[ -79.2988, 44.7904 ],
-							[ -79.2851, 44.7824 ],
-							[ -79.2358, 44.7938 ],
-							[ -79.2089, 44.8001 ],
-							[ -79.0624, 44.8403 ],
-							[ -79.1186, 44.95 ],
-							[ -79.1096, 44.9521 ],
-							[ -79.0993, 44.9549 ],
-							[ -79.0963, 44.9492 ],
-							[ -79.0928, 44.9431 ],
-							[ -79.0237, 44.9606 ],
-							[ -78.9347, 44.9858 ],
-							[ -78.9645, 45.046 ],
-							[ -79.0012, 45.1053 ],
-							[ -78.9997, 45.1057 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 30, 2020 17:50",
-				"Expires_UTC" : "December 31, 2020 01:59",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for this afternoon.\n\nSnow has arrived across the region and may be heavy at times. Travel is expected to be difficult due to accumulating snow and slippery conditions. Accumulations of around 10 cm are likely.\n\nFor some areas, snow may become mixed with rain this afternoon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T01:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T17:50:56-00:00, urn:oid:2.49.0.1.124.3691083572.2020<br>Area: Huntsville - Baysville, Town of Parry Sound - Rosseau - Killbear Park, Port Carling - Port Severn, Bracebridge - Gravenhurst, Bruce Peninsula - Sauble Beach - Tobermory",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.3691083572.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T17_50_56_00_00Iurn_oid_2.49.0.1.124.3691083572.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201231015956+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -79.2177, 43.9634 ],
 							[ -79.2206, 43.9829 ],
 							[ -79.231, 43.9978 ],
@@ -1934,18 +1889,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 30, 2020 18:02",
+				"LastUpdate_UTC" : "December 30, 2020 20:07",
 				"Expires_UTC" : "December 31, 2020 04:25",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for today.\n\nAn area of snow and possible freezing rain and ice pellets has moved into the area. Several additional centimetres of snow is likely, particularly over areas of higher terrain. Over lower terrain areas, precipitation may become mixed with rain this afternoon.\n\nTravel is expected to be difficult due to accumulating snow and possible freezing rain. Motorists and pedestrians are urged to exercise caution.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T04:25:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T18:02:02-00:00, urn:oid:2.49.0.1.124.0841371375.2020<br>Area: Midland - Coldwater - Orr Lake, Orillia - Lagoon City - Washago, Barrie - Collingwood - Hillsdale, Fenelon Falls - Balsam Lake Park - Northern Kawartha Lakes, Apsley - Woodview - Northern Peterborough County, Owen Sound - Blue Mountains - Northern Grey County, Saugeen Shores - Kincardine - Southern Bruce County, Hanover - Dundalk - Southern Grey County, Wingham - Blyth - Northern Huron County, Listowel - Milverton - Northern Perth County, Mount Forest - Arthur - Northern Wellington County, Innisfil - New Tecumseth - Angus, Shelburne - Mansfield - Northern Dufferin County, Orangeville - Grand Valley - Southern Dufferin County",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for today.\n\nAn area of snow and possible freezing rain and ice pellets has moved into the area. Several additional centimetres of snow is likely, particularly over areas of higher terrain. Over lower terrain areas, precipitation may become mixed with rain this afternoon.\n\nTravel is expected to be difficult due to accumulating snow and possible freezing rain. Motorists and pedestrians are urged to exercise caution.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T04:25:09-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T20:07:09-00:00, urn:oid:2.49.0.1.124.0845919428.2020<br>Area: Midland - Coldwater - Orr Lake, Orillia - Lagoon City - Washago, Barrie - Collingwood - Hillsdale, Fenelon Falls - Balsam Lake Park - Northern Kawartha Lakes, Apsley - Woodview - Northern Peterborough County, Owen Sound - Blue Mountains - Northern Grey County, Saugeen Shores - Kincardine - Southern Bruce County, Hanover - Dundalk - Southern Grey County, Shelburne - Mansfield - Northern Dufferin County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.0841371375.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T18_02_02_00_00Iurn_oid_2.49.0.1.124.0841371375.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.0845919428.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T20_07_09_00_00Iurn_oid_2.49.0.1.124.0845919428.2020.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201231042502+00:00"
+				"Expires_FMEFormat" : "20201231042509+00:00"
 			}
 		},
 		{
@@ -1991,53 +1946,6 @@
 				"language" : "en-CA",
 				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.1865128186.2020",
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T17_24_25_00_00Iurn_oid_2.49.0.1.124.1865128186.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201231092425+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -85.2219, 48.2896 ],
-							[ -86.0931, 48.7455 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 30, 2020 17:24",
-				"Expires_UTC" : "December 31, 2020 09:24",
-				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T09:24:25-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T17:24:25-00:00, urn:oid:2.49.0.1.124.0581607028.2020<br>Area: Wawa - Pukaskwa Park",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.0581607028.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T17_24_25_00_00Iurn_oid_2.49.0.1.124.0581607028.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201231092425+00:00"
 			}
@@ -2498,6 +2406,98 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T17_55_18_00_00Iurn_oid_2.49.0.1.124.2819819518.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201231075918+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.8404, 45.3535 ],
+							[ -81.4622, 44.5866 ],
+							[ -81.2913, 44.5944 ],
+							[ -81.2887, 44.5846 ],
+							[ -81.2724, 44.5229 ],
+							[ -81.1971, 44.5357 ],
+							[ -81.1203, 44.5511 ],
+							[ -81.1256, 44.6259 ],
+							[ -81.127, 44.6447 ],
+							[ -81.1314, 44.7363 ],
+							[ -81.1313, 44.7385 ],
+							[ -81.073, 44.7847 ],
+							[ -81.0217, 44.7958 ],
+							[ -80.9764, 44.9231 ],
+							[ -80.9105, 44.9805 ],
+							[ -81.0827, 45.0703 ],
+							[ -81.1853, 45.2717 ],
+							[ -81.4145, 45.3822 ],
+							[ -81.8404, 45.3535 ]
+						]
+					],
+					[
+						[
+							[ -78.9997, 45.1057 ],
+							[ -78.8427, 45.1449 ],
+							[ -78.8439, 45.1471 ],
+							[ -78.8118, 45.1515 ],
+							[ -78.9392, 45.3891 ],
+							[ -78.8593, 45.4143 ],
+							[ -78.918, 45.531 ],
+							[ -79.0029, 45.5074 ],
+							[ -79.0368, 45.5697 ],
+							[ -79.5935, 45.5573 ],
+							[ -80.4369, 45.5363 ],
+							[ -80.5641, 45.5136 ],
+							[ -80.1856, 45.0191 ],
+							[ -80.1213, 44.933 ],
+							[ -80.053, 44.862 ],
+							[ -79.9107, 44.872 ],
+							[ -79.823, 44.7847 ],
+							[ -79.7087, 44.7864 ],
+							[ -79.5662, 44.7803 ],
+							[ -79.5166, 44.784 ],
+							[ -79.3992, 44.7928 ],
+							[ -79.2988, 44.7904 ],
+							[ -79.2851, 44.7824 ],
+							[ -79.2358, 44.7938 ],
+							[ -79.2089, 44.8001 ],
+							[ -79.0624, 44.8403 ],
+							[ -79.1186, 44.95 ],
+							[ -79.1096, 44.9521 ],
+							[ -79.0993, 44.9549 ],
+							[ -79.0963, 44.9492 ],
+							[ -79.0928, 44.9431 ],
+							[ -79.0237, 44.9606 ],
+							[ -78.9347, 44.9858 ],
+							[ -78.9645, 45.046 ],
+							[ -79.0012, 45.1053 ],
+							[ -78.9997, 45.1057 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 30, 2020 17:50",
+				"Expires_UTC" : "December 31, 2020 01:59",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for this afternoon.\n\nSnow has arrived across the region and may be heavy at times. Travel is expected to be difficult due to accumulating snow and slippery conditions. Accumulations of around 10 cm are likely.\n\nFor some areas, snow may become mixed with rain this afternoon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T01:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T17:50:56-00:00, urn:oid:2.49.0.1.124.3691083572.2020<br>Area: Huntsville - Baysville, Town of Parry Sound - Rosseau - Killbear Park, Port Carling - Port Severn, Bracebridge - Gravenhurst, Bruce Peninsula - Sauble Beach - Tobermory",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.3691083572.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T17_50_56_00_00Iurn_oid_2.49.0.1.124.3691083572.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201231015956+00:00"
 			}
 		}
 	]
