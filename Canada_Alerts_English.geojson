@@ -1496,6 +1496,91 @@
 				"coordinates" : [
 					[
 						[
+							[ -78.8439, 45.1471 ],
+							[ -78.8427, 45.1449 ],
+							[ -78.9997, 45.1057 ],
+							[ -79.0012, 45.1053 ],
+							[ -78.9698, 45.0449 ],
+							[ -78.9347, 44.9858 ],
+							[ -78.8888, 44.8807 ],
+							[ -78.8227, 44.7713 ],
+							[ -78.8158, 44.7728 ],
+							[ -78.8096, 44.7746 ],
+							[ -78.8133, 44.7717 ],
+							[ -78.8165, 44.7652 ],
+							[ -78.8184, 44.7611 ],
+							[ -78.8209, 44.7571 ],
+							[ -78.82, 44.754 ],
+							[ -78.7397, 44.7714 ],
+							[ -78.663, 44.7924 ],
+							[ -78.3772, 44.8572 ],
+							[ -78.1274, 44.9206 ],
+							[ -78.1228, 44.901 ],
+							[ -78.1154, 44.8825 ],
+							[ -78.0347, 44.9021 ],
+							[ -77.965, 44.9228 ],
+							[ -77.9762, 44.9472 ],
+							[ -77.991, 44.9715 ],
+							[ -78.0378, 45.0642 ],
+							[ -78.0863, 45.1488 ],
+							[ -78.1235, 45.2305 ],
+							[ -78.1781, 45.3099 ],
+							[ -78.2334, 45.4309 ],
+							[ -78.3131, 45.561 ],
+							[ -78.6213, 46.1756 ],
+							[ -79.2711, 45.9989 ],
+							[ -79.5385, 45.9261 ],
+							[ -79.6173, 45.9047 ],
+							[ -79.7785, 45.901 ],
+							[ -80.5706, 45.8856 ],
+							[ -80.7251, 45.8899 ],
+							[ -80.7432, 45.8894 ],
+							[ -80.8486, 45.8248 ],
+							[ -80.5641, 45.5136 ],
+							[ -80.4369, 45.5363 ],
+							[ -79.5935, 45.5573 ],
+							[ -79.0368, 45.5697 ],
+							[ -79.0029, 45.5074 ],
+							[ -78.918, 45.531 ],
+							[ -78.8593, 45.4143 ],
+							[ -78.9118, 45.4033 ],
+							[ -78.9711, 45.3844 ],
+							[ -78.9977, 45.38 ],
+							[ -78.8709, 45.1444 ],
+							[ -78.8439, 45.1471 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "December 30, 2020 10:08",
+				"Expires_UTC" : "December 31, 2020 02:08",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for this morning and afternoon.\n\nSnow will arrive across the region this morning and become heavy at times through the morning and early this afternoon. Reduced visibilities in heavy snow and accumulating snow up to 10 cm by this afternoon will create poor winter driving conditions.\n\nConditions are expected to improve this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T02:08:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T10:08:02-00:00, urn:oid:2.49.0.1.124.3432736984.2020<br>Area: South River - Burk's Falls, Bayfield Inlet - Dunchurch, Western Algonquin Park - Lake of Two Rivers, Oxtongue Lake - Fort Irwin - Northern Haliburton County, Haliburton - Minden - Southern Haliburton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.3432736984.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T10_08_02_00_00Iurn_oid_2.49.0.1.124.3432736984.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201231020802+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -80.6965, 46.106 ],
 							[ -80.5701, 46.0178 ],
 							[ -80.5706, 45.8856 ],
@@ -1588,47 +1673,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T10_08_02_00_00Iurn_oid_2.49.0.1.124.2376130849.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201231020802+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "December 30, 2020 09:14",
-				"Expires_UTC" : "December 31, 2020 00:59",
-				"Summary" : "Description: Blizzard conditions are currently affecting this community and will abate this morning.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nTravel is expected to be very difficult or impossible due to near-zero visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2020-12-31T00:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T09:14:22-00:00, urn:oid:2.49.0.1.124.3508068481.2020<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.3508068481.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T09_14_22_00_00Iurn_oid_2.49.0.1.124.3508068481.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201231005922+00:00"
 			}
 		},
 		{
@@ -2088,91 +2132,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T10_05_55_00_00Iurn_oid_2.49.0.1.124.4229247325.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201231020555+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -78.8439, 45.1471 ],
-							[ -78.8427, 45.1449 ],
-							[ -78.9997, 45.1057 ],
-							[ -79.0012, 45.1053 ],
-							[ -78.9698, 45.0449 ],
-							[ -78.9347, 44.9858 ],
-							[ -78.8888, 44.8807 ],
-							[ -78.8227, 44.7713 ],
-							[ -78.8158, 44.7728 ],
-							[ -78.8096, 44.7746 ],
-							[ -78.8133, 44.7717 ],
-							[ -78.8165, 44.7652 ],
-							[ -78.8184, 44.7611 ],
-							[ -78.8209, 44.7571 ],
-							[ -78.82, 44.754 ],
-							[ -78.7397, 44.7714 ],
-							[ -78.663, 44.7924 ],
-							[ -78.3772, 44.8572 ],
-							[ -78.1274, 44.9206 ],
-							[ -78.1228, 44.901 ],
-							[ -78.1154, 44.8825 ],
-							[ -78.0347, 44.9021 ],
-							[ -77.965, 44.9228 ],
-							[ -77.9762, 44.9472 ],
-							[ -77.991, 44.9715 ],
-							[ -78.0378, 45.0642 ],
-							[ -78.0863, 45.1488 ],
-							[ -78.1235, 45.2305 ],
-							[ -78.1781, 45.3099 ],
-							[ -78.2334, 45.4309 ],
-							[ -78.3131, 45.561 ],
-							[ -78.6213, 46.1756 ],
-							[ -79.2711, 45.9989 ],
-							[ -79.5385, 45.9261 ],
-							[ -79.6173, 45.9047 ],
-							[ -79.7785, 45.901 ],
-							[ -80.5706, 45.8856 ],
-							[ -80.7251, 45.8899 ],
-							[ -80.7432, 45.8894 ],
-							[ -80.8486, 45.8248 ],
-							[ -80.5641, 45.5136 ],
-							[ -80.4369, 45.5363 ],
-							[ -79.5935, 45.5573 ],
-							[ -79.0368, 45.5697 ],
-							[ -79.0029, 45.5074 ],
-							[ -78.918, 45.531 ],
-							[ -78.8593, 45.4143 ],
-							[ -78.9118, 45.4033 ],
-							[ -78.9711, 45.3844 ],
-							[ -78.9977, 45.38 ],
-							[ -78.8709, 45.1444 ],
-							[ -78.8439, 45.1471 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 30, 2020 10:08",
-				"Expires_UTC" : "December 31, 2020 02:08",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for this morning and afternoon.\n\nSnow will arrive across the region this morning and become heavy at times through the morning and early this afternoon. Reduced visibilities in heavy snow and accumulating snow up to 10 cm by this afternoon will create poor winter driving conditions.\n\nConditions are expected to improve this evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T02:08:02-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T10:08:02-00:00, urn:oid:2.49.0.1.124.3432736984.2020<br>Area: South River - Burk's Falls, Bayfield Inlet - Dunchurch, Western Algonquin Park - Lake of Two Rivers, Oxtongue Lake - Fort Irwin - Northern Haliburton County, Haliburton - Minden - Southern Haliburton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.3432736984.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T10_08_02_00_00Iurn_oid_2.49.0.1.124.3432736984.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20201231020802+00:00"
 			}
 		},
 		{
@@ -2814,6 +2773,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Blizzard Warning Ended",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "December 30, 2020 13:12",
+				"Expires_UTC" : "December 30, 2020 14:12",
+				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n###<br>Expires: 2020-12-30T14:12:49-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T13:12:49-00:00, urn:oid:2.49.0.1.124.3649751840.2020<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.3649751840.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T13_12_49_00_00Iurn_oid_2.49.0.1.124.3649751840.2020.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20201230141249+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -79.2177, 43.9634 ],
 							[ -79.2206, 43.9829 ],
 							[ -79.231, 43.9978 ],
@@ -3306,14 +3306,14 @@
 				"severity" : "Moderate",
 				"LastUpdate_UTC" : "December 30, 2020 10:05",
 				"Expires_UTC" : "December 31, 2020 02:05",
-				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T02:05:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T10:05:19-00:00, urn:oid:2.49.0.1.124.2755609534.2020<br>Area: Elliot Lake - Ranger Lake, Blind River - Thessalon, Espanola - Killarney, Manitoulin Island",
+				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\nSnow has moved into the region and will persist for much of the day today. The snow may fall heavily at times, particularly this morning.  \n\nConditions are expected to improve this evening.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T02:05:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T10:05:19-00:00, urn:oid:2.49.0.1.124.2062660722.2020<br>Area: Elliot Lake - Ranger Lake, Blind River - Thessalon, Espanola - Killarney, Manitoulin Island",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.2755609534.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T10_05_19_00_00Iurn_oid_2.49.0.1.124.2755609534.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.2062660722.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T10_05_19_00_00Iurn_oid_2.49.0.1.124.2062660722.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201231020519+00:00"
 			}
@@ -3368,14 +3368,14 @@
 				"severity" : "Moderate",
 				"LastUpdate_UTC" : "December 30, 2020 10:05",
 				"Expires_UTC" : "December 31, 2020 02:05",
-				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\nSnow has moved into the region and will persist for much of the day today. The snow may fall heavily at times, particularly this morning.  \n\nConditions are expected to improve this evening.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T02:05:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T10:05:19-00:00, urn:oid:2.49.0.1.124.2062660722.2020<br>Area: Elliot Lake - Ranger Lake, Blind River - Thessalon, Espanola - Killarney, Manitoulin Island",
+				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2020-12-31T02:05:19-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-30T10:05:19-00:00, urn:oid:2.49.0.1.124.2755609534.2020<br>Area: Elliot Lake - Ranger Lake, Blind River - Thessalon, Espanola - Killarney, Manitoulin Island",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.2062660722.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T10_05_19_00_00Iurn_oid_2.49.0.1.124.2062660722.2020.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-30:feed.atom/urn:oid:2.49.0.1.124.2755609534.2020",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-30/2020_12_30T10_05_19_00_00Iurn_oid_2.49.0.1.124.2755609534.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20201231020519+00:00"
 			}
