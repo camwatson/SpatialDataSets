@@ -647,68 +647,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -125.123, 49.4816 ],
-							[ -124.905, 49.3297 ],
-							[ -124.7045, 49.2064 ],
-							[ -124.4102, 49.0768 ],
-							[ -124.1351, 49.2536 ],
-							[ -123.9656, 49.3653 ],
-							[ -124.1442, 49.4629 ],
-							[ -124.1967, 49.5111 ],
-							[ -124.3107, 49.5442 ],
-							[ -124.6759, 49.7175 ],
-							[ -125.0588, 49.911 ],
-							[ -125.198, 49.9806 ],
-							[ -125.2447, 50.0621 ],
-							[ -125.3518, 50.1358 ],
-							[ -125.3873, 50.2504 ],
-							[ -125.4344, 50.3362 ],
-							[ -125.5821, 50.3783 ],
-							[ -125.7229, 50.3692 ],
-							[ -125.7825, 50.3744 ],
-							[ -125.8373, 50.4041 ],
-							[ -125.8534, 50.3892 ],
-							[ -125.899, 50.3883 ],
-							[ -125.988, 50.3402 ],
-							[ -126.1582, 50.2352 ],
-							[ -126.217, 50.199 ],
-							[ -125.8494, 49.9394 ],
-							[ -125.4947, 49.7249 ],
-							[ -125.3163, 49.5948 ],
-							[ -125.123, 49.4816 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "December 31, 2020 18:54",
-				"Expires_UTC" : "January 1, 2021 10:54",
-				"Summary" : "Description: Strong winds near the Strait of Georgia Friday morning.\n\nAnother storm system will approach the coast today, bringing rain and blustery winds tonight and Friday. Winds are expected to peak Friday morning, with wind speeds of 70 km/h gusting to 90 possible near the Strait.\n\nWinds will ease through the afternoon on Friday.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-01-01T10:54:30-00:00<br>Originated from CAP Alert: Environment Canada, 2020-12-31T18:54:30-00:00, urn:oid:2.49.0.1.124.2994950235.2020<br>Area: East Vancouver Island - Nanoose Bay to Fanny Bay, East Vancouver Island - Courtenay to Campbell River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2020-12-31:feed.atom/urn:oid:2.49.0.1.124.2994950235.2020",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-31/2020_12_31T18_54_30_00_00Iurn_oid_2.49.0.1.124.2994950235.2020.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210101105430+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -80.5511, 43.692 ],
 							[ -80.598, 43.6577 ],
 							[ -80.6062, 43.5883 ],
@@ -1176,6 +1114,68 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2020-12-31/2020_12_31T23_39_38_00_00Iurn_oid_2.49.0.1.124.1143643665.2020.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210101153938+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -125.123, 49.4816 ],
+							[ -124.905, 49.3297 ],
+							[ -124.7045, 49.2064 ],
+							[ -124.4102, 49.0768 ],
+							[ -124.1351, 49.2536 ],
+							[ -123.9656, 49.3653 ],
+							[ -124.1442, 49.4629 ],
+							[ -124.1967, 49.5111 ],
+							[ -124.3107, 49.5442 ],
+							[ -124.6759, 49.7175 ],
+							[ -125.0588, 49.911 ],
+							[ -125.198, 49.9806 ],
+							[ -125.2447, 50.0621 ],
+							[ -125.3518, 50.1358 ],
+							[ -125.3873, 50.2504 ],
+							[ -125.4344, 50.3362 ],
+							[ -125.5821, 50.3783 ],
+							[ -125.7229, 50.3692 ],
+							[ -125.7825, 50.3744 ],
+							[ -125.8373, 50.4041 ],
+							[ -125.8534, 50.3892 ],
+							[ -125.899, 50.3883 ],
+							[ -125.988, 50.3402 ],
+							[ -126.1582, 50.2352 ],
+							[ -126.217, 50.199 ],
+							[ -125.8494, 49.9394 ],
+							[ -125.4947, 49.7249 ],
+							[ -125.3163, 49.5948 ],
+							[ -125.123, 49.4816 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 1, 2021 01:41",
+				"Expires_UTC" : "January 1, 2021 17:41",
+				"Summary" : "Description: Strong winds near the Strait of Georgia Friday morning.\n\nAnother storm system will bring rain and blustery winds tonight and Friday. Winds are expected to peak Friday morning, with wind speeds of 70 km/h gusting to 90 possible near the Strait.\n\nWinds will ease through the afternoon on Friday.\n\n###\n\nHigh winds may toss loose objects or cause tree branches to break.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-01-01T17:41:15-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-01T01:41:15-00:00, urn:oid:2.49.0.1.124.0439696877.2021<br>Area: East Vancouver Island - Nanoose Bay to Fanny Bay, East Vancouver Island - Courtenay to Campbell River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-01:feed.atom/urn:oid:2.49.0.1.124.0439696877.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-01/2021_01_01T01_41_15_00_00Iurn_oid_2.49.0.1.124.0439696877.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210101174115+00:00"
 			}
 		},
 		{
