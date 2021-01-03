@@ -468,6 +468,88 @@
 				"coordinates" : [
 					[
 						[
+							[ -133.1509, 51.5791 ],
+							[ -130.2525, 51.7341 ],
+							[ -129.7723, 51.8698 ],
+							[ -130.6502, 52.6745 ],
+							[ -130.7899, 52.8924 ],
+							[ -131.1621, 54.069 ],
+							[ -131.4498, 54.688 ],
+							[ -132.7159, 54.6588 ],
+							[ -133.8281, 54.3334 ],
+							[ -133.1509, 51.5791 ]
+						]
+					],
+					[
+						[
+							[ -126.6918, 50.5726 ],
+							[ -126.8269, 50.6535 ],
+							[ -126.8819, 50.6862 ],
+							[ -127.1869, 50.7499 ],
+							[ -127.5713, 50.8711 ],
+							[ -127.8239, 50.9767 ],
+							[ -127.9174, 50.973 ],
+							[ -128.8048, 50.9385 ],
+							[ -129.3279, 50.9024 ],
+							[ -128.7561, 50.7181 ],
+							[ -127.8902, 50.0396 ],
+							[ -127.7942, 50.0736 ],
+							[ -127.6944, 50.1238 ],
+							[ -127.6707, 50.1385 ],
+							[ -127.6515, 50.1593 ],
+							[ -127.6288, 50.1628 ],
+							[ -127.508, 50.181 ],
+							[ -127.316, 50.2003 ],
+							[ -127.1624, 50.2095 ],
+							[ -126.9556, 50.2012 ],
+							[ -126.69, 50.1899 ],
+							[ -126.484, 50.1866 ],
+							[ -126.217, 50.199 ],
+							[ -126.1582, 50.2352 ],
+							[ -125.988, 50.3402 ],
+							[ -125.899, 50.3883 ],
+							[ -125.8534, 50.3892 ],
+							[ -125.8373, 50.4041 ],
+							[ -125.8831, 50.4103 ],
+							[ -125.9203, 50.4049 ],
+							[ -126.0778, 50.4694 ],
+							[ -126.3357, 50.507 ],
+							[ -126.5878, 50.5045 ],
+							[ -126.6681, 50.5277 ],
+							[ -126.6918, 50.5726 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 3, 2021 19:04",
+				"Expires_UTC" : "January 4, 2021 11:04",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-01-04T11:04:33-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T19:04:33-00:00, urn:oid:2.49.0.1.124.2516220136.2021<br>Area: Haida Gwaii, North Vancouver Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.2516220136.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T19_04_33_00_00Iurn_oid_2.49.0.1.124.2516220136.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210104110433+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -126.6918, 50.5726 ],
 							[ -126.8269, 50.6535 ],
 							[ -126.8819, 50.6862 ],
@@ -667,14 +749,14 @@
 				"severity" : "Moderate",
 				"LastUpdate_UTC" : "January 3, 2021 19:04",
 				"Expires_UTC" : "January 4, 2021 11:04",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-01-04T11:04:33-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T19:04:33-00:00, urn:oid:2.49.0.1.124.2516220136.2021<br>Area: Haida Gwaii, North Vancouver Island",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nA frontal system will approach northern Vancouver Island tonight then quickly move north across Haida Gwaii generating strong southeast winds. Winds will rise to southeast 90 km/h over exposed coastal sections of northern Vancouver Island late this evening and to 70 to 100 km/h over Haida Gwaii after midnight. Wind will then ease late overnight with the passage of the front.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-01-04T11:04:33-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T19:04:33-00:00, urn:oid:2.49.0.1.124.2898032958.2021<br>Area: Haida Gwaii, North Vancouver Island",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.2516220136.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T19_04_33_00_00Iurn_oid_2.49.0.1.124.2516220136.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.2898032958.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T19_04_33_00_00Iurn_oid_2.49.0.1.124.2898032958.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210104110433+00:00"
 			}
