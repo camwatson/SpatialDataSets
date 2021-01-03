@@ -1700,6 +1700,65 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.0483, 46.1152 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.3951, 45.6335 ],
+							[ -61.3709, 45.5863 ],
+							[ -61.3587, 45.578 ],
+							[ -61.2879, 45.5429 ],
+							[ -61.2399, 45.5263 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.554, 47.0263 ],
+							[ -60.7422, 46.4987 ],
+							[ -61.0483, 46.1152 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 3, 2021 08:50",
+				"Expires_UTC" : "January 3, 2021 09:50",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2021-01-03T09:50:07-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T08:50:07-00:00, urn:oid:2.49.0.1.124.3009507612.2021<br>Area: Richmond County, Inverness County - south of Mabou, Victoria County, Sydney Metro and Cape Breton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.3009507612.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T08_50_07_00_00Iurn_oid_2.49.0.1.124.3009507612.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210103095007+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -60.9214, 45.3595 ],
 							[ -60.8672, 45.3945 ],
 							[ -60.8348, 45.5153 ],
@@ -2700,18 +2759,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 3, 2021 08:31",
+				"LastUpdate_UTC" : "January 3, 2021 08:50",
 				"Expires_UTC" : "January 3, 2021 16:59",
-				"Summary" : "Description: Freezing drizzle is ongoing across much of southwestern Ontario early this morning. \n\nHazards: \nFreezing drizzle\n\nTiming: \nFreezing drizzle will continue into this morning before switching over to snow\n\nImpacts: \nDangerous driving conditions due to black ice\n\nDiscussion:\nFreezing drizzle has been ongoing for much of the night at London Airport and Hamilton Airport. Additionally, a weather spotter reported black ice on roads in Ingersoll at 3:15 a.m. \nNote: snow is expected layer this morning...though accumulations should not be much, even small amounts of snow on top of black ice can create dangerous driving conditions.\n\n###\n\nFreezing drizzle advisories are issued when drizzle falling in sub-zero temperatures is expected to freeze on contact, and over time create icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-03T16:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T08:31:57-00:00, urn:oid:2.49.0.1.124.1809732313.2021<br>Area: Simcoe - Delhi - Norfolk, Dunnville - Caledonia - Haldimand, Watford - Pinery Park - Eastern Lambton County, Sarnia - Petrolia - Western Lambton County, London - Parkhill - Eastern Middlesex County, Strathroy - Komoka - Western Middlesex County, St. Thomas - Aylmer - Eastern Elgin County, Rodney - Shedden - Western Elgin County, Woodstock - Tillsonburg - Oxford County, Brantford - County of Brant, City of Hamilton, Saugeen Shores - Kincardine - Southern Bruce County, Wingham - Blyth - Northern Huron County, Listowel - Milverton - Northern Perth County, Goderich - Bluewater - Southern Huron County, Stratford - Mitchell - Southern Perth County, Mount Forest - Arthur - Northern Wellington County, Guelph - Erin - Southern Wellington County, Kitchener - Cambridge - Region of Waterloo, Halton Hills - Milton",
+				"Summary" : "Description: Freezing drizzle is ongoing across much of southwestern Ontario early this morning. \n\nHazards: \nFreezing drizzle\n\nTiming: \nFreezing drizzle will continue into this morning before switching over to snow\n\nImpacts: \nDangerous driving conditions due to black ice\n\nDiscussion:\nFreezing drizzle has been ongoing for much of the night at London Airport and Hamilton Airport. Additionally, a weather spotter reported black ice on roads in Ingersoll at 3:15 a.m. \nNote: snow is expected later this morning...though accumulations should be limited to 5 cm or less, even small amounts of snow on top of black ice can create dangerous driving conditions.\n\n###\n\nFreezing drizzle advisories are issued when drizzle falling in sub-zero temperatures is expected to freeze on contact, and over time create icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-03T16:59:26-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T08:50:26-00:00, urn:oid:2.49.0.1.124.2373458463.2021<br>Area: Simcoe - Delhi - Norfolk, Dunnville - Caledonia - Haldimand, Watford - Pinery Park - Eastern Lambton County, Sarnia - Petrolia - Western Lambton County, London - Parkhill - Eastern Middlesex County, Strathroy - Komoka - Western Middlesex County, St. Thomas - Aylmer - Eastern Elgin County, Rodney - Shedden - Western Elgin County, Woodstock - Tillsonburg - Oxford County, Brantford - County of Brant, City of Hamilton, Saugeen Shores - Kincardine - Southern Bruce County, Wingham - Blyth - Northern Huron County, Listowel - Milverton - Northern Perth County, Goderich - Bluewater - Southern Huron County, Stratford - Mitchell - Southern Perth County, Mount Forest - Arthur - Northern Wellington County, Guelph - Erin - Southern Wellington County, Kitchener - Cambridge - Region of Waterloo, Halton Hills - Milton",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.1809732313.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T08_31_57_00_00Iurn_oid_2.49.0.1.124.1809732313.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.2373458463.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T08_50_26_00_00Iurn_oid_2.49.0.1.124.2373458463.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210103165957+00:00"
+				"Expires_FMEFormat" : "20210103165926+00:00"
 			}
 		},
 		{
@@ -3142,18 +3201,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 3, 2021 08:47",
+				"LastUpdate_UTC" : "January 3, 2021 08:50",
 				"Expires_UTC" : "January 3, 2021 18:29",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-01-03T18:29:40-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T08:47:40-00:00, urn:oid:2.49.0.1.124.1220685212.2021<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: 7 to 14 cm.\n\nMaximum wind gusts: northeasterly 60 km/h except 80 along parts of the Avalon Peninsula.\n\nLocations: Burin Peninsula and southern Avalon Peninsula.\n\nTime span: Reduced visibilities will continue this morning before improving later this morning on the Burin Peninsula and near noon today elsewhere.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-01-03T18:29:51-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T08:50:51-00:00, urn:oid:2.49.0.1.124.2134614657.2021<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.1220685212.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T08_47_40_00_00Iurn_oid_2.49.0.1.124.1220685212.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.2134614657.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T08_50_51_00_00Iurn_oid_2.49.0.1.124.2134614657.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210103182940+00:00"
+				"Expires_FMEFormat" : "20210103182951+00:00"
 			}
 		},
 		{
@@ -3200,18 +3259,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 3, 2021 02:08",
-				"Expires_UTC" : "January 3, 2021 17:29",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: 7 to 14 cm.\n\nMaximum wind gusts: northeasterly 60 km/h except 80 along parts of the Avalon Peninsula.\n\nLocations; Burin Peninsula and southern Avalon Peninsula.\n\nTime span: Visibilities deteriorating overnight, then improving Sunday morning on the Burin Peninsula and near noon Sunday elsewhere.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-01-03T17:29:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T02:08:55-00:00, urn:oid:2.49.0.1.124.0881358394.2021<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
+				"LastUpdate_UTC" : "January 3, 2021 08:50",
+				"Expires_UTC" : "January 3, 2021 18:29",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-01-03T18:29:51-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-03T08:50:51-00:00, urn:oid:2.49.0.1.124.3011750223.2021<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest, Burin Peninsula",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.0881358394.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T02_08_55_00_00Iurn_oid_2.49.0.1.124.0881358394.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-03:feed.atom/urn:oid:2.49.0.1.124.3011750223.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-03/2021_01_03T08_50_51_00_00Iurn_oid_2.49.0.1.124.3011750223.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210103172955+00:00"
+				"Expires_FMEFormat" : "20210103182951+00:00"
 			}
 		},
 		{
