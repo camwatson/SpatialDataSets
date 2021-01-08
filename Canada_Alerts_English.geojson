@@ -316,67 +316,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.0934, 49.8139 ],
-							[ -123.155, 49.8988 ],
-							[ -123.2918, 49.9079 ],
-							[ -123.3, 49.9085 ],
-							[ -123.2913, 49.8844 ],
-							[ -123.2883, 49.8762 ],
-							[ -123.2145, 49.6778 ],
-							[ -123.2485, 49.5881 ],
-							[ -123.4682, 49.5154 ],
-							[ -123.4627, 49.4313 ],
-							[ -123.518, 49.3701 ],
-							[ -123.509, 49.3539 ],
-							[ -123.3632, 49.2918 ],
-							[ -123.2902, 49.3448 ],
-							[ -123.2818, 49.351 ],
-							[ -123.2988, 49.3767 ],
-							[ -123.2629, 49.3867 ],
-							[ -123.2621, 49.3866 ],
-							[ -123.212, 49.3895 ],
-							[ -123.0938, 49.4314 ],
-							[ -122.9898, 49.4645 ],
-							[ -122.8909, 49.4802 ],
-							[ -122.884, 49.4813 ],
-							[ -122.7973, 49.4955 ],
-							[ -122.7669, 49.5005 ],
-							[ -122.7445, 49.5042 ],
-							[ -122.8821, 49.7107 ],
-							[ -123.0934, 49.8139 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 8, 2021 12:45",
-				"Expires_UTC" : "January 8, 2021 13:45",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2021-01-08T13:45:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-08T12:45:45-00:00, urn:oid:2.49.0.1.124.3794140482.2021<br>Area: Howe Sound",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-08:feed.atom/urn:oid:2.49.0.1.124.3794140482.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-08/2021_01_08T12_45_45_00_00Iurn_oid_2.49.0.1.124.3794140482.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210108134545+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -61.0612, 53.2803 ],
 							[ -61.0591, 53.2593 ],
 							[ -61.0344, 53.1975 ],
@@ -432,6 +371,67 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-08/2021_01_08T09_15_22_00_00Iurn_oid_2.49.0.1.124.1863622047.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210108221422+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.0934, 49.8139 ],
+							[ -123.155, 49.8988 ],
+							[ -123.2918, 49.9079 ],
+							[ -123.3, 49.9085 ],
+							[ -123.2913, 49.8844 ],
+							[ -123.2883, 49.8762 ],
+							[ -123.2145, 49.6778 ],
+							[ -123.2485, 49.5881 ],
+							[ -123.4682, 49.5154 ],
+							[ -123.4627, 49.4313 ],
+							[ -123.518, 49.3701 ],
+							[ -123.509, 49.3539 ],
+							[ -123.3632, 49.2918 ],
+							[ -123.2902, 49.3448 ],
+							[ -123.2818, 49.351 ],
+							[ -123.2988, 49.3767 ],
+							[ -123.2629, 49.3867 ],
+							[ -123.2621, 49.3866 ],
+							[ -123.212, 49.3895 ],
+							[ -123.0938, 49.4314 ],
+							[ -122.9898, 49.4645 ],
+							[ -122.8909, 49.4802 ],
+							[ -122.884, 49.4813 ],
+							[ -122.7973, 49.4955 ],
+							[ -122.7669, 49.5005 ],
+							[ -122.7445, 49.5042 ],
+							[ -122.8821, 49.7107 ],
+							[ -123.0934, 49.8139 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 7, 2021 23:36",
+				"Expires_UTC" : "January 8, 2021 15:24",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nAn approaching low pressure centre off Vancouver Island combined with a ridge of high pressure over BC interior is generating strong outflow winds through Howe Sound, especially over southern sections. Strong winds will ease overnight as the low moves to the north.\n\n###\n\nGusty winds can damage soft shelters, tents and awnings at outdoor events. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-01-08T15:24:58-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-07T23:36:58-00:00, urn:oid:2.49.0.1.124.2185337912.2021<br>Area: Howe Sound",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-07:feed.atom/urn:oid:2.49.0.1.124.2185337912.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-07/2021_01_07T23_36_58_00_00Iurn_oid_2.49.0.1.124.2185337912.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210108152458+00:00"
 			}
 		},
 		{
