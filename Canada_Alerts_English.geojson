@@ -931,74 +931,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -126.6918, 50.5726 ],
-							[ -126.8269, 50.6535 ],
-							[ -126.8819, 50.6862 ],
-							[ -127.1869, 50.7499 ],
-							[ -127.5713, 50.8711 ],
-							[ -127.8239, 50.9767 ],
-							[ -127.9174, 50.973 ],
-							[ -128.8048, 50.9385 ],
-							[ -129.3279, 50.9024 ],
-							[ -128.7561, 50.7181 ],
-							[ -127.8902, 50.0396 ],
-							[ -127.7942, 50.0736 ],
-							[ -127.6944, 50.1238 ],
-							[ -127.6707, 50.1385 ],
-							[ -127.6515, 50.1593 ],
-							[ -127.6288, 50.1628 ],
-							[ -127.508, 50.181 ],
-							[ -127.316, 50.2003 ],
-							[ -127.1624, 50.2095 ],
-							[ -126.9556, 50.2012 ],
-							[ -126.69, 50.1899 ],
-							[ -126.484, 50.1866 ],
-							[ -126.217, 50.199 ],
-							[ -126.1582, 50.2352 ],
-							[ -125.988, 50.3402 ],
-							[ -125.899, 50.3883 ],
-							[ -125.8534, 50.3892 ],
-							[ -125.8373, 50.4041 ],
-							[ -125.8831, 50.4103 ],
-							[ -125.9203, 50.4049 ],
-							[ -126.0778, 50.4694 ],
-							[ -126.3357, 50.507 ],
-							[ -126.5878, 50.5045 ],
-							[ -126.6681, 50.5277 ],
-							[ -126.6918, 50.5726 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 12, 2021 11:59",
-				"Expires_UTC" : "January 12, 2021 12:59",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2021-01-12T12:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-12T11:59:22-00:00, urn:oid:2.49.0.1.124.3336821855.2021<br>Area: North Vancouver Island",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-12:feed.atom/urn:oid:2.49.0.1.124.3336821855.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-12/2021_01_12T11_59_22_00_00Iurn_oid_2.49.0.1.124.3336821855.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210112125922+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -117.6288, 49.3397 ],
 							[ -117.9877, 49.3461 ],
 							[ -118.2922, 49.1165 ],
@@ -1119,6 +1051,74 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-11/2021_01_11T23_42_00_00_00Iurn_oid_2.49.0.1.124.1814053102.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210112154100+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -126.6918, 50.5726 ],
+							[ -126.8269, 50.6535 ],
+							[ -126.8819, 50.6862 ],
+							[ -127.1869, 50.7499 ],
+							[ -127.5713, 50.8711 ],
+							[ -127.8239, 50.9767 ],
+							[ -127.9174, 50.973 ],
+							[ -128.8048, 50.9385 ],
+							[ -129.3279, 50.9024 ],
+							[ -128.7561, 50.7181 ],
+							[ -127.8902, 50.0396 ],
+							[ -127.7942, 50.0736 ],
+							[ -127.6944, 50.1238 ],
+							[ -127.6707, 50.1385 ],
+							[ -127.6515, 50.1593 ],
+							[ -127.6288, 50.1628 ],
+							[ -127.508, 50.181 ],
+							[ -127.316, 50.2003 ],
+							[ -127.1624, 50.2095 ],
+							[ -126.9556, 50.2012 ],
+							[ -126.69, 50.1899 ],
+							[ -126.484, 50.1866 ],
+							[ -126.217, 50.199 ],
+							[ -126.1582, 50.2352 ],
+							[ -125.988, 50.3402 ],
+							[ -125.899, 50.3883 ],
+							[ -125.8534, 50.3892 ],
+							[ -125.8373, 50.4041 ],
+							[ -125.8831, 50.4103 ],
+							[ -125.9203, 50.4049 ],
+							[ -126.0778, 50.4694 ],
+							[ -126.3357, 50.507 ],
+							[ -126.5878, 50.5045 ],
+							[ -126.6681, 50.5277 ],
+							[ -126.6918, 50.5726 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 12, 2021 11:59",
+				"Expires_UTC" : "January 12, 2021 12:59",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2021-01-12T12:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-12T11:59:22-00:00, urn:oid:2.49.0.1.124.3336821855.2021<br>Area: North Vancouver Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-12:feed.atom/urn:oid:2.49.0.1.124.3336821855.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-12/2021_01_12T11_59_22_00_00Iurn_oid_2.49.0.1.124.3336821855.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210112125922+00:00"
 			}
 		},
 		{
