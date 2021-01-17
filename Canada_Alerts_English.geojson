@@ -279,6 +279,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Extreme",
+				"Title" : "Les Suêtes Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Extreme",
+				"LastUpdate_UTC" : "January 17, 2021 08:21",
+				"Expires_UTC" : "January 18, 2021 00:20",
+				"Summary" : "Description: Strong winds with damaging wind gusts are expected or occurring.\n\nMaximum Les Suetes gusts: 200 km/h.\n\nTime span: this morning.\n\nRemarks: Southeast winds will gust as high as 200 km/h before diminishing near noon today.\n\n###\n\nVery strong wind gusts can damage buildings, down trees and blow large vehicles off the road.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-01-18T00:20:43-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-17T08:21:43-00:00, urn:oid:2.49.0.1.124.3101176120.2021<br>Area: Inverness County - Mabou and north",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-17:feed.atom/urn:oid:2.49.0.1.124.3101176120.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T08_21_43_00_00Iurn_oid_2.49.0.1.124.3101176120.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210118002043+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -66.9998, 48.7504 ],
 							[ -66.7518, 48.8661 ],
 							[ -66.7517, 48.8697 ],
@@ -720,47 +761,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T16_22_22_00_00Iurn_oid_2.49.0.1.124.0792767676.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210117172222+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Extreme",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Extreme",
-				"LastUpdate_UTC" : "January 17, 2021 08:21",
-				"Expires_UTC" : "January 18, 2021 00:20",
-				"Summary" : "Description: Strong winds with damaging wind gusts are expected or occurring.\n\nMaximum Les Suetes gusts: 200 km/h.\n\nTime span: this morning.\n\nRemarks: Southeast winds will gust as high as 200 km/h before diminishing near noon today.\n\n###\n\nVery strong wind gusts can damage buildings, down trees and blow large vehicles off the road.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-01-18T00:20:43-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-17T08:21:43-00:00, urn:oid:2.49.0.1.124.3101176120.2021<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-17:feed.atom/urn:oid:2.49.0.1.124.3101176120.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T08_21_43_00_00Iurn_oid_2.49.0.1.124.3101176120.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210118002043+00:00"
 			}
 		},
 		{
@@ -1299,18 +1299,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 17, 2021 13:47",
-				"Expires_UTC" : "January 17, 2021 18:59",
-				"Summary" : "Description: High water levels and large waves are forecast for today.\n\nLocations: Iles de la Madeleine, especially eastern facing shorelines.\n\nMaximum water levels: exceeding high astronomical tide.\n\nMaximum wave heights: 4 to 6 metres.\n\nHigh tide: near noon today.\n\nRemarks: Strong easterly winds, large waves and high water levels may cause coastal erosion and damage to coastal infrastructure, especially to east facing coastlines of Iles-de-la-Madeleine.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2021-01-17T18:59:57-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-17T13:47:57-00:00, urn:oid:2.49.0.1.124.3786301131.2021<br>Area: Gulf - Magdalen",
+				"LastUpdate_UTC" : "January 17, 2021 16:44",
+				"Expires_UTC" : "January 17, 2021 19:59",
+				"Summary" : "Description: High water levels and large waves are forecast for today.\n\nLocations: Iles de la Madeleine, especially eastern facing shorelines.\n\nMaximum water levels: exceeding high astronomical tide.\n\nMaximum wave heights: 4 to 6 metres.\n\nHigh tide: until this afternoon.\n\nRemarks: Strong easterly winds, large waves and high water levels may cause coastal erosion and damage to coastal infrastructure, especially to east facing coastlines of Iles-de-la-Madeleine.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.<br>Expires: 2021-01-17T19:59:15-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-17T16:44:15-00:00, urn:oid:2.49.0.1.124.3432481535.2021<br>Area: Gulf - Magdalen",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-17:feed.atom/urn:oid:2.49.0.1.124.3786301131.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T13_47_57_00_00Iurn_oid_2.49.0.1.124.3786301131.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-17:feed.atom/urn:oid:2.49.0.1.124.3432481535.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T16_44_15_00_00Iurn_oid_2.49.0.1.124.3432481535.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210117185957+00:00"
+				"Expires_FMEFormat" : "20210117195915+00:00"
 			}
 		},
 		{
