@@ -9,6 +9,79 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ],
+							[ -61.6947, 46.0096 ],
+							[ -61.5101, 45.737 ],
+							[ -61.4305, 45.6526 ],
+							[ -61.4371, 45.6492 ],
+							[ -61.5031, 45.6221 ],
+							[ -61.7374, 45.525 ],
+							[ -61.733, 45.5024 ],
+							[ -61.7299, 45.4868 ],
+							[ -61.949, 45.3941 ],
+							[ -62.0904, 45.3736 ],
+							[ -62.6235, 45.2947 ],
+							[ -62.6877, 45.2911 ],
+							[ -62.7118, 45.2704 ],
+							[ -62.8428, 45.2503 ],
+							[ -62.8749, 45.2036 ],
+							[ -63.3573, 45.0209 ],
+							[ -63.46, 44.9886 ],
+							[ -63.2515, 44.736 ],
+							[ -63.2511, 44.7352 ],
+							[ -63.2405, 44.7163 ],
+							[ -63.2105, 44.6376 ],
+							[ -62.9403, 44.6081 ],
+							[ -62.0547, 44.8797 ],
+							[ -61.1946, 45.1755 ],
+							[ -60.9193, 45.2127 ],
+							[ -60.9214, 45.3595 ],
+							[ -60.8672, 45.3945 ],
+							[ -60.8348, 45.5153 ],
+							[ -60.1685, 45.7073 ],
+							[ -59.538, 46.0154 ],
+							[ -59.8902, 46.2624 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 17, 2021 14:39",
+				"Expires_UTC" : "January 17, 2021 15:39",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2021-01-17T15:39:35-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-17T14:39:35-00:00, urn:oid:2.49.0.1.124.3867539401.2021<br>Area: Halifax County - east of Porters Lake, Guysborough County, Richmond County, Inverness County - south of Mabou, Inverness County - Mabou and north, Victoria County, Sydney Metro and Cape Breton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-17:feed.atom/urn:oid:2.49.0.1.124.3867539401.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T14_39_35_00_00Iurn_oid_2.49.0.1.124.3867539401.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210117153935+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -72.2343, 46.3957 ],
 							[ -72.2089, 46.4157 ],
 							[ -72.1727, 46.4987 ],
@@ -181,6 +254,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T14_17_31_00_00Iurn_oid_2.49.0.1.124.3890895781.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210117225931+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.0126, 48.1917 ],
+							[ -71.5524, 48.3338 ],
+							[ -72.0026, 48.2499 ],
+							[ -72.0026, 48.2497 ],
+							[ -72.0027, 47.7998 ],
+							[ -72.0029, 47.2 ],
+							[ -71.585, 47.1941 ],
+							[ -71.016, 47.1831 ],
+							[ -70.5032, 47.6322 ],
+							[ -70.1357, 47.9471 ],
+							[ -70.2615, 47.9894 ],
+							[ -70.5546, 48.0769 ],
+							[ -70.9118, 48.1728 ],
+							[ -71.0126, 48.1917 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 17, 2021 14:35",
+				"Expires_UTC" : "January 17, 2021 22:59",
+				"Summary" : "Description: Snow will persist until this evening. Total snowfall amounts will reach 15 to 20 centimetres.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-01-17T22:59:25-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-17T14:35:25-00:00, urn:oid:2.49.0.1.124.0490284734.2021<br>Area: Apica Mountain area, Grands-Jardins Park area, l'Étape area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-17:feed.atom/urn:oid:2.49.0.1.124.0490284734.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T14_35_25_00_00Iurn_oid_2.49.0.1.124.0490284734.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210117225925+00:00"
 			}
 		},
 		{
