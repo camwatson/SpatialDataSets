@@ -340,57 +340,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -117.9704, 70.6618 ],
-							[ -117.6802, 70.5501 ],
-							[ -117.4352, 70.5879 ],
-							[ -117.3187, 70.6198 ],
-							[ -117.2284, 70.6592 ],
-							[ -117.1705, 70.7006 ],
-							[ -117.1358, 70.7604 ],
-							[ -117.1524, 70.821 ],
-							[ -117.2138, 70.8744 ],
-							[ -117.3239, 70.9235 ],
-							[ -117.4716, 70.9606 ],
-							[ -117.6454, 70.9829 ],
-							[ -117.8314, 70.9884 ],
-							[ -118.0038, 70.9781 ],
-							[ -118.1617, 70.9535 ],
-							[ -118.3025, 70.9131 ],
-							[ -118.3629, 70.8409 ],
-							[ -117.9704, 70.6618 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 17, 2021 22:45",
-				"Expires_UTC" : "January 18, 2021 14:44",
-				"Summary" : "Description: An intense low pressure system is forecast to bring easterly winds of 50 gusting to 70 km/h beginning overnight Monday and continuing Tuesday. These winds will combine with falling snow to give reduced visibilities and likely blizzard conditions. Conditions will improve Tuesday evening as the winds diminish.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2021-01-18T14:44:21-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-17T22:45:21-00:00, urn:oid:2.49.0.1.124.2106417058.2021<br>Area: Ulukhaktok",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-17:feed.atom/urn:oid:2.49.0.1.124.2106417058.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T22_45_21_00_00Iurn_oid_2.49.0.1.124.2106417058.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210118144421+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -64.6884, 50.1063 ],
 							[ -62.995, 50.1418 ],
 							[ -62.999, 50.7498 ],
@@ -553,6 +502,74 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T23_35_54_00_00Iurn_oid_2.49.0.1.124.1237719547.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210118105954+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -64.7559, 48.6496 ],
+							[ -64.7584, 48.4676 ],
+							[ -64.75, 48.4658 ],
+							[ -65.0706, 48.4384 ],
+							[ -65.2298, 48.4244 ],
+							[ -65.4677, 48.4029 ],
+							[ -65.4764, 48.4021 ],
+							[ -65.4763, 48.4015 ],
+							[ -65.4342, 48 ],
+							[ -65.4344, 47.921 ],
+							[ -65.2163, 47.9516 ],
+							[ -64.7544, 48.0994 ],
+							[ -64.2197, 48.3156 ],
+							[ -64.2107, 48.3332 ],
+							[ -64.0234, 48.6739 ],
+							[ -64.0922, 48.9092 ],
+							[ -64.7482, 49.4732 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7559, 48.6496 ]
+						]
+					],
+					[
+						[
+							[ -67.5055, 49.8307 ],
+							[ -67.5073, 49.3198 ],
+							[ -67.508, 49.2382 ],
+							[ -67.2832, 49.2432 ],
+							[ -66.805, 49.3539 ],
+							[ -66.868, 49.9512 ],
+							[ -64.9972, 50.1249 ],
+							[ -64.999, 50.7498 ],
+							[ -67.502, 50.7497 ],
+							[ -67.5048, 49.9998 ],
+							[ -67.5055, 49.8307 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "January 17, 2021 21:02",
+				"Expires_UTC" : "January 18, 2021 13:01",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA snowstorm is still prevailing and will end overnight tonight. Total snowfall amounts of 30 to 50 cm are expected. Strong winds will cause local blowing snow.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-01-18T13:01:21-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-17T21:02:21-00:00, urn:oid:2.49.0.1.124.3696368218.2021<br>Area: Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Baie-Trinité area, Sept-Îles - Port-Cartier area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-17:feed.atom/urn:oid:2.49.0.1.124.3696368218.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T21_02_21_00_00Iurn_oid_2.49.0.1.124.3696368218.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210118130121+00:00"
 			}
 		},
 		{
@@ -1051,65 +1068,48 @@
 				"coordinates" : [
 					[
 						[
-							[ -64.7559, 48.6496 ],
-							[ -64.7584, 48.4676 ],
-							[ -64.75, 48.4658 ],
-							[ -65.0706, 48.4384 ],
-							[ -65.2298, 48.4244 ],
-							[ -65.4677, 48.4029 ],
-							[ -65.4764, 48.4021 ],
-							[ -65.4763, 48.4015 ],
-							[ -65.4342, 48 ],
-							[ -65.4344, 47.921 ],
-							[ -65.2163, 47.9516 ],
-							[ -64.7544, 48.0994 ],
-							[ -64.2197, 48.3156 ],
-							[ -64.2107, 48.3332 ],
-							[ -64.0234, 48.6739 ],
-							[ -64.0922, 48.9092 ],
-							[ -64.7482, 49.4732 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7559, 48.6496 ]
-						]
-					],
-					[
-						[
-							[ -67.5055, 49.8307 ],
-							[ -67.5073, 49.3198 ],
-							[ -67.508, 49.2382 ],
-							[ -67.2832, 49.2432 ],
-							[ -66.805, 49.3539 ],
-							[ -66.868, 49.9512 ],
-							[ -64.9972, 50.1249 ],
-							[ -64.999, 50.7498 ],
-							[ -67.502, 50.7497 ],
-							[ -67.5048, 49.9998 ],
-							[ -67.5055, 49.8307 ]
+							[ -117.9704, 70.6618 ],
+							[ -117.6802, 70.5501 ],
+							[ -117.4352, 70.5879 ],
+							[ -117.3187, 70.6198 ],
+							[ -117.2284, 70.6592 ],
+							[ -117.1705, 70.7006 ],
+							[ -117.1358, 70.7604 ],
+							[ -117.1524, 70.821 ],
+							[ -117.2138, 70.8744 ],
+							[ -117.3239, 70.9235 ],
+							[ -117.4716, 70.9606 ],
+							[ -117.6454, 70.9829 ],
+							[ -117.8314, 70.9884 ],
+							[ -118.0038, 70.9781 ],
+							[ -118.1617, 70.9535 ],
+							[ -118.3025, 70.9131 ],
+							[ -118.3629, 70.8409 ],
+							[ -117.9704, 70.6618 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Winter Storm Warning In Effect",
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Winter Storm Watch In Effect",
 				"Category" : "Actual",
 				"event" : "Winter Storm",
-				"urgency" : "Expected",
+				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "January 17, 2021 21:02",
-				"Expires_UTC" : "January 18, 2021 13:01",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA snowstorm is still prevailing and will end overnight tonight. Total snowfall amounts of 30 to 50 cm are expected. Strong winds will cause local blowing snow.\n\n###\n\nRapidly accumulating snow will make travel difficult. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-01-18T13:01:21-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-17T21:02:21-00:00, urn:oid:2.49.0.1.124.3696368218.2021<br>Area: Chandler area, New Carlisle - Port-Daniel area, Forillon National Park - Gaspé area, Percé area, Baie-Trinité area, Sept-Îles - Port-Cartier area",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 18, 2021 04:22",
+				"Expires_UTC" : "January 18, 2021 20:21",
+				"Summary" : "Description: An intense low pressure system is forecast to bring easterly winds of 50 gusting to 70 km/h beginning overnight Monday and continuing Tuesday. These winds will combine with falling snow to give reduced visibilities and likely blizzard conditions. Conditions will improve Tuesday evening as the winds diminish.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2021-01-18T20:21:51-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-18T04:22:51-00:00, urn:oid:2.49.0.1.124.1326840822.2021<br>Area: Ulukhaktok",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-17:feed.atom/urn:oid:2.49.0.1.124.3696368218.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-17/2021_01_17T21_02_21_00_00Iurn_oid_2.49.0.1.124.3696368218.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-18:feed.atom/urn:oid:2.49.0.1.124.1326840822.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-18/2021_01_18T04_22_51_00_00Iurn_oid_2.49.0.1.124.1326840822.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210118130121+00:00"
+				"Expires_FMEFormat" : "20210118202151+00:00"
 			}
 		}
 	]
