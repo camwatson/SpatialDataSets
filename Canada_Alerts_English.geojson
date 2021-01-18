@@ -100,51 +100,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -138.0092, 60.0031 ],
-							[ -138.0024, 60 ],
-							[ -137.1084, 59.987 ],
-							[ -136.3938, 60 ],
-							[ -136.0545, 60.77 ],
-							[ -135.8519, 61.4667 ],
-							[ -136.52, 61.6578 ],
-							[ -137.2519, 61.8167 ],
-							[ -137.9436, 61.0285 ],
-							[ -138.4847, 60.2996 ],
-							[ -138.2399, 60.1292 ],
-							[ -138.0092, 60.0031 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 18, 2021 12:03",
-				"Expires_UTC" : "January 19, 2021 04:02",
-				"Summary" : "Description: Potential for heavy snow this afternoon and evening.\n\nA powerful storm system is approaching from the Gulf of Alaska. Strong southerly winds in advance of this system will begin to push precipitation over the St. Elias mountains and through the Chilkat Pass late this morning. \nWe are expecting wet snow mixed with rain. However, heavy precipitation could keep valley temperatures near the freezing mark, allowing snow to accumulate.\n\nAt this time a great deal of uncertainty remains in how much warm air will invade the Shakwak Valley and how heavily it will precipitate. If a colder regime presents itself, snowfall accumulations in excess of 10 cm are possible. Snow levels are likely to fluctuate between 600 and 800 metres, which could result in relatively modest snowfall accumulations at Haines Junction and much higher amounts just outside of town along the Alaska Highway, and along the Haines Road which is under a WInter Storm Warning.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-01-19T04:02:05-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-18T12:03:05-00:00, urn:oid:2.49.0.1.124.3528812687.2021<br>Area: Haines Junction",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-18:feed.atom/urn:oid:2.49.0.1.124.3528812687.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-18/2021_01_18T12_03_05_00_00Iurn_oid_2.49.0.1.124.3528812687.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210119040205+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -60.9853, 45.9184 ],
 							[ -60.8096, 45.85 ],
 							[ -60.7934, 45.967 ],
@@ -419,6 +374,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-18/2021_01_18T17_19_46_00_00Iurn_oid_2.49.0.1.124.2184439428.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210119091846+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -138.0092, 60.0031 ],
+							[ -138.0024, 60 ],
+							[ -137.1084, 59.987 ],
+							[ -136.3938, 60 ],
+							[ -136.0545, 60.77 ],
+							[ -135.8519, 61.4667 ],
+							[ -136.52, 61.6578 ],
+							[ -137.2519, 61.8167 ],
+							[ -137.9436, 61.0285 ],
+							[ -138.4847, 60.2996 ],
+							[ -138.2399, 60.1292 ],
+							[ -138.0092, 60.0031 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 18, 2021 22:16",
+				"Expires_UTC" : "January 19, 2021 14:16",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-01-19T14:16:46-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-18T22:16:46-00:00, urn:oid:2.49.0.1.124.2945628105.2021<br>Area: Haines Junction",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-18:feed.atom/urn:oid:2.49.0.1.124.2945628105.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-18/2021_01_18T22_16_46_00_00Iurn_oid_2.49.0.1.124.2945628105.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210119141646+00:00"
 			}
 		},
 		{
