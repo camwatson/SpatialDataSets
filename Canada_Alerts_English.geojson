@@ -373,65 +373,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -119.9857, 57.2379 ],
-							[ -120.0012, 57.3805 ],
-							[ -120.0012, 58.0792 ],
-							[ -120.0013, 58.9507 ],
-							[ -120.0013, 59.4749 ],
-							[ -120.0013, 60.0004 ],
-							[ -120.3721, 60.0094 ],
-							[ -120.8537, 60.0007 ],
-							[ -122.1769, 60.0416 ],
-							[ -123.7728, 60.0004 ],
-							[ -123.7954, 60.0001 ],
-							[ -123.8085, 60 ],
-							[ -123.817, 60 ],
-							[ -123.817, 59.9998 ],
-							[ -123.817, 59.9356 ],
-							[ -123.8528, 59.7415 ],
-							[ -123.817, 59.4674 ],
-							[ -123.8541, 58.9744 ],
-							[ -123.833, 58.4669 ],
-							[ -123.8503, 58.2678 ],
-							[ -123.817, 58 ],
-							[ -123.4638, 57.5317 ],
-							[ -122.9999, 57.0999 ],
-							[ -121.5305, 57.0723 ],
-							[ -120.0013, 57.0999 ],
-							[ -119.9857, 57.2379 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Freezing Rain",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 19, 2021 07:29",
-				"Expires_UTC" : "January 19, 2021 14:23",
-				"Summary" : "Description: Freezing rain has developed tonight and is expected to continue for several hours leading to icy conditions.\n\nThe freezing rain will taper off overnight but temperatures are expected to remain below freezing leading to slippery conditions into early morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-01-19T14:23:50-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-19T07:29:50-00:00, urn:oid:2.49.0.1.124.2858292468.2021<br>Area: Fort Nelson",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-19:feed.atom/urn:oid:2.49.0.1.124.2858292468.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-19/2021_01_19T07_29_50_00_00Iurn_oid_2.49.0.1.124.2858292468.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210119142350+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -70.2989, 59.6999 ],
 							[ -70.299, 58.7659 ],
 							[ -70.2999, 58.3 ],
@@ -739,6 +680,65 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-19/2021_01_19T08_45_46_00_00Iurn_oid_2.49.0.1.124.0387237405.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210120004446+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -119.9857, 57.2379 ],
+							[ -120.0012, 57.3805 ],
+							[ -120.0012, 58.0792 ],
+							[ -120.0013, 58.9507 ],
+							[ -120.0013, 59.4749 ],
+							[ -120.0013, 60.0004 ],
+							[ -120.3721, 60.0094 ],
+							[ -120.8537, 60.0007 ],
+							[ -122.1769, 60.0416 ],
+							[ -123.7728, 60.0004 ],
+							[ -123.7954, 60.0001 ],
+							[ -123.8085, 60 ],
+							[ -123.817, 60 ],
+							[ -123.817, 59.9998 ],
+							[ -123.817, 59.9356 ],
+							[ -123.8528, 59.7415 ],
+							[ -123.817, 59.4674 ],
+							[ -123.8541, 58.9744 ],
+							[ -123.833, 58.4669 ],
+							[ -123.8503, 58.2678 ],
+							[ -123.817, 58 ],
+							[ -123.4638, 57.5317 ],
+							[ -122.9999, 57.0999 ],
+							[ -121.5305, 57.0723 ],
+							[ -120.0013, 57.0999 ],
+							[ -119.9857, 57.2379 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Freezing Rain Warning Ended",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 19, 2021 09:28",
+				"Expires_UTC" : "January 19, 2021 10:28",
+				"Summary" : "Description: Freezing rain conditions are no longer expected.\n\n\n###<br>Expires: 2021-01-19T10:28:07-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-19T09:28:07-00:00, urn:oid:2.49.0.1.124.1028764838.2021<br>Area: Fort Nelson",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-19:feed.atom/urn:oid:2.49.0.1.124.1028764838.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-19/2021_01_19T09_28_07_00_00Iurn_oid_2.49.0.1.124.1028764838.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210119102807+00:00"
 			}
 		},
 		{
@@ -1193,16 +1193,16 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 19, 2021 09:18",
+				"LastUpdate_UTC" : "January 19, 2021 09:19",
 				"Expires_UTC" : "January 20, 2021 01:18",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-01-20T01:18:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-19T09:18:02-00:00, urn:oid:2.49.0.1.124.0895042026.2021<br>Area: Naujaat",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nA strong low pressure system tracking toward Foxe Basin will bring strong winds, snow and blowing snow to Naujaat. \n\nStrong northerly winds with gusts to 70 km/h along with snow and blowing snow will create a blizzard beginning this morning that will last until Wednesday morning.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-01-20T01:18:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-19T09:19:02-00:00, urn:oid:2.49.0.1.124.3433990232.2021<br>Area: Naujaat",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-19:feed.atom/urn:oid:2.49.0.1.124.0895042026.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-19/2021_01_19T09_18_02_00_00Iurn_oid_2.49.0.1.124.0895042026.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-19:feed.atom/urn:oid:2.49.0.1.124.3433990232.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-19/2021_01_19T09_19_02_00_00Iurn_oid_2.49.0.1.124.3433990232.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210120011802+00:00"
 			}
