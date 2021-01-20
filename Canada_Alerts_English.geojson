@@ -138,47 +138,56 @@
 				"coordinates" : [
 					[
 						[
-							[ -67.5048, 49.9998 ],
-							[ -67.502, 50.7497 ],
-							[ -67.4961, 52.2499 ],
-							[ -67.4964, 52.2499 ],
-							[ -69.9991, 52.2498 ],
-							[ -69.9993, 51.646 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.766, 49.5499 ],
-							[ -71.3493, 48.9995 ],
-							[ -70.2496, 48.6665 ],
-							[ -69.7684, 48.8682 ],
-							[ -68.8408, 49.251 ],
-							[ -68.8348, 49.2537 ],
-							[ -67.5055, 49.8307 ],
-							[ -67.5048, 49.9998 ]
+							[ -81.8174, 44.0475 ],
+							[ -81.8031, 43.8383 ],
+							[ -81.721, 43.8105 ],
+							[ -81.4774, 43.7048 ],
+							[ -81.2052, 43.6013 ],
+							[ -81.179, 43.6332 ],
+							[ -81.1493, 43.6187 ],
+							[ -81.0304, 43.7718 ],
+							[ -81.1004, 43.788 ],
+							[ -81.0771, 43.8105 ],
+							[ -81.0091, 43.8151 ],
+							[ -80.9533, 43.8223 ],
+							[ -80.966, 43.9059 ],
+							[ -80.9912, 43.9864 ],
+							[ -80.9846, 43.987 ],
+							[ -80.9797, 43.9878 ],
+							[ -81.0277, 44.2047 ],
+							[ -81.0823, 44.4005 ],
+							[ -81.0977, 44.4831 ],
+							[ -81.1203, 44.5511 ],
+							[ -81.199, 44.5378 ],
+							[ -81.2724, 44.5229 ],
+							[ -81.2887, 44.5846 ],
+							[ -81.2913, 44.5944 ],
+							[ -81.4622, 44.5866 ],
+							[ -81.8174, 44.0475 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snow Squall Warning Ended",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 20, 2021 09:43",
-				"Expires_UTC" : "January 20, 2021 17:59",
-				"Summary" : "Description: The combination of very cold air and strong northwest winds is generating extreme wind chill values of - 38 this morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-01-20T17:59:13-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-20T09:43:13-00:00, urn:oid:2.49.0.1.124.3962812777.2021<br>Area: Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
+				"event" : "Snow Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 20, 2021 15:31",
+				"Expires_UTC" : "January 20, 2021 16:31",
+				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2021-01-20T16:31:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-20T15:31:56-00:00, urn:oid:2.49.0.1.124.2437396358.2021<br>Area: Saugeen Shores - Kincardine - Southern Bruce County, Wingham - Blyth - Northern Huron County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-20:feed.atom/urn:oid:2.49.0.1.124.3962812777.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-20/2021_01_20T09_43_13_00_00Iurn_oid_2.49.0.1.124.3962812777.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-20:feed.atom/urn:oid:2.49.0.1.124.2437396358.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-20/2021_01_20T15_31_56_00_00Iurn_oid_2.49.0.1.124.2437396358.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210120175913+00:00"
+				"Expires_FMEFormat" : "20210120163156+00:00"
 			}
 		},
 		{
@@ -479,6 +488,62 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-20/2021_01_20T09_17_01_00_00Iurn_oid_2.49.0.1.124.2976115990.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210120215901+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -104.8657, 58.3999 ],
+							[ -104.8658, 57.0615 ],
+							[ -104.8658, 56.1199 ],
+							[ -104.1998, 56.1199 ],
+							[ -103.2006, 56.1199 ],
+							[ -102.004, 56.1199 ],
+							[ -102.0008, 56.2197 ],
+							[ -102.0073, 56.3385 ],
+							[ -102.0073, 57.11 ],
+							[ -101.9861, 57.6901 ],
+							[ -102.0074, 58.3877 ],
+							[ -101.9745, 59.1823 ],
+							[ -102.0075, 59.9992 ],
+							[ -103.4256, 60.0239 ],
+							[ -104.8657, 59.9995 ],
+							[ -105.63, 60.0171 ],
+							[ -106.4297, 59.9992 ],
+							[ -107.2378, 60.0172 ],
+							[ -108.0496, 59.9996 ],
+							[ -108.08, 59.1865 ],
+							[ -108.0497, 58.3999 ],
+							[ -106.4297, 58.3999 ],
+							[ -104.8657, 58.3999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 20, 2021 04:23",
+				"Expires_UTC" : "January 20, 2021 20:22",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nSnow at times heavy will continue tonight and will taper off to a few flurries by Wednesday evening.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2021-01-20T20:22:00-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-20T04:23:00-00:00, urn:oid:2.49.0.1.124.0475983086.2021<br>Area: Fond-du-Lac, Stony Rapids and Black Lake, Wollaston Lake - Collins Bay, Southend - Brabant Lake - Kinoosao",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-20:feed.atom/urn:oid:2.49.0.1.124.0475983086.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-20/2021_01_20T04_23_00_00_00Iurn_oid_2.49.0.1.124.0475983086.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210120202200+00:00"
 			}
 		},
 		{
@@ -2452,6 +2517,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -67.5048, 49.9998 ],
+							[ -67.502, 50.7497 ],
+							[ -67.4961, 52.2499 ],
+							[ -67.4964, 52.2499 ],
+							[ -69.9991, 52.2498 ],
+							[ -69.9993, 51.646 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.766, 49.5499 ],
+							[ -71.3493, 48.9995 ],
+							[ -70.2496, 48.6665 ],
+							[ -69.7684, 48.8682 ],
+							[ -68.8408, 49.251 ],
+							[ -68.8348, 49.2537 ],
+							[ -67.5055, 49.8307 ],
+							[ -67.5048, 49.9998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 20, 2021 15:32",
+				"Expires_UTC" : "January 20, 2021 16:32",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n###<br>Expires: 2021-01-20T16:32:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-20T15:32:45-00:00, urn:oid:2.49.0.1.124.1574431367.2021<br>Area: Manic-5 area, Manic-3 area, Chutes-des-Passes - Pipmuacan Reservoir area, Labrieville area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-20:feed.atom/urn:oid:2.49.0.1.124.1574431367.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-20/2021_01_20T15_32_45_00_00Iurn_oid_2.49.0.1.124.1574431367.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210120163245+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -99.8849, 48.999 ],
 							[ -99.6756, 48.9988 ],
 							[ -99.4814, 48.9993 ],
@@ -2724,62 +2839,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-20/2021_01_20T15_01_09_00_00Iurn_oid_2.49.0.1.124.1792817655.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210121045909+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -104.8657, 58.3999 ],
-							[ -104.8658, 57.0615 ],
-							[ -104.8658, 56.1199 ],
-							[ -104.1998, 56.1199 ],
-							[ -103.2006, 56.1199 ],
-							[ -102.004, 56.1199 ],
-							[ -102.0008, 56.2197 ],
-							[ -102.0073, 56.3385 ],
-							[ -102.0073, 57.11 ],
-							[ -101.9861, 57.6901 ],
-							[ -102.0074, 58.3877 ],
-							[ -101.9745, 59.1823 ],
-							[ -102.0075, 59.9992 ],
-							[ -103.4256, 60.0239 ],
-							[ -104.8657, 59.9995 ],
-							[ -105.63, 60.0171 ],
-							[ -106.4297, 59.9992 ],
-							[ -107.2378, 60.0172 ],
-							[ -108.0496, 59.9996 ],
-							[ -108.08, 59.1865 ],
-							[ -108.0497, 58.3999 ],
-							[ -106.4297, 58.3999 ],
-							[ -104.8657, 58.3999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 20, 2021 04:23",
-				"Expires_UTC" : "January 20, 2021 20:22",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nSnow at times heavy will continue tonight and will taper off to a few flurries by Wednesday evening.\n\n###\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2021-01-20T20:22:00-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-20T04:23:00-00:00, urn:oid:2.49.0.1.124.0475983086.2021<br>Area: Fond-du-Lac, Stony Rapids and Black Lake, Wollaston Lake - Collins Bay, Southend - Brabant Lake - Kinoosao",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-20:feed.atom/urn:oid:2.49.0.1.124.0475983086.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-20/2021_01_20T04_23_00_00_00Iurn_oid_2.49.0.1.124.0475983086.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210120202200+00:00"
 			}
 		},
 		{
