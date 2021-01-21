@@ -469,6 +469,54 @@
 				]
 			},
 			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 21, 2021 14:29",
+				"Expires_UTC" : "January 22, 2021 06:28",
+				"Summary" : "Description: Significant snowfall and potential for blowing snow tonight to Saturday morning.\n\nLocations: the Great Northern Peninsula.\n\nTotal possible snowfall: 15 to 25 cm.\n\nTime span: Overnight tonight through to Saturday morning.\n\nRemarks: Snow is expected to begin overnight tonight and persist through Friday and Friday night.  The bulk of the snow is expected Friday afternoon and Friday night.  Moderate northwesterly winds will develop on Friday, occasionally reducing visibility in blowing snow over exposed areas.  Winds will shift to moderate southwesterlies on Friday night, causing another period of blowing snow over exposed areas.  Conditions are expected to improve Saturday morning.\n\nAt this time, there is a possibility that more snow and wind will develop again on Saturday night.  This scenario is currently very uncertain and more details will be provided in subsequent forecasts.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-01-22T06:28:26-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-21T14:29:26-00:00, urn:oid:2.49.0.1.124.1105508505.2021<br>Area: Northern Peninsula East, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-21:feed.atom/urn:oid:2.49.0.1.124.1105508505.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-21/2021_01_21T14_29_26_00_00Iurn_oid_2.49.0.1.124.1105508505.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210122062826+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.4008, 50.5801 ],
+							[ -56.8199, 50.58 ]
+						]
+					]
+				]
+			},
+			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
 				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
@@ -860,52 +908,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-21/2021_01_21T17_04_47_00_00Iurn_oid_2.49.0.1.124.2372648057.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210122090347+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -71.6698, 61.6967 ],
-							[ -72.0508, 61.7741 ],
-							[ -72.5983, 62.1553 ],
-							[ -73.0349, 62.2144 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.3218, 62.346 ],
-							[ -73.9992, 61.0465 ],
-							[ -71.399, 60.5219 ],
-							[ -70.7234, 61.1481 ],
-							[ -71.5843, 61.2693 ],
-							[ -71.6299, 61.3212 ],
-							[ -71.3985, 61.5333 ],
-							[ -71.6698, 61.6967 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 21, 2021 20:14",
-				"Expires_UTC" : "January 22, 2021 11:59",
-				"Summary" : "Description: Westerly winds will gust up to 90 km/h this evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-01-22T11:59:24-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-21T20:14:24-00:00, urn:oid:2.49.0.1.124.2672716804.2021<br>Area: Kangiqsujuaq - Raglan Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-21:feed.atom/urn:oid:2.49.0.1.124.2672716804.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-21/2021_01_21T20_14_24_00_00Iurn_oid_2.49.0.1.124.2672716804.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210122115924+00:00"
 			}
 		},
 		{
@@ -1368,66 +1370,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 21, 2021 20:21",
-				"Expires_UTC" : "January 22, 2021 01:21",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for late this morning and this early afternoon. \n\nA band of lake enhanced snow could possibly clip St Joseph Island resulting in accumulations of up to 5 cm in a short period time.\n\nHeavy snow at times combined with northwest winds gusting up to 60 km/h could result in reduced visibilities in blowing snow. \n\nDifficult winter travel conditions are expected. Slow down and use caution while driving.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-22T01:21:16-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-21T20:21:16-00:00, urn:oid:2.49.0.1.124.4230220268.2021<br>Area: Sault Ste. Marie - St. Joseph Island",
+				"LastUpdate_UTC" : "January 21, 2021 20:41",
+				"Expires_UTC" : "January 22, 2021 10:21",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for late this afternoon into this evening. \n\nLake effect flurries with a risk of possible snow squalls will continue into this evening and may become heavy at times. A quick reduction in visibility and accumulations of up to 5 cm are possible with these flurries. \n\nDifficult winter travel conditions are expected and motorists are advised to slow down and use caution while driving.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-22T10:21:09-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-21T20:41:09-00:00, urn:oid:2.49.0.1.124.0938455848.2021<br>Area: Sault Ste. Marie - St. Joseph Island",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-21:feed.atom/urn:oid:2.49.0.1.124.4230220268.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-21/2021_01_21T20_21_16_00_00Iurn_oid_2.49.0.1.124.4230220268.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-21:feed.atom/urn:oid:2.49.0.1.124.0938455848.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-21/2021_01_21T20_41_09_00_00Iurn_oid_2.49.0.1.124.0938455848.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210122012116+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -56.8199, 50.58 ],
-							[ -56.99, 50.25 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.4068, 50.2167 ],
-							[ -55.7129, 50.3339 ],
-							[ -55.1082, 50.9286 ],
-							[ -55.0753, 51.6311 ],
-							[ -55.1389, 51.9905 ],
-							[ -55.2908, 52.0995 ],
-							[ -55.8517, 51.8524 ],
-							[ -56.8508, 51.3971 ],
-							[ -57.413, 50.8767 ],
-							[ -57.5354, 50.5797 ],
-							[ -57.4008, 50.5801 ],
-							[ -56.8199, 50.58 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "January 21, 2021 14:29",
-				"Expires_UTC" : "January 22, 2021 06:28",
-				"Summary" : "Description: Significant snowfall and potential for blowing snow tonight to Saturday morning.\n\nLocations: the Great Northern Peninsula.\n\nTotal possible snowfall: 15 to 25 cm.\n\nTime span: Overnight tonight through to Saturday morning.\n\nRemarks: Snow is expected to begin overnight tonight and persist through Friday and Friday night.  The bulk of the snow is expected Friday afternoon and Friday night.  Moderate northwesterly winds will develop on Friday, occasionally reducing visibility in blowing snow over exposed areas.  Winds will shift to moderate southwesterlies on Friday night, causing another period of blowing snow over exposed areas.  Conditions are expected to improve Saturday morning.\n\nAt this time, there is a possibility that more snow and wind will develop again on Saturday night.  This scenario is currently very uncertain and more details will be provided in subsequent forecasts.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-01-22T06:28:26-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-21T14:29:26-00:00, urn:oid:2.49.0.1.124.1105508505.2021<br>Area: Northern Peninsula East, Port Saunders and the Straits",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-21:feed.atom/urn:oid:2.49.0.1.124.1105508505.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-21/2021_01_21T14_29_26_00_00Iurn_oid_2.49.0.1.124.1105508505.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210122062826+00:00"
+				"Expires_FMEFormat" : "20210122102109+00:00"
 			}
 		},
 		{
@@ -1667,6 +1621,52 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-21/2021_01_21T14_32_00_00_00Iurn_oid_2.49.0.1.124.1166381175.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210122063100+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.6698, 61.6967 ],
+							[ -72.0508, 61.7741 ],
+							[ -72.5983, 62.1553 ],
+							[ -73.0349, 62.2144 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.3218, 62.346 ],
+							[ -73.9992, 61.0465 ],
+							[ -71.399, 60.5219 ],
+							[ -70.7234, 61.1481 ],
+							[ -71.5843, 61.2693 ],
+							[ -71.6299, 61.3212 ],
+							[ -71.3985, 61.5333 ],
+							[ -71.6698, 61.6967 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 21, 2021 20:14",
+				"Expires_UTC" : "January 22, 2021 11:59",
+				"Summary" : "Description: Westerly winds will gust up to 90 km/h this evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-01-22T11:59:24-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-21T20:14:24-00:00, urn:oid:2.49.0.1.124.2672716804.2021<br>Area: Kangiqsujuaq - Raglan Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-21:feed.atom/urn:oid:2.49.0.1.124.2672716804.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-21/2021_01_21T20_14_24_00_00Iurn_oid_2.49.0.1.124.2672716804.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210122115924+00:00"
 			}
 		}
 	]
