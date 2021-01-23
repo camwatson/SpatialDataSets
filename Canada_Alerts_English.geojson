@@ -77,6 +77,57 @@
 				"coordinates" : [
 					[
 						[
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ],
+							[ -136.3737, 67.1424 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 23, 2021 23:38",
+				"Expires_UTC" : "January 24, 2021 15:38",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-01-24T15:38:04-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T23:38:04-00:00, urn:oid:2.49.0.1.124.4249125959.2021<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.4249125959.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T23_38_04_00_00Iurn_oid_2.49.0.1.124.4249125959.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210124153804+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -123.7789, 50.9894 ],
 							[ -123.7873, 50.9941 ],
 							[ -123.8, 51 ],
@@ -218,69 +269,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T12_54_02_00_00Iurn_oid_2.49.0.1.124.2062281862.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210124045302+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -119.6654, 53.6614 ],
-							[ -119.8377, 53.7522 ],
-							[ -119.8505, 53.7988 ],
-							[ -120.0013, 53.8281 ],
-							[ -120.0013, 53.835 ],
-							[ -120.0013, 53.8698 ],
-							[ -120.7352, 53.7412 ],
-							[ -121.4, 53.5999 ],
-							[ -120.8534, 53.3228 ],
-							[ -120.3818, 53.1151 ],
-							[ -119.8492, 52.8456 ],
-							[ -119.3, 52.5999 ],
-							[ -118.9623, 52.7805 ],
-							[ -118.7101, 52.9243 ],
-							[ -118.6527, 52.9568 ],
-							[ -118.5923, 52.9832 ],
-							[ -118.6793, 53.1051 ],
-							[ -118.7028, 53.1378 ],
-							[ -118.9529, 53.2864 ],
-							[ -119.0223, 53.2882 ],
-							[ -119.095, 53.1989 ],
-							[ -119.2227, 53.2296 ],
-							[ -119.3121, 53.3454 ],
-							[ -119.352, 53.3968 ],
-							[ -119.5842, 53.4027 ],
-							[ -119.6598, 53.4046 ],
-							[ -119.8206, 53.5649 ],
-							[ -119.7586, 53.5555 ],
-							[ -119.651, 53.6089 ],
-							[ -119.6654, 53.6614 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 23, 2021 12:01",
-				"Expires_UTC" : "January 24, 2021 04:00",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nThe Ministry of Environment and Climate Change Strategy in collaboration with Northern Health has issued an Air Quality Advisory for Valemount due to high concentrations of fine particulate matter (PM2.5).  This advisory remains in effect until further notice. \n\nExposure is particularly a concern for individuals with respiratory infections such as COVID-19, pregnant women, infants, the elderly and those who have diabetes, and lung or heart disease. Persons with chronic underlying medical conditions or acute infections should postpone or reduce strenuous exercise until the advisory is lifted. Anyone experiencing symptoms such as continuing eye or throat irritation, chest discomfort, shortness of breath, cough or wheezing, should follow the advice of their health care provider. Staying indoors helps to reduce fine particulate exposure.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at www.bcairquality.ca.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-01-24T04:00:24-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2021-01-23T12:01:24-00:00, urn:oid:2.49.0.1.124.3321765629.2021<br>Area: Yellowhead",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.3321765629.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T12_01_24_00_00Iurn_oid_2.49.0.1.124.3321765629.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210124040024+00:00"
 			}
 		},
 		{
@@ -559,6 +547,126 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T15_13_13_00_00Iurn_oid_2.49.0.1.124.1117327154.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210124064513+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -126.217, 50.199 ],
+							[ -126.1582, 50.2352 ],
+							[ -125.988, 50.3402 ],
+							[ -125.899, 50.3883 ],
+							[ -125.8534, 50.3892 ],
+							[ -125.8373, 50.4041 ],
+							[ -125.8831, 50.4103 ],
+							[ -125.9203, 50.4049 ],
+							[ -126.0778, 50.4694 ],
+							[ -126.3357, 50.507 ],
+							[ -126.5878, 50.5045 ],
+							[ -126.6681, 50.5277 ],
+							[ -126.6918, 50.5726 ],
+							[ -126.8269, 50.6535 ],
+							[ -126.8819, 50.6862 ],
+							[ -127.1869, 50.7499 ],
+							[ -127.5713, 50.8711 ],
+							[ -127.8239, 50.9767 ],
+							[ -127.9174, 50.973 ],
+							[ -128.8048, 50.9385 ],
+							[ -129.3279, 50.9024 ],
+							[ -128.7561, 50.7181 ],
+							[ -127.8902, 50.0396 ],
+							[ -126.4845, 49.2822 ],
+							[ -124.902, 48.535 ],
+							[ -124.7295, 48.4895 ],
+							[ -124.5128, 48.4292 ],
+							[ -124.3568, 48.3855 ],
+							[ -124.0199, 48.29 ],
+							[ -123.69, 48.24 ],
+							[ -123.54, 48.22 ],
+							[ -123.4896, 48.2322 ],
+							[ -123.5292, 48.3187 ],
+							[ -123.5729, 48.3917 ],
+							[ -123.5748, 48.3943 ],
+							[ -123.6336, 48.4754 ],
+							[ -123.7598, 48.6485 ],
+							[ -123.87, 48.7635 ],
+							[ -124.0191, 48.9355 ],
+							[ -124.1097, 48.9755 ],
+							[ -124.1329, 48.9811 ],
+							[ -124.2112, 48.9998 ],
+							[ -124.2963, 49.0349 ],
+							[ -124.4102, 49.0768 ],
+							[ -124.7045, 49.2064 ],
+							[ -124.7093, 49.2108 ],
+							[ -124.8855, 49.336 ],
+							[ -125.123, 49.4816 ],
+							[ -125.2865, 49.602 ],
+							[ -125.4947, 49.7249 ],
+							[ -125.8132, 49.9515 ],
+							[ -126.217, 50.199 ]
+						]
+					],
+					[
+						[
+							[ -123.2309, 49.2017 ],
+							[ -123.1931, 49.0027 ],
+							[ -123.1928, 49.0011 ],
+							[ -123.1905, 49.0011 ],
+							[ -123.0894, 49.002 ],
+							[ -122.8948, 49.0016 ],
+							[ -122.8815, 49.0015 ],
+							[ -122.8918, 49.0883 ],
+							[ -122.8922, 49.091 ],
+							[ -122.898, 49.1347 ],
+							[ -122.903, 49.1722 ],
+							[ -122.9201, 49.176 ],
+							[ -122.9177, 49.1851 ],
+							[ -122.877, 49.2011 ],
+							[ -122.8498, 49.2118 ],
+							[ -122.8501, 49.2297 ],
+							[ -122.8804, 49.2345 ],
+							[ -122.9062, 49.2188 ],
+							[ -122.907, 49.2241 ],
+							[ -122.9157, 49.2858 ],
+							[ -122.9161, 49.2909 ],
+							[ -122.9167, 49.2931 ],
+							[ -122.9343, 49.2984 ],
+							[ -123.021, 49.2973 ],
+							[ -123.0949, 49.2962 ],
+							[ -123.1385, 49.3167 ],
+							[ -123.2726, 49.3234 ],
+							[ -123.2902, 49.3448 ],
+							[ -123.3632, 49.2918 ],
+							[ -123.2642, 49.2248 ],
+							[ -123.2309, 49.2017 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 23, 2021 23:30",
+				"Expires_UTC" : "January 24, 2021 15:29",
+				"Summary" : "Description: Snow is expected tonight and Sunday morning on Vancouver Island and Metro Vancouver southwest including Richmond and Delta.\n \nA cool airmass and low pressure system are approaching the BC south coast. Snow is forecast to begin tonight and continue into Sunday. By Sunday afternoon snow will become mixed with rain in many areas.\n\nPotential snowfall accumulation varies from 2 to 4 cm for the Richmond and Delta areas. On Vancouver Island, snowfall amounts are forecast to range from near 2 cm on the coasts to 5 to 15 cm inland and over higher terrain.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-01-24T15:29:18-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T23:30:18-00:00, urn:oid:2.49.0.1.124.1372286082.2021<br>Area: North Vancouver Island, West Vancouver Island, Inland Vancouver Island, Metro Vancouver - central including the City of Vancouver Burnaby and New Westminster, Metro Vancouver - southwest including Richmond and Delta",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.1372286082.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T23_30_18_00_00Iurn_oid_2.49.0.1.124.1372286082.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210124152918+00:00"
 			}
 		},
 		{
