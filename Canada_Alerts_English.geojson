@@ -77,54 +77,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.0217, 44.7958 ],
-							[ -81.073, 44.7847 ],
-							[ -81.1313, 44.7385 ],
-							[ -81.1314, 44.7363 ],
-							[ -81.127, 44.6447 ],
-							[ -81.1256, 44.6259 ],
-							[ -81.1203, 44.5511 ],
-							[ -81.1088, 44.4781 ],
-							[ -81.0823, 44.4005 ],
-							[ -80.2349, 44.2815 ],
-							[ -80.2918, 44.5273 ],
-							[ -80.2774, 44.6441 ],
-							[ -80.9105, 44.9805 ],
-							[ -80.9764, 44.9231 ],
-							[ -81.0217, 44.7958 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 23, 2021 05:08",
-				"Expires_UTC" : "January 23, 2021 20:06",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect tonight.\n\nA snow squall off Georgian Bay is affecting the areas of Meaford to Mair Mills. An additional 5 cm of snowfall is possible by morning.  \n  \nThe snow squall is expected to taper off on Saturday morning. \n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow. Travel is expected to be hazardous due to reduced visibility in some locations. Be prepared to adjust your driving with changing road conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-23T20:06:57-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T05:08:57-00:00, urn:oid:2.49.0.1.124.3504778545.2021<br>Area: Owen Sound - Blue Mountains - Northern Grey County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.3504778545.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T05_08_57_00_00Iurn_oid_2.49.0.1.124.3504778545.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210123200657+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -123.7789, 50.9894 ],
 							[ -123.7873, 50.9941 ],
 							[ -123.8, 51 ],
@@ -327,6 +279,71 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T09_54_02_00_00Iurn_oid_2.49.0.1.124.0843112618.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210124015302+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.805, 49.3539 ],
+							[ -67.2832, 49.2432 ],
+							[ -67.508, 49.2382 ],
+							[ -68.5214, 48.9033 ],
+							[ -69.2423, 48.4587 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.3598, 48.0259 ],
+							[ -69.0002, 47.7502 ],
+							[ -69, 47.75 ],
+							[ -68.9992, 47.7504 ],
+							[ -68.6207, 48.05 ],
+							[ -68.6193, 48.0511 ],
+							[ -68.6166, 48.0496 ],
+							[ -68.1996, 48.2998 ],
+							[ -68.1575, 48.2345 ],
+							[ -67.6498, 48.4154 ],
+							[ -67.6687, 48.5824 ],
+							[ -67.0001, 48.7503 ],
+							[ -66.9998, 48.7504 ],
+							[ -66.7518, 48.8661 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 23, 2021 16:29",
+				"Expires_UTC" : "January 24, 2021 08:28",
+				"Summary" : "Description: Snowfall amounts of 20 to 30 centimetres combined with strong northwesterly winds will give winter storm conditions over these regions from this evening through Sunday. These conditions will cause blowing snow reducing visibilities especially tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-01-24T08:28:35-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T16:29:35-00:00, urn:oid:2.49.0.1.124.2135320437.2021<br>Area: Mont-Joli area, Le Bic - Rimouski area, Matane, Grande-Vallée area, Sainte-Anne-des-Monts area, Trois-Pistoles area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.2135320437.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T16_29_35_00_00Iurn_oid_2.49.0.1.124.2135320437.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210124082835+00:00"
 			}
 		},
 		{
