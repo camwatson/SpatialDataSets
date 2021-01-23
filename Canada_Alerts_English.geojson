@@ -227,67 +227,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -66.7602, 49.3619 ],
-							[ -66.805, 49.3539 ],
-							[ -67.2832, 49.2432 ],
-							[ -67.508, 49.2382 ],
-							[ -68.5214, 48.9033 ],
-							[ -69.2423, 48.4587 ],
-							[ -68.9741, 48.2826 ],
-							[ -68.6207, 48.05 ],
-							[ -68.6193, 48.0511 ],
-							[ -68.6166, 48.0496 ],
-							[ -68.1996, 48.2998 ],
-							[ -68.1575, 48.2345 ],
-							[ -67.6498, 48.4154 ],
-							[ -67.6687, 48.5824 ],
-							[ -67.0001, 48.7503 ],
-							[ -66.9998, 48.7504 ],
-							[ -66.7518, 48.8661 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 23, 2021 09:54",
-				"Expires_UTC" : "January 24, 2021 01:53",
-				"Summary" : "Description: Snowfall amounts of 20 to 30 centimetres combined with strong northwesterly winds will give winter storm conditions over these regions from this evening through Sunday.   These conditions will cause blowing snow reducing visibilities especially tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-01-24T01:53:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T09:54:02-00:00, urn:oid:2.49.0.1.124.0843112618.2021<br>Area: Mont-Joli area, Le Bic - Rimouski area, Matane, Grande-Vallée area, Sainte-Anne-des-Monts area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.0843112618.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T09_54_02_00_00Iurn_oid_2.49.0.1.124.0843112618.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210124015302+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.8312, 49.5216 ],
 							[ -66.7602, 49.3619 ],
 							[ -66.805, 49.3539 ],
@@ -499,6 +438,58 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T13_12_47_00_00Iurn_oid_2.49.0.1.124.1851674863.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210124051147+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -85.2219, 48.2896 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -88.5445, 49.1129 ],
+							[ -88.6636, 49.1101 ],
+							[ -88.1405, 48.6611 ],
+							[ -87.9958, 48.475 ],
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 23, 2021 20:49",
+				"Expires_UTC" : "January 24, 2021 12:48",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for Sunday morning through to Sunday evening. \n\nSnow, at times heavy due to lake enhancement off of Lake Superior will result in poor road conditions and reduced visibilities.\n\nTotal snowfall amounts of 5 to 10 cm are expected by the time the snow ends early Sunday evening with locally up to 15 cm, particularly over higher terrain.\n\nExpect travel to be impacted along Highway 17 from Wawa to Nipigon. \n\nSnow covered roads and reduced visibilities in heavy bursts of snow will make travel difficult. Be prepared to adjust your driving with changing road conditions. Slow down and allow for extra time to reach your destination.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-24T12:48:35-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T20:49:35-00:00, urn:oid:2.49.0.1.124.0775927579.2021<br>Area: Nipigon - Rossport, Marathon - Schreiber, Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.0775927579.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T20_49_35_00_00Iurn_oid_2.49.0.1.124.0775927579.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210124124835+00:00"
 			}
 		},
 		{
