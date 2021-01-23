@@ -746,6 +746,54 @@
 				"coordinates" : [
 					[
 						[
+							[ -88.9894, 56.8474 ],
+							[ -89.8863, 56.3004 ],
+							[ -90.1757, 56.1351 ],
+							[ -90.4723, 55.9307 ],
+							[ -89.6861, 55.7142 ],
+							[ -88.8527, 55.4984 ],
+							[ -87.9707, 55.2549 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.0016, 55.9096 ],
+							[ -86.9972, 56.0007 ],
+							[ -87.4589, 56.1029 ],
+							[ -87.9073, 56.4915 ],
+							[ -88.6479, 56.724 ],
+							[ -88.9057, 56.9017 ],
+							[ -88.9894, 56.8474 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "January 23, 2021 09:16",
+				"Expires_UTC" : "January 23, 2021 17:00",
+				"Summary" : "Description: A -45 wind chill is being observed. \n\nWhat:\nExtreme wind chill of -45.\n\nWhere: \nFort Severn and the Wapusk Trail between Polar Bear Provincial Park and the Manitoba border. \n\nWhen: \nNow to 9 a.m. this morning.\n\nImpacts:\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-23T17:00:20-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T09:16:20-00:00, urn:oid:2.49.0.1.124.3495130392.2021<br>Area: Fort Severn",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.3495130392.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T09_16_20_00_00Iurn_oid_2.49.0.1.124.3495130392.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210123170020+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -121.4, 53.5999 ],
 							[ -122.3734, 53.4189 ],
 							[ -123.3207, 53.2026 ],
@@ -1142,77 +1190,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T15_11_55_00_00Iurn_oid_2.49.0.1.124.2760077660.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210124061955+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.29, 43.2367 ],
-							[ -81.3636, 43.2638 ],
-							[ -81.3966, 43.2791 ],
-							[ -81.4306, 43.293 ],
-							[ -81.4689, 43.2889 ],
-							[ -81.4689, 43.2805 ],
-							[ -81.4655, 43.2706 ],
-							[ -81.6156, 43.2578 ],
-							[ -81.7485, 43.2393 ],
-							[ -81.7693, 43.2372 ],
-							[ -81.7716, 43.2368 ],
-							[ -81.7738, 43.2379 ],
-							[ -81.7968, 43.2428 ],
-							[ -81.8163, 43.2325 ],
-							[ -81.8392, 43.2041 ],
-							[ -81.8144, 43.1925 ],
-							[ -81.7931, 43.1806 ],
-							[ -81.6028, 43.0738 ],
-							[ -81.3998, 42.9724 ],
-							[ -81.3769, 42.9281 ],
-							[ -81.3488, 42.8854 ],
-							[ -81.3243, 42.8849 ],
-							[ -81.2979, 42.8886 ],
-							[ -81.2827, 42.8593 ],
-							[ -81.2656, 42.8331 ],
-							[ -81.2492, 42.8368 ],
-							[ -81.2313, 42.8415 ],
-							[ -80.8992, 42.9125 ],
-							[ -80.9014, 42.9647 ],
-							[ -80.9269, 43.0239 ],
-							[ -80.9926, 43.0022 ],
-							[ -81.019, 43.0547 ],
-							[ -81.0347, 43.0498 ],
-							[ -81.0577, 43.1447 ],
-							[ -81.1208, 43.235 ],
-							[ -81.1502, 43.2276 ],
-							[ -81.224, 43.2034 ],
-							[ -81.29, 43.2367 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 23, 2021 15:13",
-				"Expires_UTC" : "January 24, 2021 06:45",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect today.\n\nA snow squall from Bayfield towards Dorchester is affecting the area and will meander through the region today. Some locales may receive up to 4 cm of snowfall before the snow tapers off this afternoon.\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow. Travel is expected to be hazardous due to reduced visibility in some locations. Be prepared to adjust your driving with changing road conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-24T06:45:13-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T15:13:13-00:00, urn:oid:2.49.0.1.124.1117327154.2021<br>Area: London - Parkhill - Eastern Middlesex County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.1117327154.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T15_13_13_00_00Iurn_oid_2.49.0.1.124.1117327154.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210124064513+00:00"
 			}
 		},
 		{
@@ -1780,45 +1757,68 @@
 				"coordinates" : [
 					[
 						[
-							[ -88.9894, 56.8474 ],
-							[ -89.8863, 56.3004 ],
-							[ -90.1757, 56.1351 ],
-							[ -90.4723, 55.9307 ],
-							[ -89.6861, 55.7142 ],
-							[ -88.8527, 55.4984 ],
-							[ -87.9707, 55.2549 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.0016, 55.9096 ],
-							[ -86.9972, 56.0007 ],
-							[ -87.4589, 56.1029 ],
-							[ -87.9073, 56.4915 ],
-							[ -88.6479, 56.724 ],
-							[ -88.9057, 56.9017 ],
-							[ -88.9894, 56.8474 ]
+							[ -81.29, 43.2367 ],
+							[ -81.3636, 43.2638 ],
+							[ -81.3966, 43.2791 ],
+							[ -81.4306, 43.293 ],
+							[ -81.4689, 43.2889 ],
+							[ -81.4689, 43.2805 ],
+							[ -81.4655, 43.2706 ],
+							[ -81.6156, 43.2578 ],
+							[ -81.7485, 43.2393 ],
+							[ -81.7693, 43.2372 ],
+							[ -81.7716, 43.2368 ],
+							[ -81.7738, 43.2379 ],
+							[ -81.7968, 43.2428 ],
+							[ -81.8163, 43.2325 ],
+							[ -81.8392, 43.2041 ],
+							[ -81.8144, 43.1925 ],
+							[ -81.7931, 43.1806 ],
+							[ -81.6028, 43.0738 ],
+							[ -81.3998, 42.9724 ],
+							[ -81.3769, 42.9281 ],
+							[ -81.3488, 42.8854 ],
+							[ -81.3243, 42.8849 ],
+							[ -81.2979, 42.8886 ],
+							[ -81.2827, 42.8593 ],
+							[ -81.2656, 42.8331 ],
+							[ -81.2492, 42.8368 ],
+							[ -81.2313, 42.8415 ],
+							[ -80.8992, 42.9125 ],
+							[ -80.9014, 42.9647 ],
+							[ -80.9269, 43.0239 ],
+							[ -80.9926, 43.0022 ],
+							[ -81.019, 43.0547 ],
+							[ -81.0347, 43.0498 ],
+							[ -81.0577, 43.1447 ],
+							[ -81.1208, 43.235 ],
+							[ -81.1502, 43.2276 ],
+							[ -81.224, 43.2034 ],
+							[ -81.29, 43.2367 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
+				"event" : "Weather",
 				"urgency" : "Future",
-				"certainty" : "Likely",
+				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 23, 2021 09:57",
-				"Expires_UTC" : "January 23, 2021 16:59",
-				"Summary" : "Description: A -45 wind chill is being observed. \n\nWhat:\nExtreme wind chill of -45.\n\nWhere: \nFort Severn and the Wapusk Trail between Polar Bear Provincial Park and the Manitoba border. \n\nWhen: \nNow to 9 a.m. this morning.\n\nActions:\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-23T16:59:40-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T09:57:40-00:00, urn:oid:2.49.0.1.124.3165901207.2021<br>Area: Fort Severn",
+				"LastUpdate_UTC" : "January 23, 2021 15:13",
+				"Expires_UTC" : "January 24, 2021 06:45",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect today.\n\nA snow squall from Bayfield towards Dorchester is affecting the area and will meander through the region today. Some locales may receive up to 4 cm of snowfall before the snow tapers off this afternoon.\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow. Travel is expected to be hazardous due to reduced visibility in some locations. Be prepared to adjust your driving with changing road conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-24T06:45:13-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-23T15:13:13-00:00, urn:oid:2.49.0.1.124.1117327154.2021<br>Area: London - Parkhill - Eastern Middlesex County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.3165901207.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T09_57_40_00_00Iurn_oid_2.49.0.1.124.3165901207.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-23:feed.atom/urn:oid:2.49.0.1.124.1117327154.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-23/2021_01_23T15_13_13_00_00Iurn_oid_2.49.0.1.124.1117327154.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210123165940+00:00"
+				"Expires_FMEFormat" : "20210124064513+00:00"
 			}
 		}
 	]
