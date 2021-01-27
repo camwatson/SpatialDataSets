@@ -243,25 +243,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 27, 2021 12:42",
-				"Expires_UTC" : "January 28, 2021 04:41",
-				"Summary" : "Description: Snowfall with total amounts of about 5 cm is expected.\n\nRain and wet snow associated with an offshore low will continue over East Vancouver Island today. Additional snowfall of 5 cm is expected for some inland areas. As the low begins to drift southward, the snow will ease this afternoon.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-01-28T04:41:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-27T12:42:45-00:00, urn:oid:2.49.0.1.124.2603776481.2021<br>Area: East Vancouver Island - Duncan to Nanaimo, East Vancouver Island - Nanoose Bay to Fanny Bay, East Vancouver Island - Courtenay to Campbell River",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "January 27, 2021 18:53",
+				"Expires_UTC" : "January 27, 2021 19:53",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2021-01-27T19:53:12-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-27T18:53:12-00:00, urn:oid:2.49.0.1.124.1203168706.2021<br>Area: East Vancouver Island - Duncan to Nanaimo, East Vancouver Island - Nanoose Bay to Fanny Bay, East Vancouver Island - Courtenay to Campbell River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-27:feed.atom/urn:oid:2.49.0.1.124.2603776481.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-27/2021_01_27T12_42_45_00_00Iurn_oid_2.49.0.1.124.2603776481.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-27:feed.atom/urn:oid:2.49.0.1.124.1203168706.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-27/2021_01_27T18_53_12_00_00Iurn_oid_2.49.0.1.124.1203168706.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210128044145+00:00"
+				"Expires_FMEFormat" : "20210127195312+00:00"
 			}
 		},
 		{
@@ -1207,60 +1207,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-27/2021_01_27T10_24_43_00_00Iurn_oid_2.49.0.1.124.0896442769.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210127215943+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.1536, 52.4841 ],
-							[ -95.1536, 52.4201 ],
-							[ -95.169, 52.0344 ],
-							[ -95.1536, 51.6128 ],
-							[ -94.5283, 51.5309 ],
-							[ -93.9542, 51.4733 ],
-							[ -93.733, 51.4154 ],
-							[ -93.4873, 51.3669 ],
-							[ -92.3388, 51.1193 ],
-							[ -91.5246, 52.2405 ],
-							[ -90.9516, 52.9541 ],
-							[ -90.5082, 53.543 ],
-							[ -92.0407, 53.7604 ],
-							[ -93.4241, 53.9089 ],
-							[ -93.68, 53.7427 ],
-							[ -93.9327, 53.5766 ],
-							[ -94.5197, 53.2523 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.1632, 52.6707 ],
-							[ -95.1536, 52.4841 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "January 27, 2021 13:01",
-				"Expires_UTC" : "January 27, 2021 18:59",
-				"Summary" : "Description: Extreme wind chill values near minus 45 are expected tonight into Thursday morning.\n\nTemperatures have moderated this morning; however, a cold arctic airmass will drop temperatures into the minus thirties again tonight into Thursday morning. These temperatures along with winds of 5 to 10 km/h will result in wind chill values near minus 45.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-01-27T18:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-01-27T13:01:22-00:00, urn:oid:2.49.0.1.124.2038716117.2021<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Pikangikum - Poplar Hill - MacDowell",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-01-27:feed.atom/urn:oid:2.49.0.1.124.2038716117.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-01-27/2021_01_27T13_01_22_00_00Iurn_oid_2.49.0.1.124.2038716117.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210127185922+00:00"
 			}
 		}
 	]
