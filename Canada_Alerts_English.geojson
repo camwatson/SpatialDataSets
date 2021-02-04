@@ -211,6 +211,49 @@
 				"coordinates" : [
 					[
 						[
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.2219, 48.2896 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 4, 2021 04:20",
+				"Expires_UTC" : "February 4, 2021 20:19",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for Thursday into Friday.\n\nSnow is expected to move into the area Thursday morning and continue into Friday. Total snowfall amounts of 10 to 15 cm are expected.\n\nPoor winter driving conditions especially on Highway 17 are expected due to accumulating snow and low visibility. Motorists should consider changing travel plans accordingly. \n\nAt this point it appears the heaviest snowfall amounts will remain confined to areas immediately along the shore of Lake Superior where snowfall warnings are in effect.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-04T20:19:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T04:20:56-00:00, urn:oid:2.49.0.1.124.0471353306.2021<br>Area: White River - Dubreuilville",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.0471353306.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T04_20_56_00_00Iurn_oid_2.49.0.1.124.0471353306.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210204201956+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -103.0139, 49.1246 ],
 							[ -102.9913, 49.1245 ],
 							[ -102.9913, 49.1183 ],
@@ -527,73 +570,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -121.4325, 49.3127 ],
-							[ -120.9606, 49.1148 ],
-							[ -120.8273, 49.0289 ],
-							[ -120.7196, 49.0139 ],
-							[ -120.4885, 49.1563 ],
-							[ -120.483, 49.2416 ],
-							[ -120.5136, 49.2707 ],
-							[ -120.4872, 49.4115 ],
-							[ -120.413, 49.4291 ],
-							[ -120.4463, 49.5181 ],
-							[ -120.5799, 49.4792 ],
-							[ -120.6317, 49.4117 ],
-							[ -120.6317, 49.4116 ],
-							[ -120.6484, 49.2316 ],
-							[ -120.6308, 49.1906 ],
-							[ -120.7522, 49.1055 ],
-							[ -120.9381, 49.2335 ],
-							[ -121.0499, 49.2732 ],
-							[ -121.2241, 49.346 ],
-							[ -121.2611, 49.3803 ],
-							[ -121.0615, 49.551 ],
-							[ -120.8964, 49.643 ],
-							[ -120.8907, 49.786 ],
-							[ -120.7214, 50.0349 ],
-							[ -120.749, 50.0897 ],
-							[ -120.8355, 50.1026 ],
-							[ -120.9788, 49.9878 ],
-							[ -121.0633, 49.8152 ],
-							[ -121.1036, 49.6467 ],
-							[ -121.2122, 49.6261 ],
-							[ -121.2701, 49.5483 ],
-							[ -121.4175, 49.4675 ],
-							[ -121.5294, 49.3668 ],
-							[ -121.4325, 49.3127 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 4, 2021 13:01",
-				"Expires_UTC" : "February 5, 2021 05:00",
-				"Summary" : "Description: 20 to 30 cm snow by Friday morning.\n\nA weather system will move over southern BC today spreading snow to the region. Segments of the Coquihalla Highway - Hope to Merritt and Highway 3 - Hope to Princeton via Allison Pass will receive 20 to 30 cm snow by Friday morning. \n\nAnother system will approach the region Friday night. Additional snow of up to 15 cm can be expected on Saturday.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-05T05:00:34-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T13:01:34-00:00, urn:oid:2.49.0.1.124.1817540456.2021<br>Area: Highway 3 - Hope to Princeton via Allison Pass, Coquihalla Highway - Hope to Merritt",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.1817540456.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T13_01_34_00_00Iurn_oid_2.49.0.1.124.1817540456.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210205050034+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -141.0012, 66.9991 ],
 							[ -140.9984, 66.9989 ],
 							[ -139.4889, 66.9773 ],
@@ -631,6 +607,50 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-03/2021_02_03T23_38_13_00_00Iurn_oid_2.49.0.1.124.0962967357.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210204153713+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.9056, 74.3191 ],
+							[ -94.8626, 74.2936 ],
+							[ -94.1547, 74.3414 ],
+							[ -94.1885, 74.6339 ],
+							[ -94.152, 74.6625 ],
+							[ -94.2078, 74.8178 ],
+							[ -94.6546, 74.9248 ],
+							[ -95.2633, 74.925 ],
+							[ -95.7119, 74.8173 ],
+							[ -95.8949, 74.6509 ],
+							[ -95.9056, 74.3191 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 4, 2021 03:46",
+				"Expires_UTC" : "February 4, 2021 19:45",
+				"Summary" : "Description: Extremely cold wind chills between -55 and -60 are expected again tonight in several Arctic communities.\n\nThese extremely cold conditions may persist through the week in some communities.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-04T19:45:59-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T03:46:59-00:00, urn:oid:2.49.0.1.124.3343987339.2021<br>Area: Resolute",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.3343987339.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T03_46_59_00_00Iurn_oid_2.49.0.1.124.3343987339.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210204194559+00:00"
 			}
 		},
 		{
@@ -712,6 +732,73 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T11_47_18_00_00Iurn_oid_2.49.0.1.124.0848033856.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210205034618+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -121.4325, 49.3127 ],
+							[ -120.9606, 49.1148 ],
+							[ -120.8273, 49.0289 ],
+							[ -120.7196, 49.0139 ],
+							[ -120.4885, 49.1563 ],
+							[ -120.483, 49.2416 ],
+							[ -120.5136, 49.2707 ],
+							[ -120.4872, 49.4115 ],
+							[ -120.413, 49.4291 ],
+							[ -120.4463, 49.5181 ],
+							[ -120.5799, 49.4792 ],
+							[ -120.6317, 49.4117 ],
+							[ -120.6317, 49.4116 ],
+							[ -120.6484, 49.2316 ],
+							[ -120.6308, 49.1906 ],
+							[ -120.7522, 49.1055 ],
+							[ -120.9381, 49.2335 ],
+							[ -121.0499, 49.2732 ],
+							[ -121.2241, 49.346 ],
+							[ -121.2611, 49.3803 ],
+							[ -121.0615, 49.551 ],
+							[ -120.8964, 49.643 ],
+							[ -120.8907, 49.786 ],
+							[ -120.7214, 50.0349 ],
+							[ -120.749, 50.0897 ],
+							[ -120.8355, 50.1026 ],
+							[ -120.9788, 49.9878 ],
+							[ -121.0633, 49.8152 ],
+							[ -121.1036, 49.6467 ],
+							[ -121.2122, 49.6261 ],
+							[ -121.2701, 49.5483 ],
+							[ -121.4175, 49.4675 ],
+							[ -121.5294, 49.3668 ],
+							[ -121.4325, 49.3127 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Winter Storm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 4, 2021 13:01",
+				"Expires_UTC" : "February 5, 2021 05:00",
+				"Summary" : "Description: 20 to 30 cm snow by Friday morning.\n\nA weather system will move over southern BC today spreading snow to the region. Segments of the Coquihalla Highway - Hope to Merritt and Highway 3 - Hope to Princeton via Allison Pass will receive 20 to 30 cm snow by Friday morning. \n\nAnother system will approach the region Friday night. Additional snow of up to 15 cm can be expected on Saturday.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-05T05:00:34-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T13:01:34-00:00, urn:oid:2.49.0.1.124.1817540456.2021<br>Area: Highway 3 - Hope to Princeton via Allison Pass, Coquihalla Highway - Hope to Merritt",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.1817540456.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T13_01_34_00_00Iurn_oid_2.49.0.1.124.1817540456.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210205050034+00:00"
 			}
 		},
 		{
@@ -895,59 +982,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -123.1999, 54.7 ],
-							[ -122.8357, 54.848 ],
-							[ -122.4999, 54.9999 ],
-							[ -122.0782, 55.1899 ],
-							[ -121.6999, 55.38 ],
-							[ -121.839, 55.5297 ],
-							[ -122.0337, 55.7116 ],
-							[ -122.6071, 56.3068 ],
-							[ -123.2874, 56.9577 ],
-							[ -123.3, 56.9999 ],
-							[ -125.06, 57.0477 ],
-							[ -126.6699, 56.9999 ],
-							[ -125.4202, 56.0297 ],
-							[ -124.4416, 55.346 ],
-							[ -124.4199, 55.33 ],
-							[ -124.1684, 55.1898 ],
-							[ -123.9108, 55.067 ],
-							[ -123.4872, 54.615 ],
-							[ -123.3415, 54.655 ],
-							[ -123.1999, 54.7 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 4, 2021 08:53",
-				"Expires_UTC" : "February 4, 2021 19:00",
-				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nAn upper disturbance moving through the area overnight will produce 10 to 15 cm of snow across the Williston area near and south of Mackenzie. \n\nHeavy snow will end mid-morning on Thursday.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-04T19:00:29-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T08:53:29-00:00, urn:oid:2.49.0.1.124.2812748485.2021<br>Area: Williston",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.2812748485.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T08_53_29_00_00Iurn_oid_2.49.0.1.124.2812748485.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210204190029+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -61.891, 55.378 ],
 							[ -60.5775, 54.79 ],
 							[ -60.3074, 54.9828 ],
@@ -989,50 +1023,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T02_43_58_00_00Iurn_oid_2.49.0.1.124.2669058142.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210204184258+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.9056, 74.3191 ],
-							[ -94.8626, 74.2936 ],
-							[ -94.1547, 74.3414 ],
-							[ -94.1885, 74.6339 ],
-							[ -94.152, 74.6625 ],
-							[ -94.2078, 74.8178 ],
-							[ -94.6546, 74.9248 ],
-							[ -95.2633, 74.925 ],
-							[ -95.7119, 74.8173 ],
-							[ -95.8949, 74.6509 ],
-							[ -95.9056, 74.3191 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 4, 2021 03:46",
-				"Expires_UTC" : "February 4, 2021 19:45",
-				"Summary" : "Description: Extremely cold wind chills between -55 and -60 are expected again tonight in several Arctic communities.\n\nThese extremely cold conditions may persist through the week in some communities.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-04T19:45:59-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T03:46:59-00:00, urn:oid:2.49.0.1.124.3343987339.2021<br>Area: Resolute",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.3343987339.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T03_46_59_00_00Iurn_oid_2.49.0.1.124.3343987339.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210204194559+00:00"
 			}
 		},
 		{
@@ -1309,18 +1299,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 4, 2021 11:18",
-				"Expires_UTC" : "February 4, 2021 17:16",
-				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog is affecting portions of southwestern Ontario this morning, but should dissipate later this morning.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-04T17:16:39-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T11:18:39-00:00, urn:oid:2.49.0.1.124.4079914737.2021<br>Area: Simcoe - Delhi - Norfolk, London - Parkhill - Eastern Middlesex County, Strathroy - Komoka - Western Middlesex County, St. Thomas - Aylmer - Eastern Elgin County, Rodney - Shedden - Western Elgin County, Woodstock - Tillsonburg - Oxford County, Goderich - Bluewater - Southern Huron County, Stratford - Mitchell - Southern Perth County",
+				"LastUpdate_UTC" : "February 4, 2021 14:23",
+				"Expires_UTC" : "February 4, 2021 18:59",
+				"Summary" : "Description: Near zero visibility in fog is expected or occurring.\n\nDense fog is affecting portions of southwestern Ontario this morning, but should dissipate later this morning.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-04T18:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T14:23:14-00:00, urn:oid:2.49.0.1.124.3156582901.2021<br>Area: London - Parkhill - Eastern Middlesex County, St. Thomas - Aylmer - Eastern Elgin County, Woodstock - Tillsonburg - Oxford County, Goderich - Bluewater - Southern Huron County, Stratford - Mitchell - Southern Perth County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.4079914737.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T11_18_39_00_00Iurn_oid_2.49.0.1.124.4079914737.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.3156582901.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T14_23_14_00_00Iurn_oid_2.49.0.1.124.3156582901.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210204171639+00:00"
+				"Expires_FMEFormat" : "20210204185914+00:00"
 			}
 		},
 		{
@@ -1446,49 +1436,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T10_16_13_00_00Iurn_oid_2.49.0.1.124.3547411411.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210204195913+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.2219, 48.2896 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 4, 2021 04:20",
-				"Expires_UTC" : "February 4, 2021 20:19",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for Thursday into Friday.\n\nSnow is expected to move into the area Thursday morning and continue into Friday. Total snowfall amounts of 10 to 15 cm are expected.\n\nPoor winter driving conditions especially on Highway 17 are expected due to accumulating snow and low visibility. Motorists should consider changing travel plans accordingly. \n\nAt this point it appears the heaviest snowfall amounts will remain confined to areas immediately along the shore of Lake Superior where snowfall warnings are in effect.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-04T20:19:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T04:20:56-00:00, urn:oid:2.49.0.1.124.0471353306.2021<br>Area: White River - Dubreuilville",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.0471353306.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T04_20_56_00_00Iurn_oid_2.49.0.1.124.0471353306.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210204201956+00:00"
 			}
 		},
 		{
@@ -1744,6 +1691,59 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T11_30_22_00_00Iurn_oid_2.49.0.1.124.1458044642.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210205032922+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -123.1999, 54.7 ],
+							[ -122.8357, 54.848 ],
+							[ -122.4999, 54.9999 ],
+							[ -122.0782, 55.1899 ],
+							[ -121.6999, 55.38 ],
+							[ -121.839, 55.5297 ],
+							[ -122.0337, 55.7116 ],
+							[ -122.6071, 56.3068 ],
+							[ -123.2874, 56.9577 ],
+							[ -123.3, 56.9999 ],
+							[ -125.06, 57.0477 ],
+							[ -126.6699, 56.9999 ],
+							[ -125.4202, 56.0297 ],
+							[ -124.4416, 55.346 ],
+							[ -124.4199, 55.33 ],
+							[ -124.1684, 55.1898 ],
+							[ -123.9108, 55.067 ],
+							[ -123.4872, 54.615 ],
+							[ -123.3415, 54.655 ],
+							[ -123.1999, 54.7 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 4, 2021 08:53",
+				"Expires_UTC" : "February 4, 2021 19:00",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\nAn upper disturbance moving through the area overnight will produce 10 to 15 cm of snow across the Williston area near and south of Mackenzie. \n\nHeavy snow will end mid-morning on Thursday.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-04T19:00:29-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-04T08:53:29-00:00, urn:oid:2.49.0.1.124.2812748485.2021<br>Area: Williston",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-04:feed.atom/urn:oid:2.49.0.1.124.2812748485.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-04/2021_02_04T08_53_29_00_00Iurn_oid_2.49.0.1.124.2812748485.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210204190029+00:00"
 			}
 		}
 	]
