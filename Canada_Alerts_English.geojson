@@ -102,73 +102,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -121.4325, 49.3127 ],
-							[ -120.9606, 49.1148 ],
-							[ -120.8273, 49.0289 ],
-							[ -120.7196, 49.0139 ],
-							[ -120.4885, 49.1563 ],
-							[ -120.483, 49.2416 ],
-							[ -120.5136, 49.2707 ],
-							[ -120.4872, 49.4115 ],
-							[ -120.413, 49.4291 ],
-							[ -120.4463, 49.5181 ],
-							[ -120.5799, 49.4792 ],
-							[ -120.6317, 49.4117 ],
-							[ -120.6317, 49.4116 ],
-							[ -120.6484, 49.2316 ],
-							[ -120.6308, 49.1906 ],
-							[ -120.7522, 49.1055 ],
-							[ -120.9381, 49.2335 ],
-							[ -121.0499, 49.2732 ],
-							[ -121.2241, 49.346 ],
-							[ -121.2611, 49.3803 ],
-							[ -121.0615, 49.551 ],
-							[ -120.8964, 49.643 ],
-							[ -120.8907, 49.786 ],
-							[ -120.7214, 50.0349 ],
-							[ -120.749, 50.0897 ],
-							[ -120.8355, 50.1026 ],
-							[ -120.9788, 49.9878 ],
-							[ -121.0633, 49.8152 ],
-							[ -121.1036, 49.6467 ],
-							[ -121.2122, 49.6261 ],
-							[ -121.2701, 49.5483 ],
-							[ -121.4175, 49.4675 ],
-							[ -121.5294, 49.3668 ],
-							[ -121.4325, 49.3127 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "February 7, 2021 19:27",
-				"Expires_UTC" : "February 8, 2021 11:26",
-				"Summary" : "Description: Snowfall with total amounts of 20 to 30 cm continues.\n\nA weather disturbance moving across southern British Columbia will continue to bring snow to parts of the region.\n\nFor Coquihalla Highway - Hope to Merritt and Highway 3 - Hope to Princeton via Allison Pass, expect additional snowfall amounts of 10 to 15 cm before the snow tapers off to a few flurries Monday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow. Rapidly accumulating snow will make travel difficult. Poor weather conditions may contribute to transportation delays.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-08T11:26:28-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-07T19:27:28-00:00, urn:oid:2.49.0.1.124.1958595367.2021<br>Area: Highway 3 - Hope to Princeton via Allison Pass, Coquihalla Highway - Hope to Merritt",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-07:feed.atom/urn:oid:2.49.0.1.124.1958595367.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-07/2021_02_07T19_27_28_00_00Iurn_oid_2.49.0.1.124.1958595367.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210208112628+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -85.1481, 47.824 ],
 							[ -84.9134, 47.2346 ],
 							[ -84.6283, 47.2522 ],
@@ -1698,6 +1631,51 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-07/2021_02_07T19_56_46_00_00Iurn_oid_2.49.0.1.124.2609655685.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210208115546+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.8517, 51.8524 ],
+							[ -55.9388, 51.6058 ],
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.4068, 50.2167 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 8, 2021 01:13",
+				"Expires_UTC" : "February 8, 2021 02:13",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2021-02-08T02:13:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-08T01:13:55-00:00, urn:oid:2.49.0.1.124.1402339027.2021<br>Area: Northern Peninsula East",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-08:feed.atom/urn:oid:2.49.0.1.124.1402339027.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-08/2021_02_08T01_13_55_00_00Iurn_oid_2.49.0.1.124.1402339027.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210208021355+00:00"
 			}
 		},
 		{
