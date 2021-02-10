@@ -555,60 +555,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -113.7179, 61.6293 ],
-							[ -114.8765, 61.3365 ],
-							[ -115.0815, 61.2448 ],
-							[ -114.9258, 60.8933 ],
-							[ -114.6108, 60.4106 ],
-							[ -114.1688, 60.4741 ],
-							[ -113.6711, 60.5759 ],
-							[ -113.3555, 60.6508 ],
-							[ -112.9112, 60.7689 ],
-							[ -112.5591, 60.8709 ],
-							[ -111.9456, 61.0815 ],
-							[ -111.7342, 61.1802 ],
-							[ -111.5035, 61.2868 ],
-							[ -112.1664, 61.6857 ],
-							[ -112.1705, 61.6881 ],
-							[ -112.1866, 61.6968 ],
-							[ -112.2039, 61.8586 ],
-							[ -111.9605, 61.9557 ],
-							[ -111.9663, 62.1016 ],
-							[ -113.1652, 61.8281 ],
-							[ -113.7179, 61.6293 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 10, 2021 01:27",
-				"Expires_UTC" : "February 10, 2021 02:27",
-				"Summary" : "Description: Conditions are no longer expected to meet blowing snow advisory criteria.\n\n\n###<br>Expires: 2021-02-10T02:27:09-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-10T01:27:09-00:00, urn:oid:2.49.0.1.124.2480768831.2021<br>Area: Ft. Resolution Region including Hwy. 6",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-10:feed.atom/urn:oid:2.49.0.1.124.2480768831.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-10/2021_02_10T01_27_09_00_00Iurn_oid_2.49.0.1.124.2480768831.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210210022709+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -87.9963, 51.1568 ],
 							[ -87.4321, 51.159 ],
 							[ -84.8479, 51.1686 ],
@@ -1777,25 +1723,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Blizzard Warning Ended",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Blizzard",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 10, 2021 01:24",
-				"Expires_UTC" : "February 10, 2021 02:24",
-				"Summary" : "Description: Blizzard conditions are no longer expected.\n\n\n###<br>Expires: 2021-02-10T02:24:13-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-10T01:24:13-00:00, urn:oid:2.49.0.1.124.1316215860.2021<br>Area: Clyde River",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 9, 2021 20:27",
+				"Expires_UTC" : "February 10, 2021 12:26",
+				"Summary" : "Description: Long-lasting blizzard conditions with visibility occasionally near zero in snow and/or blowing snow are expected or occurring.\n\nWith an approaching Low Pressure System from the north, winds are expected to rapidly increase Wednesday morning with gusts possibly reaching 90 km/h from the northwest. \n\nWith abundant loose snow on the ground from recent snowfall and strong northwesterly winds, blizzard conditions are expected to develop Wednesday morning. Winds from the northwest will continue to increase on Wednesday evening and Thursday, potentially extending the blizzard for up to 24 hours.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-10T12:26:04-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-09T20:27:04-00:00, urn:oid:2.49.0.1.124.2201561242.2021<br>Area: Clyde River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-10:feed.atom/urn:oid:2.49.0.1.124.1316215860.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-10/2021_02_10T01_24_13_00_00Iurn_oid_2.49.0.1.124.1316215860.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-09:feed.atom/urn:oid:2.49.0.1.124.2201561242.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-09/2021_02_09T20_27_04_00_00Iurn_oid_2.49.0.1.124.2201561242.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210210022413+00:00"
+				"Expires_FMEFormat" : "20210210122604+00:00"
 			}
 		},
 		{
