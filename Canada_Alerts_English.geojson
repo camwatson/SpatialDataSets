@@ -300,6 +300,58 @@
 				"coordinates" : [
 					[
 						[
+							[ -81.8404, 45.3535 ],
+							[ -81.4622, 44.5866 ],
+							[ -81.2913, 44.5944 ],
+							[ -81.2887, 44.5846 ],
+							[ -81.2724, 44.5229 ],
+							[ -81.1971, 44.5357 ],
+							[ -81.1203, 44.5511 ],
+							[ -81.1256, 44.6259 ],
+							[ -81.127, 44.6447 ],
+							[ -81.1314, 44.7363 ],
+							[ -81.1313, 44.7385 ],
+							[ -81.073, 44.7847 ],
+							[ -81.0217, 44.7958 ],
+							[ -80.9764, 44.9231 ],
+							[ -80.9105, 44.9805 ],
+							[ -81.0827, 45.0703 ],
+							[ -81.1853, 45.2717 ],
+							[ -81.4145, 45.3822 ],
+							[ -81.8404, 45.3535 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 11, 2021 02:30",
+				"Expires_UTC" : "February 11, 2021 11:59",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for tonight. \n\nWhat: \nSnow. Locally poor visibility and additional snowfall amounts of 5 cm.\n\nWhere: \nBruce Peninsula, mainly north of Sauble Beach. This includes Highway 6 from Wiarton to Tobermory. \n\nWhen: \nNow until 2 a.m. tonight.\n\nImpacts: \nPlan on winter driving conditions due to accumulating snow and locally reduced visibility.\n\nDiscussion: \nLake effect snow continues over the Bruce Peninsula. Brief periods of heavy snow will result in quick accumulation and poor visibility. The snow will shift south by 2 a.m. tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-11T11:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-11T02:30:14-00:00, urn:oid:2.49.0.1.124.0301238805.2021<br>Area: Bruce Peninsula - Sauble Beach - Tobermory",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-11:feed.atom/urn:oid:2.49.0.1.124.0301238805.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T02_30_14_00_00Iurn_oid_2.49.0.1.124.0301238805.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210211115914+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -56.8199, 50.58 ],
 							[ -56.99, 50.25 ],
 							[ -56.5678, 50.2499 ],
@@ -611,6 +663,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T01_52_02_00_00Iurn_oid_2.49.0.1.124.0294901540.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210211135902+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55.0999, 48.9 ],
+							[ -55.3717, 48.6868 ],
+							[ -55.3737, 48.6852 ],
+							[ -54.9999, 48.5499 ],
+							[ -54.2, 48.9 ],
+							[ -54.0086, 48.9045 ],
+							[ -53.9865, 48.8983 ],
+							[ -53.8688, 48.9067 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.45, 49.0999 ],
+							[ -55.3806, 49.0603 ],
+							[ -55.3732, 49.056 ],
+							[ -55.0999, 48.9 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 11, 2021 08:50",
+				"Expires_UTC" : "February 11, 2021 13:59",
+				"Summary" : "Description: Snowfall amounts: 15 to 30 cm.\n\nMaximum gusts: westerly 60 to 70 km/h becoming north to northwesterly 50 to 60 km/h later today\n\nLocations: Northeast coast including Gander and vicinity.\n\nTime span: today and tonight.\n\nRemarks: Snow will continue today and tonight before gradually tapering off on Friday. The snow will combine with strong winds to cause reduced visibility in blowing snow, especially over exposed areas.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-11T13:59:09-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-11T08:50:09-00:00, urn:oid:2.49.0.1.124.1489696118.2021<br>Area: Bay of Exploits, Bonavista North, Gander and vicinity, Green Bay - White Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-11:feed.atom/urn:oid:2.49.0.1.124.1489696118.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T08_50_09_00_00Iurn_oid_2.49.0.1.124.1489696118.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210211135909+00:00"
 			}
 		},
 		{
@@ -1122,56 +1237,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T02_33_28_00_00Iurn_oid_2.49.0.1.124.4287906661.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210211183228+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.1203, 44.5511 ],
-							[ -81.1088, 44.4781 ],
-							[ -81.0823, 44.4005 ],
-							[ -80.2349, 44.2815 ],
-							[ -80.2918, 44.5273 ],
-							[ -80.2774, 44.6441 ],
-							[ -80.9105, 44.9805 ],
-							[ -81.0827, 45.0703 ],
-							[ -81.1853, 45.2717 ],
-							[ -81.4145, 45.3822 ],
-							[ -81.8404, 45.3535 ],
-							[ -81.4622, 44.5866 ],
-							[ -81.2913, 44.5944 ],
-							[ -81.2887, 44.5846 ],
-							[ -81.2724, 44.5229 ],
-							[ -81.1971, 44.5357 ],
-							[ -81.1203, 44.5511 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 11, 2021 08:12",
-				"Expires_UTC" : "February 11, 2021 09:12",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2021-02-11T09:12:15-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-11T08:12:15-00:00, urn:oid:2.49.0.1.124.1860725031.2021<br>Area: Bruce Peninsula - Sauble Beach - Tobermory, Owen Sound - Blue Mountains - Northern Grey County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-11:feed.atom/urn:oid:2.49.0.1.124.1860725031.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T08_12_15_00_00Iurn_oid_2.49.0.1.124.1860725031.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210211091215+00:00"
 			}
 		},
 		{
@@ -2665,65 +2730,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -134.8677, 59.9386 ],
-							[ -134.8678, 59.9385 ],
-							[ -134.9496, 59.8392 ],
-							[ -135.1629, 59.7233 ],
-							[ -135.224, 59.6728 ],
-							[ -135.2198, 59.6627 ],
-							[ -135.1641, 59.6296 ],
-							[ -135.1575, 59.6257 ],
-							[ -135.1386, 59.6244 ],
-							[ -135.1178, 59.623 ],
-							[ -135.1126, 59.6196 ],
-							[ -135.0815, 59.5988 ],
-							[ -134.906, 59.7089 ],
-							[ -134.783, 59.7641 ],
-							[ -134.7309, 59.7995 ],
-							[ -134.6874, 59.8923 ],
-							[ -134.5475, 59.9971 ],
-							[ -134.5439, 60 ],
-							[ -134.4675, 60.0652 ],
-							[ -134.4611, 60.1161 ],
-							[ -134.5154, 60.1782 ],
-							[ -134.6715, 60.2292 ],
-							[ -134.7748, 60.1855 ],
-							[ -134.6736, 60.0815 ],
-							[ -134.7832, 60 ],
-							[ -134.8677, 59.9386 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 11, 2021 07:57",
-				"Expires_UTC" : "February 11, 2021 23:39",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nExtreme cold wind chill values between minus 45 and minus 50 are expected tonight as an Arctic airmass persists over the region accompanied by strong winds.\n\nTemperatures will begin to rise on Thursday and the winds will gradually ease.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-02-11T23:39:40-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-11T07:57:40-00:00, urn:oid:2.49.0.1.124.0967995350.2021<br>Area: South Klondike Highway - Carcross to White Pass",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-11:feed.atom/urn:oid:2.49.0.1.124.0967995350.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T07_57_40_00_00Iurn_oid_2.49.0.1.124.0967995350.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210211233940+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -101.4473, 50.0638 ],
 							[ -101.4448, 50.1506 ],
 							[ -101.4471, 50.2405 ],
@@ -3039,6 +3045,65 @@
 				"coordinates" : [
 					[
 						[
+							[ -134.8677, 59.9386 ],
+							[ -134.8678, 59.9385 ],
+							[ -134.9496, 59.8392 ],
+							[ -135.1629, 59.7233 ],
+							[ -135.224, 59.6728 ],
+							[ -135.2198, 59.6627 ],
+							[ -135.1641, 59.6296 ],
+							[ -135.1575, 59.6257 ],
+							[ -135.1386, 59.6244 ],
+							[ -135.1178, 59.623 ],
+							[ -135.1126, 59.6196 ],
+							[ -135.0815, 59.5988 ],
+							[ -134.906, 59.7089 ],
+							[ -134.783, 59.7641 ],
+							[ -134.7309, 59.7995 ],
+							[ -134.6874, 59.8923 ],
+							[ -134.5475, 59.9971 ],
+							[ -134.5439, 60 ],
+							[ -134.4675, 60.0652 ],
+							[ -134.4611, 60.1161 ],
+							[ -134.5154, 60.1782 ],
+							[ -134.6715, 60.2292 ],
+							[ -134.7748, 60.1855 ],
+							[ -134.6736, 60.0815 ],
+							[ -134.7832, 60 ],
+							[ -134.8677, 59.9386 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 11, 2021 07:57",
+				"Expires_UTC" : "February 11, 2021 23:39",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nExtreme cold wind chill values between minus 45 and minus 50 are expected tonight as an Arctic airmass persists over the region accompanied by strong winds.\n\nTemperatures will begin to rise on Thursday and the winds will gradually ease.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-02-11T23:39:40-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-11T07:57:40-00:00, urn:oid:2.49.0.1.124.0967995350.2021<br>Area: South Klondike Highway - Carcross to White Pass",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-11:feed.atom/urn:oid:2.49.0.1.124.0967995350.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T07_57_40_00_00Iurn_oid_2.49.0.1.124.0967995350.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210211233940+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -117.0272, 48.9991 ],
 							[ -116.9629, 48.9993 ],
 							[ -116.4059, 48.9995 ],
@@ -3180,58 +3245,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T00_37_03_00_00Iurn_oid_2.49.0.1.124.3511051741.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210211163603+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.8404, 45.3535 ],
-							[ -81.4622, 44.5866 ],
-							[ -81.2913, 44.5944 ],
-							[ -81.2887, 44.5846 ],
-							[ -81.2724, 44.5229 ],
-							[ -81.1971, 44.5357 ],
-							[ -81.1203, 44.5511 ],
-							[ -81.1256, 44.6259 ],
-							[ -81.127, 44.6447 ],
-							[ -81.1314, 44.7363 ],
-							[ -81.1313, 44.7385 ],
-							[ -81.073, 44.7847 ],
-							[ -81.0217, 44.7958 ],
-							[ -80.9764, 44.9231 ],
-							[ -80.9105, 44.9805 ],
-							[ -81.0827, 45.0703 ],
-							[ -81.1853, 45.2717 ],
-							[ -81.4145, 45.3822 ],
-							[ -81.8404, 45.3535 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 11, 2021 02:30",
-				"Expires_UTC" : "February 11, 2021 11:59",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for tonight. \n\nWhat: \nSnow. Locally poor visibility and additional snowfall amounts of 5 cm.\n\nWhere: \nBruce Peninsula, mainly north of Sauble Beach. This includes Highway 6 from Wiarton to Tobermory. \n\nWhen: \nNow until 2 a.m. tonight.\n\nImpacts: \nPlan on winter driving conditions due to accumulating snow and locally reduced visibility.\n\nDiscussion: \nLake effect snow continues over the Bruce Peninsula. Brief periods of heavy snow will result in quick accumulation and poor visibility. The snow will shift south by 2 a.m. tonight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-11T11:59:14-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-11T02:30:14-00:00, urn:oid:2.49.0.1.124.0301238805.2021<br>Area: Bruce Peninsula - Sauble Beach - Tobermory",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-11:feed.atom/urn:oid:2.49.0.1.124.0301238805.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T02_30_14_00_00Iurn_oid_2.49.0.1.124.0301238805.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210211115914+00:00"
 			}
 		},
 		{
@@ -4081,6 +4094,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T00_37_03_00_00Iurn_oid_2.49.0.1.124.2878942853.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210211163603+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.1203, 44.5511 ],
+							[ -81.1088, 44.4781 ],
+							[ -81.0823, 44.4005 ],
+							[ -80.2349, 44.2815 ],
+							[ -80.2918, 44.5273 ],
+							[ -80.2774, 44.6441 ],
+							[ -80.9105, 44.9805 ],
+							[ -81.0827, 45.0703 ],
+							[ -81.1853, 45.2717 ],
+							[ -81.4145, 45.3822 ],
+							[ -81.8404, 45.3535 ],
+							[ -81.4622, 44.5866 ],
+							[ -81.2913, 44.5944 ],
+							[ -81.2887, 44.5846 ],
+							[ -81.2724, 44.5229 ],
+							[ -81.1971, 44.5357 ],
+							[ -81.1203, 44.5511 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 11, 2021 08:12",
+				"Expires_UTC" : "February 11, 2021 09:12",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2021-02-11T09:12:15-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-11T08:12:15-00:00, urn:oid:2.49.0.1.124.1860725031.2021<br>Area: Bruce Peninsula - Sauble Beach - Tobermory, Owen Sound - Blue Mountains - Northern Grey County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-11:feed.atom/urn:oid:2.49.0.1.124.1860725031.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-11/2021_02_11T08_12_15_00_00Iurn_oid_2.49.0.1.124.1860725031.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210211091215+00:00"
 			}
 		}
 	]
