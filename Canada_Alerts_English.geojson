@@ -464,44 +464,50 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.1345, 47.4654 ],
-							[ -85.809, 47.3094 ],
-							[ -84.9134, 47.2346 ],
-							[ -85.1481, 47.824 ],
-							[ -84.8608, 47.8957 ],
-							[ -84.6559, 47.963 ],
-							[ -84.2418, 48.0973 ],
-							[ -84.2401, 48.0978 ],
-							[ -85.2219, 48.2896 ],
-							[ -86.0931, 48.7455 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.1345, 47.4654 ]
+							[ -127.8972, 52.8496 ],
+							[ -127.2959, 52.2345 ],
+							[ -126.692, 51.65 ],
+							[ -125.9914, 51.2562 ],
+							[ -125.3217, 50.9024 ],
+							[ -125.0716, 51.2815 ],
+							[ -124.8664, 51.6273 ],
+							[ -125.1345, 51.8012 ],
+							[ -125.4999, 52 ],
+							[ -125.9295, 52.3749 ],
+							[ -126.5, 52.83 ],
+							[ -126.6264, 53.0161 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.9334, 53.0642 ],
+							[ -127.034, 52.961 ],
+							[ -127.1737, 52.8773 ],
+							[ -127.3188, 52.8257 ],
+							[ -127.5427, 52.8083 ],
+							[ -127.7684, 52.8375 ],
+							[ -127.8972, 52.8496 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Arctic Outflow Warning Ended",
 				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 13, 2021 10:17",
-				"Expires_UTC" : "February 14, 2021 02:16",
-				"Summary" : "Description: Local snow squalls today into Sunday morning.  \n\nLocalized snow squalls has developed over Lake Superior this morning and will slowly move eastwards by Sunday night. Snow accumulations of 10 to 15 cm may occur along Highway 17 between Marathon and White Lake Provincial Park. Pukaskwa National Park may receive accumulations between 20 and 30 cm.  \n\nTravel could potentially be difficult due to accumulating snow and poor visibilities on Highway 17 between Marathon and White Lake Provincial Park.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations. Rapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-14T02:16:20-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-13T10:17:20-00:00, urn:oid:2.49.0.1.124.3966642341.2021<br>Area: Wawa - Pukaskwa Park",
+				"event" : "Arctic Outflow",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 13, 2021 12:23",
+				"Expires_UTC" : "February 13, 2021 13:23",
+				"Summary" : "Description: Arctic outflow conditions are no longer expected.\n\n\n###<br>Expires: 2021-02-13T13:23:12-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-13T12:23:12-00:00, urn:oid:2.49.0.1.124.0649939993.2021<br>Area: Central Coast - inland sections",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-13:feed.atom/urn:oid:2.49.0.1.124.3966642341.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-13/2021_02_13T10_17_20_00_00Iurn_oid_2.49.0.1.124.3966642341.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-13:feed.atom/urn:oid:2.49.0.1.124.0649939993.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-13/2021_02_13T12_23_12_00_00Iurn_oid_2.49.0.1.124.0649939993.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210214021620+00:00"
+				"Expires_FMEFormat" : "20210213132312+00:00"
 			}
 		},
 		{
@@ -550,6 +556,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-13/2021_02_13T10_17_40_00_00Iurn_oid_2.49.0.1.124.0845062781.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210214021640+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -86.1345, 47.4654 ],
+							[ -85.809, 47.3094 ],
+							[ -84.9134, 47.2346 ],
+							[ -85.1481, 47.824 ],
+							[ -84.8608, 47.8957 ],
+							[ -84.6559, 47.963 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.2401, 48.0978 ],
+							[ -85.2219, 48.2896 ],
+							[ -86.0931, 48.7455 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.1345, 47.4654 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snow Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 13, 2021 10:17",
+				"Expires_UTC" : "February 14, 2021 02:16",
+				"Summary" : "Description: Local snow squalls today into Sunday morning.  \n\nLocalized snow squalls has developed over Lake Superior this morning and will slowly move eastwards by Sunday night. Snow accumulations of 10 to 15 cm may occur along Highway 17 between Marathon and White Lake Provincial Park. Pukaskwa National Park may receive accumulations between 20 and 30 cm.  \n\nTravel could potentially be difficult due to accumulating snow and poor visibilities on Highway 17 between Marathon and White Lake Provincial Park.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations. Rapidly accumulating snow could make travel difficult over some locations.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-14T02:16:20-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-13T10:17:20-00:00, urn:oid:2.49.0.1.124.3966642341.2021<br>Area: Wawa - Pukaskwa Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-13:feed.atom/urn:oid:2.49.0.1.124.3966642341.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-13/2021_02_13T10_17_20_00_00Iurn_oid_2.49.0.1.124.3966642341.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210214021620+00:00"
 			}
 		},
 		{
