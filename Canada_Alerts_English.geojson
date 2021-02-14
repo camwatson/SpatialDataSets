@@ -9,6 +9,77 @@
 				"coordinates" : [
 					[
 						[
+							[ -122.3956, 49.1742 ],
+							[ -122.383, 49.1861 ],
+							[ -122.3966, 49.2071 ],
+							[ -122.4142, 49.2073 ],
+							[ -122.4232, 49.2564 ],
+							[ -122.4101, 49.2576 ],
+							[ -122.3938, 49.3687 ],
+							[ -122.4076, 49.3691 ],
+							[ -122.5626, 49.3694 ],
+							[ -122.6893, 49.3641 ],
+							[ -122.719, 49.4314 ],
+							[ -122.7669, 49.5005 ],
+							[ -122.7973, 49.4955 ],
+							[ -122.884, 49.4813 ],
+							[ -122.8909, 49.4802 ],
+							[ -122.9898, 49.4645 ],
+							[ -123.0938, 49.4314 ],
+							[ -123.212, 49.3895 ],
+							[ -123.2621, 49.3866 ],
+							[ -123.2629, 49.3867 ],
+							[ -123.2988, 49.3767 ],
+							[ -123.2818, 49.351 ],
+							[ -123.2902, 49.3448 ],
+							[ -123.3632, 49.2918 ],
+							[ -123.2642, 49.2248 ],
+							[ -123.2309, 49.2017 ],
+							[ -123.1931, 49.0027 ],
+							[ -123.1928, 49.0011 ],
+							[ -123.1905, 49.0011 ],
+							[ -123.0894, 49.002 ],
+							[ -122.8948, 49.0016 ],
+							[ -122.8815, 49.0015 ],
+							[ -122.7186, 49.0018 ],
+							[ -122.4582, 49.0022 ],
+							[ -122.4442, 49.0859 ],
+							[ -122.4372, 49.1548 ],
+							[ -122.4155, 49.1576 ],
+							[ -122.3956, 49.1742 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 14, 2021 19:04",
+				"Expires_UTC" : "February 15, 2021 11:04",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-15T11:04:07-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-14T19:04:07-00:00, urn:oid:2.49.0.1.124.1061035307.2021<br>Area: Metro Vancouver - North Shore including West Vancouver and North Vancouver, Metro Vancouver - central including the City of Vancouver Burnaby and New Westminster, Metro Vancouver - northeast including Coquitlam and Maple Ridge, Metro Vancouver - southeast including Surrey and Langley, Metro Vancouver - southwest including Richmond and Delta",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-14:feed.atom/urn:oid:2.49.0.1.124.1061035307.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-14/2021_02_14T19_04_07_00_00Iurn_oid_2.49.0.1.124.1061035307.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210215110407+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -113.7761, 52.843 ],
 							[ -113.5492, 52.8406 ],
 							[ -113.3219, 52.8433 ],
@@ -881,105 +952,37 @@
 				"coordinates" : [
 					[
 						[
-							[ -115.2263, 50.5403 ],
-							[ -115.2314, 50.5176 ],
-							[ -115.3049, 50.1876 ],
-							[ -115.3497, 49.8395 ],
-							[ -115.381, 49.66 ],
-							[ -115.2271, 49.4546 ],
-							[ -115.081, 49.2999 ],
-							[ -115.0234, 49.1506 ],
-							[ -114.9505, 48.9998 ],
-							[ -114.1153, 48.9991 ],
-							[ -114.0303, 48.9984 ],
-							[ -114.0318, 49.0579 ],
-							[ -114.0966, 49.1067 ],
-							[ -114.1096, 49.1281 ],
-							[ -114.124, 49.1518 ],
-							[ -114.1695, 49.1905 ],
-							[ -114.1825, 49.1953 ],
-							[ -114.3582, 49.2598 ],
-							[ -114.5375, 49.4199 ],
-							[ -114.5326, 49.5244 ],
-							[ -114.5297, 49.5853 ],
-							[ -114.59, 49.5825 ],
-							[ -114.6833, 49.5779 ],
-							[ -114.7006, 49.6025 ],
-							[ -114.6251, 49.6256 ],
-							[ -114.6261, 49.6693 ],
-							[ -114.6266, 49.6915 ],
-							[ -114.5873, 49.7123 ],
-							[ -114.5918, 49.8335 ],
-							[ -114.6409, 49.9156 ],
-							[ -114.6039, 49.9909 ],
-							[ -114.6643, 50.1372 ],
-							[ -114.6898, 50.1988 ],
-							[ -114.7018, 50.2277 ],
-							[ -114.7095, 50.267 ],
-							[ -114.7433, 50.322 ],
-							[ -114.7326, 50.3623 ],
-							[ -114.8075, 50.4109 ],
-							[ -115.0047, 50.606 ],
-							[ -115.1688, 50.5894 ],
-							[ -115.1982, 50.5684 ],
-							[ -115.2432, 50.6234 ],
-							[ -115.2357, 50.6816 ],
-							[ -115.2504, 50.703 ],
-							[ -115.2599, 50.7169 ],
-							[ -115.2914, 50.7628 ],
-							[ -115.2955, 50.7625 ],
-							[ -115.3664, 50.7563 ],
-							[ -115.4319, 50.7985 ],
-							[ -115.5161, 50.8525 ],
-							[ -115.4946, 50.8876 ],
-							[ -115.5793, 51.0221 ],
-							[ -115.7622, 51.1174 ],
-							[ -115.8776, 51.1382 ],
-							[ -115.9344, 51.1632 ],
-							[ -115.9146, 51.2228 ],
-							[ -116.0307, 51.2884 ],
-							[ -116.0635, 51.3069 ],
-							[ -116.2119, 51.3544 ],
-							[ -116.2033, 51.4734 ],
-							[ -116.298, 51.5096 ],
-							[ -116.3356, 51.5638 ],
-							[ -116.4354, 51.6365 ],
-							[ -116.5013, 51.6245 ],
-							[ -116.5226, 51.6234 ],
-							[ -116.5501, 51.6236 ],
-							[ -116.5875, 51.6239 ],
-							[ -117.0162, 51.6262 ],
-							[ -116.006, 50.7499 ],
-							[ -115.837, 50.6508 ],
-							[ -115.7701, 50.6226 ],
-							[ -115.544, 50.5793 ],
-							[ -115.3826, 50.5564 ],
-							[ -115.2817, 50.546 ],
-							[ -115.2263, 50.5403 ]
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 14, 2021 18:02",
-				"Expires_UTC" : "February 14, 2021 19:02",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2021-02-14T19:02:37-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-14T18:02:37-00:00, urn:oid:2.49.0.1.124.1523595879.2021<br>Area: Elk Valley, Yoho Park - Kootenay Park",
+				"LastUpdate_UTC" : "February 14, 2021 18:29",
+				"Expires_UTC" : "February 15, 2021 10:28",
+				"Summary" : "Description: Snow Monday night and Tuesday with possible extended period of freezing precipitation Tuesday afternoon and evening. \n\nLocations: Iles de la Madeleine\n\nTime span: Beginning later Monday evening through Tuesday evening.\n\nRemarks: An elongated, slow moving system is expected to cross the region Monday night and Tuesday. Snow ahead of this system is likely to begin later Monday night then change to a prolonged period of ice pellets and/or freezing rain Tuesday afternoon and continue until Tuesday evening. Snow amounts could reach or exceed 15 cm before the changeover. Note that as this system is still in early stages of development, this situation may change and it will continue to be closely monitored as it approaches in the event warnings may be required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-02-15T10:28:05-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-14T18:29:05-00:00, urn:oid:2.49.0.1.124.3823662989.2021<br>Area: Îles-de-la-Madeleine",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-14:feed.atom/urn:oid:2.49.0.1.124.1523595879.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-14/2021_02_14T18_02_37_00_00Iurn_oid_2.49.0.1.124.1523595879.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-14:feed.atom/urn:oid:2.49.0.1.124.3823662989.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-14/2021_02_14T18_29_05_00_00Iurn_oid_2.49.0.1.124.3823662989.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210214190237+00:00"
+				"Expires_FMEFormat" : "20210215102805+00:00"
 			}
 		},
 		{
@@ -1954,46 +1957,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 14, 2021 18:29",
-				"Expires_UTC" : "February 15, 2021 10:28",
-				"Summary" : "Description: Snow Monday night and Tuesday with possible extended period of freezing precipitation Tuesday afternoon and evening. \n\nLocations: Iles de la Madeleine\n\nTime span: Beginning later Monday evening through Tuesday evening.\n\nRemarks: An elongated, slow moving system is expected to cross the region Monday night and Tuesday. Snow ahead of this system is likely to begin later Monday night then change to a prolonged period of ice pellets and/or freezing rain Tuesday afternoon and continue until Tuesday evening. Snow amounts could reach or exceed 15 cm before the changeover. Note that as this system is still in early stages of development, this situation may change and it will continue to be closely monitored as it approaches in the event warnings may be required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-02-15T10:28:05-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-14T18:29:05-00:00, urn:oid:2.49.0.1.124.3823662989.2021<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-14:feed.atom/urn:oid:2.49.0.1.124.3823662989.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-14/2021_02_14T18_29_05_00_00Iurn_oid_2.49.0.1.124.3823662989.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210215102805+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -129.4368, 59.9999 ],
 							[ -128.071, 59.9837 ],
 							[ -126.8261, 60 ],
@@ -2936,6 +2899,50 @@
 				"coordinates" : [
 					[
 						[
+							[ -123.4872, 54.615 ],
+							[ -123.9108, 55.067 ],
+							[ -124.1479, 55.2006 ],
+							[ -124.4416, 55.346 ],
+							[ -125.2762, 54.9367 ],
+							[ -125.0555, 54.2336 ],
+							[ -124.3065, 52.9994 ],
+							[ -124.3, 53 ],
+							[ -123.8108, 53.0927 ],
+							[ -123.3207, 53.2026 ],
+							[ -123.4872, 54.615 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 14, 2021 14:23",
+				"Expires_UTC" : "February 15, 2021 06:22",
+				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nAIR QUALITY ADVISORY IN EFFECT FOR VANDERHOOF \n\n(February 13, 2021 08:00 - Smithers) The Ministry of Environment & Climate Change Strategy in collaboration with the Northern Health Authority has issued an Air Quality Advisory for Vanderhoof due to high concentrations of fine particulate matter that are expected to persist until tomorrow. \n\nExposure  is  particularly  a  concern  for  individuals  with  chronic  conditions  such  as asthma, COPD, heart disease, and diabetes; respiratory infections such as COVID-19, pregnant women, infants, and older adults.  Persons with chronic underlying medical conditions or acute infections should postpone or reduce strenuous exercise until the advisory is lifted. Where appropriate, maintain physical distancing. Anyone experiencing symptoms such as continuing eye or throat irritation, chest discomfort, shortness of breath, cough or wheezing, should follow the advice of their health care provider. Staying indoors helps to reduce particulate matter exposure. \n\nReal-time  air  quality  observations  and  information  regarding  the  health  effects  of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-02-15T06:22:40-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2021-02-14T14:23:40-00:00, urn:oid:2.49.0.1.124.4100585665.2021<br>Area: Stuart - Nechako",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-14:feed.atom/urn:oid:2.49.0.1.124.4100585665.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-14/2021_02_14T14_23_40_00_00Iurn_oid_2.49.0.1.124.4100585665.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210215062240+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -123.5748, 48.3943 ],
 							[ -123.542, 48.3187 ],
 							[ -123.4896, 48.2322 ],
@@ -3034,50 +3041,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-14/2021_02_14T12_45_01_00_00Iurn_oid_2.49.0.1.124.1126060686.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210215044401+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -123.4872, 54.615 ],
-							[ -123.9108, 55.067 ],
-							[ -124.1479, 55.2006 ],
-							[ -124.4416, 55.346 ],
-							[ -125.2762, 54.9367 ],
-							[ -125.0555, 54.2336 ],
-							[ -124.3065, 52.9994 ],
-							[ -124.3, 53 ],
-							[ -123.8108, 53.0927 ],
-							[ -123.3207, 53.2026 ],
-							[ -123.4872, 54.615 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 14, 2021 14:23",
-				"Expires_UTC" : "February 15, 2021 06:22",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nAIR QUALITY ADVISORY IN EFFECT FOR VANDERHOOF \n\n(February 13, 2021 08:00 - Smithers) The Ministry of Environment & Climate Change Strategy in collaboration with the Northern Health Authority has issued an Air Quality Advisory for Vanderhoof due to high concentrations of fine particulate matter that are expected to persist until tomorrow. \n\nExposure  is  particularly  a  concern  for  individuals  with  chronic  conditions  such  as asthma, COPD, heart disease, and diabetes; respiratory infections such as COVID-19, pregnant women, infants, and older adults.  Persons with chronic underlying medical conditions or acute infections should postpone or reduce strenuous exercise until the advisory is lifted. Where appropriate, maintain physical distancing. Anyone experiencing symptoms such as continuing eye or throat irritation, chest discomfort, shortness of breath, cough or wheezing, should follow the advice of their health care provider. Staying indoors helps to reduce particulate matter exposure. \n\nReal-time  air  quality  observations  and  information  regarding  the  health  effects  of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-02-15T06:22:40-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2021-02-14T14:23:40-00:00, urn:oid:2.49.0.1.124.4100585665.2021<br>Area: Stuart - Nechako",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-14:feed.atom/urn:oid:2.49.0.1.124.4100585665.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-14/2021_02_14T14_23_40_00_00Iurn_oid_2.49.0.1.124.4100585665.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210215062240+00:00"
 			}
 		},
 		{
