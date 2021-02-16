@@ -68,6 +68,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -84.021, 49.9497 ],
+							[ -85.9469, 49.9546 ],
+							[ -85.9469, 48.8844 ],
+							[ -84.0089, 48.5511 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ],
+							[ -81.4426, 49.1637 ],
+							[ -81.4419, 49.5091 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5166, 50.7219 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.8343, 51.8669 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2021 10:04",
+				"Expires_UTC" : "February 16, 2021 18:00",
+				"Summary" : "Description: Extreme cold wind chill values early this morning.\n\nWind chill values near or below minus 40 will continue early this morning before moderating later this morning as temperatures warm.\n\n###\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-16T18:00:11-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T10:04:11-00:00, urn:oid:2.49.0.1.124.1649001567.2021<br>Area: Manitouwadge - Hornepayne, Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.1649001567.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T10_04_11_00_00Iurn_oid_2.49.0.1.124.1649001567.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210216180011+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.0706, 48.4384 ],
 							[ -65.2298, 48.4244 ],
 							[ -65.4677, 48.4029 ],
@@ -1437,61 +1498,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T11_26_50_00_00Iurn_oid_2.49.0.1.124.2370725150.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210217032550+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.4848, 42.462 ],
-							[ -82.4404, 42.4783 ],
-							[ -82.436, 42.4901 ],
-							[ -82.3814, 42.5328 ],
-							[ -82.3991, 42.5874 ],
-							[ -82.4588, 42.6054 ],
-							[ -82.4593, 42.6307 ],
-							[ -82.2613, 42.6226 ],
-							[ -82.1003, 42.627 ],
-							[ -82.086, 42.8629 ],
-							[ -82.0928, 43.1082 ],
-							[ -82.0998, 43.127 ],
-							[ -82.1612, 43.1061 ],
-							[ -82.1749, 43.066 ],
-							[ -82.2407, 43.0452 ],
-							[ -82.4053, 43.0278 ],
-							[ -82.4596, 42.9605 ],
-							[ -82.4897, 42.8066 ],
-							[ -82.4775, 42.7604 ],
-							[ -82.5161, 42.6639 ],
-							[ -82.6214, 42.5101 ],
-							[ -82.4848, 42.462 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 16, 2021 14:07",
-				"Expires_UTC" : "February 17, 2021 06:06",
-				"Summary" : "Description: Snow squalls are expected. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nSnow squalls are expected to move in off of Lake Huron this morning. \n\nThis snow is expected to be heavy at times and accumulations of 10 to 15 cm is possible. Strong winds and gusts of up to 50 km/h are expected to produce local blowing snow which could reduce visibility significantly.\n\nConditions are expected to improve later this afternoon when the wind direction shifts to the northwest.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nSnow squall warnings are issued when bands of snow form that produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-17T06:06:31-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T14:07:31-00:00, urn:oid:2.49.0.1.124.3991155086.2021<br>Area: Sarnia - Petrolia - Western Lambton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.3991155086.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T14_07_31_00_00Iurn_oid_2.49.0.1.124.3991155086.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217060631+00:00"
 			}
 		},
 		{
@@ -3057,57 +3063,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 16, 2021 14:10",
-				"Expires_UTC" : "February 17, 2021 06:09",
-				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nLocations: southern Avalon Peninsula.\n\nTotal rainfall: 20 to 30 mm (highest amounts over extreme southern areas).\n\nTime span: overnight tonight into Wednesday morning.\n\nRemarks: Freezing rain will change to rain tonight and taper to showers Wednesday morning.\n\nSignificant snowmelt and runoff are likely to occur.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T06:09:11-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T14:10:11-00:00, urn:oid:2.49.0.1.124.1642186161.2021<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.1642186161.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T14_10_11_00_00Iurn_oid_2.49.0.1.124.1642186161.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217060911+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -74.8476, 45.0242 ],
 							[ -74.8006, 45.0212 ],
 							[ -74.7882, 45.0071 ],
@@ -3278,6 +3233,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T09_49_32_00_00Iurn_oid_2.49.0.1.124.3799914933.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210217014832+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2021 14:10",
+				"Expires_UTC" : "February 17, 2021 06:09",
+				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nLocations: southern Avalon Peninsula.\n\nTotal rainfall: 20 to 30 mm (highest amounts over extreme southern areas).\n\nTime span: overnight tonight into Wednesday morning.\n\nRemarks: Freezing rain will change to rain tonight and taper to showers Wednesday morning.\n\nSignificant snowmelt and runoff are likely to occur.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T06:09:11-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T14:10:11-00:00, urn:oid:2.49.0.1.124.1642186161.2021<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.1642186161.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T14_10_11_00_00Iurn_oid_2.49.0.1.124.1642186161.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210217060911+00:00"
 			}
 		},
 		{
@@ -3522,67 +3528,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -84.021, 49.9497 ],
-							[ -85.9469, 49.9546 ],
-							[ -85.9469, 48.8844 ],
-							[ -84.0089, 48.5511 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ],
-							[ -81.4426, 49.1637 ],
-							[ -81.4419, 49.5091 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5166, 50.7219 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.8343, 51.8669 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 16, 2021 13:34",
-				"Expires_UTC" : "February 16, 2021 14:34",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2021-02-16T14:34:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T13:34:55-00:00, urn:oid:2.49.0.1.124.3680018772.2021<br>Area: Manitouwadge - Hornepayne, Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls, Little Abitibi - Kesagami Lake",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.3680018772.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T13_34_55_00_00Iurn_oid_2.49.0.1.124.3680018772.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210216143455+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -54.65, 49.25 ],
 							[ -54.15, 49.2 ],
 							[ -54.2, 48.9 ],
@@ -3746,6 +3691,61 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T14_17_35_00_00Iurn_oid_2.49.0.1.124.2996907370.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210217061635+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.4848, 42.462 ],
+							[ -82.4404, 42.4783 ],
+							[ -82.436, 42.4901 ],
+							[ -82.3814, 42.5328 ],
+							[ -82.3991, 42.5874 ],
+							[ -82.4588, 42.6054 ],
+							[ -82.4593, 42.6307 ],
+							[ -82.2613, 42.6226 ],
+							[ -82.1003, 42.627 ],
+							[ -82.086, 42.8629 ],
+							[ -82.0928, 43.1082 ],
+							[ -82.0998, 43.127 ],
+							[ -82.1612, 43.1061 ],
+							[ -82.1749, 43.066 ],
+							[ -82.2407, 43.0452 ],
+							[ -82.4053, 43.0278 ],
+							[ -82.4596, 42.9605 ],
+							[ -82.4897, 42.8066 ],
+							[ -82.4775, 42.7604 ],
+							[ -82.5161, 42.6639 ],
+							[ -82.6214, 42.5101 ],
+							[ -82.4848, 42.462 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snow Squall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2021 14:07",
+				"Expires_UTC" : "February 17, 2021 06:06",
+				"Summary" : "Description: Snow squalls are expected. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nSnow squalls are expected to move in off of Lake Huron this morning. \n\nThis snow is expected to be heavy at times and accumulations of 10 to 15 cm is possible. Strong winds and gusts of up to 50 km/h are expected to produce local blowing snow which could reduce visibility significantly.\n\nConditions are expected to improve later this afternoon when the wind direction shifts to the northwest.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nSnow squall warnings are issued when bands of snow form that produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-17T06:06:31-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T14:07:31-00:00, urn:oid:2.49.0.1.124.3991155086.2021<br>Area: Sarnia - Petrolia - Western Lambton County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.3991155086.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T14_07_31_00_00Iurn_oid_2.49.0.1.124.3991155086.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210217060631+00:00"
 			}
 		}
 	]
