@@ -123,37 +123,106 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
+							[ -84.4985, 46.6539 ],
+							[ -84.6124, 46.6233 ],
+							[ -84.6283, 46.5491 ],
+							[ -84.5588, 46.4765 ],
+							[ -84.4902, 46.4573 ],
+							[ -84.1729, 46.4924 ],
+							[ -84.0972, 46.1959 ],
+							[ -83.9476, 46.0487 ],
+							[ -83.822, 46.1212 ],
+							[ -83.7566, 46.1199 ],
+							[ -83.7076, 46.1874 ],
+							[ -83.8414, 46.4826 ],
+							[ -83.9907, 46.781 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9912, 47.2516 ],
+							[ -83.9939, 48.1107 ],
+							[ -83.996, 48.1106 ],
+							[ -84.2352, 48.0981 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2418, 48.0973 ],
+							[ -84.6559, 47.963 ],
+							[ -84.8608, 47.8957 ],
+							[ -85.1481, 47.824 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.7351, 46.6321 ],
+							[ -84.4985, 46.6539 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2021 19:37",
+				"Expires_UTC" : "February 17, 2021 11:36",
+				"Summary" : "Description: Winter Weather Travel Advisory for tonight and Wednesday.\n\nLake effect snow bands and heavy flurries will move into the region tonight and shift back and forth across the region through Wednesday morning giving variable amounts of snow. Local amounts of  5 to 10 centimetres of snow can be expected by Wednesday morning.  The heavier bands of snow will likely move north of Sault Ste. Marie on Wednesday morning.\n\nTravel may become hazardous at times tonight and on Wednesday due to accumulating snow and slippery conditions. Visibility could locally be reduced at times in heavy flurries.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-17T11:36:57-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:37:57-00:00, urn:oid:2.49.0.1.124.1063167030.2021<br>Area: Agawa - Lake Superior Park, Searchmont - Montreal River Harbour - Batchawana Bay, Sault Ste. Marie - St. Joseph Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.1063167030.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_37_57_00_00Iurn_oid_2.49.0.1.124.1063167030.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210217113657+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
+				"event" : "Snowfall",
+				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 16, 2021 14:54",
-				"Expires_UTC" : "February 17, 2021 06:54",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nPoor weather conditions may contribute to transportation delays.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-02-17T06:54:40-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T14:54:40-00:00, urn:oid:2.49.0.1.124.2576861317.2021<br>Area: Îles-de-la-Madeleine",
+				"LastUpdate_UTC" : "February 16, 2021 19:02",
+				"Expires_UTC" : "February 17, 2021 10:59",
+				"Summary" : "Description: Significant snowfall and ice pellet accumulations are expected.\n\nTotal amounts: 15 to 25 cm.\n\nLocations: Channel-Port aux Basques and vicinity; Burgeo - Ramea.\n\nTime span: continuing until overnight tonight.\n\nRemarks: Snow will transition through a period of ice pellets this evening before changing through freezing rain to rain later tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T10:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:02:56-00:00, urn:oid:2.49.0.1.124.3632217869.2021<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.2576861317.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T14_54_40_00_00Iurn_oid_2.49.0.1.124.2576861317.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.3632217869.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_02_56_00_00Iurn_oid_2.49.0.1.124.3632217869.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217065440+00:00"
+				"Expires_FMEFormat" : "20210217105956+00:00"
 			}
 		},
 		{
@@ -398,6 +467,50 @@
 				"coordinates" : [
 					[
 						[
+							[ -59.0956, 48.1003 ],
+							[ -58.5677, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.6299, 48.7822 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.0956, 48.1003 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2021 19:02",
+				"Expires_UTC" : "February 17, 2021 11:01",
+				"Summary" : "Description: Significant snowfall, followed by ice pellets or freezing rain, is expected.\n\nTotal snowfall: 10 to 20 cm.\n\nLocations: Bay St. George.\n\nTime span: continuing until Wednesday morning.\n\nRemarks: Snow will become heavy at times this evening before transitioning to ice pellets and possibly freezing rain later tonight. Conditions will improve slightly Wednesday morning as the snow transitions to flurries.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T11:01:17-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:02:17-00:00, urn:oid:2.49.0.1.124.1019896902.2021<br>Area: Bay St. George",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.1019896902.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_02_17_00_00Iurn_oid_2.49.0.1.124.1019896902.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210217110117+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -64.7688, 47.3864 ],
 							[ -64.7526, 47.5525 ],
 							[ -64.4105, 47.8072 ],
@@ -557,6 +670,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T16_08_48_00_00Iurn_oid_2.49.0.1.124.2386314692.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210217080748+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -62.884, 46.5004 ],
+							[ -63.6271, 46.6222 ],
+							[ -63.9227, 46.7494 ],
+							[ -63.9571, 47.0651 ],
+							[ -64.0142, 47.1084 ],
+							[ -64.4465, 46.7886 ],
+							[ -64.4493, 46.6226 ],
+							[ -64.1916, 46.4052 ],
+							[ -63.758, 46.2118 ],
+							[ -63.4926, 46.1673 ],
+							[ -62.9096, 45.9108 ],
+							[ -62.6427, 45.9054 ],
+							[ -62.4341, 45.9429 ],
+							[ -61.9613, 46.401 ],
+							[ -61.9482, 46.5526 ],
+							[ -62.884, 46.5004 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2021 19:46",
+				"Expires_UTC" : "February 17, 2021 07:59",
+				"Summary" : "Description: A prolonged period of freezing rain will continue this evening.\n\nLocations: Prince Edward Island.\n\nTime Span: ending tonight. \n\nRemarks: Freezing rain will change to rain over Queen and Kings counties later this evening as temperatures continue to rise.\n\nIn Prince County, pellets and freezing rain tonight will change over to flurries before morning.\n\n###\n\nPoor weather conditions may contribute to transportation delays.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to PEstorm@canada.ca or tweet reports using #PEStorm.<br>Expires: 2021-02-17T07:59:10-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:46:10-00:00, urn:oid:2.49.0.1.124.1314076507.2021<br>Area: Kings County P.E.I., Queens County P.E.I., Prince County P.E.I.",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.1314076507.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_46_10_00_00Iurn_oid_2.49.0.1.124.1314076507.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210217075910+00:00"
 			}
 		},
 		{
@@ -884,6 +1046,125 @@
 				"coordinates" : [
 					[
 						[
+							[ -64.9179, 45.4771 ],
+							[ -64.4894, 45.7165 ],
+							[ -64.3392, 45.8389 ],
+							[ -64.3108, 45.8312 ],
+							[ -64.2564, 45.8182 ],
+							[ -64.2206, 45.8694 ],
+							[ -64.1796, 45.9045 ],
+							[ -64.2062, 45.9161 ],
+							[ -64.1849, 45.939 ],
+							[ -64.1766, 45.9478 ],
+							[ -64.1708, 45.9539 ],
+							[ -64.1646, 45.9608 ],
+							[ -64.1591, 45.9753 ],
+							[ -64.1528, 45.9784 ],
+							[ -64.1496, 45.9799 ],
+							[ -64.1364, 45.9793 ],
+							[ -64.1234, 45.979 ],
+							[ -64.1106, 45.9786 ],
+							[ -64.0795, 45.9775 ],
+							[ -64.0717, 45.9772 ],
+							[ -64.0701, 45.9772 ],
+							[ -64.0476, 45.9768 ],
+							[ -64.0468, 45.9768 ],
+							[ -64.0247, 45.9762 ],
+							[ -64.0206, 45.9935 ],
+							[ -64.0425, 45.9934 ],
+							[ -64.0407, 46.0039 ],
+							[ -63.8518, 46.0357 ],
+							[ -63.7366, 46.106 ],
+							[ -63.8076, 46.193 ],
+							[ -64.4795, 46.2865 ],
+							[ -64.6509, 46.6934 ],
+							[ -64.769, 46.7321 ],
+							[ -64.8468, 46.9104 ],
+							[ -64.7432, 47.0784 ],
+							[ -64.8304, 47.0405 ],
+							[ -64.851, 47.0294 ],
+							[ -65.368, 46.7462 ],
+							[ -65.3919, 46.733 ],
+							[ -65.5705, 46.6329 ],
+							[ -65.8356, 46.3331 ],
+							[ -65.9799, 46.3222 ],
+							[ -66.2349, 46.3023 ],
+							[ -66.2353, 46.3019 ],
+							[ -66.2355, 46.3017 ],
+							[ -66.2359, 46.3016 ],
+							[ -67.3011, 46.2169 ],
+							[ -67.533, 45.9333 ],
+							[ -67.5989, 45.9841 ],
+							[ -67.6318, 45.9663 ],
+							[ -67.6665, 45.9829 ],
+							[ -67.6941, 45.9545 ],
+							[ -67.7156, 45.9324 ],
+							[ -67.7666, 45.9302 ],
+							[ -67.7823, 45.9319 ],
+							[ -67.815, 45.8762 ],
+							[ -67.839, 45.6671 ],
+							[ -67.7222, 45.6482 ],
+							[ -67.624, 45.5767 ],
+							[ -67.4348, 45.5763 ],
+							[ -67.454, 45.5059 ],
+							[ -67.4664, 45.5091 ],
+							[ -67.5089, 45.4898 ],
+							[ -67.4836, 45.423 ],
+							[ -67.4196, 45.3754 ],
+							[ -67.4387, 45.3766 ],
+							[ -67.4918, 45.2818 ],
+							[ -67.4075, 45.1606 ],
+							[ -67.3394, 45.12 ],
+							[ -67.2902, 45.1481 ],
+							[ -67.2717, 45.1815 ],
+							[ -67.2253, 45.1533 ],
+							[ -67.1617, 45.1528 ],
+							[ -66.9884, 44.9042 ],
+							[ -66.9778, 44.8326 ],
+							[ -66.8639, 44.7731 ],
+							[ -66.9393, 44.5943 ],
+							[ -66.6772, 44.5452 ],
+							[ -66.6191, 44.9452 ],
+							[ -66.4488, 44.9966 ],
+							[ -66.1205, 45.0829 ],
+							[ -65.9007, 45.0895 ],
+							[ -65.1181, 45.3687 ],
+							[ -65.024, 45.4213 ],
+							[ -65.0077, 45.4302 ],
+							[ -64.9179, 45.4771 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2021 19:45",
+				"Expires_UTC" : "February 17, 2021 09:59",
+				"Summary" : "Description: Ice build-up due to freezing rain is expected or occurring.\n\nLocations: southern New Brunswick.\n\nTime span: tapering off overnight.\n\nRemarks: Freezing rain will continue for several hours before tapering off overnight. A changeover to rain is expected along some parts of the Fundy Coast.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots will become icy, slippery and hazardous. There may be a significant impact on rush hour traffic in urban areas.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NBstorm@canada.ca or tweet reports using #NBStorm.<br>Expires: 2021-02-17T09:59:47-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:45:47-00:00, urn:oid:2.49.0.1.124.4070269740.2021<br>Area: Fredericton and Southern York County, Oromocto and Sunbury County, Grand Lake and Queens County, Sussex - Kennebecasis Valley and Kings County, Saint John and County, St. Stephen and Northern Charlotte County, Grand Manan and Coastal Charlotte County, Kent County, Moncton and Southeast New Brunswick, Kouchibouguac National Park, Fundy National Park",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.4070269740.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_45_47_00_00Iurn_oid_2.49.0.1.124.4070269740.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210217095947+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -65.1179, 45.6152 ],
 							[ -66.449, 45.2164 ],
 							[ -66.4517, 45.2004 ],
@@ -984,38 +1265,52 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
+							[ -82.4848, 42.462 ],
+							[ -82.4404, 42.4783 ],
+							[ -82.436, 42.4901 ],
+							[ -82.3814, 42.5328 ],
+							[ -82.3991, 42.5874 ],
+							[ -82.4588, 42.6054 ],
+							[ -82.4593, 42.6307 ],
+							[ -82.2613, 42.6226 ],
+							[ -82.1003, 42.627 ],
+							[ -82.086, 42.8629 ],
+							[ -82.0928, 43.1082 ],
+							[ -82.0998, 43.127 ],
+							[ -82.1612, 43.1061 ],
+							[ -82.1749, 43.066 ],
+							[ -82.2407, 43.0452 ],
+							[ -82.4053, 43.0278 ],
+							[ -82.4596, 42.9605 ],
+							[ -82.4897, 42.8066 ],
+							[ -82.4775, 42.7604 ],
+							[ -82.5161, 42.6639 ],
+							[ -82.6214, 42.5101 ],
+							[ -82.4848, 42.462 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Les Suêtes Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snow Squall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Snow Squall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "February 16, 2021 14:50",
-				"Expires_UTC" : "February 17, 2021 04:59",
-				"Summary" : "Description: Very strong wind gusts that may cause damage are expected or occurring.\n\nMaximum Les Suetes gusts: 120 km/h.\n\nTime span: Late this afternoon and evening.\n\n###\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-02-17T04:59:25-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T14:50:25-00:00, urn:oid:2.49.0.1.124.2778739283.2021<br>Area: Inverness County - Mabou and north",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2021 18:20",
+				"Expires_UTC" : "February 17, 2021 09:54",
+				"Summary" : "Description: Snow squalls are expected. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nSnow squalls are affecting the area at the moment and are expected to move out this afternoon. \n\nThis snow is expected to be heavy at times and accumulations of 10 to 15 cm is possible. Strong winds and gusts of up to 50 km/h are expected to produce local blowing snow which could reduce visibility significantly.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nSnow squall warnings are issued when bands of snow form that produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-17T09:54:30-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T18:20:30-00:00, urn:oid:2.49.0.1.124.0481692421.2021<br>Area: Sarnia - Petrolia - Western Lambton County",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.2778739283.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T14_50_25_00_00Iurn_oid_2.49.0.1.124.2778739283.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.0481692421.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T18_20_30_00_00Iurn_oid_2.49.0.1.124.0481692421.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217045925+00:00"
+				"Expires_FMEFormat" : "20210217095430+00:00"
 			}
 		},
 		{
@@ -1741,50 +2036,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -59.0956, 48.1003 ],
-							[ -58.5677, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.6299, 48.7822 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.0956, 48.1003 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 16, 2021 19:02",
-				"Expires_UTC" : "February 17, 2021 11:01",
-				"Summary" : "Description: Significant snowfall, followed by ice pellets or freezing rain, is expected.\n\nTotal snowfall: 10 to 20 cm.\n\nLocations: Bay St. George.\n\nTime span: continuing until Wednesday morning.\n\nRemarks: Snow will become heavy at times this evening before transitioning to ice pellets and possibly freezing rain later tonight. Conditions will improve slightly Wednesday morning as the snow transitions to flurries.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T11:01:17-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:02:17-00:00, urn:oid:2.49.0.1.124.1019896902.2021<br>Area: Bay St. George",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.1019896902.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_02_17_00_00Iurn_oid_2.49.0.1.124.1019896902.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217110117+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -62.2998, 45.8648 ],
 							[ -63.1438, 45.8448 ],
 							[ -63.1906, 45.811 ],
@@ -2208,48 +2459,38 @@
 				"coordinates" : [
 					[
 						[
-							[ -53.7909, 46.8875 ],
-							[ -53.7094, 46.6077 ],
-							[ -53.4389, 46.5175 ],
-							[ -52.9939, 46.5704 ],
-							[ -52.911, 46.7993 ],
-							[ -52.9466, 46.8016 ],
-							[ -53.0399, 46.7999 ],
-							[ -53.0399, 47.2249 ],
-							[ -53.58, 47.3919 ],
-							[ -53.7999, 47.4599 ],
-							[ -53.9999, 47.9199 ],
-							[ -54.0697, 47.8335 ],
-							[ -54.0792, 47.826 ],
-							[ -54.4101, 47.3978 ],
-							[ -54.2539, 47.2985 ],
-							[ -54.2788, 46.76 ],
-							[ -53.9769, 46.7384 ],
-							[ -53.7909, 46.8875 ]
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Les Suêtes Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Rainfall",
+				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 16, 2021 19:00",
-				"Expires_UTC" : "February 17, 2021 10:59",
-				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nLocations: southern Avalon Peninsula.\n\nTotal rainfall: 20 to 30 mm (highest amounts over extreme southern areas).\n\nTime span: overnight tonight into Wednesday morning.\n\nRemarks: Freezing rain will change to rain tonight and taper to showers Wednesday morning.\n\nSignificant snowmelt and runoff are likely to occur.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T10:59:58-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:00:58-00:00, urn:oid:2.49.0.1.124.3449078138.2021<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 16, 2021 19:45",
+				"Expires_UTC" : "February 17, 2021 04:59",
+				"Summary" : "Description: Very strong wind gusts that may cause damage are expected or occurring.\n\nMaximum Les Suetes gusts: 120 km/h.\n\nTime span: beginning this evening and ending before midnight.\n\n###\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-02-17T04:59:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:45:45-00:00, urn:oid:2.49.0.1.124.1741393260.2021<br>Area: Inverness County - Mabou and north",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.3449078138.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_00_58_00_00Iurn_oid_2.49.0.1.124.3449078138.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.1741393260.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_45_45_00_00Iurn_oid_2.49.0.1.124.1741393260.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217105958+00:00"
+				"Expires_FMEFormat" : "20210217045945+00:00"
 			}
 		},
 		{
@@ -2417,47 +2658,48 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.9466, 46.8016 ],
+							[ -53.0399, 46.7999 ],
+							[ -53.0399, 47.2249 ],
+							[ -53.58, 47.3919 ],
+							[ -53.7999, 47.4599 ],
+							[ -53.9999, 47.9199 ],
+							[ -54.0697, 47.8335 ],
+							[ -54.0792, 47.826 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snowfall",
+				"event" : "Rainfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 16, 2021 19:02",
+				"LastUpdate_UTC" : "February 16, 2021 19:00",
 				"Expires_UTC" : "February 17, 2021 10:59",
-				"Summary" : "Description: Significant snowfall and ice pellet accumulations are expected.\n\nTotal amounts: 15 to 25 cm.\n\nLocations: Channel-Port aux Basques and vicinity; Burgeo - Ramea.\n\nTime span: continuing until overnight tonight.\n\nRemarks: Snow will transition through a period of ice pellets this evening before changing through freezing rain to rain later tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T10:59:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:02:56-00:00, urn:oid:2.49.0.1.124.3632217869.2021<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"Summary" : "Description: Rainfall, combined with melting snow, is expected. The frozen ground has a reduced ability to absorb this rainfall.\n\nLocations: southern Avalon Peninsula.\n\nTotal rainfall: 20 to 30 mm (highest amounts over extreme southern areas).\n\nTime span: overnight tonight into Wednesday morning.\n\nRemarks: Freezing rain will change to rain tonight and taper to showers Wednesday morning.\n\nSignificant snowmelt and runoff are likely to occur.\n\n###\n\nLocalized flooding in low-lying areas is possible.\n\nRainfall warnings are issued when significant rainfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T10:59:58-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:00:58-00:00, urn:oid:2.49.0.1.124.3449078138.2021<br>Area: Avalon Peninsula Southeast, Avalon Peninsula Southwest",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.3632217869.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_02_56_00_00Iurn_oid_2.49.0.1.124.3632217869.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.3449078138.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_00_58_00_00Iurn_oid_2.49.0.1.124.3449078138.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217105956+00:00"
+				"Expires_FMEFormat" : "20210217105958+00:00"
 			}
 		},
 		{
@@ -2667,6 +2909,46 @@
 				"coordinates" : [
 					[
 						[
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 16, 2021 19:45",
+				"Expires_UTC" : "February 17, 2021 10:59",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nPoor weather conditions may contribute to transportation delays.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-02-17T10:59:33-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T19:45:33-00:00, urn:oid:2.49.0.1.124.1274786618.2021<br>Area: Îles-de-la-Madeleine",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.1274786618.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T19_45_33_00_00Iurn_oid_2.49.0.1.124.1274786618.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210217105933+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -60.9214, 45.3595 ],
 							[ -60.8672, 45.3945 ],
 							[ -60.8348, 45.5153 ],
@@ -2836,61 +3118,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T18_19_29_00_00Iurn_oid_2.49.0.1.124.2100008609.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210217080929+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.4848, 42.462 ],
-							[ -82.4404, 42.4783 ],
-							[ -82.436, 42.4901 ],
-							[ -82.3814, 42.5328 ],
-							[ -82.3991, 42.5874 ],
-							[ -82.4588, 42.6054 ],
-							[ -82.4593, 42.6307 ],
-							[ -82.2613, 42.6226 ],
-							[ -82.1003, 42.627 ],
-							[ -82.086, 42.8629 ],
-							[ -82.0928, 43.1082 ],
-							[ -82.0998, 43.127 ],
-							[ -82.1612, 43.1061 ],
-							[ -82.1749, 43.066 ],
-							[ -82.2407, 43.0452 ],
-							[ -82.4053, 43.0278 ],
-							[ -82.4596, 42.9605 ],
-							[ -82.4897, 42.8066 ],
-							[ -82.4775, 42.7604 ],
-							[ -82.5161, 42.6639 ],
-							[ -82.6214, 42.5101 ],
-							[ -82.4848, 42.462 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snow Squall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 16, 2021 18:20",
-				"Expires_UTC" : "February 17, 2021 09:54",
-				"Summary" : "Description: Snow squalls are expected. Under the snow squall bands, visibilities will be significantly reduced due to the heavy snow combined with blowing snow, and snow will quickly accumulate.\n\nSnow squalls are affecting the area at the moment and are expected to move out this afternoon. \n\nThis snow is expected to be heavy at times and accumulations of 10 to 15 cm is possible. Strong winds and gusts of up to 50 km/h are expected to produce local blowing snow which could reduce visibility significantly.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nSnow squall warnings are issued when bands of snow form that produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-17T09:54:30-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-16T18:20:30-00:00, urn:oid:2.49.0.1.124.0481692421.2021<br>Area: Sarnia - Petrolia - Western Lambton County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-16:feed.atom/urn:oid:2.49.0.1.124.0481692421.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-16/2021_02_16T18_20_30_00_00Iurn_oid_2.49.0.1.124.0481692421.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217095430+00:00"
 			}
 		}
 	]
