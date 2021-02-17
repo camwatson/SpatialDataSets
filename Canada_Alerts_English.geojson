@@ -167,46 +167,40 @@
 				"coordinates" : [
 					[
 						[
-							[ -56.99, 50.25 ],
-							[ -57.2, 49.8499 ],
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -58.6299, 48.7822 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.6827, 49.1504 ],
 							[ -57.3499, 49.58 ],
-							[ -56.817, 49.2073 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.4018, 49.5793 ],
-							[ -55.3736, 50.013 ],
-							[ -55.7129, 50.3339 ],
-							[ -56.4068, 50.2167 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.99, 50.25 ]
+							[ -57.2, 49.8499 ],
+							[ -57.7515, 50.0004 ],
+							[ -57.808, 50.0127 ],
+							[ -58.3109, 49.4067 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Winter Storm Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 17, 2021 19:11",
-				"Expires_UTC" : "February 17, 2021 20:11",
-				"Summary" : "Description: Winter storm conditions are no longer expected.\n\n\n###<br>Expires: 2021-02-17T20:11:19-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-17T19:11:19-00:00, urn:oid:2.49.0.1.124.1455854804.2021<br>Area: Green Bay - White Bay",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 17, 2021 14:24",
+				"Expires_UTC" : "February 17, 2021 22:59",
+				"Summary" : "Description: Snowfall amounts of 5 to 10 cm is expected.\n\nLocations: Corner Brook and Gros Morne.\n\nTime span: continuing into this afternoon.\n\nRemarks: Snow and wind will combine to reduce visibility at times in blowing snow, especially over exposed areas. Conditions will improve this afternoon as snow tapers off to flurries.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T22:59:18-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-17T14:24:18-00:00, urn:oid:2.49.0.1.124.2208572281.2021<br>Area: Corner Brook and vicinity, Gros Morne",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-17:feed.atom/urn:oid:2.49.0.1.124.1455854804.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T19_11_19_00_00Iurn_oid_2.49.0.1.124.1455854804.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-17:feed.atom/urn:oid:2.49.0.1.124.2208572281.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T14_24_18_00_00Iurn_oid_2.49.0.1.124.2208572281.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217201119+00:00"
+				"Expires_FMEFormat" : "20210217225918+00:00"
 			}
 		},
 		{
@@ -366,61 +360,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T15_32_10_00_00Iurn_oid_2.49.0.1.124.2331119838.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210218073110+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -85.6288, 73.031 ],
-							[ -85.2757, 72.9814 ],
-							[ -84.6976, 72.8984 ],
-							[ -84.5651, 72.8986 ],
-							[ -84.4176, 73.0621 ],
-							[ -84.8368, 73.1113 ],
-							[ -85.0267, 73.153 ],
-							[ -85.4621, 73.1923 ],
-							[ -85.6288, 73.031 ]
-						]
-					],
-					[
-						[
-							[ -78.6362, 72.6541 ],
-							[ -78.4939, 72.5386 ],
-							[ -77.8912, 72.4735 ],
-							[ -77.3451, 72.5745 ],
-							[ -77.2351, 72.6638 ],
-							[ -77.2577, 72.7548 ],
-							[ -77.4398, 72.7893 ],
-							[ -78.0061, 72.7979 ],
-							[ -78.6362, 72.6541 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 17, 2021 15:30",
-				"Expires_UTC" : "February 18, 2021 07:29",
-				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nWind chills near -50 are occurring this morning at Arctic Bay and will begin tonight at Pond Inlet. Slight moderation is expected today at Arctic Bay but extreme wind chills are expected in both regions tonight into Thursday. These wind chill values will moderate by Friday.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-18T07:29:03-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-17T15:30:03-00:00, urn:oid:2.49.0.1.124.3996446226.2021<br>Area: Arctic Bay, Pond Inlet",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-17:feed.atom/urn:oid:2.49.0.1.124.3996446226.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T15_30_03_00_00Iurn_oid_2.49.0.1.124.3996446226.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210218072903+00:00"
 			}
 		},
 		{
@@ -628,49 +567,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T12_44_00_00_00Iurn_oid_2.49.0.1.124.2679499769.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210218044300+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -58.6299, 48.7822 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.6827, 49.1504 ],
-							[ -57.3499, 49.58 ],
-							[ -57.2, 49.8499 ],
-							[ -57.7515, 50.0004 ],
-							[ -57.808, 50.0127 ],
-							[ -58.3109, 49.4067 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Snowfall Warning Ended",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 17, 2021 19:11",
-				"Expires_UTC" : "February 17, 2021 20:11",
-				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2021-02-17T20:11:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-17T19:11:45-00:00, urn:oid:2.49.0.1.124.2793948289.2021<br>Area: Corner Brook and vicinity, Gros Morne",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-17:feed.atom/urn:oid:2.49.0.1.124.2793948289.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T19_11_45_00_00Iurn_oid_2.49.0.1.124.2793948289.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217201145+00:00"
 			}
 		},
 		{
@@ -943,6 +839,53 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 17, 2021 14:15",
+				"Expires_UTC" : "February 17, 2021 22:59",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum gusts: northwesterly 80 km/h, except 100 along parts of the coast.\n\nLocations: Channel-Port aux Basques and vicinity.\n\nTime span: this afternoon.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. Loose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-17T22:59:38-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-17T14:15:38-00:00, urn:oid:2.49.0.1.124.3920472700.2021<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-17:feed.atom/urn:oid:2.49.0.1.124.3920472700.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T14_15_38_00_00Iurn_oid_2.49.0.1.124.3920472700.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210217225938+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -57.1156, 52.1 ],
 							[ -57.1159, 52.0026 ],
 							[ -57.1159, 51.9984 ],
@@ -995,44 +938,52 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
+							[ -85.6288, 73.031 ],
+							[ -85.2757, 72.9814 ],
+							[ -84.6976, 72.8984 ],
+							[ -84.5651, 72.8986 ],
+							[ -84.4176, 73.0621 ],
+							[ -84.8368, 73.1113 ],
+							[ -85.0267, 73.153 ],
+							[ -85.4621, 73.1923 ],
+							[ -85.6288, 73.031 ]
+						]
+					],
+					[
+						[
+							[ -78.6362, 72.6541 ],
+							[ -78.4939, 72.5386 ],
+							[ -77.8912, 72.4735 ],
+							[ -77.3451, 72.5745 ],
+							[ -77.2351, 72.6638 ],
+							[ -77.2577, 72.7548 ],
+							[ -77.4398, 72.7893 ],
+							[ -78.0061, 72.7979 ],
+							[ -78.6362, 72.6541 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 17, 2021 19:11",
-				"Expires_UTC" : "February 17, 2021 20:11",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2021-02-17T20:11:07-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-17T19:11:07-00:00, urn:oid:2.49.0.1.124.4191113235.2021<br>Area: Channel-Port aux Basques and vicinity",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 17, 2021 15:30",
+				"Expires_UTC" : "February 18, 2021 07:29",
+				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nWind chills near -50 are occurring this morning at Arctic Bay and will begin tonight at Pond Inlet. Slight moderation is expected today at Arctic Bay but extreme wind chills are expected in both regions tonight into Thursday. These wind chill values will moderate by Friday.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-18T07:29:03-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-17T15:30:03-00:00, urn:oid:2.49.0.1.124.3996446226.2021<br>Area: Arctic Bay, Pond Inlet",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-17:feed.atom/urn:oid:2.49.0.1.124.4191113235.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T19_11_07_00_00Iurn_oid_2.49.0.1.124.4191113235.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-17:feed.atom/urn:oid:2.49.0.1.124.3996446226.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T15_30_03_00_00Iurn_oid_2.49.0.1.124.3996446226.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217201107+00:00"
+				"Expires_FMEFormat" : "20210218072903+00:00"
 			}
 		}
 	]
