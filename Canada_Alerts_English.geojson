@@ -112,6 +112,60 @@
 				"coordinates" : [
 					[
 						[
+							[ -60.9766, 46.0016 ],
+							[ -60.9641, 46.0041 ],
+							[ -60.9256, 46.0478 ],
+							[ -60.8568, 46.0675 ],
+							[ -60.8098, 46.0638 ],
+							[ -60.7119, 46.0869 ],
+							[ -60.6864, 46.0863 ],
+							[ -60.6021, 46.1338 ],
+							[ -60.5551, 46.1916 ],
+							[ -60.4991, 46.2258 ],
+							[ -60.4173, 46.2948 ],
+							[ -60.3274, 46.3958 ],
+							[ -60.4217, 46.4055 ],
+							[ -60.2579, 46.6489 ],
+							[ -59.9993, 47.2684 ],
+							[ -60.3036, 47.3336 ],
+							[ -60.4985, 47.185 ],
+							[ -60.554, 47.0263 ],
+							[ -60.7422, 46.4987 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.9766, 46.0016 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 17, 2021 13:41",
+				"Expires_UTC" : "February 17, 2021 14:41",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2021-02-17T14:41:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-17T13:41:56-00:00, urn:oid:2.49.0.1.124.0649749554.2021<br>Area: Victoria County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-17:feed.atom/urn:oid:2.49.0.1.124.0649749554.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T13_41_56_00_00Iurn_oid_2.49.0.1.124.0649749554.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210217144156+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.3875, 68.77 ],
 							[ -95.7982, 68.8485 ],
 							[ -96.2346, 68.7983 ],
@@ -576,60 +630,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T04_57_45_00_00Iurn_oid_2.49.0.1.124.1290380850.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210217205645+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.9766, 46.0016 ],
-							[ -60.9641, 46.0041 ],
-							[ -60.9256, 46.0478 ],
-							[ -60.8568, 46.0675 ],
-							[ -60.8098, 46.0638 ],
-							[ -60.7119, 46.0869 ],
-							[ -60.6864, 46.0863 ],
-							[ -60.6021, 46.1338 ],
-							[ -60.5551, 46.1916 ],
-							[ -60.4991, 46.2258 ],
-							[ -60.4173, 46.2948 ],
-							[ -60.3274, 46.3958 ],
-							[ -60.4217, 46.4055 ],
-							[ -60.2579, 46.6489 ],
-							[ -59.9993, 47.2684 ],
-							[ -60.3036, 47.3336 ],
-							[ -60.4985, 47.185 ],
-							[ -60.554, 47.0263 ],
-							[ -60.7422, 46.4987 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.9766, 46.0016 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 17, 2021 13:41",
-				"Expires_UTC" : "February 17, 2021 14:41",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2021-02-17T14:41:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-17T13:41:56-00:00, urn:oid:2.49.0.1.124.0649749554.2021<br>Area: Victoria County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-17:feed.atom/urn:oid:2.49.0.1.124.0649749554.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-17/2021_02_17T13_41_56_00_00Iurn_oid_2.49.0.1.124.0649749554.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210217144156+00:00"
 			}
 		},
 		{
