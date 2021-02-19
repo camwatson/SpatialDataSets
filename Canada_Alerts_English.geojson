@@ -477,49 +477,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.0089, 48.5511 ],
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.2219, 48.2896 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Snow Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 19, 2021 13:14",
-				"Expires_UTC" : "February 20, 2021 05:13",
-				"Summary" : "Description: Snow squalls may impact the area into Friday afternoon.\n \nTravel along Highway 17 between White River and Wawa may become hazardous due to heavy snow and poor visibility. Snowfall accumulations up to 10 cm are possible, although the shifting nature of the snow bands may limit accumulations.\n\nAt this point, it appears that the heaviest amounts will occur south of Highway 17.\n\nThe snow squalls should move east of the region by late Friday.\n\n###\n\nTravel may be hazardous due to sudden changes in the weather. Visibility may be suddenly reduced at times in heavy snow. Surfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnow squall watches are issued when conditions are favourable for the formation of bands of snow that could produce intense accumulating snow or near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-20T05:13:42-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-19T13:14:42-00:00, urn:oid:2.49.0.1.124.3206401527.2021<br>Area: White River - Dubreuilville",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-19:feed.atom/urn:oid:2.49.0.1.124.3206401527.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-19/2021_02_19T13_14_42_00_00Iurn_oid_2.49.0.1.124.3206401527.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210220051342+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -86.0931, 48.7455 ],
 							[ -85.2219, 48.2896 ],
 							[ -84.2401, 48.0978 ],
@@ -1014,6 +971,49 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-19/2021_02_19T15_20_38_00_00Iurn_oid_2.49.0.1.124.3840115256.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210220071938+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.0089, 48.5511 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.2219, 48.2896 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Snow Squall Watch Ended",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 19, 2021 16:17",
+				"Expires_UTC" : "February 19, 2021 17:16",
+				"Summary" : "Description: The Snow Squall Watch has been replaced with a Winter Weather Travel Advisory.\n\n###<br>Expires: 2021-02-19T17:16:14-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-19T16:17:14-00:00, urn:oid:2.49.0.1.124.2083235452.2021<br>Area: White River - Dubreuilville",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-19:feed.atom/urn:oid:2.49.0.1.124.2083235452.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-19/2021_02_19T16_17_14_00_00Iurn_oid_2.49.0.1.124.2083235452.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210219171614+00:00"
 			}
 		}
 	]
