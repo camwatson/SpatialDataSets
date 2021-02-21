@@ -509,6 +509,97 @@
 				"coordinates" : [
 					[
 						[
+							[ -123.0934, 49.8139 ],
+							[ -123.155, 49.8988 ],
+							[ -123.2918, 49.9079 ],
+							[ -123.3, 49.9085 ],
+							[ -123.2913, 49.8844 ],
+							[ -123.2883, 49.8762 ],
+							[ -123.2145, 49.6778 ],
+							[ -123.2485, 49.5881 ],
+							[ -123.4682, 49.5154 ],
+							[ -123.4627, 49.4313 ],
+							[ -123.518, 49.3701 ],
+							[ -123.509, 49.3539 ],
+							[ -123.3632, 49.2918 ],
+							[ -123.2902, 49.3448 ],
+							[ -123.2818, 49.351 ],
+							[ -123.2988, 49.3767 ],
+							[ -123.2629, 49.3867 ],
+							[ -123.2621, 49.3866 ],
+							[ -123.212, 49.3895 ],
+							[ -123.0938, 49.4314 ],
+							[ -122.9898, 49.4645 ],
+							[ -122.8909, 49.4802 ],
+							[ -122.884, 49.4813 ],
+							[ -122.7973, 49.4955 ],
+							[ -122.7669, 49.5005 ],
+							[ -122.7445, 49.5042 ],
+							[ -122.8821, 49.7107 ],
+							[ -123.0934, 49.8139 ]
+						]
+					],
+					[
+						[
+							[ -121.1809, 49.151 ],
+							[ -121.257, 49.2793 ],
+							[ -121.3009, 49.2852 ],
+							[ -121.3198, 49.3216 ],
+							[ -121.3467, 49.3731 ],
+							[ -121.4038, 49.467 ],
+							[ -121.5289, 49.522 ],
+							[ -121.6512, 49.5698 ],
+							[ -121.6978, 49.7382 ],
+							[ -121.7625, 49.889 ],
+							[ -122.0982, 49.78 ],
+							[ -122.1633, 49.7586 ],
+							[ -122.2146, 49.7342 ],
+							[ -122.0398, 49.6355 ],
+							[ -121.9065, 49.501 ],
+							[ -121.8756, 49.3833 ],
+							[ -121.8262, 49.3155 ],
+							[ -121.7736, 49.2741 ],
+							[ -121.7602, 49.225 ],
+							[ -121.7474, 49.1988 ],
+							[ -121.9611, 49.0003 ],
+							[ -121.764, 48.9964 ],
+							[ -121.3016, 49 ],
+							[ -121.2289, 49.0006 ],
+							[ -121.1942, 49.0003 ],
+							[ -121.1809, 49.151 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Rainfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 21, 2021 17:15",
+				"Expires_UTC" : "February 22, 2021 09:14",
+				"Summary" : "Description: Total rainfall amounts of 50 to 60 mm today through tonight.\n\nA frontal system laden with subtropical moisture will move across B.C. South Coast today through Monday morning bringing rain to the region.\n\nOver Howe Sound and eastern sections of Lower Fraser Valley, steady rain will persist today and become heavy this evening. The heavy rain will taper off overnight over Howe Sound and early Monday morning over eastern Fraser Valley.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-22T09:14:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T17:15:56-00:00, urn:oid:2.49.0.1.124.0578820438.2021<br>Area: Howe Sound, Fraser Valley - east including Hope",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.0578820438.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T17_15_56_00_00Iurn_oid_2.49.0.1.124.0578820438.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210222091456+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -121.4325, 49.3127 ],
 							[ -120.9606, 49.1148 ],
 							[ -120.8273, 49.0289 ],
@@ -784,25 +875,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
 				"Category" : "Actual",
 				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 21, 2021 14:58",
-				"Expires_UTC" : "February 21, 2021 22:56",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nExtreme cold wind chill values near minus 50 this morning will moderate and end this afternoon.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2021-02-21T22:56:19-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T14:58:19-00:00, urn:oid:2.49.0.1.124.1110199189.2021<br>Area: Norman Wells - Tulita Region, Fort Good Hope Region, Deline, Colville Lake",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 21, 2021 17:26",
+				"Expires_UTC" : "February 21, 2021 18:26",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2021-02-21T18:26:11-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T17:26:11-00:00, urn:oid:2.49.0.1.124.2894557638.2021<br>Area: Norman Wells - Tulita Region, Fort Good Hope Region, Deline, Colville Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.1110199189.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T14_58_19_00_00Iurn_oid_2.49.0.1.124.1110199189.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.2894557638.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T17_26_11_00_00Iurn_oid_2.49.0.1.124.2894557638.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210221225619+00:00"
+				"Expires_FMEFormat" : "20210221182611+00:00"
 			}
 		},
 		{
