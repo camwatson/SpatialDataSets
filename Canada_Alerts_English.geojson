@@ -380,6 +380,87 @@
 				"coordinates" : [
 					[
 						[
+							[ -128.7905, 65.5328 ],
+							[ -126.9244, 64.7729 ],
+							[ -125.4256, 64.1122 ],
+							[ -125.0514, 64.2389 ],
+							[ -124.7448, 64.3563 ],
+							[ -124.7031, 64.3708 ],
+							[ -124.3071, 64.5001 ],
+							[ -123.9869, 64.6194 ],
+							[ -124.2832, 64.7487 ],
+							[ -127.3516, 65.9868 ],
+							[ -129.0486, 66.8628 ],
+							[ -129.5412, 66.7186 ],
+							[ -129.5586, 66.7133 ],
+							[ -129.5802, 66.7072 ],
+							[ -129.6147, 66.6966 ],
+							[ -129.6207, 66.6949 ],
+							[ -129.6267, 66.6931 ],
+							[ -130.5023, 66.4274 ],
+							[ -128.7905, 65.5328 ]
+						]
+					],
+					[
+						[
+							[ -125.7425, 66.8628 ],
+							[ -125.5547, 66.9859 ],
+							[ -125.5454, 67.0444 ],
+							[ -125.7166, 67.1816 ],
+							[ -126.0977, 67.2424 ],
+							[ -126.5038, 67.1861 ],
+							[ -126.6874, 67.0412 ],
+							[ -126.5582, 66.889 ],
+							[ -126.1449, 66.8101 ],
+							[ -125.7425, 66.8628 ]
+						]
+					],
+					[
+						[
+							[ -123.0972, 65.0278 ],
+							[ -123.0385, 65.0532 ],
+							[ -123.0147, 65.0668 ],
+							[ -122.9201, 65.2516 ],
+							[ -123.1415, 65.3752 ],
+							[ -123.3697, 65.4074 ],
+							[ -123.7422, 65.3499 ],
+							[ -123.8949, 65.2118 ],
+							[ -123.7558, 65.0454 ],
+							[ -123.48, 64.9834 ],
+							[ -123.0972, 65.0278 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 21, 2021 14:57",
+				"Expires_UTC" : "February 21, 2021 22:56",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2021-02-21T22:56:19-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T14:57:19-00:00, urn:oid:2.49.0.1.124.3008485931.2021<br>Area: Norman Wells - Tulita Region, Fort Good Hope Region, Deline, Colville Lake",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.3008485931.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T14_57_19_00_00Iurn_oid_2.49.0.1.124.3008485931.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210221225619+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -113.2302, 48.9968 ],
 							[ -112.841, 48.9948 ],
 							[ -112.4088, 48.9968 ],
@@ -769,60 +850,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -77.3232, 49.2924 ],
-							[ -78.5004, 49.2934 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5289, 48.9206 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5246, 48.5242 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5258, 48.3407 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5176, 47.833 ],
-							[ -78.4996, 47.8372 ],
-							[ -77.9663, 47.835 ],
-							[ -77.7494, 47.8332 ],
-							[ -76.4994, 47.8332 ],
-							[ -76.4994, 48.0998 ],
-							[ -76.4994, 48.3331 ],
-							[ -76.4994, 48.6998 ],
-							[ -76.4994, 49.2832 ],
-							[ -76.4997, 49.2832 ],
-							[ -77.3232, 49.2924 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Smog Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 21, 2021 02:21",
-				"Expires_UTC" : "February 21, 2021 16:59",
-				"Summary" : "Description: High concentrations of pollutants are expected and will result in poor air quality.\n\nHigh concentrations of pollutants are expected to continue until early Sunday morning.\n\n###\n\nSmog especially affects asthmatic children and people with respiratory ailments or heart disease. It is therefore recommended that these individuals avoid intense physical activity outdoors until the smog warning is lifted.\n\nIn Quebec, wood heating is the main source of fine particles that contribute to smog during winter. This activity generates the largest number of these particulates, more than industrial activities and transportation.\n\nAdditional information:\n\nTo learn more about the Info-Smog program, go to Environment Canada’s website at www.canada.ca/info-smog-program.\n\nFor air quality indexes in Quebec, visit the website of the Ministère de l'Environnement et de la Lutte contre les changements climatiques at www.iqa.environnement.gouv.qc.ca/contenu/index_en.asp.\n\nFor the air quality index in Montréal, visit the Réseau de surveillance de la qualité de l’air de la Ville de Montréal’s website at www.rsqa.qc.ca (french only).\n\nTo learn more about the effects of smog on your health in Québec, visit the Ministère de la Santé et des Services sociaux’s website at www.quebec.ca/en/health. You can also visit the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal at www.santemontreal.qc.ca/en/public.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-02-21T16:59:41-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2021-02-21T02:21:41-00:00, urn:oid:2.49.0.1.124.4017762677.2021<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
-				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.4017762677.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T02_21_41_00_00Iurn_oid_2.49.0.1.124.4017762677.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210221165941+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -134.8677, 59.9386 ],
 							[ -134.8678, 59.9385 ],
 							[ -134.9496, 59.8392 ],
@@ -882,6 +909,60 @@
 				"coordinates" : [
 					[
 						[
+							[ -77.3232, 49.2924 ],
+							[ -78.5004, 49.2934 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -78.4996, 47.8372 ],
+							[ -77.9663, 47.835 ],
+							[ -77.7494, 47.8332 ],
+							[ -76.4994, 47.8332 ],
+							[ -76.4994, 48.0998 ],
+							[ -76.4994, 48.3331 ],
+							[ -76.4994, 48.6998 ],
+							[ -76.4994, 49.2832 ],
+							[ -76.4997, 49.2832 ],
+							[ -77.3232, 49.2924 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Smog Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 21, 2021 02:21",
+				"Expires_UTC" : "February 21, 2021 16:59",
+				"Summary" : "Description: High concentrations of pollutants are expected and will result in poor air quality.\n\nHigh concentrations of pollutants are expected to continue until early Sunday morning.\n\n###\n\nSmog especially affects asthmatic children and people with respiratory ailments or heart disease. It is therefore recommended that these individuals avoid intense physical activity outdoors until the smog warning is lifted.\n\nIn Quebec, wood heating is the main source of fine particles that contribute to smog during winter. This activity generates the largest number of these particulates, more than industrial activities and transportation.\n\nAdditional information:\n\nTo learn more about the Info-Smog program, go to Environment Canada’s website at www.canada.ca/info-smog-program.\n\nFor air quality indexes in Quebec, visit the website of the Ministère de l'Environnement et de la Lutte contre les changements climatiques at www.iqa.environnement.gouv.qc.ca/contenu/index_en.asp.\n\nFor the air quality index in Montréal, visit the Réseau de surveillance de la qualité de l’air de la Ville de Montréal’s website at www.rsqa.qc.ca (french only).\n\nTo learn more about the effects of smog on your health in Québec, visit the Ministère de la Santé et des Services sociaux’s website at www.quebec.ca/en/health. You can also visit the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal at www.santemontreal.qc.ca/en/public.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-02-21T16:59:41-00:00<br>Originated from CAP Alert: Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal, 2021-02-21T02:21:41-00:00, urn:oid:2.49.0.1.124.4017762677.2021<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area",
+				"Author" : "Environment Canada, the Ministère de l'Environnement et de la Lutte contre les changements climatiques, the Ministère de la Santé et des Services sociaux, the Direction régionale de santé publique du CIUSSS du Centre-Sud-de-l’Île-de-Montréal, the City of Montréal",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.4017762677.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T02_21_41_00_00Iurn_oid_2.49.0.1.124.4017762677.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210221165941+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -133.8276, 59.8893 ],
 							[ -133.2283, 59.5896 ],
 							[ -132.5017, 59.2827 ],
@@ -916,53 +997,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T04_20_06_00_00Iurn_oid_2.49.0.1.124.3016867483.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210221201906+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -131.5895, 60 ],
-							[ -131.5585, 59.8247 ],
-							[ -131.4847, 59.6497 ],
-							[ -130.9608, 59.3157 ],
-							[ -130.3347, 58.9997 ],
-							[ -129.7659, 58.8024 ],
-							[ -129.2187, 58.6497 ],
-							[ -128.8039, 58.8954 ],
-							[ -128.4847, 59.1828 ],
-							[ -128.9236, 59.6 ],
-							[ -129.4368, 59.9999 ],
-							[ -129.4372, 60.0001 ],
-							[ -130.4505, 60.0201 ],
-							[ -131.5895, 60 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 21, 2021 11:49",
-				"Expires_UTC" : "February 22, 2021 00:23",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA warm front moving across southern Yukon and northern BC will produce an additional 5 centimetres of snow to Cassiar Mountains by midday today before ending this afternoon.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-22T00:23:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T11:49:02-00:00, urn:oid:2.49.0.1.124.1956921236.2021<br>Area: Cassiar Mountains",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.1956921236.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T11_49_02_00_00Iurn_oid_2.49.0.1.124.1956921236.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210222002302+00:00"
 			}
 		},
 		{
@@ -1025,83 +1059,20 @@
 				"coordinates" : [
 					[
 						[
-							[ -121.4325, 49.3127 ],
-							[ -120.9606, 49.1148 ],
-							[ -120.8273, 49.0289 ],
-							[ -120.7196, 49.0139 ],
-							[ -120.4885, 49.1563 ],
-							[ -120.483, 49.2416 ],
-							[ -120.5136, 49.2707 ],
-							[ -120.4872, 49.4115 ],
-							[ -120.413, 49.4291 ],
-							[ -120.4463, 49.5181 ],
-							[ -120.5799, 49.4792 ],
-							[ -120.6317, 49.4117 ],
-							[ -120.6317, 49.4116 ],
-							[ -120.6484, 49.2316 ],
-							[ -120.6308, 49.1906 ],
-							[ -120.7522, 49.1055 ],
-							[ -120.9381, 49.2335 ],
-							[ -121.0499, 49.2732 ],
-							[ -121.2241, 49.346 ],
-							[ -121.2611, 49.3803 ],
-							[ -121.0615, 49.551 ],
-							[ -120.8964, 49.643 ],
-							[ -120.8907, 49.786 ],
-							[ -120.7214, 50.0349 ],
-							[ -120.749, 50.0897 ],
-							[ -120.8355, 50.1026 ],
-							[ -120.9788, 49.9878 ],
-							[ -121.0633, 49.8152 ],
-							[ -121.1036, 49.6467 ],
-							[ -121.2122, 49.6261 ],
-							[ -121.2701, 49.5483 ],
-							[ -121.4175, 49.4675 ],
-							[ -121.5294, 49.3668 ],
-							[ -121.4325, 49.3127 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 21, 2021 13:18",
-				"Expires_UTC" : "February 22, 2021 05:17",
-				"Summary" : "Description: Snow changing to heavy rain with the potential for heavy snow at the summit for tonight.\n\nA frontal system laden with subtropical moisture will move across southern B.C. today through Monday morning bringing a messy mix of rain on top of snow today and the possibility of heavy wet snow at the summit tonight into Monday morning.\n\nThe initial warm front will raise snow levels today with snow still falling on the upper elevations of the Coquihalla Highway - Hope to Merritt and Highway 3 via Allison Pass.\n\nBy tonight, the warm airmass will be over southern B.C. with snow levels near or slightly above the Coquihalla Summit and Allison Pass. Rain will fall over most of the highway with wet snow or rain mixed with snow near at summit.\n\nAs the cold front approaches tonight, precipitation rates will intensify and thus there is potential for snow levels to drop just below the summit or pass levels.\n\nTotal snow accumulations near 25 cm can be expected near the summit level by Monday morning.\n\nMotorists are advised to be aware of changing weather and road conditions due to fluctuating snow levels and precipitation intensity during this period.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-22T05:17:07-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T13:18:07-00:00, urn:oid:2.49.0.1.124.1071124344.2021<br>Area: Highway 3 - Hope to Princeton via Allison Pass, Coquihalla Highway - Hope to Merritt",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.1071124344.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T13_18_07_00_00Iurn_oid_2.49.0.1.124.1071124344.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210222051707+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -121.4, 53.5999 ],
-							[ -120.7486, 53.7145 ],
-							[ -120.0013, 53.8698 ],
-							[ -120.0013, 53.8703 ],
-							[ -120.9189, 54.7056 ],
-							[ -121.6999, 55.38 ],
-							[ -122.0979, 55.2024 ],
-							[ -122.4999, 54.9999 ],
-							[ -121.9977, 54.3151 ],
-							[ -121.4, 53.5999 ]
+							[ -131.5895, 60 ],
+							[ -131.5585, 59.8247 ],
+							[ -131.4847, 59.6497 ],
+							[ -130.9608, 59.3157 ],
+							[ -130.3347, 58.9997 ],
+							[ -129.7659, 58.8024 ],
+							[ -129.2187, 58.6497 ],
+							[ -128.8039, 58.8954 ],
+							[ -128.4847, 59.1828 ],
+							[ -128.9236, 59.6 ],
+							[ -129.4368, 59.9999 ],
+							[ -129.4372, 60.0001 ],
+							[ -130.4505, 60.0201 ],
+							[ -131.5895, 60 ]
 						]
 					]
 				]
@@ -1114,18 +1085,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 21, 2021 11:42",
-				"Expires_UTC" : "February 21, 2021 20:22",
-				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\nSnow heavy at times will change to rain this morning as warmer air invades the region.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-21T20:22:44-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T11:42:44-00:00, urn:oid:2.49.0.1.124.0764263804.2021<br>Area: McGregor",
+				"LastUpdate_UTC" : "February 21, 2021 11:49",
+				"Expires_UTC" : "February 22, 2021 00:23",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA warm front moving across southern Yukon and northern BC will produce an additional 5 centimetres of snow to Cassiar Mountains by midday today before ending this afternoon.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-22T00:23:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T11:49:02-00:00, urn:oid:2.49.0.1.124.1956921236.2021<br>Area: Cassiar Mountains",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.0764263804.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T11_42_44_00_00Iurn_oid_2.49.0.1.124.0764263804.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.1956921236.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T11_49_02_00_00Iurn_oid_2.49.0.1.124.1956921236.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210221202244+00:00"
+				"Expires_FMEFormat" : "20210222002302+00:00"
 			}
 		},
 		{
@@ -1204,6 +1175,93 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T12_23_17_00_00Iurn_oid_2.49.0.1.124.1936209285.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210222042217+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -121.4, 53.5999 ],
+							[ -120.7486, 53.7145 ],
+							[ -120.0013, 53.8698 ],
+							[ -120.0013, 53.8703 ],
+							[ -120.9189, 54.7056 ],
+							[ -121.6999, 55.38 ],
+							[ -122.0979, 55.2024 ],
+							[ -122.4999, 54.9999 ],
+							[ -121.9977, 54.3151 ],
+							[ -121.4, 53.5999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 21, 2021 11:42",
+				"Expires_UTC" : "February 21, 2021 20:22",
+				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\nSnow heavy at times will change to rain this morning as warmer air invades the region.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-21T20:22:44-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T11:42:44-00:00, urn:oid:2.49.0.1.124.0764263804.2021<br>Area: McGregor",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.0764263804.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T11_42_44_00_00Iurn_oid_2.49.0.1.124.0764263804.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210221202244+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -131.5895, 60 ],
+							[ -130.4578, 59.9802 ],
+							[ -129.4368, 59.9999 ],
+							[ -129.6044, 60.164 ],
+							[ -129.7748, 60.29 ],
+							[ -129.8615, 60.3495 ],
+							[ -129.8618, 60.3498 ],
+							[ -130.749, 60.4492 ],
+							[ -131.7479, 60.5292 ],
+							[ -131.6823, 60.2426 ],
+							[ -131.5895, 60 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 21, 2021 11:49",
+				"Expires_UTC" : "February 22, 2021 00:23",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA warm front moving across southern Yukon and northern BC will produce an additional 5 centimetres of snow to Cassiar Mountains by midday today before ending this afternoon.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-02-22T00:23:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T11:49:02-00:00, urn:oid:2.49.0.1.124.3344886238.2021<br>Area: Cassiar Mountains",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.3344886238.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T11_49_02_00_00Iurn_oid_2.49.0.1.124.3344886238.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210222002302+00:00"
 			}
 		},
 		{
@@ -1316,41 +1374,64 @@
 				"coordinates" : [
 					[
 						[
-							[ -131.5895, 60 ],
-							[ -130.4578, 59.9802 ],
-							[ -129.4368, 59.9999 ],
-							[ -129.6044, 60.164 ],
-							[ -129.7748, 60.29 ],
-							[ -129.8615, 60.3495 ],
-							[ -129.8618, 60.3498 ],
-							[ -130.749, 60.4492 ],
-							[ -131.7479, 60.5292 ],
-							[ -131.6823, 60.2426 ],
-							[ -131.5895, 60 ]
+							[ -121.4325, 49.3127 ],
+							[ -120.9606, 49.1148 ],
+							[ -120.8273, 49.0289 ],
+							[ -120.7196, 49.0139 ],
+							[ -120.4885, 49.1563 ],
+							[ -120.483, 49.2416 ],
+							[ -120.5136, 49.2707 ],
+							[ -120.4872, 49.4115 ],
+							[ -120.413, 49.4291 ],
+							[ -120.4463, 49.5181 ],
+							[ -120.5799, 49.4792 ],
+							[ -120.6317, 49.4117 ],
+							[ -120.6317, 49.4116 ],
+							[ -120.6484, 49.2316 ],
+							[ -120.6308, 49.1906 ],
+							[ -120.7522, 49.1055 ],
+							[ -120.9381, 49.2335 ],
+							[ -121.0499, 49.2732 ],
+							[ -121.2241, 49.346 ],
+							[ -121.2611, 49.3803 ],
+							[ -121.0615, 49.551 ],
+							[ -120.8964, 49.643 ],
+							[ -120.8907, 49.786 ],
+							[ -120.7214, 50.0349 ],
+							[ -120.749, 50.0897 ],
+							[ -120.8355, 50.1026 ],
+							[ -120.9788, 49.9878 ],
+							[ -121.0633, 49.8152 ],
+							[ -121.1036, 49.6467 ],
+							[ -121.2122, 49.6261 ],
+							[ -121.2701, 49.5483 ],
+							[ -121.4175, 49.4675 ],
+							[ -121.5294, 49.3668 ],
+							[ -121.4325, 49.3127 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Winter Storm Watch In Effect",
 				"Category" : "Actual",
-				"event" : "Snowfall",
+				"event" : "Winter Storm",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 21, 2021 11:49",
-				"Expires_UTC" : "February 22, 2021 00:23",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nA warm front moving across southern Yukon and northern BC will produce an additional 5 centimetres of snow to Cassiar Mountains by midday today before ending this afternoon.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-02-22T00:23:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T11:49:02-00:00, urn:oid:2.49.0.1.124.3344886238.2021<br>Area: Cassiar Mountains",
+				"LastUpdate_UTC" : "February 21, 2021 13:18",
+				"Expires_UTC" : "February 22, 2021 05:17",
+				"Summary" : "Description: Snow changing to heavy rain with the potential for heavy snow at the summit for tonight.\n\nA frontal system laden with subtropical moisture will move across southern B.C. today through Monday morning bringing a messy mix of rain on top of snow today and the possibility of heavy wet snow at the summit tonight into Monday morning.\n\nThe initial warm front will raise snow levels today with snow still falling on the upper elevations of the Coquihalla Highway - Hope to Merritt and Highway 3 via Allison Pass.\n\nBy tonight, the warm airmass will be over southern B.C. with snow levels near or slightly above the Coquihalla Summit and Allison Pass. Rain will fall over most of the highway with wet snow or rain mixed with snow near at summit.\n\nAs the cold front approaches tonight, precipitation rates will intensify and thus there is potential for snow levels to drop just below the summit or pass levels.\n\nTotal snow accumulations near 25 cm can be expected near the summit level by Monday morning.\n\nMotorists are advised to be aware of changing weather and road conditions due to fluctuating snow levels and precipitation intensity during this period.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-22T05:17:07-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T13:18:07-00:00, urn:oid:2.49.0.1.124.1071124344.2021<br>Area: Highway 3 - Hope to Princeton via Allison Pass, Coquihalla Highway - Hope to Merritt",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.3344886238.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T11_49_02_00_00Iurn_oid_2.49.0.1.124.3344886238.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.1071124344.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T13_18_07_00_00Iurn_oid_2.49.0.1.124.1071124344.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210222002302+00:00"
+				"Expires_FMEFormat" : "20210222051707+00:00"
 			}
 		},
 		{
