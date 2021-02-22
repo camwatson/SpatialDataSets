@@ -1203,25 +1203,76 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 22, 2021 04:26",
-				"Expires_UTC" : "February 22, 2021 05:26",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n\n###<br>Expires: 2021-02-22T05:26:41-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-22T04:26:41-00:00, urn:oid:2.49.0.1.124.2003530662.2021<br>Area: Co. of Grande Prairie near Beaverlodge Hythe and Demmitt, Co. of Grande Prairie near Sexsmith and La Glace, Co. of Grande Prairie near Grande Prairie and Wembley, M.D. of Greenview near Wapiti and Shuttler Flats Rec. Area, M.D. of Greenview near O'Brien Prov. Park and Big Mtn Creek, M.D. of Greenview near DeBolt, M.D. of Greenview near Little Smoky, M.D. of Greenview near Sturgeon Lake, M.D. of Greenview near Valleyview and New Fish Creek, Clear Hills Co. near Chinchaga Wildland Prov. Park, Clear Hills Co. near Cleardale Worsley and Cherry Point, Clear Hills Co. near Hines Creek and Eureka River, Saddle Hills Co. near Bay Tree and Silver Valley, Saddle Hills Co. near Moonshine Lake Prov. Park, Saddle Hills Co. near Woking, M.D. of Spirit River including Spirit River and Rycroft, M.D. of Fairview including Fairview Whitelaw and Dunvegan, M.D. of Peace including Grimshaw and Berwyn, Co. of Northern Lights near Manning and Notikewin Prov. Park, Co. of Northern Lights near Dixonville and Cardinal Lake, Birch Hills Co. near Wanham and Peoria, Birch Hills Co. near Eaglesham and Hwy 740, Nrn Sunrise Co. near Keppler Creek, Nrn Sunrise Co. near Peace River Nampa and Three Creeks, M.D. of Smoky River including Falher McLennan and Guy, Big Lakes County near High Prairie and Winagami Lake",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 21, 2021 19:28",
+				"Expires_UTC" : "February 22, 2021 07:19",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nWind gusts to 90 km/h can be expected this afternoon in conjunction with a weather system crossing British Columbia. These strong westerly winds should begin to diminish this evening.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@canada.ca or tweet reports using #ABStorm.<br>Expires: 2021-02-22T07:19:29-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-21T19:28:29-00:00, urn:oid:2.49.0.1.124.2377863788.2021<br>Area: Co. of Grande Prairie near Beaverlodge Hythe and Demmitt, Co. of Grande Prairie near Sexsmith and La Glace, Co. of Grande Prairie near Grande Prairie and Wembley, M.D. of Greenview near Wapiti and Shuttler Flats Rec. Area, M.D. of Greenview near O'Brien Prov. Park and Big Mtn Creek, M.D. of Greenview near DeBolt, M.D. of Greenview near Little Smoky, M.D. of Greenview near Sturgeon Lake, M.D. of Greenview near Valleyview and New Fish Creek, Clear Hills Co. near Chinchaga Wildland Prov. Park, Clear Hills Co. near Cleardale Worsley and Cherry Point, Clear Hills Co. near Hines Creek and Eureka River, Saddle Hills Co. near Bay Tree and Silver Valley, Saddle Hills Co. near Moonshine Lake Prov. Park, Saddle Hills Co. near Woking, M.D. of Spirit River including Spirit River and Rycroft, M.D. of Fairview including Fairview Whitelaw and Dunvegan, M.D. of Peace including Grimshaw and Berwyn, Co. of Northern Lights near Manning and Notikewin Prov. Park, Co. of Northern Lights near Dixonville and Cardinal Lake, Birch Hills Co. near Wanham and Peoria, Birch Hills Co. near Eaglesham and Hwy 740, Nrn Sunrise Co. near Keppler Creek, Nrn Sunrise Co. near Peace River Nampa and Three Creeks, M.D. of Smoky River including Falher McLennan and Guy, Big Lakes County near High Prairie and Winagami Lake",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-22:feed.atom/urn:oid:2.49.0.1.124.2003530662.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-22/2021_02_22T04_26_41_00_00Iurn_oid_2.49.0.1.124.2003530662.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-21:feed.atom/urn:oid:2.49.0.1.124.2377863788.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-21/2021_02_21T19_28_29_00_00Iurn_oid_2.49.0.1.124.2377863788.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210222052641+00:00"
+				"Expires_FMEFormat" : "20210222071929+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -126.1231, 71.8522 ],
+							[ -125.5959, 71.7281 ],
+							[ -124.9602, 71.6351 ],
+							[ -124.8071, 71.8342 ],
+							[ -124.6732, 71.8806 ],
+							[ -124.589, 71.9357 ],
+							[ -124.5567, 71.9959 ],
+							[ -124.5793, 72.0565 ],
+							[ -124.6433, 72.1062 ],
+							[ -124.7449, 72.1496 ],
+							[ -125.0235, 72.2063 ],
+							[ -125.3674, 72.217 ],
+							[ -125.3692, 72.217 ],
+							[ -125.3709, 72.2168 ],
+							[ -125.6852, 72.1781 ],
+							[ -125.8024, 72.237 ],
+							[ -126.1308, 72.1003 ],
+							[ -126.1231, 71.8522 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 22, 2021 05:24",
+				"Expires_UTC" : "February 22, 2021 21:23",
+				"Summary" : "Description: A multi-day episode of very cold wind chills is expected.\n\nExtreme cold temperatures near minus 55 and minus 60 are expected overnight and Monday morning. These extreme cold  temperatures may persist through to the end of the week.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2021-02-22T21:23:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-22T05:24:45-00:00, urn:oid:2.49.0.1.124.0378852902.2021<br>Area: Sachs Harbour",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-22:feed.atom/urn:oid:2.49.0.1.124.0378852902.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-22/2021_02_22T05_24_45_00_00Iurn_oid_2.49.0.1.124.0378852902.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210222212345+00:00"
 			}
 		},
 		{
@@ -1422,18 +1473,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Severe",
-				"LastUpdate_UTC" : "February 22, 2021 04:39",
-				"Expires_UTC" : "February 22, 2021 20:38",
-				"Summary" : "Description: A multi-day episode of very cold wind chills is expected.\n\nExtreme cold temperatures near minus 55 and minus 60 are expected overnight and Monday morning. These extreme cold  temperatures may persist through to the end of the week.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-22T20:38:38-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-22T04:39:38-00:00, urn:oid:2.49.0.1.124.3929665165.2021<br>Area: Cambridge Bay, Kugluktuk",
+				"LastUpdate_UTC" : "February 22, 2021 05:24",
+				"Expires_UTC" : "February 22, 2021 21:23",
+				"Summary" : "Description: A multi-day episode of very cold wind chills is expected.\n\nExtreme cold temperatures near minus 55 and minus 60 are expected overnight and Monday morning. These extreme cold  temperatures may persist through to the end of the week.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-22T21:23:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-22T05:24:45-00:00, urn:oid:2.49.0.1.124.1765641273.2021<br>Area: Cambridge Bay, Kugluktuk",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-22:feed.atom/urn:oid:2.49.0.1.124.3929665165.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-22/2021_02_22T04_39_38_00_00Iurn_oid_2.49.0.1.124.3929665165.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-22:feed.atom/urn:oid:2.49.0.1.124.1765641273.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-22/2021_02_22T05_24_45_00_00Iurn_oid_2.49.0.1.124.1765641273.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210222203838+00:00"
+				"Expires_FMEFormat" : "20210222212345+00:00"
 			}
 		},
 		{
