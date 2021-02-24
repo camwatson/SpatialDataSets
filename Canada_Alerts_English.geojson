@@ -112,6 +112,67 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.7076, 46.1874 ],
+							[ -83.5976, 46.1752 ],
+							[ -83.3864, 46.0319 ],
+							[ -82.3291, 46.0103 ],
+							[ -82.178, 45.9443 ],
+							[ -82.0969, 45.9754 ],
+							[ -82.0476, 46.0965 ],
+							[ -82.0579, 46.2733 ],
+							[ -82.0579, 46.6086 ],
+							[ -81.939, 46.6086 ],
+							[ -81.939, 46.9696 ],
+							[ -82.6356, 46.9695 ],
+							[ -82.631, 47.221 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9907, 46.781 ],
+							[ -83.8414, 46.4826 ],
+							[ -84.4894, 46.6516 ],
+							[ -84.4985, 46.6539 ],
+							[ -84.6124, 46.6233 ],
+							[ -84.6283, 46.5491 ],
+							[ -84.5588, 46.4765 ],
+							[ -84.4902, 46.4573 ],
+							[ -84.1729, 46.4924 ],
+							[ -84.0972, 46.1959 ],
+							[ -83.9476, 46.0487 ],
+							[ -83.822, 46.1212 ],
+							[ -83.7566, 46.1199 ],
+							[ -83.7076, 46.1874 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 24, 2021 18:07",
+				"Expires_UTC" : "February 24, 2021 22:29",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect into early afternoon.\n\nWhat: Snow, heavy at times. Total amounts of 10 to 15 cm are expected by early this afternoon. The highest amounts are expected along and south of the Highway 17 corridor.\n\nWhere: Southern portions of Algoma District including Elliot Lake. This includes sections of the following highways: \n- Highway 17\n- Highway 129\n- Highway 108\n\nWhen: Until early this afternoon. \n\nActions: Motorists should allow extra time to reach their destination. If visibility is reduced while driving, slow down, watch for tail lights ahead and be prepared to stop.\n\nDiscussion: A potent Alberta Clipper will track across central Lake Huron today bringing heavy snow. Accumulating snow will cause poor driving conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-24T22:29:28-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T18:07:28-00:00, urn:oid:2.49.0.1.124.4100663714.2021<br>Area: Elliot Lake - Ranger Lake, Blind River - Thessalon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.4100663714.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T18_07_28_00_00Iurn_oid_2.49.0.1.124.4100663714.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210224222928+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -126.1231, 71.8522 ],
 							[ -125.5959, 71.7281 ],
 							[ -124.9602, 71.6351 ],
@@ -1067,64 +1128,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T11_51_23_00_00Iurn_oid_2.49.0.1.124.4082872034.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210225035023+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.411, 69.4413 ],
-							[ -82.4142, 69.3021 ],
-							[ -82.1715, 69.1889 ],
-							[ -81.8079, 69.1512 ],
-							[ -81.435, 69.199 ],
-							[ -81.4236, 69.3283 ],
-							[ -81.4161, 69.4318 ],
-							[ -81.817, 69.4695 ],
-							[ -81.9506, 69.4089 ],
-							[ -82.2197, 69.405 ],
-							[ -82.3907, 69.4415 ],
-							[ -82.411, 69.4413 ]
-						]
-					],
-					[
-						[
-							[ -81.8004, 68.8639 ],
-							[ -81.8335, 68.7595 ],
-							[ -81.7346, 68.6648 ],
-							[ -81.5301, 68.5966 ],
-							[ -81.0418, 68.5342 ],
-							[ -81.0006, 68.5737 ],
-							[ -81.0228, 68.9232 ],
-							[ -81.723, 68.9232 ],
-							[ -81.8004, 68.8639 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 24, 2021 20:25",
-				"Expires_UTC" : "February 25, 2021 12:24",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nTemperatures near minus 40 combined with northwesterly winds of 15 km/h will bring extreme wind chill values of minus 55 and colder to Sanirajak and Igloolik overnight.\n\nThese extreme cold wind chill values will linger through Thursday and Thursday night, before slightly improving Friday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-25T12:24:49-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T20:25:49-00:00, urn:oid:2.49.0.1.124.1974510511.2021<br>Area: Sanirajak, Igloolik",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.1974510511.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T20_25_49_00_00Iurn_oid_2.49.0.1.124.1974510511.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210225122449+00:00"
 			}
 		},
 		{
@@ -2129,67 +2132,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.7076, 46.1874 ],
-							[ -83.5976, 46.1752 ],
-							[ -83.3864, 46.0319 ],
-							[ -82.3291, 46.0103 ],
-							[ -82.178, 45.9443 ],
-							[ -82.0969, 45.9754 ],
-							[ -82.0476, 46.0965 ],
-							[ -82.0579, 46.2733 ],
-							[ -82.0579, 46.6086 ],
-							[ -81.939, 46.6086 ],
-							[ -81.939, 46.9696 ],
-							[ -82.6356, 46.9695 ],
-							[ -82.631, 47.221 ],
-							[ -83.9911, 47.2211 ],
-							[ -83.9907, 46.781 ],
-							[ -83.8414, 46.4826 ],
-							[ -84.4894, 46.6516 ],
-							[ -84.4985, 46.6539 ],
-							[ -84.6124, 46.6233 ],
-							[ -84.6283, 46.5491 ],
-							[ -84.5588, 46.4765 ],
-							[ -84.4902, 46.4573 ],
-							[ -84.1729, 46.4924 ],
-							[ -84.0972, 46.1959 ],
-							[ -83.9476, 46.0487 ],
-							[ -83.822, 46.1212 ],
-							[ -83.7566, 46.1199 ],
-							[ -83.7076, 46.1874 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 24, 2021 18:07",
-				"Expires_UTC" : "February 24, 2021 22:29",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect into early afternoon.\n\nWhat: Snow, heavy at times. Total amounts of 10 to 15 cm are expected by early this afternoon. The highest amounts are expected along and south of the Highway 17 corridor.\n\nWhere: Southern portions of Algoma District including Elliot Lake. This includes sections of the following highways: \n- Highway 17\n- Highway 129\n- Highway 108\n\nWhen: Until early this afternoon. \n\nActions: Motorists should allow extra time to reach their destination. If visibility is reduced while driving, slow down, watch for tail lights ahead and be prepared to stop.\n\nDiscussion: A potent Alberta Clipper will track across central Lake Huron today bringing heavy snow. Accumulating snow will cause poor driving conditions.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-24T22:29:28-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T18:07:28-00:00, urn:oid:2.49.0.1.124.4100663714.2021<br>Area: Elliot Lake - Ranger Lake, Blind River - Thessalon",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.4100663714.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T18_07_28_00_00Iurn_oid_2.49.0.1.124.4100663714.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210224222928+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -125.7425, 66.8628 ],
 							[ -125.5547, 66.9859 ],
 							[ -125.5454, 67.0444 ],
@@ -2255,6 +2197,64 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T17_30_05_00_00Iurn_oid_2.49.0.1.124.2452151658.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210225092905+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.411, 69.4413 ],
+							[ -82.4142, 69.3021 ],
+							[ -82.1715, 69.1889 ],
+							[ -81.8079, 69.1512 ],
+							[ -81.435, 69.199 ],
+							[ -81.4236, 69.3283 ],
+							[ -81.4161, 69.4318 ],
+							[ -81.817, 69.4695 ],
+							[ -81.9506, 69.4089 ],
+							[ -82.2197, 69.405 ],
+							[ -82.3907, 69.4415 ],
+							[ -82.411, 69.4413 ]
+						]
+					],
+					[
+						[
+							[ -81.8004, 68.8639 ],
+							[ -81.8335, 68.7595 ],
+							[ -81.7346, 68.6648 ],
+							[ -81.5301, 68.5966 ],
+							[ -81.0418, 68.5342 ],
+							[ -81.0006, 68.5737 ],
+							[ -81.0228, 68.9232 ],
+							[ -81.723, 68.9232 ],
+							[ -81.8004, 68.8639 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 24, 2021 20:25",
+				"Expires_UTC" : "February 25, 2021 12:24",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nTemperatures near minus 40 combined with northwesterly winds of 15 km/h will bring extreme wind chill values of minus 55 and colder to Sanirajak and Igloolik overnight.\n\nThese extreme cold wind chill values will linger through Thursday and Thursday night, before slightly improving Friday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-25T12:24:49-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T20:25:49-00:00, urn:oid:2.49.0.1.124.1974510511.2021<br>Area: Sanirajak, Igloolik",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.1974510511.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T20_25_49_00_00Iurn_oid_2.49.0.1.124.1974510511.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210225122449+00:00"
 			}
 		}
 	]
