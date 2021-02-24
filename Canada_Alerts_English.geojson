@@ -154,6 +154,56 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.8414, 46.4826 ],
+							[ -83.7076, 46.1874 ],
+							[ -83.5976, 46.1752 ],
+							[ -83.3864, 46.0319 ],
+							[ -82.3291, 46.0103 ],
+							[ -82.178, 45.9443 ],
+							[ -82.0969, 45.9754 ],
+							[ -82.0476, 46.0965 ],
+							[ -82.0579, 46.2733 ],
+							[ -82.0579, 46.6086 ],
+							[ -81.939, 46.6086 ],
+							[ -81.939, 46.9696 ],
+							[ -82.6356, 46.9695 ],
+							[ -82.631, 47.221 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9907, 46.781 ],
+							[ -83.8414, 46.4826 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 24, 2021 18:28",
+				"Expires_UTC" : "February 24, 2021 19:28",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2021-02-24T19:28:17-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T18:28:17-00:00, urn:oid:2.49.0.1.124.1285512234.2021<br>Area: Elliot Lake - Ranger Lake, Blind River - Thessalon",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.1285512234.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T18_28_17_00_00Iurn_oid_2.49.0.1.124.1285512234.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210224192817+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -126.1231, 71.8522 ],
 							[ -125.5959, 71.7281 ],
 							[ -124.9602, 71.6351 ],
@@ -666,65 +716,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -121.6437, 55.7277 ],
-							[ -121.809, 55.6736 ],
-							[ -122.0021, 55.6561 ],
-							[ -122.229, 55.6916 ],
-							[ -122.5764, 55.5608 ],
-							[ -122.7935, 55.5518 ],
-							[ -122.8625, 55.4816 ],
-							[ -122.8626, 55.4812 ],
-							[ -122.8408, 55.4375 ],
-							[ -122.6979, 55.3746 ],
-							[ -122.7674, 55.2527 ],
-							[ -122.8717, 55.1784 ],
-							[ -123.0533, 55.1505 ],
-							[ -123.0298, 55.1066 ],
-							[ -122.994, 55.0681 ],
-							[ -122.7893, 55.099 ],
-							[ -122.6152, 55.2211 ],
-							[ -122.528, 55.3752 ],
-							[ -122.6591, 55.4655 ],
-							[ -122.4649, 55.4839 ],
-							[ -122.1882, 55.5993 ],
-							[ -122.0322, 55.5643 ],
-							[ -121.7087, 55.6002 ],
-							[ -121.5913, 55.6536 ],
-							[ -121.5758, 55.7078 ],
-							[ -121.6437, 55.7277 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 24, 2021 11:51",
-				"Expires_UTC" : "February 25, 2021 03:50",
-				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\nA Pacific frontal system will spread snow to Pine Pass tonight. The snow will be heaviest tonight. The snow will ease to flurries on Thursday. Total snowfall amounts of 15 cm are expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-25T03:50:23-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T11:51:23-00:00, urn:oid:2.49.0.1.124.4082872034.2021<br>Area: Highway 97 - Pine Pass",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.4082872034.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T11_51_23_00_00Iurn_oid_2.49.0.1.124.4082872034.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210225035023+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -115.0388, 68.0735 ],
 							[ -115.0934, 67.9545 ],
 							[ -115.6489, 67.917 ],
@@ -839,6 +830,171 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T17_17_46_00_00Iurn_oid_2.49.0.1.124.1514511977.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210225091646+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -121.6437, 55.7277 ],
+							[ -121.809, 55.6736 ],
+							[ -122.0021, 55.6561 ],
+							[ -122.229, 55.6916 ],
+							[ -122.5764, 55.5608 ],
+							[ -122.7935, 55.5518 ],
+							[ -122.8625, 55.4816 ],
+							[ -122.8626, 55.4812 ],
+							[ -122.8408, 55.4375 ],
+							[ -122.6979, 55.3746 ],
+							[ -122.7674, 55.2527 ],
+							[ -122.8717, 55.1784 ],
+							[ -123.0533, 55.1505 ],
+							[ -123.0298, 55.1066 ],
+							[ -122.994, 55.0681 ],
+							[ -122.7893, 55.099 ],
+							[ -122.6152, 55.2211 ],
+							[ -122.528, 55.3752 ],
+							[ -122.6591, 55.4655 ],
+							[ -122.4649, 55.4839 ],
+							[ -122.1882, 55.5993 ],
+							[ -122.0322, 55.5643 ],
+							[ -121.7087, 55.6002 ],
+							[ -121.5913, 55.6536 ],
+							[ -121.5758, 55.7078 ],
+							[ -121.6437, 55.7277 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 24, 2021 11:51",
+				"Expires_UTC" : "February 25, 2021 03:50",
+				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\nA Pacific frontal system will spread snow to Pine Pass tonight. The snow will be heaviest tonight. The snow will ease to flurries on Thursday. Total snowfall amounts of 15 cm are expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-25T03:50:23-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T11:51:23-00:00, urn:oid:2.49.0.1.124.4082872034.2021<br>Area: Highway 97 - Pine Pass",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.4082872034.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T11_51_23_00_00Iurn_oid_2.49.0.1.124.4082872034.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210225035023+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					],
+					[
+						[
+							[ -95.9747, 64.0894 ],
+							[ -95.8731, 64.1005 ],
+							[ -95.8385, 64.1083 ],
+							[ -95.7695, 64.1237 ],
+							[ -95.6416, 64.1779 ],
+							[ -95.5546, 64.2743 ],
+							[ -95.5549, 64.3297 ],
+							[ -95.6192, 64.4102 ],
+							[ -95.7449, 64.471 ],
+							[ -95.9232, 64.5079 ],
+							[ -96.1125, 64.5122 ],
+							[ -96.2988, 64.4835 ],
+							[ -96.4385, 64.4285 ],
+							[ -96.5218, 64.3513 ],
+							[ -96.5299, 64.2699 ],
+							[ -96.4674, 64.1931 ],
+							[ -96.337, 64.1298 ],
+							[ -96.1607, 64.0935 ],
+							[ -95.9747, 64.0894 ]
+						]
+					],
+					[
+						[
+							[ -91.0491, 63.5249 ],
+							[ -91.144, 63.4839 ],
+							[ -91.1987, 63.4455 ],
+							[ -91.2458, 63.3666 ],
+							[ -91.2212, 63.2858 ],
+							[ -91.1292, 63.2149 ],
+							[ -90.9834, 63.164 ],
+							[ -90.8886, 63.1475 ],
+							[ -90.788, 63.1398 ],
+							[ -90.7126, 63.1403 ],
+							[ -90.6528, 63.1347 ],
+							[ -90.6295, 63.166 ],
+							[ -90.5259, 63.1826 ],
+							[ -90.4962, 63.3748 ],
+							[ -90.6757, 63.4107 ],
+							[ -91.0491, 63.5249 ]
+						]
+					],
+					[
+						[
+							[ -92.7494, 61.7617 ],
+							[ -91.0961, 62.4626 ],
+							[ -90.8425, 62.6977 ],
+							[ -91.1089, 62.9139 ],
+							[ -91.1962, 62.9487 ],
+							[ -91.9101, 63.2326 ],
+							[ -92.7572, 62.7664 ],
+							[ -92.9306, 62.6684 ],
+							[ -93.793, 62.1628 ],
+							[ -93.2431, 61.9531 ],
+							[ -93.1978, 61.9342 ],
+							[ -93.1649, 61.923 ],
+							[ -92.996, 61.8573 ],
+							[ -92.7494, 61.7617 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Moderate",
+				"Title" : "Winter Storm Watch In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 24, 2021 16:22",
+				"Expires_UTC" : "February 25, 2021 08:21",
+				"Summary" : "Description: A developing low pressure system is set to affect the southern Kivalliq beginning on Thursday.\n\nAs the low approaches, light snow and strong southerly winds gusting up to 70 km/h will begin in Arviat, Rankin Inlet and Chesterfield Inlet on Thursday morning. This is expected to bring blowing snow with poor visibility lasting for a few hours. The winds will then switch to the northwest and are expected to bring blizzard conditions with near zero visibility lasting until Friday morning. \n\nIn Baker Lake, winds are expected to rapidly increase to 50 km/h gusting to 70 on Thursday morning from the northwest. This combined with light snow will create blizzard conditions with poor visibility lasting until Friday morning. \n\nThis low will continue to push East and create further blowing snow events for Coral Harbour and Kinngait on Friday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-25T08:21:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T16:22:55-00:00, urn:oid:2.49.0.1.124.2326278419.2021<br>Area: Baker Lake, Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.2326278419.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T16_22_55_00_00Iurn_oid_2.49.0.1.124.2326278419.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210225082155+00:00"
 			}
 		},
 		{
@@ -1438,6 +1594,66 @@
 				"coordinates" : [
 					[
 						[
+							[ -126.6699, 56.9999 ],
+							[ -127.7835, 57.0545 ],
+							[ -128.9927, 57.0307 ],
+							[ -128.7494, 56.5021 ],
+							[ -128.4667, 56.0247 ],
+							[ -128.1367, 55.2999 ],
+							[ -127.6878, 54.538 ],
+							[ -125.6889, 54.7308 ],
+							[ -125.2762, 54.9367 ],
+							[ -124.4416, 55.346 ],
+							[ -124.4199, 55.33 ],
+							[ -124.1684, 55.1898 ],
+							[ -123.9108, 55.067 ],
+							[ -123.4872, 54.615 ],
+							[ -123.3415, 54.655 ],
+							[ -123.1999, 54.7 ],
+							[ -122.8357, 54.848 ],
+							[ -122.4999, 54.9999 ],
+							[ -122.0782, 55.1899 ],
+							[ -121.6999, 55.38 ],
+							[ -121.839, 55.5297 ],
+							[ -122.0337, 55.7116 ],
+							[ -122.6071, 56.3068 ],
+							[ -123.2874, 56.9577 ],
+							[ -123.3, 56.9999 ],
+							[ -125.06, 57.0477 ],
+							[ -126.6699, 56.9999 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 24, 2021 18:27",
+				"Expires_UTC" : "February 25, 2021 10:26",
+				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\nA period of heavy snow is forecast tonight as a Pacific frontal system moves cross the central interior. The snow will ease to a few flurries by overnight or Thursday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-25T10:26:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T18:27:22-00:00, urn:oid:2.49.0.1.124.4058957339.2021<br>Area: Bulkley Valley, Williston",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.4058957339.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T18_27_22_00_00Iurn_oid_2.49.0.1.124.4058957339.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210225102622+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -83.7076, 46.1874 ],
 							[ -83.5976, 46.1752 ],
 							[ -83.3864, 46.0319 ],
@@ -1603,130 +1819,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Freezing Drizzle Advisory Ended",
+				"Title" : "Freezing Drizzle Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Freezing Drizzle",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 24, 2021 17:29",
-				"Expires_UTC" : "February 24, 2021 18:28",
-				"Summary" : "Description: Widespread freezing drizzle is no longer expected.\n\nFreezing drizzle may mix with flurries until this evening.\n\n###<br>Expires: 2021-02-24T18:28:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T17:29:55-00:00, urn:oid:2.49.0.1.124.2999343379.2021<br>Area: Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Gander and vicinity, Green Bay - White Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.2999343379.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T17_29_55_00_00Iurn_oid_2.49.0.1.124.2999343379.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210224182855+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					],
-					[
-						[
-							[ -95.9747, 64.0894 ],
-							[ -95.8731, 64.1005 ],
-							[ -95.8385, 64.1083 ],
-							[ -95.7695, 64.1237 ],
-							[ -95.6416, 64.1779 ],
-							[ -95.5546, 64.2743 ],
-							[ -95.5549, 64.3297 ],
-							[ -95.6192, 64.4102 ],
-							[ -95.7449, 64.471 ],
-							[ -95.9232, 64.5079 ],
-							[ -96.1125, 64.5122 ],
-							[ -96.2988, 64.4835 ],
-							[ -96.4385, 64.4285 ],
-							[ -96.5218, 64.3513 ],
-							[ -96.5299, 64.2699 ],
-							[ -96.4674, 64.1931 ],
-							[ -96.337, 64.1298 ],
-							[ -96.1607, 64.0935 ],
-							[ -95.9747, 64.0894 ]
-						]
-					],
-					[
-						[
-							[ -91.0491, 63.5249 ],
-							[ -91.144, 63.4839 ],
-							[ -91.1987, 63.4455 ],
-							[ -91.2458, 63.3666 ],
-							[ -91.2212, 63.2858 ],
-							[ -91.1292, 63.2149 ],
-							[ -90.9834, 63.164 ],
-							[ -90.8886, 63.1475 ],
-							[ -90.788, 63.1398 ],
-							[ -90.7126, 63.1403 ],
-							[ -90.6528, 63.1347 ],
-							[ -90.6295, 63.166 ],
-							[ -90.5259, 63.1826 ],
-							[ -90.4962, 63.3748 ],
-							[ -90.6757, 63.4107 ],
-							[ -91.0491, 63.5249 ]
-						]
-					],
-					[
-						[
-							[ -92.7494, 61.7617 ],
-							[ -91.0961, 62.4626 ],
-							[ -90.8425, 62.6977 ],
-							[ -91.1089, 62.9139 ],
-							[ -91.1962, 62.9487 ],
-							[ -91.9101, 63.2326 ],
-							[ -92.7572, 62.7664 ],
-							[ -92.9306, 62.6684 ],
-							[ -93.793, 62.1628 ],
-							[ -93.2431, 61.9531 ],
-							[ -93.1978, 61.9342 ],
-							[ -93.1649, 61.923 ],
-							[ -92.996, 61.8573 ],
-							[ -92.7494, 61.7617 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Winter Storm Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
 				"urgency" : "Future",
-				"certainty" : "Likely",
+				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 24, 2021 16:22",
-				"Expires_UTC" : "February 25, 2021 08:21",
-				"Summary" : "Description: A developing low pressure system is set to affect the southern Kivalliq beginning on Thursday.\n\nAs the low approaches, light snow and strong southerly winds gusting up to 70 km/h will begin in Arviat, Rankin Inlet and Chesterfield Inlet on Thursday morning. This is expected to bring blowing snow with poor visibility lasting for a few hours. The winds will then switch to the northwest and are expected to bring blizzard conditions with near zero visibility lasting until Friday morning. \n\nIn Baker Lake, winds are expected to rapidly increase to 50 km/h gusting to 70 on Thursday morning from the northwest. This combined with light snow will create blizzard conditions with poor visibility lasting until Friday morning. \n\nThis low will continue to push East and create further blowing snow events for Coral Harbour and Kinngait on Friday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-25T08:21:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T16:22:55-00:00, urn:oid:2.49.0.1.124.2326278419.2021<br>Area: Baker Lake, Arviat, Rankin Region including Whale Cove, Chesterfield Inlet",
+				"LastUpdate_UTC" : "February 24, 2021 14:25",
+				"Expires_UTC" : "February 24, 2021 21:59",
+				"Summary" : "Description: Areas of freezing drizzle are expected or occurring.\n\nLocations: northeastern Newfoundland.\n\nTime span: continuing into this afternoon.\n\nRemarks: Conditions are expected to improve somewhat this afternoon as the freezing drizzle mixes with or changes to flurries.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing drizzle advisories are issued when drizzle falling in sub-zero temperatures is expected to freeze on contact, and over time create icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-24T21:59:08-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-24T14:25:08-00:00, urn:oid:2.49.0.1.124.3695015247.2021<br>Area: Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Gander and vicinity, Green Bay - White Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.2326278419.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T16_22_55_00_00Iurn_oid_2.49.0.1.124.2326278419.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-24:feed.atom/urn:oid:2.49.0.1.124.3695015247.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-24/2021_02_24T14_25_08_00_00Iurn_oid_2.49.0.1.124.3695015247.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210225082155+00:00"
+				"Expires_FMEFormat" : "20210224215908+00:00"
 			}
 		}
 	]
