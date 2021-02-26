@@ -68,65 +68,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.4236, 52.4881 ],
-							[ -82.2216, 53.0256 ],
-							[ -81.9632, 53.3416 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.2294, 54.0004 ],
-							[ -82.2369, 54.0006 ],
-							[ -83.7002, 54.0287 ],
-							[ -83.0302, 52.2453 ],
-							[ -83.0383, 52.2455 ],
-							[ -87.9904, 52.2453 ],
-							[ -87.9963, 51.1568 ],
-							[ -87.4321, 51.159 ],
-							[ -84.8479, 51.1686 ],
-							[ -84.57, 51.0622 ],
-							[ -84.4653, 51.0571 ],
-							[ -84.3362, 51.1626 ],
-							[ -84.05, 51.1582 ],
-							[ -83.9119, 51.2539 ],
-							[ -83.2673, 51.4893 ],
-							[ -82.8343, 51.8669 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.1507, 51.3164 ],
-							[ -80.8407, 51.8738 ],
-							[ -80.8373, 51.8769 ],
-							[ -80.6927, 51.9724 ],
-							[ -81.4236, 52.4881 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Flash Freeze Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Flash Freeze",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 26, 2021 23:38",
-				"Expires_UTC" : "February 27, 2021 08:38",
-				"Summary" : "Description: Temperatures are forecast to fall rapidly. Ponding water, slush, and any falling precipitation will freeze as the temperature drops.\n\n###\n\nFlash freeze warnings are issued when a rapid drop in temperature is expected, that can cause water from rain or melted snow on streets and sidewalks to quickly freeze.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-27T08:38:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T23:38:22-00:00, urn:oid:2.49.0.1.124.2489280946.2021<br>Area: Attawapiskat, Fort Hope - Lansdowne House - Ogoki, Fort Albany",
-				"Author" : "Environment Canada",
-				"msgType" : "Alert",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.2489280946.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T23_38_22_00_00Iurn_oid_2.49.0.1.124.2489280946.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210227083822+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -91.5246, 52.2405 ],
 							[ -89.76, 52.237 ],
 							[ -87.9904, 52.2453 ],
@@ -174,6 +115,53 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T20_55_19_00_00Iurn_oid_2.49.0.1.124.4165165076.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210227125419+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -87.9958, 53.2172 ],
+							[ -89.3718, 53.4188 ],
+							[ -90.5082, 53.543 ],
+							[ -91.0141, 52.9445 ],
+							[ -91.5246, 52.2405 ],
+							[ -89.76, 52.237 ],
+							[ -87.9904, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.7002, 54.0287 ],
+							[ -87.008, 55.0039 ],
+							[ -87.0122, 55.0075 ],
+							[ -87.5227, 54.1733 ],
+							[ -87.9958, 53.2172 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 26, 2021 23:41",
+				"Expires_UTC" : "February 27, 2021 00:41",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2021-02-27T00:41:01-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T23:41:01-00:00, urn:oid:2.49.0.1.124.0300306450.2021<br>Area: Summer Beaver - Wunnummin Lake - Kingfisher Lake, Webequie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.0300306450.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T23_41_01_00_00Iurn_oid_2.49.0.1.124.0300306450.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210227004101+00:00"
 			}
 		},
 		{
@@ -240,6 +228,56 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T20_35_28_00_00Iurn_oid_2.49.0.1.124.4267359285.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210227123428+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -117.6288, 49.3397 ],
+							[ -117.9877, 49.3461 ],
+							[ -118.2922, 49.1165 ],
+							[ -118.2885, 49.0147 ],
+							[ -118.1528, 49.0098 ],
+							[ -118.0876, 49.1037 ],
+							[ -117.8554, 49.2529 ],
+							[ -117.351, 49.1413 ],
+							[ -117.3061, 49.0281 ],
+							[ -117.1813, 48.9703 ],
+							[ -116.7943, 49.0828 ],
+							[ -116.4784, 49.0384 ],
+							[ -116.4185, 49.1387 ],
+							[ -116.7929, 49.1868 ],
+							[ -117.1566, 49.0847 ],
+							[ -117.2275, 49.214 ],
+							[ -117.6288, 49.3397 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 26, 2021 13:23",
+				"Expires_UTC" : "February 27, 2021 02:18",
+				"Summary" : "Description: Snowfall with total amounts of 20 to 25 cm continues.\n\nAn additional 5 cm of snow is expected for Highway 3 - Paulson Summit to Kootenay Pass this morning before the snow tapers off to a few flurries this afternoon.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-27T02:18:08-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T13:23:08-00:00, urn:oid:2.49.0.1.124.2782409710.2021<br>Area: Highway 3 - Paulson Summit to Kootenay Pass",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.2782409710.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T13_23_08_00_00Iurn_oid_2.49.0.1.124.2782409710.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210227021808+00:00"
 			}
 		},
 		{
@@ -567,62 +605,56 @@
 				"coordinates" : [
 					[
 						[
-							[ -134.371, 67.8553 ],
-							[ -133.6543, 67.8418 ],
-							[ -133.0092, 67.8428 ],
-							[ -133.0012, 68.2704 ],
-							[ -133.0684, 68.6546 ],
-							[ -132.8203, 68.6469 ],
-							[ -132.5903, 68.6515 ],
-							[ -132.6302, 69.1236 ],
-							[ -132.7334, 69.5253 ],
-							[ -132.9811, 69.526 ],
-							[ -133.0809, 69.5269 ],
-							[ -133.2424, 69.7062 ],
-							[ -133.6843, 69.7117 ],
-							[ -133.8748, 69.7432 ],
-							[ -134.1813, 69.5985 ],
-							[ -134.1487, 69.5248 ],
-							[ -134.6088, 69.5219 ],
-							[ -134.625, 69.5217 ],
-							[ -134.6503, 69.7494 ],
-							[ -135.028, 69.7482 ],
-							[ -134.9727, 69.2322 ],
-							[ -134.8205, 68.6539 ],
-							[ -135.1491, 68.6544 ],
-							[ -135.2643, 68.6955 ],
-							[ -135.3318, 68.6907 ],
-							[ -135.3054, 68.6544 ],
-							[ -136.4483, 68.6502 ],
-							[ -136.4596, 68.5843 ],
-							[ -136.4483, 68.4998 ],
-							[ -136.4483, 67.8636 ],
-							[ -135.456, 67.8526 ],
-							[ -134.371, 67.8553 ]
+							[ -81.4236, 52.4881 ],
+							[ -82.2216, 53.0256 ],
+							[ -81.9632, 53.3416 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.2294, 54.0004 ],
+							[ -82.2369, 54.0006 ],
+							[ -83.7002, 54.0287 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -87.9904, 52.2453 ],
+							[ -87.9963, 51.1568 ],
+							[ -87.4321, 51.159 ],
+							[ -84.8479, 51.1686 ],
+							[ -84.57, 51.0622 ],
+							[ -84.4653, 51.0571 ],
+							[ -84.3362, 51.1626 ],
+							[ -84.05, 51.1582 ],
+							[ -83.9119, 51.2539 ],
+							[ -83.2673, 51.4893 ],
+							[ -82.8343, 51.8669 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.1507, 51.3164 ],
+							[ -80.8407, 51.8738 ],
+							[ -80.8373, 51.8769 ],
+							[ -80.6927, 51.9724 ],
+							[ -81.4236, 52.4881 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
+				"Title" : "Flash Freeze Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Extreme Cold",
+				"event" : "Flash Freeze",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 26, 2021 22:36",
-				"Expires_UTC" : "February 27, 2021 14:35",
-				"Summary" : "Description: Extreme cold wind chill values between minus 50 and minus 55 will continue tonight.\n\nThese extreme cold wind chill values will persist into the weekend.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2021-02-27T14:35:41-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T22:36:41-00:00, urn:oid:2.49.0.1.124.3208522043.2021<br>Area: Tuktoyaktuk - East Channel Region, Aklavik Region",
+				"LastUpdate_UTC" : "February 26, 2021 23:39",
+				"Expires_UTC" : "February 27, 2021 08:38",
+				"Summary" : "Description: Temperatures are forecast to fall rapidly. Ponding water, slush, and any falling precipitation will freeze as the temperature drops.\n\nA sharp cold front moving through the region will cause temperatures to suddenly plunge from above freezing to minus 12 or below tonight. \n\nPrecipitation will change over to snow and untreated wet surfaces may suddenly become icy.\n\n###\n\nFlash freeze warnings are issued when a rapid drop in temperature is expected, that can cause water from rain or melted snow on streets and sidewalks to quickly freeze.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-27T08:38:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T23:39:22-00:00, urn:oid:2.49.0.1.124.0812230250.2021<br>Area: Attawapiskat, Fort Hope - Lansdowne House - Ogoki, Fort Albany",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.3208522043.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T22_36_41_00_00Iurn_oid_2.49.0.1.124.3208522043.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.0812230250.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T23_39_22_00_00Iurn_oid_2.49.0.1.124.0812230250.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210227143541+00:00"
+				"Expires_FMEFormat" : "20210227083822+00:00"
 			}
 		},
 		{
@@ -1331,48 +1363,62 @@
 				"coordinates" : [
 					[
 						[
-							[ -137.8443, 65.4581 ],
-							[ -134.9833, 67 ],
-							[ -135.4962, 67.0133 ],
-							[ -135.9999, 67 ],
-							[ -136.012, 67 ],
-							[ -136.0889, 67.1757 ],
-							[ -135.9251, 67.2657 ],
-							[ -136.136, 67.2766 ],
-							[ -136.3737, 67.1424 ],
-							[ -136.6048, 67.0102 ],
-							[ -137.1316, 66.6721 ],
-							[ -139.0095, 65.53 ],
-							[ -138.9891, 64.5198 ],
-							[ -138.4948, 64.415 ],
-							[ -138.0022, 64.3497 ],
-							[ -137.911, 64.3385 ],
-							[ -137.8311, 64.3417 ],
-							[ -137.8443, 65.4581 ]
+							[ -134.371, 67.8553 ],
+							[ -133.6543, 67.8418 ],
+							[ -133.0092, 67.8428 ],
+							[ -133.0012, 68.2704 ],
+							[ -133.0684, 68.6546 ],
+							[ -132.8203, 68.6469 ],
+							[ -132.5903, 68.6515 ],
+							[ -132.6302, 69.1236 ],
+							[ -132.7334, 69.5253 ],
+							[ -132.9811, 69.526 ],
+							[ -133.0809, 69.5269 ],
+							[ -133.2424, 69.7062 ],
+							[ -133.6843, 69.7117 ],
+							[ -133.8748, 69.7432 ],
+							[ -134.1813, 69.5985 ],
+							[ -134.1487, 69.5248 ],
+							[ -134.6088, 69.5219 ],
+							[ -134.625, 69.5217 ],
+							[ -134.6503, 69.7494 ],
+							[ -135.028, 69.7482 ],
+							[ -134.9727, 69.2322 ],
+							[ -134.8205, 68.6539 ],
+							[ -135.1491, 68.6544 ],
+							[ -135.2643, 68.6955 ],
+							[ -135.3318, 68.6907 ],
+							[ -135.3054, 68.6544 ],
+							[ -136.4483, 68.6502 ],
+							[ -136.4596, 68.5843 ],
+							[ -136.4483, 68.4998 ],
+							[ -136.4483, 67.8636 ],
+							[ -135.456, 67.8526 ],
+							[ -134.371, 67.8553 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"Title" : "Extreme Cold Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blizzard",
+				"event" : "Extreme Cold",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 26, 2021 23:02",
-				"Expires_UTC" : "February 27, 2021 15:01",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nAn approaching low in the northern gulf of Alaska and high pressure over the Northwest Territories will combine to produce a strong wind gradient over the Dempster highway on Saturday. Winds will rise to easterly 80 gusting 100 km/h. At the same time, fresh snow will arrive and produce poor visibility in blowing snow.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-02-27T15:01:20-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T23:02:20-00:00, urn:oid:2.49.0.1.124.1267830711.2021<br>Area: Dempster",
+				"LastUpdate_UTC" : "February 26, 2021 22:36",
+				"Expires_UTC" : "February 27, 2021 14:35",
+				"Summary" : "Description: Extreme cold wind chill values between minus 50 and minus 55 will continue tonight.\n\nThese extreme cold wind chill values will persist into the weekend.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2021-02-27T14:35:41-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T22:36:41-00:00, urn:oid:2.49.0.1.124.3208522043.2021<br>Area: Tuktoyaktuk - East Channel Region, Aklavik Region",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.1267830711.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T23_02_20_00_00Iurn_oid_2.49.0.1.124.1267830711.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.3208522043.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T22_36_41_00_00Iurn_oid_2.49.0.1.124.3208522043.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210227150120+00:00"
+				"Expires_FMEFormat" : "20210227143541+00:00"
 			}
 		},
 		{
@@ -1477,6 +1523,57 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T20_37_09_00_00Iurn_oid_2.49.0.1.124.2799388253.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210227123609+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -137.8443, 65.4581 ],
+							[ -134.9833, 67 ],
+							[ -135.4962, 67.0133 ],
+							[ -135.9999, 67 ],
+							[ -136.012, 67 ],
+							[ -136.0889, 67.1757 ],
+							[ -135.9251, 67.2657 ],
+							[ -136.136, 67.2766 ],
+							[ -136.3737, 67.1424 ],
+							[ -136.6048, 67.0102 ],
+							[ -137.1316, 66.6721 ],
+							[ -139.0095, 65.53 ],
+							[ -138.9891, 64.5198 ],
+							[ -138.4948, 64.415 ],
+							[ -138.0022, 64.3497 ],
+							[ -137.911, 64.3385 ],
+							[ -137.8311, 64.3417 ],
+							[ -137.8443, 65.4581 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 26, 2021 23:02",
+				"Expires_UTC" : "February 27, 2021 15:01",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nAn approaching low in the northern gulf of Alaska and high pressure over the Northwest Territories will combine to produce a strong wind gradient over the Dempster highway on Saturday. Winds will rise to easterly 80 gusting 100 km/h. At the same time, fresh snow will arrive and produce poor visibility in blowing snow.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-02-27T15:01:20-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T23:02:20-00:00, urn:oid:2.49.0.1.124.1267830711.2021<br>Area: Dempster",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.1267830711.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T23_02_20_00_00Iurn_oid_2.49.0.1.124.1267830711.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210227150120+00:00"
 			}
 		},
 		{
@@ -1659,56 +1756,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T21_07_10_00_00Iurn_oid_2.49.0.1.124.0278225462.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210227130610+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -117.6288, 49.3397 ],
-							[ -117.9877, 49.3461 ],
-							[ -118.2922, 49.1165 ],
-							[ -118.2885, 49.0147 ],
-							[ -118.1528, 49.0098 ],
-							[ -118.0876, 49.1037 ],
-							[ -117.8554, 49.2529 ],
-							[ -117.351, 49.1413 ],
-							[ -117.3061, 49.0281 ],
-							[ -117.1813, 48.9703 ],
-							[ -116.7943, 49.0828 ],
-							[ -116.4784, 49.0384 ],
-							[ -116.4185, 49.1387 ],
-							[ -116.7929, 49.1868 ],
-							[ -117.1566, 49.0847 ],
-							[ -117.2275, 49.214 ],
-							[ -117.6288, 49.3397 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 26, 2021 13:23",
-				"Expires_UTC" : "February 27, 2021 02:18",
-				"Summary" : "Description: Snowfall with total amounts of 20 to 25 cm continues.\n\nAn additional 5 cm of snow is expected for Highway 3 - Paulson Summit to Kootenay Pass this morning before the snow tapers off to a few flurries this afternoon.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-02-27T02:18:08-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T13:23:08-00:00, urn:oid:2.49.0.1.124.2782409710.2021<br>Area: Highway 3 - Paulson Summit to Kootenay Pass",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.2782409710.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T13_23_08_00_00Iurn_oid_2.49.0.1.124.2782409710.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210227021808+00:00"
 			}
 		},
 		{
