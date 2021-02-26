@@ -9,6 +9,61 @@
 				"coordinates" : [
 					[
 						[
+							[ -85.6288, 73.031 ],
+							[ -85.2757, 72.9814 ],
+							[ -84.6976, 72.8984 ],
+							[ -84.5651, 72.8986 ],
+							[ -84.4176, 73.0621 ],
+							[ -84.8368, 73.1113 ],
+							[ -85.0267, 73.153 ],
+							[ -85.4621, 73.1923 ],
+							[ -85.6288, 73.031 ]
+						]
+					],
+					[
+						[
+							[ -78.6362, 72.6541 ],
+							[ -78.4939, 72.5386 ],
+							[ -77.8912, 72.4735 ],
+							[ -77.3451, 72.5745 ],
+							[ -77.2351, 72.6638 ],
+							[ -77.2577, 72.7548 ],
+							[ -77.4398, 72.7893 ],
+							[ -78.0061, 72.7979 ],
+							[ -78.6362, 72.6541 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Extreme Cold Warning Ended",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "February 26, 2021 09:17",
+				"Expires_UTC" : "February 26, 2021 10:17",
+				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2021-02-26T10:17:06-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T09:17:06-00:00, urn:oid:2.49.0.1.124.1332313492.2021<br>Area: Arctic Bay, Pond Inlet",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.1332313492.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T09_17_06_00_00Iurn_oid_2.49.0.1.124.1332313492.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210226101706+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -86.7151, 66.4201 ],
 							[ -85.7443, 66.2549 ],
 							[ -85.7007, 66.5305 ],
@@ -316,47 +371,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-25/2021_02_25T23_59_25_00_00Iurn_oid_2.49.0.1.124.3925724119.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210226155825+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 26, 2021 03:13",
-				"Expires_UTC" : "February 26, 2021 19:12",
-				"Summary" : "Description: High southerly winds will reach 90 kilometres per hour beginning overnight tonight. Winds will diminish late in the day on Friday.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-02-26T19:12:41-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T03:13:41-00:00, urn:oid:2.49.0.1.124.2421302355.2021<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.2421302355.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T03_13_41_00_00Iurn_oid_2.49.0.1.124.2421302355.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210226191241+00:00"
 			}
 		},
 		{
@@ -719,52 +733,54 @@
 				"coordinates" : [
 					[
 						[
-							[ -85.6288, 73.031 ],
-							[ -85.2757, 72.9814 ],
-							[ -84.6976, 72.8984 ],
-							[ -84.5651, 72.8986 ],
-							[ -84.4176, 73.0621 ],
-							[ -84.8368, 73.1113 ],
-							[ -85.0267, 73.153 ],
-							[ -85.4621, 73.1923 ],
-							[ -85.6288, 73.031 ]
-						]
-					],
-					[
-						[
-							[ -78.6362, 72.6541 ],
-							[ -78.4939, 72.5386 ],
-							[ -77.8912, 72.4735 ],
-							[ -77.3451, 72.5745 ],
-							[ -77.2351, 72.6638 ],
-							[ -77.2577, 72.7548 ],
-							[ -77.4398, 72.7893 ],
-							[ -78.0061, 72.7979 ],
-							[ -78.6362, 72.6541 ]
+							[ -78.1899, 61.8615 ],
+							[ -77.9932, 61.1989 ],
+							[ -78.2274, 60.8442 ],
+							[ -78.2824, 60.7491 ],
+							[ -77.9155, 60.7296 ],
+							[ -77.817, 60.3916 ],
+							[ -77.5979, 60.2596 ],
+							[ -77.4863, 60.2597 ],
+							[ -75.8395, 60.25 ],
+							[ -75.8391, 60.25 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -76.1525, 62.616 ],
+							[ -77.4581, 62.669 ],
+							[ -78.1974, 62.6192 ],
+							[ -78.2083, 62.5253 ],
+							[ -78.161, 62.3538 ],
+							[ -78.249, 62.2815 ],
+							[ -78.1899, 61.8615 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 26, 2021 09:17",
-				"Expires_UTC" : "February 26, 2021 10:17",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n\n###<br>Expires: 2021-02-26T10:17:06-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T09:17:06-00:00, urn:oid:2.49.0.1.124.1332313492.2021<br>Area: Arctic Bay, Pond Inlet",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 26, 2021 09:23",
+				"Expires_UTC" : "February 27, 2021 01:22",
+				"Summary" : "Description: A period of extreme cold with wind chill values reaching -52 is expected overnight tonight and possibly the following night.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-02-27T01:22:36-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T09:23:36-00:00, urn:oid:2.49.0.1.124.3958840556.2021<br>Area: Ivujivik, Akulivik, Salluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.1332313492.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T09_17_06_00_00Iurn_oid_2.49.0.1.124.1332313492.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.3958840556.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T09_23_36_00_00Iurn_oid_2.49.0.1.124.3958840556.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210226101706+00:00"
+				"Expires_FMEFormat" : "20210227012236+00:00"
 			}
 		},
 		{
@@ -1307,18 +1323,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 26, 2021 04:20",
-				"Expires_UTC" : "February 26, 2021 20:19",
-				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nExtreme wind chill values between minus 55 and minus 60 will develop later today. The extreme wind chill values will persist through Friday.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-26T20:19:58-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T04:20:58-00:00, urn:oid:2.49.0.1.124.0396389353.2021<br>Area: Resolute",
+				"LastUpdate_UTC" : "February 26, 2021 09:36",
+				"Expires_UTC" : "February 27, 2021 01:35",
+				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nExtreme cold wind chill values between minus 55 and minus 60 will continue today. The extreme wind chill values will moderate tonight.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-27T01:35:48-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T09:36:48-00:00, urn:oid:2.49.0.1.124.3317422420.2021<br>Area: Resolute",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.0396389353.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T04_20_58_00_00Iurn_oid_2.49.0.1.124.0396389353.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.3317422420.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T09_36_48_00_00Iurn_oid_2.49.0.1.124.3317422420.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210226201958+00:00"
+				"Expires_FMEFormat" : "20210227013548+00:00"
 			}
 		},
 		{
@@ -1940,74 +1956,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -92.7352, 56.9253 ],
-							[ -92.3679, 57.2361 ],
-							[ -92.5275, 57.6436 ],
-							[ -93.151, 58.8144 ],
-							[ -94.2622, 58.8582 ],
-							[ -94.3979, 58.784 ],
-							[ -94.7122, 59.1161 ],
-							[ -94.6303, 59.369 ],
-							[ -94.7505, 59.6302 ],
-							[ -94.7036, 59.7963 ],
-							[ -94.8238, 59.9991 ],
-							[ -95.1085, 60.0563 ],
-							[ -95.4499, 59.9991 ],
-							[ -95.609, 58.7183 ],
-							[ -95.4499, 57.7824 ],
-							[ -95.6237, 57.7836 ],
-							[ -95.6164, 57.4604 ],
-							[ -95.4499, 57.4624 ],
-							[ -95.5213, 57.2946 ],
-							[ -95.4499, 57.11 ],
-							[ -94.0456, 56.9907 ],
-							[ -92.7352, 56.9253 ]
-						]
-					],
-					[
-						[
-							[ -92.7352, 56.9253 ],
-							[ -91.2455, 56.5961 ],
-							[ -89.8863, 56.3004 ],
-							[ -88.9894, 56.8474 ],
-							[ -88.9057, 56.9017 ],
-							[ -90.9184, 57.3183 ],
-							[ -92.5014, 57.0461 ],
-							[ -92.6586, 56.9651 ],
-							[ -92.7352, 56.9253 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 25, 2021 21:27",
-				"Expires_UTC" : "February 26, 2021 13:26",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nA cold arctic airmass will settle over parts of northern Manitoba beginning Thursday night. \n\nThis cold airmass will cause overnight wind chill values to reach extreme cold criteria of -50 and colder. These extreme wind chill values will moderate somewhat during the day, but will return over the next few nights. \n\nExtreme cold warnings will likely end Sunday morning.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nFor more information on cold and your health, visit Manitoba Health at https://www.gov.mb.ca/health/publichealth/environmentalhealth/cold.html or call Health Links - Info Santé at 204-788-8200 or toll-free at 1-888-315-9257.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to MBstorm@canada.ca or tweet reports using #MBStorm.<br>Expires: 2021-02-26T13:26:29-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-25T21:27:29-00:00, urn:oid:2.49.0.1.124.2087131067.2021<br>Area: Churchill, York",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-25:feed.atom/urn:oid:2.49.0.1.124.2087131067.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-25/2021_02_25T21_27_29_00_00Iurn_oid_2.49.0.1.124.2087131067.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210226132629+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -105.6733, 69.1682 ],
 							[ -105.727, 69.0273 ],
 							[ -105.2968, 68.8552 ],
@@ -2051,6 +1999,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T04_23_03_00_00Iurn_oid_2.49.0.1.124.3013698690.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210226195903+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 26, 2021 09:23",
+				"Expires_UTC" : "February 27, 2021 01:22",
+				"Summary" : "Description: High southerly winds will reach 90 kilometres per hour today and Saturday.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-02-27T01:22:57-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T09:23:57-00:00, urn:oid:2.49.0.1.124.1850684703.2021<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.1850684703.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T09_23_57_00_00Iurn_oid_2.49.0.1.124.1850684703.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210227012257+00:00"
 			}
 		}
 	]
