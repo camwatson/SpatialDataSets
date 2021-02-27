@@ -76,6 +76,64 @@
 							[ -83.7002, 54.0287 ],
 							[ -87.008, 55.0039 ],
 							[ -87.0122, 55.0075 ],
+							[ -87.921, 55.2628 ],
+							[ -88.8527, 55.4984 ],
+							[ -89.6616, 55.7283 ],
+							[ -90.4723, 55.9307 ],
+							[ -91.0742, 55.5552 ],
+							[ -91.653, 55.1549 ],
+							[ -92.6285, 54.5171 ],
+							[ -93.4241, 53.9089 ],
+							[ -93.68, 53.7427 ],
+							[ -93.9327, 53.5766 ],
+							[ -94.5197, 53.2523 ],
+							[ -95.153, 52.8419 ],
+							[ -95.1536, 52.8415 ],
+							[ -95.1632, 52.6707 ],
+							[ -95.1536, 52.4841 ],
+							[ -93.4886, 52.3546 ],
+							[ -91.5246, 52.2405 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 26, 2021 17:51",
+				"Expires_UTC" : "February 27, 2021 09:50",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for today.\n\nAn intense band of snow associated with the passage of a cold front is expected to move across Far Northern Ontario today. This band of snow may extend from Winisk River Provincial Park to Weagamow Lake this afternoon and is expected to move southward throughout the day, reaching Lansdowne House to Cat Lake by this evening.\n\nA total snowfall accumulation up to 10 cm is possible.\n\nHazardous travel conditions are expected due to near zero visibilities in bursts of heavy snow and blowing snow. Consider post-poning non essential travel until conditions improve.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-27T09:50:48-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T17:51:48-00:00, urn:oid:2.49.0.1.124.3159880082.2021<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Webequie",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.3159880082.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T17_51_48_00_00Iurn_oid_2.49.0.1.124.3159880082.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210227095048+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -91.5246, 52.2405 ],
+							[ -89.76, 52.237 ],
+							[ -87.9904, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -83.0302, 52.2453 ],
+							[ -83.7002, 54.0287 ],
+							[ -87.008, 55.0039 ],
+							[ -87.0122, 55.0075 ],
 							[ -87.5227, 54.1733 ],
 							[ -87.9958, 53.2172 ],
 							[ -89.3718, 53.4188 ],
@@ -722,74 +780,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -95.9747, 64.0894 ],
-							[ -95.8731, 64.1005 ],
-							[ -95.8385, 64.1083 ],
-							[ -95.7695, 64.1237 ],
-							[ -95.6416, 64.1779 ],
-							[ -95.5546, 64.2743 ],
-							[ -95.5549, 64.3297 ],
-							[ -95.6192, 64.4102 ],
-							[ -95.7449, 64.471 ],
-							[ -95.9232, 64.5079 ],
-							[ -96.1125, 64.5122 ],
-							[ -96.2988, 64.4835 ],
-							[ -96.4385, 64.4285 ],
-							[ -96.5218, 64.3513 ],
-							[ -96.5299, 64.2699 ],
-							[ -96.4674, 64.1931 ],
-							[ -96.337, 64.1298 ],
-							[ -96.1607, 64.0935 ],
-							[ -95.9747, 64.0894 ]
-						]
-					],
-					[
-						[
-							[ -94.2244, 61.2965 ],
-							[ -94.3187, 61.2722 ],
-							[ -94.4341, 61.2139 ],
-							[ -94.4954, 61.139 ],
-							[ -94.4967, 61.0658 ],
-							[ -94.4463, 60.9968 ],
-							[ -94.3506, 60.9403 ],
-							[ -94.2227, 60.9032 ],
-							[ -93.9263, 60.8616 ],
-							[ -93.7935, 61.2611 ],
-							[ -94.1062, 61.3099 ],
-							[ -94.2244, 61.2965 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 26, 2021 20:22",
-				"Expires_UTC" : "February 27, 2021 12:21",
-				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nTemperatures of -35 to -40 Celsius along with gusty winds are combining to create windchill values of minus 55 to 60 over southern Kivalliq. \n\nThese extreme windchill values will remain until Sunday.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-27T12:21:35-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T20:22:35-00:00, urn:oid:2.49.0.1.124.1067265667.2021<br>Area: Baker Lake, Arviat",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.1067265667.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T20_22_35_00_00Iurn_oid_2.49.0.1.124.1067265667.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210227122135+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -52.7949, 47.8738 ],
 							[ -52.7347, 48.2265 ],
 							[ -52.9479, 48.2795 ],
@@ -857,18 +847,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 26, 2021 19:28",
-				"Expires_UTC" : "February 27, 2021 11:27",
-				"Summary" : "Description: More snow expected on Sunday.\n\nLocations: much of Newfoundland (excluding the Great Northern Peninsula).\n\nTotal snowfall: generally 10 to 15 cm, with potentially more than 20 cm over some areas.\n\nRemarks: A fast-moving weather system will bring snow to much of the island on Sunday.  The snow may change to rain over southern coastal areas before ending.\n\nGusty easterly winds accompanying the snow will result in blowing snow and reduced visibilities.\n\nConditions are expected to improve over southern and western Newfoundland on Sunday afternoon, and elsewhere Sunday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-27T11:27:53-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T19:28:53-00:00, urn:oid:2.49.0.1.124.3955264889.2021<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Deer Lake - Humber Valley, Gros Morne, Bay St. George, Buchans and the interior, Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Gander and vicinity, Green Bay - White Bay, Terra Nova",
+				"LastUpdate_UTC" : "February 27, 2021 01:51",
+				"Expires_UTC" : "February 27, 2021 17:50",
+				"Summary" : "Description: More snow expected on Sunday.\n\nLocations: much of Newfoundland (excluding the Great Northern Peninsula).\n\nTotal snowfall: generally 10 to 15 cm, with potentially more than 20 cm over some areas.\n\nRemarks: A fast-moving weather system will bring snow to much of the island on Sunday.  The snow may change to rain over southern coastal areas before ending.\n\nGusty easterly winds accompanying the snow will result in blowing snow and reduced visibilities.\n\nConditions are expected to improve over southern and western Newfoundland on Sunday afternoon, and elsewhere Sunday night.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-02-27T17:50:32-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-27T01:51:32-00:00, urn:oid:2.49.0.1.124.3844392988.2021<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Burgeo - Ramea, Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Deer Lake - Humber Valley, Gros Morne, Bay St. George, Buchans and the interior, Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Gander and vicinity, Green Bay - White Bay, Terra Nova",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.3955264889.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T19_28_53_00_00Iurn_oid_2.49.0.1.124.3955264889.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-27:feed.atom/urn:oid:2.49.0.1.124.3844392988.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-27/2021_02_27T01_51_32_00_00Iurn_oid_2.49.0.1.124.3844392988.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210227112753+00:00"
+				"Expires_FMEFormat" : "20210227175032+00:00"
 			}
 		},
 		{
@@ -1610,64 +1600,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -91.5246, 52.2405 ],
-							[ -89.76, 52.237 ],
-							[ -87.9904, 52.2453 ],
-							[ -83.0383, 52.2455 ],
-							[ -83.0302, 52.2453 ],
-							[ -83.7002, 54.0287 ],
-							[ -87.008, 55.0039 ],
-							[ -87.0122, 55.0075 ],
-							[ -87.921, 55.2628 ],
-							[ -88.8527, 55.4984 ],
-							[ -89.6616, 55.7283 ],
-							[ -90.4723, 55.9307 ],
-							[ -91.0742, 55.5552 ],
-							[ -91.653, 55.1549 ],
-							[ -92.6285, 54.5171 ],
-							[ -93.4241, 53.9089 ],
-							[ -93.68, 53.7427 ],
-							[ -93.9327, 53.5766 ],
-							[ -94.5197, 53.2523 ],
-							[ -95.153, 52.8419 ],
-							[ -95.1536, 52.8415 ],
-							[ -95.1632, 52.6707 ],
-							[ -95.1536, 52.4841 ],
-							[ -93.4886, 52.3546 ],
-							[ -91.5246, 52.2405 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 26, 2021 17:51",
-				"Expires_UTC" : "February 27, 2021 09:50",
-				"Summary" : "Description: Winter Weather Travel Advisory in effect for today.\n\nAn intense band of snow associated with the passage of a cold front is expected to move across Far Northern Ontario today. This band of snow may extend from Winisk River Provincial Park to Weagamow Lake this afternoon and is expected to move southward throughout the day, reaching Lansdowne House to Cat Lake by this evening.\n\nA total snowfall accumulation up to 10 cm is possible.\n\nHazardous travel conditions are expected due to near zero visibilities in bursts of heavy snow and blowing snow. Consider post-poning non essential travel until conditions improve.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-02-27T09:50:48-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T17:51:48-00:00, urn:oid:2.49.0.1.124.3159880082.2021<br>Area: Sandy Lake - Weagamow Lake - Deer Lake, Summer Beaver - Wunnummin Lake - Kingfisher Lake, Webequie",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.3159880082.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T17_51_48_00_00Iurn_oid_2.49.0.1.124.3159880082.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210227095048+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -92.7352, 56.9253 ],
 							[ -92.3679, 57.2361 ],
 							[ -92.5275, 57.6436 ],
@@ -1916,6 +1848,74 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T20_36_16_00_00Iurn_oid_2.49.0.1.124.2423478804.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210227123516+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.9747, 64.0894 ],
+							[ -95.8731, 64.1005 ],
+							[ -95.8385, 64.1083 ],
+							[ -95.7695, 64.1237 ],
+							[ -95.6416, 64.1779 ],
+							[ -95.5546, 64.2743 ],
+							[ -95.5549, 64.3297 ],
+							[ -95.6192, 64.4102 ],
+							[ -95.7449, 64.471 ],
+							[ -95.9232, 64.5079 ],
+							[ -96.1125, 64.5122 ],
+							[ -96.2988, 64.4835 ],
+							[ -96.4385, 64.4285 ],
+							[ -96.5218, 64.3513 ],
+							[ -96.5299, 64.2699 ],
+							[ -96.4674, 64.1931 ],
+							[ -96.337, 64.1298 ],
+							[ -96.1607, 64.0935 ],
+							[ -95.9747, 64.0894 ]
+						]
+					],
+					[
+						[
+							[ -94.2244, 61.2965 ],
+							[ -94.3187, 61.2722 ],
+							[ -94.4341, 61.2139 ],
+							[ -94.4954, 61.139 ],
+							[ -94.4967, 61.0658 ],
+							[ -94.4463, 60.9968 ],
+							[ -94.3506, 60.9403 ],
+							[ -94.2227, 60.9032 ],
+							[ -93.9263, 60.8616 ],
+							[ -93.7935, 61.2611 ],
+							[ -94.1062, 61.3099 ],
+							[ -94.2244, 61.2965 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 26, 2021 20:22",
+				"Expires_UTC" : "February 27, 2021 12:21",
+				"Summary" : "Description: A prolonged period of very cold wind chills is expected.\n\nTemperatures of -35 to -40 Celsius along with gusty winds are combining to create windchill values of minus 55 to 60 over southern Kivalliq. \n\nThese extreme windchill values will remain until Sunday.\n\n###\n\nExtreme cold puts everyone at risk.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-02-27T12:21:35-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-26T20:22:35-00:00, urn:oid:2.49.0.1.124.1067265667.2021<br>Area: Baker Lake, Arviat",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-26:feed.atom/urn:oid:2.49.0.1.124.1067265667.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-26/2021_02_26T20_22_35_00_00Iurn_oid_2.49.0.1.124.1067265667.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210227122135+00:00"
 			}
 		}
 	]
