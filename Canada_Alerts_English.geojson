@@ -284,52 +284,39 @@
 				"coordinates" : [
 					[
 						[
-							[ -68.6166, 48.0496 ],
-							[ -68.3823, 47.9128 ],
-							[ -68.3823, 47.9161 ],
-							[ -68.1227, 47.9163 ],
-							[ -68.1226, 47.9998 ],
-							[ -67.6656, 48 ],
-							[ -67.6035, 47.9999 ],
-							[ -67.6276, 48.2166 ],
-							[ -67.6498, 48.4154 ],
-							[ -67.6687, 48.5824 ],
-							[ -67.669, 48.5823 ],
-							[ -67.6692, 48.5823 ],
-							[ -67.7056, 48.6956 ],
-							[ -67.7304, 48.7727 ],
-							[ -67.7305, 48.773 ],
-							[ -67.508, 49.2382 ],
-							[ -68.5214, 48.9033 ],
-							[ -69.2423, 48.4587 ],
-							[ -68.9741, 48.2826 ],
-							[ -68.6207, 48.05 ],
-							[ -68.6193, 48.0511 ],
-							[ -68.6166, 48.0496 ]
+							[ -58.6743, 50.7821 ],
+							[ -57.976, 51.1736 ],
+							[ -57.1162, 51.3508 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1075, 51.9221 ],
+							[ -58.9988, 51.333 ],
+							[ -59.0029, 50.7675 ],
+							[ -58.9502, 50.7022 ],
+							[ -58.6743, 50.7821 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"subCategory" : "Met:Watch:Severe",
+				"Title" : "Winter Storm Watch In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
+				"event" : "Winter Storm",
 				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "February 28, 2021 17:05",
-				"Expires_UTC" : "March 1, 2021 09:04",
-				"Summary" : "Description: Blowing snow beginning Monday evening.\n\nSnowfall amounts of 10 to 15 cm, strong winds and blowing snow are expected Monday and Tuesday.\n\nThe snow will intensify Monday morning. Then, late in the day, winds will develop and temperatures will fall dramatically overnight Monday to Tuesday causing blowing snow.\n\nHazardous driving conditions are expected due to low to zero visibilities. Quickly accumulating snow could make travel difficult. Consider modifying any non-essential travel plans.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T09:04:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T17:05:55-00:00, urn:oid:2.49.0.1.124.3454610006.2021<br>Area: Mont-Joli area, Le Bic - Rimouski area, Rimouski Wildlife Reserve area",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 28, 2021 21:18",
+				"Expires_UTC" : "March 1, 2021 13:17",
+				"Summary" : "Description: Significant snowfall Tuesday\n\nSnowfall amounts may possibly exceed 25 centimetres beginning early Tuesday morning.   Strong easterly winds combined with snow are expected to reduce visibilities to zero in the blowing snow.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWinter storm watches are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T13:17:44-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T21:18:44-00:00, urn:oid:2.49.0.1.124.3938379516.2021<br>Area: Blanc-Sablon",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3454610006.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T17_05_55_00_00Iurn_oid_2.49.0.1.124.3454610006.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3938379516.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T21_18_44_00_00Iurn_oid_2.49.0.1.124.3938379516.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301090455+00:00"
+				"Expires_FMEFormat" : "20210301131744+00:00"
 			}
 		},
 		{
@@ -625,6 +612,99 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T20_51_20_00_00Iurn_oid_2.49.0.1.124.0525635297.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210301125020+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -105.6733, 69.1682 ],
+							[ -105.727, 69.0273 ],
+							[ -105.2968, 68.8552 ],
+							[ -105.1657, 68.9165 ],
+							[ -105.0185, 68.9148 ],
+							[ -104.8746, 68.9257 ],
+							[ -104.76, 68.9448 ],
+							[ -104.6509, 68.9745 ],
+							[ -104.5629, 69.0122 ],
+							[ -104.5044, 69.0525 ],
+							[ -104.4622, 69.1378 ],
+							[ -104.5126, 69.2188 ],
+							[ -104.6455, 69.2871 ],
+							[ -104.8519, 69.3339 ],
+							[ -105.0834, 69.3484 ],
+							[ -105.3231, 69.3293 ],
+							[ -105.5217, 69.2785 ],
+							[ -105.6437, 69.2077 ],
+							[ -105.6733, 69.1682 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 28, 2021 21:19",
+				"Expires_UTC" : "March 1, 2021 04:59",
+				"Summary" : "Description: Blizzard conditions are expected to end this evening. Some blowing snow may continue until overnight.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-01T04:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T21:19:22-00:00, urn:oid:2.49.0.1.124.3444146158.2021<br>Area: Cambridge Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3444146158.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T21_19_22_00_00Iurn_oid_2.49.0.1.124.3444146158.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301045922+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 28, 2021 21:18",
+				"Expires_UTC" : "March 1, 2021 13:17",
+				"Summary" : "Description: A prolonged period of extremely cold wind chills between minus 55 and minus 60 is expected to begin overnight.\n\nExtreme cold conditions will last through much of the coming week and will likely expand into other parts of the Kitikmeot though the period.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-01T13:17:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T21:18:45-00:00, urn:oid:2.49.0.1.124.3538913476.2021<br>Area: Gjoa Haven",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3538913476.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T21_18_45_00_00Iurn_oid_2.49.0.1.124.3538913476.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301131745+00:00"
 			}
 		},
 		{
