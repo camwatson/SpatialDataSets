@@ -9,38 +9,183 @@
 				"coordinates" : [
 					[
 						[
-							[ -87.4467, 48.4447 ],
-							[ -86.5309, 48.2984 ],
-							[ -86.2839, 48.5745 ],
-							[ -86.2679, 48.5796 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.9469, 48.8844 ],
-							[ -87.4321, 49.1383 ],
-							[ -87.4467, 48.4447 ]
+							[ -75.9995, 50.4999 ],
+							[ -75.9995, 50.5156 ],
+							[ -76, 51.6249 ],
+							[ -75.9579, 52.9714 ],
+							[ -76, 54.1505 ],
+							[ -77.5048, 54.1866 ],
+							[ -79.0334, 54.1637 ],
+							[ -79.0758, 54.1628 ],
+							[ -79.3716, 54.1181 ],
+							[ -79.1674, 53.684 ],
+							[ -79.0663, 53.0129 ],
+							[ -78.7944, 52.4953 ],
+							[ -78.5825, 52.3523 ],
+							[ -79.0724, 51.785 ],
+							[ -78.9371, 51.6314 ],
+							[ -78.9877, 51.6266 ],
+							[ -79.0521, 51.6205 ],
+							[ -79.1401, 51.6578 ],
+							[ -79.192, 51.7106 ],
+							[ -79.4165, 51.7137 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5368, 51.0871 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.5167, 50.5155 ],
+							[ -79.5172, 49.2829 ],
+							[ -78.5004, 49.2934 ],
+							[ -77.3232, 49.2924 ],
+							[ -76.4997, 49.2832 ],
+							[ -76.4994, 49.2832 ],
+							[ -75.9993, 49.2832 ],
+							[ -75.9995, 50.4999 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
+				"Title" : "Blowing Snow Advisory In Effect",
 				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 1, 2021 02:10",
-				"Expires_UTC" : "March 1, 2021 03:10",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2021-03-01T03:10:03-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:10:03-00:00, urn:oid:2.49.0.1.124.2542095655.2021<br>Area: Marathon - Schreiber",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:04",
+				"Expires_UTC" : "March 1, 2021 18:03",
+				"Summary" : "Description: Snow combined with strong northwesterly winds will reduce visibilities to near zero Monday.\n\n###\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T18:03:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:04:02-00:00, urn:oid:2.49.0.1.124.2359452692.2021<br>Area: Waskaganish, Joutel - Matagami area, Miquelon - Desmaraisville area, James Bay and La Grande River",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2542095655.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_10_03_00_00Iurn_oid_2.49.0.1.124.2542095655.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2359452692.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_04_02_00_00Iurn_oid_2.49.0.1.124.2359452692.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301031003+00:00"
+				"Expires_FMEFormat" : "20210301180302+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -78.907, 51.6318 ],
+							[ -76, 51.6249 ],
+							[ -75.9579, 52.9714 ],
+							[ -76, 54.1505 ],
+							[ -77.5048, 54.1866 ],
+							[ -79.0334, 54.1637 ],
+							[ -79.0758, 54.1628 ],
+							[ -79.3716, 54.1181 ],
+							[ -79.1674, 53.684 ],
+							[ -79.0663, 53.0129 ],
+							[ -78.7944, 52.4953 ],
+							[ -78.5825, 52.3523 ],
+							[ -79.0724, 51.785 ],
+							[ -78.9371, 51.6314 ],
+							[ -78.907, 51.6318 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:03",
+				"Expires_UTC" : "March 1, 2021 18:02",
+				"Summary" : "Description: Winds gusting up to 90 kilometres per hour are expected along the shore Monday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T18:02:32-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:03:32-00:00, urn:oid:2.49.0.1.124.2784601311.2021<br>Area: James Bay and La Grande River",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2784601311.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_03_32_00_00Iurn_oid_2.49.0.1.124.2784601311.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301180232+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -83.8414, 46.4826 ],
+							[ -83.9907, 46.781 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9912, 47.2516 ],
+							[ -84.6283, 47.2522 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.7351, 46.6321 ],
+							[ -84.4985, 46.6539 ],
+							[ -84.4894, 46.6516 ],
+							[ -83.8414, 46.4826 ]
+						]
+					],
+					[
+						[
+							[ -82.0969, 45.9754 ],
+							[ -81.9598, 45.9888 ],
+							[ -81.8832, 45.9727 ],
+							[ -81.8967, 45.8959 ],
+							[ -81.6625, 45.9078 ],
+							[ -81.6008, 45.8581 ],
+							[ -81.3805, 45.849 ],
+							[ -80.8486, 45.8248 ],
+							[ -80.7432, 45.8894 ],
+							[ -80.7251, 45.8899 ],
+							[ -80.5706, 45.8856 ],
+							[ -80.5701, 46.0178 ],
+							[ -80.6965, 46.106 ],
+							[ -80.9338, 46.0992 ],
+							[ -80.9338, 46.1701 ],
+							[ -81.4263, 46.1701 ],
+							[ -81.4263, 46.2733 ],
+							[ -82.0579, 46.2733 ],
+							[ -82.82, 46.2733 ],
+							[ -83.8414, 46.4826 ],
+							[ -83.7076, 46.1874 ],
+							[ -83.5976, 46.1752 ],
+							[ -83.3864, 46.0319 ],
+							[ -82.3291, 46.0103 ],
+							[ -82.178, 45.9443 ],
+							[ -82.0969, 45.9754 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 1, 2021 01:57",
+				"Expires_UTC" : "March 1, 2021 17:56",
+				"Summary" : "Description: Strong winds tonight and Monday.\n\nStrong northwest winds gusting up to 80 km/h are forecast to develop late this evening along the shorelines of northern Lake Huron, northern Georgian Bay and eastern Lake Superior. Winds will then diminish slightly overnight but are expected to strengthen again Monday morning. Gusts up to 80 km/h will be possible again Monday morning into the early afternoon. The winds will diminish Monday evening. \n\nStrong winds can throw loose objects, cause tree branches to break, and may cause property damage. Power outages are also possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T17:56:06-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:57:06-00:00, urn:oid:2.49.0.1.124.1988041094.2021<br>Area: Searchmont - Montreal River Harbour - Batchawana Bay, Blind River - Thessalon, Espanola - Killarney",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1988041094.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_57_06_00_00Iurn_oid_2.49.0.1.124.1988041094.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301175606+00:00"
 			}
 		},
 		{
@@ -111,6 +256,260 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_06_15_00_00Iurn_oid_2.49.0.1.124.4078285898.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210301135915+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -105.6733, 69.1682 ],
+							[ -105.727, 69.0273 ],
+							[ -105.2968, 68.8552 ],
+							[ -105.1657, 68.9165 ],
+							[ -105.0185, 68.9148 ],
+							[ -104.8746, 68.9257 ],
+							[ -104.76, 68.9448 ],
+							[ -104.6509, 68.9745 ],
+							[ -104.5629, 69.0122 ],
+							[ -104.5044, 69.0525 ],
+							[ -104.4622, 69.1378 ],
+							[ -104.5126, 69.2188 ],
+							[ -104.6455, 69.2871 ],
+							[ -104.8519, 69.3339 ],
+							[ -105.0834, 69.3484 ],
+							[ -105.3231, 69.3293 ],
+							[ -105.5217, 69.2785 ],
+							[ -105.6437, 69.2077 ],
+							[ -105.6733, 69.1682 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 28, 2021 21:19",
+				"Expires_UTC" : "March 1, 2021 04:59",
+				"Summary" : "Description: Blizzard conditions are expected to end this evening. Some blowing snow may continue until overnight.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-01T04:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T21:19:22-00:00, urn:oid:2.49.0.1.124.3444146158.2021<br>Area: Cambridge Bay",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3444146158.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T21_19_22_00_00Iurn_oid_2.49.0.1.124.3444146158.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301045922+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -95.3875, 68.77 ],
+							[ -95.7982, 68.8485 ],
+							[ -96.2346, 68.7983 ],
+							[ -96.4429, 68.6541 ],
+							[ -96.282, 68.483 ],
+							[ -95.8749, 68.3685 ],
+							[ -95.1282, 68.5384 ],
+							[ -95.3875, 68.77 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "February 28, 2021 21:18",
+				"Expires_UTC" : "March 1, 2021 13:17",
+				"Summary" : "Description: A prolonged period of extremely cold wind chills between minus 55 and minus 60 is expected to begin overnight.\n\nExtreme cold conditions will last through much of the coming week and will likely expand into other parts of the Kitikmeot though the period.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-01T13:17:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T21:18:45-00:00, urn:oid:2.49.0.1.124.3538913476.2021<br>Area: Gjoa Haven",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3538913476.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T21_18_45_00_00Iurn_oid_2.49.0.1.124.3538913476.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301131745+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.0754, 46.97 ],
+							[ -80.8125, 46.9683 ],
+							[ -80.8125, 46.8912 ],
+							[ -80.566, 46.8912 ],
+							[ -80.566, 46.7261 ],
+							[ -80.3679, 46.7151 ],
+							[ -79.5386, 46.7145 ],
+							[ -79.151, 46.7147 ],
+							[ -79.1099, 46.7147 ],
+							[ -79.1058, 46.7145 ],
+							[ -79.0624, 46.7207 ],
+							[ -79.141, 46.8582 ],
+							[ -79.1873, 46.8737 ],
+							[ -79.275, 46.952 ],
+							[ -79.2888, 47.0002 ],
+							[ -79.2923, 47.0127 ],
+							[ -79.3868, 47.1056 ],
+							[ -79.3589, 47.2434 ],
+							[ -79.4135, 47.302 ],
+							[ -79.4216, 47.341 ],
+							[ -79.4988, 47.4815 ],
+							[ -79.432, 47.5214 ],
+							[ -79.4188, 47.5697 ],
+							[ -79.4946, 47.5988 ],
+							[ -79.5175, 47.5701 ],
+							[ -79.5064, 47.6938 ],
+							[ -79.5176, 47.833 ],
+							[ -79.5175, 48.2511 ],
+							[ -81.0729, 48.2526 ],
+							[ -82.6293, 48.2543 ],
+							[ -82.631, 47.221 ],
+							[ -82.6356, 46.9695 ],
+							[ -81.939, 46.9696 ],
+							[ -81.0754, 46.97 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Flash Freeze Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Flash Freeze",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:09",
+				"Expires_UTC" : "March 1, 2021 11:08",
+				"Summary" : "Description: Rain or wet snow are continuing this evening as temperatures remain above the zero degree Celsius mark. Temperatures will then fall rapidly with the passage of a cold front near or after midnight.\n\nPonding water, slush, and any falling precipitation will freeze as the temperature drops.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery. Travel may be hazardous due to sudden changes in the weather.\n\nFlash freeze warnings are issued when a rapid drop in temperature is expected, that can cause water from rain or melted snow on streets and sidewalks to quickly freeze.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T11:08:13-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:09:13-00:00, urn:oid:2.49.0.1.124.3042045159.2021<br>Area: Gogama - Foleyet, Kirkland Lake - Englehart, Temiskaming Shores - Temagami",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3042045159.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_09_13_00_00Iurn_oid_2.49.0.1.124.3042045159.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301110813+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.7435, 44.0532 ],
+							[ -81.5258, 43.9562 ],
+							[ -81.3831, 43.9079 ],
+							[ -81.3748, 43.9176 ],
+							[ -81.3683, 43.9274 ],
+							[ -81.1802, 43.9549 ],
+							[ -80.9912, 43.9864 ],
+							[ -80.9846, 43.987 ],
+							[ -80.9797, 43.9878 ],
+							[ -81.0277, 44.2047 ],
+							[ -81.0823, 44.4005 ],
+							[ -81.0977, 44.4831 ],
+							[ -81.1203, 44.5511 ],
+							[ -81.199, 44.5378 ],
+							[ -81.2724, 44.5229 ],
+							[ -81.2887, 44.5846 ],
+							[ -81.2913, 44.5944 ],
+							[ -81.4622, 44.5866 ],
+							[ -81.8174, 44.0475 ],
+							[ -81.7435, 44.0532 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 01:57",
+				"Expires_UTC" : "March 1, 2021 17:56",
+				"Summary" : "Description: Strong winds tonight. Potentially damaging winds Monday.\n\nStrong west to northwesterly winds gusting up to 80 km/h are forecast to develop tonight along the shore of Lake Huron. Winds will likely diminish slightly Monday morning but will strengthen again Monday afternoon. Gusts up to 90 km/h will be possible Monday afternoon. The winds are forecast to diminish Monday evening. \n\nPower outages are possible.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T17:56:53-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:57:53-00:00, urn:oid:2.49.0.1.124.1950937235.2021<br>Area: Saugeen Shores - Kincardine - Southern Bruce County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1950937235.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_57_53_00_00Iurn_oid_2.49.0.1.124.1950937235.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301175653+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "February 28, 2021 22:35",
+				"Expires_UTC" : "March 1, 2021 14:34",
+				"Summary" : "Description: Strong southerly winds will stir up the snow and give blizzard conditions over this community until late in the night.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T14:34:01-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T22:35:01-00:00, urn:oid:2.49.0.1.124.3183874234.2021<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3183874234.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T22_35_01_00_00Iurn_oid_2.49.0.1.124.3183874234.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301143401+00:00"
 			}
 		},
 		{
@@ -212,83 +611,14 @@
 				"coordinates" : [
 					[
 						[
-							[ -105.6733, 69.1682 ],
-							[ -105.727, 69.0273 ],
-							[ -105.2968, 68.8552 ],
-							[ -105.1657, 68.9165 ],
-							[ -105.0185, 68.9148 ],
-							[ -104.8746, 68.9257 ],
-							[ -104.76, 68.9448 ],
-							[ -104.6509, 68.9745 ],
-							[ -104.5629, 69.0122 ],
-							[ -104.5044, 69.0525 ],
-							[ -104.4622, 69.1378 ],
-							[ -104.5126, 69.2188 ],
-							[ -104.6455, 69.2871 ],
-							[ -104.8519, 69.3339 ],
-							[ -105.0834, 69.3484 ],
-							[ -105.3231, 69.3293 ],
-							[ -105.5217, 69.2785 ],
-							[ -105.6437, 69.2077 ],
-							[ -105.6733, 69.1682 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "February 28, 2021 21:19",
-				"Expires_UTC" : "March 1, 2021 04:59",
-				"Summary" : "Description: Blizzard conditions are expected to end this evening. Some blowing snow may continue until overnight.\n\n###\n\nTravel is expected to be extremely hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-01T04:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T21:19:22-00:00, urn:oid:2.49.0.1.124.3444146158.2021<br>Area: Cambridge Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3444146158.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T21_19_22_00_00Iurn_oid_2.49.0.1.124.3444146158.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301045922+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -82.411, 69.4413 ],
-							[ -82.4142, 69.3021 ],
-							[ -82.1715, 69.1889 ],
-							[ -81.8079, 69.1512 ],
-							[ -81.435, 69.199 ],
-							[ -81.4236, 69.3283 ],
-							[ -81.4161, 69.4318 ],
-							[ -81.817, 69.4695 ],
-							[ -81.9506, 69.4089 ],
-							[ -82.2197, 69.405 ],
-							[ -82.3907, 69.4415 ],
-							[ -82.411, 69.4413 ]
-						]
-					],
-					[
-						[
-							[ -81.8004, 68.8639 ],
-							[ -81.8335, 68.7595 ],
-							[ -81.7346, 68.6648 ],
-							[ -81.5301, 68.5966 ],
-							[ -81.0418, 68.5342 ],
-							[ -81.0006, 68.5737 ],
-							[ -81.0228, 68.9232 ],
-							[ -81.723, 68.9232 ],
-							[ -81.8004, 68.8639 ]
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
 						]
 					]
 				]
@@ -301,59 +631,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:18",
-				"Expires_UTC" : "March 1, 2021 18:18",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-01T18:18:44-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:18:44-00:00, urn:oid:2.49.0.1.124.3769279100.2021<br>Area: Sanirajak, Igloolik",
+				"LastUpdate_UTC" : "February 28, 2021 22:35",
+				"Expires_UTC" : "March 1, 2021 14:34",
+				"Summary" : "Description: An extreme cold period with wind chill values of approximately minus 52 is occurring. Conditions will improve Monday.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T14:34:18-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T22:35:18-00:00, urn:oid:2.49.0.1.124.1743880504.2021<br>Area: Salluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3769279100.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_18_44_00_00Iurn_oid_2.49.0.1.124.3769279100.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.1743880504.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T22_35_18_00_00Iurn_oid_2.49.0.1.124.1743880504.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301181844+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.3875, 68.77 ],
-							[ -95.7982, 68.8485 ],
-							[ -96.2346, 68.7983 ],
-							[ -96.4429, 68.6541 ],
-							[ -96.282, 68.483 ],
-							[ -95.8749, 68.3685 ],
-							[ -95.1282, 68.5384 ],
-							[ -95.3875, 68.77 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "February 28, 2021 21:18",
-				"Expires_UTC" : "March 1, 2021 13:17",
-				"Summary" : "Description: A prolonged period of extremely cold wind chills between minus 55 and minus 60 is expected to begin overnight.\n\nExtreme cold conditions will last through much of the coming week and will likely expand into other parts of the Kitikmeot though the period.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-01T13:17:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T21:18:45-00:00, urn:oid:2.49.0.1.124.3538913476.2021<br>Area: Gjoa Haven",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3538913476.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T21_18_45_00_00Iurn_oid_2.49.0.1.124.3538913476.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301131745+00:00"
+				"Expires_FMEFormat" : "20210301143418+00:00"
 			}
 		},
 		{
@@ -430,143 +719,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -81.7435, 44.0532 ],
-							[ -81.5258, 43.9562 ],
-							[ -81.3831, 43.9079 ],
-							[ -81.3748, 43.9176 ],
-							[ -81.3683, 43.9274 ],
-							[ -81.1802, 43.9549 ],
-							[ -80.9912, 43.9864 ],
-							[ -80.9846, 43.987 ],
-							[ -80.9797, 43.9878 ],
-							[ -81.0277, 44.2047 ],
-							[ -81.0823, 44.4005 ],
-							[ -81.0977, 44.4831 ],
-							[ -81.1203, 44.5511 ],
-							[ -81.199, 44.5378 ],
-							[ -81.2724, 44.5229 ],
-							[ -81.2887, 44.5846 ],
-							[ -81.2913, 44.5944 ],
-							[ -81.4622, 44.5866 ],
-							[ -81.8174, 44.0475 ],
-							[ -81.7435, 44.0532 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 01:57",
-				"Expires_UTC" : "March 1, 2021 17:56",
-				"Summary" : "Description: Strong winds tonight. Potentially damaging winds Monday.\n\nStrong west to northwesterly winds gusting up to 80 km/h are forecast to develop tonight along the shore of Lake Huron. Winds will likely diminish slightly Monday morning but will strengthen again Monday afternoon. Gusts up to 90 km/h will be possible Monday afternoon. The winds are forecast to diminish Monday evening. \n\nPower outages are possible.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T17:56:53-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:57:53-00:00, urn:oid:2.49.0.1.124.1950937235.2021<br>Area: Saugeen Shores - Kincardine - Southern Bruce County",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1950937235.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_57_53_00_00Iurn_oid_2.49.0.1.124.1950937235.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301175653+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -134.8205, 68.6539 ],
-							[ -135.1491, 68.6544 ],
-							[ -135.2643, 68.6955 ],
-							[ -135.3318, 68.6907 ],
-							[ -135.3054, 68.6544 ],
-							[ -136.4483, 68.6502 ],
-							[ -136.4596, 68.5843 ],
-							[ -136.4483, 68.4998 ],
-							[ -136.4483, 67.8636 ],
-							[ -136.4483, 67.7088 ],
-							[ -136.6, 67.7081 ],
-							[ -136.599, 67.6198 ],
-							[ -136.3751, 67.5717 ],
-							[ -136.3691, 67.3323 ],
-							[ -136.2898, 67.2533 ],
-							[ -136.3737, 67.1424 ],
-							[ -136.3978, 67.1103 ],
-							[ -136.4139, 67.0889 ],
-							[ -136.3553, 66.9923 ],
-							[ -136.012, 67 ],
-							[ -135.5163, 66.9908 ],
-							[ -134.9833, 67 ],
-							[ -134.6249, 66.9942 ],
-							[ -134.2512, 67 ],
-							[ -133.8504, 66.9932 ],
-							[ -133.591, 67.0054 ],
-							[ -133.2737, 67.0038 ],
-							[ -133.011, 67.0157 ],
-							[ -133.0009, 67.1165 ],
-							[ -133.0064, 67.2151 ],
-							[ -132.9819, 67.5732 ],
-							[ -133.0092, 67.8428 ],
-							[ -133.0012, 68.2704 ],
-							[ -133.0684, 68.6546 ],
-							[ -132.8203, 68.6469 ],
-							[ -132.5903, 68.6515 ],
-							[ -132.6302, 69.1236 ],
-							[ -132.7334, 69.5253 ],
-							[ -132.9811, 69.526 ],
-							[ -133.0809, 69.5269 ],
-							[ -133.2424, 69.7062 ],
-							[ -133.6843, 69.7117 ],
-							[ -133.8748, 69.7432 ],
-							[ -134.1813, 69.5985 ],
-							[ -134.1487, 69.5248 ],
-							[ -134.6088, 69.5219 ],
-							[ -134.625, 69.5217 ],
-							[ -134.6503, 69.7494 ],
-							[ -135.028, 69.7482 ],
-							[ -134.9727, 69.2322 ],
-							[ -134.8205, 68.6539 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 28, 2021 22:53",
-				"Expires_UTC" : "March 1, 2021 14:52",
-				"Summary" : "Description: Extreme cold wind chill values near minus 50 are expected to persist into Monday.\n\nThe Tuktoyaktuk area may experience wind chill values between minus 50 and minus 55 until later in the week.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2021-03-01T14:52:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T22:53:02-00:00, urn:oid:2.49.0.1.124.3306651491.2021<br>Area: Tuktoyaktuk - East Channel Region, Aklavik Region, Inuvik Region, South Delta Region including Ft. McPherson - Tsiigehtchic",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3306651491.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T22_53_02_00_00Iurn_oid_2.49.0.1.124.3306651491.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301145202+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -57.1156, 52.1 ],
 							[ -57.1159, 52.0026 ],
 							[ -57.1159, 51.9984 ],
@@ -610,47 +762,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_53_00_00_00Iurn_oid_2.49.0.1.124.1278955707.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210301175200+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Extreme Cold Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 28, 2021 22:35",
-				"Expires_UTC" : "March 1, 2021 14:34",
-				"Summary" : "Description: An extreme cold period with wind chill values of approximately minus 52 is occurring. Conditions will improve Monday.\n\n###\n\nExtreme cold puts everyone at risk.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T14:34:18-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T22:35:18-00:00, urn:oid:2.49.0.1.124.1743880504.2021<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.1743880504.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T22_35_18_00_00Iurn_oid_2.49.0.1.124.1743880504.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301143418+00:00"
 			}
 		},
 		{
@@ -721,73 +832,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_51_36_00_00Iurn_oid_2.49.0.1.124.2768975499.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210301025136+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -81.0754, 46.97 ],
-							[ -80.8125, 46.9683 ],
-							[ -80.8125, 46.8912 ],
-							[ -80.566, 46.8912 ],
-							[ -80.566, 46.7261 ],
-							[ -80.3679, 46.7151 ],
-							[ -79.5386, 46.7145 ],
-							[ -79.151, 46.7147 ],
-							[ -79.1099, 46.7147 ],
-							[ -79.1058, 46.7145 ],
-							[ -79.0624, 46.7207 ],
-							[ -79.141, 46.8582 ],
-							[ -79.1873, 46.8737 ],
-							[ -79.275, 46.952 ],
-							[ -79.2888, 47.0002 ],
-							[ -79.2923, 47.0127 ],
-							[ -79.3868, 47.1056 ],
-							[ -79.3589, 47.2434 ],
-							[ -79.4135, 47.302 ],
-							[ -79.4216, 47.341 ],
-							[ -79.4988, 47.4815 ],
-							[ -79.432, 47.5214 ],
-							[ -79.4188, 47.5697 ],
-							[ -79.4946, 47.5988 ],
-							[ -79.5175, 47.5701 ],
-							[ -79.5064, 47.6938 ],
-							[ -79.5176, 47.833 ],
-							[ -79.5175, 48.2511 ],
-							[ -81.0729, 48.2526 ],
-							[ -82.6293, 48.2543 ],
-							[ -82.631, 47.221 ],
-							[ -82.6356, 46.9695 ],
-							[ -81.939, 46.9696 ],
-							[ -81.0754, 46.97 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Flash Freeze Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Flash Freeze",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:09",
-				"Expires_UTC" : "March 1, 2021 11:08",
-				"Summary" : "Description: Rain or wet snow are continuing this evening as temperatures remain above the zero degree Celsius mark. Temperatures will then fall rapidly with the passage of a cold front near or after midnight.\n\nPonding water, slush, and any falling precipitation will freeze as the temperature drops.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery. Travel may be hazardous due to sudden changes in the weather.\n\nFlash freeze warnings are issued when a rapid drop in temperature is expected, that can cause water from rain or melted snow on streets and sidewalks to quickly freeze.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T11:08:13-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:09:13-00:00, urn:oid:2.49.0.1.124.3042045159.2021<br>Area: Gogama - Foleyet, Kirkland Lake - Englehart, Temiskaming Shores - Temagami",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3042045159.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_09_13_00_00Iurn_oid_2.49.0.1.124.3042045159.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301110813+00:00"
 			}
 		},
 		{
@@ -910,83 +954,57 @@
 				"coordinates" : [
 					[
 						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 28, 2021 22:35",
-				"Expires_UTC" : "March 1, 2021 14:34",
-				"Summary" : "Description: Strong southerly winds will stir up the snow and give blizzard conditions over this community until late in the night.\n\nA blizzard warning is issued when winds are expected to produce blowing snow with widespread visibilities of 400 metres or less for at least 6 hours.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T14:34:01-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T22:35:01-00:00, urn:oid:2.49.0.1.124.3183874234.2021<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3183874234.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T22_35_01_00_00Iurn_oid_2.49.0.1.124.3183874234.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301143401+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -87.9958, 53.2172 ],
-							[ -88.0338, 52.7599 ],
-							[ -87.9904, 52.2453 ],
-							[ -83.0383, 52.2455 ],
-							[ -83.0302, 52.2453 ],
-							[ -82.9115, 51.9291 ],
-							[ -81.6114, 52.4649 ],
-							[ -81.4236, 52.4881 ],
-							[ -82.2216, 53.0256 ],
-							[ -81.9632, 53.3416 ],
-							[ -81.9568, 53.9804 ],
-							[ -82.0824, 54.6123 ],
-							[ -82.007, 55.0671 ],
-							[ -82.2786, 55.1755 ],
-							[ -82.7847, 55.1832 ],
-							[ -82.9498, 55.2286 ],
-							[ -83.9602, 55.3859 ],
-							[ -84.958, 55.3741 ],
-							[ -85.6784, 55.7283 ],
-							[ -86.9972, 56.0007 ],
-							[ -87.4589, 56.1029 ],
-							[ -87.9073, 56.4915 ],
-							[ -88.6479, 56.724 ],
-							[ -88.9057, 56.9017 ],
-							[ -88.9894, 56.8474 ],
-							[ -89.8863, 56.3004 ],
-							[ -90.1757, 56.1351 ],
-							[ -90.4723, 55.9307 ],
-							[ -91.0742, 55.5552 ],
-							[ -91.653, 55.1549 ],
-							[ -92.6285, 54.5171 ],
-							[ -93.4241, 53.9089 ],
-							[ -92.0252, 53.7297 ],
-							[ -90.5082, 53.543 ],
-							[ -89.3769, 53.3863 ],
-							[ -87.9958, 53.2172 ]
+							[ -134.8205, 68.6539 ],
+							[ -135.1491, 68.6544 ],
+							[ -135.2643, 68.6955 ],
+							[ -135.3318, 68.6907 ],
+							[ -135.3054, 68.6544 ],
+							[ -136.4483, 68.6502 ],
+							[ -136.4596, 68.5843 ],
+							[ -136.4483, 68.4998 ],
+							[ -136.4483, 67.8636 ],
+							[ -136.4483, 67.7088 ],
+							[ -136.6, 67.7081 ],
+							[ -136.599, 67.6198 ],
+							[ -136.3751, 67.5717 ],
+							[ -136.3691, 67.3323 ],
+							[ -136.2898, 67.2533 ],
+							[ -136.3737, 67.1424 ],
+							[ -136.3978, 67.1103 ],
+							[ -136.4139, 67.0889 ],
+							[ -136.3553, 66.9923 ],
+							[ -136.012, 67 ],
+							[ -135.5163, 66.9908 ],
+							[ -134.9833, 67 ],
+							[ -134.6249, 66.9942 ],
+							[ -134.2512, 67 ],
+							[ -133.8504, 66.9932 ],
+							[ -133.591, 67.0054 ],
+							[ -133.2737, 67.0038 ],
+							[ -133.011, 67.0157 ],
+							[ -133.0009, 67.1165 ],
+							[ -133.0064, 67.2151 ],
+							[ -132.9819, 67.5732 ],
+							[ -133.0092, 67.8428 ],
+							[ -133.0012, 68.2704 ],
+							[ -133.0684, 68.6546 ],
+							[ -132.8203, 68.6469 ],
+							[ -132.5903, 68.6515 ],
+							[ -132.6302, 69.1236 ],
+							[ -132.7334, 69.5253 ],
+							[ -132.9811, 69.526 ],
+							[ -133.0809, 69.5269 ],
+							[ -133.2424, 69.7062 ],
+							[ -133.6843, 69.7117 ],
+							[ -133.8748, 69.7432 ],
+							[ -134.1813, 69.5985 ],
+							[ -134.1487, 69.5248 ],
+							[ -134.6088, 69.5219 ],
+							[ -134.625, 69.5217 ],
+							[ -134.6503, 69.7494 ],
+							[ -135.028, 69.7482 ],
+							[ -134.9727, 69.2322 ],
+							[ -134.8205, 68.6539 ]
 						]
 					]
 				]
@@ -999,18 +1017,823 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:02",
-				"Expires_UTC" : "March 1, 2021 18:01",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values between minus 45 and minus 50 are expected overnight tonight and continue until late Monday morning.\n\n###\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T18:01:52-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:02:52-00:00, urn:oid:2.49.0.1.124.0875910186.2021<br>Area: Attawapiskat, Fort Severn, Peawanuck, Sachigo Lake - Bearskin Lake, Big Trout Lake - Kasabonika, Webequie",
+				"LastUpdate_UTC" : "February 28, 2021 22:53",
+				"Expires_UTC" : "March 1, 2021 14:52",
+				"Summary" : "Description: Extreme cold wind chill values near minus 50 are expected to persist into Monday.\n\nThe Tuktoyaktuk area may experience wind chill values between minus 50 and minus 55 until later in the week.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NTstorm@canada.ca or tweet reports using #NTStorm.<br>Expires: 2021-03-01T14:52:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T22:53:02-00:00, urn:oid:2.49.0.1.124.3306651491.2021<br>Area: Tuktoyaktuk - East Channel Region, Aklavik Region, Inuvik Region, South Delta Region including Ft. McPherson - Tsiigehtchic",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.0875910186.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_02_52_00_00Iurn_oid_2.49.0.1.124.0875910186.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.3306651491.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T22_53_02_00_00Iurn_oid_2.49.0.1.124.3306651491.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301180152+00:00"
+				"Expires_FMEFormat" : "20210301145202+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -52.7949, 47.8738 ],
+							[ -52.7347, 48.2265 ],
+							[ -52.9479, 48.2795 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -55.1082, 50.9286 ],
+							[ -55.0753, 51.6311 ],
+							[ -55.1389, 51.9905 ],
+							[ -55.2908, 52.0995 ],
+							[ -55.8517, 51.8524 ],
+							[ -56.8508, 51.3971 ],
+							[ -57.413, 50.8767 ],
+							[ -57.5354, 50.5797 ],
+							[ -57.4008, 50.5801 ],
+							[ -56.8199, 50.58 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ],
+							[ -56.817, 49.2073 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.4199, 48.2499 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -56.123, 46.9615 ],
+							[ -56.0644, 46.8176 ],
+							[ -55.955, 46.6458 ],
+							[ -55.3398, 46.5142 ],
+							[ -54.4101, 47.3978 ],
+							[ -54.2539, 47.2985 ],
+							[ -54.2788, 46.76 ],
+							[ -53.9769, 46.7384 ],
+							[ -53.7909, 46.8875 ],
+							[ -53.7094, 46.6077 ],
+							[ -53.4389, 46.5175 ],
+							[ -52.9939, 46.5704 ],
+							[ -52.911, 46.7993 ],
+							[ -52.735, 47.1318 ],
+							[ -52.4979, 47.5724 ],
+							[ -52.7949, 47.8738 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 1, 2021 01:53",
+				"Expires_UTC" : "March 1, 2021 17:52",
+				"Summary" : "Description: Significant snowfall expected beginning early Tuesday morning.\n\nLocations: most of Newfoundland.\n\nTotal snowfall: 10 to 15 cm or more, especially on the Great Northern Peninsula and Baie Verte Peninsula.\n\nMaximum wind gusts: 80 to 100 km/h or higher.\n\nTime span: Tuesday.\n\nRemarks: Snow is expected to spread across Newfoundland on Tuesday, in combination with strong southeasterly winds and blowing snow. The snow may change to rain or freezing rain over southern parts of the island during the early-afternoon. Conditions will improve Tuesday afternoon or evening.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-01T17:52:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:53:55-00:00, urn:oid:2.49.0.1.124.3034689949.2021<br>Area: Avalon Peninsula North, Avalon Peninsula Southeast, St. John's and vicinity, Avalon Peninsula Southwest, Burin Peninsula, Connaigre, Buchans and the interior, Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Gander and vicinity, Green Bay - White Bay, Terra Nova, Northern Peninsula East, Port Saunders and the Straits",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3034689949.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_53_55_00_00Iurn_oid_2.49.0.1.124.3034689949.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301175255+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -81.8031, 43.8383 ],
+							[ -81.7783, 43.333 ],
+							[ -81.7554, 43.3155 ],
+							[ -81.7431, 43.3101 ],
+							[ -81.7453, 43.3068 ],
+							[ -81.753, 43.3073 ],
+							[ -81.755, 43.2931 ],
+							[ -81.78, 43.2957 ],
+							[ -81.7968, 43.2428 ],
+							[ -81.7738, 43.2379 ],
+							[ -81.7716, 43.2368 ],
+							[ -81.7485, 43.2393 ],
+							[ -81.6138, 43.2506 ],
+							[ -81.4655, 43.2706 ],
+							[ -81.4627, 43.2787 ],
+							[ -81.4689, 43.2889 ],
+							[ -81.4306, 43.293 ],
+							[ -81.4, 43.2764 ],
+							[ -81.3636, 43.2638 ],
+							[ -81.3165, 43.3129 ],
+							[ -81.2894, 43.3592 ],
+							[ -81.3085, 43.3915 ],
+							[ -81.3424, 43.3818 ],
+							[ -81.4401, 43.4205 ],
+							[ -81.3488, 43.5317 ],
+							[ -81.2872, 43.5027 ],
+							[ -81.2023, 43.5994 ],
+							[ -81.2052, 43.6013 ],
+							[ -81.179, 43.6332 ],
+							[ -81.1493, 43.6187 ],
+							[ -81.0304, 43.7718 ],
+							[ -81.1004, 43.788 ],
+							[ -81.0771, 43.8105 ],
+							[ -81.0091, 43.8151 ],
+							[ -80.9533, 43.8223 ],
+							[ -80.966, 43.9059 ],
+							[ -80.9912, 43.9864 ],
+							[ -81.1999, 43.9635 ],
+							[ -81.3683, 43.9274 ],
+							[ -81.3831, 43.9079 ],
+							[ -81.5667, 43.9871 ],
+							[ -81.7423, 44.0529 ],
+							[ -81.7435, 44.0532 ],
+							[ -81.8174, 44.0475 ],
+							[ -81.8031, 43.8383 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 1, 2021 01:58",
+				"Expires_UTC" : "March 1, 2021 17:57",
+				"Summary" : "Description: Strong winds tonight and Monday.\n\nStrong west to northwesterly winds gusting up to 80 km/h will develop tonight along the shoreline of Lake Huron. Winds will diminish Monday morning but will likely strengthen again Monday afternoon. Gusts up to 80 km/h will be possible again Monday afternoon. The strong winds will diminish Monday evening.\n\nThe strong winds may throw loose objects, cause tree branches to break, and damage property. Power outages will also be possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T17:57:21-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:58:21-00:00, urn:oid:2.49.0.1.124.3055896140.2021<br>Area: Wingham - Blyth - Northern Huron County, Goderich - Bluewater - Southern Huron County",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3055896140.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_58_21_00_00Iurn_oid_2.49.0.1.124.3055896140.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301175721+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -87.4467, 48.4447 ],
+							[ -86.5309, 48.2984 ],
+							[ -86.2839, 48.5745 ],
+							[ -86.2679, 48.5796 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.9469, 48.8844 ],
+							[ -87.4321, 49.1383 ],
+							[ -87.4467, 48.4447 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Weather Advisory Ended",
+				"Category" : "Actual",
+				"event" : "Weather",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 1, 2021 02:10",
+				"Expires_UTC" : "March 1, 2021 03:10",
+				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2021-03-01T03:10:03-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:10:03-00:00, urn:oid:2.49.0.1.124.2542095655.2021<br>Area: Marathon - Schreiber",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2542095655.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_10_03_00_00Iurn_oid_2.49.0.1.124.2542095655.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301031003+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Wreckhouse Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 1, 2021 01:54",
+				"Expires_UTC" : "March 1, 2021 17:53",
+				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\nMaximum gusts: southeasterly up to 140 km/h in the Wreckhouse area.\n\nTime span: Monday evening until Tuesday morning.\n\nRemarks: Southeasterly winds gusting to 100 km/h will develop Monday evening then increase to 140 km/h overnight. Winds will ease upon shifting to strong southwesterly Tuesday morning.\n\n###\n\nDrivers may lose control of their vehicles; tall vehicles are at risk of being overturned.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-01T17:53:23-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:54:23-00:00, urn:oid:2.49.0.1.124.3812028770.2021<br>Area: Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3812028770.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_54_23_00_00Iurn_oid_2.49.0.1.124.3812028770.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301175323+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -73.3664, 45.4998 ],
+							[ -73.3997, 45.4332 ],
+							[ -73.5498, 45.3665 ],
+							[ -73.5335, 45.3325 ],
+							[ -73.4673, 45.2655 ],
+							[ -73.4835, 45.217 ],
+							[ -73.4832, 45.2165 ],
+							[ -73.4507, 45.1665 ],
+							[ -73.4498, 45.1651 ],
+							[ -73.4512, 45.0088 ],
+							[ -73.4513, 45.0005 ],
+							[ -73.1194, 45.0019 ],
+							[ -73.0636, 45.2332 ],
+							[ -73.0516, 45.2831 ],
+							[ -72.7885, 45.4669 ],
+							[ -72.4986, 45.667 ],
+							[ -72.5018, 45.6657 ],
+							[ -72.7168, 45.8498 ],
+							[ -72.7965, 45.9176 ],
+							[ -72.9555, 46.0521 ],
+							[ -72.9808, 46.0734 ],
+							[ -73.0173, 46.1186 ],
+							[ -73.0479, 46.1579 ],
+							[ -73.0559, 46.1786 ],
+							[ -73.1623, 46.1349 ],
+							[ -73.2065, 46.0739 ],
+							[ -73.2215, 45.991 ],
+							[ -73.2243, 45.9878 ],
+							[ -73.3097, 45.8917 ],
+							[ -73.377, 45.8363 ],
+							[ -73.3775, 45.8359 ],
+							[ -73.4755, 45.7402 ],
+							[ -73.4273, 45.7208 ],
+							[ -73.4268, 45.7206 ],
+							[ -73.4164, 45.6998 ],
+							[ -73.4119, 45.6821 ],
+							[ -73.3664, 45.4998 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:09",
+				"Expires_UTC" : "March 1, 2021 13:59",
+				"Summary" : "Description: Southerly winds will be gusting up to 90 kilometres per hour overnight tonight.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T13:59:28-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:09:28-00:00, urn:oid:2.49.0.1.124.3793306937.2021<br>Area: Sorel - Yamaska area, Saint-Hyacinthe - Acton Vale area, Verchères - Beloeil area, Saint-Jean - Marieville area, Lacolle area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3793306937.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_09_28_00_00Iurn_oid_2.49.0.1.124.3793306937.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301135928+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -82.411, 69.4413 ],
+							[ -82.4142, 69.3021 ],
+							[ -82.1715, 69.1889 ],
+							[ -81.8079, 69.1512 ],
+							[ -81.435, 69.199 ],
+							[ -81.4236, 69.3283 ],
+							[ -81.4161, 69.4318 ],
+							[ -81.817, 69.4695 ],
+							[ -81.9506, 69.4089 ],
+							[ -82.2197, 69.405 ],
+							[ -82.3907, 69.4415 ],
+							[ -82.411, 69.4413 ]
+						]
+					],
+					[
+						[
+							[ -81.8004, 68.8639 ],
+							[ -81.8335, 68.7595 ],
+							[ -81.7346, 68.6648 ],
+							[ -81.5301, 68.5966 ],
+							[ -81.0418, 68.5342 ],
+							[ -81.0006, 68.5737 ],
+							[ -81.0228, 68.9232 ],
+							[ -81.723, 68.9232 ],
+							[ -81.8004, 68.8639 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Extreme Cold",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:19",
+				"Expires_UTC" : "March 1, 2021 18:18",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nLight north winds combined with temperatures in the mid minus forties will result in wind chill values of -55 or lower overnight into Monday morning. Wind chill values will moderate slightly Monday afternoon however extreme wind chill values are expected to return to the area Monday night into Tuesday morning.\n\n###\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-01T18:18:44-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:19:44-00:00, urn:oid:2.49.0.1.124.3508248917.2021<br>Area: Sanirajak, Igloolik",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3508248917.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_19_44_00_00Iurn_oid_2.49.0.1.124.3508248917.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301181844+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -80.8407, 51.8738 ],
+							[ -82.1507, 51.3164 ],
+							[ -82.1596, 51.3124 ],
+							[ -81.4395, 50.7218 ],
+							[ -79.5166, 50.7219 ],
+							[ -79.496, 51.0628 ],
+							[ -79.5164, 51.4684 ],
+							[ -79.5979, 51.5496 ],
+							[ -79.8297, 51.4271 ],
+							[ -79.8263, 51.2605 ],
+							[ -80.0462, 51.3571 ],
+							[ -80.2894, 51.3971 ],
+							[ -80.3594, 51.6003 ],
+							[ -80.6927, 51.9724 ],
+							[ -80.8373, 51.8769 ],
+							[ -80.8407, 51.8738 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:07",
+				"Expires_UTC" : "March 1, 2021 15:59",
+				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\nSnow, at times heavy, continues to affect the Moosonee area tonight.\n\nAdditionally, strong northwest winds gusting up to 60 km/h will develop late this evening creating localized areas of blowing snow.\n\nConditions are expected to improve by Monday morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T15:59:18-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:07:18-00:00, urn:oid:2.49.0.1.124.3671873770.2021<br>Area: Moosonee",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3671873770.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_07_18_00_00Iurn_oid_2.49.0.1.124.3671873770.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301155918+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.021, 49.9497 ],
+							[ -85.9469, 49.9546 ],
+							[ -85.9469, 48.8844 ],
+							[ -86.0931, 48.7455 ],
+							[ -85.2219, 48.2896 ],
+							[ -84.2401, 48.0978 ],
+							[ -84.2352, 48.0981 ],
+							[ -83.996, 48.1106 ],
+							[ -83.9939, 48.1107 ],
+							[ -84.002, 48.5499 ],
+							[ -84.002, 48.5501 ],
+							[ -84.0021, 48.5526 ],
+							[ -84.0021, 49.1609 ],
+							[ -82.6268, 49.1616 ],
+							[ -81.4426, 49.1637 ],
+							[ -81.4419, 49.5091 ],
+							[ -81.4395, 50.7218 ],
+							[ -82.1596, 51.3124 ],
+							[ -82.8343, 51.8669 ],
+							[ -82.9115, 51.9291 ],
+							[ -82.9587, 51.9629 ],
+							[ -83.221, 51.817 ],
+							[ -83.3889, 51.624 ],
+							[ -83.6224, 51.498 ],
+							[ -83.7667, 51.4751 ],
+							[ -83.8976, 51.3876 ],
+							[ -84.1527, 51.3077 ],
+							[ -84.05, 51.1582 ],
+							[ -84.021, 49.9497 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 01:59",
+				"Expires_UTC" : "March 1, 2021 15:59",
+				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\nSnow, at times heavy, continues tonight. Snowfall accumulations near 15 cm are expected by early Monday morning.\n\nAdditionally, strong northwest winds gusting up to 70 km/h will develop late this evening creating localized areas of blowing snow.\n\nConditions are expected to improve by Monday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T15:59:50-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:59:50-00:00, urn:oid:2.49.0.1.124.1310768367.2021<br>Area: Manitouwadge - Hornepayne, White River - Dubreuilville, Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1310768367.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_59_50_00_00Iurn_oid_2.49.0.1.124.1310768367.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301155950+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -68.6166, 48.0496 ],
+							[ -68.3823, 47.9128 ],
+							[ -68.3823, 47.9161 ],
+							[ -68.1227, 47.9163 ],
+							[ -68.1226, 47.9998 ],
+							[ -67.6656, 48 ],
+							[ -67.6035, 47.9999 ],
+							[ -67.6276, 48.2166 ],
+							[ -67.6498, 48.4154 ],
+							[ -67.6687, 48.5824 ],
+							[ -67.669, 48.5823 ],
+							[ -67.6692, 48.5823 ],
+							[ -67.7056, 48.6956 ],
+							[ -67.7304, 48.7727 ],
+							[ -67.7305, 48.773 ],
+							[ -67.508, 49.2382 ],
+							[ -68.5214, 48.9033 ],
+							[ -69.2423, 48.4587 ],
+							[ -68.9741, 48.2826 ],
+							[ -68.6207, 48.05 ],
+							[ -68.6193, 48.0511 ],
+							[ -68.6166, 48.0496 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:07",
+				"Expires_UTC" : "March 1, 2021 18:06",
+				"Summary" : "Description: Strong winds combined with snow will reduce visibilities to near zero beginning Monday evening. Weather conditions will improve late Tuesday.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T18:06:39-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:07:39-00:00, urn:oid:2.49.0.1.124.2078830051.2021<br>Area: Mont-Joli area, Le Bic - Rimouski area, Rimouski Wildlife Reserve area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2078830051.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_07_39_00_00Iurn_oid_2.49.0.1.124.2078830051.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301180639+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ],
+							[ -56.4199, 47.6108 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.5671, 48.1004 ],
+							[ -59.0956, 48.1003 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 01:54",
+				"Expires_UTC" : "March 1, 2021 17:53",
+				"Summary" : "Description: Blizzard conditions with poor visibility occasionally near zero in snow and blowing snow are expected or occurring.\n\nTotal snowfall: 20 to 30 cm.\n\nMaximum wind gusts: easterly 80 to 120 km/h with higher gusts in the Wreckhouse area.\n\nLocations: Codroy Valley and eastward to the Ramea area.\n\nTime span: Monday evening to Tuesday morning.\n\nRemarks: Snow, at times heavy, is expected to develop Monday evening. Very strong easterly winds will also develop Monday evening and continue to strengthen towards Tuesday morning. Blizzard conditions should begin to subside during the morning on Tuesday.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-01T17:53:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:54:55-00:00, urn:oid:2.49.0.1.124.2073325514.2021<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2073325514.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_54_55_00_00Iurn_oid_2.49.0.1.124.2073325514.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301175355+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -76.4994, 49.2832 ],
+							[ -76.4997, 49.2832 ],
+							[ -77.3232, 49.2924 ],
+							[ -78.5004, 49.2934 ],
+							[ -79.5172, 49.2829 ],
+							[ -79.5172, 49.1428 ],
+							[ -79.5289, 48.9206 ],
+							[ -79.5174, 48.6069 ],
+							[ -79.5246, 48.5242 ],
+							[ -79.5174, 48.4498 ],
+							[ -79.5258, 48.3407 ],
+							[ -79.5175, 48.2511 ],
+							[ -79.5176, 47.833 ],
+							[ -79.5304, 47.6882 ],
+							[ -79.5175, 47.5701 ],
+							[ -79.6092, 47.5715 ],
+							[ -79.6195, 47.54 ],
+							[ -79.687, 47.5405 ],
+							[ -79.7294, 47.4978 ],
+							[ -79.5041, 47.2572 ],
+							[ -79.495, 47.191 ],
+							[ -79.5029, 47.1331 ],
+							[ -79.4724, 47.0616 ],
+							[ -79.3905, 47.0009 ],
+							[ -79.3866, 46.9548 ],
+							[ -79.2784, 46.831 ],
+							[ -79.1929, 46.7888 ],
+							[ -79.151, 46.7147 ],
+							[ -79.1164, 46.6533 ],
+							[ -79.0508, 46.6095 ],
+							[ -79.0245, 46.5322 ],
+							[ -78.8798, 46.4221 ],
+							[ -78.7697, 46.3652 ],
+							[ -78.7789, 46.3348 ],
+							[ -78.7478, 46.2963 ],
+							[ -78.6517, 46.2939 ],
+							[ -78.4088, 46.2646 ],
+							[ -78.3696, 46.2441 ],
+							[ -78.3488, 46.2332 ],
+							[ -78.2678, 46.2261 ],
+							[ -78.2384, 46.2433 ],
+							[ -78.1458, 46.243 ],
+							[ -78.0634, 46.2008 ],
+							[ -78.0059, 46.2115 ],
+							[ -77.8553, 46.168 ],
+							[ -77.825, 46.1394 ],
+							[ -77.7691, 46.1256 ],
+							[ -77.7513, 46.1609 ],
+							[ -77.7479, 46.1941 ],
+							[ -77.7484, 46.2127 ],
+							[ -77.7484, 46.2404 ],
+							[ -77.7501, 46.9998 ],
+							[ -77.3649, 46.9966 ],
+							[ -77.0011, 47 ],
+							[ -76.6569, 46.8048 ],
+							[ -76.3327, 46.6332 ],
+							[ -75.8328, 46.9998 ],
+							[ -75.2705, 46.9932 ],
+							[ -74.7495, 46.9999 ],
+							[ -74.7495, 46.9987 ],
+							[ -73.4169, 46.9988 ],
+							[ -73.4177, 46.9998 ],
+							[ -73.4403, 47.0439 ],
+							[ -73.4687, 47.0993 ],
+							[ -73.4166, 47.1998 ],
+							[ -73.0011, 47.2021 ],
+							[ -73.0007, 47.7998 ],
+							[ -73.0004, 48.3331 ],
+							[ -73.0002, 48.6669 ],
+							[ -73.667, 48.9996 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.4993, 49.55 ],
+							[ -72.6666, 49.6653 ],
+							[ -72.6628, 49.6658 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 51.647 ],
+							[ -72.011, 51.6472 ],
+							[ -75.9391, 51.6264 ],
+							[ -76, 51.6249 ],
+							[ -75.9995, 50.5156 ],
+							[ -75.9995, 50.4999 ],
+							[ -75.9993, 49.2832 ],
+							[ -76.4994, 49.2832 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Flash Freeze Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Flash Freeze",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 1, 2021 02:07",
+				"Expires_UTC" : "March 1, 2021 11:06",
+				"Summary" : "Description: Beginning late overnight and into Monday afternoon, the arrival of a cold Arctic airmass will drop temperatures dramatically, from near zero degree Celsius to minus 16 in a few hours.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T11:06:05-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:07:05-00:00, urn:oid:2.49.0.1.124.0761705299.2021<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area, Ville-Marie area, Témiscaming area, Dorval Lodge area, Le Domaine area, Chibougamau, Gouin Reservoir area, Parent area",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.0761705299.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_07_05_00_00Iurn_oid_2.49.0.1.124.0761705299.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301110605+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -71.0126, 48.1917 ],
+							[ -70.5609, 48.0539 ],
+							[ -70.1357, 47.9471 ],
+							[ -69.8631, 47.8597 ],
+							[ -69.7836, 47.82 ],
+							[ -69.7113, 47.9448 ],
+							[ -69.4699, 48.2224 ],
+							[ -69.2423, 48.4587 ],
+							[ -68.5214, 48.9033 ],
+							[ -68.6283, 49.004 ],
+							[ -68.8408, 49.251 ],
+							[ -69.7684, 48.8682 ],
+							[ -70.2496, 48.6665 ],
+							[ -71.3493, 48.9995 ],
+							[ -71.766, 49.5499 ],
+							[ -71.9999, 49.5832 ],
+							[ -71.9998, 49.9998 ],
+							[ -71.9995, 51.647 ],
+							[ -71.9998, 51.647 ],
+							[ -72.011, 51.6472 ],
+							[ -75.9391, 51.6264 ],
+							[ -76, 51.6249 ],
+							[ -75.9995, 50.5156 ],
+							[ -75.9995, 50.4999 ],
+							[ -75.9993, 49.2832 ],
+							[ -73.6025, 49.2849 ],
+							[ -73.6022, 49.2849 ],
+							[ -73.667, 48.9996 ],
+							[ -73.0002, 48.6669 ],
+							[ -72.0026, 48.2497 ],
+							[ -72.0026, 48.2499 ],
+							[ -71.5524, 48.3338 ],
+							[ -71.0126, 48.1917 ]
+						]
+					],
+					[
+						[
+							[ -69.0536, 47.4213 ],
+							[ -69.0574, 47.2989 ],
+							[ -69.0509, 47.3 ],
+							[ -68.7996, 47.3489 ],
+							[ -68.5692, 47.4271 ],
+							[ -68.3834, 47.5531 ],
+							[ -68.3825, 47.7887 ],
+							[ -68.3823, 47.9128 ],
+							[ -68.6166, 48.0496 ],
+							[ -68.6193, 48.0511 ],
+							[ -68.6207, 48.05 ],
+							[ -68.9992, 47.7504 ],
+							[ -69, 47.75 ],
+							[ -69.1397, 47.6994 ],
+							[ -69.283, 47.6331 ],
+							[ -69.1804, 47.5242 ],
+							[ -69.065, 47.4305 ],
+							[ -69.0682, 47.4227 ],
+							[ -69.0536, 47.4213 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:06",
+				"Expires_UTC" : "March 1, 2021 18:05",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nSnow at times heavy will begin overnight tonight.\n\nPrecipitation will change to rain over some areas and diminish late in the day Monday.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T18:05:05-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:06:05-00:00, urn:oid:2.49.0.1.124.3963148964.2021<br>Area: Chibougamau, Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Forestville area, Les Escoumins area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area, Témiscouata",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3963148964.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_06_05_00_00Iurn_oid_2.49.0.1.124.3963148964.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301180505+00:00"
 			}
 		},
 		{
@@ -1136,37 +1959,89 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
+							[ -136.9414, 60 ],
+							[ -136.8505, 59.8836 ],
+							[ -136.8503, 59.8835 ],
+							[ -136.7213, 59.8154 ],
+							[ -136.6775, 59.7505 ],
+							[ -136.6938, 59.7065 ],
+							[ -136.6331, 59.6473 ],
+							[ -136.5382, 59.6156 ],
+							[ -136.5413, 59.5058 ],
+							[ -136.4771, 59.4539 ],
+							[ -136.4771, 59.4539 ],
+							[ -136.3682, 59.4489 ],
+							[ -136.305, 59.4645 ],
+							[ -136.2714, 59.4947 ],
+							[ -136.3332, 59.5312 ],
+							[ -136.3565, 59.6363 ],
+							[ -136.4773, 59.711 ],
+							[ -136.549, 59.8536 ],
+							[ -136.6323, 59.9105 ],
+							[ -136.7347, 60 ],
+							[ -136.8859, 60.3094 ],
+							[ -136.9524, 60.5326 ],
+							[ -137.2617, 60.7138 ],
+							[ -137.4835, 60.8115 ],
+							[ -137.6066, 60.7511 ],
+							[ -137.1497, 60.5044 ],
+							[ -137.1093, 60.3041 ],
+							[ -137.0361, 60.1295 ],
+							[ -136.9414, 60 ]
+						]
+					],
+					[
+						[
+							[ -134.8677, 59.9386 ],
+							[ -134.8678, 59.9385 ],
+							[ -134.9496, 59.8392 ],
+							[ -135.1629, 59.7233 ],
+							[ -135.224, 59.6728 ],
+							[ -135.2198, 59.6627 ],
+							[ -135.1641, 59.6296 ],
+							[ -135.1575, 59.6257 ],
+							[ -135.1386, 59.6244 ],
+							[ -135.1178, 59.623 ],
+							[ -135.1126, 59.6196 ],
+							[ -135.0815, 59.5988 ],
+							[ -134.906, 59.7089 ],
+							[ -134.783, 59.7641 ],
+							[ -134.7309, 59.7995 ],
+							[ -134.6874, 59.8923 ],
+							[ -134.5475, 59.9971 ],
+							[ -134.5439, 60 ],
+							[ -134.4675, 60.0652 ],
+							[ -134.4611, 60.1161 ],
+							[ -134.5154, 60.1782 ],
+							[ -134.6715, 60.2292 ],
+							[ -134.7748, 60.1855 ],
+							[ -134.6736, 60.0815 ],
+							[ -134.7832, 60 ],
+							[ -134.8677, 59.9386 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:01",
-				"Expires_UTC" : "March 1, 2021 18:00",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nTime span: late Monday afternoon until Monday night.\n\nLocations: Magdalen Islands.\n\nRemarks: Snow, heavy at times, will develop over the islands beginning late Monday afternoon and will likely change over to a few rain showers Monday night. Strong northwesterly winds will develop Tuesday behind the storm.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-03-01T18:00:58-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:01:58-00:00, urn:oid:2.49.0.1.124.1892761085.2021<br>Area: Îles-de-la-Madeleine",
+				"LastUpdate_UTC" : "February 28, 2021 23:56",
+				"Expires_UTC" : "March 1, 2021 15:55",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA deep low pressure system near the northern Alaskan Panhandle will give an additional snowfall of 5 to 10 cm this evening before the low weakens overnight. Gusty winds this evening will also give occasional blowing snow. \n\nAnother Pacific low will bring more snow and very strong southerly winds later Monday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-03-01T15:55:35-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T23:56:35-00:00, urn:oid:2.49.0.1.124.1574808345.2021<br>Area: Haines Road - Haines Junction to Pleasant Camp, South Klondike Highway - Carcross to White Pass",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1892761085.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_01_58_00_00Iurn_oid_2.49.0.1.124.1892761085.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.1574808345.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T23_56_35_00_00Iurn_oid_2.49.0.1.124.1574808345.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301180058+00:00"
+				"Expires_FMEFormat" : "20210301155535+00:00"
 			}
 		},
 		{
@@ -1176,107 +2051,38 @@
 				"coordinates" : [
 					[
 						[
-							[ -78.907, 51.6318 ],
-							[ -76, 51.6249 ],
-							[ -75.9579, 52.9714 ],
-							[ -76, 54.1505 ],
-							[ -77.5048, 54.1866 ],
-							[ -79.0334, 54.1637 ],
-							[ -79.0758, 54.1628 ],
-							[ -79.3716, 54.1181 ],
-							[ -79.1674, 53.684 ],
-							[ -79.0663, 53.0129 ],
-							[ -78.7944, 52.4953 ],
-							[ -78.5825, 52.3523 ],
-							[ -79.0724, 51.785 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.907, 51.6318 ]
+							[ -61.6265, 46.0993 ],
+							[ -61.4829, 46.0971 ],
+							[ -61.0483, 46.1152 ],
+							[ -60.7422, 46.4987 ],
+							[ -60.554, 47.0263 ],
+							[ -60.4985, 47.185 ],
+							[ -60.7733, 47.1182 ],
+							[ -61.6265, 46.0993 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Met:Warning:Severe",
+				"Title" : "Les Suêtes Wind Warning In Effect",
 				"Category" : "Actual",
 				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:03",
-				"Expires_UTC" : "March 1, 2021 18:02",
-				"Summary" : "Description: Winds gusting up to 90 kilometres per hour are expected along the shore Monday.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T18:02:32-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:03:32-00:00, urn:oid:2.49.0.1.124.2784601311.2021<br>Area: James Bay and La Grande River",
+				"severity" : "Severe",
+				"LastUpdate_UTC" : "March 1, 2021 02:00",
+				"Expires_UTC" : "March 1, 2021 17:59",
+				"Summary" : "Description: Very strong wind gusts that may cause damage are expected or occurring.\n\nMaximum Les Suetes gusts: 130 km/h.\n\nTime span: Monday afternoon until Monday night.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may result in power outages and fallen tree branches.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-03-01T17:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:00:34-00:00, urn:oid:2.49.0.1.124.1166467499.2021<br>Area: Inverness County - Mabou and north",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2784601311.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_03_32_00_00Iurn_oid_2.49.0.1.124.2784601311.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1166467499.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_00_34_00_00Iurn_oid_2.49.0.1.124.1166467499.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301180232+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -84.021, 49.9497 ],
-							[ -85.9469, 49.9546 ],
-							[ -85.9469, 48.8844 ],
-							[ -86.0931, 48.7455 ],
-							[ -85.2219, 48.2896 ],
-							[ -84.2401, 48.0978 ],
-							[ -84.2352, 48.0981 ],
-							[ -83.996, 48.1106 ],
-							[ -83.9939, 48.1107 ],
-							[ -84.002, 48.5499 ],
-							[ -84.002, 48.5501 ],
-							[ -84.0021, 48.5526 ],
-							[ -84.0021, 49.1609 ],
-							[ -82.6268, 49.1616 ],
-							[ -81.4426, 49.1637 ],
-							[ -81.4419, 49.5091 ],
-							[ -81.4395, 50.7218 ],
-							[ -82.1596, 51.3124 ],
-							[ -82.8343, 51.8669 ],
-							[ -82.9115, 51.9291 ],
-							[ -82.9587, 51.9629 ],
-							[ -83.221, 51.817 ],
-							[ -83.3889, 51.624 ],
-							[ -83.6224, 51.498 ],
-							[ -83.7667, 51.4751 ],
-							[ -83.8976, 51.3876 ],
-							[ -84.1527, 51.3077 ],
-							[ -84.05, 51.1582 ],
-							[ -84.021, 49.9497 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 01:59",
-				"Expires_UTC" : "March 1, 2021 15:59",
-				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\nSnow, at times heavy, continues tonight. Snowfall accumulations near 15 cm are expected by early Monday morning.\n\nAdditionally, strong northwest winds gusting up to 70 km/h will develop late this evening creating localized areas of blowing snow.\n\nConditions are expected to improve by Monday morning.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T15:59:50-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:59:50-00:00, urn:oid:2.49.0.1.124.1310768367.2021<br>Area: Manitouwadge - Hornepayne, White River - Dubreuilville, Fraserdale - Pledger Lake, Kapuskasing - Hearst - Smooth Rock Falls",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1310768367.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_59_50_00_00Iurn_oid_2.49.0.1.124.1310768367.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301155950+00:00"
+				"Expires_FMEFormat" : "20210301175934+00:00"
 			}
 		},
 		{
@@ -1378,286 +2184,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -75.9995, 50.4999 ],
-							[ -75.9995, 50.5156 ],
-							[ -76, 51.6249 ],
-							[ -75.9579, 52.9714 ],
-							[ -76, 54.1505 ],
-							[ -77.5048, 54.1866 ],
-							[ -79.0334, 54.1637 ],
-							[ -79.0758, 54.1628 ],
-							[ -79.3716, 54.1181 ],
-							[ -79.1674, 53.684 ],
-							[ -79.0663, 53.0129 ],
-							[ -78.7944, 52.4953 ],
-							[ -78.5825, 52.3523 ],
-							[ -79.0724, 51.785 ],
-							[ -78.9371, 51.6314 ],
-							[ -78.9877, 51.6266 ],
-							[ -79.0521, 51.6205 ],
-							[ -79.1401, 51.6578 ],
-							[ -79.192, 51.7106 ],
-							[ -79.4165, 51.7137 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5368, 51.0871 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.5167, 50.5155 ],
-							[ -79.5172, 49.2829 ],
-							[ -78.5004, 49.2934 ],
-							[ -77.3232, 49.2924 ],
-							[ -76.4997, 49.2832 ],
-							[ -76.4994, 49.2832 ],
-							[ -75.9993, 49.2832 ],
-							[ -75.9995, 50.4999 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:04",
-				"Expires_UTC" : "March 1, 2021 18:03",
-				"Summary" : "Description: Snow combined with strong northwesterly winds will reduce visibilities to near zero Monday.\n\n###\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T18:03:02-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:04:02-00:00, urn:oid:2.49.0.1.124.2359452692.2021<br>Area: Waskaganish, Joutel - Matagami area, Miquelon - Desmaraisville area, James Bay and La Grande River",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2359452692.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_04_02_00_00Iurn_oid_2.49.0.1.124.2359452692.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301180302+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -73.3664, 45.4998 ],
-							[ -73.3997, 45.4332 ],
-							[ -73.5498, 45.3665 ],
-							[ -73.5335, 45.3325 ],
-							[ -73.4673, 45.2655 ],
-							[ -73.4835, 45.217 ],
-							[ -73.4832, 45.2165 ],
-							[ -73.4507, 45.1665 ],
-							[ -73.4498, 45.1651 ],
-							[ -73.4512, 45.0088 ],
-							[ -73.4513, 45.0005 ],
-							[ -73.1194, 45.0019 ],
-							[ -73.0636, 45.2332 ],
-							[ -73.0516, 45.2831 ],
-							[ -72.7885, 45.4669 ],
-							[ -72.4986, 45.667 ],
-							[ -72.5018, 45.6657 ],
-							[ -72.7168, 45.8498 ],
-							[ -72.7965, 45.9176 ],
-							[ -72.9555, 46.0521 ],
-							[ -72.9808, 46.0734 ],
-							[ -73.0173, 46.1186 ],
-							[ -73.0479, 46.1579 ],
-							[ -73.0559, 46.1786 ],
-							[ -73.1623, 46.1349 ],
-							[ -73.2065, 46.0739 ],
-							[ -73.2215, 45.991 ],
-							[ -73.2243, 45.9878 ],
-							[ -73.3097, 45.8917 ],
-							[ -73.377, 45.8363 ],
-							[ -73.3775, 45.8359 ],
-							[ -73.4755, 45.7402 ],
-							[ -73.4273, 45.7208 ],
-							[ -73.4268, 45.7206 ],
-							[ -73.4164, 45.6998 ],
-							[ -73.4119, 45.6821 ],
-							[ -73.3664, 45.4998 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:09",
-				"Expires_UTC" : "March 1, 2021 13:59",
-				"Summary" : "Description: Southerly winds will be gusting up to 90 kilometres per hour overnight tonight.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may toss loose objects or cause tree branches to break.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T13:59:28-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:09:28-00:00, urn:oid:2.49.0.1.124.3793306937.2021<br>Area: Sorel - Yamaska area, Saint-Hyacinthe - Acton Vale area, Verchères - Beloeil area, Saint-Jean - Marieville area, Lacolle area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3793306937.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_09_28_00_00Iurn_oid_2.49.0.1.124.3793306937.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301135928+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -61.6265, 46.0993 ],
-							[ -61.4829, 46.0971 ],
-							[ -61.0483, 46.1152 ],
-							[ -60.7422, 46.4987 ],
-							[ -60.554, 47.0263 ],
-							[ -60.4985, 47.185 ],
-							[ -60.7733, 47.1182 ],
-							[ -61.6265, 46.0993 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Les Suêtes Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "March 1, 2021 02:00",
-				"Expires_UTC" : "March 1, 2021 17:59",
-				"Summary" : "Description: Very strong wind gusts that may cause damage are expected or occurring.\n\nMaximum Les Suetes gusts: 130 km/h.\n\nTime span: Monday afternoon until Monday night.\n\n###\n\nDamage to buildings, such as to roof shingles and windows, may occur. High winds may result in power outages and fallen tree branches.\n\nLes Suêtes wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-03-01T17:59:34-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:00:34-00:00, urn:oid:2.49.0.1.124.1166467499.2021<br>Area: Inverness County - Mabou and north",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1166467499.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_00_34_00_00Iurn_oid_2.49.0.1.124.1166467499.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301175934+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -68.6166, 48.0496 ],
-							[ -68.3823, 47.9128 ],
-							[ -68.3823, 47.9161 ],
-							[ -68.1227, 47.9163 ],
-							[ -68.1226, 47.9998 ],
-							[ -67.6656, 48 ],
-							[ -67.6035, 47.9999 ],
-							[ -67.6276, 48.2166 ],
-							[ -67.6498, 48.4154 ],
-							[ -67.6687, 48.5824 ],
-							[ -67.669, 48.5823 ],
-							[ -67.6692, 48.5823 ],
-							[ -67.7056, 48.6956 ],
-							[ -67.7304, 48.7727 ],
-							[ -67.7305, 48.773 ],
-							[ -67.508, 49.2382 ],
-							[ -68.5214, 48.9033 ],
-							[ -69.2423, 48.4587 ],
-							[ -68.9741, 48.2826 ],
-							[ -68.6207, 48.05 ],
-							[ -68.6193, 48.0511 ],
-							[ -68.6166, 48.0496 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:07",
-				"Expires_UTC" : "March 1, 2021 18:06",
-				"Summary" : "Description: Strong winds combined with snow will reduce visibilities to near zero beginning Monday evening. Weather conditions will improve late Tuesday.\n\n###\n\nVisibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T18:06:39-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:07:39-00:00, urn:oid:2.49.0.1.124.2078830051.2021<br>Area: Mont-Joli area, Le Bic - Rimouski area, Rimouski Wildlife Reserve area",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2078830051.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_07_39_00_00Iurn_oid_2.49.0.1.124.2078830051.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301180639+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -80.8407, 51.8738 ],
-							[ -82.1507, 51.3164 ],
-							[ -82.1596, 51.3124 ],
-							[ -81.4395, 50.7218 ],
-							[ -79.5166, 50.7219 ],
-							[ -79.496, 51.0628 ],
-							[ -79.5164, 51.4684 ],
-							[ -79.5979, 51.5496 ],
-							[ -79.8297, 51.4271 ],
-							[ -79.8263, 51.2605 ],
-							[ -80.0462, 51.3571 ],
-							[ -80.2894, 51.3971 ],
-							[ -80.3594, 51.6003 ],
-							[ -80.6927, 51.9724 ],
-							[ -80.8373, 51.8769 ],
-							[ -80.8407, 51.8738 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:07",
-				"Expires_UTC" : "March 1, 2021 15:59",
-				"Summary" : "Description: Snowfall with total amounts of about 15 cm is expected.\n\nSnow, at times heavy, continues to affect the Moosonee area tonight.\n\nAdditionally, strong northwest winds gusting up to 60 km/h will develop late this evening creating localized areas of blowing snow.\n\nConditions are expected to improve by Monday morning.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T15:59:18-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:07:18-00:00, urn:oid:2.49.0.1.124.3671873770.2021<br>Area: Moosonee",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3671873770.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_07_18_00_00Iurn_oid_2.49.0.1.124.3671873770.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301155918+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.6743, 50.7821 ],
 							[ -57.976, 51.1736 ],
 							[ -57.1162, 51.3508 ],
@@ -1700,228 +2226,38 @@
 				"coordinates" : [
 					[
 						[
-							[ -71.0126, 48.1917 ],
-							[ -70.5609, 48.0539 ],
-							[ -70.1357, 47.9471 ],
-							[ -69.8631, 47.8597 ],
-							[ -69.7836, 47.82 ],
-							[ -69.7113, 47.9448 ],
-							[ -69.4699, 48.2224 ],
-							[ -69.2423, 48.4587 ],
-							[ -68.5214, 48.9033 ],
-							[ -68.6283, 49.004 ],
-							[ -68.8408, 49.251 ],
-							[ -69.7684, 48.8682 ],
-							[ -70.2496, 48.6665 ],
-							[ -71.3493, 48.9995 ],
-							[ -71.766, 49.5499 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 51.647 ],
-							[ -72.011, 51.6472 ],
-							[ -75.9391, 51.6264 ],
-							[ -76, 51.6249 ],
-							[ -75.9995, 50.5156 ],
-							[ -75.9995, 50.4999 ],
-							[ -75.9993, 49.2832 ],
-							[ -73.6025, 49.2849 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.667, 48.9996 ],
-							[ -73.0002, 48.6669 ],
-							[ -72.0026, 48.2497 ],
-							[ -72.0026, 48.2499 ],
-							[ -71.5524, 48.3338 ],
-							[ -71.0126, 48.1917 ]
-						]
-					],
-					[
-						[
-							[ -69.0536, 47.4213 ],
-							[ -69.0574, 47.2989 ],
-							[ -69.0509, 47.3 ],
-							[ -68.7996, 47.3489 ],
-							[ -68.5692, 47.4271 ],
-							[ -68.3834, 47.5531 ],
-							[ -68.3825, 47.7887 ],
-							[ -68.3823, 47.9128 ],
-							[ -68.6166, 48.0496 ],
-							[ -68.6193, 48.0511 ],
-							[ -68.6207, 48.05 ],
-							[ -68.9992, 47.7504 ],
-							[ -69, 47.75 ],
-							[ -69.1397, 47.6994 ],
-							[ -69.283, 47.6331 ],
-							[ -69.1804, 47.5242 ],
-							[ -69.065, 47.4305 ],
-							[ -69.0682, 47.4227 ],
-							[ -69.0536, 47.4213 ]
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
 				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 02:06",
-				"Expires_UTC" : "March 1, 2021 18:05",
-				"Summary" : "Description: Snowfall with total amounts of 15 to 20 cm is expected.\n\nSnow at times heavy will begin overnight tonight.\n\nPrecipitation will change to rain over some areas and diminish late in the day Monday.\n\n###\n\nRapidly accumulating snow will make travel difficult.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T18:05:05-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:06:05-00:00, urn:oid:2.49.0.1.124.3963148964.2021<br>Area: Chibougamau, Ashuapmushuan Wildlife Reserve area, Normandin - Péribonka area, Alma - Desbiens area, Saint-Félicien - Roberval area, Forestville area, Les Escoumins area, Falardeau - Mont-Valin area, Sainte-Rose-du-Nord area, Ville de Saguenay area, Rivière-Éternité - Petit-Saguenay area, Tadoussac - Baie-Sainte-Catherine area, Témiscouata",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 1, 2021 02:00",
+				"Expires_UTC" : "March 1, 2021 03:00",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2021-03-01T03:00:29-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:00:29-00:00, urn:oid:2.49.0.1.124.2514527141.2021<br>Area: Salluit",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3963148964.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_06_05_00_00Iurn_oid_2.49.0.1.124.3963148964.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2514527141.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_00_29_00_00Iurn_oid_2.49.0.1.124.2514527141.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301180505+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -136.9414, 60 ],
-							[ -136.8505, 59.8836 ],
-							[ -136.8503, 59.8835 ],
-							[ -136.7213, 59.8154 ],
-							[ -136.6775, 59.7505 ],
-							[ -136.6938, 59.7065 ],
-							[ -136.6331, 59.6473 ],
-							[ -136.5382, 59.6156 ],
-							[ -136.5413, 59.5058 ],
-							[ -136.4771, 59.4539 ],
-							[ -136.4771, 59.4539 ],
-							[ -136.3682, 59.4489 ],
-							[ -136.305, 59.4645 ],
-							[ -136.2714, 59.4947 ],
-							[ -136.3332, 59.5312 ],
-							[ -136.3565, 59.6363 ],
-							[ -136.4773, 59.711 ],
-							[ -136.549, 59.8536 ],
-							[ -136.6323, 59.9105 ],
-							[ -136.7347, 60 ],
-							[ -136.8859, 60.3094 ],
-							[ -136.9524, 60.5326 ],
-							[ -137.2617, 60.7138 ],
-							[ -137.4835, 60.8115 ],
-							[ -137.6066, 60.7511 ],
-							[ -137.1497, 60.5044 ],
-							[ -137.1093, 60.3041 ],
-							[ -137.0361, 60.1295 ],
-							[ -136.9414, 60 ]
-						]
-					],
-					[
-						[
-							[ -134.8677, 59.9386 ],
-							[ -134.8678, 59.9385 ],
-							[ -134.9496, 59.8392 ],
-							[ -135.1629, 59.7233 ],
-							[ -135.224, 59.6728 ],
-							[ -135.2198, 59.6627 ],
-							[ -135.1641, 59.6296 ],
-							[ -135.1575, 59.6257 ],
-							[ -135.1386, 59.6244 ],
-							[ -135.1178, 59.623 ],
-							[ -135.1126, 59.6196 ],
-							[ -135.0815, 59.5988 ],
-							[ -134.906, 59.7089 ],
-							[ -134.783, 59.7641 ],
-							[ -134.7309, 59.7995 ],
-							[ -134.6874, 59.8923 ],
-							[ -134.5475, 59.9971 ],
-							[ -134.5439, 60 ],
-							[ -134.4675, 60.0652 ],
-							[ -134.4611, 60.1161 ],
-							[ -134.5154, 60.1782 ],
-							[ -134.6715, 60.2292 ],
-							[ -134.7748, 60.1855 ],
-							[ -134.6736, 60.0815 ],
-							[ -134.7832, 60 ],
-							[ -134.8677, 59.9386 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "February 28, 2021 23:56",
-				"Expires_UTC" : "March 1, 2021 15:55",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nA deep low pressure system near the northern Alaskan Panhandle will give an additional snowfall of 5 to 10 cm this evening before the low weakens overnight. Gusty winds this evening will also give occasional blowing snow. \n\nAnother Pacific low will bring more snow and very strong southerly winds later Monday.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to YTstorm@canada.ca or tweet reports using #YTStorm.<br>Expires: 2021-03-01T15:55:35-00:00<br>Originated from CAP Alert: Environment Canada, 2021-02-28T23:56:35-00:00, urn:oid:2.49.0.1.124.1574808345.2021<br>Area: Haines Road - Haines Junction to Pleasant Camp, South Klondike Highway - Carcross to White Pass",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-02-28:feed.atom/urn:oid:2.49.0.1.124.1574808345.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-02-28/2021_02_28T23_56_35_00_00Iurn_oid_2.49.0.1.124.1574808345.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301155535+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ],
-							[ -56.4199, 47.6108 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 01:54",
-				"Expires_UTC" : "March 1, 2021 17:53",
-				"Summary" : "Description: Blizzard conditions with poor visibility occasionally near zero in snow and blowing snow are expected or occurring.\n\nTotal snowfall: 20 to 30 cm.\n\nMaximum wind gusts: easterly 80 to 120 km/h with higher gusts in the Wreckhouse area.\n\nLocations: Codroy Valley and eastward to the Ramea area.\n\nTime span: Monday evening to Tuesday morning.\n\nRemarks: Snow, at times heavy, is expected to develop Monday evening. Very strong easterly winds will also develop Monday evening and continue to strengthen towards Tuesday morning. Blizzard conditions should begin to subside during the morning on Tuesday.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility. Visibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-01T17:53:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:54:55-00:00, urn:oid:2.49.0.1.124.2073325514.2021<br>Area: Burgeo - Ramea, Channel-Port aux Basques and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2073325514.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_54_55_00_00Iurn_oid_2.49.0.1.124.2073325514.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301175355+00:00"
+				"Expires_FMEFormat" : "20210301030029+00:00"
 			}
 		},
 		{
@@ -2090,115 +2426,66 @@
 				"coordinates" : [
 					[
 						[
-							[ -76.4994, 49.2832 ],
-							[ -76.4997, 49.2832 ],
-							[ -77.3232, 49.2924 ],
-							[ -78.5004, 49.2934 ],
-							[ -79.5172, 49.2829 ],
-							[ -79.5172, 49.1428 ],
-							[ -79.5289, 48.9206 ],
-							[ -79.5174, 48.6069 ],
-							[ -79.5246, 48.5242 ],
-							[ -79.5174, 48.4498 ],
-							[ -79.5258, 48.3407 ],
-							[ -79.5175, 48.2511 ],
-							[ -79.5176, 47.833 ],
-							[ -79.5304, 47.6882 ],
-							[ -79.5175, 47.5701 ],
-							[ -79.6092, 47.5715 ],
-							[ -79.6195, 47.54 ],
-							[ -79.687, 47.5405 ],
-							[ -79.7294, 47.4978 ],
-							[ -79.5041, 47.2572 ],
-							[ -79.495, 47.191 ],
-							[ -79.5029, 47.1331 ],
-							[ -79.4724, 47.0616 ],
-							[ -79.3905, 47.0009 ],
-							[ -79.3866, 46.9548 ],
-							[ -79.2784, 46.831 ],
-							[ -79.1929, 46.7888 ],
-							[ -79.151, 46.7147 ],
-							[ -79.1164, 46.6533 ],
-							[ -79.0508, 46.6095 ],
-							[ -79.0245, 46.5322 ],
-							[ -78.8798, 46.4221 ],
-							[ -78.7697, 46.3652 ],
-							[ -78.7789, 46.3348 ],
-							[ -78.7478, 46.2963 ],
-							[ -78.6517, 46.2939 ],
-							[ -78.4088, 46.2646 ],
-							[ -78.3696, 46.2441 ],
-							[ -78.3488, 46.2332 ],
-							[ -78.2678, 46.2261 ],
-							[ -78.2384, 46.2433 ],
-							[ -78.1458, 46.243 ],
-							[ -78.0634, 46.2008 ],
-							[ -78.0059, 46.2115 ],
-							[ -77.8553, 46.168 ],
-							[ -77.825, 46.1394 ],
-							[ -77.7691, 46.1256 ],
-							[ -77.7513, 46.1609 ],
-							[ -77.7479, 46.1941 ],
-							[ -77.7484, 46.2127 ],
-							[ -77.7484, 46.2404 ],
-							[ -77.7501, 46.9998 ],
-							[ -77.3649, 46.9966 ],
-							[ -77.0011, 47 ],
-							[ -76.6569, 46.8048 ],
-							[ -76.3327, 46.6332 ],
-							[ -75.8328, 46.9998 ],
-							[ -75.2705, 46.9932 ],
-							[ -74.7495, 46.9999 ],
-							[ -74.7495, 46.9987 ],
-							[ -73.4169, 46.9988 ],
-							[ -73.4177, 46.9998 ],
-							[ -73.4403, 47.0439 ],
-							[ -73.4687, 47.0993 ],
-							[ -73.4166, 47.1998 ],
-							[ -73.0011, 47.2021 ],
-							[ -73.0007, 47.7998 ],
-							[ -73.0004, 48.3331 ],
-							[ -73.0002, 48.6669 ],
-							[ -73.667, 48.9996 ],
-							[ -73.6022, 49.2849 ],
-							[ -73.4993, 49.55 ],
-							[ -72.6666, 49.6653 ],
-							[ -72.6628, 49.6658 ],
-							[ -71.9999, 49.5832 ],
-							[ -71.9998, 49.9998 ],
-							[ -71.9995, 51.647 ],
-							[ -71.9998, 51.647 ],
-							[ -72.011, 51.6472 ],
-							[ -75.9391, 51.6264 ],
-							[ -76, 51.6249 ],
-							[ -75.9995, 50.5156 ],
-							[ -75.9995, 50.4999 ],
-							[ -75.9993, 49.2832 ],
-							[ -76.4994, 49.2832 ]
+							[ -87.9958, 53.2172 ],
+							[ -88.0338, 52.7599 ],
+							[ -87.9904, 52.2453 ],
+							[ -83.0383, 52.2455 ],
+							[ -83.0302, 52.2453 ],
+							[ -82.9115, 51.9291 ],
+							[ -81.6114, 52.4649 ],
+							[ -81.4236, 52.4881 ],
+							[ -82.2216, 53.0256 ],
+							[ -81.9632, 53.3416 ],
+							[ -81.9568, 53.9804 ],
+							[ -82.0824, 54.6123 ],
+							[ -82.007, 55.0671 ],
+							[ -82.2786, 55.1755 ],
+							[ -82.7847, 55.1832 ],
+							[ -82.9498, 55.2286 ],
+							[ -83.9602, 55.3859 ],
+							[ -84.958, 55.3741 ],
+							[ -85.6784, 55.7283 ],
+							[ -86.9972, 56.0007 ],
+							[ -87.4589, 56.1029 ],
+							[ -87.9073, 56.4915 ],
+							[ -88.6479, 56.724 ],
+							[ -88.9057, 56.9017 ],
+							[ -88.9894, 56.8474 ],
+							[ -89.8863, 56.3004 ],
+							[ -90.1757, 56.1351 ],
+							[ -90.4723, 55.9307 ],
+							[ -91.0742, 55.5552 ],
+							[ -91.653, 55.1549 ],
+							[ -92.6285, 54.5171 ],
+							[ -93.4241, 53.9089 ],
+							[ -92.0252, 53.7297 ],
+							[ -90.5082, 53.543 ],
+							[ -89.3769, 53.3863 ],
+							[ -87.9958, 53.2172 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Flash Freeze Warning In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Extreme Cold Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Flash Freeze",
+				"event" : "Extreme Cold",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "March 1, 2021 02:07",
-				"Expires_UTC" : "March 1, 2021 11:06",
-				"Summary" : "Description: Beginning late overnight and into Monday afternoon, the arrival of a cold Arctic airmass will drop temperatures dramatically, from near zero degree Celsius to minus 16 in a few hours.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-01T11:06:05-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:07:05-00:00, urn:oid:2.49.0.1.124.0761705299.2021<br>Area: La Sarre area, Amos area, Lebel-sur-Quévillon area, Senneterre area, Rouyn area, Malartic area, Val d'Or - Louvicourt area, Ville-Marie area, Témiscaming area, Dorval Lodge area, Le Domaine area, Chibougamau, Gouin Reservoir area, Parent area",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:02",
+				"Expires_UTC" : "March 1, 2021 18:01",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\nWind chill values between minus 45 and minus 50 are expected overnight tonight and continue until late Monday morning.\n\n###\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T18:01:52-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:02:52-00:00, urn:oid:2.49.0.1.124.0875910186.2021<br>Area: Attawapiskat, Fort Severn, Peawanuck, Sachigo Lake - Bearskin Lake, Big Trout Lake - Kasabonika, Webequie",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.0761705299.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_07_05_00_00Iurn_oid_2.49.0.1.124.0761705299.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.0875910186.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_02_52_00_00Iurn_oid_2.49.0.1.124.0875910186.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301110605+00:00"
+				"Expires_FMEFormat" : "20210301180152+00:00"
 			}
 		},
 		{
@@ -2208,85 +2495,37 @@
 				"coordinates" : [
 					[
 						[
-							[ -74.5028, 62.3786 ],
-							[ -76.1437, 62.4482 ],
-							[ -75.9991, 61.45 ],
-							[ -73.9992, 61.0465 ],
-							[ -73.3218, 62.346 ],
-							[ -73.2792, 62.4374 ],
-							[ -73.7223, 62.5468 ],
-							[ -74.5028, 62.3786 ]
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Wind Warning Ended",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 1, 2021 02:00",
-				"Expires_UTC" : "March 1, 2021 03:00",
-				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2021-03-01T03:00:29-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:00:29-00:00, urn:oid:2.49.0.1.124.2514527141.2021<br>Area: Salluit",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2514527141.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_00_29_00_00Iurn_oid_2.49.0.1.124.2514527141.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301030029+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -59.0956, 48.1003 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Severe",
-				"Title" : "Wreckhouse Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
+				"event" : "Snowfall",
 				"urgency" : "Future",
 				"certainty" : "Likely",
-				"severity" : "Severe",
-				"LastUpdate_UTC" : "March 1, 2021 01:54",
-				"Expires_UTC" : "March 1, 2021 17:53",
-				"Summary" : "Description: Very strong wind gusts are expected or occurring\n\nMaximum gusts: southeasterly up to 140 km/h in the Wreckhouse area.\n\nTime span: Monday evening until Tuesday morning.\n\nRemarks: Southeasterly winds gusting to 100 km/h will develop Monday evening then increase to 140 km/h overnight. Winds will ease upon shifting to strong southwesterly Tuesday morning.\n\n###\n\nDrivers may lose control of their vehicles; tall vehicles are at risk of being overturned.\n\nWreckhouse wind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-01T17:53:23-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T01:54:23-00:00, urn:oid:2.49.0.1.124.3812028770.2021<br>Area: Channel-Port aux Basques and vicinity",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 02:01",
+				"Expires_UTC" : "March 1, 2021 18:00",
+				"Summary" : "Description: Snowfall with total amounts of 15 to 25 cm is expected.\n\nTime span: late Monday afternoon until Monday night.\n\nLocations: Magdalen Islands.\n\nRemarks: Snow, heavy at times, will develop over the islands beginning late Monday afternoon and will likely change over to a few rain showers Monday night. Strong northwesterly winds will develop Tuesday behind the storm.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-03-01T18:00:58-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T02:01:58-00:00, urn:oid:2.49.0.1.124.1892761085.2021<br>Area: Îles-de-la-Madeleine",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3812028770.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T01_54_23_00_00Iurn_oid_2.49.0.1.124.3812028770.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1892761085.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T02_01_58_00_00Iurn_oid_2.49.0.1.124.1892761085.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301175323+00:00"
+				"Expires_FMEFormat" : "20210301180058+00:00"
 			}
 		}
 	]
