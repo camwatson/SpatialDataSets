@@ -74,9 +74,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -83.7076, 46.1874 ],
-							[ -83.8414, 46.4826 ],
-							[ -84.4894, 46.6516 ],
 							[ -84.4985, 46.6539 ],
 							[ -84.6124, 46.6233 ],
 							[ -84.6283, 46.5491 ],
@@ -87,31 +84,39 @@
 							[ -83.9476, 46.0487 ],
 							[ -83.822, 46.1212 ],
 							[ -83.7566, 46.1199 ],
-							[ -83.7076, 46.1874 ]
+							[ -83.7076, 46.1874 ],
+							[ -83.8414, 46.4826 ],
+							[ -83.9907, 46.781 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9912, 47.2516 ],
+							[ -84.6283, 47.2522 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.7351, 46.6321 ],
+							[ -84.4985, 46.6539 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
+				"Title" : "Weather Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Weather",
 				"urgency" : "Future",
 				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 1, 2021 07:12",
-				"Expires_UTC" : "March 1, 2021 23:11",
-				"Summary" : "Description: Strong winds tonight and Monday.\n\nWinds have eased from their earlier peak this past evening. However, winds are forecast to strengthen again tomorrow morning, particularly along the shoreline of Whitefish Bay. Gusts up to 80 km/h can be expected from late morning into the early afternoon. Winds will diminish by evening. \n\nPower outages are possible.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T23:11:58-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T07:12:58-00:00, urn:oid:2.49.0.1.124.1444309613.2021<br>Area: Sault Ste. Marie - St. Joseph Island",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 1, 2021 11:09",
+				"Expires_UTC" : "March 2, 2021 02:06",
+				"Summary" : "Description: Snow squall watch has been upgraded to a Winter Weather Travel Advisory.\n\nLake effect snow bands have produced near zero visibilities at times this morning. Local snowfall amounts of 4 to 8 cm will be possible by the time snow squall activity weakens late this afternoon.  \n\nThe heavy snow, combining with strong northwesterly winds gusting up to 80 km/h, will continue to produce near zero visibilities in heavy snow and blowing snow at times. Motorists should prepare for adverse winter driving conditions and adjust their travel plans accordingly.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-02T02:06:41-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T11:09:41-00:00, urn:oid:2.49.0.1.124.3878865123.2021<br>Area: Searchmont - Montreal River Harbour - Batchawana Bay, Sault Ste. Marie - St. Joseph Island",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1444309613.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T07_12_58_00_00Iurn_oid_2.49.0.1.124.1444309613.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.3878865123.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T11_09_41_00_00Iurn_oid_2.49.0.1.124.3878865123.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301231158+00:00"
+				"Expires_FMEFormat" : "20210302020641+00:00"
 			}
 		},
 		{
@@ -1711,58 +1716,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -84.4985, 46.6539 ],
-							[ -84.6124, 46.6233 ],
-							[ -84.6283, 46.5491 ],
-							[ -84.5588, 46.4765 ],
-							[ -84.4902, 46.4573 ],
-							[ -84.1729, 46.4924 ],
-							[ -84.0972, 46.1959 ],
-							[ -83.9476, 46.0487 ],
-							[ -83.822, 46.1212 ],
-							[ -83.7566, 46.1199 ],
-							[ -83.7076, 46.1874 ],
-							[ -83.8414, 46.4826 ],
-							[ -83.9907, 46.781 ],
-							[ -83.9911, 47.2211 ],
-							[ -83.9912, 47.2516 ],
-							[ -84.6283, 47.2522 ],
-							[ -84.9134, 47.2346 ],
-							[ -84.7351, 46.6321 ],
-							[ -84.4985, 46.6539 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Watch:Moderate",
-				"Title" : "Snow Squall Watch In Effect",
-				"Category" : "Actual",
-				"event" : "Snow Squall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 07:23",
-				"Expires_UTC" : "March 1, 2021 23:22",
-				"Summary" : "Description: Local snow squalls possible tonight into Monday afternoon.\n\nLocally heavy snowfall amounts of 4 to 8 cm will be possible by the time the snow squalls weaken late Monday afternoon.  \n\nThe heavy snow, combining with strong northwesterly winds gusting up to 80 km/h, may result in near zero visibilities in heavy snow and blowing snow at times.  Motorists should prepare for adverse winter driving conditions and adjust their travel plans accordingly.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nSnow squall watches are issued when conditions are favourable for brief but intense bursts of heavy snow producing near zero visibilities.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-01T23:22:45-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T07:23:45-00:00, urn:oid:2.49.0.1.124.2020538936.2021<br>Area: Searchmont - Montreal River Harbour - Batchawana Bay, Sault Ste. Marie - St. Joseph Island",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.2020538936.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T07_23_45_00_00Iurn_oid_2.49.0.1.124.2020538936.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210301232245+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -81.7435, 44.0532 ],
 							[ -81.5258, 43.9562 ],
 							[ -81.3831, 43.9079 ],
@@ -2081,6 +2034,58 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T09_37_22_00_00Iurn_oid_2.49.0.1.124.1613731221.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210302013622+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -84.4985, 46.6539 ],
+							[ -84.6124, 46.6233 ],
+							[ -84.6283, 46.5491 ],
+							[ -84.5588, 46.4765 ],
+							[ -84.4902, 46.4573 ],
+							[ -84.1729, 46.4924 ],
+							[ -84.0972, 46.1959 ],
+							[ -83.9476, 46.0487 ],
+							[ -83.822, 46.1212 ],
+							[ -83.7566, 46.1199 ],
+							[ -83.7076, 46.1874 ],
+							[ -83.8414, 46.4826 ],
+							[ -83.9907, 46.781 ],
+							[ -83.9911, 47.2211 ],
+							[ -83.9912, 47.2516 ],
+							[ -84.6283, 47.2522 ],
+							[ -84.9134, 47.2346 ],
+							[ -84.7351, 46.6321 ],
+							[ -84.4985, 46.6539 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Watch:Minor",
+				"Title" : "Snow Squall Watch Ended",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 1, 2021 11:11",
+				"Expires_UTC" : "March 1, 2021 12:11",
+				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2021-03-01T12:11:11-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T11:11:11-00:00, urn:oid:2.49.0.1.124.4257711721.2021<br>Area: Searchmont - Montreal River Harbour - Batchawana Bay, Sault Ste. Marie - St. Joseph Island",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.4257711721.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T11_11_11_00_00Iurn_oid_2.49.0.1.124.4257711721.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210301121111+00:00"
 			}
 		},
 		{
