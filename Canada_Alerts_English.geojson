@@ -1724,49 +1724,47 @@
 				"coordinates" : [
 					[
 						[
-							[ -84.4985, 46.6539 ],
-							[ -84.6124, 46.6233 ],
-							[ -84.6283, 46.5491 ],
-							[ -84.5588, 46.4765 ],
-							[ -84.4902, 46.4573 ],
-							[ -84.1729, 46.4924 ],
-							[ -84.0972, 46.1959 ],
-							[ -83.9476, 46.0487 ],
-							[ -83.822, 46.1212 ],
-							[ -83.7566, 46.1199 ],
-							[ -83.7076, 46.1874 ],
-							[ -83.8414, 46.4826 ],
-							[ -83.9907, 46.781 ],
-							[ -83.9911, 47.2211 ],
-							[ -83.9912, 47.2516 ],
-							[ -84.6283, 47.2522 ],
-							[ -84.9134, 47.2346 ],
-							[ -84.7351, 46.6321 ],
-							[ -84.4985, 46.6539 ]
+							[ -79.1495, 43.8216 ],
+							[ -79.1574, 43.8392 ],
+							[ -79.1702, 43.8556 ],
+							[ -79.4107, 43.8111 ],
+							[ -79.6386, 43.75 ],
+							[ -79.6243, 43.7108 ],
+							[ -79.5887, 43.6646 ],
+							[ -79.6206, 43.6373 ],
+							[ -79.5925, 43.6216 ],
+							[ -79.5567, 43.571 ],
+							[ -79.5327, 43.5834 ],
+							[ -79.5036, 43.5329 ],
+							[ -79.0603, 43.7242 ],
+							[ -79.1029, 43.7947 ],
+							[ -79.1088, 43.7984 ],
+							[ -79.1091, 43.7985 ],
+							[ -79.1495, 43.8216 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Weather Advisory Ended",
+				"Title" : "Weather Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Weather",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 2, 2021 03:17",
-				"Expires_UTC" : "March 2, 2021 04:17",
-				"Summary" : "Description: The conditions prompting this advisory have improved.\n\n\n###<br>Expires: 2021-03-02T04:17:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-02T03:17:55-00:00, urn:oid:2.49.0.1.124.1898628713.2021<br>Area: Searchmont - Montreal River Harbour - Batchawana Bay, Sault Ste. Marie - St. Joseph Island",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 2, 2021 04:14",
+				"Expires_UTC" : "March 2, 2021 14:06",
+				"Summary" : "Description: Winter Weather Travel Advisory in effect for Scarborough.\n\nAfter initial flurries had exited the area earlier this evening, a new heavy lake effect band has drifted southwestward to reach extreme eastern portions of the city of Toronto including parts of Scarborough. Reduced visibilities in heavy snow and blowing snow can be expected with this lake effect band before it moves out of the area near midnight.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ONstorm@canada.ca or tweet reports using #ONStorm.<br>Expires: 2021-03-02T14:06:09-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-02T04:14:09-00:00, urn:oid:2.49.0.1.124.2646101064.2021<br>Area: City of Toronto",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-02:feed.atom/urn:oid:2.49.0.1.124.1898628713.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-02/2021_03_02T03_17_55_00_00Iurn_oid_2.49.0.1.124.1898628713.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-02:feed.atom/urn:oid:2.49.0.1.124.2646101064.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-02/2021_03_02T04_14_09_00_00Iurn_oid_2.49.0.1.124.2646101064.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210302041755+00:00"
+				"Expires_FMEFormat" : "20210302140609+00:00"
 			}
 		},
 		{
@@ -1817,72 +1815,37 @@
 				"coordinates" : [
 					[
 						[
-							[ -108.0516, 56.1199 ],
-							[ -110.0057, 56.1199 ],
-							[ -110.0126, 56.0595 ],
-							[ -110.0057, 55.9843 ],
-							[ -110.027, 55.7645 ],
-							[ -110.0057, 55.5476 ],
-							[ -110.0249, 55.1474 ],
-							[ -110.0057, 54.7623 ],
-							[ -110.0097, 54.7142 ],
-							[ -110.0057, 54.6505 ],
-							[ -109.8688, 54.5573 ],
-							[ -109.7837, 54.5579 ],
-							[ -109.6328, 54.558 ],
-							[ -109.6327, 54.549 ],
-							[ -109.6322, 54.529 ],
-							[ -109.6071, 54.5145 ],
-							[ -109.5318, 54.4998 ],
-							[ -109.1928, 54.4795 ],
-							[ -108.8765, 54.4854 ],
-							[ -108.8003, 54.4853 ],
-							[ -108.798, 54.5 ],
-							[ -108.8008, 54.5145 ],
-							[ -108.719, 54.5118 ],
-							[ -108.6498, 54.5141 ],
-							[ -108.6458, 54.555 ],
-							[ -108.6499, 54.587 ],
-							[ -108.6244, 54.5864 ],
-							[ -108.5994, 54.5871 ],
-							[ -108.5938, 54.6334 ],
-							[ -108.5992, 54.6744 ],
-							[ -108.5063, 54.6706 ],
-							[ -108.4237, 54.6743 ],
-							[ -108.4308, 54.6363 ],
-							[ -108.4231, 54.5869 ],
-							[ -108.2338, 54.5831 ],
-							[ -108.0515, 54.5869 ],
-							[ -108.0042, 54.5855 ],
-							[ -107.9683, 54.5861 ],
-							[ -106.7528, 54.5866 ],
-							[ -106.7528, 56.1199 ],
-							[ -108.0497, 56.1199 ],
-							[ -108.0516, 56.1199 ]
+							[ -61.7255, 47.1947 ],
+							[ -61.322, 47.5211 ],
+							[ -61.344, 47.8207 ],
+							[ -61.5042, 47.8867 ],
+							[ -62.0336, 47.4783 ],
+							[ -62.1106, 47.1824 ],
+							[ -61.7255, 47.1947 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Freezing Rain Warning In Effect",
+				"Title" : "Wind Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Freezing Rain",
+				"event" : "Wind",
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 2, 2021 03:17",
-				"Expires_UTC" : "March 2, 2021 08:16",
-				"Summary" : "Description: Freezing rain is expected or occurring.\n\nAn area of freezing rain has developed over parts of eastern Alberta and Western Saskatchewan. The freezing rain is expected to move out of the area later this evening.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2021-03-02T08:16:52-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-02T03:17:52-00:00, urn:oid:2.49.0.1.124.2801112282.2021<br>Area: Buffalo Narrows and Peter Pond Lake, Île à la Crosse and Beauval",
+				"LastUpdate_UTC" : "March 2, 2021 01:34",
+				"Expires_UTC" : "March 2, 2021 17:33",
+				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 90 km/h.\n\nLocations: Iles-de-la-Madeleine.\n\nTime span: from midday Tuesday through late Tuesday night.\n\nRemarks: Strong west to northwest winds gusting to 90 km/h will develop near noon on Tuesday and persist through to overnight Tuesday. These strong winds may cause blowing snow over exposed areas giving reduced visibilities.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-03-02T17:33:26-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-02T01:34:26-00:00, urn:oid:2.49.0.1.124.0381174770.2021<br>Area: Îles-de-la-Madeleine",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-02:feed.atom/urn:oid:2.49.0.1.124.2801112282.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-02/2021_03_02T03_17_52_00_00Iurn_oid_2.49.0.1.124.2801112282.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-02:feed.atom/urn:oid:2.49.0.1.124.0381174770.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-02/2021_03_02T01_34_26_00_00Iurn_oid_2.49.0.1.124.0381174770.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210302081652+00:00"
+				"Expires_FMEFormat" : "20210302173326+00:00"
 			}
 		},
 		{
@@ -2469,46 +2432,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -61.7255, 47.1947 ],
-							[ -61.322, 47.5211 ],
-							[ -61.344, 47.8207 ],
-							[ -61.5042, 47.8867 ],
-							[ -62.0336, 47.4783 ],
-							[ -62.1106, 47.1824 ],
-							[ -61.7255, 47.1947 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 2, 2021 01:34",
-				"Expires_UTC" : "March 2, 2021 17:33",
-				"Summary" : "Description: Strong winds that may cause damage are expected or occurring.\n\nMaximum wind gusts: 90 km/h.\n\nLocations: Iles-de-la-Madeleine.\n\nTime span: from midday Tuesday through late Tuesday night.\n\nRemarks: Strong west to northwest winds gusting to 90 km/h will develop near noon on Tuesday and persist through to overnight Tuesday. These strong winds may cause blowing snow over exposed areas giving reduced visibilities.\n\n###\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@canada.ca or tweet reports using #NSStorm.<br>Expires: 2021-03-02T17:33:26-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-02T01:34:26-00:00, urn:oid:2.49.0.1.124.0381174770.2021<br>Area: Îles-de-la-Madeleine",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-02:feed.atom/urn:oid:2.49.0.1.124.0381174770.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-02/2021_03_02T01_34_26_00_00Iurn_oid_2.49.0.1.124.0381174770.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210302173326+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.2163, 47.9516 ],
 							[ -65.4344, 47.921 ],
 							[ -65.8243, 48.018 ],
@@ -3081,6 +3004,81 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-02/2021_03_02T02_48_45_00_00Iurn_oid_2.49.0.1.124.2503104031.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210302184745+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -108.0516, 56.1199 ],
+							[ -110.0057, 56.1199 ],
+							[ -110.0126, 56.0595 ],
+							[ -110.0057, 55.9843 ],
+							[ -110.027, 55.7645 ],
+							[ -110.0057, 55.5476 ],
+							[ -110.0249, 55.1474 ],
+							[ -110.0057, 54.7623 ],
+							[ -110.0097, 54.7142 ],
+							[ -110.0057, 54.6505 ],
+							[ -109.8688, 54.5573 ],
+							[ -109.7837, 54.5579 ],
+							[ -109.6328, 54.558 ],
+							[ -109.6327, 54.549 ],
+							[ -109.6322, 54.529 ],
+							[ -109.6071, 54.5145 ],
+							[ -109.5318, 54.4998 ],
+							[ -109.1928, 54.4795 ],
+							[ -108.8765, 54.4854 ],
+							[ -108.8003, 54.4853 ],
+							[ -108.798, 54.5 ],
+							[ -108.8008, 54.5145 ],
+							[ -108.719, 54.5118 ],
+							[ -108.6498, 54.5141 ],
+							[ -108.6458, 54.555 ],
+							[ -108.6499, 54.587 ],
+							[ -108.6244, 54.5864 ],
+							[ -108.5994, 54.5871 ],
+							[ -108.5938, 54.6334 ],
+							[ -108.5992, 54.6744 ],
+							[ -108.5063, 54.6706 ],
+							[ -108.4237, 54.6743 ],
+							[ -108.4308, 54.6363 ],
+							[ -108.4231, 54.5869 ],
+							[ -108.2338, 54.5831 ],
+							[ -108.0515, 54.5869 ],
+							[ -108.0042, 54.5855 ],
+							[ -107.9683, 54.5861 ],
+							[ -106.7528, 54.5866 ],
+							[ -106.7528, 56.1199 ],
+							[ -108.0497, 56.1199 ],
+							[ -108.0516, 56.1199 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Freezing Rain Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Freezing Rain",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 2, 2021 03:17",
+				"Expires_UTC" : "March 2, 2021 08:16",
+				"Summary" : "Description: Freezing rain is expected or occurring.\n\nAn area of freezing rain has developed over parts of eastern Alberta and Western Saskatchewan. The freezing rain is expected to move out of the area later this evening.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become icy and slippery.\n\nFreezing rain warnings are issued when rain falling in sub-zero temperatures creates ice build-up and icy surfaces.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to SKstorm@canada.ca or tweet reports using #SKStorm.<br>Expires: 2021-03-02T08:16:52-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-02T03:17:52-00:00, urn:oid:2.49.0.1.124.2801112282.2021<br>Area: Buffalo Narrows and Peter Pond Lake, Île à la Crosse and Beauval",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-02:feed.atom/urn:oid:2.49.0.1.124.2801112282.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-02/2021_03_02T03_17_52_00_00Iurn_oid_2.49.0.1.124.2801112282.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210302081652+00:00"
 			}
 		}
 	]
