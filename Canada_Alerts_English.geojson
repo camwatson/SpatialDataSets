@@ -104,6 +104,81 @@
 				"coordinates" : [
 					[
 						[
+							[ -76.2502, 44.4856 ],
+							[ -76.2825, 44.4598 ],
+							[ -76.3086, 44.4314 ],
+							[ -76.3389, 44.3805 ],
+							[ -76.3605, 44.3673 ],
+							[ -76.3583, 44.3493 ],
+							[ -76.3951, 44.3509 ],
+							[ -76.4201, 44.3461 ],
+							[ -76.4492, 44.3394 ],
+							[ -76.5098, 44.3357 ],
+							[ -76.5681, 44.3295 ],
+							[ -76.5725, 44.3624 ],
+							[ -76.7519, 44.3544 ],
+							[ -76.9553, 44.323 ],
+							[ -76.9303, 44.2707 ],
+							[ -76.9098, 44.2731 ],
+							[ -76.8167, 44.1705 ],
+							[ -76.8085, 44.1612 ],
+							[ -76.8197, 44.0917 ],
+							[ -76.7025, 43.886 ],
+							[ -76.6116, 43.889 ],
+							[ -76.4476, 44.0702 ],
+							[ -76.2724, 44.1995 ],
+							[ -76.2196, 44.2044 ],
+							[ -76.1753, 44.2348 ],
+							[ -76.1644, 44.2475 ],
+							[ -76.1688, 44.2818 ],
+							[ -76.0414, 44.3418 ],
+							[ -76.0085, 44.3507 ],
+							[ -75.9759, 44.3469 ],
+							[ -75.9723, 44.3437 ],
+							[ -75.9702, 44.3428 ],
+							[ -75.949, 44.3497 ],
+							[ -75.9256, 44.3673 ],
+							[ -75.907, 44.3783 ],
+							[ -75.8271, 44.4312 ],
+							[ -75.8138, 44.4761 ],
+							[ -75.778, 44.5129 ],
+							[ -75.7337, 44.5444 ],
+							[ -75.7361, 44.5488 ],
+							[ -75.7889, 44.645 ],
+							[ -76.2502, 44.4856 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snow Squall Warning Ended",
+				"Category" : "Actual",
+				"event" : "Snow Squall",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 2, 2021 00:04",
+				"Expires_UTC" : "March 2, 2021 01:04",
+				"Summary" : "Description: Snow squall conditions are no longer expected.\n\n\n###<br>Expires: 2021-03-02T01:04:30-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-02T00:04:30-00:00, urn:oid:2.49.0.1.124.3659357972.2021<br>Area: Kingston - Odessa - Frontenac Islands, Gananoque - Mallorytown",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-02:feed.atom/urn:oid:2.49.0.1.124.3659357972.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-02/2021_03_02T00_04_30_00_00Iurn_oid_2.49.0.1.124.3659357972.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210302010430+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -71.2936, 45.2989 ],
 							[ -71.2828, 45.2992 ],
 							[ -71.2664, 45.2751 ],
@@ -1676,50 +1751,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T23_29_52_00_00Iurn_oid_2.49.0.1.124.1545491494.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210302075952+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -95.9056, 74.3191 ],
-							[ -94.8626, 74.2936 ],
-							[ -94.1547, 74.3414 ],
-							[ -94.1885, 74.6339 ],
-							[ -94.152, 74.6625 ],
-							[ -94.2078, 74.8178 ],
-							[ -94.6546, 74.9248 ],
-							[ -95.2633, 74.925 ],
-							[ -95.7119, 74.8173 ],
-							[ -95.8949, 74.6509 ],
-							[ -95.9056, 74.3191 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 1, 2021 20:37",
-				"Expires_UTC" : "March 2, 2021 07:59",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nBlizzard conditions with poor visibility in blowing snow have developed.\n\nWind gusts up to 60 km/h and falling snow have combined to reduce the visibility to below 400 m in blowing snow.  Poor visibility will persist until this evening when snowfall tapers and the winds begin to ease.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-02T07:59:17-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-01T20:37:17-00:00, urn:oid:2.49.0.1.124.1666169644.2021<br>Area: Resolute",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-01:feed.atom/urn:oid:2.49.0.1.124.1666169644.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-01/2021_03_01T20_37_17_00_00Iurn_oid_2.49.0.1.124.1666169644.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210302075917+00:00"
 			}
 		},
 		{
