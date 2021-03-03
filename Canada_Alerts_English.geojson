@@ -457,51 +457,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -77.8038, 59.2602 ],
-							[ -75.6792, 59.25 ],
-							[ -75.8391, 60.25 ],
-							[ -75.8395, 60.25 ],
-							[ -77.4863, 60.2597 ],
-							[ -77.5979, 60.2596 ],
-							[ -77.746, 60.0826 ],
-							[ -77.5194, 59.8669 ],
-							[ -77.9427, 59.7479 ],
-							[ -78.0177, 59.2767 ],
-							[ -77.9282, 59.2596 ],
-							[ -77.8038, 59.2602 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Minor",
-				"Title" : "Extreme Cold Warning Ended",
-				"Category" : "Actual",
-				"event" : "Extreme Cold",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 3, 2021 09:14",
-				"Expires_UTC" : "March 3, 2021 10:14",
-				"Summary" : "Description: Conditions are no longer expected to reach extreme cold warning criteria.\n\n###<br>Expires: 2021-03-03T10:14:59-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-03T09:14:59-00:00, urn:oid:2.49.0.1.124.1030470898.2021<br>Area: Puvirnituq",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-03:feed.atom/urn:oid:2.49.0.1.124.1030470898.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-03/2021_03_03T09_14_59_00_00Iurn_oid_2.49.0.1.124.1030470898.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210303101459+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -58.4207, 47.5744 ],
 							[ -58.42, 47.6535 ],
 							[ -58.42, 47.6666 ],
@@ -706,6 +661,74 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-03/2021_03_03T09_15_37_00_00Iurn_oid_2.49.0.1.124.4014369066.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210304011437+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -68.5214, 48.9033 ],
+							[ -69.2423, 48.4587 ],
+							[ -68.9741, 48.2826 ],
+							[ -68.6207, 48.05 ],
+							[ -68.6193, 48.0511 ],
+							[ -68.6166, 48.0496 ],
+							[ -68.3823, 47.9128 ],
+							[ -68.3823, 47.9161 ],
+							[ -68.1227, 47.9163 ],
+							[ -68.1226, 47.9998 ],
+							[ -67.6656, 48 ],
+							[ -67.6035, 47.9999 ],
+							[ -67.6276, 48.2166 ],
+							[ -67.6498, 48.4154 ],
+							[ -67.6687, 48.5824 ],
+							[ -67.669, 48.5823 ],
+							[ -67.6692, 48.5823 ],
+							[ -67.7056, 48.6956 ],
+							[ -67.7304, 48.7727 ],
+							[ -67.7305, 48.773 ],
+							[ -67.508, 49.2382 ],
+							[ -68.5214, 48.9033 ]
+						]
+					],
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 3, 2021 10:12",
+				"Expires_UTC" : "March 4, 2021 02:11",
+				"Summary" : "Description: On Thursday, strong westerly winds will gust to near 80 kilometres per hour. These strong winds combined with the snow will give widespread blowing snow creating reduced to zero visibilities locally.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-04T02:11:59-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-03T10:12:59-00:00, urn:oid:2.49.0.1.124.3437387308.2021<br>Area: Mont-Joli area, Le Bic - Rimouski area, Rimouski Wildlife Reserve area, Anticosti",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-03:feed.atom/urn:oid:2.49.0.1.124.3437387308.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-03/2021_03_03T10_12_59_00_00Iurn_oid_2.49.0.1.124.3437387308.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210304021159+00:00"
 			}
 		},
 		{
@@ -1757,24 +1780,24 @@
 			},
 			"properties" : {
 				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory Ended",
+				"Title" : "Blowing Snow Advisory In Effect",
 				"Category" : "Actual",
 				"event" : "Blowing Snow",
-				"urgency" : "Past",
-				"certainty" : "Observed",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 3, 2021 09:21",
-				"Expires_UTC" : "March 3, 2021 10:21",
-				"Summary" : "Description: Conditions are no longer expected to meet blowing snow advisory criteria.\n\n\n###<br>Expires: 2021-03-03T10:21:24-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-03T09:21:24-00:00, urn:oid:2.49.0.1.124.2249903481.2021<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 3, 2021 02:46",
+				"Expires_UTC" : "March 3, 2021 16:59",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nMaximum wind gusts: north to northeasterly 60 to 70 km/h.\n\nFurther snowfall: 10 to 15 cm.\n\nTime span: continuing through to noon Wednesday.\n\nRemarks: Strong winds will continue to combine with fresh snowfall to cause reduced visibilities in blowing snow through tonight and Wednesday morning. The blowing snow will subside Thursday afternoon as winds ease somewhat and the snow mixes with rain.\n\nWinds are expected to reintensify Wednesday night from Hopedale to Nain. As a result, conditions will likely deteriorate again for these areas, especially inland and over higher terrain where precipitation is expected to remain as snow.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations. Visibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-03T16:59:39-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-03T02:46:39-00:00, urn:oid:2.49.0.1.124.3000388342.2021<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-03:feed.atom/urn:oid:2.49.0.1.124.2249903481.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-03/2021_03_03T09_21_24_00_00Iurn_oid_2.49.0.1.124.2249903481.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-03:feed.atom/urn:oid:2.49.0.1.124.3000388342.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-03/2021_03_03T02_46_39_00_00Iurn_oid_2.49.0.1.124.3000388342.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210303102124+00:00"
+				"Expires_FMEFormat" : "20210303165939+00:00"
 			}
 		},
 		{
