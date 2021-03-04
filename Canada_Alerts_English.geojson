@@ -9,6 +9,52 @@
 				"coordinates" : [
 					[
 						[
+							[ -55.2908, 52.0995 ],
+							[ -55.2952, 52.1186 ],
+							[ -55.6948, 52.1 ],
+							[ -57.1156, 52.1 ],
+							[ -57.1159, 52.0026 ],
+							[ -57.1159, 51.9984 ],
+							[ -57.1077, 51.9984 ],
+							[ -57.1075, 51.9221 ],
+							[ -57.1085, 51.4106 ],
+							[ -57.1162, 51.3508 ],
+							[ -56.8508, 51.3971 ],
+							[ -55.8517, 51.8524 ],
+							[ -55.2908, 52.0995 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 4, 2021 09:08",
+				"Expires_UTC" : "March 5, 2021 01:08",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-05T01:08:36-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-04T09:08:36-00:00, urn:oid:2.49.0.1.124.0455616712.2021<br>Area: Red Bay to L'Anse-au-Clair",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-04:feed.atom/urn:oid:2.49.0.1.124.0455616712.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-04/2021_03_04T09_08_36_00_00Iurn_oid_2.49.0.1.124.0455616712.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210305010836+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -95.3875, 68.77 ],
 							[ -95.7982, 68.8485 ],
 							[ -96.2346, 68.7983 ],
@@ -755,6 +801,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -83.2803, 76.6381 ],
+							[ -83.138, 76.5178 ],
+							[ -83.1615, 76.298 ],
+							[ -82.0595, 76.2612 ],
+							[ -82.1153, 76.5344 ],
+							[ -82.072, 76.5808 ],
+							[ -82.4546, 76.6269 ],
+							[ -83.2803, 76.6381 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 3, 2021 18:26",
+				"Expires_UTC" : "March 4, 2021 10:25",
+				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nBlizzard conditions have developed with falling snow and southwest winds gusting to 50 km/h. The blizzard conditions are expected to continue into this evening before ending overnight.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-04T10:25:29-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-03T18:26:29-00:00, urn:oid:2.49.0.1.124.3265642148.2021<br>Area: Grise Fiord",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-03:feed.atom/urn:oid:2.49.0.1.124.3265642148.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-03/2021_03_03T18_26_29_00_00Iurn_oid_2.49.0.1.124.3265642148.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210304102529+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -58.6743, 50.7821 ],
 							[ -57.976, 51.1736 ],
 							[ -57.1162, 51.3508 ],
@@ -878,18 +965,18 @@
 				"urgency" : "Future",
 				"certainty" : "Possible",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 4, 2021 02:52",
+				"LastUpdate_UTC" : "March 4, 2021 09:08",
 				"Expires_UTC" : "March 4, 2021 16:59",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nMaximum wind gusts: north to northwesterly near 60 km/h.\n\nFurther snowfall: 10 to 20 cm.\n\nTime span: continuing through Thursday morning.\n\nRemarks: Persistent light to moderate snow, strong north to northwesterly winds, and cold temperatures will combine to give frequent extended periods of reduced visibilities in blowing and drifting snow. Conditions are expected to improve Thursday morning as the snow tapers off and the winds diminish.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations. Visibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-04T16:59:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-04T02:52:22-00:00, urn:oid:2.49.0.1.124.3464513815.2021<br>Area: Churchill Valley, Churchill Falls and vicinity, Labrador City and Wabush",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility in some locations. Visibility may be significantly and suddenly reduced to near zero.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-04T16:59:54-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-04T09:08:54-00:00, urn:oid:2.49.0.1.124.3894644680.2021<br>Area: Churchill Valley, Churchill Falls and vicinity, Labrador City and Wabush",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-04:feed.atom/urn:oid:2.49.0.1.124.3464513815.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-04/2021_03_04T02_52_22_00_00Iurn_oid_2.49.0.1.124.3464513815.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-04:feed.atom/urn:oid:2.49.0.1.124.3894644680.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-04/2021_03_04T09_08_54_00_00Iurn_oid_2.49.0.1.124.3894644680.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210304165922+00:00"
+				"Expires_FMEFormat" : "20210304165954+00:00"
 			}
 		},
 		{
@@ -1204,59 +1291,18 @@
 				"urgency" : "Future",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 3, 2021 20:40",
-				"Expires_UTC" : "March 4, 2021 12:39",
-				"Summary" : "Description: A period of very cold wind chills is expected.\n\nSoutherly winds gusting between 50 and 60 km/h combined with temperatures in the mid minus thirties will produce extreme wind chill values of minus 50 or lower this evening. As temperatures approach minus forty and winds abate to 10 to 15 km/h after midnight, similar values can be expected overnight.  \n\nThese values will likely persist into Thursday morning before moderating ever so slightly Thursday afternoon as winds completely diminish to calm.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-04T12:39:26-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-03T20:40:26-00:00, urn:oid:2.49.0.1.124.4220121406.2021<br>Area: Arctic Bay",
+				"LastUpdate_UTC" : "March 4, 2021 09:08",
+				"Expires_UTC" : "March 4, 2021 22:59",
+				"Summary" : "Description: A period of very cold wind chills is expected.\n\n###\n\nExtreme cold puts everyone at risk.\n\nWatch for cold related symptoms: shortness of breath, chest pain, muscle pain and weakness, numbness and colour change in fingers and toes.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-04T22:59:35-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-04T09:08:35-00:00, urn:oid:2.49.0.1.124.0692633285.2021<br>Area: Arctic Bay",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-03:feed.atom/urn:oid:2.49.0.1.124.4220121406.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-03/2021_03_03T20_40_26_00_00Iurn_oid_2.49.0.1.124.4220121406.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-04:feed.atom/urn:oid:2.49.0.1.124.0692633285.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-04/2021_03_04T09_08_35_00_00Iurn_oid_2.49.0.1.124.0692633285.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210304123926+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -83.2803, 76.6381 ],
-							[ -83.138, 76.5178 ],
-							[ -83.1615, 76.298 ],
-							[ -82.0595, 76.2612 ],
-							[ -82.1153, 76.5344 ],
-							[ -82.072, 76.5808 ],
-							[ -82.4546, 76.6269 ],
-							[ -83.2803, 76.6381 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 3, 2021 18:26",
-				"Expires_UTC" : "March 4, 2021 10:25",
-				"Summary" : "Description: Blizzard conditions with poor visibility in snow and blowing snow are expected or occurring.\n\nBlizzard conditions have developed with falling snow and southwest winds gusting to 50 km/h. The blizzard conditions are expected to continue into this evening before ending overnight.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 6 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-04T10:25:29-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-03T18:26:29-00:00, urn:oid:2.49.0.1.124.3265642148.2021<br>Area: Grise Fiord",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-03:feed.atom/urn:oid:2.49.0.1.124.3265642148.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-03/2021_03_03T18_26_29_00_00Iurn_oid_2.49.0.1.124.3265642148.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210304102529+00:00"
+				"Expires_FMEFormat" : "20210304225935+00:00"
 			}
 		},
 		{
