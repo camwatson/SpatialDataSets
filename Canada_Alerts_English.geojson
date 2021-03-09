@@ -223,6 +223,47 @@
 				"coordinates" : [
 					[
 						[
+							[ -74.5028, 62.3786 ],
+							[ -76.1437, 62.4482 ],
+							[ -75.9991, 61.45 ],
+							[ -73.9992, 61.0465 ],
+							[ -73.3218, 62.346 ],
+							[ -73.2792, 62.4374 ],
+							[ -73.7223, 62.5468 ],
+							[ -74.5028, 62.3786 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Wind Warning Ended",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 9, 2021 01:30",
+				"Expires_UTC" : "March 9, 2021 02:30",
+				"Summary" : "Description: Wind speeds are no longer expected to meet warning criteria.\n\n###<br>Expires: 2021-03-09T02:30:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-09T01:30:56-00:00, urn:oid:2.49.0.1.124.4292736615.2021<br>Area: Salluit",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-09:feed.atom/urn:oid:2.49.0.1.124.4292736615.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-09/2021_03_09T01_30_56_00_00Iurn_oid_2.49.0.1.124.4292736615.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210309023056+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -78.1899, 61.8615 ],
 							[ -77.9932, 61.1989 ],
 							[ -78.2274, 60.8442 ],
