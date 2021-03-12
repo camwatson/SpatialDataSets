@@ -59,72 +59,91 @@
 				"coordinates" : [
 					[
 						[
-							[ -65.8312, 49.5216 ],
-							[ -66.7602, 49.3619 ],
-							[ -66.7497, 49.0778 ],
-							[ -66.7517, 48.87 ],
-							[ -66.7517, 48.8697 ],
-							[ -66.0046, 49.0462 ],
-							[ -65.7491, 49.0651 ],
-							[ -65.4879, 49.0837 ],
-							[ -64.7535, 48.9304 ],
-							[ -64.7524, 48.9301 ],
-							[ -64.7521, 48.9301 ],
-							[ -64.7493, 49.1316 ],
-							[ -64.7482, 49.4732 ],
-							[ -65.8312, 49.5216 ]
-						]
-					],
-					[
-						[
-							[ -62.995, 50.1418 ],
-							[ -62.2009, 50.0264 ],
-							[ -60.9625, 50.0819 ],
-							[ -60.9681, 50.1859 ],
-							[ -60.9447, 50.2258 ],
-							[ -60.9519, 50.2315 ],
-							[ -60.9909, 50.2233 ],
-							[ -60.9983, 50.2284 ],
-							[ -60.9991, 50.7497 ],
-							[ -62.999, 50.7498 ],
-							[ -62.995, 50.1418 ]
-						]
-					],
-					[
-						[
-							[ -62.3276, 48.954 ],
-							[ -61.5516, 49.0069 ],
-							[ -61.6531, 49.3315 ],
-							[ -62.7102, 49.7756 ],
-							[ -64.247, 50.0517 ],
-							[ -64.6644, 49.9372 ],
-							[ -64.4687, 49.68 ],
-							[ -63.7319, 49.3083 ],
-							[ -62.3276, 48.954 ]
+							[ -108.4516, 50.6159 ],
+							[ -108.4516, 50.6231 ],
+							[ -108.4603, 50.6231 ],
+							[ -108.4635, 50.6258 ],
+							[ -108.463, 50.6231 ],
+							[ -108.4747, 50.623 ],
+							[ -108.4747, 50.6159 ],
+							[ -108.4516, 50.6159 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Wind Warning In Effect",
+				"subCategory" : "Health",
+				"Title" : "Precautionary Drinking Water Advisory Alert Is Being Issued By The Town Of Cabri.",
 				"Category" : "Actual",
-				"event" : "Wind",
-				"urgency" : "Future",
-				"certainty" : "Likely",
+				"event" : "Drinking Water",
+				"urgency" : "Immediate",
+				"certainty" : "Observed",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 11, 2021 22:40",
-				"Expires_UTC" : "March 12, 2021 14:39",
-				"Summary" : "Description: Westerly winds reaching near 90 km/h are expected beginning midday Friday.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-12T14:39:43-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-11T22:40:43-00:00, urn:oid:2.49.0.1.124.2472113172.2021<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Natashquan, Anticosti",
-				"Author" : "Environment Canada",
+				"LastUpdate_UTC" : "March 11, 2021 09:47",
+				"Expires_UTC" : "March 18, 2021 12:00",
+				"Summary" : "Description: A Precautionary Drinking Water Advisory has been issued for the Town of Cabri. This advisory is for the entire community and for any individuals who may access water the Town of Cabri.  water system.  This advisory is in effect until further notice.<br>Expires: 2021-03-18T12:00:00-06:00<br>Originated from CAP Alert: SK Provincial Emergency Communications Centre, 2021-03-11T09:47:43-06:00, D2157692-CDD2-6018-2886-554E495DB397<br>Area: The Town of Cabri.",
+				"Author" : "SK Provincial Emergency Communications Centre",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-11:feed.atom/urn:oid:2.49.0.1.124.2472113172.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-11/2021_03_11T22_40_43_00_00Iurn_oid_2.49.0.1.124.2472113172.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-11:feed.atom/D2157692-CDD2-6018-2886-554E495DB397",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-11/2021_03_11T09_47_43_06_00ID2157692_CDD2_6018_2886_554E495DB397.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210312143943+00:00"
+				"Expires_FMEFormat" : "20210318120000-06:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -127.6878, 54.538 ],
+							[ -127.6267, 54.3906 ],
+							[ -127.509, 54.1959 ],
+							[ -127.1346, 53.6587 ],
+							[ -126.7741, 53.2011 ],
+							[ -126.648, 53.014 ],
+							[ -126.5, 52.83 ],
+							[ -125.363, 52.8986 ],
+							[ -124.3065, 52.9994 ],
+							[ -125.0555, 54.2336 ],
+							[ -125.2762, 54.9367 ],
+							[ -124.4416, 55.346 ],
+							[ -125.3473, 56.067 ],
+							[ -126.6699, 56.9999 ],
+							[ -127.7835, 57.0545 ],
+							[ -128.9927, 57.0307 ],
+							[ -128.7494, 56.5021 ],
+							[ -128.4667, 56.0247 ],
+							[ -128.1367, 55.2999 ],
+							[ -127.6878, 54.538 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 11, 2021 15:39",
+				"Expires_UTC" : "March 12, 2021 07:38",
+				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nDUST ADVISORY IN EFFECT FOR SMITHERS AND BURNS LAKE\n\n(March  10,  2021  07:00  -  Smithers)  The  Ministry  of  Environment  and  Climate  Change Strategy in collaboration with the Northern Health Authority has issued a Dust Advisory for Smithers and Burns Lake because of high concentrations of coarse particulate matter that are expected to persist until there is precipitation, dust suppression or a change in traffic patterns.  Levels tend to be highest around busy roads and industrial operations.  This advisory is in effect until further notice.\n\nExposure  is  particularly  a  concern  for  individuals  with  chronic  conditions  such  as asthma,  COPD, heart disease,  and diabetes,  respiratory infections such as COVID-19,  pregnant  women,  infants,  and  older  adults.  Persons  with  chronic  underlying medical conditions or acute infections should postpone or reduce strenuous exercise until the advisory is lifted.  Where appropriate, maintain physical distancing.  Anyone experiencing symptoms such as continuing eye or throat irritation,  chest discomfort, shortness of breath, cough or wheezing, should follow the advice of their health care provider. Staying indoors helps to reduce particulate matter exposure. \n\nReal-time  air  quality  observations  and  information  regarding  the  health  effects  of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-03-12T07:38:33-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2021-03-11T15:39:33-00:00, urn:oid:2.49.0.1.124.3056647473.2021<br>Area: Bulkley Valley, Lakes District",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-11:feed.atom/urn:oid:2.49.0.1.124.3056647473.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-11/2021_03_11T15_39_33_00_00Iurn_oid_2.49.0.1.124.3056647473.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210312073833+00:00"
 			}
 		},
 		{
@@ -237,47 +256,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -108.4516, 50.6159 ],
-							[ -108.4516, 50.6231 ],
-							[ -108.4603, 50.6231 ],
-							[ -108.4635, 50.6258 ],
-							[ -108.463, 50.6231 ],
-							[ -108.4747, 50.623 ],
-							[ -108.4747, 50.6159 ],
-							[ -108.4516, 50.6159 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Health",
-				"Title" : "Precautionary Drinking Water Advisory Alert Is Being Issued By The Town Of Cabri.",
-				"Category" : "Actual",
-				"event" : "Drinking Water",
-				"urgency" : "Immediate",
-				"certainty" : "Observed",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 11, 2021 09:47",
-				"Expires_UTC" : "March 18, 2021 12:00",
-				"Summary" : "Description: A Precautionary Drinking Water Advisory has been issued for the Town of Cabri. This advisory is for the entire community and for any individuals who may access water the Town of Cabri.  water system.  This advisory is in effect until further notice.<br>Expires: 2021-03-18T12:00:00-06:00<br>Originated from CAP Alert: SK Provincial Emergency Communications Centre, 2021-03-11T09:47:43-06:00, D2157692-CDD2-6018-2886-554E495DB397<br>Area: The Town of Cabri.",
-				"Author" : "SK Provincial Emergency Communications Centre",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-11:feed.atom/D2157692-CDD2-6018-2886-554E495DB397",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-11/2021_03_11T09_47_43_06_00ID2157692_CDD2_6018_2886_554E495DB397.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210318120000-06:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -65.8312, 49.5216 ],
 							[ -66.7602, 49.3619 ],
 							[ -66.7497, 49.0778 ],
@@ -338,59 +316,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -127.6878, 54.538 ],
-							[ -127.6267, 54.3906 ],
-							[ -127.509, 54.1959 ],
-							[ -127.1346, 53.6587 ],
-							[ -126.7741, 53.2011 ],
-							[ -126.648, 53.014 ],
-							[ -126.5, 52.83 ],
-							[ -125.363, 52.8986 ],
-							[ -124.3065, 52.9994 ],
-							[ -125.0555, 54.2336 ],
-							[ -125.2762, 54.9367 ],
-							[ -124.4416, 55.346 ],
-							[ -125.3473, 56.067 ],
-							[ -126.6699, 56.9999 ],
-							[ -127.7835, 57.0545 ],
-							[ -128.9927, 57.0307 ],
-							[ -128.7494, 56.5021 ],
-							[ -128.4667, 56.0247 ],
-							[ -128.1367, 55.2999 ],
-							[ -127.6878, 54.538 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 11, 2021 15:39",
-				"Expires_UTC" : "March 12, 2021 07:38",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nDUST ADVISORY IN EFFECT FOR SMITHERS AND BURNS LAKE\n\n(March  10,  2021  07:00  -  Smithers)  The  Ministry  of  Environment  and  Climate  Change Strategy in collaboration with the Northern Health Authority has issued a Dust Advisory for Smithers and Burns Lake because of high concentrations of coarse particulate matter that are expected to persist until there is precipitation, dust suppression or a change in traffic patterns.  Levels tend to be highest around busy roads and industrial operations.  This advisory is in effect until further notice.\n\nExposure  is  particularly  a  concern  for  individuals  with  chronic  conditions  such  as asthma,  COPD, heart disease,  and diabetes,  respiratory infections such as COVID-19,  pregnant  women,  infants,  and  older  adults.  Persons  with  chronic  underlying medical conditions or acute infections should postpone or reduce strenuous exercise until the advisory is lifted.  Where appropriate, maintain physical distancing.  Anyone experiencing symptoms such as continuing eye or throat irritation,  chest discomfort, shortness of breath, cough or wheezing, should follow the advice of their health care provider. Staying indoors helps to reduce particulate matter exposure. \n\nReal-time  air  quality  observations  and  information  regarding  the  health  effects  of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-03-12T07:38:33-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2021-03-11T15:39:33-00:00, urn:oid:2.49.0.1.124.3056647473.2021<br>Area: Bulkley Valley, Lakes District",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-11:feed.atom/urn:oid:2.49.0.1.124.3056647473.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-11/2021_03_11T15_39_33_00_00Iurn_oid_2.49.0.1.124.3056647473.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210312073833+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -69.9989, 53.5007 ],
 							[ -69.9991, 54.9997 ],
 							[ -69.9991, 55.2482 ],
@@ -424,18 +349,18 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 11, 2021 20:48",
-				"Expires_UTC" : "March 12, 2021 12:47",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nSnowfall amounts of 15 to 20 cm are expected by Friday evening.   The snow combined with moderate winds will cause blowing snow which will significantly reduce visibilities.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-12T12:47:50-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-11T20:48:50-00:00, urn:oid:2.49.0.1.124.1646346234.2021<br>Area: LG Quatre - Laforge and Fontanges",
+				"LastUpdate_UTC" : "March 12, 2021 03:14",
+				"Expires_UTC" : "March 12, 2021 19:13",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nSnowfall amounts of 15 to 20 cm are expected by Friday evening. The snow combined with moderate winds will cause blowing snow which will significantly reduce visibilities.\n\n###\n\nVisibility will be suddenly reduced to near zero at times in heavy snow and blowing snow.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-12T19:13:56-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-12T03:14:56-00:00, urn:oid:2.49.0.1.124.0577585344.2021<br>Area: LG Quatre - Laforge and Fontanges",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-11:feed.atom/urn:oid:2.49.0.1.124.1646346234.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-11/2021_03_11T20_48_50_00_00Iurn_oid_2.49.0.1.124.1646346234.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-12:feed.atom/urn:oid:2.49.0.1.124.0577585344.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-12/2021_03_12T03_14_56_00_00Iurn_oid_2.49.0.1.124.0577585344.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210312124750+00:00"
+				"Expires_FMEFormat" : "20210312191356+00:00"
 			}
 		},
 		{
@@ -532,6 +457,81 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-11/2021_03_11T23_37_51_00_00Iurn_oid_2.49.0.1.124.0930469477.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210312153651+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -65.8312, 49.5216 ],
+							[ -66.7602, 49.3619 ],
+							[ -66.7497, 49.0778 ],
+							[ -66.7517, 48.87 ],
+							[ -66.7517, 48.8697 ],
+							[ -66.0046, 49.0462 ],
+							[ -65.7491, 49.0651 ],
+							[ -65.4879, 49.0837 ],
+							[ -64.7535, 48.9304 ],
+							[ -64.7524, 48.9301 ],
+							[ -64.7521, 48.9301 ],
+							[ -64.7493, 49.1316 ],
+							[ -64.7482, 49.4732 ],
+							[ -65.8312, 49.5216 ]
+						]
+					],
+					[
+						[
+							[ -62.995, 50.1418 ],
+							[ -62.2009, 50.0264 ],
+							[ -60.9625, 50.0819 ],
+							[ -60.9681, 50.1859 ],
+							[ -60.9447, 50.2258 ],
+							[ -60.9519, 50.2315 ],
+							[ -60.9909, 50.2233 ],
+							[ -60.9983, 50.2284 ],
+							[ -60.9991, 50.7497 ],
+							[ -62.999, 50.7498 ],
+							[ -62.995, 50.1418 ]
+						]
+					],
+					[
+						[
+							[ -62.3276, 48.954 ],
+							[ -61.5516, 49.0069 ],
+							[ -61.6531, 49.3315 ],
+							[ -62.7102, 49.7756 ],
+							[ -64.247, 50.0517 ],
+							[ -64.6644, 49.9372 ],
+							[ -64.4687, 49.68 ],
+							[ -63.7319, 49.3083 ],
+							[ -62.3276, 48.954 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Wind Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Wind",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 12, 2021 03:12",
+				"Expires_UTC" : "March 12, 2021 19:11",
+				"Summary" : "Description: Westerly winds reaching near 90 km/h are expected beginning midday Friday.\n\n###\n\nLoose objects may be tossed by the wind and cause injury or damage.\n\nWind warnings are issued when there is a significant risk of damaging winds.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to QCstorm@canada.ca or tweet reports using #QCStorm.<br>Expires: 2021-03-12T19:11:42-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-12T03:12:42-00:00, urn:oid:2.49.0.1.124.4098997800.2021<br>Area: Grande-Vallée area, Sainte-Anne-des-Monts area, Natashquan, Anticosti",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-12:feed.atom/urn:oid:2.49.0.1.124.4098997800.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-12/2021_03_12T03_12_42_00_00Iurn_oid_2.49.0.1.124.4098997800.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210312191142+00:00"
 			}
 		},
 		{
