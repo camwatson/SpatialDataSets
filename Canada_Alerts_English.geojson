@@ -267,16 +267,16 @@
 				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 12, 2021 14:47",
+				"LastUpdate_UTC" : "March 12, 2021 14:48",
 				"Expires_UTC" : "March 13, 2021 06:47",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-13T06:47:52-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-12T14:47:52-00:00, urn:oid:2.49.0.1.124.1265029744.2021<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nTotal snowfall: 20 to 30 cm by Saturday morning.\n\nMaximum wind gusts today: easterly up to 60 km/h .\nMaximum wind gusts tonight: northerly up to 80 km/h.\n\nLocations: Nain to Makkovik.\n\nTime span: continuing into Saturday. \n\nRemarks: Snow and blowing snow will persist into Saturday. Near-zero visibilities in white-out conditions are expected at times.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-13T06:47:52-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-12T14:48:52-00:00, urn:oid:2.49.0.1.124.3212184804.2021<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-12:feed.atom/urn:oid:2.49.0.1.124.1265029744.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-12/2021_03_12T14_47_52_00_00Iurn_oid_2.49.0.1.124.1265029744.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-12:feed.atom/urn:oid:2.49.0.1.124.3212184804.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-12/2021_03_12T14_48_52_00_00Iurn_oid_2.49.0.1.124.3212184804.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210313064752+00:00"
 			}
@@ -373,6 +373,55 @@
 				"coordinates" : [
 					[
 						[
+							[ -58.3667, 53.72 ],
+							[ -57.499, 53.3332 ],
+							[ -57.4985, 53.333 ],
+							[ -57.1137, 53.3384 ],
+							[ -55.9017, 53.3388 ],
+							[ -55.6638, 53.3472 ],
+							[ -55.5672, 53.6125 ],
+							[ -57.0958, 54.136 ],
+							[ -56.7055, 54.7584 ],
+							[ -57.8299, 54.7766 ],
+							[ -58.0061, 54.7317 ],
+							[ -59.3729, 54.19 ],
+							[ -59.0361, 54.0269 ],
+							[ -58.8814, 54.0182 ],
+							[ -58.8483, 53.9346 ],
+							[ -58.3667, 53.72 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Statement",
+				"Title" : "Blowing Snow Advisory In Effect",
+				"Category" : "Actual",
+				"event" : "Blowing Snow",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 12, 2021 14:51",
+				"Expires_UTC" : "March 13, 2021 06:50",
+				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: 5 to 10 cm on Saturday with further amounts expected Saturday night.\n\nMaximum wind gusts: northwesterly 80 km/h.\n\nLocations: Rigolet to Black Tickle.\n\nTime span: Saturday morning until overnight Sunday.\n\nRemarks: Fresh snowfall will combine with strengthening northwesterly winds on Saturday to produce poor visibility in blowing snow. While strong winds will continue on Monday, the snow will taper off overnight Sunday night.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-13T06:50:11-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-12T14:51:11-00:00, urn:oid:2.49.0.1.124.3679425091.2021<br>Area: Cartwright to Black Tickle, Rigolet and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-12:feed.atom/urn:oid:2.49.0.1.124.3679425091.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-12/2021_03_12T14_51_11_00_00Iurn_oid_2.49.0.1.124.3679425091.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210313065011+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
 							[ -129.7213, 51.8219 ],
 							[ -128.8048, 50.9385 ],
 							[ -127.9174, 50.973 ],
@@ -432,59 +481,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-12/2021_03_12T12_53_58_00_00Iurn_oid_2.49.0.1.124.2446981938.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210313045258+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -128.8866, 53.7938 ],
-							[ -128.7982, 53.6904 ],
-							[ -128.467, 53.3215 ],
-							[ -127.8972, 52.8496 ],
-							[ -127.7684, 52.8375 ],
-							[ -127.5427, 52.8083 ],
-							[ -127.3188, 52.8257 ],
-							[ -127.1737, 52.8773 ],
-							[ -127.034, 52.961 ],
-							[ -126.9132, 53.0621 ],
-							[ -126.7741, 53.2011 ],
-							[ -127.0813, 53.6559 ],
-							[ -127.509, 54.1959 ],
-							[ -127.5965, 54.3951 ],
-							[ -127.6878, 54.538 ],
-							[ -128.6057, 54.2334 ],
-							[ -129.0905, 54.0674 ],
-							[ -129.0948, 54.0659 ],
-							[ -128.9298, 53.8451 ],
-							[ -128.8866, 53.7938 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Rainfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Rainfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 11, 2021 23:53",
-				"Expires_UTC" : "March 12, 2021 15:52",
-				"Summary" : "Description: Rain, at times heavy, is expected.\n\nA stalled Pacific front over the North Coast will give rain at times heavy to North Coast - inland including Kitimat tonight through Friday.  \n\nRainfall amounts near 50 mm can be expected by Friday evening before the rain eases.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-03-12T15:52:27-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-11T23:53:27-00:00, urn:oid:2.49.0.1.124.4161900637.2021<br>Area: North Coast - inland including Kitimat",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-11:feed.atom/urn:oid:2.49.0.1.124.4161900637.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-11/2021_03_11T23_53_27_00_00Iurn_oid_2.49.0.1.124.4161900637.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210312155227+00:00"
 			}
 		},
 		{
@@ -571,46 +567,50 @@
 				"coordinates" : [
 					[
 						[
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -57.1137, 53.3384 ],
-							[ -55.9017, 53.3388 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -56.7055, 54.7584 ],
-							[ -57.8299, 54.7766 ],
-							[ -58.0061, 54.7317 ],
-							[ -59.3729, 54.19 ],
-							[ -59.0361, 54.0269 ],
-							[ -58.8814, 54.0182 ],
-							[ -58.8483, 53.9346 ],
-							[ -58.3667, 53.72 ]
+							[ -128.8866, 53.7938 ],
+							[ -128.7982, 53.6904 ],
+							[ -128.467, 53.3215 ],
+							[ -127.8972, 52.8496 ],
+							[ -127.7684, 52.8375 ],
+							[ -127.5427, 52.8083 ],
+							[ -127.3188, 52.8257 ],
+							[ -127.1737, 52.8773 ],
+							[ -127.034, 52.961 ],
+							[ -126.9132, 53.0621 ],
+							[ -126.7741, 53.2011 ],
+							[ -127.0813, 53.6559 ],
+							[ -127.509, 54.1959 ],
+							[ -127.5965, 54.3951 ],
+							[ -127.6878, 54.538 ],
+							[ -128.6057, 54.2334 ],
+							[ -129.0905, 54.0674 ],
+							[ -129.0948, 54.0659 ],
+							[ -128.9298, 53.8451 ],
+							[ -128.8866, 53.7938 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Rainfall Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blowing Snow",
+				"event" : "Rainfall",
 				"urgency" : "Future",
-				"certainty" : "Possible",
+				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 12, 2021 09:05",
-				"Expires_UTC" : "March 13, 2021 01:04",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: 5 to 10 cm on Saturday with further amounts expected.\n\nMaximum wind gusts: northwesterly 80 km/h.\n\nLocations: Rigolet to Black Tickle.\n\nTime span: Saturday morning until overnight Sunday\n\nRemarks: Fresh snowfall will combine with strengthening northwesterly winds on Saturday to produce poor visibility in blowing snow. While strong winds will continue on Monday, the snow will taper off overnight Sunday night.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-13T01:04:13-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-12T09:05:13-00:00, urn:oid:2.49.0.1.124.0884453291.2021<br>Area: Cartwright to Black Tickle, Rigolet and vicinity",
+				"LastUpdate_UTC" : "March 11, 2021 23:53",
+				"Expires_UTC" : "March 12, 2021 15:52",
+				"Summary" : "Description: Rain, at times heavy, is expected.\n\nA stalled Pacific front over the North Coast will give rain at times heavy to North Coast - inland including Kitimat tonight through Friday.  \n\nRainfall amounts near 50 mm can be expected by Friday evening before the rain eases.\n\n###\n\nHeavy downpours can cause flash floods and water pooling on roads. Localized flooding in low-lying areas is possible.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-03-12T15:52:27-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-11T23:53:27-00:00, urn:oid:2.49.0.1.124.4161900637.2021<br>Area: North Coast - inland including Kitimat",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-12:feed.atom/urn:oid:2.49.0.1.124.0884453291.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-12/2021_03_12T09_05_13_00_00Iurn_oid_2.49.0.1.124.0884453291.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-11:feed.atom/urn:oid:2.49.0.1.124.4161900637.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-11/2021_03_11T23_53_27_00_00Iurn_oid_2.49.0.1.124.4161900637.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210313010413+00:00"
+				"Expires_FMEFormat" : "20210312155227+00:00"
 			}
 		},
 		{
