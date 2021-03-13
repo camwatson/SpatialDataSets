@@ -59,6 +59,74 @@
 						[
 							[ -129.7213, 51.8219 ],
 							[ -128.8048, 50.9385 ],
+							[ -127.9174, 50.973 ],
+							[ -127.8239, 50.9767 ],
+							[ -127.5713, 50.8711 ],
+							[ -127.1869, 50.7499 ],
+							[ -126.8819, 50.6862 ],
+							[ -126.8269, 50.6535 ],
+							[ -126.6918, 50.5726 ],
+							[ -126.6681, 50.5277 ],
+							[ -126.5878, 50.5045 ],
+							[ -126.3357, 50.507 ],
+							[ -126.0778, 50.4694 ],
+							[ -125.9203, 50.4049 ],
+							[ -125.8831, 50.4103 ],
+							[ -125.8373, 50.4041 ],
+							[ -125.7844, 50.4041 ],
+							[ -125.7248, 50.4263 ],
+							[ -125.7875, 50.4827 ],
+							[ -125.764, 50.4844 ],
+							[ -125.7091, 50.4949 ],
+							[ -125.7049, 50.5132 ],
+							[ -125.5025, 50.7065 ],
+							[ -125.3217, 50.9024 ],
+							[ -125.9809, 51.2728 ],
+							[ -126.692, 51.65 ],
+							[ -127.2572, 52.2609 ],
+							[ -127.8972, 52.8496 ],
+							[ -128.0577, 52.8693 ],
+							[ -128.2098, 52.8688 ],
+							[ -128.4465, 52.8318 ],
+							[ -128.6149, 52.7579 ],
+							[ -128.7809, 52.6384 ],
+							[ -128.9311, 52.4737 ],
+							[ -129.7213, 51.8219 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 13, 2021 18:44",
+				"Expires_UTC" : "March 14, 2021 10:44",
+				"Summary" : "Description: Snowfall with total amounts of 10 to 15 cm is expected.\n\n###\n\nVisibility may be suddenly reduced at times in heavy snow.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-03-14T10:44:25-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T18:44:25-00:00, urn:oid:2.49.0.1.124.1432560816.2021<br>Area: Central Coast - coastal sections",
+				"Author" : "Environment Canada",
+				"msgType" : "Alert",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.1432560816.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T18_44_25_00_00Iurn_oid_2.49.0.1.124.1432560816.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210314104425+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -129.7213, 51.8219 ],
+							[ -128.8048, 50.9385 ],
 							[ -129.3279, 50.9024 ],
 							[ -128.7561, 50.7181 ],
 							[ -127.8902, 50.0396 ],
@@ -335,43 +403,46 @@
 				"coordinates" : [
 					[
 						[
-							[ -86.7151, 66.4201 ],
-							[ -85.7443, 66.2549 ],
-							[ -85.7007, 66.5305 ],
-							[ -85.7262, 66.5904 ],
-							[ -85.8321, 66.6654 ],
-							[ -85.9956, 66.7161 ],
-							[ -86.1958, 66.7386 ],
-							[ -86.4118, 66.7284 ],
-							[ -86.5928, 66.6879 ],
-							[ -86.7258, 66.6201 ],
-							[ -86.7802, 66.5408 ],
-							[ -86.7497, 66.452 ],
-							[ -86.7151, 66.4201 ]
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -58.0061, 54.7317 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.798, 55.9666 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8884, 55.8597 ],
+							[ -61.0222, 55.8603 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ]
 						]
 					]
 				]
 			},
 			"properties" : {
 				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Blizzard Warning In Effect",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Blizzard",
-				"urgency" : "Future",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
 				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2021 15:09",
-				"Expires_UTC" : "March 14, 2021 07:08",
-				"Summary" : "Description: Blizzard conditions with poor visibilities in blowing snow are occurring in Naujaat.\n\nTucked between high pressure over NWT and low pressure to the east, northerly winds will gradually increase and gust up to 80 km/h. These strong winds will help to produce blizzard conditions in Naujaat. These conditions are expected to persist until Sunday afternoon.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-14T07:08:01-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T15:09:01-00:00, urn:oid:2.49.0.1.124.0717202264.2021<br>Area: Naujaat",
+				"LastUpdate_UTC" : "March 13, 2021 14:57",
+				"Expires_UTC" : "March 14, 2021 06:56",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nAdditional snowfall: 5-10 cm in Hopedale, 10-15 cm for Postville-Makkovik.\n\nMaximum wind gusts: northwesterly up to 80 km/h.\n\nLocations: Hopedale to Postville-Makkovik.\n\nTime span: today and tonight.  \n\nRemarks: Snow and blowing snow will continue into tonight. Near-zero visibilities in white-out conditions are expected at times.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-14T06:56:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T14:57:22-00:00, urn:oid:2.49.0.1.124.1949157481.2021<br>Area: Postville - Makkovik, Hopedale and vicinity",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.0717202264.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T15_09_01_00_00Iurn_oid_2.49.0.1.124.0717202264.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.1949157481.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T14_57_22_00_00Iurn_oid_2.49.0.1.124.1949157481.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210314070801+00:00"
+				"Expires_FMEFormat" : "20210314065622+00:00"
 			}
 		},
 		{
@@ -381,38 +452,47 @@
 				"coordinates" : [
 					[
 						[
-							[ -118.8, 50.7499 ],
-							[ -119.2914, 50.6752 ],
-							[ -119.6999, 50.5999 ],
-							[ -119.8104, 50.3717 ],
-							[ -119.9107, 50.0731 ],
-							[ -118.3899, 50.06 ],
-							[ -118.574, 50.3966 ],
-							[ -118.8, 50.7499 ]
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -58.0061, 54.7317 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.7945, 56.6786 ],
+							[ -61.1044, 56.5708 ],
+							[ -61.8607, 56.6166 ],
+							[ -62.4923, 56.7524 ],
+							[ -63.0043, 56.7494 ],
+							[ -63.0038, 56.0019 ],
+							[ -63.0037, 55.8296 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
 				"Category" : "Actual",
-				"event" : "Air Quality",
-				"urgency" : "Future",
-				"certainty" : "Possible",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
 				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2021 07:40",
-				"Expires_UTC" : "March 13, 2021 23:39",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nDUST ADVISORY IN EFFECT FOR VERNON\n\nThe  Ministry  of  Environment  and  Climate  Change Strategy in collaboration with the Interior Health has continued a Dust Advisory for Vernon because of high concentrations of coarse particulate matter that are expected to persist until there is precipitation, dust suppression or a change in traffic patterns.  Levels tend to be highest around busy roads and industrial operations.  This advisory is in effect until further notice.\n\nExposure  is  particularly  a  concern  for  individuals  with  chronic  conditions  such  as asthma,  COPD, heart disease,  and diabetes,  respiratory infections such as COVID-19,  pregnant  women,  infants,  and  older  adults.  Persons  with  chronic  underlying medical conditions or acute infections should postpone or reduce strenuous exercise until the advisory is lifted.  Where appropriate, maintain physical distancing.  Anyone experiencing symptoms such as continuing eye or throat irritation,  chest discomfort, shortness of breath, cough or wheezing, should follow the advice of their health care provider. Staying indoors helps to reduce particulate matter exposure. \n\nReal-time  air  quality  observations  and  information  regarding  the  health  effects  of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-03-13T23:39:24-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2021-03-13T07:40:24-00:00, urn:oid:2.49.0.1.124.3752043293.2021<br>Area: North Okanagan",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"LastUpdate_UTC" : "March 13, 2021 09:12",
+				"Expires_UTC" : "March 14, 2021 01:11",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nAdditional snowfall: 2-4 cm in Nain to 10-15 cm in Makkovik.\n\nMaximum wind gusts: northerly up to 80 km/h.\n\nLocations: Nain to Makkovik.\n\nTime span: today and tonight.  \n\nRemarks: Near-zero visibilities in white-out conditions are expected at times. Conditions will likely improve in Nain by this afternoon as the snow tapers off. Elsewhere, snow and blowing snow will continue into tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-14T01:11:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T09:12:55-00:00, urn:oid:2.49.0.1.124.0899323413.2021<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
+				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.3752043293.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T07_40_24_00_00Iurn_oid_2.49.0.1.124.3752043293.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.0899323413.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T09_12_55_00_00Iurn_oid_2.49.0.1.124.0899323413.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210313233924+00:00"
+				"Expires_FMEFormat" : "20210314011155+00:00"
 			}
 		},
 		{
@@ -457,61 +537,6 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T14_56_25_00_00Iurn_oid_2.49.0.1.124.3452790444.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210314065525+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -57.1137, 53.3384 ],
-							[ -57.129, 53.0471 ],
-							[ -57.1146, 52.8003 ],
-							[ -57.1428, 52.4234 ],
-							[ -57.1156, 52.1 ],
-							[ -55.6948, 52.1 ],
-							[ -55.2952, 52.1186 ],
-							[ -55.559, 53.2249 ],
-							[ -55.6638, 53.3472 ],
-							[ -55.5672, 53.6125 ],
-							[ -57.0958, 54.136 ],
-							[ -56.7055, 54.7584 ],
-							[ -57.8299, 54.7766 ],
-							[ -58.0061, 54.7317 ],
-							[ -59.3729, 54.19 ],
-							[ -59.0361, 54.0269 ],
-							[ -58.8814, 54.0182 ],
-							[ -58.8483, 53.9346 ],
-							[ -58.3667, 53.72 ],
-							[ -57.499, 53.3332 ],
-							[ -57.4985, 53.333 ],
-							[ -57.1137, 53.3384 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Blowing Snow Advisory In Effect",
-				"Category" : "Actual",
-				"event" : "Blowing Snow",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2021 02:48",
-				"Expires_UTC" : "March 13, 2021 18:47",
-				"Summary" : "Description: Poor visibility in snow and blowing snow is expected or occurring in some locations.\n\nTotal snowfall: 15-25 cm for Rigolet and Cartwright. 10-15 cm from Norman Bay to Lodge Bay.\n\nMaximum wind gusts: northwesterly 80 km/h.\n\nLocations: Rigolet to Lodge Bay.\n\nTime span: Saturday morning until overnight Sunday.\n\nRemarks: Fresh snowfall will combine with strengthening northwesterly winds on Saturday to produce poor visibility in blowing snow. While strong winds will continue on Monday, the snow will taper off overnight Sunday night.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nBlowing snow advisories are issued when winds are expected to create blowing snow giving poor visibility to 800 metres or less for at least 3 hours.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-13T18:47:47-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T02:48:47-00:00, urn:oid:2.49.0.1.124.4248601470.2021<br>Area: Norman Bay to Lodge Bay, Cartwright to Black Tickle, Rigolet and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.4248601470.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T02_48_47_00_00Iurn_oid_2.49.0.1.124.4248601470.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210313184747+00:00"
 			}
 		},
 		{
@@ -1010,105 +1035,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ],
-							[ -58.0061, 54.7317 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.798, 55.9666 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8884, 55.8597 ],
-							[ -61.0222, 55.8603 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2021 14:57",
-				"Expires_UTC" : "March 14, 2021 06:56",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nAdditional snowfall: 5-10 cm in Hopedale, 10-15 cm for Postville-Makkovik.\n\nMaximum wind gusts: northwesterly up to 80 km/h.\n\nLocations: Hopedale to Postville-Makkovik.\n\nTime span: today and tonight.  \n\nRemarks: Snow and blowing snow will continue into tonight. Near-zero visibilities in white-out conditions are expected at times.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-14T06:56:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T14:57:22-00:00, urn:oid:2.49.0.1.124.1949157481.2021<br>Area: Postville - Makkovik, Hopedale and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.1949157481.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T14_57_22_00_00Iurn_oid_2.49.0.1.124.1949157481.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210314065622+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ],
-							[ -58.0061, 54.7317 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
-							[ -60.7945, 56.6786 ],
-							[ -61.1044, 56.5708 ],
-							[ -61.8607, 56.6166 ],
-							[ -62.4923, 56.7524 ],
-							[ -63.0043, 56.7494 ],
-							[ -63.0038, 56.0019 ],
-							[ -63.0037, 55.8296 ],
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2021 09:12",
-				"Expires_UTC" : "March 14, 2021 01:11",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nAdditional snowfall: 2-4 cm in Nain to 10-15 cm in Makkovik.\n\nMaximum wind gusts: northerly up to 80 km/h.\n\nLocations: Nain to Makkovik.\n\nTime span: today and tonight.  \n\nRemarks: Near-zero visibilities in white-out conditions are expected at times. Conditions will likely improve in Nain by this afternoon as the snow tapers off. Elsewhere, snow and blowing snow will continue into tonight.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-14T01:11:55-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T09:12:55-00:00, urn:oid:2.49.0.1.124.0899323413.2021<br>Area: Postville - Makkovik, Hopedale and vicinity, Nain and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.0899323413.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T09_12_55_00_00Iurn_oid_2.49.0.1.124.0899323413.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210314011155+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -129.4368, 59.9999 ],
 							[ -128.071, 59.9837 ],
 							[ -126.8261, 60 ],
@@ -1146,6 +1072,93 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T17_52_14_00_00Iurn_oid_2.49.0.1.124.2627483692.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210314095114+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -118.8, 50.7499 ],
+							[ -119.2914, 50.6752 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.8104, 50.3717 ],
+							[ -119.9107, 50.0731 ],
+							[ -118.3899, 50.06 ],
+							[ -118.574, 50.3966 ],
+							[ -118.8, 50.7499 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 13, 2021 07:40",
+				"Expires_UTC" : "March 13, 2021 23:39",
+				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nDUST ADVISORY IN EFFECT FOR VERNON\n\nThe  Ministry  of  Environment  and  Climate  Change Strategy in collaboration with the Interior Health has continued a Dust Advisory for Vernon because of high concentrations of coarse particulate matter that are expected to persist until there is precipitation, dust suppression or a change in traffic patterns.  Levels tend to be highest around busy roads and industrial operations.  This advisory is in effect until further notice.\n\nExposure  is  particularly  a  concern  for  individuals  with  chronic  conditions  such  as asthma,  COPD, heart disease,  and diabetes,  respiratory infections such as COVID-19,  pregnant  women,  infants,  and  older  adults.  Persons  with  chronic  underlying medical conditions or acute infections should postpone or reduce strenuous exercise until the advisory is lifted.  Where appropriate, maintain physical distancing.  Anyone experiencing symptoms such as continuing eye or throat irritation,  chest discomfort, shortness of breath, cough or wheezing, should follow the advice of their health care provider. Staying indoors helps to reduce particulate matter exposure. \n\nReal-time  air  quality  observations  and  information  regarding  the  health  effects  of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-03-13T23:39:24-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2021-03-13T07:40:24-00:00, urn:oid:2.49.0.1.124.3752043293.2021<br>Area: North Okanagan",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.3752043293.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T07_40_24_00_00Iurn_oid_2.49.0.1.124.3752043293.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210313233924+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -86.7151, 66.4201 ],
+							[ -85.7443, 66.2549 ],
+							[ -85.7007, 66.5305 ],
+							[ -85.7262, 66.5904 ],
+							[ -85.8321, 66.6654 ],
+							[ -85.9956, 66.7161 ],
+							[ -86.1958, 66.7386 ],
+							[ -86.4118, 66.7284 ],
+							[ -86.5928, 66.6879 ],
+							[ -86.7258, 66.6201 ],
+							[ -86.7802, 66.5408 ],
+							[ -86.7497, 66.452 ],
+							[ -86.7151, 66.4201 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Blizzard Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Blizzard",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 13, 2021 15:09",
+				"Expires_UTC" : "March 14, 2021 07:08",
+				"Summary" : "Description: Blizzard conditions with poor visibilities in blowing snow are occurring in Naujaat.\n\nTucked between high pressure over NWT and low pressure to the east, northerly winds will gradually increase and gust up to 80 km/h. These strong winds will help to produce blizzard conditions in Naujaat. These conditions are expected to persist until Sunday afternoon.\n\n###\n\nTravel is expected to be hazardous due to reduced visibility.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NUstorm@canada.ca or tweet reports using #NUStorm.<br>Expires: 2021-03-14T07:08:01-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T15:09:01-00:00, urn:oid:2.49.0.1.124.0717202264.2021<br>Area: Naujaat",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.0717202264.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T15_09_01_00_00Iurn_oid_2.49.0.1.124.0717202264.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210314070801+00:00"
 			}
 		}
 	]
