@@ -261,25 +261,25 @@
 				]
 			},
 			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
+				"subCategory" : "Met:Warning:Minor",
+				"Title" : "Snowfall Warning Ended",
 				"Category" : "Actual",
 				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2021 02:07",
-				"Expires_UTC" : "March 13, 2021 18:06",
-				"Summary" : "Description: Snowfall with total amounts of about 10 cm is expected.\n\nHeavy snow is possible overnight with a further  5 to 10 cm.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations. Visibility may be suddenly reduced at times in heavy snow.\n\nWeather in the mountains can change suddenly resulting in hazardous driving conditions.\n\nRoad conditions are available at www.drivebc.ca.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to BCstorm@canada.ca or tweet reports using #BCStorm.<br>Expires: 2021-03-13T18:06:24-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T02:07:24-00:00, urn:oid:2.49.0.1.124.2645440914.2021<br>Area: Highway 97 - Pine Pass",
+				"urgency" : "Past",
+				"certainty" : "Observed",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 13, 2021 16:11",
+				"Expires_UTC" : "March 13, 2021 17:11",
+				"Summary" : "Description: Significant snowfall is no longer expected.\n\n\n###<br>Expires: 2021-03-13T17:11:46-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T16:11:46-00:00, urn:oid:2.49.0.1.124.3861160665.2021<br>Area: Highway 97 - Pine Pass",
 				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.2645440914.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T02_07_24_00_00Iurn_oid_2.49.0.1.124.2645440914.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.3861160665.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T16_11_46_00_00Iurn_oid_2.49.0.1.124.3861160665.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210313180624+00:00"
+				"Expires_FMEFormat" : "20210313171146+00:00"
 			}
 		},
 		{
@@ -889,55 +889,6 @@
 							[ -59.6967, 55.4317 ],
 							[ -60.2928, 55.906 ],
 							[ -60.5146, 55.9314 ],
-							[ -60.798, 55.9666 ],
-							[ -60.8874, 55.9491 ],
-							[ -60.8571, 55.8846 ],
-							[ -60.8884, 55.8597 ],
-							[ -61.0222, 55.8603 ],
-							[ -61.0935, 55.8392 ],
-							[ -61.891, 55.378 ],
-							[ -60.5775, 54.79 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Winter Storm Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Winter Storm",
-				"urgency" : "Expected",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 13, 2021 14:57",
-				"Expires_UTC" : "March 14, 2021 06:56",
-				"Summary" : "Description: Hazardous winter conditions are expected.\n\nAdditional snowfall: 5-10 cm in Hopedale, 10-15 cm for Postville-Makkovik.\n\nMaximum wind gusts: northwesterly up to 80 km/h.\n\nLocations: Hopedale to Postville-Makkovik.\n\nTime span: today and tonight.  \n\nRemarks: Snow and blowing snow will continue into tonight. Near-zero visibilities in white-out conditions are expected at times.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-14T06:56:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T14:57:22-00:00, urn:oid:2.49.0.1.124.1949157481.2021<br>Area: Postville - Makkovik, Hopedale and vicinity",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.1949157481.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T14_57_22_00_00Iurn_oid_2.49.0.1.124.1949157481.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210314065622+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
-							[ -60.5775, 54.79 ],
-							[ -59.3729, 54.19 ],
-							[ -58.0061, 54.7317 ],
-							[ -57.8299, 54.7766 ],
-							[ -57.7187, 54.9831 ],
-							[ -59.6967, 55.4317 ],
-							[ -60.2928, 55.906 ],
-							[ -60.5146, 55.9314 ],
 							[ -60.7945, 56.6786 ],
 							[ -61.1044, 56.5708 ],
 							[ -61.8607, 56.6166 ],
@@ -971,6 +922,55 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T09_12_55_00_00Iurn_oid_2.49.0.1.124.0899323413.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210314011155+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -60.5775, 54.79 ],
+							[ -59.3729, 54.19 ],
+							[ -58.0061, 54.7317 ],
+							[ -57.8299, 54.7766 ],
+							[ -57.7187, 54.9831 ],
+							[ -59.6967, 55.4317 ],
+							[ -60.2928, 55.906 ],
+							[ -60.5146, 55.9314 ],
+							[ -60.798, 55.9666 ],
+							[ -60.8874, 55.9491 ],
+							[ -60.8571, 55.8846 ],
+							[ -60.8884, 55.8597 ],
+							[ -61.0222, 55.8603 ],
+							[ -61.0935, 55.8392 ],
+							[ -61.891, 55.378 ],
+							[ -60.5775, 54.79 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Winter Storm Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Winter Storm",
+				"urgency" : "Expected",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 13, 2021 14:57",
+				"Expires_UTC" : "March 14, 2021 06:56",
+				"Summary" : "Description: Hazardous winter conditions are expected.\n\nAdditional snowfall: 5-10 cm in Hopedale, 10-15 cm for Postville-Makkovik.\n\nMaximum wind gusts: northwesterly up to 80 km/h.\n\nLocations: Hopedale to Postville-Makkovik.\n\nTime span: today and tonight.  \n\nRemarks: Snow and blowing snow will continue into tonight. Near-zero visibilities in white-out conditions are expected at times.\n\n###\n\nRapidly accumulating snow could make travel difficult over some locations.\n\nWinter storm warnings are issued when multiple types of severe winter weather are expected to occur together.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-14T06:56:22-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-13T14:57:22-00:00, urn:oid:2.49.0.1.124.1949157481.2021<br>Area: Postville - Makkovik, Hopedale and vicinity",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-13:feed.atom/urn:oid:2.49.0.1.124.1949157481.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-13/2021_03_13T14_57_22_00_00Iurn_oid_2.49.0.1.124.1949157481.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210314065622+00:00"
 			}
 		},
 		{
