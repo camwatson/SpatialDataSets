@@ -576,63 +576,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -56.4239, 47.5076 ],
-							[ -55.9321, 47.1631 ],
-							[ -55.1703, 47.5512 ],
-							[ -55.1557, 47.5799 ],
-							[ -55.1527, 47.5874 ],
-							[ -54.9999, 47.9199 ],
-							[ -55, 48.25 ],
-							[ -56.4199, 48.2499 ],
-							[ -57.4599, 48.2499 ],
-							[ -57.83, 48.58 ],
-							[ -58.0764, 48.6423 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.5671, 48.1004 ],
-							[ -58.5677, 48.1 ],
-							[ -58.4199, 48.1 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.42, 47.6666 ],
-							[ -58.42, 47.6535 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.144, 47.5744 ],
-							[ -56.9846, 47.386 ],
-							[ -56.4239, 47.5076 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Warning:Moderate",
-				"Title" : "Snowfall Warning In Effect",
-				"Category" : "Actual",
-				"event" : "Snowfall",
-				"urgency" : "Future",
-				"certainty" : "Likely",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 18, 2021 13:31",
-				"Expires_UTC" : "March 19, 2021 05:30",
-				"Summary" : "Description: Significant snowfall is expected.\n\nTotal snowfall: 15 to 30 cm, with locally higher amounts possible in some locations.\n\nLocations: south coast of Newfoundland.\n\nTime span: tonight through Friday.\n\nRemarks: Precipitation is forecast to begin late this afternoon or early this evening as mostly rain along the coast and snow inland, before transitioning to snow over all areas overnight into Friday morning. The snow will be heavy at times until tapering off on Friday evening.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-19T05:30:00-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-18T13:31:00-00:00, urn:oid:2.49.0.1.124.3729446008.2021<br>Area: Connaigre, Burgeo - Ramea",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-18:feed.atom/urn:oid:2.49.0.1.124.3729446008.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-18/2021_03_18T13_31_00_00_00Iurn_oid_2.49.0.1.124.3729446008.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210319053000+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -101.4424, 49.8906 ],
 							[ -101.4424, 50.2433 ],
 							[ -101.4709, 50.2433 ],
@@ -782,6 +725,69 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-17/2021_03_17T16_30_35_06_00IA32385F2_98FB_8B10_4148_DC3489465349.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210331170000-06:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55, 48.25 ],
+							[ -54.9999, 47.9199 ],
+							[ -53.9999, 47.9199 ],
+							[ -53.7593, 47.9199 ],
+							[ -53.7419, 47.9233 ],
+							[ -53.6555, 47.9243 ],
+							[ -53.4599, 47.976 ],
+							[ -53.3856, 48.0561 ],
+							[ -53.4304, 48.2241 ],
+							[ -53.3267, 48.2311 ],
+							[ -52.988, 48.4463 ],
+							[ -52.9636, 48.7633 ],
+							[ -53.4377, 48.6575 ],
+							[ -53.5415, 48.8765 ],
+							[ -53.6584, 48.9743 ],
+							[ -53.3971, 49.165 ],
+							[ -53.0127, 49.8502 ],
+							[ -53.9485, 49.6489 ],
+							[ -54.1587, 49.8735 ],
+							[ -54.9918, 49.7089 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.9866, 49.1219 ],
+							[ -56.1628, 48.9706 ],
+							[ -56.817, 49.2073 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.4199, 48.2499 ],
+							[ -55, 48.25 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 18, 2021 18:26",
+				"Expires_UTC" : "March 19, 2021 10:25",
+				"Summary" : "Description: Rain, followed by significant snowfall is expected.\n\nTotal snowfall: 15 to 30 cm, with locally higher amounts possible in some areas.\n\nLocations: central and northeastern Newfoundland.\n\nTime span: Friday into Friday night.\n\nRemarks: Rain, mixed at first with snow, will begin towards midnight tonight. The rain will transition to snow, at times heavy, from west to east across central and northeastern Newfoundland as temperatures fall during the day on Friday. The snow will taper to flurries Friday night.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-19T10:25:26-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-18T18:26:26-00:00, urn:oid:2.49.0.1.124.1637151312.2021<br>Area: Buchans and the interior, Grand Falls-Windsor and vicinity, Bay of Exploits, Bonavista North, Bonavista Peninsula, Clarenville and vicinity, Gander and vicinity, Terra Nova",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-18:feed.atom/urn:oid:2.49.0.1.124.1637151312.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-18/2021_03_18T18_26_26_00_00Iurn_oid_2.49.0.1.124.1637151312.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210319102526+00:00"
 			}
 		},
 		{
@@ -1256,6 +1262,63 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-18/2021_03_18T09_04_36_00_00Iurn_oid_2.49.0.1.124.0657892156.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210319010336+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -56.4239, 47.5076 ],
+							[ -55.9321, 47.1631 ],
+							[ -55.1703, 47.5512 ],
+							[ -55.1557, 47.5799 ],
+							[ -55.1527, 47.5874 ],
+							[ -54.9999, 47.9199 ],
+							[ -55, 48.25 ],
+							[ -56.4199, 48.2499 ],
+							[ -57.4599, 48.2499 ],
+							[ -57.83, 48.58 ],
+							[ -58.0764, 48.6423 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.5671, 48.1004 ],
+							[ -58.5677, 48.1 ],
+							[ -58.4199, 48.1 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.42, 47.6666 ],
+							[ -58.42, 47.6535 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.144, 47.5744 ],
+							[ -56.9846, 47.386 ],
+							[ -56.4239, 47.5076 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Met:Warning:Moderate",
+				"Title" : "Snowfall Warning In Effect",
+				"Category" : "Actual",
+				"event" : "Snowfall",
+				"urgency" : "Future",
+				"certainty" : "Likely",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 18, 2021 18:25",
+				"Expires_UTC" : "March 19, 2021 10:24",
+				"Summary" : "Description: Significant snowfall is expected.\n\nTotal snowfall: 15 to 30 cm, with locally higher amounts possible inland and over higher terrain.\n\nLocations: south coast of Newfoundland.\n\nTime span: tonight through Friday.\n\nRemarks: Precipitation is forecast to begin early this evening as mostly rain along the coast and snow inland, before transitioning to snow over all areas overnight into Friday morning. The snow will be heavy at times until tapering off on Friday evening.\n\n###\n\nSurfaces such as highways, roads, walkways and parking lots may become difficult to navigate due to accumulating snow.\n\nSnowfall warnings are issued when significant snowfall is expected.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-19T10:24:41-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-18T18:25:41-00:00, urn:oid:2.49.0.1.124.2439247823.2021<br>Area: Connaigre, Burgeo - Ramea",
+				"Author" : "Environment Canada",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-18:feed.atom/urn:oid:2.49.0.1.124.2439247823.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-18/2021_03_18T18_25_41_00_00Iurn_oid_2.49.0.1.124.2439247823.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210319102441+00:00"
 			}
 		},
 		{
