@@ -364,77 +364,6 @@
 				"coordinates" : [
 					[
 						[
-							[ -57.3499, 49.58 ],
-							[ -57.6827, 49.1504 ],
-							[ -58.2402, 49.398 ],
-							[ -58.3109, 49.4067 ],
-							[ -58.8133, 48.8226 ],
-							[ -59.2492, 48.6594 ],
-							[ -59.3848, 48.3577 ],
-							[ -59.2592, 48.1046 ],
-							[ -59.5757, 47.8289 ],
-							[ -59.3384, 47.5662 ],
-							[ -59.2449, 47.4617 ],
-							[ -58.4207, 47.5744 ],
-							[ -58.42, 47.6535 ],
-							[ -58.42, 47.6666 ],
-							[ -58.4199, 47.6701 ],
-							[ -58.4199, 47.6828 ],
-							[ -58.42, 47.6854 ],
-							[ -58.4199, 48.1 ],
-							[ -58.5671, 48.1004 ],
-							[ -58.3071, 48.2846 ],
-							[ -58.0764, 48.6423 ],
-							[ -57.83, 48.58 ],
-							[ -57.4599, 48.2499 ],
-							[ -56.817, 49.2073 ],
-							[ -56.1628, 48.9706 ],
-							[ -55.9866, 49.1219 ],
-							[ -55.6774, 49.3875 ],
-							[ -55.6769, 49.4199 ],
-							[ -55.6057, 49.4994 ],
-							[ -55.4048, 49.5686 ],
-							[ -55.4018, 49.5793 ],
-							[ -55.3736, 50.013 ],
-							[ -55.7129, 50.3339 ],
-							[ -56.4068, 50.2167 ],
-							[ -56.5678, 50.2499 ],
-							[ -56.99, 50.25 ],
-							[ -57.2, 49.8499 ],
-							[ -57.3499, 49.58 ]
-						]
-					]
-				]
-			},
-			"properties" : {
-				"subCategory" : "Met:Statement",
-				"Title" : "Special Weather Statement In Effect",
-				"Category" : "Actual",
-				"event" : "Weather",
-				"urgency" : "Future",
-				"certainty" : "Possible",
-				"severity" : "Minor",
-				"LastUpdate_UTC" : "March 19, 2021 01:17",
-				"Expires_UTC" : "March 19, 2021 17:16",
-				"Summary" : "Description: Significant snowfall is possible over some areas.\n\nLocations: southwestern and western Newfoundland,\n\nTime span: early Friday morning until late Friday afternoon.\n\nRemarks: A mixture of rain and snow will change to snow overnight into Friday morning.\n\nAt this time only 5 to 10 cm of snow is expected, but there is some uncertainty with the forecast, with potential for higher amounts to shift into these regions.  Should the weather system responsible for the snow shift westward, as much as 10 to 15 cm could fall in some areas.  Please continue to monitor future forecasts in case snowfall warnings are required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-19T17:16:36-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-19T01:17:36-00:00, urn:oid:2.49.0.1.124.3143932703.2021<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Deer Lake - Humber Valley, Bay St. George, Green Bay - White Bay",
-				"Author" : "Environment Canada",
-				"msgType" : "Update",
-				"status" : "Actual",
-				"scope" : "Public",
-				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-19:feed.atom/urn:oid:2.49.0.1.124.3143932703.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-19/2021_03_19T01_17_36_00_00Iurn_oid_2.49.0.1.124.3143932703.2021.xml",
-				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210319171636+00:00"
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "MultiPolygon",
-				"coordinates" : [
-					[
-						[
 							[ -56.4239, 47.5076 ],
 							[ -55.9321, 47.1631 ],
 							[ -55.1703, 47.5512 ],
@@ -554,6 +483,47 @@
 				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-19/2021_03_19T07_44_13_00_00Iurn_oid_2.49.0.1.124.3661707869.2021.xml",
 				"SummaryType" : "html",
 				"Expires_FMEFormat" : "20210319234313+00:00"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -118.8, 50.7499 ],
+							[ -119.2914, 50.6752 ],
+							[ -119.6999, 50.5999 ],
+							[ -119.8104, 50.3717 ],
+							[ -119.9107, 50.0731 ],
+							[ -118.3899, 50.06 ],
+							[ -118.574, 50.3966 ],
+							[ -118.8, 50.7499 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"subCategory" : "Env",
+				"Title" : "Special Air Quality Statement In Effect",
+				"Category" : "Actual",
+				"event" : "Air Quality",
+				"urgency" : "Future",
+				"certainty" : "Possible",
+				"severity" : "Moderate",
+				"LastUpdate_UTC" : "March 18, 2021 20:34",
+				"Expires_UTC" : "March 19, 2021 12:33",
+				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nROAD DUST ADVISORY IN EFFECT FOR VERNON\n\n(March 18, 2021 - Vernon) The Ministry of Environment and Climate Change Strategy in collaboration with Interior Health has continued a Road Dust Advisory issued on March 16, 2021 for Vernon due to high concentrations \nof coarse particulate matter that are expected to persist until there is precipitation, dust suppression or a change in traffic patterns. Levels tend to be highest around busy roads and industrial operations. This advisory is in effect until further notice.\n\nExposure is a concern for pregnant women, infants, and older adults, as well as, individuals with conditions such as asthma, COPD, heart disease, diabetes or respiratory infections such as COVID-19. Persons with chronic underlying medical conditions or acute infections should postpone or reduce strenuous exercise until the advisory is lifted. Where appropriate, maintain physical distancing. Anyone experiencing symptoms such as continuing eye or throat irritation, chest discomfort, shortness of breath, cough or wheezing, should follow the advice of their health care provider.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-03-19T12:33:23-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2021-03-18T20:34:23-00:00, urn:oid:2.49.0.1.124.1240895002.2021<br>Area: North Okanagan",
+				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"msgType" : "Update",
+				"status" : "Actual",
+				"scope" : "Public",
+				"language" : "en-CA",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-18:feed.atom/urn:oid:2.49.0.1.124.1240895002.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-18/2021_03_18T20_34_23_00_00Iurn_oid_2.49.0.1.124.1240895002.2021.xml",
+				"SummaryType" : "html",
+				"Expires_FMEFormat" : "20210319123323+00:00"
 			}
 		},
 		{
@@ -982,38 +952,68 @@
 				"coordinates" : [
 					[
 						[
-							[ -118.8, 50.7499 ],
-							[ -119.2914, 50.6752 ],
-							[ -119.6999, 50.5999 ],
-							[ -119.8104, 50.3717 ],
-							[ -119.9107, 50.0731 ],
-							[ -118.3899, 50.06 ],
-							[ -118.574, 50.3966 ],
-							[ -118.8, 50.7499 ]
+							[ -57.3499, 49.58 ],
+							[ -57.6827, 49.1504 ],
+							[ -58.2402, 49.398 ],
+							[ -58.3109, 49.4067 ],
+							[ -58.8133, 48.8226 ],
+							[ -59.2492, 48.6594 ],
+							[ -59.3848, 48.3577 ],
+							[ -59.2592, 48.1046 ],
+							[ -59.5757, 47.8289 ],
+							[ -59.3384, 47.5662 ],
+							[ -59.2449, 47.4617 ],
+							[ -58.4207, 47.5744 ],
+							[ -58.42, 47.6535 ],
+							[ -58.42, 47.6666 ],
+							[ -58.4199, 47.6701 ],
+							[ -58.4199, 47.6828 ],
+							[ -58.42, 47.6854 ],
+							[ -58.4199, 48.1 ],
+							[ -58.5671, 48.1004 ],
+							[ -58.3071, 48.2846 ],
+							[ -58.0764, 48.6423 ],
+							[ -57.83, 48.58 ],
+							[ -57.4599, 48.2499 ],
+							[ -56.817, 49.2073 ],
+							[ -56.1628, 48.9706 ],
+							[ -55.9866, 49.1219 ],
+							[ -55.6774, 49.3875 ],
+							[ -55.6769, 49.4199 ],
+							[ -55.6057, 49.4994 ],
+							[ -55.4048, 49.5686 ],
+							[ -55.4018, 49.5793 ],
+							[ -55.3736, 50.013 ],
+							[ -55.7129, 50.3339 ],
+							[ -56.4068, 50.2167 ],
+							[ -56.5678, 50.2499 ],
+							[ -56.99, 50.25 ],
+							[ -57.2, 49.8499 ],
+							[ -57.3499, 49.58 ]
 						]
 					]
 				]
 			},
 			"properties" : {
-				"subCategory" : "Env",
-				"Title" : "Special Air Quality Statement In Effect",
+				"subCategory" : "Met:Statement",
+				"Title" : "Special Weather Statement In Effect",
 				"Category" : "Actual",
-				"event" : "Air Quality",
+				"event" : "Weather",
 				"urgency" : "Future",
 				"certainty" : "Possible",
-				"severity" : "Moderate",
-				"LastUpdate_UTC" : "March 18, 2021 20:34",
-				"Expires_UTC" : "March 19, 2021 12:33",
-				"Summary" : "Description: Elevated pollution levels are expected or occurring.\n\nROAD DUST ADVISORY IN EFFECT FOR VERNON\n\n(March 18, 2021 - Vernon) The Ministry of Environment and Climate Change Strategy in collaboration with Interior Health has continued a Road Dust Advisory issued on March 16, 2021 for Vernon due to high concentrations \nof coarse particulate matter that are expected to persist until there is precipitation, dust suppression or a change in traffic patterns. Levels tend to be highest around busy roads and industrial operations. This advisory is in effect until further notice.\n\nExposure is a concern for pregnant women, infants, and older adults, as well as, individuals with conditions such as asthma, COPD, heart disease, diabetes or respiratory infections such as COVID-19. Persons with chronic underlying medical conditions or acute infections should postpone or reduce strenuous exercise until the advisory is lifted. Where appropriate, maintain physical distancing. Anyone experiencing symptoms such as continuing eye or throat irritation, chest discomfort, shortness of breath, cough or wheezing, should follow the advice of their health care provider.\n\nReal-time air quality observations and information regarding the health effects of air pollution can be found at https://www2.gov.bc.ca/gov/content/environment/air-land-water/air\n\n###\n\nFor more information on current air quality, visit www2.gov.bc.ca/gov/content/environment/air-land-water/air.\n\nVisit www.airhealth.ca for information on how to reduce your health risk and your personal contribution to pollution levels, as well as for current and forecast AQHI values.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada.<br>Expires: 2021-03-19T12:33:23-00:00<br>Originated from CAP Alert: Environment Canada, the B.C. Ministry of Environment, 2021-03-18T20:34:23-00:00, urn:oid:2.49.0.1.124.1240895002.2021<br>Area: North Okanagan",
-				"Author" : "Environment Canada, the B.C. Ministry of Environment",
+				"severity" : "Minor",
+				"LastUpdate_UTC" : "March 19, 2021 07:57",
+				"Expires_UTC" : "March 19, 2021 23:56",
+				"Summary" : "Description: Significant snowfall is possible over some areas.\n\nLocations: southwestern and western Newfoundland,\n\nTime span: early this morning until late this afternoon.\n\nRemarks: At this time only 5 to 10 cm of snow is expected, but there is some uncertainty with the forecast, with potential for higher amounts to shift into these regions.  Should the weather system responsible for the snow shift westward, as much as 10 to 15 cm could fall in some areas.  Please continue to monitor future forecasts in case snowfall warnings are required.\n\n###\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NLstorm@canada.ca or tweet reports using #NLwx.<br>Expires: 2021-03-19T23:56:59-00:00<br>Originated from CAP Alert: Environment Canada, 2021-03-19T07:57:59-00:00, urn:oid:2.49.0.1.124.0495184226.2021<br>Area: Channel-Port aux Basques and vicinity, Corner Brook and vicinity, Deer Lake - Humber Valley, Bay St. George, Green Bay - White Bay",
+				"Author" : "Environment Canada",
 				"msgType" : "Update",
 				"status" : "Actual",
 				"scope" : "Public",
 				"language" : "en-CA",
-				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-18:feed.atom/urn:oid:2.49.0.1.124.1240895002.2021",
-				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-18/2021_03_18T20_34_23_00_00Iurn_oid_2.49.0.1.124.1240895002.2021.xml",
+				"Id" : "tag:rss.naad-adna.pelmorex.com,2021-03-19:feed.atom/urn:oid:2.49.0.1.124.0495184226.2021",
+				"LinkURI" : "http://capcp1.naad-adna.pelmorex.com/2021-03-19/2021_03_19T07_57_59_00_00Iurn_oid_2.49.0.1.124.0495184226.2021.xml",
 				"SummaryType" : "html",
-				"Expires_FMEFormat" : "20210319123323+00:00"
+				"Expires_FMEFormat" : "20210319235659+00:00"
 			}
 		}
 	]
